@@ -1,0 +1,43 @@
+# Spotify Playlist Artists
+
+- The Black Skirts
+- Flo
+- Victoria Monét
+- Arlo Parks
+- Raveena Aurora
+- Skinshape
+- Joy Crookes
+- XG
+- Little Simz
+- Priscilla Chan
+- Ton Ton
+- Grey D
+- Twin Diplomacy
+- Mau P
+- Maye
+- Balming Tiger
+- Moblack
+- Freddie Joachim
+- Anyma
+- Galchanie
+- Sailorr
+- The Strokes
+- Nont Tanont
+- Alie Blackcobra
+- ASTN
+- Mariah the Scientist
+- Meloh
+- Bid Daddy
+- Duong Dmoic
+- Heartbreak Klub
+- Dhruv
+- Devin Donnell
+- Oxlade
+- 1da Banton
+- Zerb
+- Hoàng Dũng
+- Sweet Liquor
+- Mỹ Anh
+- Berlioz
+- Odesza
+- Tom Odell
