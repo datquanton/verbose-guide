@@ -1,0 +1,8 @@
+# Core data + document generation
+vnstock>=3.2.0          # HOSE/HNX market data (Quote, Trading, Listing)
+python-docx>=1.1.0      # build/fill the .docx report
+requests>=2.31.0
+feedparser>=6.0.0       # news RSS recap
+
+# Optional: LLM-drafted narrative (only needed if NARRATIVE_BACKEND=anthropic)
+anthropic>=0.40.0
