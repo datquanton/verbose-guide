@@ -117,11 +117,17 @@ def generate(data: dict, news: str = "") -> dict:
         return _fallback(data, news)
 
     import anthropic  # imported lazily so the fallback path needs no dependency
+    from . import style
+
     client = anthropic.Anthropic(api_key=api_key)
     facts = build_facts(data)
+    # Prefer the desk's real past reports as the voice reference; fall back to
+    # the single built-in anchor if no corpus has been provided yet.
+    examples = style.load_examples()
+    voice = style.as_fewshot(examples) if examples else (
+        f"STYLE EXAMPLE (voice only, do not reuse its numbers):\n{STYLE_EXAMPLE}")
     user = (f"FACTS:\n{facts}\n\nNEWS DRIVER (for P1; may be empty):\n{news or '(none provided)'}\n\n"
-            f"STYLE EXAMPLE (voice only, do not reuse its numbers):\n{STYLE_EXAMPLE}\n\n"
-            "Write today's commentary as strict JSON.")
+            f"{voice}\n\nWrite today's commentary as strict JSON.")
     msg = client.messages.create(
         model=MODEL, max_tokens=1200, system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user}],
