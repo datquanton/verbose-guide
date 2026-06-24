@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# generated outputs & confidential market data
+Daily_MAS_*.docx
+report_data_*.json
+*.xlsm
+.env
