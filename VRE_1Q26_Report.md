@@ -156,6 +156,25 @@ being funded by asset recycling and debt rather than operating cash. We want to 
 more fully through 2026, and we will track the related-party deposit balance and the pace of Vinhomes
 handovers as the key swing factors.
 
+## 5. Valuation and rating
+
+We rate VRE a **BUY** with a 12-month target price of **VND34,972**, derived from a three-year FCFF DCF
+(WACC 11% — cost of equity 10% on a 4% risk-free rate, beta 1.0, 5% country risk premium — and a 1%
+terminal growth rate). The target implies ~1.6x forward P/B, still below the eight-year average of ~1.9x,
+so the call relies on mean-reversion plus book growth rather than a heroic re-rating; on normalised earnings
+it also sits broadly in line with regional mall operators (~14–15x P/E). The valuation deliberately excludes
+the REIT/asset-recycling optionality the NCT sale demonstrated. 1Q26 supports the thesis: the leasing engine
+is compounding, occupancy and footfall are inflecting, and the de-rating to near-trough P/B looks driven by
+headline noise (one-offs, financial income) that obscures a durable annuity. **The rating is price-sensitive
+at current levels** — against a recent ~VND23,800 spot the implied upside is ~+47% (a clear Buy), but against
+the ~VND29,600 print from early June it narrows to ~+18% (Trading Buy territory), so the live quote should be
+confirmed at publication. Two housekeeping caveats: our model still has hygiene items to close before the
+target is final (a non-functional sensitivity grid, a share-count inconsistency of 2,272m vs 2,328.8m, and
+version drift on the 2026F topline), and our above-consensus PBT leans partly on the lower-quality
+related-party financial income discussed in Section 2. We would move to the sidelines if like-for-like
+footfall turns negative for two quarters, related-party deposits rise materially further without disclosure
+of terms, or the Mega-Mall pipeline slips beyond 2028.
+
 ---
 
 *Prepared from VRE's 1Q2026 consolidated financial statements and earnings presentation, the company's prior
