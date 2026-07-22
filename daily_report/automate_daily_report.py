@@ -72,25 +72,48 @@ def parse_word(docx_path: str) -> dict:
             raise ValueError(f"pattern not found in Word doc: {pat!r}")
         return m.groups()
 
-    op, op_p = grp(r"opened at ([\d,]+\.\d+)pts \(([-+][\d.]+)%")
-    lo, lo_p = grp(r"intraday low of ([\d,]+\.\d+)pts \(([-+][\d.]+)%")
-    hi, hi_p = grp(r"intraday high of ([\d,]+\.\d+)pts \(([-+][\d.]+)%")
-    cl, cl_p = grp(r"closed at ([\d,]+\.\d+)pts \(([-+][\d.]+)%")
-    vol, vol_p, val, val_p = grp(
-        r"Liquidity today reached ([\d.]+)mn \(([-+][\d.]+)% DoD\) shares "
-        r"worth VND ?([\d,]+)bn \(([-+][\d.]+)% DoD\)"
-    )
-    winners = re.findall(r"[A-Z]{3}", grp(r"top winners are (.+?)\. Meanwhile")[0])[:4]
-    losers = re.findall(r"[A-Z]{3}", grp(r"Meanwhile, (.+?) weighed")[0])[:4]
-    fx_side, fx_amt = grp(r"net (sellers|buyers).*?net (?:out|in)flows? of VND([\d,]+)bn")
+    # OHLC -- tolerant of wording that varies day to day: "pts" optional;
+    # "intraday/session high", "a low of", "closed at / a close of".
+    def ohlc(anchor):
+        return grp(anchor + r" ([\d,]+\.\d+)(?:pts)? ?\(([-+][\d.]+)% ?DoD\)")
 
-    # 1M / 1Y for the VN INDEX row come from the valuation table (table[8]).
-    one_m = one_y = None
-    for row in doc.tables[8].rows:
-        ne = [_norm(c.text).strip() for c in row.cells if _norm(c.text).strip()]
-        if ne and ne[0] == "VN-Index":
-            one_m, one_y = ne[7], ne[8]  # ...,1D,1W,1M,1Y,...
-            break
+    op, op_p = ohlc(r"opened at")
+    hi, hi_p = ohlc(r"high of")
+    lo, lo_p = ohlc(r"low of")
+    cl, cl_p = ohlc(r"(?:closed at|close of)")
+
+    # Liquidity: volume (…mn shares, ±% DoD) and value (VND…bn, ±% DoD) grabbed
+    # independently so phrasing ("reached"/"rose to"/"eased to") doesn't matter.
+    vol, vol_p = grp(r"([\d,.]+)mn(?: shares?)? \(([-+][\d.]+)% ?DoD\)")
+    val, val_p = grp(r"VND ?([\d,]+)bn \(([-+][\d.]+)% ?DoD\)")
+
+    # VN30 winners / losers -- handles "top winners are:" + "Top losers are:"
+    # as well as the older "Meanwhile, … weighed the index".
+    def tickers(pat):
+        m = re.search(pat, body, re.IGNORECASE)
+        return re.findall(r"[A-Z]{3}", m.group(1)) if m else []
+
+    winners = tickers(r"top winners are:? (.+?)(?:\. Meanwhile|\. Top losers|weighed|$)")
+    losers = tickers(r"(?:Meanwhile,|Top losers are:?)\s*(.+?)(?: weighed| Foreign|$)")
+
+    fx_m = re.search(r"net (seller|buyer)s?.*?(?:out|in)flows? of VND([\d,]+)bn", body)
+    fx_side = fx_m.group(1) + "s"        # -> "sellers" / "buyers"
+    fx_amt = fx_m.group(2)
+
+    # 1M / 1Y for the VN INDEX row come from the valuation table (table[8]); the
+    # VN-Index line is the first data row (after 2 header rows). A cell may be
+    # "####" (Excel column too narrow in the source) -> treat as unavailable.
+    def numeric(x):
+        try:
+            float(x.replace(",", ""))
+            return x
+        except ValueError:
+            return None
+
+    vn_ne = [_norm(c.text).strip() for c in doc.tables[8].rows[2].cells
+             if _norm(c.text).strip()]
+    one_m = numeric(vn_ne[7]) if len(vn_ne) > 8 else None   # …,1D,1W,1M,1Y,…
+    one_y = numeric(vn_ne[8]) if len(vn_ne) > 8 else None
 
     # Short-news headlines: the 3 news titles (paragraphs 1, 3, 5).
     news = [doc.paragraphs[i].text.strip() for i in (1, 3, 5)]
@@ -99,17 +122,22 @@ def parse_word(docx_path: str) -> dict:
         v = round(float(x), 1)
         return f"{v:+.1f}"
 
+    def num(x):
+        return float(x.replace(",", ""))
+
     return {
         "theme": theme,
-        # OHLC table: value rounded to 1 dp, % DoD to 1 dp (verbatim from doc)
+        # OHLC: raw value (float) + % DoD to 1 dp; the applier formats the value
+        # to match each deck's own cell style (decimals / comma / spacing).
         "ohlc": {
-            "open": (f"{float(op.replace(',', '')):.1f}", f"{pct1(op_p)}%"),
-            "high": (f"{float(hi.replace(',', '')):.1f}", f"{pct1(hi_p)}%"),
-            "low": (f"{float(lo.replace(',', '')):.1f}", f"{pct1(lo_p)}%"),
-            "close": (f"{float(cl.replace(',', '')):.1f}", f"{pct1(cl_p)}%"),
+            "open": (num(op), f"{pct1(op_p)}%"),
+            "high": (num(hi), f"{pct1(hi_p)}%"),
+            "low": (num(lo), f"{pct1(lo_p)}%"),
+            "close": (num(cl), f"{pct1(cl_p)}%"),
         },
         # global-indices VN INDEX row: last=close, 1D=close DoD, 1M/1Y from table
-        "vnindex_row": (cl, pct1(cl_p).lstrip("+"), one_m, one_y),
+        "vnindex_row": (pct1(cl_p).lstrip("+"), one_m, one_y),
+        "close_num": num(cl),
         "close_pts": cl,
         "close_dod": cl_p.lstrip("+"),
         "volume_mn": vol,
@@ -143,29 +171,52 @@ def _shape(slide, shape_id):
     raise KeyError(f"shape id {shape_id} not on slide")
 
 
-def _set_run(shape, p, r, text):
-    shape.text_frame.paragraphs[p].runs[r].text = text
+def _set_para(shape, p, text):
+    """Set a whole paragraph's text, preserving the first run's formatting."""
+    para = shape.text_frame.paragraphs[p]
+    if para.runs:
+        para.runs[0].text = text
+        for r in para.runs[1:]:
+            r.text = ""
+    else:
+        para.text = text
 
 
 def _set_cell(table_shape, row, col, text):
-    table_shape.table.cell(row, col).text_frame.paragraphs[0].runs[0].text = text
+    cell = table_shape.table.cell(row, col)
+    para = cell.text_frame.paragraphs[0]
+    if para.runs:
+        para.runs[0].text = text
+        for r in para.runs[1:]:
+            r.text = ""
+    else:
+        cell.text = text
+
+
+def _fmt_like(sample: str, value: float) -> str:
+    """Format `value` to mirror an existing cell (decimals, comma, trailing space)."""
+    core = sample.rstrip()
+    trail = sample[len(core):]
+    dec = len(core.split(".")[-1]) if "." in core else 0
+    body = f"{value:,.{dec}f}" if "," in core else f"{value:.{dec}f}"
+    return body + trail
 
 
 def apply_text(prs, f: dict, fx_rate: float):
     s = prs.slides
 
     # -- Slide 0: theme + OHLC table + global indices VN INDEX row
-    _set_run(_shape(s[0], 32), 0, 0, f["theme"])
-    ohlc = _shape(s[0], 40)
+    _set_para(_shape(s[0], 32), 0, f["theme"])
+    ohlc = _shape(s[0], 40).table
     for ri, key in [(1, "open"), (2, "high"), (3, "low"), (4, "close")]:
-        val, pct = f["ohlc"][key]
-        _set_cell(ohlc, ri, 1, val)
-        _set_cell(ohlc, ri, 2, pct)
-    last, d1, m1, y1 = f["vnindex_row"]
+        value, pct = f["ohlc"][key]
+        _set_cell(_shape(s[0], 40), ri, 1, _fmt_like(ohlc.cell(ri, 1).text, value))
+        _set_cell(_shape(s[0], 40), ri, 2, pct)
+    d1, m1, y1 = f["vnindex_row"]
     gidx = _shape(s[0], 2)
-    _set_cell(gidx, 1, 1, last)
+    _set_cell(gidx, 1, 1, _fmt_like(gidx.table.cell(1, 1).text, f["close_num"]))
     _set_cell(gidx, 1, 2, d1)
-    if m1 is not None:
+    if m1 is not None:                       # 1M may be unavailable in the source
         _set_cell(gidx, 1, 3, m1)
     if y1 is not None:
         _set_cell(gidx, 1, 4, y1)
@@ -174,34 +225,35 @@ def apply_text(prs, f: dict, fx_rate: float):
     # The narrative is the one editorial spot; we write a concise, fully
     # data-driven baseline (no stale text) that the analyst can embellish.
     verb = "fell" if f["close_dod"].startswith("-") else "rose"
-    theme_lc = f["theme"][:1].lower() + f["theme"][1:]
     narr0 = (f'The VN-Index {verb} {f["close_dod"].lstrip("-")}% to close at '
-             f'{f["close_pts"]}pts amid {theme_lc}.')
+             f'{f["close_pts"]}pts.')
     narr1 = (f'Liquidity reached {f["volume_mn"]}mn shares worth VND{f["value_bn"]}bn; '
              f'foreign investors were net {f["fx_side"]} of VND{f["fx_amount"]}bn.')
     narr = _shape(s[1], 2)
-    _set_run(narr, 0, 0, narr0)
-    _set_run(narr, 1, 0, narr1)
-    _set_run(_shape(s[1], 8), 0, 0, f["theme"])
+    _set_para(narr, 0, narr0)
+    _set_para(narr, 1, narr1)
+    _set_para(_shape(s[1], 8), 0, f["theme"])
 
     # -- Slide 2: liquidity line + VN30 lists + trading-value table
     liq = (f'Liquidity improved, with volume rising {f["volume_dod"]}% DoD to '
            f'{f["volume_mn"]}mn shares, while trading value increased '
            f'{f["value_dod"]}% to VND{f["value_bn"]}bn, respectively.')
     s2 = _shape(s[2], 3)
-    _set_run(s2, 0, 0, liq)
-    _set_run(s2, 1, 2, ": " + ", ".join(f["winners"]))
-    _set_run(s2, 2, 1, ": " + ", ".join(f["losers"]))
+    _set_para(s2, 0, liq)
+    _set_para(s2, 1, "VN30 top gainers: " + ", ".join(f["winners"][:4]))
+    _set_para(s2, 2, "VN30 top decliners: " + ", ".join(f["losers"][:4]))
     usd = round(f["value_bn_num"] / fx_rate)
     _set_cell(_shape(s[2], 4), 2, 1, str(usd))
 
-    # -- Slide 4: foreign flow number (isolated in run 2)
-    _set_run(_shape(s[4], 3), 0, 2, f["fx_amount"])
+    # -- Slide 4: foreign flow (whole sentence; net side + amount both vary)
+    _set_para(_shape(s[4], 3), 0,
+              f'Foreign investors were net {f["fx_side"]}, with a net outflow '
+              f'of VND{f["fx_amount"]}bn on HOSE')
 
     # -- Slide 5: short-news headlines
     s5 = _shape(s[5], 3)
     for i, headline in enumerate(f["news"][:3]):
-        _set_run(s5, i, 0, headline)
+        _set_para(s5, i, headline)
 
 
 # ---------------------------------------------------------------------------
