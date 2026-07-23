@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research HQ — Vietnam Portfolio</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:#f9f9f7; --surface-1:#fcfcfb; --text-primary:#0b0b0b; --text-secondary:#52514e;
+    --text-muted:#898781; --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --series-1:#2a78d6; --series-1-soft:#9ec5f4; --good:#006300; --critical:#d03b3b; --warn:#b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page:#0d0d0d; --surface-1:#1a1a19; --text-primary:#ffffff; --text-secondary:#c3c2b7;
+      --text-muted:#898781; --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --series-1:#3987e5; --series-1-soft:#1c5cab; --good:#0ca30c; --critical:#e66767; --warn:#fbbf24;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:#0d0d0d; --surface-1:#1a1a19; --text-primary:#ffffff; --text-secondary:#c3c2b7;
+    --text-muted:#898781; --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --series-1-soft:#1c5cab; --good:#0ca30c; --critical:#e66767; --warn:#fbbf24;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--page); color:var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height:1.6; font-size:15px; }
+  .wrap { max-width: 1080px; margin:0 auto; padding: 0 20px 80px; }
+
+  /* nav */
+  nav { position: sticky; top:0; z-index:10; background: color-mix(in srgb, var(--page) 88%, transparent);
+    backdrop-filter: blur(8px); border-bottom:1px solid var(--grid); margin:0 -20px; padding: 10px 20px; }
+  nav .inner { max-width:1080px; margin:0 auto; display:flex; gap:4px 14px; flex-wrap:wrap; align-items:baseline; }
+  nav .brand { font-weight:800; font-size:14px; letter-spacing:.02em; margin-right:8px; }
+  nav a { color: var(--text-secondary); text-decoration:none; font-size:12.5px; font-weight:600; }
+  nav a:hover { color: var(--series-1); }
+
+  h1 { font-size: clamp(26px,4vw,36px); margin: 28px 0 6px; letter-spacing:-0.01em; }
+  h2 { font-size: 21px; margin: 44px 0 10px; padding-top:8px; letter-spacing:-0.01em; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  .sub { color: var(--text-secondary); margin:0 0 8px; max-width:75ch; }
+  .stamp { font-size:12px; color:var(--text-muted); }
+  a { color: var(--series-1); text-decoration: none; } a:hover { text-decoration: underline; }
+
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin:20px 0; }
+  .tile { background:var(--surface-1); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+  .tile .label { font-size:11px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--text-muted); }
+  .tile .value { font-size:26px; font-weight:700; line-height:1.2; margin-top:2px; }
+  .tile .value.neg { color: var(--critical); } .tile .value.pos { color: var(--good); }
+  .tile .note { font-size:12px; color:var(--text-secondary); margin-top:2px; }
+
+  .card { background:var(--surface-1); border:1px solid var(--border); border-radius:12px; padding:18px 20px; margin:16px 0; }
+
+  .tablewrap { overflow-x:auto; margin:14px 0; border:1px solid var(--border); border-radius:12px; background:var(--surface-1); }
+  table { border-collapse:collapse; width:100%; font-size:13px; min-width:700px; }
+  th { text-align:left; font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--text-muted);
+    font-weight:700; padding:10px 12px; border-bottom:1px solid var(--grid);
+    background: color-mix(in srgb, var(--text-primary) 2.5%, var(--surface-1)); }
+  td { padding:9px 12px; border-bottom:1px solid var(--grid); vertical-align:top; color:var(--text-secondary); }
+  td:first-child { color:var(--text-primary); font-weight:600; white-space:nowrap; }
+  tr:last-child td { border-bottom:0; }
+  tr:hover td { background: color-mix(in srgb, var(--series-1) 5%, transparent); }
+  td.num { font-variant-numeric: tabular-nums; text-align:right; white-space:nowrap; }
+  th.num { text-align:right; }
+  .neg { color:var(--critical); font-weight:600; } .pos { color:var(--good); font-weight:600; }
+  .flag { color:var(--warn); font-weight:600; }
+
+  /* bars */
+  .viz-title { font-size:14px; font-weight:700; margin:0; }
+  .viz-sub { font-size:12px; color:var(--text-muted); margin:2px 0 12px; }
+  .barrow { display:grid; grid-template-columns:110px 1fr 64px; align-items:center; gap:10px; padding:4px 0; border-radius:6px; }
+  .barrow:hover { background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+  .barrow .name { font-size:12.5px; color:var(--text-secondary); text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .barrow .track { position:relative; height:16px; }
+  .barrow .track::before { content:""; position:absolute; left:0; top:0; bottom:0; width:1px; background:var(--baseline); }
+  .barrow .bar { position:absolute; left:1px; top:2px; bottom:2px; background:var(--series-1); border-radius:0 4px 4px 0; }
+  .barrow .bar.soft { background:var(--series-1-soft); }
+  .barrow .val { font-size:12.5px; font-weight:600; font-variant-numeric:tabular-nums; }
+  .axis-note { font-size:11px; color:var(--text-muted); margin-top:4px; padding-left:120px; }
+  figcaption, .cap { font-size:11.5px; color:var(--text-muted); margin-top:10px; border-top:1px solid var(--grid); padding-top:6px; }
+
+  /* badges & pills */
+  .pill { display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.04em; padding:1px 8px;
+    border-radius:999px; border:1px solid var(--border); white-space:nowrap; }
+  .pill.hot { color:var(--critical); } .pill.soon { color:var(--warn); } .pill.ok { color:var(--good); }
+  .pill.info { color:var(--series-1); }
+
+  /* pipeline stepper */
+  .steps { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
+  .step { flex:1 1 190px; background:var(--surface-1); border:1px solid var(--border); border-radius:10px; padding:10px 12px; position:relative; }
+  .step .n { font-size:10.5px; font-weight:800; color:var(--series-1); letter-spacing:.06em; }
+  .step .t { font-weight:700; font-size:13px; }
+  .step .d { font-size:12px; color:var(--text-secondary); }
+
+  /* ticker cards */
+  .grid2 { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:14px; }
+  .tcard { background:var(--surface-1); border:1px solid var(--border); border-radius:12px; padding:16px 18px; }
+  .tcard h3 { margin:0 0 2px; display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+  .tcard .meta { font-size:12px; color:var(--text-muted); margin-bottom:8px; }
+  .tcard ul { margin:8px 0 0; padding-left:18px; font-size:13px; color:var(--text-secondary); }
+  .tcard li { margin:4px 0; }
+  .kv { display:flex; gap:14px; flex-wrap:wrap; font-size:12.5px; margin-top:6px; }
+  .kv span b { font-variant-numeric: tabular-nums; }
+
+  details { border:1px solid var(--border); border-radius:10px; background:var(--surface-1); padding:10px 16px; margin:10px 0; }
+  summary { cursor:pointer; font-weight:700; font-size:14px; }
+  details[open] { padding-bottom:14px; }
+  .checks { list-style:none; padding-left:2px; font-size:13px; color:var(--text-secondary); }
+  .checks li::before { content:"☐ "; color:var(--text-muted); }
+  .checks li.done::before { content:"☑ "; color:var(--good); }
+  .disclaimer { font-size:12px; color:var(--text-muted); border:1px solid var(--border); border-radius:10px;
+    padding:12px 16px; margin-top:36px; background:var(--surface-1); }
+</style>
+</head>
+<body>
+<nav><div class="inner">
+  <span class="brand">📈 Research HQ</span>
+  <a href="#overview">Portfolio</a><a href="#tickers">Tickers</a><a href="#catalysts">Catalysts</a>
+  <a href="#process">Process</a><a href="#reading">Reading</a><a href="#monitoring">Monitoring</a>
+  <a href="#library">Library</a>
+</div></nav>
+<div class="wrap">
+
+<h1>Vietnam Portfolio — Research HQ</h1>
+<p class="sub">Everything in one place: positions, ticker theses, dated catalysts, the systematic process, the annual-report program, and live monitoring. Source of truth is the repo (branch <code>claude/banking-vietnam-reports-scrape-5p6rtu</code>, PR #1); this page is the rendered map of it.</p>
+<p class="stamp">Data as of 2026-07-23 · prices from brokerage screenshot 2026-07-23 · rebuild by editing this file</p>
+
+<h2 id="overview">1 · Portfolio dashboard</h2>
+<div class="tiles">
+  <div class="tile"><div class="label">Market value</div><div class="value">₫615.6m</div><div class="note">6 positions, 3 risk clusters</div></div>
+  <div class="tile"><div class="label">Total P&amp;L</div><div class="value neg">−₫142.2m</div><div class="note">−18.8% on ₫757.8m cost <span class="pill info">corrected</span></div></div>
+  <div class="tile"><div class="label">Largest position</div><div class="value">KDH 44%</div><div class="note">vs 20% max single-name rule</div></div>
+  <div class="tile"><div class="label">Next catalyst</div><div class="value">Jul 28</div><div class="note">US rebar AD final (HPG)</div></div>
+</div>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>Ticker</th><th>Cluster</th><th class="num">Shares</th><th class="num">Avg cost</th><th class="num">Market</th><th class="num">P&amp;L %</th><th class="num">P&amp;L ₫</th><th class="num">Value ₫m</th><th class="num">Weight</th></tr></thead>
+  <tbody>
+    <tr><td>KDH</td><td>HCMC residential</td><td class="num">15,200</td><td class="num">24,495</td><td class="num">17,700</td><td class="num neg">−27.7%</td><td class="num neg">−103.3m</td><td class="num">269.0</td><td class="num">43.7%</td></tr>
+    <tr><td>TCB</td><td>Techcom eco</td><td class="num">5,000</td><td class="num">32,000</td><td class="num">28,600</td><td class="num neg">−10.6%</td><td class="num neg">−17.0m</td><td class="num">143.0</td><td class="num">23.2%</td></tr>
+    <tr><td>VPB</td><td>VPBank eco</td><td class="num">4,400</td><td class="num">26,852</td><td class="num">24,200</td><td class="num neg">−9.9%</td><td class="num neg">−11.7m</td><td class="num">106.5</td><td class="num">17.3%</td></tr>
+    <tr><td>TCX</td><td>Techcom eco</td><td class="num">1,500</td><td class="num">44,049</td><td class="num">39,800</td><td class="num neg">−9.7%</td><td class="num neg">−6.4m</td><td class="num">59.7</td><td class="num">9.7%</td></tr>
+    <tr><td>VPX</td><td>VPBank eco</td><td class="num">1,400</td><td class="num">28,099</td><td class="num">25,550</td><td class="num neg">−9.1%</td><td class="num neg">−3.6m</td><td class="num">35.8</td><td class="num">5.8%</td></tr>
+    <tr><td>HPG</td><td>Steel</td><td class="num">80</td><td class="num">24,172</td><td class="num">20,500</td><td class="num neg">−15.2%</td><td class="num neg">−0.3m</td><td class="num">1.6</td><td class="num">0.3%</td></tr>
+  </tbody>
+</table></div>
+
+<div class="card">
+  <p class="viz-title">Risk-cluster concentration</p>
+  <p class="viz-sub">% of portfolio market value · scale 0–50% · rule: ≤35% per cluster, ≤20% per name</p>
+  <div role="img" aria-label="Bar chart: HCMC residential (KDH) 43.7%, Techcom ecosystem (TCB+TCX) 32.9%, VPBank ecosystem (VPB+VPX) 23.1%, Steel (HPG) 0.3%">
+    <div class="barrow" title="KDH alone — breaches both the 20% single-name and 35% cluster rules"><span class="name">Residential</span><span class="track"><span class="bar" style="width:87.4%"></span></span><span class="val">43.7%</span></div>
+    <div class="barrow" title="TCB 23.2% + TCX 9.7% — bank consolidates the broker; one earnings stream owned twice"><span class="name">Techcom eco</span><span class="track"><span class="bar" style="width:65.8%"></span></span><span class="val">32.9%</span></div>
+    <div class="barrow" title="VPB 17.3% + VPX 5.8% — same double-ownership pattern"><span class="name">VPBank eco</span><span class="track"><span class="bar" style="width:46.2%"></span></span><span class="val">23.1%</span></div>
+    <div class="barrow" title="HPG 0.3% — economically meaningless tracker position"><span class="name">Steel</span><span class="track"><span class="bar" style="width:0.6%"></span></span><span class="val">0.3%</span></div>
+  </div>
+  <div class="axis-note">0% ── 50%</div>
+  <div class="cap">Everything is long the same two macro factors: VN liquidity + the FTSE upgrade cycle (Sep 21). KDH breaches the sizing rules in <code>research/PROCESS.md</code> §S6.</div>
+</div>
+
+<div class="card">
+  <p class="viz-title">Upside to freshest street target price</p>
+  <p class="viz-sub">% from 2026-07-23 price · scale 0–70% · lighter bar = thin/stale coverage, treat with caution</p>
+  <div role="img" aria-label="Bar chart of upside to target: HPG 64%, KDH 54% stale-flagged, TCB 46%, VPB 44%, TCX and VPX no reliable coverage">
+    <div class="barrow" title="HPG: consensus ~33,625 (10 buys/0 sells) vs 20,500"><span class="name">HPG</span><span class="track"><span class="bar" style="width:91.4%"></span></span><span class="val">+64%</span></div>
+    <div class="barrow" title="KDH: SSI 27,300 (freshest, lowest) vs 17,700 — wider consensus is stale"><span class="name">KDH</span><span class="track"><span class="bar soft" style="width:77.1%"></span></span><span class="val">+54%</span></div>
+    <div class="barrow" title="TCB: consensus ~41,800 (12 buys/0 sells) vs 28,600"><span class="name">TCB</span><span class="track"><span class="bar" style="width:65.7%"></span></span><span class="val">+46%</span></div>
+    <div class="barrow" title="VPB: consensus ~35,000; HSC 36,800 post-H1 vs 24,200"><span class="name">VPB</span><span class="track"><span class="bar" style="width:62.9%"></span></span><span class="val">+44%</span></div>
+    <div class="barrow" title="TCX: only HSC 63,200 (likely pre-dividend basis) — effectively uncovered"><span class="name">TCX</span><span class="track"><span class="bar soft" style="width:8%"></span></span><span class="val">n/a</span></div>
+    <div class="barrow" title="VPX: zero published sell-side targets"><span class="name">VPX</span><span class="track"><span class="bar soft" style="width:8%"></span></span><span class="val">n/a</span></div>
+  </div>
+  <div class="axis-note">0% ── 70% · targets carry their publication dates — see v2 note for the full dated table</div>
+</div>
+
+<h2 id="tickers">2 · Ticker theses (from the v2 deep-dive)</h2>
+<div class="grid2">
+  <div class="tcard">
+    <h3>KDH <span class="pill hot">thesis under stress</span></h3>
+    <div class="meta">Khang Dien · 43.7% · −27.7%</div>
+    <div class="kv"><span>1Q26 core rev <b class="neg">−60%</b></span><span>OCF <b class="neg">−₫634bn</b> (5th neg yr)</span><span>Advances <b class="neg">−80% → ₫379bn</b></span></div>
+    <ul>
+      <li>Selloff is company-specific: bond-inspectorate findings, VNDiamond removal ETF selling, foreign fund distribution, inventory 73% of assets</li>
+      <li>Bull: Gladia Heights Q3 launch (Keppel JV), Clarita ₫1.74tn cash in, insider 20m-share buy window to Aug 21, ~0.85–1.0x book</li>
+      <li><b>Rule: no averaging down; right-size into Q3 catalyst strength.</b> Key read: where are the Gladia deposits? (AR notes §1.1)</li>
+    </ul>
+  </div>
+  <div class="tcard">
+    <h3>TCB <span class="pill ok">core holding</span></h3>
+    <div class="meta">Techcombank · 23.2% · −10.6%</div>
+    <div class="kv"><span>1H26 PBT <b class="pos">+22.5%</b></span><span>NIM <b>3.1→3.4%</b></span><span>NPL <b>1.15%</b></span><span>P/E <b>~8.0x</b></span></div>
+    <ul>
+      <li>Record Q2 but Jul-21 revenue/EPS miss (−3–5% on the print); CASA 38.3%; quota-exempt infra lending in use</li>
+      <li><b>7% cash + 60% bonus shares Q2–Q3: price will adjust ÷1.6 on ex-date — not a crash</b></li>
+      <li>Bear point: real-estate book (~59% of corporate) + Masterise nexus headlines</li>
+    </ul>
+  </div>
+  <div class="tcard">
+    <h3>VPB <span class="pill ok">best disconnect</span></h3>
+    <div class="meta">VPBank · 17.3% · −9.9%</div>
+    <div class="kv"><span>1H26 PBT <b class="pos">+68%</b> (record)</span><span>Credit <b>+24.6% YTD</b>/35% cap</span><span>P/E <b>~7.7x fwd</b></span></div>
+    <ul>
+      <li>Subsidiary stack 1H26: VPBankS ₫2.67tn · GPBank ₫730bn · FE Credit only ₫153bn (provisions heavy)</li>
+      <li>~26% bonus issue then $250m foreign placement Q3–Q4 (FOL → 34%)</li>
+      <li>Only name the research supports adding to on weakness — sized vs FE Credit tail risk</li>
+    </ul>
+  </div>
+  <div class="tcard">
+    <h3>TCX <span class="pill soon">event position</span></h3>
+    <div class="meta">TCBS · 9.7% · −9.7%</div>
+    <div class="kv"><span>Q2 PBT <b class="pos">₫2.1tn record</b></span><span>Margin book <b>₫51.5tn #1</b></span><span>P/B <b class="flag">~2.4–2.5x est.</b></span></div>
+    <ul>
+      <li>47% of FY plan done at H1; 9.36% HOSE share (#3, gaining); ~48% bond-advisory share</li>
+      <li>Catalysts: <b>VN30 entry Aug 3</b> → FTSE Sep 21; slide = beta + 20%-dividend share supply, no negative found</li>
+      <li>Most expensive large broker — premium multiple is the risk if flows disappoint; post-event plan required</li>
+    </ul>
+  </div>
+  <div class="tcard">
+    <h3>VPX <span class="pill soon">event + option</span></h3>
+    <div class="meta">VPBankS · 5.8% · −9.1%</div>
+    <div class="kv"><span>Q2 PBT <b class="pos">4× YoY</b> (sector best)</span><span>Margin <b>₫38tn→50tn tgt</b></span><span>P/B <b class="flag">~1.4–1.5x est.</b></span></div>
+    <ul>
+      <li>Now the cheapest growth in the broker space; zero sell-side coverage; thin float (~80% VPB-held)</li>
+      <li>Free option: 11% of CAEX crypto exchange (OKX/HashKey-backed), license decision ~Q3</li>
+      <li>Same Sep 21 catalyst as TCX — different risk (coverage vs multiple)</li>
+    </ul>
+  </div>
+  <div class="tcard">
+    <h3>HPG <span class="pill info">decide: size or delete</span></h3>
+    <div class="meta">Hoa Phat · 0.3% · −15.2%</div>
+    <div class="kv"><span>1Q26 NPAT <b class="pos">+170%</b> (record)</span><span>1H crude steel <b>+36%</b></span><span>P/E <b>~8.2x</b> vs 10.5x avg</span></div>
+    <ul>
+      <li>Cheapest large-cap growth in the book; P/B at historical bottom zone; 10 buys / 0 sells, consensus ~33,625</li>
+      <li><b>Jul 28: US rebar AD final</b> (prelim 122%; US ~3% of revenue — headline &gt; earnings risk); EU duty 0% vs peers 12.1%</li>
+      <li>Watch: early-July domestic HRC price cuts (spread), DQ2 absorption; Q2 FS due end-July</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="catalysts">3 · Catalyst calendar (next 90 days)</h2>
+<div class="tablewrap"><table>
+  <thead><tr><th>Date</th><th>Event</th><th>Affects</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>Jul 28</td><td>US rebar anti-dumping FINAL determination (prelim 121.97% on Hoa Phat)</td><td>HPG</td><td><span class="pill hot">imminent</span></td></tr>
+    <tr><td>Late Jul</td><td>HPG &amp; KDH 2Q26 financial statements</td><td>HPG, KDH</td><td><span class="pill hot">imminent</span></td></tr>
+    <tr><td>→ Aug 21</td><td>KDH insider buy execution window (Deputy CEO, 20m shares)</td><td>KDH</td><td><span class="pill soon">open</span></td></tr>
+    <tr><td>Aug 3</td><td>TCX joins VN30 (~1.3m shares est. ETF demand)</td><td>TCX</td><td><span class="pill soon">dated</span></td></tr>
+    <tr><td>Q3</td><td>Gladia Heights sales launch · Clarita divestment completes (₫1,743bn)</td><td>KDH</td><td><span class="pill soon">window</span></td></tr>
+    <tr><td>Q2–Q3</td><td>TCB 7% cash dividend + 60% bonus shares (ex-dates TBA)</td><td>TCB</td><td><span class="pill soon">watch ex-date</span></td></tr>
+    <tr><td>Q3–Q4</td><td>VPB ~26% bonus issue → 624.4m-share foreign placement (~$250m)</td><td>VPB</td><td><span class="pill soon">window</span></td></tr>
+    <tr><td>~Q3</td><td>CAEX crypto-exchange pilot license decision (max 5 licenses)</td><td>VPX, VPB</td><td><span class="pill soon">window</span></td></tr>
+    <tr><td><b>Sep 21</b></td><td><b>FTSE Secondary Emerging effective</b> (~$1.5bn passive, phased 10/20/35/35% to Sep-27)</td><td>All (TCX/VPX most)</td><td><span class="pill info">the big one</span></td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="process">4 · The systematic process</h2>
+<p class="sub">Full playbook in <code>research/PROCESS.md</code> — every idea passes eight gates; no position without a dossier, no dossier without the checklist.</p>
+<div class="steps">
+  <div class="step"><div class="n">S1</div><div class="t">Quick screen</div><div class="d">30–60 min · kill fast · red-flag scan</div></div>
+  <div class="step"><div class="n">S2</div><div class="t">Industry dossier</div><div class="d">cross-house forecast table, quarterly refresh</div></div>
+  <div class="step"><div class="n">S3</div><div class="t">Company deep dive</div><div class="d">dossier: moat · governance · financials by hand · AR read</div></div>
+  <div class="step"><div class="n">S4</div><div class="t">Data verification</div><div class="d">2 sources, 1 primary · share counts reconciled</div></div>
+  <div class="step"><div class="n">S5</div><div class="t">Thesis memo</div><div class="d">1 page · variant view · kill criteria written first</div></div>
+  <div class="step"><div class="n">S6</div><div class="t">Sizing &amp; entry</div><div class="d">≤20% name · ≤35% cluster · thirds</div></div>
+  <div class="step"><div class="n">S7</div><div class="t">Monitoring</div><div class="d">3h sweeps + KPI watch + quarterly re-underwrite</div></div>
+  <div class="step"><div class="n">S8</div><div class="t">Post-mortem</div><div class="d">every exit · decision journal</div></div>
+</div>
+<details>
+  <summary>Current process status per holding</summary>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Ticker</th><th>S2 industry</th><th>S3 deep dive</th><th>AR notes</th><th>Dossier</th><th>S5 memo</th></tr></thead>
+    <tbody>
+      <tr><td>KDH</td><td>✅ property (MBS et al.)</td><td>✅ v2 note</td><td>🟡 pre-filled draft — PDF pass pending</td><td>☐</td><td>☐</td></tr>
+      <tr><td>TCB</td><td>✅ banking catalog</td><td>✅ v2 note</td><td>☐ next in queue</td><td>☐</td><td>☐</td></tr>
+      <tr><td>VPB</td><td>✅ banking catalog</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
+      <tr><td>TCX</td><td>✅ brokerage (GTJA)</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
+      <tr><td>VPX</td><td>✅ brokerage</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
+      <tr><td>HPG</td><td>✅ steel (MBS)</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
+    </tbody>
+  </table></div>
+</details>
+
+<h2 id="reading">5 · Annual-report reading program</h2>
+<p class="sub">Primary documents beat broker digests. Order: auditor opinion → FS notes → cash flow → balance sheet → P&amp;L → chairman letter last. One AR/week; full program in <code>research/annual-reports/README.md</code>.</p>
+<div class="grid2">
+  <div class="card" style="margin:0">
+    <h3 style="margin-top:0">Tier 1 — holdings</h3>
+    <ul class="checks">
+      <li class="done">KDH AR2025 — notes pre-filled (deposits question is #1)</li>
+      <li>TCB AR2025 — hunt: RE loan %, Masterise related-party note</li>
+      <li>VPB AR2025 — hunt: segment note (FE Credit/VPBankS/GPBank)</li>
+      <li>TCX AR2025 — hunt: bond warehouse, margin concentration</li>
+      <li>VPX AR2025 — hunt: FVTPL composition, CAEX carrying value</li>
+      <li>HPG AR2025 — hunt: capex commitments vs funding math</li>
+    </ul>
+  </div>
+  <div class="card" style="margin:0">
+    <h3 style="margin-top:0">Tiers 2–3 — competitors &amp; private</h3>
+    <ul class="checks">
+      <li>Banks: VCB · MBB · ACB · HDB (CASA &amp; credit-cost comparatives)</li>
+      <li>Brokers: SSI · VCI · HCM · VND</li>
+      <li>Developers: NLG · VHM · <b>NVL as the distress control-case</b></li>
+      <li>Steel: HSG (Sep FY) · NKG (auditor suspended — object lesson)</li>
+      <li>Private: <b>VPS</b> (discloses ARs; IPO prospectus coming) · Formosa via Taiwan parent · <b>Masterise via HNX bond filings + TCB's related-party note</b> · Keppel filings = independent Gladia check</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="monitoring">6 · Monitoring</h2>
+<div class="tiles">
+  <div class="tile"><div class="label">Routine</div><div class="value">every 3h</div><div class="note">SBV · USITC · ticker news → monitoring-log.md</div></div>
+  <div class="tile"><div class="label">Lanes</div><div class="value">3</div><div class="note">policy / trade / company</div></div>
+  <div class="tile"><div class="label">Log discipline</div><div class="value">material only</div><div class="note">quiet sweeps don't commit</div></div>
+  <div class="tile"><div class="label">Data connector</div><div class="value">⚠ pending</div><div class="note">FiinQuant needs authorization in claude.ai settings</div></div>
+</div>
+<div class="card">
+  <b>Per-name KPI watch:</b>
+  <span style="font-size:13px; color:var(--text-secondary)">KDH — Gladia absorption &amp; customer advances · VPB — FE Credit NPL formation · TCB — RE book &amp; bonus ex-date · TCX/VPX — margin book vs system margin debt (₫454tn record) · HPG — HRC spread &amp; Jul 28 ruling · All — SBV deposit rates, quota revisions.</span>
+</div>
+
+<h2 id="library">7 · Research library (repo map)</h2>
+<div class="tablewrap"><table>
+  <thead><tr><th>Artifact</th><th>Path</th><th>What it is</th></tr></thead>
+  <tbody>
+    <tr><td>Ticker deep-dive v2</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/portfolio-ticker-research-2026.md">portfolio-ticker-research-2026.md</a></td><td>Six-name buy-side note + catalyst calendar</td></tr>
+    <tr><td>Banking sector catalog</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/vietnam-banking-industry-reports-2026.md">vietnam-banking-industry-reports-2026.md</a></td><td>12-house 2026 report catalog + comparison</td></tr>
+    <tr><td>Process playbook</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/PROCESS.md">research/PROCESS.md</a></td><td>8-stage pipeline with gates</td></tr>
+    <tr><td>Dossier template</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/templates/ticker-dossier.md">research/templates/ticker-dossier.md</a></td><td>Per-company checklist + hand-fill table</td></tr>
+    <tr><td>Accounting &amp; modelling guide</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/guides/accounting-modelling-guide.md">research/guides/accounting-modelling-guide.md</a></td><td>Sector accounting, worked examples, study path</td></tr>
+    <tr><td>Data sources map</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/guides/data-sources.md">research/guides/data-sources.md</a></td><td>FiinPro/SSI/SBV/USITC + known traps</td></tr>
+    <tr><td>AR reading program</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/annual-reports/README.md">research/annual-reports/README.md</a></td><td>3-tier list with sourced links</td></tr>
+    <tr><td>KDH AR notes (draft)</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/annual-reports/notes/KDH-AR2025.md">research/annual-reports/notes/KDH-AR2025.md</a></td><td>Pre-filled; PDF verification pass pending</td></tr>
+    <tr><td>Monitoring log</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/monitoring-log.md">monitoring-log.md</a></td><td>3-hourly sweep entries (material only)</td></tr>
+    <tr><td>Investor blog system</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/banking-updates/README.md">banking-updates/</a></td><td>Publishing pipeline + first update</td></tr>
+  </tbody>
+</table></div>
+
+<div class="disclaimer"><b>Note.</b> Personal research dashboard; aggregates third-party research and public filings. Estimates flagged in-line (⚠ / "est."). Not investment advice. Total P&amp;L restated to −18.8% (−₫142.2m on ₫757.8m cost) correcting the −13.9% figure in an earlier note version.</div>
+
+</div>
+</body>
+</html>

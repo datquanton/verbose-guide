@@ -14,7 +14,7 @@ Buy-side style; companion to `vietnam-banking-industry-reports-2026.md`.
 | TCX | 1,500 | 44,049 | 39,800 | −9.7% | 59.7 | ~10% |
 | VPX | 1,400 | 28,099 | 25,550 | −9.1% | 35.8 | ~6% |
 | HPG | 80 | 24,172 | 20,500 | −15.2% | 1.6 | ~0.3% |
-| **Total** | | | | **≈ −13.9%** | **≈ 615.6** | 100% |
+| **Total** | | | | **≈ −18.8%** (−₫142.2m / ₫757.8m cost) | **≈ 615.6** | 100% |
 
 **What the deep-dive changed vs. v1 of this note:**
 - **Fundamentals are running ahead of prices everywhere except KDH.** VPB, TCB, TCX,
