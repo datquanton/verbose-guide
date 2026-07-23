@@ -75,6 +75,15 @@ Q3; gross margins on the key projects estimated 52–53%; management targets NPA
 VND1.5tn (stretch 2.0–2.5tn); the founder's son registered to buy 20m shares
 (Jul 23–Aug 21) — meaningful insider signal at ~VND360–400bn.
 
+**Update 2026-07-23 (SSI project table, owner-supplied):** Gladia low-rise (226
+units) was **60% sold by end-1Q26 with 34% of sold units handed over** — absorption
+is healthy, and the low consolidated customer-advances figure is likely an
+accounting artifact (deposits inside the 51/49 Keppel JV entity rather than on
+KDH's consolidated line — verify method in the AR). Counterweight: SSI's timeline
+shows Solina, Binh Trung, Le Minh Xuan all booking revenue **2027+** and Tan Tao /
+Phong Phu 2 / Cat Lai 2028+, so **2026 earnings are a single-project story** —
+Gladia handover pace is the whole year. Land bank confirmed at 520.4ha.
+
 **Buy-side view (revised):** this is no longer just "market prices execution risk" —
 there are real governance (bonds), flow (index/ETF), and cash-flow issues. The
 position is 44% of the book. The disciplined move set: (a) do nothing before the 2Q

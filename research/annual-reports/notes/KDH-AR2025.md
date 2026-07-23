@@ -12,6 +12,12 @@
    Jul 9, 2025 (₫100–200m deposits) — if advances are this low, either absorption is
    slow or deposits sit elsewhere (JV level / "other payables"). The AR's advances +
    related-party notes answer this — it is THE 2026 earnings question.
+   **→ PARTLY RESOLVED (SSI project table, owner-supplied 2026-07-23): Gladia
+   low-rise (226 units) was 60% SOLD by end-1Q26 with 34% of sold units handed
+   over — absorption is healthy. Working hypothesis: KDH's 51/49 structure with
+   Keppel is equity-accounted (joint control), so buyer deposits sit inside the JV
+   entity, not in consolidated advances. `[VERIFY IN AR PDF — JV/associate note:
+   consolidation method for the Gladia entity and its deposit balance]`**
 2. **Capitalized interest inside ₫29tn of inventory** — how much of "inventory" is
    accrued borrowing cost, and which projects carry it? `[VERIFY IN AR PDF — inventory note]`
 3. **Post-inspectorate bond posture** — what do the debt notes disclose about the
@@ -44,17 +50,29 @@
 | Customer advances | **−80% to ₫379bn** end-2025 | Privia handed over; Gladia bookings early | The bear/bull pivot — see §1.1 |
 | Borrowings | ~₫15.3tn 1Q26 | project funding | Check maturity wall + rates `[VERIFY]` |
 
-## 5. Segments & projects (from AR project section `[VERIFY figures]`)
-- Pipeline status to extract per project: Gladia (low-rise 211 units: 86 townhouse /
-  60 semi-D / 65 villa; >95% construction complete; Heights high-rise launched
-  Jun-2026, sales Q3), Solina Ph1 (~13ha/500 low-rise, 2026 launch, est. ~₫7.1tn
-  revenue per KBSV), Emeria/Clarita (launched Oct-25 at ₫200–250m/m²; Clarita being
-  divested instead — why? margin vs cash-need signal), Tan Tao A (₫17.9tn budget),
-  Le Minh Xuan IP (89/109ha compensated), Phong Phu 2
-- 2025 presales: broker-projected ~₫3,380bn (+309% YoY, ~100 units) — AR should give
-  actual contracted sales `[VERIFY IN AR PDF — the single most useful number in it]`
-- Gladia pricing reality-check: launch quotes ₫228m/m² (agents later ~₫330m/m²) —
-  against KBSV/SSI ASP assumptions
+## 5. Segments & projects — SSI Research project table (owner-supplied 2026-07-23)
+
+| Project | Ha | Product | KDH % | Status | Revenue window |
+|---|---|---|---|---|---|
+| Gladia (Keppel JV) low-rise | 11.8 | **226** villa/townhouse | 51% | Sales opened Oct-25; **60% sold by end-1Q26; 34% of sold handed over** | 2025–2026 |
+| Gladia Heights high-rise | ″ | 616 apartments | 51% | Construction from 25-Jan-26; **sales Q3/26** | **2027+** |
+| Binh Trung expansion | 18.2 | ~200 low-rise + ~3,500 apts | 100% | Clearance done; investment approval received | 2027–2028+ |
+| The Solina (11A) | 16.4 | 500 low-rise + 300 apts | 100% | Ph1 13ha: cleared, land fees paid, permit received | **2027+** (not 2026) |
+| Le Minh Xuan IP | 109.9 | 60ha leasable | 100% | Ph1 90ha permitted; land-rent payment completing | 2027–2028+ |
+| Green Village Phong Phu 2 | 26.0 | NA | 100% | Cleared; approvals in process | 2028+ |
+| KDT Tan Tao | 329.9 | NA | 100% | **Clearance ~85%** | 2028+ |
+| Cat Lai (An Lap) | 8.2 | 200 low-rise | 99% | Legal procedures completing | 2028+ |
+| **Total land bank** | **520.4** | | | | |
+
+- **Implication: 2026 P&L is a single-project story (Gladia low-rise handovers).**
+  Solina slipped out of the 2026 window that KBSV's ₫7.1tn scenario assumed —
+  broker-model timing risk confirmed. Depth of pipeline is real but back-loaded
+  (2027–2028+), which keeps OCF negative meanwhile.
+- Emeria/Clarita: launched Oct-25 at ₫200–250m/m²; Clarita 51% being divested
+  (₫1.74tn) — cash-in vs self-develop trade-off; note absence from SSI's revenue table
+- 2025 presales: broker-projected ~₫3,380bn — AR should give actual contracted
+  sales `[VERIFY IN AR PDF]`; 60%-sold datapoint suggests target was met or beaten
+- Gladia pricing reality-check: launch quotes ₫228m/m² (agents later ~₫330m/m²)
 
 ## 6. Narrative check (chairman letter vs numbers)
 - Expect the letter to lead with FY25 revenue +42.6% and the Keppel partnership;
