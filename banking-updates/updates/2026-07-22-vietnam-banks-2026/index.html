@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vietnam Banks 2026: What Ten Research Houses Are Telling Us — and Which Tickers They Back</title>
+<style>
+:root {
+    color-scheme: light;
+    --page:           #f9f9f7;
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;
+    --series-1-soft:  #9ec5f4;
+    --good:           #006300;
+    --critical:       #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page:           #0d0d0d;
+      --surface-1:      #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-1-soft:  #1c5cab;
+      --good:           #0ca30c;
+      --critical:       #d03b3b;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:           #0d0d0d;
+    --surface-1:      #1a1a19;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-1-soft:  #1c5cab;
+    --good:           #0ca30c;
+    --critical:       #d03b3b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 80px; }
+
+  /* ---------- header ---------- */
+  .kicker {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--series-1); margin: 32px 0 8px;
+  }
+  h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.01em; }
+  .dek { font-size: 18px; color: var(--text-secondary); margin: 0 0 10px; max-width: 62ch; }
+  .byline { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+  h2 { font-size: 24px; margin: 48px 0 8px; letter-spacing: -0.01em; }
+  h3 { font-size: 18px; margin: 28px 0 6px; }
+  p  { max-width: 70ch; }
+  a  { color: var(--series-1); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .rule { border: 0; border-top: 1px solid var(--grid); margin: 40px 0; }
+
+  /* ---------- stat tiles ---------- */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 28px 0; }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 18px;
+  }
+  .tile .label { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+  .tile .value { font-size: 30px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
+  .tile .note  { font-size: 12.5px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* ---------- figure / chart chrome ---------- */
+  figure.viz {
+    margin: 28px 0; background: var(--surface-1);
+    border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px 16px;
+  }
+  figure.viz .viz-title { font-size: 15px; font-weight: 700; margin: 0; }
+  figure.viz .viz-sub   { font-size: 12.5px; color: var(--text-muted); margin: 2px 0 16px; }
+  figcaption { font-size: 12px; color: var(--text-muted); margin-top: 12px; border-top: 1px solid var(--grid); padding-top: 8px; }
+
+  /* ---------- horizontal bar rows ---------- */
+  .barrow { display: grid; grid-template-columns: 128px 1fr 58px; align-items: center; gap: 10px; padding: 5px 0; border-radius: 6px; }
+  .barrow:hover { background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+  .barrow .name { font-size: 13px; color: var(--text-secondary); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barrow .track { position: relative; height: 18px; }
+  .barrow .track::before { content:""; position:absolute; left:0; top:0; bottom:0; width:1px; background: var(--baseline); }
+  .barrow .bar {
+    position: absolute; left: 1px; top: 2px; bottom: 2px;
+    background: var(--series-1); border-radius: 0 4px 4px 0;
+  }
+  .barrow .bar.soft { background: var(--series-1-soft); }
+  .barrow .val { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .axis-note { font-size: 11.5px; color: var(--text-muted); margin-top: 6px; padding-left: 138px; }
+  @media (max-width: 560px) {
+    .barrow { grid-template-columns: 92px 1fr 52px; }
+    .axis-note { padding-left: 102px; }
+  }
+
+  /* ---------- tables ---------- */
+  .tablewrap { overflow-x: auto; margin: 20px 0; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-1); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 720px; }
+  th {
+    text-align: left; font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--text-muted); font-weight: 600; padding: 12px 14px; border-bottom: 1px solid var(--grid);
+    background: color-mix(in srgb, var(--text-primary) 2.5%, var(--surface-1));
+  }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--grid); vertical-align: top; color: var(--text-secondary); }
+  td:first-child { color: var(--text-primary); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: 0; }
+  tr:hover td { background: color-mix(in srgb, var(--series-1) 5%, transparent); }
+  td.num { font-variant-numeric: tabular-nums; }
+  .up   { color: var(--good); font-weight: 600; }
+  .down { color: var(--critical); font-weight: 600; }
+
+  .pick { display:inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); }
+  .pick.buy  { color: var(--good); }
+  .pick.hold { color: var(--text-secondary); }
+
+  /* ---------- callouts ---------- */
+  .callout {
+    border-left: 3px solid var(--series-1); background: var(--surface-1);
+    border-radius: 0 10px 10px 0; padding: 14px 18px; margin: 24px 0; font-size: 15px;
+    border-top: 1px solid var(--border); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .disclaimer {
+    font-size: 12.5px; color: var(--text-muted); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 18px; margin-top: 40px; background: var(--surface-1);
+  }
+  ol.themes { padding-left: 20px; } ol.themes li { margin: 10px 0; max-width: 68ch; }
+  ul.srcs { padding-left: 20px; font-size: 14px; } ul.srcs li { margin: 6px 0; }
+
+  /* ---------- archive index ---------- */
+  .update-card {
+    display: block; background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 22px; margin: 14px 0; color: inherit;
+  }
+  .update-card:hover { border-color: var(--series-1); text-decoration: none; }
+  .update-card .date { font-size: 12px; color: var(--text-muted); }
+  .update-card h3 { margin: 2px 0 4px; font-size: 19px; color: var(--text-primary); }
+  .update-card p { margin: 0; font-size: 14px; color: var(--text-secondary); }
+  .gen-note { font-size: 11.5px; color: var(--text-muted); margin-top: 24px; }
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="byline"><a href="../../index.html">← All updates</a></p><p class="kicker">Investor Briefing · Banking · Vietnam</p><h1>Vietnam Banks 2026: What Ten Research Houses Are Telling Us — and Which Tickers They Back</h1><p class="dek">We consolidated the 2026 banking-sector reports of MBS, SSI, Vietcap, VCBS, VNDirect, Yuanta, Mirae Asset, KBSV, ABS, FiinRatings and VIS Rating into one cumulative view: the metrics that matter, where the houses agree, and where the stock-picking opportunity sits.</p><p class="byline">Published 2026-07-22 · Compiled from primary research reports and rating-agency publications (all sources linked below)</p><div class="tiles"><div class="tile"><div class="label">Consensus 2026 profit growth</div><div class="value">+16–20%</div><div class="note">Sector pre-tax profit, range across 8 forecasting houses</div></div><div class="tile"><div class="label">SBV credit growth target</div><div class="value">~15%</div><div class="note">Down from 19.1% in 2025; most banks allocated 11–13%</div></div><div class="tile"><div class="label">Sector NIM</div><div class="value">&lt;3.0%</div><div class="note">2.9% in 2025 vs 3.5% in 2024 — margins stay compressed</div></div><div class="tile"><div class="label">System loan-to-deposit</div><div class="value">111–112%</div><div class="note">Credit outran deposits by 3.8ppt/yr since 2021</div></div></div>
+<h2>The one-paragraph thesis</h2>
+<p>Every house we read lands on the same paradox: <strong>margins are the worst they've been since 2021, yet profits still grow double digits.</strong> The reason is that the earnings engine has changed. NIM expansion no longer drives the P&amp;L — <em>credit growth quotas</em> do. The State Bank of Vietnam (SBV) hands out roughly 11–13% growth allowances to most banks, materially more to banks absorbing weak institutions (VPBank has guided for 35% credit growth). Banks holding a bigger quota, cheap CASA deposits and strong capital can grow volume through the margin squeeze; banks without them cannot. That is why 2026 is a <strong>stock-picker's year in Vietnamese banks, not an index year</strong>.</p>
+<div class="callout"><p style="margin:0;"><strong>Where the houses converge:</strong> long the quota winners with fortress funding — the tickers that appear on multiple buy lists are <strong>ACB, VCB, CTG, HDB and VPB</strong>. The caution list is mid-sized, retail-heavy lenders with thin deposit franchises, where VIS Rating already measures rising delinquencies.</p></div>
+<h2>1 · What each house forecasts for 2026 profit growth</h2>
+<p>Eight houses published a 2026 sector profit-growth number. The spread is remarkably tight — everyone sits between roughly +16% and +20.5% — which tells you the debate is not <em>whether</em> banks grow, but <em>which</em> banks capture the growth.</p>
+<figure class="viz"><p class="viz-title">2026 sector profit growth forecasts by research house</p><p class="viz-sub">Forecast growth in bank profits, % year-on-year · scale 0–22%</p><div role="img" aria-label="Bar chart: MBS +20.5%, VCBS +20.0%, ABS +18.0%, Mirae Asset +17.9%, SSI +17.6%, VNDirect +16.0%, Vietcap +15.9%, FiinRatings +15.9%"><div class="barrow" title="MBS Research: +20.5% (after-tax, coverage universe)"><span class="name">MBS</span><span class="track"><span class="bar" style="width:93.2%"></span></span><span class="val">+20.5%</span></div><div class="barrow" title="VCBS: +20% sector profit growth"><span class="name">VCBS</span><span class="track"><span class="bar" style="width:90.9%"></span></span><span class="val">+20.0%</span></div><div class="barrow" title="An Binh Securities: ~+18%"><span class="name">ABS</span><span class="track"><span class="bar" style="width:81.8%"></span></span><span class="val">+18.0%</span></div><div class="barrow" title="Mirae Asset Securities Vietnam: +17.9%"><span class="name">Mirae Asset</span><span class="track"><span class="bar" style="width:81.4%"></span></span><span class="val">+17.9%</span></div><div class="barrow" title="SSI Research: +17.6% sector pre-tax profit (raised from 17%)"><span class="name">SSI</span><span class="track"><span class="bar" style="width:80.0%"></span></span><span class="val">+17.6%</span></div><div class="barrow" title="VNDirect: ~+16% pre-tax profit, &#x27;moderately positive&#x27;"><span class="name">VNDirect</span><span class="track"><span class="bar" style="width:72.7%"></span></span><span class="val">+16.0%</span></div><div class="barrow" title="Vietcap: +15.9% pre-tax profit (strategy report)"><span class="name">Vietcap</span><span class="track"><span class="bar" style="width:72.3%"></span></span><span class="val">+15.9%</span></div><div class="barrow" title="FiinRatings: ~+15.9%, the conservative end"><span class="name">FiinRatings</span><span class="track"><span class="bar" style="width:72.3%"></span></span><span class="val">+15.9%</span></div></div><div class="axis-note">0% ── 22% · bars measured from a common zero baseline</div><figcaption>Definitions vary slightly by house (pre-tax vs after-tax, sector-wide vs coverage universe). MBS figure is after-tax profit for its coverage; SSI, VNDirect, Vietcap and FiinRatings are pre-tax. Sources linked in the appendix.</figcaption></figure>
+<h2>2 · The margin story: NIM stays under 3%</h2>
+<p>The sector's net interest margin fell from <strong>3.5% in 2024 to 2.9% in 2025</strong>, and FiinRatings, KBSV and VIS Rating all expect it to stay below 3% through 2026. The mechanics: 2025 credit growth of 19% ran far ahead of deposit growth of 11.4%, deposit competition returned (headline rates have touched 9%), and funding costs are repricing upward while lending yields are politically and competitively capped.</p>
+<figure class="viz"><p class="viz-title">Sector net interest margin, 2024 → 2026F</p><p class="viz-sub">% of earning assets · scale 0–4%</p><div role="img" aria-label="Bar chart: 2024 3.5%, 2025 2.9%, 2026F &lt;3.0%"><div class="barrow" title="2024: NIM 3.5% — the recent peak"><span class="name">2024</span><span class="track"><span class="bar" style="width:87.5%"></span></span><span class="val">3.5%</span></div><div class="barrow" title="2025: NIM 2.9% — sharp compression on funding costs"><span class="name">2025</span><span class="track"><span class="bar" style="width:72.5%"></span></span><span class="val">2.9%</span></div><div class="barrow" title="2026 forecast: below 3.0% (FiinRatings, KBSV); VNDirect more optimistic at ~3.15%"><span class="name">2026F</span><span class="track"><span class="bar soft" style="width:73.8%"></span></span><span class="val">&lt;3.0%</span></div></div><div class="axis-note">0% ── 4% · 2026F shown in a lighter step: it is a forecast, not an actual</div><figcaption>FiinRatings, KBSV. VNDirect is the outlier at a stable ~3.15%. VIS Rating measured a further −11bps of NIM in 1Q26 alone, with sector ROAA down 10bps to 1.4%.</figcaption></figure>
+<p>For investors the translation is simple: <strong>do not pay for margin recovery in 2026 — pay for funding advantage.</strong> Banks with high CASA ratios, strong capital and access to international wholesale funding (FiinRatings' explicit screen) protect profitability; banks bidding 9% for deposits give the margin away.</p>
+<h2>3 · Profitability by ticker: who earns the best returns</h2>
+<p>MBS Research's 2026 forecasts put a number on the quality gap. MBBank is projected to lead the industry on return on equity, with a pack of quality franchises clustered just below it.</p>
+<figure class="viz"><p class="viz-title">Forecast 2026 return on equity by bank</p><p class="viz-sub">MBS Research estimates, % · scale 0–22%</p><div role="img" aria-label="Bar chart: MBB 20.2%, VIB 17.5%, ACB 17.2%, VCB 16.9%, TPB 16.9%, VPB 16.9%"><div class="barrow" title="MBBank (MBB): 20.2% — forecast industry leader on ROE"><span class="name">MBB</span><span class="track"><span class="bar" style="width:91.8%"></span></span><span class="val">20.2%</span></div><div class="barrow" title="VIB: 17.5%"><span class="name">VIB</span><span class="track"><span class="bar" style="width:79.5%"></span></span><span class="val">17.5%</span></div><div class="barrow" title="ACB: 17.2%"><span class="name">ACB</span><span class="track"><span class="bar" style="width:78.2%"></span></span><span class="val">17.2%</span></div><div class="barrow" title="Vietcombank (VCB): 16.9%"><span class="name">VCB</span><span class="track"><span class="bar" style="width:76.8%"></span></span><span class="val">16.9%</span></div><div class="barrow" title="TPBank (TPB): 16.9%"><span class="name">TPB</span><span class="track"><span class="bar" style="width:76.8%"></span></span><span class="val">16.9%</span></div><div class="barrow" title="VPBank (VPB): 16.9%"><span class="name">VPB</span><span class="track"><span class="bar" style="width:76.8%"></span></span><span class="val">16.9%</span></div></div><div class="axis-note">0% ── 22%</div><figcaption>Source: MBS Research, "Vietnam Dynamics 2026 — Banking Sector" (Dec 2025).</figcaption></figure>
+<h2>4 · The buy lists, stacked up</h2>
+<p>When we overlay every house's named recommendations, a consensus core emerges. Counting each research house that names a ticker as a top pick or BUY:</p>
+<figure class="viz"><p class="viz-title">How many research houses back each ticker</p><p class="viz-sub">Count of houses naming the stock a top pick / BUY · scale 0–4</p><div role="img" aria-label="Bar chart: ACB 3, VCB 3, CTG 2, HDB 2, VPB 2, MBB 1, BID 1, TCB 1"><div class="barrow" title="ACB — MBS, Vietcap, Yuanta (BUY)"><span class="name">ACB</span><span class="track"><span class="bar" style="width:75.0%"></span></span><span class="val">3</span></div><div class="barrow" title="VCB — Vietcap (BUY, +25.8% upside), Yuanta (BUY), VNDirect (TP VND67,100)"><span class="name">VCB</span><span class="track"><span class="bar" style="width:75.0%"></span></span><span class="val">3</span></div><div class="barrow" title="CTG — MBS, Vietcap"><span class="name">CTG</span><span class="track"><span class="bar" style="width:50.0%"></span></span><span class="val">2</span></div><div class="barrow" title="HDB — Yuanta (BUY), VNDirect (TP VND37,100)"><span class="name">HDB</span><span class="track"><span class="bar" style="width:50.0%"></span></span><span class="val">2</span></div><div class="barrow" title="VPB — Yuanta (BUY); SSI/VCBS single it out for ~22.4% profit growth"><span class="name">VPB</span><span class="track"><span class="bar" style="width:50.0%"></span></span><span class="val">2</span></div><div class="barrow" title="MBB — Vietcap (Yuanta downgraded to HOLD-Outperform)"><span class="name">MBB</span><span class="track"><span class="bar" style="width:25.0%"></span></span><span class="val">1</span></div><div class="barrow" title="BID — MBS"><span class="name">BID</span><span class="track"><span class="bar" style="width:25.0%"></span></span><span class="val">1</span></div><div class="barrow" title="TCB — VNDirect (TP VND39,200); Yuanta downgraded to HOLD-Outperform"><span class="name">TCB</span><span class="track"><span class="bar" style="width:25.0%"></span></span><span class="val">1</span></div></div><div class="axis-note">0 ── 4 houses</div><figcaption>Compiled from MBS, Vietcap, Yuanta, VNDirect, SSI and VCBS 2026 sector reports. "Backing" = named top pick, BUY rating, or published target price.</figcaption></figure>
+<h3>Ticker-by-ticker: the investment case in one line each</h3>
+<div class="tablewrap"><table><thead><tr><th>Ticker</th><th>Bank</th><th>Who backs it</th><th>2026 numbers to know</th><th>The case</th></tr></thead><tbody><tr><td>ACB <span class="pick buy">3× backed</span></td><td>Asia Commercial Bank</td><td>MBS · Vietcap · Yuanta</td><td class="num">ROE 17.2%F · Moody&#x27;s outlook positive</td><td>Low funding cost, conservative book, quota headroom — the consensus &quot;sleep-at-night&quot; compounder.</td></tr><tr><td>VCB <span class="pick buy">3× backed</span></td><td>Vietcombank</td><td>Vietcap (BUY, +25.8% upside) · Yuanta · VNDirect (TP ₫67,100)</td><td class="num">ROE 16.9%F · Moody&#x27;s positive</td><td>The fortress franchise: best asset quality and capital buffers among state-linked banks; defensive pick if liquidity tightens further.</td></tr><tr><td>CTG <span class="pick buy">2× backed</span></td><td>VietinBank</td><td>MBS · Vietcap</td><td class="num">Profit +20.6%F (house est.) · Moody&#x27;s positive</td><td>Prime beneficiary of accelerating public-investment lending; NIM recovery plus state-directed credit programs.</td></tr><tr><td>HDB <span class="pick buy">2× backed</span></td><td>HDBank</td><td>Yuanta (BUY) · VNDirect (TP ₫37,100)</td><td class="num">Above-system loan growth in Yuanta&#x27;s 19% coverage average</td><td>Growth story with a restructuring-participation quota kicker.</td></tr><tr><td>VPB <span class="pick buy">2× backed</span></td><td>VPBank</td><td>Yuanta (BUY) · SSI/VCBS (top profit grower)</td><td class="num">Profit +22.4%F · guiding 35% credit growth · Moody&#x27;s positive</td><td>The quota trade in its purest form: highest credit allowance in the system plus FE Credit consumer recovery and VPBankS contributions. Higher beta, higher reward.</td></tr><tr><td>MBB <span class="pick hold">1× / split</span></td><td>MBBank</td><td>Vietcap (Yuanta: HOLD-Outperform)</td><td class="num">ROE 20.2%F — forecast industry leader</td><td>Best-in-class profitability and CASA; the debate is valuation after the run, not quality.</td></tr><tr><td>BID <span class="pick hold">1× backed</span></td><td>BIDV</td><td>MBS</td><td class="num">Moody&#x27;s positive · capital-raise plans</td><td>Public-investment lending exposure plus a capital increase to unlock growth.</td></tr><tr><td>TCB <span class="pick hold">1× / split</span></td><td>Techcombank</td><td>VNDirect (TP ₫39,200; Yuanta: HOLD-Outperform)</td><td class="num">High CASA franchise</td><td>Funding-cost advantage intact, but real-estate exposure caps enthusiasm at some houses.</td></tr></tbody></table></div>
+<h2>5 · The cumulative metrics dashboard</h2>
+<p>Every headline metric from the ten reports, in one table — this is the running scoreboard we will update as new research lands.</p>
+<div class="tablewrap"><table><thead><tr><th>House / agency</th><th>Report</th><th>2026 profit growth</th><th>Credit growth view</th><th>NIM view</th><th>Named picks</th></tr></thead><tbody><tr><td>MBS</td><td>Vietnam Dynamics 2026 — Banking (Dec 2025)</td><td class="num up">+20.5% NPAT</td><td>Private banks lead (16.7% vs 12.0% YTD 3Q25)</td><td class="num ">Flat to slightly lower</td><td>CTG, ACB, BID</td></tr><tr><td>VCBS</td><td>2026 sector outlook</td><td class="num up">+20%</td><td>Quota-driven</td><td class="num ">Improving</td><td>VPB (+22.4%F)</td></tr><tr><td>ABS</td><td>2026 outlook</td><td class="num up">~+18%</td><td>—</td><td class="num ">—</td><td>—</td></tr><tr><td>Mirae Asset</td><td>Banking 1Q26 update (May 2026)</td><td class="num up">+17.9%</td><td>Credit +2.4% vs deposits +0.8% YTD Mar</td><td class="num ">Pressured; CIR down to 31.7%</td><td>—</td></tr><tr><td>SSI</td><td>2026 sector outlook (revised up)</td><td class="num up">+17.6% PBT</td><td>~17.6%</td><td class="num ">Recovering</td><td>VPB highlighted</td></tr><tr><td>VNDirect</td><td>2026 banking view / 2H26 strategy</td><td class="num up">~+16% PBT</td><td>~17%</td><td class="num ">~3.15% stable</td><td>TCB, HDB, VCB</td></tr><tr><td>Vietcap</td><td>2026 strategy; VCB BUY (Mar 2026)</td><td class="num up">+15.9% PBT</td><td>Decelerating, selective</td><td class="num ">—</td><td>CTG, MBB, VCB, ACB</td></tr><tr><td>Yuanta</td><td>Bank Sector Outlook 2026</td><td class="num ">Overweight</td><td>~20% system / 19% coverage</td><td class="num ">—</td><td>BUY: ACB, VCB, HDB, VPB</td></tr><tr><td>KBSV</td><td>Banking industry report</td><td class="num ">—</td><td>Decelerating; credit/GDP &gt;140%</td><td class="num down">&lt;3.0%</td><td>—</td></tr><tr><td>FiinRatings</td><td>FY2025 Recap &amp; 2026 Outlook (Apr 2026)</td><td class="num ">~+15.9% (conservative)</td><td>Moderating vs 19% in 2025</td><td class="num down">&lt;3.0%</td><td>Screen: capital + CASA + intl. funding</td></tr><tr><td>VIS Rating</td><td>Banking Sector 3M2026 Update</td><td class="num ">Cautious</td><td>—</td><td class="num down">−11bps in 1Q26; ROAA 1.4%</td><td>Large/SOE banks more resilient</td></tr><tr><td>Moody&#x27;s</td><td>Outlook actions (May)</td><td colspan="3">Six banks moved to <span class="up">positive</span> outlook</td><td>ACB, VCB, BID, Agribank, CTG, VPB</td></tr></tbody></table></div>
+<h2>6 · What could go wrong</h2>
+<ol class="themes"><li><strong>Liquidity squeeze intensifies.</strong> LDR at 111–112% with deposit rates touching 9% means funding costs can keep rising into the credit recovery. VNDirect flags mid-2026 as the pressure point. Watch monthly deposit-vs-credit growth prints.</li><li><strong>The bad-debt bill arrives.</strong> FiinRatings' key warning: 2025's stable NPL ratio was manufactured by write-offs and recoveries, and provisioning buffers are at their lowest since 2021. If retail delinquencies keep rising, thin-buffer banks re-provision straight out of the 2026 earnings that everyone has already pencilled in.</li><li><strong>Mid-sized banks are already cracking.</strong> VIS Rating measured the sharpest 1Q26 deterioration at mid-sized, retail-heavy lenders — rising delinquencies, falling ROAA. The divergence trade cuts both ways: quality compounds, weakness compounds faster.</li><li><strong>Quota politics.</strong> The whole 2026 earnings model rests on SBV allocation decisions. A tighter-than-expected quota round, or stricter quarterly enforcement and real-estate caps (already introduced), directly clips the volume that is substituting for margin.</li><li><strong>Household leverage.</strong> VIS Rating's structural flag: persistently high rates plus rising household debt raises downside risk for retail-heavy books specifically.</li></ol>
+<h2>The bottom line for our investors</h2>
+<div class="callout"><p style="margin:0 0 10px;"><strong>Core holdings (consensus quality + quota):</strong> ACB and VCB — backed by three houses each, positive Moody's outlooks, fortress funding. CTG adds the public-investment lending kicker.</p><p style="margin:0 0 10px;"><strong>Growth sleeve (higher beta):</strong> VPB — the system's biggest credit quota (35% guided) and a ~22% profit-growth forecast; HDB as the second restructuring-quota play.</p><p style="margin:0 0 10px;"><strong>Own quality, avoid the squeezed middle:</strong> the research is unanimous that mid-sized banks with weak deposit franchises carry the margin, delinquency and funding risk in 2026. If it doesn't have CASA, capital or a quota, it doesn't have a 2026 story.</p></div>
+<hr class="rule">
+<h2>Appendix · Primary sources</h2>
+<ul class="srcs"><li>MBS Research — <a href="https://www.mbs.com.vn/files/uploads/2025/12/Navi_2026_Banking_Strategic-Efforts-Toward-Sustaining-Double-Digit-Growth.pdf">Vietnam Dynamics 2026 | Banking Sector (PDF)</a></li><li>SSI Research — <a href="https://www.ssi.com.vn/en/organization-customer/sector-report">Sector report portal</a></li><li>Vietcap — <a href="https://www.vietcap.com.vn/api/cms-api/uploads/file/202603/VCB-20260317-BUY.pdf">VCB update, BUY (PDF)</a> · <a href="https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/VAD%202025%20-Master%20Class%20Banking.pdf">Banking sector deck (PDF)</a></li><li>Yuanta Vietnam — <a href="https://yuanta.com.vn/en/analysis/bank-sector_outlook-2026">Bank Sector: Outlook 2026</a></li><li>Mirae Asset Vietnam — <a href="https://masvn.com/api/attachment/file/1778833846440-20260515ENBanking1Q26.pdf">Banking 1Q26 (PDF)</a> · <a href="https://masvn.com/api/attachment/file/1781059759359-MASVN_RS_2H26_outlook_EN.pdf">2H26 strategy (PDF)</a></li><li>KB Securities Vietnam — <a href="https://www.kbsec.com.vn/pic/Service/KBSV_Banking_Sector_Eng.pdf">Banking sector report (PDF)</a></li><li>FiinRatings — <a href="https://fiinratings.vn/Data/2026/Report/FiinRatings_Vietnam-Banking-2026-Outlook.pdf">FY2025 Recap &amp; 2026 Outlook (PDF)</a> · <a href="https://fiinratings.vn/en/news-fg/banking-sector-2026-spotlight-capital-strength-and-liquidity-will-shape-vietnam-banking-outlook-id2772252.html">summary</a></li><li>VIS Rating — <a href="https://visrating.com/research/banking-sector-3m2026-update.351.html">Banking Sector 3M2026 Update</a></li><li>Moody&#x27;s — <a href="https://vir.com.vn/moodys-ratings-upgrades-outlook-of-six-vietnamese-banks-to-positive-152134.html">six banks moved to positive outlook (via VIR)</a></li><li>Press syntheses — <a href="https://theinvestor.vn/vietnam-bank-profits-in-2026-the-vip-pass-of-credit-growth-quotas-d19421.html">The Investor: the &quot;VIP pass&quot; of credit quotas</a> · <a href="https://vietnamnews.vn/economy/1767245/banking-sector-growth-to-moderate-in-2026.html">Việt Nam News: growth to moderate</a> · <a href="https://vietnamnews.vn/economy/1780615/liquidity-pressure-remains-for-banking-system-in-2026.html">Việt Nam News: liquidity pressure</a> · <a href="https://vir.com.vn/banks-face-diverging-fortunes-in-second-half-of-2026-155591.html">VIR: diverging fortunes in 2H26</a> · <a href="https://theinvestor.vn/vietnam-bank-deposit-rates-hit-9-is-the-race-to-mobilize-capital-heating-up-again-d19497.html">The Investor: deposit rates hit 9%</a></li></ul>
+<div class="disclaimer"><strong>Disclosure &amp; disclaimer.</strong> This briefing aggregates and summarizes third-party research published by the securities firms and rating agencies cited above; forecasts belong to their respective authors and definitions vary between houses (pre-tax vs after-tax, coverage universe vs sector-wide). It is provided for information only and does not constitute investment advice, an offer, or a solicitation to buy or sell any security. Vietnamese equities carry market, liquidity, currency and regulatory risk. Please consult your own advisor before acting. Figures are updated cumulatively as new reports are published. Data as of 2026-07-22.</div><p class="gen-note">Generated by banking-updates/scripts/build.py · data as of 2026-07-22 · built 2026-07-23</p>
+</div>
+</body>
+</html>

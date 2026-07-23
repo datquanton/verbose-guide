@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-07-22",
+  "brand": {
+    "site_title": "Banking Updates",
+    "kicker": "Investor Briefing · Banking · Vietnam",
+    "disclaimer": "This briefing aggregates and summarizes third-party research published by the securities firms and rating agencies cited above; forecasts belong to their respective authors and definitions vary between houses (pre-tax vs after-tax, coverage universe vs sector-wide). It is provided for information only and does not constitute investment advice, an offer, or a solicitation to buy or sell any security. Vietnamese equities carry market, liquidity, currency and regulatory risk. Please consult your own advisor before acting. Figures are updated cumulatively as new reports are published."
+  },
+  "hero_tiles": [
+    { "label": "Consensus 2026 profit growth", "value": "+16–20%", "note": "Sector pre-tax profit, range across 8 forecasting houses" },
+    { "label": "SBV credit growth target", "value": "~15%", "note": "Down from 19.1% in 2025; most banks allocated 11–13%" },
+    { "label": "Sector NIM", "value": "<3.0%", "note": "2.9% in 2025 vs 3.5% in 2024 — margins stay compressed" },
+    { "label": "System loan-to-deposit", "value": "111–112%", "note": "Credit outran deposits by 3.8ppt/yr since 2021" }
+  ],
+  "charts": {
+    "forecasts": {
+      "title": "2026 sector profit growth forecasts by research house",
+      "subtitle": "Forecast growth in bank profits, % year-on-year · scale 0–22%",
+      "scale_max": 22,
+      "axis_note": "0% ── 22% · bars measured from a common zero baseline",
+      "caption": "Definitions vary slightly by house (pre-tax vs after-tax, sector-wide vs coverage universe). MBS figure is after-tax profit for its coverage; SSI, VNDirect, Vietcap and FiinRatings are pre-tax. Sources linked in the appendix.",
+      "items": [
+        { "name": "MBS", "value": 20.5, "display": "+20.5%", "hint": "MBS Research: +20.5% (after-tax, coverage universe)" },
+        { "name": "VCBS", "value": 20.0, "display": "+20.0%", "hint": "VCBS: +20% sector profit growth" },
+        { "name": "ABS", "value": 18.0, "display": "+18.0%", "hint": "An Binh Securities: ~+18%" },
+        { "name": "Mirae Asset", "value": 17.9, "display": "+17.9%", "hint": "Mirae Asset Securities Vietnam: +17.9%" },
+        { "name": "SSI", "value": 17.6, "display": "+17.6%", "hint": "SSI Research: +17.6% sector pre-tax profit (raised from 17%)" },
+        { "name": "VNDirect", "value": 16.0, "display": "+16.0%", "hint": "VNDirect: ~+16% pre-tax profit, 'moderately positive'" },
+        { "name": "Vietcap", "value": 15.9, "display": "+15.9%", "hint": "Vietcap: +15.9% pre-tax profit (strategy report)" },
+        { "name": "FiinRatings", "value": 15.9, "display": "+15.9%", "hint": "FiinRatings: ~+15.9%, the conservative end" }
+      ]
+    },
+    "nim": {
+      "title": "Sector net interest margin, 2024 → 2026F",
+      "subtitle": "% of earning assets · scale 0–4%",
+      "scale_max": 4,
+      "axis_note": "0% ── 4% · 2026F shown in a lighter step: it is a forecast, not an actual",
+      "caption": "FiinRatings, KBSV. VNDirect is the outlier at a stable ~3.15%. VIS Rating measured a further −11bps of NIM in 1Q26 alone, with sector ROAA down 10bps to 1.4%.",
+      "items": [
+        { "name": "2024", "value": 3.5, "display": "3.5%", "hint": "2024: NIM 3.5% — the recent peak" },
+        { "name": "2025", "value": 2.9, "display": "2.9%", "hint": "2025: NIM 2.9% — sharp compression on funding costs" },
+        { "name": "2026F", "value": 2.95, "display": "<3.0%", "soft": true, "hint": "2026 forecast: below 3.0% (FiinRatings, KBSV); VNDirect more optimistic at ~3.15%" }
+      ]
+    },
+    "roe": {
+      "title": "Forecast 2026 return on equity by bank",
+      "subtitle": "MBS Research estimates, % · scale 0–22%",
+      "scale_max": 22,
+      "axis_note": "0% ── 22%",
+      "caption": "Source: MBS Research, \"Vietnam Dynamics 2026 — Banking Sector\" (Dec 2025).",
+      "items": [
+        { "name": "MBB", "value": 20.2, "display": "20.2%", "hint": "MBBank (MBB): 20.2% — forecast industry leader on ROE" },
+        { "name": "VIB", "value": 17.5, "display": "17.5%", "hint": "VIB: 17.5%" },
+        { "name": "ACB", "value": 17.2, "display": "17.2%", "hint": "ACB: 17.2%" },
+        { "name": "VCB", "value": 16.9, "display": "16.9%", "hint": "Vietcombank (VCB): 16.9%" },
+        { "name": "TPB", "value": 16.9, "display": "16.9%", "hint": "TPBank (TPB): 16.9%" },
+        { "name": "VPB", "value": 16.9, "display": "16.9%", "hint": "VPBank (VPB): 16.9%" }
+      ]
+    },
+    "backing": {
+      "title": "How many research houses back each ticker",
+      "subtitle": "Count of houses naming the stock a top pick / BUY · scale 0–4",
+      "scale_max": 4,
+      "axis_note": "0 ── 4 houses",
+      "caption": "Compiled from MBS, Vietcap, Yuanta, VNDirect, SSI and VCBS 2026 sector reports. \"Backing\" = named top pick, BUY rating, or published target price.",
+      "items": [
+        { "name": "ACB", "value": 3, "display": "3", "hint": "ACB — MBS, Vietcap, Yuanta (BUY)" },
+        { "name": "VCB", "value": 3, "display": "3", "hint": "VCB — Vietcap (BUY, +25.8% upside), Yuanta (BUY), VNDirect (TP VND67,100)" },
+        { "name": "CTG", "value": 2, "display": "2", "hint": "CTG — MBS, Vietcap" },
+        { "name": "HDB", "value": 2, "display": "2", "hint": "HDB — Yuanta (BUY), VNDirect (TP VND37,100)" },
+        { "name": "VPB", "value": 2, "display": "2", "hint": "VPB — Yuanta (BUY); SSI/VCBS single it out for ~22.4% profit growth" },
+        { "name": "MBB", "value": 1, "display": "1", "hint": "MBB — Vietcap (Yuanta downgraded to HOLD-Outperform)" },
+        { "name": "BID", "value": 1, "display": "1", "hint": "BID — MBS" },
+        { "name": "TCB", "value": 1, "display": "1", "hint": "TCB — VNDirect (TP VND39,200); Yuanta downgraded to HOLD-Outperform" }
+      ]
+    }
+  },
+  "tickers": [
+    { "ticker": "ACB", "badge": "3× backed", "badge_class": "buy", "bank": "Asia Commercial Bank", "backers": "MBS · Vietcap · Yuanta", "numbers": "ROE 17.2%F · Moody's outlook positive", "case": "Low funding cost, conservative book, quota headroom — the consensus \"sleep-at-night\" compounder." },
+    { "ticker": "VCB", "badge": "3× backed", "badge_class": "buy", "bank": "Vietcombank", "backers": "Vietcap (BUY, +25.8% upside) · Yuanta · VNDirect (TP ₫67,100)", "numbers": "ROE 16.9%F · Moody's positive", "case": "The fortress franchise: best asset quality and capital buffers among state-linked banks; defensive pick if liquidity tightens further." },
+    { "ticker": "CTG", "badge": "2× backed", "badge_class": "buy", "bank": "VietinBank", "backers": "MBS · Vietcap", "numbers": "Profit +20.6%F (house est.) · Moody's positive", "case": "Prime beneficiary of accelerating public-investment lending; NIM recovery plus state-directed credit programs." },
+    { "ticker": "HDB", "badge": "2× backed", "badge_class": "buy", "bank": "HDBank", "backers": "Yuanta (BUY) · VNDirect (TP ₫37,100)", "numbers": "Above-system loan growth in Yuanta's 19% coverage average", "case": "Growth story with a restructuring-participation quota kicker." },
+    { "ticker": "VPB", "badge": "2× backed", "badge_class": "buy", "bank": "VPBank", "backers": "Yuanta (BUY) · SSI/VCBS (top profit grower)", "numbers": "Profit +22.4%F · guiding 35% credit growth · Moody's positive", "case": "The quota trade in its purest form: highest credit allowance in the system plus FE Credit consumer recovery and VPBankS contributions. Higher beta, higher reward." },
+    { "ticker": "MBB", "badge": "1× / split", "badge_class": "hold", "bank": "MBBank", "backers": "Vietcap (Yuanta: HOLD-Outperform)", "numbers": "ROE 20.2%F — forecast industry leader", "case": "Best-in-class profitability and CASA; the debate is valuation after the run, not quality." },
+    { "ticker": "BID", "badge": "1× backed", "badge_class": "hold", "bank": "BIDV", "backers": "MBS", "numbers": "Moody's positive · capital-raise plans", "case": "Public-investment lending exposure plus a capital increase to unlock growth." },
+    { "ticker": "TCB", "badge": "1× / split", "badge_class": "hold", "bank": "Techcombank", "backers": "VNDirect (TP ₫39,200; Yuanta: HOLD-Outperform)", "numbers": "High CASA franchise", "case": "Funding-cost advantage intact, but real-estate exposure caps enthusiasm at some houses." }
+  ],
+  "dashboard": [
+    { "house": "MBS", "report": "Vietnam Dynamics 2026 — Banking (Dec 2025)", "profit": "+20.5% NPAT", "profit_class": "up", "credit": "Private banks lead (16.7% vs 12.0% YTD 3Q25)", "nim": "Flat to slightly lower", "picks": "CTG, ACB, BID" },
+    { "house": "VCBS", "report": "2026 sector outlook", "profit": "+20%", "profit_class": "up", "credit": "Quota-driven", "nim": "Improving", "picks": "VPB (+22.4%F)" },
+    { "house": "ABS", "report": "2026 outlook", "profit": "~+18%", "profit_class": "up", "credit": "—", "nim": "—", "picks": "—" },
+    { "house": "Mirae Asset", "report": "Banking 1Q26 update (May 2026)", "profit": "+17.9%", "profit_class": "up", "credit": "Credit +2.4% vs deposits +0.8% YTD Mar", "nim": "Pressured; CIR down to 31.7%", "picks": "—" },
+    { "house": "SSI", "report": "2026 sector outlook (revised up)", "profit": "+17.6% PBT", "profit_class": "up", "credit": "~17.6%", "nim": "Recovering", "picks": "VPB highlighted" },
+    { "house": "VNDirect", "report": "2026 banking view / 2H26 strategy", "profit": "~+16% PBT", "profit_class": "up", "credit": "~17%", "nim": "~3.15% stable", "picks": "TCB, HDB, VCB" },
+    { "house": "Vietcap", "report": "2026 strategy; VCB BUY (Mar 2026)", "profit": "+15.9% PBT", "profit_class": "up", "credit": "Decelerating, selective", "nim": "—", "picks": "CTG, MBB, VCB, ACB" },
+    { "house": "Yuanta", "report": "Bank Sector Outlook 2026", "profit": "Overweight", "profit_class": "", "credit": "~20% system / 19% coverage", "nim": "—", "picks": "BUY: ACB, VCB, HDB, VPB" },
+    { "house": "KBSV", "report": "Banking industry report", "profit": "—", "profit_class": "", "credit": "Decelerating; credit/GDP >140%", "nim": "<3.0%", "nim_class": "down", "picks": "—" },
+    { "house": "FiinRatings", "report": "FY2025 Recap & 2026 Outlook (Apr 2026)", "profit": "~+15.9% (conservative)", "profit_class": "", "credit": "Moderating vs 19% in 2025", "nim": "<3.0%", "nim_class": "down", "picks": "Screen: capital + CASA + intl. funding" },
+    { "house": "VIS Rating", "report": "Banking Sector 3M2026 Update", "profit": "Cautious", "profit_class": "", "credit": "—", "nim": "−11bps in 1Q26; ROAA 1.4%", "nim_class": "down", "picks": "Large/SOE banks more resilient" },
+    { "house": "Moody's", "report": "Outlook actions (May)", "wide": "Six banks moved to <span class=\"up\">positive</span> outlook", "picks": "ACB, VCB, BID, Agribank, CTG, VPB" }
+  ],
+  "sources": [
+    { "name": "MBS Research", "links": [ { "label": "Vietnam Dynamics 2026 | Banking Sector (PDF)", "url": "https://www.mbs.com.vn/files/uploads/2025/12/Navi_2026_Banking_Strategic-Efforts-Toward-Sustaining-Double-Digit-Growth.pdf" } ] },
+    { "name": "SSI Research", "links": [ { "label": "Sector report portal", "url": "https://www.ssi.com.vn/en/organization-customer/sector-report" } ] },
+    { "name": "Vietcap", "links": [ { "label": "VCB update, BUY (PDF)", "url": "https://www.vietcap.com.vn/api/cms-api/uploads/file/202603/VCB-20260317-BUY.pdf" }, { "label": "Banking sector deck (PDF)", "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/VAD%202025%20-Master%20Class%20Banking.pdf" } ] },
+    { "name": "Yuanta Vietnam", "links": [ { "label": "Bank Sector: Outlook 2026", "url": "https://yuanta.com.vn/en/analysis/bank-sector_outlook-2026" } ] },
+    { "name": "Mirae Asset Vietnam", "links": [ { "label": "Banking 1Q26 (PDF)", "url": "https://masvn.com/api/attachment/file/1778833846440-20260515ENBanking1Q26.pdf" }, { "label": "2H26 strategy (PDF)", "url": "https://masvn.com/api/attachment/file/1781059759359-MASVN_RS_2H26_outlook_EN.pdf" } ] },
+    { "name": "KB Securities Vietnam", "links": [ { "label": "Banking sector report (PDF)", "url": "https://www.kbsec.com.vn/pic/Service/KBSV_Banking_Sector_Eng.pdf" } ] },
+    { "name": "FiinRatings", "links": [ { "label": "FY2025 Recap & 2026 Outlook (PDF)", "url": "https://fiinratings.vn/Data/2026/Report/FiinRatings_Vietnam-Banking-2026-Outlook.pdf" }, { "label": "summary", "url": "https://fiinratings.vn/en/news-fg/banking-sector-2026-spotlight-capital-strength-and-liquidity-will-shape-vietnam-banking-outlook-id2772252.html" } ] },
+    { "name": "VIS Rating", "links": [ { "label": "Banking Sector 3M2026 Update", "url": "https://visrating.com/research/banking-sector-3m2026-update.351.html" } ] },
+    { "name": "Moody's", "links": [ { "label": "six banks moved to positive outlook (via VIR)", "url": "https://vir.com.vn/moodys-ratings-upgrades-outlook-of-six-vietnamese-banks-to-positive-152134.html" } ] },
+    { "name": "Press syntheses", "links": [
+      { "label": "The Investor: the \"VIP pass\" of credit quotas", "url": "https://theinvestor.vn/vietnam-bank-profits-in-2026-the-vip-pass-of-credit-growth-quotas-d19421.html" },
+      { "label": "Việt Nam News: growth to moderate", "url": "https://vietnamnews.vn/economy/1767245/banking-sector-growth-to-moderate-in-2026.html" },
+      { "label": "Việt Nam News: liquidity pressure", "url": "https://vietnamnews.vn/economy/1780615/liquidity-pressure-remains-for-banking-system-in-2026.html" },
+      { "label": "VIR: diverging fortunes in 2H26", "url": "https://vir.com.vn/banks-face-diverging-fortunes-in-second-half-of-2026-155591.html" },
+      { "label": "The Investor: deposit rates hit 9%", "url": "https://theinvestor.vn/vietnam-bank-deposit-rates-hit-9-is-the-race-to-mobilize-capital-heating-up-again-d19497.html" }
+    ] }
+  ]
+}
