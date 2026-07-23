@@ -55,6 +55,7 @@ Use `research/templates/ticker-dossier.md`. Non-negotiable sections:
 - [ ] Any inspectorate/SSC/tax findings, ever — and how management responded
 
 **Financials (5 years + 8 quarters)**
+- [ ] **Annual report read cover-to-cover with notes filed** (`research/annual-reports/` program — auditor notes and related parties before the statements)
 - [ ] Fill the "figures to internalize" table in the dossier from FiinPro/SSI — by hand, not paste. Internalizing = typing the numbers and computing the ratios yourself
 - [ ] Earnings-quality screen (see guide §5): one-offs stripped, cash conversion, accrual ratio
 - [ ] Balance sheet stress: debt maturity wall, FX debt, off-BS commitments, pledged assets
@@ -116,6 +117,6 @@ Proposed size.** If it doesn't fit a page, the thesis isn't clear yet.
 | Rhythm | Work |
 |---|---|
 | Every 3h (automated) | Monitoring sweep → log |
-| Weekly | Price/TP table refresh; catalyst calendar check; read new sell-side reports |
+| Weekly | Price/TP table refresh; catalyst calendar check; read new sell-side reports; **one annual report from the reading program** |
 | Quarterly | Earnings re-underwrite per name; industry dossier refresh; banking-updates post |
 | Per trade | Thesis memo before, post-mortem after |
