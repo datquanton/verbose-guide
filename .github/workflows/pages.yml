@@ -1,0 +1,46 @@
+name: Deploy Research HQ to GitHub Pages
+
+on:
+  push:
+    branches: [claude/banking-vietnam-reports-scrape-5p6rtu]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp research-hq.html _site/index.html
+          cp research-hq.html _site/research-hq.html
+          cp -r banking-updates _site/banking-updates
+          mkdir -p _site/models
+          cp research/models/SNAPSHOT.md _site/models/SNAPSHOT.md || true
+
+      - name: Configure Pages (enables the site on first run)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
