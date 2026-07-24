@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "as_of": "2026-07-24",
+    "note": "Every number here is an ASSUMPTION or a sourced actual. Edit this file, rerun run.py. Sources: Q1/26 primary statements (KDH FS, HPG IR), 1H26 releases (TCB, VPB, TCX, VPX), v2 research note. Units: VND bn unless stated.",
+    "next_rebase": "on Q2/26 statements (HPG, KDH due end-July 2026)"
+  },
+
+  "portfolio": {
+    "positions": [
+      { "ticker": "KDH", "shares": 15200, "avg_cost": 24495, "price": 17700, "cluster": "Residential" },
+      { "ticker": "TCB", "shares": 5000, "avg_cost": 32000, "price": 28600, "cluster": "Techcom eco" },
+      { "ticker": "VPB", "shares": 4400, "avg_cost": 26852, "price": 24200, "cluster": "VPBank eco" },
+      { "ticker": "TCX", "shares": 1500, "avg_cost": 44049, "price": 39800, "cluster": "Techcom eco" },
+      { "ticker": "VPX", "shares": 1400, "avg_cost": 28099, "price": 25550, "cluster": "VPBank eco" },
+      { "ticker": "HPG", "shares": 80, "avg_cost": 24172, "price": 20500, "cluster": "Steel" }
+    ],
+    "max_single_name_pct": 20,
+    "max_cluster_pct": 35
+  },
+
+  "kdh": {
+    "actuals": {
+      "q1_revenue": 281.4, "q1_pbt": 355.7, "q1_bargain_gain": 285.2,
+      "q1_gross_margin": 0.65, "units_sold_pct_of_226": 0.60,
+      "units_handed_cumulative": 46, "q1_asp_per_unit_bn": 44,
+      "debt": 15348, "capitalized_interest_q1": 225.0,
+      "customer_advances": 688.6, "company_plan_npat": 1500,
+      "company_stretch_npat": 2500
+    },
+    "model": {
+      "gladia_lowrise_units_total": 226,
+      "asp_per_unit_bn": 42,
+      "gross_margin": 0.65,
+      "kdh_stake_gladia": 0.51,
+      "annual_opex_other": 350,
+      "tax_rate": 0.20,
+      "one_off_bargain_gain": 285,
+      "scenarios_units_handed_fy26": { "bear": 80, "base": 130, "bull": 185 }
+    }
+  },
+
+  "tcb": {
+    "actuals": { "h1_pbt": 18500, "loans_q2": 950000, "nim_q2": 0.034, "cir_h1": 0.297, "npl": 0.0115, "guidance_pbt": [35000, 37500] },
+    "model": {
+      "noninterest_share_of_toi": 0.35,
+      "cir": 0.30,
+      "scenarios": {
+        "credit_growth_fy": { "bear": 0.16, "base": 0.18, "bull": 0.20 },
+        "nim_fy": { "bear": 0.031, "base": 0.033, "bull": 0.035 },
+        "credit_cost": { "bear": 0.007, "base": 0.005, "bull": 0.004 }
+      },
+      "loans_start_fy": 830000,
+      "loans_mid_fy": 950000
+    }
+  },
+
+  "vpb": {
+    "actuals": { "h1_pbt": 18880, "credit_q2": 1060000, "credit_growth_ytd": 0.246, "target_pbt": 41600, "nim_guided": 0.044 },
+    "model": {
+      "noninterest_share_of_toi": 0.25,
+      "cir": 0.28,
+      "scenarios": {
+        "credit_growth_fy": { "bear": 0.30, "base": 0.35, "bull": 0.40 },
+        "nim_fy": { "bear": 0.041, "base": 0.043, "bull": 0.045 },
+        "credit_cost": { "bear": 0.026, "base": 0.022, "bull": 0.019 }
+      },
+      "credit_start_fy": 962000,
+      "loans_mid_fy": 1150000
+    }
+  },
+
+  "tcx": {
+    "actuals": { "h1_pbt": 3555, "fy_plan_pbt": 7535, "margin_book_q2": 51500, "margin_equity_pct": 0.98 },
+    "model": {
+      "h2_scenarios": {
+        "bear":  { "avg_margin_book": 46000, "margin_spread": 0.042, "other_income_vs_h1": 0.75 },
+        "base":  { "avg_margin_book": 52000, "margin_spread": 0.046, "other_income_vs_h1": 1.00 },
+        "bull":  { "avg_margin_book": 58000, "margin_spread": 0.050, "other_income_vs_h1": 1.25 }
+      },
+      "h1_margin_interest_est": 1100,
+      "pbt_margin_on_other": 0.55
+    },
+    "ftse_event_tree": [
+      { "name": "strong inflows + follow-through", "p": 0.35, "price_move": 0.20 },
+      { "name": "in-line, quiet digestion", "p": 0.45, "price_move": 0.05 },
+      { "name": "sell-the-news / flow disappointment", "p": 0.20, "price_move": -0.15 }
+    ]
+  },
+
+  "vpx": {
+    "actuals": { "h1_pbt": 2673, "fy_plan_pbt": 6453, "h1_fvtpl_gains": 3461, "margin_book_q2": 38000 },
+    "model": {
+      "h2_scenarios": {
+        "bear":  { "core_pbt_vs_h1": 0.9, "fvtpl_vs_h1": 0.4 },
+        "base":  { "core_pbt_vs_h1": 1.1, "fvtpl_vs_h1": 0.8 },
+        "bull":  { "core_pbt_vs_h1": 1.3, "fvtpl_vs_h1": 1.2 }
+      },
+      "h1_core_pbt_est": 1200,
+      "fvtpl_flowthrough_to_pbt": 0.42
+    },
+    "caex_option": [
+      { "name": "license granted ~Q3", "p": 0.40, "price_move": 0.15 },
+      { "name": "delayed / unresolved", "p": 0.45, "price_move": 0.00 },
+      { "name": "rejected (5-license cap)", "p": 0.15, "price_move": -0.08 }
+    ]
+  },
+
+  "hpg": {
+    "actuals": { "q1_npat": 9056, "q1_core_npat": 5046, "q1_divestment_gain": 4123, "q1_volume_mt": 3.0, "fy_target_npat": 22000, "street_range": [18000, 28000] },
+    "model": {
+      "remaining_volume_mt": { "bear": 10.5, "base": 11.5, "bull": 12.5 },
+      "core_npat_per_tonne_m": { "bear": 1.25, "base": 1.60, "bull": 1.85 },
+      "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario"
+    }
+  }
+}
