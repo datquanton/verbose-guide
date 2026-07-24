@@ -21,6 +21,13 @@ committed. Thesis-changing items also update `portfolio-ticker-research-2026.md`
 
 ## 2026-07-24
 
+- **17:00 ICT · Second brokerage account integrated (owner-supplied Yuanta screenshot).**
+  Combined book now spans 8 tickers (adds MBB, VCI). Risk map reframed: TCB ~35%
+  single name (breaches the 20% rule) and Techcom cluster ~40.5% (breaches 35%);
+  KDH falls to ~20.3% combined (within rules); HPG is a real ~17% position.
+  Banks total ~51.5% of book. Watch list extended to MBB and VCI; models and
+  weights updated; private tracker rebuilt.
+
 - **15:30 ICT · Q2 earnings tracker ingested (FiinTrade 24-Jul, owner-supplied).**
   OFFICIAL Q2/26 NPAT now on file: TCB ₫7,727bn (+21.7% YoY; 1H = 48.9% of plan),
   VPB ₫8,776bn (+77.7%; 45.7%), TCX ₫1,692bn (+19.1%; 47.1%), VPX ₫1,733bn

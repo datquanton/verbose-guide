@@ -16,14 +16,16 @@
   },
 
   "portfolio": {
-    "_note": "Weights only — absolute position sizes/costs are kept in the private layer, not this public repo.",
+    "_note": "Weights only — absolute position sizes/costs are kept in the private layer, not this public repo. v2: COMBINED across two brokerage accounts (integrated 2026-07-24); prices 24-Jul.",
     "positions": [
-      { "ticker": "KDH", "weight_pct": 43.7, "cluster": "Residential" },
-      { "ticker": "TCB", "weight_pct": 23.2, "cluster": "Techcom eco" },
-      { "ticker": "VPB", "weight_pct": 17.3, "cluster": "VPBank eco" },
-      { "ticker": "TCX", "weight_pct": 9.7, "cluster": "Techcom eco" },
-      { "ticker": "VPX", "weight_pct": 5.8, "cluster": "VPBank eco" },
-      { "ticker": "HPG", "weight_pct": 0.3, "cluster": "Steel" }
+      { "ticker": "TCB", "weight_pct": 35.0, "cluster": "Techcom eco" },
+      { "ticker": "KDH", "weight_pct": 20.3, "cluster": "Residential" },
+      { "ticker": "HPG", "weight_pct": 16.8, "cluster": "Steel" },
+      { "ticker": "VPB", "weight_pct": 10.0, "cluster": "VPBank eco" },
+      { "ticker": "MBB", "weight_pct": 6.5, "cluster": "Banks-other" },
+      { "ticker": "TCX", "weight_pct": 5.5, "cluster": "Techcom eco" },
+      { "ticker": "VCI", "weight_pct": 3.1, "cluster": "Brokers-other" },
+      { "ticker": "VPX", "weight_pct": 2.8, "cluster": "VPBank eco" }
     ],
     "max_single_name_pct": 20,
     "max_cluster_pct": 35

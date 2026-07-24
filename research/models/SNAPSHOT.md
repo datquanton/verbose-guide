@@ -6,20 +6,24 @@
 
 | Ticker | Cluster | Weight | vs 20% cap |
 |---|---|---:|---|
-| KDH | Residential | 43.7% | ⚠ BREACH |
-| TCB | Techcom eco | 23.2% | ⚠ BREACH |
-| VPB | VPBank eco | 17.3% | ok |
-| TCX | Techcom eco | 9.7% | ok |
-| VPX | VPBank eco | 5.8% | ok |
-| HPG | Steel | 0.3% | ok |
+| TCB | Techcom eco | 35.0% | ⚠ BREACH |
+| KDH | Residential | 20.3% | ⚠ BREACH |
+| HPG | Steel | 16.8% | ok |
+| VPB | VPBank eco | 10.0% | ok |
+| MBB | Banks-other | 6.5% | ok |
+| TCX | Techcom eco | 5.5% | ok |
+| VCI | Brokers-other | 3.1% | ok |
+| VPX | VPBank eco | 2.8% | ok |
 
 **Clusters** (cap 35%):
 
-- Residential: 43.7% ⚠ BREACH
-- Techcom eco: 32.9%
-- VPBank eco: 23.1%
-- Steel: 0.3%
-- Concentration (HHI): 0.288 — effective number of independent bets ≈ 3.5
+- Techcom eco: 40.5% ⚠ BREACH
+- Residential: 20.3%
+- Steel: 16.8%
+- VPBank eco: 12.8%
+- Banks-other: 6.5%
+- Brokers-other: 3.1%
+- Concentration (HHI): 0.211 — effective number of independent bets ≈ 4.7
 
 ## 2 · KDH — Gladia handover model (the whole 2026 P&L is one variable)
 

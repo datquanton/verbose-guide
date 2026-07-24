@@ -10,14 +10,28 @@ Buy-side style; companion to `vietnam-banking-industry-reports-2026.md`.
 public repo). Relative weights below are retained because the risk analysis
 depends on them.*
 
-| Ticker | Cluster | ~Weight |
+**Revised 2026-07-24 — combined across BOTH brokerage accounts** (a second account
+added MBB and VCI and materially more TCB and HPG). The risk map changed:
+
+| Ticker | Cluster | ~Weight (combined) |
 |---|---|---:|
-| KDH | HCMC residential | ~44% |
-| TCB | Techcom ecosystem | ~23% |
-| VPB | VPBank ecosystem | ~17% |
-| TCX | Techcom ecosystem | ~10% |
-| VPX | VPBank ecosystem | ~6% |
-| HPG | Steel | ~0.3% |
+| TCB | Techcom ecosystem | ~35% ⚠ |
+| KDH | HCMC residential | ~20% |
+| HPG | Steel | ~17% |
+| VPB | VPBank ecosystem | ~10% |
+| MBB | Banks (other) | ~6.5% |
+| TCX | Techcom ecosystem | ~5.5% |
+| VCI | Brokers (other) | ~3% |
+| VPX | VPBank ecosystem | ~3% |
+
+Combined-book read: **TCB is now the concentration issue** (35% single name vs the
+20% rule; Techcom cluster 40.5% vs the 35% rule), not KDH (20.3% — within rules on
+the combined view). HPG is a real position (~17%), not a tracker. Banks in total
+are 51.5% of the book; brokers 11.4%; everything remains long the same VN
+liquidity + FTSE macro factor. Effective independent bets ≈ 4.7 (HHI 0.211).
+MBB and VCI join the coverage list (S1 screens pending — MBB is the street's
+forecast ROE leader and a weak-bank-transfer quota beneficiary; VCI is a top-3
+broker at ~2.2x book and a named FTSE-upgrade pick).
 
 **What the deep-dive changed vs. v1 of this note:**
 - **Fundamentals are running ahead of prices everywhere except KDH.** VPB, TCB, TCX,
