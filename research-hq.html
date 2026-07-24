@@ -119,14 +119,14 @@
 <nav><div class="inner">
   <span class="brand">📈 Research HQ</span>
   <a href="#overview">Portfolio</a><a href="#tickers">Tickers</a><a href="#catalysts">Catalysts</a>
-  <a href="#process">Process</a><a href="#reading">Reading</a><a href="#monitoring">Monitoring</a>
-  <a href="#library">Library</a>
+  <a href="#models">Models</a><a href="#process">Process</a><a href="#reading">Reading</a>
+  <a href="#monitoring">Monitoring</a><a href="#library">Library</a>
 </div></nav>
 <div class="wrap">
 
 <h1>Vietnam Portfolio — Research HQ</h1>
 <p class="sub">Everything in one place: positions, ticker theses, dated catalysts, the systematic process, the annual-report program, and live monitoring. Source of truth is the repo (branch <code>claude/banking-vietnam-reports-scrape-5p6rtu</code>, PR #1); this page is the rendered map of it.</p>
-<p class="stamp">Data as of 2026-07-23 · prices from brokerage screenshot 2026-07-23 · rebuild by editing this file</p>
+<p class="stamp">Data as of 2026-07-24 · prices from brokerage screenshot 2026-07-23 · v2: adds primary-document reads (KDH Q1 FS, HPG Q1 IR), SSI project data, and the quantitative model layer</p>
 
 <h2 id="overview">1 · Portfolio dashboard</h2>
 <div class="tiles">
@@ -178,13 +178,13 @@
 <h2 id="tickers">2 · Ticker theses (from the v2 deep-dive)</h2>
 <div class="grid2">
   <div class="tcard">
-    <h3>KDH <span class="pill hot">thesis under stress</span></h3>
-    <div class="meta">Khang Dien · 43.7% · −27.7%</div>
-    <div class="kv"><span>1Q26 core rev <b class="neg">−60%</b></span><span>OCF <b class="neg">−₫634bn</b> (5th neg yr)</span><span>Advances <b class="neg">−80% → ₫379bn</b></span></div>
+    <h3>KDH <span class="pill soon">ops on track · leverage rising</span></h3>
+    <div class="meta">Khang Dien · 43.7% · −27.7% · Q1 FS read (primary doc)</div>
+    <div class="kv"><span>Core Q1 PBT <b class="neg">≈₫70bn</b> (ex ₫285bn paper gain)</span><span>Debt <b class="neg">+51% QoQ → ₫15.3tn</b></span><span>Gladia <b class="pos">60% sold · 65% GM</b></span></div>
     <ul>
-      <li>Selloff is company-specific: bond-inspectorate findings, VNDiamond removal ETF selling, foreign fund distribution, inventory 73% of assets</li>
-      <li>Bull: Gladia Heights Q3 launch (Keppel JV), Clarita ₫1.74tn cash in, insider 20m-share buy window to Aug 21, ~0.85–1.0x book</li>
-      <li><b>Rule: no averaging down; right-size into Q3 catalyst strength.</b> Key read: where are the Gladia deposits? (AR notes §1.1)</li>
+      <li><b>Primary-doc findings:</b> +131% headline = An Lap bargain-purchase gain; interest 100% capitalized (₫225bn/qtr ≈ 60% of planned NPAT); entire land bank pledged; ₫600bn advance signals another acquisition</li>
+      <li><b>Resolved:</b> Gladia vehicles fully consolidated — advances (₫689bn) genuine, just back-loaded to 12/2026; Keppel's 49% NCI profit flowing. SSI table: 2026 is a one-project year (Solina et al. slip to 2027+)</li>
+      <li><b>Rule: no averaging down; right-size into Q3 catalysts.</b> Watch the advances line quarterly — it IS the thesis</li>
     </ul>
   </div>
   <div class="tcard">
@@ -194,6 +194,7 @@
     <ul>
       <li>Record Q2 but Jul-21 revenue/EPS miss (−3–5% on the print); CASA 38.3%; quota-exempt infra lending in use</li>
       <li><b>7% cash + 60% bonus shares Q2–Q3: price will adjust ÷1.6 on ex-date — not a crash</b></li>
+      <li>Model check: even the bull grid (20% credit, 3.5% NIM) reaches only ~93% of the ₫37.5tn top target — guidance needs NIM recovery; the market's miss-reaction was rational</li>
       <li>Bear point: real-estate book (~59% of corporate) + Masterise nexus headlines</li>
     </ul>
   </div>
@@ -203,7 +204,8 @@
     <div class="kv"><span>1H26 PBT <b class="pos">+68%</b> (record)</span><span>Credit <b>+24.6% YTD</b>/35% cap</span><span>P/E <b>~7.7x fwd</b></span></div>
     <ul>
       <li>Subsidiary stack 1H26: VPBankS ₫2.67tn · GPBank ₫730bn · FE Credit only ₫153bn (provisions heavy)</li>
-      <li>~26% bonus issue then $250m foreign placement Q3–Q4 (FOL → 34%)</li>
+      <li>Capital raise re-tooled (Jul consultation): now a <b>26% stock dividend from retained earnings</b>, then $250m foreign placement Q3–Q4 (FOL → 34%)</li>
+      <li>Model check: the bank engine alone reaches only 65–79% of the ₫41.6tn target — the plan structurally leans on VPBankS ⇒ your VPB+VPX legs are more correlated than they look</li>
       <li>Only name the research supports adding to on weakness — sized vs FE Credit tail risk</li>
     </ul>
   </div>
@@ -213,7 +215,7 @@
     <div class="kv"><span>Q2 PBT <b class="pos">₫2.1tn record</b></span><span>Margin book <b>₫51.5tn #1</b></span><span>P/B <b class="flag">~2.4–2.5x est.</b></span></div>
     <ul>
       <li>47% of FY plan done at H1; 9.36% HOSE share (#3, gaining); ~48% bond-advisory share</li>
-      <li>Catalysts: <b>VN30 entry Aug 3</b> → FTSE Sep 21; slide = beta + 20%-dividend share supply, no negative found</li>
+      <li>Catalysts: <b>VN30 entry Aug 3</b> → FTSE Sep 21; model prices the FTSE event at <b>+6.2% EV</b> — a kicker, not a thesis</li>
       <li>Most expensive large broker — premium multiple is the risk if flows disappoint; post-event plan required</li>
     </ul>
   </div>
@@ -223,8 +225,8 @@
     <div class="kv"><span>Q2 PBT <b class="pos">4× YoY</b> (sector best)</span><span>Margin <b>₫38tn→50tn tgt</b></span><span>P/B <b class="flag">~1.4–1.5x est.</b></span></div>
     <ul>
       <li>Now the cheapest growth in the broker space; zero sell-side coverage; thin float (~80% VPB-held)</li>
-      <li>Free option: 11% of CAEX crypto exchange (OKX/HashKey-backed), license decision ~Q3</li>
-      <li>Same Sep 21 catalyst as TCX — different risk (coverage vs multiple)</li>
+      <li>Earnings-quality flag: H1 leaned on ₫3.46tn of FVTPL marks — model splits core vs marks; bear case lands at just 67% of plan</li>
+      <li>CAEX crypto-license option priced at <b>+4.8% EV</b> (decision ~Q3); same Sep 21 catalyst as TCX — different risk (quality vs multiple)</li>
     </ul>
   </div>
   <div class="tcard">
@@ -233,8 +235,8 @@
     <div class="kv"><span>1Q26 NPAT <b class="pos">+170%</b> (record)</span><span>1H crude steel <b>+36%</b></span><span>P/E <b>~8.2x</b> vs 10.5x avg</span></div>
     <ul>
       <li>Cheapest large-cap growth in the book; P/B at historical bottom zone; 10 buys / 0 sells, consensus ~33,625</li>
-      <li><b>Jul 28: US rebar AD final</b> (prelim 122%; US ~3% of revenue — headline &gt; earnings risk); EU duty 0% vs peers 12.1%</li>
-      <li>Watch: early-July domestic HRC price cuts (spread), DQ2 absorption; Q2 FS due end-July</li>
+      <li><b>Q1 IR read (primary doc): 45% of the record profit was the Pho Noi divestment gain</b> — core NPAT ₫5.0tn (+47%, still strong); DQ2 at 100% capacity; interest capitalization ended → ₫1.36tn/qtr now hits P&L</li>
+      <li><b>Jul 28: US rebar AD final</b> (prelim 122%; US ~3% of revenue — headline &gt; earnings risk); watch the spread, not volume (early-July HRC price cuts)</li>
     </ul>
   </div>
 </div>
@@ -255,7 +257,25 @@
   </tbody>
 </table></div>
 
-<h2 id="process">4 · The systematic process</h2>
+<h2 id="models">4 · Quantitative models (v0 — live)</h2>
+<p class="sub">Every position now has a runnable scenario model: beliefs live in <code>research/models/assumptions.json</code>, <code>run.py</code> regenerates the snapshot. Layer framework: L1 arithmetic + L2 scenarios here · L3 kill-criteria checks in the log · L4 judgment (governance, politics) deliberately kept OUT of the numbers.</p>
+<div class="tablewrap"><table>
+  <thead><tr><th>Model</th><th>Bear</th><th>Base</th><th>Bull</th><th>Company target</th><th>The exposed variable</th></tr></thead>
+  <tbody>
+    <tr><td>KDH NPAT (parent, ₫bn)</td><td class="num neg">1,033</td><td class="num">1,590</td><td class="num pos">2,203</td><td class="num">1,500 (stretch 2,500)</td><td>Gladia units handed (watch advances)</td></tr>
+    <tr><td>TCB PBT (₫bn)</td><td class="num">31,117</td><td class="num">33,230</td><td class="num">34,891</td><td class="num">35,000–37,500 <span class="flag">⚠ needs bull+</span></td><td>NIM recovery</td></tr>
+    <tr><td>VPB PBT (₫bn)</td><td class="num">26,898</td><td class="num">30,683</td><td class="num">~33,000</td><td class="num">41,600 <span class="flag">⚠ leans on VPX</span></td><td>Credit cost (FE Credit)</td></tr>
+    <tr><td>TCX PBT (₫bn)</td><td class="num">6,362</td><td class="num">7,206</td><td class="num">8,074</td><td class="num">7,535</td><td>Margin book × spread</td></tr>
+    <tr><td>VPX PBT (₫bn)</td><td class="num neg">4,334</td><td class="num">5,156</td><td class="num">5,977</td><td class="num">6,453 <span class="flag">⚠ FVTPL-reliant</span></td><td>Marks vs fees mix</td></tr>
+    <tr><td>HPG NPAT (₫bn)</td><td class="num">22,181</td><td class="num">27,456</td><td class="num pos">32,181</td><td class="num">22,000</td><td>Spread per tonne</td></tr>
+  </tbody>
+</table></div>
+<div class="card">
+  <b>Event pricing:</b> <span style="font-size:13px;color:var(--text-secondary)">FTSE Sep-21 tree → TCX EV ≈ +6.2% · CAEX license option → VPX EV ≈ +4.8% · Portfolio concentration: HHI 0.288 ⇒ ~3.5 effective independent bets across 6 lines.</span>
+  <div class="cap">Roadmap: P2 re-base on Q2 + FiinQuant feed + calibration log → P3 executable kill criteria + FTSE playbook (Aug) → P4 RNAV & justified-P/B bands (Sep–Oct) → P5 EV/correlation-based sizing (Q4). Full detail: research/models/README.md</div>
+</div>
+
+<h2 id="process">5 · The systematic process</h2>
 <p class="sub">Full playbook in <code>research/PROCESS.md</code> — every idea passes eight gates; no position without a dossier, no dossier without the checklist.</p>
 <div class="steps">
   <div class="step"><div class="n">S1</div><div class="t">Quick screen</div><div class="d">30–60 min · kill fast · red-flag scan</div></div>
@@ -272,23 +292,24 @@
   <div class="tablewrap"><table>
     <thead><tr><th>Ticker</th><th>S2 industry</th><th>S3 deep dive</th><th>AR notes</th><th>Dossier</th><th>S5 memo</th></tr></thead>
     <tbody>
-      <tr><td>KDH</td><td>✅ property (MBS et al.)</td><td>✅ v2 note</td><td>🟡 pre-filled draft — PDF pass pending</td><td>☐</td><td>☐</td></tr>
+      <tr><td>KDH</td><td>✅ property (MBS et al.)</td><td>✅ v2 note</td><td>🟢 Q1 FS read; AR PDF pass pending</td><td>☐</td><td>☐</td></tr>
       <tr><td>TCB</td><td>✅ banking catalog</td><td>✅ v2 note</td><td>☐ next in queue</td><td>☐</td><td>☐</td></tr>
       <tr><td>VPB</td><td>✅ banking catalog</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
       <tr><td>TCX</td><td>✅ brokerage (GTJA)</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
       <tr><td>VPX</td><td>✅ brokerage</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
-      <tr><td>HPG</td><td>✅ steel (MBS)</td><td>✅ v2 note</td><td>☐</td><td>☐</td><td>☐</td></tr>
+      <tr><td>HPG</td><td>✅ steel (MBS)</td><td>✅ v2 note</td><td>🟢 Q1 IR summary read</td><td>☐</td><td>☐</td></tr>
     </tbody>
   </table></div>
 </details>
 
-<h2 id="reading">5 · Annual-report reading program</h2>
+<h2 id="reading">6 · Annual-report reading program</h2>
 <p class="sub">Primary documents beat broker digests. Order: auditor opinion → FS notes → cash flow → balance sheet → P&amp;L → chairman letter last. One AR/week; full program in <code>research/annual-reports/README.md</code>.</p>
 <div class="grid2">
   <div class="card" style="margin:0">
     <h3 style="margin-top:0">Tier 1 — holdings</h3>
     <ul class="checks">
-      <li class="done">KDH AR2025 — notes pre-filled (deposits question is #1)</li>
+      <li class="done">KDH — Q1/26 FS read cover-to-cover (deposits question RESOLVED: consolidated, back-loaded); AR2025 PDF pass pending</li>
+      <li class="done">HPG — Q1/26 IR summary read (one-off gain identified)</li>
       <li>TCB AR2025 — hunt: RE loan %, Masterise related-party note</li>
       <li>VPB AR2025 — hunt: segment note (FE Credit/VPBankS/GPBank)</li>
       <li>TCX AR2025 — hunt: bond warehouse, margin concentration</li>
@@ -308,7 +329,7 @@
   </div>
 </div>
 
-<h2 id="monitoring">6 · Monitoring</h2>
+<h2 id="monitoring">7 · Monitoring</h2>
 <div class="tiles">
   <div class="tile"><div class="label">Routine</div><div class="value">every 3h</div><div class="note">SBV · USITC · ticker news → monitoring-log.md</div></div>
   <div class="tile"><div class="label">Lanes</div><div class="value">3</div><div class="note">policy / trade / company</div></div>
@@ -318,9 +339,10 @@
 <div class="card">
   <b>Per-name KPI watch:</b>
   <span style="font-size:13px; color:var(--text-secondary)">KDH — Gladia absorption &amp; customer advances · VPB — FE Credit NPL formation · TCB — RE book &amp; bonus ex-date · TCX/VPX — margin book vs system margin debt (₫454tn record) · HPG — HRC spread &amp; Jul 28 ruling · All — SBV deposit rates, quota revisions.</span>
+  <div class="cap"><b>Log so far:</b> Jul-23 16:20 — VPB switched phase-1 raise to a 26% stock dividend from retained earnings (mechanics only) · Jul-24 12:40 — KDH Q1 FS + HPG Q1 IR primary reads filed (findings in the ticker cards above). Quiet sweeps: 5.</div>
 </div>
 
-<h2 id="library">7 · Research library (repo map)</h2>
+<h2 id="library">8 · Research library (repo map)</h2>
 <div class="tablewrap"><table>
   <thead><tr><th>Artifact</th><th>Path</th><th>What it is</th></tr></thead>
   <tbody>
@@ -332,6 +354,8 @@
     <tr><td>Data sources map</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/guides/data-sources.md">research/guides/data-sources.md</a></td><td>FiinPro/SSI/SBV/USITC + known traps</td></tr>
     <tr><td>AR reading program</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/annual-reports/README.md">research/annual-reports/README.md</a></td><td>3-tier list with sourced links</td></tr>
     <tr><td>KDH AR notes (draft)</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/annual-reports/notes/KDH-AR2025.md">research/annual-reports/notes/KDH-AR2025.md</a></td><td>Pre-filled; PDF verification pass pending</td></tr>
+    <tr><td>Quant models + roadmap</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/README.md">research/models/</a></td><td>assumptions.json · run.py · SNAPSHOT.md · 5-phase roadmap</td></tr>
+    <tr><td>Model snapshot (generated)</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/SNAPSHOT.md">research/models/SNAPSHOT.md</a></td><td>Latest scenario tables — regenerate with run.py</td></tr>
     <tr><td>Monitoring log</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/monitoring-log.md">monitoring-log.md</a></td><td>3-hourly sweep entries (material only)</td></tr>
     <tr><td>Investor blog system</td><td><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/banking-updates/README.md">banking-updates/</a></td><td>Publishing pipeline + first update</td></tr>
   </tbody>
