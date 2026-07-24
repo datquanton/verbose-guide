@@ -54,7 +54,9 @@ broker at ~2.2x book and a named FTSE-upgrade pick).
 | Q3 2026 | Gladia Heights (high-rise) sales launch; Clarita 51% divestment completes (VND1,743bn) | KDH |
 | Q2–Q3 2026 | TCB 7% cash dividend + 60% bonus shares (ex-dates TBA — will mechanically adjust price/cost basis) | TCB |
 | Q3–Q4 2026 | VPB ~26% bonus issue, then 624.4m-share foreign placement (~$250m, FOL toward 34%) | VPB |
-| **Sep 21, 2026** | FTSE Secondary Emerging Market status effective (~$1.5bn passive, phased 10/20/35/35% to Sep-27) | TCX, VPX, TCB, VPB |
+| Late Jul | MBB & VCI official 2Q26 statements (VCI already filed; MBB pending) | MBB, VCI |
+| H2 (dates TBA) | MBB 15% stock dividend (VSD notice filed) + 10:1 rights issue @₫10,000 — price/cost adjust on ex-dates | MBB |
+| **Sep 21, 2026** | FTSE Secondary Emerging Market status effective (~$1.5bn passive, phased 10/20/35/35% to Sep-27) | TCX, VPX, TCB, VPB, **VCI (purest broker beneficiary)** |
 | Q3 2026 | Vietnam crypto-exchange pilot licenses (max 5); CAEX (VPBankS 11%, OKX/HashKey-backed) applied | VPX, VPB |
 
 ---
@@ -239,6 +241,39 @@ shares. Same conclusion as v1, now with more force: make it a real position or
 delete the line.
 
 ---
+
+## 6a. MBB — MB Bank (added 2026-07-24, combined-account integration; ~6.5%)
+
+**Metrics (FiinTrade 24-Jul; Q2 = VCBS estimate, official FS pending):** price 22,050;
+P/E TTM 7.5x; P/B 1.24x; **ROE TTM 20.9% — the sector leader** (matches MBS's
+forecast of MBB leading 2026 ROE at 20.2%). 1H26 NPAT est. ₫14,755bn (+16.4%),
+46.8% of the FY plan (PBT target ₫39,400bn, +15%).
+
+**Profile:** weak-bank-transfer participant (like VPB) → elevated credit quota and
+reserve-requirement relief; in MBS's and Vietcap's pick clusters; the
+highest-quality "boring" compounder in the book.
+
+**Catalysts / corporate actions:** 10% cash dividend already paid (record 10-Jul,
+paid from 17-Jul). **Pending: 15% stock dividend (VSD notice filed) and a 10:1
+rights issue at ₫10,000** — charter capital to ₫102.7tn (+27.5%). Both mechanically
+adjust price/cost basis; watch record dates. Official Q2 FS due end-July.
+[Sources: thoibaotaichinhvietnam](https://thoibaotaichinhvietnam.vn/mb-chi-hon-8000-ty-dong-tra-co-tuc-tien-mat-10-chot-quyen-ngay-107-199980.html), [VSD](https://vsd.vn/vi/ad/185869), [CafeF AGM](https://cafef.vn/dhdcd-ngan-hang-mb-co-dong-thac-mac-ke-hoach-chia-co-tuc-chu-tich-luu-trung-thai-noi-gi-188260418083800428.chn)
+
+## 6b. VCI — Vietcap Securities (added 2026-07-24; ~3.1%, worst P&L in book)
+
+**Metrics (official Q2):** price 20,500; P/E TTM 17.2x; P/B 1.38x; ROE TTM just
+8.9%. Q2 NPAT-MI ₫251bn (+36%, margin-lending driven), 1H ₫591bn = **only ~29% of
+the aggressive FY plan (PBT ₫2,300bn, +41%)** — the laggard of the broker trio.
+Q2 revenue flat (+1.4%); margin interest (₫463bn) is the largest line; brokerage
+fees ₫226bn (+2%); operating cash flow negative, bridged by borrowings.
+
+**Profile & catalysts:** the institutional/foreign-flow franchise — arguably the
+purest **FTSE Sep-21 beneficiary** among brokers (foreign funds execute through
+VCI), which is the bull case that must carry a stock running behind its own plan.
+Watch: Q3 acceleration (or the plan becomes fiction), margin funding costs, and
+foreign-flow prints into September. Kill-criteria question at −18%: does the FTSE
+thesis justify a sub-plan, 9%-ROE broker at 17x?
+[Sources: doanhnghiephoinhap](https://doanhnghiephoinhap.vn/vietcap-moi-hoan-thanh-29-ke-hoach-loi-nhuan-sau-nua-nam-143926.html), [nguoiquansat](https://nguoiquansat.vn/vietcap-bao-lai-quy-ii-2026-tang-36-ga-de-trung-vang-tiep-tuc-gia-tang-gia-tri-305488.html), [AGM](https://doanhnhan.baophapluat.vn/dhdcd-2026-chung-khoan-vietcap-vci-chot-muc-tieu-lai-2-300-ty-dong-lo-dien-nhom-co-dong-nam-giu-30-von-dieu-le.html)
 
 ## 7. Portfolio memo (updated)
 

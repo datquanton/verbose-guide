@@ -12,7 +12,9 @@
     "TCX": { "price": 41100, "pe_ttm": 20.3, "pb": 2.49, "roe_ttm": 0.137, "q2_npat": 1692, "h1_npat": 2840, "h1_npat_yoy": 0.168, "pct_of_fy_plan": 0.471, "status": "official" },
     "VPX": { "price": 26600, "pe_ttm": 14.0, "pb": 1.40, "roe_ttm": 0.162, "q2_npat": 1733, "h1_npat": 2169, "h1_npat_yoy": 2.005, "pct_of_fy_plan": 0.420, "status": "official" },
     "HPG": { "price": 20800, "pe_ttm": 8.04, "pb": 1.26, "roe_ttm": 0.164, "q2_npat_est": 5020, "h1_npat_est": 14076, "pct_of_fy_plan": 0.640, "status": "MBS estimate — official FS pending" },
-    "KDH": { "price": 18000, "pe_ttm": 19.2, "pb": 1.07, "roe_ttm": 0.066, "q2_npat_mi_est": 170, "h1_npat_mi_est": 451, "q2_npat_mi_yoy_est": -0.146, "status": "MBS estimate — official FS pending; WEAK vs 348bn street preview" }
+    "KDH": { "price": 18000, "pe_ttm": 19.2, "pb": 1.07, "roe_ttm": 0.066, "q2_npat_mi_est": 170, "h1_npat_mi_est": 451, "q2_npat_mi_yoy_est": -0.146, "status": "MBS estimate — official FS pending; WEAK vs 348bn street preview" },
+    "MBB": { "price": 22050, "pe_ttm": 7.46, "pb": 1.24, "roe_ttm": 0.209, "q2_npat_est": 7052, "h1_npat_est": 14755, "h1_npat_yoy": 0.164, "pct_of_fy_plan": 0.468, "status": "VCBS estimate — official FS pending; FY26 PBT plan 39,400 (+15%)" },
+    "VCI": { "price": 20500, "pe_ttm": 17.2, "pb": 1.38, "roe_ttm": 0.089, "q2_npat_mi": 251, "h1_npat_mi": 591, "q2_yoy": 0.363, "pct_of_fy_pbt_plan": 0.29, "status": "official — BEHIND plan (29% at 1H vs +41% FY PBT target)" }
   },
 
   "portfolio": {
