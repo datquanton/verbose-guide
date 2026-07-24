@@ -14,10 +14,15 @@
    related-party notes answer this — it is THE 2026 earnings question.
    **→ PARTLY RESOLVED (SSI project table, owner-supplied 2026-07-23): Gladia
    low-rise (226 units) was 60% SOLD by end-1Q26 with 34% of sold units handed
-   over — absorption is healthy. Working hypothesis: KDH's 51/49 structure with
-   Keppel is equity-accounted (joint control), so buyer deposits sit inside the JV
-   entity, not in consolidated advances. `[VERIFY IN AR PDF — JV/associate note:
-   consolidation method for the Gladia entity and its deposit balance]`**
+   over — absorption is healthy.**
+   **→ FULLY RESOLVED (Q1/26 consolidated FS, read 2026-07-24): the JV hypothesis
+   was WRONG — the Gladia vehicles (Doan Nguyen 50.85%, New Binh Trung 50.95%)
+   are FULLY CONSOLIDATED subsidiaries, so buyer deposits ARE in consolidated
+   advances (note 16: ₫688.6bn, up from ₫648.3bn). Advances are small not because
+   sales are weak but because the payment schedule is back-loaded (installments
+   run to 12/2026 under the interest-subsidy scheme). Keppel's 49% shows up as
+   NCI profit (+₫45.7bn in Q1 = handover profit flowing). Watch advances build
+   through 2026 as the collection curve steepens — that's the OCF turn.**
 2. **Capitalized interest inside ₫29tn of inventory** — how much of "inventory" is
    accrued borrowing cost, and which projects carry it? `[VERIFY IN AR PDF — inventory note]`
 3. **Post-inspectorate bond posture** — what do the debt notes disclose about the
@@ -97,6 +102,36 @@
 - [ ] Thesis impact check against kill criteria: advances <₫1tn by 3Q26 with Heights
       launched would falsify the "2026 handover doubling" story
 - Thesis impact: none ☐ / strengthens ☐ / **weakens ☐ pending §1.1 answer**
+
+## 9. Q1/26 consolidated FS — primary-document findings (read 2026-07-24)
+
+Owner-supplied PDF (signed 29-Apr-2026; quarterly = company-prepared, UNAUDITED).
+
+1. **The +131% headline is a paper gain.** Note 4.1: bought 99% of An Lap for
+   ₫2,552.8bn; inventory marked to fair value ₫5,429.5bn (step-up ≈ ₫2.59tn, DTL
+   ₫517.2bn @20%); net assets ₫2,869.5bn → **bargain gain ₫285.2bn** through
+   "other income." **Ex-gain PBT ≈ ₫70bn** (headline ₫355.7bn). Note 3.14: the gain
+   is excluded from distributable profit — the company itself treats it as non-cash.
+   Margin on the stepped-up Cat Lai inventory is already "pre-booked" — future COGS
+   will be at fair value, so reported margin on that project will look thin later.
+2. **P&L borrowing cost = ZERO; reality = ₫225bn/quarter.** All interest is
+   capitalized into inventory (Q1: ₫225.0bn; FY25: ₫801.0bn). Cash interest paid in
+   Q1: ₫195.0bn; accrued unpaid interest up to ₫176.9bn. At ₫15.35tn debt this runs
+   ~₫1.2–1.3tn/yr — flowing into inventory today, into COGS at handover tomorrow.
+3. **Debt +51% in one quarter**: ₫10.15tn → ₫15.35tn. New OCB ₫2.1tn explicitly
+   finances the An Lap/Cat Lai acquisition; CTG ₫2.96tn for Tan Tao Zone A. Rates:
+   8.5% (ST CTG, matured 16-Apr-26) / base+2.6–3.7% LT. Maturities 2027–2033 — no
+   near wall. **Every major project's land use rights are pledged** (notes 10, 14, 22).
+4. **The next acquisition is already funded:** "advance for capital transfer" was
+   ₫1,746bn at Dec-25 (the An Lap prepayment); **₫600bn still sits there** — another
+   deal pending. Plus ₫850bn advanced for site compensation (note 9).
+5. Inventory ₫29.13tn by project: Tan Tao ₫8.92tn · An Lap/BTD ₫5.45tn (stepped-up)
+   · Binh Trung ₫4.89tn · Doan Nguyen/Gladia ₫3.45tn (fell ₫37bn = the 6 handovers)
+   · 11A/Solina ₫2.07tn · Phong Phu 2 ₫1.92tn. Gross margin on Q1 handovers: **65%**.
+6. BCC side-deal (note 20): Viet Light ₫304bn + Man Chau ₫120bn co-funding a
+   10.7ha Binh Hung low-rise project — not in the SSI table; ask IR.
+7. Governance log: Le Hoang Khoi to BoD, Ly Tuan Kiet appointed Deputy GD
+   27-Mar-26 (pre-dating his 20m-share buy registration). Employees: 254.
 
 ### Sources used for pre-fill
 [Vietstock Q3-25 inventory](https://vietstock.vn/2025/10/ton-kho-cua-kdh-sap-can-moc-231-ngan-ty-quy-3-lai-gan-236-ty-737-1367258.htm) · [24hmoney inventory-by-project](https://24hmoney.vn/news/hang-ton-kho-dia-oc-2025-cua-de-danh-hay-cuc-mau-dong-trong-bang-can-doi-ke-toan-c3a2747076.html) · [advances −80%](https://baomoi.com/nha-khang-dien-huong-qua-ngot-tu-thuong-vu-m-a-nghin-ty-c55407820.epi) · [VnEconomy bond payments](https://vneconomy.vn/kdh-da-chi-hon-318-ty-thanh-toan-goc-va-lai-trai-phieu.htm) · [Gladia launch/pricing](https://angialand.com.vn/gladia-khang-dien-kepple-land-quan-2.html) · [elibook 2H25–27 map](https://elibook.vn/2025/08/26/kdh-toan-canh-2h2025-2027-gladia-kich-hoat-vong-quay-tan-tao-la-chia-khoa-tai-dinh-gia.html/) · [inspectorate finding](https://thuonghieucongluan.com.vn/khang-dien-bi-tuyt-coi-vi-dung-hon-100-ty-dong-tien-trai-phieu-de-tra-no-a318244.html) · plus v2 deep-dive sources in `portfolio-ticker-research-2026.md`

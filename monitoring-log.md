@@ -19,6 +19,18 @@ committed. Thesis-changing items also update `portfolio-ticker-research-2026.md`
 
 ---
 
+## 2026-07-24
+
+- **12:40 ICT · Primary documents read (owner-supplied): KDH Q1/26 consolidated FS + HPG Q1/26 IR summary.**
+  KDH: headline +131% profit rests on a ₫285bn bargain-purchase gain (An Lap);
+  ex-gain PBT ≈ ₫70bn; debt +51% QoQ to ₫15.35tn (all land pledged); interest 100%
+  capitalized (₫225bn in Q1); Gladia vehicles fully consolidated — advances ₫689bn
+  are real but back-loaded; ₫600bn advance signals another acquisition pending.
+  HPG: 45% of Q1 profit (₫4.12tn) was the Pho Noi real-estate divestment gain —
+  core NPAT ₫5.05tn (+47%); DQ2 at 100% capacity; interest capitalization ended →
+  interest expense now rising (₫1,359bn in Q1); debt ₫90.6tn entering repayment.
+  Full analysis in research/annual-reports/notes/KDH-AR2025.md §9 and the v2 note.
+
 ## 2026-07-23
 
 - **16:20 ICT · VPB — capital-raise method changed (shareholder consultation out).**
