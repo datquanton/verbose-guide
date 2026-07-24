@@ -1,8 +1,18 @@
 {
   "_meta": {
     "as_of": "2026-07-24",
-    "note": "Every number here is an ASSUMPTION or a sourced actual. Edit this file, rerun run.py. Sources: Q1/26 primary statements (KDH FS, HPG IR), 1H26 releases (TCB, VPB, TCX, VPX), v2 research note. Units: VND bn unless stated.",
-    "next_rebase": "on Q2/26 statements (HPG, KDH due end-July 2026)"
+    "note": "Every number here is an ASSUMPTION or a sourced actual. Edit this file, rerun run.py. Sources: Q1/26 primary statements (KDH FS, HPG IR), 1H26 releases (TCB, VPB, TCX, VPX), FiinTrade Q2 earnings tracker 24-Jul-26 (owner-supplied), v2 research note. Units: VND bn unless stated.",
+    "next_rebase": "on HPG/KDH official Q2/26 statements (FiinTrade rows for both are MBS estimates)"
+  },
+
+  "market_check_2026_07_24": {
+    "_source": "FiinTrade Earnings Update Q2.2026 (24-Jul-26 09:37), owner-supplied xlsx; NPAT basis; 'official' = company-filed",
+    "TCB": { "price": 29250, "pe_ttm": 7.57, "pb": 1.16, "roe_ttm": 0.157, "q2_npat": 7727, "h1_npat": 14677, "h1_npat_yoy": 0.187, "pct_of_fy_plan": 0.489, "status": "official" },
+    "VPB": { "price": 25000, "pe_ttm": 6.90, "pb": 1.11, "roe_ttm": 0.177, "q2_npat": 8776, "h1_npat": 15105, "h1_npat_yoy": 0.703, "pct_of_fy_plan": 0.457, "status": "official" },
+    "TCX": { "price": 41100, "pe_ttm": 20.3, "pb": 2.49, "roe_ttm": 0.137, "q2_npat": 1692, "h1_npat": 2840, "h1_npat_yoy": 0.168, "pct_of_fy_plan": 0.471, "status": "official" },
+    "VPX": { "price": 26600, "pe_ttm": 14.0, "pb": 1.40, "roe_ttm": 0.162, "q2_npat": 1733, "h1_npat": 2169, "h1_npat_yoy": 2.005, "pct_of_fy_plan": 0.420, "status": "official" },
+    "HPG": { "price": 20800, "pe_ttm": 8.04, "pb": 1.26, "roe_ttm": 0.164, "q2_npat_est": 5020, "h1_npat_est": 14076, "pct_of_fy_plan": 0.640, "status": "MBS estimate — official FS pending" },
+    "KDH": { "price": 18000, "pe_ttm": 19.2, "pb": 1.07, "roe_ttm": 0.066, "q2_npat_mi_est": 170, "h1_npat_mi_est": 451, "q2_npat_mi_yoy_est": -0.146, "status": "MBS estimate — official FS pending; WEAK vs 348bn street preview" }
   },
 
   "portfolio": {

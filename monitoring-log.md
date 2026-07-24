@@ -21,6 +21,18 @@ committed. Thesis-changing items also update `portfolio-ticker-research-2026.md`
 
 ## 2026-07-24
 
+- **15:30 ICT · Q2 earnings tracker ingested (FiinTrade 24-Jul, owner-supplied).**
+  OFFICIAL Q2/26 NPAT now on file: TCB ₫7,727bn (+21.7% YoY; 1H = 48.9% of plan),
+  VPB ₫8,776bn (+77.7%; 45.7%), TCX ₫1,692bn (+19.1%; 47.1%), VPX ₫1,733bn
+  (+293%; 42.0%). Real multiples replace estimates: TCB 7.6x/1.16x, VPB 6.9x/1.11x,
+  TCX 20.3x/2.49x, VPX 14.0x/1.40x (P/E TTM / P/B) — my TCX and VPX P/B estimates
+  confirmed. HPG and KDH rows are MBS ESTIMATES pending official FS: HPG Q2
+  ₫5,020bn (below the ₫6.4–6.5tn SSI/HSC previews), and **KDH Q2 parent NPAT
+  est. only ₫170bn (−14.6% YoY) vs the ₫348bn bullish preview — a bearish
+  datapoint on handover pace; official statement is the decider.** Prices
+  24-Jul: KDH 18,000 · TCB 29,250 · VPB 25,000 · TCX 41,100 · VPX 26,600 ·
+  HPG 20,800. Models/assumptions updated (market_check block).
+
 - **12:40 ICT · Primary documents read (owner-supplied): KDH Q1/26 consolidated FS + HPG Q1/26 IR summary.**
   KDH: headline +131% profit rests on a ₫285bn bargain-purchase gain (An Lap);
   ex-gain PBT ≈ ₫70bn; debt +51% QoQ to ₫15.35tn (all land pledged); interest 100%
