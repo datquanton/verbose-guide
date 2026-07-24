@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vietnam Equity Research</title>
+<style>
+  :root { color-scheme: light;
+    --page:#f9f9f7; --surface-1:#fcfcfb; --text-primary:#0b0b0b; --text-secondary:#52514e;
+    --text-muted:#898781; --grid:#e1e0d9; --border:rgba(11,11,11,0.10);
+    --series-1:#2a78d6; --good:#006300; --critical:#d03b3b; --warn:#b45309; }
+  @media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) {
+    color-scheme: dark; --page:#0d0d0d; --surface-1:#1a1a19; --text-primary:#fff; --text-secondary:#c3c2b7;
+    --text-muted:#898781; --grid:#2c2c2a; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --good:#0ca30c; --critical:#e66767; --warn:#fbbf24; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--page); color:var(--text-primary);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.6; font-size:15px; }
+  .wrap { max-width:980px; margin:0 auto; padding:24px 20px 80px; }
+  .kicker { font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--series-1); margin:16px 0 6px; }
+  h1 { font-size:clamp(26px,4vw,36px); margin:0 0 8px; letter-spacing:-0.01em; }
+  h2 { font-size:21px; margin:40px 0 10px; }
+  .sub { color:var(--text-secondary); max-width:75ch; }
+  .stamp { font-size:12px; color:var(--text-muted); }
+  a { color:var(--series-1); text-decoration:none; } a:hover { text-decoration:underline; }
+  .tablewrap { overflow-x:auto; margin:14px 0; border:1px solid var(--border); border-radius:12px; background:var(--surface-1); }
+  table { border-collapse:collapse; width:100%; font-size:13px; min-width:680px; }
+  th { text-align:left; font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--text-muted);
+    font-weight:700; padding:10px 12px; border-bottom:1px solid var(--grid); }
+  td { padding:9px 12px; border-bottom:1px solid var(--grid); color:var(--text-secondary); vertical-align:top; }
+  td:first-child { color:var(--text-primary); font-weight:600; white-space:nowrap; }
+  tr:last-child td { border-bottom:0; }
+  td.num { font-variant-numeric:tabular-nums; text-align:right; white-space:nowrap; }
+  .flag { color:var(--warn); font-weight:600; } .pos{color:var(--good);font-weight:600;} .neg{color:var(--critical);font-weight:600;}
+  .grid2 { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px; }
+  .card { background:var(--surface-1); border:1px solid var(--border); border-radius:12px; padding:16px 18px; }
+  .card h3 { margin:0 0 4px; font-size:16px; }
+  .card ul { margin:6px 0 0; padding-left:18px; font-size:13px; color:var(--text-secondary); }
+  .card li { margin:4px 0; }
+  .pill { display:inline-block; font-size:10.5px; font-weight:700; padding:1px 8px; border-radius:999px; border:1px solid var(--border); color:var(--series-1); }
+  .disclaimer { font-size:12px; color:var(--text-muted); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-top:36px; background:var(--surface-1); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="kicker">Independent Research · Vietnam Equities</p>
+  <h1>Vietnam Equity Research</h1>
+  <p class="sub">Coverage of Vietnamese banks, brokers, property and steel — built on primary documents (audited statements, filings) and cross-checked against sell-side research from a dozen houses. Company-level scenario models with every assumption published.</p>
+  <p class="stamp">Updated 2026-07-24 · <a href="banking-updates/index.html">Investor updates archive →</a></p>
+
+  <h2>Coverage — 2026 theses in one line</h2>
+  <div class="grid2">
+    <div class="card"><h3>KDH — Khang Dien <span class="pill">property</span></h3><ul>
+      <li>Q1 FS read: +131% headline rests on a ₫285bn bargain-purchase gain; core PBT ≈ ₫70bn; debt +51% QoQ, interest fully capitalized (₫225bn/qtr)</li>
+      <li>Operationally on track: Gladia 60% sold at 65% gross margin, deposits consolidated &amp; back-loaded to 12/2026; 2026 is a one-project year</li></ul></div>
+    <div class="card"><h3>TCB — Techcombank <span class="pill">bank</span></h3><ul>
+      <li>Record Q2 (₫9.7tn PBT), NIM back to 3.4%, CASA 38.3%; 7% cash + 60% bonus shares pending</li>
+      <li>Model: even bull-case grid reaches only ~93% of the ₫37.5tn top target — guidance needs NIM recovery</li></ul></div>
+    <div class="card"><h3>VPB — VPBank <span class="pill">bank</span></h3><ul>
+      <li>Record 1H (₫18.9tn PBT, +68%), credit +24.6% YTD vs 35% ceiling; 26% stock dividend + $250m foreign placement ahead</li>
+      <li>Model: the bank engine alone reaches 65–79% of the ₫41.6tn target — plan leans on VPBankS; FE Credit credit-cost is the swing factor</li></ul></div>
+    <div class="card"><h3>TCX — TCBS <span class="pill">broker</span></h3><ul>
+      <li>Record Q2 (₫2.1tn PBT), largest margin book (₫51.5tn), 47% of FY plan at H1; VN30 entry Aug 3</li>
+      <li>Most expensive large broker (~2.4x book est.); FTSE Sep-21 event tree prices at ≈ +6% EV — a kicker, not a thesis</li></ul></div>
+    <div class="card"><h3>VPX — VPBankS <span class="pill">broker</span></h3><ul>
+      <li>Sector-best Q2 growth (PBT 4x) but H1 leaned on ₫3.5tn FVTPL marks — core vs marks modeled separately</li>
+      <li>Cheapest broker growth (~1.4–1.5x book est.), zero sell-side coverage; CAEX crypto-license option ≈ +5% EV</li></ul></div>
+    <div class="card"><h3>HPG — Hoa Phat <span class="pill">steel</span></h3><ul>
+      <li>Q1 IR read: 45% of record profit was the Pho Noi divestment gain; core +47% with DQ2 at 100% capacity</li>
+      <li>~8x earnings, P/B at historical bottom zone; Jul-28 US rebar final is headline risk (~3% of revenue); watch the HRC spread</li></ul></div>
+  </div>
+
+  <h2>Scenario models (company level — assumptions published in the repo)</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Model (₫bn)</th><th class="num">Bear</th><th class="num">Base</th><th class="num">Bull</th><th class="num">Company target</th><th>The exposed variable</th></tr></thead>
+    <tbody>
+      <tr><td>KDH NPAT (parent)</td><td class="num neg">1,033</td><td class="num">1,590</td><td class="num pos">2,203</td><td class="num">1,500 (stretch 2,500)</td><td>Gladia units handed</td></tr>
+      <tr><td>TCB PBT</td><td class="num">31,117</td><td class="num">33,230</td><td class="num">34,891</td><td class="num">35,000–37,500 <span class="flag">⚠</span></td><td>NIM recovery</td></tr>
+      <tr><td>VPB PBT</td><td class="num">26,898</td><td class="num">30,683</td><td class="num">~33,000</td><td class="num">41,600 <span class="flag">⚠ leans on VPX</span></td><td>Credit cost (FE)</td></tr>
+      <tr><td>TCX PBT</td><td class="num">6,362</td><td class="num">7,206</td><td class="num">8,074</td><td class="num">7,535</td><td>Margin book × spread</td></tr>
+      <tr><td>VPX PBT</td><td class="num neg">4,334</td><td class="num">5,156</td><td class="num">5,977</td><td class="num">6,453 <span class="flag">⚠ FVTPL</span></td><td>Marks vs fees mix</td></tr>
+      <tr><td>HPG NPAT</td><td class="num">22,181</td><td class="num">27,456</td><td class="num pos">32,181</td><td class="num">22,000</td><td>Spread per tonne</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Catalyst calendar</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Date</th><th>Event</th><th>Affects</th></tr></thead>
+    <tbody>
+      <tr><td>Jul 28</td><td>US rebar anti-dumping final determination (prelim 121.97% on Hoa Phat)</td><td>HPG</td></tr>
+      <tr><td>Late Jul</td><td>HPG &amp; KDH 2Q26 financial statements</td><td>HPG, KDH</td></tr>
+      <tr><td>Aug 3</td><td>TCX joins VN30</td><td>TCX</td></tr>
+      <tr><td>Q3</td><td>Gladia Heights launch · Clarita divestment completes · CAEX license decision</td><td>KDH, VPX</td></tr>
+      <tr><td>Q2–Q4</td><td>TCB 60% bonus + 7% cash · VPB 26% stock dividend + foreign placement (ex-dates pending)</td><td>TCB, VPB</td></tr>
+      <tr><td><b>Sep 21</b></td><td><b>FTSE Secondary Emerging effective</b> (~$1.5bn passive, phased to Sep-27)</td><td>All</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Research library</h2>
+  <p class="sub" style="font-size:14px">
+    <a href="banking-updates/index.html">Investor updates (blog)</a> ·
+    <a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/vietnam-banking-industry-reports-2026.md">2026 banking sector report catalog (12 houses)</a> ·
+    <a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/PROCESS.md">research process</a> ·
+    <a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/README.md">models &amp; assumptions</a> ·
+    <a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/guides/accounting-modelling-guide.md">accounting &amp; modelling guide</a>
+  </p>
+
+  <div class="disclaimer"><b>Disclosure &amp; disclaimer.</b> Independent research for information only; not investment advice, an offer, or a solicitation. Aggregates third-party research (forecasts belong to their publishers, with their dates) and public filings; estimates are flagged in-line. The author may hold positions in securities discussed. Vietnamese equities carry market, liquidity, currency and regulatory risk.</div>
+</div>
+</body>
+</html>

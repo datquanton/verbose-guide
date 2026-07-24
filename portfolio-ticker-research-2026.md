@@ -4,17 +4,20 @@
 valuations, dated analyst targets, corporate actions, and June–July 2026 news).
 Buy-side style; companion to `vietnam-banking-industry-reports-2026.md`.
 
-## 0. Portfolio snapshot (from brokerage account)
+## 0. Portfolio snapshot
 
-| Ticker | Shares | Avg cost | Market | P&L | Mkt value (VNDm) | ~Weight |
-|---|---:|---:|---:|---:|---:|---:|
-| KDH | 15,200 | 24,495 | 17,700 | **−27.7%** | 269.0 | ~44% |
-| TCB | 5,000 | 32,000 | 28,600 | −10.6% | 143.0 | ~23% |
-| VPB | 4,400 | 26,852 | 24,200 | −9.9% | 106.5 | ~17% |
-| TCX | 1,500 | 44,049 | 39,800 | −9.7% | 59.7 | ~10% |
-| VPX | 1,400 | 28,099 | 25,550 | −9.1% | 35.8 | ~6% |
-| HPG | 80 | 24,172 | 20,500 | −15.2% | 1.6 | ~0.3% |
-| **Total** | | | | **≈ −18.8%** (−₫142.2m / ₫757.8m cost) | **≈ 615.6** | 100% |
+*Position sizes, cost bases and P&L amounts are tracked privately (outside this
+public repo). Relative weights below are retained because the risk analysis
+depends on them.*
+
+| Ticker | Cluster | ~Weight |
+|---|---|---:|
+| KDH | HCMC residential | ~44% |
+| TCB | Techcom ecosystem | ~23% |
+| VPB | VPBank ecosystem | ~17% |
+| TCX | Techcom ecosystem | ~10% |
+| VPX | VPBank ecosystem | ~6% |
+| HPG | Steel | ~0.3% |
 
 **What the deep-dive changed vs. v1 of this note:**
 - **Fundamentals are running ahead of prices everywhere except KDH.** VPB, TCB, TCX,

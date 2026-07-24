@@ -23,14 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Assemble site
+      - name: Assemble site (public research only — no personal portfolio data)
         run: |
           mkdir -p _site
-          cp research-hq.html _site/index.html
-          cp research-hq.html _site/research-hq.html
+          cp public/index.html _site/index.html
           cp -r banking-updates _site/banking-updates
-          mkdir -p _site/models
-          cp research/models/SNAPSHOT.md _site/models/SNAPSHOT.md || true
 
       - name: Configure Pages (enables the site on first run)
         uses: actions/configure-pages@v5

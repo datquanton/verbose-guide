@@ -25,29 +25,21 @@ def vnd(x):
 # ---------------------------------------------------------------- portfolio
 def portfolio():
     p = A["portfolio"]
-    rows, clusters = [], {}
-    total_mv = total_cost = 0.0
-    for pos in p["positions"]:
-        mv = pos["shares"] * pos["price"] / 1e6      # VND m
-        cost = pos["shares"] * pos["avg_cost"] / 1e6
-        total_mv += mv
-        total_cost += cost
-        clusters[pos["cluster"]] = clusters.get(pos["cluster"], 0) + mv
-        rows.append((pos["ticker"], pos["cluster"], mv, cost))
-    w("## 1 · Portfolio (Layer 1 — arithmetic, zero judgment)\n")
-    w("| Ticker | Cluster | Value ₫m | P&L ₫m | P&L % | Weight | vs 20% cap |")
-    w("|---|---|---:|---:|---:|---:|---|")
-    for t, c, mv, cost in sorted(rows, key=lambda r: -r[2]):
-        wt = mv / total_mv * 100
+    total = sum(pos["weight_pct"] for pos in p["positions"])
+    clusters = {}
+    w("## 1 · Portfolio structure (weights only — sizes live in the private layer)\n")
+    w("| Ticker | Cluster | Weight | vs 20% cap |")
+    w("|---|---|---:|---|")
+    for pos in sorted(p["positions"], key=lambda x: -x["weight_pct"]):
+        wt = pos["weight_pct"]
+        clusters[pos["cluster"]] = clusters.get(pos["cluster"], 0) + wt
         flag = "⚠ BREACH" if wt > p["max_single_name_pct"] else "ok"
-        w(f"| {t} | {c} | {mv:,.1f} | {mv-cost:+,.1f} | {(mv/cost-1)*100:+.1f}% | {wt:.1f}% | {flag} |")
-    w(f"| **Total** | | **{total_mv:,.1f}** | **{total_mv-total_cost:+,.1f}** | **{(total_mv/total_cost-1)*100:+.1f}%** | 100% | |")
+        w(f"| {pos['ticker']} | {pos['cluster']} | {wt:.1f}% | {flag} |")
     w("\n**Clusters** (cap {}%):\n".format(p["max_cluster_pct"]))
-    for c, mv in sorted(clusters.items(), key=lambda kv: -kv[1]):
-        wt = mv / total_mv * 100
+    for c, wt in sorted(clusters.items(), key=lambda kv: -kv[1]):
         flag = " ⚠ BREACH" if wt > p["max_cluster_pct"] else ""
         w(f"- {c}: {wt:.1f}%{flag}")
-    hhi = sum((mv / total_mv) ** 2 for _, _, mv, _ in rows)
+    hhi = sum((pos["weight_pct"] / total) ** 2 for pos in p["positions"])
     w(f"- Concentration (HHI): {hhi:.3f} — effective number of independent bets ≈ {1/hhi:.1f}")
     w("")
 

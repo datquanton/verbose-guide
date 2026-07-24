@@ -6,13 +6,14 @@
   },
 
   "portfolio": {
+    "_note": "Weights only — absolute position sizes/costs are kept in the private layer, not this public repo.",
     "positions": [
-      { "ticker": "KDH", "shares": 15200, "avg_cost": 24495, "price": 17700, "cluster": "Residential" },
-      { "ticker": "TCB", "shares": 5000, "avg_cost": 32000, "price": 28600, "cluster": "Techcom eco" },
-      { "ticker": "VPB", "shares": 4400, "avg_cost": 26852, "price": 24200, "cluster": "VPBank eco" },
-      { "ticker": "TCX", "shares": 1500, "avg_cost": 44049, "price": 39800, "cluster": "Techcom eco" },
-      { "ticker": "VPX", "shares": 1400, "avg_cost": 28099, "price": 25550, "cluster": "VPBank eco" },
-      { "ticker": "HPG", "shares": 80, "avg_cost": 24172, "price": 20500, "cluster": "Steel" }
+      { "ticker": "KDH", "weight_pct": 43.7, "cluster": "Residential" },
+      { "ticker": "TCB", "weight_pct": 23.2, "cluster": "Techcom eco" },
+      { "ticker": "VPB", "weight_pct": 17.3, "cluster": "VPBank eco" },
+      { "ticker": "TCX", "weight_pct": 9.7, "cluster": "Techcom eco" },
+      { "ticker": "VPX", "weight_pct": 5.8, "cluster": "VPBank eco" },
+      { "ticker": "HPG", "weight_pct": 0.3, "cluster": "Steel" }
     ],
     "max_single_name_pct": 20,
     "max_cluster_pct": 35

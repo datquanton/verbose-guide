@@ -2,17 +2,16 @@
 
 > Regenerate: `python3 research/models/run.py` · Edit beliefs in `assumptions.json` — git history of that file IS the record of how your views changed.
 
-## 1 · Portfolio (Layer 1 — arithmetic, zero judgment)
+## 1 · Portfolio structure (weights only — sizes live in the private layer)
 
-| Ticker | Cluster | Value ₫m | P&L ₫m | P&L % | Weight | vs 20% cap |
-|---|---|---:|---:|---:|---:|---|
-| KDH | Residential | 269.0 | -103.3 | -27.7% | 43.7% | ⚠ BREACH |
-| TCB | Techcom eco | 143.0 | -17.0 | -10.6% | 23.2% | ⚠ BREACH |
-| VPB | VPBank eco | 106.5 | -11.7 | -9.9% | 17.3% | ok |
-| TCX | Techcom eco | 59.7 | -6.4 | -9.6% | 9.7% | ok |
-| VPX | VPBank eco | 35.8 | -3.6 | -9.1% | 5.8% | ok |
-| HPG | Steel | 1.6 | -0.3 | -15.2% | 0.3% | ok |
-| **Total** | | **615.6** | **-142.2** | **-18.8%** | 100% | |
+| Ticker | Cluster | Weight | vs 20% cap |
+|---|---|---:|---|
+| KDH | Residential | 43.7% | ⚠ BREACH |
+| TCB | Techcom eco | 23.2% | ⚠ BREACH |
+| VPB | VPBank eco | 17.3% | ok |
+| TCX | Techcom eco | 9.7% | ok |
+| VPX | VPBank eco | 5.8% | ok |
+| HPG | Steel | 0.3% | ok |
 
 **Clusters** (cap 35%):
 
