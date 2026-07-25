@@ -1,22 +1,30 @@
-# Portfolio Monitoring Log — HPG · KDH · TCB · TCX · VPB · VPX
+# Portfolio Monitoring Log — HPG · KDH · TCB · TCX · VPB · VPX · MBB · VCI
 
-Hourly automated sweep for material developments. Watch list:
+Automated sweep every ~3h for material developments. Watch list v2 (expanded 2026-07-25):
 
-1. **State Bank of Vietnam (SBV)** — policy rates, OMO/liquidity operations, credit
-   quota changes/removal pilot, deposit-rate caps, FX/USDVND interventions.
-2. **USITC / US Dept. of Commerce** — steel trade actions on Vietnam; near-term:
-   rebar anti-dumping FINAL determination due ~2026-07-28 (prelim 121.97% on Hoa Phat);
-   CORE AD/CVD administrative reviews.
-3. **Credible news** (Reuters, The Investor, VIR, Việt Nam News, CafeF, Vietstock,
-   TCBS/company IR) on the six tickers — earnings (HPG & KDH 2Q26 statements due
-   end-July), corporate-action ex-dates (TCB 60% bonus, VPB bonus + placement),
-   index events (TCX→VN30 Aug 3, FTSE Sep 21), CAEX crypto license (~Q3), KDH
-   insider-buy execution (window to Aug 21) and Clarita divestment completion.
+**Core lanes (every sweep):**
+1. **Vietnam macro/policy** — SBV rates, OMO/liquidity, credit-quota policy & removal
+   pilot, credit/deposit growth prints, USD/VND, interbank & deposit rates; GSO data
+   (CPI, GDP, PMI); Fed decisions as they affect VN.
+2. **US trade** — USITC/Commerce on Vietnam steel; near-term: rebar AD FINAL
+   (~2026-07-28, prelim 121.97% on Hoa Phat); CORE AD/CVD reviews; new cases.
+3. **All eight holdings** — official Q2/26 statements (HPG, KDH, MBB pending vs
+   on-file estimates), corporate-action record/ex-dates (TCB 60%+7%, VPB 26%+placement,
+   MBB 15%+rights 10:1@10,000), TCX→VN30 Aug 3, KDH insider buy (to Aug 21) &
+   Clarita & Gladia absorption, CAEX license (~Q3), VCI pace vs +41% plan.
+
+**Rotating lanes (1–2 per sweep, all daily):**
+4. **Index & flows** — FTSE Sep-21 progress, MSCI watchlist, VN30/VNDiamond reviews,
+   foreign net flows, system margin debt, KRX system.
+5. **Sector reads** — steel prices/spread inputs; HCMC property approvals & land-fee
+   changes & developer bonds (Masterise re TCB); bank/broker circulars (91/102), NPLs.
+6. **Competitors & street** — peer prints that reprice our names (VPS, SSI, HCM, VCB,
+   ACB, CTG, HSG, NKG, NLG, VHM, NVL); new TPs on the eight; VPS IPO.
+7. **Ownership signals** — insider/major-shareholder filings, foreign-room changes.
 
 Rules: entries are appended newest-first, dated with time (ICT). Material items get
 sources and a one-line "so what" tied to the portfolio. Quiet sweeps are not
 committed. Thesis-changing items also update `portfolio-ticker-research-2026.md`.
-
 ---
 
 ## 2026-07-24
