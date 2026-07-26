@@ -236,6 +236,17 @@
       "remaining_volume_mt": { "bear": 10.5, "base": 11.5, "bull": 12.5 },
       "core_npat_per_tonne_m": { "bear": 1.25, "base": 1.60, "bull": 1.85 },
       "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario",
+      "spread_bridge_2026_07_26": {
+        "_see": "research/models/hpg-spread-bridge.md — NPAT/t reconstructed from input prices instead of asserted",
+        "consumption_per_t_steel": { "iron_ore_t": 1.6, "coking_coal_t": 0.65 },
+        "conversion_usd_t": 114, "da_usd_t": 49, "sga_usd_t": 15, "interest_usd_t": 17,
+        "_calibration": "conversion solved so the bridge reproduces the KNOWN Q1/26 actual 1.68m/t at Q1 inputs (ore 101, coal 190, HRC 560)",
+        "gearing_vnd_m_per_t": { "per_usd20_hrc": 0.42, "per_usd10_iron_ore": 0.34, "per_usd10_coking_coal": 0.14 },
+        "hrc_required_usd_t": { "bear_1.25m": 581, "base_1.60m": 598, "bull_1.85m": 610 },
+        "FINDING": "At spot (HRC 539, ore 115, coal 220) the all-in pre-tax cost is 522/t — a ~3% margin — implying only 0.36m/t. EVERY branch including bear assumes HRC RECOVERS; the bear case needs +7.9%. No branch describes the world as it is.",
+        "TIMING": "Ore/coal are bought 1-2 quarters forward, so Q2/26 reflects CHEAP Q1 inputs and the late-July squeeze lands in Q3. A strong Q2 print (~Jul 28) does NOT refute the bear thesis.",
+        "recommended_but_NOT_applied": "Add a 4th branch spot_persists = 0.36m/t (~4.1tn H2 core on 11.5mt vs 14.4tn at the bear branch). Adding a branch and reweighting probabilities is a judgment change reserved for a human (charter 2)."
+      },
       "spread_watch_2026_07_26": "BEAR EVIDENCE ACCUMULATING: Formosa cut Aug/Sep HRC by ~US$40/t (VND1,050/kg); Indian HRC ~US$535/t landed; iron ore up to ~US$115/t (from 98-104 at Q1) and coking coal 2026F raised to US$220/t. Both blades of the spread moving against HPG — weight the bear branch until the official Q2 print settles it."
     }
   }
