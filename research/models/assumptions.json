@@ -124,6 +124,16 @@
     ]
   },
 
+  "_LOOKTHROUGH_EXPOSURE_2026_07_27": {
+    "_ESCALATION": "The cluster map understates industry concentration by 71%. Consolidated subsidiaries are counted inside their parent's ecosystem, so brokerage shows as a 3.1% 'Brokers-other' cluster when the book is economically 19.5% Vietnamese brokerage.",
+    "tcbs_share_of_tcb_1h_pbt": 0.192,
+    "vpbanks_share_of_vpb_1h_pbt": 0.142,
+    "effective_broker_pct": { "TCX": 12.23, "VPX": 4.22, "VCI": 3.10, "total": 19.54, "stated_total": 11.4 },
+    "banks_ex_broker_pct": 43.4,
+    "so_what": "Three brokers, one margin cycle, one Sep-21 FTSE event, at record system margin debt (435-454tn). The optimizer's +5.1pp TCX add starts from an effective 12.2%, not 5.5%, and would take broker exposure to ~25% of the book.",
+    "recommended_NOT_applied": "Add a look-through industry layer beside the cluster map; and for parent/subsidiary pairs (TCB/TCX, VPB/VPX) the 0.80 same-cluster correlation is wrong — that is consolidation, not correlation. Optimizer config is human-only (charter section 4)."
+  },
+
   "optimizer": {
     "_note": "Turns expected returns into TARGET WEIGHTS. No covariance matrix exists for this book, so risk is modeled honestly: sigma from scenario dispersion blended with a base equity vol, correlation from a BLOCK model (cluster > sector > market). This makes the 20%/35% caps a cross-check on the math rather than the only risk control.",
     "risk_aversion_lambda": 6.0,
