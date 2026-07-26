@@ -170,7 +170,9 @@
       "annual_opex_other": 350,
       "tax_rate": 0.20,
       "one_off_bargain_gain": 285,
-      "scenarios_units_handed_fy26": { "bear": 80, "base": 130, "bull": 185 }
+      "scenarios_units_handed_fy26": { "bear": 80, "base": 130, "bull": 185 },
+      "_FEASIBILITY_2026_07_27": "Independent derivation from Q1 unit economics reproduces these counts as 81/131/186 — the model is internally consistent. BUT: only 135 units are SOLD (60% of 226), so the bull branch (186) is arithmetically infeasible from contracted sales; it needs ~51 further units sold AND handed inside the same year. And Q1 delivered 6 units, so even the bear branch needs 25/quarter — a 4.2x step-up. Recommend cutting bull probability from 0.20. NOT applied: probability re-weighting is a judgment change reserved for a human (charter section 2).",
+      "_Q2_PRE_REGISTERED_READ": "Written before the print (~Jul 28-30) so it cannot be rationalised after. Parent NPAT 170bn => ~19 units handed (bear confirmed, still short of the 25/qtr bear pace); 259bn => ~27 (bear-to-base); 348bn => ~35 (base in play). Verify units two ways: Doan Nguyen/Gladia inventory movement (3.45tn at Q1, ~15bn released per handover) AND the revenue line. Customer advances (688.6bn at Q1) matter more than profit — that is the forward-looking series and the armed kill criterion."
     }
   },
 
