@@ -102,6 +102,7 @@ No-trade band ±3pp — smaller gaps are inside the noise of the assumptions and
 | VCI | The single bull case fails | no market-share gain in foreign brokerage through the FTSE event | armed |
 | TCB | NIM fails to hold the Q2 recovery | Q3 NIM < 3.25% (vs 3.4% in Q2) | armed |
 | TCB | Ecosystem credit concentration turns | developer/related-party NPL formation > 2.0%, or a Masterise bond event | armed |
+| TCB | The real-estate de-risking reverses | RE share of loans back above 32% (was 33.2% in 2024 -> 28.9% at Q1/26) | armed — added from TCB dossier 2026-07-26 |
 | VPB | FE Credit re-breaks | consumer-finance NPL formation re-accelerates > 3.0% credit cost annualized | armed |
 | VPB | Placement prices badly | foreign placement executed > 15% below market | armed |
 

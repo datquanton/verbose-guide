@@ -1,6 +1,26 @@
 # Portfolio Monitoring Log — HPG · KDH · TCB · TCX · VPB · VPX · MBB · VCI
 
-Automated sweep every ~3h for material developments. Watch list v2 (expanded 2026-07-25):
+**This header is the canonical lane definition.** The hourly routine points here rather
+than carrying its own copy — update the lanes by editing this file, not the trigger.
+Rules of engagement (materiality, evidence tiers, verification, scope) live in
+`research/AGENT-CHARTER.md`. Watch list v3 (date-gated 2026-07-26):
+
+**Date gates — do NOT search these before their date** (per charter §6):
+
+| Item | Not before | Lane |
+|---|---|---|
+| HPG / KDH / MBB official Q2/26 statements | 2026-07-28 | 3 |
+| US rebar AD/CVD final determination | 2026-07-28 | 2 |
+| TCX VN30 entry | 2026-08-03 | 4 |
+| KDH insider-buy window closes | 2026-08-21 | 7 |
+| CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
+| FTSE Secondary Emerging effective | 2026-09-21 | 4 |
+| SBV monthly credit/deposit prints | month-end +5d | 1 |
+
+A gated item is **covered, not ignored** — report it as `gated`. Freed budget goes to
+the depth queue, never to more searching.
+
+Watch list v2 lanes (expanded 2026-07-25):
 
 **Core lanes (every sweep):**
 1. **Vietnam macro/policy** — SBV rates, OMO/liquidity, credit-quota policy & removal
@@ -23,8 +43,13 @@ Automated sweep every ~3h for material developments. Watch list v2 (expanded 202
 7. **Ownership signals** — insider/major-shareholder filings, foreign-room changes.
 
 Rules: entries are appended newest-first, dated with time (ICT). Material items get
-sources and a one-line "so what" tied to the portfolio. Quiet sweeps are not
-committed. Thesis-changing items also update `portfolio-ticker-research-2026.md`.
+sources, an **evidence tier** (T1–T6, charter §2) and a one-line "so what" tied to the
+portfolio. Nothing is logged that fails the six verification checks (charter §3).
+Thesis-changing items also update `portfolio-ticker-research-2026.md`.
+
+A quiet sweep writes nothing here — but it is **not** a finished sweep. It advances one
+item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
+headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
 ## 2026-07-26

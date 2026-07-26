@@ -91,7 +91,8 @@
     "_note": "Falsifiable, dated, written BEFORE the event. status is one of: armed / TRIGGERED / cleared. A TRIGGERED criterion forces a resize at the next decision brief -- it is not advisory.",
     "TCB": [
       { "condition": "NIM fails to hold the Q2 recovery", "test": "Q3 NIM < 3.25% (vs 3.4% in Q2)", "status": "armed" },
-      { "condition": "Ecosystem credit concentration turns", "test": "developer/related-party NPL formation > 2.0%, or a Masterise bond event", "status": "armed" }
+      { "condition": "Ecosystem credit concentration turns", "test": "developer/related-party NPL formation > 2.0%, or a Masterise bond event", "status": "armed" },
+      { "condition": "The real-estate de-risking reverses", "test": "RE share of loans back above 32% (was 33.2% in 2024 -> 28.9% at Q1/26)", "status": "armed — added from TCB dossier 2026-07-26" }
     ],
     "VPB": [
       { "condition": "FE Credit re-breaks", "test": "consumer-finance NPL formation re-accelerates > 3.0% credit cost annualized", "status": "armed" },
