@@ -182,6 +182,8 @@
   "vpb": {
     "actuals": { "h1_pbt": 18880, "credit_q2": 1060000, "credit_growth_ytd": 0.246, "target_pbt": 41600, "nim_guided": 0.044 },
     "model": {
+      "_SENSITIVITY_MISATTRIBUTED_2026_07_26": "run.py prints 'FE Credit NPL formation is the swing factor'. The 2.3tn per +0.2% credit cost is correct, the ATTRIBUTION is not: FE Credit is now 0.8% of consolidated PBT (153bn of 18,880bn in 1H). The credit risk sits in the PARENT book (+24.6% YTD, past 1 quadrillion). Monitoring FE Credit NPLs watches a 0.8% segment while the exposure grew elsewhere. run.py is machinery and may not be edited by an automated run (charter section 4) — a human should correct the printed line. See research/dossiers/VPB.md section 2.",
+      "_VPX_LOOKTHROUGH_2026_07_26": "VPB consolidated PBT already CONTAINS VPBankS at 14.2%. Effective VPX exposure is 2.8% direct + 1.42pp look-through = 4.22% (+51% vs stated). The optimizer models VPB/VPX as 0.80-correlated; they are not correlated, one contains the other. Same structure for TCB/TCX. Recommend raising corr_same_cluster toward ~0.95 for parent/subsidiary pairs — NOT applied, optimizer config is human-only (charter section 4).",
       "noninterest_share_of_toi": 0.25,
       "cir": 0.28,
       "scenarios": {
