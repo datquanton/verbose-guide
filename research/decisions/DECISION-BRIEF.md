@@ -43,8 +43,9 @@ Two columns on purpose. **North star** is where the math points if the assumptio
 
 The optimizer maximizes **utility** (`E[r] − λ/2 × σ²`, λ=6), not raw return — which is why the north star can show a *lower* expected return than an intermediate step and still be the better book. It is buying a large reduction in risk with a small amount of return. That trade is the entire point of running a portfolio instead of a list of favourite stocks.
 
-
 No-trade band ±3pp — smaller gaps are inside the noise of the assumptions and are not worth the spread.
+
+⚠ **KDH, TCB moves further than the 5pp step limit.** That is deliberate, not a bug: a position already through the 20% constitutional cap gets brought back to the cap now. The step limit governs *discretionary* moves; a breach of the constitution is not discretionary.
 
 ## 3 · Risk diagnostics
 
