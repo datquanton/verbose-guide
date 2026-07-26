@@ -125,7 +125,8 @@
     "model": {
       "remaining_volume_mt": { "bear": 10.5, "base": 11.5, "bull": 12.5 },
       "core_npat_per_tonne_m": { "bear": 1.25, "base": 1.60, "bull": 1.85 },
-      "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario"
+      "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario",
+      "spread_watch_2026_07_26": "BEAR EVIDENCE ACCUMULATING: Formosa cut Aug/Sep HRC by ~US$40/t (VND1,050/kg); Indian HRC ~US$535/t landed; iron ore up to ~US$115/t (from 98-104 at Q1) and coking coal 2026F raised to US$220/t. Both blades of the spread moving against HPG — weight the bear branch until the official Q2 print settles it."
     }
   }
 }
