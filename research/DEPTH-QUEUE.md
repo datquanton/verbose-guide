@@ -43,8 +43,26 @@ has no dossier — the largest position is the least documented, which is exactl
 | 11 | `done` | **KDH dossier** — consolidate the existing AR notes into a full S3 | `research/dossiers/KDH.md` | Existing §9 primary-document work folded in; RNAV built |
 | 12 | `blocked` | **Formosa Ha Tinh** (Tier 3, private) — via Formosa Plastics Group Taiwan filings + monthly output | `research/annual-reports/notes/Formosa-private.md` | HPG's main domestic HRC competitor sized |
 | 13 | `done` | **VPX dossier** — FVTPL book composition, CAEX stake carrying value | `research/dossiers/VPX.md` | The earnings-quality discount in `exit_pe` justified from the book's actual composition |
-| 14 | `todo` | **Peer comparison table** — VCB/ACB/CTG vs TCB/VPB/MBB on the 5 bank KPIs | `research/dossiers/_banks-peer-table.md` | Our three banks ranked against the three we don't own |
-| 15 | `todo` | **Calibration scoring pass** — once ≥10 forecasts resolve, compute hit rate by confidence bucket, bias, dispersion | `calibration-log.md` aggregate section | The `confidence` column stops being asserted and starts being measured |
+| 14 | `done` | **Peer comparison table** — VCB/ACB/CTG vs TCB/VPB/MBB on the 5 bank KPIs | `research/dossiers/_banks-peer-table.md` | Our three banks ranked against the three we don't own |
+| 15 | `blocked` | **Calibration scoring pass** — once ≥10 forecasts resolve, compute hit rate by confidence bucket, bias, dispersion | `calibration-log.md` aggregate section | The `confidence` column stops being asserted and starts being measured |
+
+## ⚠ QUEUE EXHAUSTED — 2026-07-27 03:53 ICT
+
+Every item is `done` or `blocked`. Nothing remains for an automated run to advance.
+Subsequent quiet sweeps will have **no depth item available**, which per charter §8 must
+be reported as the process failure it is rather than papered over.
+
+**Unblocking requires a human — three things, in order of value:**
+1. **The Q2 filings (Jul 28–30)** unblock item 15 and resolve the two suspect `npat_ttm`
+   values (VCI, VPX) that currently distort the rankings.
+2. **AR PDFs** downloaded into the repo (or the FiinQuant connector authorised) unblock
+   items 2, 6, 9, 10, 12 — the entire annual-report tier.
+3. **New queue items** added. An automated run may only edit status marks, so it cannot
+   extend this list itself. Candidates it surfaced but may not add: ACB S1 screen (from
+   item 14), VCB data gap, look-through industry exposure layer, TCB Gia Binh sizing.
+
+Until one of those happens, a quiet sweep's correct behaviour is to report "nothing
+material, no depth item available" and stop — **not** to invent work or re-scan.
 
 ## Recurring — not queue items, but standing obligations
 
@@ -61,6 +79,7 @@ These fire on their own triggers and take precedence over the queue when due:
 | Date | Run | Item | Result |
 |---|---|---|---|
 | 2026-07-26 | — | queue created | 15 items; `research/dossiers/` empty at creation, 1 of ~15 AR notes written |
+| 2026-07-27 | hourly sweep 03:53 ICT | #14 peer table | `done` — **the book's largest position screens worst.** ROE ÷ P/B: MBB 16.9% · **ACB 16.5% (not held)** · VPB 15.9% · CTG 13.8% · **TCB 13.5% — the 35% position, last of five.** MBB earns 25% more per unit of book paid than TCB. Third independent route to the same trim conclusion. ACB also has the best asset quality (NPL 0.97%, LLR 114%) at 1.07× book vs ~1.5× history — recommend adding it to the universe. Caveat stated: owned names are T3, not-held are T4, so this cannot justify a switch alone. **Queue exhausted after this item** |
 | 2026-07-27 | hourly sweep 02:53 ICT | #13 VPX dossier | `done` — **ESCALATION: VPX's `npat_ttm` fails the mandated cross-check — the SECOND instance after VCI.** Earnings-path method gives 3,047–3,447 vs 2,800 in file; margin-room route gives 3,559. Correcting takes VPX from **+19.0% (rank 1) to +2 to +12%**. TCX control-checked and fine, so the defect is bounded to the two names with rough early TTM estimates. Confidence 0.70→0.55; number left for the filing. Also reframed: VPX is **not primarily a broker** — ~30tn FVTPL (>18tn bonds) + 38.2tn margin vs 3.57% HOSE share. Discount justified but for a different reason (Q2 absorbed a 923bn FVTPL loss and prop still netted >700bn). >33tn unused margin room is a better bull case than CAEX |
 | 2026-07-27 | hourly sweep 01:53 ICT | #9/#10/#12 | `blocked` — skipped per the class-level AR-PDF rule rather than re-attempted |
 | 2026-07-27 | hourly sweep 01:53 ICT | #11 KDH dossier | `done` — independent derivation from Q1 unit economics reproduces the model's 80/130/185 handover counts as 81/131/186 (internally consistent). **Bull branch is arithmetically INFEASIBLE**: 186 units needed against a 135-unit sold book. Q1 delivered 6, so even bear needs 25/qtr — a 4.2× step-up. **Pre-registered Q2 read** written before the print: 170bn ⇒ ~19 units, 259 ⇒ ~27, 348 ⇒ ~35. Also: ₫3.45tn of a ₫29.13tn land bank (12%) produces essentially all of 2026's profit. Bull re-weighting recommended, NOT applied |
