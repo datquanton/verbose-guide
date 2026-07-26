@@ -25,8 +25,8 @@ has no dossier — the largest position is the least documented, which is exactl
 | # | Status | Item | Output artifact | Definition of done |
 |---|---|---|---|---|
 | 1 | `wip` | **TCB dossier** — S3 deep dive, from `templates/ticker-dossier.md` | `research/dossiers/TCB.md` | Business/moat, governance (Masterise related-party exposure), 5yr+8q financials, justified P/B valuation, 3 written kill criteria |
-| 2 | `todo` | **TCB AR 2025** — loan book by industry, related-party note, bond holdings on own book, CASA composition, restructured loans | `research/annual-reports/notes/TCB-AR2025.md` | Every "hunt for" item in the AR program Tier 1 #2 answered or explicitly marked not-disclosed |
-| 3 | `todo` | **MBB S1 screen** — held at 6.5% with **no screen at all**; the model carries confidence 0.55 on a name never underwritten | `research/dossiers/MBB.md` (S1 section) | The S1 checklist in `PROCESS.md`, plus the two-sentence variant-view gate |
+| 2 | `blocked` | **TCB AR 2025** — loan book by industry, related-party note, bond holdings on own book, CASA composition, restructured loans | `research/annual-reports/notes/TCB-AR2025.md` | Every "hunt for" item in the AR program Tier 1 #2 answered or explicitly marked not-disclosed |
+| 3 | `done` | **MBB S1 screen** — held at 6.5% with **no screen at all**; the model carries confidence 0.55 on a name never underwritten | `research/dossiers/MBB.md` (S1 section) | The S1 checklist in `PROCESS.md`, plus the two-sentence variant-view gate |
 | 4 | `todo` | **VCI S1 screen** — same gap; held at 3.1%, behind plan, no screen | `research/dossiers/VCI.md` (S1 section) | As above |
 | 5 | `todo` | **HPG spread model deepening** — build the actual per-tonne bridge: iron ore + coking coal + energy + conversion → cost/t vs realised HRC/rebar price/t | `research/models/assumptions.json` (`hpg.spread_model`) + note | Bear/base/bull spread reconstructed from input prices rather than asserted as NPAT/tonne |
 | 6 | `todo` | **HPG AR 2025** — segment note, capex commitments (DQ2 remainder, rail mill ₫14tn, Phu Yen ₫120tn), FX debt, energy self-sufficiency | `research/annual-reports/notes/HPG-AR2025.md` | Funding math for the announced capex stated explicitly |
@@ -55,4 +55,6 @@ These fire on their own triggers and take precedence over the queue when due:
 | Date | Run | Item | Result |
 |---|---|---|---|
 | 2026-07-26 | — | queue created | 15 items; `research/dossiers/` empty at creation, 1 of ~15 AR notes written |
+| 2026-07-26 | hourly sweep 20:53 ICT | #2 TCB AR 2025 | `blocked` — proxy 403 on both the FiinGroup PDF mirror and techcombank.com IR. The documented Vietnamese-PDF trap. Needs a human to download, or the FiinQuant connector once authorised |
+| 2026-07-26 | hourly sweep 20:53 ICT | #3 MBB S1 screen | `done` — passes S1 with a falsifiable variant view: ROE erosion (25.0→20.9%) may be the PRICE of the MBV transfer, which bought a 30–35% credit allowance in a system rationed to 11–13%. Justified P/B 1.56–2.18× vs 1.24× traded. Independently corroborates the optimizer's add. Found an actionable item: the 10:1 rights at ₫10,000 costs a non-subscriber ~5.0%. Confidence held at 0.55 — an S1 earns no tier upgrade |
 | 2026-07-26 | hourly sweep 19:53 ICT | #1 TCB dossier | `wip` — §2/3/5/6/7/8 written. Key finding: consensus TP ₫41,828 is on a **pre-60%-bonus** share count; adjusted it is ~10.6% BELOW spot, so the street's target multiple (1.1x P/B) is *below* the traded 1.16x. Corroborates the trim-to-cap call. Open: AR loan-book note, Gia Binh sizing, insider txns, 5yr×8q table |
