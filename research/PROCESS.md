@@ -112,11 +112,36 @@ Proposed size.** If it doesn't fit a page, the thesis isn't clear yet.
 
 ---
 
+## S9 · Decision & calibration — the CIO layer
+
+S1–S8 establish *what is true*. S9 converts that into *what to own, how much*, and
+then scores whether the conversion was any good. It is a separate stage because
+research quality and decision quality are separate skills, and a book can be rich in
+the first while failing entirely at the second — which is precisely what the first
+decision brief found.
+
+- [ ] Beliefs current in `research/models/assumptions.json` (scenarios, exit multiples, probabilities, confidence)
+- [ ] `python3 research/models/decide.py` → ranked expected returns, target weights, trade list
+- [ ] Cap breaches and kill criteria checked **mechanically**, not by feel
+- [ ] Any acted decision written to `research/decisions/decision-log.md` with a review date
+- [ ] Every forecast entered in `research/decisions/calibration-log.md` and scored when reality lands
+
+Full rules — what the machine decides vs what a human decides, escalation triggers,
+the sizing constitution, and how forecasts are scored — in
+**`research/decisions/DECISION-FRAMEWORK.md`**.
+
+---
+
 ## Cadence
 
-| Rhythm | Work |
-|---|---|
-| Every 3h (automated) | Monitoring sweep → log |
-| Weekly | Price/TP table refresh; catalyst calendar check; read new sell-side reports; **one annual report from the reading program** |
-| Quarterly | Earnings re-underwrite per name; industry dossier refresh; banking-updates post |
-| Per trade | Thesis memo before, post-mortem after |
+| Rhythm | Work | Automated? |
+|---|---|---|
+| Hourly | Monitoring sweep, 7 lanes → log (only if material) | ✅ agent |
+| Daily 08:00 ICT | Re-run `decide.py`; check caps + kill criteria; escalate only on the five triggers | ✅ agent |
+| Weekly (Mon) | Price/TP refresh; catalyst check; new sell-side reports; **one annual report**; thesis re-underwrite | partly |
+| Quarterly | Re-base models on filed statements; **score every open forecast**; industry dossier refresh; banking-updates post | human |
+| Per trade | Thesis memo before, post-mortem after, both logs updated | human |
+
+The asymmetry is intentional: **gathering is automated, deciding is scheduled, and
+acting is manual.** An agent that trades on its own arithmetic would be compounding
+unvalidated confidence weights — see the warning at the top of the calibration log.

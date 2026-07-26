@@ -130,15 +130,17 @@ def render_disclaimer() -> str:
 
 PLACEHOLDERS = {
     "tiles": render_tiles,
-    "chart:forecasts": lambda: render_chart("forecasts"),
-    "chart:nim": lambda: render_chart("nim"),
-    "chart:roe": lambda: render_chart("roe"),
-    "chart:backing": lambda: render_chart("backing"),
     "table:tickers": render_ticker_table,
     "table:dashboard": render_dashboard,
     "sources": render_sources,
     "disclaimer": render_disclaimer,
 }
+
+# Every chart in metrics.json is a placeholder automatically. Adding a chart to a
+# post is then a data edit, not a code edit — which is the difference between a
+# publishing system and a one-off page.
+for _key in DATA.get("charts", {}):
+    PLACEHOLDERS[f"chart:{_key}"] = (lambda k: lambda: render_chart(k))(_key)
 
 
 # ---------------------------------------------------------------- markdown
@@ -173,8 +175,19 @@ def md_to_html(body: str) -> str:
 
     def flush_quote():
         if quote:
-            inner = "".join(f'<p style="margin:0 0 10px;">{md_inline(q)}</p>' for q in quote)
-            inner = inner.replace('margin:0 0 10px;"', 'margin:0;"', 1) if len(quote) == 1 else inner
+            # Consecutive `>` lines are ONE paragraph — join before applying inline
+            # formatting, or a **bold span** wrapped across source lines renders as
+            # literal asterisks. A blank `>` line starts a new paragraph.
+            paras, cur = [], []
+            for q in quote:
+                if q.strip():
+                    cur.append(q.strip())
+                elif cur:
+                    paras.append(" ".join(cur)); cur = []
+            if cur:
+                paras.append(" ".join(cur))
+            inner = "".join(f'<p style="margin:0 0 10px;">{md_inline(p)}</p>' for p in paras)
+            inner = inner.replace('margin:0 0 10px;"', 'margin:0;"', 1) if len(paras) == 1 else inner
             out.append(f'<div class="callout">{inner}</div>')
             quote.clear()
 
@@ -197,8 +210,8 @@ def md_to_html(body: str) -> str:
             flush_all(); out.append(f"<h2>{md_inline(stripped[3:])}</h2>")
         elif stripped in ("---", "***"):
             flush_all(); out.append('<hr class="rule">')
-        elif stripped.startswith("> "):
-            flush_para(); flush_list(); quote.append(stripped[2:])
+        elif stripped.startswith(">"):
+            flush_para(); flush_list(); quote.append(stripped[1:].lstrip())
         elif re.match(r"^\d+\.\s+", stripped):
             flush_para(); flush_quote()
             if listtag not in (None, "ol"):
