@@ -74,11 +74,11 @@
       "probs":      { "bear": 0.35, "base": 0.42, "bull": 0.23 },
       "evidence": "Q2 official; 1H 47.1% of plan; the risk is the MULTIPLE (2.49x P/B, priciest in book), not the earnings" },
 
-    "VPX": { "price": 26600, "npat_ttm": 2800, "pe_ttm": 14.0, "cash_yield": 0.0, "confidence": 0.70,
+    "VPX": { "price": 26600, "npat_ttm": 2800, "_npat_ttm_FLAG": "SUSPECT 2026-07-27 — SECOND instance of this error class after VCI. The file's own earnings-path method gives 3,047-3,447 (H1/25 = 2,169/3.005 = 722); the margin-room route (38,177 drawn + >33,000 room => ceiling >=71,177 => equity >=35,588; x P/B 1.40) gives cap 49,826 and npat_ttm 3,559. File carries 2,800. Correcting takes E[r] from +19.0% (RANK 1) to +2 to +12%. Control: TCX checks out (20.3 x 4,050 = 82,215 vs ~2.0bn shares x 41,100), so the defect is specific to VCI and VPX, whose TTM bases were rough early estimates. NOT changed on inference — resolve from the Q2 filing. Suspend any VPX add.", "pe_ttm": 14.0, "cash_yield": 0.0, "confidence": 0.55,
       "fy26e_npat": { "bear": 3467, "base": 4125, "bull": 4782 },
       "exit_pe":    { "bear": 9.0,  "base": 12.0, "bull": 16.0 },
       "probs":      { "bear": 0.32, "base": 0.45, "bull": 0.23 },
-      "evidence": "Q2 official; but 1H leaned on VND3.46tn FVTPL marks -> earnings QUALITY discount in exit_pe" },
+      "evidence": "S3 done 27-Jul. NOT primarily a broker: ~30tn FVTPL book (>18tn BONDS) + 38.2tn margin vs only 3.57% HOSE share — a leveraged credit/margin book. Discount JUSTIFIED but for a different reason: Q2 absorbed a 923bn FVTPL loss and prop still netted >700bn, so gains are not fake; the risk is a 18tn+ bond position in the VN corporate-bond market. >33tn of unused margin room is the real bull case, better than the CAEX option. npat_ttm suspect — see flag." },
 
     "VCI": { "price": 20500, "npat_ttm": 1100, "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.", "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.45,
       "fy26e_npat": { "bear": 1150, "base": 1400, "bull": 1750 },
