@@ -80,11 +80,11 @@
       "probs":      { "bear": 0.32, "base": 0.45, "bull": 0.23 },
       "evidence": "Q2 official; but 1H leaned on VND3.46tn FVTPL marks -> earnings QUALITY discount in exit_pe" },
 
-    "VCI": { "price": 20500, "npat_ttm": 1100, "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.65,
+    "VCI": { "price": 20500, "npat_ttm": 1100, "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.", "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.45,
       "fy26e_npat": { "bear": 1150, "base": 1400, "bull": 1750 },
       "exit_pe":    { "bear": 12.0, "base": 16.0, "bull": 18.0 },
       "probs":      { "bear": 0.38, "base": 0.42, "bull": 0.20 },
-      "evidence": "Q2 official but BEHIND plan (1H ~29% of a +41% FY target); ROE 8.9% at 17x; no dossier" }
+      "evidence": "S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag." }
   },
 
   "kill_criteria": {
