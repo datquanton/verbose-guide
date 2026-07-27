@@ -172,7 +172,7 @@
    "npat_ttm": 24418,
    "pe_ttm": 6.9,
    "cash_yield": 0.0,
-   "confidence": 0.85,
+   "confidence": 0.7,
    "fy26e_npat": {
     "bear": 21518,
     "base": 24546,
@@ -188,7 +188,7 @@
     "base": 0.45,
     "bull": 0.25
    },
-   "evidence": "Q2 official; 1H PBT +68% vs +22% plan; credit +24.6% YTD"
+   "evidence": "Q2 official; 1H PBT 18,880bn +68% vs +22% plan - that part is T1 and unaffected. BUT the '+24.6% credit YTD' previously cited here as support FAILS the period and entity checks (see vpb.actuals._CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28). Confidence cut 0.85 -> 0.70 on 2026-07-28: the trailing earnings base is solidly evidenced, the forward credit driver is not. Resolves from the Q2 consolidated statement."
   },
   "MBB": {
    "price": 22050,
@@ -552,7 +552,8 @@
    "credit_q2": 1060000,
    "credit_growth_ytd": 0.246,
    "target_pbt": 41600,
-   "nim_guided": 0.044
+   "nim_guided": 0.044,
+   "_CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28": "ESCALATION. The two credit fields in this block cannot both describe the same thing, and which one is right decides whether VPB's forward scenarios are comfortable or very hard. ARITHMETIC: credit_q2 1,060,000 against credit_start_fy 962,000 is +10.19%, NOT the +24.6% recorded in credit_growth_ytd. One of the two is on a different basis. WHAT THE PRESS ACTUALLY SAYS, and it is two different statements: (a) CONSOLIDATED credit reached ~1.06 quadrillion in Q1/26, +10.2% on end-2025 - which reproduces credit_start_fy 962,000 exactly; (b) PARENT-BANK credit reached ~1.06 quadrillion after SIX months, +24.6%. So the likely defect is that credit_q2 is the Q1 CONSOLIDATED figure while credit_growth_ytd is the H1 PARENT figure - a PERIOD error and an ENTITY error, checks 1 and 2 of charter section 3, sitting side by side in one actuals block as though they described one quarter of one entity. LOGICAL CROSS-CHECK: consolidated credit is by construction >= parent credit. If parent was ~1.06 quadrillion at H1, consolidated at H1 must EXCEED 1.06 quadrillion. So credit_q2 = 1,060,000 is too low for consolidated Q2 whichever reading is correct. WHY IT MATTERS: scenarios.credit_growth_fy is 30/35/40%. If H1 consolidated growth was +24.6%, the base branch needs only +8.3% more in H2 and is comfortable. If it was +10.2%, the base branch needs +22.5% in H2 - a step-change of the same character as the KDH handover finding. The company's own FY plan of +34% to 1.29 quadrillion consolidated is consistent with the 962,000 start, so the FY target basis IS consolidated. NOT RESOLVED and NOT GUESSED. The numbers are left exactly as they are; only the flag is added. The consolidated Q2 credit balance is readable directly from the Q2 statement. Confidence cut 0.85 -> 0.70 pending that read."
   },
   "model": {
    "_SENSITIVITY_MISATTRIBUTED_2026_07_26": "run.py prints 'FE Credit NPL formation is the swing factor'. The 2.3tn per +0.2% credit cost is correct, the ATTRIBUTION is not: FE Credit is now 0.8% of consolidated PBT (153bn of 18,880bn in 1H). The credit risk sits in the PARENT book (+24.6% YTD, past 1 quadrillion). Monitoring FE Credit NPLs watches a 0.8% segment while the exposure grew elsewhere. run.py is machinery and may not be edited by an automated run (charter section 4) — a human should correct the printed line. See research/dossiers/VPB.md section 2.",

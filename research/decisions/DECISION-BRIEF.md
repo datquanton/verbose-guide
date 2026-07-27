@@ -15,7 +15,7 @@
 | 5 | **KDH** | +16.1% | 0.50 | **+8.1%** | -31.2% | 54% | 0.15 | Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers) |
 | 6 | **VCI** | +10.7% | 0.40 | **+4.3%** | -27.1% | 44% | 0.10 | S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag. |
 | 7 | **TCB** | +4.3% | 0.85 | **+3.6%** | -19.3% | 34% | 0.11 | Q2 official; 1H 48.9% of plan; NIM recovering 3.1->3.4% |
-| 8 | **VPB** | +1.4% | 0.85 | **+1.2%** | -25.9% | 36% | 0.03 | Q2 official; 1H PBT +68% vs +22% plan; credit +24.6% YTD |
+| 8 | **VPB** | +1.4% | 0.70 | **+1.0%** | -25.9% | 36% | 0.03 | Q2 official; 1H PBT 18,880bn +68% vs +22% plan - that part is T1 and unaffected. BUT the '+24.6% credit YTD' previously cited here as support FAILS the period and entity checks (see vpb.actuals._CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28). Confidence cut 0.85 -> 0.70 on 2026-07-28: the trailing earnings base is solidly evidenced, the forward credit driver is not. Resolves from the Q2 consolidated statement. |
 
 The **confidence column is the discipline**: three of eight names still price off an unfiled quarter. Shrinking their expected return toward zero is what stops the optimizer from rewarding a name for being poorly understood.
 
@@ -25,19 +25,19 @@ Two columns on purpose. **North star** is where the math points if the assumptio
 
 | Ticker | Cluster | Current | **This cycle** | Δ | North star | Action |
 |---|---|---:|---:|---:|---:|---|
-| TCX | Techcom eco | 5.5% | **11.1%** | +5.6pp | 20.0% | **ADD** +5.6pp |
+| TCX | Techcom eco | 5.5% | **11.0%** | +5.5pp | 20.0% | **ADD** +5.5pp |
 | VPX | VPBank eco | 2.8% | **1.2%** | -1.6pp | 0.0% | hold |
 | HPG | Steel | 16.8% | **20.0%** | +3.2pp | 20.0% | **ADD** +3.2pp |
 | MBB | Banks-other | 6.5% | **12.0%** | +5.5pp | 20.0% | **ADD** +5.5pp |
-| KDH | Residential | 20.3% | **15.6%** | -4.7pp | 3.0% | **TRIM** -4.7pp |
-| VCI | Brokers-other | 3.1% | **4.9%** | +1.8pp | 3.9% | hold |
+| KDH | Residential | 20.3% | **15.6%** | -4.7pp | 3.1% | **TRIM** -4.7pp |
+| VCI | Brokers-other | 3.1% | **5.0%** | +1.9pp | 4.1% | hold |
 | TCB | Techcom eco | 35.0% | **20.0%** | -15.0pp | 15.0% | **TRIM** -15.0pp |
-| VPB | VPBank eco | 10.0% | **15.3%** | +5.3pp | 18.0% | **ADD** +5.3pp |
+| VPB | VPBank eco | 10.0% | **15.3%** | +5.3pp | 17.8% | **ADD** +5.3pp |
 
 | | Expected return | Expected vol | Return/vol | Utility |
 |---|---:|---:|---:|---:|
 | Book as owned | +6.7% | 30.5% | 0.22 | -0.212 |
-| After this cycle | +7.5% | 29.7% | 0.25 | -0.190 |
+| After this cycle | +7.4% | 29.7% | 0.25 | -0.190 |
 | North star | +8.4% | 29.0% | 0.29 | **-0.168** |
 | **This cycle captures** | **+0.8pp** | **-0.8pp** | **+0.03** | **+0.022** |
 
@@ -51,12 +51,12 @@ No-trade band ±3pp — smaller gaps are inside the noise of the assumptions and
 
 | Cluster | Current | Target | Cap | Status |
 |---|---:|---:|---:|---|
-| Techcom eco | 40.5% | 31.1% | 35% | ⚠ **BREACH** → resolved |
+| Techcom eco | 40.5% | 31.0% | 35% | ⚠ **BREACH** → resolved |
 | Residential | 20.3% | 15.6% | 35% | ok |
 | Steel | 16.8% | 20.0% | 35% | ok |
-| VPBank eco | 12.8% | 16.5% | 35% | ok |
+| VPBank eco | 12.8% | 16.4% | 35% | ok |
 | Banks-other | 6.5% | 12.0% | 35% | ok |
-| Brokers-other | 3.1% | 4.9% | 35% | ok |
+| Brokers-other | 3.1% | 5.0% | 35% | ok |
 
 - Effective independent bets: **4.7 → 6.4** (HHI 0.211 → 0.157)
 
@@ -68,18 +68,18 @@ No-trade band ±3pp — smaller gaps are inside the noise of the assumptions and
 | TCB | 20.0% | 28.5% | 19% |
 | HPG | 20.0% | 22.3% | 15% |
 | VPB | 15.3% | 28.0% | 14% |
-| TCX | 11.1% | 33.2% | 12% |
+| TCX | 11.0% | 33.2% | 12% |
 | MBB | 12.0% | 28.0% | 11% |
-| VCI | 4.9% | 29.9% | 5% |
+| VCI | 5.0% | 29.9% | 5% |
 | VPX | 1.2% | 36.6% | 1% |
 
 ## 4 · Trade list
 
 - **SELL TCB** — 35.0% → 20.0% (-15.0pp; north star 15.0%). E[r] +3.6%, bear branch -19.3%. Q2 official; 1H 48.9% of plan; NIM recovering 3.1->3.4%
-- **BUY TCX** — 5.5% → 11.1% (+5.6pp; north star 20.0%). E[r] +18.5%, bear branch -13.3%. Q2 official; 1H 47.1% of plan; the risk is the MULTIPLE (2.49x P/B, priciest in book), not the earnings
+- **BUY TCX** — 5.5% → 11.0% (+5.5pp; north star 20.0%). E[r] +18.5%, bear branch -13.3%. Q2 official; 1H 47.1% of plan; the risk is the MULTIPLE (2.49x P/B, priciest in book), not the earnings
 - **BUY MBB** — 6.5% → 12.0% (+5.5pp; north star 20.0%). E[r] +8.8%, bear branch -13.1%. NO DOSSIER YET (S1/S3 pending); Q2 estimate only; ROE TTM 20.9% is sector-best
-- **BUY VPB** — 10.0% → 15.3% (+5.3pp; north star 18.0%). E[r] +1.2%, bear branch -25.9%. Q2 official; 1H PBT +68% vs +22% plan; credit +24.6% YTD
-- **SELL KDH** — 20.3% → 15.6% (-4.7pp; north star 3.0%). E[r] +8.1%, bear branch -31.2%. Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers)
+- **BUY VPB** — 10.0% → 15.3% (+5.3pp; north star 17.8%). E[r] +1.0%, bear branch -25.9%. Q2 official; 1H PBT 18,880bn +68% vs +22% plan - that part is T1 and unaffected. BUT the '+24.6% credit YTD' previously cited here as support FAILS the period and entity checks (see vpb.actuals._CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28). Confidence cut 0.85 -> 0.70 on 2026-07-28: the trailing earnings base is solidly evidenced, the forward credit driver is not. Resolves from the Q2 consolidated statement.
+- **SELL KDH** — 20.3% → 15.6% (-4.7pp; north star 3.1%). E[r] +8.1%, bear branch -31.2%. Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers)
 - **BUY HPG** — 16.8% → 20.0% (+3.2pp; north star 20.0%). E[r] +9.1%, bear branch +0.2%. Q2 UNFILED; 26-Jul spread evidence moved mass to bear; FY26E is CORE (ex VND4.12tn Pho Noi gain); cyclical multiple INVERTED (low on peak)
 
 **Sequencing rule:** trims before adds (fund the buys, don't lever), and nothing that fights a dated catalyst inside 5 sessions — see the catalyst calendar.

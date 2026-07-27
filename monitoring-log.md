@@ -54,6 +54,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **01:53 ICT · ESCALATION · VPB (lanes 1+3) — checking VPB's credit growth against the
+  system print found that the two credit numbers in the model contradict each other. Which
+  one is right decides whether VPB's base case is comfortable or very hard.**
+  **How it surfaced.** Lane 1 produced the system datapoint: **total credit to the economy
+  reached ~₫20.1 quadrillion at 13 July, +7.86% since end-2025**, against an SBV full-year
+  target of about 15%. That is roughly on pace and is not itself material. It is useful as
+  a **yardstick**, and holding VPB up against it is what exposed the problem.
+  **The contradiction.** VPB's `actuals` block carries `credit_q2` ₫1,060,000bn and
+  `credit_start_fy` ₫962,000bn. Those two imply **+10.19%**. The same block records
+  `credit_growth_ytd` as **+24.6%**. Both cannot describe the same quarter of the same entity.
+  **What the press actually says — and it is two separate statements.** (a) **Consolidated**
+  credit passed ~₫1.06 quadrillion in **Q1/26, +10.2%** on end-2025, which reproduces the
+  ₫962,000bn starting balance exactly. (b) **Parent-bank** credit reached ~₫1.06 quadrillion
+  after **six months, +24.6%**. So the likely defect is that `credit_q2` is the **Q1
+  consolidated** figure while `credit_growth_ytd` is the **H1 parent** figure — a **period**
+  error and an **entity** error, checks 1 and 2 of charter §3, sitting side by side in one
+  block as though they described one quarter of one company.
+  **A logical cross-check that needs no source.** Consolidated credit is by construction at
+  least as large as parent credit. If the parent held ~₫1.06 quadrillion at H1, consolidated
+  at H1 must be **larger** than ₫1.06 quadrillion. So `credit_q2` = ₫1,060,000bn is too low
+  for consolidated Q2 on either reading.
+  **Why it matters.** `credit_growth_fy` branches are 30 / 35 / 40%. **If H1 consolidated
+  growth was +24.6%, the base branch needs only +8.3% more in the second half and is
+  comfortable. If it was +10.2%, the base branch needs +22.5% in the second half** — a
+  step-change of the same character as the KDH handover finding. Against a system growing
+  7.86% year-to-date, VPB is running at either 1.3× or 3.1× the system, and those are very
+  different companies.
+  **Not resolved and not guessed.** The numbers are left exactly as they stand; only the
+  flag is added. The consolidated Q2 credit balance reads straight off the Q2 statement.
+  **Model change: VPB confidence 0.85 → 0.70.** The trailing earnings base is untouched and
+  remains T1 — 1H PBT ₫18,880bn, +68%, against a +22% plan. It is the **forward driver** that
+  is unverified, so the cut is partial rather than the harder cuts applied to VCI and VPX.
+  The `evidence` string previously cited "credit +24.6% YTD" as a reason for the 0.85, which
+  made the suspect number load-bearing on the confidence weight itself.
+  **Escalation trigger 4 fires — a held name's evidence status changed.** Expected return
+  moves only +1.2% → +1.0%, far short of the 10pp trigger, so the ranking is unaffected: VPB
+  stays 8th of 8. **But the engine still proposes ADD +5.3pp to VPB this cycle**, on
+  diversification grounds. **That add should wait for the statement.** Adding 5pp to a
+  position whose forward growth driver is unverified is precisely the sequencing this system
+  exists to prevent.
+  **This is the third input of this class to fail verification in three days** (VCI
+  `npat_ttm` 25.2% off, VPX `npat_ttm` 9–27% off, now VPB credit). The first two shared a
+  field; this one does not, so the pattern is not about `npat_ttm`. It is about inputs
+  transcribed from press summaries without the period and entity being pinned down.
+  Sources: [CafeF — SBV: credit past ₫20 quadrillion, +7.86% to 13 Jul](https://cafef.vn/du-no-toan-nen-kinh-te-vuot-20-trieu-ty-dong-dai-dien-ngan-hang-nha-nuoc-cap-nhat-so-lieu-tang-truong-tin-dung-moi-nhat-18826072615195886.chn) · [Bao Chinh Phu — VPBank passed ₫1 quadrillion in Q1/26](https://baochinhphu.vn/vpbank-vuot-moc-1-trieu-ty-dong-tin-dung-trong-quy-i-2026-102260417144906691.htm) · [Bao Chinh Phu — VPBank H1/26](https://baochinhphu.vn/vpbank-but-toc-nua-dau-nam-2026-voi-nhieu-chi-so-tang-truong-an-tuong-102260717122138966.htm) · [SBV Directive 01 — 2026 credit target ~15%](https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tai-chinh/103999/chi-thi-01-ct-nhnn-tang-truong-tin-dung-nam-2026-khoang-15-du-kien)
+
 - **00:53 ICT · HPG (lane 3) — the Q2 volume number was already public and we had missed
   it. Knowing it turns Thursday's profit headline into an unambiguous read on margin.**
   **What was found.** HPG's half-year operating release gives **Q2 sales of 3.5m tonnes**
