@@ -111,3 +111,61 @@ recorded here as a recommendation for the CIO run.
 (≈US$40/t); Indian HRC ~US$535/t landed Vietnam; domestic HRC ₫14,000–14,350/kg; iron ore
 ~US$115/t; coking coal 2026F US$220/t. Q1 actual core NPAT/t ₫1.68m from the Q1/26 IR
 summary.*
+
+---
+
+## 7 · Update 2026-07-28 — the volume denominator is now a known number
+
+HPG's operating release for the first half gives **Q2 sales of 3.5m tonnes** for the basket
+this model prices (construction steel + high-quality coil + HRC + billet), with H1 at 6.5m
+tonnes. That release is a company disclosure, tier T2 — it is not the audited statement,
+which is still to come.
+
+**It cross-checks.** H1 6.5 minus Q2 3.5 leaves Q1 at 3.0m tonnes, which is exactly the
+`q1_volume_mt` this model already carried from a separate, earlier source. Two independent
+routes to the same number.
+
+### Volume is not the problem, and that is the finding
+
+`remaining_volume_mt` in `assumptions.json` covers the three quarters Q2 through Q4. One of
+those three is now an actual, so the branches can be restated as what the **second half**
+must still deliver:
+
+| Branch | Full Q2–Q4 | H2 must deliver | Per quarter | Versus the 3.5m Q2 actual |
+|---|---:|---:|---:|---|
+| bear | 10.5mt | 7.0mt | 3.50mt | **flat** — no growth required at all |
+| base | 11.5mt | 8.0mt | 4.00mt | **+14.3%** — roughly one repeat of the Q1→Q2 ramp |
+| bull | 12.5mt | 9.0mt | 4.50mt | **+28.6%** — that ramp repeating twice |
+
+Q1 to Q2 was **+16.7%** (3.0 → 3.5). So the base branch does not need a step-change; it
+needs the ramp already observed to continue for two more quarters, which is what a plant
+commissioning new capacity normally does.
+
+**The consequence.** Every branch's volume assumption is now either comfortable (bear) or
+merely a continuation (base). Whatever goes wrong with this position will therefore go
+wrong on the **margin** blade, not the volume blade. The `spread_watch` note framed both
+blades as moving against HPG; on the evidence, only one is. Monthly volume releases have
+stopped being decision-relevant, and NPAT per tonne has become the only number that matters.
+
+### What a known denominator buys: the Q2 print now reads directly
+
+Because tonnes are fixed at 3.5m, any Q2 core profit headline converts to margin per tonne
+with no interpretation required. Q1 core was **₫1.68m/t**. Branches are 1.25 / 1.60 / 1.85.
+
+| If Q2 core NPAT is… | Implied NPAT/tonne | Versus Q1 | Read as |
+|---|---:|---:|---|
+| ₫5,020bn | ₫1.43m | −14.7% | Margin contracting — but still **above** the 1.25 bear branch, so even the low end of the estimate range does not breach bear |
+| ₫5,600bn | ₫1.60m | −4.9% | Exactly the base branch, and exactly the threshold of open forecast #2 |
+| ₫6,400–6,500bn (street) | ₫1.83–1.86m | +8.7 to +10.4% | Margin **expansion**, at or above the **bull** branch |
+
+### The trap, stated before the number lands
+
+The street's ₫6,400–6,500bn implies per-tonne margin *expanding* about 10% in a quarter when
+Formosa cut August/September HRC by roughly US$40/t and Indian HRC landed near US$535/t.
+That is not incoherent — it is what §4's inventory lag predicts, because Q2 burns ore bought
+in Q1 at about US$101/t.
+
+**So a strong Q2 is not evidence against the spread thesis.** It is the lag behaving as
+modelled. The quarter that tests the thesis is **Q3**, which burns today's US$97.70 ore
+against an HRC price that has already been cut. Confidence must not be raised on a Q2 beat,
+and this paragraph exists so that reading cannot be constructed after the fact.

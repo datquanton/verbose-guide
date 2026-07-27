@@ -82,6 +82,16 @@ original and the annotation are visible when the row is finally scored.
   the implied per-quarter run-rate has been worked out** — that check now belongs in the
   screen, not in the post-mortem.
 
+**Forecast #2 now has an exact resolution test (added 2026-07-28).** It predicts HPG's Q2
+core NPAT per tonne comes in **below ₫1.60m**. Until now the denominator was an estimate,
+so the print could have been argued either way. HPG has since disclosed Q2 sales of **3.5m
+tonnes**, which fixes it. The forecast therefore resolves cleanly at a headline core NPAT
+of **₫5,600bn**: below that and the forecast is right, above it and it is wrong. Street
+sits at ₫6,400–6,500bn, implying ₫1.83–1.86m/t. **Scoring this one must also apply the
+Reason column strictly** — the pre-registered note in `hpg-spread-bridge.md` §7 says a Q2
+beat is what the inventory lag predicts and is not evidence against the thesis. If the
+forecast misses, it misses; that argument explains the timing, it does not rescue the call.
+
 ## Scored forecasts
 
 _None yet — the first batch resolves with the Q2 filings this week (Jul 28–30)._
@@ -109,3 +119,4 @@ made and caught — they were real and they are worth not repeating._
 | 2026-07-27 | **Same error twice in two days.** VCI's `npat_ttm` was 25.2% low; VPX's is ~9-27% low, and VPX was ranked #1 on expected return because of it. Both are the two names whose TTM bases were set as rough early estimates rather than derived. A one-off is a mistake; twice in the same field is a method failure. | Every `npat_ttm` gets the mandated cross-check before it can drive a recommendation — not only when a name happens to be screened. TCX was control-checked and is fine, so the defect is bounded to VCI and VPX |
 | 2026-07-27 | Logged a Fitch **forecast** for iron ore (US$115/t) as though it were the **spot price**, then built a cost bridge on it. Spot was US$98–104 and is US$97.70 today — ore never rose. The error made HPG's economics look near-breakeven when they were not. | Charter §3 already requires checking "filed actual / guidance / broker estimate" — that check now applies to **commodity prices too**, not just company earnings. A forecast and a price are different objects |
 | 2026-07-26 | Applied a *peak* exit multiple to *peak* cyclical earnings on HPG, and to a non-repeating divestment gain. | Cyclical multiples are now inverted (low on peak, high on trough) and one-offs stripped before any multiple is applied |
+| 2026-07-28 | A scheduled **operating disclosure** — HPG's half-year sales volumes — sat unlogged for about three weeks while hourly sweeps ran. The lanes hunt for *news*; nobody was watching the *calendar* of routine company releases, which are tier-T2 primary data and often more useful than the press coverage that follows them. | Recurring operating releases (monthly and quarterly volume/output disclosures) are now treated as dated catalysts to be checked on their schedule, not as news to be stumbled upon |

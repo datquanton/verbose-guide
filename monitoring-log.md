@@ -52,6 +52,49 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-07-28
+
+- **00:53 ICT · HPG (lane 3) — the Q2 volume number was already public and we had missed
+  it. Knowing it turns Thursday's profit headline into an unambiguous read on margin.**
+  **What was found.** HPG's half-year operating release gives **Q2 sales of 3.5m tonnes**
+  for the basket the model prices — construction steel, high-quality coil, HRC and billet —
+  with H1 at **6.5m tonnes** and Q2 HRC alone at **1.9m tonnes** (+31% on the quarter,
+  +64% on the year). Separately it reports 3.6m tonnes of **crude steel production**, which
+  is a different measure and must not be substituted for sales. **Evidence tier T2** — a
+  company disclosure, not the audited statement, which is still to come.
+  **Recency, stated honestly:** this release is roughly three weeks old. It is not new. It
+  was missed, and the sweeps that ran since then did not catch it. Logging it now because
+  it changes a model input, not because it happened today.
+  **It passes the cross-check.** H1 6.5 minus Q2 3.5 leaves Q1 at 3.0m tonnes, exactly the
+  `q1_volume_mt` already in `assumptions.json` from an independent earlier source.
+  **Finding 1 — volume is not the problem, which is the opposite of what the model's own
+  `spread_watch` note implies.** `remaining_volume_mt` covers Q2–Q4, and one of those three
+  quarters is now known. Restated as what the second half must still deliver: **bear needs
+  3.50m tonnes a quarter, which is flat on Q2 — no growth at all. Base needs 4.00m, +14.3%.
+  Bull needs 4.50m, +28.6%.** Q1 to Q2 was +16.7%, so the base branch needs the observed
+  ramp to continue rather than a step-change. Consequence: whatever goes wrong here goes
+  wrong on the **margin** blade. Monthly volume releases have stopped being
+  decision-relevant; NPAT per tonne is now the only number that matters.
+  **Finding 2 — with tonnes fixed, the Q2 headline reads directly as margin.** Q1 core was
+  ₫1.68m/tonne. **₫5,020bn would imply ₫1.43m/t (−14.7%), still above the 1.25 bear branch.
+  ₫5,600bn implies ₫1.60m/t, exactly the base branch and exactly the threshold of open
+  forecast #2. The street's ₫6,400–6,500bn implies ₫1.83–1.86m/t — margin expanding ~10%,
+  at or above the bull branch**, in a quarter when Formosa cut Aug/Sep HRC ~US$40/t.
+  **The trap, pre-registered before the print:** that expansion is what the inventory lag
+  predicts, because Q2 burns Q1 ore at ~US$101/t. **A strong Q2 is therefore not evidence
+  against the spread thesis.** Q3 is the test — it burns today's US$97.70 ore against an
+  already-cut HRC price. **Confidence must not be raised on a Q2 beat.**
+  **Model:** `q2_volume_mt` 3.5, `h1_volume_mt` 6.5, `q2_hrc_volume_mt` 1.9 recorded in
+  `assumptions.json` with the pre-registered read. **Confidence held at 0.60** — deliberately.
+  Volume moved from estimate to actual for one quarter of three, but the thesis-critical
+  input, NPAT per tonne, is still unknown. Raising confidence because the easy half got
+  answered would be exactly backwards. No branch, probability or exit multiple changed;
+  the engine output is unmoved and no escalation trigger fires.
+  Sources: HPG operating release via [Tien Phong](https://tienphong.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-so-voi-cung-ky-2025-post1858031.tpo) · [VietnamPlus](https://www.vietnamplus.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-post1123152.vnp) · [Thoi bao Tai chinh](https://thoibaotaichinhvietnam.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-so-voi-cung-ky-2025-200425.html) · [Vietstock](https://vietstock.vn/2026/07/hoa-phat-san-xuat-36-trieu-tan-thep-trong-quy-2-tang-48-737-1464253.htm) · [Bao Dau Thau](https://baodauthau.vn/hoa-phat-ban-gan-34-trieu-tan-hrc-trong-nua-dau-nam-2026-post202434.html). Direct fetch of all
+  Vietnamese hosts including HPG's own newsroom returned proxy 403; figures are from search
+  results agreeing across eight outlets plus the internal cross-check above.
+  Detail: `research/models/hpg-spread-bridge.md` §7.
+
 ## 2026-07-27
 
 - **22:58 ICT · BROKERS (lanes 4+6) — the whole Vietnamese brokerage industry just had a

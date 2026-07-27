@@ -1,270 +1,732 @@
 {
-  "_meta": {
-    "as_of": "2026-07-24",
-    "note": "Every number here is an ASSUMPTION or a sourced actual. Edit this file, rerun run.py. Sources: Q1/26 primary statements (KDH FS, HPG IR), 1H26 releases (TCB, VPB, TCX, VPX), FiinTrade Q2 earnings tracker 24-Jul-26 (owner-supplied), v2 research note. Units: VND bn unless stated.",
-    "next_rebase": "on HPG/KDH official Q2/26 statements (FiinTrade rows for both are MBS estimates)"
+ "_meta": {
+  "as_of": "2026-07-24",
+  "note": "Every number here is an ASSUMPTION or a sourced actual. Edit this file, rerun run.py. Sources: Q1/26 primary statements (KDH FS, HPG IR), 1H26 releases (TCB, VPB, TCX, VPX), FiinTrade Q2 earnings tracker 24-Jul-26 (owner-supplied), v2 research note. Units: VND bn unless stated.",
+  "next_rebase": "on HPG/KDH official Q2/26 statements (FiinTrade rows for both are MBS estimates)"
+ },
+ "market_check_2026_07_24": {
+  "_source": "FiinTrade Earnings Update Q2.2026 (24-Jul-26 09:37), owner-supplied xlsx; NPAT basis; 'official' = company-filed",
+  "TCB": {
+   "price": 29250,
+   "pe_ttm": 7.57,
+   "pb": 1.16,
+   "roe_ttm": 0.157,
+   "q2_npat": 7727,
+   "h1_npat": 14677,
+   "h1_npat_yoy": 0.187,
+   "pct_of_fy_plan": 0.489,
+   "status": "official"
   },
-
-  "market_check_2026_07_24": {
-    "_source": "FiinTrade Earnings Update Q2.2026 (24-Jul-26 09:37), owner-supplied xlsx; NPAT basis; 'official' = company-filed",
-    "TCB": { "price": 29250, "pe_ttm": 7.57, "pb": 1.16, "roe_ttm": 0.157, "q2_npat": 7727, "h1_npat": 14677, "h1_npat_yoy": 0.187, "pct_of_fy_plan": 0.489, "status": "official" },
-    "VPB": { "price": 25000, "pe_ttm": 6.90, "pb": 1.11, "roe_ttm": 0.177, "q2_npat": 8776, "h1_npat": 15105, "h1_npat_yoy": 0.703, "pct_of_fy_plan": 0.457, "status": "official" },
-    "TCX": { "price": 41100, "pe_ttm": 20.3, "pb": 2.49, "roe_ttm": 0.137, "q2_npat": 1692, "h1_npat": 2840, "h1_npat_yoy": 0.168, "pct_of_fy_plan": 0.471, "status": "official" },
-    "VPX": { "price": 26600, "pe_ttm": 14.0, "pb": 1.40, "roe_ttm": 0.162, "q2_npat": 1733, "h1_npat": 2169, "h1_npat_yoy": 2.005, "pct_of_fy_plan": 0.420, "status": "official" },
-    "HPG": { "price": 20800, "pe_ttm": 8.04, "pb": 1.26, "roe_ttm": 0.164, "q2_npat_est": 5020, "h1_npat_est": 14076, "pct_of_fy_plan": 0.640, "status": "MBS estimate — official FS pending" },
-    "KDH": { "price": 18000, "pe_ttm": 19.2, "pb": 1.07, "roe_ttm": 0.066, "q2_npat_mi_est": 170, "h1_npat_mi_est": 451, "q2_npat_mi_yoy_est": -0.146, "status": "MBS estimate — official FS pending; WEAK vs 348bn street preview" },
-    "MBB": { "price": 22050, "pe_ttm": 7.46, "pb": 1.24, "roe_ttm": 0.209, "q2_npat_est": 7052, "h1_npat_est": 14755, "h1_npat_yoy": 0.164, "pct_of_fy_plan": 0.468, "status": "VCBS estimate — official FS pending; FY26 PBT plan 39,400 (+15%)" },
-    "VCI": { "price": 20500, "pe_ttm": 17.2, "pb": 1.38, "roe_ttm": 0.089, "q2_npat_mi": 251, "h1_npat_mi": 591, "q2_yoy": 0.363, "pct_of_fy_pbt_plan": 0.29, "status": "official — BEHIND plan (29% at 1H vs +41% FY PBT target)" }
+  "VPB": {
+   "price": 25000,
+   "pe_ttm": 6.9,
+   "pb": 1.11,
+   "roe_ttm": 0.177,
+   "q2_npat": 8776,
+   "h1_npat": 15105,
+   "h1_npat_yoy": 0.703,
+   "pct_of_fy_plan": 0.457,
+   "status": "official"
   },
-
-  "portfolio": {
-    "_note": "Weights only — absolute position sizes/costs are kept in the private layer, not this public repo. v2: COMBINED across two brokerage accounts (integrated 2026-07-24); prices 24-Jul.",
-    "positions": [
-      { "ticker": "TCB", "weight_pct": 35.0, "cluster": "Techcom eco" },
-      { "ticker": "KDH", "weight_pct": 20.3, "cluster": "Residential" },
-      { "ticker": "HPG", "weight_pct": 16.8, "cluster": "Steel" },
-      { "ticker": "VPB", "weight_pct": 10.0, "cluster": "VPBank eco" },
-      { "ticker": "MBB", "weight_pct": 6.5, "cluster": "Banks-other" },
-      { "ticker": "TCX", "weight_pct": 5.5, "cluster": "Techcom eco" },
-      { "ticker": "VCI", "weight_pct": 3.1, "cluster": "Brokers-other" },
-      { "ticker": "VPX", "weight_pct": 2.8, "cluster": "VPBank eco" }
-    ],
-    "max_single_name_pct": 20,
-    "max_cluster_pct": 35
+  "TCX": {
+   "price": 41100,
+   "pe_ttm": 20.3,
+   "pb": 2.49,
+   "roe_ttm": 0.137,
+   "q2_npat": 1692,
+   "h1_npat": 2840,
+   "h1_npat_yoy": 0.168,
+   "pct_of_fy_plan": 0.471,
+   "status": "official"
   },
-
-  "valuation": {
-    "_note": "The bridge from earnings scenarios to DECISIONS. Return_s = (exit_multiple_s x fy26e_npat_s) / market_cap_now - 1 + cash_yield. Working in market-cap space avoids share-count drift (the HPG/TCX stock-dividend trap). exit_multiple is the single biggest judgment call in this file: it is where 'what is it worth' lives. probs are Layer-2 beliefs; confidence is the evidence-quality shrink applied to expected return (see decide.py).",
-    "_npat_ttm_method": "DERIVED FROM THE EARNINGS PATH, not from a guessed share count: npat_ttm = H1_26 + H2_25, where H1_25 = H1_26/(1+yoy) and H2_25 ~ H1_25 x 1.05 seasonality. This keeps npat_ttm internally consistent with the same H1 actuals the scenarios are built on. An earlier version derived it from estimated share counts and put MBB's TTM base ~35% too low, which made a normal bank look like a +85% expected return. Cross-check whenever prices refresh: pe_ttm x npat_ttm should land within ~5% of shares x price.",
-    "_horizon_months": 12,
-
-    "TCB": { "price": 29250, "npat_ttm": 27300, "pe_ttm": 7.57, "cash_yield": 0.024, "confidence": 0.85,
-      "fy26e_npat": { "bear": 24894, "base": 26584, "bull": 27913 },
-      "exit_pe":    { "bear": 6.5,   "base": 8.0,   "bull": 9.5 },
-      "probs":      { "bear": 0.30,  "base": 0.45,  "bull": 0.25 },
-      "evidence": "Q2 official; 1H 48.9% of plan; NIM recovering 3.1->3.4%" },
-
-    "VPB": { "price": 25000, "npat_ttm": 24418, "pe_ttm": 6.90, "cash_yield": 0.0, "confidence": 0.85,
-      "fy26e_npat": { "bear": 21518, "base": 24546, "bull": 26400 },
-      "exit_pe":    { "bear": 5.8,   "base": 7.0,   "bull": 8.5 },
-      "probs":      { "bear": 0.30,  "base": 0.45,  "bull": 0.25 },
-      "evidence": "Q2 official; 1H PBT +68% vs +22% plan; credit +24.6% YTD" },
-
-    "MBB": { "price": 22050, "npat_ttm": 28065, "pe_ttm": 7.46, "cash_yield": 0.0, "confidence": 0.55,
-      "fy26e_npat": { "bear": 28000, "base": 30500, "bull": 33000 },
-      "exit_pe":    { "bear": 6.5,   "base": 8.0,   "bull": 9.5 },
-      "probs":      { "bear": 0.30,  "base": 0.45,  "bull": 0.25 },
-      "evidence": "NO DOSSIER YET (S1/S3 pending); Q2 estimate only; ROE TTM 20.9% is sector-best" },
-
-    "HPG": { "price": 20800, "npat_ttm": 20180, "pe_ttm": 8.04, "cash_yield": 0.0, "confidence": 0.60,
-      "fy26e_npat": { "bear": 18061, "base": 23336, "bull": 28061 },
-      "exit_pe":    { "bear": 9.0,   "base": 8.5,   "bull": 8.0 },
-      "probs":      { "bear": 0.45,  "base": 0.375, "bull": 0.175 },
-      "evidence": "Q2 UNFILED; 26-Jul spread evidence moved mass to bear; FY26E is CORE (ex VND4.12tn Pho Noi gain); cyclical multiple INVERTED (low on peak)" },
-
-    "KDH": { "price": 18000, "npat_ttm": 938, "pe_ttm": 19.2, "cash_yield": 0.0, "confidence": 0.50,
-      "fy26e_npat": { "bear": 1033, "base": 1590, "bull": 2203 },
-      "exit_pe":    { "bear": 12.0, "base": 14.0, "bull": 16.0 },
-      "probs":      { "bear": 0.40, "base": 0.40, "bull": 0.20 },
-      "evidence": "Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers)" },
-
-    "TCX": { "price": 41100, "npat_ttm": 4050, "pe_ttm": 20.3, "cash_yield": 0.0, "confidence": 0.80,
-      "_MARGIN_LEAGUE_2026_07_27": "TCBS is the #1 margin lender in Vietnam at 51,500bn of loan book at end-Q2, +15% on the quarter, against a system total of 435,000bn that grew 30,000bn in the same three months. Nine bank-backed brokers took 18,700bn of that 30,000bn (62%). This corroborates the earnings base but changes no input: T5 evidence cannot raise confidence (charter section 2), and the TCX risk was never the earnings — it is the 2.49x P/B, the priciest multiple in the book.",
-      "fy26e_npat": { "bear": 5090, "base": 5765, "bull": 6459 },
-      "exit_pe":    { "bear": 14.0, "base": 18.0, "bull": 22.0 },
-      "probs":      { "bear": 0.35, "base": 0.42, "bull": 0.23 },
-      "evidence": "Q2 official; 1H 47.1% of plan; the risk is the MULTIPLE (2.49x P/B, priciest in book), not the earnings" },
-
-    "VPX": { "price": 26600, "npat_ttm": 2800, "_npat_ttm_FLAG": "SUSPECT 2026-07-27 — SECOND instance of this error class after VCI. The file's own earnings-path method gives 3,047-3,447 (H1/25 = 2,169/3.005 = 722); the margin-room route (38,177 drawn + >33,000 room => ceiling >=71,177 => equity >=35,588; x P/B 1.40) gives cap 49,826 and npat_ttm 3,559. File carries 2,800. Correcting takes E[r] from +19.0% (RANK 1) to +2 to +12%. Control: TCX checks out (20.3 x 4,050 = 82,215 vs ~2.0bn shares x 41,100), so the defect is specific to VCI and VPX, whose TTM bases were rough early estimates. NOT changed on inference — resolve from the Q2 filing. Suspend any VPX add.", "pe_ttm": 14.0, "cash_yield": 0.0, "confidence": 0.55,
-      "fy26e_npat": { "bear": 3467, "base": 4125, "bull": 4782 },
-      "exit_pe":    { "bear": 9.0,  "base": 12.0, "bull": 16.0 },
-      "probs":      { "bear": 0.32, "base": 0.45, "bull": 0.23 },
-      "evidence": "S3 done 27-Jul. NOT primarily a broker: ~30tn FVTPL book (>18tn BONDS) + 38.2tn margin vs only 3.57% HOSE share — a leveraged credit/margin book. Discount JUSTIFIED but for a different reason: Q2 absorbed a 923bn FVTPL loss and prop still netted >700bn, so gains are not fake; the risk is a 18tn+ bond position in the VN corporate-bond market. >33tn of unused margin room is the real bull case, better than the CAEX option. npat_ttm suspect — see flag." },
-
-    "VCI": { "price": 20500, "npat_ttm": 1100, "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.", "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.40,
-      "_MARGIN_HEADROOM_REREAD_2026_07_27": "The S1 screen called the margin book at 0.97x equity vs a 2.0x cap 'genuine headroom, the strongest bull point', reading unused capacity as optionality if flows arrived. The flows arrived and VCI did not use it. System margin lending hit a record 435,000bn at end-Q2, +30,000bn in the quarter (+7% QoQ, +49% YoY); industry lending revenue +64% YoY. VCI's margin book was 16,644bn - FLAT vs end-Q1, +4% YTD - and sits outside the top five (TCBS 51,500 / SSI 40,500 / VPBankS 38,200 / VPS 31,300 / HSC 29,000). Unused capacity that stays unused in the best conditions on record is a description of the business, not an option on it. Cause (funding cost / risk appetite / client demand) NOT established - that is the next question. T5 evidence, so exit_pe and probs are untouched per charter section 2; confidence cut 0.45 -> 0.40, which section 2 permits on any tier. ESCALATED not modelled (charter section 5): this contradicts the thesis, not a number.",
-      "_KILL_CRITERION_ARITHMETIC_2026_07_27": "The '9M PBT < 55% of FY target' test is now close to arithmetically certain to fire. 55% of the 2,300bn FY plan = 1,265bn. 1H delivered 667bn (29%). Q3 alone must therefore produce 598bn of PBT - 2.21x the 270.8bn Q2 actual and 1.51x the 396bn Q1, which was the better quarter. Only the signed IB/IPO pipeline landing inside Q3 clears it. Resolves with the Q3 statements (~Oct). Peer context, same market and same half: SSI finished 1H at 53% of its FY profit target vs VCI's 29%; VPS Q2 PBT +57%; HSC Q2 profit +42%. The shortfall is specific to VCI, so 'H2 is strong for everyone' is not available as a defence.",
-      "fy26e_npat": { "bear": 1150, "base": 1400, "bull": 1750 },
-      "exit_pe":    { "bear": 12.0, "base": 16.0, "bull": 18.0 },
-      "probs":      { "bear": 0.38, "base": 0.42, "bull": 0.20 },
-      "evidence": "S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag." }
+  "VPX": {
+   "price": 26600,
+   "pe_ttm": 14.0,
+   "pb": 1.4,
+   "roe_ttm": 0.162,
+   "q2_npat": 1733,
+   "h1_npat": 2169,
+   "h1_npat_yoy": 2.005,
+   "pct_of_fy_plan": 0.42,
+   "status": "official"
   },
-
-  "kill_criteria": {
-    "_note": "Falsifiable, dated, written BEFORE the event. status is one of: armed / TRIGGERED / cleared. A TRIGGERED criterion forces a resize at the next decision brief -- it is not advisory.",
-    "TCB": [
-      { "condition": "NIM fails to hold the Q2 recovery", "test": "Q3 NIM < 3.25% (vs 3.4% in Q2)", "status": "armed" },
-      { "condition": "Ecosystem credit concentration turns", "test": "developer/related-party NPL formation > 2.0%, or a Masterise bond event", "status": "armed" },
-      { "condition": "The real-estate de-risking reverses", "test": "RE share of loans back above 32% (was 33.2% in 2024 -> 28.9% at Q1/26)", "status": "armed — added from TCB dossier 2026-07-26" }
-    ],
-    "VPB": [
-      { "condition": "FE Credit re-breaks", "test": "consumer-finance NPL formation re-accelerates > 3.0% credit cost annualized", "status": "armed" },
-      { "condition": "Placement prices badly", "test": "foreign placement executed > 15% below market", "status": "armed" }
-    ],
-    "MBB": [
-      { "condition": "Weak-bank transfer turns from privilege to cost", "test": "transferee drag > 5% of PBT in any quarter", "status": "armed" }
-    ],
-    "HPG": [
-      { "condition": "The spread thesis breaks", "test": "core NPAT/tonne < VND1.25m for two consecutive quarters", "status": "armed — 26-Jul spread evidence moved this closer" },
-      { "condition": "DQ2 ramp disappoints", "test": "HRC volume run-rate < 85% of nameplate at Q4", "status": "armed" }
-    ],
-    "KDH": [
-      { "condition": "Handover pace fails", "test": "customer advances < VND1,000bn at 3Q26 with Gladia Heights launched", "status": "armed — the decisive test" },
-      { "condition": "Leverage outruns delivery", "test": "debt > VND18tn without a matching pre-sale step-up", "status": "armed" },
-      { "condition": "Earnings quality stays synthetic", "test": "a second consecutive quarter where bargain-purchase or revaluation gains exceed operating PBT", "status": "armed" }
-    ],
-    "TCX": [
-      { "condition": "The multiple is the thesis, and it goes", "test": "P/B < 2.0x on unchanged earnings = the re-rating case is dead", "status": "armed" },
-      { "condition": "FTSE flows disappoint", "test": "no net foreign accumulation in the 4 weeks after Sep 21", "status": "armed" }
-    ],
-    "VPX": [
-      { "condition": "Earnings quality confirmed synthetic", "test": "FVTPL marks > 50% of PBT for a third consecutive quarter", "status": "armed" },
-      { "condition": "The free option expires worthless", "test": "CAEX licence rejected under the 5-licence cap", "status": "armed" }
-    ],
-    "VCI": [
-      { "condition": "Behind plan becomes broken plan", "test": "9M PBT < 55% of the FY target", "status": "armed — 1H only ~29%; as of 2026-07-27 clearing it needs Q3 PBT of 598bn, i.e. 2.21x the Q2 actual and 1.51x the better Q1. Near-certain to fire in October unless the signed IB/IPO pipeline lands inside Q3. See valuation.VCI._KILL_CRITERION_ARITHMETIC_2026_07_27" },
-      { "condition": "The single bull case fails", "test": "no market-share gain in foreign brokerage through the FTSE event", "status": "armed" }
-    ]
+  "HPG": {
+   "price": 20800,
+   "pe_ttm": 8.04,
+   "pb": 1.26,
+   "roe_ttm": 0.164,
+   "q2_npat_est": 5020,
+   "h1_npat_est": 14076,
+   "pct_of_fy_plan": 0.64,
+   "status": "MBS estimate — official FS pending"
   },
-
-  "_LOOKTHROUGH_EXPOSURE_2026_07_27": {
-    "_ESCALATION": "The cluster map understates industry concentration by 71%. Consolidated subsidiaries are counted inside their parent's ecosystem, so brokerage shows as a 3.1% 'Brokers-other' cluster when the book is economically 19.5% Vietnamese brokerage.",
-    "tcbs_share_of_tcb_1h_pbt": 0.192,
-    "vpbanks_share_of_vpb_1h_pbt": 0.142,
-    "effective_broker_pct": { "TCX": 12.23, "VPX": 4.22, "VCI": 3.10, "total": 19.54, "stated_total": 11.4 },
-    "banks_ex_broker_pct": 43.4,
-    "so_what": "Three brokers, one margin cycle, one Sep-21 FTSE event, at record system margin debt (435-454tn). The optimizer's +5.1pp TCX add starts from an effective 12.2%, not 5.5%, and would take broker exposure to ~25% of the book.",
-    "recommended_NOT_applied": "Add a look-through industry layer beside the cluster map; and for parent/subsidiary pairs (TCB/TCX, VPB/VPX) the 0.80 same-cluster correlation is wrong — that is consolidation, not correlation. Optimizer config is human-only (charter section 4)."
+  "KDH": {
+   "price": 18000,
+   "pe_ttm": 19.2,
+   "pb": 1.07,
+   "roe_ttm": 0.066,
+   "q2_npat_mi_est": 170,
+   "h1_npat_mi_est": 451,
+   "q2_npat_mi_yoy_est": -0.146,
+   "status": "MBS estimate — official FS pending; WEAK vs 348bn street preview"
   },
-
-  "optimizer": {
-    "_note": "Turns expected returns into TARGET WEIGHTS. No covariance matrix exists for this book, so risk is modeled honestly: sigma from scenario dispersion blended with a base equity vol, correlation from a BLOCK model (cluster > sector > market). This makes the 20%/35% caps a cross-check on the math rather than the only risk control.",
-    "risk_aversion_lambda": 6.0,
-    "base_vol_annual": 0.28,
-    "corr_same_cluster": 0.80,
-    "corr_same_sector": 0.70,
-    "corr_market_baseline": 0.45,
-    "sectors": { "TCB": "bank", "VPB": "bank", "MBB": "bank",
-                 "TCX": "broker", "VPX": "broker", "VCI": "broker",
-                 "KDH": "property", "HPG": "steel" },
-    "turnover_cost": 0.005,
-    "max_move_pp_per_cycle": 5.0,
-    "no_trade_band_pct": 3.0,
-    "max_single_name_pct": 20.0,
-    "max_cluster_pct": 35.0,
-    "min_position_pct": 2.0,
-    "cash_floor_pct": 0.0
+  "MBB": {
+   "price": 22050,
+   "pe_ttm": 7.46,
+   "pb": 1.24,
+   "roe_ttm": 0.209,
+   "q2_npat_est": 7052,
+   "h1_npat_est": 14755,
+   "h1_npat_yoy": 0.164,
+   "pct_of_fy_plan": 0.468,
+   "status": "VCBS estimate — official FS pending; FY26 PBT plan 39,400 (+15%)"
   },
-
-  "kdh": {
-    "actuals": {
-      "q1_revenue": 281.4, "q1_pbt": 355.7, "q1_bargain_gain": 285.2,
-      "q1_gross_margin": 0.65, "units_sold_pct_of_226": 0.60,
-      "units_handed_cumulative": 46, "q1_asp_per_unit_bn": 44,
-      "debt": 15348, "capitalized_interest_q1": 225.0,
-      "customer_advances": 688.6, "company_plan_npat": 1500,
-      "company_stretch_npat": 2500
-    },
-    "model": {
-      "gladia_lowrise_units_total": 226,
-      "asp_per_unit_bn": 42,
-      "gross_margin": 0.65,
-      "kdh_stake_gladia": 0.51,
-      "annual_opex_other": 350,
-      "tax_rate": 0.20,
-      "one_off_bargain_gain": 285,
-      "scenarios_units_handed_fy26": { "bear": 80, "base": 130, "bull": 185 },
-      "_FEASIBILITY_2026_07_27": "Independent derivation from Q1 unit economics reproduces these counts as 81/131/186 — the model is internally consistent. BUT: only 135 units are SOLD (60% of 226), so the bull branch (186) is arithmetically infeasible from contracted sales; it needs ~51 further units sold AND handed inside the same year. And Q1 delivered 6 units, so even the bear branch needs 25/quarter — a 4.2x step-up. Recommend cutting bull probability from 0.20. NOT applied: probability re-weighting is a judgment change reserved for a human (charter section 2).",
-      "_Q2_PRE_REGISTERED_READ": "Written before the print (~Jul 28-30) so it cannot be rationalised after. Parent NPAT 170bn => ~19 units handed (bear confirmed, still short of the 25/qtr bear pace); 259bn => ~27 (bear-to-base); 348bn => ~35 (base in play). Verify units two ways: Doan Nguyen/Gladia inventory movement (3.45tn at Q1, ~15bn released per handover) AND the revenue line. Customer advances (688.6bn at Q1) matter more than profit — that is the forward-looking series and the armed kill criterion."
-    }
-  },
-
-  "tcb": {
-    "actuals": { "h1_pbt": 18500, "loans_q2": 950000, "nim_q2": 0.034, "cir_h1": 0.297, "npl": 0.0115, "guidance_pbt": [35000, 37500] },
-    "model": {
-      "noninterest_share_of_toi": 0.35,
-      "cir": 0.30,
-      "scenarios": {
-        "credit_growth_fy": { "bear": 0.16, "base": 0.18, "bull": 0.20 },
-        "nim_fy": { "bear": 0.031, "base": 0.033, "bull": 0.035 },
-        "credit_cost": { "bear": 0.007, "base": 0.005, "bull": 0.004 }
-      },
-      "loans_start_fy": 830000,
-      "loans_mid_fy": 950000
-    }
-  },
-
-  "vpb": {
-    "actuals": { "h1_pbt": 18880, "credit_q2": 1060000, "credit_growth_ytd": 0.246, "target_pbt": 41600, "nim_guided": 0.044 },
-    "model": {
-      "_SENSITIVITY_MISATTRIBUTED_2026_07_26": "run.py prints 'FE Credit NPL formation is the swing factor'. The 2.3tn per +0.2% credit cost is correct, the ATTRIBUTION is not: FE Credit is now 0.8% of consolidated PBT (153bn of 18,880bn in 1H). The credit risk sits in the PARENT book (+24.6% YTD, past 1 quadrillion). Monitoring FE Credit NPLs watches a 0.8% segment while the exposure grew elsewhere. run.py is machinery and may not be edited by an automated run (charter section 4) — a human should correct the printed line. See research/dossiers/VPB.md section 2.",
-      "_VPX_LOOKTHROUGH_2026_07_26": "VPB consolidated PBT already CONTAINS VPBankS at 14.2%. Effective VPX exposure is 2.8% direct + 1.42pp look-through = 4.22% (+51% vs stated). The optimizer models VPB/VPX as 0.80-correlated; they are not correlated, one contains the other. Same structure for TCB/TCX. Recommend raising corr_same_cluster toward ~0.95 for parent/subsidiary pairs — NOT applied, optimizer config is human-only (charter section 4).",
-      "noninterest_share_of_toi": 0.25,
-      "cir": 0.28,
-      "scenarios": {
-        "credit_growth_fy": { "bear": 0.30, "base": 0.35, "bull": 0.40 },
-        "nim_fy": { "bear": 0.041, "base": 0.043, "bull": 0.045 },
-        "credit_cost": { "bear": 0.026, "base": 0.022, "bull": 0.019 }
-      },
-      "credit_start_fy": 962000,
-      "loans_mid_fy": 1150000
-    }
-  },
-
-  "tcx": {
-    "actuals": { "h1_pbt": 3555, "fy_plan_pbt": 7535, "margin_book_q2": 51500, "margin_equity_pct": 0.98 },
-    "model": {
-      "h2_scenarios": {
-        "bear":  { "avg_margin_book": 46000, "margin_spread": 0.042, "other_income_vs_h1": 0.75 },
-        "base":  { "avg_margin_book": 52000, "margin_spread": 0.046, "other_income_vs_h1": 1.00 },
-        "bull":  { "avg_margin_book": 58000, "margin_spread": 0.050, "other_income_vs_h1": 1.25 }
-      },
-      "h1_margin_interest_est": 1100,
-      "pbt_margin_on_other": 0.55
-    },
-    "ftse_event_tree": [
-      { "name": "strong inflows + follow-through", "p": 0.35, "price_move": 0.20 },
-      { "name": "in-line, quiet digestion", "p": 0.45, "price_move": 0.05 },
-      { "name": "sell-the-news / flow disappointment", "p": 0.20, "price_move": -0.15 }
-    ]
-  },
-
-  "vpx": {
-    "actuals": { "h1_pbt": 2673, "fy_plan_pbt": 6453, "h1_fvtpl_gains": 3461, "margin_book_q2": 38000 },
-    "model": {
-      "h2_scenarios": {
-        "bear":  { "core_pbt_vs_h1": 0.9, "fvtpl_vs_h1": 0.4 },
-        "base":  { "core_pbt_vs_h1": 1.1, "fvtpl_vs_h1": 0.8 },
-        "bull":  { "core_pbt_vs_h1": 1.3, "fvtpl_vs_h1": 1.2 }
-      },
-      "h1_core_pbt_est": 1200,
-      "fvtpl_flowthrough_to_pbt": 0.42
-    },
-    "caex_option": [
-      { "name": "license granted ~Q3", "p": 0.40, "price_move": 0.15 },
-      { "name": "delayed / unresolved", "p": 0.45, "price_move": 0.00 },
-      { "name": "rejected (5-license cap)", "p": 0.15, "price_move": -0.08 }
-    ]
-  },
-
-  "hpg": {
-    "actuals": { "q1_npat": 9056, "q1_core_npat": 5046, "q1_divestment_gain": 4123, "q1_volume_mt": 3.0, "fy_target_npat": 22000, "street_range": [18000, 28000] },
-    "model": {
-      "remaining_volume_mt": { "bear": 10.5, "base": 11.5, "bull": 12.5 },
-      "core_npat_per_tonne_m": { "bear": 1.25, "base": 1.60, "bull": 1.85 },
-      "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario",
-      "spread_bridge_2026_07_26": {
-        "_see": "research/models/hpg-spread-bridge.md — NPAT/t reconstructed from input prices instead of asserted",
-        "consumption_per_t_steel": { "iron_ore_t": 1.6, "coking_coal_t": 0.65 },
-        "conversion_usd_t": 114, "da_usd_t": 49, "sga_usd_t": 15, "interest_usd_t": 17,
-        "_calibration": "conversion solved so the bridge reproduces the KNOWN Q1/26 actual 1.68m/t at Q1 inputs (ore 101, coal 190, HRC 560)",
-        "gearing_vnd_m_per_t": { "per_usd20_hrc": 0.42, "per_usd10_iron_ore": 0.34, "per_usd10_coking_coal": 0.14 },
-        "hrc_required_usd_t": { "bear_1.25m": 581, "base_1.60m": 598, "bull_1.85m": 610 },
-        "_BOTH_INPUTS_VERIFIED_2026_07_27": "Both bridge inputs were forecasts; both now checked against actual quotes. Iron ore SPOT 97.70 (SGX) vs 115 modelled. Coking coal SPOT 228 (PHCC FOB Australia, -24% MoM from 238.9 on 10-Jul) vs 220 modelled — that one was nearly right. At both spot prices the case is 0.83m/t, not 0.36m. Still below the 1.25m bear branch, so prices remain worse than the model's worst case, but the gap is a third of what it looked like. Coal falling 24% in a month is a live UPSIDE risk: at coal 200 the spot case reaches 1.21m/t, essentially the bear branch.", "_CORRECTED_2026_07_27": "The ore=115 below was a FITCH FORECAST mis-logged as spot. Actual spot 27-Jul: SGX 97.70/t, DCE 736 CNY (~103). At ore 97.70 the spot case is 0.94m/t, not 0.36m/t — a +0.58m/t swing. The bear case is materially weaker than the 26-Jul work concluded, though 0.94m still sits below the 1.25m bear branch. Coking coal 220 is ALSO a forecast and needs the same check.", "FINDING": "SUPERSEDED, see above. At spot (HRC 539, ore 115, coal 220) the all-in pre-tax cost is 522/t — a ~3% margin — implying only 0.36m/t. EVERY branch including bear assumes HRC RECOVERS; the bear case needs +7.9%. No branch describes the world as it is.",
-        "TIMING": "Ore/coal are bought 1-2 quarters forward, so Q2/26 reflects CHEAP Q1 inputs and the late-July squeeze lands in Q3. A strong Q2 print (~Jul 28) does NOT refute the bear thesis.",
-        "recommended_but_NOT_applied": "Add a 4th branch spot_persists = 0.36m/t (~4.1tn H2 core on 11.5mt vs 14.4tn at the bear branch). Adding a branch and reweighting probabilities is a judgment change reserved for a human (charter 2)."
-      },
-      "spread_watch_2026_07_26": "BEAR EVIDENCE ACCUMULATING: Formosa cut Aug/Sep HRC by ~US$40/t (VND1,050/kg); Indian HRC ~US$535/t landed; iron ore up to ~US$115/t (from 98-104 at Q1) and coking coal 2026F raised to US$220/t. Both blades of the spread moving against HPG — weight the bear branch until the official Q2 print settles it."
-    }
+  "VCI": {
+   "price": 20500,
+   "pe_ttm": 17.2,
+   "pb": 1.38,
+   "roe_ttm": 0.089,
+   "q2_npat_mi": 251,
+   "h1_npat_mi": 591,
+   "q2_yoy": 0.363,
+   "pct_of_fy_pbt_plan": 0.29,
+   "status": "official — BEHIND plan (29% at 1H vs +41% FY PBT target)"
   }
+ },
+ "portfolio": {
+  "_note": "Weights only — absolute position sizes/costs are kept in the private layer, not this public repo. v2: COMBINED across two brokerage accounts (integrated 2026-07-24); prices 24-Jul.",
+  "positions": [
+   {
+    "ticker": "TCB",
+    "weight_pct": 35.0,
+    "cluster": "Techcom eco"
+   },
+   {
+    "ticker": "KDH",
+    "weight_pct": 20.3,
+    "cluster": "Residential"
+   },
+   {
+    "ticker": "HPG",
+    "weight_pct": 16.8,
+    "cluster": "Steel"
+   },
+   {
+    "ticker": "VPB",
+    "weight_pct": 10.0,
+    "cluster": "VPBank eco"
+   },
+   {
+    "ticker": "MBB",
+    "weight_pct": 6.5,
+    "cluster": "Banks-other"
+   },
+   {
+    "ticker": "TCX",
+    "weight_pct": 5.5,
+    "cluster": "Techcom eco"
+   },
+   {
+    "ticker": "VCI",
+    "weight_pct": 3.1,
+    "cluster": "Brokers-other"
+   },
+   {
+    "ticker": "VPX",
+    "weight_pct": 2.8,
+    "cluster": "VPBank eco"
+   }
+  ],
+  "max_single_name_pct": 20,
+  "max_cluster_pct": 35
+ },
+ "valuation": {
+  "_note": "The bridge from earnings scenarios to DECISIONS. Return_s = (exit_multiple_s x fy26e_npat_s) / market_cap_now - 1 + cash_yield. Working in market-cap space avoids share-count drift (the HPG/TCX stock-dividend trap). exit_multiple is the single biggest judgment call in this file: it is where 'what is it worth' lives. probs are Layer-2 beliefs; confidence is the evidence-quality shrink applied to expected return (see decide.py).",
+  "_npat_ttm_method": "DERIVED FROM THE EARNINGS PATH, not from a guessed share count: npat_ttm = H1_26 + H2_25, where H1_25 = H1_26/(1+yoy) and H2_25 ~ H1_25 x 1.05 seasonality. This keeps npat_ttm internally consistent with the same H1 actuals the scenarios are built on. An earlier version derived it from estimated share counts and put MBB's TTM base ~35% too low, which made a normal bank look like a +85% expected return. Cross-check whenever prices refresh: pe_ttm x npat_ttm should land within ~5% of shares x price.",
+  "_horizon_months": 12,
+  "TCB": {
+   "price": 29250,
+   "npat_ttm": 27300,
+   "pe_ttm": 7.57,
+   "cash_yield": 0.024,
+   "confidence": 0.85,
+   "fy26e_npat": {
+    "bear": 24894,
+    "base": 26584,
+    "bull": 27913
+   },
+   "exit_pe": {
+    "bear": 6.5,
+    "base": 8.0,
+    "bull": 9.5
+   },
+   "probs": {
+    "bear": 0.3,
+    "base": 0.45,
+    "bull": 0.25
+   },
+   "evidence": "Q2 official; 1H 48.9% of plan; NIM recovering 3.1->3.4%"
+  },
+  "VPB": {
+   "price": 25000,
+   "npat_ttm": 24418,
+   "pe_ttm": 6.9,
+   "cash_yield": 0.0,
+   "confidence": 0.85,
+   "fy26e_npat": {
+    "bear": 21518,
+    "base": 24546,
+    "bull": 26400
+   },
+   "exit_pe": {
+    "bear": 5.8,
+    "base": 7.0,
+    "bull": 8.5
+   },
+   "probs": {
+    "bear": 0.3,
+    "base": 0.45,
+    "bull": 0.25
+   },
+   "evidence": "Q2 official; 1H PBT +68% vs +22% plan; credit +24.6% YTD"
+  },
+  "MBB": {
+   "price": 22050,
+   "npat_ttm": 28065,
+   "pe_ttm": 7.46,
+   "cash_yield": 0.0,
+   "confidence": 0.55,
+   "fy26e_npat": {
+    "bear": 28000,
+    "base": 30500,
+    "bull": 33000
+   },
+   "exit_pe": {
+    "bear": 6.5,
+    "base": 8.0,
+    "bull": 9.5
+   },
+   "probs": {
+    "bear": 0.3,
+    "base": 0.45,
+    "bull": 0.25
+   },
+   "evidence": "NO DOSSIER YET (S1/S3 pending); Q2 estimate only; ROE TTM 20.9% is sector-best"
+  },
+  "HPG": {
+   "price": 20800,
+   "npat_ttm": 20180,
+   "pe_ttm": 8.04,
+   "cash_yield": 0.0,
+   "confidence": 0.6,
+   "fy26e_npat": {
+    "bear": 18061,
+    "base": 23336,
+    "bull": 28061
+   },
+   "exit_pe": {
+    "bear": 9.0,
+    "base": 8.5,
+    "bull": 8.0
+   },
+   "probs": {
+    "bear": 0.45,
+    "base": 0.375,
+    "bull": 0.175
+   },
+   "evidence": "Q2 UNFILED; 26-Jul spread evidence moved mass to bear; FY26E is CORE (ex VND4.12tn Pho Noi gain); cyclical multiple INVERTED (low on peak)"
+  },
+  "KDH": {
+   "price": 18000,
+   "npat_ttm": 938,
+   "pe_ttm": 19.2,
+   "cash_yield": 0.0,
+   "confidence": 0.5,
+   "fy26e_npat": {
+    "bear": 1033,
+    "base": 1590,
+    "bull": 2203
+   },
+   "exit_pe": {
+    "bear": 12.0,
+    "base": 14.0,
+    "bull": 16.0
+   },
+   "probs": {
+    "bear": 0.4,
+    "base": 0.4,
+    "bull": 0.2
+   },
+   "evidence": "Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers)"
+  },
+  "TCX": {
+   "price": 41100,
+   "npat_ttm": 4050,
+   "pe_ttm": 20.3,
+   "cash_yield": 0.0,
+   "confidence": 0.8,
+   "_MARGIN_LEAGUE_2026_07_27": "TCBS is the #1 margin lender in Vietnam at 51,500bn of loan book at end-Q2, +15% on the quarter, against a system total of 435,000bn that grew 30,000bn in the same three months. Nine bank-backed brokers took 18,700bn of that 30,000bn (62%). This corroborates the earnings base but changes no input: T5 evidence cannot raise confidence (charter section 2), and the TCX risk was never the earnings — it is the 2.49x P/B, the priciest multiple in the book.",
+   "fy26e_npat": {
+    "bear": 5090,
+    "base": 5765,
+    "bull": 6459
+   },
+   "exit_pe": {
+    "bear": 14.0,
+    "base": 18.0,
+    "bull": 22.0
+   },
+   "probs": {
+    "bear": 0.35,
+    "base": 0.42,
+    "bull": 0.23
+   },
+   "evidence": "Q2 official; 1H 47.1% of plan; the risk is the MULTIPLE (2.49x P/B, priciest in book), not the earnings"
+  },
+  "VPX": {
+   "price": 26600,
+   "npat_ttm": 2800,
+   "_npat_ttm_FLAG": "SUSPECT 2026-07-27 — SECOND instance of this error class after VCI. The file's own earnings-path method gives 3,047-3,447 (H1/25 = 2,169/3.005 = 722); the margin-room route (38,177 drawn + >33,000 room => ceiling >=71,177 => equity >=35,588; x P/B 1.40) gives cap 49,826 and npat_ttm 3,559. File carries 2,800. Correcting takes E[r] from +19.0% (RANK 1) to +2 to +12%. Control: TCX checks out (20.3 x 4,050 = 82,215 vs ~2.0bn shares x 41,100), so the defect is specific to VCI and VPX, whose TTM bases were rough early estimates. NOT changed on inference — resolve from the Q2 filing. Suspend any VPX add.",
+   "pe_ttm": 14.0,
+   "cash_yield": 0.0,
+   "confidence": 0.55,
+   "fy26e_npat": {
+    "bear": 3467,
+    "base": 4125,
+    "bull": 4782
+   },
+   "exit_pe": {
+    "bear": 9.0,
+    "base": 12.0,
+    "bull": 16.0
+   },
+   "probs": {
+    "bear": 0.32,
+    "base": 0.45,
+    "bull": 0.23
+   },
+   "evidence": "S3 done 27-Jul. NOT primarily a broker: ~30tn FVTPL book (>18tn BONDS) + 38.2tn margin vs only 3.57% HOSE share — a leveraged credit/margin book. Discount JUSTIFIED but for a different reason: Q2 absorbed a 923bn FVTPL loss and prop still netted >700bn, so gains are not fake; the risk is a 18tn+ bond position in the VN corporate-bond market. >33tn of unused margin room is the real bull case, better than the CAEX option. npat_ttm suspect — see flag."
+  },
+  "VCI": {
+   "price": 20500,
+   "npat_ttm": 1100,
+   "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.",
+   "pe_ttm": 17.2,
+   "cash_yield": 0.0,
+   "confidence": 0.4,
+   "_MARGIN_HEADROOM_REREAD_2026_07_27": "The S1 screen called the margin book at 0.97x equity vs a 2.0x cap 'genuine headroom, the strongest bull point', reading unused capacity as optionality if flows arrived. The flows arrived and VCI did not use it. System margin lending hit a record 435,000bn at end-Q2, +30,000bn in the quarter (+7% QoQ, +49% YoY); industry lending revenue +64% YoY. VCI's margin book was 16,644bn - FLAT vs end-Q1, +4% YTD - and sits outside the top five (TCBS 51,500 / SSI 40,500 / VPBankS 38,200 / VPS 31,300 / HSC 29,000). Unused capacity that stays unused in the best conditions on record is a description of the business, not an option on it. Cause (funding cost / risk appetite / client demand) NOT established - that is the next question. T5 evidence, so exit_pe and probs are untouched per charter section 2; confidence cut 0.45 -> 0.40, which section 2 permits on any tier. ESCALATED not modelled (charter section 5): this contradicts the thesis, not a number.",
+   "_KILL_CRITERION_ARITHMETIC_2026_07_27": "The '9M PBT < 55% of FY target' test is now close to arithmetically certain to fire. 55% of the 2,300bn FY plan = 1,265bn. 1H delivered 667bn (29%). Q3 alone must therefore produce 598bn of PBT - 2.21x the 270.8bn Q2 actual and 1.51x the 396bn Q1, which was the better quarter. Only the signed IB/IPO pipeline landing inside Q3 clears it. Resolves with the Q3 statements (~Oct). Peer context, same market and same half: SSI finished 1H at 53% of its FY profit target vs VCI's 29%; VPS Q2 PBT +57%; HSC Q2 profit +42%. The shortfall is specific to VCI, so 'H2 is strong for everyone' is not available as a defence.",
+   "fy26e_npat": {
+    "bear": 1150,
+    "base": 1400,
+    "bull": 1750
+   },
+   "exit_pe": {
+    "bear": 12.0,
+    "base": 16.0,
+    "bull": 18.0
+   },
+   "probs": {
+    "bear": 0.38,
+    "base": 0.42,
+    "bull": 0.2
+   },
+   "evidence": "S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag."
+  }
+ },
+ "kill_criteria": {
+  "_note": "Falsifiable, dated, written BEFORE the event. status is one of: armed / TRIGGERED / cleared. A TRIGGERED criterion forces a resize at the next decision brief -- it is not advisory.",
+  "TCB": [
+   {
+    "condition": "NIM fails to hold the Q2 recovery",
+    "test": "Q3 NIM < 3.25% (vs 3.4% in Q2)",
+    "status": "armed"
+   },
+   {
+    "condition": "Ecosystem credit concentration turns",
+    "test": "developer/related-party NPL formation > 2.0%, or a Masterise bond event",
+    "status": "armed"
+   },
+   {
+    "condition": "The real-estate de-risking reverses",
+    "test": "RE share of loans back above 32% (was 33.2% in 2024 -> 28.9% at Q1/26)",
+    "status": "armed — added from TCB dossier 2026-07-26"
+   }
+  ],
+  "VPB": [
+   {
+    "condition": "FE Credit re-breaks",
+    "test": "consumer-finance NPL formation re-accelerates > 3.0% credit cost annualized",
+    "status": "armed"
+   },
+   {
+    "condition": "Placement prices badly",
+    "test": "foreign placement executed > 15% below market",
+    "status": "armed"
+   }
+  ],
+  "MBB": [
+   {
+    "condition": "Weak-bank transfer turns from privilege to cost",
+    "test": "transferee drag > 5% of PBT in any quarter",
+    "status": "armed"
+   }
+  ],
+  "HPG": [
+   {
+    "condition": "The spread thesis breaks",
+    "test": "core NPAT/tonne < VND1.25m for two consecutive quarters",
+    "status": "armed — 26-Jul spread evidence moved this closer"
+   },
+   {
+    "condition": "DQ2 ramp disappoints",
+    "test": "HRC volume run-rate < 85% of nameplate at Q4",
+    "status": "armed"
+   }
+  ],
+  "KDH": [
+   {
+    "condition": "Handover pace fails",
+    "test": "customer advances < VND1,000bn at 3Q26 with Gladia Heights launched",
+    "status": "armed — the decisive test"
+   },
+   {
+    "condition": "Leverage outruns delivery",
+    "test": "debt > VND18tn without a matching pre-sale step-up",
+    "status": "armed"
+   },
+   {
+    "condition": "Earnings quality stays synthetic",
+    "test": "a second consecutive quarter where bargain-purchase or revaluation gains exceed operating PBT",
+    "status": "armed"
+   }
+  ],
+  "TCX": [
+   {
+    "condition": "The multiple is the thesis, and it goes",
+    "test": "P/B < 2.0x on unchanged earnings = the re-rating case is dead",
+    "status": "armed"
+   },
+   {
+    "condition": "FTSE flows disappoint",
+    "test": "no net foreign accumulation in the 4 weeks after Sep 21",
+    "status": "armed"
+   }
+  ],
+  "VPX": [
+   {
+    "condition": "Earnings quality confirmed synthetic",
+    "test": "FVTPL marks > 50% of PBT for a third consecutive quarter",
+    "status": "armed"
+   },
+   {
+    "condition": "The free option expires worthless",
+    "test": "CAEX licence rejected under the 5-licence cap",
+    "status": "armed"
+   }
+  ],
+  "VCI": [
+   {
+    "condition": "Behind plan becomes broken plan",
+    "test": "9M PBT < 55% of the FY target",
+    "status": "armed — 1H only ~29%; as of 2026-07-27 clearing it needs Q3 PBT of 598bn, i.e. 2.21x the Q2 actual and 1.51x the better Q1. Near-certain to fire in October unless the signed IB/IPO pipeline lands inside Q3. See valuation.VCI._KILL_CRITERION_ARITHMETIC_2026_07_27"
+   },
+   {
+    "condition": "The single bull case fails",
+    "test": "no market-share gain in foreign brokerage through the FTSE event",
+    "status": "armed"
+   }
+  ]
+ },
+ "_LOOKTHROUGH_EXPOSURE_2026_07_27": {
+  "_ESCALATION": "The cluster map understates industry concentration by 71%. Consolidated subsidiaries are counted inside their parent's ecosystem, so brokerage shows as a 3.1% 'Brokers-other' cluster when the book is economically 19.5% Vietnamese brokerage.",
+  "tcbs_share_of_tcb_1h_pbt": 0.192,
+  "vpbanks_share_of_vpb_1h_pbt": 0.142,
+  "effective_broker_pct": {
+   "TCX": 12.23,
+   "VPX": 4.22,
+   "VCI": 3.1,
+   "total": 19.54,
+   "stated_total": 11.4
+  },
+  "banks_ex_broker_pct": 43.4,
+  "so_what": "Three brokers, one margin cycle, one Sep-21 FTSE event, at record system margin debt (435-454tn). The optimizer's +5.1pp TCX add starts from an effective 12.2%, not 5.5%, and would take broker exposure to ~25% of the book.",
+  "recommended_NOT_applied": "Add a look-through industry layer beside the cluster map; and for parent/subsidiary pairs (TCB/TCX, VPB/VPX) the 0.80 same-cluster correlation is wrong — that is consolidation, not correlation. Optimizer config is human-only (charter section 4)."
+ },
+ "optimizer": {
+  "_note": "Turns expected returns into TARGET WEIGHTS. No covariance matrix exists for this book, so risk is modeled honestly: sigma from scenario dispersion blended with a base equity vol, correlation from a BLOCK model (cluster > sector > market). This makes the 20%/35% caps a cross-check on the math rather than the only risk control.",
+  "risk_aversion_lambda": 6.0,
+  "base_vol_annual": 0.28,
+  "corr_same_cluster": 0.8,
+  "corr_same_sector": 0.7,
+  "corr_market_baseline": 0.45,
+  "sectors": {
+   "TCB": "bank",
+   "VPB": "bank",
+   "MBB": "bank",
+   "TCX": "broker",
+   "VPX": "broker",
+   "VCI": "broker",
+   "KDH": "property",
+   "HPG": "steel"
+  },
+  "turnover_cost": 0.005,
+  "max_move_pp_per_cycle": 5.0,
+  "no_trade_band_pct": 3.0,
+  "max_single_name_pct": 20.0,
+  "max_cluster_pct": 35.0,
+  "min_position_pct": 2.0,
+  "cash_floor_pct": 0.0
+ },
+ "kdh": {
+  "actuals": {
+   "q1_revenue": 281.4,
+   "q1_pbt": 355.7,
+   "q1_bargain_gain": 285.2,
+   "q1_gross_margin": 0.65,
+   "units_sold_pct_of_226": 0.6,
+   "units_handed_cumulative": 46,
+   "q1_asp_per_unit_bn": 44,
+   "debt": 15348,
+   "capitalized_interest_q1": 225.0,
+   "customer_advances": 688.6,
+   "company_plan_npat": 1500,
+   "company_stretch_npat": 2500
+  },
+  "model": {
+   "gladia_lowrise_units_total": 226,
+   "asp_per_unit_bn": 42,
+   "gross_margin": 0.65,
+   "kdh_stake_gladia": 0.51,
+   "annual_opex_other": 350,
+   "tax_rate": 0.2,
+   "one_off_bargain_gain": 285,
+   "scenarios_units_handed_fy26": {
+    "bear": 80,
+    "base": 130,
+    "bull": 185
+   },
+   "_FEASIBILITY_2026_07_27": "Independent derivation from Q1 unit economics reproduces these counts as 81/131/186 — the model is internally consistent. BUT: only 135 units are SOLD (60% of 226), so the bull branch (186) is arithmetically infeasible from contracted sales; it needs ~51 further units sold AND handed inside the same year. And Q1 delivered 6 units, so even the bear branch needs 25/quarter — a 4.2x step-up. Recommend cutting bull probability from 0.20. NOT applied: probability re-weighting is a judgment change reserved for a human (charter section 2).",
+   "_Q2_PRE_REGISTERED_READ": "Written before the print (~Jul 28-30) so it cannot be rationalised after. Parent NPAT 170bn => ~19 units handed (bear confirmed, still short of the 25/qtr bear pace); 259bn => ~27 (bear-to-base); 348bn => ~35 (base in play). Verify units two ways: Doan Nguyen/Gladia inventory movement (3.45tn at Q1, ~15bn released per handover) AND the revenue line. Customer advances (688.6bn at Q1) matter more than profit — that is the forward-looking series and the armed kill criterion."
+  }
+ },
+ "tcb": {
+  "actuals": {
+   "h1_pbt": 18500,
+   "loans_q2": 950000,
+   "nim_q2": 0.034,
+   "cir_h1": 0.297,
+   "npl": 0.0115,
+   "guidance_pbt": [
+    35000,
+    37500
+   ]
+  },
+  "model": {
+   "noninterest_share_of_toi": 0.35,
+   "cir": 0.3,
+   "scenarios": {
+    "credit_growth_fy": {
+     "bear": 0.16,
+     "base": 0.18,
+     "bull": 0.2
+    },
+    "nim_fy": {
+     "bear": 0.031,
+     "base": 0.033,
+     "bull": 0.035
+    },
+    "credit_cost": {
+     "bear": 0.007,
+     "base": 0.005,
+     "bull": 0.004
+    }
+   },
+   "loans_start_fy": 830000,
+   "loans_mid_fy": 950000
+  }
+ },
+ "vpb": {
+  "actuals": {
+   "h1_pbt": 18880,
+   "credit_q2": 1060000,
+   "credit_growth_ytd": 0.246,
+   "target_pbt": 41600,
+   "nim_guided": 0.044
+  },
+  "model": {
+   "_SENSITIVITY_MISATTRIBUTED_2026_07_26": "run.py prints 'FE Credit NPL formation is the swing factor'. The 2.3tn per +0.2% credit cost is correct, the ATTRIBUTION is not: FE Credit is now 0.8% of consolidated PBT (153bn of 18,880bn in 1H). The credit risk sits in the PARENT book (+24.6% YTD, past 1 quadrillion). Monitoring FE Credit NPLs watches a 0.8% segment while the exposure grew elsewhere. run.py is machinery and may not be edited by an automated run (charter section 4) — a human should correct the printed line. See research/dossiers/VPB.md section 2.",
+   "_VPX_LOOKTHROUGH_2026_07_26": "VPB consolidated PBT already CONTAINS VPBankS at 14.2%. Effective VPX exposure is 2.8% direct + 1.42pp look-through = 4.22% (+51% vs stated). The optimizer models VPB/VPX as 0.80-correlated; they are not correlated, one contains the other. Same structure for TCB/TCX. Recommend raising corr_same_cluster toward ~0.95 for parent/subsidiary pairs — NOT applied, optimizer config is human-only (charter section 4).",
+   "noninterest_share_of_toi": 0.25,
+   "cir": 0.28,
+   "scenarios": {
+    "credit_growth_fy": {
+     "bear": 0.3,
+     "base": 0.35,
+     "bull": 0.4
+    },
+    "nim_fy": {
+     "bear": 0.041,
+     "base": 0.043,
+     "bull": 0.045
+    },
+    "credit_cost": {
+     "bear": 0.026,
+     "base": 0.022,
+     "bull": 0.019
+    }
+   },
+   "credit_start_fy": 962000,
+   "loans_mid_fy": 1150000
+  }
+ },
+ "tcx": {
+  "actuals": {
+   "h1_pbt": 3555,
+   "fy_plan_pbt": 7535,
+   "margin_book_q2": 51500,
+   "margin_equity_pct": 0.98
+  },
+  "model": {
+   "h2_scenarios": {
+    "bear": {
+     "avg_margin_book": 46000,
+     "margin_spread": 0.042,
+     "other_income_vs_h1": 0.75
+    },
+    "base": {
+     "avg_margin_book": 52000,
+     "margin_spread": 0.046,
+     "other_income_vs_h1": 1.0
+    },
+    "bull": {
+     "avg_margin_book": 58000,
+     "margin_spread": 0.05,
+     "other_income_vs_h1": 1.25
+    }
+   },
+   "h1_margin_interest_est": 1100,
+   "pbt_margin_on_other": 0.55
+  },
+  "ftse_event_tree": [
+   {
+    "name": "strong inflows + follow-through",
+    "p": 0.35,
+    "price_move": 0.2
+   },
+   {
+    "name": "in-line, quiet digestion",
+    "p": 0.45,
+    "price_move": 0.05
+   },
+   {
+    "name": "sell-the-news / flow disappointment",
+    "p": 0.2,
+    "price_move": -0.15
+   }
+  ]
+ },
+ "vpx": {
+  "actuals": {
+   "h1_pbt": 2673,
+   "fy_plan_pbt": 6453,
+   "h1_fvtpl_gains": 3461,
+   "margin_book_q2": 38000
+  },
+  "model": {
+   "h2_scenarios": {
+    "bear": {
+     "core_pbt_vs_h1": 0.9,
+     "fvtpl_vs_h1": 0.4
+    },
+    "base": {
+     "core_pbt_vs_h1": 1.1,
+     "fvtpl_vs_h1": 0.8
+    },
+    "bull": {
+     "core_pbt_vs_h1": 1.3,
+     "fvtpl_vs_h1": 1.2
+    }
+   },
+   "h1_core_pbt_est": 1200,
+   "fvtpl_flowthrough_to_pbt": 0.42
+  },
+  "caex_option": [
+   {
+    "name": "license granted ~Q3",
+    "p": 0.4,
+    "price_move": 0.15
+   },
+   {
+    "name": "delayed / unresolved",
+    "p": 0.45,
+    "price_move": 0.0
+   },
+   {
+    "name": "rejected (5-license cap)",
+    "p": 0.15,
+    "price_move": -0.08
+   }
+  ]
+ },
+ "hpg": {
+  "actuals": {
+   "q1_npat": 9056,
+   "q1_core_npat": 5046,
+   "q1_divestment_gain": 4123,
+   "q1_volume_mt": 3.0,
+   "fy_target_npat": 22000,
+   "street_range": [
+    18000,
+    28000
+   ],
+   "q2_volume_mt": 3.5,
+   "h1_volume_mt": 6.5,
+   "q2_hrc_volume_mt": 1.9,
+   "_q2_volume_source": "HPG company operating release (noibo.hoaphat.com.vn, early Jul, reported by Tien Phong/Vietstock/VietnamPlus/Thoi bao Tai chinh/baodauthau). SALES of the basket construction steel + high-quality coil + HRC + billet. Distinct from the 3.6mt CRUDE STEEL PRODUCTION figure in the same release - do not confuse them. Excludes pipe (212kt) and galvanised (83kt). Tier T2 (company disclosure, not a filed FS). CROSS-CHECK PASSES: H1 6.5 - Q2 3.5 = Q1 3.0, matching q1_volume_mt already in this file from an independent source."
+  },
+  "model": {
+   "remaining_volume_mt": {
+    "bear": 10.5,
+    "base": 11.5,
+    "bull": 12.5
+   },
+   "core_npat_per_tonne_m": {
+    "bear": 1.25,
+    "base": 1.6,
+    "bull": 1.85
+   },
+   "note": "Q1 core NPAT/tonne ≈ 1.68m; bear = domestic HRC price-cut scenario",
+   "spread_bridge_2026_07_26": {
+    "_see": "research/models/hpg-spread-bridge.md — NPAT/t reconstructed from input prices instead of asserted",
+    "consumption_per_t_steel": {
+     "iron_ore_t": 1.6,
+     "coking_coal_t": 0.65
+    },
+    "conversion_usd_t": 114,
+    "da_usd_t": 49,
+    "sga_usd_t": 15,
+    "interest_usd_t": 17,
+    "_calibration": "conversion solved so the bridge reproduces the KNOWN Q1/26 actual 1.68m/t at Q1 inputs (ore 101, coal 190, HRC 560)",
+    "gearing_vnd_m_per_t": {
+     "per_usd20_hrc": 0.42,
+     "per_usd10_iron_ore": 0.34,
+     "per_usd10_coking_coal": 0.14
+    },
+    "hrc_required_usd_t": {
+     "bear_1.25m": 581,
+     "base_1.60m": 598,
+     "bull_1.85m": 610
+    },
+    "_BOTH_INPUTS_VERIFIED_2026_07_27": "Both bridge inputs were forecasts; both now checked against actual quotes. Iron ore SPOT 97.70 (SGX) vs 115 modelled. Coking coal SPOT 228 (PHCC FOB Australia, -24% MoM from 238.9 on 10-Jul) vs 220 modelled — that one was nearly right. At both spot prices the case is 0.83m/t, not 0.36m. Still below the 1.25m bear branch, so prices remain worse than the model's worst case, but the gap is a third of what it looked like. Coal falling 24% in a month is a live UPSIDE risk: at coal 200 the spot case reaches 1.21m/t, essentially the bear branch.",
+    "_CORRECTED_2026_07_27": "The ore=115 below was a FITCH FORECAST mis-logged as spot. Actual spot 27-Jul: SGX 97.70/t, DCE 736 CNY (~103). At ore 97.70 the spot case is 0.94m/t, not 0.36m/t — a +0.58m/t swing. The bear case is materially weaker than the 26-Jul work concluded, though 0.94m still sits below the 1.25m bear branch. Coking coal 220 is ALSO a forecast and needs the same check.",
+    "FINDING": "SUPERSEDED, see above. At spot (HRC 539, ore 115, coal 220) the all-in pre-tax cost is 522/t — a ~3% margin — implying only 0.36m/t. EVERY branch including bear assumes HRC RECOVERS; the bear case needs +7.9%. No branch describes the world as it is.",
+    "TIMING": "Ore/coal are bought 1-2 quarters forward, so Q2/26 reflects CHEAP Q1 inputs and the late-July squeeze lands in Q3. A strong Q2 print (~Jul 28) does NOT refute the bear thesis.",
+    "recommended_but_NOT_applied": "Add a 4th branch spot_persists = 0.36m/t (~4.1tn H2 core on 11.5mt vs 14.4tn at the bear branch). Adding a branch and reweighting probabilities is a judgment change reserved for a human (charter 2)."
+   },
+   "spread_watch_2026_07_26": "BEAR EVIDENCE ACCUMULATING: Formosa cut Aug/Sep HRC by ~US$40/t (VND1,050/kg); Indian HRC ~US$535/t landed; iron ore up to ~US$115/t (from 98-104 at Q1) and coking coal 2026F raised to US$220/t. Both blades of the spread moving against HPG — weight the bear branch until the official Q2 print settles it.",
+   "_Q2_VOLUME_KNOWN_2026_07_28": "The volume blade is no longer an estimate for Q2, and it is NOT the problem. Q2 sales 3.5mt is +16.7% on Q1. Against remaining_volume_mt (which covers Q2+Q3+Q4): bear 10.5 now needs H2 merely FLAT on Q2 (3.50/qtr); base 11.5 needs 4.00/qtr, +14.3%, i.e. roughly a repeat of the Q1->Q2 ramp; bull 12.5 needs 4.50/qtr, +28.6%, the ramp repeating twice. Base is therefore reachable on continuation, not on a step-change. CONSEQUENCE: the HPG risk sits entirely on the MARGIN blade, not the volume blade - the opposite of what the spread_watch note's framing implies. Volume no longer needs watching monthly; NPAT/tonne does.",
+   "_Q2_PRE_REGISTERED_READ_2026_07_28": "Written BEFORE the Q2 print so it cannot be rationalised after. Because Q2 volume is now known at 3.5mt, any headline core NPAT translates DIRECTLY into NPAT/tonne with no ambiguity. Q1 core was 1.68m/t (5,046bn / 3.0mt); the model's branches are bear 1.25, base 1.60, bull 1.85. | 5,020bn => 1.43m/t, -14.7% vs Q1: margin contracting, but still ABOVE the 1.25 bear branch, so the bear branch is not breached even at the low end of the on-file estimate range. | 5,600bn => 1.60m/t, -4.9%: lands exactly on the base branch, and exactly on the threshold of open calibration forecast #2 (which predicts BELOW 1.60). | 6,400-6,500bn (street) => 1.83-1.86m/t, +8.7 to +10.4% vs Q1: margin EXPANSION, at or above the 1.85 bull branch, in a quarter when Formosa cut Aug/Sep HRC by ~US$40/t and Indian HRC landed at ~US$535/t. That is only coherent through the input-cost lag - Q2 burns cheap Q1 ore at ~US$101/t. THE TRAP: a 6,500bn print is NOT evidence against the spread thesis. Per the TIMING note, Q2 consumes Q1 inputs. A strong Q2 with expanding per-tonne margin is precisely what the lag predicts. It makes Q3 - which burns today's US$97.70 ore against an already-cut HRC price - the quarter that actually tests the thesis. Do not raise confidence on a Q2 beat."
+  }
+ }
 }
