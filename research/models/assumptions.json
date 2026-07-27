@@ -731,5 +731,29 @@
    "_Q2_VOLUME_KNOWN_2026_07_28": "The volume blade is no longer an estimate for Q2, and it is NOT the problem. Q2 sales 3.5mt is +16.7% on Q1. Against remaining_volume_mt (which covers Q2+Q3+Q4): bear 10.5 now needs H2 merely FLAT on Q2 (3.50/qtr); base 11.5 needs 4.00/qtr, +14.3%, i.e. roughly a repeat of the Q1->Q2 ramp; bull 12.5 needs 4.50/qtr, +28.6%, the ramp repeating twice. Base is therefore reachable on continuation, not on a step-change. CONSEQUENCE: the HPG risk sits entirely on the MARGIN blade, not the volume blade - the opposite of what the spread_watch note's framing implies. Volume no longer needs watching monthly; NPAT/tonne does.",
    "_Q2_PRE_REGISTERED_READ_2026_07_28": "Written BEFORE the Q2 print so it cannot be rationalised after. Because Q2 volume is now known at 3.5mt, any headline core NPAT translates DIRECTLY into NPAT/tonne with no ambiguity. Q1 core was 1.68m/t (5,046bn / 3.0mt); the model's branches are bear 1.25, base 1.60, bull 1.85. | 5,020bn => 1.43m/t, -14.7% vs Q1: margin contracting, but still ABOVE the 1.25 bear branch, so the bear branch is not breached even at the low end of the on-file estimate range. | 5,600bn => 1.60m/t, -4.9%: lands exactly on the base branch, and exactly on the threshold of open calibration forecast #2 (which predicts BELOW 1.60). | 6,400-6,500bn (street) => 1.83-1.86m/t, +8.7 to +10.4% vs Q1: margin EXPANSION, at or above the 1.85 bull branch, in a quarter when Formosa cut Aug/Sep HRC by ~US$40/t and Indian HRC landed at ~US$535/t. That is only coherent through the input-cost lag - Q2 burns cheap Q1 ore at ~US$101/t. THE TRAP: a 6,500bn print is NOT evidence against the spread thesis. Per the TIMING note, Q2 consumes Q1 inputs. A strong Q2 with expanding per-tonne margin is precisely what the lag predicts. It makes Q3 - which burns today's US$97.70 ore against an already-cut HRC price - the quarter that actually tests the thesis. Do not raise confidence on a Q2 beat."
   }
+ },
+ "mbb": {
+  "actuals": {
+   "q1_pbt": 9628,
+   "q1_nii": 14913,
+   "q1_toi": 17430,
+   "q1_opex": 4347,
+   "q1_cir": 0.249,
+   "_q1_period_WARNING": "These are Q1/2026, NOT H1. The search summary that produced them labelled the same figures 'nua dau nam' (first half) in its body while the headline said 'quy I/2026'. That is the THIRD time this exact period conflation has appeared on MBB - it also caused the 26-Jul near-miss when a Q1 PBT was reported as Q2. Q1 PBT 9,628 is +14.8% YoY. Tier T5, press reporting a filed Q1 statement.",
+   "q2_pbt_estimate": 8812,
+   "_q2_status": "VCBS ESTIMATE, not filed. Note it is 8.5% BELOW the Q1 actual - the sequential trend into Q2 is negative.",
+   "guidance_pbt": [
+    39400,
+    39500
+   ],
+   "target_credit_growth": [
+    0.25,
+    0.3
+   ],
+   "_target_conflict": "Sources give +25% and ~+30% for 2026 credit growth; dossiers/MBB.md cites a 30-35% allowance. Not reconciled - reads off the AGM materials.",
+   "target_npl_max": 0.015
+  },
+  "_NO_DRIVER_MODEL_2026_07_28": "MBB is NOT built by run.py. fy26e_npat 28,000/30,500/33,000 is asserted directly. INVERTING IT - the check the audit called for - the branches turn out to be COHERENT, which is worth saying plainly since the audit implied they might not be. At a 0.80 NPAT/PBT ratio they imply FY26 PBT of 35,000 / 38,125 / 41,250 against a company plan of 39,400-39,500. So base sits just below guidance and bull just above: a sensible spread AROUND the plan, not a number pulled from nowhere. Against npat_ttm 28,065 the branches are flat / +8.7% / +17.6% on trailing profit. WHAT REMAINS WRONG is not the level, it is that no driver produces it. TCB's base comes from credit +18%, NIM 3.3%, credit cost 0.5% - move any one and the branch moves. MBB's base comes from nothing, so it cannot be stress-tested: if SBV changes MBB's quota or NIM compresses, there is no lever to pull. That is the real cost of the gap, and it is a reason to BUILD the model, not to distrust the number. DELIBERATELY NOT BUILT TONIGHT. The H1 statement lands within about 48 hours and will supply loans, NIM, CIR and NPL as filed actuals. Building a driver block now from press summaries - one of which already mislabelled the period - then rebuilding it Thursday would waste the work and risk anchoring on the wrong numbers. Charter section 6 date-gating logic applies to depth work too. Pre-registered read below instead.",
+  "_PRE_REGISTERED_H2_READ_2026_07_28": "Written BEFORE the H1 print. Each fy26e_npat branch implies a required SECOND-HALF PBT, so the H1 actual translates straight into which branch is still live. Required H2 growth versus H1: | H1 17,000 -> bear +5.9%, base +24.3%, bull +42.6% | H1 18,000 -> bear -5.6%, base +11.8%, bull +29.2% | H1 18,440 -> bear -10.2%, base +6.8%, bull +23.7% | H1 19,000 -> bear -15.8%, base +0.7%, bull +17.1% | H1 20,000 -> bear -25.0%, base -9.4%, bull +6.2% | H1 21,000 -> bear -33.3%, base -18.5%, bull -3.6%. If Q2 lands near the 8,812 estimate, H1 is ~18,440 and the base branch needs +11.7% on the Q2 quarterly run-rate. STATED FAIRLY: Vietnamese bank profit is seasonally second-half weighted, because credit quota gets used late and fee income concentrates at year-end, so +11.7% is not alarming on its own. What the table prevents is reading a big H1 as good news without checking what it leaves H2 needing - note that at H1 of 20,000 or above, even the BULL branch needs almost no further growth, which would mean the branches have stopped discriminating and need rebuilding rather than celebrating."
  }
 }

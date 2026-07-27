@@ -54,6 +54,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **03:53 ICT · MBB (lane 3 + depth) — inverted the asserted earnings branches the audit
+  flagged an hour ago. They come back COHERENT, which is worth saying plainly. The gap is
+  real but it is a different gap than it looked.**
+  **What was checked.** The 02:53 audit found MBB has no driver model — its `fy26e_npat`
+  of ₫28,000 / 30,500 / 33,000bn is typed in rather than built. The obvious next question
+  is whether those numbers are defensible at all. Inverting them at a 0.80 NPAT-to-PBT
+  ratio gives implied full-year pre-tax profit of **₫35,000 / 38,125 / 41,250bn against a
+  company plan of ₫39,400–39,500bn.** Base sits just below guidance, bull just above — a
+  sensible spread *around* the plan. Against trailing profit of ₫28,065bn the branches are
+  flat / +8.7% / +17.6%. **These are not numbers pulled from nowhere, and the audit's
+  framing an hour ago implied they might be. Correcting that.**
+  **The gap that is real.** It is not the level, it is that nothing produces it. TCB's base
+  case comes from credit +18%, NIM 3.3%, credit cost 0.5% — move any one and the branch
+  moves with it. **MBB's base case comes from nothing, so it cannot be stress-tested.** If
+  SBV changes MBB's quota or its margin compresses, there is no lever to pull. That is an
+  argument for *building* the model, not for distrusting the number.
+  **Deliberately not built tonight.** The H1 statement lands within about 48 hours and will
+  supply loans, NIM, cost-income and NPL as filed actuals. Building a driver block now out
+  of press summaries — one of which already mislabelled its own period — and rebuilding it
+  Thursday would waste the work and risk anchoring on the wrong numbers. Charter §6's
+  date-gating logic applies to depth work, not only to searching.
+  **Pre-registered read instead, written before the print.** Each branch implies a required
+  second-half profit, so the H1 actual translates straight into which branches are still
+  live. Required H2 growth versus H1: **at H1 ₫18,000bn — bear −5.6%, base +11.8%, bull
+  +29.2%. At ₫18,440bn — bear −10.2%, base +6.8%, bull +23.7%. At ₫20,000bn — bear −25.0%,
+  base −9.4%, bull +6.2%.** If Q2 lands near the ₫8,812bn estimate, H1 is about ₫18,440bn
+  and the base branch needs +11.7% on the Q2 quarterly run-rate. **Stated fairly: Vietnamese
+  bank profit is seasonally second-half weighted, because credit quota gets used late and fee
+  income concentrates at year-end, so +11.7% is not alarming by itself.** What the table
+  prevents is reading a large H1 as good news without checking what it leaves H2 needing —
+  note that at H1 of ₫20,000bn or above, even the **bull** branch needs almost no further
+  growth, which would mean the branches had stopped discriminating and needed rebuilding
+  rather than celebrating.
+  **Near-miss caught, and it is the same trap for the third time.** The search summary
+  reporting these figures put "quý I/2026" in its headline and "nửa đầu năm" — first half —
+  in its body, for the same numbers. **This is the third MBB period conflation**, after the
+  26 July near-miss where a Q1 pre-tax profit was reported as Q2. The Q1 figures are logged
+  explicitly labelled, with the warning attached. Also unreconciled: sources give MBB's 2026
+  credit-growth target as +25% and as ~+30%, while `dossiers/MBB.md` cites a 30–35% allowance.
+  Flagged, not resolved — it reads off the AGM materials.
+  **Model:** new `mbb` block with Q1 actuals (PBT ₫9,628bn +14.8%, net interest income
+  ₫14,913bn +27.5%, operating income ₫17,430bn, opex ₫4,347bn, cost-income 24.9%) and the
+  pre-registered table. **`fy26e_npat` unchanged, confidence unchanged at 0.55**, because
+  nothing here is new evidence — it is arithmetic on numbers already held. No trigger fires.
+  Sources: [DNSE — MBB Q1/26 PBT ₫9,628bn, +14.8%](https://www.dnse.com.vn/senses/tin-tuc/mb-bank-bao-lai-9628-ty-dong-trong-quy-i2026-tang-gan-15-35222104) · [Market Times — same print](https://markettimes.vn/mb-bank-bao-lai-9-628-ty-dong-trong-quy-i-2026-tang-gan-15-116669.html) · [DNSE — 2026 targets: assets +22%, credit +25%](https://www.dnse.com.vn/senses/tin-tuc/loi-nhuan-mb-cao-ky-luc-chu-tich-luu-trung-thai-chia-se-ve-muc-tieu-kinh-doanh-nam-2026-tang-22-tong-tai-san-va-25-tin-dung-35182405)
+
 - **02:53 ICT · WHOLE BOOK (depth) — last night's lesson applied to all eight names.
   Six checks, four failures, and one of them explains something the decision brief has
   been quietly asserting for days.**
