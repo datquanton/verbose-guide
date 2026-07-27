@@ -61,6 +61,27 @@ that is what makes them worth scoring.**
 | 9 | 2026-07-24 | VCI | 9M PBT reaches ≥55% of FY target (the kill-criterion threshold) | conf 0.65 | Q3 FS (~Oct) | ⏳ open |
 | 10 | 2026-07-23 | HPG | US rebar AD/CVD final ≈ headline risk only, <3% of revenue, no thesis change | conf 0.75 | ~Jul 28 Federal Register | ⏳ open |
 
+### Annotations on open forecasts
+
+Original rows are **never edited** — a forecast that gets quietly revised as evidence
+arrives cannot be scored, and a calibration log that permits revision measures nothing.
+Where the evidence moves before resolution, it is recorded here instead, and both the
+original and the annotation are visible when the row is finally scored.
+
+- **2026-07-27 · #9 (VCI, 9M PBT ≥ 55% of the FY target, conf 0.65).** The 0.65 now looks
+  clearly too high, and it looked too high on the day it was written. Clearing the
+  threshold requires **₫1,265bn** of 9M pre-tax profit; the half delivered **₫667bn**; so
+  **Q3 alone must produce ₫598bn — 2.21× the ₫270.8bn Q2 actual and 1.51× the ₫396bn
+  Q1**. Only the signed IB/IPO pipeline landing inside Q3 gets there. Two facts arrived
+  today that make the miss more likely rather than less: peers are not short (SSI finished
+  the half at **53%** of its full-year target against VCI's 29%), and VCI's margin book was
+  **flat quarter-on-quarter** while the system's grew 7% to a record.
+  **The lesson is already visible and does not need the outcome to land:** a confidence of
+  0.65 was attached to a forecast whose required arithmetic was never computed. Computing
+  it took two minutes. **Confidence should not be set on a plan-completion forecast until
+  the implied per-quarter run-rate has been worked out** — that check now belongs in the
+  screen, not in the post-mortem.
+
 ## Scored forecasts
 
 _None yet — the first batch resolves with the Q2 filings this week (Jul 28–30)._

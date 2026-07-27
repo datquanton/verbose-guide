@@ -54,6 +54,79 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-27
 
+- **22:58 ICT · BROKERS (lanes 4+6) — the whole Vietnamese brokerage industry just had a
+  record quarter for margin lending, and VCI sat it out. That inverts the main bull point
+  in the VCI thesis.**
+  **The system.** Total lending at Vietnamese brokers reached **₫453.8tn at end-Q2/26**, up
+  **7% on the quarter and 49% on the year**. The margin-loan portion of that is a record
+  **₫435tn**, an increase of **₫30tn in three months**. Margin lending is the business of
+  lending investors money to buy shares, and for most Vietnamese brokers it is now the
+  largest single source of revenue — industry lending revenue was ₫12.2tn in Q2, **+64%
+  year-on-year**. **Evidence tier: T5** (press aggregating filed Q2 statements).
+  **Two of our eight holdings are winning this race.** The lenders' league table by loan
+  book: **TCBS ₫51.5tn (#1, +15% on the quarter)**, SSI ₫40.5tn, **VPBankS ₫38.2tn (#3)**,
+  VPS ₫31.3tn, HSC ₫29tn. TCBS is the listed company we hold as **TCX**; VPBankS is **VPX**.
+  Nine bank-backed brokers captured **₫18.7tn of the ₫30tn of new margin lending — 62% of
+  the industry's growth**. Both of our brokers are bank-backed, and both are in the top
+  three. Nothing in the model changes on this, but it corroborates the earnings base for
+  8.3% of the book, and the ₫38.2tn already carried in the VPX record now has an
+  independent second source.
+  **VCI is the one that did not participate.** Vietcap's margin book is **₫16,644bn — flat
+  against the end of Q1, and up only 4% since the start of the year**, against a system
+  that grew 7% in the quarter and 49% in the year. Its book is roughly a third of TCBS's,
+  and it is outside the top five.
+  **Why this reverses a conclusion.** The 26-Jul VCI screen listed the margin book at
+  **0.97× equity against a 2.0× regulatory cap** as "genuine headroom — the strongest bull
+  point," reading the unused capacity as optionality that could be deployed if flows
+  arrived. The flows arrived. The system's margin book grew by ₫30tn in the quarter, its
+  best on record, and VCI's did not move. **Unused capacity that goes unused in the best
+  possible conditions is not optionality; it is a description of the business.** Whether
+  the constraint is funding cost, risk appetite, or client demand is not established here
+  and is the right next question.
+  **And it is not the sector.** SSI finished the half at **53% of its full-year profit
+  target**; VCI finished it at **29% of a ₫2,300bn pre-tax plan**. VPS grew Q2 pre-tax
+  profit **57%** to ₫1,378bn at a record 58.6% margin; HSC grew Q2 profit **42%**. Same
+  market, same six months. **The shortfall is specific to VCI, not something H2 will fix
+  for everyone.**
+  **The kill criterion is now close to arithmetically certain.** The armed test is *9M
+  pre-tax profit below 55% of the full-year target*. 55% of ₫2,300bn is **₫1,265bn**. The
+  half-year delivered **₫667bn**. So **Q3 alone must produce ₫598bn of pre-tax profit** to
+  clear it — **2.2× the ₫270.8bn Q2 actual, and 1.5× the ₫396bn Q1**, which was the better
+  quarter. Absent the signed IB/IPO pipeline landing inside Q3, this criterion fires in
+  October. **That is an escalation, not a model edit** (charter §5): the evidence contradicts
+  the thesis rather than one of its numbers, so `exit_pe` and `probs` are untouched and the
+  call belongs to a human. VCI `confidence` lowered **0.45 → 0.40**, which is permitted on
+  any tier and is warranted now that the bull leg is weaker as well as the input suspect.
+  **Portfolio impact: VCI is 3.1% of the book and the optimizer's +3.1pp add was already
+  suspended on 26-Jul over the market-cap defect. This is a second, independent reason to
+  keep it suspended, and the first reason to treat VCI as a trim candidate rather than a
+  hold-and-wait.**
+  [Vietstock — system lending ₫453.8tn, league table](https://vietstock.vn/2026/07/du-no-margin-lap-ky-luc-454-ngan-ty-dong-cuoc-dua-co-su-phan-hoa-830-1468883.htm) · [CafeF — ₫435tn margin, +₫30tn QoQ](https://cafef.vn/du-no-margin-toan-thi-truong-lap-ky-luc-gan-450000-ty-loat-ctck-cho-vay-ty-usd-188260721001349581.chn) · [Tin nhanh chứng khoán — Q2 broker profit dispersion](https://www.tinnhanhchungkhoan.vn/buc-tranh-loi-nhuan-quy-ii2026-cua-nhom-cong-ty-chung-khoan-phan-hoa-manh-post394384.html) · [Doanh nghiệp Hội nhập — VCI 29% of plan](https://doanhnghiephoinhap.vn/vietcap-moi-hoan-thanh-29-ke-hoach-loi-nhuan-sau-nua-nam-143926.html) · [Kinh doanh Net — VCI margin flat QoQ](https://kinhdoanhnet.vn/margin-keo-loi-nhuan-vietcap-tang-36-dong-tien-am-duoc-bu-dap-bang-vay-no-a80035.html) · [Vietstock — VPS Q2](https://vietstock.vn/2026/07/vps-cong-bo-ket-qua-kinh-doanh-quy-22026-830-1468146.htm) · [Mekong Asean — HSC Q2 +42%](https://mekongasean.vn/hsc-bao-lai-quy-2-tang-42-them-fpt-vao-danh-muc-tu-doanh-57603.html)
+
+- **22:58 ICT · MACRO (lane 1) — the dong is at its weakest on record against the dollar,
+  while interbank rates are at their lowest of the year. Those two normally do not happen
+  together.** The State Bank's central reference rate is **25,293** on 27-Jul, ten dong
+  higher than Friday and a fresh record. Vietcombank quotes **26,140 / 26,520** buy/sell,
+  putting the retail rate within ~40 dong of the 26,558 ceiling the ±5% band allows.
+  Meanwhile the SBV **net-withdrew ₫26,300bn last week** and interbank rates are the
+  **lowest since the start of the year**. **Evidence tier: T5.**
+  **What the combination means.** Cheap interbank money means the banking system has ample
+  short-term liquidity. A record-weak dong means that liquidity is leaking into dollar
+  demand rather than into lending. The SBV draining ₫26.3tn is it removing dong to defend
+  the rate. **This is the 26-Jul funding-cost read continuing, one week further along and
+  slightly worse on the currency, better on the money-market side.**
+  **Portfolio impact: no model input changes. It stays a watch item for the 51.5% bank
+  cluster, and specifically for VPB's US$250m foreign placement, which prices in dollars
+  into a currency at its weakest recorded level.** Not material on its own; logged because
+  the central rate setting a record is the lane-1 item this sweep exists to catch.
+  [CafeF — USD past ₫26,500](https://cafef.vn/gia-usd-ngan-hang-vuot-26500-dong-tien-sat-dinh-lich-su-188260727171706109.chn) · [GiaVang.net — central rate 25,293](https://giavang.net/ty-gia-usd-vnd-ngay-27-7-tgtt-cao-ki-luc-25-293-cac-nh-kha-de-chung-trong-viec-nang-gia/) · [VietnamBiz — SBV drained ₫26,300bn, interbank at year low](https://vietnambiz.vn/nhnn-hut-rong-hon-26300-ty-trong-tuan-qua-lai-suat-lien-ngan-hang-thap-nhat-tu-dau-nam-2026727135616147.htm)
+
+- **22:58 ICT · Not logged as material.** Foreign investors net-sold **₫800bn on HOSE on
+  27-Jul**, concentrated in banks: VPB −₫96bn, TCB −₫72bn, SHB −₫71bn on the sell side;
+  LPB +₫70bn and MBB +₫56bn bought. One session of flow in three holdings changes no
+  number, no kill criterion and no catalyst, so under charter §1 it is not material. Noted
+  because the direction is worth watching if it persists across the Q2 filing week.
+
 - **13:53 ICT · OWNERSHIP (lane 7) — the KDH insider buyer is the Vice Chairman's son, not
   simply "a Deputy CEO" as I had recorded. That changes what the signal means.**
   **Lý Tuấn Kiệt** — Deputy General Director **and son of Vice Chairman Lý Điền Sơn** —

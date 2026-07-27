@@ -69,6 +69,7 @@
       "evidence": "Q2 UNFILED; estimate dispersion extreme (MBS 170 vs SSI 348); FY26 rests on one variable (Gladia handovers)" },
 
     "TCX": { "price": 41100, "npat_ttm": 4050, "pe_ttm": 20.3, "cash_yield": 0.0, "confidence": 0.80,
+      "_MARGIN_LEAGUE_2026_07_27": "TCBS is the #1 margin lender in Vietnam at 51,500bn of loan book at end-Q2, +15% on the quarter, against a system total of 435,000bn that grew 30,000bn in the same three months. Nine bank-backed brokers took 18,700bn of that 30,000bn (62%). This corroborates the earnings base but changes no input: T5 evidence cannot raise confidence (charter section 2), and the TCX risk was never the earnings — it is the 2.49x P/B, the priciest multiple in the book.",
       "fy26e_npat": { "bear": 5090, "base": 5765, "bull": 6459 },
       "exit_pe":    { "bear": 14.0, "base": 18.0, "bull": 22.0 },
       "probs":      { "bear": 0.35, "base": 0.42, "bull": 0.23 },
@@ -80,7 +81,9 @@
       "probs":      { "bear": 0.32, "base": 0.45, "bull": 0.23 },
       "evidence": "S3 done 27-Jul. NOT primarily a broker: ~30tn FVTPL book (>18tn BONDS) + 38.2tn margin vs only 3.57% HOSE share — a leveraged credit/margin book. Discount JUSTIFIED but for a different reason: Q2 absorbed a 923bn FVTPL loss and prop still netted >700bn, so gains are not fake; the risk is a 18tn+ bond position in the VN corporate-bond market. >33tn of unused margin room is the real bull case, better than the CAEX option. npat_ttm suspect — see flag." },
 
-    "VCI": { "price": 20500, "npat_ttm": 1100, "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.", "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.45,
+    "VCI": { "price": 20500, "npat_ttm": 1100, "_npat_ttm_FLAG": "SUSPECT 2026-07-26: fails the mandated cross-check by 25.2%. Balance-sheet route (margin 16,644 / 0.97 = equity 17,159; x P/B 1.38) implies cap 23,679 and npat_ttm ~1,377 vs 18,920 implied here. Correcting it flips E[r] +7.0% -> -7.5%. NOT changed on inference — resolve from the Q2 filing (share count + equity). Suspend the optimizer add until then.", "pe_ttm": 17.2, "cash_yield": 0.0, "confidence": 0.40,
+      "_MARGIN_HEADROOM_REREAD_2026_07_27": "The S1 screen called the margin book at 0.97x equity vs a 2.0x cap 'genuine headroom, the strongest bull point', reading unused capacity as optionality if flows arrived. The flows arrived and VCI did not use it. System margin lending hit a record 435,000bn at end-Q2, +30,000bn in the quarter (+7% QoQ, +49% YoY); industry lending revenue +64% YoY. VCI's margin book was 16,644bn - FLAT vs end-Q1, +4% YTD - and sits outside the top five (TCBS 51,500 / SSI 40,500 / VPBankS 38,200 / VPS 31,300 / HSC 29,000). Unused capacity that stays unused in the best conditions on record is a description of the business, not an option on it. Cause (funding cost / risk appetite / client demand) NOT established - that is the next question. T5 evidence, so exit_pe and probs are untouched per charter section 2; confidence cut 0.45 -> 0.40, which section 2 permits on any tier. ESCALATED not modelled (charter section 5): this contradicts the thesis, not a number.",
+      "_KILL_CRITERION_ARITHMETIC_2026_07_27": "The '9M PBT < 55% of FY target' test is now close to arithmetically certain to fire. 55% of the 2,300bn FY plan = 1,265bn. 1H delivered 667bn (29%). Q3 alone must therefore produce 598bn of PBT - 2.21x the 270.8bn Q2 actual and 1.51x the 396bn Q1, which was the better quarter. Only the signed IB/IPO pipeline landing inside Q3 clears it. Resolves with the Q3 statements (~Oct). Peer context, same market and same half: SSI finished 1H at 53% of its FY profit target vs VCI's 29%; VPS Q2 PBT +57%; HSC Q2 profit +42%. The shortfall is specific to VCI, so 'H2 is strong for everyone' is not available as a defence.",
       "fy26e_npat": { "bear": 1150, "base": 1400, "bull": 1750 },
       "exit_pe":    { "bear": 12.0, "base": 16.0, "bull": 18.0 },
       "probs":      { "bear": 0.38, "base": 0.42, "bull": 0.20 },
@@ -119,7 +122,7 @@
       { "condition": "The free option expires worthless", "test": "CAEX licence rejected under the 5-licence cap", "status": "armed" }
     ],
     "VCI": [
-      { "condition": "Behind plan becomes broken plan", "test": "9M PBT < 55% of the FY target", "status": "armed — 1H already only ~29%" },
+      { "condition": "Behind plan becomes broken plan", "test": "9M PBT < 55% of the FY target", "status": "armed — 1H only ~29%; as of 2026-07-27 clearing it needs Q3 PBT of 598bn, i.e. 2.21x the Q2 actual and 1.51x the better Q1. Near-certain to fire in October unless the signed IB/IPO pipeline lands inside Q3. See valuation.VCI._KILL_CRITERION_ARITHMETIC_2026_07_27" },
       { "condition": "The single bull case fails", "test": "no market-share gain in foreign brokerage through the FTSE event", "status": "armed" }
     ]
   },
