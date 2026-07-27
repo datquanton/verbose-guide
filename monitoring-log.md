@@ -54,6 +54,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-27
 
+- **10:53 ICT · STEEL (lane 5) — the second HPG input is now checked too. Coking coal is
+  US$228/t and falling hard; the model's US$220 forecast was close, so no repeat of
+  yesterday's error.** Premium hard coking coal, Australia FOB, sits at **US$228/t** — down
+  **7.7% week-on-week and 24% month-on-month** from US$238.9/t on 10-Jul. Prices rose early
+  in July on tight premium-grade supply, then fell as supply improved. **Evidence tier: T5.**
+  **What this does to the portfolio.** Both inputs in the HPG cost bridge had been forecasts
+  rather than prices. Both are now checked against actual quotes:
+
+  | | iron ore | coking coal | profit per tonne |
+  |---|---:|---:|---:|
+  | Last night — both forecasts | 115 | 220 | ₫0.36m |
+  | Ore corrected at 09:53 | 97.7 | 220 | ₫0.94m |
+  | **Both at spot** | **97.7** | **228** | **₫0.83m** |
+
+  Coal at 228 against the 220 modelled costs ₫0.11m/t, so unlike iron ore this assumption
+  was nearly right. Net of both corrections, HPG's "if prices stay here" economics are
+  **₫0.47m/t better than yesterday's work concluded** — ₫0.83m rather than ₫0.36m.
+  **The conclusion still stands, but only just.** ₫0.83m/t remains below the bear branch of
+  ₫1.25m, so current prices are worse than the model's worst case. The gap is now a third of
+  what it looked like yesterday. And coal falling 24% in a month cuts the right way: at
+  US$200/t the spot case reaches **₫1.21m/t**, essentially the bear branch. **A steel input
+  cost collapsing this fast is a live upside risk to a bear thesis, not background noise.**
+  [Discovery Alert](https://discoveryalert.com.au/premium-hard-coking-coal-fob-australia-correction-bid-q3-2026/) · [GMK Center](https://gmk.center/en/news/global-prices-for-coking-coal-fell-during-the-first-half-of-july/)
+
 - **09:53 ICT · STEEL (lane 5) — iron ore is US$97.70/t, not the ~US$115 I logged on
   26-Jul. That was a forecast, and I recorded it as if it were a market price.**
   Singapore (SGX) 62% Fe near-month settled **US$97.70/t** (−0.36%); Dalian (DCE) August
