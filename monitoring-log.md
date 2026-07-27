@@ -54,6 +54,68 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **02:53 ICT · WHOLE BOOK (depth) — last night's lesson applied to all eight names.
+  Six checks, four failures, and one of them explains something the decision brief has
+  been quietly asserting for days.**
+  **Why this ran.** The VPB finding produced a general rule: any two fields in the same
+  block that can be checked against each other arithmetically must be. A lesson applied
+  only to the name that produced it is not a lesson. Artifact:
+  `research/models/CONSISTENCY-AUDIT.md`. **None of this needed an external source** —
+  every check could have been run the day the numbers were entered.
+  **The structural one — MBB and VCI have no driver model at all.** `run.py` builds
+  scenario models for six names: KDH, TCB, VPB, TCX, VPX, HPG. Those six have their profit
+  branches *built* from drivers — credit growth, margin, handovers, tonnes. **MBB and VCI
+  appear only in the `valuation` block, with `fy26e_npat` typed in directly.** Nothing
+  derives them, nothing recomputes them when a driver moves, and they never reach
+  `SNAPSHOT.md`. That is **9.6% of the book priced off asserted numbers**. It matters more
+  than the weight suggests: **MBB's raw expected return of +16.0% is third-highest, and the
+  optimizer proposes taking it from 6.5% to 12.0% — the joint-largest add in the brief. The
+  engine's biggest bank add rests on the one bank whose earnings branches nobody derived.**
+  That is not an argument against MBB, which passed S1 on its merits; it is an argument that
+  this particular number has never been stress-tested the way the other six have.
+  **Confidence held at 0.55 deliberately** — confidence measures evidence quality, and the
+  evidence (passed S1, sector-best 20.9% ROE) did not change because the arithmetic behind
+  it turned out to be thin. The fix is to build the model, not to shade a number and call it
+  handled. MBB's `evidence` string did need correcting: it still read "NO DOSSIER YET",
+  which has been false since 26 July, while missing the gap that actually exists.
+  **HPG — core plus the one-off does not equal the headline.** ₫5,046bn core + ₫4,123bn
+  divestment gain = **₫9,169bn**, against a recorded ₫9,056bn headline: a **₫113bn, 1.25%**
+  gap in three numbers describing one quarter. It is not harmless, because core ÷ volume =
+  **₫1.68m/tonne is the calibration anchor of the whole spread bridge** — conversion cost of
+  US$114/t was solved backwards to reproduce it. On the other reading core is ₫4,933bn and
+  the anchor is **₫1.644m/t**, 2.2% lower. The likely explanation is a pre- versus post-tax
+  basis, but that implies ₫113bn of tax on a ₫4,123bn gain — a **2.7% effective rate** against
+  a 20% corporate rate. Possible, not obvious, and unstated. Flagged, not guessed; both
+  readings sit within 2.2%, so nothing in the ranking moves.
+  **KDH — the model and its own dossier disagree on selling price.** `assumptions.json` has
+  ASP ₫44bn per unit; `dossiers/KDH.md` §1 uses **₫42bn**, sourced to the same handovers.
+  Gross profit per unit is ₫27.3bn or ₫28.6bn depending on which wins, and solved quarterly
+  fixed opex ₫94bn or ₫102bn. Higher profit per unit means **fewer** units needed, taking the
+  bull branch from ~186 toward **~178**. **The headline finding survives**: 178 is still far
+  above the 135-unit sold book, so the bull branch stays arithmetically out of reach and the
+  pre-registered Q2 read stands. Precision needs redoing; the argument does not.
+  **TCB — a number in the brief does not reproduce.** The brief says "1H 48.9% of plan", but
+  ₫18,500bn against recorded guidance of ₫35,000–37,500bn is **49.3% to 52.9%**. To get 48.9%
+  the plan would have to be ₫37,832bn, outside the recorded range. Changes nothing, but a
+  figure in a decision document should reproduce from its inputs.
+  **What passed:** TCX at 47.2% of plan matches the brief exactly; VPX at 41.4% is behind
+  pace and consistent with its dossier; VPX first-half FVTPL gains are 1.29× total pre-tax
+  profit, confirming rather than discovering the earnings-quality point; and `pe_ttm ×
+  npat_ttm` reproduces the market cap for all eight. **That last check has a blind spot worth
+  naming — it cannot catch an error where both fields are wrong together, which is exactly
+  what happened to VCI and VPX.**
+  **No model number changed and no escalation trigger fires.** Rankings identical: TCX +18.5%,
+  VPX +15.0%, HPG +9.1%, MBB +8.8%, KDH +8.1%, VCI +4.3%, TCB +3.6%, VPB +1.0%. Four items
+  now need a human — see the audit's closing section.
+
+- **02:20 ICT · US TRADE (lane 2) — `gated`, and the date confirmed.** The rebar antidumping
+  final determination remains docketed for **28 July**, with the preliminary at 121.97% for
+  Hoa Phat and affiliates and 130.77% for other Vietnamese exporters, alongside a 1.08%
+  countervailing rate. Hoa Phat itself requested the postponement back on 3 March. Today is
+  28 July in Vietnam but still 27 July in Washington, so the notice cannot have published
+  yet. Open forecast #10 stays open. No action.
+  [Federal Register — preliminary AD determination](https://www.federalregister.gov/documents/2026/03/13/2026-04948/steel-concrete-reinforcing-bar-from-the-socialist-republic-of-vietnam-preliminary-affirmative) · [Federal Register — preliminary CVD](https://www.federalregister.gov/documents/2026/01/13/2026-00495/steel-concrete-reinforcing-bar-from-the-socialist-republic-of-vietnam-preliminary-affirmative)
+
 - **01:53 ICT · ESCALATION · VPB (lanes 1+3) — checking VPB's credit growth against the
   system print found that the two credit numbers in the model contradict each other. Which
   one is right decides whether VPB's base case is comfortable or very hard.**

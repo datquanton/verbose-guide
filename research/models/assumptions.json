@@ -211,7 +211,7 @@
     "base": 0.45,
     "bull": 0.25
    },
-   "evidence": "NO DOSSIER YET (S1/S3 pending); Q2 estimate only; ROE TTM 20.9% is sector-best"
+   "evidence": "S1 screen DONE 26-Jul (research/dossiers/MBB.md) - the previous 'NO DOSSIER YET' string was out of date. Passes S1 with a falsifiable variant view: ROE erosion 25.0->20.9% may be the PRICE of the MBV transfer, which bought a 30-35% credit allowance. Trailing ROE 20.9% is sector-best and ROE/(P/B) 16.9% is the best of five banks screened. Q2 is still an ESTIMATE, not filed. THE REAL GAP, found 28-Jul: MBB has NO DRIVER MODEL. run.py builds scenarios for KDH, TCB, VPB, TCX, VPX and HPG only; MBB's fy26e_npat branches are typed in directly, derived from nothing and recomputed by nothing. The optimizer's largest bank add (+5.5pp, 6.5%->12.0%) therefore rests on the one bank whose earnings branches were never built from drivers. Confidence HELD at 0.55: the stale string understated what is known while missing what is missing, and the two corrections roughly cancel. The fix is to build the model, not to shade the number. See CONSISTENCY-AUDIT.md section 3."
   },
   "HPG": {
    "price": 20800,
@@ -331,7 +331,7 @@
     "base": 0.42,
     "bull": 0.2
    },
-   "evidence": "S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag."
+   "evidence": "S1 done 26-Jul. Q2 -26% QoQ (251 vs 341) behind the +36% YoY headline; revenue flat, OCF negative funded by borrowings, prop book -430bn on FPT/MWG/KDH. ROE 8.9% vs ~15% COE => justified P/B ~0.39x against 1.38x traded. Bull case is the #1 institutional franchise (>28% share) into FTSE Sep-21 — an EVENT bet, not a franchise investment. npat_ttm suspect, see flag. | 28-Jul: VCI also has NO DRIVER MODEL - not built by run.py, fy26e_npat branches asserted directly. With MBB that is 9.6% of the book priced off numbers nothing derives. See CONSISTENCY-AUDIT.md section 3."
   }
  },
  "kill_criteria": {
@@ -491,7 +491,8 @@
    "capitalized_interest_q1": 225.0,
    "customer_advances": 688.6,
    "company_plan_npat": 1500,
-   "company_stretch_npat": 2500
+   "company_stretch_npat": 2500,
+   "_ASP_DISAGREES_WITH_DOSSIER_2026_07_28": "q1_asp_per_unit_bn is 44 here; research/dossiers/KDH.md section 1 uses 42, sourced to the same Q1 handovers. The dossier's unit economics hang on it: gross profit per unit 27.3 vs 28.6bn (+4.8%), solved quarterly fixed opex 94 vs 102bn (+8.3%). Higher gross profit per unit means FEWER units are needed per branch, so the dossier's counts fall - bull moves from ~186 toward ~178. THE HEADLINE FINDING SURVIVES: 178 is still far above the 135-unit sold book, so the bull branch remains arithmetically out of reach and the pre-registered Q2 read stands. What needs redoing is precision, not the argument. A human settles which ASP is right before either file is trusted to a decimal. See CONSISTENCY-AUDIT.md section 2."
   },
   "model": {
    "gladia_lowrise_units_total": 226,
@@ -684,7 +685,8 @@
    "q2_volume_mt": 3.5,
    "h1_volume_mt": 6.5,
    "q2_hrc_volume_mt": 1.9,
-   "_q2_volume_source": "HPG company operating release (noibo.hoaphat.com.vn, early Jul, reported by Tien Phong/Vietstock/VietnamPlus/Thoi bao Tai chinh/baodauthau). SALES of the basket construction steel + high-quality coil + HRC + billet. Distinct from the 3.6mt CRUDE STEEL PRODUCTION figure in the same release - do not confuse them. Excludes pipe (212kt) and galvanised (83kt). Tier T2 (company disclosure, not a filed FS). CROSS-CHECK PASSES: H1 6.5 - Q2 3.5 = Q1 3.0, matching q1_volume_mt already in this file from an independent source."
+   "_q2_volume_source": "HPG company operating release (noibo.hoaphat.com.vn, early Jul, reported by Tien Phong/Vietstock/VietnamPlus/Thoi bao Tai chinh/baodauthau). SALES of the basket construction steel + high-quality coil + HRC + billet. Distinct from the 3.6mt CRUDE STEEL PRODUCTION figure in the same release - do not confuse them. Excludes pipe (212kt) and galvanised (83kt). Tier T2 (company disclosure, not a filed FS). CROSS-CHECK PASSES: H1 6.5 - Q2 3.5 = Q1 3.0, matching q1_volume_mt already in this file from an independent source.",
+   "_RECONCILIATION_FLAG_2026_07_28": "q1_core_npat 5046 + q1_divestment_gain 4123 = 9169, but q1_npat is recorded as 9056 - a 113bn gap (1.25%). These three describe one quarter and must reconcile. It matters because q1_core_npat / q1_volume_mt = 1.68m/t is the CALIBRATION ANCHOR of the spread bridge (conversion_usd_t 114 was solved backwards to reproduce it). On the alternative reading, core = 9056 - 4123 = 4933 and the anchor becomes 1.644m/t, 2.2% lower, with conversion cost rising to match. Likely explanation: 4123 is PRE-tax and 4010 is post-tax, implying 113bn of tax = a 2.7% effective rate, well below the 20% CIT - possible but not obvious, and nothing in this file states the basis. NOT resolved, NOT guessed; both readings are within 2.2% so no branch or ranking moves. Reads off the Q1 statement. See CONSISTENCY-AUDIT.md section 1."
   },
   "model": {
    "remaining_volume_mt": {
