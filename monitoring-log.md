@@ -54,6 +54,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **06:53 ICT · CORRECTION · HPG (lane 5, steel) — yesterday's coking-coal note contradicts
+  itself, and fixing it reverses the conclusion. The spread at spot is worse than that note
+  said, not better.**
+  **The error.** Yesterday's entry reads: "Coking coal SPOT 228 (PHCC FOB Australia, **−24% MoM**
+  from 238.9 on 10-Jul)". Those two clauses contradict each other on their own numbers —
+  **238.9 to 228 is −4.6%, not −24%**. Nothing caught it because the sentence was never divided
+  into itself, which is precisely the failure this morning's `CONSISTENCY-AUDIT.md` was written
+  about. The audit checked fields against each other; it did not check a claim against the
+  figures inside the same sentence.
+  **What the price actually is.** Two independent sources this sweep: PHCC FOB Australia was
+  **$238.9/t on 10 July**, with an early-July bid of **$241/t** for an 1–10 August laycan, against
+  a **June average of $244.39** (range 242–249). So roughly **$238–241 in mid-July, about 1–2%
+  below the June average.** Coking coal is broadly flat and drifting slightly down. **It is not
+  collapsing, and the $228 in the model is not corroborated by anything found since.**
+  **What that kills.** Yesterday's note concluded that "coal falling 24% in a month is a live
+  **upside** risk" and that "at coal 200 the spot case reaches ₫1.21m/t, essentially the bear
+  branch." Coal is not heading to $200. **That upside argument does not hold.**
+  **What it does to the number**, using the model's own gearing of ₫0.14m per tonne for each US$10
+  of coking coal. From yesterday's spot case of **₫0.83m/t**: coal at $238.9 gives **₫0.68m/t**, at
+  $241 gives **₫0.65m/t**, at the June average $244.39 gives **₫0.60m/t**. If iron ore is also
+  nearer the $99–103 CFR Qingdao range than the $97.70 SGX figure in the file, the case falls to
+  **₫0.49–0.62m/t**. **Every one of those is further below the ₫1.25m bear branch, not closer to
+  it.** Yesterday's note said the gap to bear was "a third of what it looked like." That was too
+  generous. The spread at spot is worse than it concluded — though still not as bad as the
+  original mis-logged ₫0.36m/t.
+  **A benchmark trap logged for future runs.** The same search returned "HRC $1,169.08/t". That is
+  **not** the benchmark this model uses and must never be substituted for the $539 in file. This
+  model prices Asian and Vietnamese HRC, which runs about $500–560/t; $1,169 is almost certainly
+  **US Midwest HRC**. Same product name, different market, more than double the level. Charter §3's
+  entity check applies to commodity benchmarks exactly as it does to company financials.
+  **This is the third commodity-price error in this workstream**, after logging a Fitch iron-ore
+  *forecast* as spot on 26 July. Two of the three were caught by arithmetic rather than by a source.
+  **Nothing applied to the branches.** Bear, base and bull stay at ₫1.25 / 1.60 / 1.85m per tonne —
+  moving them is a judgment call reserved for a human. **Confidence held at 0.60**: this corrects
+  an error in our own note rather than introducing new evidence about the company, and HPG's Q2
+  print resolves the live question within days. **The timing argument still stands** — Q2 burns Q1
+  inputs, so a strong Q2 print says nothing about this, and the squeeze lands in Q3.
+  Sources: [GMK Center — coking coal prices in the first half of July](https://gmk.center/en/news/global-prices-for-coking-coal-fell-during-the-first-half-of-july/) · [Cbonds — hard coking coal Australia, June range and average](https://cbonds.com/indexes/197307/) · [IndexBox/GMK — iron ore $102.73 CFR Qingdao at 14 Jul, $99 at end-June](https://www.indexbox.io/blog/iron-ore-price-rebounds-to-10273-per-ton-on-supply-risk-and-chinese-imports/)
+
 - **05:53 ICT · TCB + TCX (lane 5, property) — Masterise-linked companies raised ₫44.5tn of
   bonds in the first half. TCB cut ₫39–40tn of corporate property exposure over roughly the
   same period. Those two numbers sitting this close raises a question nobody has asked.**
