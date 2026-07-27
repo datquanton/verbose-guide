@@ -78,6 +78,21 @@ handled correctly.
 **No model input changed.** This is a screening exercise, and a switch recommendation would
 need ACB taken through S1–S3 properly.
 
+## 4b · Update, 2026-07-27 12:53 — ACB has since filed Q2
+
+This table was built at 03:53 using an ACB ROE of 17.7%, which was a **broker forecast**.
+ACB filed its Q2 statement later the same day. Net interest income rose **16.5%** but
+pre-tax profit **fell ~12%**, because provisions were raised sharply. First-half profit is
+**48% of the full-year forecast**, so the year remains on pace and the ROE driving the
+ranking is not yet broken.
+
+**What changes.** ACB is no longer simply "cheaper with the best asset quality." It is a
+bank choosing to spend a growing income stream on provisions. That is either prudence,
+which would support the ranking, or an early read on credit quality that the headline NPL
+of 0.97% does not yet show. **The S1 screen recommended below must resolve which, before
+any switch is contemplated.** The recommendation to add ACB to the universe stands; the
+implicit "and it looks better than TCB" does not, until this is understood.
+
 ## 5 · Recommendation
 
 1. **Add ACB to the research universe** and run an S1 screen. It screens second of five on

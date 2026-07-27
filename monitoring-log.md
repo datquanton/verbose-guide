@@ -54,6 +54,27 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-27
 
+- **12:53 ICT · COMPETITORS (lane 6) — ACB has filed Q2/2026, and it qualifies the
+  recommendation this system made four hours ago.** Net interest income **₫7,784bn, +16.5%
+  YoY**, but pre-tax profit **fell ~12%** because ACB raised provisions sharply while holding
+  its bad-debt discipline. First-half profit is **48% of the full-year forecast**, so the
+  year is still on pace. Management framing is that the decline is against a high base.
+  **Evidence tier: T5** (press reporting a filed statement).
+  **Why this matters to us.** ACB is not a holding. It matters because the peer table built
+  at 03:53 today ranked ACB **2nd of five banks** on return per unit of book paid and
+  recommended adding it to the research universe. That ranking used an ROE of 17.7%, which
+  was a *broker forecast*. There is now a filed number, and it shows lending income growing
+  strongly while profit falls — provisions took the difference.
+  **The recommendation stands but is now qualified.** Half-year profit at 48% of plan is
+  on pace, so the full-year ROE that drove the ranking is not yet broken. But ACB is no
+  longer simply "cheap with the best asset quality"; it is a bank choosing to spend its
+  income on provisions. Whether that is prudence or an early warning is exactly what an S1
+  screen would establish, and it should be established before any switch is considered.
+  **Read-across to the 43.4% bank position.** ACB is raising provisions in the same quarter
+  TCB and VPB reported strong results. One conservative peer is not a sector signal, but it
+  is worth watching whether others follow when the remaining Q2 statements land this week.
+  [Mekong Asean](https://baomoi.com/acb-tang-manh-du-phong-loi-nhuan-quy-2-giam-gan-12-so-voi-nam-truoc-c55695691.epi) · [Elibook](https://elibook.vn/2026/07/26/acb-loi-nhuan-quy-2-giam-nhe-12-so-voi-nen-cao-cung-ky-khi-ngan-hang-kien-dinh-thuc-hien-kiem-soat-soat-no-xau.html/)
+
 - **10:53 ICT · STEEL (lane 5) — the second HPG input is now checked too. Coking coal is
   US$228/t and falling hard; the model's US$220 forecast was close, so no repeat of
   yesterday's error.** Premium hard coking coal, Australia FOB, sits at **US$228/t** — down
