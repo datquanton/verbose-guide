@@ -54,6 +54,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **04:53 ICT · TCX + VCI (lanes 4+6) — the FTSE upgrade is not one event on 21 September.
+  It is the first of several tranches running to September 2027, and the model prices it as
+  a single day. Separately: that pricing never reaches the engine at all.**
+  **What is confirmed.** FTSE Russell's Vietnam reclassification to Secondary Emerging is
+  implemented in **multiple tranches**, beginning on the 21 September 2026 effective date and
+  **completing in September 2027**. Two independent searches agree on this.
+  **What is not confirmed, and is being recorded as a claim rather than a fact.** One source
+  gives the split as **10% in September 2026, 20% in March 2027, 35% in June 2027, 35% in
+  September 2027**. A second search explicitly failed to corroborate those weights. Per
+  charter §3 the numbers are logged as single-sourced and unverified — the phasing itself is
+  the finding, not the arithmetic of it.
+  **Why it matters even without the exact weights.** `tcx.ftse_event_tree` prices 21 September
+  as one discrete event: **+20% with probability 0.35, +5% with 0.45, −15% with 0.20, an
+  expected value of +6.25%**. If September is the *first slice* rather than the whole
+  reclassification, those magnitudes describe something larger than what happens that day.
+  **The fair counter-argument, stated properly.** Passive money moves mechanically on effective
+  dates, but markets front-run reclassifications, so the price response need not be proportional
+  to tranche size. The problem is that much of the move may **already have happened** — the
+  VN-Index rose about 59 points on the April 2026 confirmation. **So the +20% branch is a bet on
+  a second large move, on the first tranche, after the announcement has already been digested.**
+  That is a materially harder thing to be right about than the branch's 0.35 probability implies.
+  **Re-weighting recommended, not applied.** Shifting probability toward "in-line, quiet
+  digestion" and shrinking the tails is a judgment change reserved for a human (charter §2), and
+  doubly so while the tranche weights are unconfirmed. It resolves from the LSEG/FTSE primary
+  announcement.
+  **The structural finding — the event tree is not wired to anything.** `ftse_event_tree` is read
+  **only by `run.py`**, which prints it into `SNAPSHOT.md`. **`decide.py` never reads it.** So the
+  +6.25% expected value from the FTSE event does not reach expected returns, the ranking, or the
+  optimizer's weights. It is narrative, not a driver — and a reader of the snapshot would
+  reasonably assume the opposite. This is the same family of problem as this morning's MBB and VCI
+  finding: something that looks like it is in the model and is not.
+  **It bites hardest on VCI.** VCI's own evidence string describes its bull case as "the #1
+  institutional franchise into FTSE Sep-21 — **an EVENT bet**, not a franchise investment." The
+  event is not in VCI's numbers anywhere. Its +10.7% raw expected return comes entirely from
+  earnings and exit multiple; the thing the bull case actually rests on contributes zero.
+  **No number changed.** Both findings are flags plus a recommendation. Rankings identical, no
+  escalation trigger fires. Wiring the tree in — or labelling it clearly as narrative — is a
+  machinery change and human-only under charter §4.
+  Sources: [VnEconomy — FTSE confirms Sep-2026 upgrade, phasing to 2027](https://vneconomy.vn/ftse-russell-xac-nhan-viet-nam-vuot-qua-ky-review-chinh-thuc-nang-hang-vao-thang-92026.htm) · [LSEG — March 2026 country classification review results, 7 Apr 2026](https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-results-march-2026-semi-annual-country-classification-review-equities-fixed-income) · [The Investor — effective 21 Sep](https://theinvestor.vn/ftse-russell-confirms-vietnams-market-status-upgrade-to-secondary-emerging-from-sept-21-d18799.html) · [VietnamPlus — VN-Index +59pts on the confirmation](https://www.vietnamplus.vn/ftse-russell-cong-bo-lo-trinh-nang-hang-vn-index-but-toc-tang-gan-59-diem-post1103608.vnp)
+
 - **03:53 ICT · MBB (lane 3 + depth) — inverted the asserted earnings branches the audit
   flagged an hour ago. They come back COHERENT, which is worth saying plainly. The gap is
   real but it is a different gap than it looked.**
