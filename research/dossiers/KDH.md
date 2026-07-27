@@ -111,6 +111,22 @@ step-up; a second consecutive quarter where paper gains exceed operating PBT). A
 4. **Handover pace fails to inflect** — if Q2 and Q3 together deliver fewer than ~50
    units, the FY bear branch is out of reach and the whole 2026 thesis resets to 2027.
 
+## 6b · Ownership signal, corrected 2026-07-27
+
+The insider buyer is **Lý Tuấn Kiệt, son of Vice Chairman Lý Điền Sơn** — earlier records
+described him only as a Deputy General Director, which understated the signal. He registered
+20m shares for 23-Jul to 21-Aug, moving from 0.056% to 1.838% of the company, roughly ₫356bn
+at the 20-Jul close, after a 52% fall from ₫37,000 to ₫17,800.
+
+**A founding-family member increasing his stake 33-fold days before the Q2 print** is the
+strongest ownership signal available on this name. It sits in tension with §2 above, which
+shows the bull branch is arithmetically out of reach for 2026. Both can hold: the family may
+be buying the 2027 land-bank story rather than this year's handovers, which is precisely what
+§5 argues the asset base actually is.
+
+**It is a registration, not a completion.** Watch for the post-21-Aug filing; a partial fill
+would weaken the signal considerably.
+
 ## 7 · Decision
 
 No change proposed. The position is 20.3% and within the cap. What this dossier changes is

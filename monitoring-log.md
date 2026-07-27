@@ -54,6 +54,27 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-27
 
+- **13:53 ICT · OWNERSHIP (lane 7) — the KDH insider buyer is the Vice Chairman's son, not
+  simply "a Deputy CEO" as I had recorded. That changes what the signal means.**
+  **Lý Tuấn Kiệt** — Deputy General Director **and son of Vice Chairman Lý Điền Sơn** —
+  registered to buy **20m shares** between **23-Jul and 21-Aug**. He held 623,635 shares
+  (**0.056%**) before; completing the purchase takes him to 20.62m (**1.838%**), at a cost
+  of roughly **₫356bn** at the 20-Jul close. No execution result has been reported yet; the
+  window has three weeks to run. **Evidence tier: T5** (press reporting a disclosure filing).
+  **Why the identity matters.** A professional manager buying shares is one signal; a
+  founding-family member increasing his stake **33-fold** is a different and stronger one.
+  He is buying after the price fell **52%** from ₫37,000 in early September 2025 to ₫17,800
+  on 20-Jul. Family money going in at the bottom of that move, days before the Q2 statement,
+  is the most direct evidence available that people who can see the handover schedule think
+  the price is wrong.
+  **What it does not settle.** It is a purchase *registration*, not a completed purchase —
+  registrations lapse. And it cuts against the KDH dossier's finding that the bull branch
+  needs 186 handovers against a 135-unit sold book. **Both can be true**: the family may be
+  buying a 2027 story rather than a 2026 one, which is exactly what the land-bank timing
+  analysis suggested. **Watch for the completion filing after 21-Aug** — a partial fill would
+  be a much weaker signal than the registration implies.
+  [Tin nhanh chứng khoán](https://www.tinnhanhchungkhoan.vn/khang-dien-kdh-ong-ly-tuan-kiet-con-trai-ong-ly-dien-son-pho-chu-tich-hdqt-dang-ky-mua-vao-20-trieu-co-phieu-post394339.html) · [Người Quan Sát](https://nguoiquansat.vn/khang-dien-kdh-thi-gia-chia-doi-thung-day-mot-nam-lanh-dao-dang-ky-mua-20-trieu-co-phieu-305186.html)
+
 - **12:53 ICT · COMPETITORS (lane 6) — ACB has filed Q2/2026, and it qualifies the
   recommendation this system made four hours ago.** Net interest income **₫7,784bn, +16.5%
   YoY**, but pre-tax profit **fell ~12%** because ACB raised provisions sharply while holding
