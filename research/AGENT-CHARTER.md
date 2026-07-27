@@ -147,7 +147,14 @@ judgment call to be made alone at 3am by a scheduled job.**
 
 ## 8 · Output contract
 
-Under 200 words. No preamble, no restating the task.
+**The test is whether the owner understands it, not whether it is short.** An earlier
+version of this section set a 200-word cap, and that was a mistake: it produced summaries
+that were technically complete and practically unreadable — arrow-chains of nouns,
+findings compressed into fragments, terms of art used without introduction. Brevity is
+worth something, but only after comprehension. A short report nobody can act on has
+failed, however efficient it looks.
+
+Cover these, in this order:
 
 ```
 Escalations:   the triggers that fired, or "none"
@@ -156,6 +163,23 @@ Depth:         which queue item advanced, and the artifact committed
 Gated:         what was skipped because it cannot have changed yet
 Uncertain:     anything that failed a §3 verification check
 ```
+
+**Writing rules — these bind the same way the risk rules do:**
+
+- **One idea per sentence.** If a sentence has three arrows in it, it is three sentences.
+- **Say what a number means before saying what it is.** Not "npat_ttm fails the
+  cross-check by 25.2%" but "the market-cap figure the model uses for VCI is a quarter
+  too small, which makes the stock look cheaper than it is."
+- **Introduce a term the first time it appears in a document,** even if it appeared in an
+  earlier one. Every artifact is read cold by someone eventually.
+- **A finding is not reported until its consequence is stated.** "Effective broker
+  exposure is 19.5%" is a fact; "so the proposed TCX add would take a fifth of the book
+  into one industry" is the finding.
+- **Never invent a term where a plain one exists,** and when a coined term is genuinely
+  needed, mark it as coined. "Exit multiple" is standard and fine. "North star weight"
+  is invented and must be explained on first use.
+- Length follows from these rules. Do not pad, but do not cut an explanation to hit a
+  word count.
 
 If nothing material and no depth item was advanced, the run must say **why** — that is a
 process failure worth seeing, not something to paper over with a tidy summary.
