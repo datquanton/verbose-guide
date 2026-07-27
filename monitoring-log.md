@@ -52,6 +52,30 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-07-27
+
+- **09:53 ICT · STEEL (lane 5) — iron ore is US$97.70/t, not the ~US$115 I logged on
+  26-Jul. That was a forecast, and I recorded it as if it were a market price.**
+  Singapore (SGX) 62% Fe near-month settled **US$97.70/t** (−0.36%); Dalian (DCE) August
+  **736 CNY/t** (−0.47%), roughly US$103 converted; Shanghai rebar August 3,042 CNY/t
+  (−0.20%). Prices eased because Tangshan, China's main steelmaking city, imposed
+  short-term production limits. **Evidence tier: T5** (press reporting exchange settlements).
+  **What this does to the portfolio.** The 26-Jul entry cited "iron ore ~US$115/t" sourced
+  to a Fitch article. Fitch had *raised its 2026 forecast* to that level; it was never a
+  spot price. Spot in the Q1 note was US$98–104, and today's US$97.70 sits at the bottom
+  of that same range. Iron ore has not risen at all. Feeding the correct number into the
+  HPG cost bridge lifts the "if prices stay here" case from **₫0.36m to ₫0.94m of profit
+  per tonne** — a swing of ₫0.58m/t, on roughly 11.5m tonnes of remaining volume.
+  **The HPG bear case is materially weaker than last night's work concluded.** It is not
+  dead: ₫0.94m/t still sits below the bear branch of ₫1.25m, so current prices remain worse
+  than the model's worst case. But the near-breakeven picture was an artefact of my error.
+  One input is unchanged and still adverse: coking coal at a US$220/t 2026 forecast, which
+  is itself a forecast and should be re-checked against spot before it is trusted.
+  [Doanh nghiệp Hội nhập](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-2772026-thi-truong-giam-nhe-do-duong-son-siet-san-luong-144279.html)
+
+- **09:53 ICT · No-change checks:** HPG, KDH and MBB Q2/26 statements still unfiled; US
+  rebar final determination not yet in the Federal Register. Both due tomorrow, 28-Jul.
+
 ## 2026-07-26
 
 - **09:20 ICT · MACRO (lane 1) — SBV drained ~₫330tn while the central rate hit an 11-week

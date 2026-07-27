@@ -257,7 +257,7 @@
         "_calibration": "conversion solved so the bridge reproduces the KNOWN Q1/26 actual 1.68m/t at Q1 inputs (ore 101, coal 190, HRC 560)",
         "gearing_vnd_m_per_t": { "per_usd20_hrc": 0.42, "per_usd10_iron_ore": 0.34, "per_usd10_coking_coal": 0.14 },
         "hrc_required_usd_t": { "bear_1.25m": 581, "base_1.60m": 598, "bull_1.85m": 610 },
-        "FINDING": "At spot (HRC 539, ore 115, coal 220) the all-in pre-tax cost is 522/t — a ~3% margin — implying only 0.36m/t. EVERY branch including bear assumes HRC RECOVERS; the bear case needs +7.9%. No branch describes the world as it is.",
+        "_CORRECTED_2026_07_27": "The ore=115 below was a FITCH FORECAST mis-logged as spot. Actual spot 27-Jul: SGX 97.70/t, DCE 736 CNY (~103). At ore 97.70 the spot case is 0.94m/t, not 0.36m/t — a +0.58m/t swing. The bear case is materially weaker than the 26-Jul work concluded, though 0.94m still sits below the 1.25m bear branch. Coking coal 220 is ALSO a forecast and needs the same check.", "FINDING": "SUPERSEDED, see above. At spot (HRC 539, ore 115, coal 220) the all-in pre-tax cost is 522/t — a ~3% margin — implying only 0.36m/t. EVERY branch including bear assumes HRC RECOVERS; the bear case needs +7.9%. No branch describes the world as it is.",
         "TIMING": "Ore/coal are bought 1-2 quarters forward, so Q2/26 reflects CHEAP Q1 inputs and the late-July squeeze lands in Q3. A strong Q2 print (~Jul 28) does NOT refute the bear thesis.",
         "recommended_but_NOT_applied": "Add a 4th branch spot_persists = 0.36m/t (~4.1tn H2 core on 11.5mt vs 14.4tn at the bear branch). Adding a branch and reweighting probabilities is a judgment change reserved for a human (charter 2)."
       },
