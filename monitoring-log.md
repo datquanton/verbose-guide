@@ -54,6 +54,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **05:53 ICT · TCB + TCX (lane 5, property) — Masterise-linked companies raised ₫44.5tn of
+  bonds in the first half. TCB cut ₫39–40tn of corporate property exposure over roughly the
+  same period. Those two numbers sitting this close raises a question nobody has asked.**
+  **The facts.** Masterise-linked companies raised **₫44,500bn** of bonds in H1/2026. Minh An,
+  described as Masterise's strategic business partner, completed two tranches totalling
+  **₫7,500bn**. For context, real-estate bond issuance was **₫72,600bn in Q2 alone — 46% of all
+  corporate issuance and 2.8× the year-earlier quarter** — and market-wide maturities this year
+  are about ₫204,000bn. Evidence tier **T5**.
+  **Why this reframes something we already hold as a positive.** The TCB dossier records that the
+  bank is actively de-risking: real estate fell from 33.2% of loans in 2024 to **28.9% at Q1/26**,
+  with roughly **₫39,000–40,000bn of corporate real-estate exposure cut from the Q3/25 peak**. The
+  dossier calls that a fact which "materially weakens the strongest bear case on TCB."
+  **₫44,500bn raised against ₫39,000–40,000bn cut is a ratio of 1.11 to 1.14.**
+  **The hypothesis, and it is explicitly not a finding.** The exposure may not have been *removed*
+  so much as **relocated** — out of TCB's loan book and into the bond market. If that is what
+  happened, the de-risking is a transfer, and the group's economic exposure is less reduced than
+  the loan-share chart suggests. **It matters twice over, because TCBS — which we hold as TCX at
+  5.5% directly and about 12.2% on a look-through basis — is a major bond arranger and
+  distributor.** Paper leaving the bank could be landing with TCBS's retail customers, which would
+  be a conduct and reputational exposure on top of a credit one.
+  **Three specific tests would settle it, and none has been run.** First, does TCBS appear as
+  arranger, underwriter or distributor on Masterise-complex issues — readable from HNX issuance
+  disclosures. Second, what corporate bonds does TCB hold on its **own** book, which is the annual
+  report's loan-book note, depth-queue item 2, currently blocked on PDF access. Third, does the
+  **timing** of the ₫44,500bn line up with the quarters in which the loan reduction happened.
+  **The proximity of two numbers is suggestive. It is not evidence, and it is not being logged as
+  any.**
+  **Kill criterion moved, not triggered.** The armed test is "developer/related-party NPL formation
+  above 2.0%, **or a Masterise bond event**." A ₫44,500bn issuance ramp in six months **raises the
+  base rate** for such an event without causing one — more paper outstanding, more refinancing
+  dates, more ways for something to go wrong. Worth noting the ramp has far to run: H1's raise is
+  only **22.7%** of the ₫196,378bn Gia Binh airport commitment the dossier already flags as
+  unquantified.
+  **Confidence held at 0.85, deliberately**, and for the same reason MBB's was held at 0.55 two
+  hours ago: confidence measures the quality of the **earnings** evidence, which here is a filed
+  Q2 and is untouched. What changed is the reading of a governance point and the proximity of a
+  kill criterion. Putting doubt into a confidence weight on the strength of an unproven hypothesis
+  would record it in the wrong field.
+  **This also partially unblocks depth-queue item 10** (Masterise, via HNX bond-issuer
+  disclosures), which had been marked blocked on annual-report PDFs. The bond route does not need
+  the PDFs. Status left as `blocked` — only a human adds or re-scopes queue items.
+  Sources: [Vietstock — Masterise-linked companies raised ₫44.5tn in H1](https://vietstock.vn/2026/07/nhom-doanh-nghiep-lien-quan-masterise-hut-445-ngan-ty-dong-trai-phieu-trong-nua-dau-nam-3118-1465836.htm) · [Thoi bao Tai chinh — property bond issuance ₫72.6tn in Q2, 46% of market](https://thoibaotaichinhvietnam.vn/phat-hanh-trai-phieu-bat-dong-san-but-toc-trong-quy-ii-2026-200646.html) · [Dien dan Doanh nghiep — record 2026 property maturities](https://diendandoanhnghiep.vn/trai-phieu-bat-dong-san-dao-han-ky-luc-trong-nam-2026-10163532.html)
+
 - **04:53 ICT · TCX + VCI (lanes 4+6) — the FTSE upgrade is not one event on 21 September.
   It is the first of several tranches running to September 2027, and the model prices it as
   a single day. Separately: that pricing never reaches the engine at all.**
