@@ -52,6 +52,34 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-07-29
+
+- **06:53 ICT · HPG + MACRO (lanes 1+5) — the FX rate that actually applies to HPG's imports
+  is now pinned, which shrinks yesterday's open question to a fifth of its size. And the
+  dong has run out of room inside the SBV band.**
+  **Yesterday's question.** The spread bridge carries FX 26,300 labelled only "market rate",
+  and there were two candidates — the SBV central rate at 25,306 and the free market at
+  ~26,410, a 4.4% gap. Which one applies to HPG's imports was not stated, and under the
+  worst reading the choice was worth **₫0.576m per tonne**.
+  **The answer.** An importer buys dollars at the **commercial bank sell rate**. On 28 July
+  that was **Vietcombank 26,115 / 26,525** and **Techcombank 26,135 / 26,530** (buy/sell).
+  Not the central rate, which is a reference; not quite the free market either.
+  **So the bridge is 0.87% low, not 4.4% off.** On ₫522/t of USD-priced input that understates
+  the VND cost by about **₫0.12m/t — roughly 18–20% of the ₫0.60–0.68m/t spot margin.** Still
+  not nothing on a margin this thin, but a fifth of what it looked like yesterday.
+  **The second fact is a constraint, not a price.** The SBV band is ±5% around the central
+  rate, giving a floor of 24,041 and a **ceiling of 26,571**. Techcombank's sell rate of
+  **26,530 sits 41 dong below that ceiling — 0.16%.** With the central rate at an all-time
+  high, **commercial rates are pinned against the cap.** Further dong weakness has to come
+  through the **central rate** rather than through the market, because there is no room left
+  in the band. For HPG's input costs that makes the SBV's daily fixing the thing to watch,
+  not the commercial quote.
+  **Not applied.** The bridge's 26,300 stands. Updating it is a ₫0.12m/t change to a model
+  whose pass-through assumption — how much of a weaker dong HPG can pass into domestic VND
+  prices — is **still unstated**. Fixing one without the other would be false precision.
+  **No model number changed, rankings unmoved, no escalation trigger fires.**
+  Sources: [Dan Tri — central rate at a record, free-market USD turns down](https://dantri.com.vn/kinh-doanh/ty-gia-trung-tam-lap-ky-luc-moi-usd-tu-do-quay-dau-giam-20260728152042094.htm) · [VnExpress — central rate record](https://vnexpress.net/ty-gia-trung-tam-lap-ky-luc-5102348.html) · [VTC News — above ₫25,300](https://vtcnews.vn/ty-gia-trung-tam-lap-dinh-moi-vuot-moc-25-300-dong-usd-ar1031405.html)
+
 ## 2026-07-28
 
 - **17:20 ICT · BROKERS (lanes 5+6) — two articles, and the second corrects the first.
