@@ -19,7 +19,7 @@ REPLACEMENTS = [
     ("TCB hiện giao dịch ở mức P/B forward khoảng 1,23 lần, thấp hơn ~8% so với trung bình 5 năm – thị trường vẫn đang chiết khấu rủi ro liên quan đến ngành bất động sản.",
      "MBB hiện giao dịch quanh mức P/B khoảng 1,4 lần, nhưng tính trên giá trị sổ sách dự phóng năm 2026 thì P/B chỉ còn khoảng 1,2 lần – một mức hợp lý với ngân hàng đạt ROE 21,1% trong năm 2025."),
     ("Tuy nhiên, xét về sức khỏe tài chính, TCB trong nhiều năm nay nằm trong top đầu về tỷ lệ an toàn vốn với hệ số CAR 15,2%. ",
-     "Đây là mức sinh lời thuộc nhóm cao nhất trong các ngân hàng quy mô lớn. Các nhóm phân tích trên thị trường hiện đưa ra giá mục tiêu cho MBB trong vùng 32.900 – 37.230 đồng mỗi cổ phiếu. "),
+     "Đây là mức sinh lời thuộc nhóm cao nhất trong các ngân hàng quy mô lớn. Mirae Asset Securities hiện đưa ra giá mục tiêu 33.300 đồng mỗi cổ phiếu cho MBB, tương ứng tiềm năng tăng giá khoảng 35% so với thị giá hiện tại. "),
     ("Sắp tới đây, TCB sẽ tiếp tục chia cổ phiếu thưởng tăng vốn điều lệ lên 113.800 tỷ đồng, đây cũng có thể cải thiện tâm lý giao dịch mã cổ phiếu này. ",
      "Sắp tới đây, MBB sẽ tăng vốn điều lệ từ 80.550 tỷ đồng lên tối đa 102.687 tỷ đồng và chi trả cổ tức tỷ lệ 25%, gồm 10% tiền mặt và 15% cổ phiếu, đây cũng có thể cải thiện tâm lý giao dịch mã cổ phiếu này. "),
     # 7. heading 2
@@ -54,6 +54,8 @@ for old, new in REPLACEMENTS:
     xml = xml.replace(old, new)
 
 assert "TCB" not in xml and "Techcombank" not in xml, "TCB reference survived"
+for firm in ("BSC", "KBSV", "VCBS", "SSI", "VNDirect", "Bloomberg", "Euromonitor"):
+    assert firm not in xml, f"third-party research house {firm!r} referenced"
 open(path, "w", encoding="utf-8").write(xml)
 
 if os.path.exists(OUT):
