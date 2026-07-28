@@ -104,6 +104,60 @@ something.
 
 ---
 
+## Resolution rules, pre-registered 2026-07-29 03:53 — before the numbers land
+
+Four forecasts resolve within days. Three of them **cannot be scored as written**, and
+fixing that after the print would let the scoring be shaped by the answer. Rules below are
+fixed now.
+
+### #1 · KDH — the forecast as written is close to unfalsifiable
+
+It predicts Q2 parent NPAT "between MBS ₫170bn and SSI ₫348bn." **That range spans 105% —
+it is the entire width of published estimates.** Predicting that the answer falls somewhere
+between the published estimates is not a forecast, and it must not score as a hit.
+
+**Scored instead on two things that are genuinely falsifiable:**
+- the **FY26 base case of ₫1,590bn**, which is a point estimate, when the year resolves;
+- the **pre-registered units read** in `dossiers/KDH.md` §3, which maps a Q2 print to units
+  handed (₫170bn ⇒ ~19 units, ₫259bn ⇒ ~27, ₫348bn ⇒ ~35) and is checkable against the
+  Gladia inventory movement.
+
+**The range itself is recorded as a process failure regardless of where the print lands.**
+Writing down the consensus span and calling it a forecast is the habit this log exists to
+catch.
+
+### #2 · HPG — already exact, no change
+
+Core NPAT below **₫5,600bn** on the disclosed 3.5m-tonne basket, which is below ₫1.60m per
+tonne. Threshold fixed 28 July. Scoreable as it stands.
+
+### #4 · MBB — needs a band
+
+Written as "Q2/26 NPAT ≈ ₫7,052bn." "Approximately" is not scoreable. The figure cross-checks
+correctly against the other estimate on file: ₫8,812bn pre-tax × 0.80 = ₫7,050bn.
+
+**Rule: hit if the actual lands within ±10%, i.e. ₫6,347–7,757bn.** Outside that is a miss,
+and the signed error gets recorded either way. Ten percent is chosen because it is roughly
+the dispersion between broker estimates on this name — a tighter band would score noise, a
+wider one would score nothing.
+
+### #10 · Rebar — "no thesis change" needs a test
+
+Written as "headline risk only, <3% of revenue, no thesis change." The first two clauses are
+checkable; the third is not, as written.
+
+**Rule: the forecast holds if all three are true.** The final antidumping rate on Hoa Phat is
+within ±20pp of the 121.97% preliminary; the scope is not widened beyond rebar; and US rebar
+remains under 3% of HPG revenue. **If the rate rises materially or the scope expands, it is a
+miss** — and note that Commerce has preliminarily treated Dung Quat, Hai Duong, Hung Yen and
+Prestressed Concrete as a **single entity**, so the rate applies group-wide rather than to one
+subsidiary.
+
+**One thing this cannot resolve.** `federalregister.gov` returns proxy 403 for both the site
+and its API, so the determination will be read from press rather than the register. Score the
+direction when it lands; treat the exact rate as T5 until a human confirms it from the source.
+
+
 ## Standing lessons
 
 _Populated as patterns emerge across scored forecasts. Seeded with errors already
