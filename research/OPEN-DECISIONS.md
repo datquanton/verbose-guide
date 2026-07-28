@@ -56,6 +56,45 @@ Ordered by what it costs to leave undone.
 
 ---
 
+## Risk, measured against the alternative — added 2026-07-29
+
+`python3 research/models/risk.py`. Not a decision, but it reframes several of the ones above.
+
+Roy's safety-first ratio asks how much expected return you get per unit of volatility
+**above a threshold you actually care about**. The threshold that matters here is a
+Vietnamese 12-month bank deposit at roughly 6% — what this money earns doing nothing.
+
+**The book expects +6.60% with 30.5% volatility, so the safety-first ratio against that
+deposit is 0.020 and the chance of underperforming it is 49.2%.** A coin flip.
+
+Per name at the same threshold, the ranking runs almost exactly opposite to the weights:
+
+| | Weight | SF ratio |
+|---|---:|---:|
+| TCX | 5.5% | **+0.292** |
+| VPX | 2.8% | +0.177 |
+| HPG | 16.8% | +0.098 |
+| MBB | 6.5% | +0.076 |
+| KDH | 20.3% | +0.038 |
+| VCI | 3.1% | −0.038 |
+| **TCB** | **35.0%** | **−0.077** |
+| **VPB** | **10.0%** | **−0.141** |
+
+**TCB, VPB and VCI together are 48.1% of the book on negative ratios** — on these numbers
+not expected to beat a term deposit at all. The two best ratios are the two smallest
+positions. That is a fourth independent route to the TCB trim, after expected return, the
+bonus-adjusted consensus target, and the peer table's ROE ÷ P/B.
+
+The proposed books improve it but not dramatically: this cycle 0.047, north star 0.082.
+
+**Two honest caveats.** The simulation's left tail comes out *thinner* than a normal
+(5th percentile −34.4% against −43.6%) because scenario branches are bounded by
+construction and the real world is not — that is a model limitation, not comfort. And
+`cash_yield` being blank for seven of eight names biases the book's expected return **down**,
+so these ratios are, if anything, harsher than the truth. Fixing item 3 above would move them.
+
+---
+
 ## The one thing on this page that is close to a thesis
 
 Item 1 aside, the finding most likely to change what the book owns is the **Masterise
