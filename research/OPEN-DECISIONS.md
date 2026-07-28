@@ -1,0 +1,78 @@
+# Open decisions — things only a human can settle
+
+**Rebuilt 2026-07-28 12:00 ICT. This is an index, not new analysis.** Every item below was
+found and written up elsewhere; nothing here is a new finding and nothing here is being
+claimed as material. It exists because 28 July produced eighteen separate flags across nine
+log entries and several files, and **a decision system whose findings cannot be found has
+not finished the job.**
+
+Ordered by what it costs to leave undone.
+
+---
+
+## 1 · Blocking a live recommendation
+
+| # | Decision | Why it blocks | Where it is written up |
+|---|---|---|---|
+| 1 | **Read VPB's consolidated Q2 credit balance off the statement.** | The model holds `credit_q2` ₫1,060,000bn and `credit_growth_ytd` 24.6%, which imply +10.19% and +24.6% respectively. They cannot both be right. At +24.6% the base branch needs another +8.3% in H2 and is comfortable; at +10.2% it needs **+22.5%**. The engine is meanwhile proposing **ADD +5.3pp to VPB.** | `assumptions.json` → `vpb.actuals._CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28`; log 01:53 |
+| 2 | **Refresh all eight prices and add a `_price_date` per ticker.** | Prices are undated, presumed 24 July, four sessions stale. A 1% move is **73% of VPB's entire expected-return signal** and 25% of TCB's. The margin by which VPB ranks last is inside the noise — and it is the name with the largest proposed add. | `assumptions.json` → `valuation._PRICES_ARE_UNDATED_2026_07_28`; log 09:53 |
+| 3 | **Set the `cash_yield` convention and populate all eight.** | Filled in for TCB only. MBB's 2026 dividend includes **10% cash = 4.54%** of price; including it moves MBB from 4th to 3rd, above HPG. Seven blanks are not seven zeros, and the omission only touches dividend payers, so it biases against the banks. | `assumptions.json` → `valuation._CASH_YIELD_POPULATED_FOR_ONE_OF_EIGHT_2026_07_28`; log 10:53 |
+
+## 2 · Judgment calls the charter reserves for a person
+
+| # | Decision | The finding behind it | Where |
+|---|---|---|---|
+| 4 | **Re-weight KDH's scenario probabilities.** | The bull branch needs ~178–186 units handed against a **135-unit sold book** — arithmetically out of reach — yet carries p=0.20. | `dossiers/KDH.md` §2 |
+| 5 | **Re-weight the TCX FTSE event tree, or retire it.** | It prices 21 September as one discrete day (+20%/+5%/−15%, EV +6.25%). Inclusion is actually **phased in tranches to September 2027**, and the announcement effect was largely banked in April. | `assumptions.json` → `tcx._FTSE_IS_PHASED_2026_07_28`; log 04:53 |
+| 6 | **Decide whether to add a `spot_persists` branch to HPG.** | No existing branch describes current input prices. At spot the case is **₫0.60–0.68m/t** against a bear branch of ₫1.25m. | `hpg-spread-bridge.md` §6–7 |
+| 7 | **Raise `corr_same_cluster` toward ~0.95 for parent/subsidiary pairs.** | TCB contains TCBS; VPB contains VPBankS. The optimizer models these as 0.80-correlated when one *contains* the other. | `assumptions.json` → `vpb.model._VPX_LOOKTHROUGH_2026_07_26` |
+| 8 | **Decide what to do about 19.5% effective brokerage exposure.** | Look-through, not the 11.4% stated. The proposed TCX add starts from an effective 12.2%. | `dossiers/TCX.md`; `_LOOKTHROUGH_EXPOSURE_2026_07_27` |
+
+## 3 · Machinery — an automated run may not touch these (charter §4)
+
+| # | Decision | Why it matters |
+|---|---|---|
+| 9 | **Build driver models for MBB and VCI in `run.py`.** | 9.6% of the book has `fy26e_npat` typed in with nothing deriving it. MBB is the joint-largest proposed add. Inverting the branches showed they are *coherent* — the problem is they cannot be stress-tested. |
+| 10 | **Wire `ftse_event_tree` into `decide.py`, or label it narrative.** | It is read only by `run.py` and printed into the snapshot. Its +6.25% never reaches expected returns or weights. VCI's stated bull case is "an EVENT bet" and the event is absent from VCI's numbers. |
+| 11 | **Correct the FE Credit attribution printed by `run.py`.** | The line says FE Credit NPL formation is the swing factor. FE Credit is 0.8% of consolidated profit; the risk sits in the parent book. |
+| 12 | **Replace the two scheduled-routine prompts.** | The live hourly prompt keeps its own copy of the lanes, the broker estimates and the run rules, and those copies have drifted from the repo. Drafts are written and ready to paste. |
+
+## 4 · Reads that take one line off a filed statement
+
+| # | Question | Consequence if left |
+|---|---|---|
+| 13 | Is HPG's ₫4,123bn divestment gain pre- or post-tax? | Core + one-off = ₫9,169bn against a ₫9,056bn headline. The ₫1.68m/t figure it implies is the **calibration anchor of the whole spread bridge**. |
+| 14 | Is KDH's `q1_revenue` ₫281.4bn actually revenue, or net profit? | ₫355.7bn × (1 − 21%) = ₫281.0bn. If it is profit, the dossier's second verification route for Thursday's units count never existed. |
+| 15 | Is KDH's ASP ₫42bn or ₫44bn? | The model and its own dossier disagree. Changes gross profit per unit by 4.8% and solved fixed opex by 8.3%. The bull-infeasibility conclusion survives either way. |
+| 16 | What is MBB's actual 2026 credit-growth target — 25%, 30%, or the dossier's 30–35%? | Three figures in circulation. It is the main driver of the name the optimizer wants most. |
+
+## 5 · Access a human must grant
+
+| # | What | Unblocks |
+|---|---|---|
+| 17 | **Download the annual-report PDFs** (TCB, HPG) into the repo, or authorise the FiinQuant connector. | Depth-queue items 2, 6, 9, 10, 12 — the entire annual-report tier. Three hosts have returned proxy 403. |
+| 18 | **Add or re-scope depth-queue items.** An automated run may only edit status marks. | The queue is exhausted. Note that item 10 (Masterise) is **partly reachable via HNX bond disclosures**, which do not need the blocked PDFs. |
+
+---
+
+## The one thing on this page that is close to a thesis
+
+Item 1 aside, the finding most likely to change what the book owns is the **Masterise
+hypothesis**, and it is deliberately not in the tables above because it is not yet a
+decision — it is a question with three named tests.
+
+Masterise-linked companies raised **₫44,500bn** of bonds in the first half. TCB cut
+**₫39,000–40,000bn** of corporate property exposure from its Q3/25 peak over broadly the
+same period, a reduction the TCB dossier treats as materially weakening the bear case. The
+ratio is **1.11–1.14**.
+
+If the exposure moved rather than disappeared, a bull point becomes a neutral one — and
+because TCBS is a major bond arranger, it may have moved *within* the group we own twice
+over. **Two numbers being close is not evidence.** The three tests are named in
+`assumptions.json` → `tcb._MASTERISE_BOND_RAMP_2026_07_28`, and none has been run.
+
+---
+
+*Maintained by the hourly sweep as an index only. Items are added when found and removed
+when a human resolves them. Nothing here is actioned automatically; the system recommends,
+a human signs.*
