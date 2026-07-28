@@ -164,21 +164,8 @@ Gated:         what was skipped because it cannot have changed yet
 Uncertain:     anything that failed a §3 verification check
 ```
 
-**These rules cover the message sent to the owner, not just the files written into the repo.**
-The message was the gap — files got checked against this contract, the message was written
-last and nothing checked it.
-
 **Writing rules — these bind the same way the risk rules do:**
 
-- **Write about the stock, not about my thinking.** Say "VCI's margin book was flat while
-  the industry's grew." Do not say "my argument had two legs and I am withdrawing one."
-  When something I said was wrong, say what I claimed and what is true instead. One line.
-- **Cut anything that does not change what you would do.** If a sentence is true but the
-  owner would act the same way without it, delete it. Two real examples that should have
-  been cut: "passive money negotiates the tightest commissions", and "only one of the four
-  institutions is passive."
-- **If news arrives while I am writing, start the answer again.** Do not bolt it onto what
-  I already wrote. Patched answers read as arguments being amended.
 - **One idea per sentence.** If a sentence has three arrows in it, it is three sentences.
 - **Say what a number means before saying what it is.** Not "npat_ttm fails the
   cross-check by 25.2%" but "the market-cap figure the model uses for VCI is a quarter
