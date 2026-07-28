@@ -87,6 +87,14 @@ bonus-adjusted consensus target, and the peer table's ROE ÷ P/B.
 
 The proposed books improve it but not dramatically: this cycle 0.047, north star 0.082.
 
+**Tested 2026-07-29 and partly cleared.** The engine cuts a name's expected return by
+confidence but not its risk. Re-run under two alternatives — shrinking dispersion too, and
+widening it as confidence falls — **the ranking is identical under all three**, so nothing
+above depends on that choice. The *levels* do: KDH's volatility is 54.5%, 36.5% or 97.6%
+depending on the convention, and the optimizer penalises volatility **squared**. So position
+sizes are convention-dependent even though the ordering is not. Worth a human settling, and
+worth recording as a choice rather than a default.
+
 **Two honest caveats.** The simulation's left tail comes out *thinner* than a normal
 (5th percentile −34.4% against −43.6%) because scenario branches are bounded by
 construction and the real world is not — that is a model limitation, not comfort. And

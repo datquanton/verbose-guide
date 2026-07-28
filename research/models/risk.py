@@ -223,11 +223,22 @@ WHAT THIS INHERITS -- read before using any number above
   - sigma blends scenario dispersion with a flat 28% base vol for every name.
     That is an assumption, not a measurement -- no realised covariance exists.
 
-  The engine also shrinks the MEAN by confidence but computes DISPERSION from
-  the unshrunk branches. This file follows the same convention so the numbers
-  reconcile with DECISION-BRIEF.md, but it means low-confidence names get their
-  return cut without their risk being cut. That flatters nothing -- it makes
-  them look worse, not better -- but it is an inconsistency worth knowing.
+  The engine shrinks the MEAN by confidence but computes DISPERSION from the
+  unshrunk branches, so a low-confidence name loses return without gaining risk.
+  TESTED 2026-07-29 against two alternatives -- shrinking dispersion too, and
+  WIDENING it as confidence falls -- and the RANKING IS IDENTICAL under all
+  three. The trim and add conclusions do not depend on this choice.
+
+  The LEVELS do. KDH's sigma is 54.5% as computed, 36.5% if dispersion is
+  shrunk, 97.6% if it is widened. Anything reading sigma levels rather than
+  order is convention-dependent: the shortfall probabilities above, and the
+  optimizer's own utility function, which penalises sigma SQUARED.
+
+  On the merits: shrinking dispersion is backwards -- being less sure about a
+  name should not make it look less volatile. Widening is more defensible in
+  principle but produces implausible numbers (KDH at 97.6% annualised). The
+  current convention sits between them and is a reasonable compromise, but
+  nothing in the file records it as a CHOICE rather than a default.
 ------------------------------------------------------------------------------""")
 
 
