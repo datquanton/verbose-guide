@@ -1,0 +1,9 @@
+# Python bytecode. Created whenever a module here is imported rather than run
+# directly -- research/models/risk.py gets imported for cross-book comparisons.
+__pycache__/
+*.py[cod]
+
+# Local environment
+.venv/
+venv/
+.DS_Store
