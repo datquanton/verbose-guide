@@ -51,6 +51,7 @@ Ordered by what it costs to leave undone.
 | # | What | Unblocks |
 |---|---|---|
 | 17 | **Download the annual-report PDFs** (TCB, HPG) into the repo, or authorise the FiinQuant connector. | Depth-queue items 2, 6, 9, 10, 12 — the entire annual-report tier. Three hosts have returned proxy 403. |
+| 17b | **Open one specific PDF and read one line.** TCB's Q2 separate VAS statement is at `techcombank.com/content/dam/techcombank/public-site/documents/techcombank-vas-bao-cao-tai-chinh-rieng-le-2q26-searchable.pdf` (proxy 403 from here). Read the **corporate bond / investment securities balance at 30-Jun-2026 vs 31-Dec-2025**. | This is now the highest-value single line in the repo. It tests whether TCB's property de-risking was a removal or a relocation — see the Masterise section below — and it resolves the credit-vs-loans gap in one read. |
 | 18 | **Add or re-scope depth-queue items.** An automated run may only edit status marks. | The queue is exhausted. Note that item 10 (Masterise) is **partly reachable via HNX bond disclosures**, which do not need the blocked PDFs. |
 
 ---

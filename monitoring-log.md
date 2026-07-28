@@ -54,6 +54,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **14:53 ICT · ESCALATION · TCB (lane 3) — TCB's reported credit growth does not match the
+  loan figures in our model. Unlike VPB's contradiction this morning, this one has a coherent
+  explanation — and that explanation turns the Masterise hypothesis into a single balance-sheet
+  line to read.**
+  **The mismatch.** TCB's Q2 release states **credit grew +10.39% year-to-date** at the half-year.
+  Our model holds `loans_start_fy` ₫830,000bn rising to `loans_mid_fy` ₫950,000bn, which is
+  **+14.46%**. They disagree by 4.1pp. **Fifth field of this class in three days.**
+  **Unlike VPB's pair, this one reconciles.** "Tín dụng" — credit — means customer loans **plus
+  corporate bonds held**. "Cho vay" means loans alone. **If loans grew 14.46% while total credit
+  grew only 10.39%, then the non-loan part — chiefly the corporate bond book — shrank.** How much
+  depends on where it started: from ₫50,000bn it falls **57%**; from ₫80,000bn, **32%**; from
+  ₫120,000bn, **18%**. Every plausible starting balance implies a large decline.
+  **This is what makes it worth an escalation.** This morning's Masterise entry asked whether TCB's
+  property de-risking was a **removal** or a **relocation** into the bond market, and could only
+  offer that ₫44,500bn raised by Masterise-linked companies sits close to the ₫39,000–40,000bn TCB
+  cut. That was two numbers being near each other, which I said plainly was not evidence.
+  **This converts it into one balance-sheet line: TCB's corporate bond and investment-securities
+  balance at 30 June against 31 December.** A large fall is consistent with exposure moving off the
+  bank's book. **It does not show where the exposure went** — that still needs the HNX arranger
+  check on whether TCBS underwrote the Masterise paper.
+  **What it does to the branches.** `credit_growth_fy` is 16 / 18 / 20%. Under the **reported**
+  +10.39%, the second half must add **+5.08% / +6.89% / +8.71%**. Under the model's implied +14.46%,
+  only **+1.35% / +3.09% / +4.84%**. **The reading roughly doubles what H2 has to deliver.**
+  **Model: TCB confidence 0.85 → 0.80. Escalation trigger 4 fires — a held name's evidence status
+  changed.** The earnings evidence is untouched and remains T1: Q2 pre-tax profit ₫9,670bn, +22%, a
+  record quarter, with H1 at ₫18,500bn matching `h1_pbt` exactly. It is the forward driver that is
+  unverified. **The cut is deliberately smaller than VPB's 0.85 → 0.70**, because VPB's two fields
+  had no coherent reconciliation while TCB's do — and the gap between TCB's two measures is itself
+  informative rather than simply wrong. Expected return moves +3.64% → +3.42%; TCB stays 7th of 8.
+  **The primary document exists and I cannot reach it.** TCB's Q2 separate-entity VAS statement is
+  at `techcombank.com/content/dam/techcombank/public-site/documents/techcombank-vas-bao-cao-tai-chinh-rieng-le-2q26-searchable.pdf`
+  and returns proxy 403 — the documented Vietnamese-PDF block. **A human can open that link and read
+  the bond balance in one minute.** It is the separate statement, not consolidated.
+  **Numbers left as they stand, not guessed.**
+  Sources: [Thanh Nien — TCB Q2 record profit, credit +10.39% YTD](https://thanhnien.vn/loi-nhuan-quy-2-techcombank-cham-dinh-moi-tu-dong-luc-tang-truong-da-chieu-185260721152115767.html) · [Tien Phong — same release](https://tienphong.vn/loi-nhuan-quy-2-techcombank-cham-dinh-moi-tu-dong-luc-tang-truong-da-chieu-post1861437.tpo) · [VietnamNet — TCB record Q2](https://vietnamnet.vn/techcombank-lai-ky-luc-trong-quy-ii-2026-2537945.html)
+
 - **10:53 ICT · WHOLE BOOK — `cash_yield` is filled in for one name out of eight, and the
   formula adds it straight to expected return. On MBB the blank is worth 2.5pp, enough to
   change the ranking.**
