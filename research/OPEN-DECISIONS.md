@@ -44,7 +44,7 @@ Ordered by what it costs to leave undone.
 | 13 | Is HPG's ₫4,123bn divestment gain pre- or post-tax? | Core + one-off = ₫9,169bn against a ₫9,056bn headline. The ₫1.68m/t figure it implies is the **calibration anchor of the whole spread bridge**. |
 | 14 | Is KDH's `q1_revenue` ₫281.4bn actually revenue, or net profit? | ₫355.7bn × (1 − 21%) = ₫281.0bn. If it is profit, the dossier's second verification route for Thursday's units count never existed. |
 | 15 | Is KDH's ASP ₫42bn or ₫44bn? | The model and its own dossier disagree. Changes gross profit per unit by 4.8% and solved fixed opex by 8.3%. The bull-infeasibility conclusion survives either way. |
-| 16 | What is MBB's actual 2026 credit-growth target — 25%, 30%, or the dossier's 30–35%? | Three figures in circulation. It is the main driver of the name the optimizer wants most. |
+| 16 | ~~What is MBB's 2026 credit-growth target?~~ **Mostly resolved 28-Jul 15:53** — two sources now agree on **30–35%**, matching the dossier. Confirm from AGM minutes. | Was three conflicting figures. Note the consequence: credit is ~10% YTD at Q2 (estimate), so H2 must add **+18.2% to +22.7%** — the same shape as VPB's problem. |
 
 ## 5 · Access a human must grant
 

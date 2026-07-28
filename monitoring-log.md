@@ -54,6 +54,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **15:53 ICT · MBB (lane 3) — the guidance range in our model had the wrong ceiling, and
+  correcting it inverts this morning's conclusion about where our branches sit.**
+  **The correction.** `guidance_pbt` was ₫39,400–39,500bn. MBB's plan is **+15–20% on 2025**, and
+  the source gives both ends: **₫39,400–41,121bn**. The old ceiling understated the top by about
+  **₫1,621bn**. It cross-checks: ₫39,400 ÷ 1.15 implies FY2025 pre-tax profit of ₫34,261bn, and
+  ₫34,261 × 1.20 = ₫41,113bn — within rounding of the stated ₫41,121bn.
+  **This morning I said base sat just below guidance and bull just above. On the corrected range
+  that is wrong, and the true picture is cleaner.** Restating our branches as implied full-year
+  pre-tax profit: **bear ₫35,000bn and base ₫38,125bn are both BELOW the floor of guidance**, and
+  **bull ₫41,250bn only just clears the ceiling**. Add the street's FY26 projection of **₫42,756bn**,
+  which sits **above our bull branch**.
+  **So our MBB branches sit at or below every external estimate** — the company's own floor, its
+  ceiling, and the street. That is not necessarily wrong; conservatism is defensible. But it should
+  be a *chosen* conservatism, and these are the branches that were typed in with nothing deriving
+  them. **It cuts in an interesting direction: the optimizer wants MBB as its joint-largest add
+  while modelling MBB's earnings more conservatively than anyone else does.** That strengthens the
+  case for the add rather than weakening it.
+  **Credit target resolved, partly.** Sources now agree on **30–35%**, matching `dossiers/MBB.md`.
+  The earlier +25% and ~+30% figures look like different vintages or different measures — a system
+  quota versus company ambition. Two sources now agree on 30–35%; the AGM minutes would settle it.
+  This closes most of open-decision item 16.
+  **And the same shape of problem VPB has.** MBB's credit is reported at **~10% year-to-date at
+  Q2** — an **estimate** dated 30 June, not a filed figure. Against a 30–35% full-year target, the
+  second half must add **+18.2% to +22.7%**. Logged as an estimate, not an actual; the H1 statement
+  settles it.
+  **`fy26e_npat` untouched and confidence held at 0.55.** The guidance fix corrects our own field
+  rather than adding evidence about the company, and the credit figure is an estimate. Rankings
+  unmoved, no escalation trigger fires. **MBB has not filed.**
+  Sources: [Tin nhanh chung khoan — MB targets +15–20% PBT, capital past ₫102,000bn](https://www.tinnhanhchungkhoan.vn/mb-dat-muc-tieu-loi-nhuan-tang-toi-da-20-nam-2026-nang-von-dieu-le-len-hon-102000-ty-dong-post389050.html) · [Market Times — MB 2026: double-digit profit growth, NPL under 1.5%](https://markettimes.vn/mb-tang-toc-nam-2026-loi-nhuan-tang-hai-chu-so-giu-no-xau-duoi-1-5-115413.html) · [MBS — Q2/2026 earnings preview](https://www.mbs.com.vn/du-bao-loi-nhuan-q2-2026-tang-truong-trong-moi-truong-day-thach-thuc/)
+
 - **14:53 ICT · ESCALATION · TCB (lane 3) — TCB's reported credit growth does not match the
   loan figures in our model. Unlike VPB's contradiction this morning, this one has a coherent
   explanation — and that explanation turns the Masterise hypothesis into a single balance-sheet
