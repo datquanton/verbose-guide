@@ -54,6 +54,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **10:53 ICT · WHOLE BOOK — `cash_yield` is filled in for one name out of eight, and the
+  formula adds it straight to expected return. On MBB the blank is worth 2.5pp, enough to
+  change the ranking.**
+  **How the field works.** `decide.py` computes `return = exit multiple × FY26E earnings ÷ market
+  cap − 1 **+ cash_yield**`. Dividends go in directly, not through the multiple.
+  **Only TCB carries a value** — 0.024. **That value is correct**: 7% of the ₫10,000 par is
+  ₫700 a share, which on a ₫29,250 price is 2.39%. So the field is understood and properly
+  computed, for one name. **The other seven are 0.000.**
+  **MBB's is demonstrably not zero.** Its 2026 annual meeting approved a **25% dividend — 10% cash
+  plus 15% stock**. Ten percent of par is **₫1,000 a share**, which on a ₫22,050 price is **4.54%**.
+  The model records 0.000.
+  **What the blank is worth.** Including it takes MBB's raw expected return from **+15.96% to
+  +20.49%**, and its shrunk return from **+8.78% to +11.27% — a gain of 2.49pp. That moves MBB from
+  4th to 3rd, above HPG.** An empty field is changing the ranking.
+  **Not applied, and the reason is a real question rather than caution for its own sake.** MBB's 10%
+  cash went ex on **10 June 2026**, already past. Whether another payment falls inside a forward
+  twelve-month window depends on 2027 timing, which sits right at the boundary — MBB has paid
+  annually around mid-year. TCB's 7% is **pending**, so its inclusion is unambiguous; MBB's is not.
+  **Guessing it would be inventing a number, which is how three of this week's four input errors
+  happened.**
+  **Also unresolved:** HPG's FY2026 plan includes a **15% dividend** whose cash-versus-stock split I
+  could not find, so its 0.000 may be wrong as well. VPB's 26% is stock, so zero is probably right there.
+  **What a human decides:** the convention — forward twelve months, or declared-and-unpaid — and then
+  populates all eight consistently. **The current state is not seven accurate zeros. It is one field
+  filled in and seven left blank**, and because the omission only affects dividend payers it biases the
+  ranking against the banks.
+  **No number changed. Ranking as it stands is unmoved and no escalation trigger fires.**
+  **Recency check that stopped a bad log.** A headline reporting MBB hitting limit-up after fixing the
+  record date for a **35% dividend (32% stock + 3% cash)** looked like news. Its cash leg paid **from
+  21 August 2025** — it is last year's action. The 2026 package is the 25% one above. Not logged as current.
+  Sources: [Tin nhanh chung khoan — MB 2026 plan, capital to >₫102,000bn](https://www.tinnhanhchungkhoan.vn/mb-dat-muc-tieu-loi-nhuan-tang-toi-da-20-nam-2026-nang-von-dieu-le-len-hon-102000-ty-dong-post389050.html) · [CafeF — MB 2026 plan, charter capital past ₫100tn](https://cafef.vn/mb-chinh-thuc-cong-bo-ke-hoach-nam-2026-von-dieu-le-vuot-100-nghin-ty-chia-co-tuc-khung-188260330150930595.chn) · [Vietstock — MBB record date for cash dividend](https://vietstock.vn/2026/06/mbb-thong-bao-ngay-dkcc-thuc-hien-quyen-nhan-co-tuc-bang-tien-738-1460698.htm)
+
 - **09:53 ICT · WHOLE BOOK — none of the eight prices carries a date, and for the two
   lowest-ranked names the expected-return signal is smaller than a few days of ordinary
   price drift. The engine wants to add 5.3pp to one of them.**
