@@ -84,30 +84,22 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   **Next shoe: if every broker converges on brokerage-as-gateway, competition migrates from fee
   pricing to margin pricing.** Gross margin has gone 22% → 11% on fees; watch realised **margin
   spread** next. The TCX bear spread is 4.2% against a 4.6% base — that gap is where it would show.
-  **Article 2, and it corrects what I wrote minutes earlier.** Vanguard, Blackstone, UBS and Morgan
-  Stanley have **completed technical preparations** to invest in Vietnam, **through brokers including
-  SSI and VCI**.
-  **My bearish read on VCI was over-extended and I am withdrawing half of it.** It had two legs:
-  institutional brokerage is being devalued, and VCI is not capturing the replacement engine. **The
-  first leg was wrong.** Re-reading article 1, its devaluation thesis is overwhelmingly a **retail**
-  story — tip groups, discretionary accounts, instant onboarding, zero-fee competition, AI replacing
-  basic broker tasks. Institutional brokerage is a relationship and infrastructure business with much
-  higher barriers, and that is precisely what VCI has. Applying a retail-commoditisation argument to
-  an institutional franchise was my error.
-  **What survives: VCI's margin book was flat at ₫16,644bn while the system added ₫30,000bn.** It is
-  still absent from the business that now carries the industry's profit. So the double hit becomes a
-  **single hit plus a genuine bull datapoint**.
-  **Caveat on that datapoint.** Passive index money negotiates the tightest commissions in the
-  market, so large Vanguard flow arrives at thin fee margin — the value is franchise, custody and
-  block access, not commission. And the four names are not one thing: **Vanguard is passive and
-  therefore bound to the phased tranche schedule** flagged this morning; Blackstone is private
-  markets; UBS and Morgan Stanley are active. Only the passive slice is mechanical.
-  **A kill criterion moves AWAY from triggering.** VCI's armed test is "no market-share gain in
-  foreign brokerage through the FTSE event." Being a named channel for these institutions is direct
-  evidence it is positioned to gain. Logged because the discipline runs both ways.
-  **Confidence NOT raised, and that is the rule working.** Charter §2 allows confidence to rise only
-  on T1–T2 primary documents; this is T5 press. **VCI stays at 0.40** with its `npat_ttm` still
-  suspect and unresolved. Good news is exactly what that rule exists to stop from inflating a weight.
+  **Article 2 — global institutions are set up to trade through VCI.** Vanguard, Blackstone,
+  UBS and Morgan Stanley have completed technical preparations to invest in Vietnam, **through
+  brokers including SSI and VCI**.
+  **Where VCI stands, with both articles in hand. Two things are true at once.**
+  **Bad: VCI's margin book was flat at ₫16,644bn in a quarter the industry's grew ₫30,000bn.**
+  Margin lending is where broker profit now lives, and VCI is not in it.
+  **Good: the institutional franchise the bull case rests on is now a fact rather than a claim.**
+  Named global institutions are set up to trade Vietnam through it.
+  **A correction to what I wrote an hour earlier.** I said the collapse in brokerage economics
+  devalues VCI's franchise. **That was wrong.** The collapse is a **retail** story — tip groups,
+  discretionary accounts, instant onboarding, zero fees, AI doing the basic broker tasks.
+  Institutional brokerage does not commoditise the same way.
+  **VCI's kill criterion moves AWAY from triggering** — "no market-share gain in foreign brokerage
+  through the FTSE event." Logged because the discipline runs both ways.
+  **Confidence NOT raised.** Charter §2 allows increases only on primary documents; this is press.
+  **VCI stays at 0.40** with `npat_ttm` still suspect.
   **No model input changed. Rankings unmoved, no escalation trigger fires.**
   **Regulatory, worth a human knowing:** the SSC in May 2026 required brokers to police staff
   social-media recommendations, and Circular 121/2020 limits discretionary account management. Both
