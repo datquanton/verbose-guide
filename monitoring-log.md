@@ -54,6 +54,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **08:53 ICT · HPG (lanes 3+6) — a third route to the same conclusion: the bear branch is
+  probably not bearish enough. It hinges on whether one broker number is core or total.**
+  **The observation.** VCBS forecasts HPG's FY2026 net profit at **₫18,055bn** (+17%) on revenue
+  of ₫194,330bn. Our **bear branch is ₫18,061bn** — a **0.03% match**. That is either strong
+  agreement or a basis mismatch, and which it is decides whether there is anything here.
+  **Ours is CORE**, excluding the ₫4,123bn Pho Noi divestment gain. **VCBS's is almost certainly
+  TOTAL**: the forecast is dated around 19 June, *after* the Q1 in which that gain was booked as an
+  actual, and a broker forecasting full-year reported profit after Q1 has to include it unless it
+  says otherwise.
+  **On that reading, like for like: VCBS core = ₫18,055 − ₫4,123 = ₫13,932bn — 23% below our worst
+  case.** The most conservative broker on the street would sit well under our bear branch.
+  **An independent cross-check, built without reference to any broker.** The spread bridge gives Q1
+  core ₫5,046bn, plus Q2 at 3.5m tonnes and ₫1.60–1.86m/t, plus H2 at 7–9m tonnes and the **spot
+  margin of ₫0.60–0.68m/t** — an FY core of roughly **₫14,800–16,800bn**. That sits **between**
+  VCBS-core and our bear.
+  **So three routes point the same way** — the bridge at spot prices, VCBS adjusted to core, and the
+  full-year arithmetic — and all three say **₫18,061bn is not a bear case**. This is the same
+  conclusion the `spot_persists` recommendation reached on 26 July from the per-tonne side, now
+  reached independently from the full-year side. It is open-decisions item 6, and it has just got
+  more support.
+  **The "if" that matters, stated plainly.** If VCBS's ₫18,055bn is itself a core figure, it matches
+  our bear exactly and none of this holds. That is the less likely reading but not impossible, and it
+  is settled by checking whether the implied FY25 base of ~₫15,432bn is core or reported. **Not
+  resolved.**
+  **Nothing changed.** Branches, probabilities and confidence all stand — adding or lowering a branch
+  is a human judgment call, and doing it on an *inferred* basis mismatch would be worse than leaving
+  it. Logged because HPG reports within days and this is the direction of the risk.
+  Sources: [CafeF — VCBS steel-sector Q2 and FY26 forecasts](https://cafef.vn/vcbs-du-bao-loi-nhuan-quy-2-loat-dai-gia-thep-hoa-phat-tang-truong-25-hoa-sen-va-nam-kim-hut-hoi-188260619221237977.chn) · [Thoi bao Tai chinh — HPG FY26 targets](https://thoibaotaichinhvietnam.vn/hoa-phat-dat-muc-tieu-tang-truong-doanh-thu-va-loi-nhuan-hai-chu-so-196093.html)
+
 - **07:53 ICT · MBB (lanes 3+6) — the broker whose estimate we carry for MBB just missed the
   most recent comparable bank by 30 percentage points, in the optimistic direction.**
   **The comparison.** Our on-file MBB reference — Q2 pre-tax profit of **₫8,812bn, +18%** — is
