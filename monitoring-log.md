@@ -54,6 +54,31 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **07:53 ICT · MBB (lanes 3+6) — the broker whose estimate we carry for MBB just missed the
+  most recent comparable bank by 30 percentage points, in the optimistic direction.**
+  **The comparison.** Our on-file MBB reference — Q2 pre-tax profit of **₫8,812bn, +18%** — is
+  **VCBS's**. VCBS also forecast **ACB's** Q2 pre-tax profit at ₫6,703bn, **also +18%**. ACB then
+  filed: **pre-tax profit fell about 12%** on sharply higher provisions, while net interest income
+  rose 16.5% (logged 27 July). **A thirty-point miss, same house, same metric, same quarter.**
+  **The shared +18% is itself a tell.** Two different banks with different books both forecast to
+  grow at exactly 18% looks more like a house assumption than two independent analyses.
+  **What this does not mean:** that MBB will miss. ACB and MBB are different businesses.
+  **What it does mean:** calibration forecast #4 is effectively a bet on VCBS being right. The
+  **±10% band I set at 03:53 today** (₫6,347–7,757bn net profit) assumed broker dispersion of about
+  10%. An ACB-sized miss would put MBB near **₫4,935bn** — far outside it.
+  **The band is not being widened.** Moving a pre-registered threshold hours after seeing evidence
+  that points one way is precisely the post-hoc adjustment that pre-registration exists to prevent.
+  It stays at ±10%, and if the miss happens it gets recorded as a miss.
+  **The mechanism to watch is provisions, not revenue.** ACB's miss sat entirely below the revenue
+  line — income grew, profit fell. If a sector provisioning cycle is under way, it shows up in MBB's
+  credit cost and against its "no more than 1.5%" NPL target. Sector forecasts still assume **+15%
+  profit growth on ~9% credit growth**, which ACB has already undershot.
+  **No model number changed. Confidence held at 0.55** — this is evidence about a *forecast source*,
+  not about MBB, and MBB's own confidence already reflects that its Q2 is unfiled. **No escalation
+  trigger fires.** Worth noting the pre-registered H2 table built on 28 July does not use the VCBS
+  estimate at all, which is why it remains the more useful artifact for reading the print.
+  Sources: [Stockbiz — Q2 bank sector forecasts, VCBS on ACB ₫6,703bn](https://stockbiz.vn/tin-tuc/loi-nhuan-quy-ii2026-ngan-hang-nao-se-dan-dat-tang-truong/40680516) · [Elibook — sector +15% on ~9% credit growth](https://elibook.vn/2026/06/26/du-phong-loi-nhuan-quy-2-cua-nganh-ngan-hang-tang-15-yoy-nhom-quoc-doanh-ctg-bid-tang-truong-15-23-so-voi-cung-ky-dot-bien-o-vpb-va-hdb.html/) · ACB actual logged 2026-07-27 12:53
+
 - **06:53 ICT · HPG + MACRO (lanes 1+5) — the FX rate that actually applies to HPG's imports
   is now pinned, which shrinks yesterday's open question to a fifth of its size. And the
   dong has run out of room inside the SBV band.**
