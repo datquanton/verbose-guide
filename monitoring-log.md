@@ -54,6 +54,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **07:53 ICT · TCX + HPG (lane 7, ownership; lane 4, index) — VN30 confirmed and, more
+  usefully, *sized*: the event is worth at most half a percent of TCX's market cap. Plus an
+  HPG board-member sale, and a near-miss that would have invented an index event on VPB.**
+  **VN30 July review, confirmed.** HOSE adds **MCH and TCX**; removes **TPB (TPBank) and PLX
+  (Petrolimex)**. Effective **3 August 2026**. **No holding of ours is removed.**
+  **The near-miss.** A search summary rendered the removal as "TPB (**VPBank – VPB**) was removed
+  from the VN30 index." TPB is **TPBank**; VPB is **VPBank**. They are different companies. VPB is
+  a 10% position, and logging that would have manufactured an index-exclusion event on a large
+  holding out of nothing. Caught by charter §3's entity check and verified against the HOSE list
+  before anything was written.
+  **The part that actually matters — the event has a size, and it is small.** BSC estimates the
+  additions draw **more than ₫446bn of index buying for MCH and TCX combined** (T4, a broker
+  estimate). Against TCX's market capitalisation of about **₫82,215bn**, that is **at most 0.54%
+  — and only if every dong went to TCX, which it will not.**
+  **Read that next to this morning's FTSE finding and a pattern appears.** Two index events sit in
+  the watch list for TCX. Sized properly, **one is worth at most half a percent of market cap, and
+  the other is the first slice of a phased inclusion whose announcement effect has largely already
+  been banked.** The index-event lane has been drawing attention out of proportion to the money
+  involved. TCX's +18.5% expected return comes from earnings and the exit multiple, not from either
+  event — which is exactly what the TCX dossier concluded when it said the risk on this name is the
+  2.49× price-to-book, not the flows.
+  **HPG — a board member sold, and the honest answer is that it cannot be read.** Nguyễn Ngọc
+  Quang, a member of Hoa Phat's Board of Directors, **completed** the sale of **6.6m shares between
+  15 June and 8 July** through matched and negotiated trades (T5). Sized: against roughly **7.80bn
+  shares outstanding that is 0.085% of the company**, about **₫137bn**. For contrast, the KDH
+  insider *buy* logged yesterday was about **2.0% of that company — roughly 23 times larger as a
+  proportion.**
+  **What cannot be said about it.** His total holding is unknown, so there is no way to tell whether
+  this is a trim or an exit — and that distinction is the whole difference between a non-event and a
+  signal. **Logged as a fact, not read as one.** It is logged at all only because it sits three weeks
+  ahead of the Q2 print.
+  **No model input changed, no escalation trigger fires.** Rankings unmoved.
+  Sources: [Tin nhanh chung khoan — HOSE final VN30: MCH, TCX replace TPB and PLX](https://www.tinnhanhchungkhoan.vn/hose-chot-ro-vn30-mch-tcx-se-thay-the-cho-tpb-va-plx-post394082.html) · [Nguoi Quan Sat — VN30 Q3 list, one bank removed](https://nguoiquansat.vn/hose-cong-bo-danh-muc-vn30-quy-iii-tcx-va-mch-duoc-them-moi-mot-ma-ngan-hang-bi-loai-304176.html) · [Tin nhanh chung khoan — BSC estimates >₫446bn of buying for MCH+TCX](https://www.tinnhanhchungkhoan.vn/ro-vn30-sap-co-cau-bsc-du-bao-mch-tcx-duoc-them-moi-voi-gia-tri-mua-vao-hon-446-ty-dong-post393146.html) · [Vietstock — insider dealings, week of 6–10 Jul](https://vietstock.vn/2026/07/lanh-dao-mua-ban-co-phieu-giao-dich-nhon-nhip-739-1465551.htm)
+
 - **06:53 ICT · CORRECTION · HPG (lane 5, steel) — yesterday's coking-coal note contradicts
   itself, and fixing it reverses the conclusion. The spread at spot is worse than that note
   said, not better.**
