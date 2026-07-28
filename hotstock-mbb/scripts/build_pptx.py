@@ -107,9 +107,9 @@ SLIDE_EDITS = {
     ("Kỳ vọng nâng hạng thúc đẩy vốn ngoại; môi giới &amp; margin hồi phục",
      "Hạn mức tăng trưởng tín dụng nhóm cao nhất giai đoạn 2026–2028"),
     ("Chu kỳ", "ROE"),
-    ("hồi phục", "21,6%"),
+    ("hồi phục", "21,1%"),
     ("TPDN · CHỨNG KHOÁN · BĐS", "SINH LỜI · HIỆU QUẢ VỐN"),
-    ("Các mảng từng chịu áp lực 2022–2023 đảo chiều", "ROE thuộc nhóm cao nhất trong các ngân hàng lớn"),
+    ("Các mảng từng chịu áp lực 2022–2023 đảo chiều", "ROE 2025 thuộc nhóm cao nhất khối ngân hàng lớn"),
     ("Động lực phục hồi", "Lợi thế cạnh tranh"),
 ],
 5: [
@@ -120,13 +120,13 @@ SLIDE_EDITS = {
 6: [
     ("Mở rộng hệ sinh thái &amp; đầu tư công", "Bứt tốc quy mô &amp; tăng vốn điều lệ"),
     ("TCB có cơ hội mở rộng vai trò trong tài trợ các dự án hạ tầng quy mô lớn và hưởng lợi từ xu hướng tháo gỡ nút thắt thanh khoản.",
-     "MBB đặt mục tiêu tổng tài sản vượt 2,1 triệu tỷ đồng và nâng vốn điều lệ lên hơn 102.000 tỷ đồng ngay trong năm 2026."),
+     "Sau khi tổng tài sản tăng 43% trong năm 2025, MBB đặt mục tiêu vượt 2,1 triệu tỷ đồng và nâng vốn điều lệ lên hơn 102.000 tỷ đồng năm 2026."),
     ("ĐẦU TƯ CÔNG", "TỔNG TÀI SẢN"),
     ("ĐỘNG LỰC MỚI", "MỤC TIÊU 2026"),
     ("196.000 tỷ", "2,1 triệu tỷ"),
     ("Cảng hàng không Quốc tế Gia Bình — TCB kỳ vọng đồng hành tài trợ các siêu dự án hạ tầng.",
-     "Tổng tài sản đã vượt 1,6 triệu tỷ đồng cuối quý I/2026, mục tiêu vượt 2,1 triệu tỷ trong năm."),
-    ("Mở rộng dư địa tăng trưởng tín dụng", "Tín dụng tăng trưởng quanh mức 30%"),
+     "Tổng tài sản đạt 1.615.764 tỷ đồng cuối 2025, tăng 43%; mục tiêu vượt 2,1 triệu tỷ năm 2026."),
+    ("Mở rộng dư địa tăng trưởng tín dụng", "Tín dụng mục tiêu tăng 30–35% năm 2026"),
     ("THANH KHOẢN", "TĂNG VỐN"),
     ("CHÍNH SÁCH HỖ TRỢ", "CHIA CỔ TỨC 25%"),
     ("Thông tư 22", "102.687 tỷ"),
@@ -142,13 +142,13 @@ NOTES_EDITS = {
 2: [("P/B forward ~1,15x, thấp hơn ~15% trung bình 5 năm. CAR 15,2% thuộc nhóm cao nhất khối tư nhân. Cổ phiếu thưởng 60% đưa vốn điều lệ lên 113.738 tỷ.",
      "P/B dự phóng 2026 ~1,2x trên ROE trên 21%. CASA ~38% cuối 2025, cao nhất hệ thống. LNTT 2026 dự phóng 40.726 tỷ, tăng 18,8% so với cùng kỳ.")],
 3: [("P/B forward ~1,15x, thấp hơn ~15% trung bình 5 năm. CAR 15,2% thuộc nhóm cao nhất khối tư nhân. Cổ phiếu thưởng 60% đưa vốn điều lệ lên 113.738 tỷ.",
-     "Tổng tài sản tăng từ 728.532 tỷ (2022) lên gần 1,5 triệu tỷ (2025), mục tiêu vượt 2,1 triệu tỷ năm 2026. Vốn điều lệ lên tối đa 102.687 tỷ.")],
+     "Tổng tài sản tăng từ 728.532 tỷ (2022) lên 1.615.764 tỷ cuối 2025, tăng 43%. Mục tiêu vượt 2,1 triệu tỷ năm 2026, vốn điều lệ lên tối đa 102.687 tỷ.")],
 4: [("Trái phiếu DN, chứng khoán, BĐS bước vào chu kỳ hồi phục. TCBS dẫn đầu lợi nhuận CTCK và tư vấn phát hành TPDN. Kỳ vọng nâng hạng FTSE thúc đẩy dòng vốn ngoại.",
-     "CASA ~38% cuối 2025, cao nhất hệ thống, số dư tăng ~27%. Nhận chuyển giao MBV nên được giao room tín dụng nhóm cao nhất 2026-2028. ROE trên 21%.")],
+     "CASA ~38% cuối 2025, dẫn đầu hệ thống. Nhận chuyển giao MBV nên được giao room tín dụng nhóm cao nhất 2026-2028, mục tiêu 30-35%. ROE 2025 đạt 21,1%.")],
 5: [("Trái phiếu DN, chứng khoán, BĐS bước vào chu kỳ hồi phục. TCBS dẫn đầu lợi nhuận CTCK và tư vấn phát hành TPDN. Kỳ vọng nâng hạng FTSE thúc đẩy dòng vốn ngoại.",
      "LNTT tăng liên tục: 22.729 tỷ (2022), 26.306 tỷ (2023), 28.829 tỷ (2024), 34.268 tỷ (2025) và dự phóng 40.726 tỷ cho năm 2026.")],
 6: [("TCB có cơ hội tài trợ hạ tầng lớn như Cảng HK Quốc tế Gia Bình (&gt;196.000 tỷ) và hưởng lợi từ định hướng sửa đổi Thông tư 22/2019. Định giá đã phản ánh phần lớn lo ngại.",
-     "Tổng tài sản vượt 1,6 triệu tỷ cuối quý I/2026, mục tiêu vượt 2,1 triệu tỷ. Vốn điều lệ lên tối đa 102.687 tỷ, cổ tức 25% gồm 10% tiền mặt và 15% cổ phiếu.")],
+     "Tổng tài sản 1.615.764 tỷ cuối 2025, tăng 43%; mục tiêu vượt 2,1 triệu tỷ. Vốn điều lệ lên tối đa 102.687 tỷ, cổ tức 25% gồm 10% tiền mặt và 15% cổ phiếu.")],
 }
 
 
@@ -170,7 +170,7 @@ YEARS = ["2022", "2023", "2024", "2025", "2026F"]
 # ref fragment -> replacement values (chart1)
 CHART1_VALUES = {
     "$U$78:$Z$78": [79613, 96711, 118356, 144549, 175134],          # vốn chủ sở hữu
-    "$U$15:$Z$15": [728532, 944954, 1133797, 1500000, 2100000],     # tổng tài sản
+    "$U$15:$Z$15": [728532, 944954, 1133797, 1615764, 2100000],     # tổng tài sản
     "$U$80:$Z$80": [45340, 52141, 53063, 80550, 102687],            # vốn điều lệ (hidden series)
     "$U$81:$Z$81": [0.274, 0.215, 0.224, 0.221, 0.212],             # tăng trưởng VCSH
 }

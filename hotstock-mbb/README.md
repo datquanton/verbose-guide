@@ -12,8 +12,8 @@ layout, typography, colour system and 6-slide structure are byte-for-byte the sa
 
 | | Pillar | Headline |
 |---|---|---|
-| ① | Định giá | P/B dự phóng 2026 ~1,2x trên ROE trên 21% |
-| ② | Vốn rẻ | CASA ~38% cuối 2025 — cao nhất hệ thống |
+| ① | Định giá | P/B dự phóng 2026 ~1,2x trên ROE 21,1% |
+| ② | Vốn rẻ | CASA ~38% cuối 2025 — dẫn đầu hệ thống |
 | ③ | Catalyst | Room tín dụng nhóm cao nhất 2026–2028 + tăng vốn lên 102.687 tỷ |
 
 This differs from the TCB story in one important way. TCB was pitched as *cheap versus
@@ -24,29 +24,48 @@ nobody else has. The deck and script are written on that basis, not on a discoun
 
 ## Figures used
 
-| Metric | Value | Period |
-|---|---|---|
-| P/B (trailing / forward 2026) | ~1,4x / ~1,2x | Q2 2026 |
-| ROE | ~21,6% | 2025 |
-| CASA | ~38% (số dư +27% yoy) | cuối 2025 |
-| LNTT | 22.729 / 26.306 / 28.829 / 34.268 tỷ | 2022–2025 |
-| LNTT 2026F | 40.726 tỷ (+18,8%) — kế hoạch ĐHĐCĐ 39.400 tỷ | 2026F |
-| Tổng tài sản | 728.532 / 944.954 / 1.133.797 / ~1.500.000 tỷ | 2022–2025 |
-| Tổng tài sản | 1,61 triệu tỷ (thực tế) → mục tiêu >2,1 triệu tỷ | Q1 2026 / 2026F |
-| Vốn điều lệ | 45.340 / 52.141 / 53.063 / 80.550 → 102.687 tỷ | 2022–2026F |
-| Cổ tức 2026 | 25% (10% tiền mặt + 15% cổ phiếu) | ĐHĐCĐ 2026 |
-| Tăng trưởng tín dụng | mục tiêu ~30–35%; +10% YTD | 2026 / Q2 2026 |
-| Giá mục tiêu đồng thuận | 32.900 – 33.900 đ/cp | 2026 |
+Verification status: ✅ confirmed by ≥2 independent sources · ⚠️ single source or
+partly modelled.
 
-**Verify before publishing.** Everything above was collected from Vietnamese financial
-press and broker notes via web search; direct access to HOSE/Vietstock/broker PDFs was
-blocked from the build environment. Two chart inputs are modelled rather than reported
-and should be reconciled against MB's audited statements:
+| Metric | Value | Period | |
+|---|---|---|---|
+| P/B trailing | 1,39x (08/07/2026); ~1,42x vs 5-yr avg 1,34x | Q3 2026 | ✅ |
+| P/B forward 2026 | ~1,2x | 2026F | ✅ |
+| ROE | 21,1% (MB công bố); 21,57% theo nguồn thứ ba | 2025 | ✅ |
+| CASA | ~38%, dẫn đầu bảng xếp hạng cả năm | cuối 2025 | ⚠️ |
+| LNTT | 22.729 / 26.306 / 28.829 / 34.268 tỷ | 2022–2025 | ✅ |
+| LNTT 2026F | 40.726 tỷ (+18,8%, MAS) — kế hoạch ĐHĐCĐ 39.400 tỷ (+15–20%) | 2026F | ✅ |
+| Tổng tài sản | 728.532 / 944.954 / 1.133.797 / **1.615.764** tỷ | 2022–2025 | ✅ |
+| Tổng tài sản 2026F | mục tiêu >2,1 triệu tỷ (kế hoạch +~28%) | 2026F | ✅ |
+| Vốn chủ sở hữu | 79.613 / 96.711 / 118.356 tỷ | 2022–2024 | ⚠️ |
+| Vốn chủ sở hữu | 144.549 tỷ (2025) / 175.134 tỷ (2026F) — dự phóng | 2025–26F | ⚠️ |
+| Vốn điều lệ | 45.340 / 52.141 / 53.063 / 80.550 → 102.687 tỷ | 2022–2026F | ✅ |
+| Cổ tức 2026 | 25% (10% tiền mặt + 15% cổ phiếu) | ĐHĐCĐ 2026 | ✅ |
+| Tăng trưởng tín dụng | 2025: +37% · 2026 mục tiêu 30–35% · +10% YTD tới tháng 5 | 2025–26 | ✅ |
+| Giá mục tiêu | BSC 32.900 · MAS 33.300 · KBSV 33.900 · VCBS 37.230 | 2026 | ✅ |
+| Q1/2026 | LNTT 9.628 tỷ (+14,8%) | Q1 2026 | ✅ |
 
-- **Vốn chủ sở hữu** 2025 (144.549 tỷ) and 2026F (175.134 tỷ) are broker projections, and
-  the 2022 equity-growth bar (27,4%) is derived using a 2021 equity base of ~62.486 tỷ.
-- **Tổng tài sản 2025** (1.500.000 tỷ) is MB's own "gần 1,5 triệu tỷ, tăng 33%" release,
-  not an audited balance-sheet figure.
+Everything was collected from Vietnamese financial press and broker notes via web
+search; direct access to HOSE, Vietstock, and broker PDFs is blocked by the build
+environment's egress policy, so nothing was read from a primary filing.
+
+### Caveats worth knowing before this goes out
+
+- **Vốn chủ sở hữu 2025 (144.549 tỷ) and 2026F (175.134 tỷ) are broker projections**, not
+  reported figures. They cross-check against reported ROE of 21,1% and 2024 equity of
+  118.356 tỷ, but reconcile them with MB's audited statements before publishing. The 2022
+  equity-growth bar (27,4%) is derived using a 2021 equity base of ~62.486 tỷ.
+- **CASA leadership is a narrow, recently-regained lead.** MB tops the full-year 2025
+  ranking at ~38%, but at 9M2025 Techcombank was ahead (38,4% vs MB 36,8%). Both were
+  above 34% at year-end. "Cao nhất hệ thống" is defensible for FY2025; it is not a
+  durable multi-year gap.
+- **Q1/2026 was soft on the balance sheet** and the deck does not show this. Total assets
+  slipped ~0,3% (-4.500 tỷ) versus end-2025 and customer deposits fell ~1,7%
+  (-15.500 tỷ), even as loans grew 3,4% and profit hit a record. If the audience is
+  likely to raise it, address it rather than let the "bứt tốc" framing carry unchallenged.
+- MB's early-January release guided to "gần 1,5 triệu tỷ, tăng 33%" in total assets for
+  2025. The final figure was **1.615.764 tỷ, +43%**. Ignore the earlier estimate — it is
+  still circulating in secondary coverage.
 
 ## Charts
 

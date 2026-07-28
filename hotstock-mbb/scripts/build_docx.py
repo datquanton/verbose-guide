@@ -17,9 +17,9 @@ REPLACEMENTS = [
      "Thứ nhất, định giá vẫn hợp lý so với khả năng sinh lời thuộc nhóm dẫn đầu."),
     # 4-6. pillar 1 bullets
     ("TCB hiện giao dịch ở mức P/B forward khoảng 1,23 lần, thấp hơn ~8% so với trung bình 5 năm – thị trường vẫn đang chiết khấu rủi ro liên quan đến ngành bất động sản.",
-     "MBB hiện giao dịch quanh mức P/B khoảng 1,4 lần, nhưng tính trên giá trị sổ sách dự phóng năm 2026 thì P/B chỉ còn khoảng 1,2 lần – một mức hợp lý với ngân hàng đang có ROE trên 21%."),
+     "MBB hiện giao dịch quanh mức P/B khoảng 1,4 lần, nhưng tính trên giá trị sổ sách dự phóng năm 2026 thì P/B chỉ còn khoảng 1,2 lần – một mức hợp lý với ngân hàng đạt ROE 21,1% trong năm 2025."),
     ("Tuy nhiên, xét về sức khỏe tài chính, TCB trong nhiều năm nay nằm trong top đầu về tỷ lệ an toàn vốn với hệ số CAR 15,2%. ",
-     "Đây là mức sinh lời thuộc nhóm cao nhất trong các ngân hàng quy mô lớn. Các nhóm phân tích trên thị trường hiện đưa ra giá mục tiêu cho MBB trong vùng 32.900 – 33.900 đồng mỗi cổ phiếu. "),
+     "Đây là mức sinh lời thuộc nhóm cao nhất trong các ngân hàng quy mô lớn. Các nhóm phân tích trên thị trường hiện đưa ra giá mục tiêu cho MBB trong vùng 32.900 – 37.230 đồng mỗi cổ phiếu. "),
     ("Sắp tới đây, TCB sẽ tiếp tục chia cổ phiếu thưởng tăng vốn điều lệ lên 113.800 tỷ đồng, đây cũng có thể cải thiện tâm lý giao dịch mã cổ phiếu này. ",
      "Sắp tới đây, MBB sẽ tăng vốn điều lệ từ 80.550 tỷ đồng lên tối đa 102.687 tỷ đồng và chi trả cổ tức tỷ lệ 25%, gồm 10% tiền mặt và 15% cổ phiếu, đây cũng có thể cải thiện tâm lý giao dịch mã cổ phiếu này. "),
     # 7. heading 2
@@ -35,9 +35,9 @@ REPLACEMENTS = [
      "Triển vọng tăng trưởng từ hạn mức tín dụng đặc biệt và mở rộng quy mô"),
     # 11-12. pillar 3 bullets
     ("Không chỉ BĐS, TCB tiếp tục mở rộng hoạt động vào các dự án hạ tầng quy mô lớn, trong đó có siêu dự án như Cảng hàng không Quốc tế Gia Bình với tổng mức đầu tư hơn 196.000 tỷ đồng. ",
-     "Sau khi nhận chuyển giao bắt buộc ngân hàng MBV, MBB được giao hạn mức tăng trưởng tín dụng thuộc nhóm cao nhất thị trường cho giai đoạn 2026 – 2028, với mục tiêu tăng trưởng tín dụng năm nay quanh mức 30%. "),
+     "Sau khi nhận chuyển giao bắt buộc ngân hàng MBV, MBB được giao hạn mức tăng trưởng tín dụng thuộc nhóm cao nhất thị trường cho giai đoạn 2026 – 2028, với mục tiêu tăng trưởng tín dụng năm nay trong khoảng 30 – 35%. "),
     ("Đồng thời, ngân hàng cũng là một trong những cái tên hưởng lợi từ xu hướng tháo gỡ nút thắt thanh khoản theo định hướng sửa đổi Thông tư 22/2019/TT-NHNN. ",
-     "Quy mô cũng đang bứt tốc: tổng tài sản đã vượt 1,6 triệu tỷ đồng tại cuối quý I năm 2026 và ngân hàng đặt mục tiêu vượt 2,1 triệu tỷ đồng trong năm nay, đi cùng nhu cầu vốn lớn từ các dự án hạ tầng và đầu tư công. "),
+     "Quy mô cũng đang bứt tốc: tổng tài sản đạt hơn 1,61 triệu tỷ đồng vào cuối năm 2025, tăng 43% chỉ trong một năm, và ngân hàng đặt mục tiêu vượt 2,1 triệu tỷ đồng trong năm 2026, đi cùng nhu cầu vốn lớn từ các dự án hạ tầng và đầu tư công. "),
     # 13. closing
     ("Với nền tảng vốn vững mạnh và dư địa tăng trưởng tín dụng dồi dào, chúng tôi cho rằng mức định giá hiện tại đã phản ánh phần lớn những lo ngại của thị trường. Nếu vĩ mô ổn định và nền kinh tế bước vào chu kỳ hồi phục, TCB được kỳ vọng sẽ là một trong những cổ phiếu có thể bứt phá trong thời gian sắp tới. ",
      "Với chi phí vốn thấp nhất hệ thống, dư địa tăng trưởng tín dụng vượt trội và lộ trình tăng vốn rõ ràng, chúng tôi cho rằng MBB vẫn còn dư địa để mở rộng định giá. Nếu vĩ mô ổn định và tín dụng tiếp tục tăng tốc, MBB được kỳ vọng sẽ là một trong những cổ phiếu ngân hàng dẫn dắt trong thời gian sắp tới. "),
