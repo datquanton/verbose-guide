@@ -126,6 +126,14 @@ between the published estimates is not a forecast, and it must not score as a hi
 Writing down the consensus span and calling it a forecast is the habit this log exists to
 catch.
 
+**Attribution corrected 2026-07-29 04:53.** The range is right but one label was wrong: **MBS is
+at ₫170bn**, **SSI is at ₫330bn** (not 348), and the **₫348bn** figure belongs to a third house,
+possibly VCBS, unconfirmed. Score against the range as stated, but do not attribute the top end
+to SSI. See `assumptions.json` → `kdh.actuals._FORECAST_ATTRIBUTION_CORRECTED_2026_07_29`, which
+also records that the ₫348bn forecast's own revenue implies ~26 units against the ~35 our
+pre-registered read maps to that profit — a disagreement to resolve from the statement, not from
+our mapping.
+
 ### #2 · HPG — already exact, no change
 
 Core NPAT below **₫5,600bn** on the disclosed 3.5m-tonne basket, which is below ₫1.60m per
