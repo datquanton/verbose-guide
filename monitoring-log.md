@@ -54,6 +54,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **17:20 ICT · BROKERS (lanes 5+6) — two articles, and the second corrects the first.
+  Brokerage fee economics are collapsing, which barely touches our three brokers. Then
+  Vanguard, Blackstone, UBS and Morgan Stanley turn out to be technically ready to invest
+  through — among others — VCI.**
+  **Article 1, the industry Q2 aggregates.** Brokerage revenue ₫3,600bn, **−27% on the quarter**
+  and −5% on the year, the lowest since Q1/2025 and barely half the ~₫7,000bn peak of Q3/2025.
+  Costs fell only 16%, so gross profit collapsed to **₫400bn, −63%**, and **gross margin fell from
+  22% to 11%**. The cause: HoSE turnover −24% on the quarter, matched orders **−31%**, and June
+  averaging **₫13,000bn a session — a 17-month low**.
+  **Why the direct hit is small, sized rather than asserted. The whole industry's brokerage gross
+  profit for the quarter was ₫400bn. TCBS alone earned more than ₫2,000bn of pre-tax profit in the
+  same quarter** — the entire industry's brokerage profit is **one fifth of one holding's quarterly
+  earnings**. Our names do not live on fees: TCX takes about **31% of H1 profit from margin interest**
+  on a ₫51,500bn book, and VPX's H1 trading gains of ₫3,461bn are **1.29× its entire H1 pre-tax
+  profit**. A fee line falling 27% is close to irrelevant to both.
+  **TCX is the structural winner of the shift the article describes.** Its thesis is that brokerage
+  becomes a loss-leading *gateway* to margin lending, bonds and asset management. **That is the TCBS
+  model**, and TCBS is Vietnam's largest margin lender. It printed a record quarter in the industry's
+  worst brokerage quarter in five. That is a positive read on the business and says nothing good
+  about the 2.49× book value, which the dossier already named as the real risk.
+  **The signal that matters is the cause, not the effect — and the article misses it.** System margin
+  debt is at a **record ₫435,000bn, up ₫30,000bn in the quarter**, while matched-order turnover fell
+  31%. **Record leverage against collapsing turnover means leverage is being used to hold, not to
+  trade.** Margin interest accrues on balances rather than turnover, so our earnings are insulated
+  from the fee collapse — but leveraged holders in a thin market is the standard setup for forced
+  selling. **The risk to our brokers is a margin unwind, and the piece never mentions it.** The TCX
+  model's bear branch already assumes the book shrinks 11% from Q2, so it is describing this.
+  **Next shoe: if every broker converges on brokerage-as-gateway, competition migrates from fee
+  pricing to margin pricing.** Gross margin has gone 22% → 11% on fees; watch realised **margin
+  spread** next. The TCX bear spread is 4.2% against a 4.6% base — that gap is where it would show.
+  **Article 2, and it corrects what I wrote minutes earlier.** Vanguard, Blackstone, UBS and Morgan
+  Stanley have **completed technical preparations** to invest in Vietnam, **through brokers including
+  SSI and VCI**.
+  **My bearish read on VCI was over-extended and I am withdrawing half of it.** It had two legs:
+  institutional brokerage is being devalued, and VCI is not capturing the replacement engine. **The
+  first leg was wrong.** Re-reading article 1, its devaluation thesis is overwhelmingly a **retail**
+  story — tip groups, discretionary accounts, instant onboarding, zero-fee competition, AI replacing
+  basic broker tasks. Institutional brokerage is a relationship and infrastructure business with much
+  higher barriers, and that is precisely what VCI has. Applying a retail-commoditisation argument to
+  an institutional franchise was my error.
+  **What survives: VCI's margin book was flat at ₫16,644bn while the system added ₫30,000bn.** It is
+  still absent from the business that now carries the industry's profit. So the double hit becomes a
+  **single hit plus a genuine bull datapoint**.
+  **Caveat on that datapoint.** Passive index money negotiates the tightest commissions in the
+  market, so large Vanguard flow arrives at thin fee margin — the value is franchise, custody and
+  block access, not commission. And the four names are not one thing: **Vanguard is passive and
+  therefore bound to the phased tranche schedule** flagged this morning; Blackstone is private
+  markets; UBS and Morgan Stanley are active. Only the passive slice is mechanical.
+  **A kill criterion moves AWAY from triggering.** VCI's armed test is "no market-share gain in
+  foreign brokerage through the FTSE event." Being a named channel for these institutions is direct
+  evidence it is positioned to gain. Logged because the discipline runs both ways.
+  **Confidence NOT raised, and that is the rule working.** Charter §2 allows confidence to rise only
+  on T1–T2 primary documents; this is T5 press. **VCI stays at 0.40** with its `npat_ttm` still
+  suspect and unresolved. Good news is exactly what that rule exists to stop from inflating a weight.
+  **No model input changed. Rankings unmoved, no escalation trigger fires.**
+  **Regulatory, worth a human knowing:** the SSC in May 2026 required brokers to police staff
+  social-media recommendations, and Circular 121/2020 limits discretionary account management. Both
+  bite hardest on **retail-relationship** brokers — VPS is #1 in retail and pre-IPO. A competitive
+  read on a name we do not own, not a hit to us.
+  **Open question, two-sided:** Circular 08 lets foreign investors trade through **global** brokers.
+  That is the mechanism enabling the upgrade, but a global-broker model can over time disintermediate
+  local ones. Whether VCI is the channel or the counterparty is worth establishing before treating
+  this as durable.
+  Sources: [CafeF — brokerage revenue lowest in five quarters](https://cafef.vn/moi-gioi-chung-khoan-doi-188260727230000894.chn) · [VnEconomy — Vanguard, Blackstone, Morgan Stanley technically ready](https://vneconomy.vn/nhieu-dinh-che-lon-vanguard-blackstone-morgan-stanley-da-hoan-tat-chuan-bi-ky-thuat-de-dau-tu-vao-viet-nam.htm) · [CafeF — same, naming SSI and VCI as routes](https://cafef.vn/mot-loat-dinh-che-tai-chinh-sung-so-tren-the-gioi-vanguard-blackstone-ubs-morgan-stanley-sap-tham-gia-vao-thi-truong-chung-khoan-viet-nam-188260728150724647.chn)
+
 - **15:53 ICT · MBB (lane 3) — the guidance range in our model had the wrong ceiling, and
   correcting it inverts this morning's conclusion about where our branches sit.**
   **The correction.** `guidance_pbt` was ₫39,400–39,500bn. MBB's plan is **+15–20% on 2025**, and
