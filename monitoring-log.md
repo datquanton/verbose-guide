@@ -54,6 +54,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **08:53 ICT · KDH (lane 3) — `q1_revenue` in the model is probably net profit wearing the
+  wrong label. On its own that changes no number, but it removes one of the two ways we
+  planned to verify Thursday's print — on the second-largest position in the book.**
+  **What was found.** The model records `q1_revenue` = **₫281.4bn**. A source this sweep states
+  KDH's Q1/2026 **net profit** was "over ₫281bn, up 131%."
+  **The arithmetic fits profit, not revenue.** `q1_pbt` ₫355.7bn × (1 − 21% tax) = **₫281.0bn**.
+  And the "+131%" in the source attaches to that ₫281bn figure — exactly as the KDH dossier
+  attaches +131% to the Q1 **headline profit**. Two independent routes point the same way.
+  **Stated against my own reading:** six units handed at an ASP of ₫42–44bn implies revenue of
+  ₫252–264bn, close enough to ₫281.4bn that a genuine revenue figure is not impossible. **So this
+  is flagged, not resolved, and the field has not been overwritten.**
+  **The blast radius is small in the engine and real in the process.** `run.py` never reads
+  `q1_revenue` — it builds parent profit from units, price, margin, opex, tax, the Gladia stake and
+  the one-off — so **no output moves either way.** The cost is to the verification plan. The KDH
+  dossier §3 says the Q2 units count is checkable **two ways** — from the Gladia inventory movement
+  *and* "the revenue line" — and instructs using both. **If we never held a revenue figure, that
+  second route was never available**, and the pre-registered Q2 read has one verification route
+  rather than two. Better to know that before the print than after. It reads off the Q1 statement
+  in a single line.
+  **Fourth field of this class in three days**, after VCI and VPX `npat_ttm` and VPB's credit pair.
+  **Separately — KDH has not filed, and the forecast dispersion is wider than our pre-registered
+  read assumes.** As of 08:53 everything circulating is forecast. One source's phrasing — "achieved
+  ₫330bn, up nearly 68%" — reads like an actual, but it sits under a headline that opens with **"Dự
+  báo"** (forecast) and describes KDH as **"hụt hơi"**, falling short; the "+6x%" growth in that
+  headline belongs to **two other developers**, not to KDH. **None of it is a print.**
+  **A third forecast appeared, below the bottom of our range.** The pre-registered read spans MBS
+  ₫170bn to SSI ₫348bn. This sweep surfaced **~₫102bn after-tax on ~₫350bn revenue** — below our bear
+  threshold. It is single-sourced, from the same summary that produced an internally contradictory
+  pair of numbers, so it is logged as a claim rather than a datapoint. **If it were right it would
+  imply roughly 11 units handed against the ~19 our ₫170bn case implies** — barely above Q1's six, and
+  a serious miss against a bear branch that already needs 25 a quarter.
+  **No probability, branch or weight changed. Confidence held at 0.50** — the print resolves this
+  within days, and moving a weight on forecast dispersion is trading noise. No escalation trigger fires.
+  Sources: [Nguoi Quan Sat — Q2 property forecasts, KDH "hụt hơi"](https://nguoiquansat.vn/du-bao-loi-nhuan-quy-ii-2026-nhom-bat-dong-san-2-ong-lon-tang-6x-kdh-dxg-hut-hoi-302711.html) · [Vietstock — why KDH's Q1 profit rose >130% while the core business fell](https://vietstock.vn/2026/05/vi-sao-loi-nhuan-khang-dien-bat-tang-hon-130-du-mang-kinh-doanh-cot-loi-giam-manh-737-1435906.htm) · [Tuoi Tre — Vietcap (VCI) sitting on ~₫400bn of losses on FPT and KDH](https://tuoitre.vn/dau-tu-co-phieu-fpt-va-kdh-vietcap-tam-lo-gan-400-ti-dong-100260722113104175.htm)
+
 - **07:53 ICT · TCX + HPG (lane 7, ownership; lane 4, index) — VN30 confirmed and, more
   usefully, *sized*: the event is worth at most half a percent of TCX's market cap. Plus an
   HPG board-member sale, and a near-miss that would have invented an index event on VPB.**
