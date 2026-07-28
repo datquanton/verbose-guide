@@ -164,8 +164,27 @@ Gated:         what was skipped because it cannot have changed yet
 Uncertain:     anything that failed a §3 verification check
 ```
 
+**These rules apply to the message sent to the owner, not only to files written into the
+repo.** That distinction was the gap: repo artifacts were being written to this contract
+while the chat summary was composed last, as a recap, with nothing checking it. The summary
+is the only part the owner actually reads first. It gets audited against these rules before
+it is sent, the same as anything else.
+
 **Writing rules — these bind the same way the risk rules do:**
 
+- **Write about the subject, not about your own reasoning.** "Two things are true about VCI
+  at once" — not "my argument had two legs and I am withdrawing the first." The owner needs
+  the conclusion, not the shape of the analysis that produced it. Corrections are stated in
+  one line: what was claimed, and what is true instead.
+- **If a sentence does not change what the reader does, cut it.** This is the converse of
+  the consequence rule below, and it was missing. A caveat that is individually defensible
+  but changes no decision is padding wearing the costume of rigour. Two examples from a real
+  summary that should have been cut: "passive money negotiates the tightest commissions" and
+  "only one of the four institutions is passive." Both true, neither load-bearing.
+- **When new information arrives mid-analysis, rewrite from the conclusion.** Do not patch
+  the earlier structure. A summary that reads as an argument being amended is the signature
+  of a patch; rewriting from what is now true produces a plainer statement and usually a
+  shorter one.
 - **One idea per sentence.** If a sentence has three arrows in it, it is three sentences.
 - **Say what a number means before saying what it is.** Not "npat_ttm fails the
   cross-check by 25.2%" but "the market-cap figure the model uses for VCI is a quarter
