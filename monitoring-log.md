@@ -54,6 +54,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-28
 
+- **09:53 ICT · WHOLE BOOK — none of the eight prices carries a date, and for the two
+  lowest-ranked names the expected-return signal is smaller than a few days of ordinary
+  price drift. The engine wants to add 5.3pp to one of them.**
+  **What was checked.** Price is the denominator of every expected return — `exit_pe × FY26E
+  earnings ÷ market cap − 1` — so a stale price feeds straight into the ranking. **Not one of
+  the eight price fields carries a date.** They are presumed to be as of `_meta.as_of` =
+  **24 July**, four sessions ago, and nothing in the file records or checks that.
+  **Sensitivity, measured.** Change in shrunk expected return per **−1%** move in price:
+  **VPB +0.72pp — 73% of its entire signal.** TCB +0.90pp, **25%**. VCI +0.45pp, 10%. KDH
+  +0.59pp and MBB +0.64pp, 7% each. HPG +0.70pp, 8%. VPX +0.71pp and TCX +0.99pp, 5% each.
+  **The finding.** For the two lowest-ranked names, **the signal is smaller than a few days of
+  ordinary drift.** On Monday alone TCB fell 1.22%, VPB 1.60% and MBB 1.14%. Applying that single
+  session would take VPB from +0.99% to roughly **+2.1%** and TCB from +3.64% to about **+4.7%**.
+  **The ordering does not change** — VPB stays eighth — **but the margin by which it is last sits
+  inside the noise.**
+  **Why this matters right now.** The brief proposes **ADD +5.3pp to VPB**, a name whose entire
+  +0.99% expected return is smaller than one day's price move, and whose forward credit driver was
+  flagged as unverified eight hours ago. **Fine distinctions at the bottom of this ranking are below
+  the model's resolution and should not be acted on as though they were above it.**
+  **Deliberately not fixed here.** Refreshing eight prices needs verified quotes for all eight, and
+  taking them from press summaries is how three of this week's four input errors happened. A human
+  refreshes the prices and adds a `_price_date` per ticker, so staleness becomes visible rather than
+  assumed. **No number changed; the ranking is unmoved and no escalation trigger fires.**
+
+- **09:20 ICT · HPG (lane 3) — `gated`, still unfiled, and one attribution tightened.** No Q2
+  statement. The ₫6,500bn figure the watch list carries as "consensus" is specifically **SSI
+  Research's forecast** — +52% year-on-year, −28% on the quarter for want of Q1's property-transfer
+  gain. Company FY2026 targets confirmed at **revenue ₫210,000bn and after-tax profit ₫22,000bn**,
+  which matches the `fy_target_npat` of 22,000 already in the model — a clean cross-check. The Q2
+  volume figures already logged are re-confirmed here (3.6m tonnes crude steel produced, 3.5m tonnes
+  sold). Also noted and **not** logged as material: HPG broke a one-year low on 20 July. That is a
+  price move, which charter §1 excludes on its own — though see the entry above for why undated
+  prices are a different problem.
+  [Nguoi Quan Sat — HPG one-year low](https://vietnambiz.vn/co-phieu-hpg-thung-day-mot-nam-2026720151446856.htm) · [Bao Phap Luat — FY26 plan ₫22,000bn NPAT, 15% dividend](https://doanhnhan.baophapluat.vn/hoa-phat-hpg-trinh-ke-hoach-lai-22-000-ty-dong-nam-2026-chia-co-tuc-ty-le-15.html)
+
 - **08:53 ICT · KDH (lane 3) — `q1_revenue` in the model is probably net profit wearing the
   wrong label. On its own that changes no number, but it removes one of the two ways we
   planned to verify Thursday's print — on the second-largest position in the book.**
