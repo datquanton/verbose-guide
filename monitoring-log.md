@@ -9,13 +9,20 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | 2026-07-28 | 3 |
-| US rebar AD/CVD final determination | 2026-07-28 | 2 |
+| HPG / KDH / MBB official Q2/26 statements | **DEADLINE 2026-07-30**, not an estimate — see note below | 3 |
+| US rebar AD/CVD final determination | 2026-07-28 — **date elapsed 28-Jul in Washington, still not published** | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 | 4 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
+
+**Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
+parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
+of quarter end**; companies without subsidiaries have 20 days. Q2 ended 30 June, so **HPG, KDH and
+MBB — all parents with subsidiaries — must file by 30 July.** The window was previously carried as
+"expected 28–30 July", which was an estimate. It is a deadline. All three were still unfiled at
+the close on 29 July, so the statements land tomorrow or the companies breach disclosure rules.
 
 A gated item is **covered, not ignored** — report it as `gated`. Freed budget goes to
 the depth queue, never to more searching.
