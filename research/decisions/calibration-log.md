@@ -63,6 +63,22 @@ that is what makes them worth scoring.**
 
 ### Annotations on open forecasts
 
+**#10 · Rebar — the final ISSUED 29-Jul-2026. Not scored: the rates are not in hand. Read
+pre-registered 2026-07-30 03:53.**
+Commerce issued the final determinations for Vietnam, Egypt and Bulgaria on 29-Jul. The rates are not
+yet obtainable — `federalregister.gov` 403s from here and Vietnamese press still quotes preliminaries.
+
+**The read, registered before the numbers arrive.** Provisional duties near 122% have been collected
+since March, under the extension HPG itself requested. **HPG has therefore already traded a full
+quarter under them, and that quarter printed revenue +53% and NPAT +51%.** The commercial effect of
+losing US rebar is already inside the reported run-rate rather than ahead of it. If the forecast
+scores as a HIT, *this* is the reason it should be credited to — not "the rate came in low."
+
+**And the scoring trap is explicit:** four numbers circulate for this one case — petition 117.61%,
+HPG preliminary 121.97%, all-others preliminary 130.77%, and the unpublished final. **Only Hoa Phat's
+final rate scores this forecast.** Press already headlines "130%" alongside Hoa Phat's name; that is
+the all-others rate and must not be used.
+
 **#10 · Rebar — the forecast measures two duties, not one. Clarified 2026-07-29 20:54.**
 The forecast reads "US rebar AD/CVD final ≈ headline risk only, <3% of revenue, no thesis change".
 Scoring it requires reading **both** rates, and they are very different animals: the **antidumping**

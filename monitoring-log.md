@@ -10,7 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | **DEADLINE 2026-07-30 — that is TODAY.** HPG filed 29-Jul. KDH and MBB unfiled as of 01:53; they disclose today or breach | 3 |
-| US rebar AD/CVD final determination | 2026-07-28 — **date elapsed, still not published as of 30-Jul 01:53.** Note the catalyst is TWO duties: AD prelim 121.97%, **CVD prelim only 1.08%** | 2 |
+| US rebar AD/CVD final determination | **ISSUED 29-Jul-2026** — event resolved, **rates not yet obtainable**. Structure: AD prelim HPG 121.97% / all-others 130.77%; CVD prelim 1.08%. Watch for the final rate, not the headline | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -60,6 +60,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-30
+
+- **03:53 ICT · HPG (lane 2) — the rebar final HAS issued. The event resolved; the numbers have not.
+  And four different rates are now circulating for one case, only one of which is ours.**
+  **Confirmed:** Commerce **issued the final determinations on 29-Jul-2026** covering rebar from
+  Vietnam, Egypt and Bulgaria — one day after the date this repo had gated. Legal trade press carries
+  it (*"US Finalizes Duties On Rebar From Vietnam, Egypt, Bulgaria"*). **T5.**
+  **The final rates are not obtainable yet.** `federalregister.gov` returns proxy 403 from here, and
+  Vietnamese coverage at 03:53 ICT still quotes only preliminary figures — expected, since Commerce
+  announced during US hours and Vietnamese press follows during today's business day. **No
+  preliminary or petition figure is being substituted for the final.**
+  **The rate structure, now fully pinned** (all preliminary): **AD** — Hoa Phat and affiliates
+  **121.97%** as the sole mandatory respondent, all other Vietnamese exporters **130.77%**. **CVD** —
+  Hoa Phat **1.08%**, All Others 1.08%.
+  **A live conflation trap, and the press is already in it.** Multiple outlets headline *"US imposes
+  130% tariff"* or *"nearly 131%"* **while naming Hoa Phat in the same sentence**. 130.77% is the
+  **all-others** rate. **Hoa Phat's is 121.97%, and it is lower precisely because it was the
+  mandatory respondent that participated.** A petition figure of 117.61% also circulates and is
+  neither preliminary nor final. **Four numbers for one case — 117.61 petition, 121.97 HPG
+  preliminary, 130.77 all-others preliminary, and an unpublished final — and only one describes our
+  holding.** Same species as the AD-vs-CVD conflation logged 20:54 yesterday, one day later.
+  **What this already says about forecast #10, registered now rather than after the rate lands.**
+  Provisional duties near 122% **have been collected since March**, under the extension HPG itself
+  requested. So **HPG has already traded a full quarter under them** — and that quarter, Q2/2026
+  filed 29-Jul, printed **revenue +53% and NPAT +51%**. The commercial effect of losing US rebar is
+  therefore **already inside the reported run-rate rather than ahead of it.** That is direct evidence
+  for the forecast's stated reasoning — headline risk, not earnings risk. **Not scoring yet:** the
+  forecast names the *final*, and the final's numbers are not in hand. Recording the reasoning now
+  means the eventual score cannot be constructed after the fact.
 
 - **01:53 ICT · MACRO (lane 1) — the Fed held, but the vote is the news: 9–3, with all three dissents
   wanting a HIKE. That hardens a call already on this page.**
