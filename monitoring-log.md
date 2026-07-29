@@ -61,6 +61,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **21:53 ICT · TCB — two dividends paid on the same day, treated two opposite ways, and the
+  asymmetry favours the largest position in the book.**
+  **The factual correction.** The file and the watch list carry TCB's "7% cash + 60% bonus" as
+  *pending*. **The cash half is not pending.** Techcombank announced it on **07-May-2026** at 7% of
+  par — ₫700/share, total >₫4,960bn — with a **payment date of 10-Jun-2026**. Paid seven weeks ago.
+  **The inconsistency is the finding, not the date.** The `cash_yield` note **excludes** MBB's 10%
+  cash because it *"went ex on 10-Jun-2026, already past"* — and TCB's went ex and was paid on **the
+  same date**. Two dividends, one payment date, two opposite treatments. That is exactly what
+  `CONSISTENCY-AUDIT.md` was written to catch, and it is worse than a blank field: a blank is visibly
+  missing, this looks deliberate.
+  **Size, on the file's own arithmetic.** `decide.py` adds `cash_yield` straight into the return. If
+  TCB's 0.024 should be 0.000 for the same reason MBB's is, TCB's raw expected return falls 2.4pp and
+  its shrunk return falls **1.92pp, from +3.42% to about +1.50%** — against VPB's +0.99%. TCB stays
+  7th of eight, but the gap to last narrows to half a point.
+  **It partly cancels this afternoon's price finding, and the two must be read together.** At 16:53
+  the undated price was found to **understate** TCB's expected return by ~3.1pp. This **overstates**
+  it by ~1.9pp. Net ≈ +1.2pp, so TCB lands near **+4.6%** rather than +3.42% — still at or near the
+  bottom of the book. The two were found separately and point opposite ways, and **neither cancels the
+  other's existence**: the book has one input too high and one too low on the same name.
+  **Not changing the number.** The right value depends on a convention never set — does a forward
+  12-month return count a dividend already paid, or the next expected one? TCB has paid cash three
+  years running around mid-year, so a 2027 payment sits at the same boundary the note already flagged
+  for MBB. **The two names are the same case and must be treated the same way**, whichever way is
+  chosen. That is `OPEN-DECISIONS` item 3, and it is human-only.
+  **Still genuinely pending:** the **60% bonus share issue**, expected during 2026, **ex-date not
+  announced**. That is the one that divides the price by roughly 1.6, and it remains ahead and undated.
+
 - **20:54 ICT · HPG (lane 2) — "prelim 121.97%" describes one of two duties. This file has been
   carrying only half the catalyst.**
   The watch list and calibration forecast #10 both describe *"US rebar AD/CVD final (prelim 121.97%
