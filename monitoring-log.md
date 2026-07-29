@@ -61,6 +61,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **18:53 ICT · KDH (lane 7) — "Deputy CEO buys shares" and "Vice Chairman's son takes a 1.8% stake"
+  are different facts. This file recorded the first one.**
+  The buyer is **Lý Tuấn Kiệt** — Deputy CEO **and the son of Lý Điền Sơn, Vice Chairman** — and he
+  was appointed Deputy CEO only in **late March 2026**, four months before registering the purchase.
+  Registered 20-Jul; window **23-Jul to 21-Aug**; stated purpose "increase ownership".
+  **The size was the missing part.** He holds **623,635 shares (0.056%)** and would hold
+  **20,623,635 (1.838%)** — a **thirty-three-fold** increase in one registration. That is not a
+  routine management purchase; it is founding-family accumulation routed through a recently appointed
+  executive. **Neither reading is adverse on its face** — a family buying its own shares after a fall
+  is more often a positive signal than a negative one. It is logged because charter §1 test 5 covers
+  governance and related-party facts a human would want to know.
+  **Size check passes:** 20m × ₫17,950 (20-Jul) ≈ **₫359bn**, inside the ₫360–400bn already on file.
+  Press describes it as *"bắt đáy"* — bottom-fishing — on 21-Jul.
+
+- **18:53 ICT · PRICES — a third dated observation, and the three together say something the first two
+  did not.**
+  **KDH was ₫17,950 on 20-Jul** against **₫18,000** in the file — only **0.28%** below. That looks
+  harmless until it is set beside the index: **VN-Index fell 6.55% between 20-Jul and 24-Jul.** A
+  price within 0.3% of a **pre-drop** observation is hard to reconcile with a 24-Jul date unless KDH
+  sharply outperformed a falling market. That is possible — the insider bid opened 23-Jul — but it is
+  an assumption, not a fact. **So `_meta.as_of = 2026-07-24` may be wrong for at least one field, in
+  the direction that matters: prices predating the drop rather than following it.**
+  **What all three share.** Every dated observation found so far sits **below** the file's figure —
+  TCB −3.42%, MBB −0.68%, KDH −0.28%. Price is the denominator of expected return, so a price that is
+  too **high** makes expected return too **low**. On this evidence the book's expected returns are
+  **systematically understated** — and by different amounts per name, which moves the **ranking**, not
+  just the level. Three observations on three dates are not proof of a systematic bias and are not
+  treated as one. It is a third reason item 2 is the highest-value unresolved item in the repo.
+
 - **ESCALATION (trigger 5 — a regulatory fact a human would want to know) · 17:53 ICT ·
   Circular 25/2026/TT-NHNN raised the cap on short-term funding usable for long-term lending from
   30% to 40%. It took effect 1 July. It bears on 71.8% of this book. This repo had no record of it.**
