@@ -61,6 +61,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **15:54 ICT · KDH — a "Q2 profit of ₫53bn" surfaced and it is not Q2. Fifth period mislabel in four
+  days, and the closest one yet to being logged as a print.**
+  **What arrived.** A search summary opened: *"KDH core profit in Q2 2026 reached approximately ₫53bn,
+  declining 57% YoY, due to Gladia handover delays."* Past tense, a specific number, a stated cause —
+  it reads exactly like the print that resolves calibration forecast #1.
+  **Why it is not.** The same summary's next paragraph says the ₫53bn is what remains **of Q1** after
+  excluding the **₫285bn** extraordinary gain and the **6 units** handed at Gladia. Both of those are
+  unmistakably Q1/2026 and both are already on file here. The underlying article is dated **01-Jul** and
+  titled *"brokers diverge in Q2 profit forecasts"*. So it is a Q1 figure quoted inside a piece about Q2
+  forecasts, and the summary attached the wrong quarter to it.
+  **What it is worth anyway.** It cross-checks a number we hold. This file derives Q1 core as
+  ₫355.7bn PBT − ₫285.2bn gain = **₫70.5bn on a PBT basis**. The source's ₫53bn is 75.2% of that —
+  close to an after-tax reading but **not clean**, because Vietnam's rate is 20% and ₫70.5bn × 0.80 =
+  ₫56.4bn, not ₫53bn. The residual is ~₫3.4bn, an effective 24.8%. Three readings survive: core NPAT
+  after minority interests; a stricter definition of "core"; or the gain not being entirely pre-tax.
+  **This is the same shape as HPG's ₫113bn gap** — in both cases the open question is whether the
+  one-off is pre- or post-tax. Nothing overwritten. <b>KDH remains UNFILED.</b>
+
+- **15:54 ICT · MBB — Q1 detail fills in, two checks pass, and one of my own claims is withdrawn.**
+  **New.** Q1/2026 consolidated **NPAT ₫7,703bn (+15.4%)**, of which **₫7,516bn to parent**. T5.
+  **Both checks pass.** ₫9,628bn PBT × 0.80 = ₫7,702.4bn against ₫7,703bn stated — effective tax
+  exactly 20%, so the PBT and NPAT describe the same entity. Parent share is **97.6%**, so minority
+  interests are ~2.4% and consolidated-vs-parent is *not* a live ambiguity for MBB the way it is for KDH.
+  **Guidance confirmed, no change.** One source gives the 2026 plan as +15%, another as "up to 20%" —
+  which brackets exactly the ₫39,400–41,121bn this file corrected to on 28-Jul.
+  **A claim withdrawn.** The 28-Jul note concluded "our MBB branches sit at or below **every** external
+  estimate." **MAS forecasts FY26 PBT ₫40,726bn (+18.8%)**, which sits *between* our base (₫38,125bn)
+  and our bull (₫41,250bn) — the first external number to land **inside** our range rather than above
+  it. The conservatism point still holds directionally, since base is below the bottom of company
+  guidance, but "below every external estimate" is too strong and is retired.
+
 - **14:53 ICT · MBB — the credit trajectory is pinned, and it settles yesterday's period question by
   arithmetic. But the 2026 target has reopened, with the Chairman on the record at a different number.**
   **The anchor.** Two independent sources give MBB Q1/2026 credit outstanding of **over ₫1.14 million tỷ
