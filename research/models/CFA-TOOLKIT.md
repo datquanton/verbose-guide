@@ -25,6 +25,62 @@ and deliberately so.
 
 ---
 
+## Where each of these sits in the CFA curriculum
+
+**A note on the structure.** From 2025 the Level III exam is a **common core** plus one of three
+**pathways** — Portfolio Management, Private Markets, Private Wealth. The core is Asset Allocation,
+Portfolio Construction, Performance Measurement, Derivatives & Risk Management, and Ethics. Most of
+what follows is core; two items sit in a pathway, and those are marked.
+
+Reading titles are given in the classic form as well, because those are what search engines and
+older study material use, and the underlying content has largely carried over.
+
+| § | What was computed | Level III module | Reading / topic |
+|---|---|---|---|
+| 1 | MCTR, CCTR, risk contribution | **Portfolio Construction** *(core)* | *Active Equity Investing: Portfolio Construction* — risk budgeting; absolute vs relative risk attribution |
+| 2 | Diversification ratio, effective number of bets | **Portfolio Construction** *(core)* · **Asset Allocation** | *Principles of Asset Allocation* — risk budgeting |
+| 2 | **Effective breadth**, BR_eff = N ÷ [1+(N−1)ρ̄] | **Portfolio Construction** *(core)* | *Active Equity Investing: Portfolio Construction* — the breadth discussion inside the Fundamental Law |
+| 3 | **Fundamental Law**, IR = TC × IC × √BR | **Portfolio Construction** *(core)* | *Active Equity Investing: Portfolio Construction* — Grinold's law, Clarke's transfer coefficient |
+| 4 | Sharpe, Treynor, Jensen's α, M², IR, tracking error | **Performance Measurement** *(core)* | *Portfolio Performance Evaluation* and *Investment Manager Selection* — the appraisal ratios |
+| 4 | SR_p² = SR_b² + IR², optimal active risk | **Portfolio Construction** *(core)* | *Active Equity Investing: Portfolio Construction* — relationship of IR to the Sharpe ratio |
+| 5 | Volatility drag, arithmetic vs geometric | **Asset Allocation** *(core)* | *Capital Market Expectations* / *Overview of Asset Allocation* — compounding over multiple periods. Origin is Level I Quantitative Methods |
+| 6 | **Reverse optimization, Π = λΣw** | **Asset Allocation** *(core)* | **Principles of Asset Allocation** — reverse optimization and Black–Litterman |
+| 7 | VaR, expected shortfall / CVaR | **Derivatives & Risk Management** *(core)* | *Measuring and Managing Market Risk* — parametric, historical and Monte Carlo VaR; CVaR |
+| 8 | After-tax return; the 20%-on-gains regime | **Private Wealth pathway** · also **Asset Allocation** | *Taxes and Private Wealth Management in a Global Context*; *Asset Allocation with Real-World Constraints* |
+| 9 | Rebalancing corridor width | **Asset Allocation** *(core)* | *Asset Allocation with Real-World Constraints* — rebalancing policy, Masters' corridor drivers |
+| 10 | Certainty equivalent, U = E[r] − ½λσ² | **Asset Allocation** *(core)* | *Principles of Asset Allocation* — mean–variance optimization and the utility function |
+
+### Already in the repo before this file, and where they sit
+
+| What | Where it lives here | Level III module | Reading / topic |
+|---|---|---|---|
+| **Roy's safety-first ratio**, shortfall probability | `risk.py` | **Asset Allocation** *(core)* | *Principles of Asset Allocation* — shortfall risk and goals-based allocation. Origin is Level I Quant (*Common Probability Distributions*) |
+| Sortino ratio, downside deviation | `risk.py` | **Performance Measurement** *(core)* | *Portfolio Performance Evaluation* — downside risk-adjusted measures |
+| Monte Carlo simulation, Gaussian copula | `risk.py` | **Asset Allocation** · **Derivatives & Risk Management** | *Principles of Asset Allocation* — Monte Carlo in allocation; *Measuring and Managing Market Risk* — simulation VaR |
+| Mean–variance optimizer, λ, the utility objective | `decide.py` | **Asset Allocation** *(core)* | *Principles of Asset Allocation* — MVO |
+| 20% single-name and 35% cluster caps | `assumptions.json` | **Asset Allocation** *(core)* | *Asset Allocation with Real-World Constraints* — constraints and their cost |
+| Scenario probabilities, confidence weights | `assumptions.json` | **Asset Allocation** *(core)* | *Capital Market Expectations* — forecasting and its biases |
+| Correlation block model | `assumptions.json` | **Asset Allocation** *(core)* | *Capital Market Expectations* — estimating the covariance structure |
+| Calibration log, scored forecasts | `calibration-log.md` | **Behavioral Finance** · **Performance Measurement** | *The Behavioral Biases of Individuals* — overconfidence and hindsight bias; *Investment Manager Selection* |
+| Kill criteria, the charter, no-trade band | `AGENT-CHARTER.md` | **Asset Allocation** *(core)* | *Overview of Asset Allocation* — the investment policy statement and governance |
+
+**The three densest modules for this book**, if the point is to know where to read:
+
+1. **Principles of Asset Allocation** — reverse optimization, Black–Litterman, mean–variance,
+   the utility function, Monte Carlo, shortfall risk. Sections 2, 5, 6, 7 and 10 above.
+2. **Active Equity Investing: Portfolio Construction** — the Fundamental Law, transfer
+   coefficient, breadth, risk budgeting. Sections 1, 2, 3 and part of 4. **This is the module that
+   produced the most uncomfortable result here.**
+3. **Asset Allocation with Real-World Constraints** — rebalancing corridors, taxes, constraints.
+   Sections 8 and 9.
+
+**One caveat on precision.** CFA restructured Level III in 2025 and module boundaries moved; the
+mapping above reflects that structure, but if you are working from a specific year's curriculum,
+confirm the module a reading now sits under. The *readings* and the *formulas* have been stable —
+it is the packaging that changed.
+
+---
+
 ## 1 · Risk budgeting — where the risk actually sits
 
 > MCTR_i = (Σw)_i ÷ σ_p   ·   CCTR_i = w_i × MCTR_i   ·   Σ CCTR = σ_p
