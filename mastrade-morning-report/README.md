@@ -202,6 +202,53 @@ endpoint discovery at all. If the probe turns up a batch endpoint, swap it into
 The basket is hardcoded in `VN30`, taken from Table 1 of `Daily_MAS_20260729.docx`. It is
 rebalanced twice a year — re-check it each January and July, or pass `--vn30 ACB BID ...`.
 
+### Getting OHLC from VNDirect instead
+
+If MAStrade's quote endpoint turns out not to expose open/high/low,
+`tools/fetch_ohlc_local.py` pulls them from `api-finfo.vndirect.com.vn` — the backend
+behind DStock and VNDirect's iBoard:
+
+```bash
+python tools/fetch_ohlc_local.py --symbol VNINDEX --days 5
+python tools/fetch_ohlc_local.py --json ohlc.json --raw raw.json
+```
+
+Must be run somewhere with internet access. The endpoint is undocumented and was not
+reachable from where this was written, so it uses the same candidate-name pattern and
+`--raw` dumps the untouched response when something doesn't line up.
+
+### Driving your own Chrome
+
+For anything behind a login, Playwright can attach to a Chrome you're already running
+rather than launching its own — so your existing session, cookies, and 2FA all carry over.
+
+Quit Chrome completely, then start it with a debugging port:
+
+```powershell
+# Windows
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" `
+    --remote-debugging-port=9222 --user-data-dir="C:\chrome-debug"
+```
+
+A separate `--user-data-dir` is required — Chrome refuses the debugging port on a profile
+that's already open elsewhere. Log in once in that window; it persists.
+
+```python
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.connect_over_cdp("http://localhost:9222")
+    page = browser.contexts[0].new_page()
+    page.goto("https://dstock.vndirect.com.vn/...")
+    page.wait_for_load_state("networkidle")
+    page.screenshot(path="session.png", full_page=True)
+```
+
+Worth saying plainly: prefer the API. A screenshot gives you pixels you then re-key by
+hand, and it breaks every time the page layout shifts. Reach for the browser only when
+the data genuinely isn't available any other way — and even then, `page.on("response")`
+to capture the JSON the page itself fetches usually beats reading the rendered chart.
+
 ### Not yet collected
 
 The published commentary says "195 gainers (**122 rising more than 1%**) against 128 losers",
