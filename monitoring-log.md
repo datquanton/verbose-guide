@@ -61,6 +61,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **ESCALATION (trigger 5 — a regulatory fact a human would want to know) · 17:53 ICT ·
+  Circular 25/2026/TT-NHNN raised the cap on short-term funding usable for long-term lending from
+  30% to 40%. It took effect 1 July. It bears on 71.8% of this book. This repo had no record of it.**
+  **What it does.** Issued **22-Jun**, effective **01-Jul**, amending Circular 22/2019. The SBV raised
+  the maximum share of **short-term funding** a bank may deploy into **medium- and long-term lending
+  from 30% to 40%**, and brought deposits from other credit institutions into the safety ratio with
+  carve-outs. Published in the government gazette and carried by the Vietnam Banks Association —
+  **evidence tier T1**, the regulator's own text rather than press about it. One published estimate
+  puts the system-wide headroom created at around **₫1,000,000bn** of additional medium/long-term
+  capacity, with **real estate named as a beneficiary**.
+  **Why it matters here.** This is the largest loosening of the constraint that actually binds
+  Vietnamese bank loan growth, and it lands on **banks 51.5% plus KDH 20.3% = 71.8% of the book.**
+  **On the banks:** every bank model here has credit growth as its primary driver, and the notes on
+  VPB and MBB both frame H2 as demanding — VPB needing ~+22.5% on one reading, MBB +15% to +22%.
+  Part of what made those look demanding was an unstated assumption that funding constraints bind as
+  they did under the 30% cap. **From 01-Jul they bind less — and 01-Jul is exactly the start of the H2
+  those requirements describe.** That is the **second** finding today pointing the same way for MBB,
+  after the credit trajectory was anchored at 14:53.
+  **On KDH:** property is a named beneficiary. Easier long-term bank funding helps developers
+  refinance and helps buyers get mortgages. KDH carries debt up 51% to ₫15.3tn with its land bank
+  fully pledged, so its sensitivity to term-funding availability is high.
+  **Nothing retuned.** Charter §5 — evidence bearing on a *thesis* rather than a *number* is
+  escalated, not worked quietly into the branches. No probability, branch or weight changed.
+  **Confidence also held, and the reason matters.** This is T1 and charter §2 would permit T1 to lift
+  confidence to 0.90. But confidence measures how well evidenced **our specific forecasts** are, and a
+  favourable change in the operating environment does not validate a number that still fails its own
+  cross-check. **VPB's two credit fields still contradict each other. A better environment for a
+  figure we cannot verify is not better evidence for that figure.**
+  **How it was missed, which is the part worth keeping.** In force four weeks, covering the entire
+  quarter under analysis, and it surfaced only as a side clause in a market recap run for a different
+  lane. **Same species as the 28-Jul lesson** about HPG's half-year volume disclosure sitting unlogged
+  for three weeks: the lanes hunt for *news*, and a circular in the government gazette is not news —
+  it is dated, scheduled, primary and findable. Lane 5 nominally covers "SBV/MoF circulars"; in
+  practice nothing was checking the gazette on a schedule. **A process gap, not an information gap.**
+
 - **ESCALATION (trigger 2, and it weakens a stated reason for the headline trade) · 16:53 ICT ·
   The undated-price problem just got a second dated observation, and it is three times the drift
   previously recorded. Separately: this book has been analysed all week with no market context at all,
