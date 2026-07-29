@@ -61,6 +61,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **ESCALATION (trigger 2, and it weakens a stated reason for the headline trade) · 16:53 ICT ·
+  The undated-price problem just got a second dated observation, and it is three times the drift
+  previously recorded. Separately: this book has been analysed all week with no market context at all,
+  and the market fell 6.5% in a week.**
+  **The price gap.** TCB was **₫28,250 on 27-Jul** (T5) against the **₫29,250** in `assumptions.json`
+  — a gap of **−3.42%**, versus the −1.22% single session already noted. MBB was ₫21,900 on 26-Jul
+  against ₫22,050 here, −0.68%. TCB fell again on 29-Jul.
+  **What that does.** On the file's own sensitivity of +0.90pp per −1% on TCB, a −3.42% correction
+  lifts TCB's shrunk expected return by about **+3.1pp, from +3.42% to roughly +6.5%** — moving it
+  from **7th of eight to 6th, ahead of VCI.**
+  **Why that is not bookkeeping.** The brief's headline call is **trim TCB by 15pp**, and one of its
+  stated supports is that the largest position ranks 7th of 8 on expected return. On a current price
+  it ranks 6th. **The trim survives** — it is driven by the 20% single-name cap, a constitutional
+  breach rather than a ranking — **but a stated reason for it weakens.** And the weight moves the same
+  way: weights are market-value based, so a TCB price 3.4% lower also shrinks the 35.0% weight and
+  therefore the size of the breach being corrected. Both effects point the same direction; neither is
+  captured.
+  **Not refreshing piecemeal.** Two of eight names now have a dated observation. Updating those two
+  and leaving six undated would price the book on three different dates — worse than uniformly stale
+  and known to be. The fix stays as written in `OPEN-DECISIONS` item 2 — refresh all eight **and** add
+  a `_price_date` per ticker — and it is now the highest-value item on that page.
+
+- **16:53 ICT · MARKET (lane 4) — the context the file has never carried.**
+  VN-Index **fell more than 100 points, −6.55%, in the week to 24-Jul**, closing **1,686** — losing
+  1,700 one week after losing 1,800, with a forced margin-call liquidation phase. Q2 peak was above
+  **1,927**. On **29-Jul it closed 1,704.68, +24.06 points (+1.43%)**, recovering from an intraday
+  1,675.19; HOSE matched 451.1m shares on ₫14,005bn.
+  **The 29-Jul session split against this book's biggest cluster.** The recovery was led by Vingroup
+  names, **HPG** and MWG, while **banks fell**: VPB −1%, LPB −1.7%, SHB −1.8%, STB −1.4%, with TCB,
+  MBB, SSB and ACB slightly down. Brokers and property rebounded and **VCI was bid out**. So on a
+  +1.43% day the **51.5% of this book that is banks was a drag**, and what helped was HPG (16.8%) and
+  VCI (3.1%). *Nothing is inferred from one session* — it is recorded because it shows the price
+  staleness above is **not uniform across the book**, which is what makes a single presumed date
+  dangerous rather than merely untidy.
+  **New regulatory item, not previously on file:** bank stocks recovered on support from **Circular
+  25/2026/TT-NHNN**. Contents not yet read. Lane 5, flagged for the next sweep.
+
+- **16:53 ICT · BROKERS (lane 4) — system margin debt at a record, which is the bull case and the tail
+  risk written in the same number.**
+  End-Q2/2026: total lending at securities companies **₫445,000bn**, of which **margin ₫435,000bn** —
+  up roughly **₫30,000bn in one quarter** and rising for **13 consecutive quarters**. T5. Two other
+  figures circulate (₫446,000bn and ₫454,000bn) which look like different measures or dates; the
+  445/435 split is preferred because it is internally consistent.
+  **So what.** This book is **19.5% Vietnamese brokerage** on a look-through basis, and the bull case
+  for its two best-ranked names *is* a margin book — TCX has the market's largest at ₫51.5tn, and
+  VPX's stated bull case is ₫33tn of **unused** margin room. A system at a record with 13 quarters of
+  growth is exactly the environment those cases need. **It is also the condition that produced the
+  forced liquidation in the week to 24-Jul.** No branch or probability changed — T5 evidence may not
+  move `probs` or `exit_pe` under charter §2.
+
 - **15:54 ICT · KDH — a "Q2 profit of ₫53bn" surfaced and it is not Q2. Fifth period mislabel in four
   days, and the closest one yet to being logged as a print.**
   **What arrived.** A search summary opened: *"KDH core profit in Q2 2026 reached approximately ₫53bn,
