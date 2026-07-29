@@ -108,6 +108,29 @@ so these ratios are, if anything, harsher than the truth. Fixing item 3 above wo
 
 ---
 
+## Five more, from the CFA Level III toolkit — added 2026-07-29
+
+`python3 research/models/cfa.py`; written up in `research/models/CFA-TOOLKIT.md`. Ten standard
+institutional tests, run against the actual holdings. All diagnostic — nothing there changes a
+weight. Five items land here because the charter reserves them for a person.
+
+| # | Decision | The finding behind it |
+|---|---|---|
+| 19 | **Settle λ, the risk-aversion parameter.** | Backed out of the book itself, λ is **0.354**. The optimizer config says **6.0** — 17× higher. Both cannot be right, and λ multiplies σ *squared*. Optimizer config is human-only under §4. |
+| 20 | **Replace the flat ±3pp no-trade band with volatility-scaled corridors.** | A corridor should *narrow* as volatility rises. A flat band cannot, so today's rule lets **the most volatile position in the book drift the furthest** before anyone looks at it. KDH at 54.5% warrants ±2.0pp. |
+| 21 | **Decide whether concentration or forecasting is the thing to fix.** | Effective breadth is **1.70 of 8 holdings** (Buckle). At that breadth the fundamental law says **no achievable forecasting skill** produces even a 0.25 information ratio — required IC is 0.31. The binding constraint is structural. Adding uncorrelated positions beats improving any of the eight dossiers. |
+| 22 | **Decide whether the beta is intended.** | Portfolio beta to VN-Index is **1.81**, correlation **0.93**. Most of this book's deviation from the market is *leverage*, not selection. Jensen's alpha is negative at every index assumption and gets worse as the index rises. |
+| 23 | **Hold the tax-timing question in view — do not act on it.** | Securities tax today is 0.1% of *proceeds*, so rebalancing is nearly free. A draft MoF decree would tax **20% of gains** instead. Every position is at a loss, so the proposed TCB and KDH trims would crystallise usable losses **under the draft rules and nothing under today's.** The decree is not law and loss-offset treatment is unspecified. |
+
+**Two results worth noting even though they are not decisions.** Reverse optimisation (Π = λΣw)
+ranks the names by how far each position exceeds the view behind it, and that ranking is the
+**exact inverse of the safety-first ranking above** — trim VPB, TCB, VCI; add TCX, VPX, HPG. Two
+unrelated formulas, same answer. And volatility drag (g ≈ μ − σ²/2) puts **four of eight holdings,
+68.4% of the book, on a negative expected *compounded* return** — KDH expects +8.1% and compounds
+at −6.8% purely on its 54.5% volatility.
+
+---
+
 ## The one thing on this page that is close to a thesis
 
 Item 1 aside, the finding most likely to change what the book owns is the **Masterise
