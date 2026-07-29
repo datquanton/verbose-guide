@@ -61,6 +61,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **14:20 ICT · KDH — the ₫348bn forecast is VCBS, now confirmed. The low case has a name too.
+  Neither number changed; both labels did, one day before the print settles them.**
+  This morning's note recorded ₫348bn as belonging to "a THIRD house, possibly VCBS — not confirmed."
+  A second independent source now attributes it explicitly: **VCBS, revenue ₫1,123bn (+7% YoY), NPAT
+  ₫348bn (+77%), on continued Gladia handovers.** Both sources give the same revenue and profit pair,
+  so the attribution is confirmed even though the tier is unchanged (**T5** press, not the research
+  note itself).
+  The ₫102bn-on-₫350bn low case, previously an anonymous claim, is attributed to **NHSV**, whose
+  stated reason is negative growth against a high 2025 base. Separately, **MBS's ₫170bn (−15%) is
+  part of a house-wide view that most listed developers' Q2 profit falls** — so it is a sector call,
+  not a KDH-specific one.
+  **The four estimates, now all named:** NHSV ₫102bn · MBS ₫170bn · SSI ₫330bn · VCBS ₫348bn.
+  **So what.** The spread is **3.4×**, and the disagreement is not really about profit — VCBS models
+  Q2 revenue at ₫1,123bn against NHSV's ₫350bn, a **3.2× gap on the revenue line.** That is a
+  disagreement about how many apartments were handed over, which is exactly the variable calibration
+  forecast #1 resolves on tomorrow. **Nothing in the model changed and confidence is held at 0.50** —
+  the statement is due within 24 hours and re-weighting on street dispersion the day before a filing
+  is trading noise.
+
+- **14:20 ICT · BROKERS (lane 6) — VPX is now the most profitable broker in Vietnam, and our two
+  filed figures check out.** Of 77 brokers that have disclosed, 65 profitable, 12 loss-making.
+  **VPBankS Q2 PBT ₫2,159bn (≈4× YoY) takes first place, ahead of TCBS at ₫2,097bn (+21%).** Six
+  houses cleared ₫1,000bn of quarterly PBT for the first time — VPBankS, TCBS, SSI, VPS, HD, VNDirect
+  — together ~62% of industry profit. Vietcap sits in the ₫200bn+ tier. VPBankS's contribution split:
+  margin lending ₫1,024bn (2.7× YoY), prop trading over ₫800bn (+83%).
+  **Verification, and it passes.** These are **PBT**; this file holds **NPAT**. ₫2,097bn × 0.8 =
+  ₫1,678bn against our TCX ₫1,692bn, and ₫2,159bn × 0.8 = ₫1,727bn against our VPX ₫1,733bn. Both
+  reconcile — measure check clean, and it is corroboration rather than a new datapoint. **Nothing
+  changed.** Recorded because the concentration matters: on a look-through basis this book is 19.5%
+  Vietnamese brokerage, and the top two houses in the country are both inside it.
+
 - **ESCALATION (trigger 4) · HPG Q2/2026 FILED — the quarter beat, my forecast missed, and
   the miss was visible before the print. The forward read is now sharper, not weaker.**
   **The numbers.** Q2 revenue **₫55,557bn (+53%)**, net profit **₫6,424bn (+51%)**. H1 revenue
