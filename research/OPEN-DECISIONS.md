@@ -64,8 +64,8 @@ Roy's safety-first ratio asks how much expected return you get per unit of volat
 **above a threshold you actually care about**. The threshold that matters here is a
 Vietnamese 12-month bank deposit at roughly 6% — what this money earns doing nothing.
 
-**The book expects +6.60% with 30.5% volatility, so the safety-first ratio against that
-deposit is 0.020 and the chance of underperforming it is 49.2%.** A coin flip.
+**The book expects +6.85% with 30.5% volatility, so the safety-first ratio against that
+deposit is 0.028 and the chance of underperforming it is 48.8%.** A coin flip.
 
 Per name at the same threshold, the ranking runs almost exactly opposite to the weights:
 
@@ -73,19 +73,24 @@ Per name at the same threshold, the ranking runs almost exactly opposite to the 
 |---|---:|---:|
 | TCX | 5.5% | **+0.292** |
 | VPX | 2.8% | +0.177 |
-| HPG | 16.8% | +0.098 |
+| HPG | 16.8% | +0.146 |
 | MBB | 6.5% | +0.076 |
 | KDH | 20.3% | +0.038 |
 | VCI | 3.1% | −0.038 |
 | **TCB** | **35.0%** | **−0.077** |
 | **VPB** | **10.0%** | **−0.141** |
 
+*Refreshed 2026-07-29 after HPG's Q2 filing raised its confidence 0.60 → 0.70. HPG's ratio
+moved +0.098 → +0.146 and the book's moved 0.020 → 0.028. **Nothing else changed, and the
+ordering did not change at all.** Recorded because a table of risk numbers that silently
+goes stale is the thing this file exists to prevent.*
+
 **TCB, VPB and VCI together are 48.1% of the book on negative ratios** — on these numbers
 not expected to beat a term deposit at all. The two best ratios are the two smallest
 positions. That is a fourth independent route to the TCB trim, after expected return, the
 bonus-adjusted consensus target, and the peer table's ROE ÷ P/B.
 
-The proposed books improve it but not dramatically: this cycle 0.047, north star 0.082.
+The proposed books improve it but not dramatically: this cycle 0.057, north star 0.093.
 
 **Tested 2026-07-29 and partly cleared.** The engine cuts a name's expected return by
 confidence but not its risk. Re-run under two alternatives — shrinking dispersion too, and
