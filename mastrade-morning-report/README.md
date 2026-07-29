@@ -183,14 +183,35 @@ So every lookup goes through `pick()` against a candidate list in `CANDIDATES`, 
 field that can't be resolved degrades to `None` and drops out of the prose instead of
 crashing. Both paths are tested.
 
-To pin the real names down, run the probe from a machine with API access:
+To pin the real names down, run a probe from a machine that can reach the API.
+
+**`tools/probe_standalone.py` is the one to use** — stdlib only, no repo checkout, no
+`pip install`. Copy the single file anywhere and run it:
 
 ```bash
-python tools/probe_mastrade.py          # writes probe_output/ + SHAPES.txt
+python probe_standalone.py
 ```
 
-`SHAPES.txt` lists every key each endpoint actually returns. Add the real ones to
-`CANDIDATES` — that's the only change needed.
+It ends with a direct answer:
+
+```
+ANSWER: does the quote endpoint already carry OHLC / breadth?
+  open      FOUND as 'o' = 1654.0
+  high      FOUND as 'h' = 1685.0
+  low       FOUND as 'l' = 1651.0
+  advances  FOUND as 'ad' = 195
+  declines  FOUND as 'de' = 128
+
+  all keys on the index quote: ['ad', 'c', 'ch', 'de', 'h', 'l', 'nc', 'o', 'r', 'va', 'vo']
+```
+
+(That sample is from the mock fixture, not the live API — the real output may differ.)
+
+Point it elsewhere with `MASTRADE_BASE_URL=... MASTRADE_SYMBOL=... python probe_standalone.py`.
+
+`tools/probe_mastrade.py` does the same thing but reuses `MastradeClient` from `src/`, so
+it needs the repo and `requests`. Either writes `probe_output/SHAPES.txt` listing every key
+each endpoint returned. Add the real names to `CANDIDATES` — that's the only change needed.
 
 ### How VN30 movers are computed
 
