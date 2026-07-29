@@ -61,6 +61,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **19:53 ICT · BANKS (lane 6) — the peer prints go the other way from consensus, one day before MBB
+  files. And they qualify what I concluded about Circular 25 three hours ago.**
+  **ACB Q2/2026: NPAT ₫4,292bn, down 12.06% YoY**; PBT ₫5,366bn, −12%. But **net interest income
+  ₫7,784bn, up 16.5%**, and customer loans +8.6% to ₫745,759bn. **The entire miss is provisioning** —
+  ACB sharply increased credit-risk provisions. **VIB Q2 ₫1,905.42bn, −8.24%.** Saigonbank posted a
+  **loss**; VietABank down double digits. Sector-level, Q2 NPAT for covered banks is forecast +15% YoY
+  and H1 +16%, but **provisioning expense +19%** on existing NPL pressure.
+  **Why it matters tomorrow.** MBB's Q2 PBT estimate on file is **₫8,812bn, +18% YoY**. The peers with
+  *actual* numbers are printing −12% and −8%, and the mechanism is specific and testable: **top line
+  is fine, credit cost is the swing.** MBB's Q1 NPL was 1.42%. If the pattern holds, ₫8,812bn is
+  optimistic.
+  **Not a forecast change and not a confidence change** — this is information about ACB and VIB, not
+  about MBB, and charter §2 does not let peer results move a held name's confidence. It is logged
+  because **calibration forecast #4 resolves within 24 hours**, and registering the read now means it
+  is not constructed after the print.
+  **It also qualifies this afternoon's Circular 25 entry.** At 17:53 I logged TT25 as easing the
+  **funding** constraint on credit growth, which it does. These prints say the constraint actually
+  binding on bank **profit** right now is **credit cost**, not funding. Both can be true — more room to
+  lend does not make the lending safer — but that entry read as unambiguously supportive and it should
+  not have. **More capacity to grow into a rising provisioning cycle is not the same as more profit.**
+  A correction of emphasis, not of fact.
+
+- **19:53 ICT · KDH — third independent route says the ₫281bn is net profit, and it removes the
+  counter-argument that kept the question open.**
+  A source states plainly: *"despite **declining revenue**, the company's **net profit** reached over
+  ₫281bn, up 131%."* That attaches ₫281bn to net profit and, in the same clause, says revenue fell.
+  The reading this file preserved as still-possible — that 6 units at ₫42–44bn gives revenue of
+  ₫252–264bn, close enough to ₫281.4bn that a genuine revenue figure was not excluded — now has no
+  source arguing for it and one arguing against.
+  **Three routes agree:** arithmetic (₫355.7bn × 0.79 = ₫281.0bn); the +131% growth rate attaching to
+  ₫281bn wherever it appears, including the dossier's headline-profit line; and a source explicitly
+  calling it net profit while contrasting it with falling revenue.
+  **Still not overwriting, and the reason is worth being precise about.** The finding is **not** "this
+  value is wrong" — it is **"we do not have a revenue figure at all."** Overwriting needs a
+  replacement and none of the three routes supplies one. So the cost stands exactly as recorded on
+  28-Jul: the pre-registered Q2 read has **one** verification route, not two.
+  **Also pinned:** the An Lập transaction behind the ₫285bn bargain gain — **99% acquired 02-Mar-2026
+  for ~₫2,553bn**, an **11.2% discount** to the fair value the acquirer assigned. That is a large
+  one-off running through a quarter's headline profit, and it is why "core" and "headline" diverge so
+  sharply for KDH this year.
+
 - **18:53 ICT · KDH (lane 7) — "Deputy CEO buys shares" and "Vice Chairman's son takes a 1.8% stake"
   are different facts. This file recorded the first one.**
   The buyer is **Lý Tuấn Kiệt** — Deputy CEO **and the son of Lý Điền Sơn, Vice Chairman** — and he

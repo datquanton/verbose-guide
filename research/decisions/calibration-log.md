@@ -63,6 +63,19 @@ that is what makes them worth scoring.**
 
 ### Annotations on open forecasts
 
+**#4 · MBB — a pre-print read registered 2026-07-29 19:53, before the statement.**
+Forecast #4 resolves tomorrow. The on-file Q2 PBT estimate is ₫8,812bn, **+18% YoY**. Peers that
+have now actually printed are running the other way: **ACB −12.06%** and **VIB −8.24%**, with
+Saigonbank at a loss. The mechanism in ACB's numbers is specific and testable — **net interest
+income +16.5%, profit −12%, the whole gap being provisions.** Sector provisioning is forecast +19%.
+
+**So the registered read is: if MBB misses, expect it to miss on credit cost with net interest
+income intact, not on revenue.** Recording it now rather than after the print is the whole point —
+a mechanism identified afterwards is a story, identified beforehand it is a test. If MBB instead
+misses on the top line, or beats outright, this read is wrong and gets scored as wrong.
+
+
+
 Original rows are **never edited** — a forecast that gets quietly revised as evidence
 arrives cannot be scored, and a calibration log that permits revision measures nothing.
 Where the evidence moves before resolution, it is recorded here instead, and both the
