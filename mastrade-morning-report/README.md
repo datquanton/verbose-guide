@@ -90,8 +90,22 @@ mastrade-morning-report/
 ├── mastrade_morning_report.spec     # PyInstaller build recipe
 ├── build.ps1                        # Windows build
 ├── build.sh                         # Linux/macOS build
-└── tools/mock_mastrade_server.py    # offline API stub for testing
+└── tools/
+    ├── mock_mastrade_server.py      # offline API stub for testing
+    └── render_from_snapshot.py      # rebuild a .docx from a saved snapshot
 ```
+
+### Re-rendering an old report
+
+Each run writes its complete `ReportData` to `data/snapshots/*.json`, which is
+everything `build_docx` needs. So any past report can be regenerated without the API:
+
+```bash
+python tools/render_from_snapshot.py data/snapshots/2026-07-29_114150.json
+```
+
+Useful for reissuing a report, and for checking formatting changes against real numbers
+instead of invented ones.
 
 ### Run it as a plain script first
 
