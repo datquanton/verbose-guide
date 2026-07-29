@@ -63,6 +63,17 @@ that is what makes them worth scoring.**
 
 ### Annotations on open forecasts
 
+**#10 · Rebar — the forecast measures two duties, not one. Clarified 2026-07-29 20:54.**
+The forecast reads "US rebar AD/CVD final ≈ headline risk only, <3% of revenue, no thesis change".
+Scoring it requires reading **both** rates, and they are very different animals: the **antidumping**
+preliminary is **121.97%**, the **countervailing** preliminary is **1.08%** ad valorem. The two
+finals are aligned to issue on the same date. So the CVD side is already effectively resolved in the
+forecast's favour, and essentially the whole test rests on the AD final.
+
+The date itself also came from Hoa Phat: it requested the postponement on 03-Mar-2026, moving the
+final from "no later than 26-May" into late July. **The 28-Jul date elapsed with nothing published**,
+so this forecast is not late in resolving — it has no published resolution to score against yet.
+
 **#4 · MBB — a pre-print read registered 2026-07-29 19:53, before the statement.**
 Forecast #4 resolves tomorrow. The on-file Q2 PBT estimate is ₫8,812bn, **+18% YoY**. Peers that
 have now actually printed are running the other way: **ACB −12.06%** and **VIB −8.24%**, with

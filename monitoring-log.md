@@ -61,6 +61,28 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **20:54 ICT · HPG (lane 2) — "prelim 121.97%" describes one of two duties. This file has been
+  carrying only half the catalyst.**
+  The watch list and calibration forecast #10 both describe *"US rebar AD/CVD final (prelim 121.97%
+  on Hoa Phat)"*. **The 121.97% is the antidumping rate only.** There are two separate
+  investigations, and the **countervailing duty preliminary rate for Hoa Phat is 1.08% ad valorem**,
+  with "All Others" also 1.08% (Federal Register 2026-00495, 13-Jan-2026, **T1**).
+  **So one of the two duties is already known to be trivial**, and only the AD side carries the
+  headline. Anything reading "122%" as the total burden is wrong by construction.
+  **The two finals are aligned** — Commerce tied the final CVD to issue on the *same date* as the
+  final AD, so both land together or neither does.
+  **Where the ~28-Jul date comes from, which was never recorded here:** **Hoa Phat itself requested
+  the postponement** on 03-Mar-2026, with provisional measures extended for up to six months. The
+  January CVD notice had the final "no later than 26-May-2026"; the March AD notice is titled
+  *"Postponement of Final Determination and Extension of Provisional Measures"*. **The July date is
+  the consequence of HPG's own request**, not an arbitrary schedule. A company asking to delay a
+  determination is ordinary procedure and is not read as a signal either way.
+  **Cross-owned entities named:** Hoa Phat Dung Quat Steel, Hai Duong Steel, Hung Yen Steel, Hoa Phat
+  Energy — the rate attaches to the group, not one exporting entity.
+  **Still not published** at 20:54 ICT, one day past the expected date. Nothing changed in any branch.
+  Forecast #10 stays unresolved, and this sharpens what resolving it means: **two rates must be read,
+  not one.**
+
 - **19:53 ICT · BANKS (lane 6) — the peer prints go the other way from consensus, one day before MBB
   files. And they qualify what I concluded about Circular 25 three hours ago.**
   **ACB Q2/2026: NPAT ₫4,292bn, down 12.06% YoY**; PBT ₫5,366bn, −12%. But **net interest income
