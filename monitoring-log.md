@@ -9,8 +9,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | **DEADLINE 2026-07-30**, not an estimate — see note below | 3 |
-| US rebar AD/CVD final determination | 2026-07-28 — **date elapsed 28-Jul in Washington, still not published** | 2 |
+| HPG / KDH / MBB official Q2/26 statements | **DEADLINE 2026-07-30 — that is TODAY.** HPG filed 29-Jul. KDH and MBB unfiled as of 01:53; they disclose today or breach | 3 |
+| US rebar AD/CVD final determination | 2026-07-28 — **date elapsed, still not published as of 30-Jul 01:53.** Note the catalyst is TWO duties: AD prelim 121.97%, **CVD prelim only 1.08%** | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -58,6 +58,38 @@ A quiet sweep writes nothing here — but it is **not** a finished sweep. It adv
 item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
+
+## 2026-07-30
+
+- **01:53 ICT · MACRO (lane 1) — the Fed held, but the vote is the news: 9–3, with all three dissents
+  wanting a HIKE. That hardens a call already on this page.**
+  FOMC left the target range at **3.50–3.75%** on 29-Jul. The dissenters — **Hammack (Cleveland),
+  Kashkari (Minneapolis), Logan (Dallas)** — each "preferred to raise the target range by ¼
+  percentage point." Inflation has run above the 2% target for **more than five years**, with
+  pressure attributed to the **war in Iran** and **AI bottlenecks**. Chair **Kevin Warsh** gave no
+  forward guidance. **T1**, the Fed's own release.
+  **The fact, and then the inference — labelled.** *The fact:* a hold with three hike dissents shifts
+  the distribution of the **next** move upward rather than down. *The inference:* this book is 51.5%
+  banks whose margins depend on SBV policy; SBV is constrained by USD/VND; and the 26-Jul entry here
+  records the central rate at a record after eleven straight weekly rises with ~₫330tn net drained
+  since February. A Fed closer to hiking than cutting keeps the dollar firm, keeps VND under
+  pressure, and **removes the "Fed cuts, so SBV can ease" path for at least another meeting cycle.**
+  **So it confirms rather than discovers.** The 26-Jul entry concluded *"funding-cost relief is not
+  coming from policy — FX is the new watch item for the 51.5% bank cluster."* That reading now has
+  the Fed's own vote behind it.
+  **Where it bites specifically:** TCB's guidance is recorded here as **leaning on NIM recovery**,
+  with NIM having moved 3.1% → 3.4%. Deposit rates staying high because SBV cannot ease is the direct
+  threat to that recovery — **and TCB is 35% of the book.**
+  **Nothing changed.** No branch, probability, weight or confidence moves on a macro read. A rate
+  decision is not evidence about any company's numbers, and charter §5 reserves thesis-level
+  responses for a human. Logged because lane 1 covers Fed decisions as they affect Vietnam, and this
+  one resolves a gated item.
+
+- **01:53 ICT · FILINGS — today is the deadline.** KDH and MBB remain unfiled at the roll into 30
+  July. Under Circular 96/2020 both must disclose **today** or breach. Seventh consecutive sweep with
+  no statement. *Also, for the third time in this cycle a search for "MBB" returned MBS — MB
+  Securities — whose Q2 revenue was ₫1,196bn (+51%) on a record ₫16,670bn margin book. **That is not
+  our holding** and was not treated as one.*
 
 ## 2026-07-29
 
