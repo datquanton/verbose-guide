@@ -51,7 +51,7 @@ that is what makes them worth scoring.**
 | # | Date | Ticker | Forecast | Prob / confidence | Resolves | Status |
 |---|---|---|---|---|---|---|
 | 1 | 2026-07-24 | KDH | Q2/26 parent NPAT between MBS ₫170bn and SSI ₫348bn; base case FY26 NPAT ₫1,590bn | conf 0.50 | Q2 FS (~Jul 28–30) | ⏳ open |
-| 2 | 2026-07-26 | HPG | Q2 core NPAT/tonne **below** ₫1.60m as the Formosa/iron-ore spread squeeze bites | bear p=0.45 | Q2 FS (~Jul 28–30) | ⏳ open |
+| 2 | 2026-07-26 | HPG | Q2 core NPAT/tonne **below** ₫1.60m as the Formosa/iron-ore spread squeeze bites | bear p=0.45 | Q2 FS | ❌ **MISS — scored 29-Jul, see below** |
 | 3 | 2026-07-24 | HPG | FY26 core NPAT (ex Pho Noi gain) ₫23.3tn base case | conf 0.60 | FY26 audited | ⏳ open |
 | 4 | 2026-07-24 | MBB | Q2/26 NPAT ≈ ₫7,052bn (VCBS est.); FY26 base ₫30.5tn | conf 0.55 | Q2 FS (~Jul 28–30) | ⏳ open |
 | 5 | 2026-07-24 | TCB | FY26 PBT ₫33.2tn base — **below** company guidance ₫35–37.5tn | conf 0.85 | FY26 audited | ⏳ open |
@@ -94,7 +94,35 @@ forecast misses, it misses; that argument explains the timing, it does not rescu
 
 ## Scored forecasts
 
-_None yet — the first batch resolves with the Q2 filings this week (Jul 28–30)._
+### #2 · HPG Q2 core NPAT per tonne — **MISS**, resolved 2026-07-29
+
+| Field | |
+|---|---|
+| **Forecast** | 26-Jul: Q2 core NPAT/tonne **below ₫1.60m**, as the Formosa/iron-ore spread squeeze bites. Bear branch p=0.45. Threshold fixed 28-Jul at ₫5,600bn core on the disclosed 3.5m-tonne basket. |
+| **Actual** | Q2 NPAT **₫6,424bn** (+51% YoY), on 3.5m tonnes = **₫1.835m/t**. T1, filed 29-Jul. |
+| **Direction** | ❌ Wrong side. Predicted below ₫1.60m; landed just under the **bull** branch of ₫1.85m. |
+| **Error** | **+14.7%** above the ₫5,600bn threshold. Against the probability-weighted branch mean the miss is larger still, since bear carried p=0.45. |
+| **Reason** | ❌ **Wrong, and wrong in a way that was visible before the print.** |
+
+**The forecast contradicted my own analysis, and both were on file.** The `TIMING` note in
+`hpg-spread-bridge.md` says plainly: ore and coal are bought one to two quarters forward, so Q2
+burns cheap Q1 inputs and *"a strong Q2 print does NOT refute the bear thesis"* — the squeeze
+lands in Q3. That note was written the same day as the forecast. **One said Q2 would be weak; the
+other said Q2 could not yet be weak.** I never reconciled them.
+
+The 28 July consistency audit checked *fields against fields* and found four errors. It never
+checked a **forecast against a note**, which is where this one was hiding in plain sight.
+
+**Lesson.** A forecast must be checked against every standing note on the same variable before it
+is logged, not only against the data. Where a note explains why a period is uninformative, no
+forecast should be registered on that period at all — the honest version of #2 would have been a
+**Q3** forecast.
+
+**What survives the miss.** The spread bridge's spot-persists arithmetic is untouched: at current
+input prices it computes ₫0.60–0.68m/t, and the newly filed H1 makes the bear branch require
+**exactly** that (H2 of ₫6,704bn over 7–9m tonnes = ₫0.745–0.958m/t). The thesis was mistimed, not
+disproved. It now resolves in Q3, and that is where the next forecast belongs.
+
 
 **Read that as a warning, not a placeholder.** Ten open forecasts and zero scored
 means every confidence weight now driving the optimizer is an assertion, not a
@@ -185,4 +213,5 @@ made and caught — they were real and they are worth not repeating._
 | 2026-07-28 | **Third input in three days to fail the period/entity checks.** VCI and VPX were both `npat_ttm`; VPB's is a credit balance. Because the third one is a different field, the pattern is not about `npat_ttm` at all — it is about numbers transcribed out of press summaries without pinning down which period and which entity they describe. VPB's block held a Q1-consolidated balance and an H1-parent growth rate side by side as if they were one quarter of one company, and the error was invisible until the two were divided into each other. | Any two fields in the same block that can be arithmetically checked against each other must be, at the time of entry. `credit_q2 / credit_start_fy - 1` had to equal `credit_growth_ytd` and never did |
 | 2026-07-28 | **A single sentence contradicted itself and stood for a day.** The 27-Jul coking-coal note said 'SPOT 228, -24% MoM from 238.9 on 10-Jul' - but 238.9 to 228 is -4.6%. The consistency audit run that same morning checked FIELDS against each other and would never have caught this, because both numbers and the false percentage linking them sat inside one prose string. The error mattered: it produced a 'coal is collapsing, this is upside risk' reading when coal was in fact flat, and the corrected spread at spot is 0.60-0.68m/t rather than 0.83m/t - further below the bear branch, not closer. | Percentages stated inside prose notes get recomputed from the figures in the same sentence. A number written as narrative is still a number and gets the same arithmetic check as one written as a field |
 | 2026-07-28 | **A near-miss of a different kind: nearly logged an unverified claim because it agreed with me.** A search summary said KDH's Gladia handover pace was 'slower than originally expected'. That would have corroborated the dossier's central finding - that every branch needs a 4x step-up on Q1's six units - and it sits beside an armed kill criterion on handover pace. The verification search did not confirm it and pointed the other way: the low-rise is complete and ready, title certificates were delivered as promised, and construction is described as on schedule. Every other error caught this week was a period, entity or measure mistake - mechanical, catchable by arithmetic. This one would have passed every mechanical check and failed only because the claim was CONVENIENT. | Charter section 3's rule 'never resolve ambiguity by picking the more interesting reading' now carries a second edge: when an unverified claim CONFIRMS an existing finding, that is a reason to verify harder, not a reason to relax. Flagged explicitly in the sweep summary rather than logged |
+| 2026-07-29 | **First scored forecast is a miss, and it was self-inconsistent before the print.** HPG forecast #2 predicted Q2 core NPAT/tonne below 1.60m; it came in at 1.835m. But the spread bridge's own TIMING note, written the same day, said Q2 burns cheap Q1 inputs and a strong Q2 does NOT refute the thesis. The forecast and the note contradicted each other and both sat on file for three days. The 28-Jul consistency audit checked fields against fields and would never have caught it. | Before a forecast is logged it gets checked against every standing NOTE on the same variable, not just against the data. Where a note explains why a period is uninformative, no forecast is registered on that period - it is registered on the period that actually tests the thesis |
 

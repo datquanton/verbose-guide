@@ -61,6 +61,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **ESCALATION (trigger 4) · HPG Q2/2026 FILED — the quarter beat, my forecast missed, and
+  the miss was visible before the print. The forward read is now sharper, not weaker.**
+  **The numbers.** Q2 revenue **₫55,557bn (+53%)**, net profit **₫6,424bn (+51%)**. H1 revenue
+  **₫108,870bn (+47%)**, net profit **₫15,480bn (+103%)** — **52% of the revenue plan and 70% of the
+  profit plan.** Evidence tier **T1**.
+  **Checks pass.** Q1 ₫9,056bn + Q2 ₫6,424bn = ₫15,480bn, matching the stated H1 exactly. Against the
+  Q2/2025 base of ₫4,256.75bn added this morning, +50.9% versus the +51% claimed.
+  **Versus the three forecasts:** HSC ₫6,400bn was almost exact (+0.4%), SSI ₫6,500bn close (−1.2%),
+  **VCBS ₫5,335bn was 20.4% low** — the same house that missed ACB's Q2 by 30 points, now wrong twice
+  this season in opposite directions.
+  **My forecast is a MISS and it is scored.** Forecast #2 predicted Q2 core profit per tonne **below
+  ₫1.60m**; the actual is **₫1.835m/t**, just under the *bull* branch. **The reason column is the
+  damning part.** The spread bridge's own `TIMING` note, written the same day, says ore and coal are
+  bought one to two quarters forward, so Q2 burns cheap Q1 inputs and *"a strong Q2 print does NOT
+  refute the bear thesis."* **One document said Q2 would be weak; the other said Q2 could not yet be
+  weak. Both sat on file for three days and I never reconciled them.** Monday's consistency audit
+  checked fields against fields; it never checked a forecast against a note.
+  **The segment split is the most useful line in the release, and it settles Monday's anchor
+  question.** Steel is **93% of H1 revenue but only 68% of H1 profit**. So H1 steel profit is
+  **₫10,526bn on 6.5m tonnes = ₫1.619m/t**. Non-steel of ₫4,954bn **reconciles**: the Pho Noi one-off
+  ₫4,123bn plus agriculture ~₫648bn leaves a residual of ₫183bn. **Non-steel is overwhelmingly the
+  one-off, not a recurring stream** — so the contamination flagged at 13:53 is real but bounded at
+  about **7.3% of core profit**, close to the 6.4% estimated from agriculture alone, not the 32% the
+  raw split suggests.
+  **The forward read, which matters more than the miss.** H1 core, ex the one-off, is **₫11,357bn —
+  about ₫5,678bn a quarter.** Against the core branches: **bear ₫18,061bn now needs H2 of ₫6,704bn, a
+  41% collapse from the H1 pace. Base ₫23,336bn needs roughly flat. Bull needs +47%.** As margin on
+  7–9m tonnes of H2 volume, **bear implies ₫0.745–0.958m/t** — and the spread bridge's spot-persists
+  case computes **₫0.60–0.68m/t**. **The two independent routes have converged.** Bear is no longer an
+  abstract downside; it is the arithmetic of today's input prices persisting through the second half.
+  **And I have to withdraw this morning's conclusion.** At 08:53 I inferred VCBS's FY26 figure of
+  ₫18,055bn was *total*, hence ₫13,932bn core, hence 23% below our bear — and called it a third route
+  to "the bear branch isn't bearish enough." **The filing kills that.** With H1 total already at
+  ₫15,480bn, a full-year total of ₫18,055bn would need H2 of ₫2,575bn — an 83% collapse. No broker
+  forecasts that. **VCBS's number is core, and on that reading it agrees with our bear branch to
+  within ₫6bn.** I over-read one unlabelled broker figure and built a three-route conclusion on it;
+  two of those routes were the same route in different clothes.
+  **Model: HPG confidence 0.60 → 0.70.** The quarter is T1 actual rather than estimate, but FY26
+  remains forecast and the H2 spread question is open. **Expected return +9.09% → +10.60%, HPG stays
+  3rd of 8.** Below the 10pp trigger, but **trigger 4 fires — a held name's evidence status changed.**
+  **The company plan is no longer a useful benchmark:** H1 at 70% means H2 needs only ₫6,520bn to hit
+  ₫22,000bn. It will almost certainly be beaten.
+  Source: HPG Q2/2026 consolidated results release, 29 July 2026.
+
 - **13:53 ICT · HPG (lane 3) — the agriculture subsidiary filed, and it exposes a third
   problem with the spread bridge's calibration anchor. All three push the same way.**
   **What filed.** **Hòa Phát Agriculture (HPA)** reported H1/2026 revenue of **₫3,379bn** and net
