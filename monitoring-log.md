@@ -54,6 +54,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **13:53 ICT · HPG (lane 3) — the agriculture subsidiary filed, and it exposes a third
+  problem with the spread bridge's calibration anchor. All three push the same way.**
+  **What filed.** **Hòa Phát Agriculture (HPA)** reported H1/2026 revenue of **₫3,379bn** and net
+  profit of **₫648bn**, 64% of its full-year plan — implying an FY plan near ₫1,012bn. **HPG Group
+  itself is still unfiled.**
+  **Why a subsidiary's result touches the steel model.** The spread bridge treats HPG as a steel
+  business — net profit per **tonne**, times tonnes — and its conversion cost of US$114/t was
+  **solved backwards** so the bridge reproduces a Q1 core anchor of **₫1.682m/t** (₫5,046bn over
+  3.0m tonnes). But ₫5,046bn is **group** profit and includes non-steel earnings.
+  **Sizing it with agriculture alone:** HPA runs about ₫324bn a quarter, so (₫5,046 − ₫324) ÷ 3.0mt
+  = **₫1.574m/t — 6.4% below the anchor.** And agriculture is only one non-steel segment; real
+  estate, appliances, pipe and galvanised sheet also sit outside the 3.0m-tonne basket, so a true
+  steel-only margin is lower still.
+  **The direction matters more than the size.** An anchor that is too **high** means the solved
+  conversion cost is too **low**, so the bridge **understates steel costs and overstates the spread
+  at every price point.** That is the same direction as the two anchor problems already on file —
+  the **₫113bn** core-versus-one-off reconciliation gap, and the **FX rate sitting 0.87% below the
+  bank sell rate**. **Three separate issues, all making the modelled spread too generous.**
+  **What is not established:** HPA's ownership percentage, so how much of ₫648bn is attributable to
+  HPG shareholders; and whether HPA's profit sits inside the ₫5,046bn "core" figure at all, which
+  depends on how that number was built. Both read off the segment note in the group statement.
+  **Not applied.** Re-solving the conversion cost on an inferred non-steel share would swap one
+  unverified anchor for another. The group statement lands within a day and carries the note that
+  settles it. **No model number changed, rankings unmoved, no escalation trigger fires.**
+  Sources: [Tien Phong — HPA H1 profit ₫648bn, 64% of plan](https://tienphong.vn/nong-nghiep-hoa-phat-lai-648-ty-dong-sau-6-thang-hoan-thanh-64-ke-hoach-nam-post1863473.tpo)
+
 - **08:53 ICT · HPG (lanes 3+6) — a third route to the same conclusion: the bear branch is
   probably not bearish enough. It hinges on whether one broker number is core or total.**
   **The observation.** VCBS forecasts HPG's FY2026 net profit at **₫18,055bn** (+17%) on revenue
