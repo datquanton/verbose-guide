@@ -23,6 +23,40 @@ from urllib.parse import parse_qs, urlparse
 #   vo = volume in shares               va = traded value in VND
 QUOTE = {"data": [{"c": 1281.45, "ch": 6.32, "r": 0.004956, "vo": 412_300_000, "va": 9_874_000_000_000}]}
 
+# ---------------------------------------------------------------------------
+# Fixture for the commentary collector, using the real 28 Jul 2026 session as
+# published in Daily_MAS_20260729.docx (prev close 1,669.01 from its Table 1).
+# `o`/`h`/`l` and the breadth keys are our best guess at the real names — if
+# tools/probe_mastrade.py shows otherwise, fix them here and in CANDIDATES.
+# ---------------------------------------------------------------------------
+COMMENTARY_QUOTE = {
+    "data": [{
+        "o": 1654.0, "h": 1685.0, "l": 1651.0, "c": 1681.0,
+        "ch": 11.99, "r": 0.00718,
+        "vo": 805_000_000, "va": 19_197_000_000_000,
+        "ad": 195, "de": 128, "nc": 42,
+    }]
+}
+
+COMMENTARY_DETAIL = [{
+    "symbol": "VN-INDEX", "PE": 13.7, "PB": 1.9,
+    "MarketCapital": 7_968_147_000_000_000,
+    "TotalForeignBuyVal": 2_937_000_000_000,
+    "TotalForeignSellVal": 4_907_000_000_000,
+}]
+
+COMMENTARY_FOREIGN_TOTAL = {"NetBuyVal": -1_970_000_000_000}
+
+# VN30 constituents with the percent moves quoted in the published commentary.
+VN30_PCT = {
+    "SSI": 4.5, "HPG": 3.1, "MWG": 3.0, "VNM": 2.9, "MSN": 2.8,
+    "VJC": -2.0, "SAB": -1.0, "LPB": -0.9, "HDB": -0.7, "SHB": -0.4,
+    "ACB": 1.2, "BID": 0.8, "BSR": 0.5, "CTG": 1.1, "FPT": 2.2,
+    "GAS": 0.3, "GVR": -0.2, "MBB": 1.5, "PLX": 0.1, "SSB": 0.6,
+    "STB": 1.9, "TCB": 0.9, "TPB": -0.1, "VCB": 0.7, "VHM": 2.1,
+    "VIB": 0.4, "VIC": 1.7, "VPB": 1.3, "VPL": -0.3, "VRE": 2.6,
+}
+
 # /api/v2/vs/detailIndex  ->  list of rows; the script takes row[0]
 DETAIL_INDEX = [
     {
@@ -74,13 +108,21 @@ class Handler(BaseHTTPRequestHandler):
         query = (qs.get("query") or [""])[0]
 
         if path.endswith("/quote"):
-            return self._send(QUOTE)
+            symbol = path.split("/")[-2]
+            if symbol in VN30_PCT and self.server.commentary:
+                pct = VN30_PCT[symbol]
+                close = 20_000 * (1 + pct / 100)
+                return self._send({"data": [{
+                    "c": round(close, 2), "ch": round(close - 20_000, 2), "r": pct / 100,
+                    "vo": 1_000_000, "va": 20_000_000_000,
+                }]})
+            return self._send(COMMENTARY_QUOTE if self.server.commentary else QUOTE)
         if path == "/api/v2/vs/detailIndex":
-            return self._send(DETAIL_INDEX)
+            return self._send(COMMENTARY_DETAIL if self.server.commentary else DETAIL_INDEX)
         if path == "/api/v2/vs/stockInfluence":
             return self._send(INFLUENCE_DOWN if '"ASC"' in query else INFLUENCE_UP)
         if path == "/api/v2/vs/foreignHistory":
-            return self._send(FOREIGN_TOTAL)
+            return self._send(COMMENTARY_FOREIGN_TOTAL if self.server.commentary else FOREIGN_TOTAL)
         if path == "/api/v1/market/top":
             top = (qs.get("top") or [""])[0]
             return self._send(TOP_SELL if "SELL" in top else TOP_BUY)
@@ -90,5 +132,10 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
-    print(f"mock MAStrade API on http://127.0.0.1:{port}", flush=True)
-    HTTPServer(("127.0.0.1", port), Handler).serve_forever()
+    # --commentary serves the richer 28 Jul 2026 fixture used by mastrade_commentary.py
+    commentary = "--commentary" in sys.argv
+    server = HTTPServer(("127.0.0.1", port), Handler)
+    server.commentary = commentary
+    print(f"mock MAStrade API on http://127.0.0.1:{port}"
+          f"{' [commentary fixture]' if commentary else ''}", flush=True)
+    server.serve_forever()

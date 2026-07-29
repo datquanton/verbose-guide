@@ -90,8 +90,10 @@ mastrade-morning-report/
 ├── mastrade_morning_report.spec     # PyInstaller build recipe
 ├── build.ps1                        # Windows build
 ├── build.sh                         # Linux/macOS build
+├── src/mastrade_commentary.py       # Daily_MAS commentary collector
 └── tools/
     ├── mock_mastrade_server.py      # offline API stub for testing
+    ├── probe_mastrade.py            # endpoint/field discovery
     └── render_from_snapshot.py      # rebuild a .docx from a saved snapshot
 ```
 
@@ -155,6 +157,58 @@ python tools/mock_mastrade_server.py 8765 &
 
 The mock encodes the response shape of every endpoint, so it also serves as a written
 record of the API contract.
+
+---
+
+## 2b. The Daily_MAS commentary collector
+
+`src/mastrade_commentary.py` gathers the numbers behind the "VIETNAM STOCK MARKET"
+paragraph and drafts it:
+
+```bash
+python src/mastrade_commentary.py --json out/commentary.json --output out/draft.txt
+```
+
+It collects OHLC with a DoD comparison per leg, market breadth, the top 5 VN30 gainers
+and losers by percent change, and the foreign buy/sell legs rather than just the net.
+
+### Which field names are real
+
+Only some of this is verified. The quote endpoint's short keys (`c`, `ch`, `r`, `vo`, `va`)
+and `TotalForeignBuyVal`/`TotalForeignSellVal` are certain — the shipped binary reads them
+by name. The keys for **open/high/low and market breadth were never confirmed**, because
+the network policy where this was written blocks `mastrade.masvn.com`.
+
+So every lookup goes through `pick()` against a candidate list in `CANDIDATES`, and any
+field that can't be resolved degrades to `None` and drops out of the prose instead of
+crashing. Both paths are tested.
+
+To pin the real names down, run the probe from a machine with API access:
+
+```bash
+python tools/probe_mastrade.py          # writes probe_output/ + SHAPES.txt
+```
+
+`SHAPES.txt` lists every key each endpoint actually returns. Add the real ones to
+`CANDIDATES` — that's the only change needed.
+
+### How VN30 movers are computed
+
+By fetching each of the 30 constituents' quotes and sorting locally. That's 30 requests,
+but it depends only on the one endpoint the binary proves exists, so it works with no
+endpoint discovery at all. If the probe turns up a batch endpoint, swap it into
+`vn30_movers()`.
+
+The basket is hardcoded in `VN30`, taken from Table 1 of `Daily_MAS_20260729.docx`. It is
+rebalanced twice a year — re-check it each January and July, or pass `--vn30 ACB BID ...`.
+
+### Not yet collected
+
+The published commentary says "195 gainers (**122 rising more than 1%**) against 128 losers",
+and compares close-of-session breadth against the morning's. Neither is derivable from the
+endpoints we know about — the first needs a per-stock list for the whole market, not just
+VN30, and the second needs a midday snapshot. Both are straightforward once the probe shows
+whether a full market-watch endpoint exists.
 
 ---
 
