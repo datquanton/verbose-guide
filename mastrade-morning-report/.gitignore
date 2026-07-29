@@ -1,0 +1,8 @@
+.venv/
+build/
+dist/
+*.spec.bak
+__pycache__/
+output/
+data/snapshots/
+e2e/

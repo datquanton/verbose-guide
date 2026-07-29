@@ -1,0 +1,7 @@
+# Runtime dependencies actually imported by src/mastrade_morning_report.py
+requests>=2.32
+python-docx>=1.1        # pulls in lxml
+urllib3>=2.0            # imported directly for disable_warnings()
+
+# Build-time only
+pyinstaller>=6.6

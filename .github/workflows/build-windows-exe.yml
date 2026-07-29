@@ -1,0 +1,60 @@
+name: Build Windows exe
+
+# PyInstaller cannot cross-compile, so the only way to produce a Windows .exe
+# from a Mac/Linux machine is to build it on a Windows runner. This workflow
+# does that and uploads the exe as a downloadable artifact.
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+    paths: ["mastrade-morning-report/**"]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: mastrade-morning-report
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: mastrade-morning-report/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Build
+        run: pyinstaller mastrade_morning_report.spec --clean --noconfirm
+
+      - name: Smoke test
+        run: .\dist\mastrade_morning_report.exe --help
+
+      - name: End-to-end test against the mock API
+        run: |
+          Start-Process -FilePath python -ArgumentList "tools/mock_mastrade_server.py","8765"
+          # wait for the port instead of sleeping a fixed amount
+          $deadline = (Get-Date).AddSeconds(30)
+          do {
+            Start-Sleep -Milliseconds 250
+            $up = Test-NetConnection 127.0.0.1 -Port 8765 -InformationLevel Quiet -WarningAction SilentlyContinue
+          } until ($up -or (Get-Date) -gt $deadline)
+          if (-not $up) { throw "mock server never came up" }
+
+          .\dist\mastrade_morning_report.exe --base-url http://127.0.0.1:8765 --output e2e\report.docx
+          if (-not (Test-Path e2e\report.docx)) { throw "no docx produced" }
+          Write-Host "e2e OK"
+        shell: pwsh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mastrade_morning_report-exe
+          path: mastrade-morning-report/dist/mastrade_morning_report.exe
+          if-no-files-found: error
