@@ -61,6 +61,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **22:53 ICT · VPB — the same defect found an hour ago on TCB, found again here. Three of eight
+  names paid cash in H1; the field records one of them, for the wrong reason.**
+  **Why this sweep went looking.** At 21:53 TCB's corporate action was found recorded as "pending"
+  when it had been paid on 10-Jun. VPB's and MBB's are recorded the same way, so they were checked
+  for the same defect. **VPB had it.**
+  **What was missing.** VPB **also paid cash in H1**: 5% of par, **₫500/share, ~₫4,000bn**, ex-date
+  15-May, record 18-May, **paid 25-May-2026**. On VPB's ₫25,000 price that is a **2.00% yield**. This
+  file records VPB `cash_yield` = 0.000 and **had never mentioned the payment anywhere**.
+  **So the honest statement of the issue changes.** It is no longer "seven blanks are not seven
+  zeros." **Three of the eight are known H1 cash payers** — TCB ₫700 (2.39%), MBB ₫1,000 (4.54%), VPB
+  ₫500 (2.00%) — **and the field records exactly one of them, on a premise shown false an hour ago.**
+  That is not a coverage gap with a neutral direction: it is one name credited and two
+  identically-situated names not, **and all three are banks** — the cluster the engine proposes to
+  trade most.
+  **What each convention would do.** Count the last twelve months: MBB +2.50pp shrunk (moving above
+  HPG), VPB +1.40pp (off the bottom), TCB unchanged. Count only dividends still to come: all three go
+  to zero and **TCB loses 1.92pp**. The two conventions move the bank ranking in opposite directions
+  by several points. **That is why item 3 is a convention decision, not a data-entry task.**
+  **Also pinned, and one label is not yet settled.** The 26% is described by some sources as *cổ
+  phiếu thưởng* (bonus shares) and others as *cổ tức cổ phiếu* (stock dividend) — different
+  instruments for tax and accounting even at an identical ratio — and VPB polled shareholders in July
+  to **convert its capital-increase plan** into the 26% stock dividend, so the structure changed
+  mid-year. ~2.07bn shares at 26.04104%. The placement (624m+ shares, Q3–Q4, charter capital to
+  ₫106,244bn — **the first Vietnamese financial institution above ₫100,000bn**) matches what was
+  already on file.
+  **The lesson: a "pending" flag with no date on it rots silently.** It looks equally valid the day it
+  is written and two months after the event has passed.
+
 - **21:53 ICT · TCB — two dividends paid on the same day, treated two opposite ways, and the
   asymmetry favours the largest position in the book.**
   **The factual correction.** The file and the watch list carry TCB's "7% cash + 60% bonus" as
