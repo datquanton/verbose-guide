@@ -61,6 +61,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **23:53 ICT · CORRECTION to the 21:53 and 22:53 entries — I had MBB's dividend date wrong by a
+  month, and made the wrong date the centre of an argument. Plus the third "pending" flag, checked.**
+  **The error.** The `cash_yield` note on file says *"MBB's 10% cash went ex on 10-Jun-2026."* **Wrong
+  month.** MBB's record date was **10-Jul-2026**, payment from **17-Jul-2026** (₫1,000/share,
+  >₫8,000bn). My 21:53 and 22:53 entries repeated it and built on it — both asserted TCB and MBB paid
+  *"on the same day, 10-Jun"*, and 21:53 made that coincidence the centre of its argument. **The
+  same-day claim is withdrawn. It was never true.**
+  **Worse: the correct date was already in the repo.** The private dashboard's MBB card reads *"10%
+  cash dividend paid 17-Jul"*. One fact, recorded two ways in two places, and the sweep reached for
+  the wrong copy without checking it against the other. **That is the duplication failure the
+  charter's opening paragraph warns about for rules, appearing here in data.**
+  **What survives — the substance, not the framing.** The three cash dividends are **VPB ₫500 paid
+  25-May, TCB ₫700 paid 10-Jun, MBB ₫1,000 paid from 17-Jul.** **All three are in the past.** TCB's
+  `cash_yield` of 0.024 is included on the stated ground that its dividend is *"pending"* — false on
+  any reading. MBB's exclusion as "already past" is factually right even though the note's date for it
+  was wrong. **So the asymmetry is real and unchanged: three past-paid dividends, one credited, all
+  three names banks.** The arithmetic quoted earlier is unaffected, because it used prices and
+  per-share amounts rather than dates: TCB 2.39%, MBB 4.54%, VPB 2.00%.
+  **The framing was wrong; the finding was not.** Recorded rather than quietly edited — a log that
+  silently repairs its own claims cannot be audited.
+
+- **23:53 ICT · MBB — the third "pending" flag, and the only one still partly accurate.**
+  **Done:** the cash leg, above.
+  **Still genuinely pending, no record date announced for either:** a **15% stock dividend** issuing
+  **over 1.2 billion shares** and adding ~₫12,082bn to charter capital; and a **rights issue of 805.5m
+  shares at ₫10,000 on a 10:1 ratio**, raising ~₫8,055bn. Both were on file as "15% stock dividend +
+  10:1 rights at ₫10,000" and both check out exactly — the first flag of the three to survive its own
+  verification.
+  **One number is worth pausing on.** The rights price of ₫10,000 is roughly **45% of the ₫22,050
+  market price** on file. That is a deeply discounted offer, and **dilutive to any holder who does not
+  take it up** — a cash decision, on a date nobody has announced, on the name the engine wants to take
+  from 6.5% to 12.0%. Flagged, not modelled.
+
 - **22:53 ICT · VPB — the same defect found an hour ago on TCB, found again here. Three of eight
   names paid cash in H1; the field records one of them, for the wrong reason.**
   **Why this sweep went looking.** At 21:53 TCB's corporate action was found recorded as "pending"
