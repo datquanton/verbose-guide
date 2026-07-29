@@ -61,6 +61,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-29
 
+- **14:53 ICT · MBB — the credit trajectory is pinned, and it settles yesterday's period question by
+  arithmetic. But the 2026 target has reopened, with the Chairman on the record at a different number.**
+  **The anchor.** Two independent sources give MBB Q1/2026 credit outstanding of **over ₫1.14 million tỷ
+  (₫1,140,000bn), +3.3% on end-2025**, deposits ~₫1.07 million tỷ, **NPL 1.42%**. Evidence tier **T5**
+  (press reporting a filed Q1 statement).
+  **Why that resolves the ambiguity.** The open question was whether MBB's "10%" credit figure was
+  end-May YTD or a Q2 quarterly increment. **It cannot be the increment:** Q1 YTD was 3.3%, so another
+  +10% within the quarter puts YTD near 13.3%, contradicting the same source's body text of 10% YTD as
+  of May. **The 10% is cumulative YTD at end-May.** So the shape is +3.3% through March and **+6.7pp
+  across April and May alone** — credit is accelerating sharply, and end-June is likely above 10%.
+  **So what.** The note on file said H2 must add +18.2% to +22.7%, "the same shape as VPB's problem."
+  On this trajectory the H1 base is higher and the H2 requirement lower, so **MBB's version is milder
+  than VPB's, not the same shape.** That matters because MBB is the joint-largest proposed add.
+  **But item 16 reopens.** A source this sweep attributes **25%** directly to **Chairman Lưu Trung
+  Thái** — that MB grew credit 35% in 2025 and targets 25% in 2026. That is a named person on the
+  record, which is stronger evidence than the unattributed 30–35% this file currently prefers, though
+  it is dated January and may predate an AGM-approved figure. Both readings survive: 25% could be the
+  internal plan and 30–35% the SBV quota allowance. **The "mostly resolved" status is withdrawn.**
+  **Confidence held at 0.55** — this is T5 press about a Q1 filing, and charter §2 permits a rise only
+  on T1–T2 primary documents. The H1 statement is due tomorrow.
+
+- **14:53 ICT · STEEL (lane 5) — both cost blades easing, which is the one thing that would relieve
+  HPG's H2 spread squeeze. And the benchmark trap fired again.**
+  **Coking coal US$241.00/t**, −0.9% w/w, −2.2% m/m. That **confirms yesterday's correction**: coal is
+  drifting slightly down from a June average near 244, not collapsing 24% as the withdrawn 27-Jul note
+  claimed. **Iron ore US$98.25/t**, −2.1% w/w and **−5.3% m/m** — at the low end of the 97.70–103 range
+  this file has been carrying, and falling.
+  **So what.** Every HPG branch including bear assumes steel prices recover; none describes prices
+  staying put. The spot case was written down as ₫0.60–0.68m/t on 28-Jul with a caveat that firmer iron
+  ore would push it to ₫0.49–0.62m. **Ore went the other way**, so the spot case sits at the upper end
+  of that range rather than the lower. **No branch, probability or weight changed** — this is T5 and
+  charter §2 forbids moving `probs` or `exit_pe` on T4–T6 evidence. Recorded because H2 spread is the
+  live variable on 16.8% of the book.
+  **The trap worked.** A search result this sweep quoted "HRC US$1,169.08/t". That is the **US Midwest**
+  benchmark, not the ~US$539 Asian price the bridge uses, and substituting it would roughly double the
+  revenue blade. It was caught by `_HRC_BENCHMARK_TRAP_2026_07_28`, written for exactly this. **Second
+  time that figure has surfaced in two days** — the guard is earning its place.
+
 - **14:20 ICT · KDH — the ₫348bn forecast is VCBS, now confirmed. The low case has a name too.
   Neither number changed; both labels did, one day before the print settles them.**
   This morning's note recorded ₫348bn as belonging to "a THIRD house, possibly VCBS — not confirmed."
