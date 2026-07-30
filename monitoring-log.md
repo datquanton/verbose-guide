@@ -61,6 +61,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **CORRECTION · 18:53 ICT · KDH — my rejection of the ₫770bn an hour ago was too strong, and the
+  error has the same shape as this morning's.**
+  At 17:53 I called the reported Q2 net profit of ~₫770bn *"internally impossible"* and rejected it.
+  **That was overstated.** It is irreconcilable with H1 net profit of ₫321bn **on a single measure
+  basis** — but the two may simply be on **different bases**, and I did not eliminate that.
+  **The reconciling reading I cannot rule out:** *lợi nhuận sau thuế* (total NPAT, including
+  minorities) of ~₫770bn in Q2, against *lãi ròng* (NPAT to parent) of ₫321bn for H1. **KDH fully
+  consolidates JVs it does not wholly own** — the file records a 51% Gladia stake — so minorities are
+  material. Q1 parent ~₫327bn and H1 parent ₫321bn gives **Q2 parent ≈ −₫6bn**, which is *consistent*
+  with a Q2 total of +₫770bn if ~₫776bn accrued to minorities. Large and unusual, but a
+  deconsolidation can produce exactly that shape.
+  **So the honest status is: either one figure is wrong, or they are different measures.** Not
+  resolved. What I should have written is that they do not reconcile on one basis — not that one is
+  impossible.
+  **Same error shape as this morning's `q1_revenue` mistake, twelve hours apart.** There I forced two
+  numbers to be the *same* thing; here I forced them to be *incompatible*. **Both are the same failure
+  to hold open "these may be different quantities."**
+  **What is new and not in doubt, and it strengthens the thesis rather than weakening it: the profit
+  is one-off driven, not operational.** Press covering the filing states most of H1 profit came from
+  **one-time income rather than from selling and handing over property**. The Q2 item named is the
+  disposal of a **2% interest in Bình Trưng Mới Real Estate on 23-Jun-2026 for over ₫68bn**; Q1's was
+  the ₫285bn An Lập bargain gain. **Two consecutive quarters where the headline profit comes from
+  transactions rather than from the business, while revenue fell 75% across the half.** Note ₫68bn
+  cannot by itself explain a ₫770bn swing — a further reason that figure needs the statement.
+
+- **18:53 ICT · MBB — the ₫9,500bn vs ₫9,628bn gap is a status difference, not an error.**
+  At MB's AGM on 18-Apr the CEO gave group Q1 PBT as **₫9,500bn (+13.3%)** and **parent bank alone as
+  ₫8,866bn (+15.3%)**. The ₫9,628bn (+14.8%) on file is the **filed** consolidated statement. So
+  ₫9,500bn was a preliminary quoted at an April meeting — charter §3's status check — **and the file
+  already holds the right one.**
+  **New and useful: the parent/consolidated split.** Parent ₫8,866bn against consolidated ₫9,628bn
+  means **subsidiaries contribute ~₫762bn, about 8% of group PBT.** That sizes the non-bank ring —
+  MBS, MB Ageas, MBV — and **bounds how much of any H1 beat or miss can come from outside the bank**,
+  which is worth having before tonight's print.
+
 - **ESCALATION (trigger 4) · 17:53 ICT · KDH Q2/2026 FILED — revenue down 85%, Q2 profit roughly
   zero, every street estimate too high. And the engine tried to reward it for that.**
   **The numbers.** Q2 revenue **₫161bn, −85%** on ₫1,047bn. H1 revenue **₫442bn, −75%**. H1 net profit
