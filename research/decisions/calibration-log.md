@@ -59,7 +59,7 @@ that is what makes them worth scoring.**
 | 7 | 2026-07-24 | TCX | FTSE Sep-21 event EV ≈ +6.2%; base case "in-line, quiet digestion" p=0.45 | conf 0.80 | ~Oct 21 (1m after) | ⏳ open |
 | 8 | 2026-07-24 | VPX | CAEX licence granted ~Q3 at p=0.40 | conf 0.70 | Q3/26 end | ⏳ open |
 | 9 | 2026-07-24 | VCI | 9M PBT reaches ≥55% of FY target (the kill-criterion threshold) | conf 0.65 | Q3 FS (~Oct) | ⏳ open |
-| 10 | 2026-07-23 | HPG | US rebar AD/CVD final ≈ headline risk only, <3% of revenue, no thesis change | conf 0.75 | ~Jul 28 Federal Register | ⏳ open |
+| 10 | 2026-07-23 | HPG | US rebar AD/CVD final ≈ headline risk only, <3% of revenue, no thesis change | conf 0.75 | ~Jul 28 Federal Register | ✅ **HIT — scored 30-Jul, see below** |
 
 ### Annotations on open forecasts
 
@@ -209,6 +209,28 @@ units.** H1 operating cash flow ≈ **−₫2,580bn**, borrowings **+₫6,500bn*
 **Process note recorded regardless of outcome, as the rule required:** writing down the consensus
 span and calling it a forecast was a process failure. It has now also proved an expensive one — the
 span was wide enough to feel safe and still missed.
+
+### #10 · US rebar final — **HIT**, and right for the stated reason. First hit of three scored.
+
+**Resolved 2026-07-30.** Federal Register **2026-15438** (AD) and **2026-15437** (CVD), both applicable
+30-Jul. **Final dumping margins for Vietnam 128.53%–136.57%**, cash deposit rates **123.49%–131.53%**
+after an export-subsidy offset. Preliminary was 121.97%–130.77%.
+
+**The rate went the "wrong" way and the forecast still holds — which is the right outcome for the
+right reason.** The forecast did not predict the rate; it predicted the *impact*: "headline risk only,
+<3% of revenue, no thesis change." Duties near 122% have been collected since March under the
+extension HPG itself requested, so **HPG already traded a full quarter under them — and that quarter
+printed revenue +53% and NPAT +51%.** Moving a prohibitive duty from ~122% to ~129% changes nothing
+commercially. The trade was already uneconomic; the earnings effect is already in the run-rate.
+
+**Not over-credited.** Two caveats are recorded rather than glossed. First, **the finals came in ~6.6pp
+higher at both ends**, so anyone reading the forecast as "the rate will be mild" would have been
+wrong — it was the *impact* claim that carried it. Second, **which end applies to Hoa Phat is not
+confirmed**: the preliminary structure put the mandatory respondent at the lower rate, so 128.53% is
+the likely figure, but that is inference from structure, not a reading of the table.
+`federalregister.gov` 403s from this environment, so the rates are T5 trade press on a T1 document.
+
+**Scored 1 hit, 2 misses across three resolved forecasts.**
 
 ## Resolution rules, pre-registered 2026-07-29 03:53 — before the numbers land
 

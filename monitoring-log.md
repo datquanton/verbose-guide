@@ -10,7 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. **KDH FILED 30-Jul — Q2 revenue −85%, Q2 profit ~zero.** MBB still unfiled at 17:53 on its deadline day | 3 |
-| US rebar AD/CVD final determination | **ISSUED 29-Jul-2026** — event resolved, **rates not yet obtainable**. Structure: AD prelim HPG 121.97% / all-others 130.77%; CVD prelim 1.08%. Watch for the final rate, not the headline | 2 |
+| ~~US rebar AD/CVD final determination~~ **RESOLVED 30-Jul.** FR 2026-15438 (AD) + 2026-15437 (CVD). Final margins 128.53–136.57%, cash deposits 123.49–131.53%. Forecast #10 scored HIT | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -60,6 +60,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-30
+
+- **19:53 ICT · HPG (lane 2) — the rebar finals are PUBLISHED, the rates came in HIGHER, and forecast
+  #10 scores a HIT anyway. First hit of three.**
+  **Federal Register 2026-15438 (AD) and 2026-15437 (CVD)**, both **applicable 30-Jul-2026**. Period
+  of investigation 01-Oct-2024 to 31-Mar-2025. **T1** for existence and dates.
+  **The rates — T5, because `federalregister.gov` 403s from here and the documents could not be read.**
+  **Final dumping margins for Vietnam 128.53%–136.57%**, with **cash deposit rates 123.49%–131.53%**
+  after an export-subsidy offset. Preliminary was 121.97% (Hoa Phat) to 130.77% (all others). **So the
+  finals are ~6.6pp higher at both ends.**
+  **Which end is Hoa Phat is NOT confirmed and I am not asserting it.** The preliminary structure put
+  the mandatory respondent at the lower rate, so 128.53% is the likely figure — but that is inference
+  from structure, not a reading of the table. The warning I wrote on 29-Jul about four numbers
+  circulating for one case applies to **my own inference** as much as to the press.
+  **A mechanic worth recording:** the cash deposit rate sits ~5pp *below* the margin because of the
+  export-subsidy offset between the AD and CVD cases. **The deposit is what importers actually post**,
+  so it is the operative number for trade economics, not the headline margin.
+  **What it does to the thesis: nothing, and that is the point.** Duties near 122% have been collected
+  since March under the extension HPG itself requested. **HPG already traded a full quarter under them
+  — and that quarter printed revenue +53% and NPAT +51%.** Moving a prohibitive duty from ~122% to
+  ~129% changes nothing commercially. No branch, probability, weight or confidence changed.
+  **Forecast #10 scored a HIT** — right for the *stated* reason ("headline risk only, <3% of revenue").
+  **Not over-credited:** the rate went the wrong way, so anyone reading the forecast as "the rate will
+  be mild" would have been wrong. It was the *impact* claim that carried it. **Running score: 1 hit,
+  2 misses.**
 
 - **CORRECTION · 18:53 ICT · KDH — my rejection of the ₫770bn an hour ago was too strong, and the
   error has the same shape as this morning's.**
