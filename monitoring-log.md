@@ -61,6 +61,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **12:53 ICT · HPG (lane 5) — HPG is RAISING domestic rebar prices, and it qualifies what I wrote
+  yesterday. The revenue blade is splitting in two directions at once.**
+  **The fact.** Hoa Phat Hung Yen raised high-grade rebar (CB400V, CB500V, B500B, Gr60) by
+  **₫100/kg ex-VAT in the North from 27-Jul** — reported as the **fifth price adjustment of 2026**,
+  with several large mills raising from late July. Stated reason: input costs — iron ore, coking coal
+  **and scrap** — staying high or trending up. **T5.**
+  **What it qualifies.** My 29-Jul 14:53 entry read ore −5.3% m/m and coal −2.2% m/m as *"both cost
+  blades easing, which is the one thing that would relieve HPG's H2 spread squeeze."* The Vietnamese
+  trade view is the opposite — inputs anchored high or rising, which is *why* mills are raising
+  prices. Both can be literally true (down slightly month-on-month, still high in level), but my
+  framing was one-sided. **The decisive evidence is behavioural: mills raising prices five times in
+  seven months is not what an industry does when its input costs are easing.**
+  **Scrap is a third input this file has never tracked.** The spread bridge models ore and coking coal
+  only; Vietnamese sources name scrap alongside them.
+  **The part that matters most, and the bridge cannot see it.** Domestic **HRC prices were reported
+  falling on 13-Jul under import competition**, while **rebar prices are being raised**. HRC down,
+  rebar up, simultaneously. `hpg-spread-bridge.md` §5 already lists this as its first honest limit —
+  *"Product mix is ignored — HPG sells rebar as well as HRC, with different economics"* — and that
+  limit is now **binding rather than theoretical**. A bridge calibrated on a single HRC blade cannot
+  represent a quarter where the two products move in opposite directions.
+  **Nothing changed** — T5 evidence may not move `probs` or `exit_pe` under charter §2. Logged because
+  H2 spread is the live variable on 16.8% of the book, and **the direction of the revenue blade is now
+  genuinely ambiguous rather than simply negative.** Corroborating levels, both consistent with the
+  file: domestic HRC ₫14,000–14,350/kg; iron ore ~$98.02/dmtu on 08-Jul against the $98.25 logged
+  yesterday.
+
 - **CORRECTION · 10:53 ICT · KDH — `q1_revenue` = ₫281.4bn was right all along. I spent three sweeps
   building a confident case that it was wrong, and every "independent route" was the same route.**
   **What the source says, with the matching decimal:** KDH recorded **net revenue (*doanh thu thuần*)
