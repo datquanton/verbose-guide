@@ -10,7 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. KDH filed 30-Jul (Q2 revenue −85%). **MBB DID NOT SURFACE on its 30-Jul deadline day, across 16 sweeps.** Not a verified breach — press absence, not exchange absence | 3 |
-| ~~US rebar AD/CVD final determination~~ **RESOLVED 30-Jul.** FR 2026-15438 (AD) + 2026-15437 (CVD). Final margins 128.53–136.57%, cash deposits 123.49–131.53%. Forecast #10 scored HIT | 2 |
+| US rebar — **Commerce finals done 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; margins 128.53–136.57%). **THE CASE IS NOT OVER: ITC final injury vote due ~mid-Sep**, within 45 days. Orders issue only on an affirmative vote | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -58,6 +58,28 @@ A quiet sweep writes nothing here — but it is **not** a finished sweep. It adv
 item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
+
+## 2026-07-31
+
+- **01:54 ICT · HPG (lane 2) — CORRECTION: I marked the rebar case "resolved" yesterday. Commerce's
+  part is resolved; the case is not, and what remains is asymmetric to the upside.**
+  **What remains:** the **US International Trade Commission must make its final injury determination
+  within 45 days** of Commerce's finals — a vote around **mid-September 2026**. **Orders issue only on
+  an affirmative ITC vote.** If the ITC finds no material injury, **no duties are imposed at all and
+  cash deposits collected under the provisional measures are refunded.**
+  **Why that is worth recording rather than filing away.** **The remaining uncertainty on rebar is now
+  asymmetric to the upside, and nothing in this file models it.** The downside — duties at ~129% — is
+  *already inside the reported run-rate*, because provisional duties near 122% have been collected
+  since March and HPG's Q2 printed revenue +53% and NPAT +51% under them. The upside — an ITC
+  negative, orders never issuing, deposits refunded — **is not in any branch.** ITC negatives in steel
+  cases are uncommon but not unheard of, and the petition covers four countries, so a split outcome by
+  country is possible.
+  **Not adding a branch or moving a probability** — both are human-only under charter §2. Recorded as
+  a **dated catalyst that belongs on the calendar**, which is charter §1 test 3, and the date-gate row
+  is corrected from "resolved" to "Commerce done, ITC pending."
+  **Forecast #10's score is unaffected.** It named the Commerce final explicitly ("~Jul 28 Federal
+  Register") and that is what resolved it. The ITC vote is a separate event and does not reopen a
+  scored forecast.
 
 ## 2026-07-30
 
