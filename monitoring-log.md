@@ -61,6 +61,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **CORRECTION · 10:53 ICT · KDH — `q1_revenue` = ₫281.4bn was right all along. I spent three sweeps
+  building a confident case that it was wrong, and every "independent route" was the same route.**
+  **What the source says, with the matching decimal:** KDH recorded **net revenue (*doanh thu thuần*)
+  of ~₫281.4bn in Q1/2026, down 60.4% YoY**, while **after-tax profit rose to more than ₫327bn, up
+  ~175.5%**. Revenue is ₫281.4bn, profit is ₫327bn. **This file had the right number in the right
+  field the whole time.**
+  **How I got it wrong.** Across 28–29 July I escalated from "suspected" to "three routes now agree."
+  All three trace back to the same ambiguous press phrasing:
+  1. **Arithmetic** — ₫355.7bn × 0.79 = ₫281.0bn. That is **not** ₫281.4bn. I treated a near-match as
+     a match; the exact decimal in a source calling it *doanh thu thuần* settles it the other way.
+  2. **The growth rate** — I argued "+131% attaches to 281 wherever it appears." The rate attaching to
+     Q1 **profit** is **+175.5%**, on a base of ₫327bn. Different rate, different number.
+  3. **The "declining revenue" clause**, which I called decisive on 29-Jul. The source said revenue
+     declined and mentioned 281 in the same breath. **Revenue declined *to* ₫281.4bn.** I read it as
+     "revenue declined, and separately profit was 281." **It meant the opposite of what I took it to
+     mean.**
+  **The counter-argument on file was right and I dismissed it.** The original note said 6 units at
+  ₫42–44bn implies revenue of ₫252–264bn, "close enough that a genuine revenue figure is not
+  impossible." That reconciles well. **I let three weak confirmations override one sound check.**
+  **The lesson, and it is not the usual period/entity/measure one:** *three routes that all trace to
+  the same ambiguous source phrasing are one route counted three times.* Independence must be
+  checked, not assumed — **the count of confirmations is not the strength of the evidence.**
+  **What it restores, today of all days.** The 28-Jul note claimed the pre-registered Q2 read had lost
+  its second verification route because "we do not have a revenue figure at all." **We do.**
+  `dossiers/KDH.md` §3 instructs checking the Q2 units count from *both* the Gladia inventory movement
+  *and* the revenue line — **both are live for today's print.**
+  **Also added:** `q1_npat` ₫327bn, never previously recorded. Note PBT ₫355.7bn against NPAT ₫327bn
+  implies ₫28.7bn tax, an **8.1% effective rate** — low, consistent with a largely non-taxable
+  bargain-purchase gain, but not exactly reproducible. Flagged. **`OPEN-DECISIONS` item 14 is
+  answered: the field is revenue, no change needed.**
+
+- **10:53 ICT · KDH (lane 7) — VinaCapital has been selling down through the 7% threshold. Never
+  logged here, and it points the opposite way to the insider buy.**
+  VinaCapital's fund group has fallen **through 7% to 6.9621%**, ~78.1m shares. Steps found: a
+  registered block of **7.5m** shares sold; a separate fund selling **~9.3m**; and on **29-Apr-2026**
+  VOF Investment Limited selling 500,000 while VinaCapital Market Access Equity Investment Fund sold
+  400,000, cutting the latter to ~531,000 shares (0.0473%). Nine other member funds hold >76.4m
+  between them. **T5**, press on disclosure filings. Dates run April–May, so this is **three months
+  stale** — the third dated, findable disclosure this week found sitting unrecorded.
+  **The contrast is the point.** A long-standing institutional holder sold KDH down through a
+  disclosure threshold across April and May. In July, the **Vice Chairman's son registered to take
+  1.838%**. **Institution out, family in, on the same stock within three months.** Neither leg is
+  adverse alone and both have ordinary explanations — redemptions on one side, conviction on the
+  other. Logged because KDH is 20.3% of the book and its bull branch is already assessed as
+  arithmetically out of reach. **Not a thesis change; no probability moves.**
+
 - **03:53 ICT · HPG (lane 2) — the rebar final HAS issued. The event resolved; the numbers have not.
   And four different rates are now circulating for one case, only one of which is ours.**
   **Confirmed:** Commerce **issued the final determinations on 29-Jul-2026** covering rebar from
