@@ -9,7 +9,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | **DEADLINE 2026-07-30 — that is TODAY.** HPG filed 29-Jul. KDH and MBB unfiled as of 01:53; they disclose today or breach | 3 |
+| HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. **KDH FILED 30-Jul — Q2 revenue −85%, Q2 profit ~zero.** MBB still unfiled at 17:53 on its deadline day | 3 |
 | US rebar AD/CVD final determination | **ISSUED 29-Jul-2026** — event resolved, **rates not yet obtainable**. Structure: AD prelim HPG 121.97% / all-others 130.77%; CVD prelim 1.08%. Watch for the final rate, not the headline | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -60,6 +60,57 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-30
+
+- **ESCALATION (trigger 4) · 17:53 ICT · KDH Q2/2026 FILED — revenue down 85%, Q2 profit roughly
+  zero, every street estimate too high. And the engine tried to reward it for that.**
+  **The numbers.** Q2 revenue **₫161bn, −85%** on ₫1,047bn. H1 revenue **₫442bn, −75%**. H1 net profit
+  **₫321bn, −6%**. Financial costs **×3**, selling expenses **×2.9**, on payment discounts and
+  customer-support costs. Inventory **>₫23,000bn**. Total assets ₫39,471bn (+16%). Borrowings
+  **+₫6,500bn** in six months to ~₫16,500bn of bank debt. **D/E above 71%. H1 operating cash flow
+  ≈ −₫2,580bn.**
+  **Two cross-checks pass, and one closes this morning's correction.** H1 ₫442bn − Q1 ₫281.4bn =
+  **₫160.6bn**, against the stated Q2 revenue of ~₫161bn — derived and stated agree, **and that
+  confirms `q1_revenue` = ₫281.4bn is revenue from the filed half-year statement**, a genuinely
+  independent route. Second: H1 profit ₫321bn against Q1 ~₫327bn implies **Q2 profit of about
+  −₫6bn — roughly zero.** Flagged rather than asserted to the decimal, because the Q1 figure
+  circulates on two bases.
+  **One figure rejected as impossible.** A summary claimed "net profit in the quarter reached
+  approximately ₫770bn, up 293%." **Q2 cannot exceed H1** — ₫770bn against H1 of ₫321bn needs Q1 of
+  −₫449bn, and Q1 was positive everywhere. Not used.
+  **Against the forecasts:** NHSV ₫102bn, MBS ₫170bn, SSI ₫330bn, VCBS ₫348bn on revenue ₫1,123bn.
+  **Actual revenue ₫161bn — VCBS was seven times too high.** The 3.4× dispersion logged on 29-Jul
+  understated the problem: **the whole range sat above the outcome.**
+  **THE ENGINE TRIED TO REWARD THE MISS, AND THAT IS ITS OWN FINDING.** The routine says an estimate
+  becoming a filed actual should raise confidence. Applied mechanically, 0.50 → 0.60 pushed KDH's
+  expected return **up** from +8.1% to +9.7% and moved it from 5th to 4th — **rewarded for a print
+  that missed every estimate.** Confidence *multiplies* `fy26e_npat`, and the rule assumes branches
+  are re-derived at the same time. **They cannot be — that is human-only under charter §2.** So
+  raising confidence alone amplifies branches this very print contradicted.
+  **The root cause: one field carries two meanings.** Confidence in the *trailing* data genuinely
+  rose; confidence in the *forward branches* genuinely fell. A single scalar cannot move both ways,
+  and when forced, **it should not move in the direction that flatters.** **Confidence held at 0.50**
+  and escalated instead — charter §5 says evidence contradicting a *thesis* gets escalated, not
+  quietly retuned, and raising confidence here would have been the quiet retune. Recorded as a
+  deliberate deviation so a human can overrule it.
+  **What a human must now decide.** `scenarios_units_handed_fy26` is bear 80 / base 130 / bull 185.
+  **~10 units were handed in H1.** The bear branch needs ~70 more in H2 — **seven times the
+  first-half pace.** The bull branch at 185 is no longer merely infeasible from the sold book; it is
+  contradicted by the run-rate. Re-weighting is reserved for a person.
+  **One cross-holding fact never recorded here:** **Military Bank — MBB, 6.5% of the book and the
+  engine's joint-largest proposed add — is one of the three largest lenders to KDH**, alongside OCB
+  and VietBank. KDH is 20.3% of the book and has just reported ₫2,580bn of negative operating cash
+  flow with debt up ₫6,500bn. That linkage between two holdings was not on file.
+
+- **17:53 ICT · CALIBRATION — forecast #1 scored a MISS, and by five times on the part that was
+  actually falsifiable.** The pre-registered rule had already declared the ₫170–348bn range
+  unfalsifiable and barred it from scoring as a hit. It does not — but **even a range spanning the
+  entire published consensus was missed, on the low side.** The falsifiable part was the units read:
+  ₫170bn ⇒ ~19 units. **Actual ₫161bn of revenue is ~3.7 units — five times too high at its most
+  conservative point.** Right in direction, badly wrong in calibration: the dossier's
+  bull-infeasibility work correctly said handovers could not reach the bull case, but **every branch
+  including bear sits far above the outcome.** The tree was calibrated off Q1's six units and a sold
+  book, never off the possibility that handovers would simply stop. **Second scored forecast, second
+  miss.**
 
 - **15:54 ICT · KDH — a Vietcap backlog figure bounds the bull branch harder than the sold-book
   argument does, and it arrives from a different direction.**

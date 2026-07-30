@@ -50,7 +50,7 @@ that is what makes them worth scoring.**
 
 | # | Date | Ticker | Forecast | Prob / confidence | Resolves | Status |
 |---|---|---|---|---|---|---|
-| 1 | 2026-07-24 | KDH | Q2/26 parent NPAT between MBS ₫170bn and SSI ₫348bn; base case FY26 NPAT ₫1,590bn | conf 0.50 | Q2 FS (~Jul 28–30) | ⏳ open |
+| 1 | 2026-07-24 | KDH | Q2/26 parent NPAT between MBS ₫170bn and SSI ₫348bn; base case FY26 NPAT ₫1,590bn | conf 0.50 | Q2 FS (~Jul 28–30) | ❌ **MISS — scored 30-Jul, see below** |
 | 2 | 2026-07-26 | HPG | Q2 core NPAT/tonne **below** ₫1.60m as the Formosa/iron-ore spread squeeze bites | bear p=0.45 | Q2 FS | ❌ **MISS — scored 29-Jul, see below** |
 | 3 | 2026-07-24 | HPG | FY26 core NPAT (ex Pho Noi gain) ₫23.3tn base case | conf 0.60 | FY26 audited | ⏳ open |
 | 4 | 2026-07-24 | MBB | Q2/26 NPAT ≈ ₫7,052bn (VCBS est.); FY26 base ₫30.5tn | conf 0.55 | Q2 FS (~Jul 28–30) | ⏳ open |
@@ -178,6 +178,37 @@ reality. Treat the first scoring round as the moment this system starts being wo
 something.
 
 ---
+
+### #1 · KDH Q2/2026 — **MISS**, and by a factor of five on the part that was falsifiable
+
+**Resolved 2026-07-30.** Q2 revenue **₫161bn (−85% YoY)**; H1 revenue ₫442bn (−75%); H1 net profit
+**₫321bn (−6%)** against Q1 of ~₫327bn, so **Q2 profit was approximately zero**.
+
+**Scored against the pre-registered rule, not the range.** That rule already declared the stated
+range (₫170–348bn) close to unfalsifiable and said it must not score as a hit. It does not — but it
+is worth recording that **even a range spanning the entire published consensus was missed, on the
+low side.** Every house was too high; VCBS's ₫1,123bn revenue forecast was **seven times** the ₫161bn
+outcome.
+
+**The falsifiable part was the units read**, which mapped ₫170bn ⇒ ~19 units, ₫259bn ⇒ ~27,
+₫348bn ⇒ ~35. **Actual: ₫161bn of revenue at ₫42–44bn ASP is ~3.7–3.8 units.** The mapping was
+**five times too high at its most conservative point.**
+
+**Right in direction, badly wrong in calibration — and that is the finding.** The dossier's
+bull-infeasibility work was pointing the right way: it said handovers could not reach the bull case,
+and handovers indeed collapsed. But *every* branch, including bear at 80 units for the year, is now
+far above the run-rate — roughly **10 units handed in H1 against a bear branch needing 80**. Being
+directionally right while the entire scenario tree sits above the outcome is not a success. **The
+tree was calibrated off Q1's six units and a sold book, and never off the possibility that handovers
+would simply stop.**
+
+**What actually happened, per the filing:** financial costs ×3 and selling expenses ×2.9, on payment
+discounts and customer-support costs. **The company was discounting hard and still not handing over
+units.** H1 operating cash flow ≈ **−₫2,580bn**, borrowings **+₫6,500bn**, inventory **>₫23,000bn**.
+
+**Process note recorded regardless of outcome, as the rule required:** writing down the consensus
+span and calling it a forecast was a process failure. It has now also proved an expensive one — the
+span was wide enough to feel safe and still missed.
 
 ## Resolution rules, pre-registered 2026-07-29 03:53 — before the numbers land
 
