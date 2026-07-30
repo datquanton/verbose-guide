@@ -96,6 +96,13 @@ have now actually printed are running the other way: **ACB −12.06%** and **VIB
 Saigonbank at a loss. The mechanism in ACB's numbers is specific and testable — **net interest
 income +16.5%, profit −12%, the whole gap being provisions.** Sector provisioning is forecast +19%.
 
+**Strengthened 2026-07-30 09:53, still before the print.** The peer evidence was ACB and VIB. It is
+now MBB itself: press covering MBB's **Q1/2026** result describes pre-tax profit above ₫9,600bn
+**"with a sharp increase in risk provisioning"** (*tăng mạnh trích lập dự phòng rủi ro*). So the
+provisioning build was already underway at MBB a quarter before ACB's Q2 print made it a sector
+story. That moves the read from "peers suggest" to "MBB was already doing this", and it makes the
+mechanism harder to explain away if the number comes in soft.
+
 **So the registered read is: if MBB misses, expect it to miss on credit cost with net interest
 income intact, not on revenue.** Recording it now rather than after the print is the whole point —
 a mechanism identified afterwards is a story, identified beforehand it is a test. If MBB instead
