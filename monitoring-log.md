@@ -61,6 +61,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **13:53 ICT · TCX (lane 4) — the VN30 catalyst finally has a value, and it is a rounding error.**
+  HOSE confirmed **MCH and TCX enter VN30 replacing TPB and PLX, effective 03-Aug**. Index funds are
+  forecast to buy **~1.35m TCX shares worth ~₫60bn** (BSC) or 1.3m worth ₫59bn (ACBS). Total NAV
+  tracking VN30 is **₫9,464bn** across four ETFs.
+  **Sized against what it is buying:** TCX's implied market cap here is 20.3 × ₫4,050bn = **₫82,215bn**.
+  So the entire ETF demand is **0.073% of market cap** — seven hundredths of one percent — and 0.63%
+  of the tracking NAV. For scale, HOSE turnover on 29-Jul alone was ₫14,005bn.
+  **Both of TCX's "events" have now been sized, and both are smaller than the framing.** The FTSE tree
+  was found on 28-Jul to price a phased-to-2027 inclusion as one discrete day *and* to be unwired from
+  `decide.py` entirely. The VN30 entry is 0.073% of market cap.
+  **This does not damage the TCX case.** TCX ranks first on expected return at +18.5%, and that comes
+  from earnings and multiple, not from either event — the dashboard already called them "a kicker, not
+  a thesis." **This removes a decoration, not a foundation.** But an engine proposing +5.5pp on a name
+  should not be carrying two catalysts whose combined measurable flow is a rounding error.
+  **Third independent confirmation:** the removals are **TPB and PLX** — TPB facing ~5m shares of ETF
+  selling, PLX ~961,000. That closes out the "TPB (VPBank – VPB)" conflation flagged earlier.
+
+- **13:53 ICT · TRAP AVOIDED — "MBB raises full-year margin outlook after Q2 earnings jump" is a
+  GERMAN company, and logging it would have inverted my own pre-registered test.**
+  The item is **MBB SE, an investment holding company listed on Xetra**: adjusted EBITDA +62% to
+  **€75.2m**, margin +8.7pp to 25.1%, FY guidance raised to an 18–20% EBITDA margin, driven by
+  Friedrich Vorwerk, DTS, Delignit and Hanke. Nothing to do with Ngân hàng Quân đội.
+  **Why this one was worse than the usual near-miss.** It would not merely have produced a wrong
+  number — **it would have inverted a pre-registered test.** The calibration log carries a read
+  registered 29-Jul 19:53 and strengthened this morning: *"if MBB misses, expect it to miss on credit
+  cost with net interest income intact."* Logging *"MBB Q2 profit surges 62%, raises guidance"* records
+  the exact opposite, hours before the real statement resolves it.
+  **And the bias ran the right way for once, which is the point.** This item **contradicted** my
+  registered position, so the convenient move was to dismiss it unexamined. I searched it instead.
+  The 28-Jul lesson says verify harder when a claim *confirms* an existing finding; **the mirror is
+  now recorded — verify when it contradicts too**, because dismissing inconvenient evidence without
+  checking is the same failure wearing the opposite sign.
+  **The string "MBB" pulls at least three entities:** MB Bank (HOSE, ours), MB Securities/MBS (same
+  Vietnamese group, four false hits this cycle), and MBB SE (Xetra). "mBank", a Polish bank, appeared
+  in the same result set. **Any "MBB" headline now gets an exchange check before a period check.**
+
 - **12:53 ICT · HPG (lane 5) — HPG is RAISING domestic rebar prices, and it qualifies what I wrote
   yesterday. The revenue blade is splitting in two directions at once.**
   **The fact.** Hoa Phat Hung Yen raised high-grade rebar (CB400V, CB500V, B500B, Gr60) by
