@@ -69,8 +69,8 @@ Nhìn chung, đây là câu chuyện tăng trưởng có chính sách hỗ trợ
 1. **Bìa** — Ngân hàng VPBank (HOSE: VPB), "Lãi kỷ lục, chờ câu chuyện tăng vốn", MUA / giá mục tiêu 33,800 (+37.4%)
 2. **Điểm nhấn** — KQKD 1H26 · Tăng vốn & room ngoại · Định giá & rủi ro
 3. **Biểu đồ 1** — LNTT hợp nhất theo quý, 1Q25–2Q26
-4. **Biểu đồ 2** — Nợ xấu hợp nhất theo quý (nhóm 3–5), Q1/24–Q2/26
-5. **Biểu đồ 3** — Tăng trưởng cho vay khách hàng %YoY, Q1/24–Q2/26
+4. **Biểu đồ 2** — Nợ xấu hợp nhất theo quý (nhóm 3–5), Q1/23–Q2/26 (có đỉnh 6.71% Q2/23)
+5. **Biểu đồ 3** — Tăng trưởng cho vay khách hàng %YoY, Q1/23–Q2/26
 6. **Phụ lục** — tuyên bố miễn trừ trách nhiệm
 
 Biểu đồ LNTT theo nửa năm (nền 2H25 cao) đã được gỡ để nhường chỗ; luận điểm đó vẫn nằm ở trang Điểm nhấn và phần [Chốt].
@@ -84,7 +84,8 @@ Biểu đồ LNTT theo nửa năm (nền 2H25 cao) đã được gỡ để như
 
 - Giá 24,600 đồng lấy từ nguồn tin tức ngày 28/07, không phải từ terminal — **cập nhật lại giá và tiềm năng tăng vào ngày quay**.
 - Giá mục tiêu 33,800 đồng là cơ sở **trước** pha loãng cổ tức cổ phiếu 26.04% (chưa thực hiện). Sau pha loãng tương đương khoảng 26,800 đồng — bản đọc đã nêu mức pha loãng 21% ở phần [Chốt].
-- Cột Q3/25 và Q4/25 ở biểu đồ 1 được suy ra từ số liệu lũy kế 9T/25 (20,400 tỷ) và cả năm 2025 (30,600 tỷ) — đã ghi chú trên slide.
+- Cột Q1/25–Q4/25 ở biểu đồ 1 được suy ra từ số liệu lũy kế 9T/25 (20,400 tỷ) và cả năm 2025 (30,600 tỷ) nên đã làm tròn; Q1/26 (7,921) và Q2/26 (10,959) là số công bố — đã ghi chú trên slide.
+- Đã đối chiếu chéo bản đọc với slide bằng `coherence_check.py`: 31/31 kiểm tra đạt (mọi điểm dữ liệu trên biểu đồ khớp FiinProX, mọi con số trong bản đọc đều có trên slide, và mọi phép tính dẫn xuất đều đúng).
 - **Nợ xấu: thông cáo của VPBank ghi "hợp nhất dưới 3%", FiinProX tính nhóm 3–5 / tổng dư nợ ra 3.34%.** Chưa đối chiếu được phạm vi/mẫu số của con số ngân hàng công bố, nên bản đọc và slide dùng 3.34% để thống nhất với biểu đồ.
 - Tăng trưởng cho vay 40.4% **không phải mức cao nhất** — Q1/26 đạt 43.1% và Q3/25 đạt 41.8%. Chỉ nói "5 quý liên tiếp trên 30%".
 - Số "+24.6%" trong thông cáo là tín dụng **ngân hàng mẹ, so với đầu năm**; 40.4% là cho vay khách hàng **hợp nhất, so với cùng kỳ**. Không trộn hai con số.
