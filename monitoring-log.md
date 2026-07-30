@@ -61,6 +61,28 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **15:54 ICT · KDH — a Vietcap backlog figure bounds the bull branch harder than the sold-book
+  argument does, and it arrives from a different direction.**
+  **The number.** Vietcap puts the **Gladia backlog at ₫3,100bn at end-2025**, described as ~44% of
+  forecast 2026 revenue — which back-solves to a full-year revenue forecast of **~₫7,045bn**,
+  consistent with the ~₫7,160bn seen from another source. **T5**, press on a named house.
+  **Converted onto our unit economics:** ₫3,100bn at ASP ₫42–44bn is **70.5–73.8 units** of
+  contracted-but-unrecognised Gladia inventory entering 2026. Six were handed in Q1, leaving roughly
+  **64–68 units** from that backlog, plus whatever is sold new during the year.
+  **Against what the bull branch requires — ~178–186 units handed in FY2026** — the bull case needs
+  roughly **two and a half times the entire opening backlog**, sourced from sales not yet made. That
+  is tighter than the 135-unit sold-book constraint already on file.
+  **On independence, and I am being careful about that today.** This morning I collapsed three routes
+  that were really one. So the claim here is bounded: the sold-book route counts **units** from
+  226 × 60%; this counts **value** from a Vietcap estimate. Different source, different measure — but
+  they describe overlapping inventory in the same physical project, so they **corroborate rather than
+  independently confirm**.
+  **Limits stated, not buried:** single source; ASP-dependent, and the ASP is itself unresolved
+  between ₫42bn and ₫44bn (item 15); and **backlog is not the sold book** — backlog is contracted
+  revenue not yet recognised, the sold book is cumulative contracts including units already handed.
+  **Nothing changed.** No probability moves. Item 4 already asks a human to re-weight the bull branch;
+  this adds a second reason, not new authority.
+
 - **13:53 ICT · TCX (lane 4) — the VN30 catalyst finally has a value, and it is a rounding error.**
   HOSE confirmed **MCH and TCX enter VN30 replacing TPB and PLX, effective 03-Aug**. Index funds are
   forecast to buy **~1.35m TCX shares worth ~₫60bn** (BSC) or 1.3m worth ₫59bn (ACBS). Total NAV
