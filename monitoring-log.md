@@ -9,7 +9,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. **KDH FILED 30-Jul — Q2 revenue −85%, Q2 profit ~zero.** MBB still unfiled at 17:53 on its deadline day | 3 |
+| HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. KDH filed 30-Jul (Q2 revenue −85%). **MBB DID NOT SURFACE on its 30-Jul deadline day, across 16 sweeps.** Not a verified breach — press absence, not exchange absence | 3 |
 | ~~US rebar AD/CVD final determination~~ **RESOLVED 30-Jul.** FR 2026-15438 (AD) + 2026-15437 (CVD). Final margins 128.53–136.57%, cash deposits 123.49–131.53%. Forecast #10 scored HIT | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -60,6 +60,27 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-30
+
+- **23:53 ICT · MBB — the deadline day ended without a Q2 statement appearing. Recorded as a dated
+  catalyst that failed to land, not as a breach.**
+  **What I checked:** sixteen consecutive hourly sweeps spanning the whole Vietnamese day — pre-market,
+  both sessions, post-close and the full evening. **No Q2 or H1 figure appeared in any Vietnamese or
+  English source.**
+  **What I cannot say.** That is **absence in press search, not absence on the exchange.** Both the
+  HOSE and MB investor-relations disclosure pages return proxy 403 from here, so the filing channel
+  itself cannot be read. **I am not calling a disclosure breach, because I cannot verify one.**
+  **The asymmetry is the informative part.** KDH filed the same day and press carried detailed figures
+  — revenue, profit, inventory, cash flow, borrowings — **within hours**. Several unrelated names
+  (DCM, VRE, NTL, AGG, BCE, HDC) appeared in same-day round-ups. **MBB produced nothing across the
+  entire day.** A filing that had occurred would ordinarily have been picked up. That is evidence, not
+  proof.
+  **Why it matters beyond housekeeping.** MBB is 6.5% of the book and the engine's **joint-largest
+  proposed add** at +5.5pp to 12.0%. It is also **the one bank with no driver model**, so its branches
+  are typed in rather than derived. **A name that is simultaneously the biggest proposed purchase, the
+  least modelled, and now the slowest to disclose is worth a human looking at directly.**
+  **Nothing changed.** No branch, probability, weight or confidence. **Absence of a filing is not
+  evidence about earnings**, and treating it as such would be the inference-from-silence this file has
+  avoided all week. **Forecast #4 remains open and unresolved.**
 
 - **WITHDRAWAL · 20:54 ICT · MBB — I got the provisioning number and it does not support what I wrote
   this morning. Withdrawn before the print, which is the only time it counts.**
