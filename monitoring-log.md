@@ -61,6 +61,27 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-30
 
+- **WITHDRAWAL · 20:54 ICT · MBB — I got the provisioning number and it does not support what I wrote
+  this morning. Withdrawn before the print, which is the only time it counts.**
+  **The number:** MBB's Q1/2026 credit-risk provisioning was **₫3,455bn, +15.7% YoY**, NPL 1.42%.
+  **What I claimed at 09:53.** I strengthened the pre-registered read on forecast #4 from "peers
+  suggest" to "MBB was already doing this", on the basis of press describing MBB's Q1 as having *"a
+  sharp increase in risk provisioning"*. **I took a qualitative characterisation as quantitative
+  evidence.**
+  **What the number says.** Provisions **+15.7%** against Q1 PBT **+14.8%** — provisioning grew
+  **essentially in line with the business**, not disproportionately to it. **That is not the ACB
+  pattern.** ACB's Q2 had net interest income **+16.5%** and profit **−12%** — provisions
+  overwhelming a growing top line. MBB's Q1 shows nothing of the kind.
+  **So the strengthening is withdrawn. The original read stands on its own footing** — it rests on
+  ACB and VIB actually printing −12% and −8%, which is unchanged. What does not stand is the claim
+  that MBB itself was already showing the pattern in Q1.
+  **Recorded before MBB files, which is the only time this is worth anything.** Withdrawing a
+  strengthening *after* the print would be indistinguishable from retrofitting.
+  **Third self-correction today, and the same species as the other two:** treating a qualitative
+  phrase — "sharp increase", "declining revenue" — as if it carried a number. **The fix is the same
+  each time: get the figure before building on the adjective.**
+  For context when the print lands: provisions were **36% of Q1 pre-tax profit**.
+
 - **19:53 ICT · HPG (lane 2) — the rebar finals are PUBLISHED, the rates came in HIGHER, and forecast
   #10 scores a HIT anyway. First hit of three.**
   **Federal Register 2026-15438 (AD) and 2026-15437 (CVD)**, both **applicable 30-Jul-2026**. Period
