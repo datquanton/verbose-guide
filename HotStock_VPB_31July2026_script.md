@@ -17,18 +17,22 @@ Chúng tôi khuyến nghị MUA, giá mục tiêu 33.800 đồng. Lưu ý nền 
 
 ## Kèm slide
 
-`HotStock_VPB_31July2026.pptx` — 4 trang, format BC mobile:
+`HotStock_VPB_31July2026.pptx` — 5 trang, format BC mobile:
 
 1. **Bìa** — Ngân hàng VPBank (HOSE: VPB), "Lãi kỷ lục, chờ câu chuyện tăng vốn", MUA / giá mục tiêu 33.800 (+37,4%)
 2. **Điểm nhấn** — KQKD 1H26 · Tăng vốn & room ngoại · Định giá & rủi ro
-3. **Biểu đồ** — LNTT hợp nhất theo quý, 1Q25–2Q26 (2025 màu cam, 2026 màu xanh navy)
-4. **Phụ lục** — tuyên bố miễn trừ trách nhiệm
+3. **Biểu đồ 1** — LNTT hợp nhất theo quý, 1Q25–2Q26 (2025 màu cam, 2026 màu xanh navy)
+4. **Biểu đồ 2** — LNTT theo nửa năm: 1H25, 2H25, 1H26 và mức 2H26 cần đạt để hoàn thành kế hoạch
+5. **Phụ lục** — tuyên bố miễn trừ trách nhiệm
+
+Bản Word: `HotStock_VPB_31July2026_script.docx`
 
 ## Lưu ý trước khi quay
 
 - Giá 24.600 đồng lấy từ nguồn tin tức ngày 28/07, không phải từ terminal — **cập nhật lại giá và tiềm năng tăng vào ngày quay**.
 - Giá mục tiêu 33.800 đồng là cơ sở **trước** pha loãng cổ tức cổ phiếu 26,04% (chưa thực hiện). Sau pha loãng tương đương khoảng 26.800 đồng.
-- Cột Q3/25 và Q4/25 trên biểu đồ được suy ra từ số liệu lũy kế 9T/25 và cả năm 2025 (đã ghi chú trên slide).
+- Cột Q3/25 và Q4/25 ở biểu đồ 1, cùng cột 1H25 và 2H25 ở biểu đồ 2, được suy ra từ số liệu lũy kế 9T/25 (20.400 tỷ) và cả năm 2025 (30.600 tỷ) — đã ghi chú trên slide.
+- Cột "2H26 cần để đạt KH" (22.443 tỷ, +16% so cùng kỳ) là mức cần đạt để hoàn thành kế hoạch 41.323 tỷ, **không phải dự phóng của MAS**.
 - Đối tác nước ngoài trong đợt phát hành riêng lẻ **chưa được công bố tên** — không nêu tên cụ thể.
 - Dự phóng LNST-CĐTS 2026F của MAS là 29.056 tỷ đồng, hàm ý LNTT thấp hơn hẳn kế hoạch 41.323 tỷ trong khi 1H26 đã đạt ~46% kế hoạch. Mô hình VPB có khả năng cần nâng dự phóng — chưa điều chỉnh trong bản này.
 - Chi tiết nguồn từng số liệu: sheet **"VPB HotStock"** trong `INTERNAL_Sources_and_Assumptions_Aug26.xlsx`.
