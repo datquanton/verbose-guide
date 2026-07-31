@@ -63,6 +63,29 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **05:53 ICT · KDH (lane 3) — item 15 attempted via project price pages. The route FAILS, and the number
+  it returns would have corrupted a load-bearing input.**
+  **What it returns:** agency pages quoting Gladia at **"₫15 tỷ/căn"** (June 2026) and low-rise product
+  **"from ₫230m/m²"** (July 2026).
+  **Why neither is usable.** **(1) Source:** these are **agency marketing pages, not company disclosure** —
+  below T6 on the charter's ladder, written by parties whose incentive is an attractive entry price.
+  **(2) Measure:** "₫15 tỷ/căn" is a headline or *starting* price for the cheapest product, not a realised
+  ASP across a handover mix. **(3) They contradict each other by 4×:** at ₫230m/m², a 250–300m² villa is
+  **₫57–69bn** — against the same site's own ₫15bn. **A source that disagrees with itself by four times
+  cannot settle a 4.8% question.**
+  **And the file's own arithmetic already refutes ₫15bn.** Q1 revenue of ~₫252–264bn on **6 units handed**
+  gives **₫42–44bn per unit** directly — which is where the on-file figure came from. At ₫15bn, six
+  handovers would have produced ~₫90bn, not ~₫252–264bn. **The internal check kills it without needing an
+  external source**, which is the cheapest kind of refutation and the one to reach for first.
+  **What logging it would have cost.** ASP is the denominator converting KDH revenue into **unit counts**,
+  and the unit count is the entire basis of the dossier's bull-infeasibility finding (**bull needs ~178–186
+  units against a 135-unit sold book**). Substituting ₫15bn would have inflated implied unit counts ~2.9×
+  and made the bull case look impossible **for a fabricated reason** — a right conclusion reached through a
+  wrong number, which this log already records as a failure mode in its own right.
+  **Item 15 stays open.** It is settled by the **segment note in KDH's financial statements** — revenue by
+  project ÷ units delivered — not by any price list. **Same species as the HRC benchmark trap: right name,
+  wrong basis, and the wrong one is what a search finds first.**
+
 - **04:53 ICT · HPG (lane 3) — `OPEN-DECISIONS` item 13 moved FURTHER from resolution. A third candidate
   figure appeared for the divestment gain.**
   **New (T5, and explicitly approximate):** press states that in Q1/2026 **approximately ₫3,800bn** came

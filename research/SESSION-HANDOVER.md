@@ -1,6 +1,7 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 31-Jul 14:53 ICT: MBB filed. §2, §3, §4 and §7 below reflect it.**
+**Updated 01-Aug 05:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
 The session is ephemeral; this file and the git history are not. Everything below is already
@@ -91,6 +92,37 @@ before the print**, on that bank-specific evidence.
    the branches are typed in and nothing derives them. The engine is blind to the best print in the
    book while proposing MBB as its joint-largest add. `OPEN-DECISIONS` item 19, new.
 
+### Resolved overnight, 31-Jul → 01-Aug
+
+| Was blocking | Outcome |
+|---|---|
+| **`OPEN-DECISIONS` item 1** — VPB's two credit fields "cannot both be right" | ✅ **RESOLVED.** They can: **both describe the PARENT** (₫1,060,000bn, +24.6%). Consolidated loans are a *third* series at **₫1,160,000bn, +23%**. The fake +10.19% came from dividing a **parent stock by a consolidated base**. **Resolves in VPB's favour** — H2 needs ≤ +12.0% on the base branch, not the feared +22.5%. |
+| **TCB credit-vs-loans**, the reason confidence was cut 0.85→0.80 | ✅ **RESOLVED, and the 28-Jul inference was INVERTED.** **+10.4% is loans; +14.3% is credit** incl. quota-exempt infrastructure/social housing. So the non-loan book **grew**, not shrank. `loans_start_fy`→`loans_mid_fy` is **+14.46% vs a reported +14.3%** — the model's pair was never mismatched. H2 needs **+1.5/+3.2/+5.0%**. |
+
+**Near-miss worth knowing about:** the inverted TCB reading produced a **~₫40,700bn** gap sitting beside
+the **₫39–40,000bn** of real-estate exposure TCB cut and the **₫44,500bn** Masterise raised — an
+irresistible "exposure moved from loans into bonds" story. **The source names the gap as quota-exempt
+lending.** It was false, and *quantitatively closer* to the on-file numbers than the truth.
+**The Masterise test still needs the corporate-bond line and is NOT settled.**
+
+### New escalations raised overnight
+
+5. **The 403 wall is suppressing THREE confidence restorations across 51.5% of the book.** MBB (0.55),
+   VPB (0.70), TCB (0.80) — in every case the evidential objection has been *answered*, and in every case
+   the raise is blocked because the evidence is press, not the document (charter §2, T1–T2 only).
+   **Confidence multiplies `fy26e_npat`, so this biases expected returns downward, selectively, on the
+   three largest bank positions.** `OPEN-DECISIONS` item 17 is no longer an access inconvenience.
+6. **HCMC Decision 45/2026/QĐ-UBND** — the land-price adjustment coefficient (**K = K1×K2×K3, K1=K3=1**),
+   **in force since 01-Jul-2026**, and the repo had **zero record of it**. Land-use fee is the largest cost
+   input for a developer and **KDH is 20.3% of the book with >₫23,000bn of inventory.** *Third* dated
+   regulation missed in four days, and the **second effective 01-Jul**. New `OPEN-DECISIONS` item 20.
+   **The direction is not established** — a higher table raises fees, a published K unblocks stalled
+   approvals, and the two cannot be netted from here.
+7. **`OPEN-DECISIONS` item 13 got WORSE.** A **third** candidate for HPG's divestment gain (~₫3,800bn,
+   Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
+   1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
+   alternative previously considered.
+
 ## 5 · The engine tried to reward a bad print — read this before touching confidence
 
 When KDH's miss landed, applying the routine's own rule (estimate → actual raises confidence)
@@ -135,9 +167,9 @@ when it confirms you; any ticker-only headline gets an exchange check before a p
 
 | Date | Item |
 |---|---|
-| **3 Aug** | TCX joins VN30 (ETF demand ~₫60bn = **0.073% of market cap**) **and** July CPI publishes |
+| **3 Aug** | TCX's VN30 entry is **effective** — but **the ETF rebalance COMPLETED 31-Jul**, the session before. **The flow has already happened**; an effective date is not a flow date. Sizing confirmed at ₫59–60bn = **0.073% of market cap**. **July CPI publishes the same day** |
 | ~21 Aug | KDH insider-buy window closes (Vice Chairman's son, 0.056% → 1.838%) |
-| ~mid-Sep | **ITC final injury vote on rebar** — orders issue only on an affirmative vote |
+| **mid-to-late Sep** | **ITC final injury vote on rebar** — within 45 days of the 30-Jul Commerce finals. An "August" date circulating is a **stale pre-determination projection**. **The ITC has already voted affirmative on ALGERIA in the same petition.** Vietnam's margins (128.53–136.57%) are **2.4–4× Bulgaria's and Egypt's** |
 | 21 Sep | FTSE Secondary Emerging effective, **phased in tranches to Sep-2027** |
 | 30 Oct | Next Circular 96/2020 deadline — Q3 statements |
 | — | MBB stock dividend 15% and rights 10:1 at ₫10,000 — **both still pending, no record date announced.** The rights price is ~45% of market and dilutive to anyone not taking it up |
@@ -161,14 +193,27 @@ when it confirms you; any ticker-only headline gets an exchange check before a p
 - **Bank outcomes did not travel across the sector this quarter.** ACB −12%, VIB −8%, MBB +40%
   on PBT — same quarter, same rate environment. Peer read-across was tested prospectively here
   and failed by ~52 percentage points.
+- **Foreigners have net sold ₫92,000bn YTD** (>62,000 to May, ~80,000 to June, 92,000 to July) and 2026
+  is on track to be the **fourth consecutive year** of net selling — a third independent ground against the
+  TCX FTSE event tree, though active outflow and passive inclusion inflow are **different pools and must
+  not be netted**.
+- **Interbank funding cost rose at every tenor through July** (overnight 2.43%→2.97%, 3-week 5.29%→5.88%)
+  **while deposit rates sat still** — and **Circular 25/2026 took effect in the same month**, relaxing a
+  ratio while the price moved against it. Loans outgrew deposits **2.2× at TCB** and **13.2% vs a shrinking
+  base at MBB**.
+- **All three HPG spread inputs are now pinned on the file's own benchmarks:** ore **$98.25**, coal
+  **$218.50**, HRC **$535–546.5**. The July move cost **−₫0.437m/t** — coal relief clawed back only 41% of
+  the price cut. Spot case **₫0.86–1.10m/t**, still below the ₫1.25m bear branch but the gap has narrowed
+  from ₫0.42m to ₫0.15–0.39m.
 - **"MBB" pulls at least three entities**: MB Bank (ours), MB Securities, and MBB SE (Xetra).
   Poland's mBank too. Five false hits this session.
 
 ## 9 · What is blocked, and on what
 
-Three of the highest-value open items sit behind hosts that return **proxy 403** from this
-environment: the TCB bond line (`OPEN-DECISIONS` 17b), the Federal Register rate tables, and the
-HOSE / MB disclosure pages. **The FiinQuant connector is unauthorised and cannot be authorised
+**Five** fronts now, not three, all returning **proxy 403**: the TCB bond line (`OPEN-DECISIONS` 17b),
+the Federal Register rate tables, the HOSE / MB disclosure pages, **techcombank.com's own Q2
+press-release PDF**, and **HPG's statement note on other income** (which is what would settle item 13).
+**This is no longer only an access problem — see §4 escalation 5.** **The FiinQuant connector is unauthorised and cannot be authorised
 from a non-interactive session.** This is `OPEN-DECISIONS` item 17 and it is now binding on three
 fronts at once.
 
