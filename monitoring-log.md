@@ -63,6 +63,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **17:53 ICT · VPX (lane 3) — the CAEX option had a probability in this file and no price tag. It has
+  one now: ₫1,097bn already spent.**
+  **New:** VPBankS **injected more than ₫1,097bn into CAEX in Q1/2026**; the international partner is
+  **OKX** alongside domestic technology companies; and the **application to operate the exchange has been
+  submitted to the State**. T5, press on the Q1 results and the AGM.
+  **Why this changes the shape of the bet rather than its odds.** Calibration forecast #8 carries "CAEX
+  licence granted ~Q3 at **p=0.40**", and the model holds two branch labels — *granted* and *rejected
+  (5-licence cap)*. **Nothing recorded what had been spent.** A binary event at p=0.40 is a free option
+  only if nothing is at stake before it resolves. **₫1,097bn is committed capital — roughly 2.9% of the
+  ₫38,200bn margin book — spent ahead of a licence a 5-licence cap could still refuse.** So the rejection
+  branch is **not a return to the status quo; it is the status quo minus what has already gone in.**
+  Nothing in the model expressed that.
+  **One figure from the same source was DISCARDED.** It states total CAEX capital as "₫10 tỷ" immediately
+  after describing a ₫1,097bn injection. Those cannot both be true — a ₫1,097bn injection cannot leave
+  total capital at ₫10bn — so the total is almost certainly a compression error for something ~1,000×
+  larger. **The injection is kept, the total is dropped rather than guessed at.**
+  **No probability moved.** Capital committed says nothing about a regulator's decision. Forecast #8 stays
+  open at p=0.40; moving it on evidence that does not bear on the licensing decision would be the
+  post-hoc adjustment pre-registration exists to prevent. **Confidence unchanged at 0.55.**
+
+- **17:53 ICT · VPB (lane 3) — the "$250m placement" in the scheduled prompt fails the measure check, by
+  about 2.5×.**
+  The hourly routine's lane-3 text carries *"VPB 26% stock dividend + **$250m** foreign placement."* This
+  file records the placement in its own units — **624m+ shares, charter capital +₫6,243bn to ₫106,244bn**
+  — and carries **no dollar figure**, so the two have never been reconciled. **They do not reconcile.**
+  **₫6,243bn is the PAR value** of the new shares: at FX 26,300 that is **~US$237m**, close enough to
+  $250m that the prompt's figure is almost certainly the par amount. But **624m shares at VPB's on-file
+  price of ₫25,000 would raise ~₫15,600bn ≈ US$593m.** **Par value is not proceeds** unless the placement
+  prices at par, which a strategic foreign placement normally would not.
+  **Recorded as a flag, not a finding.** What is established is that $250m matches the *par* figure and
+  not the *market-value* figure — **not** what the placement will actually raise, which needs the
+  placement price. Not corrected: the prompt is human-only under charter §4, and `OPEN-DECISIONS` item 12
+  already records that the scheduled prompts have drifted from the repo. **This is that drift, measured.**
+
+- **17:53 ICT · KDH (lane 7) — nothing new; recorded because the headline reads as if there were.**
+  An ownership search returned *"VinaCapital dumps 7.5m KDH shares; Khang Điền spends over ₫2,500bn to
+  acquire a company"* — which reads like two current events. **Both are already on file.** The 7.5m block
+  is inside `_VINACAPITAL_SELLING_2026_07_30` (dated April–May, logged as history); the "over ₫2,500bn
+  acquisition" is the **An Lập deal already recorded at ₫2,553bn** as a Q1 item. The insider registration
+  it also returned — 20m shares, 0.056% → 1.838%, registered 20-Jul, window 23-Jul to 21-Aug, Deputy CEO
+  and son of the Vice Chairman — matches the file line for line, and the ₫17,950 close on 20-Jul is the
+  same dated observation already logged as 0.28% below the file's ₫18,000.
+  **Logged as a negative result** because a headline compressing a Q1 acquisition and an April block sale
+  into present tense is the same trap species caught twice already today, and the next sweep will see it
+  again. **Nothing changed.**
+
 - **16:53 ICT · MACRO / BANKS (lane 1) — interbank funding cost rose at every tenor through July while
   deposit rates sat still, and this repo was not watching it.**
   **The move, across July 2026:** overnight **2.43% → 2.97%** (+54bp), 1-week **3.51% → 3.81%** (+30bp),
