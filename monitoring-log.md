@@ -63,6 +63,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **06:53 ICT · BANKS / POLICY (lane 5) — a FOURTH dated regulation in force with no record here, and it
+  names the mechanism this file inferred two hours ago.**
+  **(a) Circular 08/2026/TT-NHNN, May 2026.** Lets banks count **20% of State Treasury time deposits as
+  capital in the loan-to-deposit ratio**, expanding lending capacity. **Three months unrecorded** — zero
+  hits for "LDR", "Circular 08" or "08/2026" anywhere in `assumptions.json` before this entry. **The oldest
+  miss yet**, after Circular 25/2026 (four weeks) and HCMC Decision 45/2026 (one month).
+  **It relaxes the exact constraint this file spent the night flagging.** In the last six hours I recorded
+  that **TCB's loans outgrew deposits 2.2×** (10.4% vs 4.8%) and **MBB grew loans 13.2% YTD**, and read
+  both against the 31-Jul finding that interbank cost rose 30–59bp. **The implied worry was that the
+  funding gap would bind. Circular 08 loosens the ratio that would bind it.**
+  **The worry is not withdrawn** — a looser ratio does not make funding cheaper, and the interbank price
+  moved regardless. **Same distinction drawn for Circular 25 on 31-Jul: a circular relaxes a ratio, it does
+  not lower a price.** But the constraint is looser than the night's entries implicitly assumed, and that
+  belongs on the record beside them.
+  **(b) The credit-quota exemptions — and they name what I inferred at 03:53.** SBV permits **25 commercial
+  banks** to exclude additional **social-housing, industrial-zone and EPZ lending** from real-estate credit
+  for 2026, and has removed **18 projects of 3 private economic groups** from the room entirely.
+  **Three hours ago I resolved TCB's credit-vs-loans gap using the company's own phrasing** — standalone
+  credit +14.3% *"including infrastructure and social-housing loans excluded from credit limits"* vs loans
+  +10.4%. **The policy behind that clause is now identified and dated.** An upgrade from a company's
+  characterisation to a named instrument.
+  **And it breaks cross-bank comparability, which is the part that matters.** TCB reports **two** rates and
+  says which is which. **MBB reports +13.2%. VPB reports +24.6% parent.** **This file does not know which of
+  those contain quota-exempt lending.** Every cross-bank credit comparison made this week — including
+  *"MBB's version of VPB's problem is milder"* — implicitly treated the rates as one comparable quantity.
+  **They are not necessarily the same measure.** This does **not** invalidate the per-bank H2 arithmetic,
+  which was computed against each company's own base and branches; **it invalidates comparing the three
+  rates to each other.**
+  **Scale context worth holding: SBV projects system credit growth of ~15% for 2026.** Against that, **MBB
+  targets 30–35%**, **VPB's plan implies ~34%** (962,000 → ₫1.29 quadrillion), and **TCB's branches are
+  16–20%**. **Two of the three banks in this book plan to grow credit at more than twice the system rate.**
+  Quotas vary by design and healthier banks get more, so this is not an objection — but **both plans depend
+  on continued preferential allocation or heavy use of exemptions, and neither dependency is modelled
+  anywhere.**
+  **A period trap disarmed in passing:** the widely-circulated *"Prime Minister orders SBV to pilot removing
+  the credit room from 2026"* is dated **August 2025**, not now, and the pilot **remains under development**.
+  A future sweep will find those articles and they are a year old.
+  **Nothing modelled, no confidence moved** (T5 on the exemptions; the circular itself is T1/T2 but bears on
+  no single ticker's branches).
+
 - **05:53 ICT · KDH (lane 3) — item 15 attempted via project price pages. The route FAILS, and the number
   it returns would have corrupted a load-bearing input.**
   **What it returns:** agency pages quoting Gladia at **"₫15 tỷ/căn"** (June 2026) and low-rise product
