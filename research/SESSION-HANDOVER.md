@@ -1,5 +1,7 @@
 # Session handover — state of the book at 2026-07-31
 
+**Updated 31-Jul 14:53 ICT: MBB filed. §2, §3, §4 and §7 below reflect it.**
+
 **Written at the owner's request to make this session's context survive the container.**
 The session is ephemeral; this file and the git history are not. Everything below is already
 recorded in `monitoring-log.md`, `assumptions.json` and `calibration-log.md` — this exists so
@@ -34,7 +36,14 @@ They are not decorative — each one can move the ranking.
 |---|---|---|
 | **HPG** | Filed 29-Jul | Q2 revenue ₫55,557bn **+53%**, NPAT ₫6,424bn **+51%**; H1 = 70% of FY plan. Confidence 0.60 → 0.70. |
 | **KDH** | Filed 30-Jul | Q2 revenue ₫161bn **−85%**; H1 profit ₫321bn −6%, implying **Q2 profit ≈ zero**. Every street estimate too high; VCBS's revenue forecast was **7×** the outcome. |
-| **MBB** | **DID NOT APPEAR** | Its Circular 96/2020 deadline was 30-Jul. Nothing surfaced across ~20 sweeps. **Not a verified breach** — press absence, not exchange absence; HOSE and MB IR pages both 403 from this environment. |
+| **MBB** | **Filed, surfaced 31-Jul** — one day past its Circular 96/2020 deadline | Q2 PBT **₫10,560bn +40%**; Q2 NPAT-to-parent **₫8,229.06bn +40.01%**; H1 NPAT-to-parent ₫15,744.58bn +26.51%. Net interest income +36.55%. NPL 1.45% (from 1.42%) with coverage *rising* to 93.63%. Confidence **held at 0.55** — T5 press, and charter §2 permits a rise only on T1–T2. |
+
+**All three statements are now in. The date gate is closed; the next is Q3, due 30-Oct.**
+
+**Two figures in MBB's Q2 coverage were the Q1 numbers reappearing** — provisioning ₫3,455bn (+15.7%)
+and loans ₫1.12 million tỷ (+3.3%), both already on file to the digit. Neither was logged, so **H1
+provisioning is still unknown.** The tell was free: *a new figure that exactly equals an old one is
+usually the old one.*
 
 ## 3 · Calibration: 1 hit, 2 misses
 
@@ -43,12 +52,22 @@ They are not decorative — each one can move the ranking.
 | 2 | HPG Q2 core NPAT/tonne below ₫1.60m | ❌ **MISS** — actual ₫1.835m. The forecast contradicted my own timing note written the same day. |
 | 1 | KDH Q2 parent NPAT ₫170–348bn | ❌ **MISS** — by ~5× on the falsifiable part. Right in direction, badly wrong in calibration. |
 | 10 | US rebar final ≈ headline risk only | ✅ **HIT** — right for the *stated* reason. The rate went the wrong way (finals ~6.6pp above preliminary) and the impact claim still carried it. |
+| 4 | MBB Q2 NPAT ≈ ₫7,052bn, band ₫6,347–7,757bn | ❌ **MISS** — actual consolidated NPAT ₫8,448bn, **+19.8%**, on the forecast's own measure. |
 
-**Forecast #4 (MBB) is open and cannot resolve until MBB files.** A pre-registered read sits
-in `calibration-log.md`: *if MBB misses, expect it to miss on credit cost with net interest
-income intact.* That read was **strengthened on 30-Jul and then withdrawn the same day**, before
-the print, when MBB's Q1 provisioning turned out to be +15.7% against PBT +14.8% — in line with
-the business, not the ACB pattern.
+**Now 1 hit, 3 misses across four resolved forecasts. All three misses were on the estimate side,
+not the direction side** — the base cases keep being wrong about *magnitude*, twice too high
+(KDH, HPG) and once too low (MBB).
+
+**The pre-registered read on #4 is scored WRONG, on its own stipulation.** It said *if MBB misses,
+expect it to miss on credit cost with net interest income intact* — and pre-committed that *"if MBB
+instead misses on the top line, **or beats outright**, this read is wrong."* **MBB beat outright.**
+That clause is the only reason this is recorded as a failure rather than quietly retired.
+
+**The read-across is the finding, not the miss.** ACB printed **−12%** and VIB **−8%** on
+provisions; I inferred a sector cycle and applied it to MBB. **MBB printed +40%** — a ~52pp spread
+between two large banks in one quarter. What did work was the sequencing: MBB's *own* Q1 provisioning
+(+15.7% vs PBT +14.8%) contradicted the peer inference, and the read was **withdrawn on 30-Jul,
+before the print**, on that bank-specific evidence.
 
 ## 4 · Escalations raised this session, all still open
 
@@ -63,6 +82,14 @@ the business, not the ACB pattern.
    All three are banks.
 4. **KDH Q2** — see §2. `fy26e_npat` branches now contradicted by the run-rate; ~10 units handed
    in H1 against a bear branch needing 80.
+5. **MBB Q2 — the same defect, opposite sign.** Escalation trigger #4 fired (estimate → filed
+   actual). H1 PBT **₫20,188bn** leaves bear needing H2 **−26.6%**, base **−11.2%**, bull **+4.3%**
+   — and bank profit here is second-half weighted, so a *flat* H2 gives FY PBT ₫40,376bn, above
+   base. **Two of three branches now require profit to fall outright.** The 28-Jul pre-registered
+   table called this exact row in advance and its instruction is *rebuild, do not celebrate*.
+   **The sharp part: a +40% quarter moved MBB's expected return by zero** — still +8.8% — because
+   the branches are typed in and nothing derives them. The engine is blind to the best print in the
+   book while proposing MBB as its joint-largest add. `OPEN-DECISIONS` item 19, new.
 
 ## 5 · The engine tried to reward a bad print — read this before touching confidence
 
@@ -78,6 +105,14 @@ confidence in the *forward branches* fell. A single scalar cannot move both ways
 forced, it should not move in the direction that flatters. **Confidence was held at 0.50 and the
 whole thing escalated instead.** That is a deliberate deviation from the routine's instruction,
 recorded so a human can overrule it.
+
+**MBB, a day later, is the same defect pointing the other way — and it is the better test.** KDH's
+branches were contradicted from *above*, so holding confidence cost nothing; it was the convenient
+answer as well as the right one. MBB's are contradicted from *below*, so holding confidence
+**understates a genuinely good quarter** and leaves MBB ranked 4th on a +40% print. It was held
+anyway, because charter §2 forbids raising confidence on press *about* a filing, and that is the
+same rule that protected KDH. **A rule that only binds when it flatters you does not bind.**
+Both names need the same human fix, which is not a confidence number: **re-derive the branches.**
 
 ## 6 · What this session got wrong, and what changed as a result
 
@@ -104,7 +139,8 @@ when it confirms you; any ticker-only headline gets an exchange check before a p
 | ~21 Aug | KDH insider-buy window closes (Vice Chairman's son, 0.056% → 1.838%) |
 | ~mid-Sep | **ITC final injury vote on rebar** — orders issue only on an affirmative vote |
 | 21 Sep | FTSE Secondary Emerging effective, **phased in tranches to Sep-2027** |
-| — | MBB Q2, overdue |
+| 30 Oct | Next Circular 96/2020 deadline — Q3 statements |
+| — | MBB stock dividend 15% and rights 10:1 at ₫10,000 — **both still pending, no record date announced.** The rights price is ~45% of market and dilutive to anyone not taking it up |
 
 ## 8 · Structural facts a reader should not have to rediscover
 
@@ -122,6 +158,9 @@ when it confirms you; any ticker-only headline gets an exchange check before a p
   applied — 68.4% of the book.
 - **MBB is one of the three largest lenders to KDH.** Two holdings, one linkage, not previously
   on file.
+- **Bank outcomes did not travel across the sector this quarter.** ACB −12%, VIB −8%, MBB +40%
+  on PBT — same quarter, same rate environment. Peer read-across was tested prospectively here
+  and failed by ~52 percentage points.
 - **"MBB" pulls at least three entities**: MB Bank (ours), MB Securities, and MBB SE (Xetra).
   Poland's mBank too. Five false hits this session.
 

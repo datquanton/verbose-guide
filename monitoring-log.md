@@ -9,7 +9,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | HPG filed 29-Jul. KDH filed 30-Jul (Q2 revenue −85%). **MBB DID NOT SURFACE on its 30-Jul deadline day, across 16 sweeps.** Not a verified breach — press absence, not exchange absence | 3 |
+| HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%, Q2 profit ≈ zero). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
 | US rebar — **Commerce finals done 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; margins 128.53–136.57%). **THE CASE IS NOT OVER: ITC final injury vote due ~mid-Sep**, within 45 days. Orders issue only on an affirmative vote | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -62,6 +62,73 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-31
+
+- **14:53 ICT · MBB (lane 3) — IT FILED. Q2 PBT ₫10,560bn, +40%. The forecast misses on the high
+  side, the pre-registered read is wrong, and two of the four figures in the coverage were stale.**
+  **The print** (T5, press reporting the filed statement): Q2 PBT **₫10,560bn, +40%**; Q2 NPAT
+  attributable to parent **₫8,229.06bn, +40.01%**; H1 NPAT-to-parent **₫15,744.58bn, +26.51%**.
+  Q2 net interest income **₫16,893.65bn, +36.55%**; Q2 total operating income ₫20,434.31bn, +18.49%.
+  At 30-Jun: total credit **₫1.26 million tỷ**, customer loans **+13.2% YTD to ₫1.22 million tỷ**,
+  total assets +7.3% to ₫1.73 million tỷ, **NPL 1.45%** (from 1.42%), **coverage 93.63%** (from 92.24%).
+  **Three arithmetic checks run BEFORE anything was written down**, which is the discipline that
+  failed on KDH twelve hours earlier. Q1 parent ₫7,515.52bn + Q2 parent ₫8,229.06bn = **₫15,744.58bn,
+  exactly the stated H1** — so this is a Q2 figure, not a cumulative one, on the same measure as the
+  ₫7,516bn already on file. Q2 PBT × 0.80 = ₫8,448bn consolidated NPAT, of which ₫8,229.06bn is
+  **97.4%** to parent against 97.6% in Q1 — stable minorities, same entity. H1 PBT = ₫20,188bn.
+  **TRAP CAUGHT: two of the figures offered in Q2-context coverage were the Q1 numbers reappearing.**
+  "Provisioning ₫3,455bn (+15.7%)" and "customer loans ₫1.12 million tỷ (+3.3%)" are **already in
+  `assumptions.json` as `q1_provisions`, `q1_provisions_yoy` and `q1_credit_growth_ytd`, to the
+  digit.** A confirming search returned the provisioning line explicitly attached to Q1/2026, and the
+  real Q2 loan figure is ₫1.22 million tỷ at +13.2%. **The tell was internal and free: a new figure
+  that exactly equals one already on file is usually that old one.** Neither was logged, so **H1
+  provisioning remains unknown** — which matters, because provisioning is the exact mechanism the
+  pre-registered read named. NPL 1.45% and coverage 93.63% passed the same check and were kept: both
+  are stated *as changes from* the Q1 values, which is what a genuine new-period figure looks like.
+  Eighth period/entity trap this week, same species as the 26-Jul near-miss that wrote charter §3.
+  **Forecast #4 scored MISS, on the high side.** Band was ₫6,347–7,757bn. The ₫7,052bn centre was
+  derived as PBT × 0.80, i.e. **consolidated NPAT** — so scored like for like against ₫8,448bn, the
+  error is **+19.8%**, ₫691bn outside the band. On parent-attributable it is +16.7%. Miss either way.
+  **The pre-registered read is scored WRONG, on its own stipulation.** It said *"if MBB misses,
+  expect it to miss on credit cost with net interest income intact"*, and pre-committed: *"if MBB
+  instead misses on the top line, **or beats outright**, this read is wrong and gets scored as
+  wrong."* **MBB beat outright.** That clause is why this is recorded as a failure rather than
+  quietly retired as not-applicable.
+  **The peer read-across is the real finding.** ACB printed Q2 PBT **−12%** and VIB **−8%**, both on
+  provisions; I inferred a sector provisioning cycle and applied it to MBB. **MBB printed +40%** with
+  net interest income +36.6% and coverage *rising*. **A ~52-percentage-point spread between two large
+  Vietnamese banks in the same quarter.** "Peers are showing X" turned out to be a hypothesis about a
+  shared mechanism that was never named or measured. The 30-Jul withdrawal was right for the right
+  reason: MBB's own Q1 provisioning (+15.7% vs PBT +14.8%) contradicted the peer inference, and the
+  bank-specific evidence won.
+  **ESCALATION — the pre-registered H2 table fires, and it says rebuild.** The 28-Jul table mapped
+  each H1 outcome to the H2 growth every branch would then need. **Actual H1 PBT ₫20,188bn** lands in
+  the row it singled out: *"at H1 of 20,000 or above, even the BULL branch needs almost no further
+  growth, which would mean the branches have stopped discriminating and need rebuilding rather than
+  celebrating."* On the actual: **bear needs H2 −26.6%, base −11.2%, bull +4.3%.** Vietnamese bank
+  profit is second-half weighted, so **a flat H2 gives FY26 PBT ₫40,376bn** — above base, just below
+  bull, inside company guidance [39,400–41,121] and near MAS's 40,726. **`fy26e_npat`
+  28,000/30,500/33,000 is contradicted from BELOW.** Two of three branches now require profit to fall
+  outright. Re-deriving branches is human-only under charter §4; escalated, not touched.
+  **Confidence HELD at 0.55, and not for the KDH reason.** Charter §2: *"Confidence rises only on
+  T1–T2 primary documents. Press coverage about a filing is not the filing."* This is T5, and the
+  same rule held confidence on 29-Jul. HOSE and MB IR still 403 from here (`OPEN-DECISIONS` 17).
+  **The two cases are opposites and it is worth being precise.** On KDH, raising confidence would
+  have amplified branches contradicted from *above* — flattering a bad print. On MBB it would amplify
+  branches contradicted from *below* — understating a good one. Same one-scalar-two-meanings defect;
+  here the charter already forbids the move, so no deviation was needed. **A rule that stops you
+  being flattered has to bind when it costs you too, or it binds nowhere.**
+  **RESOLVED as a side effect:** `credit_growth_ytd_q2_est` (0.10) and `_credit_ytd_status`. Actual
+  H1 customer-loan growth is **+13.2% YTD**; the profile is +3.3% (Mar) → ~10% (May) → +13.2% (Jun),
+  which **confirms the end-May reading** argued on arithmetic grounds 29-Jul and rules out the
+  Q2-increment reading. The estimate was 3.2pp low because a May figure was read as a June one. H2
+  credit growth needed for the 30–35% target falls to **+14.8% to +19.3%**, from the +18.2–22.7% on
+  file — **milder than recorded, and milder than VPB's version of the same problem.** The
+  25%-vs-30-35% target question is *not* resolved by this; a half-year outturn does not say which
+  target was approved.
+  **So what.** MBB is 6.5% of the book and the engine's joint-largest proposed add. It is now the
+  name with the strongest filed quarter, the loosest scenario tree, and still **no driver model**.
+  Nothing was changed except recording actuals. — T5 press on a filed statement; primary document
+  unreachable from this environment.
 
 - **13:53 ICT · TCB / TCX (lane 5) — the HNX route works. The Masterise hypothesis now has structure,
   and the link to our own book is stronger than the file had it.**

@@ -53,7 +53,7 @@ that is what makes them worth scoring.**
 | 1 | 2026-07-24 | KDH | Q2/26 parent NPAT between MBS ₫170bn and SSI ₫348bn; base case FY26 NPAT ₫1,590bn | conf 0.50 | Q2 FS (~Jul 28–30) | ❌ **MISS — scored 30-Jul, see below** |
 | 2 | 2026-07-26 | HPG | Q2 core NPAT/tonne **below** ₫1.60m as the Formosa/iron-ore spread squeeze bites | bear p=0.45 | Q2 FS | ❌ **MISS — scored 29-Jul, see below** |
 | 3 | 2026-07-24 | HPG | FY26 core NPAT (ex Pho Noi gain) ₫23.3tn base case | conf 0.60 | FY26 audited | ⏳ open |
-| 4 | 2026-07-24 | MBB | Q2/26 NPAT ≈ ₫7,052bn (VCBS est.); FY26 base ₫30.5tn | conf 0.55 | Q2 FS (~Jul 28–30) | ⏳ open |
+| 4 | 2026-07-24 | MBB | Q2/26 NPAT ≈ ₫7,052bn (VCBS est.); FY26 base ₫30.5tn | conf 0.55 | Q2 FS (~Jul 28–30) | ❌ **MISS — scored 31-Jul, see below** |
 | 5 | 2026-07-24 | TCB | FY26 PBT ₫33.2tn base — **below** company guidance ₫35–37.5tn | conf 0.85 | FY26 audited | ⏳ open |
 | 6 | 2026-07-24 | VPB | FY26 PBT ₫30.7tn base vs ₫41.6tn target — plan leans on VPBankS | conf 0.85 | FY26 audited | ⏳ open |
 | 7 | 2026-07-24 | TCX | FTSE Sep-21 event EV ≈ +6.2%; base case "in-line, quiet digestion" p=0.45 | conf 0.80 | ~Oct 21 (1m after) | ⏳ open |
@@ -237,7 +237,52 @@ confirmed**: the preliminary structure put the mandatory respondent at the lower
 the likely figure, but that is inference from structure, not a reading of the table.
 `federalregister.gov` 403s from this environment, so the rates are T5 trade press on a T1 document.
 
-**Scored 1 hit, 2 misses across three resolved forecasts.**
+### #4 · MBB Q2/2026 — **MISS**, on the high side, and the pre-registered read is **wrong**
+
+**Resolved 2026-07-31**, one day past the Circular 96/2020 deadline. Q2 PBT **₫10,560bn, +40%**;
+Q2 NPAT-to-parent **₫8,229.06bn, +40.01%**; H1 NPAT-to-parent **₫15,744.58bn, +26.51%**.
+
+**Scored on the forecast's own measure.** The pre-registered band was ₫6,347–7,757bn, and the
+₫7,052bn centre was derived as ₫8,812bn PBT × 0.80 — i.e. **consolidated NPAT**, not
+parent-attributable. Like for like, actual consolidated NPAT is ₫10,560 × 0.80 = **₫8,448bn**:
+**+19.8% above the forecast**, ₫691bn outside the band. On parent-attributable the error is +16.7%.
+**Miss on either measure**, and the band was chosen at ±10% precisely so that a 20% error could not
+be argued into a hit afterwards.
+
+**The pre-registered read is scored WRONG, on its own terms.** It read: *"if MBB misses, expect it
+to miss on credit cost with net interest income intact, not on revenue"* — with the explicit
+stipulation *"if MBB instead misses on the top line, or beats outright, this read is wrong and gets
+scored as wrong."* **MBB beat outright.** Net interest income rose 36.55% to ₫16,893.65bn and profit
+rose faster still. The conditional never triggered, and the clause that pre-committed to calling that
+a failure is the reason this is recorded as one rather than quietly retired as "not applicable."
+
+**Where the read came from, and why it failed.** It was built on a peer read-across: ACB printed Q2
+PBT **−12%** on sharply higher provisions with net interest income +16.5%, and VIB **−8%**. The
+inference was a sector provisioning cycle. **MBB printed +40% in the same quarter.** Same sector,
+same quarter, same rate environment, opposite outcome — a spread of roughly **52 percentage points**
+between ACB and MBB. NPL did drift up, 1.42% → 1.45%, but coverage *rose* 92.24% → 93.63%, which is
+the opposite of a bank being forced to provide.
+
+**So the read-across is the finding, not the miss.** The miss itself is unremarkable — a broker was
+20% low. What is worth keeping is that **"peers are showing X, therefore this bank will show X" was
+tested prospectively and failed**, on three banks in one quarter, and that the 30-Jul withdrawal was
+correct for the right reason: when MBB's *own* Q1 provisioning turned out to be +15.7% against PBT
++14.8%, the bank-specific evidence contradicted the peer inference, and the bank-specific evidence
+was right.
+
+**One thing this does not resolve.** H1 provisioning is still unknown — the figure circulating in
+Q2-context coverage was the Q1 number reappearing (see `assumptions.json`
+`_TWO_FIGURES_IN_THE_SAME_COVERAGE_WERE_STALE_2026_07_31`). So the *mechanism* the read named is
+still unmeasured; only its *conclusion* has been falsified.
+
+**And the forecast's second clause is now live against the print.** "FY26 base ₫30.5tn" implies FY
+PBT ₫38,125bn. H1 PBT is **₫20,188bn**, so the base branch requires H2 to **fall 11.2%** and the bear
+branch to fall 26.6%, against a market whose bank profits are seasonally second-half weighted.
+**That is not a miss on a forecast, it is a scenario tree that has stopped discriminating** — which
+is exactly what the 28-Jul pre-registered H2 table said the ≥₫20,000bn row would mean. Escalated for
+a human rebuild; branch re-derivation is not an automated edit.
+
+**Scored 1 hit, 3 misses across four resolved forecasts.**
 
 ## Resolution rules, pre-registered 2026-07-29 03:53 — before the numbers land
 
@@ -330,3 +375,6 @@ made and caught — they were real and they are worth not repeating._
 | 2026-07-29 | **Fifth period mislabel in four days, and the closest to landing.** A search summary opened: 'KDH core profit in **Q2 2026** reached approximately 53bn, declining 57% YoY, due to Gladia handover delays.' Past tense, a specific figure, a stated cause — it read exactly like the print that resolves forecast #1, one day before that print is due. It is **Q1**: the summary's own next paragraph dates the 53bn by the 285bn extraordinary gain and the 6 units handed, both unmistakably Q1 and both already on file, and the underlying article is dated 01-Jul and titled 'brokers diverge in Q2 **forecasts**'. The lede attached the wrong quarter to a number its own body dated correctly. | **Never believe a summary's opening sentence about a period without reading the rest of the summary.** The lede is where the period error lives, because that is the sentence written by whoever compressed the article. Where the body supplies dating evidence — a named one-off, a unit count, an article date — that evidence outranks the lede's label. Applied here it also produced a free cross-check on a number we hold, which is the second reason to read on rather than stop at the headline. |
 | 2026-07-29 | **First scored forecast is a miss, and it was self-inconsistent before the print.** HPG forecast #2 predicted Q2 core NPAT/tonne below 1.60m; it came in at 1.835m. But the spread bridge's own TIMING note, written the same day, said Q2 burns cheap Q1 inputs and a strong Q2 does NOT refute the thesis. The forecast and the note contradicted each other and both sat on file for three days. The 28-Jul consistency audit checked fields against fields and would never have caught it. | Before a forecast is logged it gets checked against every standing NOTE on the same variable, not just against the data. Where a note explains why a period is uninformative, no forecast is registered on that period - it is registered on the period that actually tests the thesis |
 
+| 2026-07-31 | **A peer read-across was tested prospectively and failed by 52 percentage points.** ACB printed Q2 PBT −12% and VIB −8%, both on provisioning; I registered a read that MBB would show the same shape. **MBB printed +40%**, with net interest income +36.6% and NPL coverage *rising* 92.24% → 93.63%. Three banks, one sector, one quarter, opposite outcomes. The read survived a week because it was never stated as what it was: an inference about a *sector*, applied to a *bank*, with no channel named through which the sector effect would reach that bank's book. | **A peer read-across is a hypothesis about a shared mechanism, and it must name the mechanism and the exposure before it is registered.** "Peers are showing X" is a reason to go and measure the bank's own credit cost, not a substitute for measuring it. Where bank-specific evidence contradicts the peer inference — as MBB's own Q1 provisioning did, +15.7% against PBT +14.8% — **the bank-specific evidence outranks it**, and the withdrawal happens then, not after the print. That sequencing is the one part of this that worked. |
+| 2026-07-31 | **A new figure that exactly equalled an old one was almost logged as new.** Q2-context coverage of MBB's filing carried "provisioning ₫3,455bn (+15.7%)" and "customer loans ₫1.12 million tỷ (+3.3%)" alongside genuine Q2 figures. **Both were the Q1 numbers already in this file, to the digit** — `q1_provisions` 3,455, `q1_provisions_yoy` 0.157, `q1_credit_growth_ytd` 0.033 — while the true Q2 loan figure was ₫1.22 million tỷ at +13.2% YTD. The provisioning one was the more dangerous: provisioning is the exact mechanism the pre-registered read named, so logging it would have manufactured a test the evidence could not support. | **Exact equality with a figure already on file is a period flag, not a corroboration.** Charter §3's period check now runs specifically against the file's own prior-period values, not only against the source's labelling — the tell here was internal, available without any further search, and it is the cheapest check in the list. Note what passed the same test and was kept: NPL 1.45% and coverage 93.63% were both stated *as changes from* the Q1 values, which is what a genuine new-period figure looks like. |
+| 2026-07-31 | **Two scenario trees failed in one week in opposite directions, and the confidence field could not express either.** KDH's branches were contradicted from *above* — Q2 profit ≈ zero against a bear branch needing 80 units a year. MBB's are contradicted from *below* — H1 PBT ₫20,188bn leaves the base branch requiring H2 to fall 11.2% and the bull branch needing +4.3%, in a market where bank profit is second-half weighted. In both cases the routine's rule (estimate → actual raises confidence) would have *amplified branches the print had just invalidated*, flattering a bad quarter in one case and understating a good one in the other. | **`confidence` multiplies `fy26e_npat`, so it can only be raised when the branches are still believed.** Where a print invalidates the branches in either direction, the correct action is to escalate for re-derivation, never to move the scalar. For MBB no deviation was needed — charter §2 already forbids raising confidence on T5 press about a filing, and that rule was applied here exactly as it was on 29-Jul. **The rule that stops you being flattered is the same rule that stops you being conservative; it has to bind in both directions or it binds in neither.** |
