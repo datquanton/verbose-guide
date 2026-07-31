@@ -62,6 +62,26 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **11:53 ICT · MARKET (lane 4) — the index has rallied 3.5% since 24-Jul, which may have REVERSED
+  the direction of the price-staleness error I measured yesterday.**
+  **VN-Index closed 30-Jul at 1,745**, up nearly 40 points — a third consecutive advance, with
+  **foreign investors net buying ~₫677bn** after the selling logged earlier in the week.
+  **The path:** Q2 peak >1,927 → **1,686** (24-Jul) → 1,704.68 (29-Jul) → **1,745** (30-Jul). That is
+  **~+3.5% from the 24-Jul level this file's prices are presumed to sit at.**
+  **Why this is not simply more of the same.** On 30-Jul I recorded that every dated observation sat
+  *below* the file's figures — TCB −3.42%, MBB −0.68%, KDH −0.28% — and concluded expected returns
+  were **systematically understated**. A 3.5% rally since 24-Jul pushes actual prices back **up**,
+  potentially above the file's numbers. **So the error may have changed sign during the week.** The
+  honest statement now is that the staleness is **ambiguous in direction and larger in magnitude**
+  than when first measured — which makes `OPEN-DECISIONS` item 2 **more** urgent, not less. An error
+  of known sign can be reasoned around; one of unknown sign cannot.
+  **Not inferring per-name prices from the index.** Banks fell on 29-Jul while the index rose, so the
+  book's largest cluster has not tracked the market. Applying an index move to eight names would
+  manufacture precision that does not exist.
+  **One pre-positioning note, recorded without inference:** MCH was among the top foreign buys
+  (₫75.87bn) on 30-Jul. **MCH is the other name joining VN30 alongside TCX on 03-Aug.** TCX did not
+  appear in the top-five buy list. One session's flow list is not evidence about the rebalance.
+
 - **08:53 ICT · MACRO (lane 1) — Vietnam CPI is 4.38%, not the 3.5% this repo assumes. Two
   consequences, one of them a stale number in our own risk model.**
   **The level.** H1/2026 CPI **+4.38% YoY**, core inflation **+4.12%**. The path is **accelerating**:
