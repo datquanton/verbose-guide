@@ -63,6 +63,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **04:53 ICT · HPG (lane 3) — `OPEN-DECISIONS` item 13 moved FURTHER from resolution. A third candidate
+  figure appeared for the divestment gain.**
+  **New (T5, and explicitly approximate):** press states that in Q1/2026 **approximately ₫3,800bn** came
+  from the capital transfer at the **Phố Nối** urban project.
+  **There are now three numbers for one line:** **₫4,123bn** as carried in `q1_divestment_gain`;
+  **₫4,010bn** as implied by `q1_npat` 9,056 − `q1_core_npat` 5,046; and **~₫3,800bn** from this sweep.
+  ₫3,800bn is **7.8% below** the file's figure and **5.2% below** the implied one — **too far to be a
+  rounding of either.**
+  **It weakens the explanation this file preferred.** The existing note offers *"4,123 is pre-tax and
+  4,010 is post-tax, implying ₫113bn of tax = a 2.7% effective rate — possible but not obvious."* **A
+  competing reading now has support: ~₫3,800bn is Phố Nối *alone*, while ₫4,123bn is total divestment or
+  other income including ~₫300bn of something else.** On that reading the ₫113bn gap is **composition, not
+  tax**, and the tax story is unnecessary. Note the file's H1 non-steel reconciliation assumed the whole
+  ₫4,123bn was Phố Nối (*"Phố Nối one-off 4,123 + agriculture ~648 = 4,771"*), **so it inherits the same
+  ambiguity.** Neither reading is established and neither is adopted.
+  **What it costs, quantified.** `q1_core_npat / q1_volume_mt` is the **calibration anchor of the spread
+  bridge** — `conversion_usd_t` 114 was solved backwards to reproduce it.
+  | Gain | Core | Anchor |
+  |---|---:|---:|
+  | ₫4,123bn (file) | ₫4,933bn | **1.644m/t** |
+  | ₫4,010bn (implied) | ₫5,046bn | **1.682m/t** |
+  | ~₫3,800bn (new) | ₫5,256bn | **1.752m/t** |
+  **The anchor now ranges 1.644–1.752m/t, a 6.5% spread — and the new figure moves it in the OPPOSITE
+  direction from the only alternative previously considered.** The file had contemplated the anchor being
+  *lower* than 1.68; ₫3,800bn makes it *higher*. **The bridge's entire cost structure is calibrated off
+  this one number**, and every branch comparison made this week (bear 1.25 / base 1.60 / bull 1.85, and
+  last night's spot case of 0.86–1.10m/t) sits on it.
+  **A check that does pass, recorded so it is not re-litigated:** ₫4,123bn is a **Q1** figure, not H1 —
+  Q1 9,056 + Q2 6,424 = 15,480 = stated H1 exactly, so the quarters are clean and the gain sits inside Q1.
+  **Nothing changed.** `q1_divestment_gain` is **not** edited: three candidate values is a reason to
+  escalate, not to pick. The resolving document is HPG's statement note on other income, **which this
+  environment cannot reach** — item 17 again, the fifth front tonight.
+
 - **03:53 ICT · TCB (lane 3) — the 28-Jul credit-vs-loans inference is INVERTED and withdrawn. And I
   nearly made a second, worse error in the same place.**
   **What the company actually says:** **customer loan growth in H1 was 10.4%**, to a consolidated
