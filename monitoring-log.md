@@ -11,7 +11,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%, Q2 profit ≈ zero). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
-| TCX VN30 entry | 2026-08-03 | 4 |
+| TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -62,6 +62,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-31
+
+- **CORRECTION to this file's own 15:53 escalation · 18:53 ICT · TCX (lane 4) — the VN30 flow happened
+  TODAY, not Monday. Trigger 5 is RESOLVED, not pending.**
+  **What I wrote at 15:53:** *"TCX joins VN30 on MONDAY 3 AUGUST. Today is the last session before it."*
+  The escalation was correctly raised under the rule — a dated catalyst inside 5 sessions of a proposed
+  trade — but **the characterisation was wrong in the way that matters.**
+  **Two independent sources this sweep:** the ETFs tracking VN30 **complete their portfolio restructuring
+  on 31-July-2026**, ahead of the new basket's **effective** date of 03-Aug. **That is the standard
+  mechanic — index funds trade at the close of the last session *before* an effective date, not on it.**
+  **So the buying was today. By Monday it is done.** Anyone acting on my 15:53 wording would have expected
+  the flow on Monday and been a session late.
+  **An effective date is not a flow date.** Same species as everything else caught this week: two
+  different quantities sharing one label. **The date gate has carried "3-Aug" since 26-Jul and was never
+  wrong about the index — it was silently wrong about when the money moves, because nobody asked.**
+  **The sizing on file is confirmed again, and now by a third party's own framing.** ACBS: TCX **1.3m
+  shares, ₫59bn**, against the ~₫60bn and 0.073% of market cap this file carries. Rest of the rebalance:
+  MCH **+₫384bn**, FPT +₫164bn, VHM +₫63bn, against **TPB −₫35bn and PLX −₫83bn** on removal; **>₫486bn
+  net** across the basket. **And a fourth-party headline now asks why "the ETFs bought a negligible
+  amount"** of the two additions — independent corroboration of the conclusion this file reached on
+  30-Jul, that the VN30 catalyst is a rounding error against an ₫82,215bn market cap.
+  **Nothing changed** — no branch, probability, weight or confidence. **No trade was proposed as executed
+  and none was placed.** TCX ranks first on earnings and multiple, never on this event. The escalation
+  existed to put a date in front of a human before it passed; **what it should have said is that the date
+  had effectively already passed.**
 
 - **17:53 ICT · VPX (lane 3) — the CAEX option had a probability in this file and no price tag. It has
   one now: ₫1,097bn already spent.**
