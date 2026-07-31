@@ -63,6 +63,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **03:53 ICT · TCB (lane 3) — the 28-Jul credit-vs-loans inference is INVERTED and withdrawn. And I
+  nearly made a second, worse error in the same place.**
+  **What the company actually says:** **customer loan growth in H1 was 10.4%**, to a consolidated
+  **₫835,813bn**. And **on a standalone basis, including infrastructure and social-housing loans that are
+  excluded from credit limits, credit growth reached 14.3%.**
+  **The 28-Jul note assigned those two rates to the wrong measures.** It recorded *"TCB's Q2 release states
+  CREDIT grew +10.39%"* and concluded that since the model implied loans +14.46%, **the non-loan part of
+  credit — chiefly the corporate bond book — must have shrunk**, *"every plausible starting point implies a
+  large decline."* **+10.4% is LOANS and +14.3% is CREDIT — the opposite assignment.** Credit grew *faster*
+  than loans, so **the non-loan component expanded. It did not shrink.**
+  **The second error, which I did not make but came close to.** Having inverted the rates, the tempting
+  next step was to compute the gap — roughly **₫40,700bn** — and note it sits beside the **₫39,000–40,000bn**
+  of corporate real-estate exposure TCB cut from its Q3/25 peak **and** the **₫44,500bn** Masterise raised
+  in H1, and call it evidence that exposure moved from loans into bonds on one balance sheet. **That would
+  have been wrong.** The source **names** the gap: **infrastructure and social-housing lending, quota-exempt.**
+  Those are *loans*, not bonds, exempt for policy reasons unrelated to Masterise. **The dramatic reading was
+  available, arithmetically seductive and false — avoided only by running one more search instead of
+  stopping at a reconciliation that worked.**
+  **So the Masterise test is NOT settled.** The 28-Jul note called the bond balance *"a testable version of
+  the Masterise hypothesis."* That test still needs the actual **corporate-bond / investment-securities line
+  at 30-Jun-2026 vs 31-Dec-2025**, which is **still not in hand.** The 14.3-vs-10.4 gap does not test it and
+  must not be used as though it did. **TCB's own Q2 press-release PDF was located this sweep and returns
+  proxy 403.**
+  **What it does to the branches, and it is good news.** The model's `loans_start_fy` 830,000 →
+  `loans_mid_fy` 950,000 is **+14.46% against a reported +14.3% — a 0.14% gap.** **The model's pair is on
+  the right basis and is vindicated; it was never mismatched.** The note warned the correct reading
+  *"roughly doubles what the second half has to deliver."* **It does not.** Against `credit_growth_fy`
+  16/18/20%, H2 needs **+1.49% / +3.24% / +4.99%** — the note's *lower* set. **The doubling concern is
+  withdrawn.**
+  **Independent confirmation of the field's meaning:** retail+SME credit ₫407,000bn + corporate credit
+  ₫542,400bn = **₫949,400bn**, reproducing `loans_mid_fy` 950,000 and confirming it is a **credit** figure,
+  not a loans figure.
+  **One new thing worth having: deposits grew 4.8% to ₫697,400bn while loans grew 10.4% — loans outgrew
+  deposits by 2.2× in the half.** Same funding-gap shape as MBB, and it bears directly on the 31-Jul
+  interbank finding. Total assets ₫1,273,000bn.
+
+- **03:53 ICT · ESCALATION (structural) — the 403 wall is now suppressing THREE confidence restorations
+  across 51.5% of the book.**
+  TCB's confidence was cut **0.85 → 0.80** on 28-Jul *specifically because* this discrepancy left the
+  forward credit driver unverified. **The discrepancy is now explained and the model's pair vindicated — so
+  the stated basis for the cut is gone.** Confidence is **not** raised: T5 press, and charter §2 permits a
+  rise only on T1–T2.
+  **That is the third name in 24 hours in exactly this position.** MBB held at **0.55** on a filed quarter;
+  VPB held at **0.70** after item 1 resolved; TCB held at **0.80** after this resolved. **In all three the
+  evidential objection has been answered, and in all three the raise is blocked because the evidence is
+  press rather than the document. Those three names are 51.5% of the book.**
+  **The rule is right and the situation is not.** Confidence multiplies `fy26e_npat`, so a systematic
+  inability to restore it **biases the whole book's expected returns downward — and selectively, on the
+  three largest bank positions**, because those are precisely the names whose primary documents sit behind
+  hosts that 403 from this environment. **HOSE, MB IR, `federalregister.gov`, and now techcombank.com's own
+  press-release PDF have all refused this session.** `OPEN-DECISIONS` **item 17 is no longer an access
+  inconvenience; it is suppressing three confidence restorations across half the book.** Escalated as one
+  structural finding rather than three separate ones.
+
 - **02:53 ICT · VPB (lane 3) — `OPEN-DECISIONS` item 1, the top blocking item in the repo, is RESOLVED.
   And it resolves in VPB's favour.**
   **The missing figure: consolidated customer loans reached ~₫1,160,000bn at end-Q2, +23% on end-2025.**
