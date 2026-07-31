@@ -61,6 +61,38 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-01
+
+- **00:53 ICT · KDH / PROPERTY (lane 7) — a peer's founding family bought in the same July window. This
+  bounds the KDH insider signal rather than overturning it.**
+  **Nam Long (NLG)**, an HCMC residential developer on the competitor list, disclosed that **Nguyễn Nam and
+  Nguyễn Hiệp — two sons of Chairman Nguyễn Xuân Quang — each bought 1 million NLG shares between 8 and 30
+  July**, by negotiated and matched orders. T5.
+  **Why it qualifies a signal already on file.** The 29-Jul note reads KDH's registration as *"founding-family
+  accumulation routed through a recently appointed executive"* and observes that a family buying after a fall
+  is more often positive than negative. **That reading treats the buy as information about KDH.** If a peer's
+  founding family is doing the same thing in the same weeks, **part of the signal may be about HCMC
+  residential property, or simply about price weakness**, rather than about KDH — the index fell to 1,686 on
+  24-Jul from a Q2 peak above 1,927, which is a reason for any founder to buy.
+  **Stated proportionately, and the scale difference is large.** NLG: **2m shares across two buyers,
+  completed 8–30 Jul.** KDH: **20m shares by one buyer, 0.056% → 1.838% — a thirty-three-fold stake
+  increase — registered 20-Jul with the window still open to 21-Aug.** Two completed 1m purchases and one
+  20m registration are not the same event. **This does not overturn the KDH reading; it bounds it** — the
+  KDH buy is no longer the only founding-family purchase in HCMC residential this July, so its
+  name-specific content is smaller than a single-name reading implies.
+  **The method point is the durable part.** Yesterday a peer read-across **failed** — ACB −12% and VIB −8%
+  did not predict MBB's +40% — and the lesson was that a read-across must name the mechanism reaching the
+  specific book. **The mirror obligation is this one: before treating a signal as name-specific, check
+  whether peers show it too.** Both are the same failure to ask what is shared and what is not. This sweep
+  ran the check in the second direction because yesterday's failure argued for it.
+  **Also noted, not a holding:** **SSI goes ex 17-Aug** for a 10% cash dividend plus a **5:1 capital
+  increase issuing >500.2m new shares**, cash paid from 14-Sep. Broker-cluster context only.
+  **Nothing modelled, no confidence moved.**
+  **Lane 2 checked and clean:** the corrosion-resistant steel (CORE) case on Vietnam ran its course in
+  2024–25 — petitions Sep-2024, CVD preliminary Feb-2025, **final determinations 26-Aug-2025** — and **no
+  new Vietnam steel petition or CORE review has been filed in 2026.** Recorded as a negative result so the
+  next sweep does not re-search it.
+
 ## 2026-07-31
 
 - **23:53 ICT · KDH / PROPERTY (lane 5) — a gazetted regulation has been in force for a month and this
