@@ -63,6 +63,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **ESCALATION (trigger 5 — a dated catalyst lands one session from a proposed trade) · 15:53 ICT ·
+  TCX joins VN30 on MONDAY 3 AUGUST. Today is the last session before it.**
+  **Trigger 5 of `DECISION-FRAMEWORK.md` §4 reads: *a dated catalyst lands within 5 sessions of a
+  proposed trade in that name.* TCX carries the engine's joint-largest proposed ADD, +5.5pp from 5.5%
+  to 11.0%, and it is ranked #1 on expected return at +18.5%. The catalyst is one session away.**
+  **This is a calendar fact, not a new finding** — the date has been on the gate table since 26-Jul.
+  It is escalated now because it has never been named as a trigger and today is the last chance to
+  name it before the event. **Stated flatly: nothing here says buy or don't buy.** The file's own
+  sizing of the flow is **~₫60bn of ETF demand = 0.073% of market cap**, which is small; and the
+  file's own TCX note says the risk in the name is **the multiple (2.49x P/B, priciest in the book),
+  not the earnings.** **July CPI publishes the same day** — H1 ran +4.38% and accelerating, against
+  `risk.py`'s 3.5% real-return threshold. Two dated items, one session, one name proposed for a
+  double-size add. A human should see that before Monday, not after.
+
+- **14:53 ICT · HPG (lane 5) — Hoa Phat's OWN August HRC price lands almost exactly on the model's
+  spot input. This cuts AGAINST the bear case I have been accumulating for three days.**
+  **The fact** (two independent outlets, T5): HPG offered SAE1006/SS400 HRC for **August delivery at
+  US$546/t CFR** north and central Vietnam, **US$547/t** south, and **US$535/t CFR HCMC as a net
+  volume price** for orders ≥20,000t. That is **−US$34/t on the July offer**, so **July was ≈US$580/t**.
+  **Formosa Ha Tinh followed with a ~US$40/t cut across August–September.** Reasons given: weak
+  rainy-season demand, a **reduced EU export quota** for Vietnamese steel, and slower Brazilian buying.
+  **Why this is not more bear evidence, which is what I expected to write.** Since 26-Jul this file has
+  accumulated spread-bear items — Formosa's earlier cut, Indian HRC landed at 535, ore to 115, coal to
+  220 — and a US$34/t cut reads like the next one. **It is not. The bridge prices spot HRC at US$539.
+  HPG's post-cut list is 546–547 (+1.4% ABOVE the model) and its volume price is 535 (−0.7% BELOW it).**
+  **The model's spot input sits almost exactly between Hoa Phat's own list and volume prices** — it is
+  the best-calibrated number in the bridge, and **the August cut is already inside it**, not a further
+  leg down from it. This is HPG's own offer, which is a better instrument than any third-party
+  benchmark the file has used.
+  **What it does change is the shape of Q3.** On the bridge's sensitivity — **US$20/t of HRC = ₫0.42m/t
+  of NPAT** — the July→August step is worth about **₫0.71m/t**, large against branches of bear 1.25 /
+  base 1.60 / bull 1.85 and a Q1 actual of 1.68. **But Q3 straddles the step**: July ≈580, August ≈546,
+  September unknown. A quarter averaging those sits **above** the 539 spot case, so the proposed
+  `spot_persists` branch (`OPEN-DECISIONS` item 6) describes **Q4** better than Q3. **Reading a soft Q3
+  as vindication of the spot case would credit it a quarter early.**
+  **And it makes a known limitation live.** On 30-Jul this file logged HPG **raising** domestic rebar
+  ₫100/kg from 27-Jul on scrap cost push. In the same week it **cut** HRC US$34/t on weak demand and
+  export quota. **Rebar up, HRC down, same company, same week** — not a contradiction, two products in
+  two markets. The bridge notes at line 89 that "product mix is ignored"; that was a caveat and is now
+  a measured divergence, and the H1 basket is construction steel + coil + HRC + billet, not HRC alone.
+  **New structural fact: the EU quota reduction is a SECOND trade channel bearing on HPG**, alongside
+  the US rebar case, and this file had no record of it.
+  **Confidence held at 0.70.** The routine says changed evidence quality moves confidence — this does
+  not change evidence quality on *earnings*, which are already a filed Q2 actual. It bears on the
+  forward branches, and it bears **against** them: the bridge already records that at spot **no branch
+  including bear describes the world**, and this evidence confirms the spot level. Raising confidence
+  would multiply branches this datapoint says are wrong. **Third name this week where confidence was
+  held for that reason** — KDH (branches contradicted from above), MBB (from below), now HPG (spot
+  outside the tree entirely).
+
+- **14:53 ICT · BANKS (lane 6) — VIB's Q2 provisioning MORE THAN DOUBLED, which sharpens this
+  morning's read-across finding rather than overturning it.**
+  **VIB Q2/2026 credit-risk provisioning +101.6% to ₫1,280bn**, against PBT −8.24%. Also filed this
+  week: **BaoViet Bank Q2 profit −50%** on provisioning, **VietABank Q2 provisioning ~19× off a tiny
+  base**. **So the sector provisioning cycle was REAL** — the mechanism I identified existed and was
+  correctly named. **What failed was the transmission to MBB, not the observation.** MBB printed Q2 PBT
+  **+40%** with net interest income +36.55% and coverage *rising* to 93.63% in the same quarter.
+  **The corrected lesson is narrower and more useful than "read-across is unreliable":** several
+  Vietnamese banks did provision heavily in Q2/26; MBB visibly did not. **Which banks a shared driver
+  reaches, and which it does not, is the question** — and MBB's own Q1 (+15.7% provisioning vs PBT
+  +14.8%) was the bank-specific evidence that answered it before the print.
+  **Still the gap: MBB's H1 provisioning figure.** A second search this sweep again returned only the
+  Q1 number, ₫3,454.8bn +15.7%, **explicitly labelled Q1** — which independently re-confirms this
+  morning's call that the figure circulating in Q2-context coverage was the Q1 one.
+
 - **14:53 ICT · MBB (lane 3) — IT FILED. Q2 PBT ₫10,560bn, +40%. The forecast misses on the high
   side, the pre-registered read is wrong, and two of the four figures in the coverage were stale.**
   **The print** (T5, press reporting the filed statement): Q2 PBT **₫10,560bn, +40%**; Q2 NPAT
