@@ -63,6 +63,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **21:53 ICT · MACRO / INDEX (lanes 1, 4) — foreigners have net sold ₫92,000bn in seven months, on track
+  for a FOURTH straight year. This file had no foreign-flow history at all, and it bears on the FTSE
+  thesis.**
+  **The trajectory:** **>₫62,000bn** to end-May → **~₫80,000bn** to end-June → **₫92,000bn** to end-July.
+  **July alone added ~₫12,000bn.** At FX 26,300 the seven-month figure is about **US$3.5bn**. And **2026
+  is on track to be the fourth consecutive year of foreign net selling.**
+  **Why this bears on a position rather than being background.** Calibration forecast #7 prices the TCX
+  FTSE event at **EV +6.2%** with branches +20%/+5%/−15%. `OPEN-DECISIONS` item 5 already asks whether that
+  tree should be re-weighted or retired on two grounds — **inclusion is phased in tranches to Sep-2027**,
+  and **the tree is not wired into `decide.py` at all.** **This is a third, independent ground.** A
+  headline found this sweep states it flatly: ***"ahead of the upgrade, foreigners have net sold more than
+  ₫72,000bn in these three stocks."*** Foreign money is leaving **into** the upgrade, not positioning ahead
+  of it.
+  **Stated proportionately, because the obvious reading is too strong.** Aggregate foreign net selling is
+  dominated by **active** money; FTSE inclusion brings **passive** index money — a different pool with
+  different mandates. **₫92,000bn of active outflow does not predict the size or sign of passive inflow,
+  and the two must not be netted.** What it *does* say is that **the marginal foreign dollar in this market
+  has been negative for four years running**, which is the assumption the tree's +20% bull branch quietly
+  reverses. **That is a reason for a human to re-weight the tree, not evidence the upgrade fails.**
+  **No probability moved.** Forecast #7 resolves ~21-Oct and was pre-registered; adjusting it now, on
+  evidence that does not bear on the inclusion mechanics, would be exactly the post-hoc adjustment
+  pre-registration exists to prevent.
+
+- **21:53 ICT · MARKET (lane 4) — where the book actually sits going into August.**
+  **Last session of the month and the last before the weekend. VN-Index closed 1,735.78, −8.9 points
+  (−0.51%)**, with roughly **200 decliners against 119 advancers** — a broad fade, not an index-level
+  artefact. VIC was the main drag.
+  **Foreign flow on HOSE: net sell ₫307bn** — bought 62m shares worth ₫2,462.6bn, sold 93.5m worth
+  ₫2,769.4bn. **Two figures circulated and the better-evidenced one was taken:** another source gives
+  "more than ₫360bn" with no breakdown, while **₫307bn arrives with one that closes arithmetically**
+  (2,769.4 − 2,462.6 = 306.8). The gap is probably HOSE-only vs whole-market, or matched-order vs
+  including negotiated trades. **Not resolved; the reconciling figure was used.** Top buys VCB +₫270bn,
+  FPT +₫119bn, VIC +₫81bn; top sell VHM −₫249bn.
+  **What it does to `OPEN-DECISIONS` item 2.** The file's prices are presumed to sit at the 24-Jul level of
+  **1,686**. The path is now **1,686 → 1,704.68 (29-Jul) → 1,745 (30-Jul) → 1,735.78 (31-Jul)**, so the
+  index is **+2.95% above the presumed price date, down from +3.5% yesterday.** The 11:53 reading — that
+  the staleness error may have **changed sign** — is unchanged, with the magnitude eased slightly.
+  **No price applied to any name:** applying an index move to eight holdings would manufacture precision
+  that does not exist. **Item 2 remains the highest-value open item** and still needs a human to refresh
+  eight prices with dates attached.
+
 - **20:53 ICT · HPG (lane 5) — all three spread inputs pinned at once for the first time. The July move
   cost ₫0.44m/t, and it qualifies what I wrote six hours ago.**
   **At 30-Jul, on this file's own benchmarks:** iron ore 62% Fe CFR China (SGX) **US$98.25/t**; premium
