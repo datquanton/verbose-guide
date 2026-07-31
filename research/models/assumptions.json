@@ -560,7 +560,12 @@
    "guidance_pbt": [
     35000,
     37500
-   ]
+   ],
+   "cash_dividend_record_date": "2026-05-20",
+   "cash_dividend_ex_date": "2026-05-19",
+   "bonus_shares_new": 4250000000,
+   "charter_capital_after_bn": 113700,
+   "_A_WITHDRAWN_CLAIM_SURVIVED_IN_THE_INDEX_FILE_FOR_TWO_DAYS_2026_07_31": "A CORRECTION MADE IN THIS FILE DID NOT PROPAGATE TO THE FILE A HUMAN ACTUALLY READS. On 29-Jul 23:53 valuation._CASH_YIELD_POPULATED_FOR_ONE_OF_EIGHT_2026_07_28 recorded: 'THE SAME-DAY CLAIM IS WITHDRAWN. It was never true' - MBB's cash was record 10-JUL and payment from 17-JUL, not 10-Jun, so TCB and MBB did NOT pay on the same day. OPEN-DECISIONS ITEM 3 STILL CARRIED THE WITHDRAWN ARGUMENT VERBATIM until this sweep, TWO DAYS LATER - and item 3 sits in section 1, 'Blocking a live recommendation', on the 35% position the engine wants to cut 15pp. THAT IS THE 29-JUL LESSON FAILING ON ITS OWN INSTANCE. That lesson reads: 'where the same fact lives in two files, the sweep reconciles them rather than picking one.' It was written ABOUT THIS EXACT FACT and then not applied to the second copy of it. A data file and an index file diverged, and the index file - the one that exists to be read by a person deciding what to act on - held the wrong version. A WITHDRAWN CLAIM IS WORSE THERE THAN IN A DATA BLOCK, because the index is read as a summary of settled findings. THE SUBSTANTIVE ISSUE SURVIVES AND IS BROADER WITHOUT THE BAD ARGUMENT. cash_yield is populated for one of eight, on a 'pending' premise that was false for that one; three names are known H1-2026 cash payers (TCB 700 paid 10-Jun, MBB 1,000 paid 17-Jul, VPB 500 paid 25-May) and all three are BANKS. The same-day coincidence was never load-bearing - it was rhetorical - which is exactly why it survived. NEW DETAIL THIS SWEEP, T5: TCB's cash had RECORD DATE 20-MAY-2026 and EX-DATE 19-MAY, with payment in June (10-Jun already on file) - so the record and payment dates are five weeks apart, which is itself the reason the 10-Jun/10-Jul confusion was easy to make. The 60% bonus is >4.25 BILLION new shares taking charter capital to ~113,700bn, the largest of any private Vietnamese credit institution. STILL NO RECORD DATE ANNOUNCED for the bonus - so TCB's 60%, MBB's 15% stock dividend and MBB's 10:1 rights are now three undated pending corporate actions across two banks. Nothing modelled; no confidence moved (T5, charter s2)."
   },
   "model": {
    "noninterest_share_of_toi": 0.35,

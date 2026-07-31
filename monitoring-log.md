@@ -63,6 +63,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **19:53 ICT · TCB (lane 3) — a claim withdrawn two days ago was still live in the file a human
+  actually reads.**
+  **On 29-Jul 23:53 this repo withdrew the "TCB and MBB paid on the same day" claim** — MBB's cash was
+  record **10-Jul**, payment from **17-Jul**, not 10-Jun, so the two banks paid **five weeks apart**. The
+  withdrawal went into `assumptions.json`. **`OPEN-DECISIONS` item 3 still carried the withdrawn argument
+  verbatim until this sweep** — and item 3 sits in **§1, "Blocking a live recommendation"**, on the **35%
+  position the engine wants to cut 15pp.** Corrected now.
+  **This is the 29-Jul lesson failing on its own instance.** That lesson reads: *"where the same fact
+  lives in two files, the sweep reconciles them rather than picking one."* **It was written about this
+  exact fact and then not applied to the second copy of it.** A data file and an index file diverged, and
+  **the index file — the one that exists to be read by a person deciding what to act on — held the wrong
+  version.** A withdrawn claim is worse there than in a data block, because an index is read as a summary
+  of settled findings.
+  **The substantive issue survives, and is broader without the bad argument.** `cash_yield` is populated
+  for one of eight, on a "pending" premise that was false for that one. **Three of the eight are known
+  H1-2026 cash payers — TCB ₫700 paid 10-Jun (2.39%), MBB ₫1,000 paid 17-Jul (4.54%), VPB ₫500 paid
+  25-May (2.00%) — and the field records exactly one. All three are banks.** The same-day coincidence was
+  never load-bearing; it was rhetorical, **which is precisely why it survived unchecked.**
+  **New detail this sweep (T5):** TCB's cash had **record date 20-May-2026, ex-date 19-May**, payment in
+  June — so record and payment sit **five weeks apart**, which is itself why the 10-Jun/10-Jul confusion
+  was easy to make. The **60% bonus is >4.25 billion new shares**, taking charter capital to **~₫113,700bn
+  — the largest of any private Vietnamese credit institution**. **Still no record date announced for the
+  bonus.** So **TCB's 60%, MBB's 15% stock dividend and MBB's 10:1 rights are now three undated pending
+  corporate actions across two banks** — one of them deeply dilutive to anyone who does not take it up.
+  Nothing modelled, no confidence moved (T5, charter §2).
+
+- **19:53 ICT · VCI (lane 3) — checked, nothing new; the file is already ahead of the press.**
+  A search on VCI's H1 pace returned Q2 PBT ₫270.8bn (+28%), NPAT ₫250.6bn (+36%), H1 PBT "nearly ₫675bn",
+  **29% of the ₫2,300bn FY plan**, prop book loss >₫430bn on FPT/MWG/KDH, negative operating cash flow
+  funded by borrowing. **All of it is on file, in more detail** — including the kill-criterion arithmetic
+  (₫598bn of Q3 PBT needed, **2.21× the Q2 actual and 1.51× the better Q1**) and the peer context that
+  denies the easy defence (**SSI finished H1 at 53% of its FY target against VCI's 29%**).
+  **One near-match handled as a near-match.** The file holds **H1 ₫667bn** with Q1 ₫396bn — and 396 + 270.8
+  = 666.8, so the file's figure **reconciles by arithmetic**. The press "nearly ₫675bn" would imply Q1 of
+  ₫404bn. **A ₫8bn gap, ~1.2%, and the conclusion is identical either way** (₫590bn vs ₫598bn needed —
+  still ~2.2× Q2). **The file's figure is kept because it is internally reconciled and the other is a
+  rounded phrase**, not because it is the one already there. Nothing changed.
+
 - **CORRECTION to this file's own 15:53 escalation · 18:53 ICT · TCX (lane 4) — the VN30 flow happened
   TODAY, not Monday. Trigger 5 is RESOLVED, not pending.**
   **What I wrote at 15:53:** *"TCX joins VN30 on MONDAY 3 AUGUST. Today is the last session before it."*
