@@ -63,6 +63,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **23:53 ICT · KDH / PROPERTY (lane 5) — a gazetted regulation has been in force for a month and this
+  repo has zero record of it. Third instance of the same failure in four days, and the second effective
+  01-JUL.**
+  **HCMC issued Decision 45/2026/QĐ-UBND** setting the 2026 **land-price adjustment coefficient (hệ số
+  K)**, **effective 01-July-2026** under Resolution 254/2025, which required every province and city to
+  publish a K coefficient by that date. **Formula K = K1 × K2 × K3, with K1 = 1 and K3 = 1 for 2026** — so
+  K reduces to a **project-type K2**. T1/T2, a gazetted municipal instrument.
+  **Searching this repo for "land-use fee", "bảng giá đất", "hệ số K", "Land Law" and "254/2025" returns
+  ZERO hits in `assumptions.json` and ZERO in `monitoring-log.md`.** Lane 5 explicitly covers *"HCMC
+  approvals, **land-fee/legal changes**, developer bonds"* — **that lane item has never produced
+  anything.**
+  **The pattern, third time in four days.** HPG's half-year volume disclosure sat unlogged three weeks
+  (28-Jul); **Circular 25/2026/TT-NHNN** sat unrecorded four weeks, **effective 01-Jul** (29-Jul); **this,
+  also effective 01-Jul, was never recorded at all.** The 29-Jul lesson said *"regulator gazettes now join
+  recurring operating disclosures as dated catalysts to be checked on their own cadence"* — **and it did
+  not extend**, because it was written about **SBV circulars** and this is a **municipal land decision**: a
+  different regulator, bearing on a different holding. **A lesson scoped to the regulator that produced it
+  does not generalise on its own.** And note that **two instruments took effect on the same date, 01-Jul,
+  and both were missed** — that date should have been watched as a cluster.
+  **Why it bears on the book.** Land-use fee is the **single largest cost input for a Vietnamese
+  residential developer**, computed as **land price table × K**. HCMC's **new land price table took effect
+  01-Jan-2026**, built on "market principles" under the 2024 Land Law, raising prices across most areas
+  with the largest increases reported at **eight times**; central districts rose modestly while the
+  fast-developing merged Bình Dương and Bà Rịa–Vũng Tàu units rose far more. **KDH is 20.3% of the book
+  with inventory above ₫23,000bn**, and **Gladia and Clarita are exactly the unlaunched or absorbing
+  projects on which the obligation crystallises.**
+  **The direction is not established, and the obvious reading is not being taken.** *"Land prices up,
+  therefore bad for developers"* is available and this file is not taking it: press frames Decision 45 as
+  intended to **tháo gỡ vướng mắc** — remove obstacles — in property procedures and financial obligations,
+  because **an unpublished K had itself been blocking valuations and approvals.** A higher table raises
+  fees; a published K unblocks stalled process. **The two cannot be netted from here.**
+  **What is not known, stated so a later sweep does not guess it:** KDH's **project-specific K2**, and
+  **which of its projects have already settled their land-use fee** — fees are assessed at assignment or
+  conversion, so projects already paid are unaffected by the new table regardless. Without both, any
+  number entering the model would be invented. **Escalated as `OPEN-DECISIONS` item 20; nothing modelled,
+  no branch, probability, weight or confidence touched.**
+
 - **22:53 ICT · BROKERS (lane 6) — VPS's IPO terms were never on file, and they are the first fresh public
   comparable for the cluster TCX sits in.**
   **Recorded now (T5):** ticker **VCK**, listing sought on HOSE; minimum offer **₫60,000/share** for up to
