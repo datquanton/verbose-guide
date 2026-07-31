@@ -63,6 +63,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **20:53 ICT · HPG (lane 5) — all three spread inputs pinned at once for the first time. The July move
+  cost ₫0.44m/t, and it qualifies what I wrote six hours ago.**
+  **At 30-Jul, on this file's own benchmarks:** iron ore 62% Fe CFR China (SGX) **US$98.25/t**; premium
+  hard coking coal FOB Australia **US$218.50/t**; plus HPG's own August HRC offer **US$546.50 list /
+  US$535 volume** (logged 14:53). **Modelled: ore 115, coal 220, HRC 539.**
+  **The benchmark identity was checked, which is not automatic here.** This file has already been burned
+  once substituting one benchmark for another (the US Midwest HRC $1,169 trap). The coal quote was not
+  accepted until the series reconciled: **₫238.9 (10-Jul) → 228.0 (27-Jul) → 218.5 (30-Jul)** is a smooth
+  decline on **one** index, not three different ones. Ore likewise: 97.70 → 98.25, flat.
+  **The July spread move, on the bridge's own gearing** (HRC ₫0.42m per $20/t · ore ₫0.34m per $10/t ·
+  coal ₫0.14m per $10/t):
+  | Blade | Move | Effect |
+  |---|---|---:|
+  | HRC | $580 (Jul offer) → $546.5 (Aug) | **−₫0.703m/t** |
+  | Coking coal | $238.9 → $218.5 | +₫0.286m/t |
+  | Iron ore | $97.70 → $98.25 | −₫0.019m/t |
+  | **Net** | | **−₫0.437m/t** |
+  **The coal relief clawed back 41% of the price cut and no more.**
+  **This qualifies my own 14:53 entry without overturning it.** That entry said HPG's August cut is
+  "already inside" the model's US$539 spot case. **True of the *level*, not of the *move*** — the level is
+  bracketed by the model, but July compressed the spread by ₫0.437m/t because costs fell less than prices.
+  **Both are correct and they answer different questions:** *is the model's input right* versus *which way
+  is the spread going*. Recorded because the first, read alone, sounds reassuring and the second does not.
+  **Where the spot case now sits.** The 27-Jul work put it at **₫0.83m/t**. Repriced on today's inputs:
+  **₫1.10m/t at HPG's list price, ₫0.86m/t at its volume price.** **Stated as a range on purpose** — the
+  bridge's 539 is an index and HPG's 546.5/535 are company offers, so a point estimate would be false
+  precision.
+  **The central finding holds and softens.** Spot economics remain **below the ₫1.25m bear branch on both
+  readings**, so it is still true that **no branch describes the world as it is**. But the gap has narrowed
+  from **₫0.42m/t on 27-Jul to ₫0.15–0.39m/t**, and the direction of travel since 26-Jul is *toward* the
+  model. **The 26-Jul "both cost blades moving against HPG" framing is now clearly superseded:** ore is
+  **14.6% below** modelled and coal **0.7% below** it.
+  **Nothing touched** — no branch, probability or confidence. Adding a `spot_persists` branch stays
+  `OPEN-DECISIONS` item 6 and human-only, and today makes it **more** pressing: the branch it would add is
+  now ₫0.86–1.10m/t, not the ₫0.36m/t the mis-logged ore originally implied.
+
 - **19:53 ICT · TCB (lane 3) — a claim withdrawn two days ago was still live in the file a human
   actually reads.**
   **On 29-Jul 23:53 this repo withdrew the "TCB and MBB paid on the same day" claim** — MBB's cash was
