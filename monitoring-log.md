@@ -63,6 +63,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **13:53 ICT · TCB / TCX (lane 5) — the HNX route works. The Masterise hypothesis now has structure,
+  and the link to our own book is stronger than the file had it.**
+  **`OPEN-DECISIONS` item 18 noted the Masterise question was "partly reachable via HNX bond
+  disclosures, which do not need the blocked PDFs." That route had never been tried.** It was tried
+  this sweep and it returned structure.
+  **Now pinned** (T5 press on HNX disclosures): the ₫44,500bn was raised by **six** Masterise-related
+  companies through **eight** separate offerings in H1/2026. **Coupons 9–10% p.a.**, maturities
+  **12–60 months**, most **collateralised**, and **registered and custodied by a securities company**.
+  **A named issuer, for the first time:** **Hưng Phát Invest Hà Nội** completed two private placements
+  totalling **₫9,300bn on 30-Jun-2026**, with bond debt now near **₫17,000bn**, exposed to **Grand
+  Marina Saigon** and **Cần Giờ**. Grand Marina Saigon is a flagship Masterise project.
+  **The link to our book is stronger than recorded.** **TCX holds about half the market share for
+  advising non-bank corporate bonds**, and has led that position for years *"within the ecosystem
+  containing major investors associated with projects like Masterise."* This file previously said only
+  that TCBS is "a major bond arranger." **Half the market, explicitly tied to the Masterise ecosystem,
+  is a different order of statement** — and TCX is the name the engine wants to add 5.6pp to, entering
+  VN30 on Monday.
+  **Fact and inference, kept apart.** *Fact:* six issuers, eight offerings, 9–10% coupons, 12–60
+  months, mostly collateralised, custodied by a securities company; TCX at ~50% of non-bank advisory.
+  *Inference, not asserted:* that the custodian **is** TCX. The source says "a securities company" and
+  does not name it. **Arranging a bond and custodying it are different roles with different
+  balance-sheet consequences**, and that distinction is exactly what the hypothesis turns on.
+  **The coupon is itself informative:** 9–10% against a ~6% deposit and a 4.52% 10-year government
+  bond. The market prices these as genuinely risky credit, not quasi-sovereign property paper.
+  **What it still does not do.** It does not answer whether TCB's ₫39,000–40,000bn reduction was a
+  **removal** or a **relocation**. That needs the balance-sheet line in item 17b, still behind a proxy
+  403. The three named tests remain unrun. **No probability, branch or confidence moved** — two
+  numbers being close is still not evidence; this sweep described the shape of one of them.
+
 - **11:53 ICT · MARKET (lane 4) — the index has rallied 3.5% since 24-Jul, which may have REVERSED
   the direction of the price-staleness error I measured yesterday.**
   **VN-Index closed 30-Jul at 1,745**, up nearly 40 points — a third consecutive advance, with
