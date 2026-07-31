@@ -16,6 +16,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 | 4 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
+| **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
 parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
@@ -60,6 +61,31 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-31
+
+- **08:53 ICT · MACRO (lane 1) — Vietnam CPI is 4.38%, not the 3.5% this repo assumes. Two
+  consequences, one of them a stale number in our own risk model.**
+  **The level.** H1/2026 CPI **+4.38% YoY**, core inflation **+4.12%**. The path is **accelerating**:
+  2M +2.94%, 4M +3.99%, 5M +4.31%, 6M +4.38%. June was −0.39% m/m but **+4.69% YoY**. Full-year
+  consensus 4.3–4.5%. **T5.**
+  **First consequence, and it is concrete.** `research/models/risk.py` carries a threshold of
+  **0.035** labelled *"Vietnam CPI, approx — real capital preservation."* **The actual figure is
+  4.38%.** The threshold is stale by ~0.9pp, so **every safety-first ratio measured against the CPI
+  line is too flattering** — the real-return hurdle is higher than the file says. **Not changing it
+  here:** `risk.py` is machinery and `THRESHOLDS` is a config constant, human-only under charter §4.
+  Recorded so it gets corrected deliberately rather than drifting.
+  **Second consequence: it boxes SBV in on a second side.** Yesterday's FOMC entry argued that a Fed
+  holding with three hike dissents keeps VND under pressure and removes the "Fed cuts, so SBV can
+  ease" path — **that was an inference.** This is a **fact on the other constraint**: with CPI at
+  4.38% and rising against a target band usually cited near 4.5%, SBV has an **inflation** reason not
+  to ease as well as an FX one. The 26-Jul conclusion — *"funding-cost relief is not coming from
+  policy"* — now rests on **two independent constraints, and the second is measured rather than
+  inferred.** That bears on the 51.5% of the book that is banks, and on TCB's NIM-recovery guidance in
+  particular.
+  **The trap inside it.** A search returned *"CPI tháng 7 tăng 0,48%."* **July 2026 CPI is not
+  published — the statistics office releases it on 03-Aug-2026.** That headline is from a different
+  year and was not used. It was caught because the search summary itself said July 2026 data could not
+  be found **while a July headline sat in the same result set.** *Seventh period trap avoided in six
+  days.*
 
 - **01:54 ICT · HPG (lane 2) — CORRECTION: I marked the rebar case "resolved" yesterday. Commerce's
   part is resolved; the case is not, and what remains is asymmetric to the upside.**
