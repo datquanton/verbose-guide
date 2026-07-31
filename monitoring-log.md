@@ -10,7 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%, Q2 profit ≈ zero). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
-| US rebar — **Commerce finals done 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; margins 128.53–136.57%). **THE CASE IS NOT OVER: ITC final injury vote due ~mid-Sep**, within 45 days. Orders issue only on an affirmative vote | 2 |
+| US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
@@ -62,6 +62,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-07-31
+
+- **16:53 ICT · MACRO / BANKS (lane 1) — interbank funding cost rose at every tenor through July while
+  deposit rates sat still, and this repo was not watching it.**
+  **The move, across July 2026:** overnight **2.43% → 2.97%** (+54bp), 1-week **3.51% → 3.81%** (+30bp),
+  2-week **5.47% → 5.60%** (+13bp), 3-week **5.29% → 5.88%** (+59bp). Overnight turnover averaged
+  **~₫850,000bn/session** against ~₫800,000bn the prior month. **Published deposit rates were essentially
+  unchanged over the same month.**
+  **Source independence checked, and it is ONE route, not two.** Both search returns trace to the same
+  VietnamNet article, mirrored on baomoi. Logged as a single T5 source — the 30-Jul lesson about counting
+  one route three times applies directly.
+  **Why it matters here.** 51.5% of the book is banks, with a further ~19.5% look-through in brokerage
+  margin books funded at short tenors. **Interbank is *marginal* funding** — a bank growing loans faster
+  than deposits fills the gap there. **MBB's Q2, filed today, shows customer loans +13.2% YTD**, so the
+  marginal funding question is live at the engine's joint-largest proposed add.
+  **The shape says more than the level.** Overnight at 2.97% against 3-week at 5.88% is a steep climb
+  across three weeks of tenor. **Cheap overnight money and expensive three-week money is a *term*
+  liquidity signal, not a policy-rate signal** — banks are paying up for anything they cannot roll daily.
+  **And it collides with Circular 25/2026/TT-NHNN**, the T1 item escalated 29-Jul, which raised the cap on
+  short-term funding usable for medium/long-term lending from **30% to 40%, effective 01-Jul.** So the
+  regulation encourages funding long assets with short money, **and it took effect in the very month
+  short money got 30–59bp dearer at the tenors it applies to.** The 29-Jul entry read Circular 25 as
+  *relief* on the "H2 looks demanding" framing for VPB and MBB. That is not wrong but it is incomplete:
+  **the circular relaxes a ratio, it does not lower a price**, and the price moved against it immediately.
+  **Stated proportionately:** one month, one source, and month-average interbank rates are noisy around
+  quarter-end and tax dates. **No branch touched, no confidence moved.** Logged because a cost input for
+  ~71% of the book moved and nothing in this repo was watching that line.
+
+- **16:53 ICT · US TRADE (lane 2) — the ITC date on file is CONFIRMED, a conflicting "August" is a stale
+  projection, and there is now first evidence on which way the vote goes.**
+  **A search returned "the ITC final vote on Bulgaria, Egypt and Vietnam is expected in August 2026",
+  which contradicts the mid-September date this repo carries and would have read like a correction.**
+  **It is stale.** That estimate was published when Commerce's finals were still expected earlier in July.
+  Commerce actually determined **28-Jul** and published **30-Jul** (FR 2026-15438 AD, 2026-15437 CVD).
+  The ITC's final injury determination is due **within 45 days of Commerce's final**, which from 30-Jul
+  gives **mid-to-late September**. **The file was right and is unchanged** — recorded so a future sweep
+  does not "correct" a correct date. Same species as the HRC benchmark trap: a plausible number from the
+  wrong vintage.
+  **First evidence on the vote itself. ALGERIA was severed from the same petition and the ITC has ALREADY
+  made an affirmative final injury determination on it.** Same petition, same domestic industry, same
+  product, same injury analysis. **A different country record, so it does not decide Vietnam** — but it is
+  materially better than the nothing this repo had. **It does not disturb calibration forecast #10**,
+  which was scored a HIT on the reasoning that HPG has already traded a full quarter under ~122%
+  provisional duties and still printed revenue +53%; an affirmative vote is what that reasoning assumed.
+  **New context on the rates: Vietnam 128.53–136.57% against Bulgaria 53.27% and Egypt 34.20–52.73%.
+  Vietnam is the most penalised of the three by roughly 2.4× to 4×** — worth holding against any "rebar
+  duties finalised" headline that treats the three countries as one event.
+  `federalregister.gov` **403s again** on a direct fetch this sweep, so the rate table itself is still
+  unread — `OPEN-DECISIONS` item 17, now blocking on a fourth front.
 
 - **ESCALATION (trigger 5 — a dated catalyst lands one session from a proposed trade) · 15:53 ICT ·
   TCX joins VN30 on MONDAY 3 AUGUST. Today is the last session before it.**
