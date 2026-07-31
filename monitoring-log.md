@@ -63,6 +63,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **01:53 ICT · MBB (lane 3) — the asset-quality number that matters is not the ratio. Bad debt rose 27%;
+  the ratio moved 3bp because the loan book grew 13.2%.**
+  **Group 3–5 bad debt rose 27% to nearly ₫17,800bn.** The NPL **ratio** went **1.42% → 1.45%**, which reads
+  as almost nothing — **and it reads that way because the denominator grew 13.2% YTD.** A 27% rise in the
+  numerator against a 13.2% rise in the denominator produces a 3bp move, and the 3bp is what the coverage
+  led with.
+  **Cross-check passes, and is recorded as a near-match rather than a match:** ₫1,220,000bn × 1.45% =
+  **₫17,690bn** against a stated *"nearly ₫17,800bn"*. A rounded phrase and a derived figure agree in
+  magnitude; they are not the same number.
+  **The period of the 27% is not stated and is not assumed.** On the YTD reading, end-2025 bad debt was
+  ~₫14,016bn on loans of ~₫1,077,700bn — **an NPL ratio of ~1.30%**, so the honest description of the half
+  is **1.30% → 1.45%, not 1.42% → 1.45%.** YTD is the more plausible reading because every other comparison
+  in the same coverage is against end-Q1 or end-2025, **but it is not established** and is flagged, not
+  asserted.
+  **What this does NOT do to the scored read.** Forecast #4's pre-registered read said MBB would *miss on
+  credit cost*. It was scored **WRONG** yesterday because **MBB beat outright**, the explicitly stipulated
+  falsifier. **That score stands and is not revisited.** Finding credit deterioration in the balance sheet
+  *after* scoring does not partially rescue a read that was wrong about the outcome — **that is exactly the
+  retrofitting pre-registration exists to prevent**, and the temptation to do it is why this is written down.
+  **What it does add, separately:** coverage **rose** 92.24% → 93.63% while bad debt rose 27%, so **reserves
+  grew faster than NPLs — roughly 29% — to a stock of ~₫16,666bn. MBB provisioned substantially and still
+  grew PBT 40%.** That is the closest this file has come to the missing H1 provisioning charge after four
+  attempts, and it is **a bound on the balance sheet, not the P&L figure**: reserve stock change equals
+  charge minus write-offs, and write-offs are unknown. **The H1 provisioning expense remains unfound.**
+
+- **01:53 ICT · MBB — a ninth period trap, caught by the CIR, plus two reconciliations that pass.**
+  *"Chi phí hoạt động trong kỳ đạt 5.627 tỷ đồng"* — operating expenses **in the period** — appeared in an
+  article headlined about the half year, where it reads as H1. **It is Q2.**
+  **The arithmetic that caught it:** the same coverage gives **H1 CIR 26.24%** on **H1 TOI ₫37,865bn**,
+  implying **H1 opex ₫9,936bn**. At ₫5,627bn the implied CIR would be **14.9%** — contradicting the 26.24%
+  in the same article. Read as Q2 it reconciles: on-file `q1_opex` ₫4,347bn + ₫5,627bn = **₫9,974bn**, a CIR
+  of **26.34%**, within rounding of the stated figure.
+  **Two reconciliations pass in the same pass.** **H1 TOI:** on-file Q1 ₫17,430bn + Q2 ₫20,434.31bn =
+  **₫37,864.31bn** against a stated ₫37,865bn — **exact**, independently confirming yesterday's Q2 TOI
+  figure. And **H1 PBT ₫20,188bn**, which this file *computed* yesterday as 9,628 + 10,560, is now **stated
+  directly by a headline**. A derived figure has become a reported one and they agree exactly.
+  **The sequential picture is worse than the annual one, and both are true.** H1 CIR **26.24%**
+  consolidated / **24.17%** parent is an **improvement of 2–2.7pp on 2025** — what the coverage leads with.
+  **But Q2 CIR is 27.54% against Q1's 24.94% — worse by 2.60pp quarter on quarter.** Cost efficiency
+  improved year-on-year and deteriorated sequentially, **and a reader given only the first number would not
+  know the second.** Same shape as the 26-Jul VCI lesson: "+36% YoY" and "−26% QoQ" described one quarter,
+  and every source reported the first.
+  **Nothing modelled beyond recording actuals; confidence held at 0.55** (T5 press about a filing, charter §2).
+
 - **00:53 ICT · KDH / PROPERTY (lane 7) — a peer's founding family bought in the same July window. This
   bounds the KDH insider signal rather than overturning it.**
   **Nam Long (NLG)**, an HCMC residential developer on the competitor list, disclosed that **Nguyễn Nam and
