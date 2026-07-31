@@ -63,6 +63,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-07-31
 
+- **22:53 ICT · BROKERS (lane 6) — VPS's IPO terms were never on file, and they are the first fresh public
+  comparable for the cluster TCX sits in.**
+  **Recorded now (T5):** ticker **VCK**, listing sought on HOSE; minimum offer **₫60,000/share** for up to
+  **202.31m shares**, implying **~US$3.4bn** and charter capital rising above **₫16,400bn**. Book-built
+  through VPS plus SSI, MBS, FPTS, KIS, SHS, DNSE, OCBS. **The minimum price was raised from ₫22,457 to
+  ₫60,000 — a 2.67× increase in the ask.**
+  **Why it touches a holding.** The TCX case in this file rests on an explicit statement that **the risk is
+  the multiple, not the earnings** — 2.49x P/B, priciest in the book — and **there is currently no fresh
+  public comparable for a large Vietnamese broker.** A VPS listing would create one. At FX 26,300,
+  US$3.4bn is **~₫89,420bn, about 9% above TCX's implied market cap of ~₫82,215bn** — and **VPS's margin
+  book is ₫31,300bn against TCBS's ₫51,500bn.** So VPS is asking to be valued **above TCX on a margin book
+  39% smaller.** Different mix (VPS leads *retail brokerage* share, TCBS leads *margin*), so this is a
+  comparable to watch, **not an arbitrage.**
+  **P/B deliberately not computed.** Charter capital is **par value, not equity**, and at ₫60,000 on
+  ₫10,000 par most of the ~₫12,139bn raised would be **share premium** — so post-money equity is well above
+  ₫16,400bn by an amount this file does not know. Deriving a P/B from charter capital would be exactly the
+  measure error charter §3's third check exists to stop.
+  **And the terms may be stale — this is the part that needs saying.** The ₫60,000 minimum was announced in
+  **October 2025** for an offering window of **Q4/2025–Q1/2026. That window has passed.** As recently as
+  **June 2026** a VPS executive was on the record that choosing a valuation *"that satisfies all parties is
+  not easy"* — a public admission the pricing was still contested **eight months** after the number was
+  published. **Recorded as announced, with the slippage flagged, not as current market truth.**
+  **What to watch is the direction it eventually prints:** a successful listing near US$3.4bn supports
+  TCX's multiple; a repricing down, or further slippage, is a negative read across the cluster — which is
+  **19.5% of this book on a look-through basis, not the 11.4% stated.** Nothing modelled, no confidence
+  moved.
+
 - **21:53 ICT · MACRO / INDEX (lanes 1, 4) — foreigners have net sold ₫92,000bn in seven months, on track
   for a FOURTH straight year. This file had no foreign-flow history at all, and it bears on the FTSE
   thesis.**
