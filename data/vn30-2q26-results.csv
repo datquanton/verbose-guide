@@ -1,0 +1,31 @@
+ticker,company,sector,profit_metric,q2_revenue_vndbn,q2_profit_vndbn,q2_profit_yoy_pct,h1_profit_vndbn,h1_profit_yoy_pct,data_status,note
+VCB,Vietcombank,Banks,PBT,,17420,57.9,29222,33.5,actual,Q2 NII 19142 (+35.2%); sector profit leader in H1
+CTG,VietinBank,Banks,PBT,,15400,27.0,25868,36.7,mixed,H1 actual; Q2 figure is broker estimate (~15.4k)
+BID,BIDV,Banks,PBT,,9921,15.0,,,estimate,Q1/26 actual 8572 (+15.6%); Q2 est 9921-10034
+TCB,Techcombank,Banks,PBT,,9670,22.4,18540,22.5,actual,Record quarter; TOI 28600 (+17.5%); fees 7600 (+37.6%)
+VPB,VPBank,Banks,PBT,,11000,77.0,18900,68.0,actual,VPBankS PBT 2158 (+293%); parent credit +24.8%
+MBB,MB,Banks,PBT,,8812,18.0,,19.0,estimate,Q1/26 actual 9628 (+14.8%); H1 growth per sector roundup
+HDB,HDBank,Banks,PBT,,6800,44.0,,22.0,reported_approx,Approx figure from sector roundups
+SHB,SHB,Banks,PBT,,,59.0,10770,,derived,Company release: Q2 PBT +59%; H1 = 61% of 17655 FY plan
+ACB,ACB,Banks,PBT,,,-12.0,10700,-0.4,actual,Higher provisioning; high Q2/25 securities-gain base
+STB,Sacombank,Banks,PAT,,2030,-44.0,,,actual,Provisions >5000 (5.5x); NPL +6500
+LPB,LPBank,Banks,PBT,,,,5973,-3.0,actual,H1 provisions 1552 (2.3x)
+VIB,VIB,Banks,PAT,,1905,-8.2,5180,3.0,actual,H1 figure is PBT
+SSB,SeABank,Banks,PBT,,,,2625,,actual,Assets 427108; H1 NII 4663; NPL 2.25%
+VIC,Vingroup,Conglomerate / Property,PAT,,,,20375,350.0,actual,H1 revenue 222300 (+72.5%); 58% of FY plan
+VHM,Vinhomes,Property,PAT,52722,,,52091,379.0,actual,Q2 GP 34732 (8x); GPM ~66%; presales 148104 (+119%)
+VRE,Vincom Retail,Property / Retail leasing,PAT,2374,1609,30.4,,,actual,Q2 revenue +10.8%
+VPL,Vinpearl,Hospitality / Travel,PAT,3309,631,~300,2140,700.0,actual,H1 core revenue +33%; 71% of FY profit plan
+HPG,Hoa Phat,Steel,PAT,55557,6424,51.0,15480,103.0,actual,H1 revenue 108870 (+47%); 70% of FY profit plan
+FPT,FPT,Technology,PAT_parent,13789,2568,14.0,5055,14.1,actual,FPT Telecom deconsolidated from 1/1/2026; H1 PBT 5714
+MWG,Mobile World,Retail,PAT,48751,3355,~100,,86.0,actual,H1 PBT 7361 (+86%); GPM 20.1%->22.2%; BHX Q2 +31%
+MSN,Masan Group,Consumer / Conglomerate,PAT,,3800,130.0,5773,120.0,actual,FY guidance raised to 98000-105000 rev / 10000-11500 NPAT
+MCH,Masan Consumer,Consumer staples,PAT,7165,1384,10.0,3284,11.0,actual,H1 revenue 15637 (+14%); volume-led growth ~+10%
+VNM,Vinamilk,Consumer staples,PAT,18856,3184,28.0,5643,38.4,actual,Best quarter in 5+ years; net cash >18000
+SAB,Sabeco,Beverages,PAT,6890,,,2489,21.0,actual,Q2 revenue +1%; GP 2660 (+9%); ad spend weighed on Q2
+GAS,PV GAS,Oil & gas,PAT,,3604,-24.0,,,actual,High base: Q2/25 provision reversal; +22% QoQ
+GVR,Vietnam Rubber Group,Rubber / Industrial park,PAT,,1990,30.7,,,estimate,Rubber price +18%; land compensation ~1500
+VJC,Vietjet,Aviation,PAT,30499,349,,,,actual,H1 revenue 51536 (+44%); 13.4m pax H1
+BVH,Bao Viet Holdings,Insurance,PAT,,,,,9.3,partial,Q1/26 PBT 1006 (+18.7%); Q2 detail not confirmed
+SSI,SSI Securities,Securities,PBT,3312,1511,32.0,3122,39.0,actual,Margin book ~40500
+TCX,Techcom Securities (TCBS),Securities,PBT,,2097,21.0,3555,,actual,Record quarter; assets >100000; 47% of FY plan
