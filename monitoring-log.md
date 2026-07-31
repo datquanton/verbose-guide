@@ -63,6 +63,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **02:53 ICT · VPB (lane 3) — `OPEN-DECISIONS` item 1, the top blocking item in the repo, is RESOLVED.
+  And it resolves in VPB's favour.**
+  **The missing figure: consolidated customer loans reached ~₫1,160,000bn at end-Q2, +23% on end-2025.**
+  That is the number the 28-Jul note said had to exist and could not find. **Its logical cross-check is
+  confirmed** — *"if parent was ~₫1.06 quadrillion at H1, consolidated at H1 must exceed ₫1.06
+  quadrillion"* — consolidated exceeds parent by **~₫100,000bn**, which is FE Credit, VPBankS and the rest
+  of the ring.
+  **There are three series here, not two, and that is why it looked irreconcilable.**
+  | Series | H1 | Growth YTD |
+  |---|---:|---:|
+  | Parent bank **credit** | ₫1,060,000bn | +24.6% |
+  | Consolidated **customer loans** | ₫1,160,000bn | +23% |
+  | Consolidated **credit** (incl. bonds) | ≥₫1,160,000bn | ≥+20.6% |
+  **`credit_q2` and `credit_growth_ytd` both describe the PARENT — so those two fields were consistent
+  with each other all along.** The end-2025 consolidated-loans base implied by +23% is ₫943,089bn, **2.0%
+  below** the ₫962,000bn in `credit_start_fy` — which is exactly the **credit-vs-loans** gap this file
+  already identified at TCB.
+  **So the defect was not where the note put it.** The 28-Jul entry read `credit_q2` as *"the Q1
+  consolidated figure."* It is not — it is the **H1 parent** figure. **The fake +10.19% came from dividing
+  a PARENT stock (1,060,000) by a CONSOLIDATED base (962,000)** — two right numbers on two different
+  entities, divided into each other. The note was right that an entity error was present and right about
+  which figures existed; **it attributed the error to the wrong field.**
+  **And it resolves in VPB's favour, which is what matters.** The note framed the stakes: *"if H1
+  consolidated growth was +24.6%, the base branch needs only +8.3% more in H2 and is comfortable. If it was
+  +10.2%, the base branch needs +22.5% — a step-change of the same character as the KDH handover finding."*
+  **Actual consolidated H1 growth is at least +20.6%.** Against `credit_growth_fy` 30/35/40%, H2 needs **at
+  most +7.8% / +12.0% / +16.1%** — stated as **upper bounds**, since consolidated credit is by construction
+  ≥ consolidated loans. **The feared step-change is not there:** the base branch needs ~12%, not 22.5%.
+  **`credit_start_fy` is correct and untouched** — 962,000 × 1.34 = 1,289,080, matching the company's
+  ₫1.29 quadrillion FY plan exactly. **No engine output changes:** `run.py` reads
+  `loans_start_fy`/`credit_start_fy` and `scenarios.credit_growth_fy`, **not** the two disputed fields.
+  This removes a blocking objection to a recommendation rather than moving a number.
+  **Confidence NOT raised, deliberately, against the routine's instruction.** It was cut **0.85 → 0.70** on
+  28-Jul *specifically because* "the forward credit driver is not evidenced." It now is, so a mechanical
+  reading says restore it. **But this is T5 press, and charter §2 permits a rise only on T1–T2** — the same
+  rule that held MBB at 0.55 yesterday on a filed quarter. **Applying it to MBB and not to VPB would make
+  it decorative.** Escalated: the basis for the cut has been removed, and restoring it is a human's call on
+  a name the engine wants to **ADD +5.3pp**.
+
+- **02:53 ICT · VPB / TCB — two side findings from the same sweep.**
+  **(a) The interbank finding was already the market's narrative.** A **29-Jul** broker note is headlined
+  *"despite liquidity tension, VPB is still confident of controlling credit risk and meeting its 2026
+  profit target."* So the funding move logged at 16:53 yesterday — overnight 2.43%→2.97%, 3-week
+  5.29%→5.88%, deposit rates flat — was being discussed as *căng thẳng thanh khoản* **two days before this
+  file found it in a rates table.** The file found the price and missed the narrative, having previously
+  found neither. It upgrades that note from a single-source rates observation to something the sell side
+  was already trading on. Also now on file: **VPB total assets passed ₫1.5 million tỷ**, and it extended
+  **>US$3bn of real-estate business credit** in H1.
+  **(b) A sector read splits TCB from VPB on property.** Coverage headlined *"property credit diverges:
+  Techcombank cuts home-purchase disbursement, VPBank accelerates corporate lending."* This **independently
+  corroborates** `dossiers/TCB.md` §3, which records TCB de-risking — real estate 33.2% of loans (2024) →
+  28.9% (Q1/26), ~₫39,000–40,000bn of corporate real-estate exposure cut from the Q3/25 peak. **The
+  contrast is the finding: the two banks are moving in opposite directions on property and this book holds
+  both — TCB 35% and VPB 10%, 45% of the book between them.** A property-credit event would not hit them
+  symmetrically, **which the optimizer's block-correlation structure cannot express.** Flagged for the
+  human who sets `corr_same_cluster` (`OPEN-DECISIONS` item 7). No number changed.
+
 - **01:53 ICT · MBB (lane 3) — the asset-quality number that matters is not the ratio. Bad debt rose 27%;
   the ratio moved 3bp because the loan book grew 13.2%.**
   **Group 3–5 bad debt rose 27% to nearly ₫17,800bn.** The NPL **ratio** went **1.42% → 1.45%**, which reads
