@@ -13,6 +13,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; margins 128.53–136.57%). **THE CASE IS NOT OVER: ITC final injury vote due ~mid-Sep**, within 45 days. Orders issue only on an affirmative vote | 2 |
 | TCX VN30 entry | 2026-08-03 | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
+| KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 | 4 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
