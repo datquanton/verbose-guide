@@ -73,6 +73,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **04:53 ICT · AUDIT — ran the KDH error against every other block. It is bounded to one ticker, and the
+  real diagnosis is a naming convention that one block already demonstrates.**
+  Every Q1/Q2/H1 numeric field in all seven ticker blocks was extracted and every derivable triple
+  re-checked.
+  **What reconciles:** HPG npat **9,056 + 6,424 = 15,480** exact. **MBB reconciles four ways** — PBT
+  9,628 + 10,560 = 20,188; NPAT-to-parent 7,515.52 + 8,229.06 = 15,744.58; TOI 17,430 + 20,434.31 = 37,865;
+  opex 4,347 + 5,627 = 9,974. HPG's core/total bridge also holds: **15,480 − 4,123 = 11,357**, which is what
+  the file states. **TCB, VPB, TCX and VPX carry only `h1_pbt`** with no quarterly split, so no derivation
+  was possible and none was made.
+  **So KDH was the only place the error occurred. The damage is bounded to one ticker.**
+  **And the real diagnosis is sharper than what I wrote an hour ago.** **The KDH failure was not
+  arithmetic** — 327 − 321 computes fine. It was that **`q1_npat` (consolidated) and `h1_npat` (core or
+  parent) carry no basis in their names**, so nothing signalled that pairing them was invalid. **Worse, the
+  two happened to sit within 2% of each other by coincidence**, so the invalid pairing produced *"Q2 is
+  roughly zero"* — **a number that is dramatic but coherent, rather than absurd. An absurd result would
+  have been caught immediately; a plausible one survived ten days.**
+  **MBB's block is the counter-example and the fix.** It carries `q1_npat` **and** `q1_npat_parent`,
+  `q1_pbt` **and** `q1_pbt_parent`, `h1_npat_parent` — **the basis is in the field name**, so a mismatched
+  pairing is visible before it is computed. **That convention would have made the KDH error impossible to
+  write.**
+  **The one latent mismatch left, already handled in prose but not in names:** HPG's actuals are **total**
+  while `fy26e_npat` is explicitly **core**, ex the divestment gain. The file states this and does its
+  branch comparison on core, **so no error has been made — but the protection is a sentence, not a field
+  name, and the sentence is the thing that fails at 3am.**
+  **Recommended to a human: rename to the MBB convention across all blocks.** A schema change, therefore
+  human-only under charter §4.
+
 - **⚠ ESCALATION · 03:53 ICT · KDH — `h1_npat` = 321 on file is WRONG, and the error propagated into a
   scored calibration entry and an escalation.**
   **Resolved this sweep from multiple sources: KDH's Q2/2026 NPAT is ₫770bn. H1 is ~₫1,095bn — 73% of the
