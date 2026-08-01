@@ -73,6 +73,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **21:53 ICT · KDH (lane 4) — the VNDiamond flow is sized at ~₫72bn, and my own illustrations two sweeps
+  ago were an order of magnitude too high.**
+  **The correction first.** At 19:53, unable to find KDH's index weight, this file offered *"3/5/7% would
+  be ₫375/624/874bn of forced selling"* and labelled them **illustrations, not estimates**. **The actual
+  figure is ~₫72bn — between five and twelve times smaller than the range illustrated.** The label was
+  correct and the numbers were still misleading, because **a reader takes the magnitude from the digits,
+  not from the caveat.** Offering an illustrative range when the real number is unknown **anchors the
+  reader at whatever the illustration happens to be.** Better to have written *"weight unknown, cannot be
+  sized"* and stopped.
+  **The figure:** ETFs are expected to sell **over 4 million KDH shares** to remove it. At the file's
+  ₫18,000 price that is **~₫72bn — 0.40% of KDH's ~₫18,010bn implied market cap.** For comparison the TCX
+  VN30 entry was ₫59bn on an ₫82,215bn cap, or 0.073% — **so in relative terms KDH's removal is ~5.5× the
+  TCX event, and in absolute terms the two are similar.** KDH is named among the largest selling pressures
+  alongside **NLG and MSB**.
+  **And the cause closes a loop this file had both halves of.** Sources are explicit that **KDH did not
+  change its foreign ownership limit** — the adjusted FOL fell because **foreign investors reduced their
+  holdings over the past twelve months.** This file recorded on 30-Jul that **VinaCapital has been selling
+  KDH down through the 7% threshold** to 6.9621%, and treated it as an ownership signal pointing opposite
+  to the insider buy. **It is also a mechanical cause: foreign selling lowers the FOL ratio → a low FOL
+  triggers index removal → removal forces further selling.** **Stated proportionately** — VinaCapital's
+  disclosed steps are April–May and the FOL decline is described over twelve months, so **VinaCapital is
+  one contributor, not the cause.** The loop is real; the attribution is partial.
+  **Still not established: whether the 20-July announcement actually removed KDH.** The "4 million shares"
+  is a **forecast** of ETF selling, and search returns keep mixing the **Q2 review** (cutoff 31-Mar,
+  announced 20-Apr, effective 04-May) with the **July** one (announced 20-Jul, effective 03-Aug). **Both
+  follow the same announce-then-effective-two-weeks-later pattern, which is exactly why they are easy to
+  conflate.** **The trigger-5 escalation stands on the date, not on a confirmed removal.**
+
 - **⚠ ESCALATION — TRIGGER 5 FIRES · 20:53 ICT · KDH (lane 4) — VNDiamond changes take effect MONDAY, and
   KDH is 20.3% of the book with a proposed −4.7pp trim.**
   **`DECISION-FRAMEWORK` §4 test 5: *a dated catalyst lands within 5 sessions of a proposed trade in that
