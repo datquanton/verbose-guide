@@ -66,6 +66,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **13:53 ICT · TCX (lane 4) — the exact FTSE tranche weights, which the 28-Jul note explicitly said it
+  lacked. They are more decisive than that note could assume.**
+  **FTSE GEIS inclusion runs in four tranches:**
+  | Date | Tranche | Cumulative |
+  |---|---:|---:|
+  | **21-Sep-2026** | **10%** | 10% |
+  | Mar-2027 | 20% | 30% |
+  | Jun-2027 | 35% | 65% |
+  | Sep-2027 | 35% | 100% |
+  **So the day the event tree prices delivers one tenth of the inclusion.** `ftse_event_tree` prices 21-Sep
+  as one discrete event at **+20% (p=0.35) / +5% (p=0.45) / −15% (p=0.20), EV +6.25%**. **Ninety percent of
+  the inclusion flow arrives across three 2027 dates — all after forecast #7 resolves on ~21-Oct-2026.**
+  **Sized against the index.** At **full** inclusion Vietnam is projected at **0.22% of the FTSE Emerging
+  Index** and 0.34% of Emerging All Cap (0.04% Global All Cap, 0.02% All-World). **At the first tranche
+  that is 0.022% and 0.034% — spread across 28 Vietnamese stocks, of which TCX is one.**
+  **And the two sides of September are not symmetric, which is new.** **Deletion from the FTSE Frontier
+  Index Series is a SINGLE tranche** at the September 2026 Frontier annual review — **not phased**. So
+  **21-Sep-2026 carries 100% of the Frontier exit and 10% of the Emerging entry.** Opposite directions, one
+  date.
+  **Not netted, because this file cannot net them.** That needs Frontier-tracking AUM with Vietnam exposure
+  against Emerging-tracking AUM applied to a 0.022% day-one weight, and **neither figure is on file**.
+  Vietnam was a large weight in a small index family and becomes a tiny weight in a large one — which makes
+  the netting genuinely uncertain rather than obviously positive. **Stating a direction here would be
+  inventing one.**
+  **The 28-Jul counter-argument is preserved and still stands:** passive money moves mechanically on
+  effective dates, but markets front-run reclassifications, so the price response need not be proportional
+  to mechanical flow. **That cuts both ways** — it is also why a 10% tranche could still move price, and
+  why an already-banked announcement effect could leave the day flat.
+  **`OPEN-DECISIONS` item 5 now has a fourth ground, and the most concrete one:** the tree's magnitudes
+  describe a *full* reclassification, and the date it prices delivers **a tenth of one side of it.**
+  **Nothing changed** — forecast #7 was pre-registered and resolves ~21-Oct; re-weighting it now on
+  evidence about mechanics would be the post-hoc adjustment pre-registration exists to prevent, and the
+  tree is human-only under charter §4.
+
 - **12:53 ICT · MBB (lane 3) — an arithmetic identity this file held all the pieces of and never divided:
   the cash dividend and the rights issue are the SAME SIZE.**
   MBB's **15% stock dividend is ₫12,082bn**, which implies **charter capital of ₫80,547bn**. **Ten percent
