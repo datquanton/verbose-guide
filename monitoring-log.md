@@ -21,6 +21,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
+| **VNDiamond — KDH on the REMOVAL watchlist; next review date UNKNOWN** | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | **3-Aug is a TRIPLE date** | **July CPI + July PMI + TCX's VN30 effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday | 1, 4 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
@@ -70,6 +71,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **19:53 ICT · INDEX (lane 4) — the question left open an hour ago is answered, and it reaches further
+  than the banks: FOUR of the eight touch VNDiamond, and KDH is on a REMOVAL watchlist.**
+  Last sweep ended *"whether TCB, MBB or VPB are constituents remains unknown and matters."* Answered:
+  **TCB is a top-five weight at 9.0%** — behind FPT 15%, MWG 15%, PNJ 10.9%, ahead of GMD 7.5%. **MBB is a
+  constituent** (ETFs bought ~0.4m shares at the Q2/2026 restructuring, alongside ~0.5m ACB). **HPG** was
+  confirmed last sweep. **And KDH is on the watchlist for removal.**
+  **The KDH item is the material one, and it has a measurable trigger.** KDH was placed on the removal
+  watch list for **failing the minimum foreign-ownership-limit test of 65%, sitting at 61.8%.** **KDH is
+  20.3% of this book — the second-largest position — and carries a proposed TRIM of −4.7pp.** A name
+  already being trimmed that is *also* facing possible forced index selling is a different proposition from
+  one that is not, **and the file had no record of the exposure at all.**
+  **Sized, with the gap stated.** TCB at 9.0% of the ₫12,486bn found pool is **~₫1,124bn — about nineteen
+  times the ₫59bn TCX VN30 flow this file spent several sweeps analysing.** **KDH's weight is not known**,
+  so its removal exposure cannot be sized: at an illustrative 3/5/7% it would be ₫375/624/874bn of forced
+  selling. **Those are illustrations, not estimates**, recorded only to show the order of magnitude.
+  **The index rules are now on file, and they are more specific than "names near the foreign ownership
+  limit":** foreign ownership must be **≥65% of the limit**; there is a **P/E test** (which removed MWG);
+  the **banking sector is capped at 40%** of the index and single names at **~18%**; 19 constituents after
+  the April review; **reviews are quarterly.**
+  **The date is the unresolved part and is not guessed.** The material describes the **Q2/2026 review,
+  completed ~01-May-2026**, and KDH's watch-list entry appears in a *forecast* of that restructuring. Since
+  reviews are quarterly, **a Q3 review falls around July with effect in August — and whether it removed KDH
+  is not established.** A headline about *"a bank stock removed from the Diamond basket in the October
+  restructuring"* was seen and **is not used**: undated, and October may belong to another year.
+  **The next review date and KDH's current status are the two things a human should establish.** Added to
+  the gate as an open item rather than a date. **Nothing modelled.**
 
 - **18:53 ICT · MACRO (lane 1) — fifth and last silent lane item. PMI was 51.8 in June and no reading was
   on file.**
