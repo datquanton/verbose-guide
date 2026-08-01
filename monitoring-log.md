@@ -71,6 +71,50 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-02
+
+- **23:53 ICT · BANKS / POLICY (lane 1) — a fifth dated regulation, effective YESTERDAY, and it corrects
+  two things logged this morning.**
+  **(a) SBV cut the State Treasury deposit deduction in the LDR calculation from 80% to 50%**, effective
+  **01-Aug-2026 to 31-Jul-2028**. **So the share of Treasury term deposits counting toward the deposit base
+  rises from 20% to 50%.** **Fifth dated regulation this weekend and the first caught within a day** — the
+  previous four were one to three months late.
+  **It extends and partly supersedes the 06:53 entry on Circular 08/2026**, which recorded that banks may
+  count **20%** of Treasury time deposits. **Stated with its uncertainty:** whether this amends Circular 08
+  or is a separate instrument is **not established**, so the two are recorded side by side rather than
+  merged.
+  **It lands directly on the funding gap this file has built all weekend** — TCB's loans outgrew deposits
+  2.2×, MBB grew loans 13.2% while deposits fell, both read against interbank cost rising 30–59bp in July.
+  **The binding ratio has now been loosened twice in three months.** And that is now a pattern worth
+  naming: **three separate loosenings of bank funding ratios in 2026** — Circular 25's 30→40% short-term
+  funding cap, Circular 08's Treasury provision, and this — **and none of them lowers the price of funding.
+  The regulator is relaxing constraints while the market raises the cost.**
+  **(b) Circular 29/2026 has a SECOND small-loan threshold, and my 07:53 dismissal was wrong.** That entry
+  recorded the limit as *"₫200m for people's credit funds — a threshold that does not touch our banks
+  directly."* **There is also ₫400m at OTHER credit institutions.** TCB, VPB and MBB are *tổ chức tín dụng
+  khác*, **so the provision does touch them.** **Why it happened: the first source gave only the
+  credit-fund figure and the sentence read as complete — a single-threshold reading of a two-threshold
+  rule.** What it *means* is still not established and is not sized.
+
+- **23:53 ICT · MACRO — the system credit number arrives, and our three banks grew at 1.7× to 3.2× it.**
+  **Over ₫1.4 quadrillion injected in H1/2026, system credit outstanding past ₫20 million tỷ, up 7.73%.**
+  | | H1 growth | × system |
+  |---|---:|---:|
+  | MBB (customer loans YTD) | 13.2% | **1.7×** |
+  | TCB (standalone credit incl. exempt) | 14.3% | **1.8×** |
+  | VPB (parent credit YTD) | 24.6% | **3.2×** |
+  **At 06:53 this file compared targets to an SBV projection of ~15%. This compares actuals to an actual.**
+  **The comparability caveat from that entry still binds and matters more here:** the three figures are on
+  **different measures** — customer loans, standalone credit including exemptions, parent credit — and it
+  is not established which contain quota-exempt lending. **So the multiples indicate scale, not precise
+  comparability.** **What survives the caveat:** all three grew at a large multiple of the system in the
+  same half, **which requires preferential quota, heavy use of exemptions, or both — and neither dependency
+  is modelled anywhere.** 7.73% at the half is consistent with SBV's ~15% full-year projection, so **the
+  divergence is about share, not a slowing market.**
+  **Also, bearing on `OPEN-DECISIONS` item 20:** the Government has **proposed amending the Land Law** so
+  land prices are **set by the State on a full, public, transparent database** — upstream of both halves of
+  the KDH land-fee question raised last night. **A proposal, not law; no direction claimed.**
+
 ## 2026-08-01
 
 - **22:53 ICT · KDH / MARKET (lane 4) — looked for the removal's footprint instead of the announcement.
