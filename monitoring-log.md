@@ -17,7 +17,9 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
-| **Vietnam CCP (central counterparty clearing)** | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
+| ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
+| **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
+| ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
@@ -67,6 +69,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **16:53 ICT · INFRASTRUCTURE (lane 4) — third silent lane item checked. "KRX system" is STALE, not
+  missing — and the chain it belongs to has a date collision.**
+  **KRX has been live since 05-May-2025** — first session closed safely, VN-Index +1.12%, turnover over
+  639m shares. **The watch list has been asking for fifteen months about something already delivered.**
+  Same species as the "pending" corporate-action flags found rotting on 29-Jul: **a status flag with no
+  date on it cannot expire.** Row closed. The forward-looking content is not KRX but what it enables.
+  **The chain, now dated end to end.** **(1) KRX platform:** live, May 2025. **(2) CCP:** VSDC will
+  establish an **independent subsidiary** as central counterparty — buyer to every seller, seller to every
+  buyer — **phase-1 go-live early 2027, expected Q1/2027**, VSDC described as ready. **(3) Enabled by the
+  CCP**, on a UBCKNN roadmap running **2026–2028**: **securities borrowing and lending (SBL), controlled
+  short selling** via the pending-settlement mechanism, and **intraday (T+0) trading**.
+  **The sharp point is a date collision the file could not see until both halves were on it.** Yesterday's
+  entry established that MSCI kept Vietnam off the watchlist on 24-Jun-2026, that the next chance is the
+  **2027 Annual Review**, and that MSCI's watched milestone is *"full deployment and demonstrated stability
+  of the CCP."* **MSCI's annual review lands in June. A Q1-2027 CCP go-live leaves roughly one quarter of
+  operating history before it.**
+  **Stated as the arithmetic, not as a prediction:** whether one quarter constitutes "demonstrated
+  stability" is MSCI's judgement, not this file's. **What is not a judgement is the margin — if the CCP
+  slips even one quarter there is no operating history at the June 2027 review at all**, which would push a
+  watchlist decision to the 2028 review and EM implementation toward **2030** on MSCI's standard sequence.
+  **The risk here is to the timeline, not to the market.**
+  **And it touches the brokers directly, which is why it is not only a macro item.** SBL and short selling
+  are **new revenue lines that require balance sheet** — and yesterday's finding was that the three brokers
+  sit at very different utilisations against the 200%-of-equity cap in Circular 121/2020: **VCI 0.97×, VPX
+  ~1.07×, TCBS ~1.56×. The name with the least headroom is the one the engine ranks first.** Whether a CCP
+  regime adds capital requirements on top of that cap is **not established and is not assumed.** Flagged
+  for the human on `OPEN-DECISIONS` item 8 (19.5% effective brokerage exposure). **Nothing modelled.**
 
 - **15:53 ICT · BROKERS (lane 5) — ran the "silent lane item" method again. Four items have never produced
   an entry; the one checked names a rule the file uses without naming, and yields a number it never
