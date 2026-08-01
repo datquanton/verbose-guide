@@ -73,6 +73,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **02:53 ICT · KDH (lane 3) — a THIRD Q2 profit figure appears, and it reopens a claim I withdrew only
+  partly. Flagged, deliberately not resolved.**
+  A source states **KDH recorded nearly ₫750bn of net profit in Q2/2026** *"despite reduced real-estate
+  transfer revenue."* **The file holds Q1 NPAT ₫327bn and H1 NPAT ₫321bn — which makes Q2 approximately
+  −₫6bn.** That "Q2 profit is roughly zero" finding is what **scored calibration forecast #1 a MISS** and
+  drove the **"branches contradicted from above"** escalation.
+  **Three Q2 figures are now in circulation:** **≈₫0** (derived here), **~₫750bn** (this sweep), **₫770bn**
+  (seen 30-Jul). **The last two are 2.6% apart** — close enough to be one underlying number reported twice
+  with different rounding or scope.
+  **And that reopens something I withdrew only partly.** On 30-Jul I called a reported ₫770bn Q2 profit
+  **"internally impossible"** against H1 of ₫321bn, then self-corrected to *"irreconcilable on one measure
+  basis, but total NPAT versus parent NPAT would reconcile it."* **That withdrawal was too narrow.** A
+  second source near the same figure means the number is probably real and the reconciliation is probably
+  the **measure**, not an error in the press. **The correction was right in form and under-done in force.**
+  **Most likely reconciliations, stated as hypotheses and not adopted:** (a) ₫321bn is
+  **parent/attributable** while ₫750–770bn is **total consolidated** — KDH fully consolidates JVs it
+  part-owns, which this file established during the Gladia error; or (b) the larger figure includes a
+  **divestment gain** the ₫321bn excludes. **Neither is established.**
+  **The divestment is now on file and it is large:** KDH resolved to **transfer its 51% of Công ty TNHH Bất
+  động sản Bình Trưng Mới for over ₫1,743bn, completion expected Q3/2026.** A separate report describes KDH
+  *"setting a profit record on a divestment."* **Note the tension: a Q3 completion should not produce a Q2
+  gain** — so if ₫750bn is a Q2 figure, the divestment is **not** the explanation. **Which is exactly why
+  this is flagged rather than resolved.**
+  **Structure the file did not have: Clarita and Emeria are the two Keppel JV land funds that COMBINED to
+  form Gladia by the Water.** Keppel **49%** / KDH **51%**, agreed May-2023, both in Thủ Đức, construction
+  from Oct-2023. **"Clarita divestment" is a named lane-3 item, and every prior Clarita hit in this repo
+  was my own mention from this weekend, not research.**
+  **This is the third multi-source numeric conflict on KDH in ten days** — `q1_revenue` (₫281.4bn, three
+  sweeps to resolve), the ₫770bn Q2 figure, and now this. **KDH is the single largest source of numeric
+  ambiguity in the book**, and it is the second-largest position with a live trigger-5 escalation.
+  **Nothing changed:** no actual overwritten, no branch, probability or confidence touched. **The resolving
+  document is KDH's Q2 statement showing the parent-versus-consolidated split and the treatment of any
+  divestment gain.**
+
 - **01:53 ICT · BROKERS (lane 6) — HOSE Q2 market share moves, touching three of the eight, and it
   corrects a framing already on file.**
   | | Q1 | Q2 | Δ | relative |
