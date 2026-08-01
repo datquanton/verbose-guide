@@ -73,6 +73,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **01:53 ICT · BROKERS (lane 6) — HOSE Q2 market share moves, touching three of the eight, and it
+  corrects a framing already on file.**
+  | | Q1 | Q2 | Δ | relative |
+  |---|---:|---:|---:|---:|
+  | **TCX** (TCBS) | 8.85% | **9.36%** | +0.51pp | +5.8% |
+  | **VCI** (Vietcap) | 7.35% | **7.00%** | **−0.35pp** | **−4.8%** |
+  | **VPX** (VPBankS) | 2.94% | **3.57%** | **+0.63pp** | **+21.4%, a record high** |
+  VPS remains number one; TCX holds third.
+  **It corrects a framing in the VPX evidence string, though not its conclusion.** That string reads
+  *"38.2tn margin vs **only** 3.57% HOSE share — a leveraged credit/margin book."* **The 3.57% was already
+  the Q2 figure and the file did not know what it had:** it is a **record high, up more than a fifth in one
+  quarter.** "Only" conveys a static, weak franchise; the number is small **and rising faster than any peer
+  here.** **The underlying read survives** — VPX is still a leveraged credit/margin book rather than a
+  brokerage franchise — but *"only 3.57%"* should read as **"small but the fastest-growing of the three."**
+  **And VCI is the mirror, which matters more.** This file already holds three marks against VCI: its
+  margin book was **flat at ₫16,644bn in the best conditions on record**, it stands at **29% of its FY
+  profit plan** with the kill criterion armed, and its prop book lost **>₫430bn** on FPT, MWG and KDH.
+  **Declining market share is a fourth leg of the same story — and VCI is the only one of our three brokers
+  losing share.**
+  **Stated with the context that cuts against it:** coverage notes **four large brokers declining
+  simultaneously**, with SSI up slightly, so **VCI's fall is part of a cluster rather than unique to it.**
+  That is the peer read-across discipline applied in the direction that weakens my own case — the one the
+  MBB failure said to apply.
+  **A measure trap avoided:** VCI's evidence string cites a **">28% share"** as its bull case. **That is
+  *institutional* brokerage share — a different measure from the 7.00% total HOSE share here.** The two
+  must not be compared or reconciled, and neither is wrong.
+  **Nothing modelled** — T5 exchange statistics bearing on franchise quality, not on any branch.
+
 - **00:53 ICT · CORRECTION to this file's own date filing.** The two entries written at **23:53 ICT
   yesterday** were filed under a `## 2026-08-02` heading. **23:53 was still 1 August.** They have been
   merged back into the 01-Aug section, and the phrase *"effective YESTERDAY"* in the LDR entry — written
