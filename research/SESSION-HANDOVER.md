@@ -36,7 +36,7 @@ They are not decorative — each one can move the ranking.
 | | Status | Result |
 |---|---|---|
 | **HPG** | Filed 29-Jul | Q2 revenue ₫55,557bn **+53%**, NPAT ₫6,424bn **+51%**; H1 = 70% of FY plan. Confidence 0.60 → 0.70. |
-| **KDH** | Filed 30-Jul | Q2 revenue ₫161bn **−85%**; H1 profit ₫321bn −6%, implying **Q2 profit ≈ zero**. Every street estimate too high; VCBS's revenue forecast was **7×** the outcome. |
+| **KDH** | Filed 30-Jul | **CORRECTED 02-Aug: Q2 NPAT is ₫770bn and H1 ~₫1,097bn — 73% of the ₫1,500bn FY plan.** The ~~"H1 ₫321bn, Q2 profit ≈ zero"~~ on this row was wrong: ₫321bn is on a different basis (core/ex-gain/parent) and was paired with a consolidated Q1. **Core operations did collapse** — Q2 revenue ₫161bn **−85%**, ~3.7 units handed, OCF −₫2,580bn — but profit came from **>₫906bn of financial income** on the Bình Trưng Mới 51% transfer. **The 73% is a one-off, not a run-rate.** Every street estimate too high; VCBS's revenue forecast was **7×** the outcome. |
 | **MBB** | **Filed, surfaced 31-Jul** — one day past its Circular 96/2020 deadline | Q2 PBT **₫10,560bn +40%**; Q2 NPAT-to-parent **₫8,229.06bn +40.01%**; H1 NPAT-to-parent ₫15,744.58bn +26.51%. Net interest income +36.55%. NPL 1.45% (from 1.42%) with coverage *rising* to 93.63%. Confidence **held at 0.55** — T5 press, and charter §2 permits a rise only on T1–T2. |
 
 **All three statements are now in. The date gate is closed; the next is Q3, due 30-Oct.**

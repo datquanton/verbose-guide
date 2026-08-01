@@ -9,7 +9,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
-| HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%, Q2 profit ≈ zero). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
+| HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%; **Q2 NPAT ₫770bn — the "profit ≈ zero" on this row was wrong, corrected 02-Aug**). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -72,6 +72,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-02
+
+- **05:53 ICT · PROPAGATION — the KDH correction pushed to every place that carried the wrong premise.
+  Five locations. One deliberately left alone.**
+  The 31-Jul lesson says **a withdrawal is not complete until every copy of the claim carries it** — it was
+  written after `OPEN-DECISIONS` was found holding a claim withdrawn two days earlier. **Applied here to
+  my own largest error.** Grepping for *"Q2 profit ≈ zero"* and its variants found **five** carriers:
+  | Location | Action |
+  |---|---|
+  | `assumptions.json` → `valuation.KDH.evidence` | **Rewritten.** It states what it said, that it was wrong, and what is true — and it **drives `decide.py`**, so the fix propagates automatically |
+  | `DECISION-BRIEF.md` (×2) | **Regenerated** — the brief a human reads now *opens* with "CORRECTED… BUILT ON A WRONG H1 FIGURE" |
+  | `monitoring-log.md` date-gate row | **Corrected** in place, with the old claim named |
+  | `SESSION-HANDOVER.md` | **Corrected** — the human-facing state file, and the one the 31-Jul lesson was about |
+  | `calibration-log.md` line 192 | **DELIBERATELY NOT EDITED** |
+  **Why the last one stays wrong on its face.** That file is **append-only** and its own header says *"original rows
+  are never edited — a forecast that gets quietly revised as evidence arrives is worthless."* **A scoreboard
+  that can be retroactively corrected cannot measure anything.** The correction is **appended below it**
+  (03:53 lesson) rather than written over it. **The scored MISS on forecast #1 therefore still reads as
+  scored, with its basis disputed underneath — which is the honest state**, since the forecast was on
+  *parent* NPAT and the parent split is still unknown.
+  **What the corrected evidence string now says**, in short: Q2 consolidated NPAT **₫770bn**, H1 **~₫1,097bn
+  = 73% of plan**; ₫321bn is on a different, unestablished basis; **the core business genuinely collapsed**
+  (revenue −85%, ~3.7 units, OCF −₫2,580bn, borrowings +₫6,500bn); **profit came from >₫906bn of financial
+  income** on the Bình Trưng Mới transfer; **the 73% is a one-off, not a run-rate.** Confidence **held at
+  0.50** — unchanged, because branches need human re-derivation and moving a scalar is not a substitute.
+  **No weight, branch or probability touched.** `fy26e_npat` 1,033/1,590/2,203 stands and requires
+  re-derivation under charter §4.
 
 - **04:53 ICT · AUDIT — ran the KDH error against every other block. It is bounded to one ticker, and the
   real diagnosis is a naming convention that one block already demonstrates.**
