@@ -21,7 +21,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
-| **VNDiamond — KDH on the REMOVAL watchlist; next review date UNKNOWN** | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
+| **⚠ VNDiamond changes EFFECTIVE MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum**; the decisive review is the **semi-annual July** one. **Outcome not established.** Flow likely completed at **Friday 31-Jul's close** | 4 |
+| ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | **3-Aug is a TRIPLE date** | **July CPI + July PMI + TCX's VN30 effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday | 1, 4 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
@@ -71,6 +72,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **⚠ ESCALATION — TRIGGER 5 FIRES · 20:53 ICT · KDH (lane 4) — VNDiamond changes take effect MONDAY, and
+  KDH is 20.3% of the book with a proposed −4.7pp trim.**
+  **`DECISION-FRAMEWORK` §4 test 5: *a dated catalyst lands within 5 sessions of a proposed trade in that
+  name.*** **The VNDiamond review results were announced 20-July-2026 and the changes take effect
+  03-August-2026 — Monday, the next trading session.**
+  **Why KDH is exposed:** it was placed on the removal watch list for failing VNDiamond's **minimum
+  foreign-ownership-limit test of 65%, sitting at 61.8%.**
+  **This corrects what I wrote at 19:53.** That entry said *"reviews are quarterly, so a Q3 review falls
+  around July."* **The timing was right by accident; the mechanism was not. VNDiamond rebalances quarterly
+  but reviews constituents SEMI-ANNUALLY, and removal happens at the semi-annual review** — sources state
+  KDH *"may be officially removed at the next semi-annual review in July 2026 if there is no improvement
+  above the 65% mark."*
+  **Whether it was actually removed is still not established.** The 20-July announcement itself was not
+  found this sweep. **That is the whole question and it is not guessed.**
+  **And the flow has probably already happened, which changes what the human should be asking.** On 31-Jul
+  this file established — and corrected its own escalation over — the mechanic that **index funds trade at
+  the close of the session BEFORE an effective date, not on it.** That is why the VN30 ETFs completed their
+  rebalance on 31-Jul for a 03-Aug effective date. **The same mechanic applies here.** If KDH was removed on
+  20-Jul, **the ETF selling would have completed at Friday 31-July's close**, and Monday is administrative.
+  **So the question is not "what happens Monday" — it is "did it already happen on Friday, and does the
+  file's KDH price reflect it?"** That runs straight into `OPEN-DECISIONS` item 2: **prices are undated and
+  presumed 24-Jul.** Friday saw VN-Index −8.9 points, foreign net selling of ₫307bn and ~200 decliners —
+  **this file does not know whether KDH was among them.**
+  **Size, with the gap stated:** KDH's VNDiamond weight is **not known**, so the removal flow cannot be
+  sized against the ~₫12,486bn tracking pool. TCB's 9.0% weight is ~₫1,124bn for scale.
+  **Also confirmed, and it shows the door swings both ways: MWG returned to VNDiamond after half a year
+  out** — removal is not permanent.
+  **Nothing modelled, no weight, branch or probability touched. No trade is proposed as executed.**
 
 - **19:53 ICT · INDEX (lane 4) — the question left open an hour ago is answered, and it reaches further
   than the banks: FOUR of the eight touch VNDiamond, and KDH is on a REMOVAL watchlist.**
