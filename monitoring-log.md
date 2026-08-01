@@ -73,7 +73,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
-- **23:53 ICT · BANKS / POLICY (lane 1) — a fifth dated regulation, effective YESTERDAY, and it corrects
+- **00:53 ICT · CORRECTION to this file's own date filing.** The two entries written at **23:53 ICT
+  yesterday** were filed under a `## 2026-08-02` heading. **23:53 was still 1 August.** They have been
+  merged back into the 01-Aug section, and the phrase *"effective YESTERDAY"* in the LDR entry — written
+  the same day the rule took effect — is corrected to *"effective TODAY (01-Aug)."*
+  **Worth recording rather than fixing silently.** This file has spent the week cataloguing period errors
+  in other people's numbers — ten of them — and then mis-dated its own entry by a day at the hour when the
+  date changes. **The tell was available and unused: an hourly routine crossing midnight changes the date,
+  and 23:53 is the one slot per day where that is live.**
+
+- **00:53 ICT · MACRO (lane 1) — GDP was the last blank of the five silent lane items, and it is a big
+  number.**
+  **Vietnam's H1 2026 GDP grew more than 8% year on year.** No GDP figure was on file.
+  **It sits beside two numbers already here and makes a coherent picture:** system credit **+7.73%** in H1,
+  and a manufacturing PMI above 50 for **twelve consecutive months.** Growth, credit and manufacturing all
+  point the same way.
+  **And it complicates the macro reading on file.** This repo records that **SBV is constrained on two
+  sides** — FX with the Fed on hold, inflation with CPI 4.38% against a band near 4.5% — concluding
+  *"funding-cost relief is not coming from policy."* **8%+ growth is the third side, and it argues the same
+  direction for a different reason: a central bank with strong growth has less cause to ease.** The
+  conclusion survives; the basis for it broadens.
+  **One house's forecast, recorded as such:** **Standard Chartered raised its Vietnam GDP forecast to 9.5%
+  for 2026 and 11% for 2027**, while lowering its inflation forecast. **Those are extraordinary numbers —
+  11% would be among the fastest in Asia — and they come from a single house.** Charter §2 puts a broker
+  forecast at T4, and this file has already been burned once logging a Fitch iron-ore *forecast* as a spot
+  *price*. **Attributed, recorded as a forecast, nothing built on it.**
+  **Third-direction corroboration of the funding squeeze:** the same coverage describes **tight banking
+  system liquidity keeping deposit rates elevated and pushing up funding costs.** That is now **three
+  independent routes** — the July interbank rate table (31-Jul), a broker note headlined *"despite
+  liquidity tension"* (01-Aug), and this. **The 31-Jul entry called it a single-source observation; it is
+  not one any more.**
+
+- **00:53 ICT · TRAP DISARMED — a stale market article, caught because the market is shut.**
+  A search framed for **2 August** returned *"VN-Index tumbles 44 points as selling sweeps Vietnam's stock
+  market"* and a claim that **Hoa Phát's market cap fell more than ₫10,500bn in a single session.**
+  **The market has been closed since Friday 31-July. Today is Sunday.** A "single session" decline cannot
+  have happened on 1 or 2 August.
+  **A second check agrees:** the VietnamNet article id is **2537773**, against **2537945** for a
+  Techcombank piece and **2540394** for a 30-Jul rates piece already used this session. **Lower id, earlier
+  article** — it predates both, so it is from roughly mid-to-late July. That fits what this file records:
+  **the market fell 6.55% in the week to 24-July** with forced liquidation, and a 44-point day belongs to
+  that week.
+  **Neither figure is logged.** **The generalisable tell is the calendar: on a Saturday or Sunday, any
+  claim about "a single session" or "today's trading" is automatically suspect, and the check costs
+  nothing.**
+  **Also seen and not logged:** *"crude steel production in Q2/2026 rose 48% YoY, steel sales +35%."*
+  **Whose production is not stated** — the sentence sits beside HPG commentary but could be the sector.
+  This file holds HPG's Q2 volumes in **tonnes** (3.5mt basket, 6.5mt H1, 1.9mt HRC), which currently
+  reconcile; **a percentage of unknown entity adds nothing and risks contaminating them.**
+
+## 2026-08-01
+
+- **23:53 ICT · BANKS / POLICY (lane 1) — a fifth dated regulation, effective TODAY (01-Aug), and it corrects
   two things logged this morning.**
   **(a) SBV cut the State Treasury deposit deduction in the LDR calculation from 80% to 50%**, effective
   **01-Aug-2026 to 31-Jul-2028**. **So the share of Treasury term deposits counting toward the deposit base
@@ -114,8 +165,6 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   **Also, bearing on `OPEN-DECISIONS` item 20:** the Government has **proposed amending the Land Law** so
   land prices are **set by the State on a full, public, transparent database** — upstream of both halves of
   the KDH land-fee question raised last night. **A proposal, not law; no direction claimed.**
-
-## 2026-08-01
 
 - **22:53 ICT · KDH / MARKET (lane 4) — looked for the removal's footprint instead of the announcement.
   KDH is absent from Friday's foreign sell list, and that proves less than it looks.**
