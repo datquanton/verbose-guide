@@ -68,6 +68,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **15:53 ICT · BROKERS (lane 5) — ran the "silent lane item" method again. Four items have never produced
+  an entry; the one checked names a rule the file uses without naming, and yields a number it never
+  computed.**
+  **Method first.** Last sweep's MSCI find came from checking a lane item with zero output, and that entry
+  said the method *"should be run on the remaining silent lane items."* Grepping the repo: **KRX (1),
+  VNDiamond (1), PMI (1), GDP (1) — all lane-definition-only — and "margin rules 91/102" returns ZERO.**
+  Checked the margin one, because it touches three positions.
+  **The rule is Circular 121/2020/TT-BTC: total margin debt of a securities company may not exceed 200% of
+  owner's equity.** Per-stock lending ratios run **10–50%** by ticker under Decision 87/QĐ-UBCK (2017).
+  **This repo already applies a 2.0× cap** — VCI's note reads *"margin 16,644 / 0.97 = equity 17,159"*
+  against *"a 2.0x cap"*, and VPX's derives *"ceiling ≥71,177 ⇒ equity ≥35,588"* from it — **but neither
+  named the instrument.** Note also that the lane text says *"91/102 margin rules"*, which returns nothing;
+  **the binding instrument is 121/2020, so the lane may be pointing at the wrong circulars.**
+  **And here is what was never computed: TCBS's own utilisation.** On this file's figures — TCX market cap
+  = 20.3 × ₫4,050bn = **₫82,215bn**, at P/B 2.49 — implied equity is **~₫33,018bn**, so the ceiling is
+  **~₫66,036bn**. **TCBS's ₫51,500bn margin book is therefore ~1.56× equity — 78% of the regulatory cap**,
+  with headroom of roughly **₫14,500bn**.
+  | Broker | Margin book | × equity | Status in the file |
+  |---|---:|---:|---|
+  | VCI | ₫16,644bn | **0.97×** | criticised for *not* using capacity |
+  | VPX | ₫38,200bn | **~1.07×** | unused room treated as the *real bull case* |
+  | **TCX / TCBS** | **₫51,500bn** | **~1.56×** | **never computed** |
+  **This reframes the TCX case without contradicting it.** TCX ranks first on expected return and earns
+  **~31% of H1 PBT from margin interest** on that book. Those earnings come from a balance sheet **more than
+  three-quarters drawn against its regulatory limit**, so the margin line cannot grow much faster than
+  equity does. **The same fact that makes VCI look inert makes TCX look constrained** — and neither reading
+  was available while only two of the three were measured.
+  **What does not relieve it:** TCB's **60% bonus issue moves reserves into charter capital and does not
+  increase total owner's equity** — and in any case that is the *parent's* equity, not TCBS's. Capacity at
+  TCBS moves on retained earnings or a capital injection, neither of which is on file.
+  **Stated with its caveat:** TCX's equity here is **derived** from `pe_ttm × npat_ttm / P/B`, not read from
+  a balance sheet, and `npat_ttm` cross-checks have already failed twice in this repo (VCI 25.2% off, VPX
+  9–27% off). **So 1.56× is an estimate built on file figures, not a filed number.** It is directionally
+  robust — TCBS would need equity above ₫25,750bn merely to be *legal* at ₫51,500bn — but the precise
+  utilisation needs TCBS's reported equity. **Escalated, not modelled.**
+
 - **14:53 ICT · INDEX (lane 4) — MSCI said no six weeks ago and this repo has no record of it. "MSCI
   watchlist" appears exactly ONCE in the whole repo: in the lane definition.**
   **In MSCI's 2026 Annual Market Classification Review, released 24-June-2026, Vietnam was NOT added to the
