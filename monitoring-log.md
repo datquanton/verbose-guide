@@ -73,6 +73,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **06:53 ICT · MARKET (lane 4) — the file's price date turns out to be a trough, not a random day. That
+  sharpens `OPEN-DECISIONS` item 2 and gives the bias a reason rather than a direction.**
+  **The week to 31-Jul gained nearly 3% and was the first up week after FOUR consecutive weekly declines.**
+  This file's own path confirms it exactly: **1,686 (24-Jul) → 1,735.78 (31-Jul) = +2.95%.**
+  **So 24-July — the date this file's prices are presumed to carry — was not a random day. It was the
+  bottom of a four-week slide, 12.51% below the Q2 peak of 1,927.**
+  **Both earlier readings were groping at this.** The 30-Jul entry saw every dated observation sitting
+  *below* the file's figures and concluded expected returns were **systematically understated**; the 31-Jul
+  11:53 entry said the error **"may have changed sign."** **The prices are anchored at a local trough, so
+  the staleness bias more likely UNDERSTATES current prices than overstates them — which means expected
+  returns computed off them are more likely too HIGH than too low.** That is the opposite of the 30-Jul
+  reading, **and it now has a reason rather than just a direction.**
+  **Stated with its limit:** this is an **index** argument applied to eight names, and the 30-Jul entry
+  already refused to apply an index move to individual holdings for exactly that reason. **TCB and VPB were
+  among Friday's largest foreign net sells**, so they need not have tracked the index up. **No price is
+  applied.** What changes is **the sign of the likely bias, not any number.**
+  **Technical level worth having:** the index approached **1,750 resistance** on Friday and faded 8 points
+  off it, closing **0.81% below.** A failed test at a round number is not a forecast and is not treated as
+  one.
+  **Dated catalyst for the coming week, outside Vietnam: the US July employment report and ISM
+  manufacturing and services PMI.** Those bear on the Fed, and the Fed bears on the FX side of the SBV
+  constraint this file records — **a hold at 3.50–3.75% with three HIKE dissents.** A strong payroll print
+  pushes that distribution further from easing.
+
 - **05:53 ICT · PROPAGATION — the KDH correction pushed to every place that carried the wrong premise.
   Five locations. One deliberately left alone.**
   The 31-Jul lesson says **a withdrawal is not complete until every copy of the claim carries it** — it was
