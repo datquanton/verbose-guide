@@ -73,6 +73,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **22:53 ICT · KDH / MARKET (lane 4) — looked for the removal's footprint instead of the announcement.
+  KDH is absent from Friday's foreign sell list, and that proves less than it looks.**
+  After three failed attempts at the 20-July announcement itself, this sweep looked for its **footprint**.
+  **KDH does not appear among the largest foreign net sells on 31-Jul** — that list is **VHM, TCB, VPB,
+  NVL, ACB**.
+  **And I was probably looking in the wrong column, which is the useful part.** **The VNDiamond ETFs are
+  domestic funds** — DCVFMVN Diamond (Dragon Capital), MAFM, KIM Growth, VFCVN (TPBank). **Their
+  rebalancing trades are domestic institutional flow and need not appear in the foreign column at all.**
+  The picture is genuinely ambiguous, because foreign investors are the main *holders* of these ETFs — that
+  is their purpose, accessing FOL-capped stocks — so redemptions could surface as foreign flow. **Either
+  way, absence from a foreign top-five is weak evidence about a domestic ETF rebalance.**
+  **Size argues for the same caution:** the estimated removal flow is **~₫72bn** against VHM's ₫249bn on
+  the HOSE measure, so **KDH could have been sold in full and still missed a top-five list.**
+  **The honest conclusion is that this sweep did not answer the question.** Recorded as a negative result
+  so the next sweep does not re-run it. **The answer needs either the 20-July HOSE announcement or KDH's
+  trading-volume series for 31-Jul, neither of which this environment has reached.**
+
+- **22:53 ICT · MARKET — the 31-Jul foreign-flow discrepancy resolves, and it is a scope question as
+  suspected.**
+  That entry logged **₫307bn** of net foreign selling on HOSE with a breakdown that closed arithmetically,
+  and flagged a competing *"more than ₫360bn"* as unreconciled. **A third figure now appears: ₫669bn net
+  sold across all three exchanges.** **So the three are not in conflict** — they are HOSE matched-order, a
+  wider HOSE measure, and the all-exchange total. **The decision to keep the one that reconciled was right,
+  and the diagnosis "probably HOSE-only versus whole-market" was correct.** Recorded because three figures
+  for one day's flow is exactly the shape that has caused period and entity errors all week — **this time
+  the scopes are named.**
+  **TCB and VPB are among Friday's largest foreign net sells**, alongside VHM, NVL and ACB. **That is 45%
+  of this book being sold by foreigners on the last session before these prices would need refreshing.** It
+  bears directly on `OPEN-DECISIONS` item 2, where prices are undated and presumed 24-Jul: **two of the
+  three largest positions moved on Friday in a direction the file cannot see.** No price applied — a flow
+  list gives direction, not a quote.
+  **One figure confirmed in passing:** KDH's 2026 AGM profit target of **₫1,500bn matches
+  `company_plan_npat` on file exactly**, alongside "clean of bond debt" and an explicit commitment to **no
+  new equity issuance.** That last is worth having beside the VNDiamond problem — **a company that has
+  ruled out issuing equity has one fewer lever for raising its foreign-ownership ratio.**
+
 - **21:53 ICT · KDH (lane 4) — the VNDiamond flow is sized at ~₫72bn, and my own illustrations two sweeps
   ago were an order of magnitude too high.**
   **The correction first.** At 19:53, unable to find KDH's index weight, this file offered *"3/5/7% would
