@@ -70,6 +70,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **17:53 ICT · INDEX (lane 4) — fourth silent lane item, and the most embarrassing of the four: the file
+  analysed the VN30 pool in detail and never looked at the LARGER one.**
+  **"VN30/VNDiamond reviews" is a lane-4 item. VNDiamond returns one hit in this repo — the lane
+  definition.** Meanwhile this file spent several sweeps on the VN30 rebalance: TCX's entry, 1.3m shares,
+  **₫59bn** of ETF demand, 0.073% of market cap, the flow-date-versus-effective-date correction.
+  **The sizes.** **DCVFMVN Diamond (FUEVFVND, Dragon Capital) alone holds ₫12,070bn across nineteen
+  holdings.** Add MAFM ₫345bn and KIM Growth ₫71bn → **₫12,486bn found**, with VFCVN Diamond (TPBank,
+  launched Sep-2025) unsized. **Against the VN30 pool this file did analyse: ₫9,464bn across four ETFs.**
+  **So VNDiamond is roughly 1.3× the VN30 pool on the funds found.**
+  **And the per-name arithmetic is the part that stings.** Nineteen holdings in a ₫12,070bn fund is an
+  average weight of ~5.3% — **~₫635bn per name, about eleven times the ₫59bn TCX flow this file spent days
+  sizing.** **Stated as an average, not a position:** VNDiamond weights are rule-capped and the cap
+  structure is not on file, so no single name is claimed to hold ₫635bn. **The order of magnitude is the
+  point.**
+  **HPG is a constituent** — named directly alongside MWG, FPT and VRE. **That is 16.8% of this book, with
+  a proposed ADD of +3.2pp, sitting in an index pool the file has never tracked.**
+  **The index criterion is itself worth having: VNDiamond selects HOSE companies at or near the foreign
+  ownership limit** — a proxy basket for **names foreigners want and cannot buy**. Set against yesterday's
+  finding that **foreigners have net sold ₫92,000bn YTD**, that is a genuine tension: a full foreign room
+  and four years of net selling are hard to hold in one picture. **Flagged, not resolved** — resolving it
+  needs room-utilisation data this file does not have.
+  **Two things seen and deliberately NOT logged.** A headline reads *"VNDiamond: a series of BANK stocks
+  could be heavily sold by funds totalling ₫24,000bn in October."* It would imply both that banks are in
+  the index and that tracking AUM is nearly double what is recorded here — **but it is undated in the
+  result and refers to "October", which may be a prior year.** Neither the ₫24,000bn nor the
+  bank-composition claim is recorded. **Whether TCB, MBB or VPB are constituents remains unknown and
+  matters**, because bank foreign rooms are commonly full. **That is the next question, not an answer.**
+  **Silent-lane sweep now 4 of 5 done** — MSCI, margin rules, KRX, VNDiamond. **PMI/GDP remains.**
+
 - **16:53 ICT · INFRASTRUCTURE (lane 4) — third silent lane item checked. "KRX system" is STALE, not
   missing — and the chain it belongs to has a date collision.**
   **KRX has been live since 05-May-2025** — first session closed safely, VN-Index +1.12%, turnover over
