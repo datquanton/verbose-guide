@@ -66,6 +66,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **10:53 ICT · VPB (lane 3) — the 26% label is PINNED, and the ambiguity turns out to have been two
+  different plans rather than sloppy reporting.**
+  **The sequence, now explicit.** **(1) 22-Apr-2026, AGM:** approved issuing shares **to increase charter
+  capital from owner's equity** — a *bonus issue*. **(2) July 2026, written shareholder poll** (before
+  30-Jul): shareholders approved **amending** it into a plan to **issue shares to pay a dividend from
+  undistributed accumulated post-tax profit** — a *stock dividend*. **(3) 30-Jul-2026, board resolution:**
+  implements it — **2.06bn shares at 26.04%**, holders of 10m shares receive **>2.6m** new ones, Q3–Q4/2026.
+  **So it is a stock dividend — and both descriptions were correct at different times.** The on-file note
+  flagged that sources called the 26% variously *cổ phiếu thưởng* and *cổ tức cổ phiếu*, that these are
+  different instruments for tax and accounting, and that the label was **not yet pinned.** **The conflict
+  was not bad reporting: the instrument itself changed in July.**
+  **General lesson, worth more than this instance: when two sources give the same event different
+  *technical* labels, check whether the thing changed between them before deciding one source is wrong.**
+  This file's habit has been to treat conflicting labels as one of them being an error — here that habit
+  would have discarded a true statement.
+  **Why it matters, and it is a real cost the file did not have.** In Vietnam a **stock dividend from
+  retained earnings is a dividend distribution** and attracts **5% PIT** for individual holders; a **bonus
+  issue from owner's equity is a capital restructuring**, not taxed as a dividend at issuance. **The July
+  amendment therefore moved 2.06 billion shares from a non-taxable capital increase into a taxable
+  distribution.** `cfa.py` already carries `TAX_DIVIDEND = 0.05` and **has never applied it to this event.**
+  **Order of magnitude, flagged as such:** on a par-value basis, 0.2604 × ₫10,000 × 5% ≈ **₫130 of tax per
+  share held**, or **0.52% of the ₫25,000 price on file.** **Not a precise number** — the timing (generally
+  collected on disposal) and the base are both unverified here, and the draft MoF decree carried as
+  `TAX_GAINS_DRAFT = 0.20` is explicitly **not law**. Recorded to size the issue, not to model it.
+  **And it exposes a gap beside `OPEN-DECISIONS` item 3.** That item asks for a `cash_yield` convention.
+  **There is no convention at all for stock-dividend tax — and three of the eight have undated stock issues
+  pending: VPB 26%, MBB 15%, TCB 60%.** Whichever convention a human sets for cash should be set for stock
+  in the same sitting.
+
 - **09:53 ICT · HPG (lane 5) — the first absolute rebar level on file, and it quantifies a limitation the
   bridge has carried as prose.**
   **At 1-Aug, Hoa Phát's domestic rebar is ₫15,120/kg** (CB240 coil and D10 CB300) against a market range
