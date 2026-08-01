@@ -73,6 +73,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **⚠ ESCALATION · 03:53 ICT · KDH — `h1_npat` = 321 on file is WRONG, and the error propagated into a
+  scored calibration entry and an escalation.**
+  **Resolved this sweep from multiple sources: KDH's Q2/2026 NPAT is ₫770bn. H1 is ~₫1,095bn — 73% of the
+  ₫1,500bn full-year target.** The file's own `q1_npat` of ₫327bn reconciles it exactly: **327 + 770 =
+  1,097** against a stated ~1,095. **The driver is financial income of >₫906bn**, arising largely from the
+  **transfer of 51% of Bình Trưng Mới** — and core property operations *did* collapse, which is why one
+  source reads *"core business plunges, KDH still reports profit up four times."* **Both halves are true
+  and this file only ever had one.**
+  **What this corrects, in order of severity.**
+  **(1)** The 30-Jul entry derived *"Q2 profit is approximately zero"* from H1 321 − Q1 327. **That
+  derivation is wrong because its input was wrong.**
+  **(2)** The same entry called a reported ₫770bn Q2 profit **"internally impossible." It is the correct
+  figure.** I withdrew that twice — partially on 30-Jul, and again an hour ago as *"right in form and
+  under-done in force."* **It is now fully withdrawn: the number I dismissed was simply right.**
+  **(3)** **Last hour I wrote** that a Q3 completion should not produce a Q2 gain, and used that to argue
+  the divestment was *not* the explanation. **The deconsolidation gain landed in Q2 financial income**; the
+  Q3 date refers to full completion. **That reasoning was wrong too.**
+  **What ₫321bn probably is:** core/ex-gain profit, or a parent-only figure. **Not established, and not
+  overwritten** — charter §5 forbids quietly retuning a number when the measure is unresolved. Both figures
+  now sit in the block with their bases labelled, so `git log` stays a truthful record.
+  **The calibration consequence is the part a human must take.** Forecast #1 was **"Q2 PARENT NPAT between
+  ₫170bn and ₫348bn"** and was scored a **MISS** on the reasoning that Q2 profit was roughly zero. **The
+  forecast is on parent NPAT and ₫770bn is consolidated, so I cannot rescore it** — the parent split is
+  still unknown. **But the stated basis for the miss is gone.** **I am not rescoring it myself:** rescoring
+  on a measure I do not have, in the direction that improves my record, is exactly what this log warns
+  against. **Flagged for a human.**
+  **And the portfolio picture changes shape.** This file recorded KDH as the quarter's disaster — Q2
+  revenue −85%, profit near zero, every branch contradicted, every street estimate too high. **The reality
+  is a collapsed core business AND 73% of the full-year plan delivered at the half, on a one-off.** That is
+  a different company from the one in the file: **worse operationally than the plan implies, and far better
+  against the plan than the file records.** `fy26e_npat` (1,033/1,590/2,203) needs re-deriving against an
+  H1 of ~₫1,097bn that is **73% one-off** — **human-only under charter §4.**
+
 - **02:53 ICT · KDH (lane 3) — a THIRD Q2 profit figure appears, and it reopens a claim I withdrew only
   partly. Flagged, deliberately not resolved.**
   A source states **KDH recorded nearly ₫750bn of net profit in Q2/2026** *"despite reduced real-estate
