@@ -18,6 +18,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | FTSE Secondary Emerging effective | 2026-09-21 | 4 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
+| **Circular 29/2026/TT-NHNN takes effect** | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
+| **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
 parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
@@ -62,6 +64,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **07:53 ICT · BANKS / POLICY (lanes 1, 5) — the back-sweep committed an hour ago was run immediately,
+  and its first result is a regulation found TWO WEEKS BEFORE it binds.**
+  **Circular 29/2026/TT-NHNN — issued 30-Jun-2026, effective 15-Aug-2026.** Amends **Circular
+  39/2016/TT-NHNN**, the core regulation on lending by credit institutions to customers.
+  **That is the point of this entry.** Compare the four found in the past three days: **Circular 25/2026
+  (four weeks late), HCMC Decision 45/2026 (one month), Circular 08/2026 (three months), the quota
+  exemptions (undated)** — **all four found only after something else made them relevant.** The 06:53
+  lesson said *"SBV and MoF circulars get a monthly back-sweep of the preceding quarter, not a search when
+  a thesis needs one."* **Running it once turned retrospective discovery into a dated catalyst with two
+  weeks of warning.** That is the difference between writing a lesson and applying it.
+  **What it changes, as far as established.** Three named areas: **debt-handling procedures, small-value
+  loan limits, and the legal framework for electronic lending.** Small-value loans are now quantified at
+  **≤₫200,000,000** for people's credit funds — a threshold that does not touch our banks directly.
+  **Grandfathering:** agreements signed before 15-Aug run on under the old rules, but **any amendment after
+  that date must comply with the new ones** — so the transition reaches existing books through
+  restructurings.
+  **What is NOT established, and is not guessed.** The amendments are known by **article number** (Art.1
+  cl.3, Art.2 cl.13, **Art.8 cl.6(b)**, Art.18 cl.4, Art.22 cl.2(h)) and by press characterisation, **not
+  by text** — `thuvienphapluat`'s full-text page returns proxy 403, **the sixth host to refuse this
+  session.** **Article 8 of Circular 39 is the list of purposes credit institutions may NOT lend for**, so
+  an amendment there is potentially the most consequential of the five — **but this file has not read it
+  and will not infer content from location.** One outlet headlines the circular as good news for
+  *borrowers*; whether that is neutral, positive or negative for *lender margins* is a different question
+  and is unanswered.
+  **Why it plausibly matters here — a reason to watch, not a finding.** The three areas are retail and
+  consumer lending, and this book holds **VPB (FE Credit), MBB (MCredit) and TCB — 51.5% between them.**
+  The electronic-lending framework is the piece most likely to matter to a digital-first lender.
+  **Nothing modelled, no confidence moved, no branch touched.**
+
+- **07:53 ICT · METHOD — the source that makes the back-sweep repeatable, which is worth more than any one
+  circular.**
+  **luatvietnam publishes a monthly digest: *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N/2026"*
+  — new finance and banking policies taking effect in month N.** It is **forward-looking by construction**,
+  which is exactly what every one of this week's four late catches lacked.
+  **Five missed or late regulations in four days share one cause:** the lanes hunt for things that
+  *happened*, and a circular gazetted on a known date never "happens" in that sense. **The fix is not a
+  better query, it is a source with a calendar.** Added to the date-gate table so the next sweep does not
+  rediscover the method along with the content. **Also checkable in advance:** NHNN publishes an annual
+  programme of the circulars it intends to issue — **18 for 2026, seven planned for Q2** — which makes the
+  *pipeline* checkable, not just the output.
+  **Flagged, not pursued this sweep: Circular 20/2026/TT-BTC** guides the **Corporate Income Tax Law** and
+  Decree 320/2025. **This model assumes a 20% effective CIT throughout** — MBB's Q1 checks at exactly 0.80
+  NPAT/PBT — so a CIT guidance change would touch **all eight names at once** rather than one sector.
+  **Not read, and no tax assumption altered on the basis of a title.**
 
 - **06:53 ICT · BANKS / POLICY (lane 5) — a FOURTH dated regulation in force with no record here, and it
   names the mechanism this file inferred two hours ago.**
