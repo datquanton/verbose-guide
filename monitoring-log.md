@@ -15,7 +15,9 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
-| FTSE Secondary Emerging effective | 2026-09-21 | 4 |
+| FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
+| **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
+| **Vietnam CCP (central counterparty clearing)** | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
@@ -65,6 +67,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **14:53 ICT · INDEX (lane 4) — MSCI said no six weeks ago and this repo has no record of it. "MSCI
+  watchlist" appears exactly ONCE in the whole repo: in the lane definition.**
+  **In MSCI's 2026 Annual Market Classification Review, released 24-June-2026, Vietnam was NOT added to the
+  upgrade watchlist** — not mentioned in any key section of the six-page report — and **remains classified
+  FRONTIER**.
+  **Sixth instance of this species**, after HPG's volume disclosure, Circular 25/2026, HCMC Decision
+  45/2026, Circular 08/2026 and the quota exemptions — and **the second found by deliberately checking a
+  lane item that had never produced output**, which is how Decision 45 surfaced last night. **The method
+  works and should be run on the remaining silent lane items.**
+  **The asymmetry is the finding, and it is large.** This file's entire index-event narrative rests on
+  FTSE. **MSCI EM-tracking assets are a much larger pool than FTSE Emerging.** So the position is:
+  **Vietnam is entering FTSE Secondary Emerging at a 0.22% full weight with a 10% first tranche — and is
+  not even on MSCI's watchlist.**
+  **And the watchlist is a precondition, not a formality.** MSCI's standard sequence is: watchlisted at an
+  Annual Review → reclassification announced at a *subsequent* Annual Review no sooner than a year later →
+  implemented roughly a year after that. **Stated as the standard sequence rather than a schedule:** on it,
+  the earliest Vietnam could be watchlisted is **June 2027**, the earliest announcement **June 2028**,
+  implementation around **2029**. **MSCI EM inclusion is not a 2026 or 2027 event on any reading.**
+  **It cuts against a reading logged last night.** The 31-Jul 21:53 entry recorded ₫92,000bn of foreign net
+  selling and quoted a headline that foreigners had sold *"ahead of the upgrade."* That framing implies an
+  upgrade worth positioning for. **The large upgrade is not on the horizon — only the smaller one is, and
+  it delivers a tenth of its first tranche in September.** Both facts point the same way and **neither was
+  on file this time yesterday.**
+  **What MSCI did acknowledge**, from its 19-June Global Market Accessibility Review: the new **Global
+  Broker model**, removing the requirement for foreign investors to hold a domestic trading account, and
+  the official establishment of a **Central Counterparty Clearing (CCP) mechanism slated for early 2027** —
+  described as the milestone most closely watched before the 2027 review.
+  **The CCP is a new dated item and not only a macro one.** A central counterparty changes **clearing and
+  margin mechanics for brokers**, and this book holds TCX and VCI directly plus VPX, with **19.5%
+  look-through brokerage exposure**. Added to the date gate.
+  **Nothing modelled, no confidence moved, no branch touched** — this is a catalyst that did not happen and
+  a precondition that has not been met.
+
+- **14:53 ICT · PROCESS NOTE — the previous commit went out incomplete, and this records why.**
+  The MSCI finding was written to `assumptions.json` and pushed as `3c055af`, **but the `monitoring-log.md`
+  entry never landed.** The script asserted a date-gate row string carrying `**bold**` markers; the actual
+  row had none, **the assertion fired correctly and aborted that script — but the commit and push ran
+  anyway**, because they were chained after it rather than gated on it. **So one commit carried the finding
+  in the data file and nothing in the log.** Fixed in this commit.
+  **The assertion did its job; the sequencing did not.** Worth recording because this file's whole method
+  rests on checks that abort on mismatch, and an abort that does not stop the downstream step is a check
+  that reports rather than prevents. **The fix is to gate the commit on the writes succeeding**, not to
+  loosen the assertion.
 
 - **13:53 ICT · TCX (lane 4) — the exact FTSE tranche weights, which the 28-Jul note explicitly said it
   lacked. They are more decisive than that note could assume.**
