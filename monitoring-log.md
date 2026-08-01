@@ -66,6 +66,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **11:53 ICT · TCB / MBB / VPB (lane 3) — the set is complete, and the answer is counterintuitive: the
+  LARGEST stock issue is the one that is NOT a taxable distribution.**
+  Having pinned VPB's label an hour ago, the same check was run on the other two flags **written in the
+  same form** — the 29-Jul lesson that when one stale flag is found, every flag of the same shape gets
+  checked in the same sweep. **All three are now pinned, and they are not the same instrument.**
+  | | Stock issue | Instrument | Source | Taxed as a dividend? |
+  |---|---|---|---|---|
+  | **TCB** | 60%, >4.28bn shares, +₫42,876bn | **Bonus shares** (*cổ phiếu thưởng*) | **Owner's equity** | **No** |
+  | **VPB** | 26.04%, 2.06bn shares | **Stock dividend** | Retained earnings | **Yes** |
+  | **MBB** | 15%, >1.2bn shares, ₫12,082bn | **Stock dividend** | Undistributed profit (₫21,234bn at 31-Dec-25) | **Yes** |
+  TCB's separate **7% cash (₫4,960bn)** *is* from undistributed profit and *is* a real dividend. MBB's 15%
+  sits inside a **25% total distribution worth ₫20,137bn**, of which ₫8,055bn is the 10% cash.
+  **So the largest of the three stock issues is the one that is not a taxable distribution, and the two
+  smaller ones are.** That is the opposite of what *"TCB is paying 67%"* suggests — and it is exactly the
+  distinction that disappears when all three are filed as "a big stock issue pending."
+  **Sized on the file's own `TAX_DIVIDEND = 0.05`, par basis, at on-file prices:** TCB **0.12%** of price
+  (cash only), VPB **0.62%**, MBB **0.57%**. Weighted by position: 0.042 / 0.062 / 0.037pp — **totalling
+  0.141pp of the whole book**, from three names that are 51.5% of it.
+  **Three caveats, stated because the number looks more solid than it is.** **(1)** Vietnamese PIT on stock
+  dividends is generally **collected on disposal, not at issuance** — so this is a **deferred** liability
+  that reduces realised proceeds whenever the holder sells, which for a long-term holder may be years away.
+  **(2)** The 5% rate is **the file's own assumption** in `cfa.py`, not verified against current law this
+  sweep; the draft MoF decree carried as `TAX_GAINS_DRAFT = 0.20` shows the regime is in flux. **(3)**
+  Prices are the undated ones `OPEN-DECISIONS` item 2 already flags.
+  **What it adds to item 3:** that item asks a human to set a `cash_yield` convention. **The answer now
+  needs three cells, not one — cash dividend, stock dividend, and bonus issue — because the book holds one
+  of each and they are taxed differently.** Recording all three as "pending corporate action" was hiding a
+  real difference between the two largest positions.
+
 - **10:53 ICT · VPB (lane 3) — the 26% label is PINNED, and the ambiguity turns out to have been two
   different plans rather than sloppy reporting.**
   **The sequence, now explicit.** **(1) 22-Apr-2026, AGM:** approved issuing shares **to increase charter
