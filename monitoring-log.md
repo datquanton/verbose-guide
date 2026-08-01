@@ -18,7 +18,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | FTSE Secondary Emerging effective | 2026-09-21 | 4 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
-| **Circular 29/2026/TT-NHNN takes effect** | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
+| **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
+| ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
@@ -64,6 +65,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **08:53 ICT · BANKS / POLICY (lane 5) — the back-sweep completed: a second circular on 15-Aug, and a
+  scope check that resolves NEGATIVE.**
+  **Circular 31/2026/TT-NHNN, effective 15-Aug-2026**, replaces Circular 26/2024 and governs **financial
+  leasing by general finance companies and financial leasing companies**. Its notable change: it brings
+  **"property rights" — software, data, exploitation rights, intellectual property — into the list of
+  assets eligible for financial leasing.**
+  **That confirms 15-Aug as a cluster date.** Circular 29/2026 (lending) carries the same effective date.
+  **The 31-Jul lesson that effective dates cluster** — written after 01-Jul turned out to carry both
+  Circular 25/2026 and HCMC Decision 45/2026 — **now has a second instance, and this time the cluster is
+  fourteen days ahead rather than a month behind.**
+  **Scope checked, and it resolves negative — which is the useful answer.** The circular covers *công ty
+  tài chính **tổng hợp*** (general finance companies) and *công ty **cho thuê tài chính*** (leasing
+  companies). This book reaches two finance companies through its banks: **FE Credit (VPB)** and **MCredit
+  (MBB)**. Both appear to be **consumer** finance companies rather than general or leasing ones —
+  **MCredit's legal name is *Công ty Tài chính TÍN DỤNG TIÊU DÙNG TNHH MB Shinsei***, consumer credit
+  written into the name itself; **FE Credit** is *Công ty Tài chính TNHH MTV Ngân hàng Việt Nam Thịnh
+  Vượng*, descending directly from VPBank's consumer credit division. The Law on Credit Institutions
+  separates **general** finance companies from **specialised** ones, and consumer finance is a specialised
+  type that does not conduct leasing.
+  **Hedged deliberately: this is read from company names and press descriptions, not from the licences.**
+  A licence is the only thing that settles the category, and this environment cannot reach the SBV
+  register. **The finding is "probably out of scope", not "out of scope."**
+  **Recorded as a negative result so it is not re-raised** — a regulation that *looked* like it touched two
+  holdings' subsidiaries, checked, and probably does not. **Fourth negative deliberately logged in two
+  days**, after the CORE trade case, the KDH ownership headlines and the KDH listing-site ASP route. Each
+  is there because the next sweep would otherwise spend the same budget reaching the same dead end.
+  **Two loose ends, stated as loose ends.** A decree effective in August sets penalties up to **₫100m for
+  individuals and ₫200m for organisations** to tighten market discipline — **its domain is not established**
+  (securities? banking? neither?), so no holding is claimed to be affected. And the digest describes
+  *"raising the small-loan ceiling to stimulate credit"*, which is **Circular 29's small-value provision
+  logged an hour ago, now framed as stimulus** rather than a technical definition — consistent, and it
+  slightly strengthens the reading that the circular's direction is expansionary.
+  **Access note: luatvietnam's own August digest page 403s — the seventh host this session** — so the
+  digest was read through search summaries rather than directly. **A human with unblocked access would get
+  a complete list where this sweep got a partial one.**
 
 - **07:53 ICT · BANKS / POLICY (lanes 1, 5) — the back-sweep committed an hour ago was run immediately,
   and its first result is a regulation found TWO WEEKS BEFORE it binds.**
