@@ -21,6 +21,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
+| **3-Aug is a TRIPLE date** | **July CPI + July PMI + TCX's VN30 effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday | 1, 4 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
@@ -69,6 +70,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-01
+
+- **18:53 ICT · MACRO (lane 1) — fifth and last silent lane item. PMI was 51.8 in June and no reading was
+  on file.**
+  **S&P Global Vietnam Manufacturing PMI: 51.8 in June 2026**, down from 52.8 in May but a **twelfth**
+  consecutive month above 50. Output rose for a **fourteenth** month, accelerating to its fastest since
+  February. `"51.8"` returned **zero** hits in the repo; the only PMI mentions were lane text.
+  **The line that matters for HPG: input cost inflation slowed to its weakest since the start of the year,
+  and output price inflation eased to a six-month low.** That is a **sector-wide reading of both blades of
+  a spread easing at once**, from an instrument entirely independent of the commodity quotes pinned last
+  night (ore flat at $98.25, coal down to $218.50, HPG's own HRC cut $34/t). **Two unrelated instruments
+  agreeing on direction is worth more than either alone.** It does **not** confirm magnitudes and is not
+  used to adjust any bridge input.
+  **Two other signals.** **Employment fell again** despite stronger activity — output growth without
+  hiring, twelve months in. And **business confidence hit a four-month high but remains below pre-conflict
+  levels** *"seen before recent geopolitical tensions in the Middle East."*
+  **That last clause connects two entries that were never linked.** This file **already holds** the Middle
+  East conflict — in the FOMC note, where the Fed described activity as expanding despite elevated
+  uncertainty owing partly to it. **So the same geopolitical event appears in both the Fed's statement and
+  Vietnamese manufacturing sentiment**, and until now sat in one entry as US macro colour. **Checked before
+  writing:** the instinct was to record it as a factor the repo had missed entirely — **it was already
+  there.**
+  **A date for the gate: July PMI publishes on the first working day of August**, and since 1-Aug is a
+  Saturday that is **Monday 3-August** — which already carries **July CPI** and **TCX's VN30 effective
+  date**. **It is a triple date.**
+
+- **18:53 ICT · METHOD — the silent-lane sweep is complete, 5 of 5, and every one hid something.**
+  Started at 14:53 on the observation that "MSCI watchlist" appeared **exactly once** in the whole repo —
+  in the lane definition. **The test is mechanical: grep each named lane item and count hits; a count of
+  one means the lane has been nominally covered and has never produced anything.** Five items scored one
+  or zero, and all five were checked in five consecutive sweeps:
+  | # | Item | What it hid |
+  |---|---|---|
+  | 1 | **MSCI** | Vietnam **kept off** the watchlist 24-Jun-2026, still Frontier — the repo's index narrative rested on FTSE, the *smaller* pool |
+  | 2 | **Margin rules** | Binding instrument is **Circular 121/2020** at 200% of equity — used but never named; **TCBS at ~1.56× vs VCI 0.97×, VPX 1.07×** |
+  | 3 | **KRX** | **Stale, not missing** — live since 05-May-2025; the live item is the **CCP at Q1/2027**, colliding with MSCI's June-2027 review |
+  | 4 | **VNDiamond** | A **₫12,486bn** ETF pool, ~**1.3× the VN30 pool** the file analysed in detail, **containing HPG**, never recorded |
+  | 5 | **PMI** | No reading on file; June **51.8**, both inflation blades easing |
+  **Five for five, and three of the five bore directly on positions.**
+  **The failure mode this exposes is not laziness, it is shape.** The lanes are written as **topics to hunt
+  for news in** — and a topic where nothing *happens* (an index that decides **not** to add you, a circular
+  that already exists, a system already live, a fund that simply sits there) **generates no news and
+  therefore no entries, indefinitely.**
+  **Recommended as a standing check: run the grep-and-count over the lane definition monthly, and treat any
+  item with a count of one as a lead rather than as covered.**
 
 - **17:53 ICT · INDEX (lane 4) — fourth silent lane item, and the most embarrassing of the four: the file
   analysed the VN30 pool in detail and never looked at the LARGER one.**
