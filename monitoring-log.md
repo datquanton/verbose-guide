@@ -66,6 +66,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **09:53 ICT · HPG (lane 5) — the first absolute rebar level on file, and it quantifies a limitation the
+  bridge has carried as prose.**
+  **At 1-Aug, Hoa Phát's domestic rebar is ₫15,120/kg** (CB240 coil and D10 CB300) against a market range
+  of **₫14,440–15,150** — so **HPG sits at the top of the domestic market, within ₫30/kg of the highest
+  quote.** Until now this file held only the *change* (+₫100/kg from 27-Jul), never a level.
+  **Converted and compared:** ₫15,120/kg ≈ **US$575/t** at FX 26,300, against **HPG's own August HRC offer
+  of US$546.5** logged on 31-Jul. **So rebar sits roughly 5% above HRC**; against the domestic HRC range of
+  ₫14,000–14,350/kg already on file, the gap is **+₫945/kg, or 6.7% on the midpoint.** **Basis caveat
+  stated rather than ignored:** the rebar quote is ex-VAT and the HRC range's basis is unrecorded, so the
+  two percentages **bracket** the gap rather than measure it.
+  **The divergence flagged on 31-Jul persists into August, and is now measured in levels rather than
+  directions** — rebar holding at the top of its range while HRC steps down US$34/t.
+  **And it sharpens what the bridge understates.** The bridge prices **HRC only**, at a spot of US$539.
+  HPG's H1 basket is construction steel + high-quality coil + HRC + billet, and **the construction-steel
+  leg is currently selling ~5% above the leg the model uses.** **The bridge is therefore calibrated on the
+  cheaper of HPG's two main products, which biases the modelled spread downward.** Not corrected — fixing
+  it means splitting the volume basket by product and re-solving the conversion cost, which is a rebuild
+  and human-only. **Recorded so the direction of the bias sits next to the numbers it affects.**
+  **Iron ore: two-sided risk, no new price.** Today's coverage names pressure from **CMRG** (China Mineral
+  Resources Group) tightening purchasing control — which pushes ore **down** — against **the risk of a
+  large-scale Australian strike**, which pushes it **up**, following the BHP strike that put ore at a
+  one-month high in mid-July. **No new ore figure was given**, so the **US$98.25** logged on 30-Jul stands.
+  The useful part is that the ore input now has an **identified** two-sided risk rather than an unexplained
+  one.
+
+- **09:53 ICT · TRAP DISARMED — "197–207 million tonnes" and a "US$525m Iron Bridge write-down" are
+  FORTESCUE, not Vietnamese steel.**
+  A search summary placed both claims **inside Vietnamese steel-sector coverage with no country label**.
+  **197–207mt is Fortescue's annual iron-ore shipment guidance, and Iron Bridge is Fortescue's magnetite
+  project in Western Australia.** For scale: **HPG's entire H1 steel basket was 6.5mt** — the figure is
+  ~30× HPG's annual output, a different commodity, in a different country.
+  **Same shape as the MBB SE and HRC-$1,169 traps already on file:** a plausible number arriving inside
+  local-language coverage with the entity stripped out. **Charter §3's entity check, applied to a producer
+  rather than a benchmark. Ninth of this species this week.**
+
 - **08:53 ICT · BANKS / POLICY (lane 5) — the back-sweep completed: a second circular on 15-Aug, and a
   scope check that resolves NEGATIVE.**
   **Circular 31/2026/TT-NHNN, effective 15-Aug-2026**, replaces Circular 26/2024 and governs **financial
