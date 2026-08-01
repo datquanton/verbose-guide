@@ -66,6 +66,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-01
 
+- **12:53 ICT · MBB (lane 3) — an arithmetic identity this file held all the pieces of and never divided:
+  the cash dividend and the rights issue are the SAME SIZE.**
+  MBB's **15% stock dividend is ₫12,082bn**, which implies **charter capital of ₫80,547bn**. **Ten percent
+  of that is ₫8,055bn — exactly the cash dividend paid from 17-Jul.** And the **rights issue of 805.5m
+  shares at par ₫10,000 raises ₫8,055bn, the same number again.** All three figures were already on file
+  separately; **none had been divided into the others.**
+  **So the cash going out and the cash coming back in are identical** — both are 10% of charter capital at
+  par. **For a holder who takes up rights in full, net cash flow across the two events is zero**, and after
+  the **5% PIT** on the dividend it is slightly **negative** (~−₫403bn across the register), because the
+  dividend is taxed and the subscription is not discounted for that.
+  **What this is NOT: a claim that the package is economically neutral. It is not.** The rights are priced
+  at **₫10,000 against ₫22,050 market — 45.4% of market, a 54.6% discount** — so the round trip converts
+  *taxed cash* into shares at well under half price. **The correct reading is that MBB's headline "25%
+  distribution" is, for a participating holder, largely a round trip in cash terms, with the value sitting
+  in the subscription discount rather than in the distribution.** A holder who does **not** take up gets
+  the cash, pays the tax, and is diluted at ₫10,000.
+  **And one record date covers both.** Press states the final registration date for exercising rights under
+  **both** plans — the 15% stock dividend and the 805.5m-share offering — falls at the **same time point**,
+  per the legal requirement. **So this is one dated catalyst, not two**, and when it lands, it lands
+  together.
+  **A date was offered and is NOT logged.** A search summary attached **"14 August"** to this — but
+  described it as the record date for **"2024 dividends"**, a *year* that does not match, and the summary
+  itself hedged with *"appears to be."* **That is the tenth instance this week of a plausible date attached
+  to the wrong period**, and exactly the shape of the MBB 10-Jun/10-Jul error already on file. **No record
+  date is recorded.** The 15% and the rights remain undated pending a disclosure that states the year.
+
 - **11:53 ICT · TCB / MBB / VPB (lane 3) — the set is complete, and the answer is counterintuitive: the
   LARGEST stock issue is the one that is NOT a taxable distribution.**
   Having pinned VPB's label an hour ago, the same check was run on the other two flags **written in the
