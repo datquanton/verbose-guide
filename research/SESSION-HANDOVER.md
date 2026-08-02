@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 02:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 03:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,28 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 03:53 — KDH: a documented Layer-4 governance finding, but time-barred
+
+**Government Inspectorate Conclusion 46/KL-TTCP, 06-Feb-2026** — absent from the repo. Found at KDH:
+**bond proceeds used to repay debt** rather than for working capital as disclosed (reported **>₫100bn**);
+**offering documents not accurate, truthful or verifiable**; **late disclosure**.
+
+- **⚠ NO penalty was imposed — time-barred** under art. 6.1(d), so UBCKNN issued no decision. KDH must
+  implement the conclusion and comply going forward.
+- **The statute point cuts both ways.** Time-barred means the conduct is **old** (almost certainly the
+  2021–22 placement wave), so **this is not evidence about current conduct**, and KDH's AGM calls it
+  bond-debt free today. It also means it was never tested in a proceeding.
+- **Proportion: ₫100bn is small** against >₫23,000bn inventory and +₫6,500bn H1 borrowings. **The
+  significance is the conduct, not the amount.**
+- **Why it is on file:** `run.py`'s footer says Layer-4 governance items are **not** in the numbers, and the
+  KDH dossier carried the An Lap concern only as a **hypothetical**. This is the same family, **documented
+  by a state inspection**, on the **second-largest position (20.3%)**.
+- **Confidence held at 0.55**, with the case for cutting stated: KDH's inputs come from KDH's disclosures
+  and a regulator found those wanting. **Against (prevailing):** time-barred, pre-dates every model figure,
+  no penalty — and the scalar cannot encode a governance opinion. **Escalated, not applied.**
+- **No link drawn** to the TCB/TCBS Masterise-registrar finding. Thematically adjacent, mechanically
+  unrelated.
 
 ### ⚠ 03-Aug 02:53 — HPG's missing interest line is now SIZED: 24–36% of the model's central metric
 

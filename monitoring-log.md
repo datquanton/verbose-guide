@@ -74,6 +74,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **03:53 ICT · ⚠ KDH (lanes 3, 5) — the undated lead from 02:53 is now DATED. A Government Inspectorate
+  conclusion found bond-proceeds misuse and inaccurate offering documents at the second-largest position.
+  No penalty: time-barred.**
+  **Government Inspectorate Conclusion No. 46/KL-TTCP, dated 06-February-2026**, on compliance in private
+  corporate-bond issuance and management of bond proceeds. **Absent from this repo entirely.**
+  **What it found at KDH:**
+  **(1) Bond proceeds used to repay debt** rather than to increase working capital **as stated in the
+  approved issuance plan and the public disclosure** — use of proceeds contrary to stated purpose, reported
+  at **over ₫100bn**.
+  **(2) Offering documents not accurate, truthful and verifiable**, and capable of misleading investors.
+  **(3) Late disclosure.**
+  **⚠ And how it ended, which belongs with equal prominence: NO administrative penalty was imposed.** The
+  violations were **time-barred** under article 6.1(d) of the Law on Handling of Administrative Violations,
+  so **UBCKNN issued no penalty decision.** KDH was required to implement the conclusion and comply going
+  forward.
+  **The statute point cuts both ways and both sides belong in the file.** **Time-barred means the conduct is
+  OLD** — almost certainly the 2021–22 private-placement wave — **so this is not evidence about current
+  conduct**, and KDH's own AGM describes the company as **bond-debt free** today. It also means the finding
+  was **never tested in a penalty proceeding.** **What it is not:** a live enforcement risk. **What it is:**
+  a documented regulatory finding that this company's offering documents were not accurate and its proceeds
+  were not used as disclosed.
+  **Proportion, so this is not overstated: ₫100bn is small in money terms** against inventory above
+  ₫23,000bn and H1 borrowings up ₫6,500bn. **The significance is the conduct, not the amount.**
+  **Why it belongs on file anyway.** **`run.py`'s own footer states that Layer 4 items — governance, quota
+  politics, an An Lap-style related-party surprise — are NOT in these numbers.** The KDH dossier already
+  carries that An Lap concern **as a hypothetical.** **This is the same family, documented by a Government
+  Inspectorate rather than inferred, on the second-largest position at 20.3%.** A file that prices KDH off
+  KDH's own disclosures should record that a state inspection found those disclosures wanting, even in a
+  period now closed.
+  **Confidence held at 0.55, and the argument for cutting it is stated rather than suppressed.** **For
+  cutting:** most KDH inputs originate in KDH's own disclosures, and a regulator found those disclosures
+  inaccurate in an earlier period — that is an **evidence-quality** argument, not a sentiment one.
+  **Against, and it prevails here:** the conduct is time-barred and pre-dates every figure in this model; no
+  penalty was imposed; and using the scalar to express a governance opinion is exactly the misuse argued
+  against repeatedly today — **confidence multiplies `fy26e_npat` and cannot encode "this management once
+  misdescribed a bond."** **Escalated as a human judgment, not applied. Nothing modelled.**
+  **No link is drawn to the TCB/TCBS Masterise-registrar finding of 18:53.** Both concern the Vietnamese
+  property-bond complex and **there the resemblance ends**; nothing connects them, and inventing a
+  connection would be the convenient-inference failure this file has refused twice today.
+  Sources: [TTCP conclusion, violations listed](https://vnbusiness.vn/khang-dien-bi-phat-hien-nhieu-sai-pham-tu-ho-so-trai-phieu-den-su-dung-von-huy-dong.html) ·
+  [time-barred, no UBCKNN penalty](https://vietstock.vn/2026/05/bi-thanh-tra-chinh-phu-neu-loat-vi-pham-ve-trai-phieu-khang-dien-thoat-an-phat-cua-ubcknn-do-het-thoi-hieu-3118-1442025.htm) ·
+  [>₫100bn of bond money used to repay debt](https://thuonghieucongluan.com.vn/khang-dien-bi-tuyt-coi-vi-dung-hon-100-ty-dong-tien-trai-phieu-de-tra-no-a318244.html)
+  **Portfolio impact: KDH is 20.3%. A documented Layer-4 governance finding now exists where the dossier
+  carried only a hypothetical — but it is time-barred, unpenalised, and about a closed period.**
+
 - **02:53 ICT · ⚠ HPG (lanes 3, 5) — the spread bridge's missing interest line has been flagged twice
   without a number. It now has one, and it is big. Debt is at a record. A stale profit figure rejected in
   the same source.**
