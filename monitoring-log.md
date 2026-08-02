@@ -74,6 +74,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **21:53 ICT · ⚠ VPB (lane 3) — the standing open check is ANSWERED, and VPB breaks the peer pattern in
+  BOTH directions at once. Refusing to infer it from TCB and MBB was correct.**
+  **At 20:53 this was recorded as *"the largest unexplained profit jump in the book and the one name this
+  analysis could not be run on"*, and deliberately not inferred.** Both peers had cut or frozen their credit
+  charge; Vietcombank's Q2 came with provisions −38%. **Any inference would have been wrong.**
+  **The filed figures.** H1/2026 **TOI ₫43,400bn (+35.2%)**, **credit provisions ₫15,579bn — UP 23.7%**,
+  **PBT ₫18,900bn (+68%)**. **PPOP ₫34,479bn against ₫23,844bn, so the operating line grew 44.6%.**
+
+  | | prov/PPOP prior | prov/PPOP now | change | **PPOP growth** | provisioning share of PBT growth |
+  |---|--:|--:|--:|--:|--:|
+  | TCB | 12.2% | 7.9% | −4.3pp | +16.7% | 5.8pp of 22.5 |
+  | MBB | 32.9% | 27.6% | −5.3pp | +17.9% | 9.2pp of 27.1 |
+  | **VPB** | **52.8%** | **45.2%** | **−7.6pp** | **+44.6%** | **23.4pp of 68** |
+
+  **First way it breaks the pattern — provisions ROSE.** TCB cut its charge 24.6% and MBB held flat; **VPB
+  increased its charge 23.7%, nearly ₫3,000bn more money set aside.** On the crude question — *"are they
+  provisioning less?"* — **VPB is the opposite of its peers.**
+  **Second way — intensity fell the MOST.** Provisions as a share of PPOP went **52.8% → 45.2%, a 7.6pp
+  fall, larger than TCB's 4.3pp and MBB's 5.3pp.** **The reported 45.2% matches the derived figure exactly**
+  — the second validation of this method today, after MBB agreed to 0.01%. **At last year's intensity PBT
+  would have grown 44.6%, so 23.4pp of the 68pp is lower provisioning intensity** — the largest contribution
+  of the three.
+  **Third, and most important — the underlying business is by far the strongest.** **PPOP +44.6% against
+  TCB's +16.7% and MBB's +17.9%.** **VPB's growth is not manufactured the way the peers' partly is**; it is
+  a genuinely faster-growing operating business that *also* benefited from a falling credit-cost ratio.
+  **All three statements are true at once and each one alone would mislead.**
+  **⚠ The warning, and it is the third instance of the same dilution today.** **Group 4 — "doubtful" debt —
+  rose from ₫10,880bn to ₫15,718bn, up 44.5%, while the NPL ratio FELL from 3.33% to 3.28%.** Same mechanism
+  as MBB's: **loans are in the denominator and the book is growing, so a 44.5% deterioration in the
+  second-worst debt bucket presents as a 5bp improvement.** **And VPB's NPL ratio is already more than
+  double TCB's and MBB's** — this is deterioration from a much weaker base.
+  **FE Credit, which this file has argued about before.** Provisions **₫6,158bn** against ₫5,674bn a year
+  earlier — **roughly 40% of the entire group's credit charge — for a profit contribution of ₫152.6bn.**
+  That confirms the note on file that FE Credit is under 1% of consolidated profit and **sharpens it: FE
+  Credit is not merely immaterial to profit, it consumes about forty percent of the credit charge to produce
+  that immaterial profit.** **`run.py`'s line calling FE Credit NPL formation *the* swing factor
+  (OPEN-DECISIONS item 11) is wrong about profit and closer to right about PROVISIONS.**
+  **Confidence HELD at 0.70, deliberately, with the reasoning stated.** Two effects offset: **the evidence
+  base is now the most complete of the three banks** (credit pair resolved 01-Aug, provisioning line
+  resolved now), which argues up; and **reported PBT is 23.4pp flattered with group-4 debt up 44.5%**, which
+  argues down. **Deciding which dominates is a judgment about the branches — which is exactly what item 26
+  is for.** Moving a scalar would substitute for that work rather than do it. **Nothing else modelled.**
+  **Separately noted, not pursued:** VPB has put **₫1,100bn into a tokenised-asset exchange**, which touches
+  the **CAEX crypto-licence option carried on VPX** (p=0.40 of a licence ~Q3). **Whether it is the same
+  venture is not established and is not assumed.**
+  Sources: [provisions ₫15,579bn +23.7%, 45.2% of PPOP; group 4 +44.5%](https://baomoi.com/vpbank-lai-tang-68-no-nghi-ngo-vot-44-5-rot-1-100-ty-vao-san-tai-san-ma-hoa-c55745981.epi) ·
+  [TOI ₫43,400bn +35.2%, total assets >₫1.5m tỷ](https://baomoi.com/tong-tai-san-vpbank-vuot-1-5-trieu-ty-dong-loi-nhuan-ban-nien-dat-gan-18-900-ty-dong-c55640797.epi) ·
+  [FE Credit contributed ₫152.6bn of profit](https://m.tinnhanhchungkhoan.vn/vpbank-vpb-fe-credit-dong-gop-1526-ty-dong-loi-nhuan-post394348.amp)
+  **Portfolio impact: VPB is 10%. Its operating line is the strongest in the book (+44.6%) and its reported
+  growth is the most provisioning-flattered (23.4pp of 68). Both are true; the branches need to reflect
+  both. The three-bank provisioning picture is now complete at 51.5% of the book.**
+
 - **20:53 ICT · ⚠⚠ USER-DIRECTED — PROVISIONING IS FLATTERING REPORTED BANK PBT, AND IT IS MEASURABLE.
   Plus the quarterly data refresh, which CLOSES the `cap_now` defect on all eight names.**
   **The question was: "pay attention to provision for banks and LLR because they might be managing
