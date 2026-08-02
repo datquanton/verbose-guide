@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 23:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 23:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -123,7 +123,7 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
 
-### 02-Aug 23:53 — earnings-quality sweep COMPLETE across the book; TCX is the counter-example
+### 02-Aug 22:57 — earnings-quality sweep COMPLETE across the book; TCX is the counter-example
 
 **TCX Q2/2026: revenue +41%, costs +78.6%, PBT +21%, margin 65.2% → 56.0%.** Profit grew at **half** the
 rate of revenue. Where the banks' reported profit outran their operating line, **TCX's lags its own top
@@ -151,7 +151,7 @@ line — nothing is flattered here.**
 **Confidence not moved (0.75).** Favourable on accounting, unfavourable on operating leverage — they
 offset. TCX's live issue remains the multiple and the undated price.
 
-### 02-Aug 22:53 — the same lens on the brokers: VPX's kill criterion is UNEVALUABLE
+### 02-Aug 21:57 — the same lens on the brokers: VPX's kill criterion is UNEVALUABLE
 
 **For a bank the discretionary line is the credit charge; for a broker it is FVTPL.** VPX's armed criterion:
 *"FVTPL marks > 50% of PBT for a third consecutive quarter."*
@@ -175,7 +175,7 @@ offset. TCX's live issue remains the multiple and the undated price.
 
 **Confidence not moved (0.55): the finding is a test that cannot be evaluated, not a resolved fact.**
 
-### 02-Aug 21:53 — VPB's provisioning gap is CLOSED, and it breaks the peer pattern both ways
+### 02-Aug 20:57 — VPB's provisioning gap is CLOSED, and it breaks the peer pattern both ways
 
 **The 20:53 standing check is answered. Refusing to infer it from TCB/MBB was correct.**
 

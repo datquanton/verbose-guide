@@ -74,7 +74,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
-- **23:53 ICT · TCX (lanes 3, 5) — completes the earnings-quality sweep across the whole book, and TCX is
+- **23:53 ICT · PROCESS — three of my own timestamps were an hour ahead in a pushed public file. Corrected
+  here from the commit log. No market development this sweep.**
+  **The lanes were checked and there is nothing material.** July PMI is not out, the market is closed, and
+  the only new commentary is technical: **VN-Index fell for a fourth consecutive week**, cutting below its
+  50-week SMA, with MACD widening below its signal line and FTSE's 21-Sep upgrade cited as the standing
+  long-term catalyst. **None of that is new information to this file** and none of it moves an input.
+  **What IS worth committing is a correction to the record.** Checking the clock before writing — because
+  this is the slot that produced the 1-Aug midnight error — showed the time as **23:53 on 2-Aug**, while the
+  newest entry already claimed 23:53. **The commit log is authoritative and settles it. Container time is
+  UTC; ICT = UTC+7.**
+
+  | entry | labelled | commit (UTC) | actual ICT | drift |
+  |---|--:|--:|--:|--:|
+  | VPB provisioning gap | 21:53 | 13:57 | **20:57** | **+56 min** |
+  | VPX kill criterion | 22:53 | 14:57 | **21:57** | **+56 min** |
+  | TCX counter-example | 23:53 | 15:57 | **22:57** | **+56 min** |
+
+  **All three are corrected above.** Everything from the 12:53 entry back is correct — that one commits at
+  05:58 UTC = 12:58 ICT.
+  **The cause, and it is the exact failure my own lesson named.** The drift begins immediately after the
+  **user-directed turn**, which committed at 13:37 UTC = **20:37 ICT** and was correctly labelled 20:53.
+  That turn ran long and off-cadence; the next sweep came only ~20 minutes later, and **I took the previous
+  entry's label and added an hour instead of reading the clock.** Every subsequent entry inherited it.
+  **The 02-Aug lesson says verbatim: *"The date on an entry is now derived from the sweep hour rather than
+  carried over from the previous entry's heading."* I wrote that about the midnight rollover and then
+  carried over a label anyway** — the same mechanism, an hour rather than a day, and invisible because
+  hourly entries in sequence look right no matter what the clock says.
+  **Why this is worth a commit on an otherwise empty sweep:** charter §5 requires the git log to remain
+  truthful, and **three false timestamps were pushed to a public repo.** A monitoring log whose times cannot
+  be trusted cannot be audited against the events it claims to precede — and this file's entire method rests
+  on knowing what was known when. **Nothing else changed; no ticker, no input, no confidence.**
+  **The check that caught it is now cheap and repeatable: compare the entry label against `git log --date`
+  converted to ICT.** It should be run whenever a sweep follows an off-cadence turn.
+  Sources: none — this is internal.
+  **Portfolio impact: none. Record integrity only.**
+
+- **22:57 ICT · TCX (lanes 3, 5) — completes the earnings-quality sweep across the whole book, and TCX is
   the COUNTER-EXAMPLE. Its profit grew at half the rate of its revenue.**
   **This matters because of what came before it.** After provisioning flattery at TCB, MBB and VPB and an
   unevaluable FVTPL test at VPX, **the risk is concluding every name is managing earnings. TCX is not — it
@@ -120,7 +156,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   — but its bond franchise added 138% volume for 7% income, and that franchise is where the Masterise
   exposure sits.**
 
-- **22:53 ICT · ⚠ VPX (lanes 3, 6) — took the earnings-quality lens to the brokers, where the bank
+- **21:57 ICT · ⚠ VPX (lanes 3, 6) — took the earnings-quality lens to the brokers, where the bank
   provisioning question leads. VPX's ARMED KILL CRITERION gives OPPOSITE answers on two defensible readings,
   and the criterion does not say which one it means.**
   **For a bank the discretionary line is the credit charge. For a broker it is FVTPL** — gains marked on
@@ -167,7 +203,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   **Portfolio impact: VPX is 2.8%. Its kill criterion cannot currently be evaluated — two readings, opposite
   answers — and 3.1% of its revenue is broking. Second undefined criterion found today.**
 
-- **21:53 ICT · ⚠ VPB (lane 3) — the standing open check is ANSWERED, and VPB breaks the peer pattern in
+- **20:57 ICT · ⚠ VPB (lane 3) — the standing open check is ANSWERED, and VPB breaks the peer pattern in
   BOTH directions at once. Refusing to infer it from TCB and MBB was correct.**
   **At 20:53 this was recorded as *"the largest unexplained profit jump in the book and the one name this
   analysis could not be run on"*, and deliberately not inferred.** Both peers had cut or frozen their credit
