@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 01-Aug 05:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 09:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,50 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### New escalations raised 02-Aug 09:53 — TCX, and it is the largest of the weekend
+
+**Trigger 4 fired on TCX: a derived estimate became a filed actual, and correcting it moved a KILL
+CRITERION from an apparent 24.5% away to 3.8% away with no price movement.**
+
+- **TCBS's filed end-Q2 equity is ₫45,782bn** (+3.8% YTD), reported margin/equity **1.13×**. The 31-Jul
+  entry derived **₫33,018bn** and **1.56×** — **39% low.** It flagged itself as an estimate and then wrote
+  its conclusions flat; **those conclusions are withdrawn.** Headroom is **₫40,064bn, not ~₫14,500bn**;
+  **56% of the cap drawn, not 78%.** The three brokers are a tight band — VCI 0.97×, VPX 1.116× *(period
+  mismatch: equity end-Q1, book end-Q2)*, TCX 1.125× — **not the 0.97–1.56 spread on file.** The
+  constrained brokers are **competitors**: HSC, KBSV, Phú Hưng are all past **190%** of the cap.
+- **Three values for one quantity coexisted in this repo:** `margin_equity_pct` **0.98**, the log's
+  **1.56×**, the filed **1.125×**. Two files, two days, no check looked for it.
+- **The valuation side cuts against TCX.** TCX has **2,311,308,021 shares** — never on file — so
+  `price × shares` = **₫94,995bn** vs `pe_ttm × npat_ttm` = **₫82,215bn**, **15.5% apart**. `pe_ttm` 20.3
+  or `npat_ttm` 4,050 is wrong. **And `valuation.TCX.evidence` calls the multiple THE risk at 2.49×, which
+  cannot be reproduced from any combination of file inputs and filed equity.** Reproducible P/B is
+  **2.075×**.
+- **⚠ `decide.py`'s TCX kill criterion is "P/B < 2.0x on unchanged earnings" — trigger price ₫39,616
+  against a file price of ₫41,100.** **NOT declared fired**: ₫41,100 is stale and already logged as a
+  **trough**, so the true distance may be larger. **The finding is that the distance was mismeasured by
+  ~6×**, and the input that settles it is **OPEN-DECISIONS item 2**, open since 29-Jul. **Refreshing TCX's
+  price is the cheapest high-stakes check in the book right now.**
+- **The criterion says "on unchanged earnings" and equity grew 3.8% YTD** — so the denominator rises and
+  pulls P/B toward the trigger **at a flat price**. Nothing in the repo tracked that drift.
+- Applied: `confidence` 0.80 → **0.75**, `evidence` restated. **`exit_pe`, `probs`, `fy26e_npat`
+  untouched — judgment, human-only.** New **OPEN-DECISIONS item 24**.
+
+**KDH / VNDiamond — partial answer, not a resolution.** The cadence is confirmed (cutoff at quarter end →
+announced the 20th → effective the first Monday after; Q2 was 31-Mar / 20-Apr / 04-May). **KDH was placed
+on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list
+executes at the next review, which takes effect TOMORROW.** **It does not establish that 20-Jul removed
+KDH**; four attempts at that announcement have failed. **The stated cause of the FOL fall is twelve months
+of foreign selling — the same mechanism as the Dragon Capital / VinaCapital finding, so those are one story
+and the file had them as two.**
+
+**Also new: USD/VND is at an all-time high** (central rate ₫25,338 on 1-Aug; commercial 26,060–26,110;
+free market 26,429–26,520 — consistent, with the ±5% band near its ceiling). **The HPG spread bridge has
+no FX line**, and a currency at its band ceiling constrains SBV easing room. **Nothing modelled.**
+
+**And the four circulating margin figures resolve** — 435 (margin only) → 445 (adds advances) → 446
+(80 of 85 firms) → **453.8 (full coverage, +7% QoQ, +49% YoY)**. The 29-Jul preference for the 445/435
+split was correct.
 
 ## 5 · The engine tried to reward a bad print — read this before touching confidence
 

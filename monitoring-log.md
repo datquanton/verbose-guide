@@ -21,9 +21,9 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
-| **⚠ VNDiamond changes EFFECTIVE MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum**; the decisive review is the **semi-annual July** one. **Outcome not established.** Flow likely completed at **Friday 31-Jul's close** | 4 |
+| **⚠ VNDiamond changes EFFECTIVE TOMORROW, MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum.** **CADENCE CONFIRMED 02-Aug:** cutoff at quarter end → announced the 20th of the next month → effective the first Monday after (Q2: cutoff 31-Mar, announced 20-Apr, effective 04-May). **KDH was placed on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list executes at the NEXT review, which is this one.** July outcome still **not established**; four attempts at the 20-Jul HOSE announcement have failed. Flow likely completed at **Friday 31-Jul's close** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
-| **3-Aug is a TRIPLE date** | **July CPI + July PMI + TCX's VN30 effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday | 1, 4 |
+| **3-Aug is a QUADRUPLE date — TOMORROW** | **July CPI + July PMI + TCX's VN30 effective date + VNDiamond effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday. **Watch for these four resolving rather than re-running failed searches on the 20-Jul announcement** | 1, 4 |
 | **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
@@ -72,6 +72,121 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-02
+
+- **09:53 ICT · ⚠ KDH / VNDiamond (lane 4) — the cadence is CONFIRMED and it sharpens tomorrow, but the
+  July outcome is still not established. Recorded as a partial answer, not a resolution.**
+  **What is now confirmed.** The **Q2/2026** review used a **31-Mar data cutoff**, was **announced 20-Apr**
+  and took effect **04-May**. Against the July review — cutoff 30-Jun, announced 20-Jul, effective 03-Aug —
+  that establishes the cadence exactly: **cutoff at quarter end → announcement on the 20th of the following
+  month → effective the first Monday after that.** 4-May and 3-Aug are both Mondays. **The file's 20-Jul /
+  03-Aug pair is structurally right**, which was not previously verified.
+  **And it sharpens the risk in a specific way.** In the Q2 review **KDH was placed on the WAITING LIST for
+  removal** — *danh sách chờ loại* — for failing the **FOL ≥65%** test, and the source is explicit that the
+  company **did not change its foreign ownership limit**: foreign investors reducing their holdings over
+  twelve months pushed the adjusted FOL down. **So KDH was watchlisted in May, not removed.** On a
+  waiting-list mechanism the removal executes at the **next** review if the stock still fails — **which is
+  the review that takes effect tomorrow.**
+  **Stated as what it is: this does NOT establish that KDH was removed on 20-Jul.** It establishes that
+  **May's outcome was a watchlisting rather than a removal**, which the file did not distinguish, and that
+  **tomorrow is the scheduled execution point for a watchlisting that already happened.** The four prior
+  attempts to reach the 20-July HOSE announcement have all failed and this was not another one.
+  **This also connects to yesterday's ownership finding rather than sitting beside it.** The stated cause of
+  the FOL decline — **twelve months of foreign selling** — is the same mechanism logged at 08:53:
+  **Dragon Capital 9%+ → 5.9591%, VinaCapital through 7% → 6.9621%.** The removal criterion and the
+  ownership signal are **one story, not two**, and the file had them as two.
+  **Also noted, unresolved:** a separate item refers to a **change in the VNDiamond index RULES** with some
+  stocks possibly excluded for ineligibility. **Whether that is the same 20-Jul event or a distinct rule
+  revision is not established** and is not assumed.
+  **Nothing modelled. KDH is 20.3% of the book with a proposed TRIM of −4.7pp, and trigger 5 remains live
+  into tomorrow's session.**
+  Sources: [KDH on the removal waiting list, FOL cause](https://thoibaotaichinhvietnam.vn/co-phieu-kdh-co-the-bi-xem-xet-loai-khoi-ro-vndiamond-195614.html) ·
+  [VNDiamond rule change](https://vneconomy.vn/thay-doi-quy-tac-chi-so-vndiamond-index-mot-so-co-phieu-co-the-bi-loai-do-khong-du-dieu-kien.htm)
+
+- **09:53 ICT · ⚠ ESCALATION — TRIGGER 4 · TCX (lanes 4, 5, 6) — the silent-lane method found TCBS's filed
+  equity. It is 39% above the figure this file derived, and correcting that denominator moves a KILL
+  CRITERION from 24.5% away to 3.8% away without a single price moving.**
+  **Method, seventh instance.** Two lane items had effectively never produced output — **"margin debt" (3
+  mentions), "USD/VND" (2)**. Both hit. This is now **seven for seven** on checking lane items with no
+  output.
+  **The filed number.** **TCBS's owner's equity at end-Q2/2026 is ₫45,782bn, +3.8% YTD, and the reported
+  ratio of margin-and-advances to equity is 1.13×.** The **31-Jul 15:53** entry derived equity of
+  **~₫33,018bn** and a ratio of **~1.56×**, and flagged itself precisely: *"the precise utilisation needs
+  TCBS's reported equity. Escalated, not modelled."* **The number arrived and the derivation was 39% low.**
+  **Three figures for one quantity were in this repo at once.** `assumptions.json` carried
+  `margin_equity_pct` **0.98**, the 31-Jul log carried **1.56×**, the filed number is **1.13×**. **The two
+  file figures bracket the truth and neither is it.** The filed set verifies three ways: 51,500 / 45,782 =
+  **1.125×** against a reported **1.13×**, agreeing to 0.5%.
+  **The 31-Jul conclusion is WITHDRAWN.** Headroom is **₫40,064bn, not ~₫14,500bn — 2.8× more room**; TCBS
+  has drawn **56% of its cap, not 78%**. *"The margin line cannot grow much faster than equity does"* and
+  *"the name with the least headroom is the one the engine ranks first"* do not survive. **On filed figures
+  the three brokers sit in a tight band, not a spread: VCI 0.97×, VPX 1.116× *(period mismatch — equity is
+  end-Q1, book end-Q2)*, TCX 1.125×.** And the competitive read **inverts**: **HSC, KBSV and Phú Hưng have
+  each passed 190% of the cap** — the constrained brokers are the competitors.
+  **Then the same check turned up something larger, on valuation rather than capacity.** **TCX has
+  2,311,308,021 shares** (HOSE, 21-Oct-2025, reference ₫46,800, first-session cap "over ₫108,000bn" —
+  2.3113bn × 46,800 = ₫108,169bn, which confirms the count). **This file has never carried a share count**,
+  so two market caps exist and disagree: **price × shares = ₫94,995bn** vs **`pe_ttm` × `npat_ttm` =
+  ₫82,215bn — a gap of ₫12,780bn, 15.5%.** One of price, `pe_ttm` (20.3) or `npat_ttm` (4,050) is wrong.
+  **And `valuation.TCX.evidence` names the multiple as THE risk — "2.49x P/B, priciest in book". 2.49×
+  cannot be reproduced from any combination of this file's inputs and the filed equity.** At the file's own
+  price with the filed share count and filed equity, **P/B is 2.075×**. To reach 2.49× needs a price of
+  **~₫49,322** (above the ₫46,800 listing reference; the file's price is ₫41,100) or a book of
+  **~₫38,151bn** (below the filed ₫45,782bn). **Stated as what it is: this does not prove 2.49× wrong, it
+  proves it UNREPRODUCIBLE and its inputs absent.**
+  **⚠ AND HERE IS WHY IT ESCALATES.** `decide.py` carries a TCX kill criterion: **"P/B < 2.0x on unchanged
+  earnings = the re-rating case is dead"**, armed. **For this name a FALLING multiple kills the thesis**,
+  because the thesis is a re-rating. **Under 2.49× that trigger sits 24.5% away and reads as remote. Under
+  the reproducible 2.075× it sits 3.8% away.** **The trigger price is ₫39,616 against a file price of
+  ₫41,100.** Nothing about the company changed and no price moved — **a denominator was corrected and a
+  kill criterion went from remote to close.**
+  **The caveat cuts the other way and it is real:** ₫41,100 is stale, and **this file logged yesterday that
+  it is a TROUGH, not a random day.** If TCX has traded up since, the true distance is larger, possibly much
+  larger. **So the honest statement is NOT "the kill criterion is about to fire" — it is that the distance
+  to it was mismeasured by roughly a factor of six**, and the input needed to measure it correctly is the
+  same **OPEN-DECISIONS item 2** (refresh eight prices with dates) that has been outstanding for days.
+  **The kill criterion is NOT declared fired and nothing is resized — that is a human's call at the next
+  brief.** Note also the criterion says *"on unchanged earnings"*: **equity grew 3.8% YTD, so the book
+  denominator rises over time and pulls P/B toward the trigger even at a flat price.** That drift is now
+  quantified.
+  **Applied:** `confidence` 0.80 → **0.75** — *not* because the name got worse (the capacity constraint was
+  withdrawn **in TCX's favour** today) but because **the input the evidence string calls THE risk cannot be
+  reconstructed.** `evidence` restated in full. **`exit_pe`, `probs`, `fy26e_npat` untouched — judgment,
+  human-only.** One ticker touched, within the 3-per-run limit.
+  Sources: [Vietstock margin league](https://vietstock.vn/2026/07/du-no-margin-lap-ky-luc-454-ngan-ty-dong-cuoc-dua-co-su-phan-hoa-830-1468883.htm) ·
+  [TCBS equity & 1.13×](https://vietbao.vn/du-no-margin-tcbs-vuot-51000-ty-dong-599849.html) ·
+  [TCX listing, 2.311bn shares](https://baochinhphu.vn/hon-231-ty-co-phieu-tcx-chinh-thuc-giao-dich-tcbs-mo-chuong-moi-tang-truong-102251021170846442.htm) ·
+  [190% cluster](https://tuoitre.vn/cac-cong-ty-chung-khoan-co-cho-vay-margin-bang-moi-gia-100260724154829049.htm)
+  **Portfolio impact: TCX is 5.5%; a kill criterion on it was mismeasured by ~6× and the fix is one price lookup.**
+
+- **09:53 ICT · MACRO (lane 1) — USD/VND is at an all-time high and the lane had two mentions.**
+  **The central rate hit a record ₫25,338 on 1-Aug**, from ₫25,203 (4-Jul) and ₫25,252 (20-Jul). **Three
+  measures, not to be mixed:** SBV central **25,338**; commercial bank buying **26,060–26,110** (20-Jul);
+  free market **26,429–26,520** (20-Jul), which moved ~₫120 in a day. **They are consistent, not
+  contradictory** — the commercial rate sits inside the ±5% band (25,338 × 1.05 = **26,605**), so **the
+  band is simply near its ceiling.** MBS forecasts **₫27,000** by end-2026 — a **T5 broker projection**,
+  recorded as one.
+  **It bears on this book in two places.** **(1) HPG buys iron ore and coking coal in USD and sells steel
+  largely in VND** — and **the HPG spread bridge has no FX line at all**, alongside the missing interest
+  line already logged. **(2) A currency at its band ceiling constrains the SBV's room to ease**, which sits
+  against the credit growth logged at **1.7–3.2× system** for our banks and against the **40%
+  short-term-funding ratio effective 1-Jul.** **Nothing modelled** — no FX input exists in `run.py` and
+  adding one is a machinery change.
+  Sources: [central rate record](https://vnbusiness.vn/ty-gia-trung-tam-thiet-lap-dinh-lich-su-kich-ban-nao-cho-dong-vnd-nhung-thang-cuoi-nam.html) ·
+  [MBS 27,000 forecast](https://thoibaotaichinhvietnam.vn/mbs-du-bao-ty-gia-usd-vnd-co-the-huong-moc-27-000-dong-cuoi-nam-2026-200935.html)
+
+- **09:53 ICT · MARGIN (lane 4) — the four circulating figures RESOLVE, and the 29-Jul guess was right.**
+  `_MARGIN_DEBT_RECORD_2026_07_29` preferred the 445/435 split and said the other two *"look like different
+  measures or dates."* **Correct, and it is now explicit. All four are end-Q2/2026 and all four are right;
+  they differ on TWO axes.** **MEASURE:** ₫435,000bn is **margin only**; ₫445,000bn adds **advances against
+  sale proceeds** — the ~₫10,000bn difference *is* that line. **COVERAGE:** ₫446,000bn is total lending at
+  **80 of 85** firms; **₫453,800bn is total lending at full coverage, +7% QoQ and +49% YoY.** The ladder
+  reads **435 → 445 → 446 → 454** as you add advances, then add firms.
+  **The growth figures carry the same defect as the levels:** +₫33,400bn (+8.1%) on the 80-of-85 basis vs
+  +₫30,000bn on the estimated basis — **exactly the naming-convention failure the KDH correction produced a
+  lesson about.** **Concentration:** 9 of the top 20 are bank-backed and supplied **₫18,700bn of the
+  ₫30,000bn quarterly increase (62%)**, mostly *"deal"* lending to large individual borrowers, not retail.
+  **And the paradox worth holding: margin hit a record while Q2 liquidity FELL sharply against Q1. A book
+  that grew while turnover shrank is not funding trading.**
 
 - **08:53 ICT · KDH (lane 7) — the file had ONE foreign seller on record. There are two, and the larger
   one was missing.**
