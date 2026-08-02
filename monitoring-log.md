@@ -72,6 +72,46 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-03
+
+- **00:53 ICT · KDH (lanes 3, 7) — the share count is now CORROBORATED, and the proof was already in this
+  file. No search was needed. Nothing else material; July PMI and CPI are not out.**
+  **Date verified against the clock, not carried over** — it is 00:53 on Monday 3 August, so this opens a
+  new heading. That is the check written an hour ago after three timestamps drifted.
+  **What was open.** At 12:53 on 2-Aug I set KDH's share count to **1,122,060,000** — charter capital
+  ₫10,111bn (Nov-2024, confirmed) plus the **111m-share 2025 issue** (101m stock dividend + 9.96m ESOP) —
+  and recorded explicitly that the 2025 issue was evidenced as **a plan with a closed window, not a
+  completion notice**, saying *"one completion notice settles it."*
+  **It was settled by a line already on file.** The insider disclosure records that **Lý Tuấn Kiệt goes from
+  0.056% to 1.838% by buying 20,000,000 shares.** **A company computes those percentages against its own
+  actual outstanding count, so the pair is a share count in disguise.**
+  **20,000,000 ÷ (1.838% − 0.056%) = 1,122,334,456 shares — agreeing with the derived 1,122,060,000 to
+  0.024%.**
+  **And it rejects both alternatives, which is what makes it proof rather than coincidence:**
+
+  | share count | 20m shares would be | filed delta | verdict |
+  |---|--:|--:|---|
+  | **1,122.06m** (derived 12:53) | **1.782pp** | 1.782pp | **match** |
+  | 1,011.1m (pre-2025 issue) | 1.978pp | 1.782pp | mismatch |
+  | 1,000.5m (old `cap_now` implied) | 1.999pp | 1.782pp | mismatch |
+
+  Both alternatives are out by ~0.2pp, **far beyond rounding. The 2025 issue executed.**
+  **What this firms up.** KDH's `cap_now` correction and its **TRIGGER 3 firing** (mu_raw +16.1% → +3.5%, a
+  **12.6pp** move) rested on that count, **on the second-largest position at 20.3%.** It is now corroborated
+  **two independent ways** — charter-capital arithmetic and a company-filed percentage pair. **The 12:53
+  caveat is discharged.**
+  **The uncomfortable part: the data was in this file the whole time.** The 0.056% → 1.838% pair has sat in
+  the date-gate table for days, described as *"a thirty-three-fold stake increase"* and used **only as a
+  signal about insider conviction. Nobody divided it.** **Same defect as `pe_ttm × npat_ttm`** — a quantity
+  recoverable from figures already held, never recovered because no routine looked for it.
+  **Nothing modelled; no input or confidence moved**, because the number it confirms is already the number
+  in use.
+  **The rest of the sweep is empty and that is expected at this hour.** **July PMI is not published** — June
+  51.8 and May 52.8 are already on file and correct, and the release is today. **July CPI likewise.** No
+  weekend corporate disclosures beyond the KDH insider registration already logged.
+  **Portfolio impact: none directly — but a trigger-3 firing on 20.3% of the book now rests on a
+  corroborated rather than an assumed share count.**
+
 ## 2026-08-02
 
 - **23:53 ICT · PROCESS — three of my own timestamps were an hour ahead in a pushed public file. Corrected

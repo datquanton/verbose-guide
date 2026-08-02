@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 23:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 00:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,24 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 00:53 — KDH's share count is CORROBORATED; the proof was already in the file
+
+**KDH's insider disclosure — 0.056% → 1.838% on a 20,000,000-share purchase — implies 1,122,334,456 shares
+outstanding**, agreeing to **0.024%** with the 1,122,060,000 derived from charter capital on 2-Aug. It also
+**rejects** both rivals: 1,011.1m would give 1.978pp and 1,000.5m would give 1.999pp against a filed
+1.782pp. **The 2025 111m-share issue executed.**
+
+- **Discharges the 12:53 caveat** that the issue was *"a plan with a closed window, not a completion
+  notice."* **KDH's trigger-3 firing (+16.1% → +3.5%, 12.6pp) on 20.3% of the book now rests on a
+  corroborated count**, confirmed two independent ways.
+- **No search was needed** — the pair had sat in the date-gate table for days, read only as a signal about
+  insider conviction. **Third instance of a quantity recoverable from figures already held** (`pe_ttm ×
+  npat_ttm`, MBB's provisions, this).
+- **Nothing modelled**; the number it confirms is already the number in use.
+
+**Rest of the sweep empty and expected:** July PMI and CPI publish today, not yet out; June PMI 51.8 / May
+52.8 already on file and correct.
 
 ### ⚠⚠ 02-Aug 20:53 — USER-DIRECTED: provisioning is flattering bank PBT. And the data refresh closes item 25.
 
