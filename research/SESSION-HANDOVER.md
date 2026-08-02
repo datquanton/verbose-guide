@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 18:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 19:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,31 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 19:53 — "inflation accelerating" is WITHDRAWN; CPI peaked in MAY
+
+**The LEVEL finding stands. The DIRECTION claim is withdrawn.** The 31-Jul note argued acceleration from
+*"2M +2.94%, 4M +3.99%, 5M +4.31%, 6M +4.38%"* — **cumulative averages, not monthly rates.** An average
+rises whenever the newest month exceeds it, so **it cannot turn until the monthly rate is already below it.**
+
+| Jan | Feb | Mar | Apr | **May** | **Jun** |
+|--:|--:|--:|--:|--:|--:|
+| 2.53% | 3.35% | 4.65% | 5.46% | **5.60% peak** | **4.69% (−91bp)** |
+
+- **The file already held the disconfirming figure** — *"June alone was −0.39% m/m but +4.69% YoY"* sat one
+  sentence after the word "accelerating" and was never compared to it.
+- **Survives untouched:** June CPI at 4.69% is still **1.19pp above the 3.5%** in `risk.py`'s threshold, so
+  the "repo understates inflation" finding and that open item are unchanged.
+- **Weakens:** the chain *inflation accelerating → SBV room closing → tension with 1.7–3.2× system credit
+  growth and the 40% funding ratio*. **Not reversed — one month is not a trend.** The honest state is that
+  **the direction is unknown and the file was asserting one**, on 51.5% of the book in banks.
+- **Tomorrow's print is now a real test.** **Do not judge it by the cumulative average** — that will keep
+  rising for months either way.
+- **Trap disarmed:** a *"CPI tháng 7 +0.48%"* article is **not** July 2026. Four searches confirm the latest
+  GSO data covers six months; the fetch 403'd, so **the repo's own 03-Aug date gate was the sole line of
+  defence** — the first time that has been true.
+
+**Nothing modelled; no confidence moved.**
 
 ### 02-Aug 18:53 — the TCB/TCX Masterise link is CURRENT, established from TCBS's own website
 

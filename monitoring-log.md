@@ -24,7 +24,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **⚠ VNDiamond changes EFFECTIVE TOMORROW, MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum.** **CADENCE CONFIRMED 02-Aug:** cutoff at quarter end → announced the 20th of the next month → effective the first Monday after (Q2: cutoff 31-Mar, announced 20-Apr, effective 04-May). **KDH was placed on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list executes at the NEXT review, which is this one.** July outcome still **not established**; four attempts at the 20-Jul HOSE announcement have failed. Flow likely completed at **Friday 31-Jul's close** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | **3-Aug is a QUADRUPLE date — TOMORROW** | **July CPI + July PMI + TCX's VN30 effective date + VNDiamond effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday. **Watch for these four resolving rather than re-running failed searches on the 20-Jul announcement** | 1, 4 |
-| **July CPI release** | **2026-08-03** — same day as TCX's VN30 entry. H1 ran +4.38%, accelerating | 1 |
+| **July CPI release — TOMORROW** | **2026-08-03** — same day as TCX's VN30 entry. H1 averaged +4.38%. **"Accelerating" WITHDRAWN 02-Aug: that read a CUMULATIVE AVERAGE as a rate. Monthly YoY PEAKED IN MAY at 5.60% and fell 91bp to 4.69% in June.** Direction is **unknown**; the level finding (still 1.19pp above the repo's 3.5%) stands. **Do NOT judge tomorrow's print by the cumulative average — it will keep rising for months either way** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
@@ -73,6 +73,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-02
+
+- **19:53 ICT · MACRO (lane 1) — "accelerating" is WITHDRAWN. The file has been reading a cumulative
+  average as a rate of change since 31-Jul, and CPI actually PEAKED IN MAY. A stale July article disarmed in
+  the same sweep.**
+  **The level finding stands completely and is untouched. The DIRECTION claim is withdrawn.**
+  **What the 31-Jul note offered as evidence:** *"The path through the year is ACCELERATING: 2M +2.94%, 4M
+  +3.99%, 5M +4.31%, 6M +4.38%."* **Those four numbers are CUMULATIVE AVERAGES, not monthly rates.** A
+  cumulative average rises whenever the newest month exceeds the running average, so **it cannot show a turn
+  until the monthly rate has already fallen below the average.** It is a smoothed, lagging statistic and it
+  was read as a rate of change.
+  **The monthly YoY series, which this file did not have and now does:**
+
+  | month | CPI YoY | change |
+  |---|--:|--:|
+  | Jan | 2.53% | — |
+  | Feb | 3.35% | +0.82pp |
+  | Mar | 4.65% | +1.30pp |
+  | Apr | 5.46% | +0.81pp |
+  | **May** | **5.60%** | +0.14pp — **the peak** |
+  | **Jun** | **4.69%** | **−0.91pp** |
+
+  **CPI peaked in May and fell 91 basis points in June.** The 6M average still rose to 4.38% **because
+  June's 4.69% is above it** — which is precisely the arithmetic that makes the average useless for
+  direction.
+  **⚠ The file already held the disconfirming number.** The same 31-Jul note records *"June alone was −0.39%
+  m/m but +4.69% YoY"* **in the sentence immediately after the word ACCELERATING.** Both figures were
+  present and were never compared.
+  **What survives, and it is most of it.** CPI at **4.69% YoY in June is still 1.19pp above the 3.5%** this
+  repo's risk threshold uses, so **the finding that the repo understates inflation is untouched** and the
+  open item on `risk.py`'s 0.035 threshold is unchanged. Full-year consensus of 4.3–4.5% is unchanged.
+  **What weakens:** the macro framing built on top — inflation accelerating, therefore SBV room to ease is
+  closing, therefore tension with the credit growth logged at 1.7–3.2× system and with the 40%
+  short-term-funding ratio. **That chain starts from a direction that is not established.** **It is not
+  reversed either: one month is not a trend**, June's fall is a single observation, and 4.69% remains high.
+  **The honest statement is that the direction is UNKNOWN and the file was asserting one.**
+  **Tomorrow's print is now a real test rather than a confirmation.** If July continues down, May was the
+  peak; if it re-accelerates, the original framing returns. **Either way the cumulative average will keep
+  rising for months and must not be used to judge it.**
+  **⚠ A trap disarmed in the same sweep.** A VnEconomy article headlined *"CPI tháng 7 tăng 0,48%, lạm phát
+  cơ bản tăng 0,36%"* surfaced today and reads exactly like the July print. **It is not July 2026.** **Four
+  independent searches confirm the latest published GSO data covers SIX MONTHS ONLY**; the direct fetch
+  returned 403 so the article's own date could not be read, and **it was rejected on the date gate rather
+  than on its contents.** **This file's own gate — "July CPI publishes 03-Aug" — is what caught it.**
+  **Nothing modelled; no confidence moved on any ticker.**
+  Sources: [monthly YoY series, H1/2026](https://nhandan.vn/binh-quan-sau-thang-dau-nam-2026-cpi-tang-438-so-voi-cung-ky-nam-truoc-post973230.html) ·
+  [GSO June / Q2 / H1 release](https://www.nso.gov.vn/tin-tuc-thong-ke/2026/07/chi-so-gia-tieu-dung-chi-so-gia-vang-va-chi-so-gia-do-la-my-thang-sau-quy-ii-va-6-thang-dau-nam-2026/) ·
+  [H1 4.38%, core 4.12%](https://vietstock.vn/2026/07/cpi-6-thang-dau-nam-tang-438-lam-phat-co-ban-tang-412-so-voi-cung-ky-nam-truoc-761-1462025.htm)
+  **Portfolio impact: the inflation LEVEL finding that drives the risk-threshold item is unchanged; the
+  DIRECTION claim underpinning the "SBV is constrained" framing is withdrawn as unestablished, on 51.5% of
+  the book in banks.**
 
 - **18:53 ICT · TCB + TCX (lane 5) — ran the check the 17:53 entry called "the highest-value cheap check
   now open on TCB". It RESOLVED, from TCBS's own domain, and it moves the Masterise link from a 2022–23
