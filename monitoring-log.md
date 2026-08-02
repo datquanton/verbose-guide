@@ -73,6 +73,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **08:53 ICT · KDH (lane 7) — the file had ONE foreign seller on record. There are two, and the larger
+  one was missing.**
+  **Dragon Capital's stake in KDH has fallen from over 9% to 5.9591% as at June 2026 — a drop of more than
+  3 percentage points, larger than VinaCapital's.** Nothing on Dragon Capital was in this file.
+  **VinaCapital's fall through 7% to 6.9621% was logged on 30-Jul and treated as *the* ownership signal; it
+  was the smaller half of the story.** Foreign organisations and individuals held **nearly 38%** at an
+  earlier point.
+  **And the structure is worth recording plainly, with no implication attached.** **Dragon Capital manages
+  DCVFMVN Diamond (FUEVFVND) — the ₫12,070bn VNDiamond ETF logged yesterday, the largest of the four.** So
+  the same house is **both a large active seller of KDH and the manager of the index fund that would be
+  forced to sell KDH on removal.** **These are different vehicles with different mandates** — an active
+  fund reducing a position is an investment decision, an ETF's holding is mechanical index tracking, and
+  **nothing improper is implied or evidenced.** It is recorded because **the mechanism compounds** —
+  foreign selling lowers the FOL ratio → low FOL triggers removal → removal forces the ETF to sell — **and
+  one house sits at both ends of that chain.**
+  **The gap to requalification is smaller than the narrative suggests.** **If** the foreign ownership limit
+  is **49%** — standard for Vietnamese real estate but **not verified for KDH, and stated as an
+  assumption** — then an FOL ratio of 61.8% implies actual foreign ownership near **30.3%**, and the 65%
+  test requires about **31.9%**. **That is a gap of roughly 1.6 percentage points of shares, or ~₫282bn of
+  net foreign buying** at an ₫18,010bn market cap.
+  **The condition that pushed KDH out could reverse about as easily as it arose — which is the opposite of
+  how a removal watchlist reads.** **MWG's return to the index after half a year out is the precedent
+  already on file.**
+  **Stated with its dependency:** the whole calculation rests on the 49% assumption; if KDH's limit differs
+  the percentages move proportionally. **The order of magnitude — low single-digit percentage points —
+  survives any plausible limit.** Nothing modelled.
+
 - **07:53 ICT · PROCESS — the commit chain short-circuited on a bad check, in the opposite direction to
   yesterday's failure.**
   The verification step was `grep -c "no balance sheet at all"`, chained with `&&` before the commit. **The
