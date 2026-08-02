@@ -28,6 +28,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
+| **⚠ MoIT / trade-defence back-sweep — NEW 02-Aug, and it has never been run** | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown** | 2, 5 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
 parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
@@ -72,6 +73,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-02
+
+- **14:53 ICT · HPG (lanes 2, 5) — a Vietnamese trade-defence duty has been IN FORCE SINCE 17-APRIL and this
+  repo has no record of it. HPG is the PETITIONER. Seventh instance of the late-regulation species, and the
+  lesson that named the fix is three days old.**
+  **Decision 612/QĐ-BCT**, issued **02-Apr-2026**, effective **17-Apr-2026**: a **temporary 27.83%
+  anti-CIRCUMVENTION duty** on Chinese hot-rolled coil of width **1,880–2,300mm**, across **24 HS codes**
+  (7208.25.00 → 7226.91.90), excluding carbon above 0.30% and plate ≥10mm.
+  **The mechanism.** Vietnam already levied **23.01–27.83%** anti-dumping duty on Chinese HRC **below
+  1,880mm**. Exporters shifted to **wide format**, which fell outside the scope. **Wide HRC imports from
+  China ran ~650,000t in H1/2025 — about 15× the prior-year period.** **Period flagged: that figure is
+  H1/2025, a YEAR OLD, and the current run-rate is not established here.** **HPG and Formosa Hà Tĩnh
+  petitioned MoIT**; the preliminary investigation found circumvention through *"insignificant modification
+  of goods already subject to trade defence measures."*
+  **It is TEMPORARY — *thuế tạm thời* — so a FINAL determination is still to come, and this file does not
+  carry its date.** That is **an unlogged dated catalyst on a 16.8% position**, and the **second live trade
+  case on this name**, alongside the US rebar ITC vote due mid-to-late September.
+  **⚠ And the honest reading cuts against the obvious one.** The naive read is *"protection granted,
+  domestic HRC supported, bullish for the spread."* **The price evidence already on file says otherwise.**
+  **Three months AFTER the duty took effect**, domestic HRC was still falling under import pressure — a
+  13-Jul report has domestic HRC down with **import competition INCREASING** — and HPG then cut its own
+  August offer by **~US$34/t** with Formosa cutting **~US$40/t** across August–September. **The measure
+  closed a channel; it did not hold the price.** Both are true at once and the file now carries both.
+  **This does NOT rehabilitate the spread case and must not be read as bear-evidence-cancelled.**
+  **Why it should have been caught, which is the uncomfortable part.** The **31-Jul calibration lesson**,
+  written after the *fourth* such miss, said the fix was to *"name the regulators per holding rather than
+  the category"* — and named them: *"SBV and MoF for the banks and brokers, HCMC/provincial People's
+  Committees and MoNRE for KDH, **MoIT and USITC/Commerce for HPG**."* **`_regulatory` now holds thirteen
+  instruments and until this entry NOT ONE was from MoIT.** The lesson named the regulator and **no sweep
+  ever queried it.** The monthly back-sweep that was set up runs on luatvietnam's **banking-finance**
+  digest, which **by construction cannot surface a trade-defence decision.**
+  **Checked and NOT logged, because already on file:** the ₫900/kg August HRC cut (= the US$34/t already
+  recorded 31-Jul), the rebar **+₫100/kg from 27-Jul** and the ₫15,120/kg level (recorded 01-Aug), the
+  domestic HRC range ₫14,000–14,350/kg, and Formosa's August–September cut. **The steel *prices* were
+  current; only the *regulation* was missing.**
+  **Nothing modelled.** No trade-policy input exists in the spread bridge, and **the bridge's HRC input is
+  HPG's own offer, which prices this measure in by construction.** **Confidence not moved** — no model input
+  changed, and HPG has an unresolved `cap_now` defect (item 25) that would make any confidence move
+  uninterpretable.
+  Sources: [Decision 612/QĐ-BCT, 27.83%, effective 17-Apr](https://cafef.vn/nong-viet-nam-ap-thue-chong-ban-pha-gia-2783-voi-thep-hrc-kho-rong-tu-trung-quoc-188260402140747009.chn) ·
+  [scope, 24 HS codes, exclusions](https://vietnambiz.vn/bo-cong-thuong-ap-thue-2783-doi-voi-thep-hrc-kho-lon-nhap-khau-tu-trung-quoc-2026421491639.htm) ·
+  [650,000t H1/2025, ~15× — HPG/Formosa petition](https://chongbanphagia.vn/hoa-phat-va-formosa-chuan-bi-nop-don-kien-cbpg-thep-hrc-kho-rong-trung-quoc-sau-nghi-van-lan-tranh-t-n29970.html) ·
+  [domestic HRC falling on rising import competition, 13-Jul](https://tuoitre.vn/thep-hrc-trong-nuoc-giam-gia-truoc-suc-ep-hang-nhap-khau-100260713110833816.htm)
+  **Portfolio impact: HPG is 16.8% and is an active party to a live trade case with a pending final ruling
+  that this file cannot date. Protective in direction, but it has not arrested the HRC price decline.**
 
 - **13:53 ICT · ⚠⚠⚠ ESCALATION — THE `cap_now` AUDIT IS COMPLETE ON ALL EIGHT. SIX FIRE TRIGGER 3, at
   48.2% of the book. Both remaining names resolved AGAINST the file, and the ranking does not shift — it

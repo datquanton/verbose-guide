@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 13:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 14:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,32 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 14:53 — HPG: a live trade case, in force since April, absent from this repo
+
+**Decision 612/QĐ-BCT** — MoIT, issued 02-Apr-2026, **effective 17-Apr-2026**: a **temporary 27.83%
+anti-circumvention duty** on Chinese HRC of width **1,880–2,300mm**, 24 HS codes, excluding carbon >0.30%
+and plate ≥10mm. **HPG and Formosa are the PETITIONERS**, not bystanders.
+
+- Vietnam already taxed Chinese HRC **below** 1,880mm at 23.01–27.83%; exporters shifted to wide format.
+  Wide HRC imports ran **~650,000t in H1/2025, ~15× YoY** — **that figure is a year old; the current
+  run-rate is not established.**
+- **It is TEMPORARY, so a FINAL determination is pending and this file cannot date it.** An unlogged dated
+  catalyst on a 16.8% position, and the **second** live trade case on HPG alongside the US rebar ITC vote
+  due mid-to-late September.
+- **⚠ It has NOT held the price.** Three months after it took effect, domestic HRC was still falling with
+  import competition *increasing* (13-Jul), and HPG then cut its August offer ~US$34/t, Formosa ~US$40/t.
+  **The measure closed a channel; it did not support the price. Do NOT read it as bear-evidence-cancelled.**
+- **Nothing modelled, confidence not moved** — the bridge's HRC input is HPG's own offer, which prices this
+  measure in by construction, and HPG's unresolved `cap_now` defect would make any confidence move
+  uninterpretable.
+- **New gate row: a monthly MoIT / trade-defence back-sweep, which has never been run.** `_regulatory` held
+  thirteen instruments and **zero from MoIT** — the 31-Jul lesson named MoIT for HPG and no sweep queried
+  it, because the back-sweep that exists runs on a **banking-finance** digest that cannot return a
+  trade-defence decision.
+
+Steel *prices* were already current (the ₫900/kg August HRC cut, rebar +₫100/kg from 27-Jul at ₫15,120/kg,
+domestic HRC ₫14,000–14,350). **Only the regulation was missing.**
 
 ### ⚠⚠⚠ 02-Aug 13:53 — AUDIT COMPLETE, ALL EIGHT. SIX FIRE. THE RANKING REORDERS. START HERE.
 
