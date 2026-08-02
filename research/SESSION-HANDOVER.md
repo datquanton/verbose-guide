@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 12:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 13:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,41 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### ⚠⚠⚠ 02-Aug 13:53 — AUDIT COMPLETE, ALL EIGHT. SIX FIRE. THE RANKING REORDERS. START HERE.
+
+| ticker | wt | implied shares | actual | err | mu_raw engine → corrected | delta |
+|---|--:|--:|--:|--:|---|--:|
+| **TCB** | 35.0% | 7,065.3m | 7,086.2m | −0.3% | +1.9% → +1.6% | −0.3pp |
+| **KDH** | 20.3% | 1,000.5m | 1,122.1m | −10.8% | +16.1% → +3.5% | **−12.6pp ⚠** |
+| HPG | 16.8% | 7,800.3m | 8,443.0m | −7.6% | +15.1% → +6.4% | −8.8pp |
+| **VPB** | 10.0% | 6,739.4m | 7,933.9m | −15.1% | +1.4% → **−13.9%** | **−15.3pp ⚠** |
+| **MBB** | 6.5% | 9,495.0m | 8,055.0m | **+17.9%** | +16.0% → **+36.7%** | **+20.7pp ⚠** |
+| **TCX** | 5.5% | 2,000.4m | 2,773.9m | −27.9% | +23.1% → **−11.2%** | **−34.3pp ⚠** |
+| **VCI** | 3.1% | 922.9m | 1,152.2m | −19.9% | +10.7% → **−11.3%** | **−22.0pp ⚠** |
+| **VPX** | 2.8% | 1,473.7m | 1,875.0m | −21.4% | +27.2% → **−0.0%** | **−27.2pp ⚠** |
+
+**Only TCB is right. Only HPG is wrong-but-below-threshold. Six of eight fire, at 48.2% of the book.**
+
+**⚠ THE RANKING REORDERS** — engine VPX / TCX / KDH / MBB / HPG / VCI / TCB / VPB → corrected
+**MBB +36.7 / HPG +6.4 / KDH +3.5 / TCB +1.6 / VPX −0.0 / TCX −11.2 / VCI −11.3 / VPB −13.9**.
+**The engine's top two become fifth and sixth; MBB goes fourth to first; four names turn negative.**
+
+- **MBB goes the OTHER way.** Its 15% dividend has **NOT executed — record date 12-AUG-2026** (with the
+  805.5m rights offer). So `cap_now` is too **HIGH** and correcting it **RAISES** MBB's return. **This
+  SUPPORTS the MBB add and destroys the TCX add.** It also settles item 19's puzzle: **16.0% × 0.55 = the
+  recorded +8.8% exactly**; corrected **+20.2%**. **The branch re-derivation is still needed.**
+- **VCI:** both actions executed (bonus record date 27-Mar-2026; ESOP results Jun-2026) → 1,152.24m.
+- **VPX verified to the dong:** 1,875m × ₫25,400 = the stated **₫47,625bn**. It was the engine's #1.
+- **Robustness:** share counts firm on all eight; directions robust because every gap but TCB's and HPG's is
+  10.8–27.9% against ~5% price uncertainty. **HPG is the one name where price error could matter — and the
+  only sub-threshold one.**
+
+**Nothing retuned. No confidence moved on any name.** **⚠ NO WEIGHT SHOULD MOVE ON THE CURRENT RANKING —
+nor toward the corrected one**, which rests on prices already known stale.
+
+**Sequence for a human: (1) refresh eight dated prices [item 2] → (2) settle `pe_ttm`/`npat_ttm` per name
+[item 25] → (3) THEN re-rank.**
 
 ### ⚠⚠ 02-Aug 12:53 — `cap_now` AUDIT COMPLETE (7 of 8). THREE NAMES FIRE. START HERE.
 

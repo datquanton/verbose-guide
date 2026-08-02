@@ -73,6 +73,76 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **13:53 ICT · ⚠⚠⚠ ESCALATION — THE `cap_now` AUDIT IS COMPLETE ON ALL EIGHT. SIX FIRE TRIGGER 3, at
+  48.2% of the book. Both remaining names resolved AGAINST the file, and the ranking does not shift — it
+  REORDERS.**
+
+  | ticker | wt | implied shares | actual shares | `cap_now` err | mu_raw engine → corrected | delta |
+  |---|--:|--:|--:|--:|---|--:|
+  | **TCB** | 35.0% | 7,065.3m | 7,086.2m | −0.3% | +1.9% → +1.6% | −0.3pp |
+  | **KDH** | 20.3% | 1,000.5m | 1,122.1m | −10.8% | +16.1% → +3.5% | **−12.6pp ⚠** |
+  | HPG | 16.8% | 7,800.3m | 8,443.0m | −7.6% | +15.1% → +6.4% | −8.8pp |
+  | **VPB** | 10.0% | 6,739.4m | 7,933.9m | −15.1% | +1.4% → **−13.9%** | **−15.3pp ⚠** |
+  | **MBB** | 6.5% | 9,495.0m | 8,055.0m | **+17.9%** | +16.0% → **+36.7%** | **+20.7pp ⚠** |
+  | **TCX** | 5.5% | 2,000.4m | 2,773.9m | −27.9% | +23.1% → **−11.2%** | **−34.3pp ⚠** |
+  | **VCI** | 3.1% | 922.9m | 1,152.2m | −19.9% | +10.7% → **−11.3%** | **−22.0pp ⚠** |
+  | **VPX** | 2.8% | 1,473.7m | 1,875.0m | −21.4% | +27.2% → **−0.0%** | **−27.2pp ⚠** |
+
+  **Only TCB is right. Only HPG is wrong-but-below-threshold. Six of eight fire.**
+  **MBB resolved — and against the reading I might have preferred.** **The 15% stock dividend has NOT
+  executed: the record date is 12-AUG-2026**, ten days away, covering both the dividend and the 805.5m-share
+  rights offer. An earlier *"2nd or 3rd week of June"* expectation was circulating and had **slipped**; the
+  firm record date supersedes it. **So the count is still 8,055m and the LARGER reading holds — `cap_now` is
+  +17.9% too HIGH.** **Note the direction is opposite to every other broken name: correcting MBB RAISES its
+  expected return**, and MBB is already the **joint-largest proposed add** — so this correction **supports
+  that recommendation while destroying the case for the TCX add.**
+  **It also settles the puzzle in OPEN-DECISIONS item 19.** That item records that MBB's expected return
+  *"did not move at all on a +40% quarter"* and stayed at +8.8%, blaming typed-in branches. **16.0% × 0.55
+  confidence = +8.8% exactly; corrected it is 36.7% × 0.55 = +20.2%.** **Part of the answer was that the
+  denominator was 17.9% too big.** **The branch re-derivation is still needed — this explains item 19, it
+  does not replace it.**
+  **VCI resolved — both actions EXECUTED.** Bonus issue record date **27-Mar-2026** (par value ₫2,975.4bn =
+  297.54m shares); **ESOP results report published June 2026** (4.6m shares at ₫11,000). **850.1m + 297.54m
+  + 4.6m = 1,152.24m = charter ₫11,522bn**, the figure the company states.
+  **VPX resolved, and verified to the dong.** Charter capital **₫18,750bn** after the largest Vietnamese
+  broker IPO of 2025 (raised ₫12,713bn), **1,875m shares**, listed 11-Dec-2025 as *"nearly 1.9bn shares"*.
+  **The source states a market cap of ₫47,625bn at ₫25,400 on 12-Jun-2026, and 1,875m × 25,400 = ₫47,625bn
+  exactly.** **VPX was the engine's TOP-RANKED name; corrected, its expected return is zero.**
+  **⚠ THE RANKING REORDERS — this is the part that matters most.**
+
+  | rank | engine | corrected |
+  |--:|---|---|
+  | 1 | VPX +27.2% | **MBB +36.7%** |
+  | 2 | TCX +23.1% | HPG +6.4% |
+  | 3 | KDH +16.1% | KDH +3.5% |
+  | 4 | MBB +16.0% | TCB +1.6% |
+  | 5 | HPG +15.1% | VPX −0.0% |
+  | 6 | VCI +10.7% | TCX −11.2% |
+  | 7 | TCB +1.9% | VCI −11.3% |
+  | 8 | VPB +1.4% | VPB −13.9% |
+
+  **The engine's top two become fifth and sixth. MBB goes from fourth to first by a wide margin. Four names
+  turn negative.** This is **not** a uniform shift that leaves the ordering intact.
+  **Robustness, stated honestly.** All of this uses **the file's own prices**, which are undated, presumed
+  24-Jul, and **demonstrated wrong for TCX by 4.85%** — so the corrected caps carry price uncertainty. **The
+  share counts are now firm on all eight.** **The directions are robust** because every gap except TCB's and
+  HPG's is far larger than any plausible price error — **10.8% to 27.9% against ~5%**. **HPG at 7.6% is the
+  one name where price error could plausibly matter, and it is also the only one below the threshold.**
+  **Nothing retuned. No confidence moved on any name.** Which of `pe_ttm` or `npat_ttm` is wrong is still
+  unresolved everywhere; **§5** forbids retuning an unresolved measure and **§4** scope-locks `decide.py`.
+  **⚠ NO WEIGHT SHOULD MOVE ON THE CURRENT RANKING — and not toward the corrected one either**, because the
+  corrected order rests on prices this file already knows are stale. **The sequence a human should run:
+  (1) refresh eight dated prices [item 2], (2) settle `pe_ttm`/`npat_ttm` per name against the filed
+  statements [item 25], (3) THEN re-rank.**
+  Sources: [MBB record date 12-Aug, 15% + 805.5m rights](https://stockbiz.vn/tin-tuc/mbb-chot-ngay-chao-ban-co-phieu-va-tra-co-tuc-cho-co-dong/41249240) ·
+  [VCI bonus record date 27-Mar-2026](https://cafef.vn/vietcap-chot-ngay-phat-hanh-co-phieu-thuong-va-tam-ung-co-tuc-cho-co-dong-188260317095022812.chn) ·
+  [VCI ESOP results, Jun-2026](https://vietstock.vn/2026/06/vci-bao-cao-ket-qua-phat-hanh-co-phieu-esop-2026-764-1460661.htm) ·
+  [VPX ₫18,750bn, ~1.9bn shares](https://baochinhphu.vn/vpbanks-len-san-hose-sau-thuong-vu-ipo-lon-nhat-nganh-chung-khoan-102251205162950945.htm) ·
+  [VPX ₫47,625bn cap at ₫25,400](https://www.dnse.com.vn/senses/tin-tuc/co-phieu-vpx-cua-chung-khoan-vpbank-duoc-giao-dich-ky-quy-35236203)
+  **Portfolio impact: six of eight names fire trigger 3 at 48.2% of the book; the engine's top two rank
+  fifth and sixth once corrected; only the 35% position is unaffected. The ranking is not usable until
+  prices and `pe_ttm`/`npat_ttm` are settled.**
+
 - **12:53 ICT · ⚠⚠ ESCALATION — TRIGGER 3 on KDH, the 20.3% position. The `cap_now` audit is now complete
   on SEVEN of eight names. THREE fire, and they are 35.8% of the book.**
   **KDH was one of the two names 11:53 left unchecked. It fires.** `cap_now` = 19.2 × 938 = **₫18,010bn**,
