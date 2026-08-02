@@ -28,7 +28,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
-| **⚠ MoIT / trade-defence back-sweep — NEW 02-Aug, and it has never been run** | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown** | 2, 5 |
+| **⚠ MoIT / trade-defence back-sweep — NEW 02-Aug, and it has never been run** | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
 parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
@@ -73,6 +73,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-02
+
+- **15:53 ICT · HPG (lanes 2, 5) — ran the MoIT back-sweep created one hour ago. It found three more
+  instruments, and one of them EXPLAINS the 14:53 finding rather than adding to it. The open import channel
+  is INDIA'S, and this file has been carrying evidence of it for a week without the explanation.**
+  **The 14:53 puzzle was:** a 27.83% anti-circumvention duty took effect 17-Apr-2026 and domestic HRC **kept
+  falling** under rising import competition, with HPG cutting its August offer ~US$34/t. That entry
+  concluded *"the measure closed a channel; it did not hold the price"* and **could not say why. Now it
+  can.**
+  **Decision 1959/QĐ-BCT, 04-Jul-2025, did two things in one document.** It imposed the **official Chinese
+  HRC anti-dumping duty of up to 27.83% for FIVE YEARS** — running to roughly **04-Jul-2030** unless
+  replaced, extended or revoked, **long-dated support this file did not have** — **and it TERMINATED the
+  investigation into Indian HRC.**
+  **⚠ The reason for the India termination is the part that matters, and it is NOT "India was found not to
+  be dumping."** The investigation was terminated because **Indian imports during the investigation period
+  were LESS THAN 3% of total import volume — the de minimis NEGLIGIBILITY threshold.** That is a **volume**
+  test, measured over a **dated window** (case AD20, initiated July 2024 under Decision 1985/QĐ-BCT).
+  **So the import channel that remains open is India's.** **Chinese HRC: 27.83% for five years, plus the
+  wide-format route closed 17-Apr-2026. Indian HRC: nothing.** **This file logged *"Indian landed at
+  US$535"* as spread bear-evidence on 26-Jul and never knew Indian HRC carries no duty at all.** **The
+  ministry closed the Chinese channel and, in the same document a year earlier, explicitly left the Indian
+  one open. That is the mechanism.**
+  **And it creates a forward item, stated with its uncertainty.** The termination rests on a threshold that
+  is **volume-dependent and dated**. **IF** Indian volumes have since risen above 3% of imports, the ground
+  for termination has eroded and **a fresh petition becomes possible — and HPG is a proven petitioner,
+  twice.** **Whether Indian volumes now exceed 3% is NOT established here and is NOT assumed.** Recorded as
+  a mechanism to watch, not a prediction. **The cheap check is Indian HRC's share of Vietnamese HRC imports
+  in 2026.**
+  **Two more instruments, both absent until now.** **Decision 2310/QĐ-BCT (14-Aug-2025)** — official AD duty
+  on **galvanised steel from China and South Korea**; peers **HSG and NKG** sit in that product (lane 6),
+  and coverage notes Chinese steel losing share while galvanisers *"struggle to hold margins"*. And the
+  **612 investigation was initiated 27-Oct-2025**, which dates the case that yesterday's entry could only
+  date from its outcome. **Exempt grades under 612: BW450, BS700MCK2, AG700, LG700T**, with firms able to
+  apply for exemptions.
+  **A trap disarmed by internal logic rather than by counting sources.** One source gives the wide band as
+  **1,800–2,300mm**; the others give **1,880–2,300mm**. **The underlying duty covers widths BELOW 1,880mm**,
+  so a band starting at 1,800mm would **overlap the existing measure by 80mm** — incoherent, since an
+  anti-circumvention measure exists precisely to catch what falls **outside** the original scope. **1,880 is
+  right.** The majority-of-sources heuristic happens to agree here, but **the logical test is the one that
+  would still work if the typo had been in the majority.**
+  **The back-sweep justified itself on its first run** — the same way the SBV/MoF one did when it caught
+  Circular 29/2026 two weeks before it bound. **Nothing modelled; no confidence moved.** No model input
+  changed: the bridge's HRC input is HPG's own offer, which embeds all of this by construction.
+  Sources: [Decision 1959/QĐ-BCT — China duty + India termination](https://luatvietnam.vn/thue/quyet-dinh-1959-qd-bct-2025-ap-dung-thue-chong-ban-pha-gia-thep-can-nong-tu-trung-quoc-va-cham-dut-dieu-tra-tu-an-do-405185-d1.html) ·
+  [MoIT official notice](https://moit.gov.vn/tin-tuc/quyet-dinh-ap-thue-chong-ban-pha-gia-chinh-thuc-doi-voi-mot-so-san-pham-thep-can-nong-co-xuat-xu-tu-cong-hoa-nhan-dan-tr.html) ·
+  [Decision 2310/QĐ-BCT, galvanised, China + Korea](https://mekongasean.vn/bo-cong-thuong-ap-thue-chong-ban-pha-gia-voi-thep-tu-trung-quoc-han-quoc-45089.html) ·
+  [612 initiation 27-Oct-2025, exempt grades](https://trungtamwto.vn/an-pham/32119-bo-cong-thuong-ap-dung-bien-phap-chong-lan-tranh-phong-ve-thuong-mai-tam-thoi-voi-thep-can-nong)
+  **Portfolio impact: HPG is 16.8%. Chinese HRC is protected to ~2030; the Indian channel is duty-free on a
+  dated volume test. The spread pressure now has an identified source, and a possible future petition.**
 
 - **14:53 ICT · HPG (lanes 2, 5) — a Vietnamese trade-defence duty has been IN FORCE SINCE 17-APRIL and this
   repo has no record of it. HPG is the PETITIONER. Seventh instance of the late-regulation species, and the

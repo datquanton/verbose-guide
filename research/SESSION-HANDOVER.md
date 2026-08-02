@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 14:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 15:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,32 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 15:53 — the MoIT back-sweep ran once and explained yesterday's puzzle: the open channel is INDIA
+
+**Decision 1959/QĐ-BCT (04-Jul-2025) did two things in one document.** It imposed the **official Chinese
+HRC anti-dumping duty of up to 27.83% for FIVE YEARS** (to ~04-Jul-2030 unless replaced/extended/revoked —
+long-dated support not previously on file) **and TERMINATED the investigation into Indian HRC.**
+
+- **⚠ The India termination was NOT a finding of no dumping.** It was terminated because Indian imports were
+  **under 3% of total import volume** — the **de minimis negligibility** threshold. A **volume** test over a
+  **dated** window (case AD20, initiated July 2024).
+- **So the open import channel is India's.** Chinese HRC: 27.83% for five years plus the wide-format route
+  closed 17-Apr-2026. **Indian HRC: nothing.** The file logged *"Indian landed at US$535"* on 26-Jul as
+  spread bear-evidence and **never knew Indian HRC is duty-free.** **That is the mechanism behind "closed a
+  channel, did not hold the price."**
+- **Forward item, with its uncertainty stated:** the termination rests on a volume threshold. **IF** Indian
+  volumes have risen above 3%, the ground erodes and a fresh petition becomes possible — **HPG is a proven
+  petitioner, twice.** **Whether they now exceed 3% is NOT established and NOT assumed.** Cheap check:
+  Indian HRC's share of Vietnamese HRC imports in 2026. Added to the gate table.
+- **Also found:** **Decision 2310/QĐ-BCT (14-Aug-2025)** — official AD on **galvanised steel from China and
+  South Korea**; peers **HSG/NKG** sit in that product. And **612's investigation was initiated 27-Oct-2025**.
+- **Trap disarmed by logic, not by vote:** one source says the wide band is 1,800–2,300mm, two say
+  1,880–2,300mm. The underlying duty covers **below 1,880mm**, so 1,800 would overlap by 80mm — incoherent.
+  **1,880 is right.**
+
+**Nothing modelled, no confidence moved, no numeric driver changed.** The back-sweep justified itself on its
+first run, as the SBV/MoF one did.
 
 ### 02-Aug 14:53 — HPG: a live trade case, in force since April, absent from this repo
 
