@@ -73,6 +73,73 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **11:53 ICT · ⚠⚠ ESCALATION — TRIGGER 3 on TWO MORE NAMES. Ran the check the 10:53 entry said had not
+  been run. The `cap_now` defect is BOOK-WIDE, it should have been run a week ago — and the errors do NOT
+  share a direction, so they do not cancel in the ranking.**
+  **The test.** `decide.py` line 67 sets **`cap_now = pe_ttm × npat_ttm`** for **all eight** names. Market
+  cap is shares × price, so `cap_now` is right only if the share count implied by those two inputs is
+  current. Share counts derived from **charter capital at ₫10,000 par**, the Vietnamese convention.
+
+  | ticker | wt | `cap_now` | true cap | error | mu_raw engine | mu_raw true | delta | status |
+  |---|--:|--:|--:|--:|--:|--:|--:|---|
+  | **TCB** | 35.0% | ₫206,661bn | ₫207,271bn | −0.3% | +1.9% | +1.6% | −0.3pp | **correct** |
+  | **HPG** | 16.8% | ₫162,247bn | ₫175,614bn | −7.6% | +15.1% | +6.4% | **−8.8pp** | material, no trigger |
+  | **VPB** | 10.0% | ₫168,484bn | ₫198,348bn | −15.1% | +1.4% | **−13.9%** | **−15.3pp** | **⚠ TRIGGER 3** |
+  | **MBB** | 6.5% | ₫209,365bn | ₫177,613bn | **+17.9%** | +16.0% | +36.7% | +20.7pp | **direction NOT established** |
+  | **TCX** | 5.5% | ₫82,215bn | ₫114,007bn | −27.9% | +23.1% | −11.2% | **−34.3pp** | **⚠ TRIGGER 3** |
+  | **VCI** | 3.1% | ₫18,920bn | ₫23,620bn | −19.9% | +10.7% | −11.3% | −22.0pp | **direction NOT established** |
+
+  **The single most important line is the first one. TCB is 35% of the book and its `cap_now` is correct to
+  0.3%** (charter ₫70,862bn = 7,086.2m shares). **The largest position is not affected.**
+  **⚠ VPB fires trigger 3 and its case is the most clearly broken.** The implied share count is **6,739.4m**
+  — charter capital of **₫67,394bn**, which is **VPB's ~2022 figure** against a current **₫79,339bn**
+  (7,933.9m shares). **The inputs are roughly three years stale on shares.** **The direction is robust
+  regardless of what has executed**: every 2026 action — the 26% stock dividend, the 624m-share foreign
+  placement, charter capital heading to ₫106,243bn — **only raises the count**, so `cap_now` cannot be too
+  high on any reading. **mu_raw goes +1.4% → −13.9%.**
+  **HPG is material but does NOT fire** — −8.8pp is below the 10pp threshold, and it is recorded as such
+  rather than escalated. **HPG issued 767m shares in MAY 2026**, taking charter capital ₫76,755bn →
+  ₫84,430bn; the file's inputs imply 7,800.3m and therefore **predate an action that has already settled.**
+  This compounds with the two HPG input gaps already on file — the missing FX line and the missing interest
+  line in the spread bridge.
+  **Two where the direction is NOT established, and I am not guessing either.** **MBB:** implied 9,495m sits
+  *above* the pre-dividend 8,055m, so `cap_now` reads **17.9% too HIGH** and mu_raw would go +16.0% →
+  **+36.7%**; but on a **post-15%-dividend count of 9,263m** the error is only +2.5% and the delta +2.9pp,
+  which fires nothing. **It turns on the ex-date and on whether ₫22,050 is adjusted — neither established.**
+  **If** the larger reading holds it bears on **OPEN-DECISIONS item 19**, which records that MBB's expected
+  return *"did not move at all on a +40% quarter"* and stayed at +8.8% — and 16.0% × 0.55 confidence = 8.8%
+  **exactly**, against 36.7% × 0.55 = **+20.2%** corrected. **That is a hypothesis, not a finding, and it
+  must not be used to argue for the MBB add until the ex-date is settled.** **VCI:** charter goes ₫8,501bn →
+  ₫11,522bn on ESOP + bonus; **completed** gives −19.9% and −22.0pp, **not completed** gives +8.6% the other
+  way and mu_raw *rises*. Same unresolved dependency.
+  **Not checked this sweep: KDH (20.3%) and VPX (2.8%).**
+  **The pattern matters more than any single name: THE ERRORS DO NOT SHARE A DIRECTION.** This is not a
+  systematic bias that partly cancels when names are ranked against each other — **TCX and VPB are
+  overstated, MBB may be understated, TCB is right.** Each name's `pe_ttm`/`npat_ttm` **froze a share count
+  at whatever moment it was typed**, and the eight have had corporate actions at different times since.
+  **Nothing retuned, on any name.** Which of `pe_ttm` or `npat_ttm` is wrong is unresolved everywhere, and
+  changing either while the measure is unresolved is the quiet retune **§5** forbids; `decide.py` is
+  scope-locked under **§4**. **Confidence deliberately not moved on any name** — it multiplies `mu_raw`, so
+  shrinking it scales a wrong number, and **moving four scalars would disguise a denominator fault as a
+  conviction change.** **The fix is one read per name: current shares outstanding, or TTM NPAT off the filed
+  statements.**
+  Sources: [TCB 60% bonus, capital ₫70,862 → ₫113,738bn](https://vietnambiz.vn/dhdcd-techcombank-phat-hanh-co-phieu-thuong-60-chia-co-tuc-7-mo-rong-them-mang-ha-tang-trong-2026-20264241950287.htm) ·
+  [VPB ₫79,339 → ₫106,243bn; MBB ₫80,550 → ₫102,687bn](https://cafef.vn/dhcd-vpbank-ke-hoach-loi-nhuan-2026-tren-41300-ty-dong-tang-von-dieu-le-len-cao-nhat-he-thong-ngan-hang-188260422140909744.chn) ·
+  [HPG 767m shares, ₫76,755 → ₫84,430bn](https://vietstock.vn/2026/05/767-trieu-cp-hpg-sap-ve-tai-khoan-cua-co-dong-738-1441274.htm) ·
+  [VCI ₫8,501 → ₫11,522bn](https://doanhnhan.baophapluat.vn/dhdcd-2026-chung-khoan-vietcap-vci-chot-muc-tieu-lai-2-300-ty-dong-lo-dien-nhom-co-dong-nam-giu-30-von-dieu-le.html)
+  **Portfolio impact: two names fire trigger 3 (VPB −15.3pp, TCX −34.3pp), one is material below threshold
+  (HPG −8.8pp), two are unresolved, and the 35% position is clean. No weight should move on the current
+  ranking until `cap_now` is settled per name.**
+
+- **11:53 ICT · CORRECTION to the 10:53 entry — a percentage stated against the wrong base.**
+  The 10:53 entry said `cap_now` is *"38.7% BELOW the real market cap"* for TCX. Against ₫82,215bn and
+  ₫114,007bn: **`cap_now` is 27.9% below the true cap, and the true cap is 38.7% above `cap_now`.** Those
+  are different percentages of different bases and the entry attached the larger one to the wrong
+  direction. **Nothing downstream changes** — the mu_raw figures (+23.1% → −11.2%, a 34.3pp move) were
+  computed by direct division and are unaffected, as is the sign flip. **Recorded because a ratio stated
+  against the wrong base is exactly the class of error this file exists to catch in other people's
+  numbers**, and it was in a pushed file.
+
 - **10:53 ICT · ⚠⚠ ESCALATION — TRIGGER 3 · TCX — and it begins with a full WITHDRAWAL of the 09:53 entry
   pushed 90 minutes ago. The share count I used was the listing-date one. Every conclusion built on it is
   wrong, and correcting it exposes a 34.3pp error inside the ENGINE.**

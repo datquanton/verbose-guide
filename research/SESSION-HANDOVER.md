@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 10:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 11:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,42 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### ⚠⚠ 02-Aug 11:53 — THE `cap_now` DEFECT IS BOOK-WIDE. START HERE.
+
+Ran the cross-check the 10:53 section said had not been run. **`decide.py` line 67 sets
+`cap_now = pe_ttm × npat_ttm` for all eight names and divides every scenario by it.** Shares derived from
+charter capital at ₫10,000 par.
+
+| ticker | wt | `cap_now` err | mu_raw engine → true | delta | status |
+|---|--:|--:|---|--:|---|
+| **TCB** | 35.0% | **−0.3%** | +1.9% → +1.6% | −0.3pp | **correct** |
+| HPG | 16.8% | −7.6% | +15.1% → +6.4% | −8.8pp | material, no trigger |
+| **VPB** | 10.0% | −15.1% | +1.4% → **−13.9%** | **−15.3pp** | **⚠ TRIGGER 3** |
+| MBB | 6.5% | +17.9%? | +16.0% → +36.7%? | +20.7pp? | **direction NOT established** |
+| **TCX** | 5.5% | −27.9% | +23.1% → **−11.2%** | **−34.3pp** | **⚠ TRIGGER 3** |
+| VCI | 3.1% | −19.9%? | +10.7% → −11.3%? | −22.0pp? | **direction NOT established** |
+
+- **TCB is 35% of the book and is correct to 0.3%.** The largest position is unaffected. Say this first.
+- **VPB's is the clearest break:** implied 6,739.4m shares = charter **₫67,394bn, its ~2022 figure**, against
+  ₫79,339bn today. **Direction robust** — every 2026 action (26% dividend, 624m placement) only raises it.
+- **HPG's inputs predate the 767m-share issue that SETTLED in May 2026** (₫76,755bn → ₫84,430bn).
+- **MBB unresolved:** +17.9% off on the pre-dividend count, only +2.5% if the 15% executed. **If** the
+  larger reading holds it explains item 19 exactly — 16.0% × 0.55 = the recorded **+8.8%**; corrected
+  **+20.2%**. **Hypothesis only — do NOT use it to argue the MBB add until the ex-date is settled.**
+- **VCI unresolved:** −22.0pp if the ESOP+bonus completed, the other way if not.
+- **Not checked: KDH (20.3%), VPX (2.8%).**
+- **The errors do NOT share a direction**, so they do not cancel in the ranking.
+
+**Nothing retuned on any name** (§5 unresolved measure, §4 scope-lock). **Confidence deliberately not moved
+on any name** — it multiplies `mu_raw`, so moving four scalars would disguise a denominator fault as a
+conviction change. **Fix is one read per name: current shares outstanding, or TTM NPAT off the filed
+statements.** OPEN-DECISIONS item 25 widened.
+
+**No weight should move on the current ranking until `cap_now` is settled per name.**
+
+**Minor correction to the 10:53 section below:** it says `cap_now` is "38.7% below" TCX's true cap. It is
+**27.9% below**; the true cap is **38.7% above**. The mu_raw figures and the sign flip are unaffected.
 
 ### ⚠⚠ 02-Aug 10:53 — READ THIS BEFORE THE 09:53 SECTION BELOW, WHICH IS PARTLY WITHDRAWN
 
