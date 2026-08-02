@@ -74,6 +74,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **20:53 ICT · ⚠⚠ USER-DIRECTED — PROVISIONING IS FLATTERING REPORTED BANK PBT, AND IT IS MEASURABLE.
+  Plus the quarterly data refresh, which CLOSES the `cap_now` defect on all eight names.**
+  **The question was: "pay attention to provision for banks and LLR because they might be managing
+  earnings... what is deceptively shown in P&L". It is there, it is large, and it is quantified.**
+  **Method:** **PPOP = PBT + credit provisions.** PPOP is the *operating* line; PBT is the headline. **Where
+  PBT grows faster than PPOP, the difference is provisioning, not business.**
+
+  | | PBT H1/26 | growth | provisions | prov change | **PPOP growth** | prov/PPOP | **of which provisioning** |
+  |---|--:|--:|--:|--:|--:|--:|--:|
+  | **TCB** (35.0%) | ₫18,540bn | **+22.5%** | ₫1,587bn | **−24.6%** | **+16.7%** | 12.2% → **7.9%** | **5.8pp of 22.5pp** |
+  | **MBB** (6.5%) | ₫20,188bn | **+27.1%** | ₫7,701.9bn | **−0.9%** | **+17.9%** | 32.9% → **27.6%** | **9.2pp of 27.1pp** |
+
+  **⚠ And both forward indicators move the OTHER way.** **TCB: Group 2 (special-mention) loans +46% and the
+  corporate bond book +80%** — Group 2 is the pipeline into NPLs, and **provisions fell 24.6% while the
+  pipeline grew 46%.** **MBB: the NPL balance (group 3–5) rose 27% to ₫17,800bn while customer loans rose
+  13.2% — bad debt grew at TWICE the pace of the book, and provisions did not move.**
+  **Why the headline ratios do not show it — this is the deceptive part.** MBB's **NPL ratio is 1.45%**,
+  barely changed, and **coverage ROSE 92.24% → 93.63%**. Both read as reassuring. **But the NPL ratio has
+  loans in the denominator, and loans grew 13.2% — so a 27% rise in bad debt surfaces as a 3bp move in the
+  ratio.** **The ratio is flattered by growth** — which this file noted on 31-Jul and **never connected to
+  the provisioning line.** And coverage rising while the NPL balance rises 27% means **the reserve was
+  topped up while the P&L charge stayed flat**, which is only possible through recoveries, write-backs or
+  drawing on existing reserve — **none of which are repeatable revenue.**
+  **A method check that passed, worth recording.** Before finding MBB's reported provisioning line I
+  **derived** it from figures already on file: **TOI − opex − PBT = 37,865 − 9,974 − 20,188 = ₫7,703bn**
+  against a reported **₫7,701.9bn — agreement to 0.01%.** **So this analysis can be run on any bank whose
+  TOI, opex and PBT are on file, without waiting for a provisioning headline.**
+  **Sector context, not held:** **Vietcombank's Q2 PBT rose 57.9% with provisions down nearly 38%.** This is
+  not a one- or two-bank phenomenon; **it is how the sector's 2026 profit growth is being produced.**
+  **⚠ THE GAP, stated plainly: VPB (10.0%) grew PBT 68% and its provisioning line is NOT established.** That
+  is **the largest unexplained profit jump in the book** and the one name this analysis could not be run on.
+  **It is a reason to check VPB, not to assume it** — the 31-Jul lesson requires naming the mechanism before
+  inferring, and VPB has the book's largest consumer-finance provisioning swing through FE Credit. **The
+  check is cheap: TOI and opex off the filed H1 statement.**
+  **THE DATA REFRESH — `cap_now` is now correct on all eight, closing OPEN-DECISIONS item 25.** For every
+  name, `shares_outstanding` and `market_cap_bn` are now explicit fields; **`npat_ttm` is set from filed
+  statements** on a per-name basis recorded in `_npat_ttm_basis_2026_08_02`; and **`pe_ttm` is derived as
+  market cap ÷ `npat_ttm`, so `cap_now` = shares × price exactly for every name.**
+  **Bases are NOT uniform and that is stated rather than hidden.** **TTM (Jul-25→Jun-26) was computable for
+  HPG, TCB, VPB and MBB — 68.3% of the book.** For **KDH, TCX and VCI** the **FY2025 filed figure** is used
+  because H1/2025 could not be established; for **VPX** no FY2025 figure was found so `npat_ttm` is
+  **unchanged** and only `pe_ttm` corrected. **`cap_now` is right on all eight regardless**, because
+  `pe_ttm` is derived from it — but **`pe_ttm` is no longer comparable across names and must not be read as
+  one.** New TTM figures: **HPG ₫23,395bn · TCB ₫28,754bn · VPB ₫30,620bn · MBB ₫30,858bn.**
+  **⚠ THE RANKING HAS REORDERED, as the audit predicted.** Raw E[r] now: **MBB +36.6% · HPG +6.3% · TCB
+  +4.0% · KDH +3.5% · VPX −0.0% · VCI −11.3% · TCX −11.2% · VPB −13.9%.** **The engine's former top two, VPX
+  and TCX, now sit fifth and seventh.**
+  **Applied:** confidence **TCB 0.80 → 0.70**, **MBB 0.55 → 0.50** — *not* because the businesses got worse
+  but because **reported PBT is a lower-quality measure of earnings power than the file assumed, by a
+  quantified amount**, and confidence multiplies `fy26e_npat`, which is anchored to that reported profit.
+  **HPG 0.70 → 0.75** and **KDH 0.50 → 0.55** on filed Q2 actuals. **`fy26e_npat`, `exit_pe` and `probs`
+  untouched on every name** — re-deriving the bank branches onto a **PPOP basis** is human-only, **and it is
+  now the most valuable human task in this repo.**
+  **⚠ Prices remain the weak link and are unchanged.** Every market cap here uses the file's **undated**
+  prices, presumed 24-Jul and **demonstrated wrong for TCX by 4.85%**. **OPEN-DECISIONS item 2 is now the
+  single remaining input between this file and a trustworthy ranking.**
+  Sources: [TCB provisions −24.6% to ₫1,587bn; Group 2 +46%; bonds +80%](https://baomoi.com/techcombank-lai-18-540-ty-dong-no-nhom-2-tang-46-trai-phieu-doanh-nghiep-tang-80-c55740226.epi) ·
+  [MBB provisions −0.9% to ₫7,701.9bn](https://vietbao.vn/loi-nhuan-nua-dau-nam-cua-mb-vuot-20000-ty-dong-601382.html) ·
+  [27-bank H1/2026 profit table](https://cafef.vn/toan-canh-loi-nhuan-cua-27-ngan-hang-trong-6-thang-dau-nam-2026-cap-nhat-vietcombank-vietinbank-mb-shb-sacombank-188260730152540587.chn) ·
+  [HPG H1/2025 NPAT ₫7,600bn](https://tienphong.vn/6-thang-dau-nam-hoa-phat-dat-loi-nhuan-sau-thue-hon-7600-ty-dong-post1760795.tpo) ·
+  [HPG FY2025 ₫15,515bn](https://tuoitre.vn/hoa-phat-dat-15-515-ti-dong-loi-nhuan-sau-thue-mang-gia-dung-doanh-thu-gap-5-lan-2026013021001188.htm) ·
+  [KDH FY2025 ₫1,634bn](https://www.tinnhanhchungkhoan.vn/khang-dien-kdh-loi-nhuan-2025-vuot-63-ke-hoach-dat-hon-1633-ty-dong-mo-rong-tang-truong-trong-2026-post384618.html) ·
+  [TCBS FY2025 PBT ₫7,109bn](https://vietstock.vn/2026/01/tcbs-loi-nhuan-nam-2025-dat-ky-luc-hon-7100-ty-dong-737-1390730.htm) ·
+  [VCI FY2025 net ₫1,342bn](https://vietstock.vn/2026/01/vietcap-vuot-15-ke-hoach-loi-nhuan-2025-tang-dau-tu-vao-nhieu-ma-co-phieu-737-1392728.htm)
+  **Portfolio impact: 41.5% of the book (TCB + MBB) reports PBT growth that is 5.8pp and 9.2pp
+  provisioning-driven with both credit pipelines deteriorating; VPB's +68% is unexamined; and the engine's
+  ranking has reordered now that every market cap is correct.**
+
 - **19:53 ICT · MACRO (lane 1) — "accelerating" is WITHDRAWN. The file has been reading a cumulative
   average as a rate of change since 31-Jul, and CPI actually PEAKED IN MAY. A stale July article disarmed in
   the same sweep.**

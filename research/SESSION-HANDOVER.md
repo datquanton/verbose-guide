@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 19:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 20:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,47 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### ⚠⚠ 02-Aug 20:53 — USER-DIRECTED: provisioning is flattering bank PBT. And the data refresh closes item 25.
+
+**PPOP = PBT + credit provisions. PPOP is the operating line; PBT is the headline.**
+
+| | PBT H1/26 | growth | provisions | change | **PPOP growth** | **provisioning share of growth** |
+|---|--:|--:|--:|--:|--:|--:|
+| **TCB** (35.0%) | ₫18,540bn | +22.5% | ₫1,587bn | **−24.6%** | **+16.7%** | **5.8pp of 22.5pp** |
+| **MBB** (6.5%) | ₫20,188bn | +27.1% | ₫7,701.9bn | **−0.9%** | **+17.9%** | **9.2pp of 27.1pp** |
+
+- **Both pipelines move the other way.** TCB: **Group 2 loans +46%, corporate bonds +80%.** MBB: **NPL
+  balance +27% vs loans +13.2%** — bad debt grew at twice the pace of the book while provisions stayed flat.
+- **Why the ratios hide it:** MBB's NPL *ratio* is 1.45% and coverage *rose* to 93.63%. **Loans are the
+  ratio's denominator**, so a 27% rise in bad debt is a 3bp move. Coverage rising while the balance rises
+  means **the reserve was topped up without a matching P&L charge** — recoveries/write-backs, not
+  repeatable revenue.
+- **Method validated:** MBB provisions derived as TOI − opex − PBT = **7,703** vs reported **7,701.9**
+  (0.01%). **Runs on any bank whose income statement is on file.**
+- **Sector, not held:** Vietcombank Q2 PBT **+57.9%** with provisions **−38%**.
+- **⚠ THE GAP: VPB (10.0%) grew PBT 68% and its provisioning line is NOT established.** Largest unexplained
+  jump in the book. **Not inferred from peers** — that is the 31-Jul lesson. One search settles it.
+
+**DATA REFRESH — `cap_now` now correct on all eight; OPEN-DECISIONS item 25 CLOSED.** `shares_outstanding`
+and `market_cap_bn` are explicit fields; `npat_ttm` from filed statements with the basis recorded per name;
+`pe_ttm` = market cap ÷ `npat_ttm`, so `cap_now` = shares × price exactly. TTM computable for **HPG, TCB,
+VPB, MBB (68.3%)**; FY2025 used for KDH/TCX/VCI; **VPX `npat_ttm` unchanged**, `pe_ttm` corrected.
+**`pe_ttm` is no longer cross-name comparable.**
+
+**⚠ Ranking reordered:** raw E[r] **MBB +36.6 · HPG +6.3 · TCB +4.0 · KDH +3.5 · VPX −0.0 · VCI −11.3 ·
+TCX −11.2 · VPB −13.9.** The former top two (VPX, TCX) are now fifth and seventh.
+
+**Confidence:** TCB 0.80→**0.70**, MBB 0.55→**0.50** (reported PBT is lower-quality by a quantified amount),
+HPG 0.70→**0.75**, KDH 0.50→**0.55** (filed actuals). **`fy26e_npat`, `exit_pe`, `probs` untouched** —
+**re-deriving the bank branches onto a PPOP basis is now the most valuable human task in the repo.**
+
+**⚠ Prices are the last weak link: still undated, presumed 24-Jul, demonstrated wrong for TCX by 4.85%.
+Item 2 is the only input left between this file and a trustworthy ranking.**
+
+**Recurring job created:** `trig_013ufGFB2857Btru5wJjZyHL` — weekly Mondays 08:00 ICT (01:00 UTC), fires
+into this session. Checks new filings, runs the PPOP/LLR analysis as a standing step, refreshes
+`npat_ttm`/shares/`pe_ttm`, runs the engine, checks triggers, commits.
 
 ### 02-Aug 19:53 — "inflation accelerating" is WITHDRAWN; CPI peaked in MAY
 
