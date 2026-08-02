@@ -73,6 +73,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **07:53 ICT · PROCESS — the commit chain short-circuited on a bad check, in the opposite direction to
+  yesterday's failure.**
+  The verification step was `grep -c "no balance sheet at all"`, chained with `&&` before the commit. **The
+  log text reads "NO balance sheet at all" — capitalised inside emphasis — so the case-sensitive grep
+  returned 0, the chain short-circuited, and the commit never ran.** The writes were on disk and unpushed
+  until this entry.
+  **This is the mirror of the 14:53 failure on 01-Aug**, where an assertion fired correctly and the commit
+  ran anyway. **Both come from gating a commit on an ad-hoc check written in the same breath as the work.**
+  Yesterday the gate was too loose; today it was too tight and matched the wrong thing.
+  **The distinction that matters: a check on whether the *write succeeded* is not the same as a check on
+  whether the *content is right*.** `git status` answers the first and cannot be fooled by capitalisation;
+  a grep for a phrase I just typed answers neither reliably. **Verification now uses `git status` /
+  `git diff --stat` for "did it land", and keeps content checks separate from the commit gate.**
+
+- **07:53 ICT · HPG (lane 3) — the block had NO balance sheet at all, and there is an earnings inflection
+  sitting in it that the spread bridge cannot see.**
+  **Zero hits on debt, borrowings, capex, cash flow and inventory** in HPG's block. That is **16.8% of the
+  book with a proposed ADD +3.2pp**, mid-way through **Dung Quất 2** — one of the largest industrial capex
+  programmes in Vietnam. **Compare KDH, whose block carries borrowings, inventory, operating cash flow and
+  D/E. The developer got a balance sheet; the capex-heavy steelmaker did not.** And **the whole weekend
+  went into HPG's spread** — ore, coal, HRC, the bridge, the anchor — **which is a pure P&L exercise.**
+  **Now on file:** borrowings **>₫90,617bn at end-Q1/2026**; construction-in-progress up sharply to
+  **>₫10,328bn**; Q1 investing cash flow **−₫2,921bn.** One outlet frames it as Hoà Phát *"straining to
+  balance profit, cash flow and enormous debt pressure."*
+  **The structural finding is an accounting inflection.** Sources state that **once Dung Quất 2 reaches
+  full capacity, Hoà Phát no longer capitalises interest into construction-in-progress — so all interest
+  expense flows straight into the income statement.** **The spread bridge models ore, coal, HRC and a
+  conversion cost. It does not model interest at all.** So **a step-change in reported earnings can arrive
+  with the spread completely unchanged**, and nothing in this file would anticipate it.
+  **Scale, with the unknown named.** At ₫90,617bn a blended 5–7% implies **₫4,531–6,343bn** of annual
+  interest — **19–27% of the core base branch of ₫23,336bn.** **What share was being capitalised is unknown
+  and is not guessed**; the impact is the newly-expensed portion, not the whole. **The range shows the
+  order of magnitude of the line the model omits, not the size of the hit.**
+  **This is the KDH lesson's mirror.** At KDH a **one-off gain** masked a core collapse and made reported
+  profit look **better** than the business. At HPG a **capitalised cost becoming an expensed one** would
+  make reported profit look **worse** than the business. **Both are presentation effects the operating
+  model cannot see — and this file has already been caught by the first one.**
+  **Two traps handled.** **(1) Entity:** the same coverage gives *"total assets ₫5,239.3bn"* and
+  *"inventory +23.5% to ₫546.8bn"* — **the source itself labels these Công ty Phát triển Nông nghiệp Hoà
+  Phát, the agriculture subsidiary, not HPG.** HPG's total assets are two orders of magnitude larger. **Not
+  logged as HPG.** **(2) Vintage:** a separate item gives *"borrowings over ₫65,000bn with idle cash near
+  ₫35,000bn"* — **a different, older vintage than ₫90,617bn**, so **the two are not merged and no net debt
+  is computed across them.**
+  **Escalated, not modelled** — adding an interest line to the bridge is a rebuild and human-only under
+  charter §4.
+
 - **06:53 ICT · MARKET (lane 4) — the file's price date turns out to be a trough, not a random day. That
   sharpens `OPEN-DECISIONS` item 2 and gives the bias a reason rather than a direction.**
   **The week to 31-Jul gained nearly 3% and was the first up week after FOUR consecutive weekly declines.**
