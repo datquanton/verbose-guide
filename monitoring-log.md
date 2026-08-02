@@ -74,6 +74,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **02:53 ICT · ⚠ HPG (lanes 3, 5) — the spread bridge's missing interest line has been flagged twice
+  without a number. It now has one, and it is big. Debt is at a record. A stale profit figure rejected in
+  the same source.**
+  **HPG's financial debt reached a record ₫98,530bn at 30-Jun-2026, up 9% from end-2025**, driven mainly by
+  **short-term** borrowing for working capital. **Q1/2026 financial costs roughly DOUBLED to ~₫1,868bn, of
+  which interest expense was over ₫1,333bn — about ₫15bn per day** (1,333 ÷ 90 = 14.8, which checks).
+  **Sized against the thing the whole model turns on.** Q1 volume is **3.0m tonnes** (H1 6.5 − Q2 3.5), so
+  **interest runs at ~₫444,000 per tonne = ₫0.444m/t.**
+
+  | branch | core NPAT/tonne | interest as % of it |
+  |---|--:|--:|
+  | bear | ₫1.25m | **35.5%** |
+  | base | ₫1.60m | **27.8%** |
+  | bull | ₫1.85m | **24.0%** |
+
+  Annualised at the Q1 run-rate that is **₫5,332bn, or 24.2% of the ₫22,000bn FY profit target.**
+  **⚠ What this does and does not mean — the distinction matters.** **NPAT is struck AFTER interest**, so
+  interest is already *inside* the observed core NPAT/tonne. **This is not an arithmetic omission and the
+  model does not double-count.** **What it means is that the bridge has no line that RESPONDS to it.**
+  Volume and spread move across the three branches; **interest per tonne is held constant by construction.**
+  **With debt up 9% in six months and financial costs doubling year on year, holding it constant is an
+  assumption the evidence now contradicts — and it bites hardest in the bear branch, where it is over a
+  third of the whole figure.**
+  **It also compounds with the USD/VND finding.** The dong's central rate hit a record **₫25,338** on 1-Aug.
+  **If** any material share of this debt is USD-denominated, a depreciating dong raises the servicing cost
+  in domestic currency on top of the volume increase. **The currency mix of HPG's debt is NOT established
+  and is NOT assumed** — it is the next cheap check, one line off the filed balance sheet.
+  **⚠ A figure REJECTED in the same source, recorded so it is not re-adopted.** The summary carrying the
+  debt number also stated H1 after-tax profit of *"over ₫10,539bn, completing 67% of the annual plan."*
+  **That is not this year.** The file's **₫15,480bn is corroborated three ways**: it is **70.4%** of the
+  ₫22,000bn target as reported; **Q1 9,056 + Q2 6,424 = 15,480 exactly**; and 15,480 against H1/2025's
+  ₫7,600bn is **+104%**, matching the filed +103%. **₫10,539bn at 67% implies a plan near ₫15,730bn — a
+  2025-vintage plan** (FY2025 actual was ₫15,515bn). **The revenue figure in the same summary — ₫108,870bn,
+  +47% — IS the correct H1/2026 one**, so the source mixes a current revenue with a prior-year profit.
+  **Second time in two hours a summary has bundled a true current fact with a stale one.**
+  **Also surfaced and NOT logged as a finding, because it could not be dated:** a report that KDH was cited
+  for **violations in bond issuance and use of proceeds.** Zero hits in the repo, no date established, and
+  KDH's own AGM described it as **bond-debt free**. **Recorded here as an undated lead for the next sweep,
+  not as a development.**
+  **Nothing modelled** — branch construction is human-only. **Confidence not moved:** no input changed, and
+  this argues for **re-deriving** the branches rather than scaling them.
+  Sources: [record debt ₫98,530bn at 30-Jun, +9%](https://vnexpress.net/hoa-phat-vay-no-ky-luc-5103785.html) ·
+  [Q1 financial costs ₫1,868bn, interest >₫1,333bn](https://vnbusiness.vn/hoa-phat-gong-minh-can-bang-giua-loi-nhuan-dong-tien-va-ap-luc-no-vay-khong-lo.html)
+  **Portfolio impact: HPG is 16.8%. Interest is 24–36% of the core NPAT/tonne the entire bridge turns on,
+  debt is at a record and rising, and no branch varies with it.**
+
 - **01:53 ICT · VPB / MACRO (lanes 1, 3) — Moody's moved Vietnam AND six banks to a positive outlook in
   MAY, and this repo had no record of it. VPB is on the list; TCB and MBB are not. A large stale-article
   trap disarmed in the same sweep.**

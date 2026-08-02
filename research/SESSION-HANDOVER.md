@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 01:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 02:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,36 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 02:53 — HPG's missing interest line is now SIZED: 24–36% of the model's central metric
+
+**Record debt ₫98,530bn at 30-Jun-2026, +9% in six months**, mostly short-term working-capital borrowing.
+**Q1/2026 financial costs roughly doubled to ~₫1,868bn; interest expense >₫1,333bn — ~₫15bn/day.**
+
+| branch | core NPAT/tonne | interest (₫0.444m/t) as % |
+|---|--:|--:|
+| bear | ₫1.25m | **35.5%** |
+| base | ₫1.60m | **27.8%** |
+| bull | ₫1.85m | **24.0%** |
+
+Annualised: **₫5,332bn = 24.2% of the ₫22,000bn FY target.**
+
+- **This is NOT an arithmetic omission.** NPAT is struck after interest, so it sits inside the observed core
+  NPAT/tonne. **The defect is that no branch RESPONDS to it** — volume and spread vary, interest per tonne
+  is constant by construction, while debt rose 9% and financial costs doubled. **Worst in the bear branch.**
+- **Compounds with USD/VND at a record ₫25,338** *if* material USD debt — **currency mix not established**,
+  and it is one line off the balance sheet. **Next cheap check.**
+- **New OPEN-DECISIONS item 28.** Branch construction is human-only.
+
+**⚠ Figure rejected from the same source:** it also claimed H1 profit *"₫10,539bn, 67% of plan"*. **The
+file's ₫15,480bn is corroborated three ways** — 70.4% of the ₫22,000bn target, 9,056 + 6,424 = 15,480
+exactly, and +104% on H1/2025's ₫7,600bn matching the filed +103%. **₫10,539bn at 67% implies a ~₫15,730bn
+plan — 2025 vintage.** The revenue figure in the same summary (₫108,870bn, +47%) **is** correct for H1/2026.
+**Second bundled true-plus-stale summary in two hours.**
+
+**Undated lead, NOT a finding:** a report that **KDH was cited for violations in bond issuance and use of
+proceeds** — zero hits in the repo, no date established, and KDH's AGM described it as bond-debt free.
+**For the next sweep to date.**
 
 ### 03-Aug 01:53 — Moody's separated our three banks in MAY and the file never knew
 
