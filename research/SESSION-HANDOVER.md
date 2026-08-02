@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 03:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 04:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,32 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 04:53 — HPG's interest step is STRUCTURAL and geared against the bear branch
+
+**The cause is now known: after Dung Quất 2 reached full capacity, HPG no longer capitalises borrowing
+costs into construction-in-progress — it expenses them.** While DQ2 was building, that interest never
+touched the P&L. **A permanent, one-direction change**, still working through (Q1 interest **2× Q1-2024**
+and **+14% on Q4-2025**).
+
+**Debt was flat in Q1 and jumped in Q2:** ~₫90,394bn end-2025 → **₫90,600bn** end-Mar (+₫206bn, **69%
+short-term**) → **₫98,530bn** end-Jun (**+₫7,930bn, +8.8%**). Recent and short-dated.
+
+| branch | FY volume | interest/tonne | % of core NPAT/tonne |
+|---|--:|--:|--:|
+| **bear** | 13.5m t | **₫0.421m** | **33.7%** of ₫1.25m |
+| base | 14.5m t | ₫0.392m | 24.5% of ₫1.60m |
+| bull | 15.5m t | ₫0.367m | 19.8% of ₫1.85m |
+
+- **⚠ Interest per tonne is inversely geared to volume, so the bear branch is hit twice** — low volume, and
+  the high per-tonne burden that low volume creates. 02:53 showed no branch *responds* to interest; this
+  shows the direction it would respond in is **adverse to the downside**.
+- **Stated fairly:** the burden **falls** as DQ2 ramps (₫0.421m → ₫0.367m) — **that is the point of the
+  investment.** Operating leverage in both directions, **and the model shows neither.**
+- **Currency mix STILL not established** after two searches. Bounded only: Q1 financial costs ₫1,868bn less
+  interest ₫1,333bn = **₫535bn of non-interest financial cost — an upper bound on any FX loss, not a
+  measurement.** Remains the next cheap check.
+- **Item 28 sharpened. Nothing modelled; confidence not moved.**
 
 ### 03-Aug 03:53 — KDH: a documented Layer-4 governance finding, but time-barred
 

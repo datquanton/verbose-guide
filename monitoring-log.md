@@ -74,6 +74,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **04:53 ICT · ⚠ HPG (lanes 3, 5) — the currency check did NOT answer its question, and returned the
+  mechanism behind the interest step instead. It is STRUCTURAL, not cyclical, and it is geared AGAINST the
+  bear branch.**
+  **The mechanism.** **After Dung Quất 2 reached full capacity, Hòa Phát no longer capitalises borrowing
+  costs into construction-in-progress as it did before.** While DQ2 was being built, interest on the debt
+  funding it was **capitalised into the asset and never touched the income statement.** **Now it is
+  expensed.** That is why Q1/2026 interest is **double the same period of 2024 and 14% above Q4/2025.**
+  **This is a permanent, one-direction change in the P&L — not a cyclical swing — and the 14%
+  quarter-on-quarter step says it is still working through.**
+  **The debt path, and almost all of it is Q2:**
+
+  | date | borrowings + finance leases | change |
+  |---|--:|--:|
+  | end-2025 (implied, +9% YTD) | ~₫90,394bn | — |
+  | end-Mar 2026 | **₫90,600bn** | +₫206bn (flat) |
+  | end-Jun 2026 | **₫98,530bn** | **+₫7,930bn (+8.8%)** |
+
+  **~69% of the end-March debt is short-term (~₫62,800bn).** The borrowing is recent and short-dated.
+  **⚠ And here is what changes how the bridge should be read: interest per tonne is INVERSELY GEARED to
+  volume, so it punishes the bear branch specifically.** At a full-year run-rate near **₫5,682bn** (Q1
+  actual plus three quarters at the debt-adjusted Q2 rate of ~₫1,450bn):
+
+  | branch | FY volume | interest/tonne | as % of core NPAT/tonne |
+  |---|--:|--:|--:|
+  | bear | 13.5m t | **₫0.421m** | **33.7%** of ₫1.25m |
+  | base | 14.5m t | ₫0.392m | 24.5% of ₫1.60m |
+  | bull | 15.5m t | ₫0.367m | 19.8% of ₫1.85m |
+
+  **The bear case is hit twice — low volume, and because of that same low volume, the highest interest
+  burden per tonne.** The 02:53 entry established that **no branch responds to interest**; this establishes
+  that **the direction it would respond in is adverse to the downside** — the branch a risk model exists to
+  get right.
+  **Stated fairly, the other side:** interest per tonne **falls** as DQ2 volume ramps — ₫0.421m → ₫0.367m
+  across the branches — **which is precisely the point of the investment.** This is not a story about a
+  broken balance sheet; **it is operating leverage working in both directions, and the model currently shows
+  neither.**
+  **The currency question is still OPEN and is not guessed.** Two searches failed to establish the currency
+  mix. **What is bounded:** Q1 financial costs of ₫1,868bn less interest of ₫1,333bn leaves **₫535bn of
+  non-interest financial cost.** For a company importing iron ore and coking coal in USD against a
+  record-high dong, **FX is the obvious candidate — and it is only a candidate. ₫535bn is an upper bound on
+  any FX loss in the quarter, not a measurement of one.** Still the next cheap check, still one line off the
+  filed statement.
+  **Nothing modelled** — branch construction is human-only. **Confidence not moved:** this **sharpens
+  OPEN-DECISIONS item 28** rather than changing an input.
+  Sources: [interest ₫1,333bn, ~₫15bn/day, 2× Q1-2024, +14% QoQ; debt ₫90,600bn at end-Mar, ₫62,800bn short-term; DQ2 capitalisation ceased](https://vnbusiness.vn/hoa-phat-gong-minh-can-bang-giua-loi-nhuan-dong-tien-va-ap-luc-no-vay-khong-lo.html)
+  **Portfolio impact: HPG is 16.8%. The interest step is structural and still rising, and its per-tonne
+  burden is worst exactly where the model is most exposed — the bear branch.**
+
 - **03:53 ICT · ⚠ KDH (lanes 3, 5) — the undated lead from 02:53 is now DATED. A Government Inspectorate
   conclusion found bond-proceeds misuse and inaccurate offering documents at the second-largest position.
   No penalty: time-barred.**
