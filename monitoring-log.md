@@ -74,6 +74,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **06:53 ICT · ⚠ TCB (lanes 3, 5) — OPEN-DECISIONS item 17b, "the highest-value single line in the repo",
+  is PARTLY ANSWERED — and the answer entered this file yesterday from a different article. Fourth instance
+  of a quantity recoverable from what was already held.**
+  **Item 17b asks for one line:** *"the corporate bond / investment securities balance at 30-Jun-2026 vs
+  31-Dec-2025"*, blocked behind a proxy 403 on Techcombank's PDF. **The 02-Aug provisioning work recorded,
+  from coverage of TCB's H1 results: Group 2 loans +46% and the corporate bond book +80%.** **The +80% IS
+  the change item 17b asks for.** Nobody connected them for a day, and **item 17b still read as blocked and
+  unanswered.**
+  **Fourth instance of the same species** — a quantity recoverable from figures already held, not recovered
+  because no routine interrogates the file itself. After **`cap_now`** (`pe_ttm × npat_ttm`), **KDH's
+  0.056%/1.838% share count**, and **MBB's provisions as TOI − opex − PBT**.
+  **⚠ What it settles, and it settles it emphatically.** The **28-Jul** note concluded the corporate bond
+  book **must have SHRUNK** — *"every plausible starting point implies a large decline"*, quantified at 57%,
+  32% or 18% depending on the base. The **01-Aug** note withdrew that as an inverted measure assignment.
+  **The +80% does not merely confirm the withdrawal — it reverses both the sign and the magnitude: a large
+  decline was inferred; a large increase is reported.**
+  **What it means for the question 17b was written to test** — *"whether TCB's property de-risking was a
+  removal or a relocation."* **TCB cut real-estate exposure by ₫39–40,000bn (on file) while its corporate
+  bond book grew 80%. That pattern is consistent with RELOCATION. It does not establish it.** **"Corporate
+  bonds" is not "property bonds", and the composition of the bond book is NOT established.** Completing the
+  story here would be **the exact near-miss of 01-Aug**, where an arithmetically seductive Masterise reading
+  was contradicted by the source itself. **No link to Masterise is drawn.**
+  **What is still missing, precisely:** **(a) the base period** — +80% against 31-Dec-2025 or against
+  H1/2025 is not stated, and item 17b specifically asks for the year-end comparison; **(b) the absolute
+  balance in dong.**
+  **⚠ A reconstruction route exists and is blocked by a basis mismatch — recorded rather than executed.** In
+  principle the starting balance solves out of credit growth, loan growth and the +80%. **It cannot be done
+  validly here:** the **14.3% credit figure is STANDALONE** and explicitly includes quota-exempt
+  infrastructure and social-housing lending, while the **₫835,813bn loan balance is CONSOLIDATED.** Solving
+  across those two produces a number with **no defined meaning.** **Per the 01-Aug lesson — when a quantity
+  cannot be validly sized, say so and stop rather than demonstrate the arithmetic — no figure is produced.**
+  **What would unblock it is small and specific: credit growth and loan growth on the SAME basis, or the
+  bond balance itself. That is what item 17b should now ask for.**
+  **Nothing modelled; no confidence moved** — the direction was already withdrawn on 01-Aug and this
+  sharpens rather than changes it.
+  **Held to the 05:53 stopping rule: no VNDiamond searches this sweep. Market opens 09:00.**
+  Sources: [TCB H1 — Group 2 loans +46%, corporate bonds +80%](https://baomoi.com/techcombank-lai-18-540-ty-dong-no-nhom-2-tang-46-trai-phieu-doanh-nghiep-tang-80-c55740226.epi)
+  **Portfolio impact: TCB is 35%. The repo's self-declared highest-value open line is half-answered and the
+  answer points at relocation rather than removal — but the bond book's composition is unknown, so the
+  Masterise question stays open.**
+
 - **05:53 ICT · ⚠ KDH / INDEX (lane 4) — two corrections to inputs used to size forced-selling risk, and a
   STOPPING RULE: the August outcome is a fifth failure and the search route is now abandoned.**
   **Correction 1 — the tracking pool is SIX ETFs, not four.** This file has said *"the four"* **five times**,

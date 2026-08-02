@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 05:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 06:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,30 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 06:53 — item 17b, "the highest-value single line in the repo", is PARTLY ANSWERED
+
+**The answer entered the file yesterday, from a different article.** Item 17b asks for TCB's corporate bond
+balance at 30-Jun-2026, marked blocked behind a proxy 403. The 02-Aug provisioning sweep logged **"corporate
+bond book +80%"** alongside Group 2 loans +46%. **That is the change 17b asks for**, and nothing connected
+them for a day.
+
+- **It reverses the 28-Jul inference in sign AND magnitude.** That note said the bond book *"must have
+  shrunk… every plausible starting point implies a large decline"* (57%/32%/18%). It **grew 80%.** The
+  01-Aug withdrawal is now emphatically confirmed.
+- **On removal-vs-relocation:** TCB cut real-estate exposure ₫39–40,000bn while the bond book grew 80% —
+  **consistent with RELOCATION, but it does not establish it.** **"Corporate bonds" ≠ "property bonds" and
+  the composition is NOT established. No Masterise link drawn** — that is the 01-Aug near-miss exactly.
+- **Still missing:** (a) the **base period** (+80% vs 31-Dec-2025 or vs H1/2025 — 17b wants the year-end);
+  (b) the **absolute balance**.
+- **⚠ Reconstruction refused, deliberately.** The balance solves in principle from credit growth, loan
+  growth and the +80% — but **14.3% credit is STANDALONE (incl. quota-exempt infra/social housing) while
+  ₫835,813bn loans is CONSOLIDATED.** Solving across them yields a number with **no defined meaning**, so
+  **none was produced** (01-Aug lesson). **Revised ask: both rates on the same basis, or the balance itself.**
+- **Fourth instance** of a quantity recoverable from what the file already held — after `cap_now`, KDH's
+  percentage pair, MBB's provisions.
+
+**Held to the 05:53 stopping rule: no VNDiamond searches. Market opens 09:00.**
 
 ### 03-Aug 05:53 — VNDiamond: two corrections, and the search route is ABANDONED
 
