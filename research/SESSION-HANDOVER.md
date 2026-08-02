@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 04:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 05:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,23 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 05:53 — VNDiamond: two corrections, and the search route is ABANDONED
+
+- **The tracking pool is SIX ETFs, not four.** The file names four (FUEVFVND ₫12,070bn, MAFM ₫345bn, KIM
+  ₫71bn, VFCVN unknown) and says *"the four"* five times. **BVFVN Diamond and ABF VNDiamond were never on
+  file.** `found_total` ₫12,486bn is a **floor, not a total**. **Proportion: FUEVFVND is 96.7% of it, so the
+  ~₫72bn KDH forced-flow estimate barely moves — the defect is the completeness claim, not the magnitude.**
+- **Constituent count unresolved.** File says **19**; a Q2/2026 source says **18** (9 banks + 9 non-banks,
+  no additions) — **but that document is a PREDICTION report and the language is forward-looking, so 18 may
+  be a forecast.** Both recorded, neither adopted.
+- **⚠ STOPPING RULE: the fifth failed attempt on whether the August review removed KDH.** All five returned
+  Q2/2026 material. The 01-Aug entry recorded this as a negative result *"so the next sweep does not re-run
+  it"* — **and it was re-run three times since.** **The search route is abandoned.**
+- **It resolves TODAY by observation:** changes are effective today, market opens **09:00 ICT**, and **KDH's
+  own volume and price action plus the ETFs' published holdings will answer it.** **No further searches
+  before 09:00.** **Trigger 5 remains live on 20.3% of the book** — this is a budget discipline, not a
+  judgment that the question stopped mattering.
 
 ### ⚠ 03-Aug 04:53 — HPG's interest step is STRUCTURAL and geared against the bear branch
 

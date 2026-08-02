@@ -74,6 +74,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **05:53 ICT · ⚠ KDH / INDEX (lane 4) — two corrections to inputs used to size forced-selling risk, and a
+  STOPPING RULE: the August outcome is a fifth failure and the search route is now abandoned.**
+  **Correction 1 — the tracking pool is SIX ETFs, not four.** This file has said *"the four"* **five times**,
+  and `vndiamond_etf_aum_bn` names exactly four: FUEVFVND ₫12,070bn, MAFM ₫345bn, KIM ₫71bn, VFCVN unknown,
+  `found_total` ₫12,486bn. **The actual set is six:** DCVFMVN Diamond (=FUEVFVND), MAFM VNDiamond, **BVFVN
+  Diamond**, KIM Growth Diamond, **ABF VNDiamond**, VFCVN Diamond. **BVFVN and ABF were never on file at
+  all.** So **`found_total` is a FLOOR, not a total**, and "the four" asserted a completeness the file did
+  not have.
+  **Proportion, so this is not inflated:** FUEVFVND is ₫12,070bn of the ₫12,486bn found — **96.7%** — so the
+  two missing vehicles are probably small, and **the ~₫72bn KDH forced-flow estimate logged 01-Aug is
+  unlikely to move much. The defect is the completeness claim, not the magnitude.** Three of the six now
+  have unknown AUM.
+  **Correction 2, with its basis flagged — the constituent count.** `vndiamond_rules` carries **19**. A
+  source on the Q2/2026 review states the basket *"will comprise **18** constituents, 9 banks and 9
+  non-banks"*, with **no new additions**. **But the language is forward-looking and the document is a
+  PREDICTION report** (SSI's *"Dự báo thay đổi danh mục"*), **so 18 may be a forecast rather than the
+  outcome. Which of 18 or 19 is the actual post-Q2 count is NOT established.** Both recorded, neither
+  adopted. It does corroborate the already-filed fact that **KDH went onto the waiting list** at that
+  review.
+  **⚠ AND THE STOPPING RULE, which matters more than either correction.** **This is the FIFTH failed attempt
+  to establish whether the August review removed KDH.** Attempts on 01-Aug (×2), 02-Aug and twice more now
+  have all returned **Q2/2026 material instead.** **The 01-Aug entry already recorded this as a negative
+  result *"so the next sweep does not re-run it" — and it has been re-run three times since.***
+  **The search route is exhausted and is abandoned.**
+  **The question resolves TODAY by observation, not by search.** The changes are **effective today** and the
+  market opens at **09:00 ICT**. **KDH's own trading — volume and price action — and the ETFs' published
+  holdings will answer it directly.** **No further searches on this question before 09:00.** That is a
+  discipline about not spending budget on a route that has failed five times, **not a judgment that the
+  question stopped mattering: trigger 5 remains live on 20.3% of the book.**
+  **Nothing modelled; no confidence moved.**
+  Sources: [Q2/2026 review — 18 constituents forecast, no additions, KDH to waiting list](https://ftp2.ssi.com.vn/Customers/GDDT/Analyst_Report/Ban%20tin%20ETF/Ban%20tin%20ETF%20-%20Du%20bao%20thay%20doi%20danh%20muc%20chi%20so%20VNDiamond_%20Q2%202026.pdf) ·
+  [six ETFs tracking VNDiamond](https://finance.vietstock.vn/FUEVFVND-quy-etf-dcvfmvn-diamond.htm)
+  **Portfolio impact: the forced-selling pool was understated by two vehicles (probably small); the
+  constituent count is unresolved; and the August outcome will be answered by the tape in three hours, not
+  by another search.**
+
 - **04:53 ICT · ⚠ HPG (lanes 3, 5) — the currency check did NOT answer its question, and returned the
   mechanism behind the interest step instead. It is STRUCTURAL, not cyclical, and it is geared AGAINST the
   bear branch.**
