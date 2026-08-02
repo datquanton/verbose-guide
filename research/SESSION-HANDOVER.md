@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 11:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 12:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,43 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### ⚠⚠ 02-Aug 12:53 — `cap_now` AUDIT COMPLETE (7 of 8). THREE NAMES FIRE. START HERE.
+
+| ticker | wt | `cap_now` err | delta | status |
+|---|--:|--:|--:|---|
+| **TCB** | 35.0% | −0.3% | −0.3pp | **correct** |
+| **KDH** | 20.3% | −10.8% | **−12.6pp** | **⚠ TRIGGER 3** (likely reading) |
+| HPG | 16.8% | −7.6% | −8.8pp | material, below threshold |
+| **VPB** | 10.0% | −15.1% | **−15.3pp** | **⚠ TRIGGER 3** |
+| MBB | 6.5% | +17.9%? | +20.7pp? | direction **not** established |
+| **TCX** | 5.5% | −27.9% | **−34.3pp** | **⚠ TRIGGER 3** |
+| VCI | 3.1% | −19.9%? | −22.0pp? | direction **not** established |
+| **VPX** | 2.8% | — | — | **NOT CHECKED — not claimed clean** |
+
+**Three fire, 35.8% of the book. With HPG, names with a measured error are 52.6%. TCB (35%) is clean.**
+
+- **KDH** (new this hour): confirmed floor **1,011.1m** shares — already above the implied 1,000.5m — and
+  likely **1,122.1m** after the 111m 2025 issue (101m dividend + 9.96m ESOP, Q3–Q4 2025 window), which
+  matches an independently reported 1.12bn outstanding. **Fires on the likely reading; recorded as NOT
+  established beyond doubt — one completion notice settles it.** A source typo was in the way: ₫9,904bn is
+  a transposition of **₫9,094bn** (9,094 + 1,017 = 10,111 exactly).
+- **VPB**: 26% issuance is ~2.07bn shares to ₫100,000bn, **first tranche in implementation May 2026**. The
+  implied 6,739.4m = charter **₫67,394bn, a ~2022 figure** — stale on any reading.
+- **MBB / VCI** turn on whether a corporate action executed and whether the price is adjusted. **Neither
+  assumed.** MBB's larger reading would explain item 19 exactly (16.0% × 0.55 = the recorded +8.8%;
+  corrected +20.2%) — **hypothesis only, not usable to argue the MBB add.**
+
+**The directions do NOT agree** — four understate market cap, MBB probably overstates, TCB is right — so
+**correcting them REORDERS the ranking rather than shifting it uniformly.**
+
+**Nothing retuned; no confidence moved on any name.** Confidence multiplies `mu_raw` and would disguise a
+denominator fault as a conviction change. **Fix is one read per name: current shares outstanding, or TTM
+NPAT off the filed statements. NO WEIGHT SHOULD MOVE ON THE CURRENT RANKING.**
+
+**Also corrected:** the 08:53 KDH foreign-gap figure was **~₫282bn** computed off `cap_now`; on the
+corrected cap it is **~₫323bn**. Conclusion unchanged. First demonstrated case of this fault propagating
+out of the engine into narrative.
 
 ### ⚠⚠ 02-Aug 11:53 — THE `cap_now` DEFECT IS BOOK-WIDE. START HERE.
 

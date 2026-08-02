@@ -73,6 +73,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **12:53 ICT · ⚠⚠ ESCALATION — TRIGGER 3 on KDH, the 20.3% position. The `cap_now` audit is now complete
+  on SEVEN of eight names. THREE fire, and they are 35.8% of the book.**
+  **KDH was one of the two names 11:53 left unchecked. It fires.** `cap_now` = 19.2 × 938 = **₫18,010bn**,
+  implying **1,000.5m shares** at the file's ₫18,000. **The real count is higher on every reading.**
+  **Resolved partly by arithmetic, including a source typo.** One source says the Nov-2024 issuance took
+  charter capital *"from ₫9,904bn to over ₫10,111bn, a rise of 2%"* — **self-contradictory**: 90.9m dividend
+  shares + 10.8m ESOP is ₫1,017bn of par value, **+10.3%, not +2%**, and 9,904 + 1,017 = **10,921**, not
+  10,111. **But 9,094 + 1,017 = 10,111 exactly**, so the pre-issuance figure is **₫9,094bn (909.4m shares)**
+  and "9,904" is a **digit transposition**. That also explains the *"over 909 million shares"* figure
+  circulating beside a 1.12bn one — **it is the pre-dividend count.**
+  **Confirmed floor: 1,011.1m shares** (charter ₫10,111bn, Nov-2024) — **already above the file's implied
+  1,000.5m.** **Likely current: 1,122.1m.** KDH planned **111m shares for 2025** (101m stock dividend +
+  9.96m ESOP at ₫14,000), scheduled **Q3–Q4 2025**; 1,011.1m + 111m = **1,122.1m**, and a separate source
+  reports **1.12bn outstanding "after the 2025 dividend/ESOP"**. **Two independent routes agree.**
+
+  | reading | shares | true cap | `cap_now` err | mu_raw | delta |
+  |---|--:|--:|--:|---|--:|
+  | confirmed floor (Nov-2024) | 1,011.1m | ₫18,200bn | −1.0% | +16.1% → +14.9% | −1.2pp — fires nothing |
+  | **likely (+2025 issue)** | **1,122.1m** | **₫20,197bn** | **−10.8%** | **+16.1% → +3.5%** | **−12.6pp ⚠** |
+
+  **Stated with its weakness:** the 111m issuance is evidenced as a **plan with a Q3–Q4 2025 window, not a
+  completion notice**, and this file has been burned before treating planned as executed. **What lifts it
+  above a guess** is that the plan's arithmetic lands **exactly** on an independently reported outstanding
+  count, and the window closed **eight months ago**. **The trigger is recorded as firing on the likely
+  reading, not as established beyond doubt — one completion notice settles it.**
+  **THE COMPLETED AUDIT, seven of eight:**
+
+  | ticker | wt | `cap_now` err | delta | status |
+  |---|--:|--:|--:|---|
+  | **TCB** | 35.0% | −0.3% | −0.3pp | **correct** |
+  | **KDH** | 20.3% | −10.8% | **−12.6pp** | **⚠ TRIGGER 3** (likely reading) |
+  | HPG | 16.8% | −7.6% | −8.8pp | material, below threshold |
+  | **VPB** | 10.0% | −15.1% | **−15.3pp** | **⚠ TRIGGER 3** |
+  | MBB | 6.5% | +17.9%? | +20.7pp? | direction **not** established |
+  | **TCX** | 5.5% | −27.9% | **−34.3pp** | **⚠ TRIGGER 3** |
+  | VCI | 3.1% | −19.9%? | −22.0pp? | direction **not** established |
+  | **VPX** | 2.8% | — | — | **NOT CHECKED — not claimed clean** |
+
+  **Three names fire and they are 35.8% of the book. Add HPG and the names with a measured `cap_now` error
+  are 52.6%.** **The 35% position is clean** and that remains the most useful line in this whole audit.
+  **VPB confirmed further this sweep:** the 26% issuance is **~2.07bn shares** taking charter capital to
+  **₫100,000bn**, and the **first tranche was in implementation in May 2026** — so the count has moved, and
+  the file's implied 6,739.4m (charter ₫67,394bn, a **~2022** figure) is stale on any reading.
+  **The directions still do not agree** — four names understate market cap, MBB probably overstates it, TCB
+  is right. **Correcting them does not shift the ranking uniformly; it REORDERS it.**
+  **Nothing retuned anywhere and no confidence moved on any name**, for the reason given at 11:53:
+  confidence multiplies `mu_raw`, so moving scalars would disguise a denominator fault as a conviction
+  change. **No weight should move on the current ranking.**
+  Sources: [KDH Nov-2024 issuance, ₫10,111bn](https://dff.vn/khang-dien-kdh-sap-phat-hanh-100-trieu-co-phieu-tra-co-tuc-va-esop-nang-von-vuot-10000-ty-dong-p20240928160713360.html) ·
+  [KDH 111m shares planned 2025](https://stockbiz.vn/tin-tuc/kdh-nha-khang-dien-len-ke-hoach-phat-hanh-111-trieu-co-phieu-trong-nam-2025/31660605) ·
+  [VPB ~2.07bn shares to ₫100,000bn](https://www.vietnamplus.vn/vpbank-phat-hanh-hon-2-ty-co-phieu-cho-co-dong-tang-von-dieu-le-100000-ty-dong-post1112109.vnp) ·
+  [VPB first tranche in implementation, May-2026](https://vietstock.vn/2026/05/vpbank-trien-khai-phuong-an-tang-von-dieu-le-dot-1-len-100000-ty-764-1445368.htm)
+  **Portfolio impact: three names firing trigger 3 at 35.8% of the book, one unchecked. The engine's
+  ordering rests on denominators wrong by −27.9% to +17.9% depending on the name.**
+
+- **12:53 ICT · CORRECTION to the 08:53 KDH entry — a figure sized against `cap_now`.**
+  The 08:53 entry sized KDH's VNDiamond requalification gap as *"roughly 1.6 percentage points of shares, or
+  about **₫282bn** of net foreign buying"* — computed **against the ₫18,010bn `cap_now` market cap**. On the
+  likely true cap of ₫20,197bn it is **~₫323bn**. **The conclusion it supported is unchanged** — the gap is
+  small and could reverse — **but the number was stated precisely, so it is restated.** Noted because it is
+  the first demonstrated case of the `cap_now` fault **propagating out of the engine into a narrative
+  figure**, which is the reason to correct these rather than leave them.
+
 - **11:53 ICT · ⚠⚠ ESCALATION — TRIGGER 3 on TWO MORE NAMES. Ran the check the 10:53 entry said had not
   been run. The `cap_now` defect is BOOK-WIDE, it should have been run a week ago — and the errors do NOT
   share a direction, so they do not cancel in the ranking.**
