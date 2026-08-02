@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 21:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 22:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,30 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 22:53 — the same lens on the brokers: VPX's kill criterion is UNEVALUABLE
+
+**For a bank the discretionary line is the credit charge; for a broker it is FVTPL.** VPX's armed criterion:
+*"FVTPL marks > 50% of PBT for a third consecutive quarter."*
+
+| quarter | FVTPL gross | PBT | ratio |
+|---|--:|--:|--:|
+| Q1/2026 | ₫1,822bn | ₫514bn | **354%** |
+| Q2/2026 | ₫1,639bn | ₫2,159bn | **76%** |
+
+- **Two consecutive quarters above the test on a GROSS reading** — the criterion needs three, so **it has
+  not fired**; Q4/2025 (not on file) decides whether Q3 could be the third.
+- **⚠ But gross and net give OPPOSITE answers.** The file's existing *"Q2 absorbed a ₫923bn FVTPL loss, prop
+  netted >₫700bn"* reconciles exactly: **₫1,639bn gross − ₫923bn = ₫716bn net.** On gross Q2 is **76%** and
+  the chain continues; **on net it is 33% and the chain breaks.** **The criterion does not say which.**
+- **Second undefined armed criterion today**, after TCB's *"a Masterise bond event"*. **New OPEN-DECISIONS
+  item 27.** A criterion that cannot be evaluated is not a safeguard.
+- **Franchise point, sharper than the file had it: Q2 brokerage revenue was ₫126bn of ₫4,098bn — 3.1%.**
+  Margin lending and FVTPL are the business. Bond book now >₫18,000bn.
+- **Period trap disarmed by division:** the source put ₫1,904bn "27% of revenue" in a Q2 list; ₫1,904bn is
+  46.5% of Q2 revenue — it is an **H1** figure. Not used.
+
+**Confidence not moved (0.55): the finding is a test that cannot be evaluated, not a resolved fact.**
 
 ### 02-Aug 21:53 — VPB's provisioning gap is CLOSED, and it breaks the peer pattern both ways
 

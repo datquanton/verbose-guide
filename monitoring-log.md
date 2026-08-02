@@ -74,6 +74,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **22:53 ICT · ⚠ VPX (lanes 3, 6) — took the earnings-quality lens to the brokers, where the bank
+  provisioning question leads. VPX's ARMED KILL CRITERION gives OPPOSITE answers on two defensible readings,
+  and the criterion does not say which one it means.**
+  **For a bank the discretionary line is the credit charge. For a broker it is FVTPL** — gains marked on
+  financial assets held at fair value, which flow into profit **whether or not anything was sold.** VPX
+  carries an armed kill criterion on exactly this: *"FVTPL marks > 50% of PBT for a **third** consecutive
+  quarter."*
+  **The quarterly sequence, reconstructed.** Q2/2026 is filed: **PBT ₫2,159bn (4× YoY)** and **FVTPL gross
+  gains ₫1,639bn (2.7× YoY)** — the largest single line in total operating revenue of **₫4,098bn**. H1 PBT
+  is ₫2,673bn on H1 FVTPL of ₫3,461bn, so **by subtraction Q1/2026 was PBT ₫514bn on FVTPL gains of
+  ₫1,822bn.**
+
+  | quarter | FVTPL gross | PBT | ratio | vs 50% test |
+  |---|--:|--:|--:|---|
+  | Q1/2026 | ₫1,822bn | ₫514bn | **354%** | above |
+  | Q2/2026 | ₫1,639bn | ₫2,159bn | **76%** | above |
+  | H1/2026 | ₫3,461bn | ₫2,673bn | **129%** | — |
+
+  **That is two consecutive quarters above the test on a GROSS reading — the criterion needs three, so it
+  has NOT fired**, and whether Q3 would be the third depends on **Q4/2025, which is not on file.**
+  **⚠ But the test is ambiguous and the two readings disagree — that is the real finding.** This file
+  already carried *"Q2 absorbed a ₫923bn FVTPL loss and prop still netted >₫700bn."* **That reconciles and
+  explains it: ₫1,639bn gross gain − ₫923bn loss = ₫716bn net**, which is the ">₫700bn" already on record.
+  **So there are two defensible measures of "FVTPL marks":**
+  **on GROSS gains Q2 is 76% of PBT and the chain of consecutive quarters CONTINUES; on NET it is 33% and
+  the chain BREAKS at Q2.** **The criterion does not say which.**
+  **This is the second armed criterion found today whose subject is undefined**, after TCB's *"a Masterise
+  bond event"* where the boundary of the Masterise group is not crisp. **Both are definitional problems in
+  live tests, not data problems**, and both are human-only to fix. **A kill criterion that cannot be
+  evaluated is not a safeguard. Nothing is declared fired.**
+  **And the franchise point is now sharper than the file had it.** **Q2 brokerage revenue was ₫126bn of
+  ₫4,098bn — 3.1% of revenue.** The dossier already said VPX is *"NOT primarily a broker"*; **the number is
+  starker than the phrasing.** Margin lending and FVTPL are the business; broking is a rounding error. The
+  bond book is now put at **over ₫18,000bn**, consistent with the ~₫18tn already carried.
+  **A period trap inside the source, disarmed.** The same summary gives *"margin lending brought ₫1,904bn,
+  ~3× YoY, 27% of total revenue."* **Against Q2 revenue of ₫4,098bn, ₫1,904bn would be 46.5%, not 27%** —
+  internally inconsistent as a quarter. **They reconcile as H1**: ₫1,904bn is 27% of an H1 revenue near
+  ₫7,000bn. **So ₫1,904bn is an H1 figure sitting in a list of Q2 figures**, and it was not used; the Q2
+  lending-interest line of ₫1,024bn is the quarterly one.
+  **Confidence not moved (0.55).** The earnings-quality picture is far better evidenced, but what it reveals
+  is **a test that cannot be evaluated** rather than a resolved fact about the business. **Nothing
+  modelled.**
+  Sources: [Q2 PBT ₫2,159bn, 4× YoY](https://www.tinnhanhchungkhoan.vn/vpbanks-vpx-dat-loi-nhuan-truoc-thue-2159-ty-dong-trong-quy-ii2026-gap-4-lan-cung-ky-post394217.html) ·
+  [Q2 FVTPL ₫1,639bn, revenue ₫4,098bn, >₫18,000bn into bonds](https://mekongasean.vn/vpbanks-bao-lai-quy-2-tang-manh-rot-hon-18000-ty-dong-vao-trai-phieu-57489.html)
+  **Portfolio impact: VPX is 2.8%. Its kill criterion cannot currently be evaluated — two readings, opposite
+  answers — and 3.1% of its revenue is broking. Second undefined criterion found today.**
+
 - **21:53 ICT · ⚠ VPB (lane 3) — the standing open check is ANSWERED, and VPB breaks the peer pattern in
   BOTH directions at once. Refusing to infer it from TCB and MBB was correct.**
   **At 20:53 this was recorded as *"the largest unexplained profit jump in the book and the one name this
