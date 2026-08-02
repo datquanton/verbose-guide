@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 00:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 01:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,31 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 01:53 — Moody's separated our three banks in MAY and the file never knew
+
+**04-May-2026:** Vietnam's sovereign outlook **Stable → Positive**, Ba2 affirmed. **05-May-2026:** six banks
+raised to positive outlook — **Vietcombank, BIDV, Agribank, VietinBank, ACB and VPBank.**
+
+- **⚠ VPB is on the list. TCB and MBB are not.** The file has treated the three as a bloc on funding and
+  rating questions; a rating agency has separated them.
+- **Absence is NOT a verdict.** Whether TCB/MBB were assessed and left unchanged, rated by Moody's at all,
+  or outside the action's scope is **not established and not assumed** — the same discipline that held on
+  VPB's provisioning, where a strong three-name pattern would have predicted the wrong sign.
+- **Specific connection:** the upgrade is framed as an advantage in accessing **international capital
+  markets**, and **VPB has a live 624m-share foreign placement** (lane 3's "$250m placement"). **VPB carries
+  an armed criterion: *"placement prices badly — executed >15% below market."*** This is evidence bearing on
+  an armed criterion.
+- **Tension to keep visible:** VPB is **last on corrected E[r] (−13.9% raw)** *and* the only one of our
+  banks with a positive outlook *and* has the strongest operating line (**PPOP +44.6%**). All three at once.
+
+**⚠ Large trap disarmed:** an article had the VN-Index at *"a record high of 1,929 in early Friday trade"*.
+**Friday's close was 1,735.78, and the file's own `vnindex_q2_peak` is 1,927** — the "record" is the Q2 peak,
+the article is from early May. The index is **~10% below it, down four straight weeks.** Caught by a stored
+value, not a search. Also stale in the same piece: a UOB FX forecast treating Q1/2026 as future. The Fed
+line matched `fed_funds_target` exactly.
+
+**Confidence not moved — context, not a model input. July PMI and CPI still not out.**
 
 ### 03-Aug 00:53 — KDH's share count is CORROBORATED; the proof was already in the file
 

@@ -74,6 +74,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **01:53 ICT · VPB / MACRO (lanes 1, 3) — Moody's moved Vietnam AND six banks to a positive outlook in
+  MAY, and this repo had no record of it. VPB is on the list; TCB and MBB are not. A large stale-article
+  trap disarmed in the same sweep.**
+  **Zero hits for "Moody", "Ba2" or "credit outlook" anywhere in this repo before now.**
+  **What happened.** **04-May-2026:** Moody's affirmed Vietnam's sovereign rating at **Ba2** and raised the
+  outlook **Stable → Positive**, citing institutional and governance improvement from the reform programme
+  running since late 2024. **05-May-2026:** it raised the outlook on **six Vietnamese banks** to positive —
+  **Vietcombank, BIDV, Agribank, VietinBank, ACB and VPBank.**
+  **⚠ VPB is on the list. TCB and MBB are not.** The file has treated the three banks as a bloc on funding
+  and rating questions, and **a rating agency has separated them.**
+  **Stated as what it is, and no more: being absent from a list of six is NOT the same as being reviewed and
+  declined.** Whether TCB and MBB were assessed and left unchanged, rated by Moody's at all, or simply
+  outside that action's scope **is not established and is not assumed.** Reading an exclusion as a verdict
+  would be exactly the inference this file refused on VPB's provisioning eight hours ago.
+  **Why it is more than trivia, and the connection is specific.** Coverage frames the upgrade as an
+  advantage in **accessing international capital markets** — and **VPB has a live foreign capital raise**:
+  the **624m-share placement to a foreign investor** approved at the April AGM, carried in lane 3 as the
+  "$250m foreign placement", taking charter capital toward ₫106,243bn. **A positive sovereign and issuer
+  outlook three months before a foreign placement bears directly on its pricing**, and **VPB carries an
+  armed kill criterion reading *"placement prices badly — foreign placement executed >15% below market."***
+  **This is evidence bearing on an armed criterion**, which is why it is logged rather than noted.
+  **It also sits against the current ranking.** VPB is **last on corrected expected return at −13.9% raw.**
+  Nothing here changes that arithmetic — the ranking is a function of market cap and the branches — but the
+  file should not carry *"worst-ranked"* and *"the only one of our banks with a positive rating outlook, and
+  the strongest operating line at PPOP +44.6%"* without **both being visible.**
+  **⚠ AND THE TRAP, which was a large one.** The summary that surfaced this read: *"Vietnam's stocks
+  extended gains to **a record high of 1,929** in early Friday trade, with sentiment buoyed by Moody's
+  upgrade."* **Friday was 31-Jul and the VN-Index closed 1,735.78.** **The file's own `vnindex_q2_peak` is
+  1,927 — so 1,929 IS the Q2 peak, not a current level**, and the article dates from early May when Moody's
+  acted and the index was near it. **The index is ~10% below that peak and has fallen four consecutive
+  weeks.**
+  **Had it been logged it would have put the market at an all-time high in a file that correctly records it
+  as below its 50-week average and falling** — a sign error on the most-quoted number in the market.
+  **What caught it was the file's own stored value, not a second search:** 1,929 against a stored
+  `vnindex_q2_peak` of 1,927 is a **0.1% match**, and **a "record high" that equals a figure already on file
+  as a PAST PEAK is a period flag by construction.**
+  **Second stale market article disarmed in three days, and both arrived bundled with true facts** — the
+  Moody's upgrade here is real, it is simply three months old. **Also stale in the same summary:** a UOB
+  forecast of *"₫26,400 in Q4, ₫26,300 in Q1/2026"*, which treats Q1/2026 as the future and is therefore
+  from 2025. **The Fed line (3.5–3.75%) matched `fed_funds_target` exactly and was already on file.**
+  **Confidence not moved.** Context, not a model input — no earnings figure, price or multiple changes.
+  **Nothing modelled.** **July PMI and CPI still not out.**
+  Sources: [sovereign outlook → Positive, Ba2 affirmed, 04-May](https://www.tinnhanhchungkhoan.vn/moodys-nang-trien-vong-cua-viet-nam-len-tich-cuc-va-khang-dinh-xep-hang-tin-nhiem-ba2-post389884.html) ·
+  [six banks incl. VPBank, 05-May](https://vietstock.vn/2026/05/moodys-nang-trien-vong-6-ngan-hang-viet-khang-dinh-vi-the-don-bay-hut-von-ngoai-757-1441313.htm)
+  **Portfolio impact: VPB is 10% and is the only one of our three banks with a positive Moody's outlook,
+  three months ahead of a foreign placement that has its own armed kill criterion. TCB (35%) and MBB (6.5%)
+  are not on the list — and why is not established.**
+
 - **00:53 ICT · KDH (lanes 3, 7) — the share count is now CORROBORATED, and the proof was already in this
   file. No search was needed. Nothing else material; July PMI and CPI are not out.**
   **Date verified against the clock, not carried over** — it is 00:53 on Monday 3 August, so this opens a
