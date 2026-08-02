@@ -74,6 +74,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **17:53 ICT · TCB + TCX (lane 5) — took the HNX route OPEN-DECISIONS item 18 named and never used. It
+  works, and what it returns changes the SHAPE of the Masterise risk rather than its size: the exposure runs
+  through the BROKER as well as the bank, and this file has only ever considered the bank.**
+  **⚠ PERIOD FLAG FIRST, because it decides how this may be used.** The supporting article references **SDI
+  Corp's 2022 payment report and 2022 financial statements**, so **it is a 2022–23 era story and NOT news.**
+  **Logged as STRUCTURE, not as a development. Nothing here says anything has happened recently.**
+  **The structural finding.** **Seven enterprises connected to the Sài Gòn Bình An project raised ₫32,905bn
+  of bonds in under a year, and CTCP Chứng khoán Kỹ Thương — TCBS, which is TCX — was the DEPOSITARY
+  (*tổ chức lưu ký*) for all of them.**
+  **Why it matters anyway.** TCB's kill criterion reads *"developer/related-party NPL formation > 2.0%, **or
+  a Masterise bond event**"*. **This file has treated that as a TCB-only exposure — a bank lending
+  question.** **If TCBS is depositary and registrar for the paper, a Masterise bond event touches TCX too**
+  — through fee income, reputation, distribution liability and potentially inventory. **TCB is 35% and TCX
+  is 5.5%: 40.5% of the book in one cluster.** **OPEN-DECISIONS item 7 already asks whether
+  `corr_same_cluster` at 0.80 understates a parent/subsidiary pair — this is a SECOND, INDEPENDENT channel
+  linking those two names, and it argues the same way.** Nothing retuned: the correlation parameter is
+  optimizer config and human-only.
+  **The disclosure gap, also period-flagged.** Of the seven issuers, **only SDI Corp had published payment
+  and financial reports**; the others had published **no business results, no principal/interest payment
+  status, no use-of-proceeds reports.** **Osaka Garden had SETTLED lot OSGCB2122001 and the related
+  information still was not on HNX.** **As of that article's date, which is not 2026.** Whether these
+  issuers report now is **not established**, and that is the check.
+  **What IS current, and separate.**
+  **(1)** Masterise-related issuance in **H1/2026 was ₫44,500bn across SIX enterprises and EIGHT lots** per
+  HNX, at **9–10%** for **12–60 months**, mostly collateralised, with **"a securities company"** as
+  registrar and depositary. **⚠ The source does NOT name the securities company.** Given TCBS's documented
+  role on the earlier tranche it is a natural inference that it is TCBS — **and it is ONLY an inference,
+  explicitly not established, and must not be written up as fact.** **Identifying it is the highest-value
+  cheap check now open on TCB.**
+  **(2) Term arithmetic that cuts against alarm:** 12–60 month terms on H1/2026 issuance mature **H1/2027 to
+  H1/2031**, so **the ₫44,500bn does not contribute to any 2026 maturity wall.**
+  **(3)** VIS Rating puts **~₫60,000bn of real-estate bonds maturing in H2/2026 — close to HALF of all
+  corporate bond maturities in the market.** **That is the environment in which a "Masterise bond event"
+  would occur, and it was not on file.**
+  **Nothing modelled.** This is **Layer 4** — `run.py`'s own footer says governance and related-party
+  questions are not in these numbers — and no model input changed, so **confidence is not moved on TCB or
+  TCX.**
+  Sources: [7 issuers, ₫32,905bn, TCBS as depositary; only SDI reported](https://www.dnse.com.vn/senses/tin-tuc/nhom-dn-tung-huy-dong-33000-ty-vao-du-an-cu-cua-masterise-em-bao-cao-ve-trai-phieu-33333051) ·
+  [H1/2026: 6 enterprises, 8 lots, ₫44,500bn, 9–10%, 12–60m](https://vietstock.vn/2026/07/nhom-doanh-nghiep-lien-quan-masterise-hut-445-ngan-ty-dong-trai-phieu-trong-nua-dau-nam-3118-1465836.htm) ·
+  [~₫60,000bn RE bonds maturing H2/2026, VIS Rating](https://nhipsongkinhdoanh.vn/ha-noi-dua-ra-thoi-han-cuoi-cho-300-du-an-treo-31231.htm)
+  **Portfolio impact: a "Masterise bond event" is a kill-criterion trigger on TCB (35%) and, on this
+  structure, plausibly reaches TCX (5.5%) as well — 40.5% of the book in one cluster. Nothing has happened;
+  the shape of the exposure was mis-drawn.**
+
 - **16:53 ICT · HPG (lanes 2, 5) — ran the check named at 15:53. It did NOT answer the 3% question, and it
   produced something worth more: the causal chain behind the August cut, end to end and dated. The same EU
   measure hits HPG TWICE and this file had only one side of it.**

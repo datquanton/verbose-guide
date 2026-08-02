@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 16:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 17:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,33 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 17:53 — the Masterise exposure runs through the BROKER too, not just the bank
+
+**⚠ Period flag first: this is STRUCTURE, not news.** The supporting article cites **2022** reports — a
+2022–23 era story. **Nothing has happened recently.**
+
+**Seven enterprises on the Sài Gòn Bình An project raised ₫32,905bn of bonds, and TCBS — which is TCX —
+was the DEPOSITARY for all of them.**
+
+- TCB's kill criterion is *"developer/related-party NPL formation > 2.0%, **or a Masterise bond event**"*.
+  The file has treated that as **TCB-only, a bank lending question**. On this structure **a Masterise bond
+  event plausibly reaches TCX too** — fee income, reputation, distribution liability, possibly inventory.
+  **TCB 35% + TCX 5.5% = 40.5% of the book in one cluster.** Added as a **second independent ground** to
+  OPEN-DECISIONS item 7 (`corr_same_cluster` at 0.80).
+- **Disclosure gap, same period caveat:** of the seven, only SDI Corp had published payment and financial
+  reports; the rest published nothing, and Osaka Garden had settled lot OSGCB2122001 with the information
+  still absent from HNX. **Whether they report now is NOT established — that is the check.**
+- **Current and separate:** H1/2026 Masterise-linked issuance was **₫44,500bn across 6 enterprises / 8
+  lots**, 9–10%, 12–60 months, mostly collateralised, with **"a securities company"** as registrar —
+  **the source does NOT name it.** That it is TCBS is a **natural inference and explicitly NOT
+  established**; identifying it is **the highest-value cheap check now open on TCB**.
+- **Term arithmetic cuts against alarm:** 12–60 months from H1/2026 matures **H1/2027–H1/2031**, so the
+  ₫44,500bn contributes **nothing** to a 2026 maturity wall.
+- **New context:** VIS Rating puts **~₫60,000bn of RE bonds maturing in H2/2026 — nearly half of all
+  corporate maturities.** That is the environment a "Masterise bond event" would occur in.
+
+**Layer 4, nothing modelled, no confidence moved, no numeric driver changed.**
 
 ### 02-Aug 16:53 — the causal chain behind HPG's August cut, and it is a DOUBLE hit
 
