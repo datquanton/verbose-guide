@@ -74,6 +74,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **16:53 ICT · HPG (lanes 2, 5) — ran the check named at 15:53. It did NOT answer the 3% question, and it
+  produced something worth more: the causal chain behind the August cut, end to end and dated. The same EU
+  measure hits HPG TWICE and this file had only one side of it.**
+  **The chain.** **The EU brought in a new steel trade-protection mechanism on 01-JUL-2026 that cut India's
+  HRC quota to the EU by ~34%.** Indian material was redirected, and **Vietnam is the LARGEST destination
+  for Indian HRC in H1/2026.** Indian and Indonesian HRC prices into Vietnam have fallen continuously as a
+  result, and **domestic producers cut prices to compete.** That is HPG's August cut, explained from the
+  **supply** side.
+  **⚠ The same EU measure hits HPG twice.** The 31-Jul note recorded HPG's own stated reasons for the cut as
+  weak rainy-season demand, **a reduced EU export quota for Vietnamese steel**, and slower Brazilian buying
+  — all demand-side or export-side. **The second edge is that the same EU regime diverts INDIAN supply into
+  Vietnam's domestic market.** Vietnamese coverage calls it a *"sóng gió kép"* — **a double storm** — and
+  that is accurate: **the EU simultaneously shrinks HPG's export outlet and enlarges its domestic
+  competition.**
+  **The price correspondence is close enough to be the same event.** **Indonesian HRC SAE1006 ~US$543/t
+  against ~US$576/t in early June 2026 — a fall of ~US$33/t in about two months. HPG cut its August offer by
+  ~US$34/t.** Against HPG's own numbers (US$546.5 list, US$535 volume) and the bridge's US$539 spot, the
+  whole cluster sits within ~US$11/t. **HPG's volume price of US$535 is BELOW the Indonesian quote of
+  US$543** — it is pricing at or under imported material, not above it.
+  **⚠ A measure trap, flagged because it would have been easy to walk into.** *"Vietnam is the largest
+  DESTINATION for Indian HRC"* is a statement about **Vietnam's share of India's exports.** The de minimis
+  test that terminated the India case is **India's share of Vietnam's imports** — below 3%. **Those are
+  different ratios with different denominators and one does not imply the other.** India could be largest by
+  destination and still be a modest share of Vietnamese imports. **So the 3% question is STILL unanswered
+  and the 15:53 forward item stands.** What this *does* establish is that Indian volume into Vietnam is
+  substantial, rising, and driven by **a dated structural cause rather than a spot arbitrage.**
+  **The other half of the picture looks contradictory and is not.** Separate coverage says the Vietnamese
+  HRC market is recovering, imports declining and protection working, with **Chinese HRC imports possibly
+  falling from ~6m tonnes in 2025 to under 2m tonnes in 2026**, and HRC consumption **+25%**. **Both are
+  true and they describe different things: the duties displaced Chinese VOLUME, and Indian plus Indonesian
+  material replaced it at a LOWER PRICE.** Origin mix improved; price level did not. **A reader taking
+  either story alone would get the spread wrong in opposite directions.**
+  **Also found: Decision 460/QĐ-BCT (21-Feb-2025)** — the **provisional** Chinese HRC duty of 19.38–27.83%,
+  the predecessor 1959/QĐ-BCT made official. Fourth MoIT instrument logged in two hours, on a lane that had
+  none this morning.
+  **⚠ This strengthens OPEN-DECISIONS item 6 materially, which is the practical consequence.** Item 6 asks
+  whether to add a **`spot_persists`** branch to HPG. The standing objection is that spot is a moment.
+  **Now there is a dated, structural, third-country cause — an EU quota regime effective 01-Jul-2026 — that
+  gives a reason for spot to PERSIST rather than mean-revert.** That argument did not exist before.
+  **Branch creation and weighting are human-only, so nothing is added here.**
+  **Nothing modelled; no confidence moved.** No model input changed — the bridge's HRC input is HPG's own
+  offer, which embeds all of this by construction.
+  Sources: [EU cut India's quota ~34% from 01-Jul-2026; Vietnam largest destination](https://danviet.vn/thep-hrc-noi-dia-lao-doc-de-canh-tranh-hang-gia-re-tu-an-do-indonesia-d1442900.html) ·
+  [H1/2026 imports 7.73m t; India + Indonesia pressure](https://vneconomy.vn/san-xuat-va-tieu-thu-thep-tang-truong-hai-con-so-xuat-khau-doi-mat-voi-rao-can-thuong-mai.htm) ·
+  [Chinese HRC 6m t → possibly <2m t; consumption +25%](https://vn.investing.com/news/commodities-news/tieu-thu-hrc-tang-25-thep-noi-dia-huong-loi-tu-thue-chong-ban-pha-gia-2634617) ·
+  [double storm on Vietnamese HRC production](https://trungtamwto.vn/an-pham/27027-san-xuat-thep-can-nong-hrc-viet-nam-lao-dao-truoc-song-gio-kep)
+  **Portfolio impact: HPG is 16.8%. The spread pressure now has a dated structural cause with no expiry on
+  file, and it is the strongest argument yet for the `spot_persists` branch a human has not added.**
+
 - **15:53 ICT · HPG (lanes 2, 5) — ran the MoIT back-sweep created one hour ago. It found three more
   instruments, and one of them EXPLAINS the 14:53 finding rather than adding to it. The open import channel
   is INDIA'S, and this file has been carrying evidence of it for a week without the explanation.**

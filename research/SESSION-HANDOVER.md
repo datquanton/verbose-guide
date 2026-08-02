@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 15:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 16:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,33 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 16:53 — the causal chain behind HPG's August cut, and it is a DOUBLE hit
+
+**The EU's new steel mechanism, effective 01-JUL-2026, cut India's HRC quota to the EU by ~34%.** Indian
+material was redirected and **Vietnam is the LARGEST destination for Indian HRC in H1/2026.** Indian and
+Indonesian prices into Vietnam fell continuously; domestic producers cut to compete. **That is HPG's August
+cut, from the supply side.**
+
+- **⚠ The same EU measure hits HPG twice.** The file had HPG's own stated reasons — weak rainy-season
+  demand, **a reduced EU export quota for Vietnamese steel**, slower Brazilian buying. **The second edge is
+  that the same regime diverts Indian supply INTO Vietnam.** Coverage calls it a *"double storm"*: the EU
+  shrinks HPG's export outlet **and** enlarges its domestic competition.
+- **Price correspondence:** Indonesian HRC ~US$543/t vs ~US$576/t in early June — **−US$33/t in two
+  months; HPG cut US$34/t.** HPG's US$535 volume price is **below** the Indonesian quote.
+- **⚠ Measure trap flagged, question still OPEN:** "Vietnam is India's largest destination" is *Vietnam's
+  share of India's exports*; the de minimis test is *India's share of Vietnam's imports*. **Different
+  denominators — the 3% question is NOT answered.**
+- **Two "contradictory" stories are both true:** duties displaced Chinese **volume** (imports possibly
+  6m t 2025 → under 2m t 2026, consumption +25%); India and Indonesia replaced it at a lower **price**.
+  Origin mix improved, price level did not.
+- **Also logged: Decision 460/QĐ-BCT (21-Feb-2025)**, the provisional Chinese HRC duty 19.38–27.83%.
+
+**⚠ This materially strengthens OPEN-DECISIONS item 6** (`spot_persists` branch for HPG). The standing
+objection is that spot is a moment; **now there is a dated structural third-country cause with no expiry on
+file.** Branch creation and weighting are human-only — nothing added.
+
+**Nothing modelled, no confidence moved, no numeric driver changed.**
 
 ### 02-Aug 15:53 — the MoIT back-sweep ran once and explained yesterday's puzzle: the open channel is INDIA
 
