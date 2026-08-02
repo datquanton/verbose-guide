@@ -74,6 +74,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **18:53 ICT · TCB + TCX (lane 5) — ran the check the 17:53 entry called "the highest-value cheap check
+  now open on TCB". It RESOLVED, from TCBS's own domain, and it moves the Masterise link from a 2022–23
+  structure to a CURRENT one.**
+  **At 17:53 I wrote** that TCBS being the unnamed registrar on the H1/2026 issuance was *"a natural
+  inference, explicitly NOT established, and must not be written up as fact."* **It is now established for
+  at least one lot, from a primary source: `tcbs.com.vn` publishes a bondholder record-date notice for bond
+  IHP32602.** That is the registrar itself administering the holder register — **not press.**
+  **Scoped precisely, because the temptation is to over-extend it.** This establishes TCBS as depositary for
+  **IHP32602 specifically — ₫5,000bn, issued 30-Jun-2026.** **It does NOT establish that TCBS is registrar
+  for all ₫44,500bn of H1/2026 Masterise-linked issuance.** What it *does* do is move the relationship from
+  a 2022–23 historical structure to a **current, 2026 one** — which is exactly what yesterday's period flag
+  said was missing. **The structure is live, not historical.**
+  **The issuer, and it is not a reassuring profile.** Công ty TNHH **Hưng Phát Invest Hà Nội** has three
+  lots totalling **₫16,950bn**:
+
+  | lot | size | issued | term | matures | coupon |
+  |---|--:|---|--:|---|--:|
+  | IHP12501 | ₫7,650bn | 14-Oct-2025 | 18m | **~Apr-2027** | — |
+  | IHP12601 | ₫4,300bn | 30-Jun-2026 | 60m | 30-Jun-2031 | **10.6%** |
+  | IHP32602 | ₫5,000bn | 30-Jun-2026 | 12m | **30-Jun-2027** | **10.0%** |
+
+  **Accumulated losses of ₫208bn.** Coupons of **10.0–10.6%** against system deposit rates near 5–6%.
+  **⚠ A refinement to my own 17:53 statement, which was true but misleadingly smooth.** I wrote that 12–60
+  month terms *"mature H1/2027 to H1/2031, so the ₫44,500bn does not contribute to any 2026 maturity wall."*
+  **The 2026 part stands.** But the phrasing implied an even spread, and on this issuer it is anything but:
+  **₫12,650bn of ₫16,950bn — 75% of the issuer's book — falls in H1/2027.** **The wall is not 2026; it is
+  concentrated in one half-year, eight months out.**
+  **⚠ An entity check that bears on whether the kill criterion can even fire.** Hưng Phát Invest is
+  described as betting on **Grand Marina Saigon** — a Masterise project — **and on Cần Giờ**, the 880ha
+  project associated with Phạm Nhật Vượng and Vingroup; **the ₫9,300bn was raised to take transfer of part
+  of the latter.** **So "Masterise-related group" is a loose label covering an entity with cross-group
+  exposure.** TCB's kill criterion says *"a Masterise bond event"* and **the boundary of "Masterise" is not
+  crisp** — a **definitional** problem in an armed criterion on a 35% position, not a data problem. Flagged,
+  not resolved; criterion wording is human-only.
+  **Evidence status changed but no model input did**, so **no trigger is claimed mechanically and no
+  confidence is moved** on TCB or TCX. Still **Layer 4**. Recorded because a human reading that kill
+  criterion should know **the registrar link is current and the criterion's subject is undefined.**
+  Sources: [TCBS bondholder record-date notice for IHP32602](https://www.tcbs.com.vn/tin-tuc/thong-bao-tu-tcbs/tcbs-thong-bao-chot-danh-sach-nguoi-so-huu-trai-phieu-ihp32602/) ·
+  [lot terms, coupons, maturities](https://cafef.vn/mot-doanh-nghiep-bat-dong-san-huy-dong-9300-ty-dong-trai-phieu-voi-lai-suat-2-con-so-188260708072917534.chn) ·
+  [₫16,950bn total, ₫208bn accumulated losses, Grand Marina + Cần Giờ](https://vietstock.vn/2026/07/no-trai-phieu-tang-len-gan-17-ngan-ty-hung-phat-invest-ha-noi-dat-cuoc-vao-grand-marina-saigon-va-can-gio-3118-1463331.htm)
+  **Portfolio impact: the TCB/TCX Masterise link is CURRENT, not historical; 75% of this issuer's ₫16,950bn
+  matures in H1/2027; and the kill criterion on a 35% position names a group whose boundary is undefined.**
+
 - **17:53 ICT · TCB + TCX (lane 5) — took the HNX route OPEN-DECISIONS item 18 named and never used. It
   works, and what it returns changes the SHAPE of the Masterise risk rather than its size: the exposure runs
   through the BROKER as well as the bank, and this file has only ever considered the bank.**

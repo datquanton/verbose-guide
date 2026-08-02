@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 17:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 18:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,28 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 18:53 — the TCB/TCX Masterise link is CURRENT, established from TCBS's own website
+
+**`tcbs.com.vn` publishes a bondholder record-date notice for bond IHP32602.** The 17:53 entry recorded
+TCBS-as-registrar as an inference *"explicitly NOT established"*; it is now **primary-source established
+for that lot** — ₫5,000bn, issued 30-Jun-2026.
+
+- **Scoped:** this covers **IHP32602 specifically**, **not** all ₫44,500bn of H1/2026 issuance. What it
+  changes is that **the structure is live, not a 2022–23 relic** — the gap the 17:53 period flag named.
+- **The issuer, Hưng Phát Invest Hà Nội**, has three lots totalling **₫16,950bn** with **accumulated losses
+  of ₫208bn** and coupons of **10.0–10.6%** against system deposit rates near 5–6%.
+- **⚠ Refinement to my own 17:53 statement.** I said 12–60 month terms mature "H1/2027 to H1/2031, so the
+  ₫44,500bn does not contribute to any 2026 maturity wall". **The 2026 part stands**, but it implied an even
+  spread: **₫12,650bn of ₫16,950bn — 75% — falls in H1/2027** (an 18-month lot from Oct-2025 maturing
+  ~Apr-2027, and a 12-month lot maturing Jun-2027). **A range is not a distribution.**
+- **⚠ Entity boundary problem in an armed criterion.** Hưng Phát Invest bets on **Grand Marina Saigon**
+  (Masterise) **and Cần Giờ** (Vingroup/Phạm Nhật Vượng) — the ₫9,300bn was raised to take transfer of part
+  of the latter. **"Masterise-related" is a loose label**, and TCB's kill criterion names *"a Masterise bond
+  event"* on a **35%** position. **Definitional, not data — criterion wording is human-only.**
+
+**Evidence status changed; no model input did.** No trigger claimed mechanically, no confidence moved.
+Layer 4.
 
 ### 02-Aug 17:53 — the Masterise exposure runs through the BROKER too, not just the bank
 
