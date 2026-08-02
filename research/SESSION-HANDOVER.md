@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 22:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 23:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,34 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### 02-Aug 23:53 — earnings-quality sweep COMPLETE across the book; TCX is the counter-example
+
+**TCX Q2/2026: revenue +41%, costs +78.6%, PBT +21%, margin 65.2% → 56.0%.** Profit grew at **half** the
+rate of revenue. Where the banks' reported profit outran their operating line, **TCX's lags its own top
+line — nothing is flattered here.**
+
+- **⚠ But: TCBS arranged ~₫61,000bn of bonds in Q2, +138%** (~₫59,000bn non-bank corporate, **48% share,
+  #1 in Vietnam**) **while that segment's net income rose just 7% to ₫964bn.** Volume +138% → income +7%.
+  Fee compression, low-margin volume, or undisclosed offsets — **not established, not guessed.** A
+  growth-quality problem, not an accounting one.
+- **It joins the 18:53 Masterise finding:** TCBS is registrar for Masterise-linked paper, H1 issuance
+  ₫44,500bn. **The Masterise exposure sits inside the ₫964bn segment growing at 7%** — the part of TCX most
+  connected to the property-bond complex is its weakest-growing line. **Share of arranged volume that is
+  Masterise-linked: not established.**
+
+**BOOK-WIDE PICTURE NOW COMPLETE:**
+
+| name | earnings-quality read |
+|---|---|
+| TCB / MBB / VPB | flattered by falling provisioning intensity — **5.8 / 9.2 / 23.4pp** of growth |
+| VPX | FVTPL test **unevaluable** (gross vs net give opposite answers) |
+| VCI | profit **−26% QoQ** behind a +36% YoY headline; OCF negative, prop book −₫430bn |
+| **TCX** | **profit lags revenue — understated, not flattered** |
+| KDH / HPG | one-off gains already documented (deconsolidation; Q1 divestment) |
+
+**Confidence not moved (0.75).** Favourable on accounting, unfavourable on operating leverage — they
+offset. TCX's live issue remains the multiple and the undated price.
 
 ### 02-Aug 22:53 — the same lens on the brokers: VPX's kill criterion is UNEVALUABLE
 

@@ -74,6 +74,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-02
 
+- **23:53 ICT · TCX (lanes 3, 5) — completes the earnings-quality sweep across the whole book, and TCX is
+  the COUNTER-EXAMPLE. Its profit grew at half the rate of its revenue.**
+  **This matters because of what came before it.** After provisioning flattery at TCB, MBB and VPB and an
+  unevaluable FVTPL test at VPX, **the risk is concluding every name is managing earnings. TCX is not — it
+  is the opposite.**
+
+  | TCX Q2/2026 | prior | now | change |
+  |---|--:|--:|--:|
+  | revenue | ₫2,656bn | **₫3,745bn** | **+41.0%** |
+  | costs | ₫923bn | **₫1,648bn** | **+78.6%** |
+  | PBT | ₫1,733bn | **₫2,097bn** | **+21.0%** |
+  | PBT margin | 65.2% | **56.0%** | **−9.3pp** |
+
+  **Costs nearly doubled and profit grew at half the rate of revenue.** Where the banks' reported profit
+  outran their operating line, **TCX's lags its own top line.** Nothing is being flattered here; if
+  anything the reported number **understates** the franchise's growth.
+  **⚠ The striking line, and it is not reassuring.** **TCBS arranged ~₫61,000bn of bond issuance in Q2, up
+  138%**, of which **~₫59,000bn was non-bank corporate paper — a 48% market share and number one in
+  Vietnam.** **Yet the capital-markets and bond-distribution net income was ₫964bn, up just 7% — its
+  slowest-growing segment.** **Volume up 138% produced income up 7%.**
+  Either fee rates compressed severely, the incremental volume is arranged at very low margin, or the
+  segment line nets off something undisclosed. **Which is true is not established and is not guessed** — but
+  **a franchise adding 138% more volume for 7% more income is not converting share into earnings**, and that
+  is a question about **the quality of the growth**, not the quality of the accounting.
+  **⚠ And it joins up with the 18:53 finding.** TCBS is registrar and depositary for Masterise-linked paper,
+  confirmed from `tcbs.com.vn` for lot IHP32602. **Masterise-linked issuance in H1 was ₫44,500bn** against
+  TCX's **~₫59,000bn of non-bank corporate paper arranged in Q2 alone** — so **the Masterise exposure sits
+  inside the ₫964bn segment that is growing at 7%.** **The part of TCX most connected to the property-bond
+  complex is also its weakest-growing line.** **Not sized: what share of TCBS's arranged volume is
+  Masterise-linked is not established.**
+  **VCI needed no separate search** — the file already carries its version: **Q2 profit −26% QoQ (₫251bn vs
+  ₫341bn) behind a +36% YoY headline, revenue flat, operating cash flow negative and funded by borrowings,
+  prop book −₫430bn** on FPT/MWG/KDH. Same lens, already applied.
+  **THE BOOK-WIDE PICTURE IS NOW COMPLETE:** three banks flattered by falling provisioning intensity
+  (**TCB 5.8pp · MBB 9.2pp · VPB 23.4pp** of their growth), one broker with an **unevaluable** FVTPL test
+  (VPX), one whose profit is **shrinking behind its headline** (VCI), and one whose profit **lags its own
+  revenue** (TCX). KDH's one-off deconsolidation gain and HPG's Q1 divestment gain were already documented.
+  **Confidence not moved (0.75).** The finding is favourable to TCX's accounting and unfavourable to its
+  operating leverage, and those offset; TCX's live issue remains **the multiple and the undated price**, not
+  the earnings. **Nothing modelled.**
+  Sources: [Q2 revenue ₫3,745bn +41%, PBT ₫2,097bn +21%, segment income](https://vietnambiz.vn/tcbs-bao-lai-quy-ii2026-cao-nhat-lich-su-loi-nhuan-vuot-2000-ty-dong-202671573823315.htm) ·
+  [bond issuance ~₫61,000bn +138%, 48% share, brokerage 9.4% HOSE](https://www.tinnhanhchungkhoan.vn/tcbs-tcx-bao-lai-quy-ii2026-cao-nhat-lich-su-vuot-2000-ty-dong-post394023.html)
+  **Portfolio impact: TCX is 5.5% and is the one name whose earnings are understated rather than flattered
+  — but its bond franchise added 138% volume for 7% income, and that franchise is where the Masterise
+  exposure sits.**
+
 - **22:53 ICT · ⚠ VPX (lanes 3, 6) — took the earnings-quality lens to the brokers, where the bank
   provisioning question leads. VPX's ARMED KILL CRITERION gives OPPOSITE answers on two defensible readings,
   and the criterion does not say which one it means.**
