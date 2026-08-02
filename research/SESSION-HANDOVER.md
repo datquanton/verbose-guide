@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 02-Aug 09:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 02-Aug 10:53 ICT.** MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -122,6 +122,51 @@ lending.** It was false, and *quantitatively closer* to the on-file numbers than
    Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
    1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
    alternative previously considered.
+
+### ⚠⚠ 02-Aug 10:53 — READ THIS BEFORE THE 09:53 SECTION BELOW, WHICH IS PARTLY WITHDRAWN
+
+**The 09:53 P/B finding was wrong and was pushed before it was caught. It is fully withdrawn here.** I used
+TCX's **listing-date** share count. **TCX paid a 20% stock dividend (5:1) in Q2/2026** — 462.3m shares,
+charter capital ₫23,115.8bn → ₫27,739bn — so the count is **2,773,896,000**, confirmed three ways to 0.02%.
+
+- **`2.49x` P/B is exactly right and always was**: 41,100 × 2,773,896,000 / ₫45,782bn = **2.4902×**. The
+  original `valuation.TCX.evidence` string is **restored**.
+- **The kill criterion is not near.** Trigger price **₫33,010, not ₫39,616** — **24.5% away** at the file
+  price, **18.8%** at the verified 24-Jul price of ₫39,200. **Nothing was ever 3.8% away.**
+- **Unaffected, because it rests on filed equity rather than the share count:** filed equity ₫45,782bn and
+  the 1.13× ratio, the withdrawal of the 31-Jul 1.56×, headroom ₫40,064bn, HSC/KBSV/Phú Hưng past 190%,
+  the three-values finding, the margin-figure resolution, USD/VND, the VNDiamond waiting list.
+
+**⚠⚠ ESCALATION TRIGGER 3 — expected return moves >10pp. It moves 34.3pp, and this one is real.**
+
+**`decide.py` line 67: `cap_now = pe_ttm × npat_ttm`.** For TCX that is **20.3 × 4,050 = ₫82,215bn** against
+a true market cap of **₫114,007bn** at the file price (₫108,737bn at ₫39,200, corroborated by an
+independently reported ₫108,758.6bn). **`cap_now` is 38.7% too low, so every branch return is overstated.**
+
+| market cap used | mu_raw |
+|---|---:|
+| engine, `pe_ttm × npat_ttm` ₫82,215bn | **+23.1%** |
+| true, at file price ₫41,100 | **−11.2%** |
+| true, at verified 24-Jul ₫39,200 | **−6.9%** |
+
+**TCX is ranked FIRST and is a proposed ADD. On the corrected market cap its expected return is negative.**
+**Which input is wrong is not established** — `pe_ttm` should be 28.15, or `npat_ttm` ₫5,616bn, or both are
+pre-dividend — **so neither was changed** (§5 forbids retuning an unresolved measure; §4 scope-locks
+`decide.py`). **Confidence is the wrong instrument**: it multiplies `mu_raw`. **The fix is one read —
+TCBS's TTM NPAT off the filed statements.** New **OPEN-DECISIONS item 25**; item 24 withdrawn and replaced.
+
+**⚠ The same defect may exist on the other seven.** `cap_now` is `pe_ttm × npat_ttm` for every name and
+**the file holds no share count for any of them** — **no ticker's market cap has ever been cross-checked
+against shares × price.** That check has not been run.
+
+**Two smaller things.** The file's price is **wrong for the date it is presumed to hold** — TCX's verified
+24-Jul price is **₫39,200** vs ₫41,100 on file (**4.85% high**), which also kills yesterday's "trough"
+reading. And an **adjustment trap**: a 20% stock dividend cuts the quoted price ~16.7% on its ex-date, so
+₫46,800 at listing and ₫39,200 in July are **not on the same basis**.
+
+**A corporate action on a held name went unrecorded.** Lane 3 tracks stock dividends (TCB 60%, VPB 26%,
+MBB 15% + rights); **TCX's 20% was never on the list**, and it is the one fact that would have prevented
+all of this.
 
 ### New escalations raised 02-Aug 09:53 — TCX, and it is the largest of the weekend
 
