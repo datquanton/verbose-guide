@@ -79,6 +79,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **23:53 ICT · VPX (lane 3) — the last unverified `npat_ttm` is resolved, the file's number was 28% too
+  low, and the July reconstruction that flagged it was right to 0.6%.**
+  **Searched because 22:53 established exactly why it mattered.** Two earlier attempts failed;
+  `_npat_ttm_basis_2026_08_02` recorded *"no FY2025 figure found."*
+  **The filed figures.** VPBankS FY2025 **total operating revenue ₫7,910bn** — more than **3× 2024** and
+  **110% of plan** — and **profit before tax ₫4,476bn**, nearly **4×** the prior year. Margin and advance
+  lending exceeded **₫34,000bn** at year-end against **₫9,513bn** at the start, close to 4×.
+  **THE MEASURE TRAP INSIDE THE SOURCE, AND IT IS NOT SUBTLE.** The same coverage says *"lợi nhuận **cả năm**
+  đạt 4.476 tỷ"* and *"**Lợi nhuận trước thuế** đạt mức 4.476 tỷ"* — **one number, labelled once as "profit"
+  and once as "profit BEFORE TAX."** `npat_ttm` requires **after**-tax. **Taking the explicit label over the
+  ambiguous one: 4,476 is PBT.** Applying 20% CIT gives NPAT **₫3,580.8bn** — **and that is not a new
+  judgment**, it is the convention this file already documented for TCX on 02-Aug (*"FY2025 PBT 7,109 × 0.8"*).
+  **THE VALIDATION, AND IT MATTERS MORE THAN THE NUMBER.** The 27-Jul flag reconstructed `npat_ttm` two ways
+  with no filed figure at all: an earnings-path route giving **3,047–3,447**, and a **margin-room route giving
+  3,559**. **The filed figure implies 3,580.8 — the margin-room reconstruction was right to 0.61%.**
+  That matters because of what was established **eight hours ago**: the 02-Aug `cap_now` repair made the
+  internal market-cap cross-check **circular**, so it can no longer detect a wrong `npat_ttm`.
+  **Reconstruction from balance-sheet quantities is what replaces it — and it has now been scored against a
+  filed outcome and passed.**
+  **WHAT CHANGES AND WHAT DOES NOT.** **E[r] does not move** — measured change in `mu_raw`: **0.025bp**, which
+  is the rounding in the old `pe_ttm` and nothing else. VPX stays rank 5 at −0.0%. **This demonstrates the
+  22:53 finding rather than arguing it.**
+  **What does change is the statistic a human reads.** VPX's printed trailing P/E was **17.81** and is now
+  **13.93** — **the printed figure was 27.9% too high.** *(At 22:53 I put this as "overstated by up to 21%";
+  that measured the **drop** as a share of the printed value, 21.8%, not the overstatement. Both are
+  arithmetically fine and answer different questions — stating both so the framing is not ambiguous again.)*
+  **And the direction is uncomfortable for this file's own portrayal of VPX.** A 28% overstatement made **the
+  one name whose thesis is EARNINGS QUALITY look expensive on the exact statistic used to judge earnings
+  quality.** **VPX at 13.9× trailing is materially cheaper than this file has been showing.** That does **not**
+  overturn the thesis — the evidence string says the discount is *justified but for a different reason*, a
+  >₫18tn bond position inside a ₫30tn FVTPL book, and **a corrected multiple says nothing about bond risk.**
+  It corrects a statistic that was arguing the case on the wrong ground.
+  **CONFIDENCE HELD AT 0.55, deliberately and against the routine's default.** The routine says an estimate
+  becoming a filed actual should raise confidence. **But confidence multiplies `fy26e_npat` — it is a scalar
+  on the FORWARD branches — and what was resolved is a TRAILING figure that provably does not touch them.**
+  The 31-Jul lesson, applied: confidence may only be raised when the branches are what improved.
+  **All eight `npat_ttm` are now on a filed basis.** `exit_pe`, `probs`, `fy26e_npat` and `price` untouched
+  and verified unchanged by script.
+  **Escalation check: none of the five fire.** E[r] moved 0.03bp; nothing else changed.
+  Sources: baodautu (*"VPBankS báo lãi gần 4.500 tỷ đồng"*), vnexpress — mutually consistent on revenue,
+  PBT and the margin book.
+
 - **22:53 ICT · MODEL AUDIT (lane 3) — the `cap_now` repair silently destroyed the detector that found the
   errors it was fixing, and one of the two flags it made obsolete is still suspending a live +6.7pp ADD.**
   **The question, asked because the brief carries "npat_ttm suspect" against two names:** after the 02-Aug
