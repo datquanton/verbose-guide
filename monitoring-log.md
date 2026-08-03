@@ -78,6 +78,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **19:53 ICT · SELF-AUDIT (third of the day, and it found the biggest one) — the 02-Aug `cap_now` repair
+  invalidated every hand-written document that quotes an engine number, and I have now found three. The
+  harshest table in the repo understates its own conclusion by 25pp of the book.**
+  **The method, carried forward from 18:53.** The handover went stale because it is a *hand-written summary of
+  a generated artefact*. So: which other documents quote engine numbers? Grepping for the pre-fix values
+  returns exactly three live offenders — `SESSION-HANDOVER.md` §1 (fixed at 18:53), **`OPEN-DECISIONS.md`
+  items 19 and the volatility-drag line**, and **`CFA-TOOLKIT.md` §5**. The dossiers and `DEPTH-QUEUE.md` are
+  clean. `DECISION-BRIEF.md` and `SNAPSHOT.md` are regenerated every sweep and cannot drift.
+  **THE TEST THAT MAKES THIS TRACTABLE: a stale number in a DATED HISTORICAL entry is correct; a stale number
+  in a CURRENT-STATE claim is a defect.** The monitoring log and calibration log are dated and append-only —
+  untouched. The handover's narrative sections are dated — untouched. Only live claims were corrected.
+  **1 · `OPEN-DECISIONS` item 19 said the opposite of what is now true.** It read: *"MBB's shrunk E[r] did not
+  move at all on a +40% quarter — it is still +8.8% … **the engine is BLIND to the best print in the
+  book**."* **After the repair MBB is +36.6% raw / +18.3% shrunk — rank 1 of 8, leading the second name by
+  14pp**, with a proposed **ADD of +6.7pp**. **The engine is not blind to MBB; it is now betting on it harder
+  than on anything else — off branches that are typed in, derived from nothing and recomputed by nothing.**
+  The item is not less urgent, it is far more so, and its own argument had inverted without anyone noticing.
+  **2 · `CFA-TOOLKIT.md` §5 — "the harshest table in the repo" — is not harsh enough.** Re-running its own
+  formula against the live engine (σ reproduces `DECISION-BRIEF.md` exactly, so it is the same calculation):
+
+  | | Shrunk μ | σ | drag | **g** | wt |
+  |---|---:|---:|---:|---:|---:|
+  | MBB | +18.29% | 39.1% | 7.7% | **+10.64%** | 6.5% |
+  | HPG | +4.75% | 31.1% | 4.8% | **−0.09%** | 16.8% |
+  | TCB | +2.77% | 33.5% | 5.6% | **−2.85%** | 35.0% |
+  | VPX | −0.01% | 43.5% | 9.4% | **−9.46%** | 2.8% |
+  | KDH | +1.95% | 50.2% | 12.6% | **−10.65%** | 20.3% |
+  | VCI | −4.52% | 39.3% | 7.7% | **−12.25%** | 3.1% |
+  | TCX | −8.43% | 36.4% | 6.6% | **−15.05%** | 5.5% |
+  | VPB | −9.72% | 33.6% | 5.6% | **−15.36%** | 10.0% |
+
+  **Seven of eight — 93.5% of the book — compound negatively, against the four of eight / 68.4% on file.**
+  **Only MBB compounds positively, and MBB is 6.5% of the book and the one name with no driver model.** HPG
+  sits at zero. **So the engine's single largest conviction and the book's only surviving compounder are the
+  same name, and it is the least-derived name in the file.**
+  **3 · AND I AM NOT LETTING THE HEADLINE STAND UNQUALIFIED, BECAUSE IT IS NOT ROBUST.** `g` is a threshold
+  count weighted by position size, and **TCB is 35% of the book at −2.85% — one price refresh from
+  flipping.** Item 2's 17:53 finding says the price file is probably **~20-July**, so prices are too high and
+  every μ here is **understated**:
+
+  | Price adjustment | g < 0 | Share of book |
+  |---|---:|---:|
+  | **as filed** | 7/8 | **93.5%** |
+  | −4.0% (the ~20-Jul drift) | 6/8 | 76.7% |
+  | −4.6% (TCX's measured drift) | 5/8 | **41.7%** |
+
+  **A 4.6% price correction takes it from 93.5% to 41.7%, almost entirely because TCB crosses zero.**
+  **Direction robust; magnitude hostage to an input the file knows is wrong.** The honest statement is *most
+  of this book compounds negatively on any of these assumptions, and the exact fraction is not knowable until
+  item 2 is done.* **Recording the 93.5% alone would have been the more dramatic and the less true summary.**
+  **What was written:** a dated *Correction 2026-08-03* section appended to `CFA-TOOLKIT.md` beside the 29-Jul
+  table rather than overwriting it; item 19 and the drag line in `OPEN-DECISIONS.md` corrected in place with
+  the inversion flagged.
+  **Nothing modelled.** No belief file touched — `g` is a diagnostic and `μ − σ²/2` is a second-order
+  approximation that is itself rough at σ ≈ 40%.
+  **THE STRUCTURAL POINT, AND IT IS THE REASON THIS IS THE THIRD AUDIT TODAY.** The 02-Aug `cap_now` repair
+  changed **every expected return in the book**. Everything *generated* from `assumptions.json` updated itself.
+  **Everything hand-written did not, and nothing existed to notice.** Three documents, found on three
+  different pretexts — a stale stopping rule (17:53), a street-target comparison (18:53), and following the
+  18:53 lesson deliberately (now). **A repair is not finished when the engine is right; it is finished when
+  everything that quotes the engine is right.**
+  **Escalation check: none of the five fire.** Nothing changed today — this is 02-Aug's change finally being
+  propagated.
+  **Lane 1/3 checked, nothing new and dated:** evening coverage returned only FY26 bank plan figures already
+  on file (VPB >₫41,000bn, MB ₫40,000bn PBT targets) and undated dividend/capital-raise round-ups.
+
 - **18:53 ICT · SELF-AUDIT (lane 6 sweep found it) — the one document written for a reader who won't
   check the others has been showing the PRE-CORRECTION rankings all day, and I updated its header seven times
   without looking three lines below it.**

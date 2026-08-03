@@ -402,3 +402,51 @@ Three limitations are specific to this file:
   book that is 51% banks and 19.5% brokers on a look-through basis, true correlations are
   plausibly higher — in which case breadth is **lower** than 1.70 and every skill
   requirement in section 3 is **harder** than shown.
+
+---
+
+## Correction 2026-08-03 — §5's volatility-drag table predates the `cap_now` repair and understates the problem badly
+
+**Every `μ` in the table above was computed before the 02-Aug `cap_now` fix**, which changed the
+denominator of every expected return in the book. The table is dated 29-Jul and was never
+recomputed. Re-running §5's own formula (`g ≈ μ_shrunk − σ²/2`, `σ = √(σ²_scen + 0.28²)`) against
+the live engine — the σ column reproduces `DECISION-BRIEF.md` exactly, so this is the same
+calculation, not a different one:
+
+| | Shrunk μ | σ | Drag σ²/2 | **g** | Weight |
+|---|---:|---:|---:|---:|---:|
+| MBB | +18.29% | 39.1% | 7.7% | **+10.64%** | 6.5% |
+| HPG | +4.75% | 31.1% | 4.8% | **−0.09%** | 16.8% |
+| TCB | +2.77% | 33.5% | 5.6% | **−2.85%** | 35.0% |
+| VPX | −0.01% | 43.5% | 9.4% | **−9.46%** | 2.8% |
+| KDH | +1.95% | 50.2% | 12.6% | **−10.65%** | 20.3% |
+| VCI | −4.52% | 39.3% | 7.7% | **−12.25%** | 3.1% |
+| TCX | −8.43% | 36.4% | 6.6% | **−15.05%** | 5.5% |
+| VPB | −9.72% | 33.6% | 5.6% | **−15.36%** | 10.0% |
+
+**Seven of eight — 93.5% of the book — now have a negative expected compounded return**, against
+the four of eight / 68.4% stated above. **Only MBB compounds positively, and MBB is 6.5% of the
+book and the one name with no driver model at all.** HPG sits at zero.
+
+### The headline number is not robust, and the reason matters more than the number
+
+`g` is a threshold count weighted by position size, and **TCB is 35% of the book sitting at
+−2.85%** — one price refresh from flipping. Item 2's 03-Aug finding is that the price file is
+probably **~20-July**, not 24-July, so prices on file are **too high** and every `μ` here is
+**understated**. Applying a uniform correction:
+
+| Price adjustment | Names with g < 0 | Share of book |
+|---|---:|---:|
+| **As filed** | 7 / 8 | **93.5%** |
+| −4.0% (the ~20-Jul drift) | 6 / 8 | 76.7% |
+| −4.6% (TCX's measured drift) | 5 / 8 | **41.7%** |
+
+**A 4.6% price correction takes the headline from 93.5% to 41.7%** — almost entirely because TCB
+crosses zero. **So the direction is robust and the magnitude is not.** The honest statement is:
+*most of this book compounds negatively on any of these price assumptions, and the exact fraction
+is hostage to an input the file knows is wrong.*
+
+**Nothing is modelled from this.** `g` is a diagnostic, `μ − σ²/2` is a second-order approximation
+that is itself rough at σ ≈ 40%, and the table above is left standing with this correction beside
+it rather than overwritten. **The actionable item is unchanged and now better motivated: fix the
+prices (OPEN-DECISIONS item 2) before drawing any conclusion from the fraction.**
