@@ -79,6 +79,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **02:53 ICT · MACRO (lane 1) — tried to score last night's inference, couldn't, and the number I did find
+  is pre-print.**
+  **The test I wanted.** At 21:53 I said ISM at 55.6 makes a Fed cut less likely, **partially restoring the FX
+  support downgraded at 12:53** — and labelled it a **four-step inference with no step measured**. The
+  testable consequence is rates pricing: if the market didn't reprice, the inference is weak. **It cannot be
+  run on what's available** — no post-print fed funds futures move surfaced, and the search did not even
+  return the 55.6 figure. **The inference stays an inference, unscored.**
+  **And the number that did come back is a trap if read carelessly.** A piece **published 03-Aug** reports the
+  US 10-year *"finished the week near **4.74%**, its highest since January 2025."* **The publication date is
+  03-Aug; the period is the week ended 31-Jul — it pre-dates the ISM print by one session.** Citing 4.74% as
+  the market's *reaction* to ISM would be wrong on the causal claim while the number, the source and the
+  publication date are all correct. **Logged so it is not mis-cited later.**
+  **What is genuinely useful — and it is a shorter chain than the one I drew last night.** The US 10-year at
+  **4.74%** against an FOMC policy rate of **3.50–3.75%** is a curve about **100bp** positively sloped,
+  coherent with the three *hike* dissents on file. **"High US long yields keep the dollar firm" is one step,
+  not four.** It supports the same conclusion the ISM chain does — that the FX side of the SBV constraint is
+  not loosening — **with a measured number and a shorter argument.** That matters because 12:53 downgraded
+  that conclusion to resting mainly on an *inferred* support; **this is the first measured evidence for the FX
+  side itself, rather than for the Fed's likely behaviour.**
+  **A small correction to my own 21:53 entry.** I recorded the ISM consensus as **54.0**. A pre-release
+  preview found this sweep puts it at **53.0** (*"expected to slip to 53% from 53.3%"*). **Two consensus
+  figures circulate for one print and neither is settled here.** The beat holds either way so nothing
+  downstream changes, but the file should not carry 54.0 as established.
+  **Also disarmed:** an fxstreet result quoting S&P futures *"around 4,200"* — **a 2021 article, four years
+  stale**, surfaced inside a 2026 query. Not used.
+  **Nothing modelled.** **Escalation check: none of the five fire.**
+  Sources: Penn Mutual *Monday Morning Perspectives* (dated 2026-08-03, period to 31-Jul), Investrade morning
+  preview.
+
 - **00:53 ICT · SELF-CORRECTION (item 2) — I checked my own 17:53 conclusion against the index path and it
   needs a qualifier that reverses the caveat I attached to the day's biggest finding.**
   **The check.** At 17:53 I concluded from four dated drifts that the price file is *"~20-July, not the
