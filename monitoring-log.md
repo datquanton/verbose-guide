@@ -77,6 +77,58 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-04
+
+- **00:53 ICT · SELF-CORRECTION (item 2) — I checked my own 17:53 conclusion against the index path and it
+  needs a qualifier that reverses the caveat I attached to the day's biggest finding.**
+  **The check.** At 17:53 I concluded from four dated drifts that the price file is *"~20-July, not the
+  presumed 24-July"* and therefore *"E[r] is more likely UNDERSTATED than overstated"* — and I propagated that
+  into the handover, item 2, the `CFA-TOOLKIT` correction and the log. **It deserved a test against the index
+  path, and I had not run one.**
+  **What the drifts imply about the INDEX LEVEL at the file's price date** *(beta = 1 assumed for every name,
+  which is the load-bearing assumption here and is not true)*. Using the index values on file — 24-Jul
+  **1,686** (the trough), 29-Jul **1,704.68** — and bounding the unheld 27/28-Jul values between them:
+
+  | Observation | drift | implied index at the price date |
+  |---|---:|---|
+  | TCX 24-Jul (exact anchor) | 4.6% | **1,764** |
+  | TCB 27-Jul | 3.4% | 1,743 – 1,763 |
+  | VCI 28-Jul | 3.9% | 1,752 – 1,771 |
+
+  **All three are mutually consistent with a single index level of roughly 1,750–1,770.**
+  **AND MONDAY'S CLOSE WAS 1,762.84.**
+  **WHAT THAT MEANS, AND IT IS NOT WHAT I SAID AT 17:53.** **The file's prices are, right now, approximately
+  correct at the index level — not because anyone refreshed them, but because the market came back to them.**
+  The four-week slide took the index down to 1,686 on 24-Jul and it has since recovered ~4.6% to 1,762.84,
+  which is about where the file's prices were struck. **The staleness error has transited through zero**, the
+  thread the 31-Jul entry called *"may have flipped sign"* and the 16:53 entry noted without pinning.
+  **THE QUALIFIER THIS REVERSES.** At 19:53 I reported the volatility-drag finding — **7 of 8 holdings, 93.5%
+  of the book, compounding negatively** — and then argued it was *not robust*, because a **−4.0% to −4.6%**
+  price correction takes it to 41.7%. **That sensitivity was motivated by drift measured against LATE-JULY
+  observations, and it therefore describes a correction toward late July, not toward today.** If the file's
+  prices are approximately right as of Monday's close, **the as-filed row — 7 of 8, 93.5% — is the one to
+  read, and the day's biggest finding stands STRONGER than I qualified it.** I under-claimed it, on a caveat
+  built from the wrong reference date.
+  **HOW WEAK THIS IS, STATED PLAINLY, BECAUSE THE ARITHMETIC LOOKS BETTER THAN IT IS.** The midpoint lands
+  **0.01% from Monday's close.** **That precision is coincidence and must not be reported as a measurement.**
+  Two reasons: **(a)** beta is assumed 1 for a high-beta broker, a bank and another broker, which it is not
+  for any of them; **(b)** the point estimate rests almost entirely on **TCX**, the one name with an exact
+  index anchor — **TCB's and VCI's ranges merely CONTAIN it, which is consistency, not independent
+  confirmation.** That is the same distinction this file drew at 13:53 about reconciling two internal
+  estimates, applied to itself.
+  **WHAT SURVIVES FROM 17:53 AND WHAT DOES NOT.** *Survives:* the file's prices are **not** 24-July, because a
+  24-July file would show ~zero drift against a 24-July observation and TCX shows 4.6%. *Survives:* the
+  drifts are mutually coherent and point at a single date. *Does not survive:* the practical conclusion that
+  **E[r] is currently understated** — against **Monday's market** the index-level bias is ~zero. The
+  understatement was real relative to late July and has been closed by the market, not by a fix.
+  **AND THE STANDING CAVEAT THAT STILL BINDS: this is an index argument applied to eight names**, which failed
+  its first individual test on 03-Aug — **KDH +3.24% and TCX down in the same session.** Individual names
+  diverge from the index by more than the whole effect being measured here. **Item 2 is not closed and its
+  urgency is unchanged: eight dated prices, not an index adjustment.** What changes is that its *current*
+  error is small and will grow again, rather than being large now.
+  **Nothing modelled.** No price, probability, branch or confidence touched.
+  **Escalation check: none of the five fire.**
+
 ## 2026-08-03
 
 - **23:53 ICT · VPX (lane 3) — the last unverified `npat_ttm` is resolved, the file's number was 28% too

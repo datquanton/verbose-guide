@@ -441,7 +441,7 @@ probably **~20-July**, not 24-July, so prices on file are **too high** and every
 | −4.0% (the ~20-Jul drift) | 6 / 8 | 76.7% |
 | −4.6% (TCX's measured drift) | 5 / 8 | **41.7%** |
 
-**A 4.6% price correction takes the headline from 93.5% to 41.7%** — almost entirely because TCB
+**← QUALIFIED 2026-08-04 00:53: THE SENSITIVITY BELOW POINTS AT THE WRONG DATE.** The −4.0/−4.6% rows were motivated by drift measured against **late-July** observations, so they describe a correction toward **late July**, not toward today. The same drifts imply an index level at the file's price date of ~1,750–1,770 (beta=1 assumed), and **Monday 03-Aug closed at 1,762.84** — so the file's prices are approximately right *now*, the market having returned to them. **On that reading the AS-FILED row (7/8, 93.5%) is the one to read.** The table is kept because it correctly bounds what a *further* fall would do. Original text follows: **A 4.6% price correction takes the headline from 93.5% to 41.7%** — almost entirely because TCB
 crosses zero. **So the direction is robust and the magnitude is not.** The honest statement is:
 *most of this book compounds negatively on any of these price assumptions, and the exact fraction
 is hostage to an input the file knows is wrong.*
