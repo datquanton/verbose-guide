@@ -79,6 +79,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **03:53 ICT · MACRO (lane 1) — the test I couldn't run an hour ago is runnable now, and the market
+  disagreed with me.**
+  **Applying this file's own 15:53 rule** — *the checkable time is the close plus publication, not the event*
+  — the 03-Aug US session closed at 16:00 ET, **53 minutes before this sweep.**
+  **What I claimed at 21:53**, labelled at the time as *a four-step inference with no step measured*: ISM at
+  55.6 makes a Fed **cut** less likely → dollar stays firm → the FX side of the SBV constraint is not
+  loosening → **the support downgraded at 12:53 is partially restored.** **The testable consequence is step
+  two: rates should have repriced hawkishly.**
+  **What happened on the day of the print: the US 10-year EASED to 4.70%, DOWN 5bp**, and equities rallied
+  hard — S&P **+1.48%** to 7,600.50, Nasdaq **+2.1%**, Dow **+1.32%** to a record 53,178.41. **The market met
+  a four-year-high ISM with LOWER yields, not higher ones. That is the opposite of what my inference
+  required.**
+  **WITHDRAWN: "ISM partially restores the FX support."** Not supported. **Stated with its limit in the other
+  direction too — 5bp is small, so this establishes that the market did NOT reprice hawkishly, not that it
+  repriced dovishly.**
+  **WHAT SURVIVES — and it is the same distinction this file drew on CPI twelve hours earlier.** The **level**
+  claim stands: the 10-year at **4.70–4.74%** is still the **highest since January 2025** and rose **32bp over
+  July**, against a policy rate of 3.50–3.75%. *"High US long yields keep the dollar firm"* is a **level**
+  argument and **one step long**, and a 5bp daily move from a multi-year high does not touch it. **The
+  direction claim dies; the level claim lives** — exactly the July CPI outcome at 12:53, and **the second time
+  in one day that distinction saved the useful half.**
+  **Second time in fifteen hours a multi-step inference of mine was tested and failed while the one-step
+  version survived.** Labelling the chain *"four steps, none measured"* did not make it right — **it made it
+  cheap to withdraw**, which is the whole return on labelling.
+  **THE NARRATIVE I AM REFUSING.** Big ISM beat + falling yields + equity melt-up is the *"growth without
+  inflation"* pattern and it is tempting to say so. **The discriminator is ISM Prices Paid, which this file
+  does not have and the search did not return.** Strong growth with **soft** prices lets yields fall; strong
+  growth with **firm** prices should not. Without that sub-index the explanation is speculation. **Named as
+  the next cheap check rather than guessed.**
+  **Also resolved, closing the ambiguity I opened an hour ago:** the consensus **was 54.0** (*"exceeding
+  economist expectations of 54.0"*); the 53.0 was a **pre-release preview estimate**, not the consensus. My
+  21:53 figure was right and my 02:53 doubt is closed. Sharper detail: **ISM employment 52.8 is the highest
+  since August 2022, in expansion for the first time in 33 months.**
+  **Date-attribution caveat on the equity figures:** they arrive via a CNBC live blog whose URL is dated
+  **02-Aug, a Sunday** — such blogs open the evening before the session they cover, so these are the 03-Aug
+  closes. **The 10-year figure is separately and explicitly dated 03-Aug and is what the conclusion rests
+  on.**
+  **Nothing modelled.** **Escalation check: none of the five fire.**
+  Sources: tradingeconomics (10-year, dated), CNBC live blog, Investrade.
+
 - **02:53 ICT · MACRO (lane 1) — tried to score last night's inference, couldn't, and the number I did find
   is pre-print.**
   **The test I wanted.** At 21:53 I said ISM at 55.6 makes a Fed cut less likely, **partially restoring the FX
