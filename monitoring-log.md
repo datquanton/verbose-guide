@@ -79,6 +79,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **22:53 ICT · MODEL AUDIT (lane 3) — the `cap_now` repair silently destroyed the detector that found the
+  errors it was fixing, and one of the two flags it made obsolete is still suspending a live +6.7pp ADD.**
+  **The question, asked because the brief carries "npat_ttm suspect" against two names:** after the 02-Aug
+  repair, does a wrong `npat_ttm` still bite?
+  **The algebra says no, and the numbers confirm it.** `pe_ttm` is now *derived* as `market_cap / npat_ttm`,
+  so **`cap_now = pe_ttm × npat_ttm = market_cap` identically — `npat_ttm` cancels out of every expected
+  return, for any value whatsoever.** VCI's `cap_now` 23,619 vs shares × price 23,621 (0.007%); VPX's 49,868
+  vs 49,875 (0.014%).
+  **1 · THE DETECTOR IS GONE, AND NOTHING SAID SO.** Before the repair `pe_ttm` was a **stated** number, so a
+  wrong `npat_ttm` produced a **visibly wrong market cap** — and comparing `cap_now` against an independently
+  reconstructed cap was the *"mandated market-cap cross-check."* **That check is how both flags were found:
+  VCI on 26-Jul (failed by 25.2%) and VPX on 27-Jul.** **It is now circular and cannot fail.** The 0.07%
+  agreement measured across all eight at 18:53 **is not evidence of anything — it is an identity.**
+  **The general point, and it is the one worth keeping: repairing an input BY CONSTRUCTION can delete the
+  diagnostic that the input was wrong.** The repair was correct and necessary. But the old arrangement had an
+  accidental virtue — it made `npat_ttm` load-bearing, so an error in it screamed. **The new one makes it
+  inert for E[r] and silent when wrong.** What must replace it: **`npat_ttm` can no longer be checked
+  internally and must be verified against a filed income statement.**
+  **2 · VCI — THE SUSPENSION IS STALE ON TWO INDEPENDENT GROUNDS, AND IT IS ARMED AGAINST A LIVE ADD.**
+  The flag reads: *"Correcting it flips E[r] +7.0% → −7.5%. NOT changed on inference — resolve from the Q2
+  filing (share count + equity). **Suspend the optimizer add until then.**"*
+  **Ground one:** the stated consequence no longer exists — `npat_ttm` cannot move E[r], which is −11.3% and
+  computed off market cap.
+  **Ground two: the flag's own resolution condition has been met, both halves.** Share count confirmed to
+  within **0.07% by two independent routes** — charter capital ÷ par (1,152,240,000) and **today's Tô Hải
+  insider filing** (1,151.4–1,151.9m). And `npat_ttm` is now **FY2025 filed net profit 1,342**, a filed figure,
+  not the inferred number the flag was written against.
+  **So VCI's optimizer add is suspended by an instruction whose every condition is satisfied and whose
+  mechanism no longer operates — and the brief proposes VCI ADD +6.7pp, joint-second largest in the book.**
+  **Lifting a suspension on an optimizer add is a human decision under charter §4 and is NOT taken here.**
+  The original flag text is left standing verbatim with a status note beside it.
+  **3 · VPX — STILL UNRESOLVED, BUT RE-SCOPED.** Unlike VCI, **VPX's `npat_ttm` was never verified**:
+  `_npat_ttm_basis_2026_08_02` records *"no FY2025 figure found"*, so 2,800 stands against the flag's own
+  alternatives of 3,047–3,559. **What changed is what it corrupts.** Not E[r] (−0.0%, independent of it) —
+  **the printed P/E**:
+
+  | npat_ttm | printed `pe_ttm` | cap_now |
+  |---|---:|---:|
+  | **2,800 (on file)** | **17.81** | 49,868 |
+  | 3,047 | 16.4 | unchanged |
+  | 3,447 | 14.5 | unchanged |
+  | 3,559 | 14.0 | unchanged |
+
+  **VPX's reported P/E may be overstated by up to 21% — on the one name whose thesis is explicitly about
+  EARNINGS QUALITY** (a ₫30tn FVTPL book with >₫18tn of bonds). **A trailing P/E is precisely the statistic
+  someone would reach for to judge that, and it is the one still wrong.** Re-scoped from *"the expected return
+  is wrong"* to *"the printed multiple is wrong"*; resolution route unchanged and open.
+  **4 · `risk.py` STILL ADVERTISES THE DEAD CHECK.** Its *"WHAT THIS INHERITS"* block, dated 2026-07-28, says
+  *"VCI and VPX npat_ttm both fail the market-cap cross-check"* — **they cannot fail it any more** — and
+  *"Prices are undated, presumed 24-Jul"*, superseded at 17:53 by four dated observations pointing at
+  **~20-July**. **NOT EDITED:** `risk.py` is machinery and this file's own 31-Jul precedent treats it as
+  human-only. **Fourth stale hand-written document found in six hours, and the fourth to date from before the
+  02-Aug repair.**
+  **Nothing modelled.** No price, probability, branch or confidence touched.
+  **Escalation check: none of the five fire** — but note plainly that **a live optimizer ADD is under a
+  suspension whose grounds have all lapsed**, which is a decision waiting on a human rather than a trigger.
+
 - **21:53 ICT · MACRO (lane 1) — the US print lands, and it restores the support I downgraded eight hours
   ago. Two other chains from the same number are refused outright.**
   **A dated catalyst this file named on 02-Aug, resolved on its day** (21:53 ICT = 10:53 ET, 53 minutes after
