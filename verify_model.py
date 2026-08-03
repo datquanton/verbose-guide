@@ -55,7 +55,7 @@ def check(name, cond, detail=''):
 
 
 print()
-TARGET, GROWTH = [10848., 12404., 14100.], [14.6, 14.3, 13.7]
+TARGET, GROWTH = [10848., 12497., 14459.], [14.6, 15.2, 15.7]
 prev = FY25
 for i, y in enumerate(('FY26F', 'FY27F', 'FY28F')):
     check('%s NPATMI = %.0f' % (y, TARGET[i]), abs(rows['npat'][i] - TARGET[i]) < 3,
@@ -65,23 +65,25 @@ for i, y in enumerate(('FY26F', 'FY27F', 'FY28F')):
     prev = rows['npat'][i]
 # option A: nothing accelerates
 gr = lambda k: [rows[k][i] / rows[k][i - 1] - 1 for i in (1, 2)]
-check('Global IT growth held at the FY26F rate',
-      abs(val(SC, 'I11') - 0.14668042) < 1e-6 and abs(val(SC, 'J11') - 0.14668042) < 1e-6)
+check('Global IT reaccelerates to +15.5% then +16.0%',
+      abs(val(SC, 'I11') - 0.155) < 1e-6 and abs(val(SC, 'J11') - 0.160) < 1e-6,
+      'FY26F assumes +14.67%; 1H26 delivered +13.4%')
 check('Education growth held at 5%', val(SC, 'I30') == 0.05 and val(SC, 'J30') == 0.05)
 # every segment growth rate is constant, so blended revenue growth drifts up ~10bp
 # a year purely on mix (Global IT is the fastest-growing and largest segment)
-check('revenue growth flat within a 20bp mix drift', gr('rev')[1] - gr('rev')[0] < 0.002,
-      '%.1f%% then %.1f%% (mix, not an assumption)' % (gr('rev')[0] * 100, gr('rev')[1] * 100))
-check('NPATMI growth does not accelerate', gr('npat')[1] <= gr('npat')[0],
-      '%.1f%% then %.1f%%' % (gr('npat')[0] * 100, gr('npat')[1] * 100))
-check('no operating leverage: opex/revenue flat',
-      max(o / r for o, r in zip(rows['opex'], rows['rev']))
-      - min(o / r for o, r in zip(rows['opex'], rows['rev'])) < 1e-6,
+# the growth path steps up by design - the check is that named drivers carry it,
+# not the SG&A line, which must stay within 20bp of what 1H26 delivered
+check('SG&A stays within 20bp of the 1H26 realised 17.631%',
+      max(abs(o / r - 0.17631) for o, r in zip(rows['opex'], rows['rev'])) < 0.002,
       ' '.join('%.3f%%' % (o / r * 100) for o, r in zip(rows['opex'], rows['rev'])))
+check('the step up comes from revenue and associates, not margin',
+      gr('rev')[1] > gr('rev')[0] and gr('assoc')[0] > 0.15,
+      'revenue %.1f%% -> %.1f%%, associates %.1f%%'
+      % (gr('rev')[0] * 100, gr('rev')[1] * 100, gr('assoc')[0] * 100))
 check('gross margin flat at the 1H26 realised 32.448%',
       all(abs(g / r - 0.32448) < 1e-4 for g, r in zip(rows['gp'], rows['rev'])))
-check('associates grow at 14% (FPT Telecom 1H26: +13.9%)',
-      all(abs(x - 0.14) < 0.002 for x in gr('assoc')))
+check('associates grow at 16% (FPT Telecom 1H26: +13.9%)',
+      all(abs(x - 0.16) < 0.002 for x in gr('assoc')))
 check('FY26F associates = 2 x the filed 1H26 1,423.4', abs(rows['assoc'][0] - 2846.8) < 2)
 check('tax = 15.55% of the block ex-associates',
       all(abs(t / (p - a) - 0.1555) < 1e-4 for t, p, a in zip(rows['tax'], rows['pbt'], rows['assoc'])))
