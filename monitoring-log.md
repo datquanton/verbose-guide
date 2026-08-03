@@ -79,6 +79,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **05:53 ICT · MACRO / BANKS (lane 1) — a conflict that looked like a contradiction, resolved as a measure
+  problem, and it costs my 31-Jul finding most of its force without making it wrong.**
+  **What came back.** Coverage reporting VND **overnight interbank "falling to around 1%"** around the
+  **29-July** session — and, in the *same result set*, a separate piece on a *"week 4–8 May"* period reporting
+  **overnight above 7%**. **This file carries 2.43% → 2.97% across July. Three very different levels for one
+  rate.**
+  **It is probably not a contradiction, and the resolution is the measure.** The 31-Jul note says explicitly
+  *"**average** interbank rates rose at every tenor."* **A monthly average and a single session print are
+  different quantities** — a month averaging 2.97% is entirely compatible with individual sessions near 1%.
+  **Stated as the likely resolution, not as resolved:** the 1% figure is undated beyond *"the 29-July
+  session"*, and the 7% figure's year is not established.
+  **But the qualification is real and the file did not have it.** **If Vietnamese overnight swings between
+  roughly 1% and 7% across months, then a +54bp move in a monthly average is small relative to the series' own
+  range.** The 31-Jul entry recorded that move as a finding — *"funding cost moved and the file had no record
+  of it"* — and **never recorded the volatility of the series it was reading a 54bp move out of. A move is
+  only a signal against a scale, and the scale was missing.**
+  **So: the finding stands as a fact and shrinks as a signal.** Interbank rates did rise on average through
+  July while published deposit rates sat still, and **that pairing is still the interesting part**, because
+  deposit rates are administered and sticky while interbank is not. **What weakens is the inference from 54bp
+  to anything about bank funding costs — on 51.5% of this book.**
+  **A second disagreement, also unresolved:** overnight turnover. The file carries **~850,000bn/session** as a
+  July average; the summary reports **~910,261bn/day** for *"late July"*. A late-July sub-period running above
+  a full-month average is ordinary and not a conflict — **but neither figure is dated tightly enough to say
+  so.**
+  **What made this checkable was the 31-Jul note's own caveat**, which recorded that both of its returns
+  traced to a **single VietnamNet article** and logged the series as **one T5 route, not two**. **A finding
+  that names its own single-sourcing can be qualified later; one that does not, cannot.**
+  **Nothing modelled** — no interbank rate is a model input, and no confidence moves on a qualification to a
+  macro observation. **Escalation check: none of the five fire.**
+  **No 04-Aug Vietnam data exists yet — the market opens at 09:00.**
+
 - **04:53 ICT · MACRO (lane 1) — ran the discriminator I named an hour ago instead of leaving it named. It
   rules the story OUT, and it narrows my own withdrawal.**
   **The figure: ISM Prices Paid 71.1 in July** (vs a 71.0 estimate), **down 1.9pp from June's 73.0 — and raw
