@@ -75,6 +75,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **09:53 ICT · PROCESS — the stopping rule expired and the data is not reachable. My route was right and my
+  clock was wrong. Revised: check after 15:00, not after 09:00.**
+  At **05:53** I abandoned the VNDiamond search route and wrote that the question *"resolves TODAY by
+  observation, not by search… the market opens at 09:00 ICT."* At **08:53** I repeated it. **The route is
+  right; the timing is wrong.** The rule expired at 09:00, the session has been running 54 minutes, **and
+  the data is not reachable** — web search does not index intraday Vietnamese equity prints, and two
+  attempts this hour returned nothing from today's session.
+  **What came back instead was a bundle from different dates that contradicts itself** — one item has the
+  index slightly **down** with 56% of traded codes off more than 1%; another has it **up nearly 40 points
+  with foreigners net buying**; a third has a ~3% recovery. **They cannot all be today. Nothing from that
+  bundle is adopted.** **Third stale-or-mixed market summary in three days**, the same shape each time: true
+  facts bundled across periods.
+  **⚠ Revised expectation, which is the point of this entry: the HOSE session closes at ~15:00 ICT and
+  coverage publishes after it. Check after 15:00, not after 09:00.** Without this the next five sweeps would
+  each re-check on the hour and find nothing — **precisely the waste the 05:53 stopping rule was written to
+  prevent. I gave a resolution route and the wrong clock, and a route with a wrong time still burns
+  budget.**
+  **One undated lead, recorded as undated and NOT adopted:** ~**₫2,554bn of foreign net selling "in the
+  week"**, down >30% on the prior week, with **TCB, VPB**, VHM, VIX and ACB named among the most sold and
+  VIC, VNM, **HPG**, FPT, VCB among the most bought. **If** it is last week (27–31 Jul) it fits the
+  ~₫12,000bn July figure already on file (~₫2,800bn/week) — **the arithmetic fits but does not date it.**
+  **It matters because TCB and VPB are 45% of the book and this file carries foreign selling only in
+  aggregate and for KDH.** **For a post-close sweep to date.**
+  **Nothing modelled; no confidence moved; no valuation field changed. Trigger 5 remains live on KDH.**
+  **Portfolio impact: none. A stated resolution time was wrong and is corrected before it wasted five
+  sweeps.**
+
 - **08:53 ICT · ⚠ KDH (lane 3) — the Q2 one-offs are now ITEMISED and they EXCEED the entire quarter's
   profit. Inventory is ₫29,488bn, not the ">₫23,000bn" on file, and it grew 27% while revenue fell 75%.**
   **Checked whether any holding had filed its H1 REVIEWED statement early** — the 14-Aug deadline logged

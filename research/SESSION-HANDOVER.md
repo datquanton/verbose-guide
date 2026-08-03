@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 08:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 09:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,24 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 09:53 — stopping rule expired, data NOT reachable: check after 15:00, not 09:00
+
+**My route was right and my clock was wrong.** At 05:53 the VNDiamond search route was abandoned with
+*"resolves TODAY by observation… market opens 09:00 ICT"*. The session has run 54 minutes and **web search
+does not index intraday Vietnamese equity prints** — two attempts returned nothing from today.
+
+- **⚠ REVISED: the HOSE close is ~15:00 ICT and coverage publishes after it. Check after 15:00.** Without
+  this the next five hourly sweeps each re-check and find nothing — the exact waste the stopping rule
+  existed to prevent. **A route with a wrong time still burns budget.**
+- **Nothing adopted from the results:** a bundle contradicting itself across dates (index slightly down with
+  56% of codes off >1% / up ~40 points with foreigners net buying / ~3% recovery). **Third mixed-date market
+  summary in three days.**
+- **Undated lead, NOT adopted:** ~**₫2,554bn foreign net selling "in the week"**, down >30% on the prior
+  week, **TCB, VPB**, VHM, VIX, ACB most sold; VIC, VNM, **HPG**, FPT, VCB most bought. Fits the ₫12,000bn
+  July run-rate (~₫2,800bn/wk) **but is not dated.** **TCB + VPB are 45% of the book and the file carries
+  foreign selling only in aggregate and for KDH.** **For a post-close sweep to date.**
+- **Trigger 5 remains live on KDH. Nothing modelled; no confidence moved.**
 
 ### ⚠ 03-Aug 08:53 — KDH's Q2 one-offs EXCEED the quarter's profit; inventory is far larger than the file had
 
