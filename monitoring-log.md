@@ -78,6 +78,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **18:53 ICT · SELF-AUDIT (lane 6 sweep found it) — the one document written for a reader who won't
+  check the others has been showing the PRE-CORRECTION rankings all day, and I updated its header seven times
+  without looking three lines below it.**
+  **How it surfaced.** A lane-6 sweep returned street target prices, so I computed the model's *own* implied
+  targets to compare — and the `mu_raw` figures I derived did not match the ones I have been quoting.
+  **`DECISION-BRIEF.md` is current and correct** (my arithmetic reproduces it exactly, and `cap_now` now
+  reconciles to shares × price within **0.07% on all eight** — the 02-Aug fix works). **`SESSION-HANDOVER.md`
+  §1 was not.**
+
+  | | Handover (stale) | Brief (current) | |
+  |---|---|---|---|
+  | **TCX** | +18.5%, **ADD +5.6pp** | **−11.2%, TRIM −3.3pp** | **rank 1 → 7; the action REVERSES** |
+  | VCI | +4.3%, hold | −11.3%, **ADD +6.7pp** | hold → add |
+  | VPX | +15.0%, hold | −0.0%, **ADD +5.6pp** | hold → add |
+  | VPB | +1.0%, **ADD +5.4pp** | −13.9%, **hold** | add → hold |
+  | MBB | +8.8% | **+36.6%** | rank 4 → **1** |
+  | HPG | +10.6% | +6.3% | — |
+  | KDH | +8.1% | +3.5% | — |
+  | TCB | +3.4% | +4.0% | — |
+
+  Confidences were stale too (TCX 0.80 vs 0.75, MBB 0.55 vs 0.50).
+  **The numbers went stale on 02-Aug with the `cap_now` repair — the same repair whose whole point was that
+  every market cap was wrong.** I corrected the engine and did not propagate the correction to the summary of
+  the engine.
+  **WHY THIS IS THE WORST PLACE FOR IT TO HAPPEN.** The handover's own opening line says it exists *"so a
+  reader arriving cold knows where things stand without reading 108 commits."* **It is the one document
+  written for someone who will not check the others**, and its §1 is headed *"What the engine currently
+  says."* It did not. A reader would have taken **TCX as the top-ranked ADD** when the engine now wants it
+  **trimmed** — and TCX is precisely the name whose `cap_now` was 27.9% too small.
+  **AND THE HEADER MADE IT LOOK MAINTAINED.** I stamped this file at 11:53, 12:53, 13:53, 14:53, 15:53, 16:53
+  and 17:53 today, writing a dated "what changed" paragraph each time. **Seven touches, none of which read the
+  table below.** **Appending to a document is not maintaining it — and a fresh timestamp on a stale body is
+  worse than an obviously old file, because it removes the reader's only cue to distrust it.**
+  **Fixed:** §1 regenerated from the brief, with the reversal flagged in place rather than silently
+  overwritten, plus two things a human should see there — that **MBB now leads by 14pp of shrunk return while
+  having NO driver model** (branches typed in, `run.py` builds scenarios for six names and not MBB), and that
+  item 2's ~20-July finding means E[r] is more likely understated than overstated.
+  **Nothing modelled.** No belief file touched; this was a derived summary made to match its source.
+  **Escalation check: none of the five fire** — the ranking did not change today, it changed on 02-Aug and
+  the brief recorded it correctly at the time.
+
+- **18:53 ICT · STREET (lane 6) — the target prices are unusable as found, and the one case where this file
+  already knows the adjustment REVERSES the comparison.**
+  Undated broker targets returned this sweep: **HPG ₫36,000 (SSI) / ₫36,200 (SHS) / ₫30,150 (VPBankS); TCB
+  ₫39,000 (Agriseco); MBB ₫37,230 (VCBS)**. Against the model's own probability-weighted implied targets —
+  **HPG ₫22,127, TCB ₫29,711, MBB ₫30,140** — the street looks **24–64% higher across the board**, which
+  would be a striking systematic gap.
+  **It is not usable, for two independent reasons, and the second is the interesting one.**
+  **(1) They are undated.** Not one carries a publication date in the result set, and this file has now been
+  caught by stale vintages seven times in eight days.
+  **(2) CORPORATE ACTIONS. This file already knows the adjustment for TCB and it flips the sign.** The brief's
+  own TCB evidence cell records that *"consensus TP is quoted pre-60%-bonus."* Adjusting ₫39,000 for the 60%
+  bonus gives **≈₫24,375 — BELOW the model's ₫29,711, not 31% above it.** The same problem applies to MBB,
+  which has a **15% stock dividend and a 10:1 rights issue at ₫10,000** pending: ₫37,230 adjusts to **≈₫32,374
+  before the rights**, and lower after. **HPG has no pending action on file, so its ₫36,000–36,200 may be
+  comparable — and it is the one that is 63% above the model.**
+  **Nothing adopted.** A target price is a *post-adjustment* number only if you know which corporate actions
+  it precedes, and for two of three names here the adjustment is larger than the apparent gap. **Recorded as a
+  method result, not a valuation input:** the honest statement is that **the model is far more conservative
+  than the street on HPG, and that the TCB and MBB comparisons cannot be made at all until the TPs are dated
+  and their adjustment basis established.** *(Route for later: broker reports carry issue dates; the gap is a
+  dating problem, not a research problem.)*
+
 - **17:53 ICT · SELF-AUDIT (following the lane-2 finding above) — I ran the new rule against every
   suppressing negative on file, and it produced a DATE for the price staleness.**
   **The audit.** The rule just written says a negative result may suppress future searching only if it names
