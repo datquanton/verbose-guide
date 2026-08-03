@@ -75,6 +75,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **08:53 ICT · ⚠ KDH (lane 3) — the Q2 one-offs are now ITEMISED and they EXCEED the entire quarter's
+  profit. Inventory is ₫29,488bn, not the ">₫23,000bn" on file, and it grew 27% while revenue fell 75%.**
+  **Checked whether any holding had filed its H1 REVIEWED statement early** — the 14-Aug deadline logged
+  this morning is a maximum, not a date. **None has.** The gate stands. But the search returned the profit
+  composition, which is worth more.
+  **The itemisation.** Q2/2026 profit included **~₫22bn** from the difference between transfer price and net
+  asset book value, plus **nearly ₫875bn** related to **capital transfer transactions**. **That is ₫897bn of
+  identified one-offs against a Q2 NPAT of ₫770bn — the one-offs are 116% of the quarter's entire profit.**
+  **⚠ Basis caveat, stated before the conclusion because it changes its size.** It is **not established**
+  whether the ₫875bn and ₫22bn are **pre-tax or post-tax**, while the ₫770bn NPAT is post-tax.
+
+  | reading | one-offs, post-tax | residual from everything else |
+  |---|--:|--:|
+  | if the ₫897bn is **pre-tax** (20%) | ~₫718bn | **+₫52bn** |
+  | if the ₫897bn is **post-tax** | ₫897bn | **−₫127bn** |
+
+  **Either way the underlying business contributed between a trivial amount and a loss — and the range
+  between those two readings is the entire operating result.** **The −₫127bn is not the finding; the range
+  is.**
+  **It reconciles with what was already on file.** `q2_financial_income` is **₫906bn** against **₫897bn** of
+  itemised one-offs — a **1% difference**, so **the financial-income line and the one-off items are the same
+  money seen two ways.** That corroborates both and closes a loop the file had left open.
+  **⚠ And the balance sheet moves the other way from the income statement.** **Total assets ₫39,471bn at
+  30-Jun, +16% from end-2025. Inventory ₫29,488bn, +27% YTD** — the file carried *"inventory above
+  ₫23,000bn"*, so this is **both an update and a much larger number.** **Inventory +27% while H1 revenue fell
+  75%** (₫442bn against ₫1,759bn in H1/2025). **The company is accumulating unsold product at an
+  accelerating rate while its sales line collapses, funded by the ₫6,500bn of additional borrowing already
+  on file. That is the operating picture the one-off gains are masking.**
+  **New bases recorded**, neither previously on file: **H1/2025 revenue ₫1,759bn** and **Q2/2025 NPAT
+  ~₫196bn** (from the +293% growth on ₫770bn).
+  **Confidence held at 0.55.** This **sharpens a picture the file already had** — core collapse masked by
+  one-offs — rather than changing an input, and **KDH's branches need re-derivation (item 4), which a scalar
+  cannot substitute for.** **Nothing modelled.**
+  **Stopping rule observed: no VNDiamond searches — it is 08:53 and the market opens at 09:00.**
+  Sources: [Q2 composition: ~₫22bn book-value difference + ~₫875bn capital transfers; inventory ₫29,488bn +27%; total assets ₫39,471bn +16%; H1/2025 revenue ₫1,759bn](https://baomoi.com/nha-khang-dien-lai-lon-nho-m-a-du-no-vay-tang-them-6-500-ty-dong-trong-nua-nam-c55727459.epi)
+  **Portfolio impact: KDH is 20.3%. Its Q2 one-offs exceed its Q2 profit, and inventory grew 27% against a
+  75% revenue fall — the two halves of the statement point in opposite directions.**
+
 - **08:02 ICT · ⚠ WEEKLY DATA REFRESH, first run — STEP 1 finds nothing newly filed, and the filing-calendar
   check it asks for exposed a gate ELEVEN DAYS AWAY that this file does not carry.**
   **STEP 1 — nothing new filed.** All eight Q2/2026 statements are in (HPG 29-Jul, KDH 30-Jul, MBB 31-Jul,

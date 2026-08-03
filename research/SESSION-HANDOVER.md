@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 08:02 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 08:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,32 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 08:53 — KDH's Q2 one-offs EXCEED the quarter's profit; inventory is far larger than the file had
+
+**No holding has filed its H1 reviewed statement early — the 14-Aug gate stands.** But the check returned
+the Q2 profit composition.
+
+**~₫875bn of capital-transfer gains + ~₫22bn of transfer-price-vs-book-value = ₫897bn of one-offs, against
+Q2 NPAT of ₫770bn — 116% of the quarter's entire profit.**
+
+| reading | one-offs post-tax | residual from everything else |
+|---|--:|--:|
+| ₫897bn is **pre-tax** (20%) | ~₫718bn | **+₫52bn** |
+| ₫897bn is **post-tax** | ₫897bn | **−₫127bn** |
+
+**Basis not established. The range IS the finding — do not quote the −₫127bn alone.** The **14-Aug reviewed
+statement will state the tax treatment**, so this collapses on a known date.
+
+- **Corroboration both ways:** `q2_financial_income` on file is **₫906bn** vs **₫897bn** itemised — a **1%**
+  match, so they are the same money seen two ways.
+- **⚠ Balance sheet moves opposite to the income statement:** **inventory ₫29,488bn, +27% YTD** (file had
+  *"above ₫23,000bn"*) and **total assets ₫39,471bn, +16%** — **inventory +27% while H1 revenue fell 75%**
+  (₫442bn vs ₫1,759bn), funded by the ₫6,500bn of extra borrowing already on file. **That is what the
+  one-off gains are masking.**
+- **New bases:** H1/2025 revenue **₫1,759bn**; Q2/2025 NPAT **~₫196bn**.
+- **Confidence held at 0.55** — sharpens a known picture rather than changing an input; **branches need
+  re-derivation (item 4)**, which a scalar cannot substitute for.
 
 ### ⚠ 03-Aug 08:02 — WEEKLY REFRESH run 1: nothing filed, but a filing gate is 11 DAYS AWAY and uncalendered
 
