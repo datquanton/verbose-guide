@@ -14,6 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
+| **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
@@ -77,6 +78,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **21:53 ICT · MACRO (lane 1) — the US print lands, and it restores the support I downgraded eight hours
+  ago. Two other chains from the same number are refused outright.**
+  **A dated catalyst this file named on 02-Aug, resolved on its day** (21:53 ICT = 10:53 ET, 53 minutes after
+  the 10:00 ET release). **US ISM Manufacturing PMI for July: 55.6**, from **53.3** in June, against a
+  **54.0** consensus — **the highest since May 2022.** Production **58.5** (from 52.2); **Employment 52.8**
+  (from 49.7) — **the first expansionary reading in nearly three years**; backlog of orders **55.0**. Seventh
+  straight month of expansion. Two independent sources, one the ISM release itself.
+  **THE ONE CHAIN THAT MATTERS HERE, AND IT CLOSES A LOOP I OPENED AT LUNCHTIME.** At **12:53** today the
+  Vietnam July CPI print was recorded as **loosening the inflation side** of the *"SBV is boxed in on two
+  sides"* conclusion while leaving the FX side alone — and that was logged explicitly as a **downgrade**,
+  because the FX side is the **inferred** support and inflation was the **measured** one. **A US
+  manufacturing survey at a four-year high, beating consensus, with employment back in expansion, makes a Fed
+  CUT less likely** — on top of a 30-Jul FOMC that held with **three HIKE dissents**. **So the support I
+  downgraded this morning is partially restored, and restored by a measured US data point rather than by more
+  inference about Vietnam.** *"Funding-cost relief is not coming from policy"* — which bears on **51.5% of
+  this book** and on TCB's NIM guidance — **stands better tonight than it did at 12:53.**
+  **Stated as what it is: ISM → Fed → USD → VND is a multi-step inference chain.** Every step is plausible and
+  **none of them is measured here.** Recorded as an inference. It moves nothing.
+  **TWO CHAINS REFUSED, BOTH BECAUSE THIS FILE HAS ALREADY BEEN BURNED ON THEM.**
+  **(1) US steel prices are not HPG's realised price.** Strong US manufacturing supports US steel prices — and
+  `_HRC_BENCHMARK_TRAP_2026_07_28` exists precisely because **US Midwest HRC at $1,169 was once confused with
+  the Asian benchmark at $539.** Different markets; **HPG sells into the second.** This print does not reach
+  HPG's spread.
+  **(2) ISM is not the domestic steel industry the ITC evaluates.** The tempting inference: manufacturing at a
+  four-year high with employment expanding is **evidence against material injury**, which would bear on the
+  **rebar ITC final injury vote in mid-to-late September** and on the **CORE circumvention preliminary
+  determination intended 24-Aug**. **It does not survive the entity check.** ISM is an economy-wide survey of
+  purchasing managers; an ITC injury determination examines **the domestic steel industry's own** production,
+  shipments, capacity utilisation, employment and prices. **And the ITC has already voted affirmative on
+  Algeria in the same petition.** Disarmed, not weakened.
+  **And the volume-versus-spread bar, applied for the second time today.** Even read purely as demand, this
+  reaches **tonnage**. HPG's binding variable is the **spread** — core NPAT/tonne, bear branch ₫1.25m — and
+  the 11:53 Vietnam PMI entry was barred from relieving the spread case for exactly this reason. **The same
+  bar applies.**
+  **Nothing modelled.** No price, probability, branch or confidence touched.
+  **Escalation check: none of the five fire.**
+  Sources: ISM/PR Newswire release, investinglive (55.6 vs 54.0 estimate) — mutually consistent. *A
+  seekingalpha headline about ISM "rising less than expected in August as production ebbs" was returned in the
+  same result set and **not used**: it describes a different month and does not match this release. Eighth
+  period trap disarmed.*
 
 - **20:53 ICT · BANKS (lane 3) — item 26 answered as far as arithmetic can answer it, and the answer runs
   AGAINST the alarm that opened it. The provisioning flattery is real and it is not big enough to save the
