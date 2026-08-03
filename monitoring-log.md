@@ -78,6 +78,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **20:53 ICT · BANKS (lane 3) — item 26 answered as far as arithmetic can answer it, and the answer runs
+  AGAINST the alarm that opened it. The provisioning flattery is real and it is not big enough to save the
+  branches.**
+  **What item 26 has said since 02-Aug:** reported bank PBT is provisioning-driven and *"the branches are
+  anchored to a flattered base."* True — and it never asked the next question, which is arithmetic and not
+  judgment: **if you strip the flattery entirely, what happens to the branches?**
+  **Step 1 — the H1 P&L on a PPOP basis, all three derived from filed TOI/opex/PBT** (`PPOP = PBT +
+  provisions`, provisions = `TOI − opex − PBT`; the MBB derivation was validated to 0.01% on 02-Aug):
+
+  | | H1 PPOP | H1 provisions | Intensity now | Prior-year | Δ |
+  |---|---:|---:|---:|---:|---:|
+  | TCB | ₫20,099bn | ₫1,599bn | **8.0%** | 12.3% | −4.4pp |
+  | MBB | ₫27,891bn | ₫7,703bn | **27.6%** | 32.9% | −5.2pp |
+  | VPB | ₫34,479bn | ₫15,579bn | **45.2%** | 52.8% | −7.6pp |
+
+  Reverting each to its own prior-year intensity costs **−4.7% / −7.2% / −13.8% of reported H1 PBT** — and by
+  construction returns PBT growth to PPOP growth (+16.7 / +17.9 / +44.6%), which is the 5.8 / 9.2 / 23.4pp
+  already on file. **The distortion in the GROWTH RATE is confirmed exactly.**
+  **Step 2 — and here the conclusion turns. Flat-H2 FY PBT against the branches** *(flat H2 is the
+  conservative case: Vietnamese bank profit is second-half weighted; branch PBT = `fy26e_npat / 0.8`, the
+  20% CIT convention this file already uses for MBB)*:
+
+  | | Flat-H2 FY PBT **as reported** | **with provisioning normalised** | bear | base | bull |
+  |---|---:|---:|---:|---:|---:|
+  | TCB | 37,000 | **36,124** | 31,118 | 33,230 | 34,891 |
+  | MBB | 40,376 | **38,915** | 35,000 | 38,125 | 41,250 |
+  | VPB | 37,760 | **35,148** | 26,898 | 30,682 | 33,000 |
+
+  **TCB and VPB clear their BULL branch even with every basis point of provisioning relief removed** (+3.5%
+  and +6.5% above bull). **MBB clears BASE and falls 5.7% short of bull.** Normalisation closes only **42% of
+  TCB's overshoot and 55% of VPB's — and the overshoot survives in both.**
+  **THE INVERSION, STATED PLAINLY.** Item 26 reads as a warning that the branches may be too **high**. **The
+  arithmetic says they are too LOW, and provisioning normalisation closes only part of the gap.** Both things
+  are true at once and they are not in tension: the *growth rate* is genuinely flattered, and the *level* is
+  high enough that the branches are wrong regardless of the flattery. **Recording this because item 26 is
+  user-directed and the honest answer is not the one the question implied.**
+  **Step 3 — the inverse, which is the decision-useful number. What H2 provisioning intensity would each bank
+  need for its branches to be right?**
+
+  | | now | prior-year | **needed for BASE** | needed for BEAR | base ÷ prior |
+  |---|---:|---:|---:|---:|---:|
+  | TCB | 8.0% | 12.3% | **26.7%** | 37.2% | **2.17×** |
+  | MBB | 27.6% | 32.9% | **35.7%** | 46.9% | **1.08×** |
+  | VPB | 45.2% | 52.8% | **65.8%** | 76.7% | **1.25×** |
+
+  **This separates the three banks in a way nothing on file does.** **MBB's base branch needs H2 provisioning
+  just 8% above last year's intensity — entirely credible**, and MBB is the bank whose NPL *balance* rose 27%
+  against loans +13.2%. **TCB's base branch needs 2.17× its prior-year intensity and 3.3× its current** — a
+  credit event, not a normalisation. **VPB's needs 65.8%, 13pp above a prior year that was already the
+  heaviest of the three.**
+  **THE ASYMMETRY I HAVE NOT TESTED, AND IT IS THE RIGHT PLACE TO BE CAUTIOUS.** I tested reversion **to last
+  year**, because that is the only normalisation the data supports without judgment. **Deterioration BEYOND
+  last year is not modelled and is not implausible** — TCB's Group 2 loans are +46% and corporate bonds +80%,
+  MBB's NPL balance +27%, VPB's Group 4 doubtful debt +44.5%. **Every credit pipeline is deteriorating.** For
+  TCB that gap is enormous (8.0% now against 26.7% needed); for MBB it is 8pp of intensity. **So the correct
+  reading is: MBB's branches are defensible under a plausible credit-stress scenario, and TCB's and VPB's are
+  not on any provisioning assumption short of a genuine credit event.**
+  **Also stated: "flat H2" is harsh on PPOP while the reversion is harsh on provisions**, so the normalised
+  column is conservative on one axis and aggressive on the other — it is a bound-setting exercise, not a
+  forecast.
+  **NOTHING MODELLED. No branch, probability, confidence or price touched.** Branch re-derivation is human-only
+  under charter §4 and this is the GATHER stage. Item 26 updated with all three tables so the human making
+  that call has the arithmetic rather than the adjective.
+  **Escalation check: none of the five fire.** No input changed; this is analysis of figures already filed.
+
 - **19:53 ICT · SELF-AUDIT (third of the day, and it found the biggest one) — the 02-Aug `cap_now` repair
   invalidated every hand-written document that quotes an engine number, and I have now found three. The
   harshest table in the repo understates its own conclusion by 25pp of the book.**
