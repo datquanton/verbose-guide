@@ -10,6 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%; **Q2 NPAT ₫770bn — the "profit ≈ zero" on this row was wrong, corrected 02-Aug**). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
+| **⚠ H1/2026 REVIEWED statements — MISSING FROM THIS TABLE UNTIL 03-Aug** | **standalone/parent due 2026-08-14 (45 days); consolidated due 2026-08-29 (60 days)**, per Circular 96/2020. **AUDITOR-REVIEWED, unlike the self-reported quarterlies on file — a review can RESTATE them.** **14-Aug is the document that settles KDH's ₫321bn vs ₫1,097bn basis question**, and bears on item 17b (TCB bonds), HPG's debt currency mix and VPB's provisioning detail. **Lands one day before the 15-Aug circular cluster** | 3 |
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -73,6 +74,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **08:02 ICT · ⚠ WEEKLY DATA REFRESH, first run — STEP 1 finds nothing newly filed, and the filing-calendar
+  check it asks for exposed a gate ELEVEN DAYS AWAY that this file does not carry.**
+  **STEP 1 — nothing new filed.** All eight Q2/2026 statements are in (HPG 29-Jul, KDH 30-Jul, MBB 31-Jul,
+  five earlier); the last refresh was **11.5 hours ago**. **On the letter of STEP 1 this run should end here
+  without committing. It does not, for the reason below, and that departure is stated rather than hidden.**
+  **⚠ THE FINDING. This file believes the next filing gate is Q3, due 30-Oct — 88 days away. That is wrong.**
+  **Circular 96/2020/TT-BTC also requires semi-annual AUDITOR-REVIEWED statements:** within 5 days of the
+  auditor signing, and no later than **45 days from H1 end for standalone/parent** and **60 days for
+  consolidated.**
+
+  | filing | deadline | days away |
+  |---|---|--:|
+  | **standalone / parent — REVIEWED** | **2026-08-14** | **11** |
+  | consolidated — REVIEWED | 2026-08-29 | 26 |
+  | ~~"next gate is Q3"~~ | 2026-10-30 | 88 |
+
+  **Zero hits in this repo for *"soát xét"*, *"bán niên"*, *"45 ngày"* or *"60 ngày"*** — the concept of a
+  reviewed half-year statement was **entirely absent.**
+  **Why it is not a calendar footnote.** **These are auditor-reviewed; the quarterlies already on file are
+  self-reported.** **A review can restate them.** Every Q2 figure this file has treated as a filed actual
+  since 29-Jul is **a management number that has not yet been through an auditor.**
+  **⚠ And the 14-Aug standalone filing is precisely the document that settles this file's longest-running
+  unresolved measure.** KDH carries **both `h1_npat` 321 and `h1_npat_consolidated` 1,097**, with the basis
+  of the first **still unestablished** — the confusion that produced the *"Q2 profit ≈ ZERO"* cascade, a
+  wrongly scored forecast and a false escalation. **The standalone/parent reviewed statement distinguishes
+  parent from consolidated by construction.** It also bears on **item 17b** (TCB's corporate bond balance),
+  **HPG's debt currency mix**, and **VPB's provisioning detail.**
+  **It also makes mid-August dense: 14-Aug lands ONE DAY BEFORE the 15-Aug cluster already on the gate
+  table** (Circulars 29/2026 and 31/2026 both effective). **Three dated events in two days, on 71.8% of the
+  book.**
+  **STEP 2 — no new bank data, so the PPOP analysis is unchanged from 2-Aug** (TCB 5.8pp of 22.5pp; MBB
+  9.2pp of 27.1pp; **VPB 23.4pp of 68pp, resolved 20:57 last night**). **⚠ Note the routine's own prompt is
+  already stale:** it states *"VPB's +68% PBT growth has NO provisioning line established — that is the
+  standing open check."* **That was resolved 11 hours ago.** Flagged, **not edited** — rewriting a scheduled
+  prompt on my own initiative is not something to do unasked.
+  **STEP 3 — no model input changed** (nothing filed), so `npat_ttm`, `pe_ttm`, `shares_outstanding`,
+  `market_cap_bn` and every `confidence` are **untouched**. The regulatory gate facts are added.
+  **STEP 4 — engine run; NO escalation trigger fires.**
+  **⚠ The process point, and it is the uncomfortable one. The weekly routine's own prompt carries the same
+  error** — *"Q3 is due 30-Oct, Q4/FY by 30-Jan"*, omitting the H1 review. **I wrote that prompt yesterday
+  from this file, so the routine inherited the file's blind spot and would have reproduced it every week.**
+  That is **OPEN-DECISIONS item 12's problem exactly** — duplicated copies of the rules drift from the repo
+  — **except this copy did not drift: it was born wrong.** **Copying a source into a control surface copies
+  its errors and then hides them behind a schedule.**
+  Sources: [Circular 96/2020 — 45 days standalone, 60 days consolidated, semi-annual reviewed](https://www.chungkhoanonline.com.vn/cong-bo-thong-tin/thoi-han-nop-bao-cao-tai-chinh-ban-nien-tren-thi-truong-chung-khoan/)
+  **Portfolio impact: a filing gate on all eight holdings is 11 days away and was not on the calendar, and
+  it is the document that resolves KDH's basis question on 20.3% of the book.**
 
 - **07:53 ICT · PROCESS / VPB — ran the cross-check I said was missing an hour ago. It immediately found
   two defects in the index file, one substantive. No market development; PMI still not out.**

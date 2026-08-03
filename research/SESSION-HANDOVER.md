@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 07:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 08:02 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,37 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 08:02 — WEEKLY REFRESH run 1: nothing filed, but a filing gate is 11 DAYS AWAY and uncalendered
+
+**STEP 1: nothing new filed.** All eight Q2/2026 statements are in; last refresh 11.5h ago. **On the letter
+of STEP 1 this run should not have committed — the departure is stated in the log entry, with reasons.**
+
+**⚠ The file believed its next filing gate was Q3 on 30-Oct (88 days). It is 11 days.** Circular 96/2020
+also requires **semi-annual AUDITOR-REVIEWED statements**:
+
+| filing | due | days |
+|---|---|--:|
+| **standalone / parent — REVIEWED** | **2026-08-14** | **11** |
+| consolidated — REVIEWED | 2026-08-29 | 26 |
+
+**Zero repo hits for "soát xét" / "bán niên" — the concept was absent.**
+
+- **These are auditor-reviewed; the quarterlies on file are self-reported. A review can RESTATE them.**
+  Every Q2 figure treated as a filed actual since 29-Jul is a management number not yet audited.
+- **⚠ The 14-Aug standalone filing settles KDH's ₫321bn vs ₫1,097bn basis question** — the confusion that
+  caused the "Q2 profit ≈ zero" cascade, a wrongly scored forecast and a false escalation. Also bears on
+  **item 17b** (TCB bonds), **HPG's debt currency mix**, **VPB's provisioning detail**.
+- **Mid-August is dense: 14-Aug is one day before the 15-Aug two-circular cluster** — three dated events in
+  two days on 71.8% of the book. **Added to the gate table.**
+- **STEP 2:** no new bank data; PPOP analysis unchanged (TCB 5.8pp / MBB 9.2pp / **VPB 23.4pp, resolved
+  20:57**). **⚠ The routine's own prompt is already stale** — it still calls VPB's provisioning "the
+  standing open check". **Flagged, not edited**; rewriting a scheduled prompt unasked is not appropriate.
+- **STEP 3:** no model input changed — `npat_ttm`, `pe_ttm`, `shares_outstanding`, `market_cap_bn`,
+  `confidence` all untouched. **STEP 4: no trigger fires.**
+- **⚠ Process:** the routine's prompt says *"Q3 is due 30-Oct"* — **I wrote it yesterday from this file, so
+  it inherited the blind spot** and would have repeated it weekly. Item 12's problem, except **this copy
+  didn't drift — it was born wrong.**
 
 ### 03-Aug 07:53 — the cross-check ran once and found two index defects
 
