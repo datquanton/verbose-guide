@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 06:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 07:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,28 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 07:53 — the cross-check ran once and found two index defects
+
+**Applied the 06:53 lesson** (*grep OPEN-DECISIONS for a holding whenever a sweep records a figure about
+it*), retroactively over 24 hours.
+
+- **⚠ Item 11 was materially mis-stated.** It says `run.py` is wrong to call FE Credit NPL formation the
+  swing factor, since FE Credit is 0.8% of profit. **Both halves are true of different lines:** FE Credit's
+  H1 provisions were **₫6,158bn of ₫15,579bn group — 39.5% of the credit charge** — for **₫152.6bn = 0.81%
+  of PBT.** **It consumes ~49× more of the charge than it contributes of the profit.** `run.py` is wrong
+  about profit and **defensible about provisioning**; the fix is to **name the line**, not delete the claim.
+  **Second-order, for item 26:** a subsidiary taking 39.5% of the charge for 0.8% of profit is exactly where
+  provisioning flattery can originate.
+- **⚠ Items 19 and 20 each exist twice** (§1/§4 = MBB branches, KDH land-use fee; CFA section = λ,
+  volatility corridors). **Log entries and commits cite them ambiguously.** **Fixed by disambiguation, not
+  renumbering** — the log and git history are append-only and already cite those numbers. Read the CFA ones
+  as **CFA-19 … CFA-23**; every pre-03-Aug reference means the §1/§4 item. **New items number from 24 up.**
+- **Fifth instance of a quantity/link recoverable from what the file already held — and the FIRST caught
+  prospectively by a check** rather than by accident.
+
+**Lane clean: July PMI still not out** (June 51.8, May 52.8 on file and correct; release ~11:00 ICT).
+**Stopping rule held — no VNDiamond searches. Market opens in one hour.**
 
 ### ⚠ 03-Aug 06:53 — item 17b, "the highest-value single line in the repo", is PARTLY ANSWERED
 

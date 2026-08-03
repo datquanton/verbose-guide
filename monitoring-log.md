@@ -74,6 +74,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **07:53 ICT · PROCESS / VPB — ran the cross-check I said was missing an hour ago. It immediately found
+  two defects in the index file, one substantive. No market development; PMI still not out.**
+  **The check, from the 06:53 lesson:** *"when a sweep records any new figure about a holding, grep
+  OPEN-DECISIONS for that holding before closing."* **Run once, retroactively, against the last 24 hours.**
+  **⚠ Defect 1, substantive — item 11 was never updated, and the original framing was too strong.** Item 11
+  says `run.py` is wrong to call FE Credit NPL formation the swing factor, because *"FE Credit is 0.8% of
+  consolidated profit; the risk sits in the parent book."* **The 21:53 VPB work shows both halves are true
+  of DIFFERENT LINES:**
+
+  | FE Credit, H1/2026 | | share |
+  |---|--:|--:|
+  | credit provisions | ₫6,158bn of ₫15,579bn group | **39.5% of the charge** |
+  | profit contribution | ₫152.6bn of ₫18,900bn PBT | **0.81% of profit** |
+
+  **It consumes ~49× more of the credit charge than it contributes of the profit.** So **a change in FE
+  Credit's NPL formation would move group credit cost materially while barely moving reported profit —
+  which is close to what `run.py` claims, on the line that actually carries the risk.** **The correction
+  needed is narrower than item 11 stated: name the line.** The sentence is wrong about profit and defensible
+  about provisioning.
+  **And a second-order point for item 26:** because reported bank PBT is provisioning-flattered, **a
+  subsidiary consuming 39.5% of the charge for 0.8% of the profit is precisely where that flattery can
+  originate.**
+  **⚠ Defect 2, navigational — items 19 and 20 each exist TWICE.** §1/§4 carry "19 — re-derive MBB's
+  `fy26e_npat` branches" and "20 — KDH's land-use fee"; the CFA section carries a different "19 — settle λ"
+  and "20 — volatility-scaled corridors". **I have cited "item 19" and "item 20" in log entries and commit
+  messages, and those citations are ambiguous.** In a file whose own header says *"a decision system whose
+  findings cannot be found has not finished the job"*, that is a real fault.
+  **Deliberately NOT renumbered.** The monitoring log and git history are **append-only records that already
+  cite these numbers**; renumbering would silently invalidate them. **Instead a disambiguation note is added
+  at the head of the CFA section: read those as CFA-19 … CFA-23, and every pre-03-Aug reference to "item 19"
+  or "item 20" means the §1/§4 item.** New items are numbered from 24 up and do not collide.
+  **This is the fifth instance of the same species — a quantity or a link recoverable from what the file
+  already held — but the FIRST one caught PROSPECTIVELY by a check rather than by accident.** The four
+  before it (`cap_now`, KDH's percentage pair, MBB's provisions, item 17b) were all found because something
+  else forced them.
+  **Lane check clean:** **July PMI is still not published** — June **51.8** and May **52.8** are on file and
+  correct, release is ~11:00 ICT today. **Held to the 05:53 stopping rule: no VNDiamond searches. Market
+  opens in one hour.**
+  **Nothing modelled; no confidence moved; no valuation field changed.**
+  **Portfolio impact: none directly. An open item on a 10% position was materially mis-stated and is now
+  corrected, and the index's own references are no longer ambiguous.**
+
 - **06:53 ICT · ⚠ TCB (lanes 3, 5) — OPEN-DECISIONS item 17b, "the highest-value single line in the repo",
   is PARTLY ANSWERED — and the answer entered this file yesterday from a different article. Fourth instance
   of a quantity recoverable from what was already held.**

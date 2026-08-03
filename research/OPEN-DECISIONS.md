@@ -41,7 +41,7 @@ Ordered by what it costs to leave undone.
 |---|---|---|
 | 9 | **Build driver models for MBB and VCI in `run.py`. ← the case strengthened 31-Jul.** | 9.6% of the book has `fy26e_npat` typed in with nothing deriving it. MBB is the joint-largest proposed add. Inverting the branches showed they are *coherent* — the problem is they cannot be stress-tested. **Two things changed with MBB's Q2 filing.** (a) The blocker is gone: there is now a filed half-year supplying loans (+13.2% YTD), NIM (4.03% 12m rolling), NPL (1.45%) and coverage (93.63%) as actuals — the reason 28-Jul gave for *deliberately not building it yet* has expired. (b) The cost is now visible rather than theoretical: **a +40% quarter moved MBB's expected return by zero**, because no driver connects the print to the branches. See item 19. |
 | 10 | **Wire `ftse_event_tree` into `decide.py`, or label it narrative.** | It is read only by `run.py` and printed into the snapshot. Its +6.25% never reaches expected returns or weights. VCI's stated bull case is "an EVENT bet" and the event is absent from VCI's numbers. |
-| 11 | **Correct the FE Credit attribution printed by `run.py`.** | The line says FE Credit NPL formation is the swing factor. FE Credit is 0.8% of consolidated profit; the risk sits in the parent book. |
+| 11 | **Correct the FE Credit attribution printed by `run.py`. ← SUBSTANTIALLY REVISED 03-Aug 07:53 — the original framing was too strong, and `run.py` is closer to right than this item said.** | The line says FE Credit NPL formation is the swing factor. This item recorded that as simply wrong: FE Credit is 0.8% of consolidated profit, so *"the risk sits in the parent book"*. **The 21:53 VPB provisioning work shows both halves are true of DIFFERENT LINES.** FE Credit's H1/2026 provisions were **₫6,158bn against group credit provisions of ₫15,579bn — 39.5% of the entire group charge** — for a profit contribution of **₫152.6bn**, which is **0.81% of the ₫18,900bn group PBT**. **So FE Credit is immaterial to PROFIT and consumes roughly two-fifths of the CREDIT CHARGE.** A change in its NPL formation would move group credit cost materially while barely moving reported profit — **which is close to what `run.py` claims, on the line that actually carries the risk.** **The correction needed is therefore narrower than this item originally stated: name the line.** "FE Credit NPL formation is the swing factor" is wrong about profit and defensible about provisioning, and the printed text should say which. **Note the second-order point for item 26:** because reported bank PBT is provisioning-flattered, a subsidiary consuming 39.5% of the charge for 0.8% of the profit is precisely where that flattery can originate. |
 | 12 | **Replace the two scheduled-routine prompts.** | The live hourly prompt keeps its own copy of the lanes, the broker estimates and the run rules, and those copies have drifted from the repo. Drafts are written and ready to paste. |
 
 ## 4 · Reads that take one line off a filed statement
@@ -118,6 +118,13 @@ so these ratios are, if anything, harsher than the truth. Fixing item 3 above wo
 ---
 
 ## Five more, from the CFA Level III toolkit — added 2026-07-29
+
+> **⚠ NUMBERING COLLISION, flagged 03-Aug 07:53 — read the items in this section as CFA-19 … CFA-23.**
+> This section's items **19–23 duplicate the numbers of items 19 and 20 in §1 and §4** (MBB's `fy26e_npat`
+> branches, and KDH's land-use fee). **Every reference to "item 19" or "item 20" in the monitoring log and
+> in commit messages before this date means the §1/§4 item, not the CFA one.** They are **deliberately not
+> renumbered**: the log and the git history are append-only records that already cite these numbers, and
+> renumbering would silently invalidate them. **New items are numbered from 24 upward and do not collide.**
 
 `python3 research/models/cfa.py`; written up in `research/models/CFA-TOOLKIT.md`. Ten standard
 institutional tests, run against the actual holdings. All diagnostic — nothing there changes a
