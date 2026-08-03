@@ -14,6 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
+| **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
@@ -75,6 +76,78 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **14:53 ICT · OWNERSHIP (lane 7) — one VCI filing does three different things, and they do not all point
+  the same way.**
+  **The fact.** **Tô Hải**, a member of Vietcap's Board (*Thành viên HĐQT* per the filing), has **registered
+  to buy 31,050,000 VCI shares between 04-Aug and 02-Sep-2026**, by matched order or negotiated deal, stated
+  as personal investment. That takes him from **174.3m shares / 15.13%** to **205.3m / 17.83%** — about
+  **₫612bn**. Multiple T5 outlets, mutually consistent on every figure.
+
+  **(1) It confirms this file's VCI share count, by a route unrelated to how the count was derived.**
+  174.3m ÷ 0.1513 = **1,151.9m**. 205.3m ÷ 0.1783 = **1,151.4m**. The file carries **1,152,240,000**, from
+  charter capital ÷ ₫10,000 par. **Agreement to within 0.07% on two independent ratios.** The `cap_now` fix of
+  02-Aug — market cap must be shares × price — now has **external** confirmation on one of the eight rather
+  than only internal arithmetic. **And the method repeats:** this is the **second** share count recovered from
+  a disclosed ownership *percentage*, after KDH's 0.056% → 1.838% on 01-Aug. **Two instances make it a route,
+  not an accident** — an insider filing states both a quantity and a percentage, and their ratio is a *dated*
+  share count, which is precisely the quantity whose staleness caused this session's largest error (TCX, 09:53).
+
+  **(2) It contradicts this file's VCI price — and it breaks the trough argument on its first individual test.**
+  VCI hit its **ceiling at ₫19,700 on 28-Jul** on this news (*"tăng kịch trần"*), after a preceding **floor-limit
+  fall**. **That 19,700 is a limit-up print, not a neutral close**; on HOSE's ±7% band the pre-news price was
+  near **₫18,400**. **The file carries ₫20,500.** So VCI sits **3.9% below the file's price even after
+  limit-up**, and roughly 10% below it beforehand.
+  The 02-Aug note argued prices anchored at the 24-Jul low bias expected returns **high**, and stated its own
+  limit: *"this is an INDEX argument applied to eight names."* **Here is the first individually dated
+  counterexample, and it has the opposite sign.** For VCI the file's price is too **high**, so `cap_now` is too
+  high and **VCI's expected return is UNDERSTATED**. E[r] scales as 1/price: **+4.3% → ~+8.6%** on 19,700 —
+  roughly double — and **~+16%** on a reconstructed pre-news 18,400.
+  **No price is applied, and not out of timidity.** `decide.py` ranks the eight *against each other*. Moving one
+  name to a 28-Jul basis while seven sit on a presumed 24-Jul basis makes VCI's rank incomparable and feeds a
+  mixed-date panel to an optimiser that proposes **relative** trades. **A uniform known-stale basis is safer
+  than a partially refreshed one.** **Item 2 is where this is fixed, all eight at once — and it is now THREE
+  FOR THREE.** Every dated price this file has found sits **below** its own figure: **TCX ₫39,200 vs ₫41,100**
+  (24-Jul, −4.6%), **TCB ₫28,250 vs ₫29,250** (27-Jul, −3.4%), **VCI ₫19,700 vs ₫20,500** (28-Jul, −3.9%).
+  **Three different names, three different dates, and a drift band of only 3.4–4.6% — that tightness is
+  itself evidence of a systematic DATE OFFSET rather than three name-specific moves.**
+  **AND IT REVERSES THE 02-AUG CONCLUSION FOR THE WHOLE PANEL, NOT JUST FOR VCI.** That note's premise was
+  that the prices are 24-Jul, the bottom of a four-week slide, so they are too LOW. **If they were 24-Jul,
+  dated 24–28 July observations would scatter around them. They do not — all three sit below.** The
+  explanation item 2 already floated for TCX generalises: *"₫41,100 looks like a mid-July price carried as a
+  late-July one."* **Prices taken DURING the slide are necessarily above prices at its bottom.** So the
+  presumption "the file's prices are 24-Jul" is itself probably wrong, and with it the sign of the bias:
+  **expected returns across the book are more likely UNDERSTATED than overstated.** *Three observations is
+  three, not eight — this is a strong indication and not a measurement, and the fix is still item 2.*
+
+  **(3) It argues against this file's own near-certain kill criterion, and that tension is left standing.**
+  VCI's armed criterion is *9M PBT < 55% of the FY target*, and the 27-Jul arithmetic makes it **near-certain
+  to fire in October** — 1H is ~29% of plan, so clearing it needs Q3 PBT of **2.21× the Q2 actual**. **A board
+  member committing ₫612bn of his own money points the other way.** Both can be true: the criterion tests the
+  **plan**, an insider buys the **price**, and a stock at a floor limit is cheap on either view. **Not netted
+  into a conclusion.**
+  **And the part that most qualifies the conviction reading:** coverage notes this comes *"không lâu sau khi vợ
+  thoái sạch vốn"* — **shortly after his wife fully divested her stake.** If that disposal is of comparable
+  size, **this is reallocation inside one household rather than net new family money, and the signal largely
+  cancels.** Her stake size and disposal date are **not on file and are not guessed** — recorded as an open
+  question with a named resolution (her own disclosure filing). **Same refusal as VPB's provisioning: a
+  plausible completion of a pattern is not the pattern.**
+
+  **Confidence held at 0.40, deliberately.** This is a **registration, not an execution** — the distinction the
+  file learned on KDH. Evidence quality on the VCI *thesis* (pace against a +41% plan) is unchanged by a share
+  purchase.
+  **Where the early signal comes from, and it is better here than on KDH.** He is *already* a major
+  shareholder, so no 1%-crossing event fires first as it does for KDH's buyer. **But the same rule cuts the
+  other way: 15.13% → 17.83% crosses 16% and 17%, so two intermediate disclosures should fire *during* the
+  window rather than one report after it.** *(Inference from the disclosure rule already applied to KDH, and
+  labelled as one.)* Completion report follows **02-Sep**.
+  **Escalation check: none of the five fire.** Nothing was applied, so no E[r] moved; and even a VCI-only
+  refresh to the observed 19,700 is **+4.3pp, below the 10pp threshold** — the ~+11.8pp on the reconstructed
+  pre-news price is a *derived* number and is not allowed to fire a trigger. No kill criterion fired (October
+  is when it is tested); no cap breach; VCI's evidence status unchanged; **the window opening 04-Aug is a dated
+  catalyst but VCI is a `hold`, so no proposed trade sits inside it.**
+  Sources: vietstock/fili, cafef, vietnambiz, tinnhanhchungkhoan, dnse, nguoiquansat (all T5).
+  **VNDiamond is still the only open item of the quadruple date — 15:00 ICT.**
 
 - **13:53 ICT · STEEL (lane 5) — the number at the centre of the HPG spread bridge has no source, and the
   clue was written down three days ago and read backwards.**
