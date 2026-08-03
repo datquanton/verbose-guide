@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 09:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 10:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,32 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### ⚠ 03-Aug 10:53 — foreign capital runs TWO ways; the file only had one
+
+**Zero repo hits for FDI** — while it carries extensive foreign **portfolio**-flow data and a thesis ground
+built on it.
+
+| flow | H1/2026 | per month |
+|---|--:|--:|
+| foreign **portfolio** (7M) | −₫92,000bn ≈ −US$3.52bn | **−US$0.50bn OUT** |
+| foreign **direct**, realised (6M) | **US$13.03bn, +11.2%** | **+US$2.17bn IN** |
+
+**FDI inflow is ~4.3× the portfolio outflow per month.** Best H1 in five years; **registered FDI US$34.65bn,
++61%, a record.**
+
+- **⚠ Item 5's third ground is NARROWED but SURVIVES.** *"The marginal foreign dollar has been negative for
+  four years"* is **true of portfolio flows, false of foreign capital overall.** The ground holds — the FTSE
+  event is an equity event — but the phrase now reads **"the marginal foreign PORTFOLIO dollar."**
+- **The file made this distinction once and stopped a level short:** the 31-Jul note separated *active* from
+  *passive* equity money. **Portfolio vs direct is the same discipline one level up, unapplied.**
+- **Per-name:** manufacturing took **82.6%** of realised FDI (US$10.76bn) — bears on **HPG volumes** and
+  directly on **KDH's Lê Minh Xuân industrial park**, the one non-residential segment. **Real estate took
+  just 7.4% (US$965m)** — foreign direct money is *not* going into property, consistent with KDH's
+  residential collapse.
+- **Currency:** US$13.03bn of disbursement is a dong support the 02-Aug USD/VND note lacked, with the
+  central rate at a record ₫25,338.
+- **July PMI and CPI still not published** at 10:53; both due today. **Held the no-KDH rule until 15:00.**
 
 ### 03-Aug 09:53 — stopping rule expired, data NOT reachable: check after 15:00, not 09:00
 

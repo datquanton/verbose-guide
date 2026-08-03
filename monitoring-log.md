@@ -75,6 +75,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **10:53 ICT · ⚠ MACRO (lanes 1, 4) — foreign capital runs TWO ways and this file only had one. FDI was
+  absent entirely, and it narrows a claim the file uses as a thesis ground.**
+  **Zero hits for "FDI", "foreign direct", *"vốn thực hiện"* or *"giải ngân"* anywhere in this repo** —
+  while it carries extensive foreign **portfolio**-flow data and has built an argument on it.
+
+  | flow | H1/2026 | per month | direction |
+  |---|--:|--:|---|
+  | foreign **portfolio** (7M) | −₫92,000bn ≈ −US$3.52bn | **−US$0.50bn** | **OUT** |
+  | foreign **direct**, realised (6M) | **US$13.03bn**, +11.2% | **+US$2.17bn** | **IN** |
+
+  **Normalised per month to avoid the 7M-vs-6M mismatch: FDI inflow is ~4.3× the portfolio outflow.**
+  **Realised FDI is the highest first half in five years; registered FDI is US$34.65bn, +61% YoY, a
+  record.**
+  **⚠ What this does to a claim the file uses as a thesis ground.** **OPEN-DECISIONS item 5** (re-weight or
+  retire the TCX FTSE event tree) rests partly on: *"foreigners have net sold ₫92,000bn YTD… the fourth
+  consecutive year of foreign net selling… **the marginal foreign dollar has been negative for four
+  years**, which is the assumption the tree's +20% bull branch quietly reverses."* **That sentence is true
+  of portfolio flows and false of foreign capital overall.** **The item-5 ground SURVIVES as stated** — it
+  is about equity flows and the FTSE event is an equity event — **but the generalised phrase overreaches and
+  is narrowed to "the marginal foreign PORTFOLIO dollar."**
+  **And the file already did this once, one distinction short.** The 31-Jul note carefully separated
+  **active from passive** money (*"different pools, and they must not be netted"*). **It did not separate
+  portfolio from direct.** Same discipline, one level up, not applied.
+  **Per-name relevance, which is why this is not just macro colour:**
+  **Manufacturing took 82.6% of realised FDI (US$10.76bn).** That is industrial demand — it bears on **HPG's
+  volume case** and, directly, on **KDH: the company is expanding the Lê Minh Xuân industrial park**, so FDI
+  into manufacturing is a demand driver for **the one KDH segment that is not residential.**
+  **Real estate took only 7.4% (US$965m)** of realised FDI — **foreign direct money is not going into
+  property**, which is consistent with KDH's residential collapse rather than against it.
+  **On the currency:** US$13.03bn of actual disbursement is **a support for the dong that the 02-Aug USD/VND
+  note did not have on the other side of the ledger**, with the central rate at a record ₫25,338.
+  **Top source Singapore US$7.3bn — 42.1% of new registered capital — then Korea US$5.4bn, Japan US$1.2bn,
+  China US$977m.**
+  **July PMI and CPI still not published** at 10:53; both remain due today. **Held the 09:53 rule: no
+  KDH/VNDiamond re-check before 15:00.**
+  **Nothing modelled; no confidence moved on any ticker** — macro context and a narrowing of an existing
+  claim, not a change to an input.
+  Sources: [realised FDI US$13.03bn +11.2%, highest H1 in 5 years](https://thoibaotaichinhvietnam.vn/von-fdi-thuc-hien-6-thang-dau-nam-cao-nhat-trong-5-nam-qua-200091.html) ·
+  [registered US$34.65bn +61%; sector split; Singapore 42.1%](https://tuoitre.vn/von-fdi-vao-viet-nam-6-thang-nam-2026-dat-ky-luc-hon-34-ti-usd-100260703111911931.htm)
+  **Portfolio impact: a claim underpinning item 5 is narrowed but survives; manufacturing FDI at a 5-year
+  high supports HPG volumes and KDH's industrial-park segment; property FDI at 7.4% does not support its
+  residential one.**
+
 - **09:53 ICT · PROCESS — the stopping rule expired and the data is not reachable. My route was right and my
   clock was wrong. Revised: check after 15:00, not after 09:00.**
   At **05:53** I abandoned the VNDiamond search route and wrote that the question *"resolves TODAY by
