@@ -77,6 +77,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **16:53 ICT · INDEX, FLOWS & TCX (lanes 4, 3) — post-close. The exchange's own disclosure settles the
+  share count that caused today's largest error; the index cleared the level I refused to forecast; and route
+  (c) produced its first observation, which turns out to say nothing.**
+  **1 · THE EXCHANGE SETTLES THE TCX SHARE COUNT — third confirmation, and from the highest-tier source yet.**
+  HOSE's VN30 review discloses **TCX's average market capitalisation to 30-Jun-2026 as ₫116,532bn**, Top 20 on
+  the exchange. **Compared cap to cap — no price derived**, which matters because the window straddles TCX's
+  20% stock dividend and **a cap is invariant to a stock dividend where a price is not.**
+
+  | Share count | Implied cap at the file's ₫41,100 | vs HOSE's ₫116,532bn |
+  |---|---:|---:|
+  | **Corrected — 2,773,896,000** | **₫114,007bn** | **−2.2%** |
+  | Stale listing-date — 2,311,308,021 | ₫95,005bn | −18.5% |
+
+  **It discriminates decisively, and it picks the corrected count.** This matters more than the other checks
+  because **TCX is where the error happened**: at 09:53 the stale count led me to call TCX's 2.49× P/B
+  "unreproducible", restate a live evidence string, cut confidence and push it — withdrawn at 10:53 on a
+  stock-dividend record found by search. **It now has independent arithmetic confirmation from the exchange
+  that runs the index — a higher tier than the source that produced the fix.**
+  **Second external confirmation of the `cap_now` repair today**, after VCI at 14:53. **Two of the eight are
+  now verified by unrelated documents — an insider filing and an index-review disclosure. The fix has stopped
+  being an internal arithmetic claim.**
+  **Not used as an input.** ₫116,532bn is an **average over a review window**, not a point cap; dividing it by
+  a current share count across a period in which that count changed yields a number that is not any price that
+  ever traded. **Recorded as a check.** Also confirmed: the July VN30 review added **MCH and TCX**, removed
+  **PLX and TPB**, effective today; TCX entered within ten months of its 21-Oct-2025 listing.
+  **2 · THE INDEX CLEARED 1,750, AND THE RESTRAINT SCORES.** **VN-Index closed 1,762.84** on turnover of
+  ~₫16,430bn. **The arithmetic checks against this file's own stored value** — 1,735.78 on 31-Jul plus the
+  reported +27 points is 1,762.84 exactly — so the recap passes the standing market-summary test rather than
+  being taken on trust. The 02-Aug entry logged a **failed test at 1,750** and stated: *"A failed test at a
+  round number is not a forecast and is not treated as one."* **It cleared the level on the very next
+  session.** Worth scoring because refusals are otherwise invisible: **a file that had converted that
+  observation into a view would have been wrong within one trading day.**
+  **3 · THE FOREIGN BID TURNED — for one session, and that is all this says.** **Foreign investors net BOUGHT
+  ₫1,061bn on HOSE** (>₫1,020bn all exchanges), against **net selling of ₫307bn on 31-Jul** (₫669bn all
+  exchanges). **Two of the eight are in the top five bought: HPG second at ₫283bn and MBB fourth at ₫89bn**,
+  behind FPT ₫524bn, with VCB ₫136bn and FRT ₫89bn. **Why it is not a trend and is not recorded as one:**
+  seven-month cumulative foreign net selling is **₫92,000bn**, about ₫640bn a session — **a single +₫1,061bn
+  day reverses roughly 1.7 average selling days out of seven months**, and the coverage itself calls it *"đột
+  biến"*, anomalous. **The four-years-of-selling structure is unchanged.** What is new is only that the
+  marginal foreign dollar was positive for one session and that HPG was its second-largest destination.
+  **4 · ROUTE (c) WORKED ON ITS FIRST SWEEP AND THE ANSWER IS "NO SIGNAL".** The 15:53 entry said the
+  KDH/VNDiamond outcome should be left to surface incidentally in routine lane-3 coverage. It surfaced within
+  the hour: **KDH +3.24% on the VNDiamond effective date.** **It does not discriminate.** The whole property
+  sector moved with it — **NLG +4.11%, BCM +3.71%, TCH +3.13%, PDR +3.04%, DXG +2.91%** — so KDH's move is
+  beta, not information, and **NLG, which the same ETF work flagged for selling alongside KDH, rose more.**
+  Recorded precisely because the tempting version — *"KDH up 3.24%, so it wasn't removed"* — is refuted by the
+  sector line sitting next to it. **A free observation that answers nothing is still worth logging, because
+  the alternative was to read it as an answer.**
+  **5 · TCX FELL on its VN30 effective date**, while securities peers rose. **That corroborates the flow-date
+  versus effective-date distinction this file drew on 02-Aug** — index funds trade the session *before* an
+  effective date, so the buying was Friday's and the effective day itself carries no flow. Mechanism
+  corroborated, **not a scored prediction**: the file said the catalyst had landed, it did not forecast a
+  decline.
+  **6 · WHAT THIS DOES TO THE STALENESS QUESTION — two facts pulling opposite ways, and they must not be
+  conflated.** The index is **+4.56% above the 24-Jul level** the file's prices are presumed to carry (1,686 →
+  1,762.84). But the 14:53 finding was that three dated late-July prices all sit **~3.4–4.6% BELOW** the file's
+  figures, implying the prices predate 24-Jul. **Taken together the staleness error may have transited through
+  zero — but the sign per name is not recoverable from an index, and today is the proof: KDH +3.24% and TCX
+  down, in the same session.** This makes **item 2 more urgent, not less** — eight dated prices, not an index
+  adjustment.
+  **Nothing modelled.** No price, probability, branch or confidence touched.
+  **Escalation check: none of the five fire.**
+  Sources: cafef (URL date-stamped 260803), mekongasean, markettimes, kinhtechungkhoan, tapchikinhtetaichinh,
+  vietstock (all T5, and the index figure reconciles to a stored value).
+
 - **15:53 ICT · INDEX & FLOWS (lane 4) — the gate opened, I found the exact document, and the environment
   refused to fetch it. This question is blocked by network policy, not by research, and I have been recording
   it as the wrong kind of failure for three days.**
