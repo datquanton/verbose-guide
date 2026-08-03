@@ -169,3 +169,62 @@ in Q1 at about US$101/t.
 modelled. The quarter that tests the thesis is **Q3**, which burns today's US$97.70 ore
 against an HRC price that has already been cut. Confidence must not be raised on a Q2 beat,
 and this paragraph exists so that reading cannot be constructed after the fact.
+
+---
+
+## 8 · Correction 2026-08-03 — the iron-ore input of US$115 has no source, and Fitch's figure is US$100
+
+**The grid, §5's recommendation and §6's provenance line all rest on `ore ≈ US$115/t`. That number
+is not supported by anything.**
+
+Fitch Ratings' 2026 assumptions — the single release this model cites for coking coal — are
+**iron ore US$100/t** (raised from 95) and **coking coal US$220/t** (raised from 190). Same source,
+same year, same revision. **This model carries Fitch's coal number exactly and an iron-ore number
+15% above Fitch's.**
+
+An earlier correction (`valuation.HPG._CORRECTED_2026_07_27`) called the 115 "a Fitch forecast
+mis-logged as spot." **It is not spot and it is not Fitch.** Its most likely origin is the 26-Jul
+summary that carried "coking coal 2026F raised to US$220/t" and "iron ore up to ~US$115/t" in one
+sentence — one report of the Fitch release getting one of the two numbers right. *That is an
+inference about origin. What is established is that Fitch says 100 and this file says 115.*
+
+**The asymmetry was recorded on 31-Jul and read backwards.** That entry noted "ore is 14.6% below
+modelled and coal is 0.7% below it." Two inputs drawn from one source cannot miss the market by
+14.6% and 0.7% — **the discrepancy was in the input, not in the market.** Against Fitch: coal
+$218.50 is 0.7% below 220, and **ore $98.25 is 1.75% below 100.** Both inputs sit essentially on
+Fitch's assumptions.
+
+The file's own ore observations already said so: **97.70** (27-Jul, SGX), **98.02** (08-Jul),
+**98.25** (30-Jul), **~101** (the Q1 inventory cost used in §4), **103** (DCE converted) — and one
+outlier at 115.
+
+### What it changes — no rebuild required, the answer is in §2's own grid
+
+§2 already carries a row for `ore = 100`. At HRC 539 and coal 220 it reads **₫0.86m/t**.
+
+| | Ore input | Core NPAT/t at HRC 539 |
+|---|---:|---:|
+| §5's recommended `spot_persists` branch, as written | 115 | ₫0.36m |
+| The same branch on **Fitch's actual assumption** | **100** | **₫0.86m** |
+
+**2.4× higher.** A human acting on §5 as written would have embedded a downside branch roughly
+₫0.5m/t too severe.
+
+**The convergence that confirms it.** The 31-Jul spot repricing, done independently on live quotes,
+put the spot case at **₫0.86m/t at HPG's volume price** and ₫1.10m at its list price. The
+Fitch-consistent grid reading is **₫0.86m/t**. These are the same number. The apparent gap between
+"the bridge says 0.36" and "spot work says 0.86–1.10" was never a forecast-versus-spot divergence —
+**it was the phantom 115, and it was attributed to the market for a week.**
+
+### What survives unchanged
+
+**₫0.86m/t is still below the 1.25m/t bear branch.** *No branch describes the world as it is* holds.
+What changes is the **size** of the miss — the gap to bear is **₫0.39m/t, not ₫0.89m/t** — and the
+fact that **the cost side is not delivering relief.** "Ore 14.6% below modelled" reads as a windfall
+already banked; ore at 1.75% below forecast is no windfall at all, and the compression from the
+August HRC cut is not being offset.
+
+**The grid and §5 are left standing rather than edited.** Re-solving the model and repricing a branch
+is a judgment change reserved for a human (charter §2); this section records the defect next to the
+numbers it affects. **OPEN-DECISIONS item 6 — whether to add `spot_persists` — is now both more
+urgent and to be decided on ₫0.86m/t rather than ₫0.36m/t.**

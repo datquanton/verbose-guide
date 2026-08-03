@@ -76,6 +76,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-03
 
+- **13:53 ICT · STEEL (lane 5) — the number at the centre of the HPG spread bridge has no source, and the
+  clue was written down three days ago and read backwards.**
+  A routine cost-side sweep returned Fitch Ratings' **2026 price assumptions: iron ore US$100/t** (raised
+  from 95) and **coking coal US$220/t** (raised from 190) — **one release, one revision, both numbers.**
+  **This file carries Fitch's coal figure exactly and an iron-ore figure of US$115.**
+  **The earlier correction is itself falsified.** `_CORRECTED_2026_07_27` says *"the ore=115 was a FITCH
+  FORECAST mis-logged as spot."* Half right: 115 is not spot, **and it is not Fitch either.** Fitch says 100.
+  **So 115 has no established provenance at all.** Likely origin is the 26-Jul summary that carried *"coking
+  coal 2026F raised to US$220/t"* alongside *"iron ore up to ~US$115/t"* — one report of the Fitch release
+  getting one of the two right. **That is an inference about origin and is labelled as one.** What is
+  established: Fitch says 100, the bridge says 115.
+  **THE SIGNAL WAS ALREADY IN THE FILE AND I READ IT AS A FACT ABOUT THE MARKET.** The 31-Jul entry recorded
+  *"ore is 14.6% below modelled and coal is 0.7% below it."* **Two inputs taken from one source cannot miss
+  the market by 14.6% and 0.7%.** That asymmetry was written down, noted, and treated as information about
+  prices. **It was information about the input.** Corrected against Fitch: coal $218.50 is **0.7%** below 220;
+  **ore $98.25 is 1.75% below 100.** Both inputs sit essentially *on* Fitch's assumptions — coherent, where
+  the old reading was not.
+  **And the file's own ore observations said so all along:** 97.70 (27-Jul SGX) · 98.02 (08-Jul) · 98.25
+  (30-Jul) · ~101 (the Q1 inventory cost in bridge §4) · 103 (DCE converted). **Six between 97.7 and 103, and
+  one at 115.**
+  **What it changes — and no rebuild is needed, because the answer is in the bridge's own grid.** §2 already
+  carries a row for `ore = 100`. At HRC 539 and coal 220 it reads **₫0.86m/t.**
+
+  | | Ore | Core NPAT/t at HRC 539 |
+  |---|---:|---:|
+  | §5's recommended `spot_persists` branch, as written | 115 | ₫0.36m |
+  | The same branch on **Fitch's actual assumption** | **100** | **₫0.86m** |
+
+  **2.4× higher.** A human acting on §5 as written would have embedded a downside branch about **₫0.5m/t too
+  severe** — on 16.8% of the book.
+  **THE CONVERGENCE THAT CONFIRMS IT.** The 31-Jul repricing, done independently on live quotes, put the spot
+  case at **₫0.86m/t at HPG's volume price** (₫1.10m at list). The Fitch-consistent grid reading is
+  **₫0.86m/t.** **The same number.** The apparent gap between *"the bridge says 0.36"* and *"spot work says
+  0.86–1.10"* was never a forecast-versus-spot divergence — **it was the phantom 115, and it was attributed to
+  the market for a week.**
+  **WHAT SURVIVES UNCHANGED, AND IT IS THE CONCLUSION THAT MATTERS.** ₫0.86m/t is **still below the ₫1.25m/t
+  bear branch.** *No branch describes the world as it is* holds. What changes is the **size** of the miss —
+  **₫0.39m/t, not ₫0.89m/t** — and the fact that **the cost side is not delivering relief.** "Ore 14.6% below
+  modelled" reads as a windfall already banked; **1.75% below forecast is no windfall**, and the compression
+  from the August HRC cut is not being offset by one.
+  **Nothing modelled.** Branches stay 1.25 / 1.60 / 1.85; `probs`, `exit_pe` and `fy26e_npat` untouched.
+  The bridge's grid and §5 are **left standing** — a dated §8 correction is appended beside them, because
+  re-solving a model is human-only under charter §2. **OPEN-DECISIONS item 6 updated: decide it on ₫0.86m/t.**
+  **Escalation check: none of the five fire.** The HPG kill criterion (core NPAT/t < ₫1.25m for two
+  consecutive quarters) tests *reported* quarters, not a spot case, and Q2 is not yet reported on this basis;
+  no cap breach; no E[r] move (no branch changed); HPG's evidence status is unchanged; no new dated catalyst.
+  Sources: gmk.center, steelorbis, indexbox (all T5, mutually consistent on both Fitch figures).
+  **VNDiamond remains the only open item of the quadruple date — 15:00 ICT rule still in force.**
+
 - **12:53 ICT · MACRO (lane 1) — July CPI 4.45%. I WROTE THE TEST DOWN LAST NIGHT AND IT PASSED, BUT THE
   HALF THAT PASSED IS NOT THE HALF THAT MATTERS MOST.**
   At **19:53 yesterday** this log recorded, verbatim: *"Tomorrow's print is now a real test rather than a
