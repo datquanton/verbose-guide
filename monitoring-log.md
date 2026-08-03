@@ -79,6 +79,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **04:53 ICT · MACRO (lane 1) — ran the discriminator I named an hour ago instead of leaving it named. It
+  rules the story OUT, and it narrows my own withdrawal.**
+  **The figure: ISM Prices Paid 71.1 in July** (vs a 71.0 estimate), **down 1.9pp from June's 73.0 — and raw
+  materials prices have now risen for 22 CONSECUTIVE MONTHS.** New Orders **56.7**, up 0.7, expanding a
+  seventh straight month.
+  **What it does to the story I refused.** At 03:53 I declined to explain a 5bp yield *fall* on a
+  four-year-high ISM as *"growth without inflation"*, and wrote the discriminator explicitly: *"strong growth
+  with SOFT prices lets yields fall; strong growth with FIRM prices should not."* **Prices are firm.** 71.1 is
+  deep inflationary territory — anything above 50 means rising input costs, and this is the **22nd month** —
+  and the 1.9pp tick down is **from a high, not to a low**. **So the narrative is not merely unsupported, it
+  is contradicted.** Refusing it was right; running the check upgraded *"unresolved"* to *"ruled out."*
+  **What replaces it: nothing, and I am not inventing one.** A 5bp fall on strong growth *and* firm input
+  prices is anomalous on a simple reading. Candidates — noise at 5bp, bond supply or positioning, or a market
+  reading the 1.9pp *decline* rather than the 71.1 *level* — are **not distinguishable with anything on
+  file.** The simplest explanation is ruled out and no evidence selects among the rest.
+  **AND IT NARROWS MY OWN WITHDRAWAL — which I am flagging as the suspicious move it looks like.** At 03:53 I
+  withdrew *"ISM partially restores the FX support."* **What was actually falsified is narrower than what I
+  withdrew:** the failed prediction was *the market will reprice hawkishly*. **The fundamental claim — a
+  strong economy with 22 straight months of rising input prices is not one that gets a rate cut — is untouched
+  by a 5bp move and is better evidenced now than when I made it.** *What the data implies* and *what the
+  market priced* are different questions, and I conflated them when I withdrew.
+  **So: partial reinstatement, explicitly narrower than the original.** The withdrawal of the
+  **market-reaction** claim **stands**. The **fundamental** claim is reinstated at reduced scope. **I am
+  naming the risk: reinstating a claim one hour after withdrawing it, on data that happens to support it, is
+  exactly the pattern this file exists to catch.** The two safeguards are that the reinstated claim is
+  **strictly narrower** and rests on a **different evidence type** — a sub-index level, not a market reaction.
+  **If a reader thinks that is special pleading, the withdrawal is the safe reading and nothing downstream
+  depends on it.**
+  **A divergence worth noting without over-reading.** Vietnam's July PMI (11:53 yesterday) reported **easing**
+  input-cost pressure; US ISM reports **rising** input prices for a 22nd month. **Different economies, not to
+  be conflated** — but a disinflating Vietnam against an inflating US is the configuration that keeps the
+  dollar firm against the dong, which is the FX **level** argument this file already holds on separate footing
+  (the 10-year at its highest since Jan-2025).
+  **Trap disarmed:** a pre-release preview claimed *"July's flash says input costs hit a 14-MONTH HIGH."*
+  **The actual print is 71.1, down 1.9pp.** Not logged as fact — and it is the **second pre-release preview in
+  two sweeps** contradicted by the release (the other put consensus at 53.0 against an actual 54.0).
+  **Previews are not data.**
+  **Nothing modelled.** **Escalation check: none of the five fire.**
+  Sources: ISM/PR Newswire release, ABA Banking Journal, Manufacturing Dive, investinglive.
+
 - **03:53 ICT · MACRO (lane 1) — the test I couldn't run an hour ago is runnable now, and the market
   disagreed with me.**
   **Applying this file's own 15:53 rule** — *the checkable time is the close plus publication, not the event*
