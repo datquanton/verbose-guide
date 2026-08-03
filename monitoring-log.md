@@ -14,6 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
+| **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -76,6 +77,93 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **17:53 ICT · SELF-AUDIT (following the lane-2 finding above) — I ran the new rule against every
+  suppressing negative on file, and it produced a DATE for the price staleness.**
+  **The audit.** The rule just written says a negative result may suppress future searching only if it names
+  the **source** checked and the **date** that source was current to. Four notes on file were recorded to stop
+  re-searching:
+
+  | Note | Names its source? | Verdict |
+  |---|---|---|
+  | **CORE trade case "lane 2 clean"** (31-Jul) | **No** — recited case history to 2025, asserted a 2026 absence | **FALSE**, corrected above |
+  | **Circular 31 leasing scope** (01-Aug) | **Yes** — *"read from company names and press descriptions, not from the licences… this environment cannot reach the SBV register"* | **SOUND** — and it downgraded itself to *"probably out of scope", not "out of scope"* |
+  | KDH ownership headline (02-Aug) | n/a — a trap disarming, not an absence claim | sound |
+  | KDH listing-site ASP route | n/a — a route abandonment | sound |
+
+  **The file already had the correct pattern, written the same week, and the CORE note did not follow it.** The
+  leasing note named the source it *could not reach* and weakened its own claim to match. **That is the whole
+  discriminator, and it costs one clause.**
+  **AND THE AUDIT TURNED UP A FOURTH DATED PRICE, WHICH DATES THE PRICE FILE.** The 02-Aug KDH note carries
+  *"the ₫17,950 close on 20-Jul … 0.28% below the file's ₫18,000."* Adding it to the three from 14:53:
+
+  | Ticker | Observation date | Dated price | File | File is high by |
+  |---|---|---:|---:|---:|
+  | KDH | **20-Jul** | ₫17,950 | ₫18,000 | **0.28%** |
+  | TCX | **24-Jul** (the trough) | ₫39,200 | ₫41,100 | **4.6%** |
+  | TCB | 27-Jul | ₫28,250 | ₫29,250 | 3.4% |
+  | VCI | 28-Jul | ₫19,700 | ₫20,500 | 3.9% |
+
+  **Four for four below — but the shape is the finding, not the count.** The drift is **near zero on 20-Jul,
+  deepest at the 24-Jul trough, and shallower afterwards as the index recovered** (1,686 → 1,735.78 by 31-Jul).
+  **That is exactly the pattern a price file dated ~20-JULY would produce.** The file has presumed 24-Jul
+  throughout; on 24-Jul the drift should be ~zero, and it is at its maximum instead.
+  **This supersedes the 02-Aug trough argument outright rather than qualifying it.** That entry's whole
+  mechanism — *"24-Jul was the bottom of a four-week slide, so the prices are too low and E[r] is overstated"*
+  — depended on the presumed date, and the presumed date now looks wrong by about four sessions **in the
+  direction that reverses the conclusion.**
+  **Stated with its limit, because this is four names and not eight, on four different dates, and cross-name
+  noise is real.** It is **consistent with** a ~20-Jul price date; it does not measure one. **The fix is
+  unchanged and now better specified: item 2 needs eight dated prices, and it should test the ~20-Jul
+  hypothesis rather than assume 24-Jul.**
+  **Nothing modelled.** No price, probability, branch or confidence touched.
+
+- **17:53 ICT · US TRADE (lane 2) — I recorded a negative result on 31-Jul specifically to stop future
+  searching, and it was already five months wrong when I wrote it.**
+  **What I wrote, verbatim, on 31-Jul:** *"Lane 2 checked and clean: the corrosion-resistant steel (CORE) case
+  on Vietnam ran its course in 2024–25 … and **no new Vietnam steel petition or CORE review has been filed in
+  2026.** Recorded as a negative result **so the next sweep does not re-search it**."*
+  **What was already true that day.** **Steel Dynamics and Nucor filed a circumvention request on
+  02-Feb-2026**, and **Commerce initiated the inquiry on 25-Mar-2026** — published at **91 FR 14530–14532**
+  (FR 2026-05808). **The negative result was five months stale on the day it was recorded, and its stated
+  purpose was to suppress the search that would have found it.** It worked: three days of sweeps did not
+  re-check lane 2. **This is the worst class of error this system makes — it does not merely miss something,
+  it installs a blocker against finding it.**
+  **AND THE ROOT CAUSE IS THE ONE DIAGNOSED TWO HOURS AGO.** **`federalregister.gov` is blocked at the
+  gateway** — re-tested this sweep, still `403 connect_rejected`. **That is lane 2's authoritative source.** So
+  lane 2 has been running on press coverage alone, and **"nothing in the press" was written down as "nothing
+  filed."** That is precisely the conflation named at 15:53 — *"I could not find it"* versus *"I could not
+  reach it"* — **and here it had already produced a false negative, recorded as a blocker, three days before
+  the distinction was drawn.** The 15:53 lesson is not new; it is the diagnosis of damage already done.
+  **WHAT THE INQUIRY IS, AND IT IS A DIFFERENT EXPOSURE FROM THE ONE THIS FILE TRACKS.** Not Vietnamese
+  finished exports being dumped. The allegation is that **CORE is completed in INDONESIA using COLD-ROLLED
+  STEEL MANUFACTURED IN VIETNAM**, circumventing the AD/CVD orders on CORE from Vietnam. **The subject input is
+  Vietnamese substrate.** This file's US exposure for HPG is **direct rebar at ~3% of revenue**; **this is a
+  substrate channel and it was not on file at all.** HPG is Vietnam's largest flat-steel producer and CRC sits
+  squarely in the DQ2 product set. **Whether HPG's CRC is in the alleged flow is NOT established and is not
+  guessed** — the inquiry is country-wide and names no Vietnamese producer.
+  **THE DATE IS CLOSE: Commerce intends preliminary circumvention determinations by 24-AUG-2026 — twenty-one
+  days.** August now carries **three** dated items for this book: 14-Aug/29-Aug H1 auditor-**reviewed**
+  statements, the 15-Aug SBV circular cluster, and 24-Aug. *Extensions are routine in circumvention
+  proceedings, so 24-Aug is an intention, not a guarantee.*
+  **THE MAGNITUDES ARE PROHIBITIVE, WHICH CHANGES THE SHAPE OF THE RISK.** Vietnam CORE rates are **AD
+  87.07–162.96%** and **CVD 0.30–257.83%**. An affirmative finding attaches those to the Indonesian-finished
+  product. **At those levels a trade flow stops rather than shrinks — so the outcome is closer to binary than
+  marginal, and the SIZE of any HPG participation matters more than the probability of the finding.**
+  **The China parallel, labelled second-order.** FR 2026-05807 runs the same inquiry on **Chinese** hot- and
+  cold-rolled substrate into Indonesia. This file's 02-Aug work established that **Chinese and Indian HRC
+  competing into Vietnam is HPG's live domestic problem.** A US measure closing an Indonesian outlet for
+  Chinese substrate would push that material toward other destinations, plausibly including Vietnam. **That is
+  an inference about redirected trade flows with no evidence behind it yet, and it is not modelled.**
+  **Confidence on HPG HELD at 0.75, and the reasoning is stated rather than assumed.** Confidence measures how
+  well evidenced the *thesis* is, and the thesis is the volume × spread model, which the filed Q2 actuals
+  support. This is a **Layer-4 trade-politics channel outside the model whose magnitude for HPG is
+  unquantified**. **Cutting confidence on an unquantified exposure would substitute alarm for evidence.**
+  **Flagged explicitly for the human CIO run instead**, which is where a Layer-4 judgment belongs.
+  **Escalation check: none of the five fire** — but note the fifth honestly: **24-Aug is a dated catalyst 21
+  days out**, which is well outside the 5-session window and does not fire, though it will as it approaches.
+  Sources: Federal Register 2026-05808 and 2026-05807 (via search index — **the register itself is
+  unreachable**), regulations.justia.com, steelmarketupdate, steelorbis.
 
 - **16:53 ICT · INDEX, FLOWS & TCX (lanes 4, 3) — post-close. The exchange's own disclosure settles the
   share count that caused today's largest error; the index cleared the level I refused to forecast; and route
