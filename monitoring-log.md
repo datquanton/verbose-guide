@@ -23,7 +23,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
-| **⚠ VNDiamond changes EFFECTIVE TOMORROW, MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum.** **CADENCE CONFIRMED 02-Aug:** cutoff at quarter end → announced the 20th of the next month → effective the first Monday after (Q2: cutoff 31-Mar, announced 20-Apr, effective 04-May). **KDH was placed on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list executes at the NEXT review, which is this one.** July outcome still **not established**; four attempts at the 20-Jul HOSE announcement have failed. Flow likely completed at **Friday 31-Jul's close** | 4 |
+| ~~VNDiamond effective 03-Aug~~ **ROUTE CLOSED 15:53 — BLOCKED, NOT UNRESEARCHED** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | **3-Aug QUADRUPLE date — TODAY, 3 of 4 RESOLVED** | **July CPI ✓ 4.45% (12:53) · July PMI ✓ 52.9 (11:53) · TCX VN30 effective ✓ (flow completed 31-Jul) · VNDiamond effective — OPEN, and it is the only one left.** Do **not** re-run the failed 20-Jul announcement searches; **check after 15:00 ICT** (close plus publication), per the 03-Aug 09:53 correction | 1, 4 |
 | ~~July CPI release~~ **RESOLVED 03-Aug 12:53: +4.45% YoY** | **CLOSED.** Second consecutive monthly fall (May 5.60 → Jun 4.69 → Jul 4.45); **May confirmed as the peak.** The **cumulative average ROSE 4.38% → 4.39% in the same month** — the pre-registered warning held. **Core +4.63% YoY is now ABOVE headline +4.45%**: the fall is petrol and food, i.e. a price event, not a demand event. **Level unchanged — still ~0.95pp above risk.py's 3.5%.** Next print ~2026-09-06 | 1 |
@@ -76,6 +76,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **15:53 ICT · INDEX & FLOWS (lane 4) — the gate opened, I found the exact document, and the environment
+  refused to fetch it. This question is blocked by network policy, not by research, and I have been recording
+  it as the wrong kind of failure for three days.**
+  **The primary document exists and was located.** Search returned, by title, *"Công bố thông tin Danh mục
+  chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* at **vietcat.com** — **the official
+  disclosure of the rebalance basket for the 31-Jul trading date.** Right fund, right date, the *actual*
+  constituent trade rather than a forecast of it.
+  **It returned HTTP 403 — and I diagnosed it rather than assuming.** The proxy status endpoint reports
+  `connect_rejected — gateway answered 403 to CONNECT (policy denial or upstream failure)`. **The
+  environment's own network policy is denying it; the site is not blocking me.** Three hosts newly confirmed
+  blocked this sweep: **vietcat.com**, **ftp2.ssi.com.vn**, **www.ssi.com.vn** — the latter two being SSI's ETF
+  bulletin server, **the standing publication route for every VNDiamond and VN30 review, not just this one.**
+  That takes the blocked list to roughly **thirteen hosts**, and it now includes the two that would serve this
+  question routinely.
+  **THIS RETIRES MY OWN STOPPING RULE — WHICH I HAD ALREADY CORRECTED ONCE TODAY, ON THE WRONG AXIS.** At
+  05:53 the search route was abandoned for *"it resolves today by observation."* At 09:53 that was corrected:
+  the clock was wrong — check after the 15:00 close plus publication, not at 09:00. **Both versions share a
+  premise that is false here: that the answer becomes VISIBLE if you wait for the right moment.** It is
+  published and it is unreachable. **A stopping rule has to separate "not yet published" from "published and
+  not fetchable by me." Waiting fixes only the first — and every revision I made was a revision to the
+  waiting.**
+  **The one substantive thing this sweep did establish, and it changes how a removal would transmit.**
+  At 31-Mar-2026 the six ETFs tracking VNDiamond held about **₫12,300bn of NAV, and DCVFMVN was ~96% of it.**
+  This file has carried *"six ETFs"* since 01-Aug, which reads as flow spread across six counterparties. **It
+  is not. One fund is the flow.** A KDH removal would be a **single manager's programme trade concentrated in
+  one session** — more concentrated in price impact and more observable in the tape, both of which matter for a
+  name at **20.3% of the book**.
+  **Entity caveat, stated because this file has been burned nine times on exactly this:** the 96% figure names
+  **DCVFMVN**; the blocked document names **VFCVN DIAMOND**. **Whether those are the same fund is not
+  established here** — and it matters, because if they are, **the blocked document is 96% of the flow.** Not
+  asserted.
+  **KDH's status remains UNKNOWN and is not filled in.** The established chain is unchanged: KDH fails the 65%
+  FOL minimum at 61.8%; it was put on the removal **waiting list** at the Q2 review rather than removed; a
+  waiting list executes at the **next** review; that review's effective date is **today**, with fund flow
+  completed at Friday 31-Jul's close. **Nothing is inferred from that chain about the outcome.**
+  **OPERATIONAL CONCLUSION — the point is to stop paying for this. NO FURTHER DEDICATED SEARCHES.** Routes:
+  **(a)** the owner authorises the **FiinQuant MCP connector**, which answers index-membership questions
+  directly and **cannot be authorised from a non-interactive session** — it needs the owner in claude.ai
+  connector settings; **(b)** the owner widens the environment's **network policy** to the Vietnamese financial
+  hosts, vietcat.com and ssi.com.vn foremost; **(c)** it surfaces **incidentally in general KDH coverage,
+  which costs nothing extra because KDH is a core lane-3 name on every sweep.** **Route (c) converts a
+  dedicated search that has failed seven times into a free byproduct of work already being done.**
+  **Nothing modelled.** No price, probability, branch or confidence touched — an unresolved question is not
+  evidence.
+  **Escalation check: none of the five fire.** *(A note on the fifth: a dated catalyst DID land today — the
+  VNDiamond effective date — but its OUTCOME is unknown, and an unknown outcome cannot be tested against a
+  trigger. The brief's proposed KDH action is a trim, which is not made more urgent by an unresolvable
+  question.)*
 
 - **14:53 ICT · OWNERSHIP (lane 7) — one VCI filing does three different things, and they do not all point
   the same way.**
