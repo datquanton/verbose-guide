@@ -26,6 +26,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | **3-Aug is a QUADRUPLE date — TOMORROW** | **July CPI + July PMI + TCX's VN30 effective date + VNDiamond effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday. **Watch for these four resolving rather than re-running failed searches on the 20-Jul announcement** | 1, 4 |
 | **July CPI release — TOMORROW** | **2026-08-03** — same day as TCX's VN30 entry. H1 averaged +4.38%. **"Accelerating" WITHDRAWN 02-Aug: that read a CUMULATIVE AVERAGE as a rate. Monthly YoY PEAKED IN MAY at 5.60% and fell 91bp to 4.69% in June.** Direction is **unknown**; the level finding (still 1.19pp above the repo's 3.5%) stands. **Do NOT judge tomorrow's print by the cumulative average — it will keep rising for months either way** | 1 |
+| ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
@@ -74,6 +75,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **11:53 ICT · MACRO (lane 1) — July PMI landed at 52.9, and it corroborates TWO separate threads from the
+  last 24 hours that were built without it.**
+  **A date-gated item resolved on its scheduled day.** **July PMI 52.9**, up from **51.8** in June and above
+  May's **52.8** — **the highest reading of 2026 so far.** Business conditions have improved for **thirteen
+  consecutive months**, and July's improvement is described as the most marked **since February**. **New
+  orders rose more strongly, with growth close to a record high**, and **manufacturing output growth reached
+  its fastest since March 2011.**
+  **One source discrepancy, flagged not resolved:** one headline says the **PMI** rose at the fastest rate
+  in **13 years**, another dates the **output** growth to **March 2011** — 15 years. **Those are different
+  measures** (headline index vs output sub-index) and neither is adopted as the other. **The 52.9 level is
+  consistent across sources.**
+  **⚠ Why this matters beyond the print — it corroborates two threads found independently:**
+  **(1) The FDI finding, logged one hour ago.** Manufacturing took **82.6% of realised FDI (US$10.76bn)** in
+  the strongest half in five years. **Now manufacturing output growth prints at a multi-year high.** **Same
+  story from two angles** — foreign direct capital entering manufacturing, and manufacturing activity
+  accelerating — **and they were found independently, which is what makes the agreement worth something.**
+  **(2) The CPI direction question, withdrawn at 19:53 yesterday.** *"Inflation accelerating"* was withdrawn
+  as a cumulative average read as a rate; the monthly series **peaked in May at 5.60% and fell to 4.69% in
+  June**, with the direction recorded as **unknown**. **The PMI release reports easing inflationary
+  pressure — independent corroboration of the disinflation reading.** **It does not settle it** — a survey
+  of purchasing managers is not the CPI — **but it points the same way, and July CPI is still due today.**
+  **Per-name, with the limit stated.** **HPG is 16.8%** and strong manufacturing is **industrial steel
+  demand**, so this supports the **volume** side. **But this file has said repeatedly that the live variable
+  on HPG is the SPREAD, not volume** — the bear branch is a core NPAT/tonne of ₫1.25m, not a tonnage. **PMI
+  strength is supportive but not on the binding constraint, and must not be read as relieving the spread
+  case.** **KDH is 20.3%** and the same strength bears on its **Lê Minh Xuân industrial park**, the one
+  segment that is not residential.
+  **Nothing modelled** — no PMI input exists in `run.py` and adding one is a machinery change. **No
+  confidence moved.** **Held the 09:53 rule: no KDH/VNDiamond re-check before 15:00.**
+  Sources: [PMI 52.9, output/new orders/exports all faster](https://vietstock.vn/2026/08/pmi-thang-72026-san-luong-so-luong-don-dat-hang-moi-va-xuat-khau-deu-tang-nhanh-hon-761-1475556.htm) ·
+  [52.9 on stronger orders and easing inflation](https://vneconomy.vn/pmi-thang-7-dat-529-diem-nho-don-hang-tang-va-lam-phat-giam.htm)
+  **Portfolio impact: the macro backdrop for HPG's volumes and KDH's industrial-park segment improved on a
+  date-gated print — but HPG's binding variable remains the spread, which this does not touch.**
 
 - **10:53 ICT · ⚠ MACRO (lanes 1, 4) — foreign capital runs TWO ways and this file only had one. FDI was
   absent entirely, and it narrows a claim the file uses as a thesis ground.**

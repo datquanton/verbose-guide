@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 10:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 11:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
@@ -204,6 +204,29 @@ offset. TCX's live issue remains the multiple and the undated price.
   **Same venture? Not established.**
 
 **The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 11:53 — July PMI 52.9, and it corroborates two independent threads
+
+**Date-gated item resolved on schedule. PMI 52.9** (Jun 51.8, May 52.8) — **highest of 2026**, **13th
+consecutive month** above 50, improvement the most marked since February, **new orders near a record**, and
+**output growth fastest since March 2011**.
+
+*(Source discrepancy flagged, not resolved: one headline says the PMI rose fastest in 13 years, another
+dates OUTPUT growth to Mar-2011 — different measures, neither adopted as the other. The 52.9 level is
+consistent.)*
+
+- **⚠ Corroborates the FDI finding from one hour earlier:** manufacturing took **82.6% of realised FDI** in
+  the best half in five years; now manufacturing **output** prints at a multi-year high. **Same story, two
+  angles, found independently.**
+- **⚠ Corroborates the CPI withdrawal from 19:53 yesterday:** the PMI release reports **easing inflationary
+  pressure**, pointing the same way as the monthly CPI series peaking in **May (5.60%)** and falling to
+  **4.69%** in June. **Does not settle it** — a survey is not the CPI — **and July CPI is still due today.**
+- **Per-name, with the limit stated: HPG (16.8%)** — supportive of **volume**, but **the binding variable is
+  the SPREAD** (bear branch ₫1.25m/tonne), which this does not touch. **Must not be read as relieving the
+  spread case. KDH (20.3%)** — bears on the **Lê Minh Xuân industrial park**, its one non-residential
+  segment.
+- **Nothing modelled** (no PMI input in `run.py`); **no confidence moved.** PMI gate **CLOSED**.
+- **Held the no-KDH/VNDiamond rule until 15:00.**
 
 ### ⚠ 03-Aug 10:53 — foreign capital runs TWO ways; the file only had one
 
