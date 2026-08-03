@@ -24,8 +24,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | SBV monthly credit/deposit prints | month-end +5d | 1 |
 | **⚠ VNDiamond changes EFFECTIVE TOMORROW, MON 03-AUG** — announced 20-Jul. **KDH at risk on FOL 61.8% vs a 65% minimum.** **CADENCE CONFIRMED 02-Aug:** cutoff at quarter end → announced the 20th of the next month → effective the first Monday after (Q2: cutoff 31-Mar, announced 20-Apr, effective 04-May). **KDH was placed on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list executes at the NEXT review, which is this one.** July outcome still **not established**; four attempts at the 20-Jul HOSE announcement have failed. Flow likely completed at **Friday 31-Jul's close** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
-| **3-Aug is a QUADRUPLE date — TOMORROW** | **July CPI + July PMI + TCX's VN30 effective date + VNDiamond effective date, all 2026-08-03.** PMI publishes the first working day of August; 1-Aug is a Saturday. **Watch for these four resolving rather than re-running failed searches on the 20-Jul announcement** | 1, 4 |
-| **July CPI release — TOMORROW** | **2026-08-03** — same day as TCX's VN30 entry. H1 averaged +4.38%. **"Accelerating" WITHDRAWN 02-Aug: that read a CUMULATIVE AVERAGE as a rate. Monthly YoY PEAKED IN MAY at 5.60% and fell 91bp to 4.69% in June.** Direction is **unknown**; the level finding (still 1.19pp above the repo's 3.5%) stands. **Do NOT judge tomorrow's print by the cumulative average — it will keep rising for months either way** | 1 |
+| **3-Aug QUADRUPLE date — TODAY, 3 of 4 RESOLVED** | **July CPI ✓ 4.45% (12:53) · July PMI ✓ 52.9 (11:53) · TCX VN30 effective ✓ (flow completed 31-Jul) · VNDiamond effective — OPEN, and it is the only one left.** Do **not** re-run the failed 20-Jul announcement searches; **check after 15:00 ICT** (close plus publication), per the 03-Aug 09:53 correction | 1, 4 |
+| ~~July CPI release~~ **RESOLVED 03-Aug 12:53: +4.45% YoY** | **CLOSED.** Second consecutive monthly fall (May 5.60 → Jun 4.69 → Jul 4.45); **May confirmed as the peak.** The **cumulative average ROSE 4.38% → 4.39% in the same month** — the pre-registered warning held. **Core +4.63% YoY is now ABOVE headline +4.45%**: the fall is petrol and food, i.e. a price event, not a demand event. **Level unchanged — still ~0.95pp above risk.py's 3.5%.** Next print ~2026-09-06 | 1 |
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
@@ -75,6 +75,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-03
+
+- **12:53 ICT · MACRO (lane 1) — July CPI 4.45%. I WROTE THE TEST DOWN LAST NIGHT AND IT PASSED, BUT THE
+  HALF THAT PASSED IS NOT THE HALF THAT MATTERS MOST.**
+  At **19:53 yesterday** this log recorded, verbatim: *"Tomorrow's print is now a real test rather than a
+  confirmation. If July continues down, May was the peak; if it re-accelerates, the original framing returns.
+  Either way the cumulative average will keep rising for months and must not be used to judge it."*
+  **THE PRINT: July CPI +4.45% YoY** (+3.08% against Dec-2025). The monthly path is now
+  **Jan 2.53 · Feb 3.35 · Mar 4.65 · Apr 5.46 · May 5.60 · Jun 4.69 · Jul 4.45** — a **second consecutive
+  fall, a further 24bp**. **MAY IS CONFIRMED AS THE PEAK.** The 02-Aug withdrawal of "accelerating" was not
+  merely cautious; it was right, and it was made *before* the data that would have settled it.
+  **THE SECOND CLAUSE IS THE ONE THAT EARNED ITS KEEP.** The **7-month cumulative average ROSE from 4.38% to
+  4.39%** in the very month the monthly rate fell 24bp. Had I still been reading the average as a rate — which
+  is exactly what I did on 31-Jul — **July would have read as a fourth straight month of acceleration.** The
+  error would have survived the data that disproves it. A withdrawn claim is only withdrawn if the *method*
+  that produced it is withdrawn too; this print is the first evidence that it was.
+  **THE LIMIT, AND I AM STATING IT RATHER THAN BANKING THE WIN. CORE IS NOW ABOVE HEADLINE.** Core July
+  **+4.63% YoY** (+0.33% MoM) against headline **+4.45%**; the 7-month core average is **4.19%** against a
+  **4.39%** headline average, so **the crossover is recent — it happened inside this disinflation.** Headline
+  is falling because of the items core excludes: the release attributes it to **petrol and food**
+  (*"Xăng dầu và thực phẩm kéo CPI tháng 7 giảm"*). **Disinflation carried by fuel and food is a price event,
+  not a demand event, and it reverses with the oil price.** So the peak is dated and real, but this is **not**
+  yet evidence that domestic price pressure has turned.
+  **WHAT DOES NOT CHANGE — THE LEVEL.** 4.45% is still **~0.95pp above the 0.035 threshold in
+  `research/models/risk.py`**. The 31-Jul first consequence stands untouched: every safety-first ratio computed
+  against that CPI line is **too flattering**, and the fix remains a human's under charter §4. Direction moved;
+  the level finding did not.
+  **WHAT IT DOES SOFTEN — AND THIS IS A DOWNGRADE, NOT A CONFIRMATION.** The 31-Jul entry argued SBV is boxed
+  in on **two** sides: inflation (measured) and FX (inferred). With the monthly rate down two months running,
+  and **today's PMI reporting easing input-cost pressure** (11:53, found independently and *before* this
+  print), **the inflation side of that box is loosening while the FX side is not** — USD/VND sat at a record
+  **₫25,338** on 01-Aug. The conclusion *"funding-cost relief is not coming from policy"* now leans mainly on
+  **the inferred support, having briefly had a measured one.** That bears on **51.5% of this book** and on
+  TCB's NIM-recovery guidance, and it is recorded as a weakening rather than left standing at its 31-Jul
+  strength because nobody re-reads an entry to check whether its supports survived.
+  **THIRD CORROBORATION IN ONE DAY, ALL INDEPENDENT:** PMI's easing-cost reading (11:53), this print (12:53),
+  and the 02-Aug monthly-series reconstruction each point the same way without sharing a source.
+  Written to `_market`: `vn_cpi_jul_2026_yoy`, `vn_cpi_jul_2026_vs_dec_2025`, `vn_cpi_7m_2026_avg_yoy`,
+  `vn_core_inflation_7m_2026_avg_yoy`, `vn_core_inflation_jul_2026_yoy/mom`, `Jul` appended to
+  `vn_cpi_monthly_yoy_2026`, and `vn_cpi_peak_month_2026` marked confirmed.
+  **Escalation check: none of the five fire.** No kill criterion; no cap breach; no E[r] move (CPI is not a
+  model input — that is the open item, not a trigger); no evidence-status change on a held name; the dated
+  catalysts inside 5 sessions are unchanged. `run.py` and `decide.py` re-run clean.
+  **The last date-gated item of 03-Aug is now the VNDiamond outcome, and the 15:00 ICT rule stands.**
 
 - **11:53 ICT · MACRO (lane 1) — July PMI landed at 52.9, and it corroborates TWO separate threads from the
   last 24 hours that were built without it.**

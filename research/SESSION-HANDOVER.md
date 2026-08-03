@@ -1,6 +1,6 @@
 # Session handover — state of the book at 2026-07-31
 
-**Updated 03-Aug 11:53 ICT.** *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+**Updated 03-Aug 12:53 ICT.** *(12:53: July CPI +4.45% — second consecutive fall, **May 5.60% confirmed as the 2026 peak**. The pre-registered test from 02-Aug 19:53 resolved; the 7-month cumulative average rose 4.38%→4.39% in the same month, exactly as warned. **Core 4.63% now sits ABOVE headline** — the fall is petrol and food, so this is not yet a demand turn. **Level unchanged: still ~0.95pp above `risk.py`'s 3.5%.** The 31-Jul "SBV boxed in on two sides" conclusion now leans mainly on the **inferred** FX support — a downgrade, recorded as such. 3 of the 4 quadruple-date items are resolved; **VNDiamond is the only one left, check after 15:00 ICT**.)*  *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
 and a new structural one has replaced them — see §4 and §9.
 
 **Written at the owner's request to make this session's context survive the container.**
