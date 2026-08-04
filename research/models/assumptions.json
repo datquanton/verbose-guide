@@ -200,7 +200,21 @@
    "evidence": "Q2 official; 1H PBT 18,880bn +68% vs +22% plan - that part is T1 and unaffected. BUT the '+24.6% credit YTD' previously cited here as support FAILS the period and entity checks (see vpb.actuals._CREDIT_INPUTS_FAIL_VERIFICATION_2026_07_28). Confidence cut 0.85 -> 0.70 on 2026-07-28: the trailing earnings base is solidly evidenced, the forward credit driver is not. Resolves from the Q2 consolidated statement.",
    "shares_outstanding": 7933900000,
    "market_cap_bn": 198348,
-   "_npat_ttm_basis_2026_08_02": "TTM PBT 38,275 x 0.8: FY2025 PBT 30,625 - H1/2025 11,250 + H1/2026 18,900"
+   "_npat_ttm_basis_2026_08_02": "TTM PBT 38,275 x 0.8: FY2025 PBT 30,625 - H1/2025 11,250 + H1/2026 18,900",
+   "_charter_capital_bn_current": 79339,
+   "_capital_plan_2026": {
+    "stock_dividend_pct": 0.26,
+    "stock_dividend_shares_m": 2062.8,
+    "stock_dividend_source_bn": 20660,
+    "charter_capital_after_stock_div_bn": 100000,
+    "foreign_placement_shares_m": 624,
+    "foreign_placement_par_bn": 6240,
+    "foreign_placement_price": "NOT ESTABLISHED",
+    "charter_capital_after_all_bn": 106200,
+    "shares_after_m": 10620.7,
+    "share_increase_pct": 0.339
+   },
+   "_SHARE_COUNT_VERIFIED_AND_THE_WATCH_LISTS_250M_IS_A_PAR_VALUE_NOT_A_RAISE_2026_08_04_0953": "APPLIED YESTERDAY'S MBB CHECK TO VPB. THE COUNT VERIFIES AND THE WATCH LIST'S DESCRIPTION OF THE PLACEMENT DOES NOT. VERIFIED, BY THE TECHNIQUE THAT HAS NOW WORKED FOUR TIMES. VPB's 5% cash dividend is VND500 per share for a TOTAL OUTLAY OF ABOUT 3,967bn. 3,967bn / 500 = 7,934.0m SHARES. THIS FILE CARRIES 7,933,900,000 - A DIFFERENCE OF 0.0013%. A total amount divided by a per-share amount is a dated share count, the same route that confirmed KDH (01-Aug), VCI (03-Aug) and now VPB. FOUR OF EIGHT ARE NOW EXTERNALLY CONFIRMED - VCI, TCX, MBB, VPB - AND ALL FOUR CHECKS PASSED. THE FULL 2026 CAPITAL PLAN, AND EVERY TRANCHE RECONCILES TO THE SAME BASE. 26% STOCK DIVIDEND: 7,933.9m x 0.26 = 2,062.8m against a reported 'gan 2,07 ty', funded from >20,660bn of undistributed profit against a par value of 20,628bn, taking charter capital to 99,967bn against a reported ~100,000bn. THEN A PRIVATE PLACEMENT TO FOREIGN INVESTORS OF MORE THAN 624 MILLION SHARES, taking charter capital to 106,207bn against a reported '>106,200bn'. TOTAL: 7,933.9m -> 10,620.7m SHARES, +33.9%. AND HERE IS THE PART THAT MATTERS, BECAUSE IT IS AN ERROR INSIDE THE ROUTINE'S OWN WATCH LIST. THE WATCH LIST TRACKS 'VPB 26% stock dividend + $250m foreign placement'. 624m SHARES x VND10,000 PAR = 6,240bn = ABOUT US$237m AT 26,300 - WHICH IS THE '$250m'. SO THE $250m IS THE CHARTER-CAPITAL EFFECT, NOT THE MONEY RAISED. At anything above par the actual proceeds are larger; at the file's price of 25,000 the same 624m shares would be 15,600bn, ABOUT US$593m. THE ISSUE PRICE IS NOT ESTABLISHED AND IS NOT GUESSED - what is established is that a par-value figure has been carried as a raise. SECOND INSTANCE IN TWO SWEEPS OF THE SAME TRAP. Yesterday 08:53 caught MBB's placement described as 'adding approximately 2,000bn in capital', which is 200m x par. THE TELL BOTH TIMES WAS THAT THE FIGURE DIVIDED EXACTLY BY PAR. In Vietnamese capital-raise disclosures charter capital moves by par x shares regardless of issue price, so ANY 'adds X bn in capital' figure is a share-count statement in currency clothing. THE HAZARD, SIZED. VPB's E[r] is -13.9%. Updating shares by +33.9% while leaving the price unchanged takes it to -35.7%, A MOVE OF -21.8pp, above the 10pp escalation threshold. COMBINED WITH MBB: TWO NAMES, 16.5% OF THE BOOK, CARRYING PENDING SHARE INCREASES OF +27.5% AND +33.9%, AND A ONE-LEGGED PRICE REFRESH ON EITHER FIRES TRIGGER 3. VPB's increase is the LARGER of the two and its weight is the larger too. NOTHING MODELLED. Share count, price, branches, probabilities and confidence untouched - this VERIFIES an input and corrects a DESCRIPTION, and no ex-date is established for any tranche."
   },
   "MBB": {
    "price": 22050,

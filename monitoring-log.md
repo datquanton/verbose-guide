@@ -14,6 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
+| **⚠ TWO PENDING SHARE-COUNT INCREASES — MBB +27.5%, VPB +33.9%** | **NEW 04-Aug. 16.5% of the book.** MBB: 15% stock dividend (1,208.25m) + 10% rights at ₫10,000 (805.5m) + **private placement up to 200m** → 10,268.75m shares, capital ₫80,550→102,687bn. VPB: 26% stock dividend (2,062.8m) + **foreign placement >624m** → 10,620.7m shares, capital ₫79,339→106,200bn. **No ex-date established for any tranche.** **The routine's "$250m" for VPB's placement is par × shares (₫6,240bn), NOT the raise** — at the file's price the same shares are ~US$593m. **A one-legged price refresh on either name fires trigger 3** (MBB −29.4pp, VPB −21.8pp) | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
@@ -78,6 +79,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-04
+
+- **09:53 ICT · VPB (lane 3) — applied yesterday's MBB check to VPB. The count verifies; the routine's own
+  description of the placement does not.**
+  *(No market data sought: yesterday's 09:53 lesson stands — web search does not index intraday Vietnamese
+  prints, so session figures wait for the ~15:00 close. Disclosures publish during the day and are fair game.)*
+  **VERIFIED, by the technique that has now worked four times.** VPB's 5% cash dividend is **₫500/share** for a
+  total outlay of about **₫3,967bn**. **₫3,967bn ÷ 500 = 7,934.0m shares.** The file carries
+  **7,933,900,000 — a difference of 0.0013%.** A total amount ÷ a per-share amount is a dated share count —
+  the route that confirmed KDH (01-Aug), VCI (03-Aug) and now VPB. **Four of eight are now externally
+  confirmed — VCI, TCX, MBB, VPB — and all four passed.**
+  **The full 2026 plan, every tranche reconciling to the same base:**
+
+  | Tranche | Derived from 7,933.9m | Reported |
+  |---|---|---|
+  | 26% stock dividend | 2,062.8m shares, par ₫20,628bn | *"gần 2,07 tỷ"*, from >₫20,660bn retained profit |
+  | charter capital after | ₫99,967bn | ~₫100,000bn |
+  | foreign placement | +624m → ₫106,207bn | >₫106,200bn |
+
+  **Total: 7,933.9m → 10,620.7m shares, +33.9%.**
+  **AND HERE IS THE PART THAT MATTERS, BECAUSE THE ERROR IS INSIDE THE ROUTINE'S OWN WATCH LIST.** It tracks
+  *"VPB 26% stock dividend + **$250m** foreign placement."* **624m shares × ₫10,000 par = ₫6,240bn ≈ US$237m
+  at 26,300 — that IS the "$250m."** **So the $250m is the charter-capital effect, not the money raised.** At
+  anything above par the proceeds are larger; at the file's ₫25,000 the same 624m shares would be ₫15,600bn,
+  **about US$593m**. **The issue price is not established and is not guessed** — what *is* established is that
+  a par-value figure has been carried as a raise.
+  **Second instance in two sweeps of the identical trap.** Yesterday 08:53 caught MBB's placement described as
+  *"adding approximately ₫2,000bn in capital"* — 200m × par. **The tell both times was that the figure divided
+  exactly by par.** In Vietnamese capital-raise disclosures charter capital moves by **par × shares regardless
+  of issue price**, so **any "adds ₫X bn in capital" figure is a share-count statement in currency clothing.**
+  **THE HAZARD, SIZED.** VPB's E[r] is −13.9%. Updating shares by +33.9% while leaving the price takes it to
+  **−35.7% — a move of −21.8pp**, above the escalation threshold.
+  **Combined with MBB: two names, 16.5% of the book, carrying pending share increases of +27.5% and +33.9%,
+  and a one-legged price refresh on either fires trigger 3. VPB's increase is the larger of the two, and so is
+  its weight.**
+  **Nothing modelled** — this verifies an input and corrects a *description*; no ex-date is established for
+  any tranche.
+  **Escalation check: none of the five fire.** Sources: vietstock, CafeF, doanhnghiephoinhap, Báo Chính phủ —
+  mutually consistent on every figure.
 
 - **08:53 ICT · MBB (lane 3, pre-open) — the gap I opened an hour ago is closed, and closing it made the
   hazard larger.**
