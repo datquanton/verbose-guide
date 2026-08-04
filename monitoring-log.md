@@ -14,7 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
-| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
+| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
@@ -79,6 +79,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-04
+
+- **17:53 ICT · INFRASTRUCTURE (lanes 3, 7) — "no ex-date established" appears four times in today's
+  entries, and it is ONE blocked host, not four research failures.**
+  **The Vietnam Securities Depository — `vsd.vn` — is the authoritative source for record dates and
+  ex-rights dates in Vietnam**, and its pages surfaced by title in this sweep. **Probed directly rather than
+  re-searched: both `vsd.vn` and `www.vsd.vn` return `connect_rejected` at the gateway**, confirmed at the
+  proxy status endpoint. It joins vietcat.com, ssi.com.vn, ftp2.ssi.com.vn, federalregister.gov, HOSE,
+  vietstock, vneconomy, simplize, 24hmoney, thuvienphapluat, luatvietnam and techcombank.com — **roughly
+  fifteen hosts.**
+  **WHY THIS ONE IS THE MOST EXPENSIVE OF THEM.** **Every one of the four pending corporate actions sized
+  today resolves at `vsd.vn`:**
+
+  | | weight | pending | one-legged refresh error |
+  |---|---:|---:|---:|
+  | TCB | 35.0% | +60.0% | **−39.0pp** |
+  | KDH | 20.3% | +11.0% | −10.2pp |
+  | VPB | 10.0% | +33.9% | −21.8pp |
+  | MBB | 6.5% | +27.5% | −29.5pp |
+
+  **71.8% of the book — and the hazard they create is the largest live mispricing available to this model.
+  The single source that would say when to apply both legs is the one the environment will not reach.**
+  **Method note, and it is the corrected one.** This was diagnosed by **probing the host**, not by failing at
+  searches seven times as happened with KDH/VNDiamond. The 03-Aug 15:53 rule — *check whether the channel is
+  open before concluding the information is absent* — **cost two curl calls here and would have cost six
+  searches otherwise.** **Standing consequence: ex-dates are NOT to be searched for as a dedicated task.**
+  They resolve via **(a)** FiinQuant MCP once the owner authorises it, **(b)** a widened network policy, or
+  **(c)** incidental mention in routine coverage, which is free.
+  **Two entity errors in the search summary, not adopted:** it called **VPB *"VietinBank"*** (VPB is VPBank;
+  VietinBank is CTG, not a holding) and **KDH *"Khomimex"*** (KDH is Khang Điền). Both are the summariser's,
+  not the sources'. The entity-check species again — Fortescue, the MBB SE trap and the HRC benchmark are the
+  precedents.
+  **Nothing new established on the ex-dates themselves.** The results returned **AGM record dates from
+  February–April 2026** — VPB 22-Apr, MBB 18-Apr — which are **annual-meeting** dates, **not** capital-action
+  record dates, and are not adopted as such.
+  **Nothing modelled.** **Escalation check: none of the five fire.**
 
 - **16:53 ICT · INDEX & FLOWS (lane 4) — the full-day recap is finally indexed. The MA200 cleared, and 93%
   of the move was three stocks this book does not own.**
