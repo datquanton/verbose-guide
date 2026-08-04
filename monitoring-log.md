@@ -80,6 +80,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **18:53 ICT · MODEL INPUTS (lane 3) — `cash_yield` enumeration complete at eight of eight, and
+  `risk.py`'s standing claim about it is wrong in a specific, measurable way.**
+  **VPX closes it: *"không chia cổ tức trong 2026"* — no dividend in 2026**, confirmed by two sources, with
+  the chair saying cash dividends may be considered *in future* and IPO proceeds directed to core business and
+  technology. **So `cash_yield = 0` is CORRECT for VPX — the second accurate zero, after KDH.**
+
+  | | weight | true yield | status |
+  |---|---:|---:|---|
+  | TCB | 35.0% | 2.393% | **correct on file** |
+  | **KDH** | **20.3%** | **0%** | **CORRECT — pays in stock** |
+  | HPG | 16.8% | 2.40% | wrong (trailing ₫500) |
+  | VPB | 10.0% | 2.00% | wrong (trailing ₫500) |
+  | MBB | 6.5% | 4.54% | wrong — *and `risk.py` itself already carries this figure* |
+  | TCX | 5.5% | 1.22% | wrong (trailing ₫500, FY2024) |
+  | VCI | 3.1% | 2.44% | wrong (trailing ₫500) |
+  | **VPX** | **2.8%** | **0%** | **CORRECT — no dividend** |
+
+  **`risk.py`'s inheritance block says *"cash_yield is populated for TCB alone … seven blanks bias the book's
+  E[r] DOWN."*** **The correct statement: five of the seven blanks are wrong, covering 41.9% of the book; two
+  are right, covering 23.1%.** The bias is real, and it applies to **41.9%**, not to the ~65% the *"seven
+  blanks"* phrasing implies.
+  **AND THE BOOK-LEVEL SIZE, WHICH NOBODY HAD COMPUTED.** Weighting each wrong blank by its position —
+  16.8%×2.40 + 10.0%×2.00 + 6.5%×4.54 + 5.5%×1.22 + 3.1%×2.44 — gives **1.04pp of book-level expected
+  return.** **The brief reports the book as owned at +1.8% E[r], so the omission is about 58% of the reported
+  figure.** A large relative number on a small absolute one, and **the single cheapest improvement available
+  to this model.**
+  **The caveat that keeps it human-only is unchanged: all five are TRAILING payments**, and a forward yield
+  must be the dividend expected over the holding period. **What can be said in support of a human setting them
+  near the trailing figures: these are recurring annual policies, not one-offs** — VPB is in its **fourth
+  consecutive year** of cash dividends, TCB its **third**, and HPG's FY2026 plan maintains a 15% total rate.
+  **That is an argument for a human, not a substitute for one.**
+  **Also confirmed:** VPB's FY2026 consolidated **PBT target ₫41,323bn, +35%** (the routine's ">41,300bn" is
+  right). And **VPB's 5% cash dividend had record date 18-May-2026, paid 25-May-2026** — confirming it is
+  trailing, **and an instance of route (c) from 17:53 working: a record date arriving by incidental mention
+  rather than from the blocked `vsd.vn`**, albeit for an already-executed action.
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: stockbiz, DNSE, vietstock,
+  nguoiquansat, Báo Chính phủ.
+
 - **17:53 ICT · INFRASTRUCTURE (lanes 3, 7) — "no ex-date established" appears four times in today's
   entries, and it is ONE blocked host, not four research failures.**
   **The Vietnam Securities Depository — `vsd.vn` — is the authoritative source for record dates and
