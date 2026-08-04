@@ -13,11 +13,17 @@ SHARES = 2060.158          # Model!X87 paid-in capital / VND10,000 par
 TP = 77800.0
 
 # straight from fix_stb_model.cascade()
-PBT = (8716.2, 13734.2, 20596.1)
-NPATMI = (6786.3, 10693.4, 16036.0)
-EQUITY = (66706.5, 77399.9, 93435.9)      # 59,920.2 + cumulative NPATMI
+from fix_stb_model import cascade
+_C = cascade()
+PBT = tuple(c['pbt'] for c in _C)
+NPATMI = tuple(c['npatmi'] for c in _C)
+EQ25 = 59920.157                          # Model!Y87+Y94+X98, ex the FY25 FX line
+EQUITY = tuple(EQ25 + sum(NPATMI[:i + 1]) for i in range(3))
 ASSETS = (1007118, 1139005, 1301528)      # published less the reserve restatement
-ROE = (10.2, 14.8, 18.8)                  # Model row 314: FY26F on ending, FY27-28F on average
+# Model row 314: FY26F on ending equity, FY27-28F on average - the model's own quirk
+ROE = (NPATMI[0] / EQUITY[0] * 100,
+       NPATMI[1] / ((EQUITY[0] + EQUITY[1]) / 2) * 100,
+       NPATMI[2] / ((EQUITY[1] + EQUITY[2]) / 2) * 100)
 
 EPS = tuple(n * 1000 / SHARES for n in NPATMI)
 BVPS = tuple(e * 1000 / SHARES for e in EQUITY)
@@ -57,11 +63,12 @@ EN = {
      "of write-offs the reserve stock cannot support."),
  6: ("STB recorded VND7,331bn of PBT in 1H25 but only VND297bn in 2H25, as 4Q25 registered a "
      "pre-tax loss of approximately VND3,360bn on a provisioning charge of around VND9,232bn. We "
-     "raise FY26F PBT to VND8,716bn (+14.3% YoY) from VND7,934bn, entirely on the cost line: 1H26 "
+     "raise FY26F PBT to VND8,683bn (+13.8% YoY) from VND7,934bn, entirely on the cost line: 1H26 "
      "CIR came in at 35.6% against the 42.9% previously carried for the full year, and we now "
-     "assume 39.9% (-0.8%p YoY), which still allows 2H26 operating expense to run 10.9% above "
-     "1H26. That implies 2H26 PBT of approximately VND4,580bn — around 15x the 2H25 base and "
-     "10.7% above the 1H26 level. Other FY26F assumptions: NII of VND27,010bn (+1.2% YoY), NIM of "
+     "assume 40.0% (-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F. That still allows "
+     "2H26 operating expense to run 11.5% above 1H26, and implies 2H26 PBT of approximately "
+     "VND4,547bn — around 15x the 2H25 base and 9.9% above the 1H26 level. Other FY26F "
+     "assumptions: NII of VND27,010bn (+1.2% YoY), NIM of "
      "2.94% (-38bps YoY) and a provisioning charge of VND11.1tn (-2.6% YoY); we flag that 1H26 "
      "loan growth of 1.5% sits well below the 11.7% carried for the full year. Separately, STB "
      "has taken possession of 507 land-use right certificates at LDG's Viva City project in Dong "
@@ -87,11 +94,11 @@ VN = {
      "có."),
  5: ("STB ghi nhận 7,331 tỷ đồng LNTT trong 1H25 nhưng chỉ 297 tỷ đồng trong 2H25, do Q4/2025 lỗ "
      "trước thuế khoảng 3,360 tỷ đồng với chi phí dự phòng khoảng 9,232 tỷ đồng. Chúng tôi nâng "
-     "dự phóng LNTT FY26F lên 8,716 tỷ đồng (+14.3% CK) từ 7,934 tỷ đồng, hoàn toàn nhờ chi phí "
+     "dự phóng LNTT FY26F lên 8,683 tỷ đồng (+13.8% CK) từ 7,934 tỷ đồng, hoàn toàn nhờ chi phí "
      "hoạt động: CIR 1H26 chỉ 35.6% so với 42.9% dự phóng cả năm trước đây, và chúng tôi điều "
-     "chỉnh về 39.9% (-0.8%p CK), vẫn cho phép chi phí hoạt động 2H26 cao hơn 1H26 10.9%. Mức này "
-     "hàm ý LNTT 2H26 khoảng 4,580 tỷ đồng — tương đương khoảng 15 lần nền 2H25 và cao hơn 1H26 "
-     "10.7%."),
+     "chỉnh về 40.0% (-0.7%p CK), giảm dần về 38.0% năm FY27F và 36.0% năm FY28F. Mức này vẫn "
+     "cho phép chi phí hoạt động 2H26 cao hơn 1H26 11.5%, và hàm ý LNTT 2H26 khoảng 4,547 tỷ "
+     "đồng — tương đương khoảng 15 lần nền 2H25 và cao hơn 1H26 9.9%."),
  6: ("Các giả định FY26F khác: NII 27,010 tỷ đồng (+1.2% CK), NIM 2.94% (-38bps CK) và chi phí dự "
      "phòng 11.1 nghìn tỷ đồng (-2.6% CK); lưu ý tăng trưởng tín dụng 1H26 chỉ đạt 1.5%, thấp hơn "
      "nhiều so với mức 11.7% dự phóng cả năm. Ở diễn biến khác, Sacombank đã thu giữ 507 giấy "

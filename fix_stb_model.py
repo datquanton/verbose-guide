@@ -3,7 +3,8 @@
 
 Two instructions from the analyst:
   (1) hold coverage at ~50%  ->  the reachable FY26F NPL is 5.5%
-  (2) CIR should be ~38-40%  ->  the opex build has to come down from 42.9%
+  (2) CIR 40% / 38% / 36% FY26-28F  ->  the opex build has to come down from
+      42.9/42.6/40.5% and then decline rather than sit in a band
 
 Three things had to change to make (1) true inside the model rather than on
 the side of it:
@@ -19,7 +20,7 @@ the side of it:
                     P&L.  Leaving it at 1.5x on a write-off that size is what
                     produced the PBT collapse the analyst rejected.
 
-  Model!Y132/Z132/AA132, Y134, AA134   the opex build   -> CIR 39.9/39.9/38.1%
+  Model!Y132/Z132/AA132, Y134/Z134/AA134  the opex build  -> CIR 40/38/36%
 
 The provisioning line is NOT driven off the grading mix (only the 0.7% general
 allowance on Groups 1-4 is); it is write-off rate x gross loans x the charge
@@ -58,12 +59,14 @@ MODEL_EDITS = {
              'specific charge 0.85x write-off: reserve-funded clean-up'),
     'Y132': ('Y1010',     'X132*1',       None, None,
              'FY26F staff cost flat vs FY25 (1H26 actual opex is -4.4% YoY)'),
-    'Y134': ('X134*1.05', 'X134*0.99',    None, None,
-             'FY26F other opex -1%: workout/collection costs roll off'),
-    'Z132': ('Z1010',     'Y132*1.08',    None, None, 'FY27F staff cost +8%'),
-    'AA132': ('AA1010',   'Z132*1.1',     None, None, 'FY28F staff cost +10%'),
-    'AA134': ('Z134*1.1', 'Z134*1.15',    None, None,
-              'FY28F other opex +15%: re-investment once the book is clean'),
+    'Y134': ('X134*1.05', 'X134*1',       None, None,
+             'FY26F other opex flat vs FY25          -> CIR 40.0%'),
+    'Z132': ('Z1010',     'Y132*1.015',   None, None, 'FY27F staff cost +1.5%'),
+    'Z134': ('Y134*1.1',  'Y134*1.015',   None, None,
+             'FY27F other opex +1.5%                 -> CIR 38.0%'),
+    'AA132': ('AA1010',   'Z132*1.106',   None, None, 'FY28F staff cost +10.6%'),
+    'AA134': ('Z134*1.1', 'Z134*1.106',   None, None,
+              'FY28F other opex +10.6%: re-investment -> CIR 36.0%'),
 }
 
 
@@ -141,13 +144,16 @@ STAFF_25, OTHER_25 = 6985.597, 3316.289
 TAX = 0.22140908033206499
 
 
+OPEX_X = {26: 1.0, 27: 1.015, 28: 1.106}   # applied to staff and other alike
+
+
 def cascade():
-    staff = {26: STAFF_25 * 1.00}
-    staff[27] = staff[26] * 1.08
-    staff[28] = staff[27] * 1.10
-    other = {26: OTHER_25 * 0.99}
-    other[27] = other[26] * 1.10
-    other[28] = other[27] * 1.15
+    staff = {26: STAFF_25 * OPEX_X[26]}
+    staff[27] = staff[26] * OPEX_X[27]
+    staff[28] = staff[27] * OPEX_X[28]
+    other = {26: OTHER_25 * OPEX_X[26]}
+    other[27] = other[26] * OPEX_X[27]
+    other[28] = other[27] * OPEX_X[28]
     gen_open, spec_open = GEN_OPEN_25, SPEC_OPEN_26
     rows = []
     for y in (26, 27, 28):

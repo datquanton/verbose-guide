@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Push the STB 5.5%-NPL / 39.9%-CIR cascade into the stock-pick workbook.
+"""Push the STB 5.5%-NPL / 40-38-36% CIR cascade into the stock-pick workbook.
 Sheet1 'Stock Pick' row 6 = STB; Sheet2 'Target Price and Forecast' row 13 = STB.
 All strings are inlineStr - this workbook has no sharedStrings part."""
 import zipfile
@@ -9,9 +9,13 @@ WB = '/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.x
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 SHARES = 2060.158
 
-NPATMI_25, NPATMI_26, NPATMI_27 = 5939.111, 6786.3, 10693.4
-TP = 77800.0
-EQ_26, EQ_27 = 66706.5, 77399.9
+from fix_stb_model import cascade
+_C = cascade()
+NPATMI_25 = 5939.111
+NPATMI_26, NPATMI_27 = _C[0]['npatmi'], _C[1]['npatmi']
+TP, EQ25 = 77800.0, 59920.157
+EQ_26 = EQ25 + NPATMI_26
+EQ_27 = EQ_26 + NPATMI_27
 eps = lambda n: n * 1000 / SHARES
 bvps = lambda e: e * 1000 / SHARES
 
@@ -25,9 +29,10 @@ C6 = ("- We forecast NII at VND27,010bn (+1.2% YoY). 1H26 loan growth of 1.5% si
       "Group 5 balance, leaving coverage back at 50.0%. Holding coverage at 50% is what caps the "
       "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
       "1H26 pace.\n"
-      "- We raise FY26F PBT to VND8,716bn (+14.3% YoY) on the cost line alone: 1H26 CIR came in at "
-      "35.6% against the 42.9% previously carried for the full year, and we now assume 39.9% "
-      "(-0.8%p YoY).")
+      "- We raise FY26F PBT to VND8,683bn (+13.8% YoY) on the cost line alone: 1H26 CIR came in at "
+      "35.6% against the 42.9% previously carried for the full year, and we now assume 40.0% "
+      "(-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F as total operating income "
+      "outgrows a cost base held near flat through the clean-up.")
 
 SHEET1 = {
     'C6': ('str', C6),
