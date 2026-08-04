@@ -80,6 +80,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **21:53 ICT · COMPETITORS & STREET (lane 6) — the routine watches an IPO that closed eight months ago,
+  and it left behind the comparator TCX has never had.**
+  *(Lane 6 was the only lane untouched today; the 19:53 rule sent me here.)*
+  **The stale item.** The routine's lane 6 lists **"VPS IPO"** as a live watch item. **It closed.** VPS
+  completed its IPO of **202.3m shares in mid-November 2025** and **listed ~1.5bn shares on HoSE on
+  16-Dec-2025.** **Third defect found in the routine's own watch list in two days** — after VPB's *"$250m
+  placement"* being a par value (09:53) and MBB's capital plan omitting a 200m-share tranche (03-Aug 08:53).
+  **A compressed watch list is repeated, not re-derived, so its errors are quoted indefinitely.**
+  **The substance, which is worth more than the housekeeping.** **Three broker IPOs landed in late 2025 and
+  two of the three issuers are in this book:**
+
+  | | raise | detail |
+  |---|---:|---|
+  | **VPX** (VPBankS) | **₫12,712bn** | 375m at ₫33,900 — established at 12:53 today |
+  | VPS | **≥₫12,138bn** | 202.3m at a ₫60,000 floor |
+  | **TCX** (TCBS) | ₫10,800bn | |
+
+  Coverage describes the three together as having **triggered a re-rating wave across the broker sector.**
+  **This file has no record of that mechanism** — and it bears on **VCI (3.1%)**, whose bull case is recorded
+  as an **FTSE event bet** on its institutional franchise. **A sector re-rating driven by primary supply is a
+  different mechanism for the same multiple, and it is not in the dossier.**
+  **AND THE COMPARATOR TCX HAS NEVER HAD.** VPS's IPO **floor of ₫60,000** against an audited mid-2025 **book
+  value of ₫22,457/share** is a **P/B floor of 2.67×.** This file calls TCX's **2.49×** *"the priciest in
+  book"*, and its kill criterion fires **below 2.00×**. **So the market-share leader set its primary floor 7%
+  ABOVE where TCX trades, and TCX's kill criterion sits 25% below where VPS successfully raised ₫12tn.**
+  **"Priciest in book" is true within this portfolio and is not true against its closest comparable.**
+  **The limits, stated because they are real and the comparison is tempting.** **(1) Different measure:**
+  2.67× is a **primary-issue floor** in a book-build where *"investors determine the final sale price"* — not
+  a clearing price; 2.49× is a **secondary market** price. **(2) Different dates:** VPS's book is **audited
+  mid-2025** and the offer was **Nov-2025**; TCX's 2.49× is on **filed Q2/2026 equity** of ₫45,782bn — **eight
+  months apart.** **(3) A floor is a lower bound on the price and an upper bound on nothing.**
+  **So this is a comparator with its limits attached, not a valuation. No multiple is changed** — `exit_pe` is
+  human-only under charter §4 in any case.
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: vietstock, nhadautu, CafeF,
+  baodautu, VnEconomy.
+
 - **20:53 ICT · BANKS (lane 5) — the system-level scale the item-26 provisioning work was missing. It
   reframes my own best finding, and it cuts both ways.**
   **Three NPL ratios, and they are NOT a series.** **1.92%** across **28 listed banks** at end-Q2/2026, up
