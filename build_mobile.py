@@ -10,13 +10,18 @@ blocks too: the layouts are identical, only the wording differs.
 Slide duplication copies each source relationship into the new slide and then
 rewrites the r:id / r:embed references inside the copied shape XML, because
 python-pptx assigns its own rIds and the shapes would otherwise point at
-nothing.  The SmartArt on slide 1 and the charts on slides 2-3 are dropped and
-replaced with text and PNGs, which keeps the deck editable without dragging
-four diagram parts and two chart workbooks along.
+nothing.  The charts on slides 2-3 are rebuilt as native PowerPoint charts with their own
+embedded workbook, so they stay editable in PowerPoint and Excel - the same
+series that chart_data.py writes to the standalone workbook.  The SmartArt on
+slide 1 is the one thing not reproduced; it is replaced with a text frame.
 """
 import copy
 from pptx import Presentation
 from pptx.util import Emu, Pt
+from pptx.chart.data import CategoryChartData
+from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION, XL_LABEL_POSITION
+from pptx.dml.color import RGBColor
+from chart_data import SERIES, YRS
 
 SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
        'ad4f5d0b-Mobile_Report_MBB_1Q26_EN.pptx')
@@ -202,16 +207,64 @@ def put(tf, lines):
             r.text = ''
 
 
-def swap_for_png(slide, shape_id, png):
+PLOT = ['2a78d6', '1baf7a', 'eb6834']       # dataviz categorical slots 1-3
+
+
+def pick(tick, keys, li):
+    """Series rows for one chart, in the workbook's own order."""
+    out = []
+    for t, k, en, vn, vals in SERIES:
+        if t == tick and k in keys:
+            out.append(((en, vn)[li], vals))
+    return out
+
+
+def take_frame(slide, shape_id):
+    """Remove the template placeholder and hand back the box it occupied."""
     sh = sid(slide, shape_id)
-    l, t, w, h = sh.left, sh.top, sh.width, sh.height
+    box = (sh.left, sh.top, sh.width, sh.height)
     sh._element.getparent().remove(sh._element)
-    # keep the aspect ratio of the PNG inside the old frame
-    from PIL import Image
-    iw, ih = Image.open(png).size
-    scale = min(w / iw, h / ih)
-    nw, nh = int(iw * scale), int(ih * scale)
-    slide.shapes.add_picture(png, l + (w - nw) // 2, t + (h - nh) // 2, nw, nh)
+    return box
+
+
+def add_chart(slide, box, rows, decimals=0, half=None):
+    """Native clustered-column chart, so it stays editable in PowerPoint."""
+    l, t, w, h = box
+    if half is not None:                     # two charts stacked in the one box
+        gap = Emu(240000)
+        h = (h - gap) // 2
+        t = t + (h + gap) * half
+    cd = CategoryChartData()
+    cd.categories = YRS
+    for name, vals in rows:
+        cd.add_series(name, vals)
+    gf = slide.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, l, t, w, h, cd)
+    ch = gf.chart
+    ch.font.size = Pt(13)
+    ch.font.color.rgb = RGBColor.from_string('1A1A1A')
+    if len(rows) > 1:
+        ch.has_legend = True
+        ch.legend.position = XL_LEGEND_POSITION.TOP
+        ch.legend.include_in_layout = False
+        ch.legend.font.size = Pt(13)
+    else:
+        ch.has_legend = False
+    for i, ser in enumerate(ch.plots[0].series):
+        ser.format.fill.solid()
+        ser.format.fill.fore_color.rgb = RGBColor.from_string(PLOT[i % len(PLOT)])
+    pl = ch.plots[0]
+    pl.gap_width = 60
+    pl.overlap = -10 if len(rows) > 1 else 0
+    pl.has_data_labels = True
+    dl = pl.data_labels
+    dl.number_format = '#,##0' if not decimals else '0.0'
+    dl.number_format_is_linked = False
+    dl.font.size = Pt(11)
+    dl.position = XL_LABEL_POSITION.OUTSIDE_END
+    ch.value_axis.has_major_gridlines = True
+    ch.value_axis.tick_labels.font.size = Pt(12)
+    ch.category_axis.tick_labels.font.size = Pt(13)
+    return ch
 
 
 def fill_table(tbl, rows, cols):
@@ -264,12 +317,19 @@ def main():
         # income statement
         put(sid(sl[2], 9).text_frame, [b['t2']])
         put(sid(sl[2], 3).text_frame, [b['sub2']])
-        swap_for_png(sl[2], 7, '/home/user/verbose-guide/m_%s_is_%s.png' % (b['tick'], b['lang']))
+        li = 0 if b['lang'] == 'en' else 1
+        tk = b['tick'].upper()
+        box = take_frame(sl[2], 7)
+        top, bot = ({'is'}, {'pbt'}) if tk == 'STB' else ({'rev'}, {'is'})
+        add_chart(sl[2], box, pick(tk, top, li), half=0)
+        add_chart(sl[2], box, pick(tk, bot, li), half=1)
         # valuation
         put(sid(sl[3], 9).text_frame, [b['t3']])
         put(sid(sl[3], 3).text_frame, [b['sub3']])
         put(sid(sl[3], 7).text_frame, ['Source: Company data, Mirae Asset Vietnam Research'])
-        swap_for_png(sl[3], 2, '/home/user/verbose-guide/m_%s_val_%s.png' % (b['tick'], b['lang']))
+        vbox = take_frame(sl[3], 2)
+        add_chart(sl[3], vbox, pick(tk, {'val_pe'}, li), 1, half=0)
+        add_chart(sl[3], vbox, pick(tk, {'val_pb'}, li), 1, half=1)
         # estimates
         put(sid(sl[4], 11).text_frame, [b['t4']])
         fill_table(sid(sl[4], 2).table, b['rows'], COLS)
