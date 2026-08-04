@@ -80,6 +80,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **15:53 ICT · INDEX & FLOWS (lane 4) — a stale session was presented as today's, and a stored value
+  caught it. The standing rule worked in a direction it had not been tested in.**
+  **The trap.** A search for the 04-Aug session returned *"VN-Index closed at **1,762.84**, up more than **27
+  points**, on 4/8/2026"* with *"foreign investors net bought more than **₫1,000bn** on HOSE."* **Every one of
+  those is the 03-AUGUST session, already on file** — `vnindex_close_2026_08_03 = 1762.84`,
+  `foreign_net_flow_hose_2026_08_03_bn = 1061`. **A daily report published on 04-Aug describes the previous
+  session, and the summary attached the publication date to the observation.**
+  **This is the publication-date vs observation-date trap logged at 02:53 today, running FORWARD rather than
+  backward** — stale data presented as *current*, rather than a current article describing a past period.
+  **Caught by the standing rule** — *no market-level figure adopted unless dated or checkable against a stored
+  value* — and this is the sharpest form of that check: **the figure matched a stored value for a DIFFERENT
+  date. A file with no memory of yesterday would have adopted it.**
+  **What is genuinely new and dated — and it is the MORNING session only.** At the **04-Aug morning close the
+  VN-Index was 1,769.04, +6.2 points (+0.35%)**. **It reconciles exactly: 1,762.84 + 6.2 = 1,769.04**, so the
+  stored 03-Aug close and this new figure confirm each other. HOSE breadth **132 up / 152 down**; morning
+  turnover **298.7m units, ₫7,718bn, down ~5% on both** vs yesterday morning. **The full-day close is not
+  established.**
+  **Two things worth extracting.**
+  **(1) Breadth diverged from the index:** more decliners than advancers **while the index rose 0.35%** — so
+  **the gain is concentrated in large caps.** A fact about the shape of the move, not a forecast.
+  **(2) A new resistance level with a named basis: 1,770, the MA200**, and the market *"stalled on approaching
+  it."* The index sits **0.05% below it.** **This file's previous resistance was 1,750 — a round number — and
+  on 02-Aug it recorded a failed test there with the explicit refusal** *"a failed test at a round number is
+  not a forecast and is not treated as one."* **That refusal scored: the level cleared the next session.** The
+  same bar applies here and is applied — **an MA200 is a coordination point people watch, which is a
+  marginally better mechanism than a round number and not a different kind of thing.** **Level recorded, no
+  forecast made.**
+  **And a measurement of my own stopping rule.** Yesterday's 09:53 correction set the checkable time at *"the
+  15:00 close plus publication."* **At 15:54 — 54 minutes after the close — the morning recap is indexed and
+  the full-day recap is not.** So the publication lag for a full-day recap **exceeds 54 minutes**. **That is a
+  measurement of the existing rule, not a third revision of it:** the axis (publication lag) is right and now
+  has a number attached.
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: tinnhanhchungkhoan (morning
+  session, dated), with the 03-Aug figures traced back to yesterday's own entry.
+
 - **14:53 ICT · TCX + VCI (lane 3) — the number that caused this session's largest error turns out to have
   been CORRECT for its own date, which sharpens what the error actually was.**
   **The evidence.** TCBS paid its **FY2024** cash dividend at 5% of par — **₫500/share, total ~₫1,155bn.**
