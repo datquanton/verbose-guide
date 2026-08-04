@@ -80,6 +80,61 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **05:53 ICT · POLICY (lanes 1, 5) — the file has carried "18 projects of 3 private economic groups"
+  as an anonymised fact for days. The three groups are Vingroup, Sun Group and **Masterise** — and the
+  instrument is not the one the search said it was.**
+  *(Vietnam opens in ~3 hours; US closed and covered at 04:53. No market news available, so this ran the
+  regulatory lane instead.)*
+  **THE CONFLATION, DISARMED BEFORE IT WAS WRITTEN DOWN.** The result that surfaced this said the exclusion
+  was granted **by Circular 25/2026/TT-NHNN**. It was not. Circular 25 amends **Circular 22/2019 on prudential
+  limits and safety ratios** — that is what this file's own T1 entry on it says, and credit-room allocation is
+  not made under Circular 22. The vehicle is **Công văn 5386/NHNN-TD**, an SBV guidance letter to commercial
+  banks, dated **22-Jun-2026 — the same day Circular 25 was issued**, which is almost certainly why press and
+  search summaries merge them. **Two instruments, one day, different legal weight:** a *thông tư* is a
+  normative legal document; a *công văn* is administrative guidance — weaker, and far more easily withdrawn.
+  Anything resting on this carve-out rests on a letter, not on law.
+  **WHAT IS EXEMPTED IS WIDER THAN "THE ROOM", AND THE THIRD ITEM IS NEW TO THIS FILE.** Newly incurred debt on
+  the approved projects is excluded from **(1)** annual credit growth — the room; **(2)** the
+  **short-term-funding-for-medium-and-long-term-lending ratio** — the very ratio Circular 25 lifted 30%→40%
+  the same day; and **(3)** the **single-customer and related-customer-group credit limit**. **(3) is the
+  sharpest and the file had no version of it.** The room is a *growth* guardrail; the single-borrower limit is
+  a **concentration** guardrail — and concentration is exactly what this book has been circling on TCB for two
+  weeks. Lending banks must monitor the excluded debt separately and report it to SBV, so the supervisory data
+  exists; it is simply not public.
+  **SCALE.** Total mobilisation need across the 18 projects ≈ **₫752,138bn**, phased **₫210,047bn (2026) ·
+  ₫244,188bn (2027) · ₫187,018bn (2028)**. *No share-of-system-credit ratio is computed:* mobilisation need is
+  not bank credit drawn, and dividing one by the other would manufacture precision the source does not carry.
+  Named projects include APEC conference facilities, the Rạch Chiếc sports complex, the Bến Thành–Cần Giờ
+  railway and the Hà Nội–Quảng Ninh railway. **These are infrastructure, not apartments.**
+  **THE ENTITY CHECK, WHICH CUTS AGAINST THE CONVENIENT READING.** The Masterise applicant is
+  **CTCP Hạ tầng Hàng không Masterise — Masterise *Aviation Infrastructure***. That is not Masterise Homes,
+  and it is none of the six property issuers behind the ₫44,500bn of H1 bonds recorded 28-Jul and 31-Jul. So
+  the tempting sentence — *"banks can now refinance Masterise projects with quota-free loans instead of
+  11.5–12% bonds"* — **is not supported and is not written.** If anything it makes **item 27 worse**: TCB's
+  armed test says *"a Masterise bond event"*, 31-Jul already found the boundary of "Masterise" was not crisp,
+  and the state has now attached the name to an aviation-infrastructure company. **The boundary got wider, not
+  tighter.** Evidence status on a held name changed; **no criterion is declared fired.**
+  **TCB's exposure to any of these projects or issuers is NOT established and is NOT inferred.** The sources
+  name the borrowers and do not name the lenders. This file refused this exact link on 02-Aug (KDH's bond
+  violations → the TCB/Masterise finding) and again on 04-Aug — *"the link between the two halves is the thing
+  still missing, and naming it as missing is not the same as supplying it."* **The refusal stands unchanged.**
+  **WHAT IT DOES BEAR ON.** *(a)* **The banks, 51.5%:** the file's `circular_25` entry credited a *system-wide*
+  SMLR loosening with making VPB's and MBB's H2 credit targets more achievable. That needs a qualifier — part
+  of the same day's loosening is a **named allocation** to three private groups, exempt from three constraints
+  at once. Preferential capacity allocated by name is not capacity available to everyone. It narrows the
+  earlier point; it does not reverse it. *(b)* **KDH, 20.3%:** KDH is a developer and is **not** one of the
+  three. Three competitors for bank balance-sheet capacity now borrow outside the room, outside the SMLR ratio
+  and outside the concentration limit; KDH borrows inside all three, land bank fully pledged, debt +51% to
+  ₫15.3tn. **A relative disadvantage, not an absolute one, and not sized.**
+  **NOTHING MODELLED.** No probability, branch, weight or confidence moved. Charter §5 — bears on theses, not
+  on numbers.
+  **HOW THIS WAS MISSED, AND IT IS THE THIRD TIME — BUT A WORSE SPECIES.** Dated 22-Jun, in the Vietnamese
+  press on 23-Jun **with the names in the headlines**, and this file recorded the *anonymised* version. Worse
+  than the Circular 25 miss and the HPG half-year-volume miss, because in both of those the file held
+  **nothing**. Here it held a **partial record that read as complete**: *"three private economic groups"* looks
+  like a fact rather than like a gap. **An anonymised fact in a file full of named ones is a missing search
+  wearing the costume of a finished one.**
+
 - **04:53 ICT · MACRO (lane 1) — the front end now agrees with the claim I could previously only support
   fundamentally, and the long end went the other way for a second day.**
   *(US close was 113 minutes ago — past the >54min/<114min indexing bracket measured yesterday.)*
