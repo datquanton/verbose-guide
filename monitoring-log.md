@@ -80,6 +80,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **16:53 ICT · INDEX & FLOWS (lane 4) — the full-day recap is finally indexed. The MA200 cleared, and 93%
+  of the move was three stocks this book does not own.**
+  *(Publication lag now bracketed rather than guessed: **not indexed at 54 minutes past the close, indexed at
+  114.**)*
+  **The close: VN-Index ~1,777, up ~14 points.** It reconciles — **1,762.84 + 14 = 1,776.84** — and against
+  the 04-Aug morning figure of **1,769.04** the afternoon added **8 points to close at the day's high.** HOSE
+  turnover **>₫18,000bn** vs ₫16,430bn on 03-Aug (**+9.6%**); the morning was ₫7,718bn, so **the afternoon was
+  ~₫10,282bn** — heavier than the morning.
+  **The 1,770 MA200 is cleared**, the close sitting **0.40% above** it. **That is the second resistance level
+  in three sessions to clear after this file explicitly refused to forecast off it** — 1,750 on 02-Aug and
+  1,770 today. **Both refusals scored. And two observations are not a rule:** *"resistance levels don't hold"*
+  is precisely the over-generalisation this file would be making from a sample of two. **The refusals were
+  right because no mechanism was nameable, not because levels never bind.**
+  **THE BREADTH FACT MATTERS MORE THAN THE INDEX.** **The Vingroup trio — VIC, VHM, VRE — contributed more
+  than 13 of the 14 points, about 93% of the index move, and none is in this book.** With the morning's
+  breadth of **132 up / 152 down**, this was a **narrow, large-cap, property-led session.** **An index up 0.8%
+  on three stocks we don't own says almost nothing about this portfolio.**
+  **And the KDH inference is refused for the second day running.** Property *"broke out"* — but the **named**
+  drivers are VIC, VHM and VRE. Yesterday KDH rose 3.24% *with its whole sector*, so the move carried no
+  information; **today the sector move is Vingroup-specific.** KDH's own move is **not established either way
+  and is not inferred.**
+  **Foreign flows — second consecutive buy session, and the scopes differ so they are not added naively.**
+  04-Aug: **~₫872bn, quoted for the WHOLE MARKET.** 03-Aug was **₫1,061bn on HOSE** and >₫1,020bn
+  all-exchange. **Different measures; the file will not treat 1,061 and 872 as a series.** Taken loosely, two
+  buying sessions reverse roughly **three average selling days** out of seven months in which foreigners net
+  sold ₫92,000bn. **Still not a trend** — the 03-Aug entry said *"one session, not a trend,"* and two is not
+  materially different.
+  **Top bought: VIC ₫438bn, VHM ₫284bn, and MBB ₫172bn.** **MBB is a holding and the engine's rank-1 name, and
+  it was also bought on 03-Aug at ₫89bn — net bought two sessions running with the amount roughly doubling.**
+  **Recorded as a flow observation, not as evidence for the thesis:** MBB's E[r] rests on branches that are
+  typed in and derived from nothing, and foreign buying does not repair that.
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: danviet, CafeF (URL date-stamped
+  260804), mekongasean.
+
 - **15:53 ICT · INDEX & FLOWS (lane 4) — a stale session was presented as today's, and a stored value
   caught it. The standing rule worked in a direction it had not been tested in.**
   **The trap.** A search for the 04-Aug session returned *"VN-Index closed at **1,762.84**, up more than **27
