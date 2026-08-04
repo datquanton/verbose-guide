@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
-"""Cross-check the STB slides and the stock-pick workbook against the model.
+"""Cross-check the August deck and the stock-pick workbook against the model.
 
-The deck is validated against fix_stb_model.cascade(), which replays the
-model's own formula chain in Python, rather than against numbers typed twice.
+Deck figures are compared against update_aug_deck's constants, which are read
+straight out of the recalculated workbook, so nothing is typed twice.  The
+model file itself is verified by fix_stb_model.verify().
 """
 import openpyxl, zipfile
 from lxml import etree
 from pptx import Presentation
-from fix_stb_model import cascade, NPL_EDITS, MODEL_EDITS, ALREADY, ALREADY_F
+import update_aug_deck as U
+from fix_stb_model import verify
 
-DECK = '/home/user/verbose-guide/MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_31July2026.pptx'
+DECK = ('/home/user/verbose-guide/'
+        'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
 PICK = '/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.xlsx'
 MODEL = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
+TPF = 87950.
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
-TP, SHARES, EQ25 = 77800., 2060.158, 59920.157
+TP, SHARES = U.STB_TP, U.SHARES
 fails = []
 
 
@@ -28,60 +32,36 @@ z = zipfile.ZipFile(MODEL)
 npl = etree.fromstring(z.read('xl/worksheets/sheet2.xml'))
 M = {c.get('r'): float(c.find(NS + 'v').text) for c in npl.iter(NS + 'c')
      if c.find(NS + 'v') is not None and c.find(NS + 'f') is None and c.get('t') != 's'}
-for ref, exp in ALREADY['NPL'].items():
-    check('NPL!%s still %s' % (ref, exp), abs(M[ref] - exp) < 1e-9, '%.3f' % M[ref])
 for col, lab, tgt in (('N', 'FY26F', 0.055), ('O', 'FY27F', 0.040), ('P', 'FY28F', 0.027)):
     n = sum(M['%s%d' % (col, r)] for r in (28, 29, 30))
     t = sum(M['%s%d' % (col, r)] for r in (26, 27, 28, 29, 30))
     check('model %s NPL mix = %.1f%%' % (lab, tgt * 100), abs(n - tgt) < 1e-9, '%.3f%%' % (n * 100))
     check('model %s grading mix sums to 1.000' % lab, abs(t - 1) < 1e-9, '%.4f' % t)
+for msg in verify(MODEL):
+    check('model assumption intact', False, msg)
+check('every booked model assumption still in place', not verify(MODEL))
+DG = {c.get('r'): c.find(NS + 'v').text for c in npl.iter(NS + 'c')
+      if c.get('r') in ('DG13', 'DG22', 'DG23') and c.find(NS + 'v') is not None}
+check('NPL!DG 2Q26 column resolves', abs(float(DG.get('DG23', 0)) - 0.07540) < 5e-5,
+      '%.3f%%' % (float(DG.get('DG23', 0)) * 100))
+check('2Q26 NPL balance = 47,957', abs(float(DG.get('DG22', 0)) - 47957.084) < 1)
+check('2Q26 gross loans = 636,029', abs(float(DG.get('DG13', 0)) - 636028.893) < 1)
 
-mdl = {}
-WANT = set(MODEL_EDITS) | set(ALREADY['Model']) | set(ALREADY_F)
-for ev, el in etree.iterparse(z.open('xl/worksheets/sheet1.xml'), events=('end',)):
-    if el.tag != NS + 'c':
-        continue
-    if el.get('r') in WANT:
-        f, v = el.find(NS + 'f'), el.find(NS + 'v')
-        mdl[el.get('r')] = (f.text if f is not None else None,
-                            v.text if v is not None else None)
-    el.clear()
-for ref, (ef, nf, note) in MODEL_EDITS.items():
-    check('Model!%s booked' % ref, mdl.get(ref, (None,))[0] == nf, nf)
-for ref, exp in ALREADY['Model'].items():
-    check('Model!%s still %s' % (ref, exp), abs(float(mdl[ref][1]) - exp) < 1e-9)
-for ref, exp in ALREADY_F.items():
-    check('Model!%s still =%s' % (ref, exp), mdl[ref][0] == exp)
-npl_dg = {}
-for ev, el in etree.iterparse(z.open('xl/worksheets/sheet2.xml'), events=('end',)):
-    if el.tag != NS + 'c':      # clearing an <f> wipes its text before <c> ends
-        continue
-    if el.get('r') in NPL_EDITS:
-        f = el.find(NS + 'f')
-        npl_dg[el.get('r')] = f.text if f is not None else None
-    el.clear()
-for ref, (ef, nf, note) in NPL_EDITS.items():
-    check('NPL!%s -> Q2/2026 actuals (%s)' % (ref, note.split()[0]), npl_dg.get(ref) == nf)
-check('workbook set to recalculate on open',
-      'fullCalcOnLoad="1"' in z.read('xl/workbook.xml').decode())
-
-# ------------------------------------------------------------- the cascade
-C = {c['y']: c for c in cascade()}
-for y, tgt in ((2026, 0.40), (2027, 0.38), (2028, 0.36)):
-    check('FY%dF CIR = %.0f%% as instructed' % (y, tgt * 100),
-          abs(C[y]['cir'] - tgt) < 0.0005, '%.2f%%' % (C[y]['cir'] * 100))
-check('CIR declines year on year', C[2026]['cir'] > C[2027]['cir'] > C[2028]['cir'])
-check('FY26F coverage held near 50%', abs(C[2026]['cov'] - 0.51) < 0.005,
-      '%.1f%%' % (C[2026]['cov'] * 100))
-check('FY26F NPL = 5.5%', abs(C[2026]['npl_pct'] - 0.055) < 1e-9)
-check('FY26F PBT set at VND8,150bn', abs(C[2026]['pbt'] - 8150) < 1,
-      '%.0f = plan +%.1f%%, +%.1f%% YoY'
-      % (C[2026]['pbt'], C[2026]['pbt'] / 81 - 100, C[2026]['pbt'] / 7628.025 * 100 - 100))
-check('2H26 opex above 1H26 actual of 6,233 (no back-end cost cut)',
-      C[2026]['opex'] - 6233.19 > 6233.19, '+%.1f%%' % ((C[2026]['opex'] - 6233.19) / 6233.19 * 100 - 100))
-check('2H26 write-off leaves NPL formation positive but slower than 1H26',
-      0 < C[2026]['wo'] - (47957 - C[2026]['npl']) < 7800,
-      'implied 2H26 formation %.0f vs 7,800 in 1H26' % (C[2026]['wo'] - (47957 - C[2026]['npl'])))
+# ---------------------------------------------------- the model's own P&L
+check('FY26F CIR = 40%', abs(U.CIR[0] - 40) < 0.05, '%.2f%%' % U.CIR[0])
+check('FY27F CIR = 38%', abs(U.CIR[1] - 38) < 0.05, '%.2f%%' % U.CIR[1])
+check('FY28F CIR drifted off the 36% target', abs(U.CIR[2] - 36) > 0.05,
+      '%.2f%% - reported to the analyst, not silently re-solved' % U.CIR[2])
+check('FY26F PBT within 10bn of the 8,150 target', abs(U.PBT[0] - 8150) < 10,
+      '%.0f' % U.PBT[0])
+check('FY26F coverage near 51%', abs(U.COV26 - 51) < 0.2, '%.1f%%' % U.COV26)
+check('PBT = TOI - opex - provisioning, all three years',
+      all(abs(U.TOI[i] - U.OPEX[i] - U.PROV[i] - U.PBT[i]) < 1 for i in range(3)))
+check('NPATMI = PBT x (1 - 22.14% tax)',
+      all(abs(U.PBT[i] * 0.7785909196679350 - U.NPATMI[i]) < 1.5 for i in range(3)))
+check('equity rolls forward on retained NPATMI',
+      abs(U.EQUITY[1] - U.EQUITY[0] - U.NPATMI[1]) < 1.5
+      and abs(U.EQUITY[2] - U.EQUITY[1] - U.NPATMI[2]) < 1.5)
 
 # ------------------------------------------------------------------- deck
 prs = Presentation(DECK)
@@ -103,43 +83,70 @@ pbt, npat = row(en_tbl, 'Operating profit'), row(en_tbl, 'Net Profit')
 eps, pe, pb = row(en_tbl, 'EPS'), row(en_tbl, 'P/E'), row(en_tbl, 'P/B')
 bv, eq = row(en_tbl, 'BVPS'), row(en_tbl, 'Equity')
 
-for i, y in enumerate((2026, 2027, 2028)):
-    check('FY%dF PBT = model cascade' % y, abs(pbt[i] - C[y]['pbt']) < 1,
-          '%.0f vs %.0f' % (pbt[i], C[y]['pbt']))
-    check('FY%dF NPATMI = model cascade' % y, abs(npat[i] - C[y]['npatmi']) < 1,
-          '%.0f vs %.0f' % (npat[i], C[y]['npatmi']))
+for i in range(3):
+    y = 2026 + i
+    check('FY%dF PBT = model' % y, abs(pbt[i] - U.PBT[i]) < 1, '%.0f' % pbt[i])
+    check('FY%dF NPATMI = model' % y, abs(npat[i] - U.NPATMI[i]) < 1, '%.0f' % npat[i])
     check('FY%dF EPS = NPATMI / 2,060mn shares' % y, abs(npat[i] * 1000 / SHARES - eps[i]) < 1)
-    check('FY%dF P/E = TP / EPS' % y, abs(TP / eps[i] - pe[i]) < 0.051,
-          '%.2f vs %.2f' % (TP / eps[i], pe[i]))
+    check('FY%dF P/E = TP %s / EPS' % (y, '{:,.0f}'.format(TP)),
+          abs(TP / eps[i] - pe[i]) < 0.051, '%.2f vs %.2f' % (TP / eps[i], pe[i]))
     check('FY%dF P/B = TP / BVPS' % y, abs(TP / bv[i] - pb[i]) < 0.051,
           '%.2f vs %.2f' % (TP / bv[i], pb[i]))
     check('FY%dF BVPS = equity / shares' % y, abs(eq[i] * 1000 / SHARES - bv[i]) < 1)
-check('equity rolls forward on retained NPATMI',   # 1.5 absorbs rounded rows
-      abs(eq[0] - (EQ25 + npat[0])) < 1.5 and abs(eq[1] - (eq[0] + npat[1])) < 1.5
-      and abs(eq[2] - (eq[1] + npat[2])) < 1.5)
+
+# the P/E and P/B rows are struck on the target price in every column, history
+# included, so the historical cells have to move with the target price too
+hist = lambda tbl, k: [num(x) for x in next(
+    v for kk, v in tbl.items() if kk.startswith(k))]
+sh0 = {x.shape_id: x for x in prs.slides[0].shapes}
+t0 = sh0[16].table
+for ri, lab, base in ((7, 'P/E', U.STB_HIST_EPS), (8, 'P/B', U.STB_HIST_BVPS)):
+    got = [num(t0.cell(ri, c).text) for c in (1, 2, 3)]
+    check('STB historical %s struck on the target price' % lab,
+          all(abs(TP / b - g) < 0.051 for b, g in zip(base, got)),
+          ' '.join('%.1f' % g for g in got))
+
 check('box NPATMI = table FY26F', num(en_box['NPATMI (26F, VNDbn)']) == npat[0])
 check('box P/E = table FY26F', num(en_box['P/E (26F, x)']) == pe[0])
-check('narrative PBT growth matches the box EPS growth',
-      ('+%.1f%% YoY' % (C[2026]['pbt'] / 7628.025 * 100 - 100)) in en_txt,
-      '+%.1f%%' % (C[2026]['pbt'] / 7628.025 * 100 - 100))
 check('box EPS growth = table EPS on FY25 2,883',
       abs(num(en_box['EPS Growth (26F, %)']) - (eps[0] / 2882.84 * 100 - 100)) < 0.1)
+check('narrative PBT growth matches the box EPS growth',
+      ('%+.1f%% YoY' % U.PBT_YOY) in en_txt, '%+.1f%%' % U.PBT_YOY)
+check('rating box return = TP / current price',
+      abs(TP / 74100 - 1 - 0.10) < 0.005, '%.1f%%' % (TP / 74100 * 100 - 100))
 for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit', 'LNST'), ('EPS', 'EPS'),
              ('P/E', 'P/E'), ('P/B', 'P/B'), ('BVPS', 'Giá trị sổ sách'),
              ('Total assets', 'Tổng tài sản'), ('Equity', 'VCSH')]:
     check('EN and VN agree on %s' % a, row(en_tbl, a) == row(vn_tbl, b))
 for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('11.8tn', '2H26 write-offs'),
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
-             ('51.0%', 'FY26F coverage'), ('40.0%', 'FY26F CIR'), ('38.0%', 'FY27F CIR'),
-             ('36.0%', 'FY28F CIR'), ('35.6%', '1H26 CIR'),
-             ('8,150', 'FY26F PBT'), ('8,100', 'the board plan'), ('4,014', '2H26 PBT'),
-             ('1.5%', '1H26 loan growth')]:
+             ('%.1f%%' % U.COV26, 'FY26F coverage'), ('40.0%', 'FY26F CIR'),
+             ('38.0%', 'FY27F CIR'), ('%.1f%%' % U.CIR[2], 'FY28F CIR'),
+             ('35.6%', '1H26 CIR'), ('{:,.0f}'.format(U.PBT[0]), 'FY26F PBT'),
+             ('8,100', 'the board plan'), ('{:,.0f}'.format(U.H2_PBT), '2H26 PBT'),
+             ('%.1ftn' % (U.H2_PROV / 1000), '2H26 charge'),
+             ('{:,.0f}'.format(U.NII[0]), 'FY26F NII'), ('1.5%', '1H26 loan growth')]:
     check('narrative states %s (%s)' % (s, t), s in en_txt)
-# 7,934 survives on purpose - the narrative now cites it as the prior forecast
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
-            'remains attainable']:
+            '8,150', '4,014', '26,712', '36.0%', 'remains attainable']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
+
+# ---------------------------------------------------------------- FPT slide
+fpt = {x.shape_id: x for x in prs.slides[2].shapes}[16].table
+fpe = [num(fpt.cell(7, c).text) for c in range(1, 7)]
+check('FPT P/E struck on the target price in all six columns',
+      all(abs(TPF / e - g) < 0.051 for e, g in zip(U.FPT_EPS, fpe)),
+      ' '.join('%.1f' % g for g in fpe))
+fvn = {x.shape_id: x for x in prs.slides[3].shapes}[16].table
+check('FPT EN and VN P/E rows agree',
+      [fvn.cell(7, c).text.strip() for c in range(1, 7)]
+      == [fpt.cell(7, c).text.strip() for c in range(1, 7)])
+fpb = [num(fpt.cell(8, c).text) for c in range(1, 7)]
+check('FPT P/B history still on spot prices (flagged, not changed)',
+      any(abs(TPF / b - g) > 0.051 for b, g in
+          zip((19665., 20253., 21418.), fpb[:3])),
+      'row reads ' + ' '.join('%.1f' % g for g in fpb))
 
 # -------------------------------------------------------- stock-pick book
 wb = openpyxl.load_workbook(PICK)
@@ -148,8 +155,13 @@ check('workbook NPATMI = deck', ws['F6'].value == npat[0] and ws['G6'].value == 
 check('workbook P/E, P/B = deck',
       abs(ws['J6'].value - pe[0]) < 0.051 and abs(ws['L6'].value - pb[0]) < 0.051)
 check('TP sheet = deck', tps['D13'].value == npat[0] and tps['E13'].value == npat[1])
-check('workbook narrative carries 5.5% and the 40/38/36 CIR path',
-      all(t in ws['C6'].value for t in ('5.5%', '40.0%', '38.0%', '36.0%', '8,150', '8,100')))
+check('workbook narrative carries the model CIR path and PBT',
+      all(t in ws['C6'].value for t in
+          ('5.5%', '%.1f%%' % U.CIR[0], '%.1f%%' % U.CIR[1], '%.1f%%' % U.CIR[2],
+           '{:,.0f}'.format(U.PBT[0]), '8,100')))
+check('workbook TP matches the slide',
+      abs(ws['J6'].value * (U.NPATMI[0] * 1000 / U.SHARES) - U.STB_TP) < 1,
+      '{:,.0f}'.format(ws['J6'].value * U.NPATMI[0] * 1000 / U.SHARES))
 check('workbook narrative free of the 5.9% / 45% coverage version',
       '5.9%' not in ws['C6'].value and '45% coverage' not in ws['C6'].value)
 

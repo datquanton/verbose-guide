@@ -4,7 +4,8 @@ source as the slides, not retyped."""
 import json
 from pptx import Presentation
 
-DECK = '/home/user/verbose-guide/MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_31July2026.pptx'
+DECK = ('/home/user/verbose-guide/'
+        'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
 OUT = '/home/user/verbose-guide/deck_content.json'
 # slide index -> (ticker, language, shape id carrying the company name)
 SLIDES = [(0, 'STB', 'EN', 3), (1, 'STB', 'VN', 2), (2, 'FPT', 'EN', 2), (3, 'FPT', 'VN', 5)]
