@@ -25,7 +25,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
-| **⚠ SBV monthly credit/deposit prints — DUE ~05-AUG, TOMORROW** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
+| ~~**⚠ SBV monthly credit/deposit prints — DUE ~05-AUG**~~ **RESOLVED 05-Aug 06:53 — AND THE GATE WAS MIS-DATED. The print came 03-AUG at the government press conference, not on a "month-end +5d" calendar: ₫20,150,000bn at 29-Jul, +8.38% YTD. A gate placed in the future for an event already past SUPPRESSED the search for two days. FUTURE ROWS FOR THIS ITEM MUST WATCH THE GOVERNMENT PRESS CONFERENCE CYCLE, NOT A STATISTICAL CALENDAR.** **Next print ~early Sep.** **⚠ NEW GATE: SBV guidelines for the ₫220,000bn four-state-bank package — "in the coming days" from 03-Aug, so LIVE NOW.** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
 | ~~VNDiamond effective 03-Aug~~ **ROUTE CLOSED 15:53 — BLOCKED, NOT UNRESEARCHED** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | ~~3-Aug quadruple date~~ **SPENT — CLOSED 04-Aug** | July CPI ✓ 4.45% · July PMI ✓ 52.9 · TCX VN30 effective ✓ (flow completed 31-Jul) · **VNDiamond — route closed, `vietcat.com` and `vsd.vn` are gateway-blocked; KDH's status stays UNKNOWN and is not to be re-searched** | — |
@@ -79,6 +79,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **06:53 ICT · MACRO/POLICY (lane 1) — the gated credit print landed, and it landed two days before the gate
+  said it would. Plus ₫220,000bn of subsidised lending allocated to four banks that are not ours.**
+  **THE PRINT.** *(T2 — Deputy Governor Phạm Thanh Hà, regular **government press conference, 03-Aug-2026**.)*
+  **System credit outstanding ₫20,150,000bn as at 29-Jul-2026, +8.38% on end-2025.** Credit still growing
+  faster than deposits, gap still large. **7M CPI average 4.39% — exactly the figure already on file**, so that
+  half is confirmation, not news.
+  **THE GATE WAS MIS-DATED, AND THAT IS THE FINDING.** The row written at 04-Aug 22:53 reads *"SBV monthly
+  credit/deposit prints — DUE ~05-AUG, TOMORROW"*, derived from a *"month-end +5d"* rule. **The print came on
+  03-Aug through the government press conference, not on a statistical calendar.** A gate placed in the future
+  for an event already in the past is **worse than no gate** — it suppressed the search for two days, because
+  a row saying *"not before 05-Aug"* reads as a decision already taken. The 03-Aug sweeps were occupied with
+  the CPI/PMI quadruple date; this landed in the same press cycle, unlooked-for.
+  **THE ARITHMETIC, AND IT IS NOT THE HEADLINE.** Three dated points now exist — **end-Jun +7.73% · 13-Jul
+  +7.86% · 29-Jul +8.38%.** Against a 15% FY path the linear requirement is **0.0411pp/day**. **H1 ran
+  0.0427pp/day — 104%, on pace. 30-Jun→13-Jul ran 0.0100pp/day — 24%. 13-Jul→29-Jul ran 0.0325pp/day — 79%.
+  Full July 0.0224pp/day — 55%.** So **July halved the pace and the last fortnight recovered most of the way
+  back.** The remainder needs **6.62pp over 155 days = 0.0427pp/day, which is 1.91× July's actual pace.**
+  *Stated with its limit: Vietnamese credit is heavily Q4-weighted, so trailing a linear path in July is
+  normal, and this file holds no prior-year monthly path to say how normal. **This is arithmetic, not a
+  forecast miss** — and it is the honest version of a headline that reads as plain acceleration.*
+  **NEW AND NOT ON FILE — ₫220,000bn.** A preferential credit package **registered by the four state-owned
+  commercial banks**, for SMEs and government priority sectors, at preferential rates, SBV guidelines to follow
+  *"in the coming days"*. **Sized against the print:** on the derived end-2025 base of ~₫18,592,000bn, a 15%
+  year needs ~₫2,788,800bn of growth; ~₫1,558,000bn is delivered; **~₫1,230,800bn remains — so ₫220,000bn is
+  17.9% of the credit growth still required this year, allocated to four banks that are not in this book, at
+  below-market pricing.** **The mechanism is competitive, not macro:** a subsidised competitor in SME and
+  priority lending is a price headwind for private banks chasing the same borrowers. **VPB is the most exposed
+  in principle** — it positions itself as an SME bank — **and MBB carries an SME franchise too. Not sized, and
+  that is the point:** the file holds **no segment split** of either loan book, so this is a direction without
+  a magnitude. **And it degrades the system number as a benchmark:** if a sixth of the remaining growth is
+  policy-allocated to four banks, the aggregate is a weaker proxy for what a private bank can grow at — the
+  same comparability problem `credit_quota_exemptions_2026` raised, arriving from the other direction.
+  **A DUPLICATE CAUGHT, AND AN AMBIGUITY THE FILE SHOULD OWN.** Coverage says *"the ratio of State Treasury
+  deposits at commercial banks rose 20% → 50%, effective 01-Aug-2026 to 31-Jul-2028."* **That is already on
+  file** as `ldr_treasury_deduction_cut_2026_08_01` — same 20→50, same two-year window — **so it is not a new
+  instrument and was not logged as one.** **But the two descriptions are not the same claim.** The file says
+  the **LDR deduction** on Treasury term deposits fell 80%→50%, so the share *counting* toward the deposit base
+  rose 20%→50% — **a ratio relief, no new money.** Two press sources now say the share of Treasury money
+  **placed** at commercial banks rose 20%→50% — **a liquidity injection, real cash onto bank balance sheets.**
+  **The effect sizes are entirely different and at most one reading is right.** The file's own entry already
+  admitted it could not establish whether this amends Circular 08 or stands separate; **that uncertainty is
+  now sharper, not resolved. Recorded as open.**
+  **NOTHING MODELLED, AND THE REASON IS SYMMETRIC WITH A PRECEDENT.** The `circular_25` entry declined to
+  *raise* confidence on a favourable environment — *"a better environment for a figure we cannot verify is not
+  better evidence for that figure."* **The same logic forbids cutting it for an adverse one.** No probability,
+  branch, weight or confidence moved.
 
 - **05:53 ICT · POLICY (lanes 1, 5) — the file has carried "18 projects of 3 private economic groups"
   as an anonymised fact for days. The three groups are Vingroup, Sun Group and **Masterise** — and the
