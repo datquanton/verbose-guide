@@ -80,6 +80,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **04:53 ICT · MACRO (lane 1) — the front end now agrees with the claim I could previously only support
+  fundamentally, and the long end went the other way for a second day.**
+  *(US close was 113 minutes ago — past the >54min/<114min indexing bracket measured yesterday.)*
+  **Two 10-year figures arrived together and they are compatible, not contradictory.** *"4.7021%, about 1bp
+  higher"* is explicitly **intraday** (*"during the trading session", "early Tuesday"*) and reconciles to the
+  **4.70%** this file stored for 03-Aug. *"4.63% closed on August 4"* comes with a **full curve — 2Y 4.21%,
+  30Y 5.20%** — the shape of an end-of-day snapshot. **Sequence: opened ~1bp higher, closed down ~7bp.** Both
+  true.
+  **THREAD ONE — the FX side of the SBV constraint, and the front end now agrees with me.** On 03-Aug at 03:53
+  I **withdrew** *"ISM restores the FX support"* because the market did not reprice hawkishly, then at 04:53
+  **partially reinstated only the fundamental claim** — that an economy with 22 straight months of rising
+  input prices does not get a rate cut. **The 2-year at 4.21% sits 46bp ABOVE the top of the FOMC's 3.50–3.75%
+  band. The front end is not pricing cuts.** **That is the first market-priced evidence for the side of the
+  argument I could previously only support fundamentally** — and the 2Y is the right maturity for it: the 10Y
+  prices growth and term premium, the 2Y prices policy.
+  **But the long end fell again and I am not hiding it.** **4.74%** (31-Jul, highest since Jan-2025) →
+  **4.70%** (03-Aug) → **4.63%** (04-Aug). **Two consecutive daily falls, −11bp cumulative.** So the curve is
+  **flattening from the long end while the front end holds** — which is *not* "the Fed is about to cut"; it is
+  long-horizon growth or inflation expectations easing while policy stays put. **Two observations are not a
+  rule** — the same restraint applied to the resistance-level refusals yesterday — **and the level claim
+  survives either way: 4.63% is still 100bp above the policy-band midpoint**, and the FX argument this file
+  holds is a **level** argument, one step long.
+  **THREAD TWO — oil, and it is the pre-stated reversal risk on Vietnam's disinflation.** **WTI +2.09% to
+  US$82.02; Brent +2.8% to US$86.11.** On 03-Aug at 12:53 this file recorded that Vietnam's July CPI fall to
+  4.45% was driven by **petrol and food**, and stated explicitly: *"disinflation carried by fuel and food is a
+  price event, not a demand event, and it reverses with the oil price."* **This is the first datum on that
+  reversal.** **One day of oil is one day and it is recorded as one — but the mechanism was written down
+  before the data, which is what makes noting it legitimate rather than opportunistic.** It bears on the live
+  CPI finding: **4.45% is still ~0.95pp above `risk.py`'s 0.035 threshold, and a fuel-led reversal would widen
+  that gap, not close it.**
+  **Nothing modelled** — no rate or oil price is a model input; these are context for two conclusions already
+  on file. **Escalation check: none of the five fire.** Sources: CNBC (URL date-stamped), streetstats.
+
 - **03:53 ICT · MODEL AUDIT (no searches) — applied the 02:53 rule to the second solved parameter, and the
   file's own prose calls a NEGATIVE risk-aversion coefficient "barely risk-averse at all."**
   **The number is not new; the reading is.** `cfa.py` already computes and prints **λ_implied = −0.209**
