@@ -17,7 +17,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
-| **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
+| **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
@@ -25,10 +25,10 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
-| SBV monthly credit/deposit prints | month-end +5d | 1 |
+| **⚠ SBV monthly credit/deposit prints — DUE ~05-AUG, TOMORROW** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
 | ~~VNDiamond effective 03-Aug~~ **ROUTE CLOSED 15:53 — BLOCKED, NOT UNRESEARCHED** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
-| **3-Aug QUADRUPLE date — TODAY, 3 of 4 RESOLVED** | **July CPI ✓ 4.45% (12:53) · July PMI ✓ 52.9 (11:53) · TCX VN30 effective ✓ (flow completed 31-Jul) · VNDiamond effective — OPEN, and it is the only one left.** Do **not** re-run the failed 20-Jul announcement searches; **check after 15:00 ICT** (close plus publication), per the 03-Aug 09:53 correction | 1, 4 |
+| ~~3-Aug quadruple date~~ **SPENT — CLOSED 04-Aug** | July CPI ✓ 4.45% · July PMI ✓ 52.9 · TCX VN30 effective ✓ (flow completed 31-Jul) · **VNDiamond — route closed, `vietcat.com` and `vsd.vn` are gateway-blocked; KDH's status stays UNKNOWN and is not to be re-searched** | — |
 | ~~July CPI release~~ **RESOLVED 03-Aug 12:53: +4.45% YoY** | **CLOSED.** Second consecutive monthly fall (May 5.60 → Jun 4.69 → Jul 4.45); **May confirmed as the peak.** The **cumulative average ROSE 4.38% → 4.39% in the same month** — the pre-registered warning held. **Core +4.63% YoY is now ABOVE headline +4.45%**: the fall is petrol and food, i.e. a price event, not a demand event. **Level unchanged — still ~0.95pp above risk.py's 3.5%.** Next print ~2026-09-06 | 1 |
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
@@ -79,6 +79,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-04
+
+- **22:53 ICT · GATE-TABLE AUDIT (no searches) — executing the rule I wrote an hour ago instead of just
+  filing it. It surfaced a dated catalyst due TOMORROW that the table already contained.**
+  **Why this and not a search.** At 21:53 I wrote that *"a standing watch list needs the same periodic
+  re-derivation as a stale price — every item should carry either a date or a resolution condition."* **My
+  repeated failure today has been writing a rule and not executing it in the same task** (the 09:53
+  *enumerate-before-ranking* rule needed a second sweep to bite; the 11:53 scoping needed correcting at
+  13:53). Vietnam has been closed eight hours and the US has no scheduled data today, so **this is the
+  highest-value thing available and it costs nothing.**
+  **⚠ THE FINDING: SBV's monthly credit/deposit print is due ~05-AUG — TOMORROW — and nobody had flagged it.**
+  The row has sat in this table since v3 as *"month-end +5d"* — **a rule with no date attached**, so it never
+  surfaced as a dated catalyst on any sweep. **This is exactly the defect the 21:53 lesson named**, and it was
+  hiding in the same table as the three content errors found in the last two days.
+  **Why it matters now more than it would have last week.** Today's work put **system NPLs +₫48tn in H1** with
+  **LLR coverage down to 79.78%**, against a file that already holds **our three banks growing credit at
+  1.7–3.2× the system.** **A July credit print is the first read on whether that divergence continued into
+  Q3** — on the 51.5% bank block whose provisioning intensity all three cut.
+  **Two smaller corrections from the same pass.** **(1)** The **VCI / Tô Hải buy window opened TODAY** and the
+  row still read *"opens 04-Aug"* — now marked **OPEN**, closing 02-Sep, with the two intermediate 1%-crossing
+  disclosures as the early signal. **(2)** The **3-Aug quadruple-date row is spent** — three resolved, and
+  VNDiamond is route-closed with `vietcat.com` and `vsd.vn` both gateway-blocked. Struck through rather than
+  deleted, per this file's practice of preserving the record.
+  **Also noted, not acted on: the MoIT / trade-defence back-sweep is monthly, was created 02-Aug, and has
+  still never been run.** It exists because `_regulatory` held thirteen instruments and **zero from MoIT**
+  until Decision 612/QĐ-BCT was found **3½ months late.** **Naming it as due rather than running it now,
+  because a trade-defence sweep at 22:53 with Vietnamese sources asleep is worse than one at a working hour.**
+  **What this audit did NOT do, and why.** It did not reorganise the table into live/closed sections.
+  **Reorganisation is tidying; it would not have caught any of the three content defects found this week** —
+  the stale VPS IPO, VPB's par-value "$250m", MBB's missing tranche. **Those were wrong content in
+  well-formatted rows.** Re-deriving items is the fix; layout is not.
+  **Nothing modelled.** **Escalation check: none of the five fire** — but **note the fifth honestly: a dated
+  catalyst now sits one session away**, and the brief's proposed bank trades (MBB ADD +6.7pp, TCB TRIM
+  −15.0pp) are in the block it bears on.
 
 - **21:53 ICT · COMPETITORS & STREET (lane 6) — the routine watches an IPO that closed eight months ago,
   and it left behind the comparator TCX has never had.**
