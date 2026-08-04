@@ -14,7 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
-| **⚠ THREE PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%** | **NEW 04-Aug, COMPLETED 10:53. 51.5% of the book — the whole bank block.** **TCB: 7% cash (₫700/sh, ₫4,960bn total) + 60% bonus (4,251.7m) → 11,337.9m shares, capital ₫70,862→113,379bn.** VPB: 26% stock dividend (2,062.8m) + **foreign placement >624m** → 10,620.7m, ₫79,339→106,200bn. MBB: 15% stock dividend (1,208.25m) + 10% rights at ₫10,000 (805.5m) + **placement up to 200m** → 10,268.75m, ₫80,550→102,687bn. **No ex-date established for any tranche.** **The routine's "$250m" for VPB is par × shares (₫6,240bn), NOT the raise.** **A one-legged price refresh fires trigger 3 on all three: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp** | 3, 7 |
+| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
@@ -79,6 +79,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-04
+
+- **13:53 ICT · KDH (lane 3) — I scoped the hazard too narrowly two hours ago, and KDH is the name I
+  dropped. Correcting it also shows one of `risk.py`'s standing assertions is too strong.**
+  **What I wrote at 11:53** and propagated to item 2 and the handover: *"HPG and KDH carry NOTHING declared…
+  so the item-2 refresh hazard is a BANK-BLOCK problem, not a book-wide one."* **I called that a tighter and
+  more tractable bound. It is tighter than the truth.**
+  **KDH's 2026 dividend is 10% in STOCK, not cash**, and the AGM also approved **over 10.86m ESOP shares at
+  ₫12,000.**
+  **The measure trap was in my own sentence.** *"Nói không với phát hành vốn mới"* means **no new capital
+  raising** — and a stock dividend is a **capitalisation of retained earnings that raises no money**, so both
+  statements are true at once. **But `cap_now` does not care whether money was raised; it cares about the
+  share count.** *"Ruled out new equity issuance"* and *"no share-count change"* are **different measures**,
+  and I treated them as one.
+  **Sized:** 1,122.06m + 10% (112.21m) + ESOP 10.86m = **1,245.13m, +10.97%.** A shares-only refresh takes
+  KDH's E[r] from **+3.5% to −6.7% — a −10.2pp move, just above the escalation threshold, on 20.3% of the
+  book.**
+
+  | | weight | pending | E[r] now | shares-only | move |
+  |---|---:|---:|---:|---:|---:|
+  | TCB | 35.0% | +60.0% | +4.0% | −35.0% | −39.0pp |
+  | **KDH** | **20.3%** | **+11.0%** | +3.5% | −6.7% | **−10.2pp** |
+  | VPB | 10.0% | +33.9% | −13.9% | −35.7% | −21.8pp |
+  | MBB | 6.5% | +27.5% | +36.6% | +7.1% | −29.5pp |
+
+  **Corrected scope: 71.8% of the book, not the 51.5% I claimed. HPG remains genuinely clean.**
+  **AND THE `cash_yield` SIDE GOES THE OTHER WAY — the half that surprised me.** **KDH pays no cash dividend,
+  so `cash_yield = 0` is CORRECT for KDH.** `risk.py`'s inheritance block asserts *"cash_yield is populated
+  for TCB alone … **seven blanks bias the book's E[r] DOWN**."* **That is too strong: at least one blank — on
+  the second-largest position — is an accurate zero**, so the downward bias is smaller than the file claims.
+  **And MBB's is already quantified in the same block** (*"MBB's 10% cash dividend, worth 4.5% of price, is
+  recorded as zero"*), **which reconciles with the 25% total dividend from its AGM: 15% stock + 10% cash.**
+  Two things this file has tracked separately are one plan.
+  **Two facts worth having on a 20.3% position.** **(1)** FY2026 company target: revenue **₫4,200bn**, NPAT
+  **₫1,500bn**, +43.5% on 2025 — **just below this file's base branch of 1,590** and above bear 1,033.
+  **(2)** **Operating cash flow has been negative five years running.** The file held H1/2026 OCF at −₫2,580bn
+  as an event; **five consecutive years makes it a structure.** Recorded, not modelled.
+  *(ESOP discount: 10.86m × ₫6,000 = ₫65bn, 0.32% of KDH's cap — real but small.)*
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: doanhnhan.baophapluat (AGM),
+  cafeland.
 
 - **12:53 ICT · VPX (lane 3) — EIGHT OF EIGHT. The largest defect of this session is now closed on every
   name in the book, by evidence outside the derivation that produced it.**
