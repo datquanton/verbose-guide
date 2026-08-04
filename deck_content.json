@@ -1,0 +1,900 @@
+[
+ {
+  "ticker": "STB",
+  "lang": "EN",
+  "company": "Saigon Thuong Tin Commercial Joint Stock Bank (STB VN)",
+  "sector": "Banks",
+  "headline": "Asset quality deteriorates; provisioning to stay elevated",
+  "analyst": "Quan Ton, quan.td@miraeasset.com.vn",
+  "rating": [
+   [
+    "(Maintain)",
+    "HOLD"
+   ],
+   [
+    "Target price \n(VND, 12M)",
+    "77,800"
+   ],
+   [
+    "Current price\n(21/07/26)",
+    "72,500"
+   ],
+   [
+    "Expected return",
+    "7.3%"
+   ]
+  ],
+  "keydata": [
+   [
+    "NPATMI (26F, VNDbn)",
+    "6,761"
+   ],
+   [
+    "Market consensus (26F, VNDbn)",
+    "N/A"
+   ],
+   [
+    "EPS Growth (26F, %)",
+    "13.8"
+   ],
+   [
+    "P/E (26F, x)",
+    "23.7"
+   ],
+   [
+    "Market cap (VNDbn)",
+    "125,555"
+   ],
+   [
+    "Shares outstanding (mn)",
+    "1,885.2"
+   ],
+   [
+    "Free float (%)",
+    "96.7"
+   ],
+   [
+    "Foreign ownership (%)",
+    "12.4"
+   ],
+   [
+    "52-week low (VND)",
+    "38,550"
+   ],
+   [
+    "52-week high (VND)",
+    "70,200"
+   ]
+  ],
+  "perf": [
+   [
+    "(%)",
+    "1M",
+    "6M",
+    "12M"
+   ],
+   [
+    "Absolute",
+    "9.5",
+    "28.3",
+    "68.6"
+   ],
+   [
+    "Relative",
+    "-1.8",
+    "14.2",
+    "17.4"
+   ]
+  ],
+  "points_title": "Investment points",
+  "points": [
+   "1H26 results came in below expectations:",
+   "1H26 PBT reached VND4,136bn (-43.6% YoY), completing 51% of the VND8,100bn FY26 plan. With VND2,106bn recorded in 1Q26, 2Q26 PBT is implied at approximately VND2,030bn. The shortfall stems from continued NIM compression amid intense deposit competition and from a materially heavier provisioning charge, following VND2,024bn in 1Q26 and more than VND11,300bn for FY25 as a whole.",
+   "Asset quality has deteriorated beyond management guidance:",
+   "The NPL ratio reached 7.54% at end-2Q26, up 1.13%p from the beginning of the year and the highest in the system, against management guidance of approximately 5.6%. Group 3-5 balances rose approximately VND7,800bn year-to-date to VND47,957bn, of which around 67% (approximately VND32,000bn) is Group 5, while Group 4 more than doubled (+156%). We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. The clean-up is funded from the reserve stock rather than the P&L: reserves reached VND27.2tn at end-2Q26 — 56.7% coverage, up from 50.0% at end-FY25 — after VND7.1tn of 1H26 charges and almost no write-offs. A further VND4.0tn charge in 2H26 funds write-offs of VND11.8tn, or 37% of the Group 5 balance, leaving reserves at VND19.0tn and coverage back at 50.0%. Holding coverage at 50% is what caps the improvement at 5.5%, and it also requires 2H26 NPL formation to slow to roughly a quarter of the 1H26 pace. The former 4.5% assumption needed some VND18tn of write-offs the reserve stock cannot support.",
+   "FY26F PBT lifted on the cost line, against a low 2H25 base:",
+   "STB recorded VND7,331bn of PBT in 1H25 but only VND297bn in 2H25, as 4Q25 registered a pre-tax loss of approximately VND3,360bn on a provisioning charge of around VND9,232bn. We raise FY26F PBT to VND8,683bn (+13.8% YoY) from VND7,934bn, entirely on the cost line: 1H26 CIR came in at 35.6% against the 42.9% previously carried for the full year, and we now assume 40.0% (-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F. That still allows 2H26 operating expense to run 11.5% above 1H26, and implies 2H26 PBT of approximately VND4,547bn — around 15x the 2H25 base and 9.9% above the 1H26 level. Other FY26F assumptions: NII of VND27,010bn (+1.2% YoY), NIM of 2.94% (-38bps YoY) and a provisioning charge of VND11.1tn (-2.6% YoY); we flag that 1H26 loan growth of 1.5% sits well below the 11.7% carried for the full year. Separately, STB has taken possession of 507 land-use right certificates at LDG's Viva City project in Dong Nai against overdue principal of nearly VND350bn; the exposure is immaterial to the portfolio but illustrates the collateral-resolution channel the 2H26 write-off programme depends on.",
+   "Risks: (1) continued NPL formation requiring provisioning above our FY26F estimate (2) prolonged deposit competition sustaining NIM compression (3) slower-than-expected disposal of recovered collateral."
+  ],
+  "fy": [
+   [
+    "FY (31/12)",
+    "FY23",
+    "FY24",
+    "FY25",
+    "FY26F",
+    "FY27F",
+    "FY28F"
+   ],
+   [
+    "Net interest income (VNDbn)",
+    "22,072",
+    "24,532",
+    "26,681",
+    "27,010",
+    "30,200",
+    "34,640"
+   ],
+   [
+    "Net non-interest inc. (VNDbn)",
+    "4,101",
+    "4,145",
+    "5,376",
+    "5,950",
+    "6,408",
+    "8,038"
+   ],
+   [
+    "Operating profit (VNDbn)",
+    "9,595",
+    "12,720",
+    "7,628",
+    "8,683",
+    "14,434",
+    "21,483"
+   ],
+   [
+    "Net Profit (VNDbn)",
+    "7,719",
+    "10,087",
+    "5,939",
+    "6,761",
+    "11,238",
+    "16,727"
+   ],
+   [
+    "EPS (VND)",
+    "3,747",
+    "4,896",
+    "2,883",
+    "3,282",
+    "5,455",
+    "8,119"
+   ],
+   [
+    "ROE (%)",
+    "18.3",
+    "20.0",
+    "10.3",
+    "10.1",
+    "15.5",
+    "19.4"
+   ],
+   [
+    "P/E (x)",
+    "20.7",
+    "15.8",
+    "26.9",
+    "23.7",
+    "14.3",
+    "9.6"
+   ],
+   [
+    "P/B (x)",
+    "3.5",
+    "2.9",
+    "2.7",
+    "2.4",
+    "2.1",
+    "1.7"
+   ],
+   [
+    "Total assets (VNDbn)",
+    "674,390",
+    "748,095",
+    "917,106",
+    "1,007,118",
+    "1,139,005",
+    "1,301,528"
+   ],
+   [
+    "Equity (VNDbn)",
+    "45,734",
+    "54,972",
+    "59,867",
+    "66,681",
+    "77,919",
+    "94,645"
+   ],
+   [
+    "BVPS (VND)",
+    "22,199",
+    "26,683",
+    "29,059",
+    "32,367",
+    "37,822",
+    "45,941"
+   ],
+   [
+    "Source: Company data, Mirae Asset Vietnam Research",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "ticker": "STB",
+  "lang": "VN",
+  "company": "Ngân hàng TMCP Sài Gòn Thương Tín (HOSE: STB)",
+  "sector": "Ngân hàng",
+  "headline": "Chất lượng tài sản suy giảm, áp lực dự phòng còn kéo dài",
+  "analyst": "Tôn Đạt Quân, quan.td@miraeasset.com.vn",
+  "rating": [
+   [
+    "(Cập nhật)",
+    "NẮM GIỮ"
+   ],
+   [
+    "Giá mục tiêu \n(VND, 12T)",
+    "77,800"
+   ],
+   [
+    "Thị giá\n(21/07/26)",
+    "72,500"
+   ],
+   [
+    "Lợi nhuận kỳ vọng",
+    "7.3%"
+   ]
+  ],
+  "keydata": [
+   [
+    "LNST (26F, tỷ đồng)",
+    "6,761"
+   ],
+   [
+    "Kỳ vọng thị trường (25F, tỷ đồng)",
+    "N/A"
+   ],
+   [
+    "Tăng trưởng EPS (25F, %)",
+    "13.8"
+   ],
+   [
+    "P/E (26F, x)",
+    "23.7"
+   ],
+   [
+    "Vốn hóa (tỷ đồng)",
+    "125,555"
+   ],
+   [
+    "SLCP đang lưu hành (triệu cp)",
+    "1,885.2"
+   ],
+   [
+    "Tỷ lê CP tự do chuyển nhượng (%)",
+    "96.7"
+   ],
+   [
+    "Tỷ lệ sở hữu của NĐTNN (%)",
+    "12.4"
+   ],
+   [
+    "Thấp nhất 52 tuần (VND)",
+    "38,550"
+   ],
+   [
+    "Cao nhất 52 tuần (VND)",
+    "70,200"
+   ]
+  ],
+  "perf": [
+   [
+    "(%)",
+    "1T",
+    "6T",
+    "12T"
+   ],
+   [
+    "Tuyệt đối",
+    "9.5",
+    "28.3",
+    "68.6"
+   ],
+   [
+    "Tương đối",
+    "-1.8",
+    "14.2",
+    "17.4"
+   ]
+  ],
+  "points_title": "Điểm nhấn đầu tư",
+  "points": [
+   "KQKD 1H26 thấp hơn kỳ vọng:",
+   "LNTT 1H26 đạt 4,136 tỷ đồng (-43.6% CK), hoàn thành 51% kế hoạch năm 8,100 tỷ đồng. Với 2,106 tỷ đồng ghi nhận trong Q1/2026, LNTT Q2/2026 ước tính khoảng 2,030 tỷ đồng. Mức sụt giảm đến từ việc NIM tiếp tục thu hẹp trong bối cảnh cạnh tranh huy động gay gắt và từ chi phí dự phòng tăng đáng kể, sau mức 2,024 tỷ đồng của Q1/2026 và hơn 11,300 tỷ đồng của cả năm 2025.",
+   "Chất lượng tài sản suy giảm vượt mức ban lãnh đạo dự kiến: tỷ lệ nợ xấu đạt 7.54% cuối Q2/2026, tăng 1.13%p so với đầu năm và cao nhất hệ thống, so với ước tính khoảng 5.6% của ban lãnh đạo. Dư nợ nhóm 3-5 tăng khoảng 7,800 tỷ đồng so với đầu năm, lên 47,957 tỷ đồng, trong đó khoảng 67% (32,000 tỷ đồng) xếp nhóm 5, nợ nhóm 4 tăng hơn gấp đôi (+156%). Chúng tôi đặt giả định nợ xấu FY26F ở 5.5% (từ dưới 4.5%) và FY27F ở 4.0% (từ 3.1%). Quá trình xử lý được tài trợ từ nguồn dự phòng đã trích, không phải từ lợi nhuận: dự phòng đạt 27.2 nghìn tỷ đồng cuối Q2/2026 — bao phủ 56.7%, tăng từ 50.0% cuối 2025 — sau khi trích 7.1 nghìn tỷ đồng trong 1H26 và gần như chưa xóa nợ. Trích thêm 4.0 nghìn tỷ đồng trong 2H26 đủ để xóa 11.8 nghìn tỷ đồng, tương đương 37% dư nợ nhóm 5, đưa dự phòng còn 19.0 nghìn tỷ đồng và bao phủ về 50.0%. Chính việc giữ bao phủ ở 50% giới hạn mức cải thiện ở 5.5%, đồng thời cần nợ xấu phát sinh mới trong 2H26 chậm lại còn khoảng một phần tư nhịp 1H26. Giả định 4.5% trước đây cần tới khoảng 18 nghìn tỷ đồng xóa nợ, vượt quá nguồn dự phòng hiện có.",
+   "Nâng dự phóng LNTT FY26F nhờ chi phí hoạt động, trên nền 2H25 thấp:",
+   "STB ghi nhận 7,331 tỷ đồng LNTT trong 1H25 nhưng chỉ 297 tỷ đồng trong 2H25, do Q4/2025 lỗ trước thuế khoảng 3,360 tỷ đồng với chi phí dự phòng khoảng 9,232 tỷ đồng. Chúng tôi nâng dự phóng LNTT FY26F lên 8,683 tỷ đồng (+13.8% CK) từ 7,934 tỷ đồng, hoàn toàn nhờ chi phí hoạt động: CIR 1H26 chỉ 35.6% so với 42.9% dự phóng cả năm trước đây, và chúng tôi điều chỉnh về 40.0% (-0.7%p CK), giảm dần về 38.0% năm FY27F và 36.0% năm FY28F. Mức này vẫn cho phép chi phí hoạt động 2H26 cao hơn 1H26 11.5%, và hàm ý LNTT 2H26 khoảng 4,547 tỷ đồng — tương đương khoảng 15 lần nền 2H25 và cao hơn 1H26 9.9%.",
+   "Các giả định FY26F khác: NII 27,010 tỷ đồng (+1.2% CK), NIM 2.94% (-38bps CK) và chi phí dự phòng 11.1 nghìn tỷ đồng (-2.6% CK); lưu ý tăng trưởng tín dụng 1H26 chỉ đạt 1.5%, thấp hơn nhiều so với mức 11.7% dự phóng cả năm. Ở diễn biến khác, Sacombank đã thu giữ 507 giấy chứng nhận quyền sử dụng đất thuộc dự án Viva City (Đồng Nai) đối với dư nợ gốc quá hạn gần 350 tỷ đồng; quy mô chưa trọng yếu nhưng thể hiện kênh xử lý tài sản đảm bảo mà đà hồi phục 2H26 phụ thuộc vào.",
+   "Rủi ro: (1) nợ xấu tiếp tục phát sinh khiến chi phí dự phòng vượt dự phóng FY26F (2) cạnh tranh huy động kéo dài làm NIM tiếp tục thu hẹp (3) tiến độ xử lý tài sản đã thu hồi chậm hơn dự kiến."
+  ],
+  "fy": [
+   [
+    "FY (31/12)",
+    "FY23",
+    "FY24",
+    "FY25",
+    "FY26F",
+    "FY27F",
+    "FY28F"
+   ],
+   [
+    "Thu nhập lãi thuần (tỷ đồng)",
+    "22,072",
+    "24,532",
+    "26,681",
+    "27,010",
+    "30,200",
+    "34,640"
+   ],
+   [
+    "Thu nhập ngoài lãi (tỷ đồng)",
+    "4,101",
+    "4,145",
+    "5,376",
+    "5,950",
+    "6,408",
+    "8,038"
+   ],
+   [
+    "Lợi nhuận hoạt động (tỷ đồng)",
+    "9,595",
+    "12,720",
+    "7,628",
+    "8,683",
+    "14,434",
+    "21,483"
+   ],
+   [
+    "LNST (tỷ đồng)",
+    "7,719",
+    "10,087",
+    "5,939",
+    "6,761",
+    "11,238",
+    "16,727"
+   ],
+   [
+    "EPS (đồng)",
+    "3,747",
+    "4,896",
+    "2,883",
+    "3,282",
+    "5,455",
+    "8,119"
+   ],
+   [
+    "ROE (%)",
+    "18.3",
+    "20.0",
+    "10.3",
+    "10.1",
+    "15.5",
+    "19.4"
+   ],
+   [
+    "P/E (x)",
+    "20.7",
+    "15.8",
+    "26.9",
+    "23.7",
+    "14.3",
+    "9.6"
+   ],
+   [
+    "P/B (x)",
+    "3.5",
+    "2.9",
+    "2.7",
+    "2.4",
+    "2.1",
+    "1.7"
+   ],
+   [
+    "Tổng tài sản (tỷ đồng)",
+    "674,390",
+    "748,095",
+    "917,106",
+    "1,007,118",
+    "1,139,005",
+    "1,301,528"
+   ],
+   [
+    "VCSH (tỷ đồng)",
+    "45,734",
+    "54,972",
+    "59,867",
+    "66,681",
+    "77,919",
+    "94,645"
+   ],
+   [
+    "Giá trị sổ sách (đồng)",
+    "22,199",
+    "26,683",
+    "29,059",
+    "32,367",
+    "37,822",
+    "45,941"
+   ],
+   [
+    "Nguồn: Dữ liệu công ty, Mirae Asset Vietnam Research",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "ticker": "FPT",
+  "lang": "EN",
+  "company": "FPT Corporation (HOSE: FPT)",
+  "sector": "IT",
+  "headline": "Resilient growth at a two-year-low valuation",
+  "analyst": "Quan Ton, quan.td@miraeasset.com.vn",
+  "rating": [
+   [
+    "(Update)",
+    "BUY"
+   ],
+   [
+    "Target price \n(VND, 12M)",
+    "87,950"
+   ],
+   [
+    "Current price \n(31/07/26)",
+    "71,700"
+   ],
+   [
+    "Expected return",
+    "22.7%"
+   ]
+  ],
+  "keydata": [
+   [
+    "NPATMI (26F, VNDbn)",
+    "10,944"
+   ],
+   [
+    "Market consensus (26F, VNDbn)",
+    "N/A"
+   ],
+   [
+    "EPS Growth (26F, %)",
+    "15.6"
+   ],
+   [
+    "P/E (26F, x)",
+    "13.7"
+   ],
+   [
+    "Market cap (VNDbn)",
+    "122,141"
+   ],
+   [
+    "Shares outstanding (mn)",
+    "1,703.5"
+   ],
+   [
+    "Free float (%)",
+    "89.5"
+   ],
+   [
+    "Foreign ownership (%)",
+    "34.8"
+   ],
+   [
+    "52-week low (VND)",
+    "62,800"
+   ],
+   [
+    "52-week high (VND)",
+    "111,600"
+   ]
+  ],
+  "perf": [
+   [
+    "(%)",
+    "1M",
+    "6M",
+    "12M"
+   ],
+   [
+    "Absolute",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Relative",
+    "-",
+    "-",
+    "-"
+   ]
+  ],
+  "points_title": "Investment points",
+  "points": [
+   "1H26 tracking ahead of plan: revenue VND26,269bn (+12.6% YoY) and PBT VND5,714bn (+18.1% YoY), 45%/49% of the FY26 plan, with the group PBT margin widening to 21.8%. In 2Q26: revenue VND13,789bn, PBT VND2,910bn, NPATMI VND2,568bn (+14% YoY). Technology revenue VND23,138bn (+15% YoY; 88% of group) and PBT VND3,314bn (+16.9%); Education, investment and others fell 2.1% to VND3,131bn yet contributed 42% of group PBT on a ~77% margin.",
+   "Public-sector digitalization underpins the domestic pipeline: Domestic IT grew fastest in 6M26 at VND4,236bn (+22.5% YoY), segment PBT doubling to VND308bn on national digital-transformation wins — multi-year work outside the global IT cycle, though its 7.3% margin dilutes the blend. Signed contract value for Global IT reached VND26,338bn in 1H26, +32.3% YoY, including 14 deals above USD10mn — a book-to-bill of 1.39x against 1.07-1.22x through FY21-25. On that basis we look for Global IT to reaccelerate to +16.7% in FY27F and +17.7% in FY28F, from +14.7% in FY26F and +13.4% in 1H26, with the US book cut to +5.9%.",
+   "The AI debate — demand expansion versus compression of headcount-based pricing — is answered in FPT's own numbers. AI and data analytics revenue reached VND1,842bn in 1H26, +54% YoY against +15% for Technology, lifting its share of the segment to 8.0% from 5.9% and contributing a fifth of Technology's growth; ex-AI the segment grew 12.5%. Both AI Factories, in Vietnam and Japan, ran above 90% utilisation and turned profitable in 2Q26, about a year after launch. Infosys, for contrast, guides FY27 to 1.5-3.0%.",
+   "Projection and valuation: we forecast FY26F NPATMI of VND10,944bn (+15.6% YoY), FY27F VND12,674bn (+15.8%) and FY28F VND14,774bn (+16.6%). Associate income — FPT Telecom (45.66%), equity-accounted from FY26, with FPT Retail, Synnex FPT and FPT Online — rises to VND2,608bn in FY26F and VND3,449bn by FY28F, and grew 40.8% YoY in 1H26. Operating leverage carries the rest: SG&A falls from 17.6% of sales to 16.5% by FY28F, gross margin unchanged. ROE holds near 27% on net cash of around 60% of equity and a maintained DPS of VND2,000. We raise our DCF (FCFF) target price to VND87,950 from VND78,750, cutting the assumed cost of debt to 9.0% from 11.5% — FPT's realised funding cost in 1H26 was 4.0% — which lowers WACC to 11.4%; the equity risk premium stays at 8.97% and long-term growth at 1.5% to carry the risk that AI lowers IT services pricing. At VND71,700 the stock trades at 11.2x FY26F earnings against a five-year median above 18x; at the target price, 13.7x FY26F and 11.8x FY27F, implying 23% upside (BUY). AI newsflow remains supportive: expanded partnerships with Microsoft and Intel, AI programmes with CPF, SCG, UOB, Sembcorp, SATS and ComfortDelGro, and data-intermediary certification with the National Data Centre. Risks: (1) AI-driven price deflation outpacing our long-term growth assumption (2) subdued US and global IT spending and tariff-related contract delays (3) JPY/USD volatility."
+  ],
+  "fy": [
+   [
+    "FY (31/12)",
+    "FY23",
+    "FY24",
+    "FY25",
+    "FY26F",
+    "FY27F",
+    "FY28F"
+   ],
+   [
+    "Revenue (VNDbn)",
+    "52,618",
+    "62,849",
+    "70,208",
+    "57,284",
+    "66,048",
+    "76,654"
+   ],
+   [
+    "% YoY",
+    "—",
+    "+19.4%",
+    "+11.7%",
+    "-18.4%*",
+    "+15.3%",
+    "+16.1%"
+   ],
+   [
+    "Operating profit (VNDbn)",
+    "8,452",
+    "10,508",
+    "11,079",
+    "9,807",
+    "11,044",
+    "13,053"
+   ],
+   [
+    "PBT (VNDbn)",
+    "9,203",
+    "11,070",
+    "13,134",
+    "13,070",
+    "15,159",
+    "17,671"
+   ],
+   [
+    "NPATMI (VNDbn)",
+    "6,465",
+    "7,857",
+    "9,464",
+    "10,944",
+    "12,674",
+    "14,774"
+   ],
+   [
+    "% YoY",
+    "—",
+    "+21.5%",
+    "+20.5%",
+    "+15.6%",
+    "+15.8%",
+    "+16.6%"
+   ],
+   [
+    "EPS (VND)",
+    "4,648",
+    "4,877",
+    "5,073",
+    "6,424",
+    "7,440",
+    "8,673"
+   ],
+   [
+    "ROE (%)",
+    "28.1",
+    "28.7",
+    "28.6",
+    "27.6",
+    "27.1",
+    "26.5"
+   ],
+   [
+    "P/E (x)",
+    "19.7",
+    "18.8",
+    "18.1",
+    "13.7",
+    "11.8",
+    "10.1"
+   ],
+   [
+    "P/B (x)",
+    "4.7",
+    "4.5",
+    "4.3",
+    "3.5",
+    "3.0",
+    "2.5"
+   ],
+   [
+    "Total assets (VNDbn)",
+    "60,283",
+    "72,000",
+    "88,090",
+    "91,917",
+    "102,974",
+    "115,994"
+   ],
+   [
+    "Equity (VNDbn)",
+    "29,883",
+    "35,678",
+    "43,702",
+    "50,217",
+    "58,356",
+    "68,507"
+   ],
+   [
+    "BVPS (VND)",
+    "19,665",
+    "20,253",
+    "21,418",
+    "25,116",
+    "29,770",
+    "35,585"
+   ],
+   [
+    "Note: FPT Telecom equity-accounted from FY26F, consolidated in FY23-25. * against a restated FY25 revenue of VND50,607bn the change is +13.2%; NPATMI is unaffected by the change of basis. Source: Company data, Mirae Asset Vietnam Research",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "ticker": "FPT",
+  "lang": "VN",
+  "company": "CTCP FPT (HOSE: FPT)",
+  "sector": "Công nghệ",
+  "headline": "Tăng trưởng bền bỉ, định giá về đáy 2 năm",
+  "analyst": "Tôn Đạt Quân, quan.td@miraeasset.com.vn",
+  "rating": [
+   [
+    "(Cập nhật)",
+    "MUA"
+   ],
+   [
+    "Giá mục tiêu \n(VND, 12T)",
+    "87,950"
+   ],
+   [
+    "Thị giá \n(31/07/26)",
+    "71,700"
+   ],
+   [
+    "Lợi nhuận kỳ vọng",
+    "22.7%"
+   ]
+  ],
+  "keydata": [
+   [
+    "LNST-CĐTS (26F, tỷ đồng)",
+    "10,944"
+   ],
+   [
+    "Kỳ vọng thị trường (26F, tỷ đồng)",
+    "N/A"
+   ],
+   [
+    "Tăng trưởng EPS (26F, %)",
+    "15.6"
+   ],
+   [
+    "P/E (26F, x)",
+    "13.7"
+   ],
+   [
+    "Vốn hóa (tỷ đồng)",
+    "122,141"
+   ],
+   [
+    "SLCP đang lưu hành (triệu cp)",
+    "1,703.5"
+   ],
+   [
+    "Tỷ lê CP tự do chuyển nhượng (%)",
+    "89.5"
+   ],
+   [
+    "Tỷ lệ sở hữu của NĐTNN (%)",
+    "34.8"
+   ],
+   [
+    "Thấp nhất 52 tuần (VND)",
+    "62,800"
+   ],
+   [
+    "Cao nhất 52 tuần (VND)",
+    "111,600"
+   ]
+  ],
+  "perf": [
+   [
+    "(%)",
+    "1T",
+    "6T",
+    "12T"
+   ],
+   [
+    "Tuyệt đối",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Tương đối",
+    "-",
+    "-",
+    "-"
+   ]
+  ],
+  "points_title": "Điểm nhấn đầu tư",
+  "points": [
+   "KQKD 1H26 vượt kế hoạch: doanh thu 26,269 tỷ đồng (+12.6% CK) và LNTT 5,714 tỷ (+18.1% CK), đạt 45%/49% kế hoạch năm, biên LNTT lên 21.8%. Q2/2026: doanh thu 13,789 tỷ, LNTT 2,910 tỷ, LNST-CĐTS 2,568 tỷ (+14% CK). Công nghệ đạt 23,138 tỷ (+15% CK; 88% doanh thu tập đoàn) và LNTT 3,314 tỷ (+16.9%); Giáo dục, đầu tư và khác giảm 2.1% về 3,131 tỷ nhưng vẫn đóng góp 42% LNTT tập đoàn.",
+   "Số hóa khu vực công là nền tảng danh mục trong nước: CNTT trong nước tăng nhanh nhất 6T26, đạt 4,236 tỷ đồng (+22.5% CK), LNTT mảng tăng gấp đôi lên 308 tỷ nhờ trúng thầu chuyển đổi số quốc gia — nguồn việc nhiều năm, ngoài chu kỳ CNTT toàn cầu, tuy biên 7.3% làm loãng biên. Doanh thu ký mới CNTT nước ngoài đạt 26,338 tỷ trong 1H26 (+32.3% CK), gồm 14 dự án trên 10 triệu USD — tỷ lệ ký mới/doanh thu 1.39 lần so với 1.07-1.22 lần FY21-25. Trên cơ sở đó, dự phóng CNTT nước ngoài tăng lên +16.7% FY27F và +17.7% FY28F, từ +14.7% FY26F và +13.4% của 1H26; Mỹ hạ về +5.9%.",
+   "Tranh luận về AI — mở rộng nhu cầu hay thu hẹp định giá theo nhân sự — được trả lời bằng số liệu của chính FPT: doanh thu Dịch vụ AI & Data Analytics đạt 1,842 tỷ đồng trong 1H26, tăng 54% CK so với +15% của mảng Công nghệ, nâng tỷ trọng lên 8.0% từ 5.9% và đóng góp một phần năm mức tăng của mảng; loại AI, Công nghệ chỉ tăng 12.5%. Hai cụm AI Factory tại Việt Nam và Nhật Bản đạt hiệu suất trên 90% và có lãi từ Q2/2026. Infosys dự báo FY27 chỉ 1.5-3.0%.",
+   "Dự phóng và định giá: LNST-CĐTS FY26F đạt 10,944 tỷ đồng (+15.6% CK), FY27F 12,674 tỷ (+15.8%) và FY28F 14,774 tỷ (+16.6%). Lợi nhuận công ty liên kết — FPT Telecom (45.66%, phương pháp VCSH từ FY26), FPT Retail, Synnex FPT, FPT Online — lên 2,608 tỷ FY26F và 3,449 tỷ FY28F, đã tăng 40.8% CK trong 1H26. Đòn bẩy hoạt động: chi phí bán hàng và quản lý giảm từ 17.6% doanh thu xuống 16.5% vào FY28F, biên gộp giữ nguyên. ROE quanh 27% nhờ tiền ròng khoảng 60% VCSH và cổ tức 2,000 đồng/cp. Nâng giá mục tiêu DCF (FCFF) lên 87,950 đồng từ 78,750 đồng, hạ chi phí nợ vay về 9.0% từ 11.5% (thực tế 1H26: 4.0%), đưa WACC xuống 11.4%; phần bù rủi ro vốn cổ phần giữ 8.97% và tăng trưởng dài hạn 1.5%, phản ánh rủi ro AI làm giảm giá dịch vụ CNTT. Tại 71,700 đồng, cổ phiếu ở 11.2x P/E FY26F so với trung vị 5 năm trên 18x; tại giá mục tiêu là 13.7x FY26F và 11.8x FY27F, tiềm năng tăng 23% (MUA). Thông tin AI vẫn tích cực: mở rộng hợp tác với Microsoft tại ASEAN, Nhật Bản, Hàn Quốc và Intel, cùng các tập đoàn CPF, SCG, UOB, Sembcorp, SATS, ComfortDelGro. Rủi ro: (1) giảm phát giá do AI nhanh hơn giả định tăng trưởng dài hạn (2) chi tiêu CNTT tại Mỹ và toàn cầu thấp, hợp đồng trì hoãn do thuế quan (3) biến động tỷ giá JPY/USD."
+  ],
+  "fy": [
+   [
+    "FY (31/12)",
+    "FY23",
+    "FY24",
+    "FY25",
+    "FY26F",
+    "FY27F",
+    "FY28F"
+   ],
+   [
+    "Doanh thu (tỷ đồng)",
+    "52,618",
+    "62,849",
+    "70,208",
+    "57,284",
+    "66,048",
+    "76,654"
+   ],
+   [
+    "% YoY",
+    "—",
+    "+19.4%",
+    "+11.7%",
+    "-18.4%*",
+    "+15.3%",
+    "+16.1%"
+   ],
+   [
+    "LN hoạt động (tỷ đồng)",
+    "8,452",
+    "10,508",
+    "11,079",
+    "9,807",
+    "11,044",
+    "13,053"
+   ],
+   [
+    "LNTT (tỷ đồng)",
+    "9,203",
+    "11,070",
+    "13,134",
+    "13,070",
+    "15,159",
+    "17,671"
+   ],
+   [
+    "LNST-CĐTS (tỷ đồng)",
+    "6,465",
+    "7,857",
+    "9,464",
+    "10,944",
+    "12,674",
+    "14,774"
+   ],
+   [
+    "% YoY",
+    "—",
+    "+21.5%",
+    "+20.5%",
+    "+15.6%",
+    "+15.8%",
+    "+16.6%"
+   ],
+   [
+    "EPS (đồng)",
+    "4,648",
+    "4,877",
+    "5,073",
+    "6,424",
+    "7,440",
+    "8,673"
+   ],
+   [
+    "ROE (%)",
+    "28.1",
+    "28.7",
+    "28.6",
+    "27.6",
+    "27.1",
+    "26.5"
+   ],
+   [
+    "P/E (x)",
+    "19.7",
+    "18.8",
+    "18.1",
+    "13.7",
+    "11.8",
+    "10.1"
+   ],
+   [
+    "P/B (x)",
+    "4.7",
+    "4.5",
+    "4.3",
+    "3.5",
+    "3.0",
+    "2.5"
+   ],
+   [
+    "Tổng tài sản (tỷ đồng)",
+    "60,283",
+    "72,000",
+    "88,090",
+    "91,917",
+    "102,974",
+    "115,994"
+   ],
+   [
+    "VCSH (tỷ đồng)",
+    "29,883",
+    "35,678",
+    "43,702",
+    "50,217",
+    "58,356",
+    "68,507"
+   ],
+   [
+    "Giá trị sổ sách (đồng)",
+    "19,665",
+    "20,253",
+    "21,418",
+    "25,116",
+    "29,770",
+    "35,585"
+   ],
+   [
+    "Ghi chú: FPT Telecom hợp nhất theo phương pháp VCSH từ FY26F, hợp nhất toàn bộ giai đoạn FY23-25. * so với doanh thu FY25 tính lại 50,607 tỷ đồng, mức tăng là +13.2%; LNST-CĐTS không đổi khi chuyển phương pháp. Nguồn: Dữ liệu công ty, Mirae Asset Vietnam Research",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ }
+]
