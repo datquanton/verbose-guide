@@ -228,3 +228,47 @@ August HRC cut is not being offset.
 is a judgment change reserved for a human (charter §2); this section records the defect next to the
 numbers it affects. **OPEN-DECISIONS item 6 — whether to add `spot_persists` — is now both more
 urgent and to be decided on ₫0.86m/t rather than ₫0.36m/t.**
+
+---
+
+## 9 · Structural note 2026-08-05 — no price in this model has a stated delivery basis
+
+§1's table has a **Basis** column, and every entry in it documents a *consumption ratio or a
+derivation* — 1.60 t/t of ore, 0.65 t/t of coal, D&A over ~12mt. **Not one of the model's
+PRICES carries a delivery term anywhere in this file.**
+
+| Input | Values used | Delivery basis stated? |
+|---|---|---|
+| Iron ore | 97.70 (SGX), 98.02, 98.25, ~101 (Q1 inventory), 103 (DCE converted), 93.66 | **no** |
+| Coking coal | 190 (Q1), 218.50, 220 (Fitch), 228, 238.9 | **no** — "PHCC FOB Australia" appears only in log entries |
+| HRC | 539 (spot), 560 (Q1), 546.5/535 (HPG's own offers) | **no** — and separately the file holds "Indian HRC ~US$535/t **landed** Vietnam" and "China HRC **US$485 FOB**" |
+
+**Three prices, three different and undocumented delivery bases, one model.**
+
+### Why this is more than a documentation gap
+
+**The conversion cost of US$114/t is *solved*, not assumed** — calibrated so the bridge reproduces
+the known Q1/26 actual of ₫1.68m/t. **So it absorbs whatever basis mismatch existed at Q1 prices.**
+The calibration is therefore self-consistent *at Q1* and stays valid **only while the basis spreads
+hold constant.**
+
+**If freight moves, the solved conversion cost silently absorbs a freight change as though it were a
+conversion change, and the model cannot see the difference.**
+
+### The size, against the gap the model is currently read against
+
+HRC gearing is **₫0.42m per US$20/t**, i.e. **₫0.021m per US$1/t**:
+
+| | ₫m/t |
+|---|---:|
+| A US$15/t freight **level** embedded in the calibration | **0.315** |
+| A US$5/t freight **change** | 0.105 |
+| For scale: gap from the 04-Aug spot case (₫1.076m) to the ₫1.25m bear branch | **0.174** |
+
+**A US$8.3/t move in freight alone would close that gap.** The variable is undocumented, unmodelled,
+and larger than the distance currently being measured.
+
+**Nothing is changed here.** Naming a basis for each input is a model decision (charter §2/§4), and
+the freight figures used above are indicative, not sourced. **What is established is that the model
+has no basis column for its prices and that the omission is material at the scale currently in
+play.**

@@ -80,6 +80,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **02:53 ICT · HPG MODEL (lane 5, no searches) — applied the rule I wrote two hours ago to my own model
+  instead of to incoming data, and it found an undocumented variable larger than the gap the model is
+  currently being read against.**
+  **Why this and not a search.** At 00:53 I wrote: *"before comparing two prices, state the delivery terms of
+  each; if they differ, adjust or refuse the comparison."* I applied it to a Chinese FOB quote. **This file's
+  standing failure — logged 03-Aug — is that a lesson applied only to incoming data isn't applied.** Vietnam
+  opens in six hours, the US close is seven minutes away and won't be indexed for another hour, so **the file
+  itself was the only thing to check.**
+  **THE DEFECT.** The bridge's §1 table has a **"Basis"** column, and every entry documents a *consumption
+  ratio or derivation* — 1.60 t/t of ore, 0.65 t/t of coal, D&A over ~12mt. **Not one of the model's PRICES
+  carries a delivery term anywhere in the file.**
+
+  | Input | Values used | Basis stated? |
+  |---|---|---|
+  | Iron ore | 97.70 (SGX), 98.02, 98.25, ~101 (Q1 inventory), 103 (DCE), 93.66 | **no** |
+  | Coking coal | 190 (Q1), 218.50, 220 (Fitch), 228, 238.9 | **no** — "PHCC FOB Australia" appears only in log entries |
+  | HRC | 539 (spot), 560 (Q1), 546.5/535 (HPG's own offers) | **no** — while the file separately holds Indian HRC "**landed** Vietnam" and China HRC "**US$485 FOB**" |
+
+  **Three prices, three different and undocumented delivery bases, one model.**
+  **WHY IT IS MORE THAN A DOCUMENTATION GAP.** **The conversion cost of US$114/t is *solved*, not assumed** —
+  calibrated so the bridge reproduces the known Q1/26 actual of ₫1.68m/t. **So it absorbs whatever basis
+  mismatch existed at Q1 prices.** The calibration is self-consistent *at Q1* and stays valid **only while the
+  basis spreads hold constant.** **If freight moves, the solved conversion cost silently absorbs a freight
+  change as though it were a conversion change, and the model cannot see the difference.**
+  **THE SIZE, AGAINST THE GAP THE MODEL IS CURRENTLY READ AGAINST.** HRC gearing is ₫0.42m per US$20/t —
+  **₫0.021m per US$1/t.**
+
+  | | ₫m/t |
+  |---|---:|
+  | A US$15/t freight **level** embedded in the calibration | **0.315** |
+  | A US$5/t freight **change** | 0.105 |
+  | *For scale:* gap from last night's spot case (₫1.076m) to the ₫1.25m bear branch | **0.174** |
+
+  **A US$8.3/t move in freight alone would close that gap.** **The variable is undocumented, unmodelled, and
+  larger than the distance currently being measured** — which is the distance I reported at 23:53 as "the
+  closest the spot case has come to any branch."
+  **Stated honestly: the freight figures are indicative, not sourced.** What is **established** is that the
+  model has no basis column for its prices and that the omission is material at the scale currently in play.
+  **Naming a basis for each input is a model decision (charter §2/§4) and is not taken here** — a dated §9
+  structural note is appended to the bridge beside the grid it affects.
+  **Nothing modelled.** **Escalation check: none of the five fire.**
+
 - **00:53 ICT · STEEL (lane 5) — ran the discriminator I named an hour ago. It cannot be resolved, and what
   arrived is a week too early.**
   **What I asked for at 23:53:** an **HRC print dated after 31-Jul**, to discriminate between two readings of
