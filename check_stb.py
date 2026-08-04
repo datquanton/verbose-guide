@@ -7,7 +7,7 @@ model's own formula chain in Python, rather than against numbers typed twice.
 import openpyxl, zipfile
 from lxml import etree
 from pptx import Presentation
-from fix_stb_model import cascade, NPL_EDITS, MODEL_EDITS
+from fix_stb_model import cascade, NPL_EDITS, MODEL_EDITS, ALREADY, ALREADY_F
 
 DECK = '/home/user/verbose-guide/MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_31July2026.pptx'
 PICK = '/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.xlsx'
@@ -28,6 +28,8 @@ z = zipfile.ZipFile(MODEL)
 npl = etree.fromstring(z.read('xl/worksheets/sheet2.xml'))
 M = {c.get('r'): float(c.find(NS + 'v').text) for c in npl.iter(NS + 'c')
      if c.find(NS + 'v') is not None and c.find(NS + 'f') is None and c.get('t') != 's'}
+for ref, exp in ALREADY['NPL'].items():
+    check('NPL!%s still %s' % (ref, exp), abs(M[ref] - exp) < 1e-9, '%.3f' % M[ref])
 for col, lab, tgt in (('N', 'FY26F', 0.055), ('O', 'FY27F', 0.040), ('P', 'FY28F', 0.027)):
     n = sum(M['%s%d' % (col, r)] for r in (28, 29, 30))
     t = sum(M['%s%d' % (col, r)] for r in (26, 27, 28, 29, 30))
@@ -35,18 +37,31 @@ for col, lab, tgt in (('N', 'FY26F', 0.055), ('O', 'FY27F', 0.040), ('P', 'FY28F
     check('model %s grading mix sums to 1.000' % lab, abs(t - 1) < 1e-9, '%.4f' % t)
 
 mdl = {}
+WANT = set(MODEL_EDITS) | set(ALREADY['Model']) | set(ALREADY_F)
 for ev, el in etree.iterparse(z.open('xl/worksheets/sheet1.xml'), events=('end',)):
     if el.tag != NS + 'c':
         continue
-    if el.get('r') in MODEL_EDITS:
+    if el.get('r') in WANT:
         f, v = el.find(NS + 'f'), el.find(NS + 'v')
         mdl[el.get('r')] = (f.text if f is not None else None,
                             v.text if v is not None else None)
     el.clear()
-for ref, (ef, nf, ev, nv, note) in MODEL_EDITS.items():
-    got_f, got_v = mdl.get(ref, (None, None))
-    ok = (got_f == nf) if nf is not None else (abs(float(got_v) - float(nv)) < 1e-9)
-    check('model %s booked' % ref, ok, nf or nv)
+for ref, (ef, nf, note) in MODEL_EDITS.items():
+    check('Model!%s booked' % ref, mdl.get(ref, (None,))[0] == nf, nf)
+for ref, exp in ALREADY['Model'].items():
+    check('Model!%s still %s' % (ref, exp), abs(float(mdl[ref][1]) - exp) < 1e-9)
+for ref, exp in ALREADY_F.items():
+    check('Model!%s still =%s' % (ref, exp), mdl[ref][0] == exp)
+npl_dg = {}
+for ev, el in etree.iterparse(z.open('xl/worksheets/sheet2.xml'), events=('end',)):
+    if el.tag != NS + 'c':      # clearing an <f> wipes its text before <c> ends
+        continue
+    if el.get('r') in NPL_EDITS:
+        f = el.find(NS + 'f')
+        npl_dg[el.get('r')] = f.text if f is not None else None
+    el.clear()
+for ref, (ef, nf, note) in NPL_EDITS.items():
+    check('NPL!%s -> Q2/2026 actuals (%s)' % (ref, note.split()[0]), npl_dg.get(ref) == nf)
 check('workbook set to recalculate on open',
       'fullCalcOnLoad="1"' in z.read('xl/workbook.xml').decode())
 
@@ -113,11 +128,11 @@ for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('11.8tn', '2H26 writ
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
              ('50.0%', 'FY26F coverage'), ('40.0%', 'FY26F CIR'), ('38.0%', 'FY27F CIR'),
              ('36.0%', 'FY28F CIR'), ('35.6%', '1H26 CIR'),
-             ('8,683', 'FY26F PBT'), ('4,547', '2H26 PBT'), ('1.5%', '1H26 loan growth')]:
+             ('8,507', 'FY26F PBT'), ('4,371', '2H26 PBT'), ('1.5%', '1H26 loan growth')]:
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 # 7,934 survives on purpose - the narrative now cites it as the prior forecast
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
-            'VND18tn', 'remains attainable']:
+            'VND18tn', '8,683', '4,547', '27,010', 'remains attainable']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # -------------------------------------------------------- stock-pick book
@@ -128,7 +143,7 @@ check('workbook P/E, P/B = deck',
       abs(ws['J6'].value - pe[0]) < 0.051 and abs(ws['L6'].value - pb[0]) < 0.051)
 check('TP sheet = deck', tps['D13'].value == npat[0] and tps['E13'].value == npat[1])
 check('workbook narrative carries 5.5% and the 40/38/36 CIR path',
-      all(t in ws['C6'].value for t in ('5.5%', '40.0%', '38.0%', '36.0%')))
+      all(t in ws['C6'].value for t in ('5.5%', '40.0%', '38.0%', '36.0%', '8,507')))
 check('workbook narrative free of the 5.9% / 45% coverage version',
       '5.9%' not in ws['C6'].value and '45% coverage' not in ws['C6'].value)
 

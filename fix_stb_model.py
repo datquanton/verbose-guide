@@ -1,101 +1,90 @@
 # -*- coding: utf-8 -*-
-"""STB model edits, rebuilt from the pristine upload each run.
+"""STB model edits, rebuilt from the analyst's latest upload each run.
 
-Two instructions from the analyst:
-  (1) hold coverage at ~50%  ->  the reachable FY26F NPL is 5.5%
-  (2) CIR 40% / 38% / 36% FY26-28F  ->  the opex build has to come down from
-      42.9/42.6/40.5% and then decline rather than sit in a band
+The base is now 2b63c432-FinModel_STB_2Q26.xlsx, which is the previous round's
+work after the analyst opened it in Excel (so every formula is recalculated,
+not cached) and pasted the Q2/2026 actuals into Notes(Quarter).  The earlier
+NPL-mix, allowance and write-off edits are already inside it and are asserted
+here rather than re-applied - re-applying them from the original pristine file
+would wipe the analyst's Q2/2026 work.
 
-Three things had to change to make (1) true inside the model rather than on
-the side of it:
+This round does two things:
 
-  NPL!N26/N29/N30   the FY26F loan-grading mix          -> NPL 5.5%
-  Model!X284        FY25 closing specific allowance     -> ties the roll-forward
-                    to the actual balance-sheet reserve of 20,056 (the build
-                    opened from 8,869, so every coverage ratio downstream of it
-                    was meaningless)
-  Model!Y287        FY26F write-off rate                -> the 50% coverage solve
-  Model!Y278        specific charge / write-off ratio   -> 1.5x to 0.85x, i.e.
-                    the clean-up is funded out of the reserve stock, not the
-                    P&L.  Leaving it at 1.5x on a write-off that size is what
-                    produced the PBT collapse the analyst rejected.
+  NPL!DG6:DG11   the 2Q26 quarterly column pointed at 'Notes(Quarter)'!BY,
+                 which is empty.  The Q2/2026 actuals landed in BX - the
+                 analyst's column insert put a label column at BW - so every
+                 cell below DG13 was returning 0 or #DIV/0!.  Everything else
+                 in that column is already wired as shared formulas off DF, so
+                 six links are the whole fix.
 
-  Model!Y132/Z132/AA132, Y134/Z134/AA134  the opex build  -> CIR 40/38/36%
+  Model!Y132/Y134/Z132/Z134/AA132/AA134   the opex multipliers, re-solved.
+                 Excel's recalculation moved total operating income: the larger
+                 loan-loss reserve booked last round cuts net loans, so
+                 interest income falls.  TOI came out at 32,662/36,943/42,126
+                 against the 32,956/36,613/42,682 the previous multipliers were
+                 solved against, which left CIR at 40.36/37.66/36.48% instead
+                 of the 40/38/36% asked for.
 
-The provisioning line is NOT driven off the grading mix (only the 0.7% general
-allowance on Groups 1-4 is); it is write-off rate x gross loans x the charge
-ratio.  That is why NPL and PBT can be set independently here.
+Recalculation also settled two open items: Model!Y103 (the balance check) came
+back 0, so the reserve restatement did NOT break the balance sheet as I warned,
+and Y286 landed on 18,973 - coverage 50.0% - exactly as forecast.
 """
 import shutil, zipfile
 from lxml import etree
 
 SRC = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
 PRISTINE = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
-            'f6576dae-FinModel_STB_2Q26.xlsx')
+            '2b63c432-FinModel_STB_2Q26.xlsx')
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 
-# sheet2 = NPL.  Hardcoded grading mix; M/N/O/P = 2025/2026F/2027F/2028F.
+# sheet2 = NPL.  (expected_formula, new_formula, note)
 NPL_EDITS = {
-    'N26': ('0.9429999999999999',   '0.933', 'Current'),
-    'N27': ('1.2E-2',               '0.012', 'Special mention'),
-    'N28': ('5.0000000000000001E-3', '0.009', 'Substandard'),
-    'N29': ('5.0000000000000001E-3', '0.012', 'Doubtful'),
-    'N30': ('3.5000000000000003E-2', '0.034', 'Bad          -> NPL 5.5%'),
-    'O26': ('0.96199999999999997',  '0.950', 'Current'),
-    'O27': ('0.01',                 '0.010', 'Special mention'),
-    'O28': ('4.0000000000000001E-3', '0.007', 'Substandard'),
-    'O29': ('8.9999999999999993E-3', '0.010', 'Doubtful'),
-    'O30': ('1.7999999999999999E-2', '0.023', 'Bad          -> NPL 4.0%'),
-    'P26': ('0.96799999999999997',  '0.965', 'Current      - mix summed to 1.003'),
+    'DG%d' % r: ("'Notes(Quarter)'!BY%d" % (75 + r), "'Notes(Quarter)'!BX%d" % (75 + r), note)
+    for r, note in ((6, 'total loans     636,029'), (7, 'Current         571,245'),
+                    (8, 'Special ment.    16,827'), (9, 'Substandard       7,200'),
+                    (10, 'Doubtful          8,483'), (11, 'Bad              32,274'))
 }
 
-# sheet1 = Model.  (expected_formula, new_formula, expected_value, new_value, note)
+# sheet1 = Model.  (expected_formula, new_formula, note)
 MODEL_EDITS = {
-    'X284': (None,        None,           '4891.143',  '16078.433',
-             'FY25 closing specific allowance -> reserve stock ties to 20,056'),
-    'Y287': (None,        None,           '-9.4999999999999998E-3', '-0.0171',
-             'FY26F write-off rate -> 11,796bn, the 50% coverage solve'),
-    'Y278': ('-Y279*1.5', '-Y279*0.85',   None, None,
-             'specific charge 0.85x write-off: reserve-funded clean-up'),
-    'Y132': ('Y1010',     'X132*1',       None, None,
-             'FY26F staff cost flat vs FY25 (1H26 actual opex is -4.4% YoY)'),
-    'Y134': ('X134*1.05', 'X134*1',       None, None,
-             'FY26F other opex flat vs FY25          -> CIR 40.0%'),
-    'Z132': ('Z1010',     'Y132*1.015',   None, None, 'FY27F staff cost +1.5%'),
-    'Z134': ('Y134*1.1',  'Y134*1.015',   None, None,
-             'FY27F other opex +1.5%                 -> CIR 38.0%'),
-    'AA132': ('AA1010',   'Z132*1.106',   None, None, 'FY28F staff cost +10.6%'),
-    'AA134': ('Z134*1.1', 'Z134*1.106',   None, None,
-              'FY28F other opex +10.6%: re-investment -> CIR 36.0%'),
+    'Y132': ('X132*1',       'X132*0.9886',  'FY26F staff cost      -> CIR 40.0%'),
+    'Y134': ('X134*1',       'X134*0.9886',  'FY26F other opex      -> CIR 40.0%'),
+    'Z132': ('Y132*1.015',   'Y132*1.039',   'FY27F staff cost      -> CIR 38.0%'),
+    'Z134': ('Y134*1.015',   'Y134*1.039',   'FY27F other opex      -> CIR 38.0%'),
+    'AA132': ('Z132*1.106',  'Z132*1.0739',  'FY28F staff cost      -> CIR 36.0%'),
+    'AA134': ('Z134*1.106',  'Z134*1.0739',  'FY28F other opex      -> CIR 36.0%'),
 }
 
+# Already booked in the upload - asserted, never re-applied.
+ALREADY = {
+    'NPL': {'N26': 0.933, 'N27': 0.012, 'N28': 0.009, 'N29': 0.012, 'N30': 0.034,
+            'O26': 0.950, 'O27': 0.010, 'O28': 0.007, 'O29': 0.010, 'O30': 0.023,
+            'P26': 0.965},
+    'Model': {'X284': 16078.433, 'Y287': -0.0171},
+}
+ALREADY_F = {'Y278': '-Y279*0.85'}
 
-def edit_sheet(data, edits, kind):
+
+def edit_sheet(data, edits, label, check_vals=None, check_f=None):
     root = etree.fromstring(data)
     log, seen = [], set()
     for c in root.iter(NS + 'c'):
         ref = c.get('r')
+        f, v = c.find(NS + 'f'), c.find(NS + 'v')
+        if check_vals and ref in check_vals:
+            assert abs(float(v.text) - check_vals[ref]) < 1e-9, \
+                ('%s!%s drifted' % (label, ref), v.text, check_vals[ref])
+        if check_f and ref in check_f:
+            assert f is not None and f.text == check_f[ref], ('%s!%s drifted' % (label, ref),)
         if ref not in edits:
             continue
         seen.add(ref)
-        f, v = c.find(NS + 'f'), c.find(NS + 'v')
-        if kind == 'npl':
-            exp, new, note = edits[ref]
-            assert f is None, '%s is a formula, not an input' % ref
-            assert abs(float(v.text) - float(exp)) < 1e-9, (ref, v.text, exp)
-            log.append('NPL!%-5s %-34s %-9s -> %s' % (ref, note, v.text[:8], new))
-            v.text = new
-        else:
-            ef, nf, ev, nv, note = edits[ref]
-            if ef is not None:
-                assert f is not None and f.text == ef, (ref, f.text if f is not None else None, ef)
-                log.append('Model!%-5s %-52s %-11s -> %s' % (ref, note, ef, nf))
-                f.text = nf
-            else:
-                assert f is None, '%s is a formula, not an input' % ref
-                assert abs(float(v.text) - float(ev)) < 1e-9, (ref, v.text, ev)
-                log.append('Model!%-5s %-52s %-11s -> %s' % (ref, note, v.text[:10], nv))
-                v.text = nv
+        ef, nf, note = edits[ref]
+        assert f is not None and f.text == ef, (ref, f.text if f is not None else None, ef)
+        log.append('%s!%-6s %-34s %-24s -> %s' % (label, ref, note, ef, nf))
+        f.text = nf
+        if v is not None:            # drop the stale cache so a blank cell is obvious
+            v.getparent().remove(v)
     missing = set(edits) - seen
     assert not missing, missing
     return etree.tostring(root, xml_declaration=True, encoding='UTF-8', standalone=True), log
@@ -106,13 +95,12 @@ def main():
     z = zipfile.ZipFile(SRC)
     items = [(i, z.read(i.filename)) for i in z.infolist()]
     z.close()
-    log = []
-    out = []
+    log, out = [], []
     for it, d in items:
         if it.filename == 'xl/worksheets/sheet2.xml':
-            d, l = edit_sheet(d, NPL_EDITS, 'npl'); log += l + ['']
+            d, l = edit_sheet(d, NPL_EDITS, 'NPL', ALREADY['NPL']); log += l + ['']
         elif it.filename == 'xl/worksheets/sheet1.xml':
-            d, l = edit_sheet(d, MODEL_EDITS, 'model'); log += l + ['']
+            d, l = edit_sheet(d, MODEL_EDITS, 'Model', ALREADY['Model'], ALREADY_F); log += l + ['']
         elif it.filename == 'xl/workbook.xml' and 'fullCalcOnLoad' not in d.decode():
             d = d.decode().replace('<calcPr ', '<calcPr fullCalcOnLoad="1" ').encode()
             log.append('workbook.xml: fullCalcOnLoad=1')
@@ -125,53 +113,39 @@ def main():
 
 
 # ---------------------------------------------------------------- cascade
-# Replicates the model's own formula chain so the deck can be written before
-# the workbook is reopened in Excel.  Constants are the cached values of the
-# cells this script does not touch.
+# Replays the model's formula chain so the deck can be written before the
+# workbook is reopened.  Every constant below is now an Excel-recalculated
+# value read out of the upload, not a stale cache.
+TOI = {26: 32662.3, 27: 36942.6, 28: 42126.4}          # Model!Y117 = NII + fee + other
+DA = {26: 2880.14265, 27: 3456.17118, 28: 3801.788298}  # Model!Y133, untouched
+PROV = {26: 11090.7, 27: 8228.8, 28: 5816.0}            # Model!Y254
+RESERVE = {26: 18973.3, 27: 19703.2, 28: 20567.0}       # Model!Y286
 LOANS = {26: 689832.31655949343, 27: 791226.94267949986, 28: 908671.50802756927}
 MIX = {  # current, special mention, G3, G4, G5
     26: (0.933, 0.012, 0.009, 0.012, 0.034),
     27: (0.950, 0.010, 0.007, 0.010, 0.023),
     28: (0.965, 0.008, 0.005, 0.009, 0.013),
 }
-TOI = {26: 32955.812621392045, 27: 36612.517794481700, 28: 42682.200157502680}
-DA = {26: 2880.14265, 27: 3456.17118, 28: 3801.788298}
-VAMC = {26: 376.87515392913338, 27: 398.7337926368582, 28: 421.98685138109613}
-WO_RATE = {26: 0.0171, 27: 0.009, 28: 0.005}
-CHARGE_X = {26: 0.85, 27: 1.0, 28: 1.0}
-GEN_OPEN_25, SPEC_OPEN_26 = 3977.512, 16078.433
+OPEX_X = {26: 0.9886, 27: 1.039, 28: 1.0739}   # applied to staff and other alike
 STAFF_25, OTHER_25 = 6985.597, 3316.289
+WO_RATE = {26: 0.0171, 27: 0.009, 28: 0.005}
 TAX = 0.22140908033206499
 
 
-OPEX_X = {26: 1.0, 27: 1.015, 28: 1.106}   # applied to staff and other alike
-
-
 def cascade():
-    staff = {26: STAFF_25 * OPEX_X[26]}
-    staff[27] = staff[26] * OPEX_X[27]
-    staff[28] = staff[27] * OPEX_X[28]
-    other = {26: OTHER_25 * OPEX_X[26]}
-    other[27] = other[26] * OPEX_X[27]
-    other[28] = other[27] * OPEX_X[28]
-    gen_open, spec_open = GEN_OPEN_25, SPEC_OPEN_26
-    rows = []
+    so = STAFF_25 + OTHER_25
+    rows, prev = [], None
     for y in (26, 27, 28):
-        L, m = LOANS[y], MIX[y]
-        opex = staff[y] + DA[y] + other[y]
-        gen_close = 0.007 * sum(m[:4]) * L
-        wo = WO_RATE[y] * L
-        spec_charge = CHARGE_X[y] * wo
-        spec_close = spec_open + spec_charge - wo - 0.4
-        prov = (gen_close - gen_open) + spec_charge + VAMC[y]
-        pbt = TOI[y] - opex - prov
-        npl_amt = sum(m[2:]) * L
+        so *= OPEX_X[y]
+        opex = so + DA[y]
+        pbt = TOI[y] - opex - PROV[y]
+        npl_amt = sum(MIX[y][2:]) * LOANS[y]
         rows.append(dict(
             y=2000 + y, toi=TOI[y], opex=opex, cir=opex / TOI[y],
-            ppop=TOI[y] - opex, prov=prov, pbt=pbt, npatmi=pbt * (1 - TAX),
-            npl_pct=sum(m[2:]), npl=npl_amt, wo=wo,
-            res=gen_close + spec_close, cov=(gen_close + spec_close) / npl_amt))
-        gen_open, spec_open = gen_close, spec_close
+            ppop=TOI[y] - opex, prov=PROV[y], pbt=pbt, npatmi=pbt * (1 - TAX),
+            npl_pct=sum(MIX[y][2:]), npl=npl_amt, wo=WO_RATE[y] * LOANS[y],
+            res=RESERVE[y], cov=RESERVE[y] / npl_amt))
+        prev = rows[-1]
     return rows
 
 

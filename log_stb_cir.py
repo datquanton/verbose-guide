@@ -57,10 +57,28 @@ ROWS = [
      'Model!X264 (BCĐKT FY25) = 20,056 nhưng bảng chuyển động X274+X284 chỉ 8,869',
      'Lỗi có sẵn trong model: mọi tỷ lệ bao phủ dự phóng trước đây đều vô nghĩa. Đã sửa để '
      'X274+X284 = 20,056'),
-    ('G14', 'Cân đối kế toán lệch sau khi sửa X284', '-6,755', 'VNDbn', 'GAP',
-     'Model!Y103 = Y61 - Y102; dự phòng tăng làm cho vay thuần giảm 6,146, VCSH tăng 609',
-     'CHƯA XỬ LÝ — cần chốt khoản mục bù (huy động hoặc tiền gửi liên ngân hàng) trước khi '
-     'phát hành. Tổng tài sản trên slide = số đã công bố trừ 6,146'),
+    ('G14', 'Cân đối kế toán sau khi sửa X284', '0', 'VNDbn', 'MODEL',
+     'Model!Y103 = 0 sau khi CV mở lại bằng Excel (bản 2b63c432)',
+     'ĐÃ ĐÓNG — cảnh báo lệch -6,755 tỷ của tôi là SAI. Model tự cân đối; tổng tài sản '
+     'Y61 = 1,014,277 (không phải 1,007,118 tôi ước tính)'),
+    ('R10', 'Đối chiếu sau khi Excel tính lại', 'khớp', '', 'MODEL',
+     'bản 2b63c432 do CV mở lại bằng Excel',
+     'Opex Y135 13,182/13,913/15,367 khớp tuyệt đối; dự phòng Y254 11,091 khớp; dự phòng đã '
+     'trích Y286 18,973 và bao phủ 50.0% khớp tuyệt đối'),
+    ('C2', 'TOI dịch chuyển khi Excel tính lại', '32,662 vs 32,956', 'VNDbn', 'CONFLICT',
+     'Model!Y117 = NII + phí + thu nhập khác',
+     'Dự phòng đã trích lớn hơn làm cho vay thuần giảm -> thu nhập lãi giảm. NII FY26F về '
+     '26,712 (+0.1% CK) từ 27,010. Hệ quả CIR trôi lên 40.36/37.66/36.48%, đã giải lại hệ '
+     'số nhân opex về 0.9886/1.039/1.0739 để đúng 40/38/36%'),
+    ('N1', 'NPL!DG6:DG11 cột 2Q26', 'BY -> BX', '', 'MAS',
+     "trỏ sang 'Notes(Quarter)'!BX81:BX86 (cột chèn thêm đẩy dữ liệu sang BX, BW là cột nhãn)",
+     'Tổng 636,029; nhóm 1-5: 571,245 / 16,827 / 7,200 / 8,483 / 32,274. NPL 47,957 = 7.540% '
+     '— khớp tuyệt đối con số trên slide'),
+    ('G19', 'NPL hàng 19-21 lệch một dòng ở khối theo quý', '', '', 'GAP',
+     'DF19 = DF8/DF$22 (nợ nhóm 2 / nợ xấu) trong khi nhãn ghi "3) Substandard"',
+     'CHƯA SỬA — lỗi có sẵn ở MỌI cột quý, không riêng 2Q26; hàng 19-21 cộng lại không bằng '
+     '100%. Không ảnh hưởng tỷ lệ NPL (hàng 23) vì hàng 22 = SUM(9:11) vẫn đúng. Sửa riêng '
+     'cột DG sẽ phá nhóm shared formula'),
     ('G15', 'Giá mục tiêu vs sheet Valuation', '77,800 vs 65,600', 'VND', 'CONFLICT',
      'Valuation!B1 = J16 = P/B hợp lý FY27F x BPS FY27F',
      'Sheet Valuation cho 56,100 trước điều chỉnh và ~65,600 sau (ROE bền vững FY27F lên '

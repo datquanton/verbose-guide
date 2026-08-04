@@ -19,7 +19,7 @@ PBT = tuple(c['pbt'] for c in _C)
 NPATMI = tuple(c['npatmi'] for c in _C)
 EQ25 = 59920.157                          # Model!Y87+Y94+X98, ex the FY25 FX line
 EQUITY = tuple(EQ25 + sum(NPATMI[:i + 1]) for i in range(3))
-ASSETS = (1007118, 1139005, 1301528)      # published less the reserve restatement
+ASSETS = (1014277, 1129957, 1271622)      # Model!Y61, Excel-recalculated
 # Model row 314: FY26F on ending equity, FY27-28F on average - the model's own quirk
 ROE = (NPATMI[0] / EQUITY[0] * 100,
        NPATMI[1] / ((EQUITY[0] + EQUITY[1]) / 2) * 100,
@@ -30,7 +30,13 @@ BVPS = tuple(e * 1000 / SHARES for e in EQUITY)
 PE = tuple(TP / e for e in EPS)
 PB = tuple(TP / b for b in BVPS)
 
+NII = (26712.4, 29560.5, 34095.0)         # Model!Y121, Excel-recalculated
+NONII = tuple(c['toi'] for c in _C)       # non-interest income = TOI - NII
+NONII = tuple(t - n for t, n in zip(NONII, NII))
+
 TABLE = {                                  # row -> formatted FY26F/27F/28F
+    1: ['{:,.0f}'.format(v) for v in NII],
+    2: ['{:,.0f}'.format(v) for v in NONII],
     3: ['{:,.0f}'.format(v) for v in PBT],
     4: ['{:,.0f}'.format(v) for v in NPATMI],
     5: ['{:,.0f}'.format(v) for v in EPS],

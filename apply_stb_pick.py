@@ -19,9 +19,9 @@ EQ_27 = EQ_26 + NPATMI_27
 eps = lambda n: n * 1000 / SHARES
 bvps = lambda e: e * 1000 / SHARES
 
-C6 = ("- We forecast NII at VND27,010bn (+1.2% YoY). 1H26 loan growth of 1.5% sits well below the "
+C6 = ("- We forecast NII at VND26,712bn (+0.1% YoY). 1H26 loan growth of 1.5% sits well below the "
       "11.7% carried for the full year, which we flag as the next assumption to re-cut.\n"
-      "- NIM is expected to trough at 2.94% (-38bps YoY) in FY26F as elevated NPLs freeze accrued "
+      "- NIM is expected to trough at 2.92% (-40bps YoY) in FY26F as elevated NPLs freeze accrued "
       "interest income while funding costs remain sticky, before recovering in FY27F.\n"
       "- We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
@@ -29,7 +29,7 @@ C6 = ("- We forecast NII at VND27,010bn (+1.2% YoY). 1H26 loan growth of 1.5% si
       "Group 5 balance, leaving coverage back at 50.0%. Holding coverage at 50% is what caps the "
       "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
       "1H26 pace.\n"
-      "- We raise FY26F PBT to VND8,683bn (+13.8% YoY) on the cost line alone: 1H26 CIR came in at "
+      "- We raise FY26F PBT to VND8,507bn (+11.5% YoY) on the cost line alone: 1H26 CIR came in at "
       "35.6% against the 42.9% previously carried for the full year, and we now assume 40.0% "
       "(-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F as total operating income "
       "outgrows a cost base held near flat through the clean-up.")
