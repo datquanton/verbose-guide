@@ -71,11 +71,12 @@ for y, tgt in ((2026, 0.40), (2027, 0.38), (2028, 0.36)):
     check('FY%dF CIR = %.0f%% as instructed' % (y, tgt * 100),
           abs(C[y]['cir'] - tgt) < 0.0005, '%.2f%%' % (C[y]['cir'] * 100))
 check('CIR declines year on year', C[2026]['cir'] > C[2027]['cir'] > C[2028]['cir'])
-check('FY26F coverage held at ~50%', abs(C[2026]['cov'] - 0.50) < 0.005,
+check('FY26F coverage held near 50%', abs(C[2026]['cov'] - 0.51) < 0.005,
       '%.1f%%' % (C[2026]['cov'] * 100))
 check('FY26F NPL = 5.5%', abs(C[2026]['npl_pct'] - 0.055) < 1e-9)
-check('FY26F PBT above the FY25 base of 7,628',
-      C[2026]['pbt'] > 7628, '+%.1f%% YoY' % (C[2026]['pbt'] / 7628.025 * 100 - 100))
+check('FY26F PBT on the ~8,100 board-approved plan',
+      abs(C[2026]['pbt'] - 8100) < 5, '%.0f, +%.1f%% YoY'
+      % (C[2026]['pbt'], C[2026]['pbt'] / 7628.025 * 100 - 100))
 check('2H26 opex above 1H26 actual of 6,233 (no back-end cost cut)',
       C[2026]['opex'] - 6233.19 > 6233.19, '+%.1f%%' % ((C[2026]['opex'] - 6233.19) / 6233.19 * 100 - 100))
 check('2H26 write-off leaves NPL formation positive but slower than 1H26',
@@ -126,13 +127,13 @@ for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit'
     check('EN and VN agree on %s' % a, row(en_tbl, a) == row(vn_tbl, b))
 for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('11.8tn', '2H26 write-offs'),
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
-             ('50.0%', 'FY26F coverage'), ('40.0%', 'FY26F CIR'), ('38.0%', 'FY27F CIR'),
+             ('51.1%', 'FY26F coverage'), ('40.0%', 'FY26F CIR'), ('38.0%', 'FY27F CIR'),
              ('36.0%', 'FY28F CIR'), ('35.6%', '1H26 CIR'),
-             ('8,507', 'FY26F PBT'), ('4,371', '2H26 PBT'), ('1.5%', '1H26 loan growth')]:
+             ('8,100', 'FY26F PBT'), ('3,964', '2H26 PBT'), ('1.5%', '1H26 loan growth')]:
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 # 7,934 survives on purpose - the narrative now cites it as the prior forecast
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
-            'VND18tn', '8,683', '4,547', '27,010', 'remains attainable']:
+            'VND18tn', '8,683', '4,547', '27,010', '8,507', '4,371', 'remains attainable']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # -------------------------------------------------------- stock-pick book
@@ -143,7 +144,7 @@ check('workbook P/E, P/B = deck',
       abs(ws['J6'].value - pe[0]) < 0.051 and abs(ws['L6'].value - pb[0]) < 0.051)
 check('TP sheet = deck', tps['D13'].value == npat[0] and tps['E13'].value == npat[1])
 check('workbook narrative carries 5.5% and the 40/38/36 CIR path',
-      all(t in ws['C6'].value for t in ('5.5%', '40.0%', '38.0%', '36.0%', '8,507')))
+      all(t in ws['C6'].value for t in ('5.5%', '40.0%', '38.0%', '36.0%', '8,100')))
 check('workbook narrative free of the 5.9% / 45% coverage version',
       '5.9%' not in ws['C6'].value and '45% coverage' not in ws['C6'].value)
 

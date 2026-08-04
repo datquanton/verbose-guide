@@ -26,13 +26,13 @@ C6 = ("- We forecast NII at VND26,712bn (+0.1% YoY). 1H26 loan growth of 1.5% si
       "- We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
       "write-offs; a further VND4.0tn charge in 2H26 funds VND11.8tn of write-offs, or 37% of the "
-      "Group 5 balance, leaving coverage back at 50.0%. Holding coverage at 50% is what caps the "
+      "Group 5 balance, leaving coverage at 51.1%. Holding coverage near 50% is what caps the "
       "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
       "1H26 pace.\n"
-      "- We raise FY26F PBT to VND8,507bn (+11.5% YoY) on the cost line alone: 1H26 CIR came in at "
-      "35.6% against the 42.9% previously carried for the full year, and we now assume 40.0% "
-      "(-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F as total operating income "
-      "outgrows a cost base held near flat through the clean-up.")
+      "- We set FY26F PBT at VND8,100bn (+6.2% YoY), in line with the board-approved plan. The "
+      "cost line does the lifting: 1H26 CIR came in at 35.6% against the 42.9% previously carried, "
+      "and we now assume 40.0% (-0.7%p YoY), easing to 38.0% in FY27F and 36.0% in FY28F, with "
+      "the balance taken back in a provisioning charge of VND11.5tn that holds coverage at 51.1%.")
 
 SHEET1 = {
     'C6': ('str', C6),
