@@ -1,63 +1,137 @@
 # -*- coding: utf-8 -*-
-"""Cross-check the STB slides against the booked NPL path and the workbook."""
+"""Cross-check the STB slides and the stock-pick workbook against the model.
+
+The deck is validated against fix_stb_model.cascade(), which replays the
+model's own formula chain in Python, rather than against numbers typed twice.
+"""
 import openpyxl, zipfile
 from lxml import etree
 from pptx import Presentation
-DECK='/home/user/verbose-guide/MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_31July2026.pptx'
-PICK='/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.xlsx'
-MODEL='/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
-NS='{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
-TP,L26,L27=77800.,689832.3,791226.9
-fails=[]
-def check(n,c,d=''):
-    print('%-4s %-58s %s'%('OK' if c else 'FAIL',n,d))
-    if not c: fails.append(n)
-z=zipfile.ZipFile(MODEL); root=etree.fromstring(z.read('xl/worksheets/sheet2.xml'))
-M={c.get('r'):float(c.find(NS+'v').text) for c in root.iter(NS+'c')
-   if c.find(NS+'v') is not None and c.find(NS+'f') is None and c.get('t')!='s'}
-for col,lab,tgt in (('N','FY26F',0.059),('O','FY27F',0.040)):
-    npl=sum(M['%s%d'%(col,r)] for r in (28,29,30))
-    tot=sum(M['%s%d'%(col,r)] for r in (26,27,28,29,30))
-    check('model %s NPL mix = %.1f%%'%(lab,tgt*100), abs(npl-tgt)<1e-9,'%.3f%%'%(npl*100))
-    check('model %s grading mix sums to 1.000'%lab, abs(tot-1)<1e-9,'%.4f'%tot)
-check('model FY28F mix now sums to 1.000',
-      abs(sum(M['P%d'%r] for r in (26,27,28,29,30))-1)<1e-9)
-prs=Presentation(DECK); num=lambda s: float(s.replace(',',''))
+from fix_stb_model import cascade, NPL_EDITS, MODEL_EDITS
+
+DECK = '/home/user/verbose-guide/MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_31July2026.pptx'
+PICK = '/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.xlsx'
+MODEL = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
+NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+TP, SHARES, EQ25 = 77800., 2060.158, 59920.157
+fails = []
+
+
+def check(n, c, d=''):
+    print('%-4s %-58s %s' % ('OK' if c else 'FAIL', n, d))
+    if not c:
+        fails.append(n)
+
+
+# ---------------------------------------------------------------- model file
+z = zipfile.ZipFile(MODEL)
+npl = etree.fromstring(z.read('xl/worksheets/sheet2.xml'))
+M = {c.get('r'): float(c.find(NS + 'v').text) for c in npl.iter(NS + 'c')
+     if c.find(NS + 'v') is not None and c.find(NS + 'f') is None and c.get('t') != 's'}
+for col, lab, tgt in (('N', 'FY26F', 0.055), ('O', 'FY27F', 0.040), ('P', 'FY28F', 0.027)):
+    n = sum(M['%s%d' % (col, r)] for r in (28, 29, 30))
+    t = sum(M['%s%d' % (col, r)] for r in (26, 27, 28, 29, 30))
+    check('model %s NPL mix = %.1f%%' % (lab, tgt * 100), abs(n - tgt) < 1e-9, '%.3f%%' % (n * 100))
+    check('model %s grading mix sums to 1.000' % lab, abs(t - 1) < 1e-9, '%.4f' % t)
+
+mdl = {}
+for ev, el in etree.iterparse(z.open('xl/worksheets/sheet1.xml'), events=('end',)):
+    if el.tag != NS + 'c':
+        continue
+    if el.get('r') in MODEL_EDITS:
+        f, v = el.find(NS + 'f'), el.find(NS + 'v')
+        mdl[el.get('r')] = (f.text if f is not None else None,
+                            v.text if v is not None else None)
+    el.clear()
+for ref, (ef, nf, ev, nv, note) in MODEL_EDITS.items():
+    got_f, got_v = mdl.get(ref, (None, None))
+    ok = (got_f == nf) if nf is not None else (abs(float(got_v) - float(nv)) < 1e-9)
+    check('model %s booked' % ref, ok, nf or nv)
+check('workbook set to recalculate on open',
+      'fullCalcOnLoad="1"' in z.read('xl/workbook.xml').decode())
+
+# ------------------------------------------------------------- the cascade
+C = {c['y']: c for c in cascade()}
+check('FY26F CIR in the 38-40% band the analyst asked for',
+      0.38 <= C[2026]['cir'] <= 0.40, '%.1f%%' % (C[2026]['cir'] * 100))
+check('FY27F CIR in the 38-40% band', 0.38 <= C[2027]['cir'] <= 0.40,
+      '%.1f%%' % (C[2027]['cir'] * 100))
+check('FY28F CIR in the 38-40% band', 0.38 <= C[2028]['cir'] <= 0.40,
+      '%.1f%%' % (C[2028]['cir'] * 100))
+check('FY26F coverage held at ~50%', abs(C[2026]['cov'] - 0.50) < 0.005,
+      '%.1f%%' % (C[2026]['cov'] * 100))
+check('FY26F NPL = 5.5%', abs(C[2026]['npl_pct'] - 0.055) < 1e-9)
+check('FY26F PBT above the FY25 base of 7,628',
+      C[2026]['pbt'] > 7628, '+%.1f%% YoY' % (C[2026]['pbt'] / 7628.025 * 100 - 100))
+check('2H26 opex above 1H26 actual of 6,233 (no back-end cost cut)',
+      C[2026]['opex'] - 6233.19 > 6233.19, '+%.1f%%' % ((C[2026]['opex'] - 6233.19) / 6233.19 * 100 - 100))
+check('2H26 write-off leaves NPL formation positive but slower than 1H26',
+      0 < C[2026]['wo'] - (47957 - C[2026]['npl']) < 7800,
+      'implied 2H26 formation %.0f vs 7,800 in 1H26' % (C[2026]['wo'] - (47957 - C[2026]['npl'])))
+
+# ------------------------------------------------------------------- deck
+prs = Presentation(DECK)
+num = lambda s: float(s.replace(',', ''))
+
+
 def grab(i):
-    sh={x.shape_id:x for x in prs.slides[i].shapes}
-    t=sh[16].table
-    return ({sh[12].table.cell(r,0).text: sh[12].table.cell(r,1).text.strip() for r in range(4)},
-            {t.cell(r,0).text:[t.cell(r,c).text.strip() for c in range(4,7)] for r in range(1,12)},
+    sh = {x.shape_id: x for x in prs.slides[i].shapes}
+    t = sh[16].table
+    return ({sh[12].table.cell(r, 0).text: sh[12].table.cell(r, 1).text.strip() for r in range(4)},
+            {t.cell(r, 0).text: [t.cell(r, c).text.strip() for c in range(4, 7)] for r in range(1, 12)},
             sh[15].text_frame.text)
-en_box,en_tbl,en_txt=grab(0); vn_box,vn_tbl,vn_txt=grab(1)
-row=lambda tbl,k:[num(x) for x in next(v for kk,v in tbl.items() if kk.startswith(k))]
-pbt=row(en_tbl,'Operating profit'); npat=row(en_tbl,'Net Profit')
-eps=row(en_tbl,'EPS'); pe=row(en_tbl,'P/E'); pb=row(en_tbl,'P/B'); bv=row(en_tbl,'BVPS')
-check('FY26F PBT 7,934 (model)', pbt[0]==7934); check('FY26F NPATMI 6,177 (model)', npat[0]==6177)
-check('FY27F NPATMI 9,890 (model)', npat[1]==9890)
-check('FY26F PBT growth +4.0% on FY25 7,628', abs(pbt[0]/7628-1.040)<0.001,'%.1f%%'%(pbt[0]/7628*100-100))
-check('2H26 PBT = FY26F - 1H26 4,136', abs(pbt[0]-4136-3798)<1,'%.0f'%(pbt[0]-4136))
-for i,y in enumerate((26,27,28)):
-    check('FY%dF P/E = TP / EPS'%y, abs(TP/eps[i]-pe[i])<0.06,'%.2f vs %.2f'%(TP/eps[i],pe[i]))
-    # the slide shows one decimal, so allow half a tick of rounding
-    check('FY%dF P/B = TP / BVPS'%y, abs(TP/bv[i]-pb[i])<0.051,'%.2f vs %.2f'%(TP/bv[i],pb[i]))
-check('EPS consistent with NPATMI and a 2,060mn share count',
-      all(abs(n/2.0604-e)<3 for n,e in zip(npat,eps)))
-check('box NPATMI = table FY26F', num(en_box['NPATMI (26F, VNDbn)'])==npat[0])
-check('box P/E = table FY26F', num(en_box['P/E (26F, x)'])==pe[0])
-for a,b in [('Operating profit','Lợi nhuận hoạt động'),('Net Profit','LNST'),('EPS','EPS'),
-            ('P/E','P/E'),('P/B','P/B'),('BVPS','Giá trị sổ sách')]:
-    check('EN and VN agree on %s'%a, row(en_tbl,a)==row(vn_tbl,b))
-for s,t in [('5.9%','FY26F NPL'),('4.0%','FY27F NPL'),('8.9tn','2H26 write-offs'),
-            ('21.6tn','existing reserves'),('45%','coverage'),('7,934','FY26F PBT'),
-            ('3,798','2H26 PBT'),('1.5%','1H26 loan growth')]:
-    check('narrative states %s (%s)'%(s,t), s in en_txt)
-for old in ['8,455','6,583','12,311','below 4.5% is no longer attainable','11.7% loan growth',
-            '4,319','+10.8%']:
-    check('stale text "%s" gone'%old[:34], old not in en_txt and old not in str(en_tbl))
-ws=openpyxl.load_workbook(PICK)['Stock Pick']; tp=openpyxl.load_workbook(PICK)['Target Price and Forecast']
-check('workbook NPATMI = deck', ws['F6'].value==npat[0] and ws['G6'].value==npat[1])
-check('workbook P/E, P/B = deck', abs(ws['J6'].value-pe[0])<0.06 and abs(ws['L6'].value-pb[0])<0.051)
-check('TP sheet = deck', tp['D13'].value==npat[0] and tp['E13'].value==npat[1])
-print('\n'+'='*78)
-print('%d FAILED: %s'%(len(fails),fails) if fails else 'ALL CHECKS PASSED')
+
+
+en_box, en_tbl, en_txt = grab(0)
+vn_box, vn_tbl, vn_txt = grab(1)
+row = lambda tbl, k: [num(x) for x in next(v for kk, v in tbl.items() if kk.startswith(k))]
+pbt, npat = row(en_tbl, 'Operating profit'), row(en_tbl, 'Net Profit')
+eps, pe, pb = row(en_tbl, 'EPS'), row(en_tbl, 'P/E'), row(en_tbl, 'P/B')
+bv, eq = row(en_tbl, 'BVPS'), row(en_tbl, 'Equity')
+
+for i, y in enumerate((2026, 2027, 2028)):
+    check('FY%dF PBT = model cascade' % y, abs(pbt[i] - C[y]['pbt']) < 1,
+          '%.0f vs %.0f' % (pbt[i], C[y]['pbt']))
+    check('FY%dF NPATMI = model cascade' % y, abs(npat[i] - C[y]['npatmi']) < 1,
+          '%.0f vs %.0f' % (npat[i], C[y]['npatmi']))
+    check('FY%dF EPS = NPATMI / 2,060mn shares' % y, abs(npat[i] * 1000 / SHARES - eps[i]) < 1)
+    check('FY%dF P/E = TP / EPS' % y, abs(TP / eps[i] - pe[i]) < 0.051,
+          '%.2f vs %.2f' % (TP / eps[i], pe[i]))
+    check('FY%dF P/B = TP / BVPS' % y, abs(TP / bv[i] - pb[i]) < 0.051,
+          '%.2f vs %.2f' % (TP / bv[i], pb[i]))
+    check('FY%dF BVPS = equity / shares' % y, abs(eq[i] * 1000 / SHARES - bv[i]) < 1)
+check('equity rolls forward on retained NPATMI',   # 1.5 absorbs rounded rows
+      abs(eq[0] - (EQ25 + npat[0])) < 1.5 and abs(eq[1] - (eq[0] + npat[1])) < 1.5
+      and abs(eq[2] - (eq[1] + npat[2])) < 1.5)
+check('box NPATMI = table FY26F', num(en_box['NPATMI (26F, VNDbn)']) == npat[0])
+check('box P/E = table FY26F', num(en_box['P/E (26F, x)']) == pe[0])
+check('box EPS growth = table EPS on FY25 2,883',
+      abs(num(en_box['EPS Growth (26F, %)']) - (eps[0] / 2882.84 * 100 - 100)) < 0.1)
+for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit', 'LNST'), ('EPS', 'EPS'),
+             ('P/E', 'P/E'), ('P/B', 'P/B'), ('BVPS', 'Giá trị sổ sách'),
+             ('Total assets', 'Tổng tài sản'), ('Equity', 'VCSH')]:
+    check('EN and VN agree on %s' % a, row(en_tbl, a) == row(vn_tbl, b))
+for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('11.8tn', '2H26 write-offs'),
+             ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
+             ('50.0%', 'FY26F coverage'), ('39.9%', 'FY26F CIR'), ('35.6%', '1H26 CIR'),
+             ('8,716', 'FY26F PBT'), ('4,580', '2H26 PBT'), ('1.5%', '1H26 loan growth')]:
+    check('narrative states %s (%s)' % (s, t), s in en_txt)
+# 7,934 survives on purpose - the narrative now cites it as the prior forecast
+for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn',
+            'remains attainable']:
+    check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
+
+# -------------------------------------------------------- stock-pick book
+wb = openpyxl.load_workbook(PICK)
+ws, tps = wb['Stock Pick'], wb['Target Price and Forecast']
+check('workbook NPATMI = deck', ws['F6'].value == npat[0] and ws['G6'].value == npat[1])
+check('workbook P/E, P/B = deck',
+      abs(ws['J6'].value - pe[0]) < 0.051 and abs(ws['L6'].value - pb[0]) < 0.051)
+check('TP sheet = deck', tps['D13'].value == npat[0] and tps['E13'].value == npat[1])
+check('workbook narrative carries 5.5% and 39.9%',
+      '5.5%' in ws['C6'].value and '39.9%' in ws['C6'].value)
+check('workbook narrative free of the 5.9% / 45% coverage version',
+      '5.9%' not in ws['C6'].value and '45% coverage' not in ws['C6'].value)
+
+print('\n' + '=' * 78)
+print('%d FAILED: %s' % (len(fails), fails) if fails else 'ALL CHECKS PASSED')
