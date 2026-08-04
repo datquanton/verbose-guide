@@ -80,6 +80,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **23:53 ICT · STEEL (lane 5) — the largest one-day move in this file's ore series, and the file has
+  already read this the easy way once.**
+  **The figure, and it reconciles exactly to a stored value.** **Iron ore fell to US$93.66/t on 03-Aug, down
+  4.43% on the day.** This file carries **98.00 at 31-Jul**, and **98.00 × (1 − 0.0443) = 93.66 exactly** —
+  across a weekend, so *"the previous day"* is Friday. **The dated figure and the stored figure confirm each
+  other.**
+  **A competing figure in the same result set, not adopted:** an **SGX IODEX futures** quote of **98.10,
+  "+0.94% in the past 24 hours"** — **undated**, attached to an **Aug-26 contract**. **A futures contract price
+  and the IODEX spot index are different measures**, it carries no date, and it reconciles to nothing on file.
+  **Third time this week two values for one quantity arrived together and the one that tied to a stored value
+  was the one to keep.**
+  **What it does to the spread, on the bridge's own gearing (₫0.34m per US$10/t).** Against the **`ore = 100`**
+  row of §2's grid — established on 03-Aug as Fitch's actual assumption after the phantom 115 was found —
+  **93.66 is −US$6.34, worth +₫0.216m/t.** **The spot case moves ₫0.86m/t → ~₫1.076m/t, and the gap to the
+  ₫1.25m bear branch narrows from ₫0.39m/t to ~₫0.17m/t.** **That is the closest the modelled spot case has
+  come to any branch since the bridge was built.**
+  **AND HERE IS WHY I AM NOT REPORTING THAT AS GOOD NEWS.**
+  **(1) One leg moved and two did not.** HRC at 539 and coal at 218.50 are both **30-Jul vintage**. **Moving
+  the cost blade alone while holding the revenue blade fixed is structurally the same error as the one-legged
+  price refresh this file spent today warning about on four bank names.** The ₫1.076m/t is what the grid says
+  **if** the other two legs are where they were five sessions ago, and there is no evidence that they are.
+  **(2) More importantly, a 4.4% one-day fall in iron ore is more likely a DEMAND signal than a cost
+  windfall.** Ore falls when mills' margins compress and output is cut. **This file made exactly this mistake
+  on 29-Jul** — reading ore −5.3% and coal −2.2% as *"both cost blades easing, which is the one thing that
+  would relieve HPG's H2 spread squeeze"* — **and corrected it on 30-Jul** when Vietnamese trade sources showed
+  mills *raising* prices because inputs were anchored high. **The same trap, one week later, named rather than
+  walked into.**
+  **What would discriminate:** a Chinese steel-margin or output figure, or **an HRC print dated after 31-Jul.**
+  **Neither is on file and neither is guessed.**
+  **Nothing modelled** — branch construction is human-only under charter §2. **This lands on OPEN-DECISIONS
+  item 6** (whether to add a `spot_persists` branch): today's figure makes that decision **more pressing** and
+  moves the number it would be decided on from **₫0.86m/t toward ₫1.08m/t — with the one-leg caveat
+  attached.**
+  **Escalation check: none of the five fire.** *(Note the HPG kill criterion honestly: it tests core NPAT/t
+  below ₫1.25m for two consecutive **reported** quarters, not a spot case — so a spot estimate approaching the
+  branch does not arm it.)*
+  Sources: tradingeconomics (dated 03-Aug), with the SGX futures quote inspected and rejected.
+
 - **22:53 ICT · GATE-TABLE AUDIT (no searches) — executing the rule I wrote an hour ago instead of just
   filing it. It surfaced a dated catalyst due TOMORROW that the table already contained.**
   **Why this and not a search.** At 21:53 I wrote that *"a standing watch list needs the same periodic
