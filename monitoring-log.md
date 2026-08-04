@@ -80,6 +80,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **14:53 ICT · TCX + VCI (lane 3) — the number that caused this session's largest error turns out to have
+  been CORRECT for its own date, which sharpens what the error actually was.**
+  **The evidence.** TCBS paid its **FY2024** cash dividend at 5% of par — **₫500/share, total ~₫1,155bn.**
+  **₫1,155bn ÷ 500 = 2,310.0m shares** — that is the **stale listing-date count (2,311,308,021)** this file
+  carried until 03-Aug, agreeing to **0.06%**. And the bridge to the corrected figure is exact:
+  **2,311.3m × 1.20 = 2,773.6m** against the **2,773,896,000** now on file — **0.012%. The 20% stock dividend
+  is the whole difference.**
+  **WHY THIS MATTERS BEYOND BOOKKEEPING.** On 03-Aug at 09:53 I used 2,311,308,021, called TCX's 2.49× P/B
+  *"unreproducible"*, restated a live evidence string, cut confidence and pushed it — withdrawn an hour later.
+  **I have been calling that "a stale share count." The precise description is better and worse: the number
+  was never wrong.** It was an accurate count for a date that had passed. **Nothing about it looked defective
+  — it reconciles to a real dividend and a real listing — and that is exactly why no internal check caught
+  it.** **A wrong number can be found by arithmetic; an expired one cannot, because it is self-consistent with
+  everything that predates its expiry.** The only defence is **a date on the quantity**, which is what item 2
+  exists to add.
+  **VCI — a fourth independent confirmation, and this one dates the path rather than the level.** VCI's first
+  2025 instalment was ₫500/share, **record 09-Jan-2026, paid 20-Jan-2026, total ~₫425bn** → **₫425bn ÷ 500 =
+  850.0m shares at that record date.** The file carries **1,152.24m**, 35% higher — **and that is not a
+  contradiction, it is the bonus issue in between:** VCI set a **27-Mar-2026** record date for **>297.5m bonus
+  shares**. **850.0m + 297.5m = 1,147.5m** vs 1,152.24m — **0.41%.** **Same shape as TCX's expiry, except the
+  file is on the right side of it.**
+  **Cash dividends, both trailing:** TCX ₫500 = **1.22%** of ₫41,100; VCI ₫500 = **2.44%** of ₫20,500.
+  Recorded, **not applied** — both were paid, and a forward yield must be the dividend expected over the
+  holding period.
+  **A CLAIM I AM NOT ADOPTING, WITH THE ARITHMETIC THAT REJECTS IT.** The same coverage says TCBS *"expects to
+  pay cash dividends totalling at least **150%** across 2025 and 2026."* On the Vietnamese convention that
+  ratios are quoted against **par**, 150% is **₫15,000/share** — on 2,773.9m shares, **₫41,608bn of cash.**
+  **That is 91% of TCX's filed equity of ₫45,782bn and 3.7× two years of NPAT at the FY2025 run-rate.** **It
+  fails a plausibility check by a wide margin.** Either the base is not par, the period is not two years, or
+  the figure is garbled. **Not adopted, not guessed at, and recorded with the rejecting arithmetic so the next
+  sweep does not re-adopt it.** *If it were true it would be the largest cash-return story in this book —
+  which is precisely why it needs a primary source rather than a summary sentence.*
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: nguoiquansat (TCX), CafeF (VCI),
+  mekongasean.
+
 - **13:53 ICT · KDH (lane 3) — I scoped the hazard too narrowly two hours ago, and KDH is the name I
   dropped. Correcting it also shows one of `risk.py`'s standing assertions is too strong.**
   **What I wrote at 11:53** and propagated to item 2 and the handover: *"HPG and KDH carry NOTHING declared…
