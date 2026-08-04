@@ -80,6 +80,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **11:53 ICT · KDH + HPG (lane 3) — enumeration essentially finished: seven of eight verified, and the
+  pending-dilution problem turns out to be a BANK-BLOCK problem, not a book-wide one. A second gap surfaced
+  that runs the other way.**
+  **KDH — verified with NO search.** The 20-Jul insider registration already on file — **20,000,000 shares
+  taking the buyer 0.056% → 1.838%** — *is* a share count. **20,000,000 ÷ (0.01838 − 0.00056) =
+  1,122,334,456** against the **1,122,060,000** carried here — **0.0245%.** The datum has been on file since
+  01-Aug and was logged then as *"a percentage filed by a company is a share count"* — **but it was never
+  turned on KDH's own `shares_outstanding`.** **Seventh recovery of a needed quantity from data already held,
+  and the cheapest: no source, no search, one division.**
+  **HPG — verified three ways off one disclosure.** Charter capital rose from **~₫76,755bn to >₫84,430bn** on
+  a **10% stock dividend**, taking listed shares above **8.4bn**.
+  (1) The file's **8,443,000,000 × ₫10,000 par = ₫84,430bn exactly.**
+  (2) **76,755 × 1.10 = ₫84,430.5bn** — the arithmetic ties.
+  (3) 10% of 7,675.5m = **767.6m** new shares, against a headline of *"767 triệu cp."*
+  **And critically, given the TCX error: the file's count is already the POST-dividend figure** (pre-dividend
+  was 7,675.5m). **This is the state the TCX count was not in on 03-Aug at 09:53.**
+  **THE SEPARATION THAT MATTERS.** **HPG and KDH carry nothing declared** — HPG's 10% stock dividend is
+  *already in its count*, and KDH's AGM ruled out new equity issuance. **The banks carry everything: TCB
+  +60.0% (35.0% of the book), VPB +33.9% (10.0%), MBB +27.5% (6.5%) = 51.5%.** **So the item-2 refresh hazard
+  is a bank-block problem, not a book-wide one** — a materially more tractable statement than "watch out for
+  corporate actions."
+  *(HPG's FY2026 plan maintains a 15% rate. If structured like FY2025 that implies a further ~10% stock
+  component in 2027 — **an inference, labelled as one, not a pending tranche.**)*
+  **A SECOND GAP SURFACED WHILE DOING THIS, AND IT RUNS THE OTHER WAY.** **Two confirmed cash dividends are
+  recorded as zero:**
+
+  | | dividend | ÷ price | `cash_yield` on file | weight |
+  |---|---|---:|---:|---:|
+  | HPG | ₫500/share, paid 03-Jun-2026 | **2.40%** | **0.0** | 16.8% |
+  | VPB | ₫500/share (5%) | **2.00%** | **0.0** | 10.0% |
+
+  `cash_yield` enters **every scenario return additively**, so **26.8% of the book carries a measured yield
+  recorded as zero, and its expected return is understated by roughly 2.0–2.4pp** — HPG's mu_raw of +6.3%
+  would be about **+8.7%**. `risk.py`'s inheritance block asserted *"cash_yield is populated for TCB alone …
+  seven blanks bias the book's E[r] DOWN"*; **this is the first time one of those blanks has been sized with a
+  dated dividend.**
+  **Not applied, and the reason is a measure problem rather than caution.** `cash_yield` in a **forward**
+  expected-return model should be the dividend expected over the **holding period**. **Both payments are
+  trailing.** Setting a forward yield off a payment already banked is the same class of error as reading a
+  cumulative average as a rate. **What is established is that the blanks are real rather than accurate
+  zeros;** the size and date of the next declaration are not, so the correction is a human's.
+  **Only VPX (2.8%) remains unverified.**
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: doanhnhan.baophapluat,
+  vietstock/fili, VnEconomy, tinnhanhchungkhoan.
+
 - **10:53 ICT · TCB (lane 3) — finished the sweep the 09:53 lesson demanded, and the biggest one was last.
   The largest position carries the largest pending dilution in the book.**
   **VERIFIED TWICE, by two different routes in one disclosure.**
