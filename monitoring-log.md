@@ -78,6 +78,36 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-05
+
+- **00:53 ICT · STEEL (lane 5) — ran the discriminator I named an hour ago. It cannot be resolved, and what
+  arrived is a week too early.**
+  **What I asked for at 23:53:** an **HRC print dated after 31-Jul**, to discriminate between two readings of
+  the 03-Aug iron-ore fall — a cost windfall for HPG, or a demand signal in which steel prices fall alongside
+  ore.
+  **What came back is dated 24-JULY**, and the search summary framed it as *"early August 2026."* **The
+  sources say 24-July and the 20–24 July week.** That framing is the summariser's, not the sources'. **Tenth
+  period trap — same species as yesterday's 15:53 case where a 03-Aug session was presented as 04-Aug.** **The
+  test is unresolved:** this data predates the 31-Jul ore figure by a week and the 03-Aug print by eleven days.
+  **What IS established, at 24-Jul.** Mysteel assessed **China's HRC export price at US$485/t FOB** (SS400 3mm
+  commercial grade, Tianjin), **−US$1/t on the week.** **Private mills 488–490; mainstream state-owned mills
+  500–510 FOB; overseas buyers targeting ~480.** Some mills offered **US$20/t discounts** to test response.
+  **The benchmark caution — the one this file has already been burned by.** The bridge's **539** and HPG's own
+  **546.5 list / 535 volume** are **not FOB China.** `_HRC_BENCHMARK_TRAP_2026_07_28` exists because US
+  Midwest 1169 was once set against the Asian 539, and the same discipline applies at smaller scale: **FOB
+  China and CFR/landed Vietnam differ by freight.** On an indicative China→Vietnam freight of US$10–25/t,
+  **485 FOB lands at roughly 495–510 — 5.4%–8.2% below the bridge's 539 and 4.7%–7.5% below HPG's own 535
+  volume price.** **The raw FOB-vs-539 gap of 10% is not the real gap and is not quoted as one.**
+  **The part that does bear on the 23:53 question, with its date limit attached.** **Chinese mills themselves
+  cited *"weaker domestic raw material prices"* as undermining steel price support**, while discounting to
+  find bids and buyers held back at 480. **That is the ore-falls-with-steel mechanism stated by the market
+  rather than hypothesised by me — but it is dated 24-Jul, before the move it would explain.** **It makes the
+  demand-signal reading more plausible and does not confirm it.**
+  **So item 6 is unchanged from 23:53:** the spot case is ~₫1.076m/t **if** the other two legs still hold, and
+  the leg that would verify that is still missing.
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: Mysteel weekly, Fastmarkets,
+  SteelOrbis — all 24-Jul vintage.
+
 ## 2026-08-04
 
 - **23:53 ICT · STEEL (lane 5) — the largest one-day move in this file's ore series, and the file has
