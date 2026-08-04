@@ -80,6 +80,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **12:53 ICT · VPX (lane 3) — EIGHT OF EIGHT. The largest defect of this session is now closed on every
+  name in the book, by evidence outside the derivation that produced it.**
+  **VPX verified directly and exactly.** VPBankS's charter capital is **₫18,750bn** — precisely the file's
+  **1,875,000,000 × ₫10,000** par — and **HOSE listed 1.875 billion VPX shares on 11-Dec-2025.** A disclosed
+  charter capital *and* a disclosed listed count, agreeing with each other and with the file. The path ties
+  too: ₫15,000bn → ₫18,750bn on 375m new shares; 1,500m + 375m = 1,875m.
+  **AND IT CARRIES THE NUMBER I FLAGGED TWICE THIS WEEK WITHOUT BEING ABLE TO SIZE.** Those 375m shares sold
+  at **₫33,900**. **So the company raised ₫12,712bn while charter capital rose only ₫3,750bn — a ratio of
+  3.39×, exactly issue price ÷ par.** **First time this file has held both numbers for one transaction.**
+  On 03-Aug I flagged MBB's placement (*"adding ~₫2,000bn in capital"* = 200m × par) and yesterday VPB's
+  (*"$250m"* = 624m × par) as charter-capital figures rather than raises — **without being able to say how big
+  the gap is. VPX says it can be 3.4×.** *Strictly an illustration of the ratio, not a forecast of their
+  pricing:* at VPX's multiple MBB's would raise ~₫6,780bn and VPB's ~₫21,154bn (**~US$0.8bn against the
+  "$250m" the watch list carries**) — **but their issue prices are not established and are not guessed.**
+  **What is established is that the par figure is a FLOOR on the raise, not an estimate of it.**
+  **A dated price reference, consistent with the file.** Listing-day cap **₫64,000bn** ÷ 1.875bn =
+  **₫34,133/share**, and the IPO priced at **₫33,900**. The file carries **₫26,600** — **21.5% below the IPO
+  price and 22.1% below the listing cap, two routes agreeing.** The reported *"2.4 tỷ USD"* cross-checks:
+  ₫64,000bn ÷ 26,300 = **US$2.43bn**. **The stock has derated substantially since December — context for, not
+  confirmation of, the evidence string's position that the discount is justified on bond risk. A price fall is
+  not a reason.**
+
+  **THE REMEDIATION IS COMPLETE. All eight, all passed:**
+
+  | | route | agreement |
+  |---|---|---|
+  | VCI | insider filing, two ownership ratios | 0.07% |
+  | TCX | HOSE VN30 average market cap, cap-to-cap | 2.2% |
+  | MBB | disclosed charter capital + two tranche divisions | exact |
+  | VPB | cash-dividend total ÷ per-share rate | 0.0013% |
+  | TCB | cash total ÷ per-share **and** charter increase ÷ par | 0.0069% / exact |
+  | KDH | insider percentages **already on file**, no search | 0.0245% |
+  | HPG | charter capital + ×1.10 tie + matching new-share headline | exact |
+  | VPX | charter capital **and** listed share count | exact |
+
+  **On 02-Aug the `cap_now` fix rested on internal arithmetic; on 03-Aug at 09:53 a stale count produced the
+  largest error of the session. It now rests on external evidence for every name.**
+  **What the enumeration produced BEYOND the verification — the argument for finishing it.** **(1)** The
+  pending-dilution hazard is **bounded to the bank block** (51.5%), because HPG's stock dividend is already in
+  its count and KDH ruled out new equity. **(2)** Two `cash_yield` blanks were **measured** — HPG 2.40%, VPB
+  2.00%, on 26.8% of the book, biasing E[r] **down**. **(3)** The par-vs-proceeds ratio is now **measured at
+  3.39×**. **None of the three was the thing being looked for.**
+  **Nothing modelled anywhere in this sequence.** Across ~40 edits since 03-Aug, `exit_pe`, `probs`,
+  `fy26e_npat`, `price`, `confidence` and `shares_outstanding` are unchanged on all eight — **verified against
+  git, not asserted.**
+  **Escalation check: none of the five fire.** Sources: HOSE listing coverage via vietstock/investing, Báo
+  Chính phủ, Dân trí, SmartF, tinnhanhchungkhoan.
+
 - **11:53 ICT · KDH + HPG (lane 3) — enumeration essentially finished: seven of eight verified, and the
   pending-dilution problem turns out to be a BANK-BLOCK problem, not a book-wide one. A second gap surfaced
   that runs the other way.**
