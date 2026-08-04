@@ -16,8 +16,8 @@ ROWS = [
     ('R2', 'Xóa nợ FY26F', '%.0f' % C[2026]['wo'], 'VNDbn', 'DERIVED',
      'Model!Y287 = -1.71% x dư nợ 689,832 (trước: -0.95%)',
      'Nghiệm của bài toán giữ bao phủ 50%; tương đương 37% dư nợ nhóm 5 (~32,000)'),
-    ('R3', 'Tỷ lệ trích/xóa FY26F', '0.8845x', 'x', 'MAS',
-     'Model!Y278 = -Y279*0.8845 (1.5x -> 0.85x -> 0.8845x)',
+    ('R3', 'Tỷ lệ trích/xóa FY26F', '0.85x', 'x', 'MAS',
+     'Model!Y278 = -Y279*0.85 (trước: *1.5)',
      'Xử lý nợ tài trợ từ nguồn dự phòng đã trích, không từ P&L. Giữ 1.5x trên mức xóa nợ '
      'này là nguyên nhân làm LNTT sụt 64% mà CV đã bác'),
     ('R4', 'Dự phòng đã trích cuối FY26F / bao phủ',
@@ -86,10 +86,11 @@ ROWS = [
     ('G16', 'Giá mục tiêu ghi 77,500 trong file stock pick', '77,500 vs 77,800', 'VND', 'CONFLICT',
      'Stock Pick!D6 và Target Price!C13 ghi 77,500; cột J6/L6 lại tính trên 77,800',
      'CHƯA SỬA — chênh 0.4%, cần CV xác nhận số nào đúng'),
-    ('R11', 'LNTT FY26F đưa về ngang kế hoạch', '8,100', 'VNDbn', 'MAS',
-     'Model!Y278 0.85x -> 0.8845x; dự phòng 11,091 -> 11,498',
-     'CV chọn lấy phần chênh 407 tỷ từ chi phí dự phòng thay vì hạ tăng trưởng tín dụng hay '
-     'nâng CIR. NPL giữ 5.5%, CIR giữ 40%, bao phủ lên 51.1% từ 50.0%'),
+    ('R11', 'LNTT FY26F neo theo kế hoạch', '8,507 = KH +5%', 'VNDbn', 'MAS',
+     'Kế hoạch 8,100 x 1.05; đạt được ở tỷ lệ trích/xóa 0.85x sẵn có',
+     'CV chốt đặt dự phóng cao hơn kế hoạch 5% (+11.5% CK), không phải ngang kế hoạch. '
+     'Một bản trung gian đã hạ về đúng 8,100 (0.8845x) rồi hoàn lại. NPL 5.5%, CIR 40%, '
+     'bao phủ 50.0% — tất cả giữ nguyên'),
     ('C3', 'Kế hoạch LNTT FY26 8,100 tỷ', 'suy ra', 'VNDbn', 'CONFLICT',
      'Suy ra từ 4,136/51% theo trích dẫn báo chí "hoàn thành 51% mục tiêu"',
      'CHƯA CÓ NGHỊ QUYẾT ĐHĐCĐ TRONG HỒ SƠ. Nay con số này là mỏ neo của dự phóng LNTT nên '

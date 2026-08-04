@@ -17,11 +17,6 @@ This round does two things:
                  in that column is already wired as shared formulas off DF, so
                  six links are the whole fix.
 
-  Model!Y278     the specific charge / write-off ratio, 0.85x -> 0.8845x, to
-                 bring FY26F PBT onto the ~VND8,100bn plan.  Coverage lifts to
-                 51.1% from 50.0% - we now provision slightly above the floor
-                 rather than exactly at it.  NPL and CIR are untouched.
-
   Model!Y132/Y134/Z132/Z134/AA132/AA134   the opex multipliers, re-solved.
                  Excel's recalculation moved total operating income: the larger
                  loan-loss reserve booked last round cuts net loans, so
@@ -52,8 +47,6 @@ NPL_EDITS = {
 
 # sheet1 = Model.  (expected_formula, new_formula, note)
 MODEL_EDITS = {
-    'Y278': ('-Y279*0.85', '-Y279*0.8845',
-             'specific charge 0.8845x write-off -> PBT on the 8,100 plan'),
     'Y132': ('X132*1',       'X132*0.9886',  'FY26F staff cost      -> CIR 40.0%'),
     'Y134': ('X134*1',       'X134*0.9886',  'FY26F other opex      -> CIR 40.0%'),
     'Z132': ('Y132*1.015',   'Y132*1.039',   'FY27F staff cost      -> CIR 38.0%'),
@@ -69,7 +62,7 @@ ALREADY = {
             'P26': 0.965},
     'Model': {'X284': 16078.433, 'Y287': -0.0171},
 }
-ALREADY_F = {}
+ALREADY_F = {'Y278': '-Y279*0.85'}   # PBT 8,507 = 5% above the 8,100 plan
 
 
 def edit_sheet(data, edits, label, check_vals=None, check_f=None):
@@ -125,8 +118,8 @@ def main():
 # value read out of the upload, not a stale cache.
 TOI = {26: 32662.3, 27: 36942.6, 28: 42126.4}          # Model!Y117 = NII + fee + other
 DA = {26: 2880.14265, 27: 3456.17118, 28: 3801.788298}  # Model!Y133, untouched
-PROV = {26: 11497.7, 27: 8228.8, 28: 5816.0}            # Model!Y254, FY26F re-solved
-RESERVE = {26: 19380.3, 27: 20110.1, 28: 20973.9}       # Model!Y286, +406.9 carried
+PROV = {26: 11090.7, 27: 8228.8, 28: 5816.0}            # Model!Y254
+RESERVE = {26: 18973.3, 27: 19703.2, 28: 20567.0}       # Model!Y286
 LOANS = {26: 689832.31655949343, 27: 791226.94267949986, 28: 908671.50802756927}
 MIX = {  # current, special mention, G3, G4, G5
     26: (0.933, 0.012, 0.009, 0.012, 0.034),
