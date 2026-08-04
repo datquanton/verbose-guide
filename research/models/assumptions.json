@@ -174,7 +174,20 @@
    "evidence": "Q2 official - PBT 9,670bn, +22%, a record quarter; H1 18,500bn, which matches h1_pbt exactly. That earnings evidence is T1 and unaffected. BUT the forward credit driver is now unverified: TCB reports credit +10.39% YTD while this file's loan pair implies +14.46% (see tcb.model._CREDIT_VS_LOANS_2026_07_28). Confidence cut 0.85 -> 0.80 on 2026-07-28. The cut is SMALLER than VPB's 0.85 -> 0.70 on purpose: VPB's two fields had no coherent reconciliation, whereas TCB's do - credit and loans are different measures, and the gap between them is itself informative about the bond book. Resolves from the Q2 balance sheet. Also on file: consensus TP is quoted pre-60%-bonus and adjusts to ~10.6% below spot; NIM recovering 3.1->3.4%.",
    "shares_outstanding": 7086200000,
    "market_cap_bn": 207271,
-   "_npat_ttm_basis_2026_08_02": "TTM PBT 35,943 x 0.8: FY2025 PBT 32,538 - H1/2025 15,135 + H1/2026 18,540"
+   "_npat_ttm_basis_2026_08_02": "TTM PBT 35,943 x 0.8: FY2025 PBT 32,538 - H1/2025 15,135 + H1/2026 18,540",
+   "_charter_capital_bn_current": 70862,
+   "_capital_plan_2026": {
+    "cash_dividend_pct": 0.07,
+    "cash_dividend_vnd_per_share": 700,
+    "cash_dividend_total_bn": 4960,
+    "bonus_pct": 0.6,
+    "bonus_shares_m": 4251.7,
+    "charter_capital_increase_bn": 42517,
+    "shares_after_m": 11337.9,
+    "share_increase_pct": 0.6,
+    "charter_capital_after_bn": 113379
+   },
+   "_THE_LARGEST_POSITION_CARRIES_THE_LARGEST_PENDING_DILUTION_AND_ITS_COUNT_NOW_VERIFIES_2026_08_04_1053": "FINISHED THE SWEEP THE 09:53 LESSON DEMANDED, AND THE BIGGEST ONE WAS LAST. VERIFIED TWICE, BY TWO DIFFERENT ROUTES IN ONE DISCLOSURE. (1) The 7% cash dividend is VND700 per share for a TOTAL OUTLAY OF 4,960bn. 4,960bn / 700 = 7,085.7m SHARES against the 7,086,200,000 on file - 0.0069%. (2) The 60% bonus is reported as increasing charter capital by 42,517bn. 42,517bn / VND10,000 par = 4,251.7m shares, WHICH IS EXACTLY 60% OF THE FILE'S COUNT. TWO INDEPENDENT DIVISIONS, TWO EXACT MATCHES. AND A THIRD FIGURE IN THE SAME REPORT DISAGREES, WHICH IS WHY THIS IS WORTH WRITING DOWN. The coverage also says the bank will issue 'HON 4,28 TY' shares - MORE THAN 4.28 BILLION. 4,280m x 10,000 = 42,800bn, WHICH CONTRADICTS THE 42,517bn IN THE SAME REPORT BY 283bn. Three values, and the TWO THAT AGREE WERE DERIVED BY DIFFERENT ROUTES (a cash total divided by a per-share rate, and a charter-capital increase divided by par) WHILE THE OUTLIER IS THE LOOSE PROSE FIGURE. The file's count is taken as confirmed and the 4.28bn is not adopted. A THIRD INPUT CONFIRMED IN PASSING: cash_yield. VND700 / VND29,250 = 2.393%, against the 2.4% on file. TCB IS THE ONLY NAME WITH A POPULATED cash_yield and it is right. THE PENDING DILUTION IS THE LARGEST IN THE BOOK, ON THE LARGEST POSITION. 7,086.2m -> 11,337.9m SHARES, +60.0%, charter capital 70,862bn -> 113,379bn against a reported '>113,000bn'. TCB IS 35.0% OF THE BOOK. THE THREE-BANK PICTURE, NOW COMPLETE. TCB 35.0% of the book with +60.0% pending; VPB 10.0% with +33.9%; MBB 6.5% with +27.5%. THAT IS 51.5% OF THE BOOK - EXACTLY THE BANK BLOCK - ALL THREE CARRYING LARGE PENDING SHARE INCREASES. ONE-LEGGED REFRESH ERRORS: TCB E[r] +4.0% -> -35.0%, A MOVE OF -39.0pp; VPB -13.9% -> -35.7%, -21.8pp; MBB +36.6% -> +7.1%, -29.5pp. ALL THREE ARE TWO TO FOUR TIMES THE 10pp ESCALATION THRESHOLD AND TCB'S IS THE LARGEST SINGLE MISPRICING AVAILABLE TO THIS MODEL. FIVE OF EIGHT SHARE COUNTS ARE NOW EXTERNALLY CONFIRMED - VCI, TCX, MBB, VPB, TCB - AND ALL FIVE PASSED. REMAINING UNVERIFIED: HPG (16.8%), KDH (20.3%), VPX (2.8%). Neither HPG nor KDH has a pending share issue on file, which is why they rank behind the banks, but 37.1% of the book still rests on charter-capital-over-par arithmetic alone. NOTHING MODELLED. No count, price, branch, probability or confidence touched; no ex-date is established for either TCB tranche. This VERIFIES inputs and SIZES a hazard already written onto OPEN-DECISIONS item 2."
   },
   "VPB": {
    "price": 25000,

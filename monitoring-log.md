@@ -14,7 +14,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
-| **⚠ TWO PENDING SHARE-COUNT INCREASES — MBB +27.5%, VPB +33.9%** | **NEW 04-Aug. 16.5% of the book.** MBB: 15% stock dividend (1,208.25m) + 10% rights at ₫10,000 (805.5m) + **private placement up to 200m** → 10,268.75m shares, capital ₫80,550→102,687bn. VPB: 26% stock dividend (2,062.8m) + **foreign placement >624m** → 10,620.7m shares, capital ₫79,339→106,200bn. **No ex-date established for any tranche.** **The routine's "$250m" for VPB's placement is par × shares (₫6,240bn), NOT the raise** — at the file's price the same shares are ~US$593m. **A one-legged price refresh on either name fires trigger 3** (MBB −29.4pp, VPB −21.8pp) | 3, 7 |
+| **⚠ THREE PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%** | **NEW 04-Aug, COMPLETED 10:53. 51.5% of the book — the whole bank block.** **TCB: 7% cash (₫700/sh, ₫4,960bn total) + 60% bonus (4,251.7m) → 11,337.9m shares, capital ₫70,862→113,379bn.** VPB: 26% stock dividend (2,062.8m) + **foreign placement >624m** → 10,620.7m, ₫79,339→106,200bn. MBB: 15% stock dividend (1,208.25m) + 10% rights at ₫10,000 (805.5m) + **placement up to 200m** → 10,268.75m, ₫80,550→102,687bn. **No ex-date established for any tranche.** **The routine's "$250m" for VPB is par × shares (₫6,240bn), NOT the raise.** **A one-legged price refresh fires trigger 3 on all three: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp** | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window** | **opens 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
@@ -79,6 +79,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-04
+
+- **10:53 ICT · TCB (lane 3) — finished the sweep the 09:53 lesson demanded, and the biggest one was last.
+  The largest position carries the largest pending dilution in the book.**
+  **VERIFIED TWICE, by two different routes in one disclosure.**
+  **(1)** The 7% cash dividend is **₫700/share** for a total outlay of **₫4,960bn** → **₫4,960bn ÷ 700 =
+  7,085.7m shares** against **7,086,200,000** on file — **0.0069%**.
+  **(2)** The 60% bonus is reported as increasing charter capital by **₫42,517bn** → **÷ ₫10,000 par =
+  4,251.7m shares, which is exactly 60% of the file's count.** **Two independent divisions, two exact
+  matches.**
+  **And a third figure in the same report disagrees — which is why this is worth writing down.** The coverage
+  also says *"hơn 4,28 tỷ"* shares. **4,280m × ₫10,000 = ₫42,800bn, contradicting the ₫42,517bn in the same
+  report by ₫283bn.** Three values; **the two that agree were derived by different routes** (a cash total ÷ a
+  per-share rate, and a charter-capital increase ÷ par) **while the outlier is the loose prose figure.** The
+  file's count is taken as confirmed; the 4.28bn is not adopted.
+  **A third input confirmed in passing: `cash_yield`.** ₫700 ÷ ₫29,250 = **2.393%** against the **2.4%** on
+  file. **TCB is the only name with a populated `cash_yield` and it is right.**
+  **The pending dilution is the largest in the book, on the largest position.** **7,086.2m → 11,337.9m shares,
+  +60.0%**; charter capital ₫70,862bn → **₫113,379bn** against a reported *">113,000 tỷ"*. **TCB is 35.0% of
+  the book.**
+  **THE THREE-BANK PICTURE, NOW COMPLETE:**
+
+  | | weight | pending share increase | E[r] now | shares-only refresh | move |
+  |---|---:|---:|---:|---:|---:|
+  | **TCB** | **35.0%** | **+60.0%** | +4.0% | **−35.0%** | **−39.0pp** |
+  | VPB | 10.0% | +33.9% | −13.9% | −35.7% | −21.8pp |
+  | MBB | 6.5% | +27.5% | +36.6% | +7.1% | −29.5pp |
+
+  **That is 51.5% of the book — exactly the bank block — all three carrying large pending share increases, and
+  all three one-legged errors two to four times the escalation threshold. TCB's is the largest single
+  mispricing available to this model.**
+  **Five of eight are now externally confirmed — VCI, TCX, MBB, VPB, TCB — and all five passed.** Remaining
+  unverified: **HPG (16.8%), KDH (20.3%), VPX (2.8%)**. Neither HPG nor KDH has a pending share issue on file,
+  which is why they rank behind the banks — but **37.1% of the book still rests on charter-capital-÷-par
+  arithmetic alone.**
+  **Nothing modelled** — no ex-date is established for either TCB tranche. This verifies inputs and sizes a
+  hazard already written onto item 2.
+  **Escalation check: none of the five fire.** Sources: Báo Chính phủ, CafeF, Tuổi Trẻ, Công Luận — mutually
+  consistent on the cash total and the charter-capital increase.
 
 - **09:53 ICT · VPB (lane 3) — applied yesterday's MBB check to VPB. The count verifies; the routine's own
   description of the placement does not.**
