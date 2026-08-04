@@ -79,6 +79,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **08:53 ICT · MBB (lane 3, pre-open) — the gap I opened an hour ago is closed, and closing it made the
+  hazard larger.**
+  **VERIFIED.** MB's disclosed statutory capital is **"nearly ₫80,550bn"** — exactly the 8,055,000,000 ×
+  ₫10,000 par this file carries. **And the verification is threefold off one disclosure, not single:**
+
+  | Reported | Derived from 8,055m | Match |
+  |---|---|---|
+  | 15% stock dividend, *"over 1.2bn shares, +₫12,082bn"* | 1,208.25m → ₫12,082bn | **exact** |
+  | rights tranche **805.5m** shares at ₫10,000 | 8,055m × 0.10 = 805.5m | **exact** |
+  | target capital **₫102,687bn** | sum of all tranches = ₫102,688bn | **exact** |
+
+  **Three independent divisions land on the same base. MBB is now the third of eight with an externally
+  confirmed share count**, after VCI and TCX — and it was the one that mattered most, because it is rank 1.
+  **A THIRD TRANCHE THE WATCH LIST DOES NOT HAVE.** The routine tracks *"15% stock dividend + 10:1 rights at
+  10,000."* The plan **also contains a private placement of up to 200 million shares.** **Total share increase
+  is +27.5%, not +15%: 8,055m → 10,268.75m.**
+  **A measure trap inside the source that I almost walked into.** The placement is described as *"adding
+  approximately ₫2,000bn in capital."* **200m × ₫10,000 par = ₫2,000bn exactly — so that figure is the
+  CHARTER-CAPITAL effect, not the proceeds.** Charter capital rises by par × shares whatever the issue price.
+  **The placement price is not established and must not be inferred from a par-value figure.** By contrast the
+  **rights** price *is* explicitly ₫10,000 — a **54.6% discount** to the ₫22,050 on file — raising **₫8,055bn**
+  of real cash.
+  **THE 07:53 HAZARD IS BIGGER THAN I SIZED IT.** That entry modelled a 15% increase and found one-legged
+  errors of −17.8pp and +20.4pp. **On the full +27.5%: updating shares while leaving the price takes E[r] from
+  +36.6% to +7.2% — a move of −29.4pp, nearly three times the escalation threshold**, on the name with the
+  largest proposed ADD.
+  **And the correct treatment is not "divide by 1.275."** `cap_now` should rise by the **cash raised**, not by
+  the share count: the stock dividend is value-neutral and the price adjusts for it, while the rights and
+  placement bring in cash below market. **The correct post-event cap is roughly the old cap plus proceeds —
+  price and count must move together, and the adjustment is not a single ratio.**
+  **Nothing applied** — no ex-date is established for any tranche and the placement price is unknown.
+  **Nothing modelled.** This **verifies** an existing input rather than changing one, and enlarges the warning
+  already written onto item 2.
+  **Escalation check: none of the five fire.** Sources: vietstock, VietnamPlus, DNSE, fireant — mutually
+  consistent on all four figures.
+
 - **07:53 ICT · MBB (lane 3, pre-open) — the engine's largest conviction sits on the one share count nobody
   has checked from outside, and two corporate actions are queued against it.**
   **Where this stands.** MBB is **rank 1 of 8** (+36.6% raw, +18.3% shrunk, leading the second name by 14pp)
