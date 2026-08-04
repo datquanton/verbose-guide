@@ -79,6 +79,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **07:53 ICT · MBB (lane 3, pre-open) — the engine's largest conviction sits on the one share count nobody
+  has checked from outside, and two corporate actions are queued against it.**
+  **Where this stands.** MBB is **rank 1 of 8** (+36.6% raw, +18.3% shrunk, leading the second name by 14pp)
+  with a proposed **ADD +6.7pp**. `cap_now = shares × price`, so the count of **8,055,000,000** — implying
+  charter capital ₫80,550bn — is load-bearing for the largest position change the optimiser wants.
+  **Two of eight are now externally verified and MBB is not one of them.** VCI to **0.07%** by an insider
+  filing's two ownership ratios (14:53 yesterday); TCX by **HOSE's own VN30 average market cap** (16:53) — the
+  name where the stale-count error actually happened. **MBB's count rests on charter capital ÷ par and nothing
+  else.** **Internal consistency is not evidence here:** `cap_now` equals shares × price *by construction* for
+  any count, and **the TCX error passed exactly that check while being 20% wrong.**
+  **Plausibility checks run, and they do not discriminate — recorded rather than hidden.** Implied equity
+  (npat_ttm 30,858 ÷ ROE 20.9%) ≈ ₫147,646bn → **P/B 1.20×** on the current count, reasonable for the sector's
+  best ROE; on a pre-32%-stock-dividend count of 6.102bn it would be **0.91×**, *also* reasonable. EPS ₫3,831
+  (P/E 5.76) vs ₫5,057 (P/E 4.36) — **both plausible.** Neither route settles it.
+  **THE FORWARD HAZARD, AND IT IS THE TRAP THAT ALREADY COST THIS SESSION ITS LARGEST ERROR.** MBB has a **15%
+  stock dividend and a 10:1 rights issue at ₫10,000** pending. **A stock dividend is not dilutive in value —
+  the quoted price adjusts on the ex-date — so the danger is applying one leg without the other.** Sized on
+  the file's own numbers:
+
+  | | `cap_now` | E[r] | move |
+  |---|---:|---:|---:|
+  | shares ×1.15, price unchanged | ×1.150 | **+18.8%** | **−17.8pp** |
+  | price cut ~13% on ex-date, shares unchanged | ×0.870 | **+57.0%** | **+20.4pp** |
+  | **both legs together (correct)** | ×1.000 | +36.5% | −0.1pp |
+
+  **Both one-legged errors exceed the 10pp escalation threshold, on the name with the largest proposed add.**
+  **This is a live hazard to the next execution of item 2**, which refreshes eight prices. **If MBB's price is
+  refreshed across an ex-date while the share count stays at 8.055bn, the engine will manufacture roughly
+  +20pp of expected return out of an accounting adjustment.** The file already recorded this species for TCX
+  (*"the adjustment trap — TCX's 20% stock dividend cuts the quoted price ~16.7% on its ex-date"*); **it
+  applies to MBB with larger consequences, because MBB is rank 1 rather than rank 7.**
+  **What could not be established, stated so it is not re-searched blindly.** **No 2026 ex-date was found** for
+  MBB's 15% stock dividend or its 10:1 rights. Search returned August ex-dates attached to a **32% stock
+  dividend** and a 3% cash dividend described as *"2024 dividends"* — **the ratio mismatch (32% vs 15%) is the
+  discriminator, and it says these are a different event in a different year**, most likely August 2025. **Not
+  adopted. Tenth period trap avoided.** Also confirmed and already on file: **VPB's 5% cash dividend at ₫500
+  per share.**
+  **Nothing modelled** — no count, price, branch, probability or confidence touched.
+  **Escalation check: none of the five fire *today*** — but flagged prominently because **two plausible
+  execution errors on item 2 would each fire trigger 3 on the top-ranked name.**
+
 - **05:53 ICT · MACRO / BANKS (lane 1) — a conflict that looked like a contradiction, resolved as a measure
   problem, and it costs my 31-Jul finding most of its force without making it wrong.**
   **What came back.** Coverage reporting VND **overnight interbank "falling to around 1%"** around the
