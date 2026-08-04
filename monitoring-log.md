@@ -80,6 +80,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **20:53 ICT · BANKS (lane 5) — the system-level scale the item-26 provisioning work was missing. It
+  reframes my own best finding, and it cuts both ways.**
+  **Three NPL ratios, and they are NOT a series.** **1.92%** across **28 listed banks** at end-Q2/2026, up
+  from **1.79%** at end-2025. **1.99%** system on-balance-sheet in **Q1**/2026 (NPLs +11% to ₫293tn). And
+  **3.43%** on the **SBV basis at end-May — falling to 1.55% if five banks under special resolution are
+  excluded.** **The system NPL ratio more than doubles depending on whether five distressed banks are in the
+  population.** Different measures, populations and dates; recorded separately, **not netted.**
+  **The moves:** system NPLs **rose ₫48tn in H1/2026**; **LLR coverage fell 82.74% → 79.78%** in Q1 — nearly
+  three points; Group 2 "special mention" rose **1.17% → 1.23%**.
+  **WHY THIS MATTERS — the 05:53 lesson applied to my own best finding.** Item 26 established that all three
+  banks here **cut provisioning intensity** (TCB 12.3%→8.0%, MBB 32.9%→27.6%, VPB 52.8%→45.2%) and read it as
+  earnings management — which is what the owner asked to be watched. **The scale was missing. It is now here,
+  and the whole system is doing it:** coverage down ~3pp while NPLs rose ₫48tn.
+  **It cuts both ways and both sides are stated.** **Against the earnings-management reading:** if the entire
+  sector is under-providing into rising NPLs, this is a **sector condition** — or a sector-wide response to
+  regulation or a resolution regime — **not three managements' discretionary choices. Three firms doing what
+  every firm is doing is weak evidence about those three firms.** **For the concern:** the systemic version is
+  **worse**, because a banking system whose coverage falls while impairment rises has less capacity to absorb
+  the next credit event than three isolated banks would. **The finding survives and changes category** — from
+  a governance observation about three managements to a sector-solvency observation touching 51.5% of the book.
+  **AND THE CROSS-SECTION IS THE PART THAT DISCRIMINATES.**
+
+  | | NPL | vs 1.92% 28-bank avg | coverage | vs 79.78% system |
+  |---|---:|---|---:|---|
+  | **MBB** | **1.45%** | **better** | **93.63%**, up from 92.24% | **better, and rising while the system fell** |
+  | TCB | 1.15% | better | not on file in comparable form | **not inferred** |
+  | VPB | 3.28% | **worse** | not on file | — |
+
+  **MBB is the exception in the right direction — provisioning better than the sector on both measures even as
+  its own intensity fell**, consistent with item 26's conclusion that **MBB's branches are the defensible
+  ones.** **VPB is the opposite**, at 3.28% against a 1.92% average, consistent with FE Credit consumer
+  finance. **TCB's coverage is not on file in comparable form and is not inferred.**
+  **Nothing modelled** — system figures are context, not inputs, and no holding's position is inferred from a
+  sector average.
+  **Escalation check: none of the five fire.** Sources: VnEconomy, CafeF (URL date-stamped 260804),
+  tinnhanhchungkhoan, vietnamfinance, DNSE.
+
 - **19:53 ICT · PROPERTY / DEVELOPER BONDS (lane 5) — the term inside TCB's armed kill criterion finally
   has numbers behind it, and the refinancing market has repriced against the ecosystem.**
   *(A lane item the routine names explicitly and this file had not touched today, on the largest position.)*
