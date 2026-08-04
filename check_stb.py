@@ -39,7 +39,8 @@ check('FY26F PBT growth +4.0% on FY25 7,628', abs(pbt[0]/7628-1.040)<0.001,'%.1f
 check('2H26 PBT = FY26F - 1H26 4,136', abs(pbt[0]-4136-3798)<1,'%.0f'%(pbt[0]-4136))
 for i,y in enumerate((26,27,28)):
     check('FY%dF P/E = TP / EPS'%y, abs(TP/eps[i]-pe[i])<0.06,'%.2f vs %.2f'%(TP/eps[i],pe[i]))
-    check('FY%dF P/B = TP / BVPS'%y, abs(TP/bv[i]-pb[i])<0.051   # slide shows one decimal,'%.2f vs %.2f'%(TP/bv[i],pb[i]))
+    # the slide shows one decimal, so allow half a tick of rounding
+    check('FY%dF P/B = TP / BVPS'%y, abs(TP/bv[i]-pb[i])<0.051,'%.2f vs %.2f'%(TP/bv[i],pb[i]))
 check('EPS consistent with NPATMI and a 2,060mn share count',
       all(abs(n/2.0604-e)<3 for n,e in zip(npat,eps)))
 check('box NPATMI = table FY26F', num(en_box['NPATMI (26F, VNDbn)'])==npat[0])
