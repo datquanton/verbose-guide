@@ -80,6 +80,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-04
 
+- **19:53 ICT · PROPERTY / DEVELOPER BONDS (lane 5) — the term inside TCB's armed kill criterion finally
+  has numbers behind it, and the refinancing market has repriced against the ecosystem.**
+  *(A lane item the routine names explicitly and this file had not touched today, on the largest position.)*
+  **The figures, units checked** (*"tỷ"* = billion, so *"nghìn tỷ"* = trillion): **Masterise-affiliated
+  companies raised ~₫44.5 trillion in H1/2026** — **six entities, eight issuances, coupons 9–10%/yr, terms
+  12–60 months.** One dated instance: **BĐS Hưng Long** (related to Parkland 53, a Masterise development
+  partner) issued **₫7 trillion on 30-Jun-2026, 12-month term, maturing 30-Jun-2027, at 10%.**
+  **AND THE PART THAT MATTERS MOST: THE REFINANCING MARKET HAS REPRICED AGAINST THEM.** New property-bond
+  issue rates are now **11.5–12%, up ~1pp YoY.** **Masterise paper was issued at 9–10%.** **So anything
+  rolling costs roughly 150–300bp more, and the twelve-month tranches written in H1/2026 mature in H1/2027.**
+  On the full ₫44.5tn a 200bp step is about **₫890bn a year** of additional interest — *an illustrative scale,
+  not a forecast*, since the maturity profile across 12–60 months is not established.
+  **Sector context, new to this file.** Property issuers must repay **~₫60 trillion of maturing bonds in
+  H2/2026**; and in H1/2026 **real estate raised ~₫123.4 trillion, overtaking banking as the largest issuing
+  sector.** That bears on **55.3% of this book** — KDH 20.3% and TCB 35.0%.
+  **WHY THIS ADVANCES ITEM 27.** TCB's armed criterion reads *"developer/related-party NPL formation > 2.0%,
+  **or a Masterise bond event**,"* and item 27 exists because **the second clause has no measure.** There is
+  now data to define one. **Candidates, listed without choosing — defining a kill criterion is human-only
+  under charter §4:**
+  **(a)** a **missed** coupon or principal payment by any Masterise-affiliated issuer;
+  **(b)** a **maturity not rolled** — a failed refinancing;
+  **(c)** a **distressed exchange** or term extension;
+  **(d)** a **quantitative spread test** — new Masterise issuance priced **above** the prevailing 11.5–12%
+  market, saying the ecosystem pays a penalty rather than a market rate.
+  **(d) is the only one observable BEFORE distress rather than at it, which is what a kill criterion is for.**
+  **What is NOT established, and is not inferred: TCB's exposure to any of these specific issuers.** This file
+  refused exactly this link on 02-Aug when it declined to connect KDH's bond violations to the TCB/Masterise
+  finding, **and the refusal stands.** What *is* on file about TCB: **corporate bonds +80% YTD, Group 2 loans
+  +46%, and H1 provisioning intensity of 8.0% against a prior year of 12.3%.** **A developer ecosystem
+  refinancing at +200bp against a bank whose provisioning sits at a multi-year low is the specific conjunction
+  the criterion was written for — but the link between the two halves is the thing still missing, and naming
+  it as missing is not the same as supplying it.**
+  **Nothing modelled.** **Escalation check: none of the five fire.** Sources: vietstock, vnbusiness, CafeF,
+  danviet.
+
 - **18:53 ICT · MODEL INPUTS (lane 3) — `cash_yield` enumeration complete at eight of eight, and
   `risk.py`'s standing claim about it is wrong in a specific, measurable way.**
   **VPX closes it: *"không chia cổ tức trong 2026"* — no dividend in 2026**, confirmed by two sources, with
