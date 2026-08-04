@@ -117,7 +117,7 @@ for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('11.8tn', '2H26 writ
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 # 7,934 survives on purpose - the narrative now cites it as the prior forecast
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
-            'remains attainable']:
+            'VND18tn', 'remains attainable']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # -------------------------------------------------------- stock-pick book
