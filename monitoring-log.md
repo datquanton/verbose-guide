@@ -80,6 +80,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **03:53 ICT · MODEL AUDIT (no searches) — applied the 02:53 rule to the second solved parameter, and the
+  file's own prose calls a NEGATIVE risk-aversion coefficient "barely risk-averse at all."**
+  **The number is not new; the reading is.** `cfa.py` already computes and prints **λ_implied = −0.209**
+  against a configured **λ = 6.0**, and calls the gap *"−29×"*. **What is new is (a) the sign matters and the
+  prose treats it as a magnitude, (b) the arithmetic tying it to specific documented defects, and (c) that the
+  cheapest available fix does not close it.**
+  **What a negative λ means.** λ_implied = (E[r] − rf) / σ². **The book as owned expects +1.8% against
+  `RF_SHORT` of 3.56% — Vietnam's 2Y government bond — while carrying 29.2% volatility.** `cfa.py` states it
+  plainly in its own check line: **book excess return −1.79%.** **The book is expected to return 1.8 points
+  LESS than the government bond, before any risk adjustment.**
+  **The file's prose says that λ *"is barely risk-averse at all"* and that *"somewhere between −0.21 and 6.0
+  is the real answer."*** **A negative λ is not barely risk-averse; it is risk-SEEKING**, and **−0.21 is not a
+  candidate for a preference parameter at all.** No risk-averse investor holds a 29.2%-vol book returning less
+  than the risk-free asset. **Treating it as the lower end of a plausible range imports a broken diagnostic
+  into a preference debate.**
+  **WHAT IT IS ABSORBING — every item already documented elsewhere in this file.** **(1)** the `cash_yield`
+  blanks, **1.04pp** of book E[r] (measured 18:53 yesterday); **(2)** stale prices (item 2); **(3)** branch
+  defects — MBB has **no driver model** (item 19), HPG's spot case has no branch (item 6), the bank branches
+  are not on a PPOP basis (item 26); **(4)** σ blends scenario dispersion with **a flat 28% base vol for every
+  name**, which `risk.py` itself calls *"an assumption, not a measurement"*; **(5)** E[r] is shrunk by
+  confidence while dispersion is not, which `risk.py` also flags.
+  **So λ_implied is not a preference. It is a single scalar that sums every known input defect in the model.**
+  **AND THE CHEAPEST FIX DOES NOT CLOSE IT — which qualifies my own 18:53 finding.** Restoring the 1.04pp
+  `cash_yield` omission takes book E[r] **1.8% → 2.84%** and λ_implied **−0.206 → −0.084. Still negative.** I
+  called the `cash_yield` gap *"the single cheapest improvement available to this model"* and it is — **but it
+  does not make the book rational.** **The book needs +1.76pp of expected return merely to reach RISK-NEUTRAL
+  indifference with the 2Y bond, and 54.7% to justify the configured λ of 6.0.**
+  **THE USEFUL CONSEQUENCE: λ_implied is a free progress metric.** Nothing in this repo tracks aggregate model
+  health. **As items 2, 6, 19, 26 and 31 are fixed, λ_implied should climb toward positive — and if it does
+  not, the remaining defect is somewhere not yet on the list.**
+  **Not edited.** `cfa.py` is machinery, and this file's 31-Jul precedent reserves machinery for a human under
+  charter §4 — the same treatment `risk.py` received. **The prose correction is recorded here, not applied
+  there.**
+  **Nothing modelled.** **Escalation check: none of the five fire.**
+
 - **02:53 ICT · HPG MODEL (lane 5, no searches) — applied the rule I wrote two hours ago to my own model
   instead of to incoming data, and it found an undocumented variable larger than the gap the model is
   currently being read against.**
