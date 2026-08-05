@@ -60,20 +60,29 @@ check('FY27F NII growth below the 15% target', U.NII[1] / U.NII[0] < 1.15,
 check('FY27F NII no longer falls while loans grow', U.NII[1] > U.NII[0])
 check('FY28F PBT growth above the 50% target', U.PBT[2] / U.PBT[1] > 1.50,
       '%+.1f%% - reported, not re-solved' % (U.PBT[2] / U.PBT[1] * 100 - 100))
-check('FY27F and FY28F carry a VND1,000bn provisioning overlay',
+check('FY27F carries a 1,000 provisioning overlay, FY28F 2,000',
       abs(U.PROV[1] - 9635.5524418309324 - 1000) < 0.5
-      and abs(U.PROV[2] - 6982.2147525724604 - 1000) < 0.5,
+      and abs(U.PROV[2] - 6982.2147525724604 - 2000) < 0.5,
       '%.0f and %.0f, from 9,636 and 6,982' % (U.PROV[1], U.PROV[2]))
 check('the overlay is charge, not write-off: provisioning exceeds write-offs',
       U.PROV[1] > 8637.3 and U.PROV[2] > 5779.0,
-      'reserve stock builds by 1,000 in FY27F and 2,000 by FY28F')
+      'reserve stock builds by 1,000 in FY27F and 3,000 by FY28F')
 # the overlay pushes the FY27F charge above FY26F even though write-offs fall
 # from 11.0tn to 8.6tn - the peak provisioning year moves out by a year
-check('provisioning peaks in FY27F, then falls hard in FY28F',
+check('provisioning peaks in FY27F, then falls in FY28F',
       U.PROV[1] > U.PROV[0] > U.PROV[2],
       '%.0f / %.0f / %.0f' % U.PROV)
-check('the charge still normalises: FY28F below 1% of gross loans',
-      U.PROV[2] / 825565 < 0.01, '%.2f%%' % (U.PROV[2] / 825565 * 100))
+check('FY28F PBT down 1,000 on the second tranche', abs(U.PBT[2] - 15270.6) < 1,
+      '%.0f, +%.1f%% on FY27F' % (U.PBT[2], U.PBT[2] / U.PBT[1] * 100 - 100))
+check('FY28F PBT growth back near the 50% the analyst set',
+      abs(U.PBT[2] / U.PBT[1] * 100 - 100 - 50) < 6,
+      '%+.1f%% - was +64.8%% before the second tranche' % (U.PBT[2] / U.PBT[1] * 100 - 100))
+# coverage is the price of the overlay - flagged as G22, not asserted away
+COV = [r / (n * l) * 100 for r, n, l in
+       zip((18925.5, 20524.5, 23305.4), (.058, .040, .027),
+           (640643.1, 719776.9, 825564.9))]
+check('NPL coverage above 100% by FY28F - the cost of the overlay',
+      COV[2] > 100, '%.0f / %.0f / %.0f%%' % tuple(COV))
 check('target price 75,000', abs(U.TP - 75000) < 1)
 check('coverage near 50%', abs(U.COV26 - 51) < 1, '%.1f%%' % U.COV26)
 
@@ -148,7 +157,8 @@ for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%
             'lifted on the cost line', 'below the first half', '7,500', '10,953', '16,448',
             'across all three years', '9,642', '15,170', '43.4%',
             # superseded by the VND1,000bn FY27F/FY28F provisioning overlay
-            '10,872', '17,271', '8,465', '13,447', '4,109', '6,527']:   # not '43.6%' - that is the 1H26 PBT fall
+            '10,872', '17,271', '8,465', '13,447', '4,109', '6,527',
+            '16,271', '12,668', '6,149']:   # not '43.6%' - that is the 1H26 PBT fall
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide
