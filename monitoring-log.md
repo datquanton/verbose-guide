@@ -83,6 +83,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **05:53 ICT · PROPERTY BONDS (lane 5) — item 27's measure (d) gets its first data, and the answer is a period
+  mismatch rather than a result. The test needs something the item never said it needed.**
+  *(Vietnam opens in ~3 hours; US closed and covered at 04:53.)*
+  **THE COUPONS, WHICH THIS FILE HAS NEVER HELD.** **Bất động sản Minh An** — a *strategic business partner* of
+  Masterise — raised **₫7,500bn in a single day, 23-April-2026**, in two private placements: **MAD12602,
+  ₫6,200bn at 10.5% for 30 months**, and **MAD32601, ₫1,300bn at 10.0% for 12 months.** Weighted **10.41%**.
+  The file held the ₫7,500bn and the Minh An name from 28-Jul; **it held neither lot code, neither coupon, nor
+  the date.** That is **16.9%** of the complex's ₫44,500bn H1 total, from one issuer on one day.
+  **AND HERE IS WHY MEASURE (d) CANNOT BE RUN ON IT.** Item 27's test is *"new Masterise issuance priced above
+  the prevailing 11.5–12% market"* — **and that 11.5–12% was recorded on 04-August as the current market. These
+  coupons are 23-April.** **Comparing an April coupon to an August market rate is a period mismatch, and this
+  file has disarmed that class of error repeatedly this week. The test is not run and no conclusion is drawn
+  from the 1.0–2.0pp gap.** **What it does establish is a requirement item 27 never wrote down: measure (d)
+  needs *contemporaneous* issuance — a Masterise-complex issue dated after the market repriced — and there is
+  none on file.** **The criterion is not merely undefined, as 02-Aug and 04-Aug found; on its most useful
+  measure it is currently unobservable for want of a recent print.**
+  **WHAT IS ADMISSIBLE IS THE WITHIN-PERIOD COMPARISON, AND IT IS SMALL BUT REAL.** The 31-Jul entry recorded
+  the complex's H1 coupons as **"9–10% per annum"** across six issuers and eight offerings. **MAD12602 at 10.5%
+  sits above the top of that band** — same period, same complex, same source type, so this comparison is
+  legitimate where the August one is not. **Either the 9–10% band was approximate, or the largest single tranche
+  priced at the wide end.** Not resolved; flagged **because the band is quoted in this file as though it were
+  tight.**
+  **A SECOND DATED MATURITY FOR THE H1/2027 WALL.** MAD32601 is 12 months from 23-Apr-2026, so it matures
+  **~23-April-2027**. The file already held **₫7,000bn from BĐS Hưng Long on 30-Jun-2027**. **Dated
+  Masterise-complex maturities in H1/2027 are therefore at least ₫8,300bn across two issuers.** MAD12602's 30
+  months takes ₫6,200bn to **~October 2028**, beyond every horizon in this book. **The H1/2027 concentration
+  identified on 31-Jul is confirmed and is still only partially enumerated — two of six issuers.**
+  **AND ONE STRUCTURAL LINE WORTH KEEPING.** Coverage frames the Q2 property-bond surge as **developers issuing
+  because bank credit is controlled.** That sits beside yesterday's 05:53 finding — **Công văn 5386 exempts 18
+  projects of Vingroup, Sun Group and Masterise from the credit room, the SMLR ratio *and* the single-customer
+  limit.** **If the named groups get quota-exempt bank credit while the rest of the sector is pushed into bonds,
+  that is a competitive divergence — the same asymmetry recorded against KDH yesterday.** *The article carrying
+  that line is not reliably dateable from its URL and **no date is assigned to it**; the theme is recorded, the
+  timing is not.*
+  **TCB'S EXPOSURE TO MINH AN IS NOT ESTABLISHED AND IS NOT INFERRED.** The sources name the issuer and the
+  coupon; **they do not name a lender, an arranger or a holder.** This file refused this link on 02-Aug, 04-Aug
+  and again at 19:53 on 05-Aug, when a genuine TCB/Vingroup **equity** link was found and explicitly not extended
+  to Masterise. **The refusal stands.**
+  **NOTHING MODELLED. NO KILL CRITERION DECLARED FIRED** — measure (d) is not run, and the criterion's wording
+  remains human-only under §4.
+
 - **04:53 ICT · MACRO (lane 1) — read at the pre-registered slot. The market ignored the ISM again, and this
   time the driver is named, exogenous, and pushes the same way.**
   *(US close 113 minutes old — inside the indexing bracket this file measured. Announced at 02:53 and honoured.)*
