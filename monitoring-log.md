@@ -80,6 +80,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **09:53 ICT · STEEL (lane 5) — the caveat attached to last night's ore move was right, and the sources name
+  the reason. Ore printed a second one-year low; the HRC leg is falling too.**
+  *(Vietnam ~1 hour into the session.)*
+  **THE PRE-REGISTERED WARNING HELD.** At 04-Aug 23:53 this file moved item 6 on a one-day 4.43% ore fall and
+  wrote: *"a 4.4% one-day ore fall is more likely a **DEMAND** signal than a cost windfall — the exact reading
+  this file got wrong on 29-Jul and corrected on 30-Jul."* **The sources now say it outright.** Bloomberg's
+  03-Aug piece is headed *"Iron Ore Hits One-Year Low on Trader Concerns and Demand Outlook"*, and the 04-Aug
+  coverage attributes the move to *"deteriorating steel industry fundamentals in China."* **The warning was
+  written before the attribution existed in this file.**
+  **04-AUG: SGX benchmark futures fell as much as 1.9% to US$94.10 intraday — the lowest since early July 2025;
+  61% Fe settled 1.6% lower at US$94.35; most-traded Dalian −~3%.** **Ore did not bounce — it printed a second
+  consecutive one-year low.**
+  **A STALE-PRICE TRAP DISARMED.** A Vietnamese rolling price page carried *"SGX August iron ore +US$0.49 to
+  US$99.24"* with no date. **Not current** — the market traded to 94.10 on 04-Aug. On the bridge's gearing the
+  difference is not cosmetic: **99.24 puts the spot case at ~₫886,000/t against ~₫1,052,000–1,061,000/t at
+  94.10–94.35 — the stale figure would have moved the case ~₫190,000/t the wrong way.** *Rolling "price today"
+  pages are the same species as the tag-aggregation page that produced this morning's five-month-old item.*
+  **A GRADE-BASIS MISMATCH — and the 00:53 rule applies to grade as well as delivery terms.** The 03-Aug figure
+  on file is **US$93.66**; the 04-Aug settle is **US$94.35 and is explicitly 61% Fe**, and **the file has no
+  stated basis for 93.66.** A naive reading says ore *rose* 0.7% on 04-Aug; the intraday 94.10 and the
+  second-one-year-low framing say it did not. **No conversion attempted, no precision claimed beyond "ore is
+  around US$94, roughly where it was."** Third comparison refused for want of a stated basis in twelve hours.
+  **ARITHMETIC, FOR THE RECORD, NOT AS A RETUNE.** From the bridge's `ore = 100` row (the corrected reference
+  of 03-Aug 13:53) with HRC 539: **at 93.66 the spot case is ~₫1,076,000/t, gap to the ₫1.25m bear branch
+  ₫174,000; at 94.35 it is ~₫1,052,000/t, gap ₫198,000. The gap widened slightly.** Yesterday's *"closest it
+  has come to any branch"* is marginally less close today — a rounding-scale change, recorded so the direction
+  isn't lost.
+  **AND THE HRC LEG IS FALLING TOO, WHICH IS THE PART THAT MATTERS.** A spread thesis needs both legs and the
+  file has been watching one. **Domestic Vietnamese HRC fell through July under low-priced import competition
+  from India and Indonesia** — item 6's own mechanism, arriving as a realised price rather than a structural
+  argument. **HPG cut August delivery ~₫900/kg (~US$34/t)**, consistent with the 580→546 step already on file.
+  **Formosa cut August *and September* by ~₫1,050/kg (~US$40/t) — and September is a month this file has no
+  price for.** *Dated honestly: that announcement is from **early July**, so it is Formosa's September offer as
+  then announced, not a current quote, and it is a **competitor's** price, not HPG's. **It does not establish
+  HPG's September price.*** What it does establish: the step down was announced as extending **beyond** the
+  month the file's 546.5/535 inputs describe — so *"Q3 straddles the step"* understates it, and **item 6
+  explicitly describes Q4.**
+  **NOTHING MODELLED.** Bridge inputs unchanged — ore 98.00, HRC 539/546.5/535 stand at their 30-Jul vintage;
+  changing them would retune a branch, which charter §5 sends to a human. **No kill criterion fires:** HPG's is
+  *"core NPAT/tonne < ₫1.25m for two consecutive quarters"* — a test on **reported actuals**, not on a spot-case
+  reconstruction.
+
 - **08:53 ICT · TRADE DEFENCE (lanes 2, 5) — the MoIT back-sweep created 02-Aug and never run, ran. HPG's
   27.83% shield is temporary, its ordinary deadline lapsed nine days ago, and its own expiry is unestablished.**
   *(Vietnam opens in 7 minutes; no session data yet. Ran the standing back-sweep instead of waiting.)*
