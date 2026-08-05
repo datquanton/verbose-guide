@@ -83,6 +83,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **06:53 ICT · MBB (lanes 3, 5) — chased a named gap on the third attempt. The number came back, the file
+  already had it, and the quarterly path it unlocks runs against item 26's own description of this name.**
+  *(Vietnam opens in ~2 hours.)*
+  **THE NUMBER.** **MBB's H1/2026 credit provisioning cost is ₫7,702bn, down 0.9% YoY**, against PBT of
+  ₫20,188bn, +27.1%.
+  **AND THE FIRST THING TO SAY IS THAT THIS FILE ALREADY HAD IT.** Item 26 reads: *"the method is cheap and
+  validated: PPOP = PBT + provisions… (MBB: **derived 7,703 vs reported 7,701.9**)."* **So a reported H1 figure
+  was sitting inside item 26 while a prose note elsewhere called it unknown and sent two sweeps looking for it.**
+  Today's ₫7,702bn confirms both to within 0.01%, and the intensity reconciles exactly: 7,702 / (20,188 +
+  7,702) = **27.62%** against item 26's stated 27.6%. **Third field-versus-prose contradiction found in this
+  file in twenty-four hours**, after KDH's Bình Trưng Mới date and `effective_broker_pct`. **The cost here was
+  three searches for a number already held.**
+  **NOW THE PART THAT IS GENUINELY NEW, AND IT RUNS AGAINST ITEM 26.** Q1 provisions were ₫3,454.8bn (already
+  on file), **so Q2/2026 provisions are ₫4,247.2bn — up 22.9% on Q1. And provisioning intensity of PPOP rose
+  within the half: Q1 26.41%, Q2 28.68%.** Item 26 describes MBB as *"PBT +27.1% on PPOP +17.9%, **provisions
+  flat** while the NPL balance rose 27% — 9.2pp is provisioning."* **"Flat" is true of the half-year aggregate
+  and conceals a rising quarterly path. MBB is provisioning MORE in Q2 than Q1, both absolutely and as a share
+  of PPOP — the opposite direction from flattered.**
+  **THE YEAR-ON-YEAR FALL IS A BASE EFFECT, AND IT IS SHOWN RATHER THAN ASSERTED.** Deriving the 2025 split
+  from the stated growth rates: H1/2025 ₫7,771.9bn, Q1/2025 ₫2,986.0bn, **so Q2/2025 was ₫4,785.9bn** — against
+  which Q2/2026's ₫4,247.2bn is **−11.3%**, a fall against a heavy prior quarter, not a cut against the
+  run-rate. *Stated with its weakness: **the 2025 quarterly split is derived from two percentages, not
+  reported**, so the −11.3% is a construction and the **+22.9% QoQ figure — built from two reported 2026
+  numbers — is the sounder of the two.***
+  **WHAT THIS DOES AND DOES NOT DO TO ITEM 26.** **It does not overturn the sector finding** — system LLR
+  coverage fell to 79.78% while system NPLs rose ₫48tn in H1, and that stands. **It softens the MBB leg
+  specifically, and item 26 already pointed that way**: it recorded that *"the cross-section discriminates:
+  MBB's NPL 1.45% and coverage 93.63% rising both beat the sector"*, and that MBB needs only **1.08×** its
+  prior-year intensity to justify its base branch against TCB's 2.17× and VPB's 1.25×. **Today adds a quarterly
+  path pointing the same way. Three independent signs now agree that MBB is the least flattered of the three
+  banks.** Nothing retuned — branch construction is human-only under §4.
+  **AND A MEASURE TRAP APPEARING AT A SECOND BANK.** Coverage puts MBB's **credit** at **₫1,256,000bn, +13.2%**.
+  This file holds **₫1,220,000bn of customer loans**, also +13.2% YTD — **a gap of ₫36,000bn on the same growth
+  rate.** **That is the credit-versus-customer-loans distinction the file identified at TCB**, where the
+  difference was named as infrastructure and social-housing lending excluded from credit limits. **The same two
+  measures are now visible at MBB and the file has been carrying only one of them.** *Whether MBB's ₫36,000bn
+  gap has the same composition is not established and is not assumed* — `credit_quota_exemptions_2026` already
+  warned that cross-bank credit-growth comparisons are not like-for-like, **and this is a second instance of
+  exactly that.**
+  **NOTHING MODELLED.**
+
 - **05:53 ICT · PROPERTY BONDS (lane 5) — item 27's measure (d) gets its first data, and the answer is a period
   mismatch rather than a result. The test needs something the item never said it needed.**
   *(Vietnam opens in ~3 hours; US closed and covered at 04:53.)*
