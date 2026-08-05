@@ -39,19 +39,25 @@ check('equity rolls forward on retained NPATMI',
       and abs(U.EQUITY[2] - U.EQUITY[1] - U.NPATMI[2]) < 1.5)
 check('TOI = NII + non-interest income',
       all(abs(U.NII[i] + U.NONII[i] - U.TOI[i]) < 1 for i in range(3)))
-check('FY26F NPL 5.5% of the smaller loan book',
-      abs(U.NPL26 / U.LOANS26 - 0.055) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
+check('FY26F NPL 5.8% of the smaller loan book',
+      abs(U.NPL26 / U.LOANS26 - 0.058) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
+check('implied 2H26 NPL formation is positive, not a net recovery',
+      U.NPL26 - (47957 - U.WO26) > 0, '%+.0f' % (U.NPL26 - (47957 - U.WO26)))
 check('FY26F PBT set at 7,500', abs(U.PBT[0] - 7500) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
-for i, tgt in enumerate((40., 38., 36.)):
-    check('FY%dF CIR = %.0f%% as instructed' % (2026 + i, tgt),
-          abs(U.CIR[i] - tgt) < 0.05, '%.2f%%' % U.CIR[i])
-check('2H26 opex below 1H26 - a real cost cut, and the narrative says so',
-      U.OPEX[0] - U.H1_OPEX < U.H1_OPEX,
-      '%.0f vs 6,233 (%.1f%% lower)'
-      % (U.OPEX[0] - U.H1_OPEX, -((U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100)))
-check('coverage rises as the NPL balance shrinks with the book',
-      U.COV26 > 51, '%.1f%%' % U.COV26)
+for i in range(3):
+    check('FY%dF CIR = 42%% as instructed' % (2026 + i),
+          abs(U.CIR[i] - 42) < 0.05, '%.2f%%' % U.CIR[i])
+check('2H26 opex now ABOVE 1H26 - no cost cut assumed',
+      U.OPEX[0] - U.H1_OPEX > U.H1_OPEX, '%.0f vs 6,233 (%+.1f%%)'
+      % (U.OPEX[0] - U.H1_OPEX, (U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100))
+check('FY27F NII growth = 15%', abs(U.NII[1] / U.NII[0] - 1.15) < 0.001,
+      '%+.1f%%' % (U.NII[1] / U.NII[0] * 100 - 100))
+check('FY27F NII no longer falls while loans grow', U.NII[1] > U.NII[0])
+check('FY28F PBT growth = 50%', abs(U.PBT[2] / U.PBT[1] - 1.50) < 0.005,
+      '%+.1f%%' % (U.PBT[2] / U.PBT[1] * 100 - 100))
+check('target price 75,000', abs(U.TP - 75000) < 1)
+check('coverage back near 50%', abs(U.COV26 - 50) < 1, '%.1f%%' % U.COV26)
 
 # ------------------------------------------------------------------- deck
 prs = Presentation(DECK)
@@ -103,12 +109,12 @@ check('box EPS growth = table EPS on FY25 2,883',
 check('narrative PBT growth stated', ('%+.1f%% YoY' % U.PBT_YOY) in en_txt,
       '%+.1f%%' % U.PBT_YOY)
 check('rating box return = TP / current price',
-      abs(TP / 74100 - 1 - 0.10) < 0.005, '%.1f%%' % (TP / 74100 * 100 - 100))
+      abs(TP / 74100 - 1 - 0.012) < 0.005, '%.1f%%' % (TP / 74100 * 100 - 100))
 for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit', 'LNST'), ('EPS', 'EPS'),
              ('P/E', 'P/E'), ('P/B', 'P/B'), ('BVPS', 'Giá trị sổ sách'),
              ('Total assets', 'Tổng tài sản'), ('Equity', 'VCSH')]:
     check('EN and VN agree on %s' % a, row(en_tbl, a) == row(vn_tbl, b))
-for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 / 1000), 'FY26F write-offs'),
+for s, t in [('5.8%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 / 1000), 'FY26F write-offs'),
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
              ('%.1f%%' % U.COV26, 'FY26F coverage'), ('%.1f%%' % U.CIR[0], 'FY26F CIR'),
              ('%.1f%%' % U.CIR[1], 'FY27F CIR'), ('%.1f%%' % U.CIR[2], 'FY28F CIR'),
@@ -120,8 +126,8 @@ for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 /
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
-            '8,150', '4,014', '26,712', '26,704', '8,143', '7,082', '2,946',
-            'lifted on the cost line']:
+            '8,150', '4,014', '26,712', '26,704', '8,143', '7,082', '2,946', '81,400',
+            'lifted on the cost line', 'below the first half']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide

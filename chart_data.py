@@ -16,15 +16,15 @@ YRS = ['FY24', 'FY25', 'FY26F', 'FY27F', 'FY28F']
 # (ticker, chart key, series name EN, series name VN, values)
 SERIES = [
     ('STB', 'is', 'Net interest income', 'Thu nhập lãi thuần',
-     [24532, 26681, 24570, 24388, 27512]),
+     [24532, 26681, 24570, 28256, 31876]),
     ('STB', 'is', 'Non-interest income', 'Thu nhập ngoài lãi',
      [4145, 5376, 5950, 7226, 8517]),
     ('STB', 'pbt', 'Profit before tax', 'Lợi nhuận trước thuế',
-     [12720, 7628, 7500, 9973, 16076]),
+     [12720, 7628, 7500, 10953, 16448]),
     ('STB', 'val_pe', 'P/E at target price (x)', 'P/E theo giá mục tiêu (lần)',
-     [15.8, 28.2, 28.7, 21.6, 13.4]),
+     [14.6, 26.0, 26.5, 18.1, 12.1]),
     ('STB', 'val_pb', 'P/B at target price (x)', 'P/B theo giá mục tiêu (lần)',
-     [3.1, 2.8, 2.6, 2.3, 1.9]),
+     [2.8, 2.6, 2.3, 2.1, 1.8]),
     ('FPT', 'rev', 'Revenue', 'Doanh thu',
      [62849, 70208, 57284, 66048, 76654]),
     ('FPT', 'is', 'Profit before tax', 'Lợi nhuận trước thuế',
@@ -46,7 +46,7 @@ NOTES = [
     'FPT FY26F revenue is not comparable with FY25 as reported: FPT Telecom is '
     'equity-accounted from FY26F. Against a restated FY25 of 50,607 the change is +13.2%.',
     'P/E and P/B are struck on the target prices used in the August deck: '
-    'STB VND81,400, FPT VND87,950. Historical years use the same target price, '
+    'STB VND75,000, FPT VND87,950. Historical years use the same target price, '
     'which is how the deck FY tables are built.',
 ]
 

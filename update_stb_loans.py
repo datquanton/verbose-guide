@@ -31,20 +31,20 @@ SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
 # FY26F PBT is set to 7,500 and CIR to 40/38/36% - see fix_stb_model.MODEL_FORMULAS
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
-SHARES, TP = 2060.158, 81400.0
+SHARES, TP = 2060.158, 75000.0
 
 # Model!Y/Z/AA, read out of the recalculated workbook
-NII = (24570.2, 24387.6, 27512.4)                 # row 121
+NII = (24570.2, 28255.7, 31875.7)                 # row 121; FY27F set to +15.0% YoY
 NONII = (5950.0, 7225.9, 8516.9)                  # rows 124 + 131
-TOI = (30520.2, 31613.6, 36029.3)                 # row 136 + row 135
-OPEX = (12208.5, 12014.0, 12971.5)                # row 135
-PROV = (10812.2, 9626.6, 6982.2)                  # row 141, FY26F re-solved
-PBT = (7499.5, 9973.0, 16075.6)                   # row 144
-NPATMI = (5839.0, 7764.9, 12516.3)                # row 153
-EQUITY = (65759.2, 73524.1, 86040.4)              # row 85
-ASSETS = (1013584, 1124067, 1260548)              # row 61, on higher retained profit
-ROE = (8.9, 11.1, 15.7)                           # row 314
-LOANS26, NPL26, RESERVE26, WO26 = 640643.1, 35235.4, 19535.9, 10955.0
+TOI = (30520.2, 35481.6, 40392.6)                 # row 136 + row 135
+OPEX = (12818.4, 14902.0, 16963.4)                # row 135, CIR 42% flat
+PROV = (10201.7, 9626.6, 6982.2)                  # row 141, FY26F re-solved
+PBT = (7500.1, 10953.0, 16447.5)                  # row 144
+NPATMI = (5839.5, 8527.9, 12805.9)                # row 153
+EQUITY = (65759.7, 74287.6, 87093.5)              # row 85
+ASSETS = (1013584, 1124830, 1261601)              # row 61, on higher retained profit
+ROE = (8.9, 12.2, 15.9)                           # row 314
+LOANS26, NPL26, RESERVE26, WO26 = 640643.1, 37157.3, 18487.0, 10955.0
 PBT25, EPS25, PLAN = 7628.025, 2882.84, 8100.0
 H1_PBT, H1_PROV, H1_OPEX = 4136.10, 7119.0, 6233.19
 
@@ -75,7 +75,10 @@ BOX = {0: '{:,.0f}'.format(NPATMI[0]), 2: '{:.1f}'.format(EPS_GROWTH),
        3: '{:.1f}'.format(TP / EPS[0])}
 
 EN = {
- 4: ("We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
+ 4: ("We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Holding the "
+     "ratio at 5.5% on the smaller loan book would have required net NPL recoveries in 2H26; "
+     "5.8% keeps the absolute balance at VND{npl:,.0f}bn and implied net formation just positive. "
+     "Reserves reached "
      "VND27.2tn at end-2Q26 — 56.7% coverage, up from 50.0% at end-FY25 — after VND7.1tn of 1H26 "
      "charges. A further VND{h2:.1f}tn charge in 2H26 funds write-offs of VND{wo:.1f}tn, or 34% "
      "of the Group 5 balance, leaving coverage at {cov:.1f}%. "),
@@ -86,15 +89,18 @@ EN = {
      "below the board-approved plan of VND8,100bn, where we previously sat marginally above it. "
      "The implied 2H26 PBT is VND{h2p:,.0f}bn against VND297bn in 2H25. "),
  8: ("Other FY26F assumptions: a provisioning charge of VND{prov:.1f}tn ({pry:+.1f}% YoY) and "
-     "non-interest income of VND{noi:,.0f}bn. We hold CIR at {c26:.1f}%, easing to {c27:.1f}% in "
-     "FY27F and {c28:.1f}% in FY28F; on 1H26 opex of VND6,233bn that needs 2H26 costs of "
-     "VND{h2o:,.0f}bn, {h2oy:.1f}% below the first half — a real cost reduction, not an accrual "
-     "shift. Separately, STB's seizure of 507 land-use right certificates at LDG's Viva "
+     "non-interest income of VND{noi:,.0f}bn. We carry CIR at {c26:.1f}% across all three years; on "
+     "1H26 opex of VND6,233bn that puts 2H26 costs at VND{h2o:,.0f}bn, {h2oy:+.1f}% on the first "
+     "half, so no cost reduction is being assumed. FY27F NII grows 15.0% as NIM recovers — "
+     "NII/average loans goes from 3.88% to 4.15% — which carries FY27F PBT to VND{p27:,.0f}bn "
+     "(+{g27:.0f}%) and FY28F to VND{p28:,.0f}bn (+{g28:.0f}%). Separately, STB's seizure of 507 land-use right certificates at LDG's Viva "
      "City against VND350bn of overdue principal is immaterial in size but shows the collateral "
      "channel the write-off programme depends on."),
 }
 VN = {
- 4: ("Chúng tôi đặt giả định nợ xấu FY26F ở 5.5% (từ dưới 4.5%) và FY27F ở 4.0% (từ 3.1%). Dự "
+ 4: ("Chúng tôi đặt giả định nợ xấu FY26F ở 5.8% (từ dưới 4.5%) và FY27F ở 4.0% (từ 3.1%). Giữ "
+     "5.5% trên nền dư nợ đã thu hẹp sẽ đòi hỏi nợ xấu phải được thu hồi ròng trong 2H26; mức "
+     "5.8% giữ số dư tuyệt đối ở {npl:,.0f} tỷ đồng và nợ xấu phát sinh mới vẫn dương. Dự "
      "phòng đạt 27.2 nghìn tỷ đồng cuối Q2/2026 — bao phủ 56.7%, tăng từ 50.0% cuối 2025 — sau "
      "khi trích 7.1 nghìn tỷ đồng trong 1H26 và trích thêm {h2:.1f} nghìn tỷ đồng trong 2H26 đủ "
      "để xóa {wo:.1f} nghìn tỷ đồng, tương đương 34% dư nợ nhóm 5, đưa bao phủ về {cov:.1f}%. "),
@@ -106,18 +112,21 @@ VN = {
      "nhỉnh hơn kế hoạch. Mức này hàm ý LNTT 2H26 khoảng {h2p:,.0f} tỷ đồng so với 297 tỷ đồng "
      "của 2H25. "),
  8: ("Các giả định FY26F khác: chi phí dự phòng {prov:.1f} nghìn tỷ đồng ({pry:+.1f}% CK) và thu "
-     "nhập ngoài lãi {noi:,.0f} tỷ đồng. CIR giữ ở {c26:.1f}%, giảm về {c27:.1f}% năm FY27F và "
-     "{c28:.1f}% năm FY28F; với chi phí 1H26 là 6,233 tỷ đồng, mức này đòi hỏi chi phí 2H26 chỉ "
-     "{h2o:,.0f} tỷ đồng, thấp hơn nửa đầu năm {h2oy:.1f}% — tức phải cắt giảm chi phí thực sự, "
-     "không chỉ là dồn dịch hạch toán. Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án "
+     "nhập ngoài lãi {noi:,.0f} tỷ đồng. CIR giữ {c26:.1f}% cho cả ba năm; với chi phí 1H26 là "
+     "6,233 tỷ đồng, mức này cho chi phí 2H26 ở {h2o:,.0f} tỷ đồng, {h2oy:+.1f}% so với nửa đầu "
+     "năm, tức không giả định cắt giảm chi phí. NII FY27F tăng 15.0% khi NIM hồi phục — "
+     "NII/dư nợ bình quân từ 3.88% lên 4.15% — đưa LNTT FY27F lên {p27:,.0f} tỷ đồng (+{g27:.0f}%) "
+     "và FY28F lên {p28:,.0f} tỷ đồng (+{g28:.0f}%). Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án "
      "Viva City đối với 350 tỷ đồng dư nợ gốc quá hạn tuy chưa trọng yếu nhưng cho thấy kênh xử "
      "lý tài sản đảm bảo mà chương trình xóa nợ 2H26 phụ thuộc vào."),
 }
 FMT = dict(h2=H2_PROV / 1000, wo=WO26 / 1000, cov=COV26, ln=LOANS26, nii=NII[0],
            niy=NII_YOY, pbt=PBT[0], yoy=PBT_YOY, vp=-VS_PLAN, vpa=-VS_PLAN,
            h2p=H2_PBT, prov=PROV[0] / 1000, pry=PROV_YOY, noi=NONII[0],
-           c26=CIR[0], c27=CIR[1], c28=CIR[2], h2o=OPEX[0] - H1_OPEX,
-           h2oy=-((OPEX[0] - H1_OPEX) / H1_OPEX * 100 - 100))
+           c26=CIR[0], c27=CIR[1], c28=CIR[2], h2o=OPEX[0] - H1_OPEX, npl=NPL26,
+           h2oy=(OPEX[0] - H1_OPEX) / H1_OPEX * 100 - 100,
+           p27=PBT[1], g27=PBT[1] / PBT[0] * 100 - 100,
+           p28=PBT[2], g28=PBT[2] / PBT[1] * 100 - 100)
 
 
 def put(para, txt):
