@@ -80,6 +80,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **10:53 ICT · COMPETITORS & FLOWS (lanes 6, 4) — the file has been waiting for a VPS listing to create a
+  peer anchor. It already happened, VCK trades on HOSE, and the anchor lands within 4.2% of TCX.**
+  **THE EVENT IS NOT PENDING.** `_VPS_IPO_TERMS_ARE_A_LIVE_COMPARABLE_2026_07_31` says *"a VPS listing WOULD
+  create one."* **VCK is listed and traded on HOSE — 1,482,315,700 shares at ₫60,000, and on 24-Jul-2026 it
+  closed at ₫29,650 with a market cap of ₫72,195.4bn.** That entry's own closing caveat — *"AND THE TERMS MAY
+  BE STALE — THIS IS THE PART THAT NEEDS SAYING"* — was right, and righter than it knew: not merely stale,
+  **the event had occurred.**
+  **A DATE AMBIGUITY, FLAGGED NOT ASSERTED.** The source gives **16/1/2025**. That cannot be reconciled with
+  this file's own record that the ₫60,000 minimum was announced **October 2025** for a Q4/2025–Q1/2026 window,
+  nor with November-2025 coverage of VPS *"continuing to distribute the remaining IPO shares."* **You cannot
+  list in January and IPO the following October.** The only coherent reading is **16-Jan-2026** — fitting an
+  Oct–Nov 2025 book-build, a November distribution tail, and the reported *"fell 25% within under two months of
+  listing"* landing in March 2026. **Recorded as 16-Jan-2026 (inferred), not as fact.** It matters: on that
+  reading the decline below took **six months, not eighteen**.
+  **THE ADJUSTMENT TRAP — the same one this file flagged for TCX.** Raw, ₫29,650 against ₫60,000 reads as
+  **−50.6%. That comparison is meaningless.** The stated cap and price imply **₫72,195.4bn ÷ ₫29,650 = 2,434.9m
+  shares against 1,482.3m listed — a factor of 1.643, which is the 913m bonus issue, executed.** **Cap-to-cap
+  needs no adjustment, because a bonus issue does not change market cap: ₫88,939bn at listing → ₫72,195bn on
+  24-Jul-2026, i.e. −18.8%.** Same method that verified TCX's share count off HOSE's VN30 disclosure, run in
+  the other direction.
+  **AND THE FILE'S STORED COMPARISON IS WRONG ON THE FILE'S OWN CURRENT NUMBERS.** The 31-Jul entry reads
+  *"US$3.4bn is ~₫89,420bn, which is ABOUT 9% ABOVE TCX'S IMPLIED MARKET CAP OF ~₫82,215bn (pe_ttm 20.3 ×
+  npat_ttm 4,050)."* **TCX's `market_cap_bn` in this file is ₫114,007bn** (41,100 × 2,773.9m) — the ₫82,215bn
+  was computed from a **pre-correction share count and a pre-correction `npat_ttm`** and was never revisited.
+  **Against ₫114,007bn the ask was 21.6% BELOW TCX, not 9% above** — so *"VPS is asking to be valued ABOVE TCX
+  on a margin book 39% smaller"* **inverts on corrected inputs. Sixth instance this week of a derived figure
+  surviving the correction of its own inputs.**
+  **THE ANCHOR, AND THE RESULT IT ACTUALLY PRODUCES.** VCK's realised cap is **36.7% below** TCX's — **on a
+  margin book 39% smaller** (₫31,300bn vs TCBS's ₫51,500bn). **Those two numbers are nearly the same.** As a
+  ratio: **TCX trades at 2.214× its margin book, VCK at 2.307× — a spread of 4.2%.** So the market prices the
+  two largest Vietnamese brokers **almost exactly in line with their margin books**, and VPS's **#1 brokerage
+  share on all four exchanges** (15.32% of HOSE, leading 21 consecutive quarters) **earns it nothing extra.** A
+  dated corroboration of this file's own framing that the complex is valued on the **margin engine** — the
+  engine TCX's model turns on.
+  **WHAT IT DOES NOT DO, SAID PLAINLY BECAUSE THE ANCHOR AGREES.** TCX's kill criterion is **P/B < 2.0×** and
+  TCX is at 2.49×. **VCK's P/B is not computed** — its equity is not established, and the 31-Jul refusal to
+  derive a P/B from charter capital (charter §3 check 3) stands. **And the honest weighting: an anchor that
+  agrees is weaker evidence than one that disagreed would have been** — a 4.2% spread is consistency, not
+  confirmation. **The margin figures are also undated on file**, so the near-identity is only as good as two
+  vintages this file cannot state. *A real limit, not buried.*
+  **NOTHING MODELLED.** TCX's price, `npat_ttm`, `pe_ttm`, branches, probabilities and confidence (0.75) are
+  untouched. **No trigger fires** — the cross-check *supports* the stored valuation, and a supportive external
+  check is not an evidence-status change under trigger 4.
+
 - **09:53 ICT · STEEL (lane 5) — the caveat attached to last night's ore move was right, and the sources name
   the reason. Ore printed a second one-year low; the HRC leg is falling too.**
   *(Vietnam ~1 hour into the session.)*
