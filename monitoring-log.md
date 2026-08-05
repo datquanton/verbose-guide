@@ -33,6 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
+| **⚠ STRUCTURE SWEEP — NEW 05-Aug 15:53, and it has never been run** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -79,6 +80,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **15:53 ICT · VCI + HPG (lanes 3, 6, 7) — the escape route this file named for VCI's kill criterion is now
+  visible, and a lane-6 search about a 3.1% position surfaced a listed subsidiary of a 16.8% one.**
+  *(Vietnam closed; US pre-market.)*
+  **VCI — THE ESCAPE ROUTE THE FILE NAMED AND NEVER LOOKED FOR.** The criterion on file says it is *"near-certain
+  to fire in October **unless the signed IB/IPO pipeline lands inside Q3**."* **The pipeline is now named:
+  issuances of US$400–500m being advised, IB revenue expected +40%.** Mandates: **Chứng khoán VPBankS, Nông
+  nghiệp Hòa Phát, DatViet VAC, F88, Điện Máy Xanh.**
+  **TWO OF THE FIVE ARE THIS BOOK'S OWN NAMES — VPBankS *is* VPX (2.8%), and Nông nghiệp Hòa Phát is a
+  subsidiary of HPG (16.8%).** **That is not new exposure and must not be counted as such. It is a revenue
+  correlation:** VCI's IB earnings and corporate actions at names this book holds are not independent events.
+  The look-through item measures *ownership* overlap at 19.5%; **this is a different axis and the file has no
+  measure for it.**
+  **AND THE PIPELINE IS PARTLY IN THE PAST, WHICH IS WHAT MATTERS FOR A Q3 TEST.** VPBankS is already listed —
+  VPX carries a price and a `pe_ttm` here. **Nông nghiệp Hòa Phát IPO'd 30m shares at ₫41,900 and listed on
+  HOSE on 06-Feb-2026.** **So at least two of the five closed before Q3 began, and their fees are inside the H1
+  numbers that produced the 29% shortfall.** *A pipeline list mixing closed and live mandates cannot be read as
+  forward revenue, and the source does not separate them. Not separated here either — flagged.*
+  **THE ARITHMETIC IS NOW ON AN ACTUAL AND CONFIRMS THE FILE.** **Q2/2026 PBT ₫271bn** (NPAT ₫251bn, +28% /
+  +36% YoY). With Q1 PBT ~₫400bn, **H1 PBT ≈ ₫671bn = 29.17% of the ₫2,300bn target. The 55% threshold is
+  ₫1,265bn, so Q3 must deliver ₫594bn — 2.19× the Q2 actual.** The file carried ₫598bn / 2.21× (implying H1 of
+  ₫667bn); the gap is ₫4bn. *Precision caveat kept: Q1's ₫400bn is an **AGM estimate**, not a filed figure — so
+  half the denominator is an estimate until the Q3 filing supplies 9M PBT directly, at which point the criterion
+  is evaluated on the filing anyway.*
+  **IS THE ESCAPE ROUTE BIG ENOUGH? NOT ASSERTED.** At FX ~26,300, US$400–500m is ₫10,520–13,150bn of issuance
+  value. **A ₫594bn Q3 PBT from that alone would need a PBT take of 4.5–5.6% of issuance value, which is high
+  for equity underwriting** — the fee schedule is not disclosed and IB is not VCI's only line. **The route
+  exists and is roughly bounded; it cannot be confirmed sufficient without a fee rate and a closing schedule,
+  neither of which is on file.**
+  **A DATED PRICE EVENT THAT SHARPENS THIS MORNING'S FINDING.** **VCI hit limit-up on the day Tô Hải's
+  registration was announced** (window confirmed 04-Aug → 02-Sep, 31.05m shares, *"personal needs"*). At 07:53
+  this file recorded that insiders buy less when the price rises — **66.6% completion on HPG, shortfall blamed
+  explicitly on price** — and noted the windows sit in a rising tape. **This is sharper: his own announcement
+  moved the stock the daily limit before he bought a single share.** The disclosure regime raises the
+  discloser's execution cost, opening a ~7% gap between the price that motivated the registration and the price
+  available to fill it. **On the 07:53 arithmetic, VCI's 17% crossing needs 69.3% completion against a 66.6%
+  comparable — this makes that shortfall more likely, not less.** *A mechanism with one dated instance, not a
+  prediction.*
+  *Also: VCI's shares are reported at a **three-year low** while profit rises and it advises large IPOs. The
+  file's ₫20,500 is undated (item 2); the three-year-low claim carries no date here and **is not used as a
+  price**. And a shareholder group holding **30% of VCI's charter capital** was disclosed at the 2026 AGM —
+  lane 7, no names or dates captured, recorded so a future sweep does not treat it as new.*
+  **HPG — A LISTED SUBSIDIARY THIS FILE DID NOT KNOW ABOUT.** **Nông nghiệp Hòa Phát (HPA) listed on HOSE
+  06-Feb-2026**, 30m shares at ₫41,900 (~₫1,257bn). 2030 targets: revenue >₫12,000bn, NPAT ₫1,750bn, ROE >25%.
+  **The scale is minor** — HPA's 2030 NPAT ambition is ~7.5% of HPG's base `fy26e_npat`, the raise ~0.7% of
+  HPG's market cap. **What is not minor is that it exists.** The file describes HPG as *"steel is 68% of H1
+  profit and 93% of revenue — non-steel is overwhelmingly the Phố Nối one-off"*, **and part of the non-steel
+  business has been separately listed and marked by the market since February. A listed subsidiary is a price
+  on a segment the parent's model treats as a residual.**
+  **Not established, not guessed:** HPA's total share count (so **no market cap and no sum-of-the-parts**);
+  HPG's retained stake (so consolidation status unknown); **and whether HPA connects to the ₫4,123bn gain the
+  file excludes as "the Phố Nối one-off" — the names differ and no link is drawn.**
+  **THE PROCESS POINT.** It surfaced inside VCI's mandate list while checking a VCI kill criterion — **a lane-3
+  fact about a 16.8% holding arrived through a lane-6 search about a 3.1% one.** The HPG lane has run many times
+  and never surfaced it, because **it is a February event and the lanes hunt for news.** Same species as
+  Circular 25, the HPG half-year volumes and the 18 named projects: **dated, scheduled, primary and findable —
+  and therefore not news.**
+  **NOTHING MODELLED. No kill criterion declared fired** — VCI's 9M test is evaluated at the Q3 filing.
 
 - **14:53 ICT · KDH (lanes 3, 5) — ⚠ ESCALATION TRIGGER 4 FIRES ON KDH. Gladia Heights launched on 01-Aug
   with ~₫4,000bn booked — and the developer says the profit is a 2027 event.**
