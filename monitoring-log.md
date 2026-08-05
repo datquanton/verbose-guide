@@ -80,6 +80,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **11:53 ICT · COMPETITORS (lane 6) — ⚠ ESCALATION TRIGGER 4 FIRES ON TCX. The anchor I called weak two
+  hours ago because it agreed is now complete, and on the two ratios that matter it stops agreeing.**
+  *(Morning session closed 11:30.)*
+  **VPS Q2/2026 AND FY2025** *(T5 press on the company's own releases)*. Q2 PBT **₫1,378.4bn +57%**, NPAT
+  ~₫1,104bn +57%, **PBT margin 58.6% — the highest in its history**. H1/2026 PBT **₫2,925bn**, NPAT
+  **₫2,340bn**, both **+63%**. FY2025 NPAT **₫3,563bn** (ex unrealised; a second source says ₫3,579bn), +42%.
+  **Equity ₫28,835bn, +153.8% after the IPO.** Total assets ₫48,400bn at end-2025. FY2026 PBT target ₫5,750bn.
+  **THE P/B REFUSAL IS DISCHARGED, NOT ABANDONED.** At 10:53 I declined to compute VCK's P/B because equity was
+  not established and §3 check 3 forbids deriving one from charter capital. **Equity is now established from
+  the company's own results.** **VCK P/B = ₫72,195.4bn ÷ ₫31,175bn (end-2025 equity + H1/2026 NPAT; no cash
+  dividend reported — the ₫1,424bn distribution was a *share* issue from equity, which is internal) = 2.32×;
+  on end-2025 equity alone, 2.50×. Range 2.32–2.50×, not a point.** **TCX is at 2.49×** (₫114,007bn ÷ ₫45,782bn
+  filed equity). **So TCX's "priciest multiple in the book" is exactly in line with the only other listed large
+  Vietnamese broker.** *That does not make it safe — it reclassifies it.* **A company premium and a sector
+  multiple are different risks:** the first de-rates alone, the second de-rates with the whole cluster — and
+  this book holds **11.4% of that cluster directly, 19.5% through.**
+  **AND THE SECOND RATIO DISAGREES, WHICH IS WHY THIS IS ESCALATED.** VPS TTM NPAT = 3,563 − 1,435.6 (H1/2025,
+  derived from H1/2026's ₫2,340bn at the stated +63%) + 2,340 = **₫4,467.4bn**. **VCK P/E TTM = 16.16× against
+  TCX's 20.05× — TCX trades at a 24% premium on earnings.** **The reconciliation is ROE and it runs the same
+  way: VCK earns 14.3–15.5% on equity, TCX earns 12.4%.** **Same P/B, higher ROE, lower P/E — internally
+  coherent, and all three point one direction. On every earnings-based measure TCX is the more expensive of the
+  two while earning less on its book.**
+  **STATED FAIRLY, BECAUSE THIS IS NOT A VERDICT.** TCBS leads **margin** and holds ~half the non-bank
+  corporate-bond advisory market; VPS leads **brokerage share** on all four exchanges. Different franchises can
+  deserve different multiples and a 24% premium is not *per se* wrong. **What changed is that the file now has a
+  benchmark where it had none, and TCX sits on the expensive side of it.**
+  **THE PROFIT-QUALITY READ — a system-level paradox now visible inside a company P&L.** VPS operating revenue
+  +36.6%, of which **interest income from loans and receivables ₫1,031bn, +95%, now 44% of total operating
+  revenue — while brokerage revenue FELL.** Margin book **₫31,311bn at 30-Jun-2026, +38.6% YTD, ~+80% YoY, at
+  65.4% of total assets.** The file already held the system version: record margin of ₫435,000–454,000bn,
+  *"most of the growth is deal lending to individual large borrowers rather than retail margin"*, and the
+  paradox that *"margin hit a record while Q2 liquidity FELL sharply — a book that grew while turnover shrank is
+  not funding trading."* **VPS is that paradox at company level: the #1 broker by brokerage share reports
+  falling brokerage revenue and record profit from lending.** **So the Q2/2026 Vietnamese broker profit cycle is
+  a LENDING cycle, not a transaction cycle** — broker earnings quality turns on **collateral values and
+  single-name concentration**, not turnover, and *"deal lending to individual large borrowers"* is exactly that
+  concentration.
+  **HALF-CLOSES A LIMITATION I STATED TWO HOURS AGO.** The 10:53 entry warned both margin figures were undated.
+  **VPS's is now dated — ₫31,311bn at 30-Jun-2026, against a 24-Jul cap, a clean pairing. TCBS's ₫51,500bn
+  remains undated and is now the single weakest input in the comparison.** Named so it can be fixed.
+  **THE NUMBER STILL MISSING, AND IT WOULD MAKE THE READ-ACROSS EXACT: TCBS's margin book as a share of its
+  total assets.** VPS's is 65.4%. **If TCBS's is materially lower, TCX's lower ROE is a MIX statement rather
+  than a quality one and the premium partly defends itself.** Not established, not guessed.
+  **NOTHING MODELLED.** TCX's price, `npat_ttm`, `pe_ttm`, branches, probabilities and confidence (0.75) are
+  untouched — charter §5 escalates thesis-level evidence rather than working it into branches. **And confidence
+  is deliberately NOT cut:** it multiplies `fy26e_npat` and measures how well evidenced the *earnings* forecast
+  is. **Nothing here bears on TCX's earnings — the finding is about the MULTIPLE, which TCX's own thesis already
+  names as the risk.** Cutting confidence would put the doubt in the wrong field, which this file has refused
+  twice before.
+
 - **10:53 ICT · COMPETITORS & FLOWS (lanes 6, 4) — the file has been waiting for a VPS listing to create a
   peer anchor. It already happened, VCK trades on HOSE, and the anchor lands within 4.2% of TCX.**
   **THE EVENT IS NOT PENDING.** `_VPS_IPO_TERMS_ARE_A_LIVE_COMPARABLE_2026_07_31` says *"a VPS listing WOULD
