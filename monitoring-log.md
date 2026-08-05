@@ -80,6 +80,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **13:53 ICT · TCX (lanes 3, 6) — ran the test I named an hour ago. It cannot be completed from public data,
+  and the search that failed it turned up something worse: TCBS's record-profit headline conceals a 9.26pp
+  margin fall, and VPS now out-earns it per dong of revenue.**
+  *(Afternoon session running.)*
+  **THE MEASURE MISMATCH THAT BLOCKS THE TEST — and saying so is the first result.** The disclosed segment
+  figures are **"thu nhập thuần" (NET income)** while the ₫3,745bn headline is **"tổng doanh thu" (GROSS
+  revenue)**. Investment banking **₫837bn (+33%)** and treasury-and-bond-distribution **₫964bn (+7%)** are
+  **not shares of ₫3,745bn and must not be divided into it.** *The internal check that proves it:* 837 + 964 =
+  ₫1,801bn = **85.9% of PBT (₫2,097bn)** — and margin lending plus brokerage would still have to cover *all*
+  operating expense from the remaining 14%. **The sum works against neither denominator, so neither ratio is
+  admissible. No fee share of revenue is computed.** Fifth comparison refused for want of a common basis in
+  fourteen hours.
+  **WHAT IS ESTABLISHED WITHOUT THE RATIO — AND IT SUPPORTS TCX.** **TCBS has a real fee franchise and VPS
+  essentially has none.** Q2/2026 bond issuance arranged **~₫61,000bn, +138%**, of which **non-bank corporate
+  ~₫59,000bn — 96.7% of it — at 48% market share**; **IB net income ₫837bn, +33%, equal to 39.9% of group
+  PBT.** Against that, VPS's growth was interest income +95% to 44% of revenue **with brokerage falling**. **So
+  the 12:53 ROA comparison IS unfair to TCBS in exactly the direction flagged** — ₫837bn of IB income needs
+  almost no balance sheet, and ROA charges TCBS for assets that earn a different line. **Recorded as a partly
+  evidenced defence rather than left as an objection I raised and did not answer.**
+  **AND IT RELOCATES THE RISK RATHER THAN REMOVING IT.** **The franchise defending TCX's premium is a
+  property-bond origination franchise.** The file already holds: TCX tied to *"the ecosystem containing major
+  investors associated with projects like Masterise"*; Masterise-linked issuance ₫44,500bn in H1/2026; **new
+  property-bond issue rates repriced to 11.5–12%, up ~1pp YoY**; and **~₫60,000bn of real-estate bonds maturing
+  in H2/2026, close to half of all corporate maturities.** **The premium is defended by an earnings stream
+  whose underlying market this file has separately documented as repricing.** **And the internal evidence
+  points the same way:** the treasury-and-distribution line — the segment most connected to that complex, which
+  the 02-Aug entry already flagged as *"the ₫964bn segment growing at 7%"* — **is still TCBS's weakest at +7%
+  while origination grew 138%.** *Originating fast and distributing slowly is a different business from doing
+  both fast, and where the difference ends up is not established here. Named, not inferred.*
+  **NEW AND ADVERSE — a record-profit headline concealing margin compression.** Q2/2026 **revenue +41% to
+  ₫3,745bn; PBT +21% to ₫2,097bn, "the highest in its history."** **Revenue grew almost twice as fast as
+  profit.** Implied prior-year quarter: revenue ₫2,656bn, PBT ₫1,733bn. **PBT margin 65.25% → 55.99%, a fall of
+  9.26 percentage points.** **And the peer comparison inverts on this measure: VPS's Q2 PBT margin is 58.56%
+  and is its highest ever — the smaller, less diversified broker now out-earns TCBS per dong of revenue.**
+  *Both growth rates come from the same release, so the margin move doesn't depend on comparing two sources.
+  Caveat kept: "tổng doanh thu" definitions can shift between periods, so the inference is only as good as the
+  consistency of the company's own reporting basis.*
+  **NOTHING MODELLED.** Q2/2026 is **already an actual** in this file and `npat_ttm` 5,687 is unchanged — what
+  is new is a **decomposition** of a number the branches were built on, not the number. **Confidence held at
+  0.75, fourth application of the same rule this week:** it multiplies `fy26e_npat` and measures how well
+  evidenced the *forecast* is; a margin decomposition of a filed actual does not make the forecast better or
+  worse evidenced. **A 9.26pp margin fall belongs in the branches, and branch construction is human-only under
+  §4. Escalated.**
+
 - **12:53 ICT · COMPETITORS (lane 6) — I named the test that would settle the TCX escalation, ran it one hour
   later, the test PASSED, and it settles nothing. I named the wrong test.**
   *(Vietnam lunch break 11:30–13:00; no live market data.)*
