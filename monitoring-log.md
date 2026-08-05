@@ -33,7 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
-| **⚠ STRUCTURE SWEEP — NEW 05-Aug 15:53, and it has never been run** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
+| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **STILL TO RUN: HPG (HPA share count / retained stake / consolidation), KDH (Keppel JV entities, Bình Trưng Mới), TCX, VPX, VCI.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -80,6 +80,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **16:53 ICT · BANKS (lanes 3, 5) — ran the structure sweep on its first eligible sweep. It found a zero:
+  a whole earnings pillar missing from 51.5% of the book.**
+  *(Vietnam closed; US pre-market. Ran the sweep created an hour ago rather than scheduling it, per the 08:53
+  lesson that a back-sweep opened because of a miss must be run, not deferred.)*
+  **THE ZERO.** Before this entry, `assumptions.json` contained the strings **"insurance", "bancassurance",
+  "Manulife" and "bảo hiểm" exactly zero times** — in a file **51.5% invested in Vietnamese banks.**
+  **WHAT IS THERE, H1/2026** *(T5 press on company disclosures)*. **TCB:** insurance service revenue **over
+  ₫1,260bn** in H1; Q2 new premium **over ₫534bn**; described as the **leading position in bancassurance.**
+  **MBB:** MB Ageas Life total revenue **~₫3,000bn** to end-June. **VPB:** insurance cross-selling revenue
+  **over ₫3,540bn** in H1, **+~40% YoY**; owns **~90% of OPES** and has just injected **over ₫1,000bn** of
+  additional charter capital.
+  **NO RATIO IS COMPUTED, AND THAT IS NOT PEDANTRY.** These are **revenue** figures; this file's bank numbers
+  are **PBT** (TCB H1 ₫18,500bn, VPB ₫18,880bn, MBB ₫20,188bn). **Dividing a revenue line into a profit line is
+  inadmissible.** And **the three are not the same measure as each other**: TCB's is the *bank's own fee line*,
+  MBB's is the *insurer's total revenue at a JV the bank does not wholly own*, VPB's is a *cross-selling*
+  figure. **They cannot be ranked.** *The internal proof is in the source: TCB is called market leader at
+  ₫1,260bn while VPB is shown at ₫3,540bn — two claims that cannot both be true of one measure, which is proof
+  there are two.* Seventh comparison refused for want of a common basis in sixteen hours, and the second proved
+  by internal contradiction rather than by a label.
+  **WHY IT MATTERS — IT RUNS AGAINST THIS FILE'S PREVAILING BANK VIEW.** Item 26 establishes that reported bank
+  PBT is provisioning-flattered — **5.8pp of TCB's growth, 9.2pp of MBB's, 23.4pp of VPB's** — against a sector
+  under-providing into rising NPLs. **Every bank finding this week has pointed one way. This one does not.**
+  Insurance is a **non-credit, non-provisioning, fee-based** stream; it is **growing (VPB +40%)**; and **all
+  three own their insurers rather than distributing for a third party**, so the economics are underwriting and
+  equity income, not a commission a regulator can ban. **And the source frames it as the deliberate offset to
+  exactly the pressure this file has documented:** banks building insurance ecosystems *"to reduce dependence
+  on credit **as NIM continues to narrow**."* **TCB's armed kill criterion is "Q3 NIM < 3.25%."** *A finding
+  that cuts against the house view is worth more than one that confirms it* — the 11:53 reasoning about
+  agreeing anchors, applied in reverse.
+  **AND A CAPITAL DEPLOYMENT NOT ON FILE.** VPB has injected **over ₫1,000bn into OPES.** This file tracks
+  VPB's 26% stock dividend and its foreign placement in detail and had **no record of where capital is being
+  deployed.** Small against VPB's balance sheet — and it is a *direction*, which the file had not at all.
+  **NOT ESTABLISHED, NOT GUESSED.** *(a)* **The profit contribution of any of the three** — every figure here
+  is revenue. *(b)* **MBB's ownership percentage of MB Ageas Life**, so its share of the ~₫3,000bn is unknown;
+  MBB also owns a non-life insurer, not covered here at all. *(c)* **Whether any of this is already inside
+  `fy26e_npat`** — the branches were built from PBT and NIM grids and whether the fee line was decomposed is
+  recorded nowhere. **That is the question, and it is the same shape as the one opened on KDH two hours ago:
+  does the forecast already contain the thing just discovered?**
+  **NOTHING MODELLED.** No branch, probability, price, weight or confidence moved on any of the three.
+  **Confidence is NOT raised — sixth application of the same rule this week, and the symmetry is the point:**
+  this is **favourable** evidence and it gets exactly the treatment `circular_25`'s favourable environment got
+  — *"a better environment for a figure we cannot verify is not better evidence for that figure."* **Today the
+  rule has been applied to adverse findings on TCX and KDH; applying it to a favourable one is what stops it
+  being a ratchet.**
 
 - **15:53 ICT · VCI + HPG (lanes 3, 6, 7) — the escape route this file named for VCI's kill criterion is now
   visible, and a lane-6 search about a 3.1% position surfaced a listed subsidiary of a 16.8% one.**
