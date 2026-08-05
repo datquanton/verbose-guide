@@ -18,13 +18,13 @@ eps = lambda n: n * 1000 / SHARES
 bvps = lambda e: e * 1000 / SHARES
 
 C6 = ("- We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% delivered in 1H26. "
-      "NII falls to VND24,570bn (-7.9% YoY), then recovers 15.0% in FY27F as NIM turns.\n"
+      "NII falls to VND24,531bn (-8.1% YoY), then recovers 9.9% in FY27F as NIM turns.\n"
       "- NIM troughs in FY26F as elevated NPLs freeze accrued interest income while funding costs "
       "remain sticky, before recovering in FY27F.\n"
       "- We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
       "write-offs; a further VND4.0tn charge in 2H26 funds VND11.8tn of write-offs, or 37% of the "
-      "Group 5 balance, leaving coverage at 49.8%. Holding coverage near 50% is what caps the "
+      "Group 5 balance, leaving coverage at 50.9%. Holding coverage near 50% is what caps the "
       "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
       "1H26 pace.\n"
       "- We set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.1f}% below the "

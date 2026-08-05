@@ -24,7 +24,7 @@ from lxml import etree
 
 SRC = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
 PRISTINE = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
-            'f7a2f4b0-FinModel_STB_2Q26.xlsx')
+            '20915a37-FinModel_STB_2Q26_5.xlsx')
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 
 NPL_VALUES = {'N26': 0.930, 'N27': 0.012, 'N28': 0.009, 'N29': 0.013, 'N30': 0.036,

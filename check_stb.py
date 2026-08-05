@@ -43,21 +43,22 @@ check('FY26F NPL 5.8% of the smaller loan book',
       abs(U.NPL26 / U.LOANS26 - 0.058) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
 check('implied 2H26 NPL formation is positive, not a net recovery',
       U.NPL26 - (47957 - U.WO26) > 0, '%+.0f' % (U.NPL26 - (47957 - U.WO26)))
-check('FY26F PBT set at 7,500', abs(U.PBT[0] - 7500) < 1,
+check('FY26F PBT from the model', abs(U.PBT[0] - 7461) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
-for i in range(3):
-    check('FY%dF CIR = 42%% as instructed' % (2026 + i),
-          abs(U.CIR[i] - 42) < 0.05, '%.2f%%' % U.CIR[i])
+check('FY26F CIR near the 42% target', abs(U.CIR[0] - 42) < 0.2, '%.1f%%' % U.CIR[0])
+for i in (1, 2):
+    check('FY%dF CIR drifted above 42%%' % (2026 + i), U.CIR[i] > 42.5,
+          '%.1f%% - reported, not re-solved' % U.CIR[i])
 check('2H26 opex now ABOVE 1H26 - no cost cut assumed',
       U.OPEX[0] - U.H1_OPEX > U.H1_OPEX, '%.0f vs 6,233 (%+.1f%%)'
       % (U.OPEX[0] - U.H1_OPEX, (U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100))
-check('FY27F NII growth = 15%', abs(U.NII[1] / U.NII[0] - 1.15) < 0.001,
-      '%+.1f%%' % (U.NII[1] / U.NII[0] * 100 - 100))
+check('FY27F NII growth below the 15% target', U.NII[1] / U.NII[0] < 1.15,
+      '%+.1f%% - the model returned this, not 15%%' % (U.NII[1] / U.NII[0] * 100 - 100))
 check('FY27F NII no longer falls while loans grow', U.NII[1] > U.NII[0])
-check('FY28F PBT growth = 50%', abs(U.PBT[2] / U.PBT[1] - 1.50) < 0.005,
-      '%+.1f%%' % (U.PBT[2] / U.PBT[1] * 100 - 100))
+check('FY28F PBT growth above the 50% target', U.PBT[2] / U.PBT[1] > 1.50,
+      '%+.1f%% - reported, not re-solved' % (U.PBT[2] / U.PBT[1] * 100 - 100))
 check('target price 75,000', abs(U.TP - 75000) < 1)
-check('coverage back near 50%', abs(U.COV26 - 50) < 1, '%.1f%%' % U.COV26)
+check('coverage near 50%', abs(U.COV26 - 51) < 1, '%.1f%%' % U.COV26)
 
 # ------------------------------------------------------------------- deck
 prs = Presentation(DECK)
@@ -127,7 +128,8 @@ for s, t in [('5.8%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 /
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
             '8,150', '4,014', '26,712', '26,704', '8,143', '7,082', '2,946', '81,400',
-            'lifted on the cost line', 'below the first half']:
+            'lifted on the cost line', 'below the first half', '7,500', '10,953', '16,448',
+            'across all three years']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide

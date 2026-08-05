@@ -27,7 +27,7 @@
   "keydata": [
    [
     "NPATMI (26F, VNDbn)",
-    "5,840"
+    "5,809"
    ],
    [
     "Market consensus (26F, VNDbn)",
@@ -35,11 +35,11 @@
    ],
    [
     "EPS Growth (26F, %)",
-    "-1.7"
+    "-2.2"
    ],
    [
     "P/E (26F, x)",
-    "26.5"
+    "26.6"
    ],
    [
     "Market cap (VNDbn)",
@@ -91,11 +91,11 @@
    "1H26 results came in below expectations:",
    "1H26 PBT reached VND4,136bn (-43.6% YoY), 51% of the VND8,100bn FY26 plan, of which VND2,106bn came in 1Q26. The shortfall stems from NIM compression amid deposit competition and a heavier provisioning charge.",
    "The NPL ratio reached 7.54% at end-2Q26, up 1.13%p year-to-date and the highest in the system; Broad NPL at 10.2% (+7%p YoY).  Group 3-5 balances rose approximately VND7,800bn to VND47,957bn, of which about 67% (VND32,000bn) is Group 5, while Group 4 more than doubled (+156%).",
-   "We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Holding the ratio at 5.5% on the smaller loan book would have required net NPL recoveries in 2H26; 5.8% keeps the absolute balance at VND37,157bn and implied net formation just positive. Reserves reached VND27.2tn at end-2Q26 — 56.7% coverage, up from 50.0% at end-FY25 — after VND7.1tn of 1H26 charges. A further VND3.1tn charge in 2H26 funds write-offs of VND11.0tn, or 34% of the Group 5 balance, leaving coverage at 49.8%.",
-   "FY26F PBT set at VND7,500bn on the loan growth reset:",
+   "We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Holding the ratio at 5.5% on the smaller loan book would have required net NPL recoveries in 2H26; 5.8% keeps the absolute balance at VND37,157bn and implied net formation just positive. Reserves reached VND27.2tn at end-2Q26 — 56.7% coverage, up from 50.0% at end-FY25 — after VND7.1tn of 1H26 charges. A further VND3.1tn charge in 2H26 funds write-offs of VND11.0tn, or 34% of the Group 5 balance, leaving coverage at 50.9%.",
+   "FY26F PBT of VND7,461bn on the loan growth reset:",
    "STB recorded VND7,331bn of PBT in 1H25 but only VND297bn in 2H25, as 4Q25 registered a pre-tax loss of VND3,360bn.",
-   "We now carry FY26F loan growth of 2.3%, against the 11.7% previously assumed and the 1.5% delivered in 1H26. That takes gross loans to VND640,643bn and NII to VND24,570bn (-7.9% YoY), and we set FY26F PBT at VND7,500bn (-1.7% YoY) — 7.4% below the board-approved plan of VND8,100bn, where we previously sat marginally above it. The implied 2H26 PBT is VND3,364bn against VND297bn in 2H25.",
-   "Other FY26F assumptions: a provisioning charge of VND10.2tn (-10.4% YoY) and non-interest income of VND5,950bn. We carry CIR at 42.0% across all three years; on 1H26 opex of VND6,233bn that puts 2H26 costs at VND6,585bn, +5.6% on the first half, so no cost reduction is being assumed. FY27F NII grows 15.0% as NIM recovers — NII/average loans goes from 3.88% to 4.15% — which carries FY27F PBT to VND10,953bn (+46%) and FY28F to VND16,448bn (+50%). Separately, STB's seizure of 507 land-use right certificates at LDG's Viva City against VND350bn of overdue principal is immaterial in size but shows the collateral channel the write-off programme depends on."
+   "We now carry FY26F loan growth of 2.3%, against the 11.7% previously assumed and the 1.5% delivered in 1H26. That takes gross loans to VND640,643bn and NII to VND24,531bn (-8.1% YoY), and FY26F PBT to VND7,461bn (-2.2% YoY) — 7.9% below the board-approved plan of VND8,100bn, where we previously sat marginally above it. The implied 2H26 PBT is VND3,324bn against VND297bn in 2H25.",
+   "Other FY26F assumptions: a provisioning charge of VND10.2tn (-10.4% YoY) and non-interest income of VND5,950bn. CIR is 42.1% in FY26F, 43.6% in FY27F and 43.4% in FY28F; on 1H26 opex of VND6,233bn that puts 2H26 costs at VND6,585bn, +5.6% on the first half, so no cost reduction is assumed. FY27F NII grows 9.9% as NIM turns — NII/average loans goes from 3.87% to 3.96% — carrying FY27F PBT to VND9,642bn (+29%) and FY28F to VND15,170bn (+57%). Separately, STB's seizure of 507 land-use right certificates at LDG's Viva City against VND350bn of overdue principal is immaterial in size but shows the collateral channel the write-off programme depends on."
   ],
   "fy": [
    [
@@ -112,9 +112,9 @@
     "22,072",
     "24,532",
     "26,681",
-    "24,570",
-    "28,256",
-    "31,876"
+    "24,531",
+    "26,954",
+    "30,600"
    ],
    [
     "Net non-interest inc. (VNDbn)",
@@ -130,52 +130,52 @@
     "9,595",
     "12,720",
     "7,628",
-    "7,500",
-    "10,953",
-    "16,448"
+    "7,461",
+    "9,642",
+    "15,170"
    ],
    [
     "Net Profit (VNDbn)",
     "7,719",
     "10,087",
     "5,939",
-    "5,840",
-    "8,528",
-    "12,806"
+    "5,809",
+    "7,507",
+    "11,811"
    ],
    [
     "EPS (VND)",
     "3,747",
     "4,896",
     "2,883",
-    "2,834",
-    "4,139",
-    "6,216"
+    "2,820",
+    "3,644",
+    "5,733"
    ],
    [
     "ROE (%)",
     "18.3",
     "20.0",
     "10.3",
-    "8.9",
-    "12.2",
-    "15.9"
+    "8.8",
+    "10.8",
+    "14.9"
    ],
    [
     "P/E (x)",
     "20.0",
     "15.3",
     "26.0",
-    "26.5",
-    "18.1",
-    "12.1"
+    "26.6",
+    "20.6",
+    "13.1"
    ],
    [
     "P/B (x)",
     "3.4",
     "2.8",
     "2.6",
-    "2.3",
+    "2.4",
     "2.1",
     "1.8"
    ],
@@ -184,27 +184,27 @@
     "674,390",
     "748,095",
     "917,106",
-    "1,013,584",
-    "1,124,830",
-    "1,261,601"
+    "1,013,554",
+    "1,125,217",
+    "1,262,387"
    ],
    [
     "Equity (VNDbn)",
     "45,734",
     "54,972",
     "59,867",
-    "65,760",
-    "74,288",
-    "87,094"
+    "65,729",
+    "73,236",
+    "85,047"
    ],
    [
     "BVPS (VND)",
     "22,199",
     "26,683",
     "29,059",
-    "31,920",
-    "36,059",
-    "42,275"
+    "31,905",
+    "35,549",
+    "41,282"
    ],
    [
     "Source: Company data, Mirae Asset Vietnam Research",
@@ -245,7 +245,7 @@
   "keydata": [
    [
     "LNST (26F, tỷ đồng)",
-    "5,840"
+    "5,809"
    ],
    [
     "Kỳ vọng thị trường (25F, tỷ đồng)",
@@ -253,11 +253,11 @@
    ],
    [
     "Tăng trưởng EPS (25F, %)",
-    "-1.7"
+    "-2.2"
    ],
    [
     "P/E (26F, x)",
-    "26.5"
+    "26.6"
    ],
    [
     "Vốn hóa (tỷ đồng)",
@@ -309,11 +309,11 @@
    "KQKD 1H26 thấp hơn kỳ vọng:",
    "LNTT 1H26 đạt 4,136 tỷ đồng (-43.6% CK), hoàn thành 51% kế hoạch năm 8,100 tỷ đồng, trong đó Q1/2026 đóng góp 2,106 tỷ đồng. Mức sụt giảm đến từ NIM thu hẹp trong bối cảnh cạnh tranh huy động gay gắt và chi phí dự phòng tăng đáng kể.",
    "Chất lượng tài sản suy giảm vượt mức ban lãnh đạo dự kiến: tỷ lệ nợ xấu đạt 7.54% cuối Q2/2026, tăng 1.13%p so với đầu năm và cao nhất hệ thống, so với ước tính khoảng 5.6% của ban lãnh đạo. Dư nợ nhóm 3-5 tăng khoảng 7,800 tỷ đồng lên 47,957 tỷ đồng, trong đó khoảng 67% (32,000 tỷ đồng) xếp nhóm 5, nợ nhóm 4 tăng hơn gấp đôi (+156%).",
-   "Chúng tôi đặt giả định nợ xấu FY26F ở 5.8% (từ dưới 4.5%) và FY27F ở 4.0% (từ 3.1%). Giữ 5.5% trên nền dư nợ đã thu hẹp sẽ đòi hỏi nợ xấu phải được thu hồi ròng trong 2H26; mức 5.8% giữ số dư tuyệt đối ở 37,157 tỷ đồng và nợ xấu phát sinh mới vẫn dương. Dự phòng đạt 27.2 nghìn tỷ đồng cuối Q2/2026 — bao phủ 56.7%, tăng từ 50.0% cuối 2025 — sau khi trích 7.1 nghìn tỷ đồng trong 1H26 và trích thêm 3.1 nghìn tỷ đồng trong 2H26 đủ để xóa 11.0 nghìn tỷ đồng, tương đương 34% dư nợ nhóm 5, đưa bao phủ về 49.8%.",
+   "Chúng tôi đặt giả định nợ xấu FY26F ở 5.8% (từ dưới 4.5%) và FY27F ở 4.0% (từ 3.1%). Giữ 5.5% trên nền dư nợ đã thu hẹp sẽ đòi hỏi nợ xấu phải được thu hồi ròng trong 2H26; mức 5.8% giữ số dư tuyệt đối ở 37,157 tỷ đồng và nợ xấu phát sinh mới vẫn dương. Dự phòng đạt 27.2 nghìn tỷ đồng cuối Q2/2026 — bao phủ 56.7%, tăng từ 50.0% cuối 2025 — sau khi trích 7.1 nghìn tỷ đồng trong 1H26 và trích thêm 3.1 nghìn tỷ đồng trong 2H26 đủ để xóa 11.0 nghìn tỷ đồng, tương đương 34% dư nợ nhóm 5, đưa bao phủ về 50.9%.",
    "Đặt LNTT FY26F ở 7,500 tỷ đồng sau khi điều chỉnh tăng trưởng tín dụng:",
    "STB ghi nhận 7,331 tỷ đồng LNTT trong 1H25 nhưng chỉ 297 tỷ đồng trong 2H25, do Q4/2025 lỗ trước thuế 3,360 tỷ đồng.",
-   "Chúng tôi hạ giả định tăng trưởng tín dụng FY26F về 2.3%, so với 11.7% trước đây và 1.5% thực hiện trong 1H26. Dư nợ theo đó còn 640,643 tỷ đồng và NII còn 24,570 tỷ đồng (-7.9% CK), kéo LNTT FY26F xuống 7,500 tỷ đồng (-1.7% CK) — thấp hơn 7% so với kế hoạch 8,100 tỷ đồng đã được ĐHĐCĐ thông qua, trong khi bản trước còn nhỉnh hơn kế hoạch. Mức này hàm ý LNTT 2H26 khoảng 3,364 tỷ đồng so với 297 tỷ đồng của 2H25.",
-   "Các giả định FY26F khác: chi phí dự phòng 10.2 nghìn tỷ đồng (-10.4% CK) và thu nhập ngoài lãi 5,950 tỷ đồng. CIR giữ 42.0% cho cả ba năm; với chi phí 1H26 là 6,233 tỷ đồng, mức này cho chi phí 2H26 ở 6,585 tỷ đồng, +5.6% so với nửa đầu năm, tức không giả định cắt giảm chi phí. NII FY27F tăng 15.0% khi NIM hồi phục — NII/dư nợ bình quân từ 3.88% lên 4.15% — đưa LNTT FY27F lên 10,953 tỷ đồng (+46%) và FY28F lên 16,448 tỷ đồng (+50%). Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án Viva City đối với 350 tỷ đồng dư nợ gốc quá hạn tuy chưa trọng yếu nhưng cho thấy kênh xử lý tài sản đảm bảo mà chương trình xóa nợ 2H26 phụ thuộc vào."
+   "Chúng tôi hạ giả định tăng trưởng tín dụng FY26F về 2.3%, so với 11.7% trước đây và 1.5% thực hiện trong 1H26. Dư nợ theo đó còn 640,643 tỷ đồng và NII còn 24,531 tỷ đồng (-8.1% CK), kéo LNTT FY26F xuống 7,461 tỷ đồng (-2.2% CK) — thấp hơn 8% so với kế hoạch 8,100 tỷ đồng đã được ĐHĐCĐ thông qua, trong khi bản trước còn nhỉnh hơn kế hoạch. Mức này hàm ý LNTT 2H26 khoảng 3,324 tỷ đồng so với 297 tỷ đồng của 2H25.",
+   "Các giả định FY26F khác: chi phí dự phòng 10.2 nghìn tỷ đồng (-10.4% CK) và thu nhập ngoài lãi 5,950 tỷ đồng. CIR ở 42.1% năm FY26F, 43.6% FY27F và 43.4% FY28F; với chi phí 1H26 là 6,233 tỷ đồng, mức này cho chi phí 2H26 ở 6,585 tỷ đồng, +5.6% so với nửa đầu năm, tức không giả định cắt giảm chi phí. NII FY27F tăng 9.9% khi NIM đảo chiều — NII/dư nợ bình quân từ 3.87% lên 3.96% — đưa LNTT FY27F lên 9,642 tỷ đồng (+29%) và FY28F lên 15,170 tỷ đồng (+57%). Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án Viva City đối với 350 tỷ đồng dư nợ gốc quá hạn tuy chưa trọng yếu nhưng cho thấy kênh xử lý tài sản đảm bảo mà chương trình xóa nợ 2H26 phụ thuộc vào."
   ],
   "fy": [
    [
@@ -330,9 +330,9 @@
     "22,072",
     "24,532",
     "26,681",
-    "24,570",
-    "28,256",
-    "31,876"
+    "24,531",
+    "26,954",
+    "30,600"
    ],
    [
     "Thu nhập ngoài lãi (tỷ đồng)",
@@ -348,52 +348,52 @@
     "9,595",
     "12,720",
     "7,628",
-    "7,500",
-    "10,953",
-    "16,448"
+    "7,461",
+    "9,642",
+    "15,170"
    ],
    [
     "LNST (tỷ đồng)",
     "7,719",
     "10,087",
     "5,939",
-    "5,840",
-    "8,528",
-    "12,806"
+    "5,809",
+    "7,507",
+    "11,811"
    ],
    [
     "EPS (đồng)",
     "3,747",
     "4,896",
     "2,883",
-    "2,834",
-    "4,139",
-    "6,216"
+    "2,820",
+    "3,644",
+    "5,733"
    ],
    [
     "ROE (%)",
     "18.3",
     "20.0",
     "10.3",
-    "8.9",
-    "12.2",
-    "15.9"
+    "8.8",
+    "10.8",
+    "14.9"
    ],
    [
     "P/E (x)",
     "20.0",
     "15.3",
     "26.0",
-    "26.5",
-    "18.1",
-    "12.1"
+    "26.6",
+    "20.6",
+    "13.1"
    ],
    [
     "P/B (x)",
     "3.4",
     "2.8",
     "2.6",
-    "2.3",
+    "2.4",
     "2.1",
     "1.8"
    ],
@@ -402,27 +402,27 @@
     "674,390",
     "748,095",
     "917,106",
-    "1,013,584",
-    "1,124,830",
-    "1,261,601"
+    "1,013,554",
+    "1,125,217",
+    "1,262,387"
    ],
    [
     "VCSH (tỷ đồng)",
     "45,734",
     "54,972",
     "59,867",
-    "65,760",
-    "74,288",
-    "87,094"
+    "65,729",
+    "73,236",
+    "85,047"
    ],
    [
     "Giá trị sổ sách (đồng)",
     "22,199",
     "26,683",
     "29,059",
-    "31,920",
-    "36,059",
-    "42,275"
+    "31,905",
+    "35,549",
+    "41,282"
    ],
    [
     "Nguồn: Dữ liệu công ty, Mirae Asset Vietnam Research",
