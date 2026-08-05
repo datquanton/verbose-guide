@@ -17,8 +17,8 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
-| **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
-| KDH insider buy — **TWO separate disclosures, not one** | **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
+| **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
+| KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
@@ -79,6 +79,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **07:53 ICT · OWNERSHIP / COMPANY (lanes 7, 3) — a five-month-old item surfaced as if current, and inside
+  it is the completion rate two live forward signals have been assuming without saying so.**
+  *(Vietnam opens in ~1 hour. Period trap disarmed first: the transactions ran **12-Mar to 09-Apr-2026** —
+  a tag-aggregation page presented them as today's news. Nothing here is new information.)*
+  **THE MEASUREMENT.** Trần Vũ Minh, son of chairman Trần Đình Long, **registered 50m HPG shares and bought
+  33.3m — 66.6%** — by matched order, ~₫849–940bn in a band of **₫25,500–28,250**; family and related parties
+  ended above 2.7bn shares, **~35.45%** of charter capital. **The stated reason for the shortfall is price:**
+  *"market developments did not suit the disbursement plan."* **An insider bought less because the price ran.**
+  **WHY IT BEARS ON KDH AND VCI, NOT HPG.** The file holds two open registrations and reads both as forward
+  signals — **KDH** 0.056% → 1.838% (20m shares, window to **21-Aug**) and **VCI** Tô Hải 15.13% → 17.83%
+  (31.05m shares, ~₫612bn, window to **02-Sep**). OPEN-DECISIONS states that **two** intermediate 1%-crossing
+  disclosures should fire during VCI's window. **That expectation has a completion assumption inside it and it
+  was never stated.** **The arithmetic:** VCI's 2.70pp means crossing **16% needs 32.2%** completion and
+  **17% needs 69.3%**; KDH's 1.782pp means crossing **1% needs 53.0%**. **At the one comparable rate available
+  — 66.6% — KDH's 1% fires, VCI's 16% fires, and VCI's 17% does not.** The stated expectation of two VCI
+  disclosures **fails by 2.7 percentage points of completion.** *Not a prediction: one observation is not a
+  base rate — different company, different holder, different regime. **The value is replacing an unstated 100%
+  with a measured 67%.***
+  **AND THE MECHANISM POINTS THE WRONG WAY RIGHT NOW.** A registration is an *intention* priced when filed, and
+  insiders buy less as the price rises. Item 2 established at 04-Aug 00:53 that the market has recovered ~4.6%
+  from the 24-Jul trough back to the file's prices — **exactly the condition that produced HPG's shortfall.**
+  **Note the asymmetry:** a completed buy confirms the signal; **a partial buy is ambiguous** — consistent with
+  conviction meeting a bad entry *and* with conviction weakening — so a shortfall **degrades** the read rather
+  than inverting it.
+  **SHARE-COUNT VERIFICATIONS ARE UNAFFECTED — CHECKED EXPLICITLY.** KDH's count was confirmed from 20m ÷
+  1.782pp, **a ratio of two registered quantities filed together**, so partial execution cannot disturb it.
+  Same for VCI's 0.07% check. Neither is touched.
+  **A FIRST DATED PRICE FOR HPG, AND IT DOES NOT BEHAVE LIKE THE OTHER FOUR.** Item 2 carries dated prices for
+  TCX, TCB, VCI and KDH, **all 3.4–4.9% below** the file. **HPG had none.** This gives ₫25,500–28,250 over
+  12-Mar→09-Apr against the file's **₫20,800**. **The adjustment trap applies and is not resolved:** HPG issued
+  767m shares as a 10% stock dividend, so **if the ex-date fell after April** the band adjusts to
+  **₫23,182–25,682 (+11.5% to +23.5%)**; **if before**, the raw band stands (**+22.6% to +35.8%**). The ex-date
+  is not established and **`vsd.vn` is gateway-blocked — not cheaply resolvable.** **What it cannot do:** date
+  the file's price — four months is too far back, where the other four sit within days. **What it does say:**
+  HPG fell **12–26%** between early April and whenever ₫20,800 was struck, a large move with no trace in this
+  file. **Recorded for item 2, not acted on.**
+  **NOTHING MODELLED.** No price, probability, branch, weight or confidence moved.
+  *Also checked and already on file, no entry made: HPG charter capital ₫84,430bn (matches `shares_outstanding`
+  8,443m exactly); TCB → ₫113,700bn, VPB → ₫106,200bn (file 10,620.7m — exact), MBB "past ₫100,000bn" (file
+  ₫102,687bn — consistent with crossing the mark, not a confirmation of it); MBB FY PBT ₫39,500bn — the file
+  already found this understates the plan's ceiling of ₫41,121bn; VPB `target_pbt` 41,600 vs the ">₫41,000bn"
+  quoted. **One refinement worth noting: TCB's ₫113,700bn endpoint is 11,370m shares against the file's
+  11,337.9m — the ₫321bn/32.1m gap is the ESOP tranche the file's count omits, 0.28%.***
 
 - **06:53 ICT · MACRO/POLICY (lane 1) — the gated credit print landed, and it landed two days before the gate
   said it would. Plus ₫220,000bn of subsidised lending allocated to four banks that are not ours.**
