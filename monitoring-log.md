@@ -81,6 +81,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **02:53 ICT · INDEX & FLOWS (lane 4) + an integrity check on today's own arithmetic — item 5 prices an FTSE
+  event tree for TCX and has never established that TCX is in the index.**
+  *(US session not yet closed; the close is read at 04:53 per the file's own 113-minute indexing measurement.)*
+  **THE INTEGRITY CHECK FIRST, BECAUSE TODAY'S CONCENTRATION WORK DEPENDS ON IT.** Every ratio computed today —
+  TCB's stake at 51.8% of its own cap, VPX's at 20.0%, the four-broker P/B set — rests on `market_cap_bn`.
+  **Checked all eight: `price × shares_outstanding` matches `market_cap_bn` to within 0.005% on every name. So
+  the 04-Aug share-count repairs did propagate into the caps** — which is the exact failure mode logged three
+  times today, derived figures outliving their inputs. **Confirmation logged, per the rule that a verification
+  log recording only failures cannot tell you which parts of a file are sound.**
+  **AND THE SECOND CHECK IS AN IDENTITY, SO IT IS REPORTED AS ONE.** `pe_ttm × npat_ttm` also matches
+  `market_cap_bn` on all eight — **but `pe_ttm` is defined as `market_cap / npat_ttm`, so that test cannot
+  fail.** It is the dead detector of 03-Aug, and reporting it as a passed check would be the same error this
+  file caught itself making at 22:53. **One real check passed; one carries nothing.**
+  **LANE 4 — MOSTLY CONFIRMATION.** 21-Sep effective, phased into 2027, 0.22% of the FTSE Emerging Index, 28
+  stocks, prefunding removed for foreign institutions, March-2026 interim review confirms on track. **Three
+  weights are new: 0.04% of FTSE Global All Cap, 0.02% of FTSE All-World, 0.34% of FTSE Emerging All Cap.**
+  **AND ONE THING IS NOT ON FILE AND MATTERS.** The coverage names some of the 28 likely constituents — **Hòa
+  Phát Group among them — and does not name TCX.** **Open item 5 prices a TCX FTSE event tree at
+  +20%/+5%/−15%, EV +6.25%**, already criticised on three grounds (phased inclusion, announcement banked in
+  April, four years of foreign net selling). **A fourth would be decisive and has never been checked: is TCX
+  actually in the index the tree prices?**
+  **THE INFERENCE IS EXPLICITLY NOT DRAWN.** The summary names **eight of twenty-eight** and says *"including
+  prominent names such as."* **TCX's absence from a partial list is not evidence of absence from the list**, and
+  this file has refused that shape of inference repeatedly. **What is established is narrower and still useful:
+  item 5 has never recorded that TCX is a constituent, and a tree pricing an index event should rest on that
+  fact rather than assume it.** *Concrete grounds for doubt: TCX began trading **21-Oct-2025**, eleven months
+  before the effective date, and index entry carries seasoning, free-float and liquidity tests — and its free
+  float is thin, **TCB owning 94.17%**, established at 22:53 today. **Neither fact decides it. They make the
+  question worth one search rather than none.***
+  **AND THE ASYMMETRY IS THE OTHER HALF.** **HPG is named in the inclusion list and this file prices no FTSE
+  event for it at all** — the book's largest non-financial position, 16.8%, with nothing modelled, while a 5.5%
+  broker whose inclusion is unestablished carries a +6.25% EV tree. ***Not a case for adding an HPG tree:*** the
+  file's own arithmetic puts tranche one at 0.022% of the FTSE Emerging Index across 28 stocks, **so both trees
+  should be small and the existing one is probably too large. The finding is the asymmetry in what got modelled,
+  not a case for modelling more.**
+  **AND A CONTRADICTION I CREATED TODAY, NOW LABELLED.** `effective_broker_pct` still reads 12.23 / 19.54 while
+  two entries dated today put it at 23.63 / 31.53. **The values are left unchanged deliberately — §4 — but a
+  `_SUPERSEDED` marker now sits beside the field.** At 18:53 this file found a KDH *field* contradicting a KDH
+  *prose string* in the same object and noted that **no arithmetic check can see that class of disagreement.**
+  **Having just created one, labelling it is the minimum.**
+  **NOTHING MODELLED.**
+
 - **01:53 ICT · BANKS (structure sweep, pass 9 — the last named item) — the first profit figure anywhere in the
   insurance work, and it deflates my own entry from nine hours ago.**
   **WHAT IS NOW ON FILE.** **MB Life** (renamed from MB Ageas Life in **August 2025** — *same company, recorded
