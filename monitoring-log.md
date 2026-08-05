@@ -34,7 +34,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
-| **⚠ MoIT / trade-defence back-sweep — NEW 02-Aug, and it has never been run** | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
+| **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
 **Why 30 July is hard, confirmed 2026-07-29.** Circular 96/2020/TT-BTC requires a listed
 parent company with subsidiaries to disclose its quarterly financial statements **within 30 days
@@ -79,6 +79,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **08:53 ICT · TRADE DEFENCE (lanes 2, 5) — the MoIT back-sweep created 02-Aug and never run, ran. HPG's
+  27.83% shield is temporary, its ordinary deadline lapsed nine days ago, and its own expiry is unestablished.**
+  *(Vietnam opens in 7 minutes; no session data yet. Ran the standing back-sweep instead of waiting.)*
+  **THE STATUTORY CLOCK — the finding.** Vietnamese trade-defence investigations must conclude within **nine
+  months of initiation, extendable by up to three**. This one was **initiated 27-Oct-2025**. **Nine months is
+  27-July-2026 — already past, nine days ago — and no final conclusion has been issued.** **The outer bound is
+  therefore 27-October-2026.** So the case is in its extension window, *or* a final was issued and not found —
+  the second is possible and is not assumed. **A procedural step also surfaced, not on file:** the Trade
+  Remedies Authority held its **public consultation hearing on 03-July-2026**, Hòa Phát and Formosa
+  participating, Chinese respondents arguing the grounds were insufficient. *A hearing 24 days before the
+  ordinary deadline is the shape of a final prepared for late July and then extended.*
+  **WHY THIS MATTERS TO A FILE THAT ALREADY HELD 612 IN FULL DETAIL.** The existing entry records 24 HS codes,
+  four exempt grades, the width band, the carbon and thickness exclusions and the 650,000t volume — **and it
+  records the measure as though it were a settled feature of HPG's operating environment. It is not.** The word
+  *temporary* was in the entry from the start and **nothing in the file ever attached a date to it.** A 27.83%
+  duty protecting **16.8% of the book** now has a dated outer bound and a **lapsed** ordinary one.
+  **THE OPEN SUB-QUESTION, AND IT IS THE SHARPER HALF.** **Decision 612's own expiry is not established.** It
+  takes effect 15 days after issue (17-Apr-2026) and, per the coverage, **states no term.** If a temporary
+  anti-circumvention duty runs a fixed period shorter than the extended investigation window, **there is an
+  interval with no protection and a case still open.** **No term is invented here.** Established: effective
+  17-Apr, ordinary deadline 27-Jul (passed), outer deadline 27-Oct. Not established: whether the duty survives
+  to the outer deadline unaided.
+  **AND A SCOPE GAP THAT BEARS ON OPEN ITEM 6.** 612 covers **China only**, widths **1,880–2,300mm only**.
+  Item 6's whole argument for a `spot_persists` branch is that **Indian** HRC enters Vietnam duty-free — the
+  2025 India case was terminated on a <3%-of-imports negligibility test — after the EU cut India's quota ~34%
+  and made Vietnam its largest destination. **612 does nothing about that channel.** HPG's headline protection
+  and the competitive pressure the file identifies as the reason for spot to persist are **about different
+  countries**; reading 612 as a general shield would be a category error. **This does not weaken item 6 — it
+  removes an implicit offset that was never stated but would have been reached for.**
+  **NOT SIZED, DELIBERATELY.** ~650,000t in H1/2025, ~15× YoY — roughly 1.3m t annualised. The file holds
+  HPG's **total** Q1 volume (3.0m t) but **not its HRC-specific volume**, so displaced imports cannot be
+  expressed as a share of HPG's HRC book without inventing the denominator. **Stated as a volume, not a share.**
+  **NOTHING MODELLED, AND THE TRIGGER CALL IS MADE EXPLICITLY.** This changes what the file knows about a
+  **policy input**, not about HPG's **earnings evidence**: no branch, probability, price or confidence moved and
+  `hpg.evidence` is untouched. **It does NOT fire escalation trigger 4**, on the same reasoning `circular_25`
+  used to decline a confidence *raise* — a change in the operating environment is not evidence about a
+  forecast. Recorded as a dated gate instead.
 
 - **07:53 ICT · OWNERSHIP / COMPANY (lanes 7, 3) — a five-month-old item surfaced as if current, and inside
   it is the completion rate two live forward signals have been assuming without saying so.**
