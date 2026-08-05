@@ -33,7 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
-| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **STILL TO RUN: HPG (HPA share count / retained stake / consolidation), KDH (Keppel JV entities, Bình Trưng Mới), TCX, VPX, VCI.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
+| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **STILL TO RUN: KDH (Keppel JV entities, Bình Trưng Mới), TCX, VPX, VCI, MBB non-life insurer.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -80,6 +80,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **17:53 ICT · HPG + VCI (structure sweep, pass 2) — every open sub-question from 15:53 is now answered, one
+  hypothesis I formed while writing it is dead, and the VCI/HPG link turns out to be a direct equity position.**
+  **THE STRUCTURE.** HPA charter capital **₫2,850bn** after the IPO (from ₫2,550bn) → **285.0m shares** at par
+  ₫10,000. 30m placed at ₫41,900, gross ~₫1,257bn, **net ₫1,206bn** after ~₫50bn of costs. **HPG holds 242.2m
+  shares = 84.999%**; ten foreign investors 1.163%; 964 small holders the rest.
+  **THAT CLOSES THE PHỐ NỐI QUESTION, AND AS A NO.** **At 85% retained there is no deconsolidation, so HPA
+  cannot be the source of the ₫4,123bn gain** the file excludes from `fy26e_npat`. The 15:53 entry named the
+  possibility and refused to infer it; **the refusal is now discharged with a number rather than left hanging.**
+  A minority sell-down inside a consolidated subsidiary raises consolidated equity and creates a 15% NCI — **it
+  does not create a P&L gain.**
+  **A HYPOTHESIS I FORMED AND THEN KILLED.** Reading *"định giá cao nhất ngành"* I expected HPA to have been
+  floated at a **premium** multiple to its parent — a governance point. **It was not.** HPA's FY2025 NPAT is
+  **₫1,600bn** (+55%, 22% above plan); at the IPO price the company was worth **₫11,942bn — a P/E of 7.46×
+  against HPG's own `pe_ttm` of 7.51×. The same multiple to within 0.6%.** *"Highest in the sector" is about
+  agriculture peers, not the parent, and I nearly read it as the latter.*
+  **WHAT THE MARKET HAS DONE SINCE — and the date is convenient.** **HPA traded at ₫32,000 on 22-Jul-2026, down
+  23.6% from the ₫41,900 IPO.** Cap ₫9,120bn; **HPG's 84.999% is worth ₫7,752bn = 4.41% of HPG's ₫175,614bn.**
+  *22-July is within days of the ~20-July date item 2 infers for this file's own prices — for once a peer price
+  and the book's prices are the same vintage.*
+  **AND HPA'S TRAJECTORY CORRECTS A CHARACTERISATION IN THIS FILE.** `hpg.evidence` says *"steel is 68% of H1
+  profit and 93% of revenue — **non-steel is overwhelmingly the Phố Nối one-off**."* **That is not right.** HPA
+  is **recurring, dividend-paying and separately priced**: H1/2026 revenue ₫3,379bn, NPAT ₫648bn; **annualised
+  ₫1,296bn = −19% on FY2025**, and HPG's 85% share of that is **~₫1,102bn = 4.7% of the ₫23,336bn base branch.**
+  **Small, but not a one-off, and declining.** Note the plan too: **HPA guides FY2026 NPAT of ₫1,005bn, −37% on
+  2025**, and H1's ₫648bn is 64% of that already-reduced plan. **The run-rate beats the plan while falling
+  year-on-year — both true, and the file should hold both.**
+  **A CASH FLOW THE FILE HAD NO RECORD OF.** HPA pays a **30% cash dividend for 2026** plus the remaining **21%
+  of its 2025 dividend, and HPG is due ₫569bn of it.** Eliminated on consolidation, but **real cash to a parent
+  carrying record financial debt of ₫98,530bn with a newly structural interest line (item 28).** 15% leaks to
+  minorities. Small; recorded because the file's HPG cash picture had **no non-steel inflow in it at all.**
+  **AND THE CROSS-HOLDING THAT UPGRADES THIS MORNING'S FINDING.** **Vietcap bought ~12m HPA shares — 39% of the
+  entire offering — as principal.** At ₫41,900 that is **~₫502.8bn of VCI's own money in a subsidiary of HPG.**
+  At 15:53 the VCI/HPG link was recorded as a **revenue correlation**, carefully. **It is more than that: a
+  direct equity position.** Sized against VCI: **~2× its entire Q2 NPAT of ₫251bn**, and at ₫32,000 the paper
+  loss is **₫118.8bn — 47% of one quarter's profit.** The file's prop-book note reads *"prop book −430bn on
+  FPT/MWG/KDH"*; **HPA is a fourth name and is not on that list.**
+  **WHAT MUST NOT BE CONCLUDED, AND THIS IS THE DISCIPLINE POINT.** **The ₫118.8bn is NOT a Q3 hit.** The IPO
+  was **January** and the ₫32,000 print is **22-July**, so most or all of that decline falls in H1 and would
+  already be inside VCI's reported H1 marks. Also unestablished: whether VCI still holds it, at what size, under
+  which classification. **What is fair to say: VCI's Q3 needs PBT of ₫594bn — 2.19× its Q2 actual — and it
+  carries an undisclosed-size position in a name down 23.6% from cost. That raises the VARIANCE around the kill
+  criterion; it does not move its central estimate.**
+  **NOTHING MODELLED. And no sum-of-the-parts is attempted:** HPA is **consolidated**, so its earnings are
+  already inside HPG's reported numbers and adding a stake value to a P/E-based valuation would double-count.
 
 - **16:53 ICT · BANKS (lanes 3, 5) — ran the structure sweep on its first eligible sweep. It found a zero:
   a whole earnings pillar missing from 51.5% of the book.**
