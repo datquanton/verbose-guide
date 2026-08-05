@@ -21,17 +21,22 @@ C6 = ("- We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% deli
       "NII falls to VND24,531bn (-8.1% YoY), then recovers 9.9% in FY27F as NIM turns.\n"
       "- NIM troughs in FY26F as elevated NPLs freeze accrued interest income while funding costs "
       "remain sticky, before recovering in FY27F.\n"
-      "- We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
+      "- We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
-      "write-offs; a further VND4.0tn charge in 2H26 funds VND11.8tn of write-offs, or 37% of the "
-      "Group 5 balance, leaving coverage at 50.9%. Holding coverage near 50% is what caps the "
-      "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
-      "1H26 pace.\n"
+      "write-offs; a further VND{h2:.1f}tn charge in 2H26 funds VND{wo:.1f}tn of write-offs, or "
+      "34% of the Group 5 balance, leaving coverage at {cov:.1f}%. Holding coverage near 50% is "
+      "what caps the improvement at 5.8%: on the smaller loan book, 5.5% would have required net "
+      "NPL recoveries in 2H26 rather than merely slower formation.\n"
       "- We set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.1f}% below the "
       "board-approved plan of VND8,100bn, on CIR of {c26:.1f}% easing to {c27:.1f}% in FY27F "
-      "and {c28:.1f}% in FY28F, with 2H26 costs {h2oy:+.1f}% on the first half.").format(
+      "and {c28:.1f}% in FY28F, with 2H26 costs {h2oy:+.1f}% on the first half. FY27F and FY28F "
+      "each carry VND1,000bn of specific charge above what write-offs consume, taking PBT to "
+      "VND{p27:,.0f}bn (+{g27:.0f}%) and VND{p28:,.0f}bn (+{g28:.0f}%).").format(
           pbt=U.PBT[0], yoy=U.PBT_YOY, vp=-U.VS_PLAN, c26=U.CIR[0], c27=U.CIR[1],
-          c28=U.CIR[2], h2oy=(U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100)
+          c28=U.CIR[2], h2oy=(U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100,
+          h2=U.H2_PROV / 1000, wo=U.WO26 / 1000, cov=U.COV26,
+          p27=U.PBT[1], g27=U.PBT[1] / U.PBT[0] * 100 - 100,
+          p28=U.PBT[2], g28=U.PBT[2] / U.PBT[1] * 100 - 100)
 
 SHEET1 = {
     'C6': ('str', C6),

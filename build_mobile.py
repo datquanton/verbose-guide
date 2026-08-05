@@ -22,6 +22,7 @@ from pptx.chart.data import CategoryChartData
 from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION, XL_LABEL_POSITION
 from pptx.dml.color import RGBColor
 from chart_data import SERIES, YRS
+import update_stb_loans as U
 
 SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
        'ad4f5d0b-Mobile_Report_MBB_1Q26_EN.pptx')
@@ -30,6 +31,27 @@ R = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
 NAVY, AMBER = '01437C', 'F38120'
 
 DATE = '05.08.2026'
+
+# STB estimates come off update_stb_loans, which reads the model, so this table
+# cannot drift from the main deck.  FY25 actuals lead, then the three forecast
+# years; P/E and P/B are struck on the target price in every column.
+STB_LBL = {'en': ['NII (VNDbn)', 'Non-II (VNDbn)', 'Operating profit (VNDbn)',
+                  'NP (VNDbn)', 'EPS (VND)', 'ROE (%)', 'P/E (x)', 'P/B (x)'],
+           'vn': ['Thu nhập lãi thuần (tỷ đồng)', 'Thu nhập ngoài lãi (tỷ đồng)',
+                  'LNHĐ (tỷ đồng)', 'LNST (tỷ đồng)', 'EPS (đồng)', 'ROE (%)',
+                  'P/E (lần)', 'P/B (lần)']}
+_n = lambda vs: ['{:,.0f}'.format(v) for v in vs]
+_d = lambda vs: ['{:.1f}'.format(v) for v in vs]
+STB_VALS = [['26,681'] + _n(U.NII),
+            ['5,376'] + _n(U.NONII),
+            ['7,628'] + _n(U.PBT),
+            ['5,939'] + _n(U.NPATMI),
+            ['2,883'] + _n(U.EPS),
+            ['10.3'] + _d(U.ROE),
+            _d([U.TP / e for e in (U.HIST_EPS[-1],) + U.EPS]),
+            _d([U.TP / b for b in (U.HIST_BVPS[-1],) + U.BVPS])]
+STB_ROWS = {k: list(zip(v, STB_VALS)) for k, v in STB_LBL.items()}
+
 BLOCKS = [
  dict(tick='stb', lang='en', sector='Banks',
       name='Sacombank\n(HOSE: STB)',
@@ -53,16 +75,10 @@ BLOCKS = [
          'We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% delivered in '
          '1H26. NII falls to VND24,531bn, then recovers 9.9% in FY27F. CIR 42.1% to 38%.'),
         ('HOLD, target price VND75,000',
-         'The recovery sits in FY28F, when PBT reaches VND17,271bn (+59%) on a cleaned '
-         'book. 2H26 costs run 5.6% above the first half - no cost cut assumed.')],
-      rows=[('NII (VNDbn)', ['26,681', '24,570', '24,388', '27,512']),
-            ('Non-II (VNDbn)', ['5,376', '5,950', '7,226', '8,517']),
-            ('Operating profit (VNDbn)', ['7,628', '7,461', '10,872', '17,271']),
-            ('NP (VNDbn)', ['5,939', '5,809', '8,465', '13,447']),
-            ('EPS (VND)', ['2,883', '2,820', '4,109', '6,527']),
-            ('ROE (%)', ['10.3', '8.8', '12.1', '16.6']),
-            ('P/E (x)', ['26.0', '26.6', '18.3', '11.5']),
-            ('P/B (x)', ['2.6', '2.4', '2.1', '1.8'])]),
+         'The recovery sits in FY28F, when PBT reaches VND16,271bn (+65%) on a cleaned '
+         'book. FY27F and FY28F each carry VND1,000bn of provisioning above what '
+         'write-offs consume, so reserve stock keeps building.')],
+      rows=STB_ROWS['en']),
  dict(tick='stb', lang='vn', sector='Ngân hàng',
       name='Sacombank\n(HOSE: STB)',
       head='Xử lý nợ xấu bằng nguồn dự phòng đã trích, không bằng lợi nhuận',
@@ -86,15 +102,10 @@ BLOCKS = [
          'Hạ tăng trưởng tín dụng FY26F về 2.3% từ 11.7%, ngang mức 1.5% thực hiện trong '
          '1H26. NII còn 24,531 tỷ đồng, hồi phục 9.9% năm FY27F. CIR 42.1% về 38%.'),
         ('NẮM GIỮ, giá mục tiêu 75,000 đồng',
-         'Đà hồi phục dời sang FY28F, khi LNTT đạt 17,271 tỷ đồng (+59%) trên nền dư nợ đã sạch. Chi phí 2H26 cao hơn nửa đầu năm 5.6% — không giả định cắt giảm.')],
-      rows=[('Thu nhập lãi thuần (tỷ đồng)', ['26,681', '24,570', '24,388', '27,512']),
-            ('Thu nhập ngoài lãi (tỷ đồng)', ['5,376', '5,950', '7,226', '8,517']),
-            ('LNHĐ (tỷ đồng)', ['7,628', '7,461', '10,872', '17,271']),
-            ('LNST (tỷ đồng)', ['5,939', '5,809', '8,465', '13,447']),
-            ('EPS (đồng)', ['2,883', '2,820', '4,109', '6,527']),
-            ('ROE (%)', ['10.3', '8.8', '12.1', '16.6']),
-            ('P/E (lần)', ['26.0', '26.6', '18.3', '11.5']),
-            ('P/B (lần)', ['2.6', '2.4', '2.1', '1.8'])]),
+         'Đà hồi phục dời sang FY28F, khi LNTT đạt 16,271 tỷ đồng (+65%) trên nền dư nợ '
+         'đã sạch. FY27F và FY28F mỗi năm trích thêm 1,000 tỷ đồng ngoài phần bù xóa nợ, '
+         'nên bộ đệm dự phòng tiếp tục dày lên.')],
+      rows=STB_ROWS['vn']),
  dict(tick='fpt', lang='en', sector='IT',
       name='FPT Corporation\n(HOSE: FPT)',
       head='Growth held, and the AI line started paying',

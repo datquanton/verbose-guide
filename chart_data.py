@@ -20,9 +20,9 @@ SERIES = [
     ('STB', 'is', 'Non-interest income', 'Thu nhập ngoài lãi',
      [4145, 5376, 5950, 7226, 8517]),
     ('STB', 'pbt', 'Profit before tax', 'Lợi nhuận trước thuế',
-     [12720, 7628, 7461, 10872, 17271]),
+     [12720, 7628, 7461, 9872, 16271]),
     ('STB', 'val_pe', 'P/E at target price (x)', 'P/E theo giá mục tiêu (lần)',
-     [14.6, 26.0, 26.6, 18.3, 11.5]),
+     [14.6, 26.0, 26.6, 20.1, 12.2]),
     ('STB', 'val_pb', 'P/B at target price (x)', 'P/B theo giá mục tiêu (lần)',
      [2.8, 2.6, 2.4, 2.1, 1.8]),
     ('FPT', 'rev', 'Revenue', 'Doanh thu',
@@ -41,7 +41,8 @@ NAVY, AMBER = '01437C', 'F38120'
 NOTES = [
     'Units: VNDbn except P/E and P/B, which are multiples.',
     'STB is on FinModel_STB_2Q26 with FY26F loan growth cut to +2.3% '
-    '(Model!Y121, Y124+Y131, Y144).',
+    '(Model!Y121, Y124+Y131, Y144). FY27F and FY28F PBT carry a VND1,000bn '
+    'provisioning overlay above write-offs (Model!Z278, AA278).',
     'FPT is on FPT_2Q26, Report sheet rows 3, 15 and 20.',
     'FPT FY26F revenue is not comparable with FY25 as reported: FPT Telecom is '
     'equity-accounted from FY26F. Against a restated FY25 of 50,607 the change is +13.2%.',
