@@ -15,7 +15,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
-| **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services follows ~05-Aug** | 1 |
+| **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
@@ -80,6 +80,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **21:53 ICT · MACRO (lane 1) — the gated ISM Services print landed, and its two halves point opposite ways.
+  I am not claiming it strengthens the FX-support argument.**
+  *(Released today 10:00 ET = 21:00 ICT; read 53 minutes after. **The preview article published this morning was
+  not used** — only the release.)*
+  **THE NUMBERS.** Headline **Services PMI 54.1** against 54.0 in June, the **25th consecutive month of
+  expansion** — essentially flat, and a shade below the previews' *"expected to accelerate"* framing. **Prices
+  Paid 70.3** against consensus **65.0** and **67.7** prior — **+2.6 on the month, +5.3 vs consensus.**
+  **Employment 47.4** against consensus **51.2** and **51.2** prior — **−3.8 on the month, −3.8 vs consensus,
+  and into contraction.**
+  **THE INFLATION LEG IS CORROBORATED OUT OF SAMPLE, and this file has a history here that makes precision
+  necessary.** On 03-Aug it claimed ISM Manufacturing at 55.6 *"restores the FX support"*, **withdrew** the
+  claim when the market didn't reprice hawkishly, then **reinstated only the narrower fundamental claim** on
+  Prices Paid 71.1 — flagging that reinstatement as the suspicious move it looked like. **Today is an
+  independent test of the narrower claim, from a different survey covering a different and much larger part of
+  the economy: Manufacturing Prices Paid 71.1, Services Prices Paid 70.3 — both above 70, both above
+  consensus.** **The inflation-pressure claim is corroborated. The market-reaction claim stays withdrawn and is
+  not revived by this.**
+  **AND THE OTHER HALF GOES THE OTHER WAY, WHICH IS THE POINT.** **Services employment at 47.4 is contraction,
+  and a weak labour market is exactly what produces cuts.** Manufacturing employment was reported back in
+  expansion on 03-Aug — **the two surveys now disagree on labour while agreeing on prices.** **The release is
+  stagflationary in shape — prices up, employment down — and that supports neither the hawkish nor the dovish
+  read cleanly.** **I am not claiming this strengthens the FX-support argument: it strengthens one leg and
+  weakens the other.** Saying so is the correction of the 03-Aug error rather than a repeat of it — **that error
+  was reading one component and declaring a conclusion.**
+  **A PRE-REGISTRATION FOR FRIDAY, WHICH MAKES IT SCOREABLE.** The **US July employment report lands 07-Aug**,
+  already gated. **Services is the larger share of US employment, so an employment index falling 51.2 → 47.4
+  raises the probability of a weak payroll print. That is the direction I expect, written down before the
+  event.** *The limit, stated with it: **ISM employment sub-indices are poor month-to-month predictors of
+  payrolls** — diffusion indices over firms, not headcount — so this is a tilt, not a forecast, **and a strong
+  payroll print would not falsify the inflation leg.***
+  **THE VIETNAM CHAIN, AND IT IS WORSE THAN EITHER DIRECTION ALONE.** The chain runs Fed → US rates → USD/VND →
+  SBV's two-sided constraint, with USD/VND at a record ₫25,338 and CPI near 4.4%. **A cleanly hawkish print
+  tightens the FX side; a cleanly dovish one eases it. A stagflationary one makes the Fed's path less
+  predictable — and unpredictability is worse for an FX-constrained central bank than a known direction.**
+  **NOTHING MODELLED.** No position, branch or confidence moves — **a change in the environment is not evidence
+  about a forecast**, the rule established on `circular_25` and applied six times today.
 
 - **20:53 ICT · VPX (structure sweep, pass 5) — the file has carried a "CAEX option" since inception, with
   branch probabilities, an EV, an armed kill criterion and a ₫1,097bn injection — and no ownership percentage
