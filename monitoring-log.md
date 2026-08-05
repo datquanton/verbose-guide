@@ -10,7 +10,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | Item | Not before | Lane |
 |---|---|---|
 | HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%; **Q2 NPAT ₫770bn — the "profit ≈ zero" on this row was wrong, corrected 02-Aug**). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
-| **⚠ H1/2026 REVIEWED statements — MISSING FROM THIS TABLE UNTIL 03-Aug** | **standalone/parent due 2026-08-14 (45 days); consolidated due 2026-08-29 (60 days)**, per Circular 96/2020. **AUDITOR-REVIEWED, unlike the self-reported quarterlies on file — a review can RESTATE them.** **14-Aug is the document that settles KDH's ₫321bn vs ₫1,097bn basis question**, and bears on item 17b (TCB bonds), HPG's debt currency mix and VPB's provisioning detail. **Lands one day before the 15-Aug circular cluster** | 3 |
+| **⚠⚠ H1/2026 REVIEWED statements — NOW CARRY TWO SPECIFIC KDH QUESTIONS (added 05-Aug 18:53)** **(1) WAS THE Q2 ₫906bn THE BÌNH TRƯNG MỚI GAIN OR NOT?** The file holds `binh_trung_moi_transfer_expected` = **Q3/2026** *and* evidence prose attributing the Q2 gain to that same transfer — **mutually exclusive**, and the answer decides whether ₫1,743bn of one-off income is already spent or is a candidate for the ₫493–1,106bn H2 gap identified at 14:53. **(2) WHAT IS THE CORPORATE CHAIN FROM BÌNH TRƯNG MỚI TO THE GLADIA JV**, i.e. is KDH's economic share of Gladia falling while its sales are reported? **⚠ H1/2026 REVIEWED statements — MISSING FROM THIS TABLE UNTIL 03-Aug** | **standalone/parent due 2026-08-14 (45 days); consolidated due 2026-08-29 (60 days)**, per Circular 96/2020. **AUDITOR-REVIEWED, unlike the self-reported quarterlies on file — a review can RESTATE them.** **14-Aug is the document that settles KDH's ₫321bn vs ₫1,097bn basis question**, and bears on item 17b (TCB bonds), HPG's debt currency mix and VPB's provisioning detail. **Lands one day before the 15-Aug circular cluster** | 3 |
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
@@ -33,7 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
-| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **STILL TO RUN: KDH (Keppel JV entities, Bình Trưng Mới), TCX, VPX, VCI, MBB non-life insurer.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
+| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **PASS 3 (KDH) DONE 18:53 — and it found a CONTRADICTION ALREADY ON FILE: `binh_trung_moi_transfer_expected` = Q3/2026 against evidence prose attributing the Q2 ₫906bn to that same transfer. One question decides whether ₫1,743bn of one-off income is spent or still to come, and it is gated to the 14-Aug/29-Aug reviewed statements.** **STILL TO RUN: TCX, VPX, VCI, MBB non-life insurer, TCB (TCLife / asset management).** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -80,6 +80,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **18:53 ICT · KDH (structure sweep, pass 3) — the search returned almost nothing the file didn't already
+  hold, and that is what made the contradiction visible. Two things already on file cannot both be true.**
+  **STATEMENT ONE**, in `kdh.actuals` as a **field**: `binh_trung_moi_transfer_stake` 0.51,
+  `binh_trung_moi_transfer_value_bn` 1743, **`binh_trung_moi_transfer_expected` = Q3/2026** — and today's search
+  independently confirms the transfer *"is expected to be completed by the latest in Q3/2026."*
+  **STATEMENT TWO**, in `valuation.KDH.evidence` as **prose**: *"WHAT DROVE THE PROFIT: financial income of more
+  than ₫906bn, **largely the deconsolidation gain on transferring 51% of Bình Trưng Mới for over ₫1,743bn**."*
+  **A gain cannot be the Q2 driver while the transaction is still expected to complete in Q3. The file has held
+  both since 02-Aug and neither sweep that wrote them looked at the other.**
+  **THE READINGS, WITHOUT CHOOSING.** *(a)* **Recognised on signing** in Q2 with legal completion in Q3 —
+  permissible if control passed, making "expected Q3" a conveyancing date. *(b)* **The press attribution is
+  wrong** and the ₫906bn came from other one-offs — live, because the file itself records **₫897bn of *itemised*
+  one-offs (plural)** against ₫906bn of financial income, so the ₫1,743bn deal need only be *part* of it, and
+  may be none. *(c)* **Part in Q2, part in Q3 — in which case further one-off income is still to come.**
+  **AND (c) IS WHY THIS IS NOT BOOKKEEPING.** At 14:53 today this file asked where KDH's H2 earnings come from:
+  **base needs ₫493bn more, bull ₫1,106bn**, and the year's only ₫4,000bn commercial event was ring-fenced by
+  the developer to 2027. **A ₫1,743bn transfer expected to complete in Q3 is a candidate for exactly that gap —
+  and it was already in this file when the question was asked four hours ago.** **But the readings are mutually
+  exclusive: if the gain is already in Q2 it cannot be booked again. One question decides both — was the Q2
+  ₫906bn the Bình Trưng Mới gain or not?**
+  **AND IT IS ALREADY GATED.** The **H1 auditor-reviewed statements are due 14-Aug (parent) and 29-Aug
+  (consolidated)** under Circular 96/2020, and a review can restate a self-reported quarterly. **That row exists
+  and now has a specific question attached instead of a general one. Nothing is decided before 14-Aug.**
+  **A CAVEAT ON THIS AFTERNOON'S OWN ENTRY.** At 14:53 I wrote that bear ₫1,033bn *"is already exceeded by H1's
+  ₫1,097bn — unreachable absent a write-down, **a consequence of the Bình Trưng Mới deconsolidation gain**
+  rather than of trading."* **The arithmetic is unaffected — H1 NPAT of ₫1,097bn reconciles three ways and is
+  not in doubt — but the attribution in that sentence is.** Said plainly rather than left standing.
+  **THE STRUCTURE, AND A NAMING TRAP CLEARED.** **Two similarly named entities that are not the same.**
+  **Clarita** (5.77ha) is developed by **Công ty TNHH Đầu tư Kinh doanh Bất động sản Bình Trưng**; what was sold
+  is 51% of **Công ty TNHH Bất động sản Bình Trưng *Mới*** — a **different** company. Coverage headlines it as
+  *"KDH divests from the enterprise owning the Clarita project, receiving over ₫1,700bn."* **Emeria** (6ha)
+  carries **~60 low-rise units and ~600 condominiums**, total investment ₫3.2tn. **Clarita + Emeria combined
+  form Gladia by the Water**, the Keppel 49% / KDH 51% JV. **So Gladia Heights' ~500 apartments launched 01-Aug
+  map onto Emeria's ~600 condominium units — an independent check on this afternoon's figures, and they fit.**
+  **THE UNCOMFORTABLE ADJACENCY, NAMED NOT INFERRED.** **KDH is selling down 51% of an entity tied to the
+  Clarita land for ₫1,743bn while launching ₫4,000bn of sales on the combined site.** *That is ordinary JV
+  monetisation, not a governance point.* **What it does mean is that KDH's economic share of Gladia may be
+  falling at the moment its sales are being reported — and the 14:53 entry took the developer's ₫2,000bn profit
+  figure at face value while flagging only the Keppel 49/51 split.** **The precise corporate chain from Bình
+  Trưng Mới to the Gladia JV is not established and is not assumed.** Flagged for the 14-Aug statements alongside
+  the first question.
+  *One figure noted and deliberately not used: coverage puts gross margin on three premium KDH projects at up to
+  **53%**; the file holds `q1_gross_margin` = **0.65**. Different projects, period and possibly basis — **no
+  conclusion drawn, 0.65 untouched.** Eighth comparison declined for want of a common basis in seventeen hours.*
+  **NOTHING MODELLED.**
 
 - **17:53 ICT · HPG + VCI (structure sweep, pass 2) — every open sub-question from 15:53 is now answered, one
   hypothesis I formed while writing it is dead, and the VCI/HPG link turns out to be a direct equity position.**
