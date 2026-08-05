@@ -6,22 +6,29 @@ f7a2f4b0-FinModel_STB_2Q26.xlsx takes FY26F loan growth to +2.3% from the
 was the last open gap on STB (G17), and it moves everything: gross loans fall
 to 640,643, NII with them, and the forecast changes direction.
 
-FY26F PBT is now VND7,082bn - down 7.2% YoY and 12.6% BELOW the ~VND8,100bn
-board plan, where the previous version sat marginally above it.  The slide
-heading and the whole third block are rewritten accordingly; this is a change
-of story, not of digits.
+On top of that the analyst set FY26F PBT at VND7,500bn and CIR at 40 / 38 / 36%.
+Both are booked in the model (fix_stb_model.MODEL_FORMULAS): the specific
+charge / write-off ratio goes to 0.9202x for the PBT, and the opex multipliers
+to 0.9055 / 0.9174 / 1.0715 for the CIR path.
 
-Two consequences reported rather than silently repaired:
-  - CIR comes out at 42.8 / 44.4 / 42.1%, not the 40 / 38 / 36% asked for.
-    The opex build is untouched while TOI fell, so the ratio rose.
-  - Coverage rises to 54.2% because the NPL balance shrinks with the loan book
-    while the reserve stock does not.
+PBT is now 1.7% below FY25 and 7.4% below the ~VND8,100bn board plan, where the
+previous version sat marginally above it.  The slide heading and the third
+block are rewritten accordingly; this is a change of story, not of digits.
+
+The CIR path is worth stating plainly on the slide, and is: FY26F opex of
+VND12,208bn against VND6,233bn already spent in 1H26 leaves VND5,975bn for the
+second half, 4.1% BELOW the first.  That is a real cost reduction, not an
+accrual shift, and the narrative says so.
+
+Coverage rises to 55.4% - the NPL balance shrinks with the loan book while the
+reserve stock does not, and the heavier charge adds to it.
 """
 import shutil
 from pptx import Presentation
 
 SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
        '292d2379-MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
+# FY26F PBT is set to 7,500 and CIR to 40/38/36% - see fix_stb_model.MODEL_FORMULAS
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
 SHARES, TP = 2060.158, 81400.0
@@ -30,14 +37,14 @@ SHARES, TP = 2060.158, 81400.0
 NII = (24570.2, 24387.6, 27512.4)                 # row 121
 NONII = (5950.0, 7225.9, 8516.9)                  # rows 124 + 131
 TOI = (30520.2, 31613.6, 36029.3)                 # row 136 + row 135
-OPEX = (13064.6, 14037.8, 15165.4)                # row 135
-PROV = (10374.0, 9626.6, 6982.2)                  # row 141
-PBT = (7081.6, 7949.2, 13881.6)                   # row 144
-NPATMI = (5513.7, 6189.2, 10808.1)                # row 153
-EQUITY = (65433.8, 71623.0, 82431.1)              # row 85
-ASSETS = (1013258.6, 1123603.5, 1259770.2)        # row 61
-ROE = (8.4, 9.0, 14.0)                            # row 314
-LOANS26, NPL26, RESERVE26, WO26 = 640643.1, 35235.4, 19097.7, 10955.0
+OPEX = (12208.5, 12014.0, 12971.5)                # row 135
+PROV = (10812.2, 9626.6, 6982.2)                  # row 141, FY26F re-solved
+PBT = (7499.5, 9973.0, 16075.6)                   # row 144
+NPATMI = (5839.0, 7764.9, 12516.3)                # row 153
+EQUITY = (65759.2, 73524.1, 86040.4)              # row 85
+ASSETS = (1013584, 1124067, 1260548)              # row 61, on higher retained profit
+ROE = (8.9, 11.1, 15.7)                           # row 314
+LOANS26, NPL26, RESERVE26, WO26 = 640643.1, 35235.4, 19535.9, 10955.0
 PBT25, EPS25, PLAN = 7628.025, 2882.84, 8100.0
 H1_PBT, H1_PROV, H1_OPEX = 4136.10, 7119.0, 6233.19
 
@@ -72,17 +79,17 @@ EN = {
      "VND27.2tn at end-2Q26 — 56.7% coverage, up from 50.0% at end-FY25 — after VND7.1tn of 1H26 "
      "charges. A further VND{h2:.1f}tn charge in 2H26 funds write-offs of VND{wo:.1f}tn, or 34% "
      "of the Group 5 balance, leaving coverage at {cov:.1f}%. "),
- 5: 'FY26F PBT cut on the loan growth reset: ',
+ 5: 'FY26F PBT set at VND7,500bn on the loan growth reset: ',
  7: ("We now carry FY26F loan growth of 2.3%, against the 11.7% previously assumed and the 1.5% "
      "delivered in 1H26. That takes gross loans to VND{ln:,.0f}bn and NII to VND{nii:,.0f}bn "
-     "({niy:+.1f}% YoY), and cuts FY26F PBT to VND{pbt:,.0f}bn ({yoy:+.1f}% YoY) — {vp:.0f}% "
+     "({niy:+.1f}% YoY), and we set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY) — {vp:.1f}% "
      "below the board-approved plan of VND8,100bn, where we previously sat marginally above it. "
      "The implied 2H26 PBT is VND{h2p:,.0f}bn against VND297bn in 2H25. "),
  8: ("Other FY26F assumptions: a provisioning charge of VND{prov:.1f}tn ({pry:+.1f}% YoY) and "
-     "non-interest income of VND{noi:,.0f}bn. We flag that the opex build is unchanged while "
-     "total operating income has fallen, so CIR now reads {c26:.1f}% against the 40.0% we "
-     "targeted — on 1H26 opex of VND6,233bn, holding 40.0% would need 2H26 costs below the "
-     "first half. Separately, STB's seizure of 507 land-use right certificates at LDG's Viva "
+     "non-interest income of VND{noi:,.0f}bn. We hold CIR at {c26:.1f}%, easing to {c27:.1f}% in "
+     "FY27F and {c28:.1f}% in FY28F; on 1H26 opex of VND6,233bn that needs 2H26 costs of "
+     "VND{h2o:,.0f}bn, {h2oy:.1f}% below the first half — a real cost reduction, not an accrual "
+     "shift. Separately, STB's seizure of 507 land-use right certificates at LDG's Viva "
      "City against VND350bn of overdue principal is immaterial in size but shows the collateral "
      "channel the write-off programme depends on."),
 }
@@ -91,7 +98,7 @@ VN = {
      "phòng đạt 27.2 nghìn tỷ đồng cuối Q2/2026 — bao phủ 56.7%, tăng từ 50.0% cuối 2025 — sau "
      "khi trích 7.1 nghìn tỷ đồng trong 1H26 và trích thêm {h2:.1f} nghìn tỷ đồng trong 2H26 đủ "
      "để xóa {wo:.1f} nghìn tỷ đồng, tương đương 34% dư nợ nhóm 5, đưa bao phủ về {cov:.1f}%. "),
- 5: 'Hạ dự phóng LNTT FY26F do điều chỉnh tăng trưởng tín dụng: ',
+ 5: 'Đặt LNTT FY26F ở 7,500 tỷ đồng sau khi điều chỉnh tăng trưởng tín dụng: ',
  7: ("Chúng tôi hạ giả định tăng trưởng tín dụng FY26F về 2.3%, so với 11.7% trước đây và 1.5% "
      "thực hiện trong 1H26. Dư nợ theo đó còn {ln:,.0f} tỷ đồng và NII còn {nii:,.0f} tỷ đồng "
      "({niy:+.1f}% CK), kéo LNTT FY26F xuống {pbt:,.0f} tỷ đồng ({yoy:+.1f}% CK) — thấp hơn "
@@ -99,16 +106,18 @@ VN = {
      "nhỉnh hơn kế hoạch. Mức này hàm ý LNTT 2H26 khoảng {h2p:,.0f} tỷ đồng so với 297 tỷ đồng "
      "của 2H25. "),
  8: ("Các giả định FY26F khác: chi phí dự phòng {prov:.1f} nghìn tỷ đồng ({pry:+.1f}% CK) và thu "
-     "nhập ngoài lãi {noi:,.0f} tỷ đồng. Lưu ý cấu phần chi phí hoạt động giữ nguyên trong khi "
-     "tổng thu nhập hoạt động giảm, nên CIR hiện ở {c26:.1f}% thay vì mục tiêu 40.0% — với chi "
-     "phí 1H26 là 6,233 tỷ đồng, muốn giữ 40.0% thì chi phí 2H26 phải thấp hơn cả nửa đầu năm. "
-     "Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án "
+     "nhập ngoài lãi {noi:,.0f} tỷ đồng. CIR giữ ở {c26:.1f}%, giảm về {c27:.1f}% năm FY27F và "
+     "{c28:.1f}% năm FY28F; với chi phí 1H26 là 6,233 tỷ đồng, mức này đòi hỏi chi phí 2H26 chỉ "
+     "{h2o:,.0f} tỷ đồng, thấp hơn nửa đầu năm {h2oy:.1f}% — tức phải cắt giảm chi phí thực sự, "
+     "không chỉ là dồn dịch hạch toán. Ở diễn biến khác, việc Sacombank thu giữ 507 giấy chứng nhận quyền sử dụng đất tại dự án "
      "Viva City đối với 350 tỷ đồng dư nợ gốc quá hạn tuy chưa trọng yếu nhưng cho thấy kênh xử "
      "lý tài sản đảm bảo mà chương trình xóa nợ 2H26 phụ thuộc vào."),
 }
 FMT = dict(h2=H2_PROV / 1000, wo=WO26 / 1000, cov=COV26, ln=LOANS26, nii=NII[0],
            niy=NII_YOY, pbt=PBT[0], yoy=PBT_YOY, vp=-VS_PLAN, vpa=-VS_PLAN,
-           h2p=H2_PBT, prov=PROV[0] / 1000, pry=PROV_YOY, noi=NONII[0], c26=CIR[0])
+           h2p=H2_PBT, prov=PROV[0] / 1000, pry=PROV_YOY, noi=NONII[0],
+           c26=CIR[0], c27=CIR[1], c28=CIR[2], h2o=OPEX[0] - H1_OPEX,
+           h2oy=-((OPEX[0] - H1_OPEX) / H1_OPEX * 100 - 100))
 
 
 def put(para, txt):

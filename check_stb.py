@@ -41,10 +41,15 @@ check('TOI = NII + non-interest income',
       all(abs(U.NII[i] + U.NONII[i] - U.TOI[i]) < 1 for i in range(3)))
 check('FY26F NPL 5.5% of the smaller loan book',
       abs(U.NPL26 / U.LOANS26 - 0.055) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
-check('FY26F PBT now BELOW the 8,100 plan', U.PBT[0] < 8100,
+check('FY26F PBT set at 7,500', abs(U.PBT[0] - 7500) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
-check('FY26F CIR drifted off the 40% target', abs(U.CIR[0] - 40) > 0.5,
-      '%.1f%% - reported to the analyst, not silently re-solved' % U.CIR[0])
+for i, tgt in enumerate((40., 38., 36.)):
+    check('FY%dF CIR = %.0f%% as instructed' % (2026 + i, tgt),
+          abs(U.CIR[i] - tgt) < 0.05, '%.2f%%' % U.CIR[i])
+check('2H26 opex below 1H26 - a real cost cut, and the narrative says so',
+      U.OPEX[0] - U.H1_OPEX < U.H1_OPEX,
+      '%.0f vs 6,233 (%.1f%% lower)'
+      % (U.OPEX[0] - U.H1_OPEX, -((U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100)))
 check('coverage rises as the NPL balance shrinks with the book',
       U.COV26 > 51, '%.1f%%' % U.COV26)
 
@@ -106,6 +111,7 @@ for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit'
 for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 / 1000), 'FY26F write-offs'),
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
              ('%.1f%%' % U.COV26, 'FY26F coverage'), ('%.1f%%' % U.CIR[0], 'FY26F CIR'),
+             ('%.1f%%' % U.CIR[1], 'FY27F CIR'), ('%.1f%%' % U.CIR[2], 'FY28F CIR'),
              ('2.3%', 'FY26F loan growth'), ('11.7%', 'the old loan growth'),
              ('{:,.0f}'.format(U.PBT[0]), 'FY26F PBT'), ('8,100', 'the board plan'),
              ('{:,.0f}'.format(U.H2_PBT), '2H26 PBT'),
@@ -114,7 +120,8 @@ for s, t in [('5.5%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 /
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
-            '8,150', '4,014', '26,712', '26,704', '8,143', 'lifted on the cost line']:
+            '8,150', '4,014', '26,712', '26,704', '8,143', '7,082', '2,946',
+            'lifted on the cost line']:
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide

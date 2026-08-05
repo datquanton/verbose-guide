@@ -24,13 +24,15 @@ C6 = ("- We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% deli
       "- We set FY26F NPL at 5.5%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
       "write-offs; a further VND4.0tn charge in 2H26 funds VND11.8tn of write-offs, or 37% of the "
-      "Group 5 balance, leaving coverage at 54.2%. Holding coverage near 50% is what caps the "
+      "Group 5 balance, leaving coverage at 55.4%. Holding coverage near 50% is what caps the "
       "improvement at 5.5%, and it needs 2H26 NPL formation to slow to roughly a quarter of the "
       "1H26 pace.\n"
-      "- FY26F PBT falls to VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.0f}% below the board-approved "
-      "plan of VND8,100bn. The opex build is unchanged while total operating income has fallen, "
-      "so CIR now reads {c26:.1f}% against the 40.0% previously targeted.").format(
-          pbt=U.PBT[0], yoy=U.PBT_YOY, vp=-U.VS_PLAN, c26=U.CIR[0])
+      "- We set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.1f}% below the "
+      "board-approved plan of VND8,100bn, on CIR of {c26:.1f}% easing to {c27:.1f}% in FY27F "
+      "and {c28:.1f}% in FY28F. On 1H26 opex of VND6,233bn that needs 2H26 costs {h2oy:.1f}% "
+      "below the first half.").format(
+          pbt=U.PBT[0], yoy=U.PBT_YOY, vp=-U.VS_PLAN, c26=U.CIR[0], c27=U.CIR[1],
+          c28=U.CIR[2], h2oy=-((U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100))
 
 SHEET1 = {
     'C6': ('str', C6),
