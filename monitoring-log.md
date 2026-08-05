@@ -20,6 +20,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
+| **⚠ FTSE OFFICIAL CONSTITUENT LIST — EXPECTED AUGUST 2026, LIVE NOW** | **The 28-name list on file is INDICATIVE and built on 31-Dec-2024 data — twenty months stale.** Of this book: **IN — HPG, KDH, VCI (40.2%). ABSENT though screenable — TCB, VPB, MBB (51.5%). ABSENT but listed AFTER the screen date, so uninformative — TCX, VPX (8.3%).** **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
@@ -80,6 +81,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-06
+
+- **03:53 ICT · INDEX (lane 4) — ran the search I pre-registered an hour ago. The full 28-name list is in
+  hand, my own hypothesis does not hold, and a different absence turns out to be the informative one.**
+  *(US closed 53 minutes ago — inside the file's own >54min indexing bracket, so the close is read at 04:53 as
+  pre-registered at 02:53.)*
+  **THE 28:** VIC, VHM, **HPG**, MSN, VCB, VNM, SSI, STB, VIX, VJC, VRE, **VCI**, SHB, VND, GEX, KBC, **KDH**,
+  FRT, DGC, EIB, HUT, DXG, DPM, PLX, PDR, SAB, DIG, KDC.
+  **THIS BOOK, SPLIT THREE WAYS — AND IT ADDS TO 100.** **In the list: HPG 16.8%, KDH 20.3%, VCI 3.1% = 40.2%.**
+  **Absent despite being screenable: TCB 35.0%, VPB 10.0%, MBB 6.5% = 51.5%.** **Absent but could not have been
+  screened: TCX 5.5%, VPX 2.8% = 8.3%.**
+  **AND MY OWN HYPOTHESIS FROM 02:53 DOES NOT HOLD.** I raised, as a potentially decisive fourth ground against
+  item 5's TCX tree, that TCX might not be in the index the tree prices. **TCX is not on the list — and the
+  absence is uninformative: the list is built on data as at 31-December-2024, and TCX began trading 21-October
+  2025. It could not have been screened because it did not yet exist as a listed company.** Same for VPX, listed
+  11-Dec-2025. **The ground I raised is withdrawn.** The three existing objections — phasing, the banked April
+  announcement, four years of foreign portfolio selling — are untouched and stand. **What survives is only the
+  process point: a tree pricing an index event should rest on established membership rather than assume it, and
+  membership is still not established — merely not disproved.**
+  **THE ABSENCE THAT IS INFORMATIVE IS THE OTHER ONE.** **TCB, VPB and MBB were all large and long-listed at the
+  screen date and none appears, while VCB, STB, SHB and EIB do. 51.5% of this book sits in names that were
+  eligible to be screened and were not selected.** *A mechanism suggests itself — FTSE applies a foreign-headroom
+  test and Vietnamese banks run against a 30% foreign ownership limit, which would separate full banks from ones
+  with room — **but no source here states it, and it is recorded as a hypothesis, not a finding.*** The file
+  already holds the same mechanism acting on KDH in the opposite index: **KDH fails VNDiamond's 65% FOL minimum
+  at 61.8%.**
+  **WHICH PRODUCES THE ODDEST PAIR IN THE FILE.** **KDH is being removed from VNDiamond for too little foreign
+  room and is on the FTSE inclusion list at the same time.** Two index events in opposite directions, on the
+  same name, in the same quarter, on **20.3% of the book** — **and the file has modelled the negative one (sized
+  at ~₫72bn) and has no record at all of the positive one.**
+  **THE ASYMMETRY IS NOW MUCH LARGER THAN AT 02:53.** **40.2% of the book is on the inclusion list with nothing
+  modelled for any of it, while 5.5% carries a +6.25% EV tree on membership that is unestablished.** ***Still
+  not a case for adding three trees:*** the file's own arithmetic puts tranche one at **0.022%** of the FTSE
+  Emerging Index across 28 stocks — the flows are small and the existing tree is probably too large. **The
+  finding remains the asymmetry, not a case for more modelling.**
+  **AND A DATED GATE THAT IS LIVE THIS MONTH.** The list is **indicative**, its underlying data is **twenty
+  months old**, and **the official constituent list is expected in August 2026 — now.** That is the document
+  that settles TCX's and VPX's membership, and it lands before the 21-Sep effective date.
+  **NOTHING MODELLED.**
 
 - **02:53 ICT · INDEX & FLOWS (lane 4) + an integrity check on today's own arithmetic — item 5 prices an FTSE
   event tree for TCX and has never established that TCX is in the index.**
