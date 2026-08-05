@@ -33,7 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
-| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **PASS 3 (KDH) DONE 18:53 — and it found a CONTRADICTION ALREADY ON FILE: `binh_trung_moi_transfer_expected` = Q3/2026 against evidence prose attributing the Q2 ₫906bn to that same transfer. One question decides whether ₫1,743bn of one-off income is spent or still to come, and it is gated to the 14-Aug/29-Aug reviewed statements.** **STILL TO RUN: TCX, VPX, VCI, MBB non-life insurer, TCB (TCLife / asset management).** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
+| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **PASS 3 (KDH) DONE 18:53 — and it found a CONTRADICTION ALREADY ON FILE: `binh_trung_moi_transfer_expected` = Q3/2026 against evidence prose attributing the Q2 ₫906bn to that same transfer. One question decides whether ₫1,743bn of one-off income is spent or still to come, and it is gated to the 14-Aug/29-Aug reviewed statements.** **PASS 4 (TCB) DONE 19:53 — TCLife licensed 16-Jul-2025, charter ₫1,300bn, TCB 80% (₫1,040bn), **20% HELD BY VINGROUP COMPANIES** — the first hard structure-level TCB/Vingroup link in this repo. Separately TCGIns 11%→68%, a control acquisition. Manulife exclusivity ended; the fee line is now vertically integrated, so its DEFINITION changed.** **STILL TO RUN: TCX, VPX (CAEX licence ~Q3), VCI, MBB non-life insurer.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -80,6 +80,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **19:53 ICT · TCB (structure sweep, pass 4 — the largest position) — this file has spent two weeks inferring
+  TCB's ecosystem exposure and refusing the inference. Here is a structure-level fact instead, and it is not
+  the one the file was looking for.**
+  *(US pre-market; opens 20:30 ICT.)*
+  **TCLIFE.** Licensed by the **Ministry of Finance on 16-July-2025.** Charter capital **₫1,300bn**;
+  **Techcombank contributes ₫1,040bn for 80%. The remaining 20% — ₫260bn — is held by Vingroup companies.**
+  Registered office at **Tower C5 D'Capitale, 119 Trần Duy Hưng**, itself a Vingroup development. Life and
+  health insurance plus reinsurance. Projected to deliver **₫1,195bn of net profit to Techcombank after five
+  years at a 23.4% return** — about **3.2%** of an annualised TCB PBT run-rate.
+  **WHY THIS IS DIFFERENT FROM EVERYTHING ELSE IN THE TCB FILE.** Every prior ecosystem finding here has been
+  **commercial and inferred** — bond arranging, registrar roles, loan-book composition, the ₫44,500bn issuance
+  ramp — and each was correctly refused as unproven. **This is an equity stake in a named subsidiary, disclosed
+  in a licensing decision. It is the first hard related-party link of any kind between TCB and the Vingroup
+  complex in this repo.**
+  **AND THE THREE THINGS IT DOES NOT SHOW, WHICH MATTER MORE.** *(1)* **It does not establish credit
+  exposure.** ₫260bn of someone else's money in an insurer is trivial against TCB's balance sheet, and a shared
+  shareholding says nothing about lending. **The standing refusal is unchanged.** *(2)* **It does not touch the
+  Masterise kill criterion.** TCB's armed test says *"a **Masterise** bond event"* — and **Vingroup and
+  Masterise are separate groups**: SBV's Công văn 5386, logged at 05:53 **this morning**, names all three
+  separately (Vingroup, Sun Group, Masterise). **Conflating them is the exact error this file has refused twice,
+  and it is refused again here.** *(3)* **It is not sized as a risk** — a governance datum, not an exposure.
+  **THE SECOND HALF, AND IT IS A CONTROL ACQUISITION.** **Techcombank is raising its stake in TCGIns, the
+  non-life insurer, from 11% to 68% — a 57-point step from minority to control.** Price not disclosed in what
+  was found, so **total insurance capital deployment is at least ₫1,040bn plus an unquantified amount more. Not
+  estimated.**
+  **AND IT FILLS THE ZERO FOUND AT 16:53 — including the one I didn't expect to matter.** That sweep found
+  *"insurance"*, *"bancassurance"* and **"Manulife"** at zero occurrences. **The Manulife zero is the
+  interesting one: TCLife was built after Techcombank ended its exclusive Manulife bancassurance partnership.
+  TCB has vertically integrated a fee line it used to rent.**
+  **WHICH MEANS THE 16:53 REVENUE FIGURE HAS CHANGED ITS OWN DEFINITION — directly the thing the standing
+  instruction asks about.** A bancassurance commission is **pure fee income with no balance sheet**; owning an
+  insurer brings **premium revenue, technical reserves and claims** into the group. **So TCB's "insurance
+  service revenue of over ₫1,260bn in H1/2026" is not comparable to a pre-exit commission line of the same
+  name, and any YoY growth rate quoted across the transition measures a definitional change as well as a
+  business one. No such growth rate is used here.** *Nothing suggests misstatement — the accounting follows the
+  structure. **The hazard is in the reading, not the reporting.***
+  **NOTHING MODELLED. No kill criterion affected and none declared fired.**
 
 - **18:53 ICT · KDH (structure sweep, pass 3) — the search returned almost nothing the file didn't already
   hold, and that is what made the contradiction visible. Two things already on file cannot both be true.**
