@@ -16,15 +16,15 @@ YRS = ['FY24', 'FY25', 'FY26F', 'FY27F', 'FY28F']
 # (ticker, chart key, series name EN, series name VN, values)
 SERIES = [
     ('STB', 'is', 'Net interest income', 'Thu nhập lãi thuần',
-     [24532, 26681, 26704, 29545, 34079]),
+     [24532, 26681, 24570, 24388, 27512]),
     ('STB', 'is', 'Non-interest income', 'Thu nhập ngoài lãi',
-     [4145, 5376, 5950, 7382, 8779]),
+     [4145, 5376, 5950, 7226, 8517]),
     ('STB', 'pbt', 'Profit before tax', 'Lợi nhuận trước thuế',
-     [12720, 7628, 8143, 12293, 20064]),
+     [12720, 7628, 7082, 7949, 13882]),
     ('STB', 'val_pe', 'P/E at target price (x)', 'P/E theo giá mục tiêu (lần)',
-     [15.8, 28.2, 26.5, 17.5, 10.7]),
+     [15.8, 28.2, 30.4, 27.1, 15.5]),
     ('STB', 'val_pb', 'P/B at target price (x)', 'P/B theo giá mục tiêu (lần)',
-     [3.1, 2.8, 2.5, 2.2, 1.8]),
+     [3.1, 2.8, 2.6, 2.3, 2.0]),
     ('FPT', 'rev', 'Revenue', 'Doanh thu',
      [62849, 70208, 57284, 66048, 76654]),
     ('FPT', 'is', 'Profit before tax', 'Lợi nhuận trước thuế',
@@ -40,7 +40,8 @@ SERIES = [
 NAVY, AMBER = '01437C', 'F38120'
 NOTES = [
     'Units: VNDbn except P/E and P/B, which are multiples.',
-    'STB is on the recalculated FinModel_STB_2Q26 (Model!Y121, Y124+Y131, Y144).',
+    'STB is on FinModel_STB_2Q26 with FY26F loan growth cut to +2.3% '
+    '(Model!Y121, Y124+Y131, Y144).',
     'FPT is on FPT_2Q26, Report sheet rows 3, 15 and 20.',
     'FPT FY26F revenue is not comparable with FY25 as reported: FPT Telecom is '
     'equity-accounted from FY26F. Against a restated FY25 of 50,607 the change is +13.2%.',
