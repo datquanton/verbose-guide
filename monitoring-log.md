@@ -15,6 +15,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
 | **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
+| **⚠ US initial jobless claims — 06-AUG, TOMORROW** | consensus **~202,000**, continuing ~1.79m. **First and partial test of the 21:53 pre-registration** (services employment 51.2 → 47.4 ⇒ a weak payroll print expected). *Claims are an early read, not a resolution.* | 1 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
@@ -81,6 +82,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-06
+
+- **04:53 ICT · MACRO (lane 1) — read at the pre-registered slot. The market ignored the ISM again, and this
+  time the driver is named, exogenous, and pushes the same way.**
+  *(US close 113 minutes old — inside the indexing bracket this file measured. Announced at 02:53 and honoured.)*
+  **WHAT HAPPENED ON 05-AUGUST.** **US stocks fell**, after the Dow's fresh record. **The 10-year is ~4.62% and
+  fell for a third consecutive session** — 4.70 (03-Aug) → 4.63 (04-Aug) → ~4.62, all three now on file. **The
+  dollar index is 99.85**, described as easing pressure on emerging-market FX. **And the driver is named, and it
+  is not the ISM: reports of an imminent interim US–Iran agreement to reopen the Strait of Hormuz drove oil
+  sharply lower, easing inflation concerns.**
+  *A date trap disarmed: the S&P's record close of 7,736.52 on a 1.79% rally is **Tuesday 04-August**, not today.
+  Today stocks fell. Two headlines three days apart read as one if the day is not checked.*
+  **SCORING THE 21:53 RESTRAINT, AND IT HOLDS.** Seven hours ago ISM Services Prices Paid printed **70.3 against
+  a 65.0 consensus** and I wrote: *"I am not claiming this strengthens the FX-support argument."* **The long end
+  fell again and the dollar eased. For the second time in three days an ISM Prices Paid print above 70 has
+  produced no hawkish repricing.** The 03-Aug withdrawal of *"ISM restores the FX support"* looks better each
+  day, and declining to re-make it last night was right.
+  **AND THE REASON MATTERS MORE THAN THE RESULT, BECAUSE IT IS EASY TO OVERREAD.** **Today's move has a
+  dominant, exogenous, named cause pushing the same way — a geopolitical oil shock in the disinflationary
+  direction. An ISM signal could be entirely real and still be swamped by that.** **So the defensible statement
+  is "the ISM inflation signal has not transmitted to rates on either occasion", not "the ISM inflation signal
+  is false."** This file drew exactly that distinction on 03-Aug when it separated the market-reaction claim from
+  the fundamental one. **Consistency requires drawing it again rather than collecting a second withdrawal as
+  though it were a second finding.**
+  **THE OIL THREAD, AND IT HAS REVERSED WITHIN 24 HOURS.** On 03-Aug this file recorded Vietnam's July
+  disinflation as **petrol- and food-driven and therefore reversing with oil.** At 04:53 **yesterday** oil rose —
+  WTI +2.09% to $82.02, Brent +2.8% to $86.11 — logged as *"the first datum on the reversal risk this file
+  pre-stated."* **Today oil fell sharply on Hormuz.** *No level is recorded because none was given and one will
+  not be invented.* **One day up followed by one day down is noise around a stated mechanism, not evidence about
+  it. Yesterday's entry called a single day "the first datum"; today shows why that phrasing was generous to
+  itself.**
+  **THE VIETNAM-RELEVANT DATUM IS THE DOLLAR.** **DXY at 99.85 easing EM FX pressure, alongside a third day of
+  lower long rates, is the FX side of the SBV's two-sided constraint loosening** — against USD/VND at a record
+  ₫25,338. **It is also environment rather than evidence about any forecast**, the rule applied seven times
+  yesterday and applied again here. **No confidence moves.**
+  *A clarification worth one line: coverage today emphasises ISM Services **"inched up to 54.1 from 54.0 —
+  expansion, not contraction."** That is the **headline** index. The 21:53 contraction claim was about the
+  **employment sub-index at 47.4**. Both are true and they are different series.*
+  **NEXT DATED ITEM, AND IT IS THE FIRST TEST OF LAST NIGHT'S PRE-REGISTRATION:** **US initial jobless claims
+  tomorrow, 06-Aug, consensus ~202,000** (continuing ~1.79m); **payrolls follow 07-Aug.** At 21:53 I
+  pre-registered a **weak** payroll print as the expected direction, with the stated limit that ISM employment
+  sub-indices are diffusion measures over firms and poor month-to-month predictors. **Claims are a partial and
+  early read on that, not a resolution of it.**
+  **NOTHING MODELLED.**
 
 - **03:53 ICT · INDEX (lane 4) — ran the search I pre-registered an hour ago. The full 28-name list is in
   hand, my own hypothesis does not hold, and a different absence turns out to be the informative one.**
