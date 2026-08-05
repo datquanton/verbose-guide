@@ -80,6 +80,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **12:53 ICT · COMPETITORS (lane 6) — I named the test that would settle the TCX escalation, ran it one hour
+  later, the test PASSED, and it settles nothing. I named the wrong test.**
+  *(Vietnam lunch break 11:30–13:00; no live market data.)*
+  **THE PRE-SPECIFIED TEST.** At 11:53: *"If TCBS's [margin share of assets] is materially lower, TCX's lower
+  ROE is a MIX statement rather than a quality one and the premium partly defends itself."* **TCBS's margin and
+  advance-on-sale book is ₫51,522.4bn at 30-Jun-2026 = 51.2% of total assets, against VPS's 65.4%. The condition
+  is met — 14.2pp lower is materially lower — and the conclusion I attached to it does not follow.**
+  **TCBS AT 30-JUN-2026** *(company release via press)*. **Total assets ₫100,592bn, +25% on end-2025** — it has
+  joined the brokers with assets above ₫100,000bn. **Equity ₫45,782bn, which matches this file's stored figure
+  exactly** and so independently validates the 2.49× P/B computed from it. Borrowings/equity 1.15×;
+  **margin/equity 1.13×.** **Q2/2026 PBT a record ₫2,097bn** against VPS's ₫1,378.4bn — 52% more, consistent
+  with the larger book.
+  **WHY THE TEST FAILS TO DO THE WORK.** A lower margin share of assets explains *why* TCBS's assets yield less;
+  **it does not make the low yield benign.** Decompose ROE properly and the gap **moves rather than
+  disappears**: **ROA — TCBS 5.65%, VPS 9.33%: VPS earns 65% more per dong of assets. Assets/equity — TCBS
+  2.20×, VPS 1.54×.** ROE = ROA × leverage reconciles exactly (12.42% and 14.33%). **So TCBS earns a lower
+  return on assets and closes to within 1.9pp of VPS's ROE by running 43% more balance-sheet leverage. That is a
+  worse answer for a name at a 24% P/E premium, not a better one.** The mix hypothesis is **confirmed at the
+  composition level and does not rescue the premium.**
+  **THE MITIGANT, STATED BECAUSE IT IS REAL AND CUTS THE OTHER WAY.** **Neither firm is stretched on the
+  constraint that actually binds: margin/equity is 1.13× at TCBS and 1.00× at VPS, both far below the 2×
+  regulatory ceiling.** So *"TCBS is more levered"* is a statement about **total** assets, not about
+  margin-lending capacity — and TCBS's own release presents that headroom as growth capacity. On the binding
+  ratio the two are close and both conservative.
+  **AND THE BOOKS GREW BY DIFFERENT MECHANISMS — new, and not a valuation point.** **TCBS expanded:** total
+  assets +25% in six months, margin +52% YoY. **VPS rotated:** margin +38.6% YTD to ₫31,311bn while total assets
+  sat at a **derived** ~₫47,876bn against a reported ₫48,400bn at end-2025 — roughly flat. **VPS turned existing
+  balance sheet into loans; TCBS raised new balance sheet.** *The ₫47,876bn is derived from the stated 65.4% and
+  is not a reported figure — flagged, because every ratio above that uses VPS's assets inherits that derivation.
+  It is the weakest input in this entry.*
+  **WHAT THE 11:53 ESCALATION NOW READS AS — it stands and is sharpened, not withdrawn.** TCX is dearer than its
+  only listed peer on **P/E (20.05× vs 16.16×)** and on **ROA (5.65% vs 9.33%)**, **level on P/B** (2.49× vs
+  2.32–2.50×), and closes most of the ROE gap **with leverage rather than with returns**. **The franchise
+  argument also stands and is untested here:** TCBS leads margin and ~half of non-bank corporate-bond advisory,
+  **and a fee franchise that does not sit on the balance sheet would not show up in ROA at all. That is the test
+  that would actually settle it, and this file has not run it.**
+  **NOTHING MODELLED.** TCX's price, `npat_ttm`, `pe_ttm`, branches, probabilities and confidence (0.75)
+  untouched, for the reason given at 11:53: this bears on the **multiple**, and confidence scales `fy26e_npat`.
+
 - **11:53 ICT · COMPETITORS (lane 6) — ⚠ ESCALATION TRIGGER 4 FIRES ON TCX. The anchor I called weak two
   hours ago because it agreed is now complete, and on the two ratios that matter it stops agreeing.**
   *(Morning session closed 11:30.)*
