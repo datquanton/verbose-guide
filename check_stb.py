@@ -46,9 +46,12 @@ check('implied 2H26 NPL formation is positive, not a net recovery',
 check('FY26F PBT from the model', abs(U.PBT[0] - 7461) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
 check('FY26F CIR near the 42% target', abs(U.CIR[0] - 42) < 0.2, '%.1f%%' % U.CIR[0])
-for i in (1, 2):
-    check('FY%dF CIR drifted above 42%%' % (2026 + i), U.CIR[i] > 42.5,
-          '%.1f%% - reported, not re-solved' % U.CIR[i])
+check('CIR declines year on year, as instructed',
+      U.CIR[0] > U.CIR[1] > U.CIR[2],
+      '%.1f / %.1f / %.1f%%' % U.CIR)
+for i, tgt in ((1, 40.), (2, 38.)):
+    check('FY%dF CIR = %.0f%%' % (2026 + i, tgt), abs(U.CIR[i] - tgt) < 0.05,
+          '%.2f%%' % U.CIR[i])
 check('2H26 opex now ABOVE 1H26 - no cost cut assumed',
       U.OPEX[0] - U.H1_OPEX > U.H1_OPEX, '%.0f vs 6,233 (%+.1f%%)'
       % (U.OPEX[0] - U.H1_OPEX, (U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100))
@@ -129,7 +132,7 @@ for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
             '8,150', '4,014', '26,712', '26,704', '8,143', '7,082', '2,946', '81,400',
             'lifted on the cost line', 'below the first half', '7,500', '10,953', '16,448',
-            'across all three years']:
+            'across all three years', '9,642', '15,170', '43.4%']:   # not '43.6%' - that is the 1H26 PBT fall
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide

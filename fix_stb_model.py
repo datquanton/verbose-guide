@@ -13,7 +13,7 @@ Booked, and asserted below:
   Model!X284         FY25 opening specific allowance restated to 16,078
   Model!Y287         FY26F write-off rate -1.71% (the 50%-coverage solve)
   Model!Y278         specific charge 0.8653x write-off -> FY26F PBT 7,500
-  Model!Y/Z/AA132,134  opex multipliers -> CIR 42% flat
+  Model!Y/Z/AA132,134  opex multipliers -> CIR 42.1 / 40 / 38%, declining
 
 Set by the analyst in this round, not by us:
   Model!Z287 -1.2% (was -0.9%) and AA287 -0.7% (was -0.5%) - heavier FY27F and
@@ -34,8 +34,8 @@ NPL_FORMULAS = {'DG%d' % r: "'Notes(Quarter)'!BX%d" % (75 + r) for r in range(6,
 MODEL_VALUES = {'X284': 16078.433, 'Y287': -0.0171}
 MODEL_FORMULAS = {'Y278': '-Y279*0.8653',
                   'Y132': 'X132*0.9647', 'Y134': 'X134*0.9647',
-                  'Z132': 'Y132*1.1517', 'Z134': 'Y134*1.1517',
-                  'AA132': 'Z132*1.15', 'AA134': 'Z134*1.15'}
+                  'Z132': 'Y132*1.0279', 'Z134': 'Y134*1.0279',
+                  'AA132': 'Z132*1.0829', 'AA134': 'Z134*1.0829'}
 
 
 def read(z, part, refs):
