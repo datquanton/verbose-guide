@@ -33,7 +33,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | ~~July PMI~~ **RESOLVED 03-Aug 11:53: 52.9**, from 51.8 in June and above May's 52.8 — **highest of 2026**, 13th consecutive month above 50, output growth fastest since Mar-2011. **Reports EASING inflation pressure**, which corroborates the disinflation reading. **CLOSED** | 1 |
 | **15-Aug is a CLUSTER date — two SBV circulars** | **2026-08-15**: **Circular 29/2026** (lending: debt handling, small-value loans, electronic lending) **and Circular 31/2026** (financial leasing; replaces TT26/2024; adds *property rights* — software, data, IP — as leasable assets). Second confirmed instance of effective dates clustering, and the first found **ahead** of the date | 1, 5 |
 | ~~Circular 29/2026/TT-NHNN takes effect~~ *(folded into the row above)* | **2026-08-15** — amends Circular 39/2016 on credit-institution lending (debt handling, small-value loans, **electronic lending**). Issued 30-Jun. **Found BEFORE it binds**, unlike the four found 1–3 months late. Bears on TCB/VPB/MBB = 51.5% | 1, 5 |
-| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **PASS 3 (KDH) DONE 18:53 — and it found a CONTRADICTION ALREADY ON FILE: `binh_trung_moi_transfer_expected` = Q3/2026 against evidence prose attributing the Q2 ₫906bn to that same transfer. One question decides whether ₫1,743bn of one-off income is spent or still to come, and it is gated to the 14-Aug/29-Aug reviewed statements.** **PASS 4 (TCB) DONE 19:53 — TCLife licensed 16-Jul-2025, charter ₫1,300bn, TCB 80% (₫1,040bn), **20% HELD BY VINGROUP COMPANIES** — the first hard structure-level TCB/Vingroup link in this repo. Separately TCGIns 11%→68%, a control acquisition. Manulife exclusivity ended; the fee line is now vertically integrated, so its DEFINITION changed.** **STILL TO RUN: TCX, VPX (CAEX licence ~Q3), VCI, MBB non-life insurer.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
+| **⚠ STRUCTURE SWEEP — RUN FOR THE FIRST TIME 05-Aug 16:53, ON ITS FIRST ELIGIBLE SWEEP.** **First pass (banks) found a ZERO: "insurance"/"bancassurance"/"Manulife"/"bảo hiểm" appeared 0 times in `assumptions.json` across 51.5% bank exposure.** H1/2026: TCB insurance service revenue **>₫1,260bn**; MB Ageas Life revenue **~₫3,000bn**; VPB cross-sell **>₫3,540bn, +40%**, owns ~90% of OPES and injected **>₫1,000bn**. **PASS 2 (HPG) DONE 16:53→17:53: HPA 285.0m shares, HPG holds 84.999% → FULLY CONSOLIDATED, so no deconsolidation gain and the "Phố Nối" question is closed as a NO. ₫32,000 on 22-Jul = −23.6% from IPO; HPG's stake worth ₫7,752bn = 4.41% of HPG. Vietcap took 39% of the offering as PRINCIPAL (~₫502.8bn).** **PASS 3 (KDH) DONE 18:53 — and it found a CONTRADICTION ALREADY ON FILE: `binh_trung_moi_transfer_expected` = Q3/2026 against evidence prose attributing the Q2 ₫906bn to that same transfer. One question decides whether ₫1,743bn of one-off income is spent or still to come, and it is gated to the 14-Aug/29-Aug reviewed statements.** **PASS 4 (TCB) DONE 19:53 — TCLife licensed 16-Jul-2025, charter ₫1,300bn, TCB 80% (₫1,040bn), **20% HELD BY VINGROUP COMPANIES** — the first hard structure-level TCB/Vingroup link in this repo. Separately TCGIns 11%→68%, a control acquisition. Manulife exclusivity ended; the fee line is now vertically integrated, so its DEFINITION changed.** **PASS 5 (VPX) DONE 20:53 — CAEX is VPBankS 11% / Future Land 39% / LynkiD 50%. VPX owns ELEVEN PERCENT, and the file carried an option EV, branch probabilities and an armed criterion with NO stake recorded. 11% × ₫10,000bn = ₫1,100bn ties to the ₫1,097bn on file to 0.27%, and PROVES the VPB "₫1,100bn tokenised-asset exchange" is the same money (11+39+50=100 leaves no room).** **STILL TO RUN: TCX, VCI, MBB non-life insurer.** | **monthly, one query PER HOLDING about STRUCTURE rather than events**: subsidiaries, separate listings, disposals, stake changes. **Created because Nông nghiệp Hòa Phát listed on HOSE on 06-Feb-2026 and this file learned it six months late, from a lane-6 search about VCI.** Fourth instance of the same class after Circular 25, HPG's half-year volumes and the 18 named projects — **dated, scheduled, primary, findable, and therefore invisible to lanes that hunt for news.** **Open on HPA: total share count (so no market cap, no sum-of-the-parts), HPG's retained stake, consolidation status.** | 3 |
 | **SBV/MoF circular back-sweep** | **monthly, covering the preceding quarter** — use luatvietnam's *"Chính sách mới về tài chính ngân hàng hiệu lực tháng N"* digest plus NHNN's published annual circular programme. **Not a search run when a thesis needs one** | 1, 5 |
 | **⚠ MoIT / trade-defence back-sweep — RUN FOR THE FIRST TIME 05-Aug 08:53. ⚠ NEW DATE GATE: 612 FINAL DETERMINATION, OUTER BOUND 27-OCT-2026** — investigation initiated 27-Oct-2025; statutory limit **9 months (27-Jul-2026, LAPSED) + up to 3 months**. Public consultation hearing held **03-Jul-2026** (Hòa Phát/Formosa v. Chinese respondents). **⚠ UNRESOLVED AND SHARPER: Decision 612 states NO TERM for the temporary duty itself** — if it lapses before the final, there is an unprotected interval with the case still open. *Do not re-search before ~mid-Sep unless a steel-lane item surfaces it free.* | **monthly.** `_regulatory` held thirteen instruments and **zero from MoIT** until Decision 612/QĐ-BCT was found **3½ months late**. The banking-finance digest **cannot** surface trade-defence decisions. Sources: MoIT's Trade Remedies Authority (PVTM) and chongbanphagia.vn. **Live: (a) the FINAL determination on wide-format HRC (612 is TEMPORARY) — date unknown; (b) INDIAN HRC's share of Vietnamese imports — the 2025 India termination rested on a <3%-of-imports negligibility test over a 2024 window, so a rise above 3% reopens the petition route** | 2, 5 |
 
@@ -80,6 +80,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-05
+
+- **20:53 ICT · VPX (structure sweep, pass 5) — the file has carried a "CAEX option" since inception, with
+  branch probabilities, an EV, an armed kill criterion and a ₫1,097bn injection — and no ownership percentage
+  anywhere. VPX owns 11%.**
+  *(US market opened 20:30 ICT.)*
+  **CAEX's shareholder structure: VPBankS 11%, Future Land Investment 39%, LynkiD Corporation 50%.**
+  **AND THREE NUMBERS FROM THREE SOURCES NOW TIE EXACTLY.** CAEX met a **minimum capital requirement of
+  ₫10,000bn**. **11% of ₫10,000bn = ₫1,100bn.** The file already held `caex_q1_investment_bn` = **1,097**.
+  **The three reconcile to 0.27%.**
+  **WHICH SCORES A JUDGMENT CALL FROM 31-JULY.** That entry found a source stating total CAEX capital as *"10 tỷ
+  đồng"* right after describing a ₫1,097bn injection, and reasoned: *"those cannot both be right… the total is
+  almost certainly a compression error for a figure ~1,000× larger. The injection figure is kept and the total
+  is discarded."* **The inferred figure was ~₫10,000bn and the actual requirement is ₫10,000bn. Right, and for
+  the stated reason.**
+  **AND IT CLOSES A "NOT ESTABLISHED" FLAG ELSEWHERE — BY PROVING A DOUBLE COUNT.** The `vpb` block records:
+  *"VPB has put ₫1,100bn into a tokenised-asset exchange… **whether this is the same venture is NOT established
+  and is not assumed**."* **It is the same money.** The proof is structural: **11 + 39 + 50 = 100, so there is
+  no room for a separate VPB stake**, and 11% of ₫10,000bn is ₫1,100bn — exactly VPB's figure and within 0.27%
+  of VPX's. **Two entries have been describing one investment at parent and subsidiary level.** The refusal to
+  assume was right at the time and is now discharged with arithmetic rather than inference.
+  **WHAT THE 11% DOES TO THE SIZE OF THE BET — stated as a question, because branches are human-only.** VPX's
+  stake is **~₫1,100bn against a ₫49,875bn market cap = 2.21% of VPX, 0.06% of the book.** The model's CAEX
+  option is worth **+4.8% of VPX's price in expectation = ₫2,394bn.** **On an 11% stake, earning ₫2,394bn of
+  expected value on a ₫1,097bn cost implies an expected CAEX equity value of ~₫31,700bn — 3.2× its charter
+  capital — and since the EV is net of a rejection branch, the licence-granted branch requires more.** **Two
+  readings, and I do not choose:** *(a)* the branches price the **stake's NAV**, in which case 3.2× is an
+  embedded assumption never written down; *(b)* they price a **re-rating of VPX itself**, in which case the
+  arithmetic doesn't apply and the option is a narrative bet, not a NAV bet. **Charter §4 — branch construction
+  is human-only. What is new and certain is that the stake is 11%, where the file previously implied nothing.**
+  **A FOURTH ARMED CRITERION WITH A PROBLEM, AND DIFFERENT IN KIND.** VPX's second test reads *"the free option
+  expires worthless — **CAEX licence rejected under the 5-licence cap**."* **CAEX is one of five enterprises
+  with complete and valid dossiers. If the cap is five and there are five valid applicants, rejection *under the
+  cap* is close to un-fireable** — a rejection would have to come on merits, which is not what the criterion
+  says. **The previous three defects were undefined subjects** (TCB's "Masterise", VPX's gross-vs-net FVTPL,
+  KDH's consolidation basis); **this one is a named mechanism that may not be the operative risk.** Human-only
+  under §4; flagged, not rewritten.
+  **TIMING, AND IT HAS SLIPPED.** The plan was a licence and operations **by end-Q2/2026**; as of April CAEX was
+  still applying; the government now targets the first official crypto-market activity in **Q3/2026** with
+  licensing early in the quarter. **Today is 05-August and Q3 is 36 days old.** **Calibration forecast #8
+  ("CAEX licence granted ~Q3 at p=0.40") remains open and unscored — 56 days left to resolve.**
+  *Also new: **HashKey Capital** signed alongside OKX Ventures in April 2026; the `caex_partner` field says
+  "OKX" only. Recorded; field not edited, because a partner list is descriptive and the existing value is not
+  wrong.*
+  **NOTHING MODELLED.** No branch, probability, price, weight or confidence moved on VPX or VPB.
 
 - **19:53 ICT · TCB (structure sweep, pass 4 — the largest position) — this file has spent two weeks inferring
   TCB's ecosystem exposure and refusing the inference. Here is a structure-level fact instead, and it is not
