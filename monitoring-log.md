@@ -80,6 +80,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-05
 
+- **14:53 ICT · KDH (lanes 3, 5) — ⚠ ESCALATION TRIGGER 4 FIRES ON KDH. Gladia Heights launched on 01-Aug
+  with ~₫4,000bn booked — and the developer says the profit is a 2027 event.**
+  *(Vietnam session closed 14:45.)*
+  **THE EVENT.** Keppel and KDH launched **Gladia Heights** on **01-Aug-2026** — ~500 apartments across two
+  towers, **>90% booked at the launch event, total transaction value nearly ₫4,000bn.** Handover expected
+  **December 2026 or June 2027** depending on payment method and sub-zone. **The developer expects revenue
+  ~₫6,000bn and profit ~₫2,000bn, "to be recognised in 2027 after handover is completed."** Buyers get
+  interest-rate support of up to 24 months.
+  **WHY THIS IS THE SHARPEST KDH FINDING SINCE THE Q2 PRINT.** `run.py` §2 calls this name **"the whole 2026
+  P&L is one variable"** and the variable is the Gladia handover. **The largest commercial event of KDH's year
+  has just been placed, by the developer, outside the year the model is about.**
+  **THE H2 ARITHMETIC, WHICH STANDS WHATEVER THE BRANCHES ASSUME.** H1/2026 consolidated NPAT **₫1,097bn**.
+  Against `fy26e_npat`: **base ₫1,590bn needs ₫493bn more in H2; bull ₫2,203bn needs ₫1,106bn.** And worth
+  saying plainly: **bear is ₫1,033bn, which H1 has already exceeded by ₫64bn — the bear branch is unreachable
+  from here absent a write-down**, a consequence of the Bình Trưng Mới deconsolidation gain rather than of
+  trading. **So H2 must deliver ₫493–1,106bn, and the only ₫4,000bn commercial event of the year is explicitly
+  ring-fenced to 2027.** *A statement about the gap, not about the branches — it holds either way.*
+  **WHAT I CANNOT ESTABLISH, AND THEREFORE DO NOT ACT ON: whether `fy26e_npat` ever included Gladia Heights.**
+  The dossier's unit economics are built on **low-rise product at ₫42–44bn per unit**; Gladia Heights is
+  **apartments**. If the branches were always about low-rise handovers, this confirms an assumption never
+  written down; if they leaned on the Gladia complex as a whole, it is materially adverse. **Confidence not
+  moved — fifth application of the same rule this week:** cutting a scalar on an inference about what the
+  branches contain is the move this file has refused in both directions. **The question is escalated instead,
+  and it is specific: does `fy26e_npat` contain any Gladia Heights revenue?**
+  **THE KILL CRITERION IS NOW LIVE.** It reads *"customer advances < ₫1,000bn at 3Q26 **with Gladia Heights
+  launched**"* and the brief calls it **"the decisive test."** **Gladia Heights is launched.** It becomes
+  evaluable at the Q3 filing, ~30-Oct. **Directionally it now looks likely to clear** — advances were ₫688.6bn
+  at Q1 and ~₫4,000bn of bookings landed on 01-Aug. **Two things stop that being a conclusion.** *(1)* Bookings
+  are not contracts and contracts are not cash; a 90% launch-event booking rate is a marketing figure until
+  deposits appear on a balance sheet. *(2)* **The consolidation basis is undefined in the criterion.** Gladia
+  by the Waters is a **Keppel 49% / KDH 51% JV**, so a 51% subsidiary consolidates in **full** with a 49%
+  minority interest — **advances would appear at 100% while profit is struck after NCI. The advances test and
+  the profit line sit on different economic bases and the criterion says neither.** **Third armed criterion
+  found this week with an undefined subject**, after TCB's *"Masterise bond event"* and VPX's gross-vs-net
+  FVTPL test. Human-only under §4.
+  **A NEW ASP REGIME THE UNIT ECONOMICS DO NOT CONTAIN.** ₫4,000bn across ~450 booked units is **~₫8.9bn per
+  unit.** The dossier solves everything off **₫42–44bn** — open item 15 is literally the 42-vs-44 question —
+  and that is **low-rise**. **These differ by roughly five times.** Any "units handed over" count from Q4/2026
+  will mix two products whose per-unit economics are not comparable, **and the bear branch's "80 units for the
+  year" is denominated in the expensive kind. A unit count is no longer a sufficient statistic for this model.**
+  **TWO INTERNAL INCONSISTENCIES IN THE SOURCE, FLAGGED NOT RESOLVED.** *(a)* ₫4,000bn for ~450 units implies
+  ~₫4,444bn for all 500, **not** the stated ₫6,000bn — so ₫6,000bn must cover more than the two towers, or a
+  higher average on the remainder. Not established. *(b)* *"Handover Dec-2026 or Jun-2027"* sits in mild
+  tension with *"recognised in 2027"*; a December tranche could recognise in 2026. **The 2027 statement is the
+  developer's own summary and is taken as primary, with the tension recorded rather than smoothed.**
+  **A MARGIN COMPARISON REFUSED.** ₫2,000bn on ₫6,000bn is a **33.3% NET** margin; the file holds
+  `q1_gross_margin` = **0.65**. **Different measures — this pair must not be read as a margin collapse.** Sixth
+  comparison refused for want of a common basis in fifteen hours.
+  **AND A COST THAT EXTENDS FORWARD.** 24-month interest-rate support on ~₫4,000bn of sales is a developer
+  subsidy. The Q2 print already showed **financial costs ×3 and selling expenses ×2.9** *"on payment discounts
+  and customer support."* **This policy extends that cost structure into 2027 and 2028.** Recorded, not sized —
+  the subsidy rate is not disclosed.
+  **NOTHING MODELLED.** No branch, probability, price, weight or confidence moved.
+
 - **13:53 ICT · TCX (lanes 3, 6) — ran the test I named an hour ago. It cannot be completed from public data,
   and the search that failed it turned up something worse: TCBS's record-profit headline conceals a 9.26pp
   margin fall, and VPS now out-earns it per dong of revenue.**
