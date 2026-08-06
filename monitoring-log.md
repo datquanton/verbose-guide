@@ -83,6 +83,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 01:53 ICT · BOOK-WIDE (lanes 3, 4) — OPEN ITEM 2 finally gets a size, and it is trigger-3 scale on the
+  engine's #1 name. Also: VPB's missing ex-date is not missing, it DOES NOT YET EXIST.**
+  **FIRST, A STATUS CHECK I OWED THE RECORD.** The `_meta` blocks carry *"SIX FIRE TRIGGER 3, AT 48.2% OF THE
+  BOOK"* from 02-Aug 13:53. **That episode was RESOLVED the same day** by the 20:53 user-directed refresh, which
+  made `cap_now = shares × price` exactly on all eight — which is why yesterday's 17:53 sweep found the
+  `pe_ttm × npat_ttm` check to be an identity. **No standing fired triggers exist from it, and this sweep's
+  "no trigger fires" closings have been accurate.** Checked rather than assumed.
+  **BUT THAT SAME NOTE LEFT ONE THING LIVE, AND IT HAS AGED 14 DAYS.** *"PRICES ARE STILL THE WEAK LINK AND ARE
+  UNCHANGED… presumed 24-Jul… OPEN-DECISIONS item 2 is now the single remaining input standing between this file
+  and a trustworthy ranking."* **Item 2 has sat since 02-Aug with no magnitude attached. It has one now.**
+  **THE ARITHMETIC, AND IT IS EXPLICITLY A CONDITIONAL.** The file's own market context has the VN-Index closing
+  **1,686** in the week of 20–24 Jul; it closed **~1,764 on 06-Aug**. **+4.63% over the span the prices are
+  presumed to straddle.** **IF** the eight moved with the index, every `cap_now` is understated ~4.6% and every
+  E[r] overstated in proportion. On MBB: raw **+36.69% → +30.64%** (−6.04pp). **Add the 11-Aug rights and it is
+  +36.69% → +25.22%, a −11.47pp raw move, which WOULD clear the 10pp threshold.**
+  **⚠ THIS IS NOT DECLARED AS A FIRED TRIGGER, AND THE REASON MATTERS.** It rests on two assumptions: that the
+  prices really are 24-Jul (the file says **presumed**, which is *why* item 2 is open), and that **MBB moves at
+  beta 1 to the index.** **Applying an index return to a single stock is the same wrong-quantity error caught
+  three times this week** — on the MBV criterion, the coking-coal index, and VCI's total-versus-foreign share.
+  **I will not commit it a fourth time.** **What is established is not that E[r] has moved; it is that item 2 is
+  worth potentially more than 10pp on the largest position in the brief — it is not housekeeping.**
+  **⚠⚠ AND AFTER 11-AUG THE STALE PRICE STOPS BEING AN ERROR AND BECOMES A TRAP.** Yesterday at 18:53 I wrote
+  that refreshing `price` without `shares_outstanding` breaks `cap_now`. **The sharper form: the theoretical
+  ex-all price is ₫18,440, and a human who refreshes MBB's price after 11-Aug against the unrefreshed 8,055m
+  share count gets cap_now = ₫148,534bn against a true ₫185,668bn — 20.0% TOO LOW, which INFLATES E[r] by
+  roughly 25%.** The file's own 02-Aug audit found implied-versus-actual share counts wrong by −27.9% to +17.9%
+  across the book; **this is that exact failure mode, with a date on it, on the name the engine most wants to
+  buy.** **The safe order is shares first, price second — and neither is mine to touch (§4).**
+  **SECOND FINDING — VPB'S EX-DATE IS NOT UNKNOWN, IT IS UNSET.** The 26.04% issue takes charter capital
+  **₫79,339bn → ₫100,000bn** (check: 79,339 × 1.2604 = 99,999.9 ✓, and 7,933.9m × 26.04% = 2,065.99m against the
+  file's `stock_issue_shares` 2,060,000,000). **Issuance and procedures are slated for Q3–Q4 2026, AFTER
+  completing formalities with the regulators.** **That is a different status from the one the file records:** the
+  standing open item says ex-dates for the four pending share-count increases are *unestablished*, implying they
+  exist and were not found. **For VPB the date has not been set.** MBB's was fixed (11-Aug); **VPB's and TCB's
+  are pending approval, not pending discovery** — which also means neither can surprise the book inside the next
+  few sessions. *The file's classification of the VPB issue as a STOCK DIVIDEND from undistributed profit, not a
+  bonus issue, is confirmed: VPBank ran a written shareholder consultation in July 2026 to change the plan to
+  exactly that. Item 3's tax treatment stands.*
+  **Nothing modelled — `price` and `shares_outstanding` are guarded §4 fields. No confidence moves. No escalation
+  trigger is declared fired**, and the conditional above is published as a conditional. Item 2 annotated.
+
 - **00:53 ICT · HPG (lane 5) — §9's oldest open question gets an answer on the ore leg: the basis is 62% Fe
   CFR TIANJIN. The price move itself is noise, and is reported as noise. And both bridge gearings reconstruct
   exactly, which was never stated.**
