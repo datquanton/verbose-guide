@@ -198,8 +198,12 @@ class Model(object):
         tax = 1 + self.v('Y149')                         # 149 is stored negative
         npat = [p * tax for p in pbt]
 
-        # equity rolls forward on retained profit; FY26F stands on its own cache
-        equity = [self.v('Y85')]
+        # Equity rolls forward on retained profit.  Row 85 sums 87 + 94 + 98 +
+        # 101, and only 98 moves - the fund allocations in 95-97 sit inside row
+        # 94, which is held at its FY25 value - so the increment is the whole of
+        # NPATMI.  The FY26F base is row 85's cache less the NPATMI inside it,
+        # which is exact because both caches come from the same Excel run.
+        equity = [self.v('Y85') - self.v('Y153') + npat[0]]
         for n in npat[1:]:
             equity.append(equity[-1] + n)
         # liabilities are forecast independently, so assets move with equity

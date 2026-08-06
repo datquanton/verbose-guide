@@ -12,7 +12,7 @@ Booked, and asserted below:
   NPL!DG6:DG11       2Q26 column wired to 'Notes(Quarter)'!BX81:BX86
   Model!X284         FY25 opening specific allowance restated to 16,078
   Model!Y287         FY26F write-off rate -1.71% (the 50%-coverage solve)
-  Model!Y278         specific charge 0.8653x write-off -> FY26F PBT 7,500
+  Model!Y278         specific charge 0.81355x write-off -> FY26F PBT 8,180
   Model!Z278, AA278  specific charge = write-off + VND1,000bn / +VND2,000bn
   Model!Y/Z/AA132,134  opex multipliers -> CIR 42.1 / 40 / 38%, declining
 
@@ -42,11 +42,11 @@ NPL_VALUES = {'N26': 0.930, 'N27': 0.012, 'N28': 0.009, 'N29': 0.013, 'N30': 0.0
               'P26': 0.965}
 NPL_FORMULAS = {'DG%d' % r: "'Notes(Quarter)'!BX%d" % (75 + r) for r in range(6, 12)}
 MODEL_VALUES = {'X284': 16078.433, 'Y287': -0.0171}
-MODEL_FORMULAS = {'Y278': '-Y279*0.8653',
+MODEL_FORMULAS = {'Y278': '-Y279*0.81355',
                   'Z278': '-Z279+1000', 'AA278': '-AA279+2000',
-                  'Y132': 'X132*1.0296', 'Y134': 'X134*1.0296',
-                  'Z132': 'Y132*1.0923', 'Z134': 'Y134*1.0923',
-                  'AA132': 'Z132*1.0773', 'AA134': 'Z134*1.0773'}
+                  'Y132': 'X132*1.0301', 'Y134': 'X134*1.0301',
+                  'Z132': 'Y132*1.0929', 'Z134': 'Y134*1.0929',
+                  'AA132': 'Z132*1.0771', 'AA134': 'Z134*1.0771'}
 # FY26F loan growth of 8%, on the reported FY25 book.  Rows 515-520 hold the
 # loan book by segment and are rolled forward from FY24, so the FY25 column has
 # drifted: it sums to VND593,591bn (X521) against a reported VND626,392bn
@@ -78,16 +78,17 @@ MODEL_FORMULAS.update(
 #     an 11.0% ROE; the deck's case is that the recovery lands in FY28F, and the
 #     valuation year should be the same one the case rests on.  That needs a K
 #     column, which the sheet does not have - it is created here.
-#   * beta 1.05 -> 1.222, which is what takes the blend to exactly VND75,000.
+#   * beta 1.05 -> 1.173, which is what takes the blend to exactly VND77,500.
 #     This is back-solved to the target price the analyst set, not derived.  It
-#     was 1.02 before the loan book went to 8% growth; on the bigger book the
-#     model supports VND86,900 at beta 1.02, so the beta that justifies the
-#     VND75,000 target rises rather than falls.  A 1.22 beta for a bank still
+#     has moved with the forecast: 1.02 when the target was VND75,000 on a 2.3%
+#     loan book, 1.222 once the book went to 8%, and 1.173 now that the target
+#     is VND77,500 and FY26F PBT VND8,180.  A beta near 1.2 for a bank still
 #     working through a restructuring is easier to defend than 1.02 was.
 #   * the residual-income date row is rolled forward a year.  It still held
 #     2025 and 2026 year-ends, so DATEDIF(TODAY(), ...) would return #NUM! on
 #     the next recalculation and take the whole RI leg with it.
-VALUATION_VALUES = {'B11': 1.222, 'J47': 46387, 'K47': 46752, 'L47': 47118}
+VALUATION_VALUES = {'B11': 1.173,
+                    'J47': 46387, 'K47': 46752, 'L47': 47118}
 VALUATION_FORMULAS = {'B1': 'D74',            # was J16, the P/B leg alone
                       'B71': 'K16',           # P/B leg now on FY28F
                       'K5': 'L51', 'K6': 'Model!AA314', 'K15': 'Model!AA941',

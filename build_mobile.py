@@ -56,11 +56,11 @@ BLOCKS = [
  dict(tick='stb', lang='en', sector='Banks',
       name='Sacombank\n(HOSE: STB)',
       head='Credit growth back on, clean-up funded from the reserve stock',
-      tp='75,000', ret='+1.2%', tplab='Target price',
+      tp='77,500', ret='+4.6%', tplab='Target price',
       t1='STB — 2Q26 in brief', t2='STB — I/S performance', t3='STB — Valuation',
       t4='Estimates',
-      sub2='FY26F: loans +8.0%, PBT -0.7%, NPL 5.8%',
-      sub3='P/E and P/B struck on the VND75,000 target price',
+      sub2='FY26F: loans +8.0%, PBT +7.2%, NPL 5.8%',
+      sub3='P/E and P/B struck on the VND77,500 target price',
       points=[
         ('1H26 PBT VND4,136bn (-43.6% YoY)',
          '51% of the VND8,100bn plan. NIM compression and a heavier provisioning '
@@ -68,25 +68,25 @@ BLOCKS = [
         ('NPL 7.54% at end-2Q26, the highest in the system',
          'Up 1.13%p YTD. Group 3-5 rose ~VND7,800bn to VND47,957bn, two-thirds of it '
          'Group 5.'),
-        ('We set FY26F NPL at 5.8%, coverage at 50%',
+        ('We set FY26F NPL at 5.8%, coverage at 47%',
          'Reserves of VND27.2tn at end-2Q26 fund VND11.6tn of 2H26 write-offs — 36% of '
-         'the Group 5 balance. Coverage ends the year at 48.6% on the bigger book.'),
-        ('FY26F PBT VND7,573bn (-0.7% YoY), 6.5% below plan',
+         'the Group 5 balance. Coverage ends the year at 47.1% on the bigger book.'),
+        ('FY26F PBT VND8,180bn (+7.2% YoY), 1.0% above plan',
          'We take FY26F loan growth to 8.0% from 2.3%; 1H26 delivered 1.5%, so 2H26 has to '
-         'add 6.4%. NII VND26,084bn, then +16.5% in FY27F. CIR held at 42.1% to 38%.'),
-        ('HOLD, target price VND75,000',
-         'PBT compounds ~51% a year to VND17,229bn in FY28F on a cleaned book. FY27F '
+         'add 6.4%. NII VND26,098bn, then +16.5% in FY27F. CIR held at 42.1% to 38%.'),
+        ('HOLD, target price VND77,500',
+         'PBT reaches VND17,246bn in FY28F on a cleaned book, +39.8% then +50.8%. FY27F '
          'carries VND1,000bn of provisioning above what write-offs consume and FY28F '
-         'VND2,000bn, taking coverage to 100%.')],
+         'VND2,000bn, taking coverage to 97.6%.')],
       rows=STB_ROWS['en']),
  dict(tick='stb', lang='vn', sector='Ngân hàng',
       name='Sacombank\n(HOSE: STB)',
       head='Tín dụng tăng trở lại, xử lý nợ xấu bằng nguồn dự phòng đã trích',
-      tp='75,000', ret='+1.2%', tplab='Giá mục tiêu',
+      tp='77,500', ret='+4.6%', tplab='Giá mục tiêu',
       t1='STB — Tóm tắt Q2/2026', t2='STB — Kết quả kinh doanh',
       t3='STB — Định giá', t4='Dự phóng',
-      sub2='FY26F: tín dụng +8.0%, LNTT -0.7%, nợ xấu 5.8%',
-      sub3='P/E và P/B tính theo giá mục tiêu 75,000 đồng',
+      sub2='FY26F: tín dụng +8.0%, LNTT +7.2%, nợ xấu 5.8%',
+      sub3='P/E và P/B tính theo giá mục tiêu 77,500 đồng',
       points=[
         ('LNTT 1H26 đạt 4,136 tỷ đồng (-43.6% CK)',
          'Hoàn thành 51% kế hoạch 8,100 tỷ đồng. NIM thu hẹp và chi phí dự phòng tăng '
@@ -94,17 +94,17 @@ BLOCKS = [
         ('Nợ xấu 7.54% cuối Q2/2026, cao nhất hệ thống',
          'Tăng 1.13%p so với đầu năm. Nợ nhóm 3-5 tăng khoảng 7,800 tỷ đồng lên 47,957 '
          'tỷ đồng, hai phần ba là nhóm 5.'),
-        ('Đặt giả định nợ xấu FY26F ở 5.8%, bao phủ 50%',
+        ('Đặt giả định nợ xấu FY26F ở 5.8%, bao phủ 47%',
          'Dự phòng 27.2 nghìn tỷ đồng cuối Q2/2026 đủ để xóa 11.6 nghìn tỷ đồng trong '
-         '2H26 — tương đương 36% dư nợ nhóm 5. Bao phủ cuối năm còn 48.6% trên nền '
+         '2H26 — tương đương 36% dư nợ nhóm 5. Bao phủ cuối năm còn 47.1% trên nền '
          'dư nợ lớn hơn.'),
-        ('LNTT FY26F 7,573 tỷ đồng (-0.7% CK), thấp hơn kế hoạch 6.5%',
+        ('LNTT FY26F 8,180 tỷ đồng (+7.2% CK), cao hơn kế hoạch 1.0%',
          'Nâng tăng trưởng tín dụng FY26F lên 8.0% từ 2.3%; 1H26 đạt 1.5% nên 2H26 phải '
-         'tăng 6.4%. NII 26,084 tỷ đồng, +16.5% năm FY27F. CIR giữ 42.1% về 38%.'),
-        ('NẮM GIỮ, giá mục tiêu 75,000 đồng',
-         'LNTT tăng khoảng 51%/năm, đạt 17,229 tỷ đồng năm FY28F trên nền dư nợ đã sạch. '
+         'tăng 6.4%. NII 26,098 tỷ đồng, +16.5% năm FY27F. CIR giữ 42.1% về 38%.'),
+        ('NẮM GIỮ, giá mục tiêu 77,500 đồng',
+         'LNTT đạt 17,246 tỷ đồng năm FY28F trên nền dư nợ đã sạch, tăng 39.8% rồi 50.8%. '
          'FY27F trích thêm 1,000 tỷ đồng và FY28F 2,000 tỷ đồng ngoài phần bù xóa nợ, '
-         'đưa bao phủ nợ xấu lên 100%.')],
+         'đưa bao phủ nợ xấu lên 97.6%.')],
       rows=STB_ROWS['vn']),
  dict(tick='fpt', lang='en', sector='IT',
       name='FPT Corporation\n(HOSE: FPT)',

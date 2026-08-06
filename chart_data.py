@@ -16,7 +16,7 @@ YRS = ['FY24', 'FY25', 'FY26F', 'FY27F', 'FY28F']
 
 # STB forecast years come off the model via model_read; FY24 and FY25 are
 # actuals.  FPT is still typed - its model is a separate workbook.
-TP_STB = 75000.
+TP_STB = 77500.
 _r0 = lambda vs: [round(v) for v in vs]
 _r1 = lambda vs: [round(v, 1) for v in vs]
 
@@ -47,14 +47,14 @@ SERIES = [
 NAVY, AMBER = '01437C', 'F38120'
 NOTES = [
     'Units: VNDbn except P/E and P/B, which are multiples.',
-    'STB is on FinModel_STB_2Q26 with FY26F loan growth cut to +2.3% '
+    'STB is on FinModel_STB_2Q26 with FY26F loan growth of +8.0% '
     '(Model!Y121, Y124+Y131, Y144). FY27F PBT carries a VND1,000bn provisioning '
     'overlay above write-offs and FY28F VND2,000bn (Model!Z278, AA278).',
     'FPT is on FPT_2Q26, Report sheet rows 3, 15 and 20.',
     'FPT FY26F revenue is not comparable with FY25 as reported: FPT Telecom is '
     'equity-accounted from FY26F. Against a restated FY25 of 50,607 the change is +13.2%.',
     'P/E and P/B are struck on the target prices used in the August deck: '
-    'STB VND75,000, FPT VND87,950. Historical years use the same target price, '
+    'STB VND77,500, FPT VND87,950. Historical years use the same target price, '
     'which is how the deck FY tables are built.',
 ]
 

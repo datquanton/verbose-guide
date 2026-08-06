@@ -73,7 +73,7 @@ check('FY26F NPL 5.8% of the loan book',
       abs(U.NPL26 / U.LOANS26 - 0.058) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
 check('implied 2H26 NPL formation is positive, not a net recovery',
       U.NPL26 - (47957 - U.WO26) > 0, '%+.0f' % (U.NPL26 - (47957 - U.WO26)))
-check('FY26F PBT from the model', abs(U.PBT[0] - 7573) < 1,
+check('FY26F PBT from the model', abs(U.PBT[0] - 8180) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
 check('FY26F CIR near the 42% target', abs(U.CIR[0] - 42) < 0.2, '%.1f%%' % U.CIR[0])
 check('CIR declines year on year, as instructed',
@@ -90,10 +90,12 @@ check('FY27F NII growth is a model output, not a target',
       '%+.1f%% - was +9.9%% on the 2.3%% book' % (U.NII[1] / U.NII[0] * 100 - 100))
 check('FY26F NII still falls YoY despite the bigger book',
       U.NII[0] < U.NII25, '%+.1f%% - NIM, not volume, is the drag' % U.NII_YOY)
-check('PBT growth lands near the 50% the analyst set, both years',
-      all(abs(U.PBT[i + 1] / U.PBT[i] * 100 - 100 - 50) < 2 for i in (0, 1)),
-      '%+.1f%% then %+.1f%%' % (U.PBT[1] / U.PBT[0] * 100 - 100,
-                                U.PBT[2] / U.PBT[1] * 100 - 100))
+# FY26F PBT of 8,180 raises the base, so FY27F growth is lower than the 50%
+# the analyst set - the level was the instruction, not the growth rate
+check('PBT compounds through the forecast, FY28F still near 50%',
+      U.PBT[2] / U.PBT[1] > 1.45 and U.PBT[1] > U.PBT[0],
+      '%+.1f%% then %+.1f%%, off a higher FY26F base'
+      % (U.PBT[1] / U.PBT[0] * 100 - 100, U.PBT[2] / U.PBT[1] * 100 - 100))
 check('FY27F carries a 1,000 provisioning overlay, FY28F 2,000',
       abs(U.F['specific'][1] - U.F['writeoff'][1] - 1000) < 0.5
       and abs(U.F['specific'][2] - U.F['writeoff'][2] - 2000) < 0.5,
@@ -108,10 +110,11 @@ check('the overlay is charge, not write-off: provisioning exceeds write-offs',
 check('provisioning peaks in FY27F, then falls in FY28F',
       U.PROV[1] > U.PROV[0] > U.PROV[2],
       '%.0f / %.0f / %.0f' % U.PROV)
-# coverage is the price of the overlay - flagged as G22, not asserted away
-check('NPL coverage above 100% by FY28F - the cost of the overlay',
-      U.F['coverage'][2] > 100, '%.1f / %.1f / %.1f%%' % U.F['coverage'])
-check('target price 75,000', abs(U.TP - 75000) < 1)
+# coverage is what pays for the higher PBT - flagged as G22/G27, not asserted away
+check('coverage climbs through the forecast but no longer reaches 100%',
+      U.F['coverage'][0] < U.F['coverage'][1] < U.F['coverage'][2] < 100,
+      '%.1f / %.1f / %.1f%% - 104.6%% before PBT went to 8,180' % U.F['coverage'])
+check('target price 77,500', abs(U.TP - 77500) < 1)
 
 # ---------------------------------------------- the Valuation sheet, closing G15
 _V = valuation.V
@@ -122,17 +125,19 @@ check('P/B leg valued on FY28F, the year the case rests on',
       abs(_V['roe'] * 100 - U.ROE[2]) < 0.01 and abs(_V['bps'] - U.BVPS[2]) < 1,
       'ROE %.2f%% x BPS %s -> %s' % (_V['roe'] * 100, '{:,.0f}'.format(_V['bps']),
                                      '{:,.0f}'.format(_V['pb_leg'])))
-check('cost of equity on beta 1.222, the back-solve to VND75,000',
-      abs(_V['beta'] - 1.222) < 1e-9,
-      'CoE %.3f%% - on the 8%% book, beta 1.02 would give 86,900'
+check('cost of equity on beta 1.173, the back-solve to VND77,500',
+      abs(_V['beta'] - 1.173) < 1e-9,
+      'CoE %.3f%% - 1.02 at the old target, 1.222 on the 8%% book'
       % (_V['coe'] * 100))
 check('residual-income dates roll past today, no #NUM! on recalculation',
       all(t > 0 for t in _V['years']),
       '%.2f / %.2f / %.2f yrs out' % tuple(_V['years']))
 check('sheet upside = the rating box on the slide',
-      abs(_V['upside'] * 100 - 1.2) < 0.06, '%+.1f%%' % (_V['upside'] * 100))
+      abs(_V['upside'] * 100 - (U.TP / U.PRICE * 100 - 100)) < 0.06,
+      '%+.1f%%' % (_V['upside'] * 100))
 check('FY26F coverage gives back ground as the denominator grows',
-      abs(U.COV26 - 48.6) < 0.3, '%.1f%%, was 50.9%% on the 2.3%% book' % U.COV26)
+      abs(U.COV26 - 47.1) < 0.3,
+      '%.1f%%, was 50.9%% at 2.3%% loan growth and a 0.8653x charge' % U.COV26)
 
 # ------------------------------------------------------------------- deck
 prs = Presentation(DECK)
@@ -183,10 +188,19 @@ check('box EPS growth = table EPS on the FY25 cell',
       abs(num(en_box['EPS Growth (26F, %)'])
           - (eps[0] / U.HIST_EPS[2] * 100 - 100)) < 0.1,
       'FY25 EPS %.0f' % U.HIST_EPS[2])
+check('narrative states PBT above the plan, not below',
+      'above the board-approved plan' in en_txt and 'cao hơn' in vn_txt,
+      '%+.1f%% vs plan' % U.VS_PLAN)
 check('narrative PBT growth stated', ('%+.1f%% YoY' % U.PBT_YOY) in en_txt,
       '%+.1f%%' % U.PBT_YOY)
+_rate = {r.cells[0].text.strip().replace('\n', ' '): r.cells[1].text.strip()
+         for r in sh0[13].table.rows}
+check('rating box target price = the deck target price',
+      _rate['Target price  (VND, 12M)'] == '{:,.0f}'.format(TP),
+      '%s, was 81,400' % _rate['Target price  (VND, 12M)'])
 check('rating box return = TP / current price',
-      abs(TP / 74100 - 1 - 0.012) < 0.005, '%.1f%%' % (TP / 74100 * 100 - 100))
+      _rate['Expected return'] == '{:.1f}%'.format(TP / U.PRICE * 100 - 100),
+      '%s, was 10%%' % _rate['Expected return'])
 for a, b in [('Operating profit', 'Lợi nhuận hoạt động'), ('Net Profit', 'LNST'), ('EPS', 'EPS'),
              ('P/E', 'P/E'), ('P/B', 'P/B'), ('BVPS', 'Giá trị sổ sách'),
              ('Total assets', 'Tổng tài sản'), ('Equity', 'VCSH')]:
@@ -201,7 +215,7 @@ for s, t in [('5.8%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 /
              ('{:,.0f}'.format(U.H2_PBT), '2H26 PBT'),
              ('{:,.0f}'.format(U.LOANS26), 'FY26F gross loans'),
              ('{:,.0f}'.format(U.NII[0]), 'FY26F NII'), ('1.5%', '1H26 loan growth'),
-             ('8.0%', 'FY26F loan growth')]:
+             ('8.0%', 'FY26F loan growth'), ('47.1%', 'FY26F coverage')]:
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
@@ -214,6 +228,8 @@ for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%
             # per-share lines struck on the overstated 2,060.158mn share count
             '2,820', '3,731', '5,771', '2,883', '4,896', '3,747',
             '22,199', '26,683', '29,059', '31,905', '35,636', '41,407',
+            # superseded by the VND77,500 target and PBT 8,180
+            '81,400', '7,573', '5,896', '3,128', '48.6%', '75,000',
             ]:   # not '43.6%' - that is the 1H26 PBT fall
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 

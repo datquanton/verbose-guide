@@ -44,7 +44,7 @@ SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
        '292d2379-MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
-SHARES, TP = model_read.SHARES, 75000.0
+SHARES, TP = model_read.SHARES, 77500.0
 
 # Every forecast figure below is derived from FinModel_STB_2Q26.xlsx by
 # model_read, which reproduces Excel on all nine FY26F control lines.  Nothing
@@ -74,6 +74,11 @@ H2_LOANS = LOANS26 / H1_LOANS * 100 - 100   # implied 2H26 loan growth
 WO_SHARE = WO26 / GROUP5_2Q * 100
 NIM = tuple(n / ((a + b) / 2) * 100 for n, a, b in
             zip(NII, (F['loans25'],) + F['loans'][:2], F['loans']))
+# FY26F PBT is above the plan again, so the phrasing has to swing with the sign
+PLAN_EN = ('%.1f%% %s the board-approved plan of VND8,100bn'
+           % (abs(VS_PLAN), 'above' if VS_PLAN > 0 else 'below'))
+PLAN_VN = ('%s %.1f%% so với kế hoạch 8,100 tỷ đồng đã được ĐHĐCĐ thông qua'
+           % ('cao hơn' if VS_PLAN > 0 else 'thấp hơn', abs(VS_PLAN)))
 
 TABLE = {1: ['{:,.0f}'.format(v) for v in NII],
          2: ['{:,.0f}'.format(v) for v in NONII],
@@ -100,6 +105,10 @@ PRICE = 74100.0
 BOX = {0: '{:,.0f}'.format(NPATMI[0]), 2: '{:.1f}'.format(EPS_GROWTH),
        3: '{:.1f}'.format(TP / EPS[0]),
        4: '{:,.0f}'.format(SHARES * PRICE / 1000), 5: '{:,.0f}'.format(SHARES)}
+# The rating box was still carrying a VND81,400 target and a 10% expected
+# return - the target price has moved three times since and the box never
+# followed.  Both cells are written from TP now, so it cannot fall behind again.
+RATING = {1: '{:,.0f}'.format(TP), 3: '{:.1f}%'.format(TP / PRICE * 100 - 100)}
 
 EN = {
  4: ("We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. On an 8% loan "
@@ -113,7 +122,7 @@ EN = {
      "delivered in 1H26 — the second half has to add {h2l:.1f}% for the year to land there, which "
      "assumes STB draws on the credit quota it has not used. Gross loans reach VND{ln:,.0f}bn and "
      "NII VND{nii:,.0f}bn ({niy:+.1f}% YoY), taking FY26F PBT to VND{pbt:,.0f}bn ({yoy:+.1f}% YoY) "
-     "— {vp:.1f}% below the board-approved plan of VND8,100bn. The implied 2H26 PBT is "
+     "— {plan_en}. The implied 2H26 PBT is "
      "VND{h2p:,.0f}bn against VND297bn in 2H25. "),
  8: ("Other FY26F assumptions: a provisioning charge of VND{prov:.1f}tn ({pry:+.1f}% YoY) and "
      "non-interest income of VND{noi:,.0f}bn. CIR steps down from {c26:.1f}% in FY26F to "
@@ -135,12 +144,12 @@ VN = {
      "khi trích 7.1 nghìn tỷ đồng trong 1H26 và trích thêm {h2:.1f} nghìn tỷ đồng trong 2H26 đủ "
      "để xóa {wo:.1f} nghìn tỷ đồng, tương đương {wos:.0f}% dư nợ nhóm 5, đưa bao phủ về {cov:.1f}%. "),
  5: 'LNTT FY26F {pbt:,.0f} tỷ đồng trên nền dư nợ tăng 8%: ',
- 7: ("Chúng tôi hạ giả định tăng trưởng tín dụng FY26F về 2.3%, so với 11.7% trước đây và 1.5% "
-     "thực hiện trong 1H26. Dư nợ theo đó còn {ln:,.0f} tỷ đồng và NII còn {nii:,.0f} tỷ đồng "
-     "({niy:+.1f}% CK), kéo LNTT FY26F xuống {pbt:,.0f} tỷ đồng ({yoy:+.1f}% CK) — thấp hơn "
-     "{vpa:.0f}% so với kế hoạch 8,100 tỷ đồng đã được ĐHĐCĐ thông qua, trong khi bản trước còn "
-     "nhỉnh hơn kế hoạch. Mức này hàm ý LNTT 2H26 khoảng {h2p:,.0f} tỷ đồng so với 297 tỷ đồng "
-     "của 2H25. "),
+ 7: ("Chúng tôi nâng giả định tăng trưởng tín dụng FY26F lên {lg:.1f}%, từ 2.3% trước đó và so "
+     "với 1.5% thực hiện trong 1H26 — nửa cuối năm phải tăng thêm {h2l:.1f}% để cả năm về được "
+     "mức này, tức giả định STB dùng tới phần room tín dụng chưa sử dụng. Dư nợ đạt {ln:,.0f} tỷ "
+     "đồng và NII {nii:,.0f} tỷ đồng ({niy:+.1f}% CK), đưa LNTT FY26F lên {pbt:,.0f} tỷ đồng "
+     "({yoy:+.1f}% CK) — {plan_vn}. Mức này hàm ý LNTT 2H26 khoảng {h2p:,.0f} tỷ đồng so với "
+     "297 tỷ đồng của 2H25. "),
  8: ("Các giả định FY26F khác: chi phí dự phòng {prov:.1f} nghìn tỷ đồng ({pry:+.1f}% CK) và thu "
      "nhập ngoài lãi {noi:,.0f} tỷ đồng. CIR giảm dần từ {c26:.1f}% năm FY26F về {c27:.1f}% FY27F "
      "và {c28:.1f}% FY28F; giữ lộ trình này trên nền thu nhập lớn hơn cho chi phí 2H26 ở "
@@ -155,6 +164,7 @@ VN = {
 }
 FMT = dict(h2=H2_PROV / 1000, wo=WO26 / 1000, cov=COV26, ln=LOANS26, nii=NII[0],
            lg=LOAN_GROWTH, h2l=H2_LOANS, wos=WO_SHARE,
+           plan_en=PLAN_EN, plan_vn=PLAN_VN,
            nim26=NIM[0], nim27=NIM[1],
            niy=NII_YOY, pbt=PBT[0], yoy=PBT_YOY, vp=-VS_PLAN, vpa=-VS_PLAN,
            h2p=H2_PBT, prov=PROV[0] / 1000, pry=PROV_YOY, noi=NONII[0],
@@ -191,6 +201,9 @@ def main():
         box = sid(sl, 12).table
         for ri, v in BOX.items():
             put(box.rows[ri].cells[1].text_frame.paragraphs[0], v)
+        rate = sid(sl, 13).table
+        for ri, v in RATING.items():
+            put(rate.rows[ri].cells[1].text_frame.paragraphs[0], v)
     prs.save(DECK)
 
 
