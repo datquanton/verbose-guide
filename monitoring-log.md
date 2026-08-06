@@ -21,7 +21,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
-| **⚠ FTSE OFFICIAL CONSTITUENT LIST — EXPECTED AUGUST 2026, LIVE NOW** | **The 28-name list on file is INDICATIVE and built on 31-Dec-2024 data — twenty months stale.** Of this book: **IN — HPG, KDH, VCI (40.2%). ABSENT though screenable — TCB, VPB, MBB (51.5%). ABSENT but listed AFTER the screen date, so uninformative — TCX, VPX (8.3%).** **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
+| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **The 28-name list on file is INDICATIVE and built on 31-Dec-2024 data — twenty months stale.** Of this book: **IN — HPG, KDH, VCI (40.2%). ABSENT though screenable — TCB, VPB, MBB (51.5%). ABSENT but listed AFTER the screen date, so uninformative — TCX, VPX (8.3%).** **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
@@ -82,6 +82,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-06
+
+- **22:53 ICT · INDEX (lane 4) — the FTSE gate stops being a month and becomes a DAY: 21-Aug-2026. And the
+  September flow finally has a number, which puts arithmetic under item 5's phasing objection for the first time.**
+  **THE DATE.** FTSE Russell publishes the **final list of eligible Vietnamese constituents on 21-AUG-2026**,
+  effective **21-SEP-2026**. The gate row in this log has read *"FTSE OFFICIAL CONSTITUENT LIST (expected August
+  2026)"* since it was created; it now has a day. **Eleven trading sessions out** (7, 10, 11, 12, 13, 14, 17,
+  18, 19, 20, 21-Aug).
+  **⚠ TRIGGER 5 DOES NOT FIRE — 11 sessions, not 5, and that is stated rather than stretched.** The catalyst
+  that *did* fire today is MBB's ex-rights on **11-Aug, three sessions out**, escalated at 18:53 and unchanged.
+  **Two dated events in the next three weeks, and the brief's largest add sits in front of the nearer one.**
+  **WHAT 21-AUG ACTUALLY SETTLES, AND IT IS MOST OF THE BOOK.** The 28-name provisional list read on 03-Aug
+  contains **HPG 16.8% + KDH 20.3% + VCI 3.1% = 40.2%**. **The other 59.8% — TCB 35.0%, VPB 10.0%, MBB 6.5%,
+  TCX 5.5%, VPX 2.8% — has UNDETERMINED membership.** And the reason matters: that provisional list was screened
+  on **31-Dec-2024 data**, which is exactly why the TCX-absence hypothesis was withdrawn on 03-Aug (TCX listed
+  21-Oct-2025 and could not have been screened). **The same logic cuts the other way now: absence from a list
+  built on 2024 data does not predict absence from one built on current data.** Nothing about the five is
+  settled until 21-Aug. *A broker note circulating a speculative 29-name list including VPB is T5 speculation
+  against a screened list and is **not used**.*
+  **⚠⚠ AND THE SEPTEMBER FLOW IS SMALL — THE FIRST NUMBER UNDER ITEM 5'S PHASING OBJECTION.** Inclusion is
+  **phased 10% → 20% → 35% → 35%** from September 2026 into 2027. Total passive is put at **~US$1.5bn**, of
+  which **~US$150m in the September rebalance itself.** **Internal check: 150/1,500 = 10%, matching the stated
+  first phase exactly.** **Item 5's TCX tree prices "the FTSE event"; at the September step that event is ~US$150m
+  spread across roughly thirty stocks — a fraction of one day's HOSE turnover.** The three surviving objections
+  to that tree were **phasing, the banked April announcement, and four years of foreign portfolio selling.**
+  **Phasing has been the qualitative one; it is now quantitative, and it is the weakest link in the tree, not
+  the strongest.** *The 10% is a weight phase, not a promise about price; a small flow into an illiquid name can
+  still move it. What is refuted is the size of the event, not its direction.*
+  **AND IT BEARS ON VCI'S CRITERION, WHICH IS STILL NOT TESTED.** *"No market-share gain in foreign brokerage
+  through the FTSE event."* **The event now has both a list date (21-Aug) and an effective date (21-Sep), so the
+  criterion finally has a window** — but the measure it needs remains **foreign** brokerage share, which the file
+  does not hold, as established at 21:53 one hour ago.
+  **Nothing modelled. No confidence moves** — a schedule and a flow estimate are environment, not evidence about
+  any of the eight. **No escalation trigger fires.** Gate row updated; item 5 annotated.
+  *Also checked and nothing new: KDH's insider buy (Lý Tuấn Kiệt, 20m shares, window 23-Jul to 21-Aug) shows no
+  execution filing and is already on file with the corrected governance detail; Clarita/Emeria → Gladia by the
+  Water structure and the Q3-2026 launch are on file, with the developer's own "profit is a 2027 event" recorded
+  05-Aug.*
 
 - **21:53 ICT · TCX · VPX · VCI (lane 6) — a tracked quantity the file has never held, backfilled. The two
   bank-affiliated brokers in this book are the two biggest share gainers in Vietnam — and that makes the
