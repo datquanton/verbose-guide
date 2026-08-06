@@ -83,6 +83,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **12:53 ICT · STEEL (lane 5) — ⚠ WITHDRAWAL of my own 11:53 entry. Coking coal is down for the EIGHTH
+  consecutive week; the index is US$228 — exactly what the file holds. I had the direction backwards.**
+  *(Vietnam lunch break.)*
+  **WHAT SETTLES IT.** **Australian hard coking coal is down for the eighth week in a row, with the FOB
+  Australia index at US$228/t and the CFR China index at US$238/t.** **US$228 FOB is exactly the figure this
+  file already holds.** **Coal has not risen — it has been falling for two months, and it is the most
+  favourable of the three legs rather than the most adverse.**
+  **WHERE THE 260 AND 241 CAME FROM.** They are **individual spot cargoes of named brands** — a Goonyella cargo
+  and a Peak Downs PLV bid — **not index assessments.** Brand-specific cargoes trade at premia to a general
+  index, and both were **undated**. **I set undated single-cargo trades against an index-based model input and
+  called the difference a market move.**
+  **AND THIS IS THE SECOND TIME IN THREE HOURS.** At 10:53 I withdrew a spot-case delta built by switching
+  iron-ore contracts mid-comparison. **At 11:53 I built another one — one hour after writing the lesson.** And
+  it is the more dangerous kind: **the 11:53 entry did not ignore a caveat, it asserted the bases matched**
+  (*"same product, same delivery basis"*) and contrasted that favourably with the ore and HRC refusals. **I
+  checked product and delivery terms, declared the comparison clean, and never asked whether an assessed index
+  and a single trade are the same kind of number.**
+  **THE CORRECT ARITHMETIC, AND IT IS NOT NOTHING.** The bridge's grid and its `spot_persists` branch both hold
+  coal at **US$220**; the index is **228**. **That is +8/t = −₫0.112m/t.** **The spot case goes ~₫1.074m →
+  ~₫0.962m/t and the gap to the ₫1.25m bear branch widens ₫0.176m → ₫0.288m — real, modest, and 64% of the
+  gap.** Against the **−₫0.448m/t** I claimed an hour ago, **overstated by ₫0.336m/t.**
+  **WHAT SURVIVES — the method, not the conclusion.** Asking which input had not been checked was right, and the
+  check was worth running: **it confirmed a six-day-stale input against its own index and found an $8 gap the
+  spot case does not contain.** The coverage point stands too — ore checked four times in four days, coal not
+  once in six. **What does not stand is "the leg moving most and against the position": coal is falling and is
+  the favourable leg.**
+  **AND ONE GENUINELY NEW THING THE EPISODE PRODUCED.** **The coal pair is now stated on both bases: FOB
+  Australia 228, CFR China 238 — a freight of US$10/t.** **§9 of the spread bridge, appended 05-Aug, records
+  that "no price in the HPG bridge has a stated delivery basis." Coal now has one, with a freight number** —
+  the first of the three legs pinned on both sides, and exactly the input §9 said was missing.
+  **NOTHING MODELLED.** Bridge inputs stand at their 30-Jul vintage.
+
 - **11:53 ICT · STEEL (lane 5) — ⚠ asked which bridge input I had NOT checked. Coking coal has not been looked
   at since 31-July, and it is the leg that has moved most and moved against the position.**
   *(Morning session closed 11:30.)*
