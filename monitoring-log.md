@@ -81,6 +81,41 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-07
+
+- **00:53 ICT · HPG (lane 5) — §9's oldest open question gets an answer on the ore leg: the basis is 62% Fe
+  CFR TIANJIN. The price move itself is noise, and is reported as noise. And both bridge gearings reconstruct
+  exactly, which was never stated.**
+  **THE BASIS — THIS IS THE FINDING.** `hpg-spread-bridge.md` §9 has read since creation that *"no price in the
+  HPG bridge has a stated delivery basis."* The coal leg was pinned on both bases yesterday, **06-Aug at 11:53–12:53**, at
+  **US$228 FOB Australia index**. **The ore leg is now pinned too: the series this file has been
+  using is Iron Ore Fine China Import, 62% Fe, SPOT COST AND FREIGHT (CFR) delivered Tianjin.**
+  **AND IT RETROACTIVELY CONFIRMS THE 09:53 WITHDRAWAL.** On **05-Aug at 09:53** I set a **61% Fe** quote against
+  the file's 93.66 and reported the gap as a market move; it was withdrawn **06-Aug at 10:53** when a consistent
+  series showed 03→04-Aug flat. **The basis now established is 62% Fe — so the 61% comparison was the wrong grade, exactly
+  as the withdrawal said, and the withdrawal is confirmed rather than merely accepted.**
+  **THE PRICE MOVE, AND IT IS NOISE.** **Iron ore 93.91 on 05-Aug, +0.22% on the day**, against the file's input
+  of **93.66**. **Delta +$0.25/t.** At the bridge's gearing that is **₫8,500 per tonne of steel**, or **₫98bn
+  across the 11.5m tonnes of Q2–Q4 base volume — 0.36% of the ₫27,456bn base-case FY NPAT.**
+  **⚠ FOR SCALE, AND IT IS THE POINT: the arithmetic error I withdrew on 10:53 was ~₫22,000/t — nearly THREE
+  TIMES this real move.** A file that reports a ₫8,500/t change as news after making a ₫22,000/t error is not
+  measuring; it is narrating. **Recorded as immaterial. Nothing modelled.**
+  **BOTH GEARINGS RECONSTRUCT EXACTLY, AND THE FILE NEVER SAID THEY WERE AFTER-TAX.** Using the bridge's own
+  consumption ratios — **1.6t ore and 0.65t coking coal per tonne of steel** — and FX at ₫26,400:
+  **ore $10/t → 1.6 × 10 × 26,400 = ₫0.422m pre-tax → ×0.8 = ₫0.338m against the file's stated ₫0.34m**;
+  **coal $10/t → 0.65 × 10 × 26,400 = ₫0.172m pre-tax → ×0.8 = ₫0.137m against the file's stated ₫0.14m.**
+  **Both land on the stated coefficients at a 20% CIT rate. The gearings are AFTER-TAX NPAT sensitivities, which
+  is nowhere written down** — a reader applying them to PBT would overstate every spread conclusion by 25%.
+  **⚠ AND THE BRIDGE MIXES BASES, WHICH IS NOW NAMEABLE.** Ore is **CFR Tianjin**; coal is **FOB Australia**.
+  Each is the conventional benchmark for its own market, so neither is wrong — **but HPG smelts at Dung Quat,
+  and a CFR-China ore price embeds Australia→CHINA freight where the bridge needs Australia→VIETNAM freight.**
+  The routes are of broadly similar length so the error is probably small, **but it is unquantified and it is
+  named, not sized.** This is the residue of §9 after both legs are pinned: the *basis* is now known, the
+  *destination* still is not.
+  **No confidence moves. No escalation trigger fires.** *Today's dated item: **US July payrolls, 12:30 UTC /
+  19:30 ICT** — the direct test of the 05-Aug pre-registration, after claims scored a miss at 20:53 yesterday.
+  **MBB ex-rights 11-Aug is now 3 sessions.***
+
 ## 2026-08-06
 
 - **23:53 ICT · MACRO (lane 1) — the July system credit print lands, it reconciles to this file's own H1 figure
