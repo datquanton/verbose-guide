@@ -83,6 +83,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **04:53 ICT · HPG (lane 2) — the open item created one hour ago is CLOSED, and it closes AGAINST the
+  inference I declined to make. FR 2026-13607's third country is THAILAND, not Vietnam.**
+  **THE ANSWER.** FR 2026-13607 covers **CORE from China completed in THAILAND using Chinese components**,
+  filed by Nucor and Steel Dynamics, initiated 06-Jul-2026. **Vietnam is not involved.**
+  **⚠ AND THIS IS WHY THE 03:53 ENTRY WAS WRITTEN THE WAY IT WAS.** One hour ago I logged: *"an inquiry into
+  circumvention of the China CORE orders turns on which third country does the finishing, and Vietnam is
+  historically the principal route for Chinese CORE… If Vietnam is a named third country, the exposure runs the
+  OPPOSITE way from the March case… This is a possibility, not a finding."* **The historical base rate pointed
+  at Vietnam and the answer is Thailand.** Had that been asserted, this file would have published a false
+  **direct** trade exposure on a **16.8%** position and been withdrawing it now — **the fourth withdrawal of the
+  week.** Instead: named at 03:53 with the resolving field stated, closed at 04:53, **no correction required.**
+  **THE MAP IS NOW COMPLETE — THREE INQUIRIES, ONE TOUCHES VIETNAM.**
+  **FR 2026-05808** (25-Mar) — **Vietnam** CORE orders; CORE finished in **Indonesia** from **Vietnamese**
+  cold-rolled steel; preliminary **24-Aug-2026**, final 19-Jan-2027, statutory ceiling 25-Mar-2027.
+  **FR 2026-05807** (25-Mar) — **Chinese** substrate via Indonesia.
+  **FR 2026-13607** (06-Jul) — **China** CORE orders; finished in **Thailand** from Chinese components;
+  preliminary **~03-Dec-2026**. **Vietnam absent.**
+  **Only the first touches Vietnam, and it touches Vietnam as the SUBSTRATE ORIGIN, not the finisher — and HPG
+  makes HRC, not CRS, so even that one is second-order.** No change to HPG's position on any of the three.
+  **A PATTERN WORTH NAMING, AND A FORWARD INFERENCE EXPLICITLY DECLINED.** **Nucor and Steel Dynamics are the
+  requesters on all three**, and all three attack **third-country routing**: Indonesia-from-Vietnam,
+  Indonesia-from-China, Thailand-from-China. **That is a campaign, not three coincidences — a fact.** Whether it
+  implies a future Vietnam-as-finisher case is **speculation about filings that do not exist, and is not logged
+  as risk.** *(A law-firm advocacy piece arguing "Vietnam should not become a release valve for pressure on
+  China" is in circulation; it is advocacy, not a filing, and is evidence only that the argument is being made.)*
+  **THE US CLOSE, READ AT 114 MINUTES AS PRE-REGISTERED AT 03:53 — AND IT IS NOISE BY THIS FILE'S OWN STANDARD.**
+  **Dow −0.9%** (snapping a record streak), **S&P −0.2%**, **Nasdaq −0.1%**; drivers cited as rising Treasury
+  yields, Hormuz-deal prospects and the labour data. **Yields up reverses the three-day decline logged on 05-Aug
+  22:53** — but **no level was given and none is invented**, and that same entry's rule applies here: *"one day
+  up followed by one day down is noise around a stated mechanism, not evidence about it."* **Recorded as
+  environment.** *The bond market reading the claims print as strong is consistent with the MISS scored at
+  20:53, but attributing the yield move to claims among three cited drivers is an inference and is not made.*
+  **Nothing modelled. No confidence moves. No escalation trigger fires.**
+
 - **03:53 ICT · HPG (lane 2) — the CORE gate date is DERIVED rather than taken on trust, the inquiry gets a
   statutory OUTER BOUND for the first time, and a THIRD circumvention inquiry surfaces that the file does not hold.**
   *(US closed 54 minutes ago — exactly at this file's measured >54min indexing boundary, so the close is
