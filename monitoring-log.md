@@ -83,6 +83,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **⚠⚠⚠ 18:53 ICT · MBB (lanes 3, 7) — ESCALATION TRIGGER 5 FIRES. The missing ex-date is established, it
+  lands on the engine's #1 name and largest proposed add, and the last cum session is TWO sessions away.**
+  **THE DATE.** MB has fixed the record date for the 15% stock dividend **and** the 10:1 rights issue:
+  **ex-rights 11-Aug-2026 · record date 12-Aug-2026 · rights subscription window 18-Aug to 07-Sep-2026**,
+  taking charter capital above **₫100,600bn**. **The last session to buy cum-entitlement is Mon 10-Aug — two
+  trading sessions from today** (Fri 7, Mon 10, then ex on Tue 11; no VN holiday intervenes).
+  **THIS WAS THE BLOCKED ITEM.** `vsd.vn` has returned `connect_rejected` all week and the ex-dates for the four
+  pending share-count increases have stood unestablished since 04-Aug 07:53, when
+  `valuation.MBB._THE_TOP_RANKED_NAME_IS_THE_ONE_UNVERIFIED_SHARE_COUNT_AND_IT_HAS_TWO_PENDING_ACTIONS` was
+  written. **One of the four now has a date.**
+  **VERIFIED AGAINST THE FILE BEFORE USE, AND IT RECONCILES TO THE DECIMAL.** The report's *"~1.21 billion
+  shares"* is the file's **1,208.25m**; its *"~805.5 million shares"* is the file's **805.5m**; and
+  **80,550 + 12,082.5 + 8,055 = ₫100,687.5bn** against the reported *">100,600 tỷ"* — while the file's
+  `_charter_capital_bn_target_2026` of **102,687** is that figure plus the ₫2,000bn 200m-share placement.
+  **Every leg of the capital plan already on file is externally confirmed; only the date was missing.**
+  **⚠ TRIGGER 5 — "a dated catalyst within 5 sessions of a proposed trade."** The brief's largest add is
+  **BUY MBB 6.5% → 13.3% (+6.8pp)**, ranked #1 at E[r] +36.6% raw / +18.3% shrunk. **Three sessions to the
+  event, two to the last cum session.** The brief's own sequencing rule reads *"nothing that fights a dated
+  catalyst inside 5 sessions."* **It is fighting one now.**
+  **THE MECHANICS, AND THE TWO LEGS BEHAVE DIFFERENTLY.** The 15% stock dividend is **cap-neutral** — price
+  ₫22,050 → theoretical ₫19,174, share count 8,055m → 9,263.25m, market cap unchanged. **The 10:1 rights at
+  ₫10,000 is not:** it injects **₫8,055bn** of cash for 805.5m shares. Theoretical ex-all price =
+  (177,613 + 8,055) / 10,068.75 = **₫18,440, a −16.4% mechanical move on 11-Aug that is not a loss.**
+  **⚠ WHAT BREAKS, AND IT IS THE DENOMINATOR.** `cap_now` is `price × shares_outstanding`, and the file holds
+  **₫22,050 × 8,055m = ₫177,613bn** (identity verified). **Both fields are human-only under §4 and both change on
+  11-Aug. If one is refreshed and the other is not, cap_now is wrong by up to 25% on the position the engine
+  wants to double.** That is the specific, dated form of the risk flagged generically on 04-Aug.
+  **THE E[r] EFFECT — COMPUTED, AND DELIBERATELY NOT OVERSTATED.** Reproducing the engine exactly (raw +36.69%,
+  shrunk +18.34% — matching the brief's +36.6/+18.3 to rounding), re-running on a post-rights cap_now of
+  ₫185,668bn gives **raw +30.76%, shrunk +15.38%: −5.93pp raw, −2.97pp shrunk. THIS DOES NOT CLEAR THE 10pp
+  THRESHOLD, SO TRIGGER 3 DOES NOT FIRE, and it is stated rather than stretched.** **But the bear branch flips
+  sign: +2.47% → −1.98%.** The engine's largest add currently rests on the thinnest positive bear branch in the
+  book; after the rights it does not have one.
+  **⚠ AND THE −5.93pp IS A MODEL ARTEFACT, NOT A FORECAST.** `exit_pe × fy26e_npat` values MBB on 2026 earnings
+  while the rights cash lands in **cap_now** in September — **the money is in the denominator and its earnings
+  are not in the numerator.** A rights issue at ₫10,000 against a ₫22,050 market is value-transferring away from
+  **non-subscribers**; for a subscribing holder it is close to neutral (₫10,000 paid for something worth
+  ₫18,440). **The correct reading is not "MBB is worth 5.9% less" but "the model cannot represent this event,
+  and it is three sessions away on the largest position in the brief."** This converges on what the brief
+  already says — *"fy26e_npat 28,000/30,500/33,000 REQUIRES HUMAN RE-DERIVATION."* **That re-derivation now has
+  a deadline.**
+  **A CASH CALL, NOT A TRADE.** The rights are an obligation on the holder, not an engine action: ₫10,000 per
+  right, one right per ten shares, funded between **18-Aug and 07-Sep** or the holding is diluted. **Human-only.**
+  **Nothing modelled.** `price`, `shares_outstanding`, `exit_pe`, `fy26e_npat`, `probs` and `confidence` are all
+  guarded §4 fields and none was touched; the post-rights figures above are published as arithmetic, not written
+  into the model. Dated keys added; new item 38. **This system recommends; a human signs.**
+
 - **17:53 ICT · VPB (lanes 3, 5) — the last cell of the cross-section closes at 56.2%, the naive
   earnings-quality detector is confirmed to have the sign backwards, and the peer gap is the biggest
   number this book has produced all week. One prior figure REFUSED on a collision.**
