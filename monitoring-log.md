@@ -83,6 +83,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **17:53 ICT · VPB (lanes 3, 5) — the last cell of the cross-section closes at 56.2%, the naive
+  earnings-quality detector is confirmed to have the sign backwards, and the peer gap is the biggest
+  number this book has produced all week. One prior figure REFUSED on a collision.**
+  **THE MISSING CELL.** VPB NPL coverage at 30-Jun-2026 = **56.2%** — loan-loss reserve **₫21,395bn** against
+  group 3–5 NPLs of **₫38,087bn** (21,395/38,087 = 56.17%). **Triple cross-checked before use:** (a) the two
+  balances divide to the quoted ratio; (b) 38,087 / 3.28% = **₫1,161,189bn** of loans against the file's
+  `consolidated_customer_loans_h1_bn` = **1,160,000** (0.10%); (c) end-2025 NPL 38,087 − 6,622 = ₫31,465bn, which
+  at the 3.33% prior ratio implies ₫944,895bn of loans, against 1,160,000/1.23 = **₫943,089bn** from the file's
+  own +23% YTD (0.19%). Three independent routes, all close. **The level is established.**
+  **⚠ THE COMPARISON IS REFUSED, AND THE REASON IS A COLLISION.** The source pairs 56.2% with *"52.8% the
+  previous quarter."* **`vpb.actuals._h1_provisioning_intensity_prior_year` in this file is 0.528** — the same
+  number, for an entirely different quantity (provisions ÷ PPOP, prior-year H1). A second reason to distrust the
+  framing sits in the same passage: its NPL comparison is **end-2025 vs 30-Jun-2026**, a half-year, not a quarter
+  — the passage's own period labels do not hold. **So the direction of travel is NOT established and is not used.**
+  Whether VPB rebuilt coverage or let it slide is unknown; only the level is claimed.
+  **THE CROSS-SECTION IS NOW COMPLETE, AND IT IS MONOTONE.** H1/2026, flow vs stock:
+  **VCB 2.05% / 279% · TCB 8.0% / 125.5% · MBB 27.6% / 93.63% · VPB 45.2% / 56.2%.** Four banks, both numbers,
+  perfectly inverse ordering. **⚠ THAT PERFECTION IS NOT EVIDENCE.** Coverage is the *stock* and intensity is the
+  *flow required to hold or rebuild it*; a bank thinly reserved against a growing NPL book must run a heavy flow
+  to stand still. The relationship is close to what the definitions imply, so a clean rank ordering across n=4 is
+  the expected result, not a discovery. **What it does do is settle the sign.**
+  **THE STANDING INSTRUCTION WAS "watch provisions and LLR because banks might be managing earnings." The naive
+  detector — low provisioning = suspicious — is now confirmed BACKWARDS at the top of this table.** VCB provisions
+  least (2.05%) and is reserved most (279%): its light flow is the *consequence* of a heavy stock, not a
+  suppression of it. VPB's heavy flow (45.2%) is not conservatism — it is the running cost of the thinnest buffer
+  in the set. **Read alone, intensity gets both of them wrong.** The detector that works is the **pair**: flatter
+  earnings ⇔ light flow AND thin stock. **On that test not one of the four qualifies** — every light-flow bank
+  here is a well-reserved one. **The name nearest the danger quadrant is MBB** (mid flow 27.6%, stock 93.63%,
+  below 100%), which is precisely where item 26 already points. The instruction survives; its usual heuristic does not.
+  **THE SIZING — and it dwarfs every P&L line chased this week.** On ₫38,087bn of NPLs, to reach
+  **MBB's 93.63% costs ₫14,266bn · 100% costs ₫16,692bn · TCB's 125.5% costs ₫26,404bn.** Against VPB's
+  **H1 PBT ₫18,880bn** and **FY target ₫41,600bn**: merely reaching 100% is **88.4% of a half-year's pre-tax
+  profit, 40.1% of the full-year target.** Arithmetic on two disclosed balances, not a forecast.
+  **⚠ AND IT IS AN UPPER BOUND, NOT A DEFICIENCY.** Coverage carries no 100% floor in Vietnam, and VPB's book is
+  structurally different: **FE Credit supplies ₫6,158bn of the group's ₫15,579bn of H1 provisions — 39.5% —**
+  on a consumer-finance book priced for loss. A lender that charges for the loss is not under-reserved the way a
+  corporate lender at 56% would be. **The comparison that would actually settle it is VPB-ex-FE-Credit, and that
+  cannot be computed here.** Per the item-35 rule, the field that would retire this: **FE Credit's own NPL balance
+  and reserve balance at 30-Jun-2026**, in the **consolidated H1 reviewed statements due 29-Aug** — already a gate.
+  **Nothing modelled. No confidence moved** — this is T5 press reporting a balance-sheet figure, not the filing
+  (§2). Coverage is a stock; `credit_cost` is a flow assumption and is untouched. No escalation trigger fires:
+  the nearest dated catalyst is 23 days out. Filed to item 26 and new item 36.
+  **⚠⚠ AND THE SAME ARITHMETIC EXPOSES A SIXTH DEFECTIVE ARMED CRITERION — VPB, and of a NEW TYPE.**
+  VPB's armed test reads *"FE Credit re-breaks — consumer-finance NPL formation re-accelerates > 3.0% credit
+  cost annualized."* FE Credit's H1 provisions are **₫6,158bn**, annualising to **₫12,316bn**. For that to sit
+  *below* a 3.0% credit cost, FE Credit's loan book would have to exceed **₫410,533bn — 35.4% of the entire
+  consolidated book of ₫1,160,000bn**, in a segment this file itself records as **0.8% of consolidated PBT**.
+  **No external number is needed to see the problem: the conditional is arithmetic against the file's own
+  consolidated loans.** So either the criterion has been **already fired for weeks while carried as "armed"**,
+  or "credit cost" in that sentence means something other than provisions ÷ loans and is undefined. **Both are
+  §4 human-only defects.** The five earlier defects were criteria that *could not fire*; this is the first that
+  looks like it **cannot help but fire** — a threshold set where the subject cannot plausibly sit. *Not declared
+  fired: I do not have FE Credit's loan balance and will not infer it.*
+  **⚠ THE CONVERGENCE THAT MAKES THE 29-AUG GATE MATTER MORE THAN IT DID THIS MORNING.** The single missing
+  field — **FE Credit's own NPL and loan balances at 30-Jun-2026** — is required for *both*: it bounds the
+  coverage gap above, **and** it is the only thing that can test this criterion. **One field unblocks two
+  things**, and it is due in the consolidated H1 reviewed statements on **29-Aug**. That gate is now the
+  highest-value dated item on the board for VPB.
+
 - **16:53 ICT · MBB (lanes 3, 6) — the MBV kill criterion cannot fire, it measures the wrong quantity, and the
   search returned something bigger: management's own plan independently confirms item 26.**
   **THE CRITERION.** *"Transferee drag > 5% of PBT in any quarter."* **MBV has moved from consecutive losses to
