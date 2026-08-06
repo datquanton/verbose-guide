@@ -83,6 +83,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **23:53 ICT · MACRO (lane 1) — the July system credit print lands, it reconciles to this file's own H1 figure
+  exactly, and July ran at HALF the H1 monthly pace. One rate series in the same source is REFUSED as incoherent.**
+  **THE PRINT.** System credit outstanding at **end-July 2026: ~₫20.15 quadrillion, +8.38% YTD.** The file holds
+  end-June at **+7.73%** and *"past 20 million tỷ"*. **INTERNAL CHECK BEFORE USE: 20.15/1.0838 = ₫18.592qn at
+  end-2025, which grown at +7.73% gives ₫20.029qn at end-June — "past 20" on the file's own wording. Reconciles.**
+  **THE MONTH RAN AT HALF PACE.** H1 averaged **1.288pp/month**; **July added 0.650pp — 50% of it.** Annualising
+  the seven months gives **14.37%**, sitting on the ~15% system figure this file already uses.
+  **⚠⚠ AND THE CAVEAT IS LARGE ENOUGH THAT IT NEARLY CANCELS THE FINDING — STATED, NOT BURIED.** **Vietnamese
+  credit growth is heavily back-loaded**, and the H1 monthly average is itself inflated by a June push to
+  half-year targets. **A slow July is the seasonal norm, not evidence of a slowing year.** By this file's own
+  standard from 22:53 yesterday — *"one day up followed by one day down is noise around a stated mechanism"* —
+  **one month against a six-month average in a series with known seasonality is weak evidence, and it is
+  recorded as weak.** What it is NOT is nothing: it is the first monthly datapoint since the H1 print.
+  **WHERE IT BEARS, AND IT IS THE ENGINE'S #1 NAME.** At 16:53 the file established that MBB's plan of credit
+  **+30–35% FY** against **+13.2% at H1** requires another **+14.8 to +19.3pp in H2**. **That acceleration has to
+  happen inside a system that annualises to ~14.4% and just posted its slowest month of the year.** The
+  multiples on file are unchanged and extend cleanly: **MBB at 1.71× the system, VPB at 2.98×.** *A bank can
+  outgrow a slowing system — that is what a quota reallocation is for — so this is pressure on the plan, not
+  refutation of it.*
+  **⚠ ONE SERIES IN THE SAME SOURCE IS REFUSED, ON TWO GROUNDS.** The source gives, as at 30-Jul: overnight
+  **2.43% → 2.97%**, 1-week **3.51% → 3.81%**, 2-week **5.47% → 5.60%**, 3-week **5.29% → 5.88%**. **(1) The curve
+  is not credible: 3.81% at one week to 5.60% at two weeks is 179bp for one additional week.** **(2) It is
+  mislabelled — these are headed as *lãi suất huy động* (deposit rates), but overnight/1-week/2-week/3-week are
+  INTERBANK tenors; retail deposits are not sold in one-week buckets.** **Not used.** This is the second time in
+  six hours an interbank series has come back undated or mislabelled and been dropped (cf. 18:53, where every
+  hard figure returned was May–June vintage).
+  **Nothing modelled. No confidence moves** — a system aggregate is environment, not evidence about any of the
+  eight, and no branch takes system credit as an input. **No escalation trigger fires.**
+  *Also checked, nothing added: the Masterise/developer-bond lane returned a strict subset of what this file
+  already holds — ₫44,500bn H1 issuance, the 12–60 month structure, coupons of 10.0–10.6% per lot, TCBS as
+  depositary established from tcbs.com.vn for IHP32602, and the 23.7% share ratio, all on file since 02-Aug.
+  **The source was less precise than the file on every overlapping figure.***
+
 - **22:53 ICT · INDEX (lane 4) — the FTSE gate stops being a month and becomes a DAY: 21-Aug-2026. And the
   September flow finally has a number, which puts arithmetic under item 5's phasing objection for the first time.**
   **THE DATE.** FTSE Russell publishes the **final list of eligible Vietnamese constituents on 21-AUG-2026**,
