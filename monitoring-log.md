@@ -83,6 +83,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **16:53 ICT · MBB (lanes 3, 6) — the MBV kill criterion cannot fire, it measures the wrong quantity, and the
+  search returned something bigger: management's own plan independently confirms item 26.**
+  **THE CRITERION.** *"Transferee drag > 5% of PBT in any quarter."* **MBV has moved from consecutive losses to
+  profit since 2025**, and MB's chairman states the transferred bank *"will certainly stop making losses this
+  year."* MB has seconded **~200 staff** into MBV and seated people on its board, supervisory board and
+  executive committee. **A criterion that measures a P&L drag cannot exceed 5% of PBT when the entity is
+  profitable.** **Fifth defective armed criterion this week — and the second of the "mechanism overtaken by
+  facts" type**, after VPX's five-licence cap; the other three were undefined *subjects*.
+  **AND IT MEASURES THE WRONG QUANTITY, WHICH IS SHARPER.** This file's own framing of the MBV cost is **"ROE
+  erosion 25.0% → 20.9% as the price of the transfer, which bought a 30–35% credit allowance."** **That is a
+  capital story, not a P&L one.** Absorbing a weak bank shows up as **capital deployed at a low return and
+  diluted group ROE** — not as a loss line comparable to PBT. **The criterion watches a line that has turned
+  positive while the actual cost sits in a ratio it does not look at.** Human-only under §4.
+  *Not disclosed and not inferred: MBV's accumulated losses and their specific effect on MB's consolidated
+  result. Searched, not found — that half remains a question only management can answer.*
+  **AND THE SEARCH RETURNED SOMETHING BIGGER THAN WHAT IT WENT FOR.** **Management's 2026 plan is profit growth
+  of 15%, hoping for 20% — against a credit-growth target of 30–35%. The bank plans to grow its balance sheet
+  roughly twice as fast as its earnings.** **And H1 ran the opposite way: credit +13.2%, PBT +27.1% — profit
+  grew 2.05× as fast as credit.**
+  **SO THE PLAN HAS A SHARP H2 DECELERATION BUILT INTO IT.** FY2025 PBT ₫34,261bn implies **H1/2025 ₫15,884bn
+  and H2/2025 ₫18,377bn.** **At +15% the year is ₫39,400bn, so H2 must deliver ₫19,212bn — −4.8% on H1 and
+  +4.5% YoY. At +20% it is ₫41,113bn, so H2 must deliver ₫20,925bn — +3.7% on H1 and +13.9% YoY.** **Against
+  H1's +27.1%, management's own plan implies H2 profit growth of only +4.5% to +13.9%** — while **credit must
+  accelerate from +13.2% at H1 to another +14.8%–19.3% in H2.**
+  **AND THAT CONVERGES WITH ITEM 26 FROM A COMPLETELY DIFFERENT DIRECTION.** Item 26's inverse arithmetic says
+  **MBB needs H2 provisioning intensity of 35.7%** against 27.6% in H1 and 32.9% prior — only 1.08× prior, the
+  most achievable of the three banks. **Management's plan independently implies a big H2 profit slowdown
+  alongside faster credit.** **Two routes — one from this file's provisioning model, one from the company's own
+  guidance — agree that H2 is meant to be much weaker and that provisioning is the mechanism. That is support
+  for the base branch from outside the model.**
+  **IT ALSO REPLACES A QUESTION RATHER THAN ANSWERING IT.** *"What is MBV dragging per quarter"* is the wrong
+  question now — **MBV is profitable.** **The right one is about capital and about the spread: why is credit
+  planned at roughly twice the profit growth rate, and which of NIM, cost or provisioning absorbs the
+  difference?**
+  **NOTHING MODELLED. NO CRITERION DECLARED FIRED** — *a criterion that cannot fire is not the same as one
+  tested and passed, and saying so is the point.*
+
 - **15:53 ICT · MBB (lanes 3, 6) — MIC is sized. The insurance arm is about 1% of group profit per arm, and the
   correction begun at 01:53 is now complete on both.**
   *(Vietnam closed; US pre-market.)*
