@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 05:53 ICT · TCX · VPX (lane 3) — STRUCTURE, SEVENTH OF THE SPECIES. TWO of the five shortlisted
+  Vietnamese crypto exchanges belong to this book's ecosystems, and the file records ONE. `TCEX` appears zero
+  times in `assumptions.json` and zero times in this log.**
+  **SIZE FIRST, SO NOTHING IS INFLATED: for TCX this is economically negligible.** TCEX's charter capital is
+  **₫101bn**; TCBS's 9.9% is **₫10bn**, or **0.0088% of TCX's ₫114,007bn market cap.** **The money is not the
+  finding.**
+  **THE FINDING IS THE OWNERSHIP SHAPE.** *Công ty CP Sàn giao dịch Tài sản mã hóa Techcom* (TCEX), established
+  05-May-2025 at ₫3bn and raised to **₫101bn on 08-Aug-2025**, is held: **Nguyễn Xuân Minh — chairman of TCBS —
+  89% personally; TCBS 9.9%; Techcom Fund Management 1.1%.** **The brand, the ecosystem and the distribution are
+  Techcom's; 89% of any upside is one individual's.** *Per this file's own rule that a percentage is a dated
+  quantity expiring at any capital event, this split is as at the ₫101bn raise and may have moved.*
+  **THE CONTRAST WITH THE ARM THIS FILE DID ANALYSE IS STARK.** **VPBankS put more than ₫1,097bn into CAEX for
+  11%** — **11× TCEX's entire charter capital** — with OKX as partner. **Two firms in the same book, the same
+  licence, and roughly an order of magnitude apart in committed capital and in who owns the equity.** The file
+  has priced one of these as an option and never noticed the other existed.
+  **⚠ AND IT ADDS A CHANNEL THE CORRELATION MATRIX DOES NOT KNOW ABOUT.** TCB+TCX is **40.5%** of the book and
+  VPB+VPX **12.8%**. **Both broker arms now hold stakes in competing exchanges inside the same five-slot
+  regulatory pilot** — a single MoF decision touching both clusters. **Same argument as 21:53 yesterday**, where
+  the two bank-affiliated brokers were found to be gaining share for the same reason: **these names keep turning
+  out to be linked through channels `corr_same_cluster` was not built to see** (open item 7).
+  **THE SHORTLIST, AND WHAT IT DOES TO VPX'S ARMED CRITERION.** MoF received **7 applications, put 5 out for
+  consultation and eliminated 2**. **The five: CAEX, VIXEX, LPEX, TCEX, Vietnam Digital Assets Company.**
+  **VPX's armed test reads *"CAEX licence rejected under the 5-licence cap."*** **If five candidates remain for
+  five slots, the cap cannot be what rejects CAEX** — the field was cut by *screening*, not by the cap. **That is
+  the same defect species as MBB's MBV criterion: a mechanism overtaken by facts**, and it sharpens the file's
+  existing "un-fireable 5-licence cap" label by saying *why*. **⚠ Rejection remains possible on other grounds —
+  TCEX's "round 1" approval in May implies at least a second round — so shortlisted is NOT licensed.**
+  **⚠ TWO CAUTIONS, BOTH LOAD-BEARING. (1) The date of the 5-of-7 selection is NOT established** — the results
+  around it run April–May 2026 and no firm date was returned. **(2) "MoF put 5 of 7 out for consultation" and
+  "the 5-licence cap is now filled" are DIFFERENT CLAIMS**; the first is reported, the second is an inference
+  from the coincidence of the number five. **The inference is named and not asserted.**
+  **NOTHING MODELLED.** The CAEX branch probabilities (granted 0.40 / delayed 0.45 / rejected 0.15) live in
+  `probs`-adjacent judgment territory and are **§4 human-only** — but **flagged: if CAEX is one of five for five
+  slots, a 15% rejection-under-the-cap branch looks high, and that is a human call.** **No confidence moves** —
+  T5 press, and shortlisting is not a licence. **No escalation trigger fires.**
+
 - **04:53 ICT · HPG (lane 2) — the open item created one hour ago is CLOSED, and it closes AGAINST the
   inference I declined to make. FR 2026-13607's third country is THAILAND, not Vietnam.**
   **THE ANSWER.** FR 2026-13607 covers **CORE from China completed in THAILAND using Chinese components**,
