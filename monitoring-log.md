@@ -83,6 +83,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 02:53 ICT · BOOK-WIDE (lane 3) — item 2 gets its first real EVIDENCE rather than an assumption, on two
+  names and in both directions. And the more important result: ITEM 2 CANNOT BE CLOSED FROM THIS ENVIRONMENT.
+  The remedy is not more sweeps.**
+  **WHAT WAS TRIED.** Direct fetches of `finance.vietstock.vn` (TCB quote page) and of Vietstock's own 06-Aug
+  session report: **both HTTP 403.** Adding to `simplize.vn`, HOSE, `24hmoney`, `vsd.vn`, `federalregister.gov`,
+  `trade.gov`, `dol.gov`, `tinnhanhchungkhoan`, `elibook`, `vietnambiz`. **Every price source reachable in
+  principle is blocked in practice.** A search for 06-Aug closes returned only sector aggregates — **banks
+  −0.95%, materials −0.54%** — and no individual quote.
+  **THE IDENTITY RE-VERIFIED ON ALL EIGHT.** `price × shares_outstanding = market_cap_bn` to the dong on every
+  name: TCB 29,250×7,086.2m=207,271 · VPB 25,000×7,933.9m=198,348 · MBB 22,050×8,055.0m=177,613 ·
+  HPG 20,800×8,443.0m=175,614 · KDH 18,000×1,122.1m=20,197 · TCX 41,100×2,773.9m=114,007 ·
+  VPX 26,600×1,875.0m=49,875 · VCI 20,500×1,152.2m=23,621. **The 02-Aug refresh holds. The internal consistency
+  is not the problem; the vintage is.**
+  **⚠ THE FIRST ACTUAL TEST OF THE 24-JUL PRESUMPTION, AND IT CUTS BOTH WAYS.** Three dated quotes are already
+  in hand from an earlier search synthesis:
+  **KDH — file 18,000 against 18,000 "as of 22/07/2026". EXACT MATCH, and it SUPPORTS the 24-Jul dating.**
+  **VCI — file 20,500 against 21,750 "as of 04/08/2026": the file is 5.75% BELOW a quote two days old.**
+  **TCX — file 41,100 against 41,800 "as of 15/07/2026": −1.7%, consistent with the −6.55% week of 20–24 Jul
+  having taken it down from a mid-July level, so this one is coherent with the presumption rather than against it.**
+  **WHAT VCI COSTS, MEASURED NOT ASSUMED.** Marking VCI to 21,750 gives cap_now **₫25,061bn, +6.10%** — against
+  the VN-Index's **+4.63%** over a window ending two sessions later. **Raw E[r] −11.30% → −16.40%, a −5.10pp
+  move; shrunk −4.52% → −6.56%.** *(The −11.30% reproduces the brief's −11.3% exactly, so this is the engine's
+  own arithmetic on a different denominator.)* **Below the 10pp threshold — trigger 3 does NOT fire on VCI.**
+  **⚠ THIS IS WEAK EVIDENCE AND IS LABELLED WEAK.** The three quotes came from a **search-result synthesis, not
+  a fetched page**, and their "as of" dates are the synthesis's characterisation. **Three different dates for
+  three tickers — 15/07, 22/07, 04/08 — look like page-cache timestamps rather than a consistent quote date**,
+  which is itself a reason for caution. **One name matching and one name 5.75% adrift is not a measurement of
+  the book.** What it does is replace yesterday's pure beta-1 assumption with **one dated observation that moves
+  the same way (+6.10% against the index's +4.63%)** — evidence, not proof.
+  **⚠⚠ THE FINDING THAT SHOULD CHANGE WHAT HAPPENS NEXT.** Item 2 is the single blocking input, it is worth
+  **potentially >10pp on the engine's #1 name** (established 01:53), and **it is structurally unreachable from
+  this environment — demonstrated this hour, not assumed.** **More hourly sweeps will not close it.** The two
+  routes that would: **a human price refresh**, or **authorising the FiinQuant MCP connector**, which has been
+  unauthorised all week and cannot be authorised from a non-interactive session. **That is an owner action, and
+  it is now the highest-value one on the board** — ahead of item 26, because item 2 gates the ranking that item
+  26 feeds.
+  **Nothing modelled — `price` is a guarded §4 field and was not touched on any name. No confidence moves. No
+  escalation trigger fires** (VCI's −5.10pp is below threshold and MBB's remains a conditional).
+
 - **⚠⚠ 01:53 ICT · BOOK-WIDE (lanes 3, 4) — OPEN ITEM 2 finally gets a size, and it is trigger-3 scale on the
   engine's #1 name. Also: VPB's missing ex-date is not missing, it DOES NOT YET EXIST.**
   **FIRST, A STATUS CHECK I OWED THE RECORD.** The `_meta` blocks carry *"SIX FIRE TRIGGER 3, AT 48.2% OF THE
