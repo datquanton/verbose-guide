@@ -83,6 +83,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **14:53 ICT · TCB (lanes 3, 5) — the gap named one hour ago is closed for the largest position, and the
+  answer inverts the ordering item 26 has been reasoning from.**
+  *(Vietnam session closed 14:45.)*
+  **TCB Q2/2026: NPL 1.15%, NPL coverage (LLCR) 125.5%, provisioning cost down 24.6% to ₫1,590bn in H1.**
+  **IT IS THE RIGHT PERIOD, AND THAT TOOK TWO SEARCHES.** The first returned *"126% coverage at an NPL of
+  1.08%"* — **and 1.08% is neither TCB's Q1 (1.16%) nor its Q2 (1.15%), so that pair belongs to an earlier
+  vintage and was refused.** The second gives **125.5% explicitly paired with the Q2 NPL of 1.15%**, and its
+  ₫1,590bn / −24.6% reconciles to the ₫1,599bn and −24.6% already on file to 0.6%. **Same basis, right
+  quarter.** *Third period check of the day, and the only one of the three I got right **before** publishing
+  rather than after.*
+  **AND IT INVERTS THE ORDERING.** **Provisioning intensity of PPOP: TCB 8.0% · MBB 27.6% · VPB 45.2%. NPL
+  coverage: TCB 125.5% · MBB 93.63% · VPB not established.** **The bank provisioning least is the bank reserved
+  most.** That is coherent — a bank already carrying 125.5% of its NPLs in reserves need not keep charging at
+  the prior year's rate — **and it is the opposite of what "provisioning-flattered" implies.** **It is the VCB
+  pattern in miniature: low flow, high stock** — and the file already accepted that reading for VCB (2.05%
+  intensity against 279% coverage is prudence, not flattery). **Consistency requires extending it here. TCB is
+  also confirmed as one of the five banks in the system with coverage above 100%.**
+  **WHAT IS NOT REHABILITATED, AND IT MATTERS MOST.** *(1)* **The branch arithmetic is untouched** — item 26's
+  inverse calculation that **TCB needs H2 intensity of 26.7% to justify its base branch** (2.17× prior, 3.3×
+  current) is about the **branch**, not about prudence, and stands exactly as written. *(2)* **Coverage is
+  measured against Group 3–5.** **TCB's Group 2 loans rose 46% and corporate bonds 80%, and neither is inside
+  the denominator of a 125.5% ratio.** **A coverage ratio says how well reserved today's NPLs are; it says
+  nothing about a pipeline that has not arrived** — and the pipeline is what the file's concern has been about
+  since 02-Aug.
+  **AND IT QUALIFIES MY OWN CONCLUSION FROM 06:53 THIS MORNING.** That entry ended *"three independent signs now
+  agree that MBB is the least flattered of the three banks"*, citing *"MBB's NPL 1.45% and coverage 93.63%
+  rising both beat the sector."* **93.63% beats the 79.78% system average by 13.85pp and falls 31.87pp short of
+  TCB's 125.5%. It is also below 100%, so MBB is not among the five.** **"Beats the sector" was measured against
+  a bimodal average — the exact error identified at 13:53, which I had made seven hours before identifying it.**
+  *MBB's rising quarterly provisioning path (Q1 26.41% → Q2 28.68%) survives unchanged; what fails is the
+  coverage leg of that three-part claim.*
+  **STILL OPEN: VPB's NPL coverage** — the last missing cell, on 10.0% of the book, at the bank with the highest
+  NPL ratio (3.28%) and the highest intensity (45.2%). *On the pattern established here, high intensity would
+  suggest low coverage — **but that is an inference from two observations and it is not made.** Named, not
+  guessed.*
+  **NOTHING MODELLED.** *For the record: the file's ₫1,599bn against the reported ₫1,590bn is a 0.6% difference
+  between two sources on the same measure; neither is edited.*
+
 - **13:53 ICT · PEER BANKS (lane 6) — the sector cross-section arrives, and it names the one number item 26 is
   missing.**
   *(Deliberately left the commodity lane. **Two self-inflicted basis errors in three hours is a reason to change
