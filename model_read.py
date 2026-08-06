@@ -35,6 +35,9 @@ import zipfile
 from lxml import etree
 
 MODEL = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
+# the analyst's upload, still carrying the caches Excel last wrote
+PRISTINE = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
+            '20915a37-FinModel_STB_2Q26_5.xlsx')
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 COLS = ('Y', 'Z', 'AA')                     # FY26F, FY27F, FY28F
 PAR = 10000.0                               # VND par value
@@ -146,7 +149,7 @@ class Model(object):
         for col in COLS[1:]:
             seg.append([s * (1 + self.v('%s%d' % (col, growth_row[r])))
                         for r, s in zip(rows, seg[-1])])
-        return [sum(s) for s in seg], g26
+        return [sum(s) for s in seg], g26, seg
 
     # -------------------------------------------------------------- forecast
     def build(self):
@@ -159,7 +162,7 @@ class Model(object):
                 acc.append(base * factor)
         opex = [s + o + self.v(c + '133') for s, o, c in zip(sal, oth, COLS)]
 
-        loans, growth26 = self.loan_book()
+        loans, growth26, seg = self.loan_book()
         npl_rate = [sum(self.npl['%s%d' % (c, r)][1] for r in (28, 29, 30))
                     for c in ('N', 'O', 'P')]
         perf_rate = [sum(self.npl['%s%d' % (c, r)][1] for r in (26, 27, 28, 29))
@@ -221,6 +224,11 @@ class Model(object):
             reserve=tuple(reserve), loans=tuple(loans), npl=tuple(npl),
             npl_rate=tuple(npl_rate), loan_growth=growth26 - 1,
             loans25=self.v('X450'),
+            # intermediates, for writing the caches back into the workbook
+            salary=tuple(sal), other_opex=tuple(oth), segments=seg,
+            gen_balance=tuple(gen_bal), gen_move=tuple(gen), vamc=tuple(vamc),
+            spec_balance=tuple(spec_bal), net_loans=tuple(net),
+            group1=tuple(grp1), int_income=tuple(int_inc),
             cir=tuple(o / t * 100 for o, t in zip(opex, toi)),
             roe=tuple(n / e * 100 for n, e in zip(npat, avg_eq)),
             eps=tuple(n * 1000 / self.shares for n in npat),
@@ -247,15 +255,17 @@ class Model(object):
     def check(self, d=None):
         """Replay the drivers Excel last recalculated and land back on its caches.
 
-        FY26F used to be checkable line by line, because Excel had recalculated
-        it and nothing booked here touched the loan book.  The 8% growth
-        assumption ended that: every FY26F cache is now stale against the
-        current drivers.  The arithmetic between drivers and results has not
-        changed, though, so feeding the old drivers through this same code has
-        to reproduce Excel exactly - which is what this checks.  It still fails
-        the import if the engine drifts.
+        FY26F used to be checkable line by line against this workbook, because
+        Excel had recalculated it and nothing booked here touched the loan book.
+        Two things ended that: the 8% growth assumption moved every FY26F
+        driver, and the derived values are now written back into the caches so
+        the file reads correctly without a recalculation.  So the baseline is
+        the analyst's upload, which still holds exactly what Excel wrote.  The
+        arithmetic between drivers and results has not changed, so feeding the
+        old drivers through this same code has to reproduce it - and the import
+        still fails if the engine drifts.
         """
-        e, bad = self.EXCEL, []
+        e, bad, self = self.EXCEL, [], _pristine()
         npl = lambda r: self.npl['N%d' % r][1]
         loans = e['loans']
         opex = (self.v('X132') + self.v('X134')) * e['opex_mult'] + self.v('Y133')
@@ -278,6 +288,16 @@ class Model(object):
                 bad.append('%s: replay %.3f, Model!%s caches %.3f'
                            % (key, got[key], ref, self.v(ref)))
         return bad
+
+
+_PRISTINE = []
+
+
+def _pristine():
+    """The analyst's upload, parsed once, as the regression baseline."""
+    if not _PRISTINE:
+        _PRISTINE.append(Model(PRISTINE))
+    return _PRISTINE[0]
 
 
 _m = Model()
@@ -316,3 +336,75 @@ if __name__ == '__main__':
           .format(F['shares'], F['charter'], PAR))
     print('FY26F reproduces Excel on 9 lines; FY27F/FY28F are derived '
           '(their caches predate the booked formulas)')
+
+
+def display_cells(F=None):
+    """The derived forecast as {cell: value}, for writing back into the caches.
+
+    Excel is not available here, so every cell downstream of a booked formula
+    keeps the value Excel last left in it.  fullCalcOnLoad makes Excel refresh
+    them on open, but anything that reads the file without recalculating - a
+    preview pane, a viewer, a script - shows the old forecast.  Writing the
+    derived values into the caches makes the workbook read correctly either way.
+
+    Only cells this module actually derives are written.  The balance-sheet plug
+    (Model!Y55) and the funding side are left to Excel.
+    """
+    F = F or globals()['F']
+    m = _m
+    out, tax = {}, -m.v('Y149')
+    z = zip(range(3), COLS, 'NOP')
+    base_eq = m.v('Y85') - m.v('Y153')          # equity less the FY26F profit in it
+    tp = sheet(MODEL, 'Valuation')['D74'][1]    # what rows 940/942 are struck on
+    for i, c, n in z:
+        g = lambda k: F[k][i]
+        npl = lambda r: m.npl['%s%d' % (n, r)][1]
+        out.update({
+            c + '119': g('int_income') + m.v(c + '686') - m.v(c + '681'),
+            c + '121': g('nii'), c + '117': g('toi'),
+            c + '132': g('salary'), c + '134': g('other_opex'), c + '135': g('opex'),
+            c + '136': g('toi') - g('opex'),
+            c + '137': g('prov'), c + '141': g('prov'),
+            c + '241': g('prov'), c + '243': g('prov'),
+            c + '244': g('prov') / g('loans') * 100,
+            c + '142': g('pbt'), c + '144': g('pbt'),
+            c + '146': g('pbt') * tax, c + '147': -g('pbt') * tax,
+            c + '150': g('npatmi'), c + '153': g('npatmi'),
+            c + '19': g('net_loans'), c + '20': g('loans'), c + '21': -g('reserve'),
+            c + '61': g('assets'), c + '85': g('equity'),
+            c + '98': g('equity') - m.v(c + '87') - m.v(c + '94') - m.v(c + '101'),
+            c + '204': g('loans'), c + '450': g('loans'), c + '521': g('loans'),
+            c + '263': g('loans'), c + '264': -g('reserve'),
+            c + '265': g('net_loans'), c + '266': g('loans'),
+            c + '248': g('gen_move'), c + '270': g('gen_move'),
+            c + '249': g('specific'), c + '278': g('specific'),
+            c + '254': -g('prov'), c + '274': g('gen_balance'),
+            c + '279': -g('writeoff'), c + '284': g('spec_balance'),
+            c + '286': g('reserve'),
+            c + '313': g('npatmi') / g('assets'), c + '314': g('roe') / 100,
+            c + '681': g('int_income'),
+            c + '686': g('int_income') + m.v(c + '686') - m.v(c + '681'),
+            c + '934': F['shares'], c + '938': g('eps'), c + '941': g('bvps'),
+            c + '940': tp / g('eps'), c + '942': tp / g('bvps'),
+        })
+        out[c + '277'] = m.v('Y277') if i == 0 else F['spec_balance'][i - 1]
+        for j, r in enumerate((198, 199, 200, 201, 202)):
+            out['%s%d' % (c, r)] = g('loans') * npl(26 + j)
+        for j, r in enumerate((515, 516, 517, 518, 519, 520)):
+            out['%s%d' % (c, r)] = F['segments'][i][j]
+            out['%s%d' % (c, 23 + j)] = F['segments'][i][j]
+        for r, mix in ((446, 453), (447, 454), (448, 455)):
+            out['%s%d' % (c, r)] = g('loans') * m.v('%s%d' % (c, mix))
+    out['Y85'] = base_eq + F['npatmi'][0]
+    # the historical columns only move because the share count did
+    for c in ('T', 'U', 'V', 'W', 'X', 'CT'):
+        out[c + '934'] = F['shares']
+        try:
+            npat, eq = m.v(c + '153'), m.v(c + '85')
+        except (KeyError, ValueError):
+            continue
+        out[c + '938'] = npat * 1000 / F['shares']
+        out[c + '941'] = eq * 1000 / F['shares']
+        out[c + '940'] = tp / out[c + '938']
+        out[c + '942'] = tp / out[c + '941']
+    return out

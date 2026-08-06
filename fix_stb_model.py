@@ -208,6 +208,51 @@ def apply(path=SRC):
     zo.close()
 
 
+def cache(path=SRC):
+    """Write the derived values into the cached values on the Model sheet.
+
+    Excel is unavailable here, so a cell downstream of a booked formula keeps
+    whatever Excel last left in it - Model!Y144 would still read VND7,461bn
+    against a booked VND8,180bn.  fullCalcOnLoad refreshes them when the file is
+    opened in Excel, but anything that reads it without recalculating shows the
+    old forecast.  This makes the workbook read correctly either way.
+    """
+    import model_read, valuation           # after apply(), so they read the new formulas
+    by_part = {'xl/worksheets/sheet1.xml': model_read.display_cells(),
+               'xl/worksheets/sheet10.xml': valuation.display_cells()}
+    z = zipfile.ZipFile(path)
+    items = [(i, z.read(i.filename)) for i in z.infolist()]
+    z.close()
+    out, written = [], 0
+    for it, d in items:
+        if it.filename in by_part:
+            cells = by_part[it.filename]
+            root = etree.fromstring(d)
+            for c in root.iter(NS + 'c'):
+                if c.get('r') in cells:
+                    v = c.find(NS + 'v')
+                    if v is None:
+                        v = etree.SubElement(c, NS + 'v')
+                    v.text = repr(cells[c.get('r')])
+                    c.attrib.pop('t', None)
+                    written += 1
+            # K5 is the year label, a string result rather than a number
+            for c in root.iter(NS + 'c'):
+                if c.get('r') == 'K5' and it.filename.endswith('sheet10.xml'):
+                    c.set('t', 'str')
+                    v = c.find(NS + 'v') or etree.SubElement(c, NS + 'v')
+                    v.text = '2028F'
+                    written += 1
+            d = etree.tostring(root, xml_declaration=True, encoding='UTF-8',
+                               standalone=True)
+        out.append((it, d))
+    zo = zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED)
+    for it, d in out:
+        zo.writestr(it, d)
+    zo.close()
+    return written
+
+
 def main():
     shutil.copy(PRISTINE, SRC)
     apply()
@@ -215,6 +260,7 @@ def main():
     if bad:
         raise SystemExit('model drifted:\n  ' + '\n  '.join(bad))
     print('installed %s' % PRISTINE.rsplit('/', 1)[-1])
+    print('%d cached values refreshed on the Model and Valuation sheets' % cache())
     print('%d assumptions verified in place'
           % (len(NPL_VALUES) + len(NPL_FORMULAS) + len(MODEL_VALUES)
              + len(MODEL_FORMULAS) + len(VALUATION_VALUES) + len(VALUATION_FORMULAS)))

@@ -35,6 +35,25 @@ check('every booked formula still in FinModel_STB_2Q26.xlsx', not _drift,
           + len(fix_stb_model.NPL_FORMULAS) + len(fix_stb_model.NPL_VALUES)
           + len(fix_stb_model.VALUATION_FORMULAS)
           + len(fix_stb_model.VALUATION_VALUES)))
+# the workbook now carries derived values in its caches, so it reads correctly
+# without a recalculation - which is the one thing a reader cannot verify
+_cached = {}
+import zipfile as _zf
+from lxml import etree as _et
+_root = _et.fromstring(_zf.ZipFile(MODEL).read('xl/worksheets/sheet1.xml'))
+for _c in _root.iter(NS + 'c'):
+    _v = _c.find(NS + 'v')
+    if _v is not None:
+        _cached[_c.get('r')] = _v.text
+check('the workbook reads the new forecast without recalculating',
+      all(abs(float(_cached[r]) - want) < 0.5 for r, want in
+          (('Y144', U.PBT[0]), ('Z144', U.PBT[1]), ('AA144', U.PBT[2]),
+           ('Y153', U.NPATMI[0]), ('Y204', U.LOANS26), ('Y121', U.NII[0]),
+           ('Y135', U.OPEX[0]), ('Y141', U.PROV[0]), ('Y85', U.EQUITY[0]))),
+      'Model!Y144 caches %.0f' % float(_cached['Y144']))
+check('no formula left without a cached value',
+      not [c_.get('r') for c_ in _root.iter(NS + 'c')
+           if c_.find(NS + 'f') is not None and c_.find(NS + 'v') is None])
 check('the engine replays Excel on its own drivers',
       not model_read._m.check(), 'loans, opex, NII, TOI, provisioning, '
       'PBT, NPATMI, allowance')

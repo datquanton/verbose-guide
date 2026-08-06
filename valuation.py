@@ -101,3 +101,29 @@ if __name__ == '__main__':
           % (V['weights'][0] * 100, V['weights'][1] * 100,
              '{:,.0f}'.format(V['fair_value']), '{:,.0f}'.format(V['price']),
              V['upside'] * 100))
+
+
+def display_cells(v=None):
+    """The Valuation sheet's derived values, for writing back into the caches."""
+    v = v or V
+    df0 = v['df'][0]
+    out = {'B1': v['fair_value'], 'B3': v['upside'], 'B9': v['coe'],
+           'B58': v['pv_ri'], 'B61': v['terminal'] / df0, 'B62': df0,
+           'B63': v['terminal'], 'B64': v['ri_leg'],
+           'B71': v['pb_leg'], 'B73': v['ri_leg'],
+           'D71': v['pb_leg'] * v['weights'][0], 'D73': v['ri_leg'] * v['weights'][1],
+           'D74': v['fair_value'], 'D76': v['upside'],
+           'K6': v['roe'], 'K14': v['fair_pb'], 'K15': v['bps'], 'K16': v['pb_leg']}
+    # the P/B block's own columns, which read the model's per-share rows
+    ps = lambda x: x * 1000 / F['shares']
+    for col, i in (('I', 0), ('J', 1)):
+        roe, bps = F['roe'][i] / 100, ps(F['equity'][i])
+        pb = (roe - v['g']) / (v['coe'] - v['g'])
+        out.update({col + '6': roe, col + '14': pb, col + '15': bps,
+                    col + '16': round(pb * bps / 1000, 1) * 1000})
+    for col, i in (('J', 0), ('K', 1), ('L', 2)):
+        out[col + '55'] = v['ri'][i]
+        out[col + '56'] = v['df'][i]
+        out[col + '57'] = v['ri'][i] * v['df'][i]
+        out[col + '53'] = ps(F['npatmi'][i])
+    return out
