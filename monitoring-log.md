@@ -83,6 +83,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **07:53 ICT · VPB (lane 3) — the 28-July credit escalation is resolved after nine days on 10.0% of the book,
+  and the file could have bounded it without a single search.**
+  *(Vietnam opens in ~1 hour.)*
+  **THE NUMBER.** **VPBank's consolidated credit at 30-Jun-2026 is more than ₫1,180,000bn — 1.18 quadrillion —
+  up 23% on the start of the year.**
+  **BOTH MISLABELLED FIELDS ARE NOW IDENTIFIED, EXACTLY AS THE ESCALATION SUSPECTED.** **`credit_q2` = 1,060,000
+  is the Q1 consolidated figure, not Q2** — 962,000 × 1.1019 = 1,060,028, and press dated 17-Apr reports
+  consolidated credit crossing ₫1m tỷ in Q1/2026. **A period error (§3 check 1).** **`credit_growth_ytd` = 0.246
+  is the parent-bank H1 figure — an entity error (check 2).** The escalation named both possibilities and
+  declined to choose; **both were right**, and they sat in one actuals block as though they described one
+  quarter of one entity.
+  **AND THE FILE COULD HAVE BOUNDED THIS WITHOUT A SEARCH.** **Eight lines below the escalation sits
+  `consolidated_customer_loans_h1_bn` = 1,160,000.** The escalation's own cross-check — *"consolidated credit is
+  by construction ≥ parent credit"* — generalises: **consolidated credit ≥ consolidated customer loans, so
+  1,160,000 / 962,000 − 1 = +20.58%. That alone excludes the +10.19% reading, and has done since the field was
+  added.** **Fourth field-versus-prose contradiction found in twenty-four hours**, after KDH's Bình Trưng Mới
+  date, `effective_broker_pct` and MBB's provisioning figure. **The pattern is now the finding: this file stores
+  numbers and narratives side by side and has no mechanism that reads one against the other.**
+  **THE H2 REQUIREMENT — what the escalation said this decides.** It posed the alternatives explicitly:
+  *"+24.6% → the base branch needs only +8.3% more in H2 and is comfortable; +10.2% → the base branch needs
+  +22.5% in H2, a step-change of the same character as the KDH handover finding."* **At the actual +23%: base
+  (35%) needs +9.76% in H2. Bear (30%) +5.69%. Bull (40%) +13.82%. The company's own FY plan of +34% needs
+  +8.94%.** **The "very hard" reading is excluded and the outcome sits close to the comfortable one** — removing
+  the single largest unresolved doubt about VPB's forward driver.
+  **CONFIDENCE IS NOT RAISED, AND THE REASON IS THIS FILE'S OWN PRECEDENT RATHER THAN CAUTION.** The cut was
+  written as conditional — *"cut 0.85 → 0.70… **Resolves from the Q2 consolidated statement**"* — and the
+  condition is substantively met. **But charter §2 says confidence rises only on T1–T2, and this is T5 press
+  reporting a filing, not the filing.** The file has a dated precedent for exactly this: the 31-Jul MBB entry
+  reads *"CONFIDENCE HELD AT 0.55, per charter §2: this is T5 press about a filing, not the filing, and
+  confidence rises only on T1–T2."* **What would discharge it: the filed Q2 consolidated statement, or the
+  auditor-reviewed consolidated H1 due 29-August. Both are already gated.**
+  **AND A COUNTERINTUITIVE CONSEQUENCE, BECAUSE THE INTUITION RUNS THE OTHER WAY.** **VPB's raw E[r] is −13.9%,
+  so restoring confidence 0.70 → 0.85 would move the shrunk E[r] from −9.7% to −11.8% — *more* negative, −2.08pp,
+  and it would lower VPB's target weight.** **Resolving a doubt favourably would make the name look worse,
+  because shrinkage pulls toward zero and zero is above VPB's expected return.** Under the 10pp threshold either
+  way. Recorded so whoever discharges the condition is not surprised by the direction.
+  **NOTHING MODELLED.** `credit_q2` and `credit_growth_ytd` are left exactly as they are, per the escalation's
+  own instruction — and `run.py` reads `loans_start_fy`/`credit_start_fy` and `scenarios.credit_growth_fy`, not
+  these two, **so no engine output depends on them. The labels are now known; correcting them is a human edit.**
+
 - **06:53 ICT · MBB (lanes 3, 5) — chased a named gap on the third attempt. The number came back, the file
   already had it, and the quarterly path it unlocks runs against item 26's own description of this name.**
   *(Vietnam opens in ~2 hours.)*
