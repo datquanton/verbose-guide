@@ -17,7 +17,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **⚠ US initial jobless claims — 06-AUG, TOMORROW** | consensus **~202,000**, continuing ~1.79m. **First and partial test of the 21:53 pre-registration** (services employment 51.2 → 47.4 ⇒ a weak payroll print expected). *Claims are an early read, not a resolution.* | 1 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
-| **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention.* **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
+| **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention. **150 days from the 25-Mar initiation = Sat 22-Aug, rolling to Mon 24-Aug; STATUTORY OUTER BOUND: final 300d = 19-Jan-2027, +65d max extension = 25-Mar-2027 (19 CFR 351.226).*** **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
@@ -82,6 +82,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-07
+
+- **03:53 ICT · HPG (lane 2) — the CORE gate date is DERIVED rather than taken on trust, the inquiry gets a
+  statutory OUTER BOUND for the first time, and a THIRD circumvention inquiry surfaces that the file does not hold.**
+  *(US closed 54 minutes ago — exactly at this file's measured >54min indexing boundary, so the close is
+  deferred to 04:53 on the precedent set at 03:53 on 03-Aug. This hour ran lane 2 instead.)*
+  **THE DATE IS NOW DERIVED, AND THE DERIVATION EXPLAINS IT.** The gate row carries *"PRELIMINARY DETERMINATION
+  intended 24-AUG-2026"* from press. **19 CFR 351.226 sets the preliminary at 150 days from publication of the
+  initiation notice.** Initiation published **25-Mar-2026**; **+150 days = Saturday 22-Aug-2026, which rolls to
+  Monday 24-Aug.** **The file's date is right, and it is right for a reason nothing in the file recorded** — a
+  future sweep computing 150 days and getting 22-Aug would otherwise have "found" an error that is not one.
+  **⚠ THE OUTER BOUND, WHICH THE FILE DID NOT HAVE.** The gate row's own caveat reads *"extensions are routine —
+  treat 24-Aug as an intention"* — true, but unbounded. **The same regulation sets the FINAL at 300 days, "and
+  if the Secretary concludes that the inquiry is extraordinarily complicated… may extend the 300-day deadline by
+  no more than 65 days."** So: **final 19-Jan-2027; statutory maximum 25-Mar-2027.** **This gate can slip seven
+  months and still be lawful.** Treating 24-Aug as decisive would be a mistake, and now the size of that mistake
+  is bounded. *Same species as the 27-Oct-2026 outer bound the file put on Decision 612 — an intention plus a
+  statutory ceiling is a usable gate; an intention alone is not.*
+  **⚠ A THIRD INQUIRY, NAMED BUT DELIBERATELY NOT CHARACTERISED.** The file holds two March documents —
+  **FR 2026-05808** (Vietnam CORE orders; CORE finished in **Indonesia** from **Vietnamese** cold-rolled steel)
+  and **FR 2026-05807** (Chinese substrate via Indonesia). **A third exists: FR 2026-13607, published
+  06-Jul-2026, "Certain Corrosion-Resistant Steel Products From the People's Republic of China: Initiation of
+  Circumvention Inquiry."** Different document, different month, different underlying orders. **Its 150-day
+  preliminary would fall 03-Dec-2026.**
+  **⚠ WHAT ITS SCOPE IS, I DO NOT KNOW, AND I AM NOT GUESSING.** Only the title and date are in hand.
+  **The reason this matters enough to log unresolved:** an inquiry into circumvention of the **China** CORE
+  orders turns on **which third country does the finishing**, and Vietnam is historically the principal route
+  for Chinese CORE. **If Vietnam is a named third country, the exposure runs the OPPOSITE way from the March
+  case — Vietnamese finishing of Chinese substrate, not Vietnamese substrate finished abroad.** That would be a
+  direct Vietnamese-producer exposure rather than a second-order one. **It is a possibility, not a finding.**
+  Field that would retire it: **the third-country scope named in FR 2026-13607** — and `federalregister.gov` is
+  gateway-blocked, so this needs press or an unblocked mirror.
+  **NO CHANGE TO HPG'S POSITION.** Rebar into the US is ~3% of revenue and the brief carries US trade as a
+  Layer-4 flag. The March Vietnam inquiry is **country-wide with no Vietnamese producer named**, and HPG's link
+  to it is second-order at best — HPG makes **HRC**, the substrate for cold-rollers, not CRS itself. **Nothing
+  modelled, no confidence moved, no escalation trigger fires.** Gate row updated with the outer bound.
 
 - **⚠⚠ 02:53 ICT · BOOK-WIDE (lane 3) — item 2 gets its first real EVIDENCE rather than an assumption, on two
   names and in both directions. And the more important result: ITEM 2 CANNOT BE CLOSED FROM THIS ENVIRONMENT.
