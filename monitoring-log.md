@@ -83,6 +83,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **15:53 ICT · MBB (lanes 3, 6) — MIC is sized. The insurance arm is about 1% of group profit per arm, and the
+  correction begun at 01:53 is now complete on both.**
+  *(Vietnam closed; US pre-market.)*
+  **MIC (MIG, listed on HOSE).** FY2026 targets: **premium revenue ~₫7,038bn (+30%), profit ~₫550bn (+34.5%)**,
+  aiming for **Top 3** non-life share. The H1 revenue of ₫3,750bn already on file is **53.3%** of that premium
+  target. **MB's stake: two figures came back — 69.58% of charter capital and 68.37% of shares — neither dated,
+  differing by 1.21 points.**
+  **AND HERE IS WHY I USE THEM ANYWAY, HAVING REFUSED AN UNDATED PERCENTAGE ON THIS EXACT SUBJECT AT 01:53.**
+  **The refusal then was right because the question was a look-through weight, which is sensitive to the
+  percentage. The question here is whether the insurance arm is material to group profit, and the answer is the
+  same at both ends:** ₫550bn × 68.37% = **₫376.0bn**, × 69.58% = **₫382.7bn** — against MBB's annualised PBT of
+  ~₫40,376bn that is **0.93%–0.95%**, or **1.19%–1.22%** against annualised NPAT-to-parent of ~₫31,489bn. **A
+  1.21-point spread in the stake moves the answer by 0.02 of a percentage point.** **An imprecise input is
+  usable when the conclusion is insensitive to its range — and that condition is testable, not a matter of
+  judgement.**
+  **SO THE THIRD LEG LANDS WHERE THE SECOND DID.** At 16:53 on 05-Aug I called this *"a whole earnings pillar."*
+  At 01:53 I corrected that using MB Life alone (PBT ₫270bn = 1.34% of H1 PBT before the JV split). **MIC — the
+  larger arm by revenue — is about 1% of group profit on its own FY target.** **An absolute upper bound,
+  assuming MB owned 100% of both and both hit plan: (550 + 540) / 40,376 = 2.7% of PBT** — and the true figure
+  is below that on both counts. **The pillar language is now wrong on both arms rather than one, and the
+  correction is complete.**
+  *Two measure caveats kept: MIC's ₫550bn is a **target**, not an actual; and whether it is pre- or post-tax is
+  not stated, which is why both pairings are shown. Neither changes the order of magnitude.*
+  **ONE FORWARD ITEM.** MIC's 2026 AGM (09-April) approved a strategy of **finding a strategic partner.** For a
+  subsidiary 68–70% owned by a holding in this book, that usually means a stake sale or a dilutive primary
+  issue. **Nothing announced, no size known — and it is small: a partial sale of a stake worth ~1% of group
+  profit cannot move this book.** Watch item, not an event.
+  **WHAT IT DOES TO THE MBB QUESTION LIST.** *"What percentage of MB Life and MIC does MB own"* is now **half
+  answered — MIC is 68–70% and the number barely matters.** **The better remaining question is narrower: not the
+  stake, but whether either arm is expected to reach a scale that changes the group — because at roughly 1%
+  each, neither currently does.**
+  **NOTHING MODELLED.**
+
 - **14:53 ICT · TCB (lanes 3, 5) — the gap named one hour ago is closed for the largest position, and the
   answer inverts the ordering item 26 has been reasoning from.**
   *(Vietnam session closed 14:45.)*
