@@ -83,6 +83,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **11:53 ICT · STEEL (lane 5) — ⚠ asked which bridge input I had NOT checked. Coking coal has not been looked
+  at since 31-July, and it is the leg that has moved most and moved against the position.**
+  *(Morning session closed 11:30.)*
+  **THE MARKET.** A **40,000t Goonyella cargo sold at US$260/t FOB Australia** with a 1–10 August laycan, on
+  trader position-taking against anticipated supply tightness. A **bid of US$241/WMT FOB Australia** for 75,000t
+  of HCCLV Peak Downs premium low-vol, same laycan. June 2026 premium HCC averaged **244.39** (range 242–249).
+  **And Argus headlines "Australian premium coking coal price hits 17-month high."** *The 260 is a transacted
+  cargo and the 241 a bid — the transacted number is used as primary.*
+  **AND UNLIKE THE ORE AND HRC COMPARISONS, THIS ONE IS ADMISSIBLE.** The file's coal spot reading is explicitly
+  **"PHCC FOB Australia" — 228, down 24% MoM from 238.9 on 10-Jul.** Today's figures are **premium hard coking
+  coal FOB eastern Australia. Same product, same delivery basis.** *The residual gap is WMT vs DMT — the 241 is
+  explicitly per wet tonne and the file's 228 states neither — far narrower than the FOB-vs-CFR and
+  61%-vs-unstated-Fe problems that forced refusals on the other two legs.*
+  **THE ARITHMETIC, on the bridge's own ₫0.14m per US$10/t.** From the file's spot **228 → 260 is +32/t =
+  −₫0.448m/t.** From the modelled 220, **+40/t = −₫0.560m/t.** From the 31-Jul repricing's 218.50, **+41.5/t =
+  −₫0.581m/t.** **Against a spot case of ~₫1.074m/t and a gap to the ₫1.25m bear branch of only ₫0.176m/t, the
+  228 → 260 move is 2.55× that entire gap.** **On those numbers the spot case goes to about ₫0.63m/t — not
+  approaching the bear branch from below, but falling well away from it. This inverts the direction item 6 has
+  been narrating since 03-August.**
+  **AND HERE IS THE AMBIGUITY I CANNOT RESOLVE, STATED BEFORE THE CONCLUSION.** **The trade dates are not
+  given** — a 1–10 August **laycan** is a *delivery* window, not a transaction date, so the 260 cargo could have
+  traded in late July. **If it did, it sits on the same date as this file's 228 and the two cannot both be the
+  same measure.** **Two live readings and I do not choose:** *(a)* **coal has risen sharply since the file's
+  228**, or *(b)* **the 228 and the 241–260 are not the same measure and the file's coal input is
+  mis-specified.** **Both send the same instruction: the coal leg needs a human look, because either one puts
+  the spot case below where the file has been placing it.**
+  **THE PATTERN IN MY OWN COVERAGE IS THE FINDING, AND IT IS UNCOMFORTABLE.** Three days of sweeps narrated
+  **ore falling** (favourable to the spread) and **HRC falling** (unfavourable), and **never once opened the
+  third leg. The leg left unchecked turned out to be the one moving most and moving against the position.** *I
+  do not claim that was motivated — ore had a dramatic one-day fall that pulled attention, and attention follows
+  drama rather than materiality.* **But the effect is indistinguishable from bias, and the corrective is
+  mechanical: a model with three inputs should have all three refreshed on the same schedule, not on the
+  schedule of whichever one is in the news.**
+  **ONE THING THE FILE ALREADY HAD AND I HAD NOT CONNECTED.** The 29-Jul entry records Vietnamese mills raising
+  prices for the **fifth time in 2026**, with the stated reason *"input costs — iron ore, coking coal **and
+  scrap** — staying high or trending up."* **A contemporaneous industry statement that coal was trending up,
+  sitting in this file while the coal input went unrefreshed for six days.**
+  **NOTHING MODELLED.** Bridge inputs unchanged — ore 98.00, coal 218.50/220, HRC 539/546.5/535, all 30-Jul
+  vintage. Retuning is charter §5 human work. **ESCALATED.**
+
 - **10:53 ICT · STEEL (lane 5) — ⚠ CORRECTION TO MY OWN 05-Aug 09:53 ENTRY. I switched index mid-comparison
   and reported the switch as a market move, on the input that drives item 6 and a 16.8% position.**
   **THE ARITHMETIC THAT SETTLES IT.** TradingEconomics gives iron ore at **US$93.70 on 04-August, +0.04%**. **At
