@@ -22,52 +22,56 @@ Provisioning is taken on the specific charge rather than the income lines
 because CIR is pinned at 42.1 / 40 / 38%: cutting TOI would have forced a
 matching opex cut to hold the ratio, and two levers for one outcome.
 
-PBT is now 1.7% below FY25 and 7.4% below the ~VND8,100bn board plan, where the
-previous version sat marginally above it.  The slide heading and the third
-block are rewritten accordingly; this is a change of story, not of digits.
+FY26F PBT is 2.2% below FY25 and 7.9% below the ~VND8,100bn board plan, where an
+earlier version sat marginally above it.  The slide heading and the third block
+say so; this is a change of story, not of digits.
 
-The CIR path is worth stating plainly on the slide, and is: FY26F opex of
-VND12,208bn against VND6,233bn already spent in 1H26 leaves VND5,975bn for the
-second half, 4.1% BELOW the first.  That is a real cost reduction, not an
-accrual shift, and the narrative says so.
+The CIR path is stated plainly on the slide: FY26F opex of VND12,818bn against
+VND6,233bn already spent in 1H26 leaves VND6,585bn for the second half, 5.6%
+ABOVE the first, so no cost reduction is assumed anywhere in the forecast.
 
-Coverage rises to 55.4% - the NPL balance shrinks with the loan book while the
-reserve stock does not, and the heavier charge adds to it.
+FY26F coverage lands at 50.9%.  The NPL balance shrinks with the loan book while
+the reserve stock is held roughly flat, the FY26F charge being sized to fund
+write-offs rather than to build.  FY27F and FY28F are the opposite: the overlay
+takes coverage to 71.3% and 104.6%.
+
+Since this round the slide is derived rather than transcribed.  model_read reads
+FinModel_STB_2Q26.xlsx, re-evaluates the formulas this project books, and hands
+back the forecast, so rerunning this script after a workbook edit is enough.
 """
 import shutil
 from pptx import Presentation
+import model_read
+from model_read import F
 
 SRC = ('/root/.claude/uploads/041665b7-4ff3-507f-a1e8-7a7ed4160156/'
        '292d2379-MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
 # FY26F PBT is set to 7,500 and CIR to 40/38/36% - see fix_stb_model.MODEL_FORMULAS
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
-SHARES, TP = 2060.158, 75000.0
+SHARES, TP = model_read.SHARES, 75000.0
 
-# Model!Y/Z/AA, read out of the recalculated workbook
-NII = (24530.8, 26953.5, 30600.1)                 # row 121
-NONII = (5950.0, 7225.9, 8516.9)                  # rows 124 + 131
-TOI = (30480.8, 34179.4, 39117.0)                 # row 136 + row 135
-OPEX = (12818.4, 13671.7, 14864.2)                # row 135, CIR steps down
-PROV = (10201.8, 10635.6, 8982.2)                 # row 141, +1,000 / +2,000 overlay
-PBT = (7460.6, 9872.2, 15270.6)                   # row 144
-NPATMI = (5808.8, 7686.4, 11889.6)                # row 153
-EQUITY = (65728.9, 73415.3, 85304.9)              # row 85
-ASSETS = (1013554, 1125396, 1262644)              # row 61
-ROE = (8.8, 11.0, 15.0)                           # row 314, on average equity
-LOANS26, NPL26, RESERVE26, WO26 = 640643.1, 37157.3, 18925.5, 10955.0
-PBT25, EPS25, PLAN = 7628.025, 2882.84, 8100.0
+# Every forecast figure below is derived from FinModel_STB_2Q26.xlsx by
+# model_read, which reproduces Excel on all nine FY26F control lines.  Nothing
+# here is transcribed, so a revision to the workbook reaches the slide by
+# rerunning this script.
+NII, NONII, TOI = F['nii'], F['nonii'], F['toi']   # rows 121, 124+131, sum
+OPEX, PROV, PBT = F['opex'], F['prov'], F['pbt']   # rows 135, 141, 144
+NPATMI, EQUITY, ASSETS = F['npatmi'], F['equity'], F['assets']   # 153, 85, 61
+ROE, EPS, BVPS, CIR = F['roe'], F['eps'], F['bvps'], F['cir']
+LOANS26, NPL26 = F['loans'][0], F['npl'][0]
+RESERVE26, WO26, COV26 = F['reserve'][0], F['writeoff'][0], F['coverage'][0]
+PBT25, EPS25, NII25, PROV25 = F['pbt25'], F['eps25'], F['nii25'], F['prov25']
+
+# 1H26 actuals and the board plan - the only STB numbers not in the model
+PLAN = 8100.0
 H1_PBT, H1_PROV, H1_OPEX = 4136.10, 7119.0, 6233.19
 
-EPS = tuple(n * 1000 / SHARES for n in NPATMI)
-BVPS = tuple(e * 1000 / SHARES for e in EQUITY)
-CIR = tuple(o / t * 100 for o, t in zip(OPEX, TOI))
-COV26 = RESERVE26 / NPL26 * 100
 H2_PROV, H2_PBT = PROV[0] - H1_PROV, PBT[0] - H1_PBT
 PBT_YOY = PBT[0] / PBT25 * 100 - 100
 VS_PLAN = PBT[0] / PLAN * 100 - 100
-NII_YOY = NII[0] / 26680.6 * 100 - 100
-PROV_YOY = PROV[0] / 11383.775 * 100 - 100
+NII_YOY = NII[0] / NII25 * 100 - 100
+PROV_YOY = PROV[0] / PROV25 * 100 - 100
 EPS_GROWTH = EPS[0] / EPS25 * 100 - 100
 
 TABLE = {1: ['{:,.0f}'.format(v) for v in NII],
@@ -82,8 +86,15 @@ TABLE = {1: ['{:,.0f}'.format(v) for v in NII],
 HIST_EPS, HIST_BVPS = (3747.0, 4896.0, 2883.0), (22199.0, 26683.0, 29059.0)
 FULL = {7: ['{:.1f}'.format(TP / e) for e in HIST_EPS + EPS],
         8: ['{:.1f}'.format(TP / b) for b in HIST_BVPS + BVPS]}
+# The box carried 1,885mn shares and a VND139,694bn market cap while every
+# per-share line in the FY table is struck on 2,060.158mn - the share count
+# implied by paid-in capital of VND20,601.582bn on the balance sheet, FY24 and
+# FY25 alike.  Both are put on the model's own count at the same VND74,100
+# price the box's expected return already uses.
+PRICE = 74100.0
 BOX = {0: '{:,.0f}'.format(NPATMI[0]), 2: '{:.1f}'.format(EPS_GROWTH),
-       3: '{:.1f}'.format(TP / EPS[0])}
+       3: '{:.1f}'.format(TP / EPS[0]),
+       4: '{:,.0f}'.format(SHARES * PRICE / 1000), 5: '{:,.0f}'.format(SHARES)}
 
 EN = {
  4: ("We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Holding the "
@@ -177,7 +188,7 @@ def main():
 if __name__ == '__main__':
     main()
     print('%-24s%12s%12s%12s' % ('', 'FY26F', 'FY27F', 'FY28F'))
-    for lab, vs, f in [('Gross loans', (LOANS26, 719777, 825565), '{:,.0f}'),
+    for lab, vs, f in [('Gross loans', F['loans'], '{:,.0f}'),
                        ('NII', NII, '{:,.0f}'), ('TOI', TOI, '{:,.0f}'),
                        ('Opex', OPEX, '{:,.0f}'), ('CIR %', CIR, '{:.1f}'),
                        ('Provisioning', PROV, '{:,.0f}'), ('PBT', PBT, '{:,.0f}'),

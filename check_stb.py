@@ -9,6 +9,7 @@ import openpyxl, zipfile
 from lxml import etree
 from pptx import Presentation
 import update_stb_loans as U
+import fix_stb_model, model_read
 
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
@@ -25,6 +26,23 @@ def check(n, c, d=''):
     if not c:
         fails.append(n)
 
+
+# -------------------------------------------------- the slide vs the workbook
+_drift = fix_stb_model.verify()
+check('every booked formula still in FinModel_STB_2Q26.xlsx', not _drift,
+      '; '.join(_drift) or '28 assumptions')
+check('the derivation reproduces Excel on all FY26F control lines',
+      not model_read._m.check(model_read.F), 'opex, TOI, provisioning, PBT, '
+      'NPATMI, equity, assets, allowance, loans')
+check('box share count agrees with the EPS and BVPS basis',
+      abs(U.SHARES - 2060.158) < 0.01,
+      'paid-in capital 20,601.582 / 10,000 VND par')
+check('box market cap = shares x the price the expected return uses',
+      abs(U.SHARES * U.PRICE / 1000 - 152657.7) < 1,
+      '%.0f, was 139,694 on the stale 1,885mn count' % (U.SHARES * U.PRICE / 1000))
+check('the slide reads the model, nothing is transcribed',
+      U.PBT is model_read.F['pbt'] and U.NPATMI is model_read.F['npatmi']
+      and U.PROV is model_read.F['prov'])
 
 # ------------------------------------------------------ the model's own P&L
 check('FY26F loan growth cut to the 1H26 run-rate',

@@ -56,6 +56,18 @@ ROWS = [
      'giảm 33% (8,637 -> 5,779)',
      'CHƯA SỬA. Bỏ hệ số 1.7 sẽ hạ thu nhập khác FY28F 1,123 tỷ, tức cũng đạt mục tiêu '
      'hạ LNTT, nhưng kéo CIR FY28F từ 38.0% lên 39.1% nên phải giải lại hệ số chi phí'),
+    ('A13', 'Slide dựng thẳng từ file model, không gõ tay', '', '', 'MODEL',
+     'model_read.py đọc FinModel_STB_2Q26.xlsx, tính lại các công thức dự án này đặt',
+     'Trước đây các hằng số trên slide được chép tay từ workbook, mỗi vòng sửa là một '
+     'lần chép lại. Nay update_stb_loans đọc thẳng. Cột FY26F đã được Excel tính lại '
+     'nên dùng làm đối chứng: 9 dòng (chi phí HĐ, TOI, dự phòng, LNTT, LNST, vốn chủ, '
+     'tổng tài sản, dự phòng đã trích, dư nợ) khớp tuyệt đối với cache của Excel'),
+    ('A14', 'Sửa SLCP lưu hành và vốn hóa ở ô thông tin', '2,060 / 152,658',
+     'triệu cp / tỷ đồng', 'MODEL',
+     "Vốn điều lệ 20,601.582 tỷ ('Balance sheet'!Y79) / mệnh giá 10,000 đồng; giá 74,100",
+     'Ô thông tin ghi 1,885 triệu cp và vốn hóa 139,694 tỷ trong khi toàn bộ EPS, BVPS, '
+     'P/E, P/B của bảng FY tính trên 2,060.158 triệu cp — chênh 9.3%. P/E 26F nếu tính '
+     'trên 1,885 triệu cp sẽ là 24.3 chứ không phải 26.6. ĐÃ SỬA ô thông tin theo model'),
     ('G15', 'Giá mục tiêu STB vs sheet Valuation', '75,000 vs ~46,500', 'VND', 'CONFLICT',
      'Valuation: P/B hợp lý (ROE 12.1% - 2.5%) / (10.01% - 2.5%) = 1.29x x BPS 36,014',
      'ROE FY27F nay chỉ còn %.1f%% nên P/B hợp lý tính lại còn thấp hơn nữa. '

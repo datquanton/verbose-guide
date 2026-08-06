@@ -9,22 +9,29 @@ the deck and the workbook cannot disagree.
 import openpyxl
 from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.utils import get_column_letter
+from model_read import F
 
 OUT = '/home/user/verbose-guide/Mobile_Report_ChartData_STB_FPT_2Q26.xlsx'
 YRS = ['FY24', 'FY25', 'FY26F', 'FY27F', 'FY28F']
 
+# STB forecast years come off the model via model_read; FY24 and FY25 are
+# actuals.  FPT is still typed - its model is a separate workbook.
+TP_STB = 75000.
+_r0 = lambda vs: [round(v) for v in vs]
+_r1 = lambda vs: [round(v, 1) for v in vs]
+
 # (ticker, chart key, series name EN, series name VN, values)
 SERIES = [
     ('STB', 'is', 'Net interest income', 'Thu nhập lãi thuần',
-     [24532, 26681, 24531, 26954, 30600]),
+     [24532, 26681] + _r0(F['nii'])),
     ('STB', 'is', 'Non-interest income', 'Thu nhập ngoài lãi',
-     [4145, 5376, 5950, 7226, 8517]),
+     [4145, 5376] + _r0(F['nonii'])),
     ('STB', 'pbt', 'Profit before tax', 'Lợi nhuận trước thuế',
-     [12720, 7628, 7461, 9872, 15271]),
+     [12720, 7628] + _r0(F['pbt'])),
     ('STB', 'val_pe', 'P/E at target price (x)', 'P/E theo giá mục tiêu (lần)',
-     [14.6, 26.0, 26.6, 20.1, 13.0]),
+     [14.6, 26.0] + _r1([TP_STB / e for e in F['eps']])),
     ('STB', 'val_pb', 'P/B at target price (x)', 'P/B theo giá mục tiêu (lần)',
-     [2.8, 2.6, 2.4, 2.1, 1.8]),
+     [2.8, 2.6] + _r1([TP_STB / b for b in F['bvps']])),
     ('FPT', 'rev', 'Revenue', 'Doanh thu',
      [62849, 70208, 57284, 66048, 76654]),
     ('FPT', 'is', 'Profit before tax', 'Lợi nhuận trước thuế',
