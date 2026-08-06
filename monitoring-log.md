@@ -83,6 +83,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **08:53 ICT · FILE AUDIT — ran the pattern as a test instead of waiting to trip over it again. Four more
+  instances, three of them cross-block, and the diagnosis is sharper than "the file has contradictions."**
+  *(Vietnam opened at 09:00; a pre-open outlook piece has VN-Index testing 1,775–1,810 resistance — **an
+  outlook, not a close**, and not used. Directionally it sits above the ~1,750–1,770 index level item 2 infers
+  for the file's price date, so the prices are drifting below market again. Noted, not sized.)*
+  **THE TEST.** Four field-versus-prose contradictions turned up **by accident** in twenty-four hours — KDH's
+  Bình Trưng Mới date, `effective_broker_pct`, MBB's provisioning, VPB's credit. This sweep looked for them
+  deliberately: **extract every claim of absence in `assumptions.json` and check whether the file holds the
+  thing it says it lacks.** **129 claims of absence.** **Five are cross-block — a claim in one ticker's block
+  about another ticker's data. Three of those five are stale.**
+  **FIFTH INSTANCE, AND THE WORST BECAUSE IT IS LOAD-BEARING.** The **TCB** block reads: *"THE GAP, STATED
+  PLAINLY: **VPB (10.0%) GREW PBT 68% AND ITS PROVISIONING LINE IS NOT ESTABLISHED.** That is the largest
+  unexplained profit jump in the book and the one name where this analysis could not be run."* **`vpb.actuals`
+  holds `h1_provisions_bn` 15,579, `h1_provisions_yoy` 0.237, `h1_ppop_bn` 34,479,
+  `h1_provisions_pct_of_ppop` 0.452 and `_h1_provisioning_intensity_prior_year` 0.528 — eleven related
+  fields.** **Resolved 02-Aug 21:53, and item 26 already uses it** (*"VPB RESOLVED: provisions ROSE 23.7% to
+  ₫15,579bn… 23.4pp of its 68% growth is provisioning"*). **The TCB note was never updated.**
+  **SIXTH INSTANCE, AND IT IS IN VPB'S OWN BLOCK.** The same sentence sits inside `vpb.actuals` — *"its credit
+  provisioning line is NOT ESTABLISHED"* — **eight fields away from `h1_provisions_bn` = 15,579.** **This one
+  breaks the comfortable explanation.** The append-only convention handles **prose superseding prose** — a
+  later dated key sits beside the earlier one and a reader meets both. **It has no mechanism at all for a
+  *field* superseding *prose*. Nothing in this file makes a number contradict a sentence.**
+  **SEVENTH.** `vpb.actuals`: *"VPB has put ₫1,100bn into a tokenised-asset exchange… whether this is the same
+  venture is NOT established."* **Resolved at 20:53 yesterday — in the VPX block:** CAEX is 11/39/50, sums to
+  100, and 11% of ₫10,000bn is ₫1,100bn. **The resolution is cross-block, so nobody reading `vpb` will find it.**
+  **EIGHTH — a derived ratio rather than an absence claim.** The **TCX** block contains both *"2.49× is
+  **unreproducible** and its inputs are not on file. The reproducible figure is **2.075×**"* and *"2.49× is
+  **exact**: 41,100 × 2,773,896,000 / filed equity ₫45,782bn = 2.4902×."* **The 2.075× is arithmetically
+  identified: 41,100 × 2,311,308,021 / 45,782 = 2.0749 — it used the stale listing-date share count**,
+  superseded by the 04-Aug verification. **Two live claims about the same ratio, 20% apart, on the name the file
+  calls priciest in the book.**
+  **WHAT SURVIVES AS LEGITIMATE, BECAUSE NOT EVERY ABSENCE CLAIM IS ROT.** The other two cross-block claims are
+  sound, and **most of the 129 are correct and valuable — they are the file's refusals to infer, which is its
+  best habit.** **The problem is not that the file records what it does not know; it is that nothing retires
+  those records when they stop being true.**
+  **THE DIAGNOSIS — three failure modes, in descending order of danger.** *(1)* **A claim in block A about data
+  in block B** — nobody reading A checks B, and there is no fix inside the append-only convention. **Three of
+  today's four are this shape.** *(2)* **A prose claim contradicted by a plain numeric field in the same
+  block** — the convention assumes prose is superseded by prose. *(3)* **A derived ratio outliving its inputs**
+  — six instances already logged this week; TCX's 2.075× is the seventh.
+  **NOTHING IS EDITED.** Every one is prose in a dated entry, and this file does not overwrite dated entries —
+  **the practice that made the audit possible is the same practice that lets the staleness accumulate.** **The
+  cheap rule that would prevent most of it: an absence claim about another ticker should name the field that
+  would resolve it**, so a future reader can test it in one grep instead of trusting it. *Recorded as a
+  proposal; conventions are human-only under §4.*
+  **NOTHING MODELLED.**
+
 - **07:53 ICT · VPB (lane 3) — the 28-July credit escalation is resolved after nine days on 10.0% of the book,
   and the file could have bounded it without a single search.**
   *(Vietnam opens in ~1 hour.)*
