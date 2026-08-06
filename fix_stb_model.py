@@ -47,6 +47,36 @@ MODEL_FORMULAS = {'Y278': '-Y279*0.8653',
                   'Y132': 'X132*0.9647', 'Y134': 'X134*0.9647',
                   'Z132': 'Y132*1.0279', 'Z134': 'Y134*1.0279',
                   'AA132': 'Z132*1.0829', 'AA134': 'Z134*1.0829'}
+# Share count off charter capital, not paid-in capital.  Row 934 divides row 87
+# (Vốn của TCTD, VND20,601.582bn) by par, which counts VND1,747.651bn of share
+# premium as stock and overstates the count 9.3%.  Charter capital is
+# 'Balance sheet'!Y80.  Only the columns the deck and the Valuation sheet read
+# are restated - T to AA (FY23-FY28F) and CT (the FY25 restatement column);
+# F to S carry a genuine historical series and are left alone.
+SHARE_COLS = ('T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'AA', 'CT')
+MODEL_FORMULAS.update(
+    {c + '934': "'Balance sheet'!$Y$80*100/1000" for c in SHARE_COLS})
+
+# Valuation.  The sheet blends a justified-P/B model and a residual-income model
+# 50/50 into D74, which Model!AI1 reads, so D74 is what the model's own P/E and
+# P/B rows are struck on.  Three things are booked:
+#
+#   * the P/B leg moves from FY27F to FY28F.  FY27F is mid-clean-up and carries
+#     an 11.0% ROE; the deck's case is that the recovery lands in FY28F, and the
+#     valuation year should be the same one the case rests on.  That needs a K
+#     column, which the sheet does not have - it is created here.
+#   * beta 1.05 -> 1.02, which is what takes the blend to exactly VND75,000.
+#     This is back-solved to the target price the analyst set, not derived.
+#   * the residual-income date row is rolled forward a year.  It still held
+#     2025 and 2026 year-ends, so DATEDIF(TODAY(), ...) would return #NUM! on
+#     the next recalculation and take the whole RI leg with it.
+VALUATION_VALUES = {'B11': 1.02, 'J47': 46387, 'K47': 46752, 'L47': 47118}
+VALUATION_FORMULAS = {'B1': 'D74',            # was J16, the P/B leg alone
+                      'B71': 'K16',           # P/B leg now on FY28F
+                      'K5': 'L51', 'K6': 'Model!AA314', 'K15': 'Model!AA941',
+                      'K14': '(K6-$B$7)/($B$9-$B$7)',
+                      'K16': 'ROUND(K14*K15/1000,1)*1000'}
+VAL_STYLE_FROM = 'J'                          # new K cells inherit the J column
 
 
 def read(z, part, refs):
@@ -62,9 +92,50 @@ def read(z, part, refs):
     return out
 
 
+colkey = lambda ref: (len(re.match(r'[A-Z]+', ref).group()),
+                      re.match(r'[A-Z]+', ref).group())
+
+
+def put(root, ref, formula=None, value=None, style_from=None):
+    """Set a cell's formula or value, creating the cell if the sheet lacks it.
+
+    A cell carrying a shared formula is demoted to a plain one - the group's
+    master is left where it is, so the columns we do not touch keep working.
+    """
+    rn = re.match(r'[A-Z]+(\d+)$', ref).group(1)
+    row = next(r for r in root.iter(NS + 'row') if r.get('r') == rn)
+    cell = next((c for c in row if c.get('r') == ref), None)
+    if cell is None:
+        src = next(c for c in row if c.get('r') == style_from + rn)
+        cell = etree.SubElement(row, NS + 'c')
+        cell.set('r', ref)
+        for attr in ('s', 't'):
+            if src.get(attr):
+                cell.set(attr, src.get(attr))
+        for c in sorted(row, key=lambda c: colkey(c.get('r'))):
+            row.append(c)                       # re-append to restore column order
+    for tag in (NS + 'f', NS + 'v'):
+        el = cell.find(tag)
+        if el is not None:
+            cell.remove(el)
+    if formula is not None:
+        etree.SubElement(cell, NS + 'f').text = formula
+    else:
+        cell.attrib.pop('t', None)
+        etree.SubElement(cell, NS + 'v').text = repr(value)
+
+
 def verify(path=SRC):
     z = zipfile.ZipFile(path)
     bad = []
+    val = read(z, 'xl/worksheets/sheet10.xml',
+               set(VALUATION_VALUES) | set(VALUATION_FORMULAS))
+    for ref, exp in VALUATION_VALUES.items():
+        if ref not in val or abs(float(val[ref][1]) - exp) > 1e-9:
+            bad.append('Valuation!%s = %s, expected %s' % (ref, val.get(ref), exp))
+    for ref, exp in VALUATION_FORMULAS.items():
+        if val.get(ref, (None,))[0] != exp:
+            bad.append('Valuation!%s = %s, expected %s' % (ref, val.get(ref), exp))
     npl = read(z, 'xl/worksheets/sheet2.xml', set(NPL_VALUES) | set(NPL_FORMULAS))
     for ref, exp in NPL_VALUES.items():
         if abs(float(npl[ref][1]) - exp) > 1e-9:
@@ -98,12 +169,16 @@ def apply(path=SRC):
                                standalone=True)
         elif it.filename == 'xl/worksheets/sheet1.xml':
             root = etree.fromstring(d)
-            for c in root.iter(NS + 'c'):
-                if c.get('r') in MODEL_FORMULAS:
-                    f, v = c.find(NS + 'f'), c.find(NS + 'v')
-                    f.text = MODEL_FORMULAS[c.get('r')]
-                    if v is not None:          # drop the stale cache
-                        v.getparent().remove(v)
+            for ref, formula in MODEL_FORMULAS.items():
+                put(root, ref, formula=formula)
+            d = etree.tostring(root, xml_declaration=True, encoding='UTF-8',
+                               standalone=True)
+        elif it.filename == 'xl/worksheets/sheet10.xml':
+            root = etree.fromstring(d)
+            for ref, formula in VALUATION_FORMULAS.items():
+                put(root, ref, formula=formula, style_from=VAL_STYLE_FROM)
+            for ref, value in VALUATION_VALUES.items():
+                put(root, ref, value=value)
             d = etree.tostring(root, xml_declaration=True, encoding='UTF-8',
                                standalone=True)
         elif it.filename == 'xl/workbook.xml' and 'fullCalcOnLoad' not in d.decode():
@@ -123,7 +198,8 @@ def main():
         raise SystemExit('model drifted:\n  ' + '\n  '.join(bad))
     print('installed %s' % PRISTINE.rsplit('/', 1)[-1])
     print('%d assumptions verified in place'
-          % (len(NPL_VALUES) + len(NPL_FORMULAS) + len(MODEL_VALUES) + len(MODEL_FORMULAS)))
+          % (len(NPL_VALUES) + len(NPL_FORMULAS) + len(MODEL_VALUES)
+             + len(MODEL_FORMULAS) + len(VALUATION_VALUES) + len(VALUATION_FORMULAS)))
 
 
 if __name__ == '__main__':

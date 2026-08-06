@@ -9,7 +9,7 @@ import openpyxl, zipfile
 from lxml import etree
 from pptx import Presentation
 import update_stb_loans as U
-import fix_stb_model, model_read
+import fix_stb_model, model_read, valuation
 
 DECK = ('/home/user/verbose-guide/'
         'MASVN_RS_WM_2H26_outlook_Equity_VN_2026_STBFPT_August2026.pptx')
@@ -105,6 +105,24 @@ COV = [r / (n * l) * 100 for r, n, l in
 check('NPL coverage above 100% by FY28F - the cost of the overlay',
       COV[2] > 100, '%.0f / %.0f / %.0f%%' % tuple(COV))
 check('target price 75,000', abs(U.TP - 75000) < 1)
+
+# ---------------------------------------------- the Valuation sheet, closing G15
+_V = valuation.V
+check('Valuation!D74 now equals the deck target price',
+      abs(_V['fair_value'] - U.TP) < 1,
+      '%s, was 51,600' % '{:,.0f}'.format(_V['fair_value']))
+check('P/B leg valued on FY28F, the year the case rests on',
+      abs(_V['roe'] * 100 - U.ROE[2]) < 0.01 and abs(_V['bps'] - U.BVPS[2]) < 1,
+      'ROE %.2f%% x BPS %s -> %s' % (_V['roe'] * 100, '{:,.0f}'.format(_V['bps']),
+                                     '{:,.0f}'.format(_V['pb_leg'])))
+check('cost of equity on beta 1.02, the back-solve to VND75,000',
+      abs(_V['beta'] - 1.02) < 1e-9 and abs(_V['coe'] - 0.09655) < 1e-5,
+      'CoE %.3f%% - beta was 1.05, giving 73,200' % (_V['coe'] * 100))
+check('residual-income dates roll past today, no #NUM! on recalculation',
+      all(t > 0 for t in _V['years']),
+      '%.2f / %.2f / %.2f yrs out' % tuple(_V['years']))
+check('sheet upside = the rating box on the slide',
+      abs(_V['upside'] * 100 - 1.2) < 0.06, '%+.1f%%' % (_V['upside'] * 100))
 check('coverage near 50%', abs(U.COV26 - 51) < 1, '%.1f%%' % U.COV26)
 
 # ------------------------------------------------------------------- deck
