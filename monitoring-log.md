@@ -83,6 +83,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **10:53 ICT · STEEL (lane 5) — ⚠ CORRECTION TO MY OWN 05-Aug 09:53 ENTRY. I switched index mid-comparison
+  and reported the switch as a market move, on the input that drives item 6 and a 16.8% position.**
+  **THE ARITHMETIC THAT SETTLES IT.** TradingEconomics gives iron ore at **US$93.70 on 04-August, +0.04%**. **At
+  +0.04% the prior close was 93.66 — exactly the 03-August figure this file stores. So 93.70 is the same series
+  the file has been tracking, and on that series 03-Aug → 04-Aug was FLAT, not down.**
+  **WHAT I WROTE YESTERDAY.** *"Ore did not bounce — it printed a second consecutive one-year low"*, with the
+  spot case easing **₫1,076,000 → ₫1,052,000/t** and the gap to the bear branch **widening ₫174,000 →
+  ₫198,000.** **Those came from SGX's 94.10 intraday low and a 61% Fe settle of 94.35 — different contracts
+  from the one the file's 93.66 sits on.** **On a consistent series: spot case ₫1,075,600 → ₫1,074,200/t, gap
+  ₫174,400 → ₫175,800.** **The widening I reported was an index switch, not a market move — about ₫22,000/t of
+  the ₫24,000/t I attributed to the market was mine.**
+  **AND IT IS THE SAME FAILURE THE FILE HAS LOGGED THREE TIMES IN THREE DAYS.** The 05-Aug 00:53 rule reads
+  *"before comparing two prices, state the delivery terms of each; if they differ, adjust or refuse the
+  comparison."* **At 09:53 I even noted the grade mismatch** — *"the 04-Aug settle is explicitly 61% Fe and the
+  file has no stated basis for 93.66… no precision is claimed beyond 'ore is around US$94'"* — **and then
+  computed a spot case and a gap from it anyway.** **The caveat was written and the arithmetic ignored it.**
+  That is the same defect found at 01:53 today, where the 16:53 entry refused a ratio and then used size
+  language as though it had computed one. **Twice in one day, a stated limit did not constrain the sentence next
+  to it.**
+  **WHAT SURVIVES, AND IT IS THE MORE IMPORTANT HALF.** **The demand attribution is unaffected** — Bloomberg's
+  03-Aug headline names *"trader concerns and demand outlook"* and the 04-Aug coverage names *"deteriorating
+  steel industry fundamentals in China."* **The pre-registered caveat of 04-Aug 23:53 is still scored correct
+  and for the stated reason.** So is the HRC half: domestic Vietnamese HRC fell through July on Indian and
+  Indonesian competition, HPG cut August delivery ~US$34/t, Formosa cut August *and September* ~US$40/t. **None
+  of that depended on the ore index.**
+  **NEW AND NOT ON FILE: Chinese iron-ore port stockpiles at record highs**, cited as a cause of the weakness.
+  **That is a supply-side datum sitting beside a demand attribution, and the two are not the same
+  explanation.** *Recorded as a second candidate mechanism, not as a correction to the first.*
+  **A STALE-PRICE TRAP DISARMED, THE SECOND IN TWO DAYS.** A piece headed *"iron ore prices rebound above $98 as
+  China mills restock"* carries **no date** and conflicts with 93.70 on 04-Aug. **US$98 is also this file's own
+  bridge input, a late-July level** — so the article is almost certainly of that vintage. **Not used.** Yesterday
+  the same trap arrived as US$99.24 on a Vietnamese rolling page.
+  *No 05-August close is available and none is inferred.*
+  **NOTHING MODELLED.** Bridge inputs stand at their 30-Jul vintage — ore 98.00, HRC 539/546.5/535.
+
 - **08:53 ICT · FILE AUDIT — ran the pattern as a test instead of waiting to trip over it again. Four more
   instances, three of them cross-block, and the diagnosis is sharper than "the file has contradictions."**
   *(Vietnam opened at 09:00; a pre-open outlook piece has VN-Index testing 1,775–1,810 resistance — **an
