@@ -45,8 +45,8 @@ _d = lambda vs: ['{:.1f}'.format(v) for v in vs]
 STB_VALS = [['26,681'] + _n(U.NII),
             ['5,376'] + _n(U.NONII),
             ['7,628'] + _n(U.PBT),
-            ['5,939'] + _n(U.NPATMI),
-            ['2,883'] + _n(U.EPS),
+            _n((U.F['npatmi25'],) + U.NPATMI),
+            _n((U.HIST_EPS[-1],) + U.EPS),
             ['10.3'] + _d(U.ROE),
             _d([U.TP / e for e in (U.HIST_EPS[-1],) + U.EPS]),
             _d([U.TP / b for b in (U.HIST_BVPS[-1],) + U.BVPS])]

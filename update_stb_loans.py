@@ -78,19 +78,23 @@ TABLE = {1: ['{:,.0f}'.format(v) for v in NII],
          2: ['{:,.0f}'.format(v) for v in NONII],
          3: ['{:,.0f}'.format(v) for v in PBT],
          4: ['{:,.0f}'.format(v) for v in NPATMI],
-         5: ['{:,.0f}'.format(v) for v in EPS],
          6: ['{:.1f}'.format(v) for v in ROE],
          9: ['{:,.0f}'.format(v) for v in ASSETS],
-         10: ['{:,.0f}'.format(v) for v in EQUITY],
-         11: ['{:,.0f}'.format(v) for v in BVPS]}
-HIST_EPS, HIST_BVPS = (3747.0, 4896.0, 2883.0), (22199.0, 26683.0, 29059.0)
-FULL = {7: ['{:.1f}'.format(TP / e) for e in HIST_EPS + EPS],
-        8: ['{:.1f}'.format(TP / b) for b in HIST_BVPS + BVPS]}
-# The box carried 1,885mn shares and a VND139,694bn market cap while every
-# per-share line in the FY table is struck on 2,060.158mn - the share count
-# implied by paid-in capital of VND20,601.582bn on the balance sheet, FY24 and
-# FY25 alike.  Both are put on the model's own count at the same VND74,100
-# price the box's expected return already uses.
+         10: ['{:,.0f}'.format(v) for v in EQUITY]}   # 5 and 11 go in FULL
+# The deck carried per-share history of 3,747 / 4,896 / 2,883 EPS and
+# 22,199 / 26,683 / 29,059 BVPS, all struck on 2,060.158mn shares - paid-in
+# capital divided by par, which counts VND1,747.651bn of share premium as stock.
+# On charter capital the count is 1,885.216mn and every per-share line, forecast
+# and history alike, is 9.3% higher.  Rows 5 and 11 are now written across all
+# six columns rather than the forecast three.
+HIST_EPS, HIST_BVPS = F['hist_eps'], F['hist_bvps']
+FULL = {5: ['{:,.0f}'.format(v) for v in HIST_EPS + EPS],
+        7: ['{:.1f}'.format(TP / e) for e in HIST_EPS + EPS],
+        8: ['{:.1f}'.format(TP / b) for b in HIST_BVPS + BVPS],
+        11: ['{:,.0f}'.format(v) for v in HIST_BVPS + BVPS]}
+# The box's 1,885mn shares were right all along; the FY table was not.  Market
+# cap is restated on the same count at the VND74,100 price the box's expected
+# return already uses, which returns it to the VND139,694bn it carried.
 PRICE = 74100.0
 BOX = {0: '{:,.0f}'.format(NPATMI[0]), 2: '{:.1f}'.format(EPS_GROWTH),
        3: '{:.1f}'.format(TP / EPS[0]),

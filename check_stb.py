@@ -34,12 +34,15 @@ check('every booked formula still in FinModel_STB_2Q26.xlsx', not _drift,
 check('the derivation reproduces Excel on all FY26F control lines',
       not model_read._m.check(model_read.F), 'opex, TOI, provisioning, PBT, '
       'NPATMI, equity, assets, allowance, loans')
-check('box share count agrees with the EPS and BVPS basis',
-      abs(U.SHARES - 2060.158) < 0.01,
-      'paid-in capital 20,601.582 / 10,000 VND par')
+check('shares struck on charter capital, not paid-in capital',
+      abs(U.SHARES - 1885.2157) < 0.001,
+      "'Balance sheet'!Y80 18,852.157 / 10,000 par - NOT Y79 20,601.582")
 check('box market cap = shares x the price the expected return uses',
-      abs(U.SHARES * U.PRICE / 1000 - 152657.7) < 1,
-      '%.0f, was 139,694 on the stale 1,885mn count' % (U.SHARES * U.PRICE / 1000))
+      abs(U.SHARES * U.PRICE / 1000 - 139694) < 5,
+      '%.0f' % (U.SHARES * U.PRICE / 1000))
+check('per-share history restated on the same count as the forecast',
+      abs(U.HIST_EPS[2] - 3150) < 2 and abs(U.HIST_BVPS[2] - 31756) < 2,
+      'FY25 EPS %.0f BVPS %.0f, were 2,883 and 29,059' % (U.HIST_EPS[2], U.HIST_BVPS[2]))
 check('the slide reads the model, nothing is transcribed',
       U.PBT is model_read.F['pbt'] and U.NPATMI is model_read.F['npatmi']
       and U.PROV is model_read.F['prov'])
@@ -128,7 +131,7 @@ for i in range(3):
     y = 2026 + i
     check('FY%dF PBT = model' % y, abs(pbt[i] - U.PBT[i]) < 1, '%.0f' % pbt[i])
     check('FY%dF NPATMI = model' % y, abs(npat[i] - U.NPATMI[i]) < 1, '%.0f' % npat[i])
-    check('FY%dF EPS = NPATMI / 2,060mn shares' % y, abs(npat[i] * 1000 / SHARES - eps[i]) < 1)
+    check('FY%dF EPS = NPATMI / 1,885mn shares' % y, abs(npat[i] * 1000 / SHARES - eps[i]) < 1)
     check('FY%dF P/E = TP %s / EPS' % (y, '{:,.0f}'.format(TP)),
           abs(TP / eps[i] - pe[i]) < 0.051, '%.2f vs %.2f' % (TP / eps[i], pe[i]))
     check('FY%dF P/B = TP / BVPS' % y, abs(TP / bv[i] - pb[i]) < 0.051,
@@ -149,8 +152,10 @@ for ri, lab, base in ((7, 'P/E', U.HIST_EPS), (8, 'P/B', U.HIST_BVPS)):
 
 check('box NPATMI = table FY26F', num(en_box['NPATMI (26F, VNDbn)']) == npat[0])
 check('box P/E = table FY26F', num(en_box['P/E (26F, x)']) == pe[0])
-check('box EPS growth = table EPS on FY25 2,883',
-      abs(num(en_box['EPS Growth (26F, %)']) - (eps[0] / 2882.84 * 100 - 100)) < 0.1)
+check('box EPS growth = table EPS on the FY25 cell',
+      abs(num(en_box['EPS Growth (26F, %)'])
+          - (eps[0] / U.HIST_EPS[2] * 100 - 100)) < 0.1,
+      'FY25 EPS %.0f' % U.HIST_EPS[2])
 check('narrative PBT growth stated', ('%+.1f%% YoY' % U.PBT_YOY) in en_txt,
       '%+.1f%%' % U.PBT_YOY)
 check('rating box return = TP / current price',
@@ -176,7 +181,11 @@ for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%
             'across all three years', '9,642', '15,170', '43.4%',
             # superseded by the VND1,000bn FY27F/FY28F provisioning overlay
             '10,872', '17,271', '8,465', '13,447', '4,109', '6,527',
-            '16,271', '12,668', '6,149']:   # not '43.6%' - that is the 1H26 PBT fall
+            '16,271', '12,668', '6,149',
+            # per-share lines struck on the overstated 2,060.158mn share count
+            '2,820', '3,731', '5,771', '2,883', '4,896', '3,747',
+            '22,199', '26,683', '29,059', '31,905', '35,636', '41,407',
+            ]:   # not '43.6%' - that is the 1H26 PBT fall
     check('stale text "%s" gone' % old[:34], old not in en_txt and old not in str(en_tbl))
 
 # ---------------------------------------------------------------- FPT slide

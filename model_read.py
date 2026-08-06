@@ -37,7 +37,15 @@ from lxml import etree
 MODEL = '/home/user/verbose-guide/FinModel_STB_2Q26.xlsx'
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 COLS = ('Y', 'Z', 'AA')                     # FY26F, FY27F, FY28F
-SHARES = 2060.158                           # mn, Model!Y158
+PAR = 10000.0                               # VND par value
+
+# Share count comes from charter capital, 'Balance sheet'!Y80 = VND18,852.157bn,
+# i.e. 1,885.216mn shares.  NOT from Model!Y87 paid-in capital of VND20,601.582bn
+# - that is the whole 'Vốn của TCTD' block, charter capital plus VND1,747.651bn
+# of share premium and VND1.774bn of other capital.  Dividing it by par overstates
+# the count 9.3% and understates every EPS and BVPS by the same margin.
+CHARTER = None                               # filled on import, from the workbook
+SHARES = None
 
 
 def sheet(path, name):
@@ -80,6 +88,8 @@ class Model(object):
     def __init__(self, path=MODEL):
         self.m = sheet(path, 'Model')
         self.npl = sheet(path, 'NPL')
+        self.charter = sheet(path, 'Balance sheet')['Y80'][1]
+        self.shares = self.charter * 1e9 / PAR / 1e6        # VNDbn -> mn shares
 
     # ---------------------------------------------------------------- cells
     def v(self, ref):
@@ -170,14 +180,21 @@ class Model(object):
             npl_rate=tuple(npl_rate),
             cir=tuple(o / t * 100 for o, t in zip(opex, toi)),
             roe=tuple(n / e * 100 for n, e in zip(npat, avg_eq)),
-            eps=tuple(n * 1000 / SHARES for n in npat),
-            bvps=tuple(e * 1000 / SHARES for e in equity),
+            eps=tuple(n * 1000 / self.shares for n in npat),
+            bvps=tuple(e * 1000 / self.shares for e in equity),
             coverage=tuple(r / n * 100 for r, n in zip(reserve, npl)),
+            shares=self.shares, charter=self.charter,
+            # FY23-FY25 actuals, on the same share count - the deck used to carry
+            # per-share history struck on the overstated one
+            hist_npatmi=tuple(self.v(c + '153') for c in 'VWX'),
+            hist_equity=tuple(self.v(c + '85') for c in 'VWX'),
+            hist_eps=tuple(self.v(c + '153') * 1000 / self.shares for c in 'VWX'),
+            hist_bvps=tuple(self.v(c + '85') * 1000 / self.shares for c in 'VWX'),
             # FY25 comparatives.  Provisioning comes off 141, not 254: for the
             # actual year 254 holds only the VAMC and securities leg (4,855),
             # while 141 is the reported charge the forecast years compare with.
             pbt25=self.v('X144'), npatmi25=self.v('X153'),
-            eps25=self.v('X150') * 1000 / SHARES,
+            eps25=self.v('X150') * 1000 / self.shares,
             nii25=self.v('X121'), prov25=self.v('X141'),
         )
 
@@ -195,6 +212,7 @@ class Model(object):
 
 
 _m = Model()
+CHARTER, SHARES = _m.charter, _m.shares
 F = _m.build()
 _bad = _m.check(F)
 if _bad:
@@ -221,5 +239,11 @@ if __name__ == '__main__':
                         ('Total allowance', 'reserve', '{:,.0f}'),
                         ('Coverage %', 'coverage', '{:.1f}')]:
         print(('%-22s' % lab) + ''.join('{:>12}'.format(f.format(v)) for v in F[key]))
-    print('\nFY26F reproduces Excel on 9 lines; FY27F/FY28F are derived '
+    print('\n%-22s%12s%12s%12s' % ('actuals', 'FY23', 'FY24', 'FY25'))
+    for lab, key in [('NPATMI', 'hist_npatmi'), ('Equity', 'hist_equity'),
+                     ('EPS', 'hist_eps'), ('BVPS', 'hist_bvps')]:
+        print(('%-22s' % lab) + ''.join('{:>12,.0f}'.format(v) for v in F[key]))
+    print('\n{:,.4f}mn shares on charter capital of VND{:,.3f}bn at VND{:,.0f} par'
+          .format(F['shares'], F['charter'], PAR))
+    print('FY26F reproduces Excel on 9 lines; FY27F/FY28F are derived '
           '(their caches predate the booked formulas)')

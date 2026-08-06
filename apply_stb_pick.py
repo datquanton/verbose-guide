@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
-"""Push the STB 5.5%-NPL / 40-38-36% CIR cascade into the stock-pick workbook.
+"""Push the current STB cascade into the stock-pick workbook.
 Sheet1 'Stock Pick' row 6 = STB; Sheet2 'Target Price and Forecast' row 13 = STB.
 All strings are inlineStr - this workbook has no sharedStrings part."""
 import zipfile
 from lxml import etree
+import update_stb_loans as U
 
 WB = '/home/user/verbose-guide/Stock_Pick_and_Forecast_Aug26_MAS_RS_EN_updated.xlsx'
 NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
-SHARES = 2060.158
-
-import update_stb_loans as U
-NPATMI_25 = 5939.111
+SHARES = U.SHARES        # 1,885.216mn, on charter capital
+NPATMI_25 = U.F['npatmi25']
 NPATMI_26, NPATMI_27 = U.NPATMI[0], U.NPATMI[1]
 TP = U.TP
 EQ_26, EQ_27 = U.EQUITY[0], U.EQUITY[1]
@@ -29,8 +28,8 @@ C6 = ("- We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% deli
       "NPL recoveries in 2H26 rather than merely slower formation.\n"
       "- We set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.1f}% below the "
       "board-approved plan of VND8,100bn, on CIR of {c26:.1f}% easing to {c27:.1f}% in FY27F "
-      "and {c28:.1f}% in FY28F, with 2H26 costs {h2oy:+.1f}% on the first half. FY27F and FY28F "
-      "each carry VND1,000bn of specific charge above what write-offs consume, taking PBT to "
+      "and {c28:.1f}% in FY28F, with 2H26 costs {h2oy:+.1f}% on the first half. FY27F carries "
+      "VND1,000bn of specific charge above what write-offs consume and FY28F VND2,000bn, taking PBT to "
       "VND{p27:,.0f}bn (+{g27:.0f}%) and VND{p28:,.0f}bn (+{g28:.0f}%).").format(
           pbt=U.PBT[0], yoy=U.PBT_YOY, vp=-U.VS_PLAN, c26=U.CIR[0], c27=U.CIR[1],
           c28=U.CIR[2], h2oy=(U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100,
