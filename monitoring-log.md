@@ -83,6 +83,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **19:53 ICT · HPG (lane 2) — the last open cell in the rebar case closes: Hoa Phat is the LOW end, 128.53%.
+  And the answer is that the question did not matter.**
+  **WHAT WAS OPEN.** `us_rebar_ad_final_range_pct` has held **[128.53, 136.57]** since 30-Jul with the file's
+  own note: *"SO THE FINALS CAME IN ABOUT 6.6pp HIGHER AT BOTH ENDS. WHICH END IS HOA PHAT IS NOT CONFIRMED,
+  AND I AM NOT ASSERTING IT."* **The range was known; the assignment was not.** `federalregister.gov` and
+  `trade.gov` both return proxy 403 from here, and both did again this hour.
+  **WHAT CLOSED IT.** Trade press reporting the determination: **the Hoa Phat group companies carry the final
+  weighted-average dumping margin of 128.53%; the Vietnam-wide entity carries 136.57%.**
+  **IT RECONCILES TO THE STRUCTURE ALREADY ON FILE, WHICH IS THE REASON TO BELIEVE IT.** The preliminary had
+  Hoa Phat at **121.97%** as sole mandatory respondent against **130.77%** all-others — a **8.80pp** gap.
+  The final preserves the ordering and nearly the gap: **8.04pp**. Hoa Phat rose **+6.56pp**, all-others
+  **+5.80pp**. And the export-subsidy offset implied by the cash-deposit range is **5.04pp at BOTH ends**
+  (128.53 − 123.49 = 136.57 − 131.53), which is the internal check: **HPG's cash deposit rate is 123.49%.**
+  **⚠ AND THE FINDING IS THAT IT CHANGES NOTHING — WHICH IS WORTH SAYING PLAINLY RATHER THAN DRESSING UP.**
+  This file has tracked *which* rate applies to HPG since 29-Jul across three separate entries, on the implicit
+  premise that the distinction mattered. **At 128.53% versus 136.57%, both rates are prohibitive. Being 8.04pp
+  better than an exporter who is also shut out of the market is worth nothing.** The only outcome that would
+  have mattered is a rate low enough to keep shipping, and neither end is that. **The relative-advantage read —
+  "HPG got the better rate because it participated" — is true and economically void.**
+  **NO MODEL EFFECT, AND THE FILE ALREADY SAID SO.** Rebar into the US is **~3% of HPG revenue** and the brief
+  carries it as *"headline risk only… a Layer-4 flag, not a model input."* Nothing modelled.
+  **CONFIDENCE UNMOVED (§2):** this is trade press reporting a Federal Register determination, **not the
+  determination** — the same tier that has governed every rebar entry in this case. **Forecast #10 was already
+  scored HIT on 29-Jul and is not re-scored;** what closed today is a sub-question, not the forecast.
+  **NO ESCALATION TRIGGER FIRES.** Neither HPG criterion is touched (core NPAT/tonne, DQ2 ramp), no cap moves,
+  no E[r] change, and resolving *which respondent* does not change evidence **tier**.
+  *Other lanes, nothing material: TCB/VPB corporate actions returned only the May–June cash dividends already on
+  file (TCB ₫700 paid 10-Jun, VPB ₫500 paid 25-May). Steel inputs returned only June vintages on a different
+  basis — 62% Fe ~$104/t and coal ~$240/t against the file's 61% Fe 93.66 and the $228 FOB index — **not used**,
+  being the exact grade and index-vs-transaction traps withdrawn on 09:53 and 11:53. **US initial claims released
+  12:30 UTC are not yet indexed** (24 minutes at the time of search, against this file's measured >54min
+  bracket); the 20:53 sweep scores the 05-Aug pre-registration.*
+
 - **⚠⚠ 19:40 ICT · MBB (lane 3, OWNER INPUT) — the owner supplied the actual analyst-meeting question list for
   1H26, and it does three things: it confirms item 26 from outside, it hands over a number the file never had
   that RECONCILES EXACTLY to the file's own inputs, and it contains a sharper question than the one I drafted.**
