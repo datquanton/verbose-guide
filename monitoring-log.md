@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **13:53 ICT · PEER BANKS (lane 6) — the sector cross-section arrives, and it names the one number item 26 is
+  missing.**
+  *(Deliberately left the commodity lane. **Two self-inflicted basis errors in three hours is a reason to change
+  lane, not to try a third time.**)*
+  **THE CROSS-SECTION, H1/2026.** **Vietcombank:** NPL **₫10,737bn = 0.61%** of loans, the lowest in the
+  industry; **coverage 279%**; **provisioning down 38% to ₫502.6bn**; H1 PBT ₫24,013bn, a record; **and Group 4
+  doubtful debt up 451%.** **ACB** NPL ₫7,657bn = **1.03%**. **VietinBank** ₫25,079bn = **1.2%**, coverage
+  **>253%**. And the structural datum: **only five banks in the system still hold NPL coverage above 100%**,
+  with buffers thinning through Q1.
+  **PUT AGAINST THIS BOOK, THE DISPERSION IS ENORMOUS AND THE FILE HAS NEVER SEEN IT.** **Provisioning intensity
+  of PPOP: VCB 2.05% · TCB 8.0% · MBB 27.6% · VPB 45.2%.** **Provisions as a share of H1 PBT: VCB 2.09% · TCB
+  8.64% · MBB 38.15% · VPB 82.52%.** **NPL ratio: VCB 0.61 · ACB 1.03 · TCB 1.15 · CTG 1.20 · MBB 1.45 · VPB
+  3.28.** **VPB's PBT is far more exposed to a provisioning decision than any peer's — 82.5% of PBT against
+  VCB's 2.1% — and its NPL ratio is 5.4× VCB's and 2.7× CTG's.** **And TCB at 8.0% sits much closer to VCB's
+  near-zero than to its private-bank peers.**
+  **WHICH NAMES THE ONE NUMBER ITEM 26 IS MISSING, AND IT DECIDES THE WHOLE ARGUMENT.** **Low provisioning
+  intensity means two opposite things depending on coverage.** VCB provisions at 2.05% and **that is defensible,
+  because it is already reserved at 279% of NPLs** — a bank that over-reserved can stop without being imprudent.
+  **TCB provisions at 8.0%, the lowest of the three private banks and the one item 26 flags hardest — and this
+  file has no NPL coverage figure for TCB at all. Nor for VPB.** **Intensity alone cannot distinguish
+  "over-reserved so it can stop" from "under-reserved and stopping anyway." Coverage is the discriminator and it
+  is absent for 45.0% of the book. Named as the next gap.**
+  **IT ALSO REFRAMES ITEM 26'S SECTOR CLAIM WITHOUT REFUTING IT.** That item reads *"the whole sector is
+  under-providing into rising NPLs"* on a system LLR coverage of 79.78%. **The 79.78% is an average over a
+  bimodal distribution: state banks at 253–279%, and only five of ~27 banks above 100%.** **So the claim is true
+  of the average and conceals a split — and this book's banks are on the thin side of it.** MBB's 93.63%, the
+  only coverage figure on file for the three, is **below 100% and therefore not among the five.**
+  **AND VCB IS THE MOST EXTREME INSTANCE OF THE PATTERN THE STANDING INSTRUCTION ASKS ABOUT — cutting both
+  ways.** **Group 4 doubtful up 451% while provisioning fell 38%.** Against the file's existing set — TCB Group
+  2 +46%, MBB NPL balance +27%, VPB Group 4 +44.5% — **that is an order of magnitude larger.** **But a 451% rise
+  on a base that leaves the NPL ratio at 0.61%, at a bank reserved to 279%, is not distress. The level is benign
+  and the change is dramatic, and both are true.** **What the five together do say: five banks, five
+  deteriorating credit pipelines, every one with falling or flat provisioning — now a sector observation with
+  five named instances rather than three.**
+  **NOTHING MODELLED.** Branch reconstruction is item 26 and human-only under §4.
+
 - **12:53 ICT · STEEL (lane 5) — ⚠ WITHDRAWAL of my own 11:53 entry. Coking coal is down for the EIGHTH
   consecutive week; the index is US$228 — exactly what the file holds. I had the direction backwards.**
   *(Vietnam lunch break.)*
