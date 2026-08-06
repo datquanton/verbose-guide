@@ -83,6 +83,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **21:53 ICT · TCX · VPX · VCI (lane 6) — a tracked quantity the file has never held, backfilled. The two
+  bank-affiliated brokers in this book are the two biggest share gainers in Vietnam — and that makes the
+  concentration problem WORSE, not better.**
+  **⚠ VINTAGE, STATED FIRST: THIS IS NOT NEW.** The source is dated **06–07 July 2026**, a month before the
+  newest log entry. **It is a backfill, not a development**, and it is recorded on the same ground as the 05-Aug
+  structure sweep: dated, disclosed once, permanently true, and run past by twelve days of news-shaped lanes.
+  The file tracks the **margin** league (TCBS 51,500 / SSI 40,500 / VPBankS 38,200 / VPS 31,300 / HSC 29,000)
+  and has **no HOSE brokerage market-share figure at all** — on three holdings and one armed kill criterion.
+  **THE Q2/2026 HOSE TABLE.** VPS **12.61%** (a 22-quarter low, still #1) · SSI **11.17%** · **TCBS 9.36%** ·
+  **Vietcap 7.00%** · HSC 6.80% · MBS 4.79% · VNDirect 3.96% · **VPBankS 3.57%** · KIS 2.99% · Mirae 2.94%.
+  **INTERNAL CHECK BEFORE USE: the ten sum to 65.19% against a separately-reported ">65% for the top ten." Passes.**
+  **THE MOVES, AND THE BOOK OWNS BOTH WINNERS.** **VPBankS 2.94 → 3.57 = +0.63pp, the largest gain in the table
+  and a record for the company. TCBS 8.85 → 9.36 = +0.51pp, second-largest and an all-time high.** Against
+  **VNDirect −0.82pp** to a multi-year low and **VPS at its lowest in 22 quarters**. SSI flat at +0.03pp.
+  **THE STRUCTURAL READ: the bank-affiliated brokers are taking share from the independents.** TCBS (Techcombank
+  94.17%) and VPBankS (VPBank) both at records in the same quarter; the two large independents both at lows.
+  **⚠⚠ AND THIS CUTS AGAINST ITEM 8 RATHER THAN FOR IT.** Item 8 carries brokerage at **31.53%** of the book
+  with the optimizer proposing **+5.1pp more TCX**, taking the cluster to **~36% against a 20% cap**. The
+  instinct on reading that both names are winning is that the cluster is higher quality than the cap assumes.
+  **That instinct is backwards. They are gaining share for the SAME REASON — bank distribution — which is
+  evidence they are MORE correlated, not less.** A concentration cap prices correlation, not quality; two names
+  that win together are two names that lose together. **The finding strengthens the cap's case and weakens the
+  add's.**
+  **⚠ AND IT DOES NOT TEST VCI'S KILL CRITERION — WRONG QUANTITY.** VCI's armed test is *"no market-share gain
+  in **foreign** brokerage through the FTSE event."* **This table is TOTAL HOSE market share.** Different
+  measure, and **Vietcap at 7.00% does not contradict the file's ">28% institutional share"** — HOSE turnover
+  is retail-dominated, so a broker strong in institutions carries a low total share. **Both figures stand; they
+  measure different books.** Same species as the MBV criterion measuring a P&L line when the cost is ROE, and
+  the coal index-vs-transaction trap. **The criterion remains untested, not passed.**
+  **⚠ VCI'S DIRECTION IS NOT ESTABLISHED AND IS NOT INFERRED.** The source headline names *"four large brokers
+  declining consecutively"* without listing them, and identifies only VNDirect as the largest faller.
+  **VCI's Q1/2026 HOSE share is not held here, so whether its 7.00% is a rise or a fall is unknown.** Per the
+  item-35 rule, the field that retires this: **VCI's Q1/2026 HOSE brokerage market share.** It matters — VCI
+  runs a +41% plan and is already at **9M PBT < 55% of target** on its own armed criterion.
+  **THE SCALE FIGURE WORTH KEEPING: this book's three brokers are 19.93% of HOSE turnover** (TCX 9.36 + VCI 7.00
+  + VPX 3.57), of which **12.93pp is the two bank-affiliated names.**
+  **Nothing modelled. No confidence moves** — a month-old T5 trade-press table is not a tier upgrade, and market
+  share is not an input to any branch. **No escalation trigger fires.** New item 41.
+
 - **20:53 ICT · MACRO (lane 1) — the pre-registration is scored and it is a MISS. The larger error is that I
   chose a test that could not have settled the question, and I did not say so in advance.**
   **THE PRINT.** US initial jobless claims, week ending **01-Aug: 199,000**, against consensus **~202,000**.
