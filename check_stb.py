@@ -30,10 +30,14 @@ def check(n, c, d=''):
 # -------------------------------------------------- the slide vs the workbook
 _drift = fix_stb_model.verify()
 check('every booked formula still in FinModel_STB_2Q26.xlsx', not _drift,
-      '; '.join(_drift) or '28 assumptions')
-check('the derivation reproduces Excel on all FY26F control lines',
-      not model_read._m.check(model_read.F), 'opex, TOI, provisioning, PBT, '
-      'NPATMI, equity, assets, allowance, loans')
+      '; '.join(_drift) or '%d assumptions' % (
+          len(fix_stb_model.MODEL_FORMULAS) + len(fix_stb_model.MODEL_VALUES)
+          + len(fix_stb_model.NPL_FORMULAS) + len(fix_stb_model.NPL_VALUES)
+          + len(fix_stb_model.VALUATION_FORMULAS)
+          + len(fix_stb_model.VALUATION_VALUES)))
+check('the engine replays Excel on its own drivers',
+      not model_read._m.check(), 'loans, opex, NII, TOI, provisioning, '
+      'PBT, NPATMI, allowance')
 check('shares struck on charter capital, not paid-in capital',
       abs(U.SHARES - 1885.2157) < 0.001,
       "'Balance sheet'!Y80 18,852.157 / 10,000 par - NOT Y79 20,601.582")
@@ -48,9 +52,14 @@ check('the slide reads the model, nothing is transcribed',
       and U.PROV is model_read.F['prov'])
 
 # ------------------------------------------------------ the model's own P&L
-check('FY26F loan growth cut to the 1H26 run-rate',
-      abs(U.LOANS26 / 626392.336 - 1 - 0.023) < 0.002,
-      '+%.1f%% vs +1.5%% delivered in 1H26' % (U.LOANS26 / 626392.336 * 100 - 100))
+check('FY26F loan growth set to 8% on the reported FY25 book',
+      abs(U.LOANS26 / U.F['loans25'] - 1.08) < 0.0005,
+      '+%.2f%% on 626,392' % (U.LOANS26 / U.F['loans25'] * 100 - 100))
+check('the 8% needs a big second half - stated, not buried',
+      U.H2_LOANS > 6.0, '2H26 must add +%.1f%% after +1.5%% in 1H26' % U.H2_LOANS)
+check('rows 23-28 follow the segment build, so Model!205 still ties',
+      all(fix_stb_model.MODEL_FORMULAS['%s%d' % (c_, r)] == '%s%d' % (c_, r + 492)
+          for c_ in ('Y', 'Z', 'AA') for r in range(23, 29)))
 check('PBT = TOI - opex - provisioning, all three years',
       all(abs(U.TOI[i] - U.OPEX[i] - U.PROV[i] - U.PBT[i]) < 1 for i in range(3)))
 check('NPATMI = PBT x (1 - 22.14% tax)',
@@ -60,11 +69,11 @@ check('equity rolls forward on retained NPATMI',
       and abs(U.EQUITY[2] - U.EQUITY[1] - U.NPATMI[2]) < 1.5)
 check('TOI = NII + non-interest income',
       all(abs(U.NII[i] + U.NONII[i] - U.TOI[i]) < 1 for i in range(3)))
-check('FY26F NPL 5.8% of the smaller loan book',
+check('FY26F NPL 5.8% of the loan book',
       abs(U.NPL26 / U.LOANS26 - 0.058) < 0.0002, '%.2f%%' % (U.NPL26 / U.LOANS26 * 100))
 check('implied 2H26 NPL formation is positive, not a net recovery',
       U.NPL26 - (47957 - U.WO26) > 0, '%+.0f' % (U.NPL26 - (47957 - U.WO26)))
-check('FY26F PBT from the model', abs(U.PBT[0] - 7461) < 1,
+check('FY26F PBT from the model', abs(U.PBT[0] - 7573) < 1,
       '%.0f = plan %.1f%%, %+.1f%% YoY' % (U.PBT[0], U.VS_PLAN, U.PBT_YOY))
 check('FY26F CIR near the 42% target', abs(U.CIR[0] - 42) < 0.2, '%.1f%%' % U.CIR[0])
 check('CIR declines year on year, as instructed',
@@ -73,18 +82,24 @@ check('CIR declines year on year, as instructed',
 for i, tgt in ((1, 40.), (2, 38.)):
     check('FY%dF CIR = %.0f%%' % (2026 + i, tgt), abs(U.CIR[i] - tgt) < 0.05,
           '%.2f%%' % U.CIR[i])
-check('2H26 opex now ABOVE 1H26 - no cost cut assumed',
+check('2H26 opex above 1H26 - the bigger book costs something',
       U.OPEX[0] - U.H1_OPEX > U.H1_OPEX, '%.0f vs 6,233 (%+.1f%%)'
       % (U.OPEX[0] - U.H1_OPEX, (U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100))
-check('FY27F NII growth below the 15% target', U.NII[1] / U.NII[0] < 1.15,
-      '%+.1f%% - the model returned this, not 15%%' % (U.NII[1] / U.NII[0] * 100 - 100))
-check('FY27F NII no longer falls while loans grow', U.NII[1] > U.NII[0])
-check('FY28F PBT growth above the 50% target', U.PBT[2] / U.PBT[1] > 1.50,
-      '%+.1f%% - reported, not re-solved' % (U.PBT[2] / U.PBT[1] * 100 - 100))
+check('FY27F NII growth is a model output, not a target',
+      U.NII[1] > U.NII[0],
+      '%+.1f%% - was +9.9%% on the 2.3%% book' % (U.NII[1] / U.NII[0] * 100 - 100))
+check('FY26F NII still falls YoY despite the bigger book',
+      U.NII[0] < U.NII25, '%+.1f%% - NIM, not volume, is the drag' % U.NII_YOY)
+check('PBT growth lands near the 50% the analyst set, both years',
+      all(abs(U.PBT[i + 1] / U.PBT[i] * 100 - 100 - 50) < 2 for i in (0, 1)),
+      '%+.1f%% then %+.1f%%' % (U.PBT[1] / U.PBT[0] * 100 - 100,
+                                U.PBT[2] / U.PBT[1] * 100 - 100))
 check('FY27F carries a 1,000 provisioning overlay, FY28F 2,000',
-      abs(U.PROV[1] - 9635.5524418309324 - 1000) < 0.5
-      and abs(U.PROV[2] - 6982.2147525724604 - 2000) < 0.5,
-      '%.0f and %.0f, from 9,636 and 6,982' % (U.PROV[1], U.PROV[2]))
+      abs(U.F['specific'][1] - U.F['writeoff'][1] - 1000) < 0.5
+      and abs(U.F['specific'][2] - U.F['writeoff'][2] - 2000) < 0.5,
+      'specific charge over write-offs: %.0f and %.0f'
+      % (U.F['specific'][1] - U.F['writeoff'][1],
+         U.F['specific'][2] - U.F['writeoff'][2]))
 check('the overlay is charge, not write-off: provisioning exceeds write-offs',
       U.PROV[1] > 8637.3 and U.PROV[2] > 5779.0,
       'reserve stock builds by 1,000 in FY27F and 3,000 by FY28F')
@@ -93,17 +108,9 @@ check('the overlay is charge, not write-off: provisioning exceeds write-offs',
 check('provisioning peaks in FY27F, then falls in FY28F',
       U.PROV[1] > U.PROV[0] > U.PROV[2],
       '%.0f / %.0f / %.0f' % U.PROV)
-check('FY28F PBT down 1,000 on the second tranche', abs(U.PBT[2] - 15270.6) < 1,
-      '%.0f, +%.1f%% on FY27F' % (U.PBT[2], U.PBT[2] / U.PBT[1] * 100 - 100))
-check('FY28F PBT growth back near the 50% the analyst set',
-      abs(U.PBT[2] / U.PBT[1] * 100 - 100 - 50) < 6,
-      '%+.1f%% - was +64.8%% before the second tranche' % (U.PBT[2] / U.PBT[1] * 100 - 100))
 # coverage is the price of the overlay - flagged as G22, not asserted away
-COV = [r / (n * l) * 100 for r, n, l in
-       zip((18925.5, 20524.5, 23305.4), (.058, .040, .027),
-           (640643.1, 719776.9, 825564.9))]
 check('NPL coverage above 100% by FY28F - the cost of the overlay',
-      COV[2] > 100, '%.0f / %.0f / %.0f%%' % tuple(COV))
+      U.F['coverage'][2] > 100, '%.1f / %.1f / %.1f%%' % U.F['coverage'])
 check('target price 75,000', abs(U.TP - 75000) < 1)
 
 # ---------------------------------------------- the Valuation sheet, closing G15
@@ -115,15 +122,17 @@ check('P/B leg valued on FY28F, the year the case rests on',
       abs(_V['roe'] * 100 - U.ROE[2]) < 0.01 and abs(_V['bps'] - U.BVPS[2]) < 1,
       'ROE %.2f%% x BPS %s -> %s' % (_V['roe'] * 100, '{:,.0f}'.format(_V['bps']),
                                      '{:,.0f}'.format(_V['pb_leg'])))
-check('cost of equity on beta 1.02, the back-solve to VND75,000',
-      abs(_V['beta'] - 1.02) < 1e-9 and abs(_V['coe'] - 0.09655) < 1e-5,
-      'CoE %.3f%% - beta was 1.05, giving 73,200' % (_V['coe'] * 100))
+check('cost of equity on beta 1.222, the back-solve to VND75,000',
+      abs(_V['beta'] - 1.222) < 1e-9,
+      'CoE %.3f%% - on the 8%% book, beta 1.02 would give 86,900'
+      % (_V['coe'] * 100))
 check('residual-income dates roll past today, no #NUM! on recalculation',
       all(t > 0 for t in _V['years']),
       '%.2f / %.2f / %.2f yrs out' % tuple(_V['years']))
 check('sheet upside = the rating box on the slide',
       abs(_V['upside'] * 100 - 1.2) < 0.06, '%+.1f%%' % (_V['upside'] * 100))
-check('coverage near 50%', abs(U.COV26 - 51) < 1, '%.1f%%' % U.COV26)
+check('FY26F coverage gives back ground as the denominator grows',
+      abs(U.COV26 - 48.6) < 0.3, '%.1f%%, was 50.9%% on the 2.3%% book' % U.COV26)
 
 # ------------------------------------------------------------------- deck
 prs = Presentation(DECK)
@@ -186,11 +195,13 @@ for s, t in [('5.8%', 'FY26F NPL'), ('4.0%', 'FY27F NPL'), ('%.1ftn' % (U.WO26 /
              ('27.2tn', 'end-2Q26 reserves'), ('56.7%', '2Q26 coverage'),
              ('%.1f%%' % U.COV26, 'FY26F coverage'), ('%.1f%%' % U.CIR[0], 'FY26F CIR'),
              ('%.1f%%' % U.CIR[1], 'FY27F CIR'), ('%.1f%%' % U.CIR[2], 'FY28F CIR'),
-             ('2.3%', 'FY26F loan growth'), ('11.7%', 'the old loan growth'),
+             ('2.3%', 'the loan growth we replaced'),
              ('{:,.0f}'.format(U.PBT[0]), 'FY26F PBT'), ('8,100', 'the board plan'),
+             ('7.54%', 'the 2Q26 NPL ratio'),
              ('{:,.0f}'.format(U.H2_PBT), '2H26 PBT'),
              ('{:,.0f}'.format(U.LOANS26), 'FY26F gross loans'),
-             ('{:,.0f}'.format(U.NII[0]), 'FY26F NII'), ('1.5%', '1H26 loan growth')]:
+             ('{:,.0f}'.format(U.NII[0]), 'FY26F NII'), ('1.5%', '1H26 loan growth'),
+             ('8.0%', 'FY26F loan growth')]:
     check('narrative states %s (%s)' % (s, t), s in en_txt)
 for old in ['5.9%', '8.9tn', '21.6tn', '45%', '3,798', '42.7%', '10.9tn', '39.9%', '8,716',
             'VND18tn', '8,683', '4,547', '27,010', '3,964', '51.1%', '8,507', '4,371',
@@ -230,8 +241,9 @@ check('workbook NPATMI = deck', ws['F6'].value == npat[0] and ws['G6'].value == 
 check('workbook P/E, P/B = deck',
       abs(ws['J6'].value - pe[0]) < 0.051 and abs(ws['L6'].value - pb[0]) < 0.051)
 check('TP sheet = deck', tps['D13'].value == npat[0] and tps['E13'].value == npat[1])
-check('workbook narrative carries the model CIR and PBT',
-      all(t in ws['C6'].value for t in ('5.5%', '{:,.0f}'.format(U.PBT[0]), '8,100')))
+check('workbook narrative carries the model loan growth, NPL and PBT',
+      all(t in ws['C6'].value for t in ('8.0%', '5.8%',
+                                        '{:,.0f}'.format(U.PBT[0]), '8,100')))
 check('workbook narrative free of the 5.9% / 45% coverage version',
       '5.9%' not in ws['C6'].value and '45% coverage' not in ws['C6'].value)
 

@@ -44,9 +44,22 @@ NPL_FORMULAS = {'DG%d' % r: "'Notes(Quarter)'!BX%d" % (75 + r) for r in range(6,
 MODEL_VALUES = {'X284': 16078.433, 'Y287': -0.0171}
 MODEL_FORMULAS = {'Y278': '-Y279*0.8653',
                   'Z278': '-Z279+1000', 'AA278': '-AA279+2000',
-                  'Y132': 'X132*0.9647', 'Y134': 'X134*0.9647',
-                  'Z132': 'Y132*1.0279', 'Z134': 'Y134*1.0279',
-                  'AA132': 'Z132*1.0829', 'AA134': 'Z134*1.0829'}
+                  'Y132': 'X132*1.0296', 'Y134': 'X134*1.0296',
+                  'Z132': 'Y132*1.0923', 'Z134': 'Y134*1.0923',
+                  'AA132': 'Z132*1.0773', 'AA134': 'Z134*1.0773'}
+# FY26F loan growth of 8%, on the reported FY25 book.  Rows 515-520 hold the
+# loan book by segment and are rolled forward from FY24, so the FY25 column has
+# drifted: it sums to VND593,591bn (X521) against a reported VND626,392bn
+# (X450), 5.2% short.  That gap is why the model's stated 7.9% FY26F segment
+# growth only ever delivered 2.3% on the reported book.  Each FY26F segment is
+# rebased to the reported book before growing, so the 1.08 in the formula is the
+# growth the deck shows.  FY27F and FY28F keep their own rates, rows 533-538.
+MODEL_FORMULAS.update(
+    {'Y%d' % r: 'X%d*$X$450/$X$521*1.08' % r for r in range(515, 521)})
+# rows 23-28 were pasted values of the segment build, so the balance sheet would
+# not have followed - and Model!205, which checks 204 against 20, would break
+MODEL_FORMULAS.update({'%s%d' % (c, r): '%s%d' % (c, r + 492)
+                       for c in ('Y', 'Z', 'AA') for r in range(23, 29)})
 # Share count off charter capital, not paid-in capital.  Row 934 divides row 87
 # (Vốn của TCTD, VND20,601.582bn) by par, which counts VND1,747.651bn of share
 # premium as stock and overstates the count 9.3%.  Charter capital is
@@ -65,12 +78,16 @@ MODEL_FORMULAS.update(
 #     an 11.0% ROE; the deck's case is that the recovery lands in FY28F, and the
 #     valuation year should be the same one the case rests on.  That needs a K
 #     column, which the sheet does not have - it is created here.
-#   * beta 1.05 -> 1.02, which is what takes the blend to exactly VND75,000.
-#     This is back-solved to the target price the analyst set, not derived.
+#   * beta 1.05 -> 1.222, which is what takes the blend to exactly VND75,000.
+#     This is back-solved to the target price the analyst set, not derived.  It
+#     was 1.02 before the loan book went to 8% growth; on the bigger book the
+#     model supports VND86,900 at beta 1.02, so the beta that justifies the
+#     VND75,000 target rises rather than falls.  A 1.22 beta for a bank still
+#     working through a restructuring is easier to defend than 1.02 was.
 #   * the residual-income date row is rolled forward a year.  It still held
 #     2025 and 2026 year-ends, so DATEDIF(TODAY(), ...) would return #NUM! on
 #     the next recalculation and take the whole RI leg with it.
-VALUATION_VALUES = {'B11': 1.02, 'J47': 46387, 'K47': 46752, 'L47': 47118}
+VALUATION_VALUES = {'B11': 1.222, 'J47': 46387, 'K47': 46752, 'L47': 47118}
 VALUATION_FORMULAS = {'B1': 'D74',            # was J16, the P/B leg alone
                       'B71': 'K16',           # P/B leg now on FY28F
                       'K5': 'L51', 'K6': 'Model!AA314', 'K15': 'Model!AA941',

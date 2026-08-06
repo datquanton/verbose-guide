@@ -16,24 +16,29 @@ EQ_26, EQ_27 = U.EQUITY[0], U.EQUITY[1]
 eps = lambda n: n * 1000 / SHARES
 bvps = lambda e: e * 1000 / SHARES
 
-C6 = ("- We cut FY26F loan growth to 2.3% from 11.7%, in line with the 1.5% delivered in 1H26. "
-      "NII falls to VND24,531bn (-8.1% YoY), then recovers 9.9% in FY27F as NIM turns.\n"
+C6 = ("- We take FY26F loan growth to {lg:.1f}% from the 2.3% carried before; 1H26 delivered 1.5%, "
+      "so the second half has to add {h2l:.1f}%. NII VND{nii:,.0f}bn ({niy:+.1f}% YoY), then "
+      "+{n27:.1f}% in FY27F as NIM turns.\n"
       "- NIM troughs in FY26F as elevated NPLs freeze accrued interest income while funding costs "
       "remain sticky, before recovering in FY27F.\n"
-      "- We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. Reserves reached "
+      "- We set FY26F NPL at 5.8%, from below 4.5%, and FY27F at 4.0% from 3.1%. On the bigger book "
+      "that is VND{npl:,.0f}bn, so the ratio improves through write-offs and the denominator, not cures. "
+      "Reserves reached "
       "VND27.2tn at end-2Q26 (56.7% coverage) on VND7.1tn of 1H26 charges and almost no "
       "write-offs; a further VND{h2:.1f}tn charge in 2H26 funds VND{wo:.1f}tn of write-offs, or "
-      "34% of the Group 5 balance, leaving coverage at {cov:.1f}%. Holding coverage near 50% is "
-      "what caps the improvement at 5.8%: on the smaller loan book, 5.5% would have required net "
-      "NPL recoveries in 2H26 rather than merely slower formation.\n"
+      "{wos:.0f}% of the Group 5 balance, leaving coverage at {cov:.1f}% - down from 50.9% on the "
+      "2.3% book, the reserve being sized to fund write-offs while the denominator grows.\n"
       "- We set FY26F PBT at VND{pbt:,.0f}bn ({yoy:+.1f}% YoY), {vp:.1f}% below the "
       "board-approved plan of VND8,100bn, on CIR of {c26:.1f}% easing to {c27:.1f}% in FY27F "
-      "and {c28:.1f}% in FY28F, with 2H26 costs {h2oy:+.1f}% on the first half. FY27F carries "
+      "and {c28:.1f}% in FY28F, held on the bigger revenue base so 2H26 costs run {h2oy:+.1f}% on "
+      "the first half. FY27F carries "
       "VND1,000bn of specific charge above what write-offs consume and FY28F VND2,000bn, taking PBT to "
       "VND{p27:,.0f}bn (+{g27:.0f}%) and VND{p28:,.0f}bn (+{g28:.0f}%).").format(
           pbt=U.PBT[0], yoy=U.PBT_YOY, vp=-U.VS_PLAN, c26=U.CIR[0], c27=U.CIR[1],
           c28=U.CIR[2], h2oy=(U.OPEX[0] - U.H1_OPEX) / U.H1_OPEX * 100 - 100,
           h2=U.H2_PROV / 1000, wo=U.WO26 / 1000, cov=U.COV26,
+          lg=U.LOAN_GROWTH, h2l=U.H2_LOANS, wos=U.WO_SHARE, npl=U.NPL26,
+          nii=U.NII[0], niy=U.NII_YOY, n27=U.NII[1] / U.NII[0] * 100 - 100,
           p27=U.PBT[1], g27=U.PBT[1] / U.PBT[0] * 100 - 100,
           p28=U.PBT[2], g28=U.PBT[2] / U.PBT[1] * 100 - 100)
 

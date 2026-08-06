@@ -125,6 +125,29 @@ class Model(object):
             return wo + float(add.group(2))
         raise ValueError('%s = %r is neither a multiplier nor an overlay' % (ref, txt))
 
+    # ----------------------------------------------------------------- loans
+    def loan_book(self):
+        """Gross loans, from the segment build in rows 515-520.
+
+        The FY25 segment balances are themselves rolled forward from FY24, and
+        they have drifted: they sum to VND593,591bn against a reported book of
+        VND626,392bn (Model!X450, from Note!T79), 5.2% short.  That is why the
+        model's stated FY26F segment growth of 7.9% only ever produced 2.3% on
+        the reported book.  Y515:Y520 now rebase to the reported book before
+        growing, so the growth rate in the formula is the growth the deck shows.
+        FY27F and FY28F keep their own segment growth rates, rows 533-538.
+        """
+        rows = (515, 516, 517, 518, 519, 520)
+        growth_row = {515: 533, 516: 534, 517: 535, 518: 536, 519: 538, 520: 537}
+        g26 = float(re.match(r'^X\d+\*\$X\$450/\$X\$521\*([\d.]+)$',
+                             self.f('Y515')).group(1))
+        rebase = self.v('X450') / self.v('X521')
+        seg = [[self.v('X%d' % r) * rebase * g26 for r in rows]]
+        for col in COLS[1:]:
+            seg.append([s * (1 + self.v('%s%d' % (col, growth_row[r])))
+                        for r, s in zip(rows, seg[-1])])
+        return [sum(s) for s in seg], g26
+
     # -------------------------------------------------------------- forecast
     def build(self):
         # operating expense: 132 and 134 chain off FY25, 133 stands on its cache
@@ -136,15 +159,40 @@ class Model(object):
                 acc.append(base * factor)
         opex = [s + o + self.v(c + '133') for s, o, c in zip(sal, oth, COLS)]
 
-        nii = [self.v(c + '121') for c in COLS]
+        loans, growth26 = self.loan_book()
+        npl_rate = [sum(self.npl['%s%d' % (c, r)][1] for r in (28, 29, 30))
+                    for c in ('N', 'O', 'P')]
+        perf_rate = [sum(self.npl['%s%d' % (c, r)][1] for r in (26, 27, 28, 29))
+                     for c in ('N', 'O', 'P')]          # groups 1-4, the 0.7% base
+
+        wo = [-self.v(c + '287') * l for c, l in zip(COLS, loans)]     # row 279
+        spec = [self.charge(c + '278', w) for c, w in zip(COLS, wo)]
+        gen_bal = [0.007 * l * p for l, p in zip(loans, perf_rate)]    # row 274
+        gen = [b - a for a, b in zip([self.v('X274')] + gen_bal, gen_bal)]
+        vamc = [self.v(c + '247') for c in COLS]         # VAMC and securities leg
+        prov = [s + g + v for s, g, v in zip(spec, gen, vamc)]
+
+        # specific allowance roll-forward, then the general allowance on top
+        spec_bal, opening = [], self.v('Y277')
+        for i in range(3):
+            opening = opening + spec[i] - wo[i] + self.v(COLS[i] + '280')
+            spec_bal.append(opening)
+        reserve = [b + g for b, g in zip(spec_bal, gen_bal)]
+
+        # Loan interest income, row 681: the average of this year's and last
+        # year's (net loans + Group 1) at the loan yield, row 699.  It is the
+        # only line the loan book moves, so the rest of row 686 and the whole of
+        # interest expense come off their caches as a delta.
+        grp1 = [l * self.npl[c + '26'][1] for l, c in zip(loans, 'NOP')]
+        net = [l - r for l, r in zip(loans, reserve)]
+        prev = (self.v('X198'), self.v('X691'))
+        int_inc, nii = [], []
+        for i, c in enumerate(COLS):
+            int_inc.append(((net[i] + grp1[i]) + sum(prev)) / 2 * self.v(c + '699'))
+            prev = (grp1[i], net[i])
+            nii.append(self.v(c + '121') + int_inc[i] - self.v(c + '681'))
         nonii = [self.v(c + '124') + self.v(c + '131') for c in COLS]
         toi = [a + b for a, b in zip(nii, nonii)]
-
-        wo = [-self.v(c + '279') for c in COLS]          # write-offs, positive
-        spec = [self.charge(c + '278', w) for c, w in zip(COLS, wo)]
-        gen = [self.v(c + '248') for c in COLS]          # general allowance movement
-        vamc = [self.v(c + '247') for c in COLS]
-        prov = [s + g + v for s, g, v in zip(spec, gen, vamc)]
 
         pbt = [t - o - p for t, o, p in zip(toi, opex, prov)]
         tax = 1 + self.v('Y149')                         # 149 is stored negative
@@ -158,16 +206,6 @@ class Model(object):
         assets = [self.v(c + '61') + (e - self.v(c + '85'))
                   for c, e in zip(COLS, equity)]
 
-        # specific allowance roll-forward, then the general allowance on top
-        spec_bal, opening = [], self.v('Y277')
-        for i in range(3):
-            opening = opening + spec[i] - wo[i] + self.v(COLS[i] + '280')
-            spec_bal.append(opening)
-        reserve = [b + self.v(c + '274') for b, c in zip(spec_bal, COLS)]
-
-        loans = [self.v(c + '204') for c in COLS]
-        npl_rate = [sum(self.npl['%s%d' % (c, r)][1] for r in (28, 29, 30))
-                    for c in ('N', 'O', 'P')]
         npl = [r * l for r, l in zip(npl_rate, loans)]
 
         avg_eq = [equity[0]] + [(equity[i - 1] + equity[i]) / 2 for i in (1, 2)]
@@ -177,7 +215,8 @@ class Model(object):
             pbt=tuple(pbt), npatmi=tuple(npat),
             equity=tuple(equity), assets=tuple(assets),
             reserve=tuple(reserve), loans=tuple(loans), npl=tuple(npl),
-            npl_rate=tuple(npl_rate),
+            npl_rate=tuple(npl_rate), loan_growth=growth26 - 1,
+            loans25=self.v('X450'),
             cir=tuple(o / t * 100 for o, t in zip(opex, toi)),
             roe=tuple(n / e * 100 for n, e in zip(npat, avg_eq)),
             eps=tuple(n * 1000 / self.shares for n in npat),
@@ -198,16 +237,42 @@ class Model(object):
             nii25=self.v('X121'), prov25=self.v('X141'),
         )
 
-    def check(self, d):
-        """FY26F is fully recalculated in Excel - the derivation must reproduce it."""
-        bad = []
-        for key, ref in (('opex', 'Y135'), ('toi', 'Y117'), ('prov', 'Y141'),
-                         ('pbt', 'Y144'), ('npatmi', 'Y153'), ('equity', 'Y85'),
-                         ('assets', 'Y61'), ('reserve', 'Y286'), ('loans', 'Y204')):
-            got, want = d[key][0], self.v(ref)
-            if abs(got - want) > 0.05:
-                bad.append('%s: derived %.3f, Model!%s caches %.3f'
-                           % (key, got, ref, want))
+    # The FY26F drivers as Excel last recalculated them, before this round.
+    EXCEL = dict(loans=640643.0521152194, opex_mult=0.9647, spec_ratio=0.8653)
+
+    def check(self, d=None):
+        """Replay the drivers Excel last recalculated and land back on its caches.
+
+        FY26F used to be checkable line by line, because Excel had recalculated
+        it and nothing booked here touched the loan book.  The 8% growth
+        assumption ended that: every FY26F cache is now stale against the
+        current drivers.  The arithmetic between drivers and results has not
+        changed, though, so feeding the old drivers through this same code has
+        to reproduce Excel exactly - which is what this checks.  It still fails
+        the import if the engine drifts.
+        """
+        e, bad = self.EXCEL, []
+        npl = lambda r: self.npl['N%d' % r][1]
+        loans = e['loans']
+        opex = (self.v('X132') + self.v('X134')) * e['opex_mult'] + self.v('Y133')
+        wo = -self.v('Y287') * loans
+        spec = wo * e['spec_ratio']
+        gen = 0.007 * loans * sum(npl(r) for r in (26, 27, 28, 29))
+        prov = spec + (gen - self.v('X274')) + self.v('Y247')
+        reserve = self.v('Y277') + spec - wo + self.v('Y280') + gen
+        net, grp1 = loans - reserve, loans * npl(26)
+        nii = self.v('Y121') + ((net + grp1 + self.v('X198') + self.v('X691')) / 2
+                                * self.v('Y699')) - self.v('Y681')
+        toi = nii + self.v('Y124') + self.v('Y131')
+        pbt = toi - opex - prov
+        got = dict(loans=loans, opex=opex, nii=nii, toi=toi, prov=prov, pbt=pbt,
+                   reserve=reserve, npatmi=pbt * (1 + self.v('Y149')))
+        for key, ref in (('loans', 'Y204'), ('opex', 'Y135'), ('nii', 'Y121'),
+                         ('toi', 'Y117'), ('prov', 'Y141'), ('pbt', 'Y144'),
+                         ('npatmi', 'Y153'), ('reserve', 'Y286')):
+            if abs(got[key] - self.v(ref)) > 0.05:
+                bad.append('%s: replay %.3f, Model!%s caches %.3f'
+                           % (key, got[key], ref, self.v(ref)))
         return bad
 
 
