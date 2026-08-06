@@ -83,6 +83,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **⚠⚠ 19:40 ICT · MBB (lane 3, OWNER INPUT) — the owner supplied the actual analyst-meeting question list for
+  1H26, and it does three things: it confirms item 26 from outside, it hands over a number the file never had
+  that RECONCILES EXACTLY to the file's own inputs, and it contains a sharper question than the one I drafted.**
+  **SOURCE CLASS.** These are **questions asked by analysts**, not MBB disclosure. Numbers embedded in a question
+  are **asserted by the questioner**. Treated as claims pending the H1 filing — *except* where the file can
+  verify them from data it already holds, which is the case for the largest one.
+  **1 · ITEM 26 CONFIRMED BY AN INDEPENDENT PROFESSIONAL, NEARLY VERBATIM.** One analyst asked: *"Nợ xấu tăng,
+  tín dụng tăng mạnh nhưng trích lập dự phòng tăng chậm thì MB có khả năng trích lập bao nhiêu tỷ đồng trong Q3
+  và Q4."* **That is item 26's thesis and item 26's question, arrived at independently.** The model's answer is
+  on file: H2 provisioning intensity of **35.7%** against 27.6% in H1. **Third independent route to the same H2
+  shape** — the branch arithmetic (02-Aug), management's own +15–20% plan against +30–35% credit (06-Aug 16:53),
+  and now the sell-side.
+  **2 · THE NUMBER THE FILE NEVER HAD, AND IT VERIFIES INTERNALLY TO THE DECIMAL.** *"Thu ngoài lãi 6 tháng giảm
+  28,8%, riêng ngoại hối giảm 90% và chứng khoán đầu tư gần như về 0. Tỷ trọng thu nhập lãi thuần đã lên 84%
+  tổng thu nhập."* **Checked against `q1_nii` 14,913 + `q2_nii` 16,893.65 = ₫31,806.65bn over `h1_toi` 37,865 =
+  84.00%. Exact.** The −28.8% then closes the whole income statement: non-II **₫8,509bn → ₫6,058bn, a fall of
+  ₫2,451bn**; prior non-II share **26.1%**; and **NII +32.3%** against TOI +16.3% — which recomposes to
+  ₫37,865bn on the nose, and back-solves prior H1 PBT to **₫15,883.6bn against the file's ₫15,884bn.**
+  **No external verification was required or used.**
+  **⚠ WHAT IT MEANS — THE FILE RECORDED THE GOOD HALF OF THE INCOME STATEMENT AND NOT THE BAD HALF.** `q2_nii
+  +36.55%` has been on file since 31-Jul. **The −28.8% collapse beside it never was.** MBB's +27.1% PBT growth
+  is built on spread income alone, at a moment when **NIM is 3.9% against 5.8% in 2022** and **cost of funds has
+  risen four consecutive quarters** (both analyst-asserted, unverified). **Volume, not price** — which is
+  precisely why management plans credit +30–35% against profit +15–20%. The 16:53 finding now has its mechanism.
+  **⚠⚠ AND THE CUSHION IS GONE — OR IS BEING HELD. The file cannot tell which, and that IS the finding.**
+  FX −90% and investment securities ~0 are the two lines a bank normally uses to smooth a quarter. Either MBB
+  **has drained them** — in which case an H2 provisioning step-up to 35.7% hits PBT undamped and management's
+  +4.5% to +13.9% H2 guidance is honest — or it is **sitting on unrealised gains it declined to take in a
+  half-year that already grew 27%**, which is the classic pattern the owner's standing instruction points at,
+  and H2 is when they would be released. **THE QUESTION NOBODY AT THE MEETING ASKED: what are the unrealised
+  gains in the investment-securities book?** That is the field that separates the two readings, and it is in the
+  notes to the **29-Aug** reviewed statements.
+  **3 · THE ANALYST ASKED A SHARPER MBV QUESTION THAN I DID, AND IT QUALIFIES THE 17:53 CROSS-SECTION.**
+  *"MB có đang bán nợ cho MBV bao nhiêu?"* — **how much debt is MB SELLING to MBV.** My 16:53 question was what
+  MBV drags per quarter; **this one asks whether MBV is where MB's bad debt goes.** ⚠ If NPLs are transferred to
+  a transferee bank that MB does not consolidate, then **MBB's NPL 1.45% and coverage 93.63% are not measured on
+  the same basis as TCB's 125.5% or VPB's 56.2%**, and the cross-section published at 17:53 compares one
+  adjusted number with two unadjusted ones. **Not withdrawn — the consolidation basis is not established — but
+  flagged, and it is the second time this week a cross-ticker ratio has turned out to rest on an unstated basis.**
+  **4 · REAL ESTATE — A CONCENTRATION MBB'S CRITERIA DO NOT COVER.** Analyst-asserted: **RE credit DOUBLED in
+  2025** and kept growing in 1H26; **developer lending is 12% of total loans** and grew faster than total credit
+  in Q2. **TCB carries three armed real-estate criteria** (RE share > 32%, developer/related-party NPL formation
+  > 2.0%, de-risking reversal). **MBB carries none.** This is not a defective criterion — it is a **missing**
+  one, on a book that doubled. **Seventh criteria defect this week and the first of the absence type.**
+  **5 · THE CAPITAL RAISE IS REQUIRED, NOT OPPORTUNISTIC.** *"CAR to get 10.5% in next 2 years"*, plus two
+  separate questions on Tier 2 and foreign borrowing. **Against credit planned at +30–35% a year, an RWA base
+  compounding at that rate under a 10.5% CAR target makes the 11-Aug rights a recurring need, not a one-off.**
+  That reframes this morning's trigger-5 entry: ₫8,055bn is an instalment.
+  **SCORED AGAINST MY OWN 15:53 LIST — 2 of 7 hit, and one "don't ask" call was WRONG.** Hit: H2 provisioning
+  (my top follow-up) and MBV. Missed: nobody asked the **coverage** question — **the analysts asked about the
+  flow and not the stock, the exact error the 17:53 entry identified.** ⚠ **My call that NIM was "public, don't
+  waste a question" was wrong:** two analysts asked it and both are good questions, because **the level is
+  public and the inflection is not.** I confused a disclosed number with a disclosed turning point.
+  **Nothing modelled. No confidence moved** — analyst questions are below T5. Dated keys added; item 26 updated;
+  new item 39.
+
 - **⚠⚠⚠ 18:53 ICT · MBB (lanes 3, 7) — ESCALATION TRIGGER 5 FIRES. The missing ex-date is established, it
   lands on the engine's #1 name and largest proposed add, and the last cum session is TWO sessions away.**
   **THE DATE.** MB has fixed the record date for the 15% stock dividend **and** the 10:1 rights issue:
