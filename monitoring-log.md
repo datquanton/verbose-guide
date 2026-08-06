@@ -83,6 +83,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-06
 
+- **20:53 ICT · MACRO (lane 1) — the pre-registration is scored and it is a MISS. The larger error is that I
+  chose a test that could not have settled the question, and I did not say so in advance.**
+  **THE PRINT.** US initial jobless claims, week ending **01-Aug: 199,000**, against consensus **~202,000**.
+  Prior week **revised UP 1,000 to 198,000**. **Four-week moving average FELL 4,500 to 198,750.** Layoffs remain
+  historically low; the 18-Jul week was a 57-year low. *(Released 12:30 UTC; read here at 84 minutes, past this
+  file's measured >54min indexing bracket. `dol.gov/ui/data.pdf` and `oui.doleta.gov` both returned proxy 403,
+  so this is wire coverage of the DOL release, not the release.)*
+  **THE PRE-REGISTRATION, VERBATIM FROM 05-Aug 21:53 AND 22:53.** *"At 21:53 I pre-registered a **weak** payroll
+  print as the expected direction, with the stated limit that ISM employment sub-indices are diffusion measures
+  over firms and poor month-to-month predictors. Claims are a partial and early read on that, not a resolution
+  of it."* The mechanism was **ISM services employment 51.2 → 47.4**.
+  **SCORE: MISS.** Claims came in **below** consensus with the four-week average **falling**. That is a tight
+  labour market, which is the opposite of the direction pre-registered. **Recorded as a miss on the test as I
+  framed it.**
+  **⚠ AND NO PARTIAL CREDIT IS TAKEN FROM THE TWO-WEEK UPTICK.** Claims have now risen twice off the 57-year low
+  (188k → 198k revised → 199k). **A 1,000 weekly change is inside noise, and this file's own standard from
+  22:53 — *"one day up followed by one day down is noise around a stated mechanism"* — applies to me here.**
+  Reaching for the uptick to soften the score would be the behaviour the file criticised yesterday.
+  **⚠⚠ THE BIGGER ERROR IS TEST DESIGN, AND IT IS WORSE THAN THE MISS.** **Claims measure separations. Payrolls
+  measure net job change.** In a low-hire/low-fire labour market, hiring can stall for months while layoffs stay
+  at multi-decade lows — the two series move independently, and **claims at 199k are not actually inconsistent
+  with a weak payroll print.** That is a **pre-existing structural fact, not a post-hoc rescue** — which is
+  exactly why it should have been stated on 05-Aug. **It was not.** I named claims "the first test" of a payroll
+  expectation without noting that they cannot confirm or refute it. **By this file's own convention that
+  right-for-the-wrong-reason is a failure, a test chosen without checking whether it is diagnostic is a failure
+  too — and this one compounds the miss rather than excusing it.** A well-formed pre-registration would have
+  named **payrolls alone**, tomorrow, as the test.
+  **THE REAL RESOLUTION IS TOMORROW: US July payrolls, 07-Aug.** That is a direct test of the stated direction
+  and it is left standing unmodified.
+  **NOTHING MODELLED. NO CONFIDENCE MOVES.** This is US macro environment, not evidence about any of the eight —
+  the rule this file has applied to every US datum since 04-Aug. **No escalation trigger fires.**
+
 - **19:53 ICT · HPG (lane 2) — the last open cell in the rebar case closes: Hoa Phat is the LOW end, 128.53%.
   And the answer is that the question did not matter.**
   **WHAT WAS OPEN.** `us_rebar_ad_final_range_pct` has held **[128.53, 136.57]** since 30-Jul with the file's
