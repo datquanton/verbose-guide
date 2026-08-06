@@ -83,6 +83,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠⚠ 06:53 ICT · KDH (lane 3) — THE MECHANISM BEHIND KDH'S RECORD QUARTER IS NOW EXPLICIT, AND IT COLLIDES
+  WITH AN ARMED KILL CRITERION ON THE SECOND-LARGEST POSITION (20.3%). THE CRITERION CANNOT BE ADJUDICATED —
+  ITS TWO NATURAL READINGS GIVE OPPOSITE ANSWERS. THIS IS AN ESCALATION, NOT A DECLARATION.**
+  **THE MECHANISM, WHICH THE FILE NEVER HELD — `896` appears nowhere in `assumptions.json`.** KDH completed the
+  transfer of **2% of Công ty TNHH Bất động sản Bình Trưng Mới on 23-Jun-2026 for just over ₫68bn — and
+  recognised over ₫896bn of financial revenue from that transaction.** **Q2/2026 consolidated NPAT ₫770bn
+  (₫750bn to parent), a company record**, with **real-estate revenue at a four-year low and house-sale revenue
+  down ~85%.** *A ₫68bn disposal cannot produce a ₫896bn gain: this is a remeasurement of the retained stake on
+  loss of control, not a profit on the 2%. That mechanism is my reading of the accounting, not a stated one.*
+  **THE CRITERION.** *"Earnings quality stays synthetic — a second consecutive quarter where bargain-purchase or
+  revaluation gains exceed operating PBT."* **Armed.**
+  **Q1 IS UNAMBIGUOUS AND IT IS ON FILE.** `q1_pbt` **355.7**, `q1_bargain_gain` **285.2** ⇒ operating PBT ex-gain
+  **₫70.5bn**; **the gain is 4.05× it. Condition met, from the file's own fields.**
+  **Q2 DEPENDS ENTIRELY ON WHAT "OPERATING PBT" MEANS — AND THE FILE NEVER DEFINED IT.**
+  **READING A — PBT minus the gain.** Implied PBT from ₫770bn NPAT is ₫770–975bn across a 0–21% tax rate, so
+  operating PBT ex-gain is **−₫126bn to +₫79bn**. **The gain exceeds it on every tax assumption** — to escape,
+  PBT would have to exceed ₫1,792bn, i.e. NPAT above ~₫1,416bn against an actual ₫770bn. **CONDITION MET, and
+  robustly: the conclusion does not depend on the tax rate I cannot observe.**
+  **READING B — the Vietnamese statutory line *lợi nhuận thuần từ hoạt động kinh doanh*, which INCLUDES financial
+  income.** Then operating profit ≈ PBT ≈ ₫975bn and **₫896bn does NOT exceed it. CONDITION NOT MET.**
+  **⚠⚠ SO THE SEVENTH DEFECTIVE ARMED CRITERION, AND THE MOST CONSEQUENTIAL: the answer FLIPS on an undefined
+  term, on 20.3% of the book.** The file already lists "KDH's undefined consolidation basis" among the six; **this
+  is a second undefined term in the same name's criteria set.** **I am not declaring it fired.** Declaring a
+  trigger-1 escalation on a reading I chose myself, when the other reading is at least as natural under Vietnamese
+  GAAP, would be the worst error available this week. **The human defines "operating PBT" and the criterion then
+  answers itself — Q1 is met under both readings, so the whole question is Q2's definition.**
+  **⚠ WHAT IS NOT IN DOUBT, WHATEVER THE WORDING.** **KDH's record quarter came from selling 2% of a subsidiary
+  for ₫68bn while its property business posted a four-year-low revenue and an ~85% fall in house sales.** The
+  file already records *"a collapsed core business and 73% of the full-year plan delivered at the half, on a
+  one-off"* — **the substance was on file; the ₫896bn mechanism and the criterion collision were not.**
+  **⚠ AND A THIRD SUCH QUARTER IS ALREADY SCHEDULED.** The total transfer is **>₫1,743bn**, of which **₫68bn has
+  been received**; **completion of the full 51% is planned by Q3/2026 at the latest.** **So the disposal-driven
+  profit pattern is contracted to continue into the quarter that the *other* armed criterion tests** — *"customer
+  advances < ₫1,000bn at 3Q26 with Gladia Heights launched,"* the file's own "decisive test." **Two criteria now
+  land on the same quarter from opposite directions.** *This also sharpens item 32: whether `fy26e_npat` contains
+  Gladia revenue matters less than whether it contains the remaining ~49% of this disposal.*
+  **NOTHING MODELLED. NO CRITERION STATUS CHANGED — §4 human-only. No confidence moved** (the ₫896bn is T5 press,
+  not the filing). **⚠ ESCALATED: this is the closest any armed criterion has come to firing this week, and it is
+  blocked only by a definition.**
+
 - **⚠⚠ 05:53 ICT · TCX · VPX (lane 3) — STRUCTURE, SEVENTH OF THE SPECIES. TWO of the five shortlisted
   Vietnamese crypto exchanges belong to this book's ecosystems, and the file records ONE. `TCEX` appears zero
   times in `assumptions.json` and zero times in this log.**
