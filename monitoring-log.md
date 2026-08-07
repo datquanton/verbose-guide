@@ -83,6 +83,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠ 05:53 ICT · HPG — tested the bridge's own internals after last hour's defect and it PASSES to ~5%. The
+  machinery is sound; the annotation is not. That bounds the damage from 03:53 and finds one more of the same
+  defect.**
+  *(Everything is closed — Vietnam for the weekend, the US read at 04:53. This hour is entirely internal.)*
+  **WHY RUN IT.** At 03:53 I found the coal note titled *"BOTH INPUTS VERIFIED"* does not reconcile (238.9 → 228
+  is −4.56%, not −24%). **The open question that left: is the DEFECT IN THE NOTE, OR IN THE BRIDGE?** Those have
+  very different consequences for a 16.8% position.
+  **THE TEST.** The bridge holds three calibration points. Anchor: **Q1/26 actual — ore 101, coal 190, HRC 560
+  → ₫1.68m/t.** Predict the other two from the after-tax gearings pinned on 08-Aug 00:53 (**ore ₫0.34m per
+  $10/t · coal ₫0.14m per $10/t · HRC ₫0.021m per $1/t**).
+  **"AT SPOT" — ore 115, coal 220, HRC 539.** Predicted **₫0.343m/t** against a stated **₫0.36m/t** —
+  **residual −₫0.017m, −4.7%.** **It reproduces.**
+  **⚠⚠ SO THE 03:53 DEFECT IS CONTAINED: the arithmetic engine is internally consistent and it is the INPUT
+  ANNOTATION that is broken.** *That is a materially better position than the alternative, and it was worth an
+  hour to establish rather than assume.* **Second time this week that testing a mechanism produced a pass worth
+  reporting** — the first was HPG's kill criterion at 07:53 Friday.
+  **⚠ BUT THE THIRD POINT ONLY RECONCILES ON AN INFERENCE, AND THAT IS THE NEW DEFECT.** The **"ore = 100, HRC
+  539 → ₫0.86m/t"** row **does not state its coal.** **Held at the anchor's 190 it predicts ₫1.273m — off by
+  ₫0.413m, a 48% miss. Carried at 220 it predicts ₫0.853m against the stated ₫0.86m — a residual of ₫0.007m.**
+  **The row is only coherent if coal is 220, and it does not say so.**
+  **THE PATTERN, NOW THREE INSTANCES DEEP AND ALL IN ONE FILE.** §9 said no price in the bridge had a stated
+  **delivery basis** — partly answered 00:53 Friday. **03:53 today: a price with a basis but no reconcilable
+  date.** **Now: a scenario row that omits which inputs it holds fixed.** **Basis, date, and held-constant set —
+  the bridge is missing a different one of the three in each place it is annotated.** *A sensitivity table whose
+  rows do not state their frozen variables cannot be read by anyone who did not write it.*
+  **WHAT THIS DOES AND DOES NOT CHANGE.** It does **not** move `core_npat_per_tonne_m` (bear 1.25 / base 1.6 /
+  bull 1.85) — a §4 judgement input, untouched. **It does downgrade item 46's severity:** the $29/t coal spread
+  is still real and still worth 17.0% of base-case FY NPAT, **but it is an input-uncertainty problem, not a
+  model-correctness problem, and those get fixed differently.**
+  **Nothing modelled. No confidence moved. No escalation trigger fires** — the 14:53 trigger-3 and 06-Aug
+  trigger-5 on MBB stand, and **MBB's last cum session is MONDAY 10-AUG.** Item 46 annotated.
+
 - **⚠⚠ 04:53 ICT · MACRO — the US close, read at 114 minutes as pre-registered. And it CORRECTS the mechanism I
   wrote nine hours ago: the market repriced HIKE risk down, not cut odds up. Right direction, wrong reason.**
   **THE CLOSE, FRIDAY 07-AUG.** **S&P +0.62% to 7,757.64 — a RECORD HIGH** — Dow +0.28% to 54,036.93, Nasdaq
