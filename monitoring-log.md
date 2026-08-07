@@ -83,6 +83,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **22:53 ICT · FLOWS, TCX (lanes 4, 3) — a smaller hour than the last several, and said so. The session data
+  is noise by this file's own standard; what is worth keeping is that ANOTHER of my "blocked" verdicts was too
+  strong, and that is twice in one day.**
+  **TODAY'S SESSION, RECORDED AS ENVIRONMENT.** VN30 **+8.3 points (+0.44%) to 1,911.09**; turnover **660.11m
+  units / ₫17,048bn**; breadth **207 up · 87 flat · 162 down**. **Foreign net selling across all three exchanges
+  was only ₫90bn** — but concentrated: **VHM ₫282.51bn · TCB ₫218.93bn · VPB ₫204.68bn · VIC ₫152.5bn · FPT
+  ₫53.61bn.**
+  **THE ONE INFERENCE WORTH DRAWING, AND IT IS ARITHMETIC.** Those five sells total **₫912.23bn** against a net
+  of **−₫90bn**, which means **~₫822bn of net foreign BUYING elsewhere on the same session.** **That is rotation
+  out of large-cap banks and property, not a market-wide exit** — a distinction the headline "khối ngoại bán
+  ròng" does not make.
+  **⚠ AND IT IS STILL NOISE FOR THIS BOOK.** **TCB's ₫218.93bn is 0.103% of its market cap; VPB's ₫204.68bn is
+  0.103% of its.** Together they are **2.5% of the entire market's turnover, on 45% of this book** — striking as
+  a share of the tape, immaterial as a share of the companies. **One session, no closing prices for the
+  holdings, and this file's standing rule since 05-Aug is that a single day is noise around a mechanism rather
+  than evidence about it. Applied here, to a datum that touches the two largest bank positions.**
+  **⚠⚠ THE PART THAT ACTUALLY MATTERS: A SECOND "BLOCKED" VERDICT OF MINE WAS TOO STRONG.** At 07:53 I
+  classified TCX's armed criterion — *"no net foreign accumulation in the 4 weeks after Sep 21"* — as
+  **CONDITIONAL**, on the ground that it is *"measurable in principle, source blocked here."* **This source just
+  published per-ticker foreign net flows.** **The data type the criterion needs is obtainable; it simply is not
+  needed yet, because the measurement window does not open until 21-Sep.** **That is a different status from
+  "blocked", and the criterion should be carried as pending-window rather than pending-source.**
+  **TWICE IN ONE DAY.** At 02:53 I wrote that item 2 was *"structurally unreachable from this environment"* and
+  walked it back at 11:53 when dated prices turned out to leak from transaction disclosures. **Now the same
+  over-claim on foreign flows.** **The pattern: I have been inferring "the data is unavailable" from "the page I
+  tried is 403," and that inference has now failed twice.** *A blocked host is evidence about a host. It is not
+  evidence about a number.*
+  **Nothing modelled. No confidence moved. No escalation trigger fires** — the 14:53 MBB trigger-3 and the
+  06-Aug trigger-5 escalations stand, and **MBB's last cum session is Monday 10-Aug.**
+
 - **⚠⚠ 21:53 ICT · VPB — the foreign placement has a PRICING FLOOR, which turns one of the three "conditional"
   criteria into a decidable one — and the file cannot decide it, because it holds no equity figure for VPB. The
   29-Aug gate now unblocks THREE things on this name, not two.**
