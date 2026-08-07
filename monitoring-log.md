@@ -83,6 +83,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠ 15:53 ICT · VPB, BOOK-WIDE — seven of eight names now measured (94.5% of the book), VPB's gap is the
+  SMALLEST yet at 0.60%, and the same source carried a unit error that gives the method a third guard.**
+  **THE OBSERVATION.** **VPB closed 03-Aug-2026 at ₫25,150 with a market cap of ₫199,538.2bn.** The two divide
+  to **7,933,924,453 shares against the file's 7,933,900,000 — +0.0003%.** Par guard passed.
+  **THE FILE IS 0.60% BELOW — the tightest of the six measured gaps.** E[r] barely moves: raw **−13.86% →
+  −14.37%, a −0.51pp** change. **Trigger 3 does not fire, and it is not close.**
+  **⚠⚠ AND THE SAME PARAGRAPH CARRIES A UNIT ERROR THAT WOULD HAVE BEEN INVISIBLE WITHOUT A CHECK.** It states
+  VPB's capitalisation on **07-Aug as *"196,76 tỷ đồng"*.** **Taken literally that is ₫196.76 BILLION, which
+  against 7,933.9m shares implies a price of ₫24.80 per share.** The intended figure is plainly **₫196,760bn** —
+  a dropped *nghìn* — which implies **₫24,800**, about 1.39% below the 03-Aug price and entirely plausible.
+  **THE THIRD GUARD, AND IT IS AS CHEAP AS THE OTHERS: after dividing, ASK WHETHER THE IMPLIED PRICE IS A
+  PLAUSIBLE VIETNAMESE EQUITY PRICE.** The method now has three arithmetic tests, all one division each:
+  **(1) does it equal ₫10,000 exactly? → stated at par, no price information** *(caught KDH yesterday)*;
+  **(2) does it reproduce the file's share count? → confirms both the price and the count** *(MBB exact, TCB
+  0.0006%, VPB 0.0003%)*; **(3) is the quotient inside a plausible price range? → catches unit errors**
+  *(caught here)*. **Two of the three were found by being wrong first.**
+  **⚠ AND THE CORRECTED 07-AUG FIGURE IS NOT USED AS AN OBSERVATION.** It would be the freshest datum in the
+  book — **today's** — but **the correction from ₫196.76bn to ₫196,760bn is MINE, not the source's.** A figure I
+  had to repair before it made sense is not evidence, and the 03-Aug value needs no repair. **Recorded as a
+  possible today-value, explicitly flagged as author-corrected, and excluded from the tally.**
+  **WHERE THE MEASUREMENT PROGRAMME STANDS — SEVEN OF EIGHT, 94.5% OF THE BOOK:**
+  **HPG −7.76% · MBB −7.74% · TCB −2.34% · KDH +1.1% · VPB −0.60% · VCI bracketed · VPX 12-Jun.**
+  **Only TCX (5.5%) is unmeasured** — searched for this hour and not returned.
+  **THE SHAPE, NOW THAT IT IS NEARLY COMPLETE: the gaps are NOT uniform, they do NOT share a sign, and they are
+  NOT a function of size.** The two largest gaps sit on HPG and MBB; the two smallest on VPB and KDH; TCB, the
+  biggest position, is in between. **A single index-based adjustment — the thing the 01:53 conditional
+  proposed — would have been wrong on every name individually, and only one name's error clears the escalation
+  threshold.**
+  **Nothing modelled — every field involved is guarded §4. No confidence moved. No escalation trigger fires
+  this hour**; the MBB trigger-3 escalation raised at 14:53 stands unchanged.
+
 - **⚠⚠⚠ 14:53 ICT · MBB, HPG — ESCALATION TRIGGER 3 FIRES ON MBB. And I must correct the claim I have made for
   three consecutive hours: the measured price gaps are NOT all small. Two names run at ~7.75%.**
   **THE TWO OBSERVATIONS, AND THE CROSS-CHECKS ARE THE STRONGEST YET.**
