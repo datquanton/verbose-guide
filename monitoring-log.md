@@ -83,6 +83,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 13:53 ICT · TCB, BOOK-WIDE — A HARD DATED PRICE ON THE 35% POSITION, cross-checked to the share count at
+  SIX PARTS PER MILLION. And item 3 stops being a convention argument and gets an exact price.**
+  **THE PRICE.** **TCB closed 03-Aug-2026 at ₫29,950 with a market capitalisation of ₫212,232.9bn.** Two
+  independently reported figures, and **they divide to 7,086,240,401 shares against the file's 7,086,200,000 —
+  +0.0006%.** **That is the tightest external confirmation of any share count in this book, and it lands on the
+  largest position.** Par guard applied: ₫29,950 ≠ ₫10,000, so this is a market value.
+  **AND A SECOND CONSISTENCY CHECK PASSES:** the file's own `market_cap_bn` of ₫207,271bn at ₫29,250 scales to
+  the reported cap by **1.02394**, against a price ratio of **1.02393**. **Same share count, different date.**
+  **THE FILE IS 2.34% BELOW the 03-Aug price** — a hard, dated measurement on 35% of the book, four days old.
+  **THE E[r] EFFECT, AND THE ENGINE WAS REPRODUCED EXACTLY FIRST.** On the file's inputs: raw **+3.98%**, shrunk
+  **+2.78%** — against the brief's **+4.0% / +2.8%.** Marked to the 03-Aug cap of ₫212,233bn: **raw +1.60%,
+  shrunk +1.12% — a −2.37pp raw move. BELOW the 10pp threshold, so trigger 3 does NOT fire.**
+  **⚠⚠ AND THE REPRODUCTION SETTLES SOMETHING ITEM 3 HAS BEEN ARGUING ABOUT FOR TEN DAYS.** TCB is the **only**
+  name in the book with a non-zero `cash_yield`, so this is the first time the field's role could be tested.
+  **It enters ADDITIVELY: ex-cash_yield TCB's raw E[r] is +1.58%; with the 0.024 it is +3.98%.** Because the
+  probabilities sum to one, **`cash_yield` contributes EXACTLY its own value to raw E[r] — no more, no less.**
+  **SO ITEM 3'S COST IS NO LONGER A CONVENTION QUESTION. IT IS ARITHMETIC:**
+  **MBB's unrecorded 4.54% is worth exactly +4.54pp of raw E[r] — on the engine's #1 name and largest proposed
+  add. VPB's unrecorded 2.00% is worth +2.00pp. TCB's recorded 0.024 already supplies +2.40pp, which is 60% of
+  its entire +3.98%.** *Item 3 has said since 29-Jul that "seven blanks are not seven zeros"; the blanks now have
+  prices, and the largest one sits on the name the engine most wants to buy — and it points UP.*
+  **⚠ NOTE THE DIRECTIONS FIGHT.** Marking TCB's price to 03-Aug takes it **DOWN 2.37pp**; filling MBB's
+  `cash_yield` would take MBB **UP 4.54pp**. **The two open input defects push the ranking's top and its largest
+  weight in opposite directions, so neither can be waved through as "small."**
+  **WHERE ITEM 2 STANDS AFTER THREE HOURS OF THIS — four of eight names now have a dated observation, covering
+  61.2% of the book: TCB 35.0% (−2.34%), KDH 20.3% (+1.1%), VCI 3.1% (bracketed), VPX 2.8% (12-Jun).**
+  **Every measured gap is under 2.5% and they do not share a sign.** **That is the third consecutive hour in
+  which measurement has contradicted the 01:53 conditional's premise of a uniform +4.63% understatement.**
+  *Four names remain unmeasured — HPG 16.8%, VPB 10.0%, MBB 6.5%, TCX 5.5% — and today's prices are still
+  unavailable. Item 2 stays open, but it is no longer unquantified.*
+  **Nothing modelled — `price` and `cash_yield` are guarded §4 fields and neither was touched on any name. No
+  confidence moved. No escalation trigger fires.** Items 2 and 3 annotated.
+
 - **⚠⚠ 12:53 ICT · KDH, BOOK-WIDE (lanes 3, 7) — applied last hour's method to the second-largest position and
   it worked; the SAME disclosure then produced the trap that the method needs a guard against. A second dated
   price, and a rule that keeps it honest.**
