@@ -83,6 +83,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠ 09:53 ICT · HPG (lanes 3, 5) — went to close one of yesterday's four CONDITIONAL criteria and it got
+  WORSE, not better. The nameplate is established; the criterion is now NOT TESTABLE for a new reason, and the
+  audit's headline flips to a majority.**
+  **THE NUMBER, AND IT IS SOLID.** **Dung Quất 2's design capacity is 5.6 million tonnes of HRC per year** —
+  stated consistently across trade press and **HPG's own subsidiary site**, alongside a separately-approved
+  **+500,000t** expansion. Yesterday's audit listed HPG's *"HRC volume run-rate < 85% of nameplate at Q4"* as
+  CONDITIONAL on the grounds that "nameplate is not on file." **It is on file now.**
+  **⚠ AND THAT IS WHEN THE REAL DEFECT SHOWS.** The condition is *"DQ2 ramp disappoints"* — **it names DQ2.**
+  But the disclosed figure is **group HRC volume** (`q2_hrc_volume_mt` = 1.9), not DQ2's. **The criterion asks
+  about one plant and the data measures the whole company.**
+  **THE TWO DENOMINATORS GIVE INCOMPARABLE ANSWERS.** Q2 HRC **1.9mt → 7.6mt annualised.**
+  **Against DQ2's 5.6mt: 135.7% — meaningless, because group volume includes DQ1's output.**
+  **Against total HRC of ~9mt: 84.4% — fractionally BELOW the 85% threshold.**
+  **⚠ THE ~9mt IS SOFT AND IS LABELLED SOFT.** The source says *"HRC and high-quality steel capacity reaching
+  approximately 9 million tonnes"* — **"and high-quality steel" is broader than HRC alone**, and DQ1's own HRC
+  line is not established here (≈3.4mt only by subtraction, which is my inference). **The solid number is DQ2's
+  5.6mt; the one the data would need is the soft one.**
+  **SO THE AUDIT IS REVISED, AND THE REVISION IS A DOWNGRADE.** This criterion moves **CONDITIONAL → NOT
+  TESTABLE**, for a *different* reason than yesterday's: **not missing data, but a subject/measure mismatch** —
+  the third instance of that species after MBB's MBV drag (measures P&L, the cost is ROE) and VCI's foreign-vs-
+  total brokerage share. **New tally: 5 testable · 9 NOT testable · 3 conditional. Not-testable is now 53% — a
+  majority, where yesterday it was 47%.**
+  **⚠ AND ONE THING WORTH THE HUMAN'S ATTENTION REGARDLESS OF THE WORDING: on the group-HRC reading the run-rate
+  is already sitting essentially ON the threshold at 84.4%.** *That is a Q2 figure against a Q4 test, in a plant
+  still ramping — DQ2's second blast furnace first cast in Sept-2025 — so the run-rate should RISE into Q4 and
+  the reading is not a warning.* **What it does mean is that the Q4 test is live rather than academic: the
+  denominator choice will decide the answer, and the denominator is undefined.**
+  *This is exactly the pattern item 44 named — eight of the defects need a definition rather than an analysis.
+  Here one search supplied the data and the criterion still cannot be run, because the missing thing was never
+  the number.*
+  **Nothing modelled. No criterion status changed (§4). No confidence moved. No escalation trigger fires.**
+  Item 44 updated.
+
 - **⚠⚠ 07:53 ICT · BOOK-WIDE — STOPPED FINDING DEFECTIVE CRITERIA ONE PER SWEEP AND AUDITED ALL SEVENTEEN.
   FEWER THAN ONE IN THREE CAN ACTUALLY BE RUN. And the first criterion of the week is tested and PASSED.**
   **WHY NOW.** Seven defective armed criteria have been found since 02-Aug, each by tripping over it. **The
