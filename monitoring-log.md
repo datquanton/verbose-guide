@@ -83,6 +83,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 17:53 ICT · HPG (lane 6) — the steel peers tested the spread thesis from OUTSIDE, and the result rules
+  out the explanation that would have been bad for HPG. The file held nothing on either peer's results.**
+  **THE GAP FIRST: `NKG`, `Nam Kim`, `Hoa Sen` and `HSG` return exactly ONE hit in `assumptions.json`** — a
+  passing note that they sit in the coated-steel product line under a MoIT decision. **No results, no margins,
+  on the two listed companies that buy what HPG makes.** Lane 6 exists to catch peers that reprice our names and
+  it had never been run on the steel side.
+  **THE Q2 PRINTS.**
+  **NKG — NPAT ₫102.6bn against a small loss a year earlier; GROSS MARGIN 7.1% → 10.5%, +3.40pp.** H1 revenue
+  ₫7,411.6bn (−6.2%), H1 NPAT ₫124.1bn (+98.1%).
+  **HSG — NPAT ~₫382.3bn (+39.6%); revenue ₫10,267bn (+5.2%) with gross profit ₫1,526bn (+25.8%).** That is a
+  **gross margin of 14.86% against an implied 12.43% a year earlier — +2.43pp.** H1 NPAT ₫568bn (−12%) on a high
+  base.
+  **HPG — core NPAT/tonne ₫1.682m → ₫1.803m, +7.2%** (derived at 07:53 from the file's own convention).
+  **⚠⚠ THE POINT IS WHAT THIS RULES OUT.** NKG and HSG **buy HRC**; HPG **sells** it. **If HPG's Q2 spread gain
+  had come from raising prices into its own customers, their gross margins would have COMPRESSED. Both
+  expanded — by 3.40pp and 2.43pp.** **So the improvement is chain-wide, not zero-sum, and HPG's gain was not
+  taken out of the downstream.**
+  **THAT POINTS AT THE RAW-MATERIAL END, AND THE FILE ALREADY HAS THAT LEG.** Coking coal is at **US$228 FOB
+  Australia, down for an eighth consecutive week** (pinned 06-Aug), and iron ore is roughly flat at ~**93.66**
+  (basis established 00:53 as 62% Fe CFR Tianjin). **A falling input cost widens the whole chain at once, which
+  is exactly the pattern observed.**
+  **⚠ THE LIMIT, STATED: the MECHANISM is inferred; the SIMULTANEITY is established.** I have three companies'
+  margins moving the same way in one quarter, not a cost decomposition. **What the data supports is the negative
+  claim — the zero-sum explanation is excluded — and that is worth more here than the positive one, because the
+  zero-sum reading is the one that would have argued HPG's Q2 was borrowed from its customers and reversible.**
+  **AND A NOTE ON WHERE THE STREET WAS.** VCBS forecast HPG's Q2 profit growth at **+25%**, with HSG and NKG
+  *"hụt hơi"* — running out of breath. **HPG's actual was +50.9%** (₫6,424bn against ₫4,256.75bn), **2.04× the
+  forecast growth rate**, and both peers grew rather than lagged. *Recorded as context on street positioning, not
+  as a scored forecast — it is not this file's prediction.*
+  **BEARING ON THE BRANCHES: this does not move `core_npat_per_tonne_m` (bear 1.25 / base 1.6 / bull 1.85),
+  which is a §4 judgement input and untouched.** But the bear branch requires the spread to break, and **the
+  quarter in which it would have had to start breaking is one in which HPG's customers got MORE profitable, not
+  less.** *The armed criterion — core NPAT/tonne below ₫1.25m for two consecutive quarters — was tested and
+  passed at 07:53; this is a second, independent line pointing the same way.*
+  **Nothing modelled. No confidence moved** — T5 press on filed peer statements, and peers are not this book.
+  **No escalation trigger fires.**
+
 - **⚠⚠ 16:53 ICT · TCX — EIGHT OF EIGHT. The measurement programme is complete, TCX's gap is under 1.4%, and
   guard 2 FAILED before it passed — the failure diagnosed a timing offset rather than a bad number.**
   **THE APPARENT FAILURE, REPORTED FIRST BECAUSE IT IS THE INTERESTING PART.** TCX quoted at **₫40,550** with a
