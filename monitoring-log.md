@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 12:53 ICT · KDH, BOOK-WIDE (lanes 3, 7) — applied last hour's method to the second-largest position and
+  it worked; the SAME disclosure then produced the trap that the method needs a guard against. A second dated
+  price, and a rule that keeps it honest.**
+  **THE PRICE.** Coverage of Lý Tuấn Kiệt's registration states he would spend **~₫356bn** on **20m shares**
+  *"tính theo giá đóng cửa gần nhất"* — at the most recent close. **₫356bn ÷ 20m = ₫17,800**, dated to the
+  filing around **20–21 July 2026**. **Neither ₫17,800 nor ₫356bn is on file for KDH** (the file's four "17,800"
+  hits are MBB's NPL balance — a coincidence of digits, checked).
+  **IT LINES UP WITH THE OTHER KDH OBSERVATION AND WITH THE FILE.** Two dated points now exist: **~20-Jul
+  ₫17,800 (derived, hard)** and **22-Jul ₫18,000 (search snippet, softer)**, against the file's **₫18,000
+  presumed 24-Jul — +1.1% over the derived point.** **Coherent, and it supports the 24-Jul dating on a second
+  name after VCI.**
+  **⚠ AND THE APPARENT ANOMALY RESOLVES RATHER THAN BEING GLOSSED.** KDH held ₫17,800 → ₫18,000 through a week
+  the file records as **−6.55% for the VN-Index**. That is outperformance, and the headlines explain it: the
+  registration is reported as *"bắt đáy"* — **bottom-fishing** — under a piece titled *"share prices plunge,
+  executives take the chance to accumulate."* **KDH had already fallen before 20-Jul; it stabilised, it did not
+  rally.**
+  **⚠⚠ NOW THE TRAP, FROM THE SAME SENTENCE, AND IT IS THE MORE USEFUL HALF.** The identical disclosure also
+  states the transaction value as **₫200bn — *"tính theo mệnh giá"*, AT PAR.** **₫200bn ÷ 20m = ₫10,000
+  EXACTLY.** **Two published "values" for one transaction, ₫200bn and ₫356bn, differing by 78%, and only one is
+  a market price.** **A naïve application of yesterday's method to the first figure returns ₫10,000 and concludes
+  KDH trades at par.**
+  **THE GUARD, AND IT IS ARITHMETIC RATHER THAN JUDGEMENT: if value ÷ count lands on ₫10,000 exactly, the figure
+  is stated at par and carries NO price information.** Vietnamese filings routinely quote deal size at par, so
+  this is not an edge case — **it is the default hazard of the method.**
+  **RE-RUN ON EVERY CASE USED SO FAR, AND ALL THREE PASS:** VCI ₫573bn ÷ 31.05m = **₫18,454** · VCI ₫612bn ÷
+  31.05m = **₫19,710** · VPX ₫47,625bn ÷ 1,875m = **₫25,400**. **None is ₫10,000. Yesterday's findings survive
+  the guard** — which is the point of running it against my own work first.
+  **WHERE ITEM 2 STANDS AFTER TWO HOURS OF THIS.** Dated observations now exist on **three of eight names** —
+  VCI (27-Jul, 28-Jul), KDH (~20-Jul), VPX (12-Jun) — **and on both names with a hard derivation the file's
+  price is corroborated rather than contradicted (KDH +1.1%; VCI bracketed).** **That is the opposite of the
+  01:53 conditional's premise**, which assumed a uniform +4.63% understatement. **The staleness is real, it is
+  name-specific, and on the evidence so far it is small where it can be measured.** *Five names still have no
+  dated observation and today's prices remain unavailable; item 2 stays open.*
+  **Nothing modelled — `price` is guarded §4 and was not touched. No confidence moved. No escalation trigger
+  fires.** Item 2 annotated.
+
 - **⚠⚠ 11:53 ICT · VCI, BOOK-WIDE (lanes 3, 7) — I OVERSTATED IT AT 02:53. Item 2 is NOT structurally
   unreachable, and the file already contained a dated price it never recognised as one. A method, not a fix.**
   **THE CORRECTION FIRST.** At 02:53 I wrote that item 2 *"is structurally unreachable from this environment —
