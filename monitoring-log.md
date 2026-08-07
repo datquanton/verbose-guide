@@ -83,6 +83,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 07:53 ICT · INDEX (lane 4) / HPG — the first PER-NAME FTSE flow figures this file has ever held, and
+  they DEFLATE the September event. HPG's entire 21-Sep tranche is ~US$11.5m ≈ 0.18% of its market cap.**
+  *(Weekend, both markets shut. Direct continuation of 06:53 — and it closes a gap the file had already
+  confessed to: on 05-Aug 19:53, unable to find KDH's index weight, it offered "3/5/7% would be
+  375/624/874bn of forced selling" and then recorded that **"my estimations two sweeps ago were badly too
+  high."** Real numbers now exist.)*
+  **PER-NAME ESTIMATED PASSIVE INFLOW** (top five only — the source ranks and stops): **VIC ~US$498m**, stated
+  as **~14.6 trading days** of its own volume · **HPG ~US$115m** · VHM ~US$99m · FPT ~US$69m · MSN ~US$63m.
+  **Top five = US$844m.** KDH, VCI, VCB, STB, SHB, BID, VRE, NVL, KBC are named **present but unfigured**, so
+  they sit below MSN's US$63m.
+  **WHAT IT DOES TO HPG — 16.8% of the book and the only holding with a number.** On this file's own inputs
+  (8,443m × ₫20,800 = ₫175,614bn ≈ **US$6.65bn**; the HPG price measured **7.76% high** on 06-Aug, so
+  US$6.1–6.7bn is the honest band) **US$115m is 1.7–1.9% of market cap** — and it is **phased 10/20/35/35 into
+  September 2027**, so **the 21-Sep-2026 tranche is ~US$11.5m ≈ 0.18% of cap.** *The band survives the price
+  uncertainty, which is why it is quotable.* **HPG's thesis is the spread, not the index, and this confirms
+  that quantitatively instead of assuming it:** the whole day-one index event is worth less than a fifth of one
+  percent of the company, while **US$10/t on the ore spread is worth ₫0.34m/t after tax.**
+  **NOT COMPUTED, DELIBERATELY.** HPG's inflow in **days of its own volume**. The source gives that ratio for
+  VIC alone (14.6 days ⇒ VIC ADTV ≈ US$34m); **HPG's ADTV is not on file — zero hits for ADTV anywhere in it** —
+  so the ratio is left blank rather than back-solved from a guess.
+  **FOUR WEIGHTS REFINED, ALL SUB-DECIMAL:** FTSE Emerging **0.227%** (file 0.22%), Emerging All Cap **0.35%**
+  (0.34%), Global All Cap **0.037%** (0.04% — this one was rounded *up*), All-World **0.024%** (0.02%). Changes
+  nothing; recorded so the file's figures stop reading as independent measurements when they are roundings.
+  **A SECOND TOTAL FROM A DIFFERENT ESTIMATOR:** **SSI Research ~US$1.67bn** vs the ~US$1.5bn on file. *A
+  different estimator, not a correction* — `_ftse_total_passive_usd_bn` is **left at 1.5** for exactly that
+  reason. At 1.67 the September tranche is ~US$167m, not ~US$150m.
+  ⚠ **THE VINTAGE CAVEAT IS THE REAL LIMIT.** The per-name figures come from coverage of the **23-name
+  post-screen** list, but the US$1.5bn total travels with **"29 stocks"** headlines and SSI's US$1.67bn is
+  attributed separately. **So the mapping from "HPG US$115m" to any particular total is NOT established**, and
+  the arithmetic does not discriminate: 844/1500 = 56.3%, 844/1670 = 50.5% — both plausible for a VIC-dominated
+  basket. **Dividing across vintages is this file's own catalogued error class and is not done here.**
+  **YESTERDAY'S 32→23 FINDING GAINS A FIFTH OUTLET, AND IT IS STATE-RUN** (Sài Gòn Giải Phóng), beside
+  vietstock, vneconomy, nhadautu and tapchikinhtetaichinh. **A fourth count also appears in circulation — 29 —
+  joining 32 (Apr), 28 (this file), 23 (28-Apr screen). Four counts, none of them the list. 21-Aug publishes it.**
+  **TIER T4, AND THIS LANE IS STRUCTURALLY UNREACHABLE AT T1–T2 FROM HERE.** **Ten distinct hosts blocked
+  across two hours** — `lseg.com`, `theinvestor.vn`, `cafef.vn`, `vneconomy.vn`, `nhadautu.vn`, `acbs.com.vn`,
+  `nguoiquansat.vn`, `stockbiz.vn`, `sggp.org.vn` and a WordPress mirror. ***This lane has never once reached a
+  document — it runs entirely on search-engine summaries.*** That is a property of the environment, not of the
+  evidence, and it caps what §2 will ever permit here. **Nothing modelled. No confidence moved. Forecast #7
+  still not re-weighted. No trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 on MBB stand. ⚠⚠ MBB'S
+  LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 06:53 ICT · INDEX (lane 4) — the FTSE eligible list was CUT FROM 32 TO 23 on 28-Apr-2026 data, and this
   file held NEITHER number. The holdings verdict survives and gets STRONGER; two of the gate row's excuses die.**
   *(Weekend — Vietnam and the US both closed. Lanes 1, 2, 3, 6 returned nothing this file did not already hold,
