@@ -83,6 +83,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠⚠ 23:53 ICT · PROCESS — NOTHING AN AUTOMATED SWEEP FINDS CAN EVER REACH `DECISION-BRIEF.md`. Verified in
+  the generator, not inferred. This reframes the week.**
+  **THE CHECK.** The routine instructs: *"Check `research/decisions/DECISION-BRIEF.md` against the five
+  escalation triggers."* **I have done that every sweep. Tonight I checked the reverse direction — whether
+  anything found this way can get INTO the brief.**
+  **THE ANSWER, FROM `decide.py` ITSELF.** Its complete set of reads is: `as_of · base_vol_annual · cash_yield ·
+  cluster · condition · confidence · corr_* · downside · evidence · exit_pe · fy26e_npat · ir · kill_criteria ·
+  max_* · min_position_pct · mu · mu_raw · npat_ttm · optimizer · pe_ttm · portfolio · positions · price ·
+  probs · risk_aversion_lambda · sectors · sigma · status · test · ticker · turnover_cost · valuation ·
+  weight_pct · _meta`. **A grep for uppercase prose keys in `decide.py` returns ZERO.**
+  **⚠⚠ SO EVERY DATED PROSE KEY THIS FILE HAS WRITTEN — hundreds of them — IS INERT AS FAR AS THE BRIEF IS
+  CONCERNED.** The trigger-3 firing on MBB, the eight defective criteria, the price staleness on all eight
+  names, the KDH criterion collision, the forecast register: **all of it lives in `monitoring-log.md`,
+  `OPEN-DECISIONS.md` and prose keys the generator does not read.**
+  **WHAT A BRIEF-ONLY READER SEES TONIGHT.** MBB ranked **#1 at +36.6% raw / +18.3% shrunk**, *"BUY MBB 6.5% →
+  13.3%"*, and **all seventeen kill criteria marked "armed."** **They would not see** that trigger 3 fired on
+  that name today (−10.58pp on a dated price), that trigger 5 fired on it eight days ago with the last cum
+  session on **Monday**, that the prices are fourteen days stale on every name, or that **nine of the seventeen
+  "armed" criteria cannot be run at all.**
+  **⚠ AND THE ENFORCEMENT SENTENCE IS ADDRESSED TO SOMEONE WHO ALREADY KNOWS.** The brief reads: *"A triggered
+  criterion is not a suggestion — it forces the resize at the next brief."* **But the only thing that can mark a
+  criterion TRIGGERED is `kill_criteria.status`, which is §4 human-only and which I have never touched** — line
+  372 of `decide.py` echoes that field verbatim into the "armed" column. **The sentence is correct and the
+  mechanism is correctly locked; the consequence is that the brief can only report an escalation a human has
+  already entered.**
+  **THE ONE AVAILABLE CHANNEL, IDENTIFIED AND DELIBERATELY NOT USED.** **`valuation.<TICKER>.evidence` IS read
+  by `decide.py` and printed verbatim into each row** — verified: MBB's evidence string appears in the brief
+  character-for-character. **It is not §4-locked and it is not in this sweep's guard list, so writing an
+  escalation banner into it is mechanically permitted.** **I have not done it.** `evidence` is prose that feeds
+  a human's judgement about a position, which puts it closer to the monitoring log than to `exit_pe` — and
+  **§5 says evidence bearing on a THESIS is escalated, not quietly worked into the artefact.** **Changing what
+  the decision document says about a position is a human's call, and it is now a specified one:** *the channel
+  exists, it is `evidence`, and the question is whether escalations belong in it.*
+  **WHY THIS IS THE WEEK'S MOST IMPORTANT PROCESS FINDING.** Not because the work was wasted — it is all
+  recorded, dated and reproducible — **but because the gap is a READING ORDER, and nothing in the repo states
+  it.** A reader who opens the brief believing it self-contained gets a coherent, confident, **fourteen-day-stale
+  picture with every criterion marked armed.** *The findings exist. The path from finding to decision does not.*
+  **Nothing modelled. No field touched. No NEW escalation trigger fires** — the 14:53 trigger-3 and the 06-Aug
+  trigger-5 both stand, and **MBB's last cum session is MONDAY 10-Aug.**
+
 - **22:53 ICT · FLOWS, TCX (lanes 4, 3) — a smaller hour than the last several, and said so. The session data
   is noise by this file's own standard; what is worth keeping is that ANOTHER of my "blocked" verdicts was too
   strong, and that is twice in one day.**
