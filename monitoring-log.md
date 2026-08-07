@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 11:53 ICT · VCI, BOOK-WIDE (lanes 3, 7) — I OVERSTATED IT AT 02:53. Item 2 is NOT structurally
+  unreachable, and the file already contained a dated price it never recognised as one. A method, not a fix.**
+  **THE CORRECTION FIRST.** At 02:53 I wrote that item 2 *"is structurally unreachable from this environment —
+  demonstrated this hour, not assumed"* and that **"more hourly sweeps will not close it."** **That was too
+  strong.** Price *pages* are blocked; **dated prices are not the same thing as price pages**, and they leak out
+  of transaction disclosures. **The blocked-host demonstration was real; the conclusion I drew from it was wider
+  than the evidence.**
+  **THE DEMONSTRATION, ON VCI.** Coverage of Tô Hải's registration gives **VCI's close on 27-Jul-2026 as
+  ₫18,450**, and a **28-Jul limit-up to ₫19,700**. Both hard and dated. And the arithmetic closes: **31.05m ×
+  ₫18,450 = ₫572.9bn against the source's stated ₫573bn.**
+  **⚠ AND THE FILE ALREADY HELD ONE WITHOUT KNOWING IT.** The 03-Aug 14:53 entry records the Tô Hải purchase as
+  *"about ₫612bn at the prices quoted."* **₫612bn ÷ 31.05m = ₫19,710 — which is the 28-Jul limit price of
+  ₫19,700.** **A dated price has been sitting inside a value the file wrote down four days ago, unrecognised
+  because it was recorded as a deal size rather than as a quote.**
+  **THE METHOD, AND IT IS THE REVERSE OF ONE THIS FILE ALREADY USES.** The file has twice recovered a **share
+  count from a disclosed ownership percentage** (KDH 0.056% → 1.838% on 01-Aug; VCI 174.3m/15.13% on 03-Aug).
+  **This is the same trick run backwards: a transaction VALUE divided by a share COUNT yields a dated PRICE.**
+  **And a third instance is already on file and equally unlabelled** — the VPX entry records *"a market cap of
+  47,625bn at a price of 25,400 on 12-Jun-2026"*, which is a dated price for VPX that item 2 never counted.
+  **WHAT IT SAYS ABOUT THE FILE'S PRICES — THREE DATED POINTS ON VCI, AND THEY BRACKET IT.**
+  **27-Jul ₫18,450 (file +11.1%) · 28-Jul ₫19,700 (file +4.1%) · 04-Aug ₫21,750 (file −5.7%).**
+  **The file's ₫20,500 sits BETWEEN the late-July and early-August observations** — which is exactly what a
+  24-Jul price should do if VCI fell into 27-Jul and recovered after. *One headline independently supports the
+  fall: Tô Hải registered **"sau nhịp giảm sàn"** — after a limit-DOWN session.* **So the 24-Jul presumption
+  survives on this name, and the staleness is real but two-sided rather than one-directional.**
+  **⚠ WHAT THIS DOES NOT DO.** It does not price the book: one name, three points, none of them today's, and the
+  04-Aug figure is still a search synthesis. **Item 2 remains open and still needs a human refresh or FiinQuant.**
+  **What changes is the claim that sweeps cannot help — they can, one dated transaction at a time, and the file
+  should be read for prices it already contains before it is declared blind.**
+  *Also checked, nothing new: VCI's IB pipeline (US$400–500m, five named mandates, IB revenue +40%) returned a
+  strict subset of the 05-Aug 15:53 entry; **no execution filing on the 31.05m insider purchase** (window 04-Aug
+  to 03-Sep, and the source dates it 03-Sep against the file's 02-Sep — a one-day discrepancy, flagged not
+  resolved); Q2 PAT ₫251bn is already on file.*
+  **Nothing modelled — `price` is a guarded §4 field and was not touched on any name. No confidence moved. No
+  escalation trigger fires.** Item 2 annotated.
+
 - **⚠⚠⚠ 10:53 ICT · KDH (lane 3) — THE "DECISIVE TEST" SERIES HAS ITS H1 PRINT AND THE FILE DID NOT HAVE IT.
   CUSTOMER ADVANCES ARE ₫398.9bn AGAINST A ₫1,000bn THRESHOLD. And a headline that looks like the OTHER
   criterion breaching is refused — because it is the wrong measure.**
