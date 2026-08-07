@@ -83,6 +83,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠⚠ 14:53 ICT · MBB, HPG — ESCALATION TRIGGER 3 FIRES ON MBB. And I must correct the claim I have made for
+  three consecutive hours: the measured price gaps are NOT all small. Two names run at ~7.75%.**
+  **THE TWO OBSERVATIONS, AND THE CROSS-CHECKS ARE THE STRONGEST YET.**
+  **MBB — ₫23,900 on 06-AUG-2026, market cap ₫192,514.5bn.** The two divide to **8,055,000,000 shares against
+  the file's 8,055,000,000 — EXACT, to the unit.** *Freshest observation in the book: yesterday.*
+  **HPG — ₫22,550 on 03-AUG-2026, market cap ₫190,388.8bn**, dividing to **8,442,962,306 against 8,443,000,000
+  — −0.0004%.** Par guard passed on both.
+  **⚠⚠ AND HERE IS THE CORRECTION I OWE.** At 11:53, 12:53 and 13:53 I wrote that every measured gap was **under
+  2.5%** and that the staleness was "small where it can be measured." **That was true of TCB (−2.34%), KDH
+  (+1.1%) and VCI (bracketed). It is false as a general claim. MBB is 7.74% low and HPG is 7.76% low.** The
+  dispersion I kept citing as a reason to doubt the uniform +4.63% conditional is real — **but it runs the other
+  way on the two names I had not yet measured, and one of them is the engine's #1.**
+  **⚠⚠⚠ TRIGGER 3 — "any name's expected return moves >10pp." MBB: raw +36.69% → +26.11%, a −10.58pp move.
+  THAT CLEARS THE THRESHOLD.** Shrunk **+18.34% → +13.05%.** *(Engine reproduced exactly first — +36.69/+18.34
+  against the brief's +36.6/+18.3.)*
+  **THE INTERPRETIVE POINT, STATED RATHER THAN GLOSSED: this is a STALE-INPUT CORRECTION, not a market move.**
+  MBB's E[r] did not fall; **it was overstated by 10.58pp because `price` is fourteen days old.** Whether that
+  counts as a "move" under §4 is a judgement — **but it is precisely the situation trigger 3 exists to surface,
+  and reporting it as anything less would be hiding behind the wording.**
+  **AND IT COMPOUNDS WITH THE TWO OTHER KNOWN DEFECTS ON THE SAME NAME:**
+  **as filed +36.69% · price marked to 06-Aug +26.11% (−10.58pp) · plus the 11-Aug rights +21.04% (−15.64pp) ·
+  plus crediting item 3's unrecorded 4.54% cash yield +25.58% (−11.10pp net).**
+  **⚠ EVEN AFTER GIVING MBB THE CASH YIELD IT IS OWED, THE NET IS −11.10pp AND STILL CLEARS THE THRESHOLD.**
+  That is the robust form: the trigger does not depend on which of the three defects you fix first.
+  **HPG — BELOW THRESHOLD BUT THE SIGN FLIPS.** Raw **+6.38% → −1.88%**, a **−8.26pp** move on **16.8%** of the
+  book. **Trigger 3 does NOT fire on HPG**, and that is stated rather than stretched — but a positive expected
+  return becoming negative on the third-largest position is not nothing.
+  **AND IT UPDATES MY OWN 18:53 ARITHMETIC.** The theoretical ex-all price for MBB was computed there as
+  **₫18,440** off the stale ₫22,050. **On the dated price it is ₫19,920.** *The post-ex trap is unchanged in
+  proportion — refreshing price without shares still understates cap_now by exactly 20.0% — because that error
+  is structural, not price-dependent.*
+  **THE RANKING'S ORDER SURVIVES; ITS MAGNITUDE DOES NOT.** MBB stays #1 on any of these readings (shrunk
+  +13.05% or +12.79% against TCB's marked +1.12% and HPG's marked −1.41%). **What changes is that the engine's
+  headline conviction on its largest proposed add is roughly a third smaller than the brief states.**
+  **ITEM 2 IS NOW MEASURED ON SIX OF EIGHT NAMES — 83.5% of the book: TCB −2.34% · KDH +1.1% · HPG −7.76% ·
+  MBB −7.74% · VCI bracketed · VPX 12-Jun. Unmeasured: VPB 10.0%, TCX 5.5%.** **The gaps do not share a sign and
+  they are not uniform — the file is late on the two large names that moved most.**
+  **Nothing modelled — `price`, `cash_yield`, `probs`, `exit_pe`, `fy26e_npat` are all guarded §4 fields and
+  none was touched. No confidence moved.** **⚠ THE ESCALATION IS THE OUTPUT: a human refreshing MBB's price today
+  would see the book's largest proposed add fall 10.58pp raw, and 15.64pp once Monday's rights land.**
+
 - **⚠⚠ 13:53 ICT · TCB, BOOK-WIDE — A HARD DATED PRICE ON THE 35% POSITION, cross-checked to the share count at
   SIX PARTS PER MILLION. And item 3 stops being a convention argument and gets an exact price.**
   **THE PRICE.** **TCB closed 03-Aug-2026 at ₫29,950 with a market capitalisation of ₫212,232.9bn.** Two
