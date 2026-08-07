@@ -83,6 +83,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 18:53 ICT · CALIBRATION — enumerated the forecast register and there ISN'T ONE. Two live forecasts sit
+  off the scoreboard entirely, on the file the repo calls its most important.**
+  **THE CLAIM BEING TESTED IS THE LOG'S OWN.** `calibration-log.md` opens: *"Every forecast that enters
+  `assumptions.json` gets scored here when reality lands"* and *"Why this file is the most important one in the
+  repo."* **I ran that as an enumeration rather than taking it on trust** — the same move as the 06-Aug 08:53
+  absence audit and the 07:53 criteria audit.
+  **THE RESULT.** Forecast IDs referenced anywhere in the repo: **#1, #2, #4, #7, #8, #10** (plus #9, mentioned
+  once inside the log and never registered as a forecast anywhere).
+  **SCORED IN THE LOG: #1, #2, #4, #10** — MISS, MISS, MISS, HIT.
+  **⚠⚠ #7 AND #8 ARE REFERENCED FIVE AND THREE TIMES IN `assumptions.json` AND APPEAR ZERO TIMES IN THE
+  CALIBRATION LOG.** Both are live, dated and probabilistic:
+  **#7 — the TCX FTSE event: +20% (p=0.35) / +5% (p=0.45) / −15% (p=0.20), EV +6.25%. Resolves ~21-OCT-2026 —
+  75 days out, on a 5.5% position.**
+  **#8 — CAEX licence granted ~Q3 at p=0.40. Resolves by 30-SEP-2026 — 54 days out, on VPX (2.8%).**
+  *The file already knows about #8: a 05-Aug entry records it as "OPEN AND UNSCORED… 56 days left to resolve",
+  and 05-Aug + 56 = 30-Sep exactly. **It knew, in the ticker block. The scoreboard still does not.***
+  **⚠ AND #3, #5, #6 AND #11 EXIST NOWHERE IN THE REPO.** The numbering is not contiguous, which means either
+  forecasts were assigned IDs and never written up, or the sequence was never meant to be dense — **and nothing
+  in the repo says which, because THERE IS NO REGISTER.** Forecast IDs are minted in prose and scored in prose.
+  **The only way to learn how many forecasts exist is to grep, which is what this entry did.**
+  **WHY THIS MATTERS MORE THAN A HOUSEKEEPING NOTE.** The log's stated purpose is that *"calibration measures
+  only the manager"* and turns *"I have a process"* into *"I have an edge."* **An edge is a hit rate, and a hit
+  rate computed over a set you cannot enumerate is not a measurement.** The scoreboard currently reads **1 hit,
+  3 misses**; **two of the open forecasts are not in the denominator, and both resolve inside eleven weeks.**
+  *Neither is scored here, and must not be — neither has resolved. What is recorded is that they are missing
+  from the instrument that is supposed to be tracking them.*
+  **ACTION TAKEN, AND ITS LIMIT.** A dated **FORECAST REGISTER** has been appended to `calibration-log.md`
+  enumerating all six known IDs with their status and resolution dates. **That is additive and within scope —
+  `calibration-log.md` is not among the §4 locked files and this sweep appends to it every hour.** **What is NOT
+  done: no forecast was scored, no probability re-weighted, no ID invented for #3/#5/#6.** *Re-weighting #7 now
+  on evidence about FTSE mechanics is exactly the post-hoc adjustment pre-registration exists to prevent — the
+  file says so itself, and that stands.*
+  **Nothing modelled. No confidence moved. No escalation trigger fires.**
+
 - **⚠⚠ 17:53 ICT · HPG (lane 6) — the steel peers tested the spread thesis from OUTSIDE, and the result rules
   out the explanation that would have been bad for HPG. The file held nothing on either peer's results.**
   **THE GAP FIRST: `NKG`, `Nam Kim`, `Hoa Sen` and `HSG` return exactly ONE hit in `assumptions.json`** — a

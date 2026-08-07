@@ -727,3 +727,34 @@ made and caught — they were real and they are worth not repeating._
 | 2026-08-07 | **The useful finding was a negative one, and it is stronger than the positive version.** NKG **+3.40pp** and HSG **+2.43pp** of gross margin in the same quarter HPG's core NPAT/tonne rose 7.2%. **If HPG's gain had come from pricing into its own customers, theirs would have compressed. It did not — so the zero-sum explanation is excluded.** *The mechanism (falling inputs) is inferred; the simultaneity is established.* **Ruling out the reading that would have made HPG's quarter reversible beats asserting the one that makes it durable.** |
 | 2026-08-07 | **Recorded the street's miss without scoring it as mine.** VCBS forecast HPG Q2 growth at **+25%** with both peers *"hụt hơi"*; **actual +50.9%, 2.04× the forecast, and both peers grew.** **Logged as context on positioning, explicitly not as a scored forecast** — the calibration log is for this file's predictions, and importing someone else's hit rate would corrupt it. |
 | 2026-08-07 | **Second independent line on the same criterion in one day, and neither was designed to test it.** HPG's *"core NPAT/tonne < ₫1.25m for two consecutive quarters"* was **run to a verdict at 07:53 (₫1.682m and ₫1.803m — passed)** and is now supported from outside by the peers' margin expansion. **Convergence from methods that share no inputs is the same pattern that made item 26's H2 shape credible** — three routes there, two here. |
+
+---
+
+## FORECAST REGISTER — appended 2026-08-07 18:53 ICT
+
+**Why this exists: there was no register.** Forecast IDs were minted in prose and scored in
+prose, so the only way to enumerate them was to grep the repo — which is how the two gaps
+below were found. **A hit rate computed over a set you cannot enumerate is not a measurement.**
+
+| ID | Forecast | Status | Resolves |
+|---|---|---|---|
+| **#1** | KDH Q2/2026 | **MISS** — scored; "close to unfalsifiable as written" | resolved 29-Jul |
+| **#2** | HPG Q2 core NPAT/tonne | **MISS** — scored | resolved 29-Jul |
+| **#3** | *no trace anywhere in the repo* | **UNKNOWN** | — |
+| **#4** | MBB Q2/2026 | **MISS**, high side; pre-registered read wrong | resolved 31-Jul |
+| **#5** | *no trace anywhere in the repo* | **UNKNOWN** | — |
+| **#6** | *no trace anywhere in the repo* | **UNKNOWN** | — |
+| **#7** | **TCX FTSE event — +20% (p=0.35) / +5% (p=0.45) / −15% (p=0.20), EV +6.25%** | **⚠ OPEN — NOT IN THIS LOG BEFORE TODAY.** Referenced 5× in `assumptions.json` | **~21-Oct-2026** |
+| **#8** | **CAEX licence granted ~Q3, p=0.40** | **⚠ OPEN — NOT IN THIS LOG BEFORE TODAY.** Referenced 3× in `assumptions.json`; a 05-Aug entry there records it as *"open and unscored, 56 days left"* | **by 30-Sep-2026** |
+| **#9** | VCI, 9M PBT ≥ 55% of FY target, conf 0.65 | OPEN — mentioned once in this log, never registered as a forecast elsewhere | with Q3 statements (~Oct) |
+| **#10** | US rebar AD/CVD final | **HIT**, and right for the stated reason | resolved 29-Jul |
+
+**Scoreboard as it stands: 1 hit, 3 misses, 3 open (#7, #8, #9), 3 unknown (#3, #5, #6).**
+**Two of the three open forecasts were not in the denominator until today, and both resolve
+inside eleven weeks.**
+
+**Not done here, deliberately:** nothing was scored (nothing has resolved), no probability was
+re-weighted, and no ID was invented for #3/#5/#6. *Re-weighting #7 now on evidence about FTSE
+mechanics is the post-hoc adjustment pre-registration exists to prevent — `assumptions.json`
+says so itself, and that stands.*
+
