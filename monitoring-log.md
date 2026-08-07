@@ -21,7 +21,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
-| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **The 28-name list on file is INDICATIVE and built on 31-Dec-2024 data — twenty months stale.** Of this book: **IN — HPG, KDH, VCI (40.2%). ABSENT though screenable — TCB, VPB, MBB (51.5%). ABSENT but listed AFTER the screen date, so uninformative — TCX, VPX (8.3%).** **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
+| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **⚠ CORRECTED 08-Aug 06:53 — the "28-name list built on 31-Dec-2024 data" was WRONG on both counts.** FTSE published an **indicative 32** on ~08-Apr-2026 and then **CUT it to 23 on 28-Apr-2026 data** (removed: SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC; 32 − 9 = 23 checks). Of this book: **IN — HPG, KDH, VCI (40.2%), and they survived a screen on liquidity, free float, market cap and foreign accessibility, which is stronger than the indicative list they were previously "in" on. ABSENT — TCB, VPB, MBB (51.5%), now against a FOUR-month-old screen, not a twenty-month-old one. ABSENT — TCX, VPX (8.3%); the old excuse "listed after the screen date" DIES at 28-Apr-2026, and whether their absence is informative now turns on FTSE's LISTING-HISTORY requirement — NOT established, NOT guessed.** T4: four Vietnamese outlets, no primary reachable (six hosts egress-blocked incl. lseg.com). **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
@@ -82,6 +82,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-08
+
+- **⚠⚠ 06:53 ICT · INDEX (lane 4) — the FTSE eligible list was CUT FROM 32 TO 23 on 28-Apr-2026 data, and this
+  file held NEITHER number. The holdings verdict survives and gets STRONGER; two of the gate row's excuses die.**
+  *(Weekend — Vietnam and the US both closed. Lanes 1, 2, 3, 6 returned nothing this file did not already hold,
+  and three of those checks are worth naming because each was a near-miss re-report: **MBB's capital action** —
+  1,208.25m stock-dividend shares (₫12,082.5bn) + 805.5m rights at ₫10,000 (₫8,055bn) → charter capital
+  ₫80,550bn → ₫100,687.5bn — is already recorded to the dong, ex-date and all. **CORE circumvention** — the
+  Indonesia-finished / Vietnamese-substrate subject, the 24-Aug *intention*, the statutory outer bound — already
+  recorded. **SBV Decision 1743** loosening the LDR treatment of State Treasury term deposits from 01-Aug-2026 —
+  already recorded, including the 80%→50% *deduction* vs 20%→50% *counting* ambiguity the file caught itself on.
+  Three lanes, three items that read like news and were not.)*
+  **WHAT THE FILE HELD.** `tcx.actuals.ftse_stocks_included = 28` — **a bare integer with no as-of date, no
+  source and no roster** — plus a gate row in this log describing *"the 28-name list … built on 31-Dec-2024 data
+  — twenty months stale."*
+  **WHAT ACTUALLY HAPPENED.** (1) **~08-Apr-2026**: FTSE published an **indicative list of 32** names with
+  weights. (2) On **28-Apr-2026 data** it **narrowed that list to 23**, reported ~07-May. **Nine removed** —
+  SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC — on stated criteria of **liquidity, free float, market cap and
+  foreign accessibility**. **The surviving 23:** VIC, HPG, VHM, FPT, MSN, SSI, VNM, STB, VCB, VJC, VRE, VIX,
+  NVL, VCI, SHB, GEX, VND, KBC, KDH, BID, DGC, BSR, GEE. **The one internal test available on a T4 source
+  passes: 32 − 9 = 23 exactly.**
+  **WHAT SURVIVES, AND IS BETTER EVIDENCE THAN BEFORE.** **HPG, VCI and KDH are all in the 23 — 40.2% of this
+  book.** The file already believed they were in, but on a *stale indicative* list; they have now cleared a
+  screen that **removed 28% of the names** on exactly the criteria an indicative list cannot test. *Same
+  conclusion, better evidence — and that is the whole value of the hour.*
+  **WHAT IS RETIRED — two excuses, not one.** The gate row's **"twenty months stale / 31-Dec-2024 data"** is
+  wrong: the binding screen is **28-Apr-2026**. So **TCB, VPB and MBB (51.5%)** are absent from a screen four
+  months old, not twenty. And the row's excuse for **TCX and VPX (8.3%)** — *"listed AFTER the screen date, so
+  uninformative"* — **dies with it.** ⚠ But the replacement question is **not** answered here: does FTSE require
+  a minimum **listing history**, and did TCX meet it on 28-Apr? *Absence from a screen a name may not have been
+  eligible to enter is weaker than absence from one it was.* **That is the next question, not an answer.**
+  **FORECAST #7 IS DELIBERATELY NOT RE-WEIGHTED.** The TCX tree (+20% p=0.35 / +5% p=0.45 / −15% p=0.20, EV
+  +6.25%) is pre-registered, and this file recorded on 07-Aug that *"re-weighting #7 now on FTSE-mechanics
+  evidence is the post-hoc adjustment pre-registration exists to prevent."* **21-Aug publishes the final list
+  and resolves it cleanly in eleven sessions.** Logging evidence that points one way and declining to move the
+  weights is the whole point.
+  **EVIDENCE TIER: T4, AND NO PRIMARY WAS REACHABLE.** Four independent Vietnamese outlets carry the same 23 and
+  the same removed-nine. **`lseg.com`, `theinvestor.vn`, `cafef.vn`, `vneconomy.vn`, `nhadautu.vn` and even a
+  WordPress mirror are all egress-blocked** — six hosts, one lane. Per charter §2 a press report of a screen is
+  not the screen, so **no confidence moved.**
+  **AND IT IS THE FOURTH ANNOTATION DEFECT OF THE WEEK, IN A DIFFERENT FILE SECTION.** Bridge §9: a price with
+  no stated **delivery basis**. 03:53: a basis with no reconcilable **date**. 05:53: a row with no
+  **held-constant set**. Here: **a count with no as-of date and no roster** — which is exactly why a number
+  three months and nine names out of date sat unchallenged inside the model file. ***The defect is never the
+  number; it is the missing label that stops anyone from checking the number.***
+  **The raw `28` is left in place deliberately** — its provenance cannot be checked from here and **no script
+  reads it** (`run.py` touches only `ftse_event_tree`; `decide.py` touches no FTSE key at all), so overwriting a
+  fact on T4 press would swap a known-stale number for an unverifiable one. It is instead made *unreadable
+  alone* by a sibling key. **Nothing modelled. No trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 on
+  MBB both stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
 
 - **⚠ 05:53 ICT · HPG — tested the bridge's own internals after last hour's defect and it PASSES to ~5%. The
   machinery is sound; the annotation is not. That bounds the damage from 03:53 and finds one more of the same
