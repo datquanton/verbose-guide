@@ -83,6 +83,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 04:53 ICT · MACRO — the US close, read at 114 minutes as pre-registered. And it CORRECTS the mechanism I
+  wrote nine hours ago: the market repriced HIKE risk down, not cut odds up. Right direction, wrong reason.**
+  **THE CLOSE, FRIDAY 07-AUG.** **S&P +0.62% to 7,757.64 — a RECORD HIGH** — Dow +0.28% to 54,036.93, Nasdaq
+  +1.30% to 26,690.62, **on a payroll print of −23,000.** For the week: **S&P +3.58%, Nasdaq +5.19%, Dow +2.96%.**
+  **Yields fell: 10-year −1bp to 4.654%, 2-year −4bp to 4.204%. DXY −0.3% to 99.60**, euro to a seven-week high
+  of $1.1567. *(Consensus cited as Reuters +80k against the Dow Jones +83k used at 19:53 — the miss is 103–106k
+  either way.)*
+  **⚠⚠ THE CORRECTION, AND IT IS TO MY OWN WORDS FROM 19:53.** That entry read: *"a payroll contraction raises
+  Fed-CUT expectations, which weakens the dollar, which eases EM FX pressure."* **The coverage says the opposite
+  three separate times:** *"dampened expectations the Federal Reserve would **RAISE** interest rates at its
+  September meeting"* · *"the Fed **won't need to RAISE** rates soon and can leave policy on hold"* ·
+  *"reduces Fed **HIKE** expectations."*
+  **THE MARKET DID NOT PRICE CUTS. IT PRICED THE REMOVAL OF A HIKE.** **And the levels corroborate it: the
+  2-year at 4.204% under a 10-year at 4.654% is an upward-sloping curve around a policy rate with no near-term
+  easing in it.** **The dollar fell either way — DXY 99.85 on 05-Aug to 99.60, −0.25% — so the DIRECTION I gave
+  was right and the MECHANISM was not.** **By this file's own convention, right-for-the-wrong-reason is recorded
+  as a failure, and it is recorded here.**
+  **⚠ AND THE CONSEQUENCE IS NOT COSMETIC.** The 19:53 entry implied the loosening side of the SBV's two-sided
+  constraint. **On the correct mechanism, the constraint STOPS TIGHTENING; it does not loosen.** **"SBV gains
+  room to cut" does not follow from "the Fed is less likely to hike,"** and the file has been carrying a
+  cutting-cycle framing on the US leg that the market is not pricing. *That framing appears in the 05-Aug 22:53
+  DXY note and again at 19:53 yesterday; both should be read with this correction attached.*
+  **THE REGIME, NAMED PLAINLY: an equity record high on a contracting payroll print is "bad news is good news."**
+  **Equities rallied because the hike went away, while the 10-year still sits at 4.654%.** **That is not an
+  easing environment; it is a not-tightening one, and the two have different implications for bank margins and
+  for EM FX.**
+  **STILL ENVIRONMENT, NOT EVIDENCE.** The standing rule since 04-Aug holds — **US macro is environment, not
+  evidence about any of the eight** — and nothing here moves a model input. **What changed is the accuracy of
+  the sentence the file uses to describe the channel, and that is worth more than the levels.**
+  **Nothing modelled. No confidence moved. No escalation trigger fires** — the 14:53 trigger-3 and 06-Aug
+  trigger-5 on MBB stand, and **MBB's last cum session is MONDAY 10-AUG.**
+
 - **⚠⚠ 03:53 ICT · HPG (lane 5) — went to update the coal leg and found the file's OWN note does not reconcile.
   Four coal figures are in circulation spanning $29/t, which is 17.0% of HPG's base-case FY NPAT. No delta
   computed; the finding is the spread and the defect.**
