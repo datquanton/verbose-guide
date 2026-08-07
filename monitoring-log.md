@@ -83,6 +83,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 21:53 ICT · VPB — the foreign placement has a PRICING FLOOR, which turns one of the three "conditional"
+  criteria into a decidable one — and the file cannot decide it, because it holds no equity figure for VPB. The
+  29-Aug gate now unblocks THREE things on this name, not two.**
+  **THE STRUCTURE.** VPB's capital plan runs in two phases: **Phase 1**, the 26% stock dividend, ₫79,339bn →
+  ₫100,000bn, slated Q2–Q3; **Phase 2**, a private placement of **more than 624 million shares to ONE foreign
+  investor**, taking charter capital to **~₫106,244bn**, expected **Q3–Q4 2026**. **Foreign ownership could
+  reach 34%** — above the standard 30% bank ceiling, which implies a dispensation of the kind granted to banks
+  that absorbed a weak institution. *(Same mechanism class as MBB's 30–35% credit allowance; noted, not
+  equated.)*
+  **⚠⚠ THE FLOOR, AND IT IS THE FINDING.** The approved plan states the price is set by direct negotiation but
+  **"will not be lower than the book value of VPBank shares at the nearest time, based on the consolidated
+  financial report of the quarter prior to the offering."** **The issuer has bound its own downside to book
+  value.**
+  **WHY THAT MATTERS: IT PARTLY DECIDES AN ARMED CRITERION I CLASSIFIED AS CONDITIONAL SIX HOURS AGO.** VPB's
+  test is *"Placement prices badly — foreign placement executed > 15% below market."* At 07:53 I filed it under
+  CONDITIONAL because **"market" is undefined** — close? VWAP? which date? **That part stands.** **But the
+  DOWNSIDE is no longer open-ended: the price cannot go below book value.**
+  **SO THE CRITERION REDUCES TO ONE COMPARISON.** On the dated 03-Aug price of **₫25,150**, a 15% discount is
+  **₫21,378**. **The criterion can only fire if book value per share is below ₫21,378 — i.e. if VPB's
+  consolidated equity is below ₫169,607bn** (on 7,933.9m shares) — **and even then only if the placement
+  actually prices at the floor rather than above it.**
+  **⚠ AND THE FILE CANNOT RUN THAT COMPARISON.** **`equity` exists for exactly one name in `assumptions.json` —
+  TCX (₫45,782bn). VPB has none.** A search returned no consolidated equity figure; the sources point to the
+  H1 statements themselves.
+  **⚠⚠ WHICH SHARPENS ITEM 37 FROM TWO TO THREE.** That item records *"one field unblocks two things"* — FE
+  Credit's NPL and loan balances, needed to bound the coverage gap **and** to test the FE Credit criterion.
+  **The same 29-Aug consolidated reviewed statements also carry VPB's shareholders' equity, which is what the
+  placement criterion needs. ONE STATEMENT, THREE UNBLOCKS**, on a 10.0% position with two armed criteria that
+  currently cannot be run.
+  **A SECOND, SMALLER DATUM, RECORDED WITH ITS ARITHMETIC.** Coverage puts VPB's **Q2 consolidated PBT at
+  ~₫11,000bn**. Against the file's **H1 ₫18,880bn** that implies **Q1 ≈ ₫7,880bn and Q2/Q1 = 1.40×** — a sharp
+  intra-half acceleration the file does not hold as a quarterly split (`h1_pbt` is the only PBT field). *Recorded
+  as derived, and the "gần 11.000" is a rounded press figure, so the implied Q1 carries that rounding.*
+  **Nothing modelled. No confidence moved. No escalation trigger fires** — the placement has not priced, and a
+  criterion whose reference price is undefined cannot fire on a floor alone. **The 14:53 MBB trigger-3 and the
+  06-Aug trigger-5 escalations both stand.**
+
 - **⚠⚠ 20:53 ICT · MBB — THE RIGHTS ARE TRANSFERABLE, AND THAT CORRECTS MY OWN 06-Aug 18:53 FRAMING ON THE
   LIVE TRIGGER-5 ITEM. There is a THIRD option and it is worth ₫992 a right, with a HARD deadline of 26-Aug.**
   **WHAT IS NEW.** MB's offering carries a **rights TRANSFER window of 18-Aug to 26-Aug-2026**, inside the
