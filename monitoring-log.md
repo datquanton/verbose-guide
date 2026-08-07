@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠⚠ 10:53 ICT · KDH (lane 3) — THE "DECISIVE TEST" SERIES HAS ITS H1 PRINT AND THE FILE DID NOT HAVE IT.
+  CUSTOMER ADVANCES ARE ₫398.9bn AGAINST A ₫1,000bn THRESHOLD. And a headline that looks like the OTHER
+  criterion breaching is refused — because it is the wrong measure.**
+  **THE NUMBER. `398.9` appeared zero times in `assumptions.json` and zero times in this log.** KDH's short-term
+  customer advances — *người mua trả tiền trước ngắn hạn* — stand at **₫398.9bn at 30-Jun-2026**, down from
+  **₫648.3bn at 1-Jan (−38.5%)**. *Source arithmetic self-checks: 648.3 × 0.615 = 398.7 against the stated 398.9.*
+  **AND IT RECONCILES WITH THE FILE RATHER THAN CONTRADICTING IT.** `customer_advances` on file is **688.6 — the
+  Q1 figure**, and the source's base is **648.3 at 1-Jan**. Different periods, both true: **₫648.3bn (1-Jan) →
+  ₫688.6bn (31-Mar) → ₫398.9bn (30-Jun). The series rose in Q1 and then fell 42.1% in Q2.**
+  **⚠⚠ THIS IS THE SERIES THIS FILE ITSELF PRE-REGISTERED AS THE ONE THAT MATTERS.** `_Q2_PRE_REGISTERED_READ`
+  reads: *"Customer advances (688.6bn at Q1) matter more than profit — that is the forward-looking series and
+  the armed kill criterion."* **The criterion is *"customer advances < ₫1,000bn at 3Q26 with Gladia Heights
+  launched"*, carried as "armed — the decisive test," and Gladia HAS launched.**
+  **WHERE IT STANDS: ₫398.9bn is 39.9% of the ₫1,000bn bar, and falling. To clear it at 3Q26 the balance must
+  rise 2.51× in a single quarter.** **⚠ NOT FIRED — the criterion tests at 3Q26 and that quarter has not closed.**
+  But this is one of only five criteria that can actually be run, its measurement date is one quarter away, and
+  **the series is moving hard in the wrong direction while the company books disposal gains.**
+  **⚠ AND NOW THE REFUSAL, WHICH MATTERS AS MUCH AS THE FINDING.** The same coverage reports **total liabilities
+  of ₫19,497bn at 30-Jun, +51% from ₫12,910bn** — a figure that sails past the other criterion's *"debt >
+  ₫18tn."* **IT IS NOT USED, BECAUSE IT IS THE WRONG MEASURE.** *Tổng nợ phải trả* includes trade payables,
+  accruals, taxes and customer advances themselves. **The file already holds the right number: bank debt
+  ~₫16,500bn at H1** (`bank_debt_total`), **₫1,500bn BELOW the ₫18tn threshold. That criterion is NOT crossed.**
+  **This is the fifth time this week a broader measure has been offered in place of a criterion's actual
+  subject** — after VPB credit-vs-loans, MBB P&L-vs-ROE, HPG DQ2-vs-group-HRC and VCI foreign-vs-total share.
+  **A press headline that looks like a breach is not one.**
+  **⚠ THOUGH THE HEADROOM IS THIN, AND THIS IS FLAGGED AS AN EXTRAPOLATION, NOT A FORECAST.** Borrowings rose
+  **₫6,500bn in H1 (~₫3,250bn/quarter)**; **₫1,500bn of headroom is 0.46 of a quarter at that pace.** *Whether
+  the pace continues is unknown and is not assumed.*
+  **THREE THINGS NOW CONVERGE ON Q3/2026 FOR A 20.3% POSITION:** the customer-advances test at ₫398.9bn against
+  ₫1,000bn · bank debt at ₫16,500bn against an ₫18tn line with under half a quarter of headroom at the H1 pace ·
+  and **the remaining ~₫1,675bn of the Bình Trưng Mới transfer, contracted to complete by Q3** (06:53 today).
+  **Inventory is the fourth strand and is already on file — ₫29,488bn, +27% YTD: unsold product accumulating
+  while the sales line collapses.**
+  **Nothing modelled. No criterion status changed (§4). No confidence moved** — T5 press on a filed statement.
+  **No escalation trigger fires: the decisive test is a 3Q26 measurement and Q3 has not closed.**
+
 - **⚠ 09:53 ICT · HPG (lanes 3, 5) — went to close one of yesterday's four CONDITIONAL criteria and it got
   WORSE, not better. The nameplate is established; the criterion is now NOT TESTABLE for a new reason, and the
   audit's headline flips to a majority.**
