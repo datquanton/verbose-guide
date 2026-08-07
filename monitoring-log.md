@@ -83,6 +83,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 07:53 ICT · BOOK-WIDE — STOPPED FINDING DEFECTIVE CRITERIA ONE PER SWEEP AND AUDITED ALL SEVENTEEN.
+  FEWER THAN ONE IN THREE CAN ACTUALLY BE RUN. And the first criterion of the week is tested and PASSED.**
+  **WHY NOW.** Seven defective armed criteria have been found since 02-Aug, each by tripping over it. **The
+  06-Aug 08:53 field-versus-prose audit established the better move — run the pattern as a test rather than wait
+  to hit it again.** This does that for `kill_criteria`. **No search was used; it is entirely internal.**
+  **THE TALLY — 17 armed criteria across eight names.**
+  **TESTABLE — 5 of 17 (29%):** TCB Q3 NIM < 3.25% · TCB RE share > 32% · **HPG core NPAT/tonne < ₫1.25m** ·
+  KDH customer advances < ₫1,000bn at 3Q26 · VCI 9M PBT < 55% of target. *Every term defined, every input
+  disclosed.*
+  **NOT TESTABLE — 8 of 17 (47%):** TCB *"Masterise bond event"* (**three** undefined terms — "Masterise",
+  "bond event", "NPL formation"; and ₫44,500bn of *successful* issuance satisfies the literal words) · VPB FE
+  Credit 3.0% (needs a book >₫410,533bn = 35.4% of consolidated for it *not* to be firing) · MBB MBV drag
+  (entity is profitable; measures P&L when the cost is ROE) · KDH *"debt > ₫18tn without a matching pre-sale
+  step-up"* ("matching" and "step-up" both undefined) · **KDH "operating PBT" (found 06:53 today — two readings,
+  opposite answers)** · VPX FVTPL gross-vs-net · VPX 5-licence cap (field cut by screening, cap not binding) ·
+  VCI foreign brokerage share (measure not held).
+  **CONDITIONAL — 4 of 17 (24%):** VPB placement *"15% below market"* (needs a reference-price convention —
+  close? VWAP? which date?) · HPG *"85% of nameplate"* (nameplate not on file) · TCX *"P/B < 2.0× on unchanged
+  earnings"* (the qualifier is ambiguous if P/B falls because earnings *rose*) · TCX foreign accumulation
+  post-21-Sep (measurable in principle, source blocked here).
+  **⚠ THE HEADLINE: 8 of 17 cannot be run at all, and only 5 can be run cleanly. The defect rate is not a
+  sequence of unlucky cases — it is the majority state of the instrument.** *This is the same shape as the
+  06-Aug audit, which found 129 absence claims and 5 cross-block, 3 stale.*
+  **AND THE FIRST CRITERION ACTUALLY TESTED THIS WEEK — HPG, AND IT PASSES.** *"Core NPAT/tonne < ₫1.25m for two
+  consecutive quarters."* **The file's own convention reproduces exactly:** `q1_core_npat` 5,046 ÷ (h1 6.5 − q2
+  3.5 = 3.0mt) = **₫1.682m/t**, matching the file's stated Q1 core to three decimals. **Q2: core 11,357 − 5,046
+  = ₫6,311bn ÷ 3.5mt = ₫1.803m/t.** **Both quarters are 35% and 44% ABOVE the threshold. NOT MET, and not
+  close.** **This is the first of the seventeen that has been run to a verdict rather than found broken** — and
+  it matters that the verdict is a pass, because seven consecutive defect findings make it easy to assume the
+  whole set is rotten. **It is not; 29% of it works.**
+  **WHAT THIS CHANGES FOR THE HUMAN.** Item 26 has been "the most valuable human task in the repo." **On this
+  audit the criteria set is a competitor for that title, because it is cheaper: eight criteria need a definition,
+  not an analysis, and three of the four conditionals need only a stated convention.** **Defining terms is an
+  afternoon; rebuilding branches is a project.** *§4 human-only — nothing here is a proposal to edit them.*
+  **Nothing modelled. No criterion status changed. No confidence moved. No escalation trigger fires.** New item 44.
+
 - **⚠⚠⚠ 06:53 ICT · KDH (lane 3) — THE MECHANISM BEHIND KDH'S RECORD QUARTER IS NOW EXPLICIT, AND IT COLLIDES
   WITH AN ARMED KILL CRITERION ON THE SECOND-LARGEST POSITION (20.3%). THE CRITERION CANNOT BE ADJUDICATED —
   ITS TWO NATURAL READINGS GIVE OPPOSITE ANSWERS. THIS IS AN ESCALATION, NOT A DECLARATION.**
