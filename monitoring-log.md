@@ -83,6 +83,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 03:53 ICT · HPG (lane 5) — went to update the coal leg and found the file's OWN note does not reconcile.
+  Four coal figures are in circulation spanning $29/t, which is 17.0% of HPG's base-case FY NPAT. No delta
+  computed; the finding is the spread and the defect.**
+  *(US closed 53 minutes ago — inside this file's measured >54min bracket, so the close is deferred to 04:53 on
+  the precedent set at 03:53 yesterday. Vietnam is closed for the weekend.)*
+  **⚠ THE DEFECT, IN THE FILE'S OWN WORDS.** `hpg.model.spread_bridge_2026_07_26._BOTH_INPUTS_VERIFIED` reads:
+  *"Coking coal SPOT 228 (PHCC FOB Australia, **−24% MoM from 238.9 on 10-Jul**) vs 220 modelled."*
+  **238.9 → 228 is −4.56%, not −24%. A −24% fall from 238.9 lands at 181.6.** **The level, the base and the
+  percentage do not agree, and the note is titled "BOTH INPUTS VERIFIED."**
+  **THE FOUR FIGURES NOW IN CIRCULATION.** **220** — the bridge's modelled input. **228** — spot noted 06-Aug.
+  **212** — a 03-Aug reading, basis unstated. **241** — a Peak Downs single-brand bid, laycan 1–10 Aug.
+  **⚠ THE $241 IS REFUSED, AND IT IS THE SAME TRAP TWICE.** On 06-Aug at 11:53 I set Goonyella $260 and **Peak
+  Downs $241** against an index-based model input and withdrew it an hour later when the FOB Australia *index*
+  proved to be $228. **Same brand, same price, three days later.** *A named cargo bid is not an index, and the
+  first withdrawal said so.*
+  **⚠ AND THE $212 CANNOT BE USED EITHER — NOT BECAUSE IT LOOKS WRONG, BUT BECAUSE IT CANNOT BE RECONCILED.**
+  It is dated **03-Aug** against a spot of **228 pinned on 06-Aug and described as "down for an eighth
+  consecutive week."** **212 on 03-Aug and 228 on 06-Aug means coal ROSE into the pin, which contradicts the
+  file's own eight-week claim.** **One of the two is stale or on a different basis, and nothing in hand
+  establishes which.** *The temptation was a −$16/t delta worth +₫2,576bn, or +9.4% of FY base NPAT. It is not
+  computed. This is precisely the 09:53-06-Aug failure — a cross-series delta where ₫22,000/t of a ₫24,000/t
+  "move" turned out to be mine.*
+  **THE FINDING IS THE SPREAD.** **The four candidates span $212–$241 = $29/t.** At the bridge's after-tax
+  gearing of **₫0.14m per $10/t**, that is **₫0.406m per tonne of steel — 22.5% of Q2's ₫1.803m/t core NPAT —
+  or ₫4,669bn across the 11.5m tonnes of Q2–Q4 base volume, 17.0% of the ₫27,456bn base-case FY NPAT.**
+  **⚠ SO THE NAMED "LIVE VARIABLE" OF A 16.8% POSITION IS KNOWN ONLY TO WITHIN 17% OF THAT POSITION'S ANNUAL
+  EARNINGS.** *And the bridge's calibration anchor is a THIRD basis again — coal 190 at Q1 inputs, solved to
+  reproduce Q1's ₫1.68m/t.*
+  **WHAT WOULD CLOSE IT, NAMED PER THE ITEM-35 RULE: one dated PHCC FOB Australia index print with its
+  assessment date and unit (US$/t vs US$/wmt).** **Every figure above is missing at least one of those three.**
+  *§9 of the bridge — "no price in the HPG bridge has a stated delivery basis" — was partly answered on 00:53
+  Friday for ore (62% Fe CFR Tianjin) and coal (FOB Australia). **What this hour shows is that a basis without a
+  DATE and a UNIT is still not an input.***
+  **Nothing modelled — `core_npat_per_tonne_m` and the bridge inputs are §4 judgement fields and untouched. No
+  confidence moved. No escalation trigger fires** — the 14:53 trigger-3 and 06-Aug trigger-5 on MBB stand, and
+  **MBB's last cum session is MONDAY 10-Aug.**
+
 - **⚠ 01:53 ICT · PROCESS — completed last night's check on `run.py` and it CORRECTS my own 23:53 framing in one
   direction while extending it in another. The design is human-in-the-loop by construction; the real gap is
   narrower and more fixable than I said.**
