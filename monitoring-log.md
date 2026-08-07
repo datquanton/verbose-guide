@@ -81,6 +81,44 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-08
+
+- **⚠ 01:53 ICT · PROCESS — completed last night's check on `run.py` and it CORRECTS my own 23:53 framing in one
+  direction while extending it in another. The design is human-in-the-loop by construction; the real gap is
+  narrower and more fixable than I said.**
+  **THE EXTENSION.** `run.py` reads ~60 keys — `caex_option`, `ftse_event_tree`, `one_off_bargain_gain`,
+  `h1_fvtpl_gains`, `gladia_lowrise_units_total`, `core_npat_per_tonne_m` and the rest — **and a grep for
+  uppercase prose keys returns ZERO, exactly as in `decide.py`.** **So the blindness is not specific to the
+  brief: the scenario tables are equally blind.** Last night I said *"nothing an automated sweep finds can reach
+  `DECISION-BRIEF.md`."* **The accurate statement is: nothing it finds can reach ANY computed output.**
+  **AND THE PIPELINE IS ONE-WAY.** **Neither script writes back to `assumptions.json`** — the only write in
+  either file is `decide.py:408` printing JSON to stdout. **`assumptions.json` is hand-maintained.** And
+  **`mu`/`mu_raw` are computed in memory at `decide.py:76–92** (`mu_raw = Σ p·r`, `mu = mu_raw × conf`)**, not
+  stored fields** — which retroactively validates the method used all day: reproducing the engine and re-running
+  it on a different denominator was reproducing a live computation, not reading a cached number.
+  **⚠⚠ NOW THE CORRECTION, AND IT IS TO MY OWN WORDS.** At 23:53 I wrote: *"The findings exist. The path from
+  finding to decision does not."* **That is too strong and it mis-describes the design.** **The path exists — it
+  runs through a human reading `monitoring-log.md` and `OPEN-DECISIONS.md`.** **§4 locks the model inputs
+  precisely so that an automated sweep CANNOT move them**, and the prose layer sitting beside a rich
+  machine-readable layer is the intended separation, not an accident. **The architecture is working as
+  specified.**
+  **THE REFINED GAP, WHICH IS SMALLER AND ACTIONABLE.** It is not that findings cannot reach the model — they
+  are not meant to. **It is that nothing in the computed outputs SIGNALS that unread findings exist.** As of
+  tonight there are **47 rows in `OPEN-DECISIONS.md` (through item 45)** and **23 dated entries in the last two
+  days of the log**, including **two live escalations on the engine's #1 name**. **A reader who opens the brief
+  gets no marker of any of it — not a count, not a date, not a pointer.** **The fix is a signal, not a channel:
+  the brief needs to say "N open items, M live escalations, see the log," which is one line and still requires
+  `decide.py` (§4).**
+  **WHY THE DISTINCTION MATTERS RATHER THAN BEING PEDANTRY.** *"The path does not exist"* invites building one —
+  which would mean writing findings into fields the charter deliberately locks. *"The path exists but is
+  unsignposted"* invites a one-line marker. **The first diagnosis would have argued for exactly the behaviour
+  §4 forbids, and I published it four hours ago.**
+  *Lane sweep clean: nothing dated 08-Aug on any holding. One item noted and not used — "Techcombank issues its
+  seventh bond tranche of the year" is undated here with no size or coupon, and TCB's NIM criterion turns on
+  cost of funds, so it is worth having properly rather than partially.*
+  **Nothing modelled. No field touched. No new escalation trigger fires** — the 14:53 trigger-3 and 06-Aug
+  trigger-5 stand, and **MBB's last cum session is MONDAY 10-Aug.** Item 45 corrected.
+
 ## 2026-08-07
 
 - **⚠⚠⚠ 23:53 ICT · PROCESS — NOTHING AN AUTOMATED SWEEP FINDS CAN EVER REACH `DECISION-BRIEF.md`. Verified in
