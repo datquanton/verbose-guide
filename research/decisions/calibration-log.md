@@ -748,8 +748,11 @@ below were found. **A hit rate computed over a set you cannot enumerate is not a
 | **#8** | **CAEX licence granted ~Q3, p=0.40** | **⚠ OPEN — NOT IN THIS LOG BEFORE TODAY.** Referenced 3× in `assumptions.json`; a 05-Aug entry there records it as *"open and unscored, 56 days left"* | **by 30-Sep-2026** |
 | **#9** | VCI, 9M PBT ≥ 55% of FY target, conf 0.65 | OPEN — mentioned once in this log, never registered as a forecast elsewhere | with Q3 statements (~Oct) |
 | **#10** | US rebar AD/CVD final | **HIT**, and right for the stated reason | resolved 29-Jul |
+| **#11** | **US July payrolls — a WEAK print, off ISM services employment 51.2 → 47.4** *(pre-registered 05-Aug 21:53; **had no ID until today**)* | **✅ HIT, right for the stated reason.** Actual **−23,000** vs consensus **+83,000**; June revised to +20,000; participation 61.4%, a 5-yr low; temp layoffs +153,000. **⚠ Magnitude not scoreable — written as "weak" with no band**, the same defect this log flags in #1 | resolved **07-Aug** |
 
-**Scoreboard as it stands: 1 hit, 3 misses, 3 open (#7, #8, #9), 3 unknown (#3, #5, #6).**
+**Scoreboard as it stands: 2 hits, 3 misses, 3 open (#7, #8, #9), 3 unknown (#3, #5, #6).**
+
+**⚠ #11 was added within an hour of this register being created, and it had no ID before today.** It was pre-registered in `monitoring-log.md` on 05-Aug and resolved on 07-Aug **without ever entering the numbering** — the clearest evidence that the missing-register problem is live rather than historical.
 **Two of the three open forecasts were not in the denominator until today, and both resolve
 inside eleven weeks.**
 
@@ -758,3 +761,7 @@ re-weighted, and no ID was invented for #3/#5/#6. *Re-weighting #7 now on eviden
 mechanics is the post-hoc adjustment pre-registration exists to prevent — `assumptions.json`
 says so itself, and that stands.*
 
+| 2026-08-07 | **✅ HIT — US July payrolls −23,000 against a +83,000 consensus, a 106k downside miss and the first decline in months.** Pre-registered 05-Aug off **ISM services employment 51.2 → 47.4**; the print is services-led with **temporary layoffs +153,000** and participation at a five-year low, so **the mechanism and the outcome line up — right for the stated reason.** |
+| 2026-08-07 | **The call was right and the forecast was half-built.** I wrote *"weak"* with **no band, no threshold, no number**, so the magnitude cannot be scored — **the identical defect this log already records against forecast #1, "close to unfalsifiable as written."** **A hit on an unfalsifiable forecast teaches less than a miss on a precise one.** Recorded as a process failure alongside the hit. |
+| 2026-08-07 | **Wrong test, right call — and today's print vindicated the diagnosis I gave for the wrong test.** Claims scored a **MISS** on 06-Aug, where I wrote that the real error was choosing a separations measure to test a hiring hypothesis. **Today: claims 199k because firms are not firing, payrolls −23k because they are not hiring.** **That does not retroactively make the test design good** — it makes the diagnosis correct and the pre-registration incomplete, and both scores stand. |
+| 2026-08-07 | **A forecast with no ID resolved one hour after I logged that IDs are minted in prose.** The register built at 18:53 listed six known IDs and three unknowns; **this was a seventh forecast, living entirely outside the numbering, and it resolved inside the hour.** Registered as **#11**. **The best possible demonstration that a process defect is current rather than historical is for it to recur while you are writing it up.** |

@@ -83,6 +83,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 19:53 ICT · MACRO — THE PRE-REGISTRATION RESOLVES: HIT, and right for the stated reason. Payrolls
+  −23,000 against +83,000 expected. And it lands one hour after I logged that this file has no forecast
+  register — because this forecast never had an ID.**
+  **THE PRINT.** **US July nonfarm payrolls FELL 23,000**, against a Dow Jones consensus of **+83,000** — a
+  **106,000 miss to the downside** and the **first outright decline in months.** **June revised DOWN to
+  +20,000.** Unemployment **4.1%**, participation **61.4% — a five-year low.** **Temporary layoffs +153,000 to
+  921,000.** *(Released 12:30 UTC; indexed at 23 minutes, faster than the claims print, which took 84.)*
+  **THE PRE-REGISTRATION, VERBATIM FROM 05-Aug 21:53:** a **weak** payroll print as the expected direction, off
+  **ISM services employment 51.2 → 47.4**, with the stated limit that ISM employment sub-indices are diffusion
+  measures over firms, poor month-to-month predictors, *"a tilt, not a forecast."*
+  **SCORE — DIRECTION: ✅ HIT.** **REASON: ✅ right for the stated reason.** The mechanism was services-sector
+  employment contraction; the print is a services-led decline with **temporary layoffs up 153,000**. The
+  mechanism and the outcome line up rather than the call being right by accident.
+  **⚠ MAGNITUDE: NOT SCOREABLE, AND THAT IS A DEFECT IN MY OWN FORECAST.** I wrote *"weak"* with **no band, no
+  threshold and no number.** A directional call with no magnitude cannot be scored for error — **exactly the
+  criticism this log already levels at forecast #1 ("close to unfalsifiable as written").** The call was right;
+  **the forecast was half-built**, and that is recorded as a process failure alongside the hit.
+  **⚠⚠ THE 06-AUG CLAIMS MISS STANDS — AND TODAY VINDICATES THE DIAGNOSIS I GAVE FOR IT.** At 20:53 yesterday I
+  scored claims a **MISS** (199k against 202k, four-week average falling) and wrote that **the bigger error was
+  test design: claims measure separations, payrolls measure net job change, and in a low-hire/low-fire market
+  hiring stalls while layoffs stay at multi-decade lows.** **Today is that market exactly: claims at 199k
+  because firms are not firing, payrolls at −23k because they are not hiring, participation at a five-year
+  low.** **The sequence is: WRONG TEST, RIGHT CALL.** *Both scores stand. Today does not retroactively make the
+  test design good — it makes the diagnosis correct and the pre-registration incomplete, and those are different
+  things.*
+  **⚠⚠⚠ AND THE TIMING OF THIS IS THE POINT. One hour ago I logged that forecast IDs are minted in prose, that
+  #7 and #8 were off the scoreboard, and that "the only way to learn how many forecasts exist is to grep."
+  THIS FORECAST HAS NO ID AT ALL.** It was pre-registered in the monitoring log on 05-Aug, resolved today, and
+  **appears nowhere in the numbering.** **The register built at 18:53 listed six known IDs; this is a seventh
+  forecast that existed entirely outside it — and it resolved within the hour.** **Registered now as #11 and
+  scored.** *The strongest possible evidence that the 18:53 finding is a live defect and not a historical one.*
+  **THE VIETNAM CHANNEL, NAMED AND NOT MODELLED.** A payroll contraction raises Fed-cut expectations, which
+  weakens the dollar, which eases EM FX pressure — **the loosening side of the SBV's two-sided constraint, a
+  channel this file has logged before.** **But the standing rule is that US macro is environment, not evidence
+  about any of the eight**, applied consistently since 04-Aug. **No level is recorded because none was given,
+  and no confidence moves.**
+  **Nothing modelled. No escalation trigger fires.**
+
 - **⚠⚠ 18:53 ICT · CALIBRATION — enumerated the forecast register and there ISN'T ONE. Two live forecasts sit
   off the scoreboard entirely, on the file the repo calls its most important.**
   **THE CLAIM BEING TESTED IS THE LOG'S OWN.** `calibration-log.md` opens: *"Every forecast that enters
