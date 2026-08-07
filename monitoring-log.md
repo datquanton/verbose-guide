@@ -83,6 +83,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 16:53 ICT · TCX — EIGHT OF EIGHT. The measurement programme is complete, TCX's gap is under 1.4%, and
+  guard 2 FAILED before it passed — the failure diagnosed a timing offset rather than a bad number.**
+  **THE APPARENT FAILURE, REPORTED FIRST BECAUSE IT IS THE INTERESTING PART.** TCX quoted at **₫40,550** with a
+  market cap of **₫114.84 trillion**. Naïvely, **114,840bn ÷ 40,550 = 2,832,059,186 shares against the file's
+  2,773,896,000 — +2.10%.** **Guard 2 fails.** Every other name this week came in at 0.0003–0.0048%; **2.10% is
+  three orders of magnitude worse and cannot be rounding.**
+  **THE DIAGNOSIS, AND IT RECONCILES TO THE DONG.** Divide the cap by the **file's** count instead:
+  **₫114,840bn ÷ 2,773,896,000 = ₫41,400.** The same source states the price is **−2.05% over 24 hours**, and
+  **₫41,400 × (1 − 0.0205) = ₫40,552 against the quoted ₫40,550.** **The market cap is struck at the previous
+  close and the price is quoted after the move. Both are consistent with the file's share count once the timing
+  offset is accounted for — guard 2 passes on the second reading.**
+  **⚠ A FOURTH LESSON FOR THE METHOD: a guard-2 failure is not automatically a bad figure. It can be two
+  correct numbers from two different instants.** The test to run next is whether a stated intraday move
+  reconciles them — **which it did here, to two dong.** *The other three names' figures evidently came from a
+  single instant; TCX's did not, and nothing in the presentation said so.*
+  **THE GAP, AND IT IS SMALL EITHER WAY.** The file's **₫41,100** sits **−0.73%** against the implied previous
+  close of ₫41,400 and **+1.36%** against the current ₫40,550. **Under 1.4% on both readings.**
+  **⚠ THE DATES ARE NOT STATED, AND THAT IS THE WEAKNESS.** "Current" and "past 24 hours" carry no date; the
+  pages are live, so the observation is presumably today, **but it is not dated in the source and is recorded as
+  undated.** That is weaker than the TCB/MBB/HPG/VPB observations, all of which carried explicit dates.
+  **WHAT IT DOES FOR THE KILL CRITERION — one of the three "conditional" ones, now near-testable.** TCX's test
+  is *"P/B < 2.0× on unchanged earnings."* Against filed equity of ₫45,782bn: **P/B is 2.4569× at ₫40,550 and
+  2.5084× at the implied previous close.** **The criterion needs ₫33,009 — an 18.6% fall from here.** **Not met,
+  and not close.** *Context, dated: ATH ₫54,000 on 24-Feb-2026, ATL ₫35,100 on 04-Nov-2025 — TCX sits 24.9%
+  below its high and 15.5% above its low.*
+  **THE PROGRAMME IS COMPLETE — EIGHT OF EIGHT, 100% OF THE BOOK:**
+  **HPG −7.76% · MBB −7.74% · TCB −2.34% · TCX −0.73%/+1.36% · KDH +1.1% · VPB −0.60% · VCI bracketed ·
+  VPX 12-Jun.**
+  **THE FINAL SHAPE: six of eight gaps are under 2.5%; two are near −7.8%; the signs are mixed; and size does
+  not predict the error.** **Exactly one name's correction clears the escalation threshold — MBB, −10.58pp,
+  raised at 14:53 and unchanged.** **The 01:53 conditional's single index-based adjustment would have
+  mis-stated all eight and would have flagged the wrong names.**
+  **Nothing modelled — `price` is guarded §4 and was not touched on any name. No confidence moved. No new
+  escalation trigger fires.** Item 2 annotated; the measurement tally is now closed.
+
 - **⚠ 15:53 ICT · VPB, BOOK-WIDE — seven of eight names now measured (94.5% of the book), VPB's gap is the
   SMALLEST yet at 0.60%, and the same source carried a unit error that gives the method a third guard.**
   **THE OBSERVATION.** **VPB closed 03-Aug-2026 at ₫25,150 with a market cap of ₫199,538.2bn.** The two divide
