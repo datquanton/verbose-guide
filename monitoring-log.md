@@ -83,6 +83,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-07
 
+- **⚠⚠ 20:53 ICT · MBB — THE RIGHTS ARE TRANSFERABLE, AND THAT CORRECTS MY OWN 06-Aug 18:53 FRAMING ON THE
+  LIVE TRIGGER-5 ITEM. There is a THIRD option and it is worth ₫992 a right, with a HARD deadline of 26-Aug.**
+  **WHAT IS NEW.** MB's offering carries a **rights TRANSFER window of 18-Aug to 26-Aug-2026**, inside the
+  longer **subscription window of 18-Aug to 07-Sep**, with **no minimum subscription** and proceeds earmarked
+  for working and business capital. **The transfer window appears nowhere in `assumptions.json`.** Entitlement
+  confirmed: **1 share = 1 right; 10 rights buy 1 new share at ₫10,000**; **805.5m shares for ~₫8,055bn.**
+  **⚠ THE CORRECTION I OWE.** On 06-Aug at 18:53 I wrote: *"A CASH CALL, NOT A TRADE… ₫10,000 per right, one
+  right per ten shares, funded between 18-Aug and 07-Sep **or the holding is diluted.**"* **That is a false
+  dichotomy.** A holder who does not want to add capital is **not** forced to accept dilution — **they can sell
+  the rights.**
+  **AND THE THIRD OPTION HAS A PRICE.** On the dated 06-Aug close of **₫23,900**, no-arbitrage on the
+  entitlement gives **1.15·P + 0.1·(P − 10,000) = 23,900 ⇒ P = ₫19,920**, and **each right is worth
+  0.1 × (19,920 − 10,000) = ₫992 — 4.15% of the cum price.** The balance closes exactly: **1.15 × 19,920 + 992 =
+  ₫23,900.**
+  **⚠⚠ AND THAT ₫19,920 IS THE SAME NUMBER THE 14:53 ENTRY DERIVED BY A COMPLETELY DIFFERENT ROUTE** —
+  (192,514.5 + 8,055) ÷ 10,068.75m shares. **Two independent methods, cap-based and entitlement-based, agree to
+  the dong.** *That is the first time this week a derived price has been confirmed by a second construction
+  rather than by a second source.*
+  **⚠ THE HARD DATE, WHICH IS THE PRACTICAL POINT.** **The transfer window CLOSES 26-Aug; the subscription window
+  runs to 07-Sep.** **A holder who waits past 26-Aug loses the option to sell and is back to the binary I
+  described — fund it or forfeit.** **The ₫992 has an expiry twelve days before the cash call does**, and that
+  asymmetry was not in the file.
+  **WHAT IT DOES AND DOES NOT CHANGE.** It does **not** change the E[r] arithmetic: the post-money cap of
+  **₫200,569.5bn** and the **−15.64pp** cumulative move recorded at 14:53 both assume the rights are exercised,
+  which remains the base case. **What it changes is the description of the holder's position** — the file had
+  been carrying a two-branch decision where there are three, and the omitted branch is the one most holders
+  take. *No trade is proposed or implied; this system recommends and a human signs.*
+  **THE DATES NOW COMPLETE ON THIS EVENT: ex-rights 11-Aug (last cum session MONDAY 10-Aug) · record 12-Aug ·
+  rights transferable 18–26 Aug · subscription 18-Aug–07-Sep.** **Trigger 5, raised 06-Aug 18:53, remains live
+  and is now two sessions from the ex-date.**
+  **Nothing modelled — `price`, `shares_outstanding` and the branch inputs are guarded §4 and untouched. No
+  confidence moved. No NEW escalation trigger fires**; the MBB trigger-3 escalation from 14:53 and the trigger-5
+  escalation from 06-Aug both stand.
+
 - **⚠⚠ 19:53 ICT · MACRO — THE PRE-REGISTRATION RESOLVES: HIT, and right for the stated reason. Payrolls
   −23,000 against +83,000 expected. And it lands one hour after I logged that this file has no forecast
   register — because this forecast never had an ID.**
