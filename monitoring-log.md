@@ -20,7 +20,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
-| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB:** 7% cash (₫700/sh, ₫4,960bn) + 60% bonus (4,251.7m) → 11,337.9m. **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
+| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB: ⚠ CORRECTED 08-Aug 15:53 — THE CASH LEG IS DONE, NOT PENDING.** 7% cash (₫700/sh, ₫4,960bn) **went EX 19-May-2026, record 20-May, PAID 10-Jun-2026**. **Only the 60% bonus (4,251.7m) → 11,337.9m remains, and it is still UNDATED.** ⚠⚠ **`valuation.TCB.cash_yield` = 0.024 still counts that paid dividend as forward return — +2.4pp of a raw E[r] of +3.98%; correct raw is +1.58%. §4 human-only, escalated not fixed.** **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **⚠ US initial jobless claims — 06-AUG, TOMORROW** | consensus **~202,000**, continuing ~1.79m. **First and partial test of the 21:53 pre-registration** (services employment 51.2 → 47.4 ⇒ a weak payroll print expected). *Claims are an early read, not a resolution.* | 1 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention. **150 days from the 25-Mar initiation = Sat 22-Aug, rolling to Mon 24-Aug; STATUTORY OUTER BOUND: final 300d = 19-Jan-2027, +65d max extension = 25-Mar-2027 (19 CFR 351.226).*** **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
@@ -88,6 +88,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-08
+
+- **⚠⚠⚠ 15:53 ICT · TCB (35% of the book, largest position) — TCB'S CASH DIVIDEND WENT EX ON 19-MAY-2026 AND
+  WAS PAID ON 10-JUN-2026. THE FILE IS STILL COUNTING IT AS FORWARD RETURN. `cash_yield` = 0.024 is a past
+  payment inside a forward expected return, worth +2.4pp of TCB's raw E[r].**
+  **THE DATES** — confirmed by two searches across several outlets: 7% cash = **₫700/share = ₫4,960bn**,
+  **record date 20-May-2026 ⇒ ex-date 19-May-2026, paid 10-Jun-2026**, third consecutive year. **The 60% stock
+  bonus is separate and its date is still not established.**
+  **THE DEFECT, WITH PROVABLE PROVENANCE.** `valuation.TCB.cash_yield` = **0.024**, and **700 / 29,250 =
+  0.0239** — the field was derived from *this* dividend against the *current* price. **This file proved on
+  07-Aug 13:53 that `cash_yield` enters E[r] additively and contributes exactly its own value.** So **TCB's raw
+  E[r] of +3.98% contains +2.4pp of a dividend paid three months ago and already in the price. Correct raw is
+  +1.58%; shrunk at confidence 0.70 it is +1.10%, not +2.78%.**
+  **AND THE 10:53 CROSS-CHECK NOW READS AS CONFIRMATION, NOT COINCIDENCE:** the implied-target gap computed
+  that hour was **+1.58% — exactly the corrected raw E[r]** — because the identity is `gap = mu_raw −
+  cash_yield` and the `cash_yield` term should be zero.
+  **SCOPE AND HONESTY ABOUT DIRECTION.** TCB is **35% of the book and the largest position**, and the brief's
+  action for it is **already TRIM −15.0pp**, so **a lower E[r] strengthens the existing recommendation rather
+  than reversing it.** *Stated plainly, because a defect that points the way the brief already points is the
+  easiest kind to under-report.* **TCB is the only name with a non-zero `cash_yield` — the other seven are all
+  0.0 — so this is a single-name defect, not a systematic one.**
+  **TRIGGER CHECK: −2.4pp is well under trigger 3's 10pp. No trigger fires on magnitude.** It is a **model-input
+  defect, not a market move.** **NOT TOUCHED — `cash_yield` is on the human-only list (§4). Escalated, not
+  fixed.**
+  **⚠ THE MIRROR-IMAGE QUESTION ON MBB, RAISED NOT RESOLVED.** MBB's AGM approved **25% = 15% stock + 10%
+  cash**. `valuation.MBB.cash_yield` is **0.0**, and OPEN-DECISIONS item 3 already flags an **unrecorded 4.54%
+  MBB cash yield worth +4.54pp**. **Whether MBB's 10% cash shares the 11-Aug ex / 12-Aug record dates or
+  carries its own is not established here and is not guessed.** ***So the same field carries an over-count on
+  TCB and a candidate under-count on MBB — opposite signs, one field, both human-only.***
+  **⚠ A CORRECTION I OWE ON MY OWN 09:53 AND 10:53 ARITHMETIC, caused by this defect.** Both hours adjusted
+  TCB's street targets as **(TP − 700)/1.6**, deducting a dividend already paid and already in current targets.
+  **The correct adjustment is TP/1.6:** low **₫23,125**, mean **₫25,998**, high **₫30,000** — and the model's
+  **₫29,711 sits 0.96% BELOW the adjusted high.** **So my headline *"more bullish than all twelve analysts"*
+  was overstated: it is above ELEVEN of twelve, at roughly the 97th percentile.** **What survives is the
+  substantive part** — the file's summary that *"this model is far more conservative than the street"* is
+  **still backwards on TCB**, with the model **+28.5% above the adjusted low and +14.3% above the mean.**
+  *Both entries had explicitly flagged the sensitivity — "on the bonus alone … the model sits at the 97th
+  percentile — the conclusion does not depend on the cash leg." **The hedge was right and the headline was not,
+  and a claim hedged in the body but overstated in the summary line will be read at the summary line.***
+  **The watch list is stale on this and is corrected below: the cash leg completed 10-Jun-2026; only the 60%
+  bonus remains.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
 
 - **⚠⚠ 14:53 ICT · PROCESS — a correction I owe on my own 13:53 framing, and a channel that an automated run
   cannot reach at all: THIS HEADER'S CENTRAL CLAIM IS FALSE.**
