@@ -83,6 +83,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 09:53 ICT · STREET (lane 6) — the single broker point becomes a 12-analyst DISTRIBUTION, and it
+  INVERTS this file's own summary of the street. On TCB, adjusted for the 60% bonus, THIS MODEL IS MORE
+  BULLISH THAN ALL TWELVE ANALYSTS.** *(Weekend, both shut. Lanes 6 and 7 were the two not yet covered today.)*
+  **WHAT THE FILE HELD:** one **undated** Agriseco target of **₫39,000** for TCB, and the summary line *"the
+  street sits 24–64% HIGHER across the board … this model is far more conservative than the street."*
+  **WHAT IS NOW IN HAND — TCB:** a consensus **aggregate** — mean **₫41,597.2**, high **₫48,000**, low
+  **₫37,000**, **12 analysts, 12 buys, 0 sells**, Strong Buy.
+  **(1) THE FILE'S OWN DATUM WAS NOT THE CONSENSUS.** Agriseco's ₫39,000 sits at the **18th percentile** of the
+  raw ₫37,000–48,000 range — **a bottom-quintile view the file has been calling "the consensus TP."**
+  **(2) THE SIGN-FLIP CONCLUSION SURVIVES AND HARDENS.** Adjusting the whole distribution for the pending
+  **60% bonus + ₫700 cash**: **low ₫22,688 · mean ₫25,561 · high ₫29,562.** **This model's
+  probability-weighted implied target is ₫29,711 — above the adjusted HIGH.** On the bonus alone (ignoring the
+  cash leg) the adjusted high is ₫30,000 and the model sits at the **97th percentile**, so the conclusion does
+  not depend on the cash dividend. ***The 07-Aug finding was right and understated: not "below one broker" but
+  above all twelve.***
+  **WHAT IS NOT FIXED — and the file's own blocker stands.** The file ruled these comparisons *"NOT USABLE"*
+  for **two** reasons: undated, and corporate actions. **This hour addresses only the second — the consensus
+  figures are also undated.** What is added is **dispersion and breadth, not dates**, so *"the TCB comparison
+  cannot be made at all until the targets are dated"* **remains true and is not quietly relaxed.**
+  **VPB — FIRST STREET COMPARISON IN THIS FILE, AND THE TRAP FIRES A THIRD TIME.** The 07-Aug sweep covered
+  HPG, TCB and MBB and had **nothing** for VPB. Now: mean **₫34,508.9**, high **₫40,600**, low **₫30,000**,
+  **7 analysts, 7 buys, 0 sells**. Against the ₫25,000 on file the apparent upside is **+38.0%**; **VPB has a
+  26% stock dividend pending**, so adjusted the mean is **₫27,388 = +9.6% — four times smaller**, and the
+  adjusted low (₫23,810) sits **below** the price on file. ⚠ **Pre-adjustment is an inference, not a fact
+  here:** if the targets were already post-dividend they would stand against an adjusted ₫19,841, implying
+  **+51% to +105%** across seven analysts — not a plausible distribution. *For TCB the file has an explicit
+  statement; for VPB it does not.* **Not compared to this model — VPB's probability-weighted implied target is
+  not on file** (07-Aug computed HPG, TCB, MBB only). *That is the cheap next step, and it is arithmetic
+  already inside `decide.py`'s inputs, not new research.*
+  **MBB — NO CONSENSUS CAME BACK, AND THAT IS THE NAME THAT NEEDS ONE.** TCB returned 12 analysts and VPB 7
+  from the same aggregator; **MBB returned nothing.** Its only target remains one undated VCBS point of
+  ₫37,230 against a model implied ₫30,140. **MBB carries both live escalations — trigger 3 (07-Aug 14:53) and
+  trigger 5 (06-Aug) — and its last cum session is Monday 10-Aug**, so it is the one name where a dated,
+  adjustment-known street number would actually bear on a decision. *An absence from one aggregator is not an
+  absence of coverage; logged as a gap, not a signal.*
+  **CHECKED AND ALREADY ON FILE:** the **VN-Index close of 1,735.78** appears **six times** in each of
+  `assumptions.json` and `monitoring-log.md` — a settled level, not news. *New but second-order:* HOSE weekly
+  liquidity averaged **726m shares / ₫17,500bn per session, −12% w/w and −6.4% vs the 20-week average** —
+  attaches to a week the file has already covered, and bears on the three brokers (11.4% of book) whose revenue
+  is volume-driven. **Nothing modelled. No confidence moved. `exit_pe`, `probs`, `fy26e_npat` untouched (§4).
+  No new trigger — the 14:53 trigger-3 and 06-Aug trigger-5 on MBB stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY
+  10-AUG.**
+
 - **⚠⚠ 08:53 ICT · STEEL (lane 5) / HPG — item 46's UNIT question is answered, bridge §9's BASIS question gets
   a worse answer than §9 assumed, and this file's own "coal is broadly FLAT" reading has a candidate
   falsification.** *(Weekend, both markets shut. Rotated off the index lane after two hours onto the one live
