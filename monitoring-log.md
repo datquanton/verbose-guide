@@ -88,7 +88,45 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
-## 2026-08-09
+## 2026-08-09 *(real ICT date — see the correction immediately below)*
+
+- **⚠⚠⚠ 06:55 ICT SUN 09-AUG (verified against `date`) · PROCESS — EVERY TIMESTAMP I HAVE WRITTEN FOR FOURTEEN
+  HOURS IS EXACTLY EIGHT HOURS AHEAD OF THE CLOCK, AND THE FIVE ENTRIES BELOW THIS ONE WERE WRITTEN ON
+  SATURDAY 08-AUG, NOT SUNDAY 09-AUG.**
+  **HOW IT WAS FOUND: I read the actual clock for the first time in fourteen hours.** It is **Sun 09-Aug-2026,
+  06:55 ICT**. The last commit is stamped **Sat 08-Aug 21:57 ICT** and I had labelled it *"05:53 ICT, 09-Aug."*
+  **THE MAPPING — label I wrote → true commit time (ICT):** 14:53→Sat 06:57 · 15:53→Sat 07:57 · 16:53→Sat 08:57
+  · 17:53→Sat 09:56 · 18:53→Sat 10:57 · 19:53→Sat 11:57 · 20:53→Sat 12:57 · 21:53→Sat 13:56 · 23:53→Sat 15:57 ·
+  **01:53→Sat 17:56 · 02:53→Sat 18:56 · 03:53→Sat 19:57 · 04:53→Sat 20:57 · 05:53→Sat 21:57.** ***The offset is
+  exactly +8h on every row.***
+  **THE CAUSE IS NOT A TIMEZONE ERROR** — ICT is UTC+7 and the environment has it right. **I incremented an
+  assumed hour counter from a starting point that was already wrong and never re-read the clock.** ⚠ *This
+  failure mode is already in this file's history: a prior note records that timestamps "**had drifted 56
+  minutes ahead**." It has recurred at eight times the magnitude, and last time's fix — correcting the numbers —
+  did not prevent it, **because the defect is the habit of not reading the clock, not the numbers.***
+  ⚠⚠ **THE SECOND CONSEQUENCE LANDS ON THE FILE'S MOST TIME-CRITICAL FACT.** In the entry labelled *"01:53
+  09-Aug"* — **actually Sat 17:56** — I made the headline finding that MBB's last cum session is **"TOMORROW,
+  Monday 10-Aug."** At Sat 17:56, Monday was **two days away, not one.** Then in my last reply I wrote that it
+  is **"today."** **It is not: today is Sunday 09-Aug and the cum session is TOMORROW, Monday 10-Aug.** ***Both
+  relative framings were wrong, in opposite directions.*** **The irony is the part worth keeping: in that same
+  entry I corrected an external source for being wrong by one day about this exact date, and wrote that "a
+  one-day error here costs an entire entitlement." I then made one-day errors about it myself, twice.**
+  **WHAT IS NOT WRONG, so the correction does not overreach: the DATE ITSELF IS RIGHT AND VERIFIED.** MBB
+  **ex-rights Tue 11-Aug, record Wed 12-Aug, last cum session Mon 10-Aug** — confirmed against MBB's own
+  10-Jul/09-Jul cash-dividend precedent. **Only the relative phrasing and the entry timestamps were wrong.**
+  **NO FINDING IS RETRACTED.** Every substantive result of the last fourteen hours — the four-for-four dividend
+  dates, item 3's resolution, the Masterise channel gap, VPB's US$5.7bn, MB's guidance — **rests on dates in the
+  sources, not on when I read them. The content survives; the filing does not.**
+  **A THIRD OBSERVATION, RECORDED AS AN OBSERVATION:** the gap from the last commit (Sat 21:57) to now (Sun
+  06:55) is **nine hours**. On an hourly routine that implies roughly eight firings produced no commit, or did
+  not fire. **Why is not established from here and is not guessed.**
+  **THE REMEDY IS ONE LINE AND IT IS CHEAP: read the clock at the start of every sweep rather than incrementing
+  a counter.** **Nothing modelled. No confidence moved. No model input touched.** ⚠⚠ **MBB'S LAST CUM SESSION
+  IS TOMORROW, MONDAY 10-AUG.**
+
+- **⚠ THE FIVE ENTRIES BELOW WERE WRITTEN ON SATURDAY 08-AUG (17:56–21:57 ICT), NOT ON 09-AUG. Their "01:53"
+  to "05:53" labels are +8h wrong; see the correction above for the mapping. Left in place rather than
+  renumbered because they cross-reference each other and git history is the authoritative record.**
 
 - **⚠⚠⚠ 05:53 ICT · MBB — MB's own FY2026 guidance is essentially the FLAT-H2 outcome this file already
   computed, and the branches are due for human re-derivation TOMORROW. Plus a correction I owe on yesterday's
