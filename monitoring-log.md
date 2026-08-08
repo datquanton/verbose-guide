@@ -83,6 +83,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 10:53 ICT · WHOLE BOOK — the implied-target table is complete for the first time, and it makes the
+  VPB-vs-TCB asymmetry measurable: the SAME MODEL sits ABOVE every TCB analyst and BELOW every VPB analyst.
+  Refreshing the four measured prices flips the brief's ranks 2 and 3 negative.** *(Weekend, both shut. This is
+  the step 09:53 named as cheap and internal — arithmetic on inputs already in the file, no new research.)*
+  **THE TABLE.** The 07-Aug sweep computed `Σ(p × exit_pe × fy26e_npat) / shares_outstanding` for **three**
+  names. All eight now exist: **MBB 30,140 · TCX 36,485 · TCB 29,711 · VPX 26,591 · HPG 22,127 · VPB 21,536 ·
+  KDH 18,637 · VCI 18,184.** *The three previously computed reproduce exactly, which verifies the method before
+  anything is built on it.*
+  **NOT NEW, AND SAID SO:** the **E[r] percentages for all eight are already in DECISION-BRIEF §1.** What is new
+  is the **₫-per-share** form — which is the only form a street comparison can use, and the reason 09:53 flagged
+  it. **The identity that ties them: implied-target gap = `mu_raw − cash_yield`.** TCB +1.6% + 2.4% = **+4.0%**,
+  the brief's raw E[r]; MBB +36.7% + 0 = **+36.6%**. *These are not a parallel metric — they are the engine,
+  re-expressed per share.*
+  **⚠⚠ THE ASYMMETRY IS THE FINDING.** Adjusted for each bank's pending action:
+  **TCB** model **₫29,711** vs adjusted street **22,688 / 25,561 / 29,562** → **+0.5% ABOVE THE HIGH**, +16.2%
+  above the mean, +31.0% above the low.
+  **VPB** model **₫21,536** vs adjusted street **23,810 / 27,388 / 32,222** → **−9.6% BELOW THE LOW**, −21.4%
+  below the mean, −33.2% below the high.
+  ***Same model, same sector, two banks — above every analyst on one and below every analyst on the other.***
+  **THE MECHANISM IS IN THE FILE'S OWN INPUTS, NOT THE STREET:** base `exit_pe` **TCB 8.0 vs VPB 7.0** — a full
+  turn, 12.5% lower — and base EPS **₫3,752 vs ₫3,094**. The model gives VPB *both* a lower multiple and lower
+  EPS. **Whether a one-turn P/E differential between these two banks is intended is a §4 human judgement
+  question. Recorded, not touched.** *The street figures are still undated, so this does not overturn the "not
+  usable" verdict — it measures the disagreement that verdict has been deferring.*
+  **REFRESHING THE FOUR MEASURED PRICES** (07-Aug 14:53: TCB −2.34%, KDH +1.1%, HPG −7.76%, MBB −7.74%;
+  *negative = the file's price is BELOW the dated one*):
+  **MBB** 30,140 vs a dated 23,900 = **+26.1%, a −10.6pp move — which reproduces the 07-Aug trigger-3 figure of
+  −10.58pp exactly**, a third independent cross-check.
+  **HPG** 22,127 vs 22,550 = **−1.9%, flipping from +6.4% (−8.3pp).**
+  **TCB** 29,711 vs 29,951 = **−0.8%, flipping from +1.6% (−2.4pp).** **KDH** = +4.7% (from +3.5%).
+  ⚠ **So on the file's own measured prices, HPG and TCB — ranks 2 and 3 in the brief, 51.8% of the book — both
+  sit BELOW their own model targets, and six of eight names are at or below target. The only meaningful upside
+  left in the book is MBB's +26.1% — the name whose trigger 3 has already fired and whose 11-Aug rights cut it
+  further.**
+  **NO NEW TRIGGER FIRES. HPG's −8.3pp is the largest and is below the 10pp threshold — the closest any name
+  has come without firing, recorded as such rather than rounded up.** *This is a restatement of existing inputs,
+  **not** a price refresh: no `price` field was touched, and item 2's warning stands that a partial refresh
+  breaks cross-name comparability in `decide.py`.* **VPB, TCX, VCI and VPX remain unmeasured or bracketed, so
+  this covers 72.1% of the book and no more.**
+  **CHECKED AND ALREADY ON FILE:** HPG's charter capital ₫84,430bn (largest on the exchange, past VCB's
+  ₫83,556bn and MB's ₫80,550bn); TCB's 67% dividend and H1 ₫18,500bn; **and the ₫113,379 vs ₫113,738 charter-
+  capital discrepancy, which the file already holds with its source — 70,862 × 1.6 = 113,379, so the source's
+  own two numbers do not multiply.** **Nothing modelled. No confidence moved. `exit_pe`/`probs`/`fy26e_npat`
+  untouched (§4). ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 09:53 ICT · STREET (lane 6) — the single broker point becomes a 12-analyst DISTRIBUTION, and it
   INVERTS this file's own summary of the street. On TCB, adjusted for the 60% bonus, THIS MODEL IS MORE
   BULLISH THAN ALL TWELVE ANALYSTS.** *(Weekend, both shut. Lanes 6 and 7 were the two not yet covered today.)*
