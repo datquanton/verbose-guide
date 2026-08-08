@@ -89,6 +89,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **✅⚠⚠ 17:53 ICT · VPB — THREE FOR THREE. VPB's cash dividend was PAID 25-MAY-2026, and OPEN ITEM 3 — open
+  since 29-Jul — IS NOW FULLY RESOLVED, OPPOSITE TO ITS OWN CONCLUSION.**
+  **VPB'S DATES:** ex **15-May-2026**, record **18-May**, **paid 25-May-2026**; 5% = **₫500/share ≈ ₫4,000bn**.
+  **THE ARITHMETIC THAT CLOSES THE ITEM:** **500/25,000 = 0.0200** (item 3's *"VPB's 2.00%"*) · **1,000/22,050
+  = 0.0454** (its *"MBB's 4.54%"*) · **700/29,250 = 0.0239** (TCB's recorded 0.024). ***All three of item 3's
+  numbers are the same three cash dividends, and all three have already been paid: VPB 25-May, TCB 10-Jun, MBB
+  17-Jul — all before the dated prices this file has measured.***
+  ⚠⚠ **ITEM 3'S CENTRAL CLAIM — "seven blanks are not seven zeros" — IS WRONG FOR THESE THREE.** The blanks
+  **are** zeros, for the reason the item never tested: **the dividends are past.** **MBB's 0.0 is correct.
+  VPB's 0.0 is correct. The only field that is wrong is the one that is NOT blank — TCB's 0.024.**
+  ***NET EFFECT OF RESOLVING ITEM 3: the only movement is TCB down 2.4pp raw. Nothing goes up.***
+  **THE SPECIFIC PREDICTION THAT FAILS:** item 3 states *"adding MBB's 4.54% moves MBB from 4th to 3rd, above
+  HPG."* **That ranking change would have been produced entirely by a dividend paid on 17-Jul-2026. It does not
+  happen.**
+  *Stale figure noted in passing: item 3's "removing TCB's 0.024 cuts its shrunk expected return 1.92pp" was
+  computed at confidence **0.80** (0.024 × 0.80); the field is now **0.70**, giving **1.68pp** — the figure
+  used at 15:53.* **⚠ And a discrepancy inside the brief itself, flagged not resolved: DECISION-BRIEF's TCB row
+  shows Conf 0.70 in the column while its evidence prose still reads "Confidence cut 0.85 → 0.80 on
+  2026-07-28." The column and the prose disagree; the prose is stale.**
+  **VPB'S STOCK LEG NOW HAS A WINDOW, WHICH IT DID NOT HAVE.** The 26% — **actually 26.04%, ~2.07bn shares**
+  (7,933.9m × 0.2604 = 2,066.0m, matching the 2,062.8m on file to 0.15%) — is planned for **issue and
+  completion in Q3 AND Q4 2026, after regulatory approval.** **So VPB's −21.8pp one-legged-refresh exposure is
+  NOT a next-week risk; it is a Q3–Q4 event gated on SBV/SSC approval.** *That is a window, not a record date,
+  and is recorded as one.*
+  **ALSO NEW: VPB CHANGED THE INSTRUMENT.** In July 2026 it ran a **written shareholder consultation to convert
+  its capital-increase plan INTO a 26% stock dividend.** *The file's 01-Aug note that "the three bank stock
+  issues are three different instruments" is therefore right — and more fragile than it looks, because one of
+  the three changed form mid-year.*
+  **Nothing modelled. No confidence moved. `cash_yield` untouched — two of the three are already correct and
+  TCB's is §4 human-only. No new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION FOR THE STOCK LEG AND RIGHTS IS MONDAY
+  10-AUG.**
+
 - **⚠⚠⚠ 16:53 ICT · MBB — THE 10% CASH DIVIDEND WAS PAID ON 17-JUL-2026. OPEN ITEM 3'S HEADLINE IS FALSIFIED,
   AND IT FALSIFIES AGAINST THE ENGINE'S FAVOURITE NAME.** *(Direct follow-up to the question 15:53 raised and
   deliberately left open.)*
