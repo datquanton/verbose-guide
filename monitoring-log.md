@@ -15,6 +15,7 @@ Rules of engagement (materiality, evidence tiers, verification, scope) live in
 
 | Item | Not before | Lane |
 |---|---|---|
+| **⚠⚠⚠ MBB — LAST CUM SESSION IS MONDAY 10-AUG-2026. THE MOST TIME-CRITICAL ITEM IN THIS FILE, AND UNTIL 09-Aug 01:53 IT WAS NOWHERE IN THIS TABLE.** | **Ex-rights TUE 11-Aug, record date WED 12-Aug** — so **Mon 10-Aug is the last session to buy cum-entitlement.** Covers **both** legs: the **15% stock dividend** (100:15, >1.2bn new shares, ₫12,082.5bn) **and the 10:1 rights at ₫10,000** (805.5m shares). Rights transferable **18–26 Aug** (worth ~₫992 each), subscription to **07-Sep**. ⚠ **CONVENTION VERIFIED 09-Aug 01:53 against MBB's OWN prior action, not against this file's own claim: its 10% cash dividend had record 10-Jul ⇒ ex 09-Jul — a ONE-BUSINESS-DAY gap. Same issuer, same year, same convention ⇒ record Wed 12-Aug ⇒ ex Tue 11-Aug ⇒ last cum Mon 10-Aug.** **An external source read this hour asserts "the ex-rights date falling on 12-Aug" while calling 12-Aug the record date in the same paragraph — internally inconsistent and contradicted by the issuer's own July precedent. It is wrong; a one-day error here costs an entire entitlement.** **⚠ Item 38's instruction that `fy26e_npat` REQUIRES HUMAN RE-DERIVATION is due by this date. §4 human-only — an automated run cannot do it.** | 3, 7 |
 | HPG / KDH / MBB official Q2/26 statements | **ALL THREE FILED. CLOSED.** HPG 29-Jul (revenue +53%, NPAT +51%). KDH 30-Jul (Q2 revenue −85%; **Q2 NPAT ₫770bn — the "profit ≈ zero" on this row was wrong, corrected 02-Aug**). **MBB surfaced 31-Jul, one day past deadline: Q2 PBT ₫10,560bn +40%, H1 NPAT-to-parent ₫15,744.58bn +26.51%.** Next gate is Q3, due 30-Oct | 3 |
 | **⚠⚠ H1/2026 REVIEWED statements — NOW CARRY TWO SPECIFIC KDH QUESTIONS (added 05-Aug 18:53)** **(1) WAS THE Q2 ₫906bn THE BÌNH TRƯNG MỚI GAIN OR NOT?** The file holds `binh_trung_moi_transfer_expected` = **Q3/2026** *and* evidence prose attributing the Q2 gain to that same transfer — **mutually exclusive**, and the answer decides whether ₫1,743bn of one-off income is already spent or is a candidate for the ₫493–1,106bn H2 gap identified at 14:53. **(2) WHAT IS THE CORPORATE CHAIN FROM BÌNH TRƯNG MỚI TO THE GLADIA JV**, i.e. is KDH's economic share of Gladia falling while its sales are reported? **⚠ H1/2026 REVIEWED statements — MISSING FROM THIS TABLE UNTIL 03-Aug** | **standalone/parent due 2026-08-14 (45 days); consolidated due 2026-08-29 (60 days)**, per Circular 96/2020. **AUDITOR-REVIEWED, unlike the self-reported quarterlies on file — a review can RESTATE them.** **14-Aug is the document that settles KDH's ₫321bn vs ₫1,097bn basis question**, and bears on item 17b (TCB bonds), HPG's debt currency mix and VPB's provisioning detail. **Lands one day before the 15-Aug circular cluster** | 3 |
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
@@ -86,6 +87,37 @@ A quiet sweep writes nothing here — but it is **not** a finished sweep. It adv
 item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
+
+## 2026-08-09
+
+- **⚠⚠⚠ 01:53 ICT · MBB — THE MOST TIME-CRITICAL DATE IN THIS FILE IS NOW VERIFIED AGAINST THE ISSUER'S OWN
+  PRIOR ACTION, AND AN EXTERNAL SOURCE READ THIS HOUR GETS IT WRONG BY A DAY. LAST CUM SESSION IS TOMORROW,
+  MONDAY 10-AUG.** *(Sunday, both markets shut. 00:53 was reported as nothing material and stands.)*
+  **THE CLAIM UNDER TEST:** the file holds **ex-rights 11-Aug, record 12-Aug ⇒ last cum session Mon 10-Aug.**
+  It has been asserted from the disclosure since 06-Aug and **never independently checked.**
+  **THE CONTROL — the same issuer, the same year:** MBB's **10% cash dividend had record 10-Jul and ex 09-Jul —
+  a ONE-BUSINESS-DAY gap**, established independently at 16:53 yesterday from separate coverage. **Apply the
+  same convention: record Wed 12-Aug ⇒ ex Tue 11-Aug ⇒ last cum session Mon 10-Aug. The date is confirmed — not
+  by the file repeating itself, but by MBB's own precedent.**
+  ⚠ **THE EXTERNAL CONTRADICTION, AND WHY IT IS WRONG.** Coverage read this hour states **12-Aug is the record
+  date** for the 100:15 stock dividend **and, in the same passage, that "the ex-rights date falls on 12-Aug."**
+  ***Those cannot both be true — ex-date and record date are never the same session — and the second is
+  contradicted by the issuer's own July precedent. The file is right and the source is wrong by one day.*** **A
+  one-day error here costs an entire entitlement on BOTH legs** — the 15% stock dividend *and* the 10:1 rights
+  at ₫10,000.
+  **THE SECOND FINDING IS A GAP IN THIS FILE'S OWN INDEX, NOT IN THE WORLD.** **Until this hour the date-gate
+  table at the head of this log had NO ROW for MBB's ex-date at all** — MBB appeared there only inside the
+  four-pending-share-count row and a closed Q2-statements row. ***The single most time-critical fact in the
+  file lived only in log prose and the handover header — the two places a reader scanning for dates does not
+  look.*** **A row has been added.** *Same defect family as 14:53 yesterday, where this log's header claimed to
+  be a control surface and was not:* **an index that omits the item closest to its deadline is worse than no
+  index, because it is read as complete.**
+  *Not material and said so: the same coverage carries VN30 derivative commentary for 10–14 Aug (futures down
+  on 07-Aug, the index "retesting the broken May 2026 low"). This file does not do technicals and it is not
+  recorded as evidence.*
+  **Nothing modelled. No confidence moved. NO NEW TRIGGER — the 06-Aug trigger 5 already covers this catalyst,
+  and this hour CONFIRMS its date rather than adding one.** ⚠ **Item 38's instruction that `fy26e_npat`
+  REQUIRES HUMAN RE-DERIVATION is due by tomorrow. §4 human-only — an automated run cannot do it.**
 
 ## 2026-08-08
 
