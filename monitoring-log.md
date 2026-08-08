@@ -83,6 +83,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 11:53 ICT · MACRO (lane 1) — the CREDIT-QUOTA lane is named in the routine and had ZERO coverage in
+  this file. Fixed, and it reframes the 51.5% bank block. Plus a correction I owe on my own 06:53 entry.**
+  **GREP EVIDENCE BEFORE THE FIX:** zero hits in `assumptions.json` for *"15% credit"*, *"credit growth
+  target"*, *"quota removal"*, *"abolish"* or *"room tín dụng"* as a policy topic. **The routine's lane 1
+  tracks "credit-quota policy and quota-removal pilot" and the file has been running the lane without recording
+  it.**
+  **NOW ON FILE.** **(1)** SBV's **2026 system credit-growth target is ~15%**, against a **2025 actual of 19%**.
+  **(2)** Room is allocated **per bank on 2024 scoring and ranking × a common coefficient**, with priority for
+  institutions in system restructuring. **(3)** SBV guidance paces **~25% of the year's credit growth into each
+  quarter** — a within-year constraint this file has never held. **(4)** The mechanism is being **phased out
+  gradually, not abolished**; the PM has instructed SBV to *study* abolition, and room must fit a **GDP target
+  of 8.3–8.5%**. **(5)** SBV is **tightening oversight of PROPERTY credit growth in 2026** — touching KDH
+  (20.3%) and the subject of one of the analyst questions on file.
+  **LIKE-FOR-LIKE AT END-JUNE, the only date all three share:** system **+7.73%**; **MBB +13.2% = 1.71×
+  system**; **TCB +10.39% = 1.34× system**. Against a **15% full-year system target, six months in: MBB has
+  used 88.0% of it, TCB 69.3%, the system itself 51.5%.**
+  ⚠ **WHAT THIS DOES NOT LICENSE, AND IT IS THE WHOLE DISCIPLINE OF THE ENTRY.** **15% is a SYSTEM target.
+  Individual banks receive individual room, and a high-rated bank's room can exceed 15%.** So *"MBB is at 88%
+  of 15%"* **does not mean MBB has 1.8pp left for H2.** Saying so would be the system-vs-bank measure
+  substitution this file has catalogued five times. **It is not said.**
+  **THE ACTUAL FINDING IS A NAMED GAP: this file has no record of any individual bank's 2026 room, and that is
+  the number that would make MBB's H2 branches derivable instead of typed in.** The brief already says MBB has
+  *"still no driver model … branches typed in, derived from nothing and recomputed by nothing"* and that
+  `fy26e_npat` 28,000/30,500/33,000 **requires human re-derivation**. *A per-bank room figure is the missing
+  input for that re-derivation, and it is cheap — one disclosure, not a model.*
+  **THE PACING GUIDANCE AGAINST MBB'S OWN PROFILE, STATED CONDITIONALLY.** MBB ran **+3.3% (end-Mar) → ~10%
+  (end-May) → +13.2% (end-Jun)**. **IF** its full-year growth were 15%, Q1's 3.3pp is 22% of it and Q2's 9.9pp
+  is 66% — **so Q2 alone consumed roughly two and a half quarters of a 25%-per-quarter allowance.** *The "if"
+  is load-bearing and is not dropped: MBB's own full-year figure is not established.*
+  **⚠ CORRECTION TO MY OWN 06:53 ENTRY.** At 06:53 I listed *"SBV Decision 1743"* among three items I called
+  *"already on file"* and used that to justify reporting nothing from lane 1. **The substance was genuinely on
+  file** — the 80%→50% LDR deduction change, 01-Aug-2026 to 31-Jul-2028, including the deduction-vs-counting
+  ambiguity — **and that part stands.** **But my grep for "1743" matched KDH's ₫1,743bn Bình Trưng Mới transfer
+  value, not any SBV instrument.** The identifier is not on file at all, press disagrees on whether it is a
+  *decision* or a *circular*, and today's coverage says the new instrument **repeals Circular 08/2020/TT-NHNN
+  and Circular 08/2026/TT-NHNN** — repeal-and-replace, not amendment. **Zero hits for "08/2020" anywhere in the
+  repo.** ***The economics were recorded and the legal form was not. A bare four-digit number grep is not a
+  coverage test in a file full of ₫ amounts*** — the 06:53 conclusion survived on other grounds, but it was
+  supported by a check that did not test what I said it tested. **Recorded as a failure per this file's
+  convention.**
+  **Nothing modelled. No confidence moved. `fy26e_npat` untouched (§4). No trigger fires — the 14:53 trigger-3
+  and 06-Aug trigger-5 on MBB stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 10:53 ICT · WHOLE BOOK — the implied-target table is complete for the first time, and it makes the
   VPB-vs-TCB asymmetry measurable: the SAME MODEL sits ABOVE every TCB analyst and BELOW every VPB analyst.
   Refreshing the four measured prices flips the brief's ranks 2 and 3 negative.** *(Weekend, both shut. This is
