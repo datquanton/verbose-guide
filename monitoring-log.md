@@ -83,6 +83,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 08:53 ICT · STEEL (lane 5) / HPG — item 46's UNIT question is answered, bridge §9's BASIS question gets
+  a worse answer than §9 assumed, and this file's own "coal is broadly FLAT" reading has a candidate
+  falsification.** *(Weekend, both markets shut. Rotated off the index lane after two hours onto the one live
+  variable in HPG's thesis.)*
+  **(1) THE UNIT IS SETTLED FOR THE BENCHMARK: USD PER WET METRIC TONNE.** Fastmarkets **MB-COA-0003** is
+  published as *"Premium hard coking coal, fob eastern Australian ports, **$ per wmt**"* — confirmed by two
+  independent Fastmarkets URL slugs both carrying `-dollar-per-wmt-`. **Item 46 asked for exactly this
+  ("USD/t vs USD/wmt") and it is now answered for the most-quoted PHCC FOB Australia index.** ⚠ **Conditional
+  narrowing, stated as conditional:** *if* the file's **228** and **238.9** came from this benchmark — the
+  obvious but **unverified** assumption — they are wmt too, and **the 241-vs-228 gap the file flagged on 07-Aug
+  as an unresolved wmt/dmt problem is already like-for-like.** That would close it with no new number. *Not
+  asserted: the provenance of 228 and 238.9 is still not on file.*
+  **(2) "PHCC FOB AUSTRALIA" IS NOT A DELIVERY BASIS — IT HAS COVERED TWO.** Fastmarkets amended
+  MB-COA-0003's **load port** from **`FOB DBCT`** — Dalrymple Bay Coal Terminal, a *single* terminal — to
+  **`FOB eastern Australian ports`**, adding **Hay Point, Abbot Point, Gladstone and Port Kembla**. **Both
+  names are live on Fastmarkets today under the same index code**, and two *further* amendment notices exist
+  (indices **specifications**, index **methodology**). ***This is the direct answer to bridge §9 — and it is
+  worse than §9 assumed: the problem is not that the file omitted a basis, it is that the label itself does not
+  determine one.***
+  **(3) THE HONEST BOUND, WHICH KILLS THE OBVIOUS OVERREACH.** The load-port change was **proposed October
+  2024 — before every coal figure this file holds** (Q1/26 190; Jun-26 avg 244.39; 10-Jul 238.9; the 241 wmt
+  bid; the undated 228; the 220 modelled). **So it does not splice this file's series and explains none of its
+  internal spread.** It is a hazard for *future* comparisons and for any pre-2025 quote — not a retrospective
+  correction. Effective date unobtainable (`fastmarkets.com` blocked).
+  **(4) A DATED 03-AUG-2026 PRINT OF US$212/t THAT CONTRADICTS A CONCLUSION THIS FILE RECORDED.** The 07-Aug
+  entry read *"roughly 238–241 in mid-July … **coal is broadly FLAT, drifting slightly down.**"* **212 on
+  03-Aug is −11% from mid-July in three weeks. That is not flat.** ⚠ **But it is a *candidate* falsification:**
+  the source expressly flags 212 as *"a **broader** coking coal price rather than specifically PHCC FOB
+  Australia."* ***A number whose own publisher disclaims its basis cannot overturn a series measured on that
+  basis — it can only put the series on notice.*** **If it holds, the direction is favourable and it reverses a
+  recorded line:** 220 modelled vs 212 is **−US$8/t** → at ₫0.14m per US$10/t after tax, **+₫0.11m/t ≈
+  +₫1,265bn on the base case's 11.5m t ≈ +4.6% of base-case FY NPAT** — reversing the 07-Aug 13:53 *"the cost
+  side is delivering no relief."* **NOT APPLIED:** basis unverified, T4/T5, and `core_npat_per_tonne_m` is a
+  charter §4 human-only judgement input.
+  **(5) NOT NEW, AND SAID SO:** the **June-2026 average 244.39 (range 242–249)** was already on file from
+  07-Aug. Only the 03-Aug point and the index metadata are new. *Hosts blocked this hour: `fastmarkets.com`
+  (×2), `tradingeconomics.com`, `cbonds.com` — the coal lane now joins the index lane in running on search
+  summaries only.* **Nothing modelled. No confidence moved. No trigger fires — the 14:53 trigger-3 and 06-Aug
+  trigger-5 on MBB stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 07:53 ICT · INDEX (lane 4) / HPG — the first PER-NAME FTSE flow figures this file has ever held, and
   they DEFLATE the September event. HPG's entire 21-Sep tranche is ~US$11.5m ≈ 0.18% of its market cap.**
   *(Weekend, both markets shut. Direct continuation of 06:53 — and it closes a gap the file had already
