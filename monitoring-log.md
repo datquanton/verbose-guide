@@ -89,6 +89,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 19:53 ICT · HPG / WHOLE BOOK — FOUR FOR FOUR, and a correction I owe on my own 15:53–17:53 framing:
+  THE FILE ALREADY HAD THE PRINCIPLE AND HAD IT RIGHT.**
+  **HPG's 5% cash dividend:** ex **11-May-2026**, record **12-May**, **paid 03-Jun-2026**, ₫500/share ≈
+  **₫3,838bn** on **7,685.5m** shares — alongside a **10% stock dividend, record 26-May, 767.5m shares** (AGM
+  plan 15% = 10% stock + 5% cash).
+  **SO ALL FOUR 2026 CASH DIVIDENDS IN THIS BOOK WERE PAID BETWEEN 11-MAY AND 17-JUL:** HPG ex 11-May → paid
+  03-Jun · VPB ex 15-May → 25-May · TCB ex 19-May → 10-Jun · MBB ex 09-Jul → 17-Jul. ***That is not four
+  coincidences — it is the Vietnamese dividend season following April AGMs.*** **The actionable default: for
+  this book, a `cash_yield` recorded in August against an April-AGM dividend is backward-looking unless dated
+  otherwise.**
+  ⚠ **THE CORRECTION I OWE.** At 15:53, 16:53 and 17:53 I presented as a discovery that *"`cash_yield` has no
+  date attached, so a forward yield and a memory are the same object."* **This file already stated that
+  principle, correctly and in general terms, on HPG:** *"`cash_yield` in a FORWARD expected-return model should
+  be the dividend expected over the HOLDING PERIOD. The ₫500 was PAID on 03-June-2026 — it is a TRAILING
+  payment. **Setting a forward yield off a payment already made is the same class of error as reading a
+  cumulative average as a rate.**"* **The principle was not mine and was not new.** What I actually contributed
+  is narrower: **(1)** applying it to three more names, and **(2)** finding that **TCB's 0.024 violates it.**
+  ***(2) is the only genuinely new part, and it matters because the HPG note treats TCB as the reference case —
+  "cash_yield is populated for TCB alone" — rather than as the error. The file had the rule and never turned it
+  on the one name where the field was filled.*** That is a sharper diagnosis than *"the field has no date,"*
+  and it replaces it.
+  ⚠⚠ **A SECOND, MORE CONSEQUENTIAL CORRECTION — TO A STANDING CLAIM IN `risk.py`'s INHERITANCE BLOCK.** That
+  block warns *"`cash_yield` is populated for TCB alone … **seven blanks bias the book's E[r] DOWN**,"* and the
+  HPG note calls HPG's blank *"a real blank rather than an accurate zero."* **Four-for-four says the opposite
+  for the names checked: HPG's, VPB's and MBB's zeros are ACCURATE for the current forward window, because all
+  four 2026 dividends are already paid. The blanks are not a downward bias — they are correct until the next
+  declaration, whose size and date are not established for any name.** *Flagged, not fixed: `risk.py` is
+  machinery and human-only.*
+  **AN INDEPENDENT CORROBORATION OF A MODEL INPUT, FROM THE ERROR CLASS THAT HAS COST THIS SESSION MOST.**
+  **7,685.5m pre-dividend shares (not previously on file) + 767.5m new = 8,453.0m against the 8,443,000,000 in
+  `valuation.HPG` — +0.12%.** *Share counts produced this session's largest error (TCX, a 27.9% cap error), so
+  a two-source confirmation of HPG's to 0.12% is worth having.*
+  **STILL UNCHECKED: KDH, TCX, VCI, VPX — four of the eight.** *KDH's 2026 dividend is recorded as 10% STOCK,
+  so no cash leg is expected there.* **Nothing modelled. No confidence moved. `cash_yield` untouched — HPG's
+  0.0 is CORRECT. No new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 18:53 ICT · TCB (35% of the book) — a THIRD bond number arrives and it belongs to NEITHER existing
   thread: it is on the other side of the balance sheet. And TCB's 60% bonus is now the only corporate action
   across the three banks with neither a date nor a window.**
