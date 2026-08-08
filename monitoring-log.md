@@ -89,6 +89,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 21:53 ICT · VPX / TCX — VPX led the ENTIRE securities industry on Q2 profit, and the lead is smaller
+  than the noise in one of its own line items. Rank EIGHT in the activity, rank ONE in the earnings.**
+  **THE CLAIM:** coverage states VPBankS **led the whole industry on Q2/2026 profit, surpassing SSI and
+  TCBS.** **It verifies against this file's own numbers, which is the part worth having.**
+  **NEW AND NOT ON FILE: TCX Q1/2026 PBT = ₫1,458bn (+11% YoY) on revenue of ₫2,783bn (+37% YoY)** — zero hits
+  for either figure before this entry. **Combine with the file's own *"H1 47.1% of plan"* and the ₫7,535bn
+  plan: TCX H1 PBT = ₫3,549bn, so TCX Q2 PBT = 3,549 − 1,458 = ₫2,091bn.** ***That is the first time TCX's
+  quarterly split exists in this file.*** Against **VPX's Q2 PBT of ₫2,159bn** (already on file): **VPX leads
+  by ₫68bn, or +3.3%. The ranking checks out.**
+  ⚠ **WHY THE RANKING IS FRAGILE — and this is the finding rather than the headline.** VPX's **Q2 gross FVTPL
+  gains were ₫1,639bn — 76% of its own PBT — and the same quarter absorbed a ₫923bn FVTPL loss.** ***A ₫68bn
+  lead is 4.1% of one quarter's gross FVTPL gains.*** So *"VPBankS led the entire industry"* is **true and sits
+  well inside the noise of a single mark-to-market line**, against a competitor whose earnings are fee- and
+  margin-driven. **A mark-driven ranking over a fee-driven one, decided by less than one line item's
+  dispersion.**
+  **THE SHARPEST STATEMENT OF THIS FILE'S OWN VPX THESIS, NOW AVAILABLE AND NEVER MADE:** **VPX is EIGHTH in
+  HOSE brokerage market share at 3.57% and FIRST in the industry on Q2 profit.** ***Rank eight in the activity,
+  rank one in the earnings.*** The file already says VPX is *"NOT primarily a broker … a leveraged credit/margin
+  book"* — **this is that claim in its strongest form, assembled from two facts already on file plus one new
+  one, not from a new opinion.**
+  **NOT A CONFIDENCE MOVE AND NOT A THESIS CHANGE — it cuts both ways and is recorded as doing so.** The
+  ranking is real and is evidence the franchise earns; the *composition* is exactly the earnings-quality risk
+  that already sets VPX's confidence at 0.55 and flags `npat_ttm` as suspect. ***Nothing here resolves that
+  tension — it sizes it.***
+  *Already on file and not re-reported: the ₫7,535bn TCX and ₫6,453bn VPX plans are model inputs; VPX's
+  20-Apr-2026 AGM and 44%-growth plan; the Q2 brokerage share table in full.* **Nothing modelled. No confidence
+  moved. No branch, probability or weight touched (§4). No new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY
+  10-AUG.**
+
 - **⚠⚠⚠ 20:53 ICT · WHOLE BOOK — I owe TWO corrections on my own last two hours, and together they make item 3
   much bigger than a bookkeeping question: THE CONVENTION CHOICE IS WORTH ~0.90pp ON A BOOK WHOSE TOTAL
   EXPECTED RETURN IS +1.8% — roughly HALF of it.**
