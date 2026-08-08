@@ -89,6 +89,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 18:53 ICT · TCB (35% of the book) — a THIRD bond number arrives and it belongs to NEITHER existing
+  thread: it is on the other side of the balance sheet. And TCB's 60% bonus is now the only corporate action
+  across the three banks with neither a date nor a window.**
+  **NEW AND NOT ON FILE: TCB REPURCHASED ₫9,000bn OF ITS OWN BONDS BEFORE MATURITY.** *Headline-level only —
+  the **date** and the **tranche** are not established from what came back and are not guessed.* Entity = **TCB
+  the bank**; action = **early redemption of its own issued debt**.
+  ⚠⚠ **WHY IT MUST NOT BE NETTED.** This file holds **two contradictory claims** about TCB's *"bond book"*:
+  **(A)** from the credit +10.39% vs loans +14.46% gap — *"the non-loan part of credit, chiefly the corporate
+  bond book, **must have SHRUNK**,"* with *"every plausible starting point implies a large decline"*; and
+  **(B)** from H1 coverage — *"**the corporate bond book ROSE 80%**."* **Both are on file.** A ₫9,000bn
+  repurchase *looks* like it could reconcile the "shrank" side. **It cannot.** ***TCB buying back its own
+  issued bonds is a LIABILITY reduction — it retires TCB's own funding. Both existing threads are about bonds
+  TCB HOLDS as an ASSET, which is why they sit inside "credit" alongside loans. Opposite sides of the balance
+  sheet.*** Netting them would have been natural and wrong, and it is precisely this file's catalogued
+  measure-substitution error class.
+  **THE UNDERLYING DEFECT — FIFTH DIMENSION OF THE SAME FAMILY.** ***This file says "bond book" throughout and
+  never states which side of the balance sheet it means*** — zero hits for any side-designation. **Basis**
+  (bridge §9) · **date** (03:53) · **held-constant set** (05:53) · **instrument** (11:53, 13:53) · **and now
+  SIDE.**
+  **A GREP FALSE POSITIVE, THE SECOND TODAY.** My first check for "9,000bn" returned hits — **all of them
+  TCBS's ~₫59,000bn and ~₫61,000bn bond-*arranging* figures: a different entity (TCX, not TCB) and a different
+  activity (arranging for clients, not redeeming own debt).** *This morning's "1743" grep matched KDH's
+  ₫1,743bn. Same failure, same fix: read the matched context, do not trust the count.*
+  **NEGATIVE RESULT, RECORDED BECAUSE IT ELEVATES A RISK: no record date exists in any accessible source for
+  TCB's 60% bonus.** As of tonight the three banks stand — **MBB DATED** (ex 11-Aug, record 12-Aug), **VPB
+  BOUNDED** (Q3–Q4 2026 window, found 17:53), **TCB UNBOUNDED.** **TCB carries the largest one-legged-refresh
+  exposure in the file at −39.0pp on 35% of the book**, ***so the biggest mechanical risk here is now also the
+  only one with neither a date nor a window.***
+  *Minor: the AGM deck says "more than 4.28 billion shares" against the 4,251.7m on file — 0.67% apart, press
+  rounding, not a discrepancy.* **Nothing modelled. No confidence moved. No branch, probability or weight
+  touched (§4). No new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **✅⚠⚠ 17:53 ICT · VPB — THREE FOR THREE. VPB's cash dividend was PAID 25-MAY-2026, and OPEN ITEM 3 — open
   since 29-Jul — IS NOW FULLY RESOLVED, OPPOSITE TO ITS OWN CONCLUSION.**
   **VPB'S DATES:** ex **15-May-2026**, record **18-May**, **paid 25-May-2026**; 5% = **₫500/share ≈ ₫4,000bn**.
