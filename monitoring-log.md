@@ -89,6 +89,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠⚠ 20:53 ICT · WHOLE BOOK — I owe TWO corrections on my own last two hours, and together they make item 3
+  much bigger than a bookkeeping question: THE CONVENTION CHOICE IS WORTH ~0.90pp ON A BOOK WHOSE TOTAL
+  EXPECTED RETURN IS +1.8% — roughly HALF of it.**
+  **WHAT VCI ADDS:** VCI has paid cash **in almost every year since 2017**, and the current cycle drew on
+  undistributed profit **as at 30-Sep-2025 with expected payment 20-Jan-2026.** So VCI's 0.0 is also
+  *backward*-correct — and its cycle is **off-season** (AGM 30-Mar, payment January), which **refines** rather
+  than confirms yesterday's "April AGM → May–July season" rule.
+  ⚠ **CORRECTION ONE, TO MY 19:53 ENTRY.** I wrote that `risk.py`'s warning — *"seven blanks bias the book's
+  E[r] DOWN"* — *"says the opposite"* of four-for-four, and is wrong. **That was too strong and is itself
+  wrong.** It depends entirely on the convention, and **the file has already chosen a side**: the HPG note says
+  *"`cash_yield` … **should be the dividend expected over the HOLDING PERIOD**."* **Under that convention every
+  name with a recurring policy should carry a non-zero forward estimate, and the next payments — May–Jul 2027
+  for HPG, VPB, TCB and MBB, ~Jan 2027 for VCI — all fall inside a 12-month window from today. So `risk.py` is
+  RIGHT under the file's own stated convention, and my correction of it was wrong.**
+  ⚠⚠ **CORRECTION TWO, TO MY 15:53 ENTRY — the one that matters most.** I said TCB's `cash_yield` of 0.024 is
+  *"a past payment counted as forward return"* and therefore an error worth −2.4pp. **700 / 29,250 = 0.0239.
+  Under a repeat-policy forward convention — and TCB's 7% was its THIRD CONSECUTIVE YEAR — 0.024 is a
+  defensible forward estimate that happens to equal the trailing yield. It is UNDOCUMENTED, not demonstrably
+  wrong, and I overstated it.** **What is NOT walked back:** the field carries **no date and no basis**, so a
+  reader cannot tell which it is; **and the asymmetry — one filled, seven blank — is unjustified under either
+  convention**, because under a forward convention VPB, MBB, HPG and VCI should also be non-zero.
+  **THE SIZE, WHICH IS WHY THIS STOPS BEING BOOKKEEPING.** Filling the four measured names at their own 2026
+  rates: **TCB 2.39% · MBB 4.54% · HPG 2.40% · VPB 2.00%.** Book-weighted — **filled today = 0.84% of book
+  E[r]; all four filled = 1.74%; shortfall = 0.90pp.** **The brief puts the book as owned at +1.8% expected
+  return.** ***So the convention choice is worth roughly half the book's entire expected return. Item 3's
+  remaining task is not an argument about a scalar — it flips the sign of a book-wide bias.***
+  *Already on file and not re-reported: VCI's 297.54m bonus shares at 20:7 (record 27-Mar-2026) and the 4.6m
+  ESOP at ₫11,000 reported June 2026.* **Still unchecked for cash: KDH (recorded as 10% STOCK, none expected),
+  TCX and VPX (no history found).** **Nothing modelled. No confidence moved. `cash_yield` untouched on all
+  eight — §4 human-only, and the convention is precisely what a human must set. No new trigger.** ⚠⚠ **MBB'S
+  LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 19:53 ICT · HPG / WHOLE BOOK — FOUR FOR FOUR, and a correction I owe on my own 15:53–17:53 framing:
   THE FILE ALREADY HAD THE PRINCIPLE AND HAD IT RIGHT.**
   **HPG's 5% cash dividend:** ex **11-May-2026**, record **12-May**, **paid 03-Jun-2026**, ₫500/share ≈
