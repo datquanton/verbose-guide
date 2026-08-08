@@ -83,6 +83,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 13:53 ICT · PROPERTY (lane 5) / KDH — the file has been hunting the WRONG VARIABLE on KDH's land-use
+  fee. This is a correction to the question, not a new answer.** *(Weekend, both shut. Property was the lane
+  sub-topic not yet covered today. 12:53 was reported as nothing material and stands.)*
+  **WHAT THE FILE ASSERTS AS THE MECHANISM:** *"Land-use fee is the single largest cost input for a Vietnamese
+  residential developer, **and it is computed as the land price table multiplied by K.**"* On that basis it
+  named exactly two unknowns and has been chasing them: **KDH's project-specific K2 values**, and **which
+  projects have already settled their fee**.
+  **WHAT TODAY'S COVERAGE SAYS:** developers are **little affected directly on LARGE projects, because
+  land-use fee on those is typically determined by the RESIDUAL / SURPLUS method** (*phương pháp thặng dư*),
+  **not by the table × K.** The parties named as materially exposed are **manufacturing and commercial-service
+  tenants paying annual land rent** in areas where the table rose most.
+  ⚠⚠ **WHY THIS MATTERS MORE THAN A NEW NUMBER WOULD.** If KDH's large projects — **Gladia and Clarita**, the
+  two the file names — are assessed by the residual method, **then K2 is irrelevant for them and both unknowns
+  the file has been pursuing are aimed at the wrong variable.** ***The prior question is: by which statutory
+  valuation method is each KDH project's fee actually determined?*** That question is **new to this file and
+  sits upstream of both existing ones.**
+  **THE DISCIPLINE, NOT RELAXED.** The coverage is **T5 general commentary about developers as a class, not
+  about KDH.** Vietnamese law provides several valuation methods — comparison, income, surplus/residual, and
+  the land-price-adjustment-coefficient method — and **which applies depends on the case. So this does NOT
+  establish that KDH is assessed by the residual method.** It establishes that **the file's stated mechanism is
+  a simplification whose applicability to KDH's large projects is now in doubt**, and that the doubt should be
+  resolved before more effort goes into the K2 hunt.
+  **DIRECTIONALLY — a lean, not a conclusion:** it points to a **smaller direct impact on KDH than the raw
+  table increase suggests** (the file recorded increases *"with the largest reported at eight times"*). **The
+  file's standing line that "the direction is NOT ESTABLISHED and the obvious reading is not taken" remains
+  correct and is now better supported** — because the obvious reading assumed a mechanism that may not apply.
+  **THE INSTRUMENT IDENTIFIER, WHICH THE FILE ALSO LACKS:** HCMC's table is **Nghị quyết 87/2025/NQ-HĐND**,
+  effective **01-Jan-2026** — the first table issued after the merger of HCMC with **Bình Dương** and **Bà
+  Rịa–Vũng Tàu**, built under the **2024 Land Law** on "market principles". **Zero hits for "87/2025" or "Land
+  Law 2024" anywhere in the repo.** Peak figure: **₫481.1m/m² for non-agricultural production and business land
+  in zone 1.**
+  ⚠ **AND THIS IS THE SECOND INSTRUMENT-IDENTIFIER GAP IN THREE HOURS.** At 11:53 the SBV LDR change was on
+  file **by substance but not by instrument**; here the HCMC land table is on file **by substance but not by
+  instrument**. ***Twice in three hours is a pattern, not an accident: this file records what a rule does and
+  not which rule it is — which is exactly what makes a rule impossible to re-check or to date.***
+  **Nothing modelled. No confidence moved. No branch, probability or weight touched (§4). No trigger fires —
+  the 14:53 trigger-3 and 06-Aug trigger-5 on MBB stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
+
 - **⚠⚠ 11:53 ICT · MACRO (lane 1) — the CREDIT-QUOTA lane is named in the routine and had ZERO coverage in
   this file. Fixed, and it reframes the 51.5% bank block. Plus a correction I owe on my own 06:53 entry.**
   **GREP EVIDENCE BEFORE THE FIX:** zero hits in `assumptions.json` for *"15% credit"*, *"credit growth
