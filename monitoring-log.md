@@ -89,6 +89,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠⚠ 16:53 ICT · MBB — THE 10% CASH DIVIDEND WAS PAID ON 17-JUL-2026. OPEN ITEM 3'S HEADLINE IS FALSIFIED,
+  AND IT FALSIFIES AGAINST THE ENGINE'S FAVOURITE NAME.** *(Direct follow-up to the question 15:53 raised and
+  deliberately left open.)*
+  **THE DATES:** record date **10-Jul-2026** ⇒ **ex-date 09-Jul**; **paid 17-Jul-2026**; **₫1,000/share on
+  8.055bn shares ≈ ₫8,055bn**, 5% personal income tax withheld. It is the **cash leg of the 25% AGM plan**
+  (10% cash + 15% stock) — **and the stock leg carries the separate 11-Aug ex / 12-Aug record dates already on
+  file.** ***So the 25% AGM figure resolves into two dated events: one completed three weeks ago and one on
+  Monday.***
+  **PROVENANCE IS PROVABLE, EXACTLY AS FOR TCB: 1,000 / 22,050 = 0.0454.** Item 3's *"MBB's unrecorded 4.54%"*
+  **is this dividend against this file's price.**
+  ⚠⚠ **WHAT ITEM 3 CLAIMS AND WHY IT IS WRONG.** It says the 4.54% is *"worth EXACTLY +4.54pp of raw E[r] — on
+  the engine's #1 name and largest proposed add … **the largest points UP on the name the engine most wants to
+  buy.**"* **It does not point up.** The dividend was paid **before the 06-Aug dated price this file measured
+  and before today**; a forward 12-month expected return cannot contain it. **`valuation.MBB.cash_yield` = 0.0
+  is CORRECT, and adding +4.54pp would have been exactly the error found on TCB one hour ago.**
+  **THE ARGUMENT IS ROBUST TO WHEN ₫22,050 WAS STRUCK:** if post-ex, the dividend is simply past; if pre-ex,
+  the price is stale by more than the 7.74% already measured — **a separate known defect pointing the same
+  way. Either way there is nothing to add.**
+  ⚠⚠ **AND "THE DIRECTIONS FIGHT" IS ALSO WRONG — BOTH POINT DOWN.** Item 3 says marking TCB down 2.37pp and
+  filling MBB up 4.54pp *"move the ranking's top and its largest weight opposite ways, so neither is small."*
+  **TCB's price mark takes TCB down; MBB's `cash_yield` is not a blank to fill upward, it is correctly zero;
+  and TCB's own recorded 0.024 is itself the same stale-dividend error (15:53), so TCB moves down twice.**
+  **THE 14:53 TRIGGER-3 NETTING IS RETIRED.** That entry reads *"plus crediting item 3's unrecorded 4.54% cash
+  yield, +25.58% (−11.10pp NET) … even after giving MBB the cash yield it is owed."* **MBB is not owed it.**
+  The correct sequence is **+36.69% → +26.11% on the dated price (−10.58pp) → +21.04% with the 11-Aug rights
+  (−15.64pp), with no credit at any step.** ***The trigger still fires, and more cleanly — it no longer needs
+  the "even after giving MBB the credit" defence.***
+  **⚠ VPB IS NOT RESOLVED AND IS NOT ASSUMED.** Item 3 also asserts *"VPB's 2.00% is worth +2.00pp."* **The
+  watch list carries no VPB cash dividend at all — only a 26% stock dividend and a placement — so the 2.00% has
+  no established source here** and needs the same date check before being credited *or* dismissed.
+  ***TWO FOR TWO IN TWO HOURS: every cash dividend this file has carried as pending or unrecorded turns out to
+  have already been paid.*** **Nothing modelled. No confidence moved. `cash_yield` untouched — MBB's 0.0 is
+  already right and TCB's 0.024 is §4 human-only.** ⚠⚠ **MBB'S LAST CUM SESSION FOR THE STOCK LEG AND RIGHTS IS
+  MONDAY 10-AUG.**
+
 - **⚠⚠⚠ 15:53 ICT · TCB (35% of the book, largest position) — TCB'S CASH DIVIDEND WENT EX ON 19-MAY-2026 AND
   WAS PAID ON 10-JUN-2026. THE FILE IS STILL COUNTING IT AS FORWARD RETURN. `cash_yield` = 0.024 is a past
   payment inside a forward expected return, worth +2.4pp of TCB's raw E[r].**
