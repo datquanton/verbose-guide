@@ -1,7 +1,13 @@
 # Portfolio Monitoring Log — HPG · KDH · TCB · TCX · VPB · VPX · MBB · VCI
 
-**This header is the canonical lane definition.** The hourly routine points here rather
-than carrying its own copy — update the lanes by editing this file, not the trigger.
+**⚠ CORRECTED 08-Aug 14:53 — THIS HEADER USED TO CLAIM IT WAS THE CANONICAL LANE DEFINITION AND THAT
+"the hourly routine points here rather than carrying its own copy — update the lanes by editing this file,
+not the trigger." THAT IS FALSE.** The stored trigger prompt **carries its own full copy of the seven
+lanes**, does **not** read this file, and still contains a known error (*"91/102 margin rules"* — the
+binding instruments are **Circular 121/2020/TT-BTC** and **Decision 87/QĐ-UBCK**). **Editing this file
+cannot change what gets swept.** This header is therefore a *description* of the lanes, useful for a human
+reader, and **not** a control surface. **⚠ OWNER ACTION — the trigger text is not a repo file and is
+unreachable from an automated session:** either update the stored trigger, or make it genuinely point here.
 Rules of engagement (materiality, evidence tiers, verification, scope) live in
 `research/AGENT-CHARTER.md`. Watch list v3 (date-gated 2026-07-26):
 
@@ -82,6 +88,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-08
+
+- **⚠⚠ 14:53 ICT · PROCESS — a correction I owe on my own 13:53 framing, and a channel that an automated run
+  cannot reach at all: THIS HEADER'S CENTRAL CLAIM IS FALSE.**
+  **(1) THE 13:53 FRAMING WAS TOO BROAD.** I wrote *"this file records what a rule does and not which rule it
+  is … one is an oversight; **two in three hours is a habit**."* **The file has a counter-example it produced
+  itself, and it is better work than I was asking for.** On margin rules it named the binding instrument —
+  **Circular 121/2020/TT-BTC**, total margin debt not to exceed **200% of owner's equity** — named the second
+  instrument for per-stock ratios (**Decision 87/QĐ-UBCK, 2017**, 10–50% by ticker), **and then checked the
+  lane definition against the repo**: *"'Margin rules 91/102' is named in the lane definition and returns ZERO
+  hits in this repo; the binding instrument is 121/2020, **so the lane text may be pointing at the wrong
+  circulars.**"* ***That is the template: identify the instrument, cite it, and check the lane itself against
+  the evidence.*** **So the correct diagnosis is INCONSISTENCY, not habit** — and inconsistency is the more
+  actionable finding, because the file already demonstrates the right method, so the question becomes *why it
+  was not applied* to the SBV LDR instrument (11:53) or the HCMC land table (13:53). **Two misses and one
+  exemplary hit is a different problem from three misses, and I reported it as the latter.**
+  **(2) ⚠⚠ THE LANE-DEFINITION CHANNEL IS BROKEN, AND THIS LOG'S OWN HEADER IS THE THING THAT IS WRONG.** The
+  header states: *"**This header is the canonical lane definition.** The hourly routine points here rather than
+  carrying its own copy — **update the lanes by editing this file, not the trigger.**"* **That is false as a
+  description of the running system.** The stored trigger prompt delivered to this session every hour **carries
+  its own full copy of the seven lanes**, and that copy **still reads *"SBV/MoF circulars (incl. 91/102 margin
+  rules)"*** — the exact text the file already identified as pointing at the wrong circulars. ***The correction
+  was made, was right, and had nowhere to go. Editing this file cannot change what gets swept, because the
+  trigger does not read it.***
+  **WHY THIS IS SHARPER THAN THE 01:53 FINDING IT RESEMBLES.** On 08-Aug 01:53 the file corrected itself from
+  *"the path from finding to decision does not exist"* to ***"the path exists but is unsignposted"*** — because
+  a human reading the log closes it. **That refinement does not apply here. The trigger prompt is not a repo
+  file**, so it is not reachable from a non-interactive session at all and no amount of writing to the repo can
+  propagate a lane fix. **§4 is not even the constraint — reachability is.**
+  ⚠ **OWNER-ACTIONABLE, and it belongs beside the FiinQuant item as the second thing only the owner can fix:**
+  either **update the stored trigger text** (91/102 → **121/2020/TT-BTC** and **Decision 87/QĐ-UBCK**), or
+  **make the trigger actually point at this header as the header claims.** *Until then the header's own
+  instruction actively misleads anyone who follows it.*
+  **CHECKED AND FULLY ON FILE — a near-miss worth naming:** the entire **Q2/2026 HOSE brokerage market-share
+  table** came back (VPS 12.61% at a 22-quarter low, SSI 11.17%, **TCBS 9.36% (+0.51pp)**, **VPBankS 3.57%, a
+  company record and the largest gain at +0.63pp**, VNDirect 3.96% (−0.82pp), top-10 concentration 65.19% from
+  69.05%) — **and every figure, the 65.19% internal check, the "three brokers = 19.93% of HOSE turnover"
+  derivation and the "market share is not an input to any branch" ruling are already recorded.** *Second lane
+  in three hours that returned a fully-covered result.* **Nothing modelled. No confidence moved. This is a
+  process defect, not a portfolio one. No trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 on MBB
+  stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**
 
 - **⚠⚠ 13:53 ICT · PROPERTY (lane 5) / KDH — the file has been hunting the WRONG VARIABLE on KDH's land-use
   fee. This is a correction to the question, not a new answer.** *(Weekend, both shut. Property was the lane
