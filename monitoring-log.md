@@ -90,6 +90,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠ 02:53 ICT · TCB (35% of the book) — the armed "MASTERISE BOND EVENT" criterion has NO TRANSMISSION
+  MECHANISM on file, and the missing piece is not a definition — it is a GUARANTEE. Plus a correction of scale
+  to my own 18:53 entry.** *(Sunday, both markets shut; lane 5's developer-bond sub-topic, uncovered today.)*
+  **CORRECTION FIRST.** At 18:53 I logged *"TCB repurchased ₫9,000bn of its own bonds before maturity"* as a
+  new headline-level fact. **The full-year figure is ₫17,000bn of bond repurchases across 2026 — so ₫9,000bn is
+  one tranche inside a programme 1.9× larger, not the total.** A separate **₫1,500bn** early repurchase is also
+  reported, alongside an April-2026 plan for *"thousands of billions."* **None of these was on file, and the
+  greps were context-checked before the claim:** the "17,000" hits are an unrelated issuer's bond debt and a
+  TCB H1-PBT scenario table; the "1,500" hits are all KDH's FY plan and TCBS's margin book. *Third
+  context-checked grep in two days — and the first that confirms novelty rather than refuting it.*
+  ⚠⚠ **THE STRUCTURAL FINDING.** This file carries an **armed kill criterion on TCB reading "a Masterise bond
+  event,"** which its own 17-criterion audit flagged as **not testable** on three undefined terms. **Zero hits
+  for "guarantor", "credit sponsor" or "bảo lãnh". Zero for "Hồ Anh Minh". Zero for "Spirit of Saigon" /
+  "Saigon Glory".** ***The file has the VOLUME — Masterise-linked H1 issuance of ₫44,500bn across six
+  enterprises — and not the CHANNEL.***
+  **What coverage states:** **Techcombank is the credit sponsor and guarantor for most Masterise projects**,
+  and **Hồ Anh Minh, son of TCB chairman Hồ Hùng Anh, is CEO of Masterise Group.** Also: after an asset
+  transfer, **Masterise subsidiaries had to re-pledge collateral at Techcombank** to secure bond obligations;
+  and the **Spirit of Saigon** programme was **ten lots totalling ₫10,000bn**, most maturing 2023, **latest
+  maturity 28-Aug-2025 — i.e. already matured.**
+  **WHY THIS REFRAMES THE AUDIT'S COMPLAINT.** The audit asked for *definitions* of "Masterise", "bond event"
+  and "NPL formation". ***The deeper gap is that the file never recorded HOW a Masterise bond event would reach
+  TCB's P&L at all. A guarantee is that channel.*** An unguaranteed arranger relationship and a guaranteed one
+  produce completely different loss paths from the same "bond event" — **and the criterion cannot be defined
+  sensibly until which one applies is established.**
+  ⚠ **TIER DISCIPLINE, STRICT HERE BECAUSE THE CLAIM IS SERIOUS.** All T5 press, and **the guarantee and
+  governance claims come from an article dated March 2025 — sixteen months old.** **Recorded as an unverified
+  structural claim escalated for a human, not as established fact; no confidence moves on it (§2). It does NOT
+  fire the kill criterion — that requires a bond EVENT, and none is reported.**
+  **A FUNDING-SIDE READ ON THE ₫17,000bn, AS A QUESTION NOT A CONCLUSION.** Retiring own issued bonds **reduces
+  medium- and long-term funding**, which interacts with the **40% short-term-funding ratio** this file tracks
+  and with the **LDR loosening recorded 06:53 yesterday**. ⚠ **Whether these are Tier 2 subordinated bonds or
+  ordinary bank bonds is NOT established and is not guessed** — the two have different regulatory-capital
+  consequences. *Yesterday's lesson was that a "bond book" with no stated SIDE is unreadable; the same applies
+  to a repurchase with no stated SENIORITY.*
+  **Nothing modelled. No confidence moved. No trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY
+  10-AUG.**
+
 - **⚠⚠⚠ 01:53 ICT · MBB — THE MOST TIME-CRITICAL DATE IN THIS FILE IS NOW VERIFIED AGAINST THE ISSUER'S OWN
   PRIOR ACTION, AND AN EXTERNAL SOURCE READ THIS HOUR GETS IT WRONG BY A DAY. LAST CUM SESSION IS TOMORROW,
   MONDAY 10-AUG.** *(Sunday, both markets shut. 00:53 was reported as nothing material and stands.)*
