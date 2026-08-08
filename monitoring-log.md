@@ -90,6 +90,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠⚠ 05:53 ICT · MBB — MB's own FY2026 guidance is essentially the FLAT-H2 outcome this file already
+  computed, and the branches are due for human re-derivation TOMORROW. Plus a correction I owe on yesterday's
+  11:53 entry.**
+  ⚠ **THE CORRECTION FIRST, because it is about this file rather than about MB.** At 11:53 yesterday I wrote,
+  as the finding of that hour, *"this file has no record of any individual bank's 2026 room, and that is the
+  number that would make MBB's H2 branches derivable instead of typed in."* **That is wrong. The file does hold
+  it: MBB's 30–35% credit allowance, recorded as the price of the MBV transfer** (*"ROE erosion 25.0→20.9% as
+  the PRICE of the MBV transfer, **which bought a 30–35% credit allowance**"*). ***I named a gap the file had
+  already filled and failed to connect — the second time in two days the file's own contents answered a gap I
+  declared open, after the 19:53 `cash_yield` principle.***
+  **And MB's own plan now corroborates it from the company side: credit growth of ~35% for 2026.** Two routes —
+  a regulatory dispensation on file, a company plan found today — **land on the same number.** *They remain
+  different measures (an SBV allowance is a ceiling; a company plan is an intention) and are not equated here,
+  but they agree.* Against **+13.2% at H1**, a ~35% full-year plan needs **~21.8pp more credit growth in H2.**
+  **NEW AND NOT ON FILE: MB's FY2026 profit target is +15% to +20%, at about ₫40,000bn.** *Zero prior hits — the
+  "40,000bn" matches in this repo are all TCB real-estate exposure.*
+  ⚠⚠ **WHY IT MATTERS, AND IT IS DUE TOMORROW.** The brief already computed that *"H1 PBT of 20,188bn … **a
+  FLAT H2 gives FY26 PBT 40,376bn**, above base and just below bull."* ***MB's own target of ~₫40,000bn is
+  essentially that flat-H2 outcome. The company is guiding to what the file modelled as the no-growth case.***
+  **THE BRIDGE TO THE BRANCHES, done explicitly because PBT and NPAT are different measures and this file has
+  been caught on that before:** ₫40,000bn PBT × 0.8 CIT = ₫32,000bn NPAT; × the 97.4% parent share already on
+  file = **~₫31,168bn NPAT-to-parent.** Against `fy26e_npat` **28,000 / 30,500 / 33,000** that is **+11.3% above
+  bear, +2.2% above base, −5.6% below bull.** ***So the company's own guidance sits between base and bull, and
+  the bear branch requires MB to miss its own target by 11%*** — corroborating the brief's standing warning that
+  the branches are *"contradicted from below"* and that **`fy26e_npat` requires human re-derivation, which item
+  38 puts due by tomorrow, the last cum session.**
+  **ALSO NEW: MB's equity is put at nearly ₫150,000bn** by its General Director. **Cross-check against the ROE
+  20.9% already on file:** trailing NPAT ~₫31,000bn over ₫150,000bn ≈ **20.7%** — consistent. *This is the first
+  equity figure for MBB in this file, and it is the denominator the analysts' CAR-to-10.5% question turns on.*
+  *Already on file and not re-reported: charter capital rising to **₫102,687bn** externally confirms this file's
+  three-tranche reconstruction to the dong (10,268.75m × ₫10,000 = ₫102,687.5bn), including the 200m private
+  placement the watch list did not have. **A check, not a finding.***
+  **T5. Nothing modelled. `fy26e_npat`, `probs` and `exit_pe` untouched — §4 human-only, and this is precisely
+  the input a human must re-derive. No confidence moved. No trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS
+  TOMORROW, MONDAY 10-AUG.**
+
 - **⚠⚠⚠ 04:53 ICT · VPB — the lane opened one hour ago immediately qualifies a standing claim: VPB holds
   ~₫151,000bn (>US$5.7bn) of foreign-currency funding this file had NO record of, and the file has been calling
   it "the name most exposed on the loan-to-deposit maths."**
