@@ -89,6 +89,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-08
 
+- **⚠⚠ 23:53 ICT · STEEL (lane 5) / HPG — both cost blades are now dated within four days of each other, and
+  the gap to the bear branch has narrowed from 32% to 8%. But the THIRD input is unmeasured and its
+  uncertainty is four times the whole remaining gap — that caveat leads, it does not follow.**
+  *(22:53 was reported as nothing material and stands.)*
+  **NEW: IRON ORE US$94.45/t on 07-Aug-2026, −0.87% d/d, 62% Fe CFR Tianjin — the same basis the bridge
+  uses.** The file's last reading was **~93.66** around 04-Aug after two consecutive one-year lows.
+  **93.66 → 94.45 is +0.84%: ore has not rebounded, it has gone flat at the low.**
+  **WHAT MAKES THIS WORTH AN ENTRY IS THE PAIR, NOT THE PRINT.** At **08:53 today** this file logged a dated
+  **03-Aug coking coal print of US$212/t**. **So both blades now have dated values four days apart, and both
+  sit below the bridge's modelled inputs (ore 115, coal 220).**
+  **THE ARITHMETIC, FROM THE BRIDGE'S OWN VERIFIED ROW.** 05:53 established that *"ore 100, coal 220, HRC
+  539"* predicts **₫0.853m/t** and is only coherent at coal 220. From there, on Friday's after-tax gearings
+  (**₫0.34m per US$10/t ore**, **₫0.14m per US$10/t coal**): ore 100→94.45 = **+₫0.189m**; coal 220→212 =
+  **+₫0.112m**. ***Implied core NPAT/tonne = ₫1.154m.*** Against the branches: **bear 1.25 → −7.7%**; base
+  1.60 → −27.9%; bull 1.85 → −37.6%. ***At the ore=100/coal=220 row the gap to bear was −31.8% (₫0.397m). It
+  is now −7.7% (₫0.096m) — the cost side has closed three quarters of the distance to the bear case.***
+  ⚠⚠ **THE DOMINANT CAVEAT, STATED FIRST BECAUSE IT IS LARGER THAN THE RESULT. HRC is held at 539 and is NOT
+  re-measured — no fresh print was found. At ₫0.021m per US$1/t, an HRC uncertainty of ±US$20/t is ±₫0.420m/t —
+  more than FOUR TIMES the ₫0.096m gap that remains to the bear branch.** So *"within 8% of bear"* **is
+  dominated by an input I did not measure and must not be read as a forecast.** It is a statement about **the
+  two blades that were measured, holding the third fixed at the bridge's own value.**
+  **SECOND CAVEAT, CARRIED FORWARD RATHER THAN QUIETLY DROPPED:** the coal 212 is **basis-disclaimed by its own
+  publisher** (*"a broader coking coal price rather than specifically PHCC FOB Australia"*), logged at 08:53 as
+  a **candidate** falsification. **If coal is left at 220 the implied figure is ₫1.042m and the gap to bear is
+  −16.6%, not −7.7%. Both readings are given.** **Third: the ore print is T4** — `tradingeconomics.com` is
+  egress-blocked and this was read through a search summary.
+  **Nothing modelled. `core_npat_per_tonne_m` (1.25 / 1.6 / 1.85) untouched — §4 human-only. No confidence
+  moved. No trigger fires: no model input changed, so no computed E[r] moved — this sizes the distance between
+  the bridge and the branches, which is a human's call to act on.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY
+  10-AUG.**
+
 - **⚠⚠ 21:53 ICT · VPX / TCX — VPX led the ENTIRE securities industry on Q2 profit, and the lead is smaller
   than the noise in one of its own line items. Rank EIGHT in the activity, rank ONE in the earnings.**
   **THE CLAIM:** coverage states VPBankS **led the whole industry on Q2/2026 profit, surpassing SSI and
