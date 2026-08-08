@@ -90,6 +90,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠⚠ 04:53 ICT · VPB — the lane opened one hour ago immediately qualifies a standing claim: VPB holds
+  ~₫151,000bn (>US$5.7bn) of foreign-currency funding this file had NO record of, and the file has been calling
+  it "the name most exposed on the loan-to-deposit maths."**
+  **NEW, context-checked before the claim: "151,000" ZERO hits, "SMBC" ZERO hits.** At **end-Q2 2026 VPB had
+  raised ~₫151,000bn — more than US$5.7bn — in foreign-currency loans from financial institutions, plus US$300m
+  of five-year international bonds.** Headline transaction: a **US$1.44bn sustainability-linked syndicated loan
+  with fifteen international FIs at end-June 2026** — ~₫38,016bn, **48% of VPB's entire charter capital in one
+  deal.** 2025 for context: US$1.56bn syndicated + US$300m sustainable bonds + US$350m with SMBC/DFIs =
+  **US$2.36bn, its highest ever (~₫62,304bn).** **Scale: ₫151,000bn is ~10.1% of total assets and 190% of
+  charter capital.**
+  ⚠⚠ **WHAT IT QUALIFIES.** This file states verbatim that **"VPB is the name most exposed to it on the
+  loan-to-deposit maths."** That claim was made **with no record of ₫151,000bn of foreign-currency borrowing**,
+  and the coverage states explicitly that *"most of VPBank's international loans and bonds have **long-term
+  maturities**, contributing to supplementing **medium and long-term capital sources** while helping the bank
+  maintain liquidity metrics"* — **the exact denominator the 40% short-term-funding ratio measures.**
+  **THE HONEST STATEMENT IS NARROW AND IS NOT AN ALL-CLEAR.** The claim was made **without** a material fact
+  whose direction is **favourable to VPB's tenor profile**. ***It does not make the funding question go away —
+  it replaces one exposure with another.*** ₫151,000bn of FX debt adds **FX and refinancing risk, and this file
+  tracks neither** — there is **no FX input in `run.py` at all**, as the file recorded when it declined to add
+  one. **So VPB's funding question moves from "can it fund long assets short?" to "what happens to US$5.7bn of
+  FX liabilities if the dong moves or the roll fails?"**
+  ⚠ **IT ALSO REFRAMES LAST HOUR'S TCB FINDING.** **TCB seeking US$1bn is not leadership — VPB already has
+  >US$5.7bn, 5.7× the size.** The *"race among Vietnamese banks to raise foreign capital"* is real **and TCB is
+  behind in it**, which is a different reading from the one I recorded at 03:53.
+  **WHAT REMAINS UNKNOWN IS EXACTLY WHAT THE ANALYST ASKED.** **MBB returned nothing — no foreign borrowing
+  figure, no tenor, no rate, no Tier 2.** The owner's pasted question was *"MB's 2026–2027 debt and Tier 2
+  issuance plans and foreign borrowing (tenor and rate)."* ***One hour of work has answered it for the peer and
+  not for MB — and no Tier 2 figure exists for any of the three banks.***
+  **T5, multi-outlet (vietstock, vnexpress, danviet, cafef). Nothing modelled. No confidence moved — §2, and
+  the direction here is favourable, which is precisely when a confidence move would be flattery. No trigger
+  fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
+
 - **⚠⚠ 03:53 ICT · TCB — seeking a US$1bn FOREIGN LOAN, which qualifies my own 02:53 reading one hour later;
   and FOREIGN FUNDING is an untracked lane across all three banks, first flagged by the owner's own pasted
   analyst questions.** *(Sunday, both shut.)*
