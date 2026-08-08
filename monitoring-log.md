@@ -90,6 +90,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠ 03:53 ICT · TCB — seeking a US$1bn FOREIGN LOAN, which qualifies my own 02:53 reading one hour later;
+  and FOREIGN FUNDING is an untracked lane across all three banks, first flagged by the owner's own pasted
+  analyst questions.** *(Sunday, both shut.)*
+  **NEW — zero hits** for *"1 tỷ USD"*, *"US$1bn"*, *"syndicated"*, *"hợp vốn"* or *"vốn ngoại"* anywhere in
+  `assumptions.json`. Coverage reports **Techcombank seeking a US$1 billion loan**, amid an accelerating race
+  among Vietnamese banks to raise foreign capital.
+  ⚠ **WHAT IT DOES TO LAST HOUR'S FINDING.** At 02:53 I recorded **₫17,000bn of 2026 bond repurchases** and
+  asked, as a question, whether retiring own bonds *reduces* medium/long-term funding and so tightens the 40%
+  short-term-funding ratio. **At ₫26,400/USD: ₫17,000bn retired ≈ US$644m; US$1bn sought ≈ ₫26,400bn.** ***If
+  both are real this is funding SUBSTITUTION — domestic bonds out, foreign debt in — and a net raise of roughly
+  ₫9,400bn, not a deleveraging. That reverses the direction of the question I asked an hour ago.*** Against
+  charter capital of ₫70,862bn the two legs are **24.0%** and **37.3%**.
+  ⚠ **TIER, AND IT IS THIN: T5 headline only.** Both fetches were **egress-blocked** (`vietbao.vn` and
+  `techcombank.com`), so **size, tenor, pricing, arrangers, purpose and date are all unestablished.** **Recorded
+  as a candidate qualification, not established fact** — the same treatment given the coal 212 print on 08-Aug.
+  *It does not resolve the 02:53 question; it puts the answer I leaned toward on notice.*
+  **THE STRUCTURAL POINT, AND IT IS THE ONE WORTH KEEPING.** **Foreign funding is an untracked lane across all
+  three banks in this book.** ***The only mention of it anywhere in this file comes from the owner's own pasted
+  list of MBB analyst questions*** — which included *"MB's 2026–2027 debt and Tier 2 issuance plans **and
+  foreign borrowing (tenor and rate)**."* **An analyst at MBB's 1H26 meeting thought foreign borrowing was
+  worth a question; this file never picked the lane up; and it has now gone live on the largest position.**
+  *That is the second time that pasted list has identified something the routine's seven lanes do not cover.*
+  *Already on file and not re-reported: the T1 primary is already located and already recorded as blocked —
+  `techcombank.com/.../techcombank-vas-bao-cao-tai-chinh-rieng-le-2q26-searchable.pdf` returns proxy 403; the
+  file already counts ~fifteen blocked hosts and already calls this "no longer an access inconvenience, it is
+  suppression."* **Fourth fully-covered check in two days.**
+  ⚠ **THE 02:53 GUARANTEE ESCALATION REMAINS UNRESOLVED** — that standalone VAS statement is exactly the
+  document that would settle whether TCB guarantees Masterise paper, and it cannot be reached.
+  **Nothing modelled. No confidence moved. No trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY
+  10-AUG.**
+
 - **⚠⚠ 02:53 ICT · TCB (35% of the book) — the armed "MASTERISE BOND EVENT" criterion has NO TRANSMISSION
   MECHANISM on file, and the missing piece is not a definition — it is a GUARANTEE. Plus a correction of scale
   to my own 18:53 entry.** *(Sunday, both markets shut; lane 5's developer-bond sub-topic, uncovered today.)*
