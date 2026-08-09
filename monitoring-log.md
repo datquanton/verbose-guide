@@ -109,6 +109,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠ 16:54 ICT SUN 09-AUG · BANKS — a correction I owe on my own 15:54 entry, and the file already held
+  the disconfirming data with the interpretation already written.**
+  **WHAT I WROTE ONE HOUR AGO:** *"State banks: flow cut 26% into a sector whose stock fell to 83%. **That is
+  the pair.**"* ***That is a level substitution.*** The pair is a **bank-level** test — light flow *and* thin
+  stock **at the same bank** — and I supplied **the flow leg at bank-group level and the stock leg at
+  sector-average level.** Different units of observation.
+  ⚠⚠ **THE FILE'S OWN DATA CONTRADICTS THE INFERENCE, AND SAYS SO EXPLICITLY.** The cross-section reads **VCB
+  2.05% / 279% · TCB 8.0% / 125.5% · MBB 27.6% / 93.63% · VPB 45.2% / 56.2%** (intensity as % of PPOP vs
+  coverage), and the accompanying text states: ***"VCB provisions least and is reserved most: its light flow
+  is the CONSEQUENCE of a heavy stock, not a suppression of it."*** **VCB is the only state bank in this file
+  with both numbers. Its flow is the lightest of the four and its stock is the thickest by a wide margin —
+  279% against an 83% sector. That is light flow with THICK stock: the opposite of the pair.**
+  **THE CORRECTED STATEMENT, narrower and not an accusation in either direction:** the Q2 data establishes
+  that **state-owned banks cut the FLOW 26% QoQ**. **It does not establish that any particular state bank has
+  a THIN STOCK**, and the one state bank with both numbers on file **fails the pair test decisively**.
+  ***Therefore "the earnings-management signal is in the state banks" is UNPROVEN, not confirmed — and I
+  published it as confirmed.***
+  **WHAT SURVIVES FROM 15:54, unchanged:** the sector series (coverage **95 → 86 → 83**, NPL **1.88 → 1.97**,
+  Group 2 **+31.6% YTD**, provision expense **+22.6% YoY**, LDR **102.4%**); the state-vs-private **flow split
+  as a fact**; the book's coverage ranking against the 83% sector; **VPB's pass on the pair test**; and the
+  **79.78-vs-86 basis conflict.** **What falls is only the inference drawn from them.**
+  ***The part worth keeping is how it happened.*** At 15:54 I flagged the conclusion as *"the comfortable
+  direction"* because it put the signal outside the book. **Naming a conclusion as comfortable is not the same
+  as testing it** — the disconfirming datapoint was already in this file, two greps away, with the
+  interpretation already written. **Third time in four days that this file's own contents answered something I
+  asserted without checking**, after the `cash_yield` principle and the MBB credit allowance.
+  **Ninth instance of the measure-substitution family, and the first where the substituted measure was the
+  UNIT OF OBSERVATION rather than the quantity:** basis · date · held-constant set · instrument · side ·
+  seniority · timezone · sample-or-definition · **and now bank-level vs sector-level.**
+  **No new external development this hour — the correction came from re-reading the file. Nothing modelled. No
+  confidence moved. No trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
+
 - **⚠⚠⚠ 15:54 ICT SUN 09-AUG · BANKS (lane 5) — the Q2/2026 sector provisioning picture, and on THIS FILE'S
   OWN working detector the earnings-management signal is in the STATE banks, none of which this book holds.**
   *(The lane the owner's standing instruction names: "pay attention to provision for banks and LLR because
