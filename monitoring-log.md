@@ -44,6 +44,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **⚠ US initial jobless claims — 06-AUG, TOMORROW** | consensus **~202,000**, continuing ~1.79m. **First and partial test of the 21:53 pre-registration** (services employment 51.2 → 47.4 ⇒ a weak payroll print expected). *Claims are an early read, not a resolution.* | 1 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
 | **⚠⚠ US JULY CPI — WED 12-AUG-2026, 08:30 ET. ADDED 09-Aug 18:54; the gate table had NO US row between 07-Aug and 24-Aug and "US CPI" returned ZERO hits repo-wide.** | **Two sessions out.** Baseline (June, also not previously on file): **headline −0.4% MoM SA, +3.5% YoY NSA; core unchanged MoM SA, +2.6% YoY NSA.** ⚠ **It resolves the chain the file reasons on:** FOMC held **3.50–3.75%** on 29-Jul **9–3 with three HIKE dissents**, which the file reads as keeping the dollar firm and VND under pressure — *"boxes SBV in on a second side."* ⚠ **And a tension the file does not have: ISM Services prices paid 70.3 (vs 65.0 est, from 67.7) and ISM Manufacturing prices 71.1 (vs 71.0 est, DOWN from 73.0) — both above 70 — against a JUNE CPI that printed SOFT. Survey prices-paid and realised CPI are different measures and they currently disagree; the file's "inflation leg corroborated out of sample" rests on the surveys.** *Note: 12-Aug is also MBB's record date — coincidence, not causation.* | 1 |
+| **⚠ US PPI and RETAIL SALES — IN-WEEK, DATES NOT ESTABLISHED (added 09-Aug 19:54)** | Both are **absent from this file** — *"retail sales"* returns zero contexts and every apparent *"PPI"* hit is a spurious substring match inside my own timestamp-mapping text. ⚠ **The only source found has systematically wrong weekday labels** — it says *"Tuesday, August 12"* (12-Aug is a **Wednesday**), *"Thursday, August 14"* (a **Friday**), and *"Friday … retail sales"* implying 15-Aug (a **Saturday**, when US data is never released). **Verified with `date -d`, not by hand.** **A source with a proven systematic label error cannot supply an uncorroborated date, so both are logged as in-week and NOT guessed** | corroboration from a second source, or the prints themselves |
 | **⚠ US CORE circumvention — PRELIMINARY DETERMINATION intended 24-AUG-2026** | **NEW 03-Aug, and the 31-Jul "lane 2 clean, no new case filed in 2026" note was FALSE — petition 02-Feb, initiated 25-Mar (91 FR 14530).** Question: does **CORE finished in INDONESIA from VIETNAMESE cold-rolled steel** circumvent the Vietnam CORE orders? **Country-wide; no Vietnamese producer named.** Underlying rates **AD 87.07–162.96%, CVD 0.30–257.83%** — prohibitive, so the outcome is near-binary. **A parallel inquiry (FR 2026-05807) covers CHINESE substrate via Indonesia.** *Extensions are routine — treat 24-Aug as an intention. **150 days from the 25-Mar initiation = Sat 22-Aug, rolling to Mon 24-Aug; STATUTORY OUTER BOUND: final 300d = 19-Jan-2027, +65d max extension = 25-Mar-2027 (19 CFR 351.226).*** **federalregister.gov is gateway-blocked, so this lane runs on press only** | 2, 5 |
 | **VCI — Tô Hải buy window — OPEN AS OF TODAY** | **opened 04-Aug, closes 02-Sep-2026.** 31.05m shares, 15.13% → 17.83%, ~₫612bn. **Do NOT check weekly.** **⚠ QUALIFIED 05-Aug 07:53 — THIS SENTENCE ASSUMES COMPLETION AND NEVER SAID SO.** On 2.70pp of registered buying, crossing **16% needs 32.2% completion** and crossing **17% needs 69.3%**. **The one measured completion rate on this exchange this year is 66.6%** (HPG: 33.3m of 50m registered, 12-Mar→09-Apr, shortfall explicitly blamed on price) — **at which the 17% crossing does NOT fire.** Two intermediate **1%-crossing** disclosures (16%, 17%) should fire *during* the window; the completion report follows **02-Sep**. **Open sub-question: his wife fully divested shortly before — size and date unknown, and it determines whether this is net new family money or a household reallocation** | 7 |
 | KDH insider buy — **TWO separate disclosures, not one** | **⚠ 05-Aug 07:53: on 1.782pp registered, the 1% crossing needs 53.0% completion — it clears the 66.6% comparable, unlike VCI's second disclosure.** **(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal; **(b)** the completion report follows the window's close on 21-Aug. Checking weekly before either is futile | 7 |
@@ -109,6 +110,31 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-09
+
+- **⚠ 19:54 ICT SUN 09-AUG · MACRO (lane 1) — PPI and retail sales are also untracked and also in-week, but
+  their DATES ARE NOT ESTABLISHED, because the only source has systematically wrong weekday labels. That same
+  defect corroborates yesterday's CPI date.**
+  **CONFIRMED ABSENT:** *"retail sales"* returns **zero contexts**, and every apparent *"PPI"* hit is a
+  **spurious substring match inside my own timestamp-mapping text** — the 18-hit count I started from was
+  **"jobless claims" alone.** *So the file tracks claims and not the two inflation-and-demand prints beside it.*
+  ⚠ **THE SOURCE DEFECT, MEASURED.** Coverage of the 10–14 Aug US calendar says *"Tuesday, August 12: CPI"*,
+  *"Thursday, August 14: PPI and initial jobless claims"*, *"Friday: retail sales."* **Verified with `date -d`,
+  not by hand: 12-Aug is a WEDNESDAY, 13-Aug a Thursday, 14-Aug a FRIDAY, 15-Aug a SATURDAY.** ***The source's
+  weekday labels are consistently one day behind its dates, and its "Friday retail sales" would imply 15-Aug —
+  a Saturday, on which US data is never released.***
+  **WHAT THAT LICENSES:** it **corroborates the CPI date** — *"12 August"* agrees with yesterday's BLS-schedule
+  reading of **Wed 12-Aug 08:30 ET**, and the disagreement is only in the weekday label, the part demonstrably
+  broken. **The gate row already says "WED 12-AUG-2026" and is correct.** **WHAT IT DOES NOT LICENSE:** the PPI
+  or retail-sales dates. **A source with a proven systematic label error cannot supply an uncorroborated date**,
+  so both are recorded as **in-week with dates unestablished**, and neither is guessed. **Gate row added on
+  those terms.**
+  **SECOND SOURCE-SIDE DATE DEFECT IN FOUR DAYS, AND THE SAME SHAPE BOTH TIMES.** On 09-Aug 00:56 a source
+  called 12-Aug **both** the record date **and** the ex-rights date for MBB — internally inconsistent, **number
+  right, label wrong.** **Here the numbers are right and the weekdays are wrong.** ***Both times the fix was to
+  check the passage's internal consistency before taking any figure out of it — and both times I verified with
+  a tool rather than by hand:*** `date -d` for the weekdays here, MBB's own 10-Jul/09-Jul precedent there.
+  **Nothing modelled. No confidence moved. No trigger fires — and trigger 5 remains inapplicable to macro
+  prints on its own wording, "in that name."** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
 
 - **⚠⚠ 18:54 ICT SUN 09-AUG · MACRO (lane 1) — US JULY CPI LANDS WED 12-AUG, TWO SESSIONS AWAY, AND IT WAS
   NOT TRACKED AT ALL. Zero hits for "US CPI" repo-wide; the gate table had no US row between 07-Aug and
