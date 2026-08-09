@@ -11,6 +11,23 @@ unreachable from an automated session:** either update the stored trigger, or ma
 Rules of engagement (materiality, evidence tiers, verification, scope) live in
 `research/AGENT-CHARTER.md`. Watch list v3 (date-gated 2026-07-26):
 
+**⚠ COVERED — CHECK THIS BLOCK BEFORE SPENDING A SEARCH (added 09-Aug 11:54).** The table below indexes what
+to search **WHEN**. It has never indexed what **not to search at all**, and that knowledge exists but is
+scattered across five different phrasings in two files — *"VCI needs no separate search"*, *"DO NOT SPEND
+DEDICATED SEARCHES ON EX-DATES"*, *"check weekly, not hourly"*, *"ROUTE CLOSED — blocked, not unresearched"*,
+*"do NOT search these before their date"*. **Result: at least six sweeps this weekend spent a search on a
+question the file had already answered.** Re-open any row below only on its stated trigger.
+
+| Covered — do not re-search | Why / what the file already holds | Re-open when |
+|---|---|---|
+| **VCI pace vs its +41% plan** | FY plan **₫2,300bn PBT**; **1H ₫667bn = 29%, BEHIND**; Q2 −26% QoQ (251 vs 341); the *"9M PBT < 55% of target"* criterion already computed as near-certain to fire (55% = ₫1,265bn; Q3 alone would need ₫598bn = 2.21×). File says verbatim *"VCI needs no separate search"* | **Q3/9M filing (~late Oct)** |
+| **FTSE eligible roster + the 5-licence CAEX cap** | 32→**23** names on 28-Apr data; the removed nine; **HPG/VCI/KDH in, TCB/VPB/MBB/TCX/VPX out**; CAEX one of five valid dossiers with the cap analysis and both caveats already written | **21-Aug** final list |
+| **HPG's August HRC cut** | **−US$34/t**, list 546–547 / volume **535 CFR HCMC**; ***already inside the bridge's 539*** — not a further leg down. July ≈ 580 | a **September** offer |
+| **TCB's primary financial statements** | URL located, **proxy 403**, among ~15 blocked hosts; already called *"suppression, not inconvenience"* | network policy changes |
+| **Q2/26 HOSE brokerage market share** | Full table incl. TCBS 9.36%, VPBankS 3.57% record; 65.19% internal check; *"market share is not an input to any branch"* | **Q3 table (~early Oct)** |
+| **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
+| **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB unbounded** — the only one worth a search | a TCB announcement |
+
 **Date gates — do NOT search these before their date** (per charter §6):
 
 | Item | Not before | Lane |
@@ -89,6 +106,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-09
+
+- **⚠⚠ 11:54 ICT SUN 09-AUG · PROCESS — the file indexes what to search WHEN and has never indexed what NOT to
+  search AT ALL. Fixed, and the fix is the deliverable.** *(Clock read first; 10:54 was reported as nothing
+  material and stands.)*
+  **THE MEASURED COST: at least six sweeps this weekend spent a search on a question this file had already
+  answered** — the FTSE eligible roster and the CAEX five-licence cap; HPG's August HRC cut; TCB's blocked
+  primary statements; the Q2 brokerage market-share table; the system margin-debt decomposition; and VCI's pace
+  against its +41% plan. ***In the VCI case the file literally says "VCI needs no separate search" and I
+  searched anyway.***
+  **THE DIAGNOSIS IS STRUCTURAL, NOT CARELESSNESS.** The anti-re-search knowledge **exists** but is scattered
+  across **five different phrasings in two files**: *"VCI needs no separate search"* · *"DO NOT SPEND DEDICATED
+  SEARCHES ON EX-DATES"* · *"check weekly, not hourly"* · *"ROUTE CLOSED — blocked, not unresearched"* · *"do
+  NOT search these before their date."* **There was no single place a sweep could consult before spending a
+  search.** ⚠ **And the gate table cannot hold it: every row there is an item with a DATE, while all six
+  re-searches were of UNDATED topics — exactly the class it structurally cannot index.**
+  **THE FIX, WRITTEN THIS HOUR:** a **"COVERED — CHECK THIS BLOCK BEFORE SPENDING A SEARCH"** table at the head
+  of this log — seven rows, each stating **what the file already holds** and **a named re-open trigger.**
+  ***The re-open triggers are the part that matters: a do-not-search list with no expiry is how a file goes
+  blind.*** Q3/9M filing for VCI · **21-Aug** for the FTSE list · a September offer for HRC · a network-policy
+  change for TCB's primary · Q3 tables for market share and margin · a TCB announcement for ex-dates.
+  **THIRD INSTANCE OF ONE DEFECT FAMILY IN THREE DAYS, and naming the family is worth more than the three
+  instances.** *(1)* the log header **claimed** to be a control surface and was not. *(2)* the gate table
+  **omitted** the item closest to its deadline. *(3)* today — the file **holds** the anti-re-search knowledge
+  and does not **surface** it. ***All three are the same shape: knowledge that exists but is not where the
+  process looks. That is a different defect from not knowing something, and it is much cheaper to fix.***
+  **This is not a portfolio finding and touches no number. Nothing modelled. No confidence moved. No trigger
+  fires.** *It is recorded because it changes what every future sweep does.* ⚠⚠ **MBB'S LAST CUM SESSION IS
+  TOMORROW, MONDAY 10-AUG.**
 
 - **⚠⚠ 09:53 ICT SUN 09-AUG · INDEX & FLOWS (lane 4) — foreign flow INFLECTED in the first week of August:
   the first net-BUY week this file will have recorded against a four-year selling trend. And the file's own
