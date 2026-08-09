@@ -111,6 +111,66 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠ 23:57 ICT SUN 09-AUG · MACRO (lane 1) — THE OIL THREAD HAS A LEVEL AGAIN AFTER FOUR DAYS, AND IT SCORES
+  THIS FILE'S 04-AUG ENTRY ON THE WRONG SIDE. The week fell more than 7%. The day I logged as "the first datum
+  on the reversal risk" sat inside it.**
+  **THE LEVEL, AND IT CLOSES A GAP THIS FILE FLAGGED ITSELF.** On 05-Aug this file wrote, verbatim: *"Today oil
+  fell sharply on Hormuz. **No level is recorded because none was given and one will not be invented.**"* The
+  06-Aug entry repeated the same nil — *"Hormuz-deal prospects … NO LEVEL WAS GIVEN AND NONE IS INVENTED."*
+  **A level now exists: Brent OCTOBER futures US$83.52, +1.25% on Friday 07-Aug**, corroborated independently as
+  *"rose above $83 per barrel on Friday."* **Two sources, both T5.**
+  **AND THE WEEKLY NUMBER IS THE FINDING, NOT THE DAY.** **Brent fell MORE THAN 7% over the week to 07-Aug.**
+  On 05-Aug at 04:53 this file logged Brent +2.8% to US$86.11 and called it *"the first datum on the reversal
+  risk this file pre-stated"* — the risk being that Vietnam's petrol- and food-driven July disinflation reverses
+  with oil. **That up-day sat inside a week that ended down more than 7%. The day did not merely fail to
+  generalise; it pointed the OPPOSITE way to the week it belonged to.** The 05-Aug rule — *"one day up followed
+  by one day down is noise around a stated mechanism, not evidence about it"* — is no longer just a caution the
+  file stated. **It is now a scored one, and the entry it scores is this file's own.**
+  **⚠ THE TWO NUMBERS ARE NOT ON THE SAME CONTRACT, AND THAT IS AN EXISTING FAMILY MEMBER, NOT A NEW ONE.**
+  **US$83.52 is explicitly the OCTOBER contract. The US$86.11 of 04-Aug carries no contract at all.** So
+  `86.11 → 83.52 = −3.0%` is **NOT** computed here and must not be quoted: it is **INSTRUMENT substitution —
+  member 4 of the nine** — and the sign of the roll is unknown without the curve shape (backwardation would flatter
+  the fall, contango would exaggerate it). **The taxonomy caught a new instance inside an existing member. That is
+  the taxonomy working, and the correct response is to resist adding a tenth.**
+  **NOR IS 31-JULY BACKED OUT OF THE PERCENTAGE.** A >7% weekly fall closing near $83.5 implies a prior-Friday
+  level near $90 — **and that arithmetic is not recorded, because deriving a level from a rounded percentage is
+  exactly the invention the 05-Aug entry refused to commit.**
+  **HORMUZ IS TWO-SIDED, AND MY WORKING READ AN HOUR AGO WAS ONE-SIDED.** I had this as *"Iran's restrictive
+  draft plan drove oil up."* **The fuller picture: an Iran–Oman agreement to RESTORE Hormuz shipping is live
+  (millions of barrels returning); ADNOC reported ATTACKS ON THREE VESSELS transiting the strait; and Iran's
+  draft — now before its parliament — sets conditions STRICTER THAN MARKETS ANTICIPATED (restrictions on US and
+  Israeli vessels, compensation from states deemed hostile). Supply-restoring and supply-threatening headlines
+  are running simultaneously**, which is what a >7% weekly fall with a +1.25% Friday looks like.
+  *One detail NOT resolved and NOT forced: 05-Aug recorded a **US–Iran** interim agreement; this source says
+  **Iran–Oman**. Oman is the standing mediator channel for US–Iran contact, so these may be the same process at
+  different removes. **Both are recorded; neither is corrected into the other.***
+  **THE VIETNAM DIRECTION, AND IT CUTS AGAINST THE THREAD I HAVE BEEN WATCHING.** Cheaper oil pushes the **SAME**
+  way as the disinflation already on file — July CPI **+4.45%**, a second consecutive monthly fall, with May
+  confirmed as the peak. **The reversal risk this file pre-stated on 03-Aug did not materialise this week; it
+  moved further away.** **But a week of oil is not a CPI print.** CPI still sits ~0.95pp above `risk.py`'s 3.5%
+  threshold, and nothing here is evidence about any forecast. **ENVIRONMENT. No confidence moves. No model input
+  touched.**
+  **LANE 2 — A US LEVY ON CHINESE GOODS, GENUINELY ABSENT FROM BOTH FILES, AND DELIBERATELY NOT ACTED ON.**
+  *"Washington applied a new 12.5% levy on Chinese products in late July, replacing a temporary 10% rate that had
+  lapsed."* **A grep for any US-on-China tariff returned ZERO hits in `assumptions.json` and zero in this log** —
+  so the file tracks two sides of a triangle (**Vietnam's** AD duties on Chinese HRC; **US** actions on
+  **Vietnam**) and not the third. **It stays untracked, for three reasons stated rather than assumed.**
+  **(1) UNDER-IDENTIFIED** — no instrument, no docket, no exact date, only *"late July"*: the same
+  instrument-identifier weakness this file called an *inconsistency* on 08-Aug. **(2) THE CHANNEL IS ALREADY
+  BLOCKED AT BOTH ENDS** — diversion of Chinese steel INTO Vietnam meets Vietnam's own **19.38–27.83%** HRC duties
+  (460 and 1959/QĐ-BCT) plus the **27.83%** wide-coil circumvention duty effective **17-Apr-2026** (612/QĐ-BCT,
+  HPG a petitioner); Chinese steel into the **US** already faces Section 232 and AD/CVD orders **far above
+  12.5%**, so a general 12.5% is not marginal for steel. **(3) OPENING A LANE IS A PROCESS CHANGE — §4
+  human-only.** *Recorded as a bounded negative with the argument on both sides, so the next sweep neither
+  re-searches it nor mistakes the silence for ignorance.*
+  **SUBSTRING FALSE POSITIVE NUMBER SIX.** *"27.5%"* returned 6 hits in `assumptions.json` and 9 here — **every
+  one of them MBB's pending share-count increase**, nothing to do with the reported +27.5% growth in Chinese
+  imports into the US. **Six for six: 1743 · 9,000bn · PPI · 1.97% · 12.5% · 27.5%. Reading the matched context
+  before claiming novelty has now paid every single time it was run.**
+  **⚠⚠ CARRIED, AND UNCHANGED BY ANY OF THE ABOVE: MBB'S LAST CUM SESSION IS MONDAY 10-AUG** — ex 11-Aug, record
+  12-Aug. **OPEN item 38's `fy26e_npat` re-derivation is due by then and is §4 human-only. No automated run can
+  perform it.**
+
 - **✅ 21:54 ICT SUN 09-AUG · MACRO (lane 1) — THE US WEEK IS FULLY MAPPED FROM PRIMARIES, and the secondary's
   error pattern is finally characterised correctly — at the third attempt.**
   **CENSUS CONFIRMS: July 2026 Advance Monthly Retail Sales releases FRI 14-AUG-2026, 08:30 EDT.** That
