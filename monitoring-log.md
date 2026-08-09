@@ -109,6 +109,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠⚠ 15:54 ICT SUN 09-AUG · BANKS (lane 5) — the Q2/2026 sector provisioning picture, and on THIS FILE'S
+  OWN working detector the earnings-management signal is in the STATE banks, none of which this book holds.**
+  *(The lane the owner's standing instruction names: "pay attention to provision for banks and LLR because
+  they might be managing earnings." Two prior nil hours; this one is external and material.)*
+  **ALL FIGURES NEW — context-checked, and the apparent prior hits were false positives** (121.97% = the rebar
+  duty; −1.88% = HPG's marked E[r]; +22.6% = an MBB price band).
+  **THE SECTOR SERIES: LLR coverage 95% (Q2/25) → 86% (Q1/26) → 83% (Q2/26).** Sector **NPL 1.88% → 1.97%**,
+  **the highest Q2 rise since 2020.** **Group 2 +31.6% YTD, +17.5% QoQ.** Sector provision expense **+22.6%
+  YoY.** Sector **LDR down to 102.4%.**
+  ⚠⚠ **THE SPLIT THAT MATTERS: state-owned banks CUT provisioning 26% QoQ while private banks RAISED it 33%
+  QoQ** — Sacombank **+152%**, HDBank **+104%**, OCB **+85%**, ACB **+55%**.
+  **APPLY THE FILE'S OWN WORKING DETECTOR.** It established that the naive detector has the sign backwards and
+  that the working one is ***the PAIR — light flow AND thin stock together.*** **State banks: flow cut 26% into
+  a sector whose stock fell to 83%. That is the pair. Private banks: flow raised 33% into the same thinning
+  stock — heavy flow, which is rebuilding, not managing.** ***None of the eight holdings is a state bank. The
+  signal is outside the book — stated plainly because it is the comfortable direction.***
+  **THE BOOK AGAINST THE 83% SECTOR:** VCB **279%** (+196pp — and **VCB is named as the only bank with a clear
+  LLR improvement**, corroborating the 279% already on file) · TCB **125.5%** (+42.5pp) · MBB **93.63%**
+  (+10.6pp) · **VPB 56.2% (−26.8pp)**. **VPB sits beside the named low-LLR group — Sacombank 56.67%, HDBank
+  50.01%, VIB 43.58% — and is the only holding below the sector.** ⚠ **On the pair test VPB still passes: its
+  provisioning intensity is 45.2%, the heaviest of the four — thin stock with HEAVY flow is rebuilding.** That
+  is the file's own logic and it holds.
+  **SECOND FINDING — A BASIS CONFLICT NOW IN THE OPEN.** This file carries system LLR coverage as **82.74% →
+  79.78%**, described as a Q1 move, and also uses 79.78% alongside H1 NPL data. **The new series puts Q1 at
+  86%.** ***79.78% and 86% cannot both be Q1 system LLR coverage on the same basis*** — different bank sample
+  or different definition, **and which is not established here and is not guessed.** **Consequence: the file's
+  claim that MBB's 93.63% "beats the system average by 13.85pp" rests on an unverified basis match. On the new
+  series the gap is +10.63pp — same direction, margin smaller by 3.22pp. The MBB conclusion survives; its
+  precision does not.**
+  **Eighth instance of the catalogued family — a number whose basis is not stated — and the first found by
+  acquiring a SECOND series rather than by re-reading the first.** **T5, multi-outlet. Nothing modelled. No
+  confidence moved — sector aggregates are not an input to any branch. No trigger fires.** ⚠⚠ **MBB'S LAST CUM
+  SESSION IS TOMORROW, MONDAY 10-AUG.**
+
 - **⚠⚠ 14:54 ICT SUN 09-AUG · PROCESS — the stored trigger prompt now has TWO documented stale directives,
   and neither can be fixed from inside an automated session. The file held both facts separately and had
   never joined them. External yield again NIL.**
