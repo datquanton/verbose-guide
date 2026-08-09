@@ -113,6 +113,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 01:54 ICT MON 10-AUG · KDH (lane 3, 20.3% of the book) — THE ₫896bn MECHANISM WAS THIS FILE'S OWN
+  READING OF THE ACCOUNTING, EXPLICITLY FLAGGED AS "NOT A STATED ONE". THE STAKE PERCENTAGES ARRIVED AND THEY
+  DEMONSTRATE IT ARITHMETICALLY. THE 2% TRANCHE IS THE CONTROL-CROSSING TRANCHE.**
+  ***And a process note that earned this sweep: SIX consecutive entries were lane 1 or lane 4/7. Lane 3 is a
+  CORE "check every sweep" lane and it had been skipped six sweeps running. The sweep had drifted into a macro
+  monoculture. This is what was sitting in it.***
+  **WHAT WAS NEW — context-checked to zero hits in BOTH files: `50.95`, `48.95`, `Phước Nguyên`, `15.25`.**
+  *(`68.3`, `750`, `4,200` and `23-Jun` all pre-exist — the 2% transfer, the ₫896bn, the ₫770bn/₫750bn record
+  quarter and the FY targets are **already on file**, so most of this search was **re-search number EIGHT**.)*
+  **THE SEQUENCE, AND IT RECONCILES TO 0.1%.** KDH held **99.95%** of *Cty TNHH BĐS Bình Trưng Mới* → **49%
+  transferred**, leaving **50.95%** → **a further 2% on 23-JUN-2026 for ₫68.3bn**, leaving **48.95%**.
+  **99.95 − 51 = 48.95. 50.95 − 2 = 48.95. Both close exactly.**
+  **⚠ THAT 2% IS THE TRANCHE THAT CROSSES 50%, AND CROSSING 50% IS LOSS OF CONTROL.** On 07-Aug this file wrote,
+  verbatim: *"A ₫68bn disposal cannot produce a ₫896bn gain: this is a REMEASUREMENT OF THE RETAINED STAKE ON
+  LOSS OF CONTROL, not a profit on the 2%. **That mechanism is my reading of the accounting, NOT a stated one.**"*
+  **The ownership sequence is independent of the gain and it lands on the same conclusion. The inference is
+  CONFIRMED — and confirmed, for the second time in two hours, by a different instrument than produced it.**
+  *Stated at its true width: crossing 50% is the standard trigger for loss of control and is fully consistent
+  with a remeasurement, but control is a **substance** test, not purely a threshold. This corroborates the
+  reading; it is not the issuer saying so.*
+  **AND THE PRICE PER PERCENT IS FLAT ACROSS TRANCHES, WHICH SHARPENS IT.** ₫68.3bn for 2% is **₫34.15bn per
+  1%**; at that rate 49% is **₫1,673.3bn** — against the *"remaining ~₫1,675bn"* this file already held.
+  **A 0.1% reconciliation.** **So the control-crossing 2% carried NO control premium: KDH received ₫68.3bn of
+  cash and booked ₫896bn of financial revenue. That gap is accounting remeasurement, not consideration.**
+  **⚠ ONE INFERENCE THIS CHANGES, AND IT IS A RISK RESTATEMENT.** The file carried *"the remaining ~₫1,675bn of
+  the Bình Trưng Mới transfer, **contracted to complete by Q3**"*. **But if KDH stood at 50.95% BEFORE the 23-Jun
+  tranche, the 49% had ALREADY transferred by then** — so what remains is most likely **consideration
+  outstanding (a receivable), not an unexecuted transfer.** ***That is a materially different exposure: money
+  owed rather than a deal pending.*** **This is my inference from the percentages, not a stated fact**, and the
+  **H1 auditor-reviewed statements due FRI 14-AUG** are the document that settles it.
+  **⚠ ITEM 43 IS NOT RESOLVED AND NOTHING HERE TOUCHES IT.** The armed criterion still flips on the undefined
+  term: **Reading A (PBT minus the gain) = MET robustly; Reading B (`lợi nhuận thuần từ hoạt động kinh doanh`,
+  which includes financial income) = NOT MET.** **Corroborating the MECHANISM does not define "operating PBT".
+  §4 human-only. NOT declared fired.**
+  **ALSO NEW — A SECOND, OPPOSITE-DIRECTION DEAL, IN Q3.** **July 2026: KDH paid ₫248bn for 15.25m shares = 25%
+  of *Phước Nguyên*, taking it from 60% to 85%.** **The asymmetry is the point: stepping DOWN through 50% in one
+  subsidiary produced a ₫896bn P&L gain; stepping UP from 60% to 85% in another — both sides already under
+  control — is a transaction with non-controlling interests and books to EQUITY, not P&L. It will not repeat the
+  ₫896bn effect.** *It is ₫248bn of cash OUT in Q3, against bank debt of ₫16,500bn on an ₫18tn line with, on this
+  file's own reading, under half a quarter of headroom at the H1 borrowing pace.* **Noted, not modelled.**
+  **NOTHING MODELLED. No confidence moved** — *this corroborates a reading the file had already acted on rather
+  than changing an input, and §2 requires T1–T2 evidence to move confidence; this is T5 press.* **`DECISION-BRIEF.md`
+  byte-identical, so no escalation trigger fires from model output; the two live MBB escalations (3 and 5) carry.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY, MONDAY 10-AUG** — ex 11-Aug, record 12-Aug, Vietnam opens in ~7 hours.
+  **Item 38's `fy26e_npat` re-derivation was due by today and remains undone. §4 human-only.**
+
 - **⚠ 00:53 ICT MON 10-AUG · FLOWS + OWNERSHIP (lanes 4, 7) — THE PER-NAME SPLIT ARRIVED AND IT TESTS
   YESTERDAY'S INFERENCE INSTEAD OF REPEATING IT. TWO OF THE TOP FIVE FOREIGN NET-BUYS ARE OURS. AND THE SAME
   SEARCH RETURNED TWO THINGS THIS FILE ALREADY HELD — RE-SEARCH NUMBER SEVEN.**
