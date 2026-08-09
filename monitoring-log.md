@@ -88,11 +88,43 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
-## 2026-08-09 *(real ICT date — see the correction immediately below)*
+## 2026-08-09
 
-- **⚠⚠⚠ 06:55 ICT SUN 09-AUG (verified against `date`) · PROCESS — EVERY TIMESTAMP I HAVE WRITTEN FOR FOURTEEN
-  HOURS IS EXACTLY EIGHT HOURS AHEAD OF THE CLOCK, AND THE FIVE ENTRIES BELOW THIS ONE WERE WRITTEN ON
-  SATURDAY 08-AUG, NOT SUNDAY 09-AUG.**
+- **⚠⚠⚠ 07:54 ICT SUN 09-AUG · PROCESS — I PUBLISHED A CORRECTION ONE HOUR AGO AND THE CORRECTION WAS WRONG.
+  THE DRIFT IS ~56 MINUTES, NOT 8 HOURS; THE DATE HEADERS WERE RIGHT; AND I DEFACED A CORRECT ONE.**
+  **THE ERROR IN MY OWN CORRECTION.** Last hour I read commit timestamps with `git log --date=format:` under a
+  `TZ=Asia/Ho_Chi_Minh` prefix and treated the output as ICT. ***It is not. `--date=format:` renders the
+  AUTHOR'S recorded timezone, which is `+0000` here — the prefix does not convert it. I read UTC and labelled
+  it ICT.*** Checked properly with `%aI` and an explicit +7: the last commit is
+  **`2026-08-08T23:57:35+00:00` = Sun 09-Aug 06:57 ICT**, made when `date` read **06:55 ICT** — *a two-minute
+  gap, perfectly consistent.*
+  **THE CORRECT MAPPING — label I wrote → true ICT:** 13:53→Sat 12:57 · 14:53→Sat 13:57 · 15:53→Sat 14:57 ·
+  16:53→Sat 15:57 · 17:53→Sat 16:56 · 18:53→Sat 17:57 · 19:53→Sat 18:57 · 20:53→Sat 19:57 · 21:53→Sat 20:56 ·
+  23:53→Sat 22:57 · **01:53→Sun 00:56 · 02:53→Sun 01:56 · 03:53→Sun 02:57 · 04:53→Sun 03:57 · 05:53→Sun
+  04:57.** ***The drift is ~56 minutes ahead, uniformly — exactly the magnitude this file recorded once
+  before. The "+8h" I published was an artefact of reading UTC as ICT.***
+  **ALL THREE CLAIMS IN LAST HOUR'S ENTRY WERE WRONG:** (1) *"+8h on every row"* → **it is −56 min**; (2) *"the
+  five entries below were written on Saturday 08-Aug"* → **false, they were 09-Aug ICT — the `## 2026-08-09`
+  header was CORRECT and I defaced it**; (3) *"nine hours separate the last commit from this sweep"* → **it is
+  57 minutes; no firings were missed.** **All three are repaired here.**
+  ⚠ **AND THE MBB FRAMING FLIPS BACK.** At true **Sun 00:56**, writing *"MBB's last cum session is TOMORROW,
+  Monday 10-Aug"* was **correct**. **The only genuine error was my last reply calling it "today" — today is
+  Sunday 09-Aug and the cum session is tomorrow, Monday 10-Aug.**
+  ***THIS IS THE SEVENTH INSTANCE OF THIS FILE'S OWN CATALOGUED DEFECT — a number with no stated basis, unit
+  or zone — and I committed it twice in two hours: first by drifting the labels, then by "correcting" them
+  against a misread basis. A timestamp without its zone is exactly a price without its delivery basis.***
+  **What survives unchanged: the ~56-minute drift is real and still unfixed, and the remedy is the same one
+  line — read the clock at the start of every sweep. Nothing modelled; no confidence moved; no model input
+  touched. No finding from any hour is retracted.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
+
+- **⚠ SUPERSEDED — the entry below (labelled "06:55") is WRONG and is corrected by the entry above. Its "+8h"
+  mapping, its claim that the following entries were written on 08-Aug, and its "nine hour gap" are all
+  artefacts of reading UTC commit stamps as ICT. Retained rather than deleted so the record of the mistake
+  survives.**
+
+- **~~⚠⚠⚠ 06:55 ICT SUN 09-AUG (verified against `date`) · PROCESS — EVERY TIMESTAMP I HAVE WRITTEN FOR
+  FOURTEEN HOURS IS EXACTLY EIGHT HOURS AHEAD OF THE CLOCK, AND THE FIVE ENTRIES BELOW THIS ONE WERE WRITTEN ON
+  SATURDAY 08-AUG, NOT SUNDAY 09-AUG.~~**
   **HOW IT WAS FOUND: I read the actual clock for the first time in fourteen hours.** It is **Sun 09-Aug-2026,
   06:55 ICT**. The last commit is stamped **Sat 08-Aug 21:57 ICT** and I had labelled it *"05:53 ICT, 09-Aug."*
   **THE MAPPING — label I wrote → true commit time (ICT):** 14:53→Sat 06:57 · 15:53→Sat 07:57 · 16:53→Sat 08:57
@@ -124,9 +156,10 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   a counter.** **Nothing modelled. No confidence moved. No model input touched.** ⚠⚠ **MBB'S LAST CUM SESSION
   IS TOMORROW, MONDAY 10-AUG.**
 
-- **⚠ THE FIVE ENTRIES BELOW WERE WRITTEN ON SATURDAY 08-AUG (17:56–21:57 ICT), NOT ON 09-AUG. Their "01:53"
-  to "05:53" labels are +8h wrong; see the correction above for the mapping. Left in place rather than
-  renumbered because they cross-reference each other and git history is the authoritative record.**
+- **⚠ CORRECTED 07:54 — the notice that previously sat here was WRONG. The five entries below WERE written on
+  Sunday 09-Aug ICT (00:56–04:57), exactly as their date header says. Their "01:53"–"05:53" labels run ~56
+  minutes ahead of the true clock, not eight hours. Left unrenumbered because they cross-reference each other
+  and git history is authoritative.**
 
 - **⚠⚠⚠ 05:53 ICT · MBB — MB's own FY2026 guidance is essentially the FLAT-H2 outcome this file already
   computed, and the branches are due for human re-derivation TOMORROW. Plus a correction I owe on yesterday's
