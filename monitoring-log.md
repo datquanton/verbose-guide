@@ -27,6 +27,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **Q2/26 HOSE brokerage market share** | Full table incl. TCBS 9.36%, VPBankS 3.57% record; 65.19% internal check; *"market share is not an input to any branch"* | **Q3 table (~early Oct)** |
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
 | **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
+| **VPS IPO** *(added 09-Aug 14:54)* | ⚠ **CLOSED EIGHT MONTHS AGO — the routine's lane 6 still lists it as live.** Completed **mid-Nov-2025**, listed **~1.5bn shares on HoSE 16-Dec-2025**, ticker **VCK**; terms on file: **202.3m shares, floor ₫60,000, minimum raise ₫12,138bn**. Retained only as the **external comparable for the broker cluster** | **never** — it is a closed event; a *secondary* VCK raise would be a new item |
 | **KDH — Clarita divestment & Gladia absorption/launch** *(added 09-Aug 13:54; the grep caught this before a 7th re-search)* | Keppel 49% / KDH 51% JV, Clarita + Emeria (both Thủ Đức, agreed May-2023, construction Oct-2023) combined into **Gladia by the Water**; **naming trap resolved** — Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn; Emeria ~60 low-rise + ~600 condos; **Gladia Heights LAUNCHED, developer says the profit is a 2027 event**. ⚠ **The kill criterion is LIVE — "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched", the brief's "decisive test"; the launch condition is now satisfied and it has NOT fired** | **3Q26 filing, due 30-Oct** |
 
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -107,6 +108,33 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-09
+
+- **⚠⚠ 14:54 ICT SUN 09-AUG · PROCESS — the stored trigger prompt now has TWO documented stale directives,
+  and neither can be fixed from inside an automated session. The file held both facts separately and had
+  never joined them. External yield again NIL.**
+  **THE EIGHTH RE-SEARCH, CAUGHT BY THE GREP.** Lane 6 names **"VPS IPO"** as a live watch item. ***It closed
+  eight months ago.*** The file already recorded this on 04-Aug: completed **mid-Nov-2025**, listed **~1.5bn
+  shares on HoSE 16-Dec-2025**, ticker **VCK**, terms **202.3m shares, floor ₫60,000, minimum raise
+  ₫12,138bn**. It survives only as the **external comparable for the broker cluster** — which is exactly why
+  it must not be re-searched as news. **Now a COVERED row.**
+  ⚠⚠ **THE JOIN, WHICH IS WHAT IS NEW.** On Saturday I recorded that the trigger prompt **carries its own
+  copy of the seven lanes, does not read this log, and still contains "SBV/MoF circulars (incl. 91/102 margin
+  rules)"** — wrong instruments; the binding ones are **Circular 121/2020/TT-BTC** and **Decision
+  87/QĐ-UBCK**. **Today adds the second: "VPS IPO", a closed event.** ***Two stale directives, both found by
+  the routine itself, both drawing searches, and both unreachable — the trigger text is not a repo file, so no
+  amount of writing here propagates a fix. §4 is not the constraint; reachability is.***
+  **WHY THE PAIR MATTERS MORE THAN EITHER INSTANCE:** one stale directive is an oversight in a prompt. **Two,
+  neither fixable by the process that found them, is evidence the lane definition has no maintenance path at
+  all.** ⚠ **The owner ask is therefore concrete and has two named items:** **(1)** *"91/102 margin rules"* →
+  **121/2020/TT-BTC + Decision 87/QĐ-UBCK**; **(2)** delete *"VPS IPO"* or restate it as *"VCK secondary
+  raises only"*. **Structural fix unchanged: either maintain the stored trigger, or make it genuinely read
+  this log header as that header once falsely claimed.**
+  **FOURTH MEMBER OF ONE FAMILY IN FOUR DAYS — knowledge that exists but is not where the process looks:** the
+  header that claimed to be a control surface; the gate table that omitted its nearest deadline; the file that
+  held anti-re-search knowledge without surfacing it; **and now a lane definition stale in two places with no
+  way to correct it.**
+  **No external development was found. Nothing modelled. No confidence moved. No trigger fires.** ⚠⚠ **MBB'S
+  LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
 
 - **⚠ 13:54 ICT SUN 09-AUG · PROCESS — the control surface I built two hours ago has a defect, found by using
   it: some re-open triggers are NOT OBSERVABLE from inside a sweep. External yield this hour was NIL.**
