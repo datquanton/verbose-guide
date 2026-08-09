@@ -114,6 +114,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 04:54 ICT MON 10-AUG · BANKS (lanes 1, 5 — 51.5% of the book) — THE FIRST TIER 2 DATUM THIS FILE HAS
+  EVER HELD, AND IT PARTLY ANSWERS A QUESTION THE OWNER ASKED IN HIS OWN WORDS. PLUS THE LEGAL INSTRUMENT
+  BEHIND "CAR TO 10.5%", WHICH THE FILE HAD AS A NUMBER WITH NO SOURCE.**
+  ***Lane 6 was the last untouched lane today, but its own finding ruled out the obvious search: this file has
+  established that street target prices are "unusable as found" without knowing which corporate actions are
+  embedded — and MBB carries TWO pending actions, so MBB TPs are the worst case for that defect. The search went
+  to a flagged gap instead.***
+  **⚠⚠ MB ISSUED ₫3,500bn OF BONDS IN 5M/2026, DESCRIBED AS NEW LOTS TO OPTIMISE TIER 2 CAPITAL AND IMPROVE
+  CAR.** **This file's own record read: *"no amount figure, no tenor, no rate, no Tier 2"* and *"no Tier 2 figure
+  exists for any of the three banks."*** **The owner's pasted MBB analyst-question list asked for exactly this —
+  *"MB's 2026–2027 debt and Tier 2 issuance plans"*. There is now an AMOUNT and a STATED PURPOSE.**
+  ⚠ **What is still missing is most of it: NO TENOR, NO COUPON, NO TRANCHE COUNT, and NO CAR LEVEL for MBB.
+  "₫3,500bn of Tier-2-optimising issuance" is not a capital ratio.** *(Context-checked: `3,500` returns 4 hits in
+  `assumptions.json`, **all inside the bull branch 313,500 — substring false positive number ELEVEN**.)*
+  **⚠ AND THE INSTRUMENT BEHIND THE 10.5% IS NAMED FOR THE FIRST TIME: THÔNG TƯ 14/2025 (SBV), a roadmap
+  stepping minimum CAR up to 10.5% BY 2030, framed as Basel III alignment.** *(`14/2025` and `Basel III` both
+  return **ZERO hits in both files**.)* **Until now this file held 10.5% only as an ANALYST'S QUESTION — *"CAR to
+  get 10.5% in next 2 years"* — a number with no legal source.**
+  ⚠⚠ **AND THE TWO DATES DISAGREE: the analyst's framing implies ~2028; the circular's roadmap as reported is
+  2030. Same threshold, different deadlines, and the difference is two years of capital planning.** ***Recorded
+  as a discrepancy, NOT resolved — and note my source is T5 press DESCRIBING the circular, not the circular. A
+  regulatory deadline taken from press paraphrase is exactly the thing this file has been burned on.***
+  **TCB — A FUNDING-SIDE NUMBER THAT MUST NOT BE DIVIDED BY THE ONE ALREADY ON FILE.** **TCB issued ₫2,000bn of
+  bonds in 5M/2026.** The file holds **₫17,000bn of TCB bond REPURCHASES across 2026**. ⚠ **THESE ARE NOT
+  COMPARABLE AS THEY STAND: a TWELVE-month repurchase figure against a FIVE-month issuance figure. Computing
+  "8.5× more retired than issued" would be PERIOD SUBSTITUTION — member 2 — and it is not computed here.**
+  *The bounded statement that survives: on the periods as reported, TCB retired materially more of its own paper
+  than it issued, and the file's open question stands — retiring medium-and-long-term funding interacts with the
+  40% short-term-funding ratio. **Seniority of the repurchased paper is STILL unstated**, so whether any of this
+  touches Tier 2 at TCB remains unknown.*
+  **ALSO REPORTED, RECORDED AS ENVIRONMENT: TCB, MB and VPB have pushed bank bond coupons to NEARLY 9%.**
+  *Worth one line only because Masterise-linked paper on file carries **9–10%** — a bank-versus-corporate spread
+  that thin invites a comparison, but the two are different instruments with different security and the file has
+  no matched-tenor pair. **Not compared.***
+  *Not new, and checked before claiming it: TCB's capital ₫70,862bn → **₫113,738bn** (the log already carries the
+  ₫113,379 vs ₫113,738 charter-capital reconciliation) and VPB's ₫79,339bn → ₫100,000bn+.*
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2 and every item here is T5 press.
+  `DECISION-BRIEF.md` byte-identical; no escalation trigger fires. The two live MBB escalations (3 and 5) carry.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY, MON 10-AUG — VIETNAM OPENS IN ~4 HOURS.** Ex 11-Aug, record 12-Aug.
+  **Item 38's `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠ 02:54 ICT MON 10-AUG · TCB / PROPERTY (lanes 3, 5 — 35% of the book) — I WENT LOOKING FOR CORROBORATION
   OF THE GUARANTEE CLAIM AND THE SEARCH RETURNED THE ORIGINAL ARTICLE. RE-FINDING A SOURCE IS NOT
   CORROBORATING IT. AND THE ONE GENUINELY NEW STRUCTURAL DETAIL POINTS THE OPPOSITE WAY.**
