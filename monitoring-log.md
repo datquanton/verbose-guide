@@ -113,6 +113,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠ 02:54 ICT MON 10-AUG · TCB / PROPERTY (lanes 3, 5 — 35% of the book) — I WENT LOOKING FOR CORROBORATION
+  OF THE GUARANTEE CLAIM AND THE SEARCH RETURNED THE ORIGINAL ARTICLE. RE-FINDING A SOURCE IS NOT
+  CORROBORATING IT. AND THE ONE GENUINELY NEW STRUCTURAL DETAIL POINTS THE OPPOSITE WAY.**
+  ***Lane 5 had been untouched for seven hours; this is the follow-through on the 01:54 monoculture finding,
+  chosen deliberately rather than by what was newest.***
+  **THE NEGATIVE RESULT FIRST, BECAUSE IT IS THE POINT.** The file's guarantee claim — *"Techcombank is the
+  credit sponsor and guarantor for most Masterise projects"*, plus the Hồ Anh Minh governance link — rests on a
+  **single T5 article dated March-2025**. I searched for an independent second source. **The top result was that
+  same article**: its URL carries `20250315`, and `danviet` already returns 4 hits in this log. **No independent
+  corroboration was found. THE CLAIM'S TIER IS UNCHANGED — it is still single-sourced and still sixteen months
+  old.** *A search that returns what you already have feels like confirmation and is the opposite of it: the
+  same evidence counted twice.*
+  **⚠ WHAT IS GENUINELY NEW, AND IT CUTS AGAINST THE GUARANTEE READING.** *"Multiple enterprises signed **asset
+  mortgage contracts with Techcombank ONE DAY BEFORE** issuing their bond lots."* **This is a mechanism, not a
+  characterisation, and it is systematic — the pledge is part of the issuance mechanics.**
+  *(Context-checked: `one day before` returns 3 hits, **all my own text about MBB's peer prints and the 15-Aug
+  circular cluster — substring false positive number NINE**.)*
+  **⚠⚠ AND THE TWO CLAIMS IMPLY OPPOSITE EXPOSURES FOR TCB, WHICH IS EXACTLY THE THING THE CRITERION TURNS ON.**
+  **As GUARANTOR, TCB pays on a Masterise bond event — full P&L transmission. As MORTGAGEE holding the
+  collateral, TCB is SECURED — better placed than an unsecured lender.** The file already holds that Masterise
+  subsidiaries *"had to re-pledge collateral at Techcombank to secure bond obligations"* — **but "to secure bond
+  obligations" does not say WHOSE claim the security serves: the BONDHOLDERS' (TCB as security agent, no
+  exposure) or TCB's OWN RECOURSE under a guarantee it granted (exposure, mitigated). Same fact, two structures,
+  opposite loss paths.**
+  **THIS IS THE THIRD TIME THIS FILE HAS HIT THE SAME DEFECT, AND I AM CLASSIFYING IT DELIBERATELY.** It already
+  wrote that *"a bond book with no stated SIDE is unreadable"* and that *"the same applies to a bond repurchase
+  with no stated SENIORITY."* **A security interest with no stated BENEFICIARY is the third instance of that one
+  discipline.** ⚠ **It is NOT a tenth member of the measure-substitution family, and it is worth saying why:
+  that family is about comparing two NUMBERS on different bases, and there is no number here — this is a
+  structural attribute left unstated. Last hour I resisted adding a tenth member for a case that genuinely was
+  instrument substitution; consistency means also not filing this one where it does not belong.**
+  **⚠ ALSO NEW, AND IT IS THE CLOSEST THING TO AN OBSERVABLE THIS CRITERION HAS EVER HAD.** Reporting that a
+  group of enterprises which raised **₫33,000bn** into an *"old"* Masterise project are **withholding their
+  periodic bond reports**, with **purpose, coupon, bondholders and collateral undisclosed**.
+  *(Context-checked: `33,000` returns 9 hits in `assumptions.json` — **every one MBB's `fy26e_npat` bull branch
+  28,000/30,500/33,000 or TCX's margin room. Substring false positive number EIGHT.** The ₫33,000bn is new.)*
+  ⚠ **STATED AT ITS REAL STRENGTH: the source frames this as a QUESTION — *"'ém' báo cáo về trái phiếu?"* — so it
+  is an allegation in interrogative form, T5. It is recorded as that and not as an established fact.** *And it
+  is NOT the ₫10,000bn Spirit of Saigon programme the file holds as already matured (latest maturity 28-Aug-2025);
+  which project it is, is not established and is not guessed.*
+  **A CANDIDATE CHANNEL, ESCALATED AND NOT ARMED.** The file says this criterion *"has no transmission mechanism
+  on file."* **Non-filing of HNX periodic bond disclosures is observable, is dated, and does not need the blocked
+  PDFs — the same route that worked on 31-Jul. It is offered as a channel for a human to arm.** ⚠ **Defining the
+  criterion is §4 human-only, and an absence-of-filing signal is exactly the kind that must be defined BEFORE it
+  is watched, or every gap in coverage reads as a signal.**
+  **THE KILL CRITERION DOES NOT FIRE.** It requires *a Masterise bond event*; **a missed periodic report is a
+  disclosure failure, not a payment default**, and the guarantee that would carry any event into TCB's P&L is
+  still unestablished. **Nothing modelled. No confidence moved — §2 requires T1–T2 and this is T5, one item of it
+  interrogative. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  *Not new: TCB's "we assess large Vingroup / Sun Group / Masterise projects carefully" line — the file already
+  holds that trio together, and has already refused to conflate the three groups.*
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY, MON 10-AUG** — ex 11-Aug, record 12-Aug, **Vietnam opens in ~6 hours.**
+  **Item 38's `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 01:54 ICT MON 10-AUG · KDH (lane 3, 20.3% of the book) — THE ₫896bn MECHANISM WAS THIS FILE'S OWN
   READING OF THE ACCOUNTING, EXPLICITLY FLAGGED AS "NOT A STATED ONE". THE STAKE PERCENTAGES ARRIVED AND THEY
   DEMONSTRATE IT ARITHMETICALLY. THE 2% TRANCHE IS THE CONTROL-CROSSING TRANCHE.**
