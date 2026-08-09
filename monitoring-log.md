@@ -28,6 +28,8 @@ question the file had already answered.** Re-open any row below only on its stat
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
 | **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
 | **VPS IPO** *(added 09-Aug 14:54)* | ⚠ **CLOSED EIGHT MONTHS AGO — the routine's lane 6 still lists it as live.** Completed **mid-Nov-2025**, listed **~1.5bn shares on HoSE 16-Dec-2025**, ticker **VCK**; terms on file: **202.3m shares, floor ₫60,000, minimum raise ₫12,138bn**. Retained only as the **external comparable for the broker cluster** | **never** — it is a closed event; a *secondary* VCK raise would be a new item |
+| **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
+| **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
 | **KDH — Clarita divestment & Gladia absorption/launch** *(added 09-Aug 13:54; the grep caught this before a 7th re-search)* | Keppel 49% / KDH 51% JV, Clarita + Emeria (both Thủ Đức, agreed May-2023, construction Oct-2023) combined into **Gladia by the Water**; **naming trap resolved** — Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn; Emeria ~60 low-rise + ~600 condos; **Gladia Heights LAUNCHED, developer says the profit is a 2027 event**. ⚠ **The kill criterion is LIVE — "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched", the brief's "decisive test"; the launch condition is now satisfied and it has NOT fired** | **3Q26 filing, due 30-Oct** |
 
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -108,6 +110,56 @@ A quiet sweep writes nothing here — but it is **not** a finished sweep. It adv
 item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
+
+## 2026-08-10
+
+- **⚠ 00:53 ICT MON 10-AUG · FLOWS + OWNERSHIP (lanes 4, 7) — THE PER-NAME SPLIT ARRIVED AND IT TESTS
+  YESTERDAY'S INFERENCE INSTEAD OF REPEATING IT. TWO OF THE TOP FIVE FOREIGN NET-BUYS ARE OURS. AND THE SAME
+  SEARCH RETURNED TWO THINGS THIS FILE ALREADY HELD — RE-SEARCH NUMBER SEVEN.**
+  ***Today is MBB's last cum session. Vietnam opens in ~8 hours; both markets were shut all weekend.***
+  **WHAT IS GENUINELY NEW: THE PER-NAME BREAKDOWN OF THE 03–07 AUG FOREIGN NET BUY.** **FPT ₫667bn · VIC ₫617bn
+  · CTG ₫438bn · MBB ₫415bn · HPG ₫335bn.** *(Context-checked: `415` returns one unrelated hit, and **`335`
+  matched only VCBS's ₫5,335bn HPG Q2 estimate — substring false positive number SEVEN**. `667` and `617` also
+  pre-exist as VCI's 1H PBT and other figures. None of the five was on file as a flow number.)*
+  **AND IT SCORES A READING THIS FILE MADE BEFORE IT HAD THE DATA.** At 09:53 yesterday the aggregate was
+  logged — net **BUY ₫2,249.5bn** on value while net **SELLING 10.3m units** — and the divergence was read as
+  *"fewer shares, higher prices: ROTATION INTO BLUECHIPS."* **That was an inference from two aggregates. The
+  per-name split is independent data, and all five named net-buys are large caps. The inference is
+  CONFIRMED, and confirmed by a different instrument than the one that produced it.**
+  **⚠ TWO OF OUR EIGHT ARE IN THE TOP FIVE: MBB 4th at ₫415bn (6.5% of the book) and HPG 5th at ₫335bn (16.8%).**
+  **⚠⚠ AND MBB DREW ₫415bn IN THE WEEK IMMEDIATELY BEFORE ITS CUM DATE. TWO READINGS FIT AND I CANNOT SEPARATE
+  THEM FROM FLOW AGGREGATES:** (a) **entitlement-seeking** ahead of the 15% stock dividend and 10:1 rights at
+  ₫10,000; (b) **generic bluechip rotation** that would have bought MBB regardless. ***Both are consistent with
+  every number available here. Neither is asserted.***
+  **ONE ASYMMETRY DOES CUT AGAINST A THIRD READING, AND ONLY WITHIN OUR EIGHT.** If this were FTSE-anticipation
+  positioning — the frame the 09:53 entry raised, six weeks before 21-Sep — it should favour the **eligible**
+  names. **Within our eight, HPG is on the 23-name eligible list and MBB is NOT** (the file's roster: HPG/VCI/KDH
+  in; TCB/VPB/MBB/TCX/VPX out). **MBB nonetheless out-drew HPG, ₫415bn to ₫335bn. So FTSE anticipation cannot be
+  the whole explanation.** *Bounded deliberately: the file holds eligibility only for its own eight, so FPT, VIC
+  and CTG cannot be tested and the general claim is not made.*
+  **LANE 1 — USD/VND SET ANOTHER ALL-TIME HIGH, AND THIS ONE IS BASIS-CLEAN.** **SBV CENTRAL RATE ₫25,380 on
+  04-AUG**, against the **₫25,338 of 01-AUG** the file holds as the prior record. **Both are the central rate —
+  same instrument, same issuer — so the comparison is legitimate and no substitution is involved.** *(Zero hits
+  for `25,380` in either file.)* **The move is small and is reported as small: +₫42, +0.17% over three sessions.**
+  New band ceiling **25,380 × 1.05 = ₫26,649**. ⚠ **AND THE READING IS SIX DAYS OLD — the current central rate is
+  UNMEASURED, and this is recorded as a 04-Aug datum, not as today's level.** The file's established treatment
+  stands: a currency at its band ceiling constrains SBV easing room, and **HPG's spread bridge still has no FX
+  line at all** — adding one is a machinery change, **§4 human-only**.
+  **⚠ RE-SEARCH NUMBER SEVEN, AND IT NAMES ITS OWN FIX.** The same two searches returned **the flow aggregate**
+  (held since 09-Aug 09:53) and **the July credit print — ₫20,150,000bn at 29-Jul, +8.38% YTD** (held, with the
+  note that a gate placed in the future for a past event had already suppressed it for two days). **Neither had a
+  COVERED row. Both now do**, with re-open triggers that are *observable from inside a sweep* — the **next week's
+  flow figures (Sat 15-Aug or later)** and the **August credit print (~early Sep)** — which is the defect the
+  13:54 cadence note identified in the TCB row.
+  **LANE 6 — recorded and deliberately not used.** Vietcap puts **65% probability on VN-Index taking 1,800**,
+  support 1,750, and **1,885 within August**; the index has now risen two consecutive weeks. **T5 broker view,
+  recorded as one.** *It is NOT treated as evidence about VCI's own Q3: VCI is 1H ₫667bn against a ₫2,300bn plan
+  (29%, behind), and reading a house's market call as information about that house's earnings would be an
+  inference with no channel behind it.*
+  **NOTHING MODELLED. No confidence moved. No model input touched. `DECISION-BRIEF.md` byte-identical, so no
+  escalation trigger fires from model output; the two live MBB escalations (3 and 5) are carried unchanged.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY, MONDAY 10-AUG** — ex 11-Aug, record 12-Aug. **OPEN item 38's
+  `fy26e_npat` re-derivation was due by today and remains undone. §4 human-only — no automated run can do it.**
 
 ## 2026-08-09
 
