@@ -114,6 +114,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 05:54 ICT MON 10-AUG · BANKS / PROVISIONING (lane 5 — 51.5% of the book) — THE 79.78-vs-86 CONFLICT
+  HALF-RESOLVES, AND IT FALSIFIES THE HYPOTHESIS I FORMED BEFORE SEARCHING. IT IS A DATE TRAP ON A SHARED
+  VALUE, NOT THE DEFINITION DIFFERENCE I PREDICTED. AND THE SECTOR NUMBER THE OWNER ASKED FOR IS NOW ON FILE.**
+  ***Chosen because the owner's own standing instruction is "pay attention to provision for banks and LLR
+  because they might be managing earnings" — and the 79.78-vs-86 basis conflict has sat unresolved since 09-Aug.***
+  **⚠ MY PRE-SEARCH HYPOTHESIS, WRITTEN DOWN AND THEN FALSIFIED.** Reasoning from this file alone, I predicted
+  the gap was an **NPL-DEFINITION** difference — one series counting Group 3–5, the other including Group 2,
+  which the file records as **+31.6% YTD** and would depress coverage exactly this way. **That is member 8,
+  sample-or-definition. It is WRONG.**
+  **THE ACTUAL MECHANISM — TWO SERIES SHARING A VALUE AT DIFFERENT DATES.**
+  **SERIES A: 95% (Q2/2025) → 86% (Q1/2026) → 83% (Q2/2026)** — this file's series.
+  **SERIES B: 83% (END-2025) → 80% (Q2/2026).**
+  ⚠⚠ ***83% APPEARS IN BOTH SERIES, ANCHORED TO DIFFERENT PERIODS.*** **That is the trap: a coincident VALUE
+  invites two series to be read as one, and the disagreement then looks like a basis dispute about a single
+  number instead of two independent series that happen to cross.** **Member 2 — date — not member 8.**
+  **AND IT PLACES THE FILE'S 79.78%.** **79.78% ≈ 80%, so the file's 79.78% is SERIES B's Q2/2026 figure — not
+  a Q1 figure.** The file had recorded it as *"described as a Q1 move"* while also noting it appears *"alongside
+  H1 NPL data"*. **The file had already noticed the tension and had not named it.**
+  **⚠ WHAT DOES NOT RESOLVE, STATED PLAINLY RATHER THAN GLOSSED.** **Series A puts Q2/2026 at 83%; series B puts
+  it at 80%. Same period, different numbers.** ***That residual gap IS a sample-or-definition difference and it
+  is STILL UNRESOLVED.*** **So the conflict is HALF resolved: the date confusion is explained, the level
+  difference is not. Calling this "resolved" would be the overclaim.**
+  **⚠⚠ AND THE DATUM THE OWNER'S INSTRUCTION WAS ABOUT.** **NET NEW NPL FORMATION ROSE TO ~₫55,000bn IN Q2/2026
+  FROM ~₫39,000bn IN Q1 — AGAINST PROVISIONING OF ONLY ~₫39,000bn. FORMATION EXCEEDED PROVISIONING BY
+  ~₫16,000bn, AND COVERAGE FELL MECHANICALLY.** *(Context-checked: **`39,000` matched only Agriseco's ₫39,000
+  TCB target price — false positive TWELVE; `55,000` matched only MBB's 8,055,000,000 share count — false
+  positive THIRTEEN.** Both figures are genuinely new.)*
+  ⚠⚠ **BUT THIS IS A SECTOR AGGREGATE AND THE PAIR IS A BANK-LEVEL TEST. Yesterday at 16:54 this file published
+  exactly this error — one leg at group level, one at sector level — and had to correct it.** ***So the
+  defensible statement is: at SECTOR level, provisioning ran ~₫16,000bn below net NPL formation in Q2/2026.
+  That is consistent with system-wide under-provisioning. IT IS NOT EVIDENCE ABOUT ANY BANK IN THIS BOOK.***
+  **⚠ ONE ARITHMETIC I AM DECLINING.** ₫39,000bn + ₫55,000bn of H1 formation against the file's **+₫48,000bn**
+  H1 NPL *balance* increase would imply ~₫46,000bn of resolution and write-off. **Formation is gross and a
+  balance change is net — different measures — and worse, the two figures come from series this very entry has
+  just shown disagree on sample. NOT COMPUTED.**
+  *Also reported: Q2/2026 sector NPL **1.97%** (from 1.88%) is the **largest Q2 rise since 2020** — the levels
+  were already on file; only the framing is new, and it is colour, not evidence.*
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2 and this is T5. `DECISION-BRIEF.md`
+  byte-identical; no escalation trigger fires. The two live MBB escalations (3 and 5) carry.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~3 HOURS.** Ex 11-Aug, record 12-Aug. **Item 38's
+  `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 04:54 ICT MON 10-AUG · BANKS (lanes 1, 5 — 51.5% of the book) — THE FIRST TIER 2 DATUM THIS FILE HAS
   EVER HELD, AND IT PARTLY ANSWERS A QUESTION THE OWNER ASKED IN HIS OWN WORDS. PLUS THE LEGAL INSTRUMENT
   BEHIND "CAR TO 10.5%", WHICH THE FILE HAD AS A NUMBER WITH NO SOURCE.**
