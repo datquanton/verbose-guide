@@ -114,6 +114,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 06:54 ICT MON 10-AUG · VPB / BANKS (lanes 1, 5 — 10.0% direct, 51.5% block) — THE FILE HAS BEEN CALLING
+  ₫151,000bn "FX AND REFINANCING RISK" AND NEVER ASKED WHETHER THE FX LEG IS MATCHED. IT IS REGULATORILY
+  CAPPED. THE RISK THAT IS *NOT* CAPPED IS THE ROLL — AND THIS CORRECTS THE EMPHASIS OF MY OWN 00:53 ENTRY.**
+  **THE GAP, AND IT IS TOTAL.** `07/2012` · `1081/2002` · `trạng thái ngoại tệ` / `net open position` ·
+  `vốn tự có` — **ZERO HITS, ALL FOUR, IN BOTH FILES.** **The concept that decides whether ₫151,000bn is an FX
+  exposure at all has never appeared in this file.**
+  **⚠ THE CAVEATS LEAD, BECAUSE THIS IS A REGULATORY CLAIM AND THIS FILE HAS BEEN BURNED ON THOSE TWICE.**
+  **(1) I HAVE NOT VERIFIED THE INSTRUMENT IS STILL OPERATIVE.** Thông tư **07/2012/TT-NHNN** (SBV, 20-Mar-2012,
+  effective 02-May-2012, replacing Decision **1081/2002/QĐ-NHNN**) is **fourteen years old**; the source does not
+  say whether it has since been amended or replaced. ***An instrument found is not an instrument verified as
+  current*** — the same discipline the Thông tư 14/2025 entry demanded two hours ago, and the *"91/102 margin
+  rules"* error demanded before that. **(2) THE CAP IS NOT ABSOLUTE:** institutions may exceed it **with the
+  Governor's approval**. **Source is a legal-database paraphrase, T5 — not the circular.**
+  **WHAT IT SAYS.** **Total positive AND total negative FX position at the END OF EACH DAY must not exceed 20%
+  of `vốn tự có` — OWN CAPITAL, not charter capital — measured on the prior month's figure.**
+  **⚠ THE BOUND, WITH ITS ASSUMPTION STATED OPENLY.** VPB's charter capital on file is **₫79,339bn**; own capital
+  is larger but **is not on file, so the multiple is assumed, not known**. At **1.0× / 1.5× / 2.0×** charter, the
+  20% cap is **₫15,868bn / ₫23,802bn / ₫31,736bn — i.e. 10.5% / 15.8% / 21.0% of the ₫151,000bn.**
+  ***So on any plausible equity multiple, roughly 79–90% of VPB's foreign-currency funding must be MATCHED OR
+  HEDGED. The unhedged net position is a small fraction of the headline number.***
+  **⚠⚠ WHICH MEANS THE FILE'S PHRASE CONFLATES TWO RISKS WITH VERY DIFFERENT BINDINGS.** The 09-Aug entry framed
+  it as *"what happens to US$5.7bn of FX liabilities if the dong moves **or the roll fails**?"* — **and those two
+  halves are not alike. The dong-moves half is capped by regulation. The roll-fails half is capped by
+  NOTHING.** ***The refinancing leg is the real one, and it has a concrete observable the file already holds: a
+  US$1.44bn sustainability-linked facility signed with FIFTEEN international FIs at end-June 2026 — 48% of
+  charter capital in one transaction, TENOR UNSTATED.***
+  **⚠ THIS CORRECTS THE EMPHASIS OF MY OWN 00:53 ENTRY**, which logged the record SBV central rate (₫25,380) and
+  restated the standing reading that a currency at its band ceiling pressures the book. **That reading holds for
+  HPG — which buys ore and coal in USD and sells steel in VND with no FX line in its bridge — but it is much
+  WEAKER for the banks than the ₫151,000bn headline suggests, because bank FX mismatch is regulatorily bounded
+  and a steelmaker's input cost is not.** *Same macro variable, two positions, opposite bindings.*
+  **FOURTH INSTANCE OF ONE DISCIPLINE, AND AGAIN NOT A MEASURE-SUBSTITUTION MEMBER.** Unstated **side** (bond
+  book) · unstated **seniority** (bond repurchase) · unstated **beneficiary** (Masterise security interest) ·
+  now **an FX liability with no stated MATCH.** **The right question was never "how big are the USD
+  liabilities" but "what is the NET OPEN POSITION" — and the file has no such figure for ANY bank.**
+  *(Not a tenth measure-substitution member: that family compares two numbers on different bases; this is a
+  structural attribute left unstated. Third time this classification has been made deliberately.)*
+  **NOTHING MODELLED — `run.py` still has ZERO FX references, confirmed this hour, and adding one is §4
+  machinery. No confidence moved: §2 requires T1–T2 and this is T5, with the instrument's currency unverified.
+  `DECISION-BRIEF.md` byte-identical; no escalation trigger fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~2 HOURS.** Ex 11-Aug, record 12-Aug. **Item 38's
+  `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 05:54 ICT MON 10-AUG · BANKS / PROVISIONING (lane 5 — 51.5% of the book) — THE 79.78-vs-86 CONFLICT
   HALF-RESOLVES, AND IT FALSIFIES THE HYPOTHESIS I FORMED BEFORE SEARCHING. IT IS A DATE TRAP ON A SHARED
   VALUE, NOT THE DEFINITION DIFFERENCE I PREDICTED. AND THE SECTOR NUMBER THE OWNER ASKED FOR IS NOW ON FILE.**
