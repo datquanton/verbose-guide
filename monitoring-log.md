@@ -90,6 +90,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-09
 
+- **⚠⚠ 09:53 ICT SUN 09-AUG · INDEX & FLOWS (lane 4) — foreign flow INFLECTED in the first week of August:
+  the first net-BUY week this file will have recorded against a four-year selling trend. And the file's own
+  31-Jul discipline must now be applied in the FAVOURABLE direction.** *(Clock read first; 08:53 was reported
+  as nothing material and stands.)*
+  **NEW, context-checked: zero hits for "2,249", "2,438" or "mua ròng" anywhere in the repo.** **Week 3–7 Aug
+  2026: foreigners NET BOUGHT ₫2,249.5bn**, against **net selling of ₫2,438.7bn the week before — a
+  week-on-week swing of ₫4,688.2bn.** They net sold only **10.3m units, −85.4% on the week**, while buying
+  value — ***fewer shares at higher prices: rotation into bluechips***, which the coverage states directly.
+  **AGAINST THIS FILE'S OWN TRAJECTORY.** It holds cumulative foreign net selling of **>₫62,000bn to end-May,
+  ~₫80,000bn to end-June, ₫92,000bn to end-July** — so **July alone was ~₫12,000bn, about ₫2,727bn per week of
+  selling.** **A +₫2,249.5bn buying week is therefore a swing of ~₫4,977bn against the July run-rate**; held
+  for a month it would be ~₫9,900bn of *buying* where July delivered ₫12,000bn of *selling*. **And it lands six
+  weeks before the 21-Sep FTSE effective date, concentrated in bluechips — what index-anticipation positioning
+  looks like.**
+  ⚠⚠ **WHAT IT DOES NOT DO, AND THIS IS THE POINT.** On 31-Jul this file **refused** to net aggregate foreign
+  flow against FTSE passive inflow, on the ground that *"aggregate foreign net selling is dominated by ACTIVE
+  money; FTSE inclusion brings PASSIVE index money, which is a different pool with different mandates."*
+  ***That refusal was made when the flow was adverse. It must hold now that it is favourable. One net-buy week
+  does not confirm the TCX FTSE tree any more than four years of selling refuted it — the pools argument is
+  symmetric or it is nothing.***
+  **WHAT IT DOES DO: it dates and weakens a ground.** OPEN-DECISIONS **item 5** questions the tree partly on
+  *"four straight years of foreign selling and the FTSE tree assumes otherwise."* **That ground is now
+  contradicted at the margin by a dated week, six weeks before the event. The argument is not dead; it is no
+  longer unopposed.** **Forecast #7 is NOT re-weighted** — 21-Aug and 21-Sep resolve it, and re-weighting on one
+  week of flow is precisely the post-hoc adjustment pre-registration exists to stop.
+  **A SECOND LANE CLOSED CHEAPLY, AND FOR THE FIRST TIME: HOSE's margin-ineligibility list** — zero prior hits
+  in this repo. The August list has **57 names as at 03-Aug** (TIX removed after remedying its breach).
+  **None of the eight holdings appears among the ~30 named** — but ⚠ **the enumeration is partial and its
+  completeness unknown, so the conclusion is argued on CRITERIA instead, which is stronger:** the stated
+  grounds are **warning/control/restricted/suspended status (29 of the 57), listed under six months, and
+  negative audited profit.** **All eight holdings are large, long-listed and profitable, so all three criteria
+  structurally exclude them.** *That is a mechanism argument, not an absence-from-a-partial-list argument — the
+  same trap refused one hour ago on the corporate-action calendar.*
+  *Not new and said so: the margin decomposition returned this hour — **₫445,000bn total broker lending at
+  end-Q2 of which ₫435,000bn margin, rising for 13 consecutive quarters** — is already on file verbatim in
+  `_MARGIN_DEBT_RECORD_2026_07_29`.*
+  **Nothing modelled. No confidence moved — a single week of flow is not a tier upgrade, and flow is not an
+  input to any branch. No trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
+
 - **⚠⚠⚠ 07:54 ICT SUN 09-AUG · PROCESS — I PUBLISHED A CORRECTION ONE HOUR AGO AND THE CORRECTION WAS WRONG.
   THE DRIFT IS ~56 MINUTES, NOT 8 HOURS; THE DATE HEADERS WERE RIGHT; AND I DEFACED A CORRECT ONE.**
   **THE ERROR IN MY OWN CORRECTION.** Last hour I read commit timestamps with `git log --date=format:` under a
