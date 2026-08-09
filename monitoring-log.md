@@ -26,7 +26,8 @@ question the file had already answered.** Re-open any row below only on its stat
 | **TCB's primary financial statements** | URL located, **proxy 403**, among ~15 blocked hosts; already called *"suppression, not inconvenience"* | network policy changes |
 | **Q2/26 HOSE brokerage market share** | Full table incl. TCBS 9.36%, VPBankS 3.57% record; 65.19% internal check; *"market share is not an input to any branch"* | **Q3 table (~early Oct)** |
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
-| **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB unbounded** — the only one worth a search | a TCB announcement |
+| **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
+| **KDH — Clarita divestment & Gladia absorption/launch** *(added 09-Aug 13:54; the grep caught this before a 7th re-search)* | Keppel 49% / KDH 51% JV, Clarita + Emeria (both Thủ Đức, agreed May-2023, construction Oct-2023) combined into **Gladia by the Water**; **naming trap resolved** — Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn; Emeria ~60 low-rise + ~600 condos; **Gladia Heights LAUNCHED, developer says the profit is a 2027 event**. ⚠ **The kill criterion is LIVE — "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched", the brief's "decisive test"; the launch condition is now satisfied and it has NOT fired** | **3Q26 filing, due 30-Oct** |
 
 **Date gates — do NOT search these before their date** (per charter §6):
 
@@ -106,6 +107,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-09
+
+- **⚠ 13:54 ICT SUN 09-AUG · PROCESS — the control surface I built two hours ago has a defect, found by using
+  it: some re-open triggers are NOT OBSERVABLE from inside a sweep. External yield this hour was NIL.**
+  *(Clock read first; 12:54 was reported as nothing material and stands.)*
+  **THE NIL RESULT.** Both markets shut. The one item the COVERED block itself calls *"the only one worth a
+  search"* — **TCB's 60% bonus record date** — **returned nothing, for the second time**: searched at true
+  **Sat 17:57** and again at **Sun 13:54**, same nil result.
+  ⚠ **THE DEFECT.** That row's trigger read *"a TCB announcement."* **An announcement cannot be detected
+  without searching for it, so the trigger is unobservable from inside the routine and the row read as
+  "search every hour." I have paid that cost twice in twenty hours.** ***Same class of error the block was
+  built to fix, one level up: it stops re-searching ANSWERED questions and did not stop re-searching an
+  UNANSWERABLE one.*** **The gate table already solved this and I did not copy the pattern** — *"CAEX licence
+  decision | Q3 window — check weekly, not hourly."* **A trigger that names an event needs a CADENCE attached
+  when the event is not self-announcing.** **Fixed: the row now reads "WEEKLY, not hourly — or a TCB filing
+  surfacing in another lane."**
+  **SECOND FIX FOLDED IN, AS PROMISED LAST HOUR: KDH's Clarita divestment & Gladia absorption are now a
+  COVERED row with a 3Q26-filing trigger.** At 12:54 the grep caught that as a **seventh** re-search before a
+  search was spent — **the block did not name it, so the HABIT caught it and the TABLE did not.** ***That is
+  the useful distinction: the block is a cache, the grep is the discipline, and the cache will always lag the
+  discipline.***
+  **What that row now carries, because it matters on 20.3% of the book:** the Keppel 49%/KDH 51% JV
+  structure; the **naming trap** (Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of
+  ***Bình Trung Mới, a different company***, for >₫1,700bn); and that **KDH's kill criterion is now LIVE** —
+  *"customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched"*, the brief's *"decisive test"*.
+  **The launch condition is satisfied and the criterion has NOT fired. It resolves on the 3Q26 filing, due
+  30-Oct. No escalation is owed today.**
+  **HONEST ACCOUNTING: no external development was found this hour.** The commit is a **repair to a control
+  surface, discovered by using it**, made because the cost it removes is **recurring** — an unobservable
+  trigger spends a search every sweep, indefinitely. **Nothing modelled. No confidence moved. No trigger
+  fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**
 
 - **⚠⚠ 11:54 ICT SUN 09-AUG · PROCESS — the file indexes what to search WHEN and has never indexed what NOT to
   search AT ALL. Fixed, and the fix is the deliverable.** *(Clock read first; 10:54 was reported as nothing
