@@ -115,6 +115,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠⚠ 18:54 ICT MON 10-AUG · TCB (lanes 3, 5 — 35% of the book) — MY 04:54 TCB ISSUANCE FIGURE IS WRONG BY
+  5×, AND THE QUALITATIVE CLAIM I BUILT ON IT IS WITHDRAWN. BUT THE SENIORITY QUESTION RESOLVES — BY TENOR.**
+  **⚠⚠ THE ERROR.** At 04:54 I logged *"TCB issued ₫2,000bn of bonds in 5M/2026."* ***₫2,000bn is ONE TRANCHE.
+  The five-month total is ~₫10,000bn across FIVE tranches.*** **A 5× understatement on the largest position.**
+  **⚠⚠ AND THE CLAIM I DREW FROM IT IS WITHDRAWN.** 04:54 concluded: *"on the periods as reported, TCB retired
+  materially more of its own paper than it issued."* **Corrected: ~₫10,000bn issued in 5M against ₫9,000bn of
+  repurchases scheduled May–June — roughly BALANCED, possibly net issuance.** ***"Retired materially more" is
+  withdrawn.***
+  ⚠ ***And the shape of the failure is the lesson.*** At 04:54 I explicitly REFUSED to compute "8.5× more
+  retired than issued" because the periods mismatched — **and that refusal was right; the ratio would have been
+  wrong by an order of magnitude.** ***But I then made the same claim qualitatively and it was wrong anyway.
+  Declining the precise version of a computation does not protect the vague version of the same claim.***
+  **THE CORRECTED NUMBERS.** **Issued 5M/2026: ~₫10,000bn over five tranches, coupons 8.4–8.7% p.a.** — the
+  ₫8,000bn April raise is **36-month** tenor; lot **TCB12605** is 36 months, maturing **18-May-2029**, fixed
+  **8.4%**. **Repurchases scheduled: 27-May ₫1,500bn · 29-May ₫5,000bn (two lots) · 03-Jun ₫2,500bn = ₫9,000bn
+  exactly.** *(`TCB12605` and `36 tháng` both return zero hits.)*
+  **✅ AND THE SENIORITY QUESTION RESOLVES — NOT BY LABEL, BY TENOR.** The file has asked since 09-Aug *"whether
+  these are Tier 2 subordinated bonds or ordinary bank bonds"*, and refused to guess. ***Tier 2 requires a
+  minimum ORIGINAL MATURITY of five years. TCB's 2026 issues are 36 MONTHS. A three-year bond cannot count as
+  Tier 2 capital — so TCB's 2026 bond programme is ORDINARY FUNDING, not capital.***
+  **⚠ Stated as an inference with its basis, not as a quotation: no source here labels them. But the
+  corroboration is unusually clean — MB's explicitly-Tier-2 programme, logged one hour ago, carries 5–10 year
+  tenors in the SAME market and the SAME year. Two banks, one threshold, and the tenors fall on opposite sides
+  of it.**
+  ***WHY IT MATTERS: it means TCB's ₫17,000bn of repurchases is NOT capital retirement, and the funding-side
+  question the file raised — retiring medium-and-long-term funding against the 40% short-term-funding ratio —
+  applies to ORDINARY term funding at a THREE-YEAR tenor, which is a materially smaller concern than retiring
+  capital instruments.***
+  ⚠ *One thing NOT resolved: whether the ₫17,000bn full-year repurchase figure and this ₫9,000bn May–June
+  schedule are the same money. ₫9,000bn was already on file as "one tranche inside a programme 1.9× larger",
+  and 9,000 sits inside 17,000 — **consistent, but the remaining ₫8,000bn is still unscheduled and undated.***
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **⚠⚠ 17:54 ICT MON 10-AUG · MBB (lanes 3, 5) — THE ₫3,500bn I CALLED "THE FIRST TIER 2 DATUM" THIS MORNING IS
   17.5% OF A PROGRAMME 5.7× LARGER. AND TRANCHE THREE IS DUE THIS MONTH.**
   ***MB's Q2/26 CAR was a recorded negative from 10:54 ("not published in detail"), so re-asking it would have
