@@ -115,6 +115,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠⚠ 21:54 ICT MON 10-AUG · VPX / CAEX (lane 3 — 2.8% of the book) — THE CONTEXT-CHECK CAUGHT A 400×
+  ERROR ONE STEP BEFORE PUBLICATION. AND THE CONFLICT IT EXPOSED MAY RESOLVE AN INCOHERENCE THE FILE FLAGGED
+  AND COULD NOT SETTLE.**
+  ***VPX was the only one of the eight with no attention today. The US session is ~85 minutes in — an intraday
+  level, not a settled number — and was not read, on the same reasoning as 20:54.***
+  **⚠⚠ WHAT I ALMOST PUBLISHED.** A source states **VPBankS contributed ₫2.75bn to CAEX for 11%** of its
+  capital. That implies **CAEX charter capital of ₫25bn**, and would make the stake **0.0083% of VPBankS's
+  ~₫33,000bn equity** — i.e. *"the CAEX licence cannot move VPX's earnings whatever the outcome."*
+  ***I was one step from writing that. `CAEX` returns 29 log hits, so I checked instead of assuming novelty.***
+  **⚠⚠⚠ THE FILE ALREADY HOLDS THE SAME 11% STAKE AT ₫1,097bn — 399× LARGER.** *"VPBankS put MORE THAN
+  ₫1,097bn into CAEX for 11% — eleven times TCEX's entire charter capital — with OKX as partner"*, alongside the
+  shareholder split **11/39/50 summing to 100**. **On the file's figure the stake is 3.32% of VPBankS equity,
+  not 0.0083%. A different order of magnitude, and the "trivial catalyst" conclusion would have been wrong by
+  ~400×.**
+  **✅ AND THE FILE HAD ALREADY FLAGGED AN INCOHERENCE IT COULD NOT SETTLE:** *"the same source states total
+  CAEX capital as '10 tỷ đồng' immediately after describing an injection of 1,097 tỷ. Those cannot both be
+  right."* **THREE candidate capitals now exist: ₫10bn (flagged incoherent), ₫25bn (new), ₫10,000bn (the file's
+  working figure from 11% × ≈ 1,097).**
+  **⚠ THE LEADING HYPOTHESIS, OFFERED AND NOT ASSERTED — AND IT WOULD RESOLVE THE FILE'S OWN PUZZLE.**
+  ***If ₫2.75bn is a FOUNDING contribution into a ₫25bn company and ₫1,097bn is a LATER injection into a
+  ~₫10,000bn company, then both figures are correct at different DATES and the 11% is preserved throughout —
+  which is the one thing every source agrees on.*** **That would also explain the stray "10 tỷ": a garbled
+  reference to the founding scale rather than the current one.**
+  ⚠ ***What kills or confirms it is a DATE on each figure, and neither source supplies one. Nothing is
+  reconciled by picking a side, and no CAEX capital figure is adopted.*** *This is the file's own rule from
+  the US–Iran / Iran–Oman entry, applied to its own numbers.*
+  **⚠ THE NAMED GAP IS A FIRM NEGATIVE.** Item 8 records *"VPB's ownership % of VPBankS is the same gap one
+  name over and is NOT established — VPX's 4.22 is left untouched."* **This search did not establish it either;
+  the source says explicitly that VPBank's holding percentage in VPBankS was not found.** ***Recorded as a
+  negative result so the next sweep does not re-spend on it — the parallel to TCB's 94.17% of TCBS remains
+  open.***
+  *Not claimed as novel — `18,750` and `33,000` both return hits I did not context-check: VPBankS charter
+  capital **₫15,000bn → ₫18,750bn (+25%)**, equity ~**₫33,000bn**.*
+  **NOTHING MODELLED. `effective_broker_pct.VPX` = 4.22 untouched. No confidence moved. `DECISION-BRIEF.md`
+  byte-identical; no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **⚠⚠ 20:54 ICT MON 10-AUG · TCX (lane 3/6 — 5.5% direct, ~23.6% effective) — ITEM 8's "ONE NUMBER THAT WOULD
   SETTLE IT" IS NOW DATED, AND SPLITTING IT EXPOSES A LABEL ERROR IN THIS FILE. PLUS: 62% OF TCBS'S ASSET
   GROWTH WAS NOT LENDING.**
