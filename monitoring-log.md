@@ -115,6 +115,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠ 01:54 ICT TUE 11-AUG · MBB (lane 3) — ITEM 16's "UNATTRIBUTED 30–35%" NOW HAS AN AUTHOR, A DATE AND A
+  REASON. AND IT DISPLACES THE FILE'S OWN EXPLANATION FOR THE 25-vs-35 CONFLICT.**
+  ***Chosen because item 16 is the one named item never tried, and MBB's credit target is a direct input to
+  item 38's re-derivation — which is now overdue and human-only. Gathering its inputs is what this stage is for.***
+  **WHAT ITEM 16 SAYS:** *"Chairman Lưu Trung Thái is on the record at 25% (Jan-2026), against the
+  **unattributed** 30–35% this file prefers… the Chairman's 25% is dated January, **before the April AGM**. That
+  **supports the sequencing reading** (early figure later superseded)."*
+  **⚠⚠ NEW: THE SAME CHAIRMAN, AT AN INVESTOR CONFERENCE ON 2-FEBRUARY, PUT CREDIT GROWTH AND DEPOSIT
+  MOBILISATION AT ~35% — AND GAVE A REASON: an advantage from participating in MANDATORY BANK RESTRUCTURING.**
+  ***So the 30–35% is no longer unattributed. It has an author, a venue, a date and a mechanism.***
+  **⚠⚠ AND THE FILE'S PROPOSED EXPLANATION IS DISPLACED.** The sequencing reading requires the 25% to be
+  superseded *at the April AGM*. ***If the same man said ~35% on 2-FEBRUARY, the revision — if it is one —
+  happened at an investor conference roughly four weeks after the January figure, not at the AGM two months
+  later.*** **The conclusion (30–35% is the operative number) survives; the mechanism the file gave for it does
+  not.**
+  ⚠ ***A possibility the file should hold open rather than resolve: 25% → 35% by the same person in four weeks
+  is a large swing, and one of the two attributions may simply be misreported.*** *Nothing is picked.*
+  **✅ AND THE MECHANISM IS THE USEFUL PART, BECAUSE IT IS CHECKABLE.** *"Higher than market average thanks to
+  advantages from participating in mandatory restructuring"* — **restructuring participants receive quota
+  relief. That makes ~35% a QUOTA-LINKED figure, which is exactly the assignment item 16 already guessed
+  ("25% as internal plan, 30–35% as SBV quota allowance"). The guess is now supported by a stated reason rather
+  than by inference.** *Context: SBV's system-wide 2026 credit target is ~15%, so ~35% is ~2.3× system —
+  consistent with the 1.7–3.2× range this file already carries for its three banks.*
+  ⚠ **RE-SEARCH, STATED PLAINLY: the PBT half of this was already held.** *"Profit growth ~15–20%, ≈₫39,500bn"*
+  is on file as **`guidance_pbt` ₫39,400–39,500bn** with the same **+15–20% on 2025**. **Nothing new there, and
+  the flat-H2 arithmetic already on file (FY26 PBT ₫40,376bn) still sits ABOVE that guidance** — i.e. **MB's own
+  February guidance implies H2 slightly BELOW flat**, which refines rather than changes the file's *"MB's own
+  guidance is the flat H2 case"*. ⚠ *And it is FEBRUARY guidance, predating H1 actuals — a stale anchor,
+  recorded as one.*
+  **NOTHING MODELLED. `fy26e_npat` UNTOUCHED — item 38 is §4 human-only and this entry supplies an input to it,
+  not a substitute for it. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug. Item 38's re-derivation was due before today and was NOT done —
+  the deadline has passed, §4 human-only.**
+
 - **✅ 00:54 ICT TUE 11-AUG · MBB — EX-RIGHTS DAY (lane 3) — MY CLOSED FORM IS CONFIRMED AGAINST THE
   EXCHANGE'S PUBLISHED ADJUSTMENT RULE, DERIVED BY A COMPLETELY DIFFERENT ROUTE. AND THE HANDOFF GETS SIMPLER:
   HOSE PUBLISHES THE ADJUSTED REFERENCE ITSELF.**
