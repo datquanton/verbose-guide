@@ -114,6 +114,44 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 12:54 ICT MON 10-AUG · KDH / PROPERTY (lane 5 — 20.3% of the book) — OPEN ITEM 20's OWN DESCRIPTION OF
+  K2 IS WRONG, AND CORRECTING IT CHANGES WHAT HAS TO BE ESTABLISHED. PLUS A BOUND ON K AND A SCOPE LIST THE
+  FILE NEVER HELD.**
+  ***Lunch break 11:30–13:00, so no session data exists. Went to a NON-market gap: item 20 was flagged on
+  31-Jul as a total blank (`land-use fee`, `bảng giá đất`, `hệ số K` all zero) and is not in the COVERED block.***
+  **⚠⚠ THE CORRECTION.** Item 20 reads: *"Decision 45 sets **K = K1×K2×K3, with K1=K3=1 for 2026**, so K reduces
+  to a **project-type K2**."* **The structure is confirmed — but K2 is NOT a project-type coefficient. It is the
+  PLANNING adjustment coefficient (`hệ số điều chỉnh quy hoạch`), applied to investment projects ACCORDING TO
+  CONSTRUCTION PLANNING.** *(`quy hoạch` returns ZERO hits in both files.)*
+  ***Why the correction is not cosmetic: it changes the question item 20 tells a human to answer.*** **"What
+  project TYPE is Gladia/Clarita" is answerable from a brochure. "What is the PLANNING/zoning adjustment on this
+  specific parcel" is parcel-level and almost certainly not published.** ***The item was pointing at a cheap
+  question that does not exist; the real one is harder and may be unreachable from open sources.***
+  **⚠ A BOUND ON K, NEW — the new HCMC adjustment coefficients rise BY AT MOST 1.7×.** *(`1.7` matched only
+  ₫11,337.9m, 1.79m and 1.782pp — **substring false positive EIGHTEEN**.)*
+  ⚠⚠ **AND THIS MUST NOT BE MULTIPLIED AGAINST THE 8× ALREADY ON FILE. They are DIFFERENT TERMS of the same
+  formula:** the file's *"largest increases reported at 8×"* describes the **land price TABLE** (`bảng giá đất`,
+  effective 01-Jan-2026); the **1.7× describes the K COEFFICIENT** (effective 01-Jul-2026). **Fee = table × K, so
+  the two multipliers are not alternatives — but "8 × 1.7 = 13.6×" is NOT computed here, because the 8× is a
+  change versus the OLD table while the 1.7× is reported as a maximum without its base stated.** *Two multipliers
+  in one formula with only one of them anchored is not a fee estimate.*
+  **✅ A SCOPE LIST THE FILE NEVER HELD, AND IT IS NARROWER THAN "ALL LAND-USE FEES".** Decision 45 applies to:
+  **land use fees; land lease on EXTENSION of duration; ADJUSTING land-use timeframes; ADJUSTING detailed
+  construction plans; permitting CONVERSION of land-use form; and compensation on state recovery.**
+  ***Four of the six are triggered by a project CHANGING rather than existing*** — which is directly why item
+  20's second instruction (*"which projects have already settled their fee"*) is the load-bearing one: **a
+  settled project is only re-exposed if it later adjusts its plan or converts its land-use form.**
+  ⚠ *And a direction that cuts against the obvious read, consistent with what item 20 already warned: one
+  outlet frames the K decision as **"người dân hưởng lợi từ hệ số K"** — residents BENEFIT. **The file's own
+  caution stands unchanged: a higher table raises fees while a published K removes a procedural blockage that
+  was stalling approvals, and the two cannot be netted from here. NOTHING IS NETTED.***
+  **NOTHING MODELLED. No number enters the model — item 20's own precondition (project-specific K2 AND
+  settlement status) is still unmet, and this hour made the first half HARDER, not easier. No confidence moved.
+  `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION RESUMES AT 13:00 AND CLOSES 14:45.** Ex 11-Aug, record 12-Aug. **Tomorrow's test
+  stands in its CORRECTED, market-net form. Item 38's `fy26e_npat` re-derivation was due by today and remains
+  undone — §4 human-only.**
+
 - **⚠⚠ 11:54 ICT MON 10-AUG · MARKET + MBB (lanes 4, 3) — THE TAPE IS WEAK ON MBB'S LAST CUM SESSION, AND THAT
   BREAKS THE TEST I PRE-REGISTERED TWO HOURS AGO. FIXING IT NOW, BEFORE THE DATA, IS THE ONLY TIME FIXING IT IS
   WORTH ANYTHING.**
