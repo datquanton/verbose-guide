@@ -23,7 +23,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **VCI pace vs its +41% plan** | FY plan **₫2,300bn PBT**; **1H ₫667bn = 29%, BEHIND**; Q2 −26% QoQ (251 vs 341); the *"9M PBT < 55% of target"* criterion already computed as near-certain to fire (55% = ₫1,265bn; Q3 alone would need ₫598bn = 2.21×). File says verbatim *"VCI needs no separate search"* | **Q3/9M filing (~late Oct)** |
 | **FTSE eligible roster + the 5-licence CAEX cap** | 32→**23** names on 28-Apr data; the removed nine; **HPG/VCI/KDH in, TCB/VPB/MBB/TCX/VPX out**; CAEX one of five valid dossiers with the cap analysis and both caveats already written | **21-Aug** final list |
 | **HPG's August HRC cut** | **−US$34/t**, list 546–547 / volume **535 CFR HCMC**; ***already inside the bridge's 539*** — not a further leg down. July ≈ 580 | a **September** offer |
-| **TCB's primary financial statements** | URL located, **proxy 403**, among ~15 blocked hosts; already called *"suppression, not inconvenience"* | network policy changes |
+| **TCB's primary financial statements** | URL located; among ~15 blocked hosts; already called *"suppression, not inconvenience"*. ⚠ **MECHANISM CORRECTED 10-Aug 11:54 — it is NOT an HTTP 403. A direct `techcombank.com` PDF (the Q2/26 press release) returns `EGRESS_BLOCKED` at DOMAIN level. A 403 invites trying other paths; a domain egress block forecloses EVERY path. DO NOT PATH-SHOP THIS HOST.** | network policy changes |
 | **Q2/26 HOSE brokerage market share** | Full table incl. TCBS 9.36%, VPBankS 3.57% record; 65.19% internal check; *"market share is not an input to any branch"* | **Q3 table (~early Oct)** |
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
 | **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
@@ -113,6 +113,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-10
+
+- **⚠⚠ 11:54 ICT MON 10-AUG · MARKET + MBB (lanes 4, 3) — THE TAPE IS WEAK ON MBB'S LAST CUM SESSION, AND THAT
+  BREAKS THE TEST I PRE-REGISTERED TWO HOURS AGO. FIXING IT NOW, BEFORE THE DATA, IS THE ONLY TIME FIXING IT IS
+  WORTH ANYTHING.**
+  ***Morning session closed 11:30; lunch to 13:00. The cum CLOSE still does not exist and is not proxied here —
+  the 09:54 refusal stands.***
+  **THE MORNING SESSION, ALL NEW (`4,752` and `15.56` return zero hits):** **VN-Index −15.56 pts (−0.86%
+  as stated); HoSE matched turnover ₫4,752bn, −20% on yesterday morning and back at the RECORD-LOW threshold of
+  early June; VN30 3 green / 24 red; HoSE breadth 68 up / 213 down.** Characterised as very low liquidity with
+  **selling pressure concentrated in large caps.**
+  ⚠ **AN INTERNAL-CONSISTENCY CHECK THAT DOES NOT QUITE CLOSE, RECORDED RATHER THAN SMOOTHED.** Against Friday's
+  **1,768.06** close, −15.56 pts is **−0.880%**, not the **−0.86%** stated; a −0.86% move would be −15.21 pts,
+  and −15.56 pts as −0.86% implies a base of **1,809.3**. ***The pair is out by ~2bp — too large for 2dp
+  rounding. So the implied level of ~1,752.5 is recorded as PROVISIONAL, and the points and the percentage are
+  not both trusted.***
+  *Taken at face value, ~1,752.5 sits **2.5 points above the 1,750 support** this file logged from Vietcap at
+  00:53 alongside its 65%/1,800 call. **A pre-stated level being tested 11 hours later is worth noting and is
+  not worth trading on** — and the level itself rests on the provisional arithmetic above.*
+  **⚠⚠ THE PART THAT MATTERS: MY OWN 09:54 TEST HAS NO MARKET CONTROL, AND TODAY IS EXACTLY THE TAPE THAT
+  EXPOSES IT.** At 09:54 I pre-registered: *"If tomorrow's ex-open deviates materially from 0.8 × (today's
+  close) + ₫800, the difference is NOT mechanical and is information."* **The formula self-corrects for TODAY —
+  it takes today's actual close as `P_cum`. It does NOT control for TOMORROW.** ***On a tape falling 0.86% at
+  record-low liquidity, a second down day would produce a "deviation" that is market beta and nothing to do with
+  MBB's ex-date.*** **As written, the test would have attributed index direction to a corporate action.**
+  **THE CORRECTED PRE-REGISTRATION, MADE BEFORE THE DATA:**
+  > **Deviation = [MBB ex-open ÷ (0.8 × P_cum + ₫800) − 1] − [VN-Index open ÷ VN-Index close(10-Aug) − 1]**
+  >
+  > **Only the MARKET-NET residual is information. The raw deviation is not.**
+  ⚠ *Stated honestly: a one-day beta adjustment on a single stock is crude — MBB's beta is not 1.0 and is not on
+  file. **The correction removes the largest and most obvious contaminant; it does not make the test clean.**
+  A residual of a few tenths of a percent will not be interpretable either way.*
+  **AND A NOTE ON A ROUTE THAT IS NOW PROPERLY CLOSED.** The 10:54 search surfaced a **direct
+  `techcombank.com` PDF** of TCB's Q2 press release, so I tested it. ⚠ **It failed as `EGRESS_BLOCKED` at
+  DOMAIN level — not the HTTP 403 this file records.** ***The distinction governs behaviour: a 403 implies a
+  path or auth problem and invites trying other paths, which is exactly what I did; a domain-level egress block
+  forecloses EVERY path on that host.*** **The COVERED row's characterisation is corrected in place, so the
+  next sweep does not go path-shopping on a host that can never answer.** *The row itself held — its re-open
+  trigger is "network policy changes", and policy has not changed.*
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION RESUMES AT 13:00 AND CLOSES 14:45.** Ex 11-Aug, record 12-Aug. **Item 38's
+  `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
 
 - **⚠⚠ 10:54 ICT MON 10-AUG · BANKS (lanes 1, 3, 5 — 51.5% of the book) — THE FIRST CAR LEVELS THIS FILE HAS
   EVER HELD. AND THEY ARE BASEL II WHILE THE 10.5% ROADMAP FOUND SIX HOURS AGO IS BASEL III, SO THE HEADROOM
