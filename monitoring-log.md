@@ -116,6 +116,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 06:54 ICT TUE 11-AUG · MBB (lane 3) — A CANDIDATE `P_cum` ARRIVES BY THE ROUTE I DECLARED CLOSED, AND IT
+  IS RECORDED AS A CANDIDATE BECAUSE IT IS THE SAME CLASS OF DATUM THAT PRODUCED TWO WITHDRAWALS YESTERDAY. IT
+  IS FALSIFIABLE AT THE OPEN, TWO HOURS FROM NOW.**
+  **THE DATUM: *"the stock price as of August 10, 2026 was 24,400 VND."*** *(`24,400` returns ZERO hits.)*
+  **⚠⚠ HOW IT IS BEING TREATED, AND WHY.** ***This is a search summary of a quote page, NOT a stated close in a
+  dated report.*** **Yesterday's two withdrawals — the −15.56 index reading and the near-miss "MBB +1.05%" — were
+  exactly this class: a figure lifted from a page whose date context could not be verified.** **So it is
+  recorded as a CANDIDATE `P_cum`, not as an established close, and it does NOT enter `valuation.MBB.price`,
+  which is human-only regardless.**
+  **THE CHECKS THAT COULD BE RUN, ALL OF WHICH PASS:**
+  | check | result |
+  |---|---|
+  | vs file's ₫23,900 (06-Aug) | **+2.1% over two sessions** — plausible |
+  | direction | VN-Index **+0.49%** on 10-Aug; MBB drew **₫415bn** foreign net buy in the 03–07 Aug week |
+  | HOSE tick | 24,400 mod 50 = 0 — **valid tick** |
+  | implied cap | 24,400 × 8,055m = **₫196,542bn**, scaling correctly off the file's ₫192,514.5bn at ₫23,900 |
+  | ⚠ **vs the MODEL input** | **`valuation.MBB.price` is ₫22,050 (cap ₫177,613bn) — NOT the ₫23,900, which is a prose observation. The candidate is +10.7% above the model's price, not +2.1%.** ***That is item 2's territory: if ₫24,400 is right, the model's MBB price is 10.7% stale. Both legs move together today — price down to ~₫20,320, shares up to 10,068.75m — so this is exactly the two-legged refresh the file says must not be done one-legged. §4 human-only.*** |
+  | ⚠ **pre-registered band** | **Ptc = 0.8 × 24,400 + 800 = ₫20,320, a −16.72% mechanical move — INSIDE the −16.4% to −16.8% band pre-registered at 09:54 yesterday, and near the more-negative end exactly as `ex/P = 0.8 + 800/P` predicts for a higher cum price** |
+  ***That last row is the strongest: a band written down BEFORE this number existed contains it, and contains it
+  at the end the formula says it should.***
+  **⚠⚠ AND THE ROUTE MATTERS: THIS CAME FROM ASKING FOR A DISCLOSURE, NOT A PRICE.** At 16:54 yesterday I closed
+  the single-stock-price route after three failures. **At 00:54 today I noted the test needs HOSE's published
+  adjusted reference — a DISCLOSURE.** ***Searching for the ex-date notice returned the price as a by-product.
+  The closed route was closed to direct price queries; it was never tested against disclosure queries, and the
+  COVERED row said "never — a price feed or an unblocked host would be a new route". That was too absolute.***
+  **✅ THE PRE-REGISTERED FALSIFICATION, WRITEABLE ONLY BECAUSE THE OPEN IS TWO HOURS AWAY:**
+  > **IF `P_cum` = ₫24,400, THEN HOSE's adjusted reference for MBB today is ₫20,320, and MBB should open at or
+  > near it. IF HOSE's published Ptc is materially different from ₫20,320, THE ₫24,400 IS WRONG and this entry's
+  > candidate is withdrawn — the formula is confirmed independently and is not what would be in doubt.**
+  *Also confirmed independently: **"on 11/08/2026, exercise of rights to purchase additional shares at a ratio
+  of 10:1 at a price of ₫10,000 per share"** — the ex-date and terms, from a third source.*
+  **NOTHING MODELLED. `valuation.MBB.price` UNTOUCHED. No confidence moved. `DECISION-BRIEF.md`
+  byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug. Item 38's re-derivation was due before today and was NOT done —
+  deadline passed, §4 human-only.**
+
 - **⚠⚠ 05:54 ICT TUE 11-AUG · MACRO (lane 1) — READ AT THE PRE-REGISTERED SLOT, 114 MINUTES AFTER THE US CLOSE.
   A FOURTH OUTLET PUT CPI ON THE WRONG WEEKDAY AND THE PRIMARY SETTLED IT AGAIN. AND CONVERTING THE US WEEK TO
   ICT PRODUCES A MAPPING THIS FILE DID NOT HAVE.**
