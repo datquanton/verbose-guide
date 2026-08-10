@@ -114,6 +114,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 15:54 ICT MON 10-AUG · MBB (lane 3/4) — THE CUM CLOSE IS NOT OBTAINABLE FROM HERE, AND THAT MEANS THE
+  TEST I PRE-REGISTERED SIX HOURS AGO HAS AN INPUT THIS ENVIRONMENT CANNOT SUPPLY. I BUILT AN UNOBSERVABLE
+  TRIGGER TWO HOURS AFTER CATALOGUING THAT EXACT FAMILY.**
+  **THE ATTEMPT, AND IT FAILED CLEANLY.** Two searches, 69 and ~70 minutes after the 14:45 ATC — inside the
+  indexing bracket this file measured. **Neither returned a 10-Aug CLOSE for the VN-Index, and neither returned
+  an MBB closing price at all.**
+  ⚠ **AND ONE RESULT WAS THE 14:54 TRAP AGAIN, CAUGHT THIS TIME BEFORE USE.** A source states *"VN-Index closed
+  at 1,768"* — **that is FRIDAY 07-Aug's 1,768.06 restated**, and the accompanying *"MBB increased 1.05% on the
+  trading session"* sits in an article titled *"nhận định thị trường phiên giao dịch ngày 10/8"* — **a
+  PRE-session outlook, so its session is Friday's, not Monday's.** ***Recording ₫MBB +1.05% as today's move
+  would have repeated this morning's withdrawal exactly one hour after making it.***
+  **WHAT IS CORROBORATED, AND IT STRENGTHENS THE 14:54 CORRECTION.** Morning: **+12.34 pts to 1,780.4, breadth
+  407 up / 201 down** — confirmed by a second Vietstock piece. **Afternoon: a technical note published DURING
+  the session places the index around the 1,775–1,785 old-June support / 200-day SMA zone.** ***An index trading
+  1,775–1,785 in the afternoon is consistent with the up-day and independently inconsistent with the withdrawn
+  −15.56 reading. The withdrawal is now supported by three separate observations rather than one.***
+  *Also reported, and NOT claimed as novel — `53.1` returns 1 log and 5 assumptions hits which I did **not**
+  context-check this hour: **foreign investors net SOLD ₫53.1bn in the morning session.** Small, and it would
+  contrast with last week's net buying. **Recorded as provisional on both counts.***
+  **⚠⚠ THE STRUCTURAL FINDING, AND IT IS ABOUT MY OWN WORK.** At 09:54 I pre-registered
+  `ex = 0.8 × P_cum + ₫800`, corrected at 11:54 to a market-net residual. ***Both versions require `P_cum` —
+  MBB's cum close — and I have now failed to obtain it with the market shut and the number three hours old.***
+  **This file already catalogues the defect: the COVERED block's *"re-open on a TCB announcement"* was called
+  out on 09-Aug as UNOBSERVABLE FROM INSIDE A SWEEP, and I quoted that finding approvingly at 00:53 today when
+  writing re-open triggers that WERE observable.** ***Then I designed a test whose input is not.*** **SIXTH
+  INSTANCE OF THAT FAMILY, AND THE FIRST ONE I MANUFACTURED MYSELF.**
+  **✅ THE SALVAGE, WHICH IS ALSO THE CORRECT DIVISION OF LABOUR.** **The test is not wrong — it is addressed to
+  the wrong party.** The human holds the position and has the price data; an automated sweep does not.
+  ***So it is restated as an instruction for a human rather than a task this routine will score:***
+  > **For whoever has the prices: take MBB's 10-Aug CLOSE as `P_cum`. Predicted ex-price = `0.8 × P_cum + ₫800`.
+  > Compare tomorrow's ex-open, then SUBTRACT the VN-Index move over the same interval. Only the market-net
+  > residual is information, and a residual of a few tenths of a percent is not interpretable.**
+  ⚠ **`valuation.MBB.price` remains untouched and human-only. No price of any kind is recorded this hour.**
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due by
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **⚠⚠⚠ 14:54 ICT MON 10-AUG · WITHDRAWAL (lane 4) — THE MARKET DATA I PUBLISHED AT 11:54 IS NOT THIS
   SESSION'S. THE MARKET WAS UP, NOT DOWN. I FLAGGED THE ARITHMETIC AS NOT CLOSING AND THEN BUILT AN ENTRY ON
   IT ANYWAY.**
