@@ -115,6 +115,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 17:54 ICT MON 10-AUG · MBB (lanes 3, 5) — THE ₫3,500bn I CALLED "THE FIRST TIER 2 DATUM" THIS MORNING IS
+  17.5% OF A PROGRAMME 5.7× LARGER. AND TRANCHE THREE IS DUE THIS MONTH.**
+  ***MB's Q2/26 CAR was a recorded negative from 10:54 ("not published in detail"), so re-asking it would have
+  repeated 07:54's compliance failure. This went to what 04:54 itself listed as missing: tenor and coupon.***
+  **⚠⚠ THE PROGRAMME, AND ITS ARITHMETIC CLOSES EXACTLY.** MB has a private-placement **Tier 2 programme of
+  ₫20,000bn for 2026 in THREE tranches: ~Mar ₫7,000bn · ~May ₫7,000bn · ~AUGUST ₫6,000bn. 7,000 + 7,000 + 6,000
+  = 20,000.**
+  ***So this morning's "first Tier 2 datum" was real but badly under-scoped: ₫3,500bn is 17.5% of the declared
+  programme, and the programme is 5.7× the number I logged.*** *An amount found is not the amount that matters
+  when a programme sits behind it — the same lesson as "an amount is not a ratio", one layer up.*
+  **⚠⚠ TRANCHE THREE IS DUE IN AUGUST, AT UP TO ₫6,000bn — 30% of the programme, THIS MONTH, on a name that
+  goes EX-RIGHTS TOMORROW.** ***NOT declared a trigger-5 firing, and the reason is the wording: trigger 5
+  requires "a DATED catalyst… within 5 sessions". "August" is a month, not a session.*** **Recorded as an
+  UNDATED in-month catalyst on MBB — and as a second August event on a name whose first one is tomorrow.**
+  **⚠ AND MB IS REDEEMING OLD TRANCHES EARLY AT THE SAME TIME.** *"MB huy động thêm 3.500 tỷ đồng trái phiếu,
+  đẩy mạnh tất toán trước hạn các lô cũ."* ***So ₫3,500bn of gross issuance is NOT ₫3,500bn of net Tier 2
+  addition. This is the same gross-versus-net trap I flagged for TCB at 04:54 — issuance against repurchase —
+  now inside a single name, and the redemption size is NOT given.***
+  **✅ AND ONE UNSTATED ATTRIBUTE IS NOW CLOSED, FOR ONE BANK.** The bonds are **non-convertible, without
+  warrants, UNSECURED, and structured to qualify as Tier 2 under SBV rules.** ***The file's standing complaint —
+  "whether these are Tier 2 subordinated bonds or ordinary bank bonds is not established and is not guessed",
+  written about TCB's repurchases — is RESOLVED FOR MB. It remains open for TCB.*** *Second member of the
+  unstated-attribute family to be closed by evidence rather than by argument.*
+  **TENOR AND COUPON, THE TWO THINGS 04:54 SAID WERE MISSING: programme tenors 5–10 years; issues so far at
+  8.3–8.4% p.a. across 3–10 year tenors.** ⚠ *Tension, unresolved: 04:54 reported TCB/MB/VPB pushing bank bond
+  coupons to "nearly 9%", and 8.3–8.4% is not nearly 9%. Different tranches or tenors is the obvious
+  explanation and it is not established, so **neither figure is preferred and no spread is computed.***
+  *Novelty note, stated plainly: `20,000`, `7,000`, `6,000`, `8.3%` and `8.4%` are common round figures with
+  many pre-existing hits, and I did **not** context-check each. **The novelty claim rests on the STRUCTURE — a
+  ₫20,000bn three-tranche Tier 2 programme with those sizes and months — which cannot be pre-existing, because
+  this file's Tier 2 record began at 04:54 today with "no Tier 2 figure exists for any of the three banks."***
+  **THE CAPITAL PICTURE COHERES FURTHER, AND IS STILL NOT A MEASUREMENT.** MB is running a **₫20,000bn Tier 2
+  programme AND a +27.5% equity increase simultaneously** — a second independent capital action consistent with
+  10:54's finding that MB alone publishes no CAR and names the regulatory minimum as its own floor.
+  ***Two coherent facts are still not a capital ratio. No CAR is inferred for MB.***
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2; this is T5. `DECISION-BRIEF.md` byte-identical;
+  no escalation trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **✅ 16:54 ICT MON 10-AUG · MARKET (lane 4) — THE CLOSE IS IN, VERIFIED THREE WAYS, AND IT PINS HALF THE
   MARKET-NET TEST. MBB'S OWN CLOSE FAILED A THIRD TIME AND THAT ROUTE IS NOW RECORDED AS CLOSED.**
   **⚠⚠ VN-INDEX CLOSED 10-AUG AT 1,776.77, +8.71 pts, +0.49%.** *(`1,776.77` returns ZERO hits.)* **Third
