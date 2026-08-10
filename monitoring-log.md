@@ -115,6 +115,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 20:54 ICT MON 10-AUG · TCX (lane 3/6 — 5.5% direct, ~23.6% effective) — ITEM 8's "ONE NUMBER THAT WOULD
+  SETTLE IT" IS NOW DATED, AND SPLITTING IT EXPOSES A LABEL ERROR IN THIS FILE. PLUS: 62% OF TCBS'S ASSET
+  GROWTH WAS NOT LENDING.**
+  ***The US cash market opened 25 minutes ago — far too fresh to read against a file that measured its indexing
+  bracket at 113–114 minutes, and CPI is not until Wednesday. This went to a named open number instead.***
+  **AT 30-JUN-2026: TOTAL LOANS ₫51,522bn (+₫7,662bn, +17.5% YTD), OF WHICH MARGIN ₫51,043bn AND ADVANCES
+  ₫479bn. 51,043 + 479 = 51,522 EXACTLY. Total assets ₫100,592bn (+24.8% YTD).** *(`51,043` returns ZERO hits.)*
+  **⚠⚠ THE LABEL ERROR.** Item 8 records *"TCBS margin = ₫51,522.4bn = 51.2% of assets vs VPS 65.4%"*, and the
+  file elsewhere calls ₫51,500bn *"UNDATED… the weakest input in the comparison."* ***₫51,522bn is TOTAL LOANS,
+  not margin. Margin alone is ₫51,043bn — the ₫479bn difference is advances.***
+  **The ratio moves 51.22% → 50.74%, just −0.48pp, so the substantive comparison against VPS's 65.4% is
+  unaffected.** ***The gain is not the number, it is the LABEL and the DATE.***
+  **✅ AND THE DATE IS THE REAL WIN: the file called this input undated and weakest; it is now 30-JUN-2026 — the
+  SAME date as VPS's ₫31,311bn. The comparison item 8 turns on is now date-matched, which it was not.**
+  ⚠ ***A basis question this opens rather than closes: is VPS's ₫31,311bn margin-only or total loans? If VPS is
+  margin-only and TCBS's figure was total-loans, item 8 has been comparing different measures. The margin-only
+  TCBS figure now exists (₫51,043bn), so a like-for-like is POSSIBLE — but VPS's basis is not established and is
+  not assumed.*** *Ninth-family territory: two numbers, one of which now has a stated basis and the other does
+  not.*
+  **⚠⚠ AND A DECOMPOSITION THE FILE DID NOT HAVE, WHICH CUTS AGAINST ITS OWN READING.** Item 8 says *"TCBS
+  EXPANDED (assets +25%); VPS ROTATED."* **True — but assets grew +24.8% while LOANS grew only +17.5%.**
+  ***Implied: of ~₫19,989bn of asset growth, only ~₫7,673bn was loans. ₫12,316bn — 62% — was NOT lending.***
+  **So TCBS's expansion is predominantly NON-LOAN assets**, which on this file's own evidence points at the
+  securities/bond book — the same balance sheet that carries the TCBS-as-bond-arranger and Masterise-distribution
+  threads. ***Stated as arithmetic, not as an identification: the file has no composition for that ₫12,316bn and
+  none is assumed.***
+  *Corroborated exactly: total assets ₫100,592bn matches the figure already on file to the dong. Q2 revenue
+  ₫3,745bn (+41%) and PBT ₫2,097bn (+21%, a record) also match.*
+  **NOTHING MODELLED — `evidence` and `confidence` for TCX are untouched; a label correction and a dating are
+  not a change in evidence TIER, and §2 requires T1–T2 to move confidence. `DECISION-BRIEF.md` byte-identical;
+  no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **⚠⚠ 19:54 ICT MON 10-AUG · VPB (lanes 3, 5 — 10.0% direct) — THE THIRD BANK COMPLETES THE CAPITAL PICTURE,
   AND IT IS THE COUNTER-EXAMPLE THAT QUALIFIES MY OWN INFERENCE FROM ONE HOUR AGO. FIVE-YEAR TENOR, AND STILL
   NOT TIER 2.**
