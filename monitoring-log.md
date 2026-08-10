@@ -28,6 +28,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
 | **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
 | **VPS IPO** *(added 09-Aug 14:54)* | ⚠ **CLOSED EIGHT MONTHS AGO — the routine's lane 6 still lists it as live.** Completed **mid-Nov-2025**, listed **~1.5bn shares on HoSE 16-Dec-2025**, ticker **VCK**; terms on file: **202.3m shares, floor ₫60,000, minimum raise ₫12,138bn**. Retained only as the **external comparable for the broker cluster** | **never** — it is a closed event; a *secondary* VCK raise would be a new item |
+| **SINGLE-STOCK CLOSING PRICES** *(added 10-Aug 16:54 after THREE failed attempts)* | ⚠ **NOT REACHABLE FROM THIS ENVIRONMENT.** Three searches across the measured indexing bracket returned the VN-Index close, sector indices and flow direction — **never a single-stock EOD quote.** `simplize.vn`, HOSE and `24hmoney` are all blocked. **Index-level closes ARE obtainable** (VN-Index 10-Aug = **1,776.77**, verified three ways) | **never** — a price feed or an unblocked host would be a new route, not a re-search |
 | **CHINA HRC EXPORT PRICE (Mysteel weekly)** *(added 10-Aug 03:54 — after re-search number TEN)* | **US$485/t FOB, SS400 3mm, Tianjin, at 24-JUL, −$1/t w/w** — plus the offer dispersion (**private mills 488–490, state-owned 500–510**, $20/t negotiation discounts, buyers targeting 480) **and the freight reconciliation already done: 485 FOB → ~495–510 landed Vietnam = 5.4–8.2% below the bridge's 539 and 4.7–7.5% below HPG's 535 volume price.** *17-Jul's $486 is derivable from "−$1/t on the week" and adds nothing.* ⚠ **NO AUGUST ASSESSMENT IS REACHABLE — the latest is 17 days old, and a summarizer relabelled these July weeks as "early August".** **This is a DIFFERENT instrument from HPG's own offer row above — offer vs assessed transaction index** | **an assessment dated AUGUST or later** — not a re-run of the same July weeklies |
 | **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
 | **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
@@ -113,6 +114,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-10
+
+- **✅ 16:54 ICT MON 10-AUG · MARKET (lane 4) — THE CLOSE IS IN, VERIFIED THREE WAYS, AND IT PINS HALF THE
+  MARKET-NET TEST. MBB'S OWN CLOSE FAILED A THIRD TIME AND THAT ROUTE IS NOW RECORDED AS CLOSED.**
+  **⚠⚠ VN-INDEX CLOSED 10-AUG AT 1,776.77, +8.71 pts, +0.49%.** *(`1,776.77` returns ZERO hits.)* **Third
+  attempt, 130 minutes after the ATC — past the 113–114 minute bracket this file measured.**
+  **AND IT PASSES EVERY CHECK THE WITHDRAWN DATA FAILED:**
+  | check | result |
+  |---|---|
+  | level vs Fri 1,768.06 | 1,768.06 + 8.71 = **1,776.77 — EXACT** |
+  | stated percentage | 8.71/1,768.06 = **+0.4926% ≈ +0.49%** |
+  | intraday coherence | midday **1,780.40** → high **>1,785** → close **1,776.77**, giving back **3.63 pts**, matching *"selling pressure late narrowed the gains"* |
+  ***Three independent checks, all closing. Compare the withdrawn 11:54 reading, which failed the first two and
+  had no third available. The day is settled: 10-August was an UP day, +0.49%.***
+  **✅ THE PART THAT MATTERS FOR TOMORROW: THE INDEX LEG OF THE MARKET-NET TEST IS NOW PINNED AND DATED.** The
+  corrected test needs *"VN-Index open ÷ VN-Index close(10-Aug) − 1"*. ***`VN-Index close(10-Aug) = 1,776.77` is
+  supplied. The human running the test now needs ONE number from their own screen — MBB's 10-Aug close — not
+  two.*** *A test I could not run at all this morning is now three-quarters assembled from open sources.*
+  **⚠ MBB'S CLOSE: THIRD FAILURE, AND THE ROUTE IS CLOSED RATHER THAN RETRIED.** Three searches across the
+  bracket returned the index, the technology sector and flow direction — **never a single-stock closing price.**
+  ***Single-stock EOD quotes are not in this environment's reachable sources; `simplize.vn`, HOSE and `24hmoney`
+  are all on the blocked list. Recorded as a route CLOSED, not as three unlucky searches — the same distinction
+  the `EGRESS_BLOCKED` correction drew this morning.*** **Do not spend a fourth search on a single-stock price.**
+  *Also this session, recorded as colour: technology sector index **+1.83% to 156.04**; **foreign investors
+  continued net selling**, no figure given — directionally consistent with the ₫53.1bn morning net sell logged
+  as provisional at 15:54.*
+  **⚠ ONE TECHNICAL OBSERVATION, AND IT IS NOT A RECOMMENDATION.** **1,776.77 closes INSIDE the 1,775–1,785
+  old-June support / 200-day SMA zone flagged intra-session, near its LOWER edge** — 26.77 above Vietcap's 1,750
+  support and 23.23 below its 1,800 resistance. ***Recorded because a pre-stated level was reached, not because
+  it implies anything. This system recommends; a human signs.***
+  **NOTHING MODELLED. No price of any kind entered the model — `valuation.MBB.price` remains untouched and
+  human-only. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
 
 - **⚠⚠ 15:54 ICT MON 10-AUG · MBB (lane 3/4) — THE CUM CLOSE IS NOT OBTAINABLE FROM HERE, AND THAT MEANS THE
   TEST I PRE-REGISTERED SIX HOURS AGO HAS AN INPUT THIS ENVIRONMENT CANNOT SUPPLY. I BUILT AN UNOBSERVABLE
