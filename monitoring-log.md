@@ -114,6 +114,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠⚠ 14:54 ICT MON 10-AUG · WITHDRAWAL (lane 4) — THE MARKET DATA I PUBLISHED AT 11:54 IS NOT THIS
+  SESSION'S. THE MARKET WAS UP, NOT DOWN. I FLAGGED THE ARITHMETIC AS NOT CLOSING AND THEN BUILT AN ENTRY ON
+  IT ANYWAY.**
+  **THE CONTRADICTION.** At 11:54 I logged **VN-Index −15.56 pts (−0.86%)**, turnover **₫4,752bn** at record
+  lows, **VN30 3 green / 24 red**, breadth **68 up / 213 down**, *"selling pressure concentrated in large caps."*
+  **A source read this hour gives the SAME session as: VN-Index UP ~12.34 pts (+0.7%) to 1,780.4, breadth 407 up
+  / 201 down, *"thị trường duy trì sắc xanh"* — the market held green.** *These cannot both describe 10-August.*
+  **⚠⚠ AND THE ARITHMETIC DECIDES IT, UNAMBIGUOUSLY.**
+  | reading | level check vs Fri 1,768.06 | percentage check | verdict |
+  |---|---|---|---|
+  | **+12.34 → 1,780.4** | 1,768.06 + 12.34 = **1,780.40 EXACT** | +12.34/1,768.06 = **+0.698% ≈ stated +0.7%** | **BOTH CLOSE** |
+  | −15.56 (−0.86%) | 1,768.06 − 15.56 = 1,752.50 | −15.56/1,768.06 = **−0.880% ≠ stated −0.86%** | **NEITHER CLOSES** |
+  ***−15.56 as −0.86% implies a base of 1,809.3, which is not Friday's close. The 11:54 data belongs to some
+  other session and is WITHDRAWN in full*** — the points, the turnover, the VN30 split, the breadth, and every
+  inference from them, including *"the tape is weak"* and the note about sitting 2.5 points above the 1,750
+  support.
+  **⚠⚠ THE PART I MUST OWN: I CAUGHT THIS AT 11:54 AND PUBLISHED ANYWAY.** That entry states, verbatim, that the
+  pair is *"out by ~2bp — too large for 2dp rounding"*, calls the level **PROVISIONAL**, and says *"the points
+  and the percentage are not both trusted."* ***I wrote the correct diagnosis and then titled the entry "THE TAPE
+  IS WEAK ON MBB'S LAST CUM SESSION" and reasoned from the number anyway. Flagging a datum as untrustworthy is
+  not the same as declining to use it, and only the first half was done.***
+  **✅ WHAT SURVIVES, AND IT IS THE LOAD-BEARING PART.** The correction to the pre-registered ex-date test —
+  adding a market-net control — **is independent of which way the market moved.** The defect was that
+  `ex = 0.8 × P_cum + ₫800` self-corrects for **today** but not **tomorrow**; that is true on an up tape exactly
+  as on a down one. ***So: RIGHT CONCLUSION, WRONG EVIDENCE. Under this file's own rule that is recorded as a
+  failure, not a save.*** *The `EGRESS_BLOCKED` finding is also unaffected.*
+  **THE ACTUAL 10-AUGUST PICTURE, on the reading whose arithmetic closes: VN-Index ~1,780.4 (+0.7%) at midday,
+  breadth 407 up / 201 down.** ⚠ **NEW AND UNCHECKED ELSEWHERE: HNX-Index −1.58% to 288.79 — a sharp HOSE/HNX
+  divergence on the same session.** *1,780.4 sits below the 1,800 resistance and well clear of the 1,750
+  support, so the support note is doubly void.*
+  **⚠⚠ THE CUM CLOSE IS STILL NOT AVAILABLE, AND THAT IS A JUDGEMENT, NOT AN ABSENCE OF EFFORT.** The ATC was
+  **nine minutes ago**. Both readings above are explicitly **midday**. **This file measured its own indexing
+  bracket on the US close at 113–114 minutes; nine minutes is far inside it.** ***No cum close is recorded, no
+  MBB price is recorded, and the pre-registered test is deferred to the next sweep — which is the same
+  discipline that produced this hour's catch.***
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB HAS NOW GONE THROUGH ITS LAST CUM SESSION. Ex-rights TOMORROW 11-Aug, record 12-Aug.** **Item 38's
+  `fy26e_npat` re-derivation was due by today and was NOT done — §4 human-only, and the deadline has passed.**
+
 - **⚠⚠ 13:54 ICT MON 10-AUG · HPG (lane 3 — 16.8% of the book) — ITEM 13's "THIRD CANDIDATE FIGURE" DISSOLVES
   UNDER AN INTERNAL-CONSISTENCY CHECK. IT IS A ROUNDED DECOMPOSITION, NOT A THIRD MEASUREMENT — SO THE
   CALIBRATION ANCHOR GOES FROM THREE CANDIDATES BACK TO TWO.**
@@ -191,6 +230,11 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   stands in its CORRECTED, market-net form. Item 38's `fy26e_npat` re-derivation was due by today and remains
   undone — §4 human-only.**
 
+- **⚠⚠⚠ WITHDRAWN 10-Aug 14:54 — THE MARKET DATA IN THIS ENTRY IS NOT 10-AUGUST'S SESSION. See the 14:54 entry.**
+  ***Retained unedited, per this file's practice, so the mistake survives.*** **What is withdrawn: the −15.56 pts,
+  the ₫4,752bn turnover, VN30 3-green/24-red, breadth 68/213, and every inference drawn from them — including
+  "the tape is weak" and the 1,750-support note. What SURVIVES: the correction to the pre-registered test, which
+  is independent of which way the market moved; and the `EGRESS_BLOCKED` finding.**
 - **⚠⚠ 11:54 ICT MON 10-AUG · MARKET + MBB (lanes 4, 3) — THE TAPE IS WEAK ON MBB'S LAST CUM SESSION, AND THAT
   BREAKS THE TEST I PRE-REGISTERED TWO HOURS AGO. FIXING IT NOW, BEFORE THE DATA, IS THE ONLY TIME FIXING IT IS
   WORTH ANYTHING.**
