@@ -116,6 +116,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 04:54 ICT TUE 11-AUG · MACRO (lane 1) — THE CENTRAL RATE IS AT ANOTHER RECORD AND THE CHAIN CLOSES
+  EXACTLY. BUT THE STANDING READING THIS FILE HAS CARRIED SINCE 02-AUG IS MECHANICALLY BACKWARDS: THE HEADROOM
+  WIDENED, IT DID NOT NARROW.**
+  ***US closed 54 minutes before this sweep — too fresh on this file's 113–114 minute bracket, and both of
+  yesterday's withdrawals came from reading a session early. Not read. Lane 1 instead: the 00:53 entry recorded
+  the current central rate as UNMEASURED.***
+  **NEW, ZERO HITS: `25,491` and `25,463`. SBV CENTRAL RATE ₫25,491 ON MON 10-AUG, +₫28 ON THE WEEK, AN
+  ALL-TIME HIGH — after ₫25,463 on Fri 07-Aug, itself +₫125 in a week.**
+  **✅ AND THE CHAIN CLOSES TO THE DONG AGAINST WHAT THE FILE ALREADY HELD:** 25,463 − 25,338 (Fri 01-Aug) =
+  **+125 exactly**; 25,491 − 25,463 = **+28 exactly**; and the file's **₫25,380 (04-Aug)** sits properly inside
+  the run. ***Total 01-Aug → 10-Aug: +₫153, +0.60% in seven sessions.***
+  **⚠⚠ AND HERE IS THE CORRECTION, WHICH MATTERS MORE THAN THE LEVEL.** This file has said since 02-Aug, and
+  repeated as recently as yesterday, that ***"a currency at its band ceiling constrains the SBV's room to
+  ease."*** **The commercial rate did NOT follow the central rate up. Vietcombank and BIDV are at 26,020 buy /
+  26,400 sell — DOWN ₫20 and ₫10 on the week.**
+  | | central | ×1.05 ceiling | VCB sell | headroom |
+  |---|---|---|---|---|
+  | 04-Aug (file) | 25,380 | 26,649 | ~26,410 | **₫239** |
+  | 10-Aug | **25,491** | **26,766** | **26,400** | **₫366** |
+  ***The ceiling rose ₫117 while the market rate FELL ₫10, so the gap to the ceiling WIDENED by ₫127.***
+  **⚠⚠ THE CENTRAL RATE IS THE SBV'S OWN LEVER, NOT A MARKET PRICE. RAISING IT WIDENS THE PERMITTED BAND —
+  THAT IS THE SBV CREATING ROOM, NOT LOSING IT.** ***What would tighten the constraint is the MARKET rate
+  approaching the ceiling, and that gap just moved the other way. "Record central rate ⇒ SBV boxed in" is
+  mechanically backwards and is corrected here.***
+  ⚠ *Stated at its true width, because the correction is about MECHANISM, not comfort: a rising central rate
+  still means the SBV is **accommodating** depreciation pressure rather than resisting it, and the dong is
+  weaker in absolute terms. **What is wrong is only the inference that the SBV's OPTIONS are narrowing. They
+  are not — it is exercising them.*** *(VCB's 04-Aug sell of ~26,410 is inferred by adding back the stated ₫10
+  weekly fall, so the ₫239 is approximate; the ₫366 and the direction are not.)*
+  **WHERE IT LANDS ON THE BOOK, unchanged from yesterday's split: the banks' FX mismatch is regulatorily
+  capped (Thông tư 07/2012, ±20% of own capital), so this is environment for 51.5% of the book — but HPG buys
+  ore and coal in USD, sells steel in VND, and its bridge still has NO FX LINE. A +0.60% dong move in seven
+  sessions is a real input cost the bridge cannot see.** *Adding an FX line is §4 machinery.*
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug; Vietnam opens in ~4 hours. Item 38's re-derivation was due before
+  today and was NOT done — deadline passed, §4 human-only.**
+
 - **⚠ 01:54 ICT TUE 11-AUG · MBB (lane 3) — ITEM 16's "UNATTRIBUTED 30–35%" NOW HAS AN AUTHOR, A DATE AND A
   REASON. AND IT DISPLACES THE FILE'S OWN EXPLANATION FOR THE 25-vs-35 CONFLICT.**
   ***Chosen because item 16 is the one named item never tried, and MBB's credit target is a direct input to
