@@ -114,6 +114,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 09:54 ICT MON 10-AUG · FLOWS + MBB (lanes 4, 7, 3) — I BUILT AN ARGUMENT NINE HOURS AGO ON THE BUY SIDE
+  OF A TWO-SIDED TABLE AND NEVER ASKED FOR THE OTHER SIDE. FOREIGNERS SOLD TCB AND VPB — 45% OF THE BOOK — IN A
+  NET-BUYING WEEK. PLUS THE EX-PRICE FORMULA IN CLOSED FORM, AND TOMORROW'S TEST PRE-REGISTERED.**
+  ***Vietnam is ~50 minutes into MBB's last cum session.***
+  **⚠⚠ THE CORRECTION, AND IT IS TO MY OWN 00:53 ENTRY TODAY.** That entry logged the week's top five foreign
+  net BUYS — FPT 667 · VIC 617 · CTG 438 · **MBB 415** · **HPG 335** — and concluded that 09-Aug's
+  *"rotation into bluechips"* inference was ***"CONFIRMED, and confirmed by a different instrument than the one
+  that produced it."*** **The SELL side was never sought, and it is now on file: VPB −₫572bn and TCB −₫394bn.**
+  *(Context-checked: `572` matched only a ₫572.9bn KDH insider-buy calculation — **false positive FOURTEEN**;
+  `394` matched only the 1.02394 cap ratio and VPX's ₫2,394bn option value — **false positive FIFTEEN**.)*
+  **FOUR OF OUR EIGHT ARE IN THE WEEK'S FLOW TABLES, AND THEY SPLIT BY SIZE THE WRONG WAY:**
+  | side | names | book weight | flow |
+  |---|---|---|---|
+  | net BOUGHT | MBB · HPG | **23.3%** | +₫750bn |
+  | net SOLD | **TCB · VPB** | **45.0%** | **−₫966bn** |
+  **Net across the four: −₫216bn. The two SOLD names are our two largest bank positions — TCB alone is 35% of
+  the book — and the week's AGGREGATE was a net BUY of ₫2,249.5bn. So in a week when foreigners bought the
+  market, they sold TCB and VPB.**
+  **⚠ THIS WEAKENS THE INFERENCE I CALLED CONFIRMED.** *"Rotation into bluechips"* cannot explain selling **TCB
+  and VPB, which ARE bluechips.** ***The flow was SELECTIVE WITHIN large caps, not a rotation INTO them — and
+  the half of the table I had was the half that agreed with me.*** **The 00:53 claim that an independent
+  instrument confirmed the reading stands only for the buy side; as a statement about the whole table it was
+  premature and is corrected here.**
+  *What does survive: my 00:53 FTSE argument gets STRONGER, not weaker. Among the file's FTSE-INELIGIBLE names
+  (TCB/VPB/MBB/TCX/VPX), MBB was bought while TCB and VPB were sold — **flows went both ways inside the
+  ineligible set, so eligibility is not the driver.** The conclusion was right; the evidence base for it was
+  one-sided, and that is worth separating.*
+  **⚠ RE-SEARCH NOTE, STATED FAIRLY.** The flow aggregate came back again — but **I did not target it**; I
+  searched live-session news and it was returned alongside. **That is unavoidable overlap, not the compliance
+  failure of 07:54**, and the COVERED row's *"Sat 15-Aug or later"* trigger was not violated. **The row did,
+  however, index only the AGGREGATE — it is now the reason the sell side sat unexamined for nine hours.**
+  **✅ AND A FREE RESULT: THE MBB EX-PRICE IS A CLOSED FORM, NOT TWO POINT ESTIMATES.** The file holds ₫18,440
+  and ₫19,920 from two different cum prices, each derived twice. **The general expression is exact:**
+  > **ex = (P_cum × 8,055 + 8,055,000) / 10,068.75 = 0.8 × P_cum + ₫800**
+  **The coefficients are exact, not rounded: 8,055/10,068.75 = 0.8 because 10,068.75 = 8,055 × 1.25; and
+  ₫10,000 × 805.5/10,068.75 = ₫800.** *It reproduces BOTH figures on file to the dong — ₫22,050 → ₫18,440 and
+  ₫23,900 → ₫19,920.*
+  **⚠⚠ TOMORROW'S TEST, PRE-REGISTERED BEFORE THE DATA — the pattern this file scored successfully on 03-Aug's
+  CPI print.** **Over a plausible cum-close range of ₫22,000–₫25,000 the mechanical ex-move is −16.4% to
+  −16.8%, and it is MORE negative the higher the cum close** (ex/P = 0.8 + 800/P). **If tomorrow's ex-open
+  deviates materially from 0.8 × (today's close) + ₫800, the difference is NOT mechanical and is information.**
+  ⚠ **The cum CLOSE is not observable yet — the session is 50 minutes old, and an intraday level is not a
+  closing price. It must be taken after 14:45 ICT. No price is recorded here, and `valuation.MBB.price` is
+  human-only regardless.**
+  *Also new, zero hits: **VN-Index closed 1,768.06 on Fri 07-Aug, +32.28pts / +1.86% on the week**, a second
+  consecutive recovery week into the 1,800 level the file already holds as Vietcap's 65% test.*
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY AND IS RUNNING NOW.** Ex 11-Aug, record 12-Aug. **Item 38's `fy26e_npat`
+  re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 08:54 ICT MON 10-AUG · HPG (lane 5 — 16.8% of the book) — A SECOND SOURCE GIVES TWO DISTINCT REBAR
   PRICES WHERE THIS FILE HOLDS ONE, BOTH LOWER, AND ONE OF THEM FALLS BELOW THE FILE'S OWN MARKET FLOOR. THAT
   LAST FACT IS EVIDENCE THE BASES DIFFER — NOT EVIDENCE OF A PRICE FALL. THREE DERIVED CONCLUSIONS GO ON NOTICE.**
