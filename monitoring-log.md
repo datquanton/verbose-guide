@@ -114,6 +114,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 08:54 ICT MON 10-AUG · HPG (lane 5 — 16.8% of the book) — A SECOND SOURCE GIVES TWO DISTINCT REBAR
+  PRICES WHERE THIS FILE HOLDS ONE, BOTH LOWER, AND ONE OF THEM FALLS BELOW THE FILE'S OWN MARKET FLOOR. THAT
+  LAST FACT IS EVIDENCE THE BASES DIFFER — NOT EVIDENCE OF A PRICE FALL. THREE DERIVED CONCLUSIONS GO ON NOTICE.**
+  ***Chosen after checking the COVERED block FIRST this hour — twelve rows, and rebar is in none of them. Last
+  hour I searched a covered item; this hour the check came before the search.***
+  **NEW, ZERO HITS BOTH FILES: `14,920` and `14,210`.** Hòa Phát quotes **CB240 at 14,920 VND/kg** and **D10
+  CB300 at 14,210 VND/kg**, after a **+100 VND/kg** rise, **explicitly EX-VAT, explicitly the NORTHERN market,
+  and attributed to HÒA PHÁT HƯNG YÊN** — a named producing entity. Reason given: rising billet and raw-material
+  costs. ⚠ **THE MOVE IS NOT NEW — "from late July 2026" is the same +100 VND/kg from 27-Jul this file already
+  holds. Only the LEVELS are new, and they conflict.**
+  **WHAT THE FILE HOLDS, AND WHAT IT DOES NOT SAY.** At 01-Aug: *"HOA PHAT'S DOMESTIC REBAR IS 15,120 VND/kg
+  **for CB240 coil AND D10 CB300**"*, against a market range 14,440–15,150. ⚠⚠ **That figure carries NO STATED
+  REGION, NO VAT BASIS AND NO PRODUCING ENTITY — and it assigns ONE price to TWO products that the new source
+  prices 710 VND/kg apart.**
+  **THE SELF-EVIDENCING PART, WHICH IS WHY THIS IS A BASIS CONFLICT AND NOT A PRICE MOVE.** **14,210 sits BELOW
+  the file's own market floor of 14,440 — percentile −32%.** ***A market leader pricing below every quoted
+  competitor is far less likely than two figures on different bases.*** **So the conflict is diagnosed as a
+  basis difference, and the file's 15,120 is as unattributed as the new numbers are attributed.**
+  **THE THREE CONCLUSIONS THAT NOW REST ON AN UNSTATED BASIS, QUANTIFIED AT FX 26,300:**
+  | claim on file | at 15,120 | at 14,920 | at 14,210 |
+  |---|---|---|---|
+  | US$/t | **574.9** | 567.3 | 540.3 |
+  | *"rebar sits roughly 5% above HRC"* (vs Aug offer US$546.5) | **+5.2%** | +3.8% | ⚠ **−1.1% — INVERTS** |
+  | *"HPG is at the TOP of the domestic market"* (range 14,440–15,150) | **95.8th pct** | 67.6th | below floor |
+  ⚠ **So the *"rebar ~5% above HRC"* reading holds at 15,120, weakens at 14,920 and REVERSES at 14,210** — and
+  *"within 30 VND/kg of the highest quote"* becomes mid-range on the middle figure. ***Neither claim is
+  withdrawn: comparing the new attributed numbers against a range measured on the OLD unattributed basis would
+  repeat the very error being diagnosed. They are put ON NOTICE, which is the most the evidence supports.***
+  **⚠ NO MODEL INPUT IS AT RISK, AND THAT IS WORTH STATING PLAINLY.** **HPG's spread bridge runs on HRC 539, ore
+  and coal — NOT on rebar.** The rebar level entered this file as *colour* supporting a product-divergence
+  observation. **So a conflict of up to 910 VND/kg on a 16.8% position changes NO branch, NO probability and NO
+  expected return. Nothing is modelled and nothing needs to be.**
+  **FIFTH INSTANCE OF ONE DISCIPLINE.** Unstated **side** · **seniority** · **beneficiary** · **FX match** · now
+  **a domestic steel price with no stated REGION, VAT BASIS or PRODUCING ENTITY.** *(And again NOT a tenth
+  measure-substitution member — no two numbers are being compared on different bases here; an attribute is
+  simply missing. Fourth time this classification has been made deliberately.)*
+  ⚠ *Source-quality note, stated because it cuts against my own finding: most of the price pages returned are
+  **commercial steel-distributor sites**, not mill disclosures — **distributor quote vs mill list is itself a
+  sixth possible unstated attribute.** Only the danviet report is press. **T5 throughout, and the file's 15,120
+  is no better sourced.***
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** **⚠⚠ MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~5 MINUTES.** Ex 11-Aug, record 12-Aug.
+  **Item 38's `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 06:54 ICT MON 10-AUG · VPB / BANKS (lanes 1, 5 — 10.0% direct, 51.5% block) — THE FILE HAS BEEN CALLING
   ₫151,000bn "FX AND REFINANCING RISK" AND NEVER ASKED WHETHER THE FX LEG IS MATCHED. IT IS REGULATORILY
   CAPPED. THE RISK THAT IS *NOT* CAPPED IS THE ROLL — AND THIS CORRECTS THE EMPHASIS OF MY OWN 00:53 ENTRY.**
