@@ -114,6 +114,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 10:54 ICT MON 10-AUG · BANKS (lanes 1, 3, 5 — 51.5% of the book) — THE FIRST CAR LEVELS THIS FILE HAS
+  EVER HELD. AND THEY ARE BASEL II WHILE THE 10.5% ROADMAP FOUND SIX HOURS AGO IS BASEL III, SO THE HEADROOM
+  SUBTRACTION EVERYONE WOULD DO IS INVALID AND IS NOT DONE HERE.**
+  **THE GAP WAS TOTAL, AND IT WAS HIDDEN BY A SUBSTRING.** Every `CAR` hit in this file is the letters inside
+  **CARRIES / CARRYING / CARRIED**. ***A whole false-positive CLASS, not an instance — the acronym is
+  ungreppable in English prose, which is why a number this central stayed absent without anyone noticing.***
+  **⚠ NEW — TCB (35.0% of the book): CAR 15.0% AT 30-JUN-2026, DOWN FROM 15.2% AT Q1/26**, and the source gives
+  the reason: **after paying nearly ₫5,000bn of cash dividend.** ***That corroborates a figure already on file —
+  the 7% cash dividend, ₫4,960bn, paid 10-Jun-2026 — and it PRICES it: ₫4,960bn of cash out cost ~20bp of CAR.***
+  **⚠ NEW — VPB (10.0%): consolidated CAR 13%**, described as top-of-market.
+  **⚠ MB (6.5%) HAS NO PUBLISHED LEVEL, AND ITS OWN FRAMING IS A FLOOR, NOT A LEVEL:** *"ensure CAR is always
+  above 10.5%."* ***MB is the only one of the three without a number, and the floor it names is EXACTLY the 2030
+  regulatory target.*** *Stated as consistency and not as an inference about MB's actual CAR: MB is also the one
+  executing **+27.5%** of share issuance, and its dated **+25.0%** tranche goes ex TOMORROW. **A bank raising the
+  most capital naming the regulatory minimum as its own floor is coherent; it is not evidence of where it sits.***
+  **⚠⚠ THE BASIS TRAP, AND IT IS THE SECOND ONE TODAY.** **TCB's 15.0% and VPB's 13% are explicitly labelled
+  `CAR – Basel II`. Thông tư 14/2025's 10.5%-by-2030 is BASEL III.** **Basel III applies stricter capital
+  definitions and adds buffers, so a bank at 15.0% under Basel II is NOT at 15.0% under Basel III.**
+  ***THEREFORE "TCB has 4.5pp of headroom" and "VPB has 2.5pp" ARE NOT COMPUTED HERE.*** **The subtraction is
+  the obvious thing to do with these four numbers and it is exactly what the labels forbid.** *(This morning's
+  LLR entry was the same shape: two series that looked comparable and were not.)*
+  **✅ A STRUCTURAL RECONCILIATION, FLAGGED AS MY ARITHMETIC RATHER THAN A STATED FACT.** A separate report has
+  banks required to maintain a minimum CAR of **8%** from **15-Sep**. **8.0 + 2.5 = 10.5 exactly — the standard
+  Basel III shape of an 8% minimum plus a 2.5pp capital-conservation buffer.** ***That reconciles the two
+  regulatory numbers cleanly, and it is inference from a known framework, NOT something either source states.***
+  ⚠ *It does NOT resolve the 04:54 date discrepancy — the analyst's "next 2 years" (~2028) against the
+  circular's 2030 — which remains open. A structure is not a schedule.*
+  **SUBSTRING FALSE POSITIVES SIXTEEN AND SEVENTEEN, AND THE SECOND IS A TRAP WORTH NAMING.** `15.0%` matched
+  only **VPX's expected return**. ⚠ **`Basel II` matched only my OWN 04:54 text about `Basel III` — because
+  "Basel II" is a PROPER SUBSTRING of "Basel III".** ***Any search for the older framework silently returns the
+  newer one. Together with CAR-inside-CARRIES, this hour produced two systematic grep hazards rather than two
+  accidents.***
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2; TCB's figure traces to its own Q2 press release
+  but reached me through press, and MB has no figure at all. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION IS TODAY AND THE MORNING SESSION CLOSES IN ~35 MINUTES.** Ex 11-Aug, record
+  12-Aug. **Tomorrow's pre-registered test stands: `ex = 0.8 × P_cum + ₫800`, cum close to be taken after 14:45
+  ICT. Item 38's `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**
+
 - **⚠⚠ 09:54 ICT MON 10-AUG · FLOWS + MBB (lanes 4, 7, 3) — I BUILT AN ARGUMENT NINE HOURS AGO ON THE BUY SIDE
   OF A TWO-SIDED TABLE AND NEVER ASKED FOR THE OTHER SIDE. FOREIGNERS SOLD TCB AND VPB — 45% OF THE BOOK — IN A
   NET-BUYING WEEK. PLUS THE EX-PRICE FORMULA IN CLOSED FORM, AND TOMORROW'S TEST PRE-REGISTERED.**
