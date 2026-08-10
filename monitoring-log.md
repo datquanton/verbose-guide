@@ -115,6 +115,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 19:54 ICT MON 10-AUG · VPB (lanes 3, 5 — 10.0% direct) — THE THIRD BANK COMPLETES THE CAPITAL PICTURE,
+  AND IT IS THE COUNTER-EXAMPLE THAT QUALIFIES MY OWN INFERENCE FROM ONE HOUR AGO. FIVE-YEAR TENOR, AND STILL
+  NOT TIER 2.**
+  ***MB done at 17:54, TCB at 18:54, VPB now — 51.5% of the book, one capital question, three answers.***
+  **NEW, ZERO HITS ALL THREE: `VPBIP2530`, `IFC`, `Proparco`.** VPB's **US$300m five-year international
+  sustainability bond** is code **VPBIP2530**, a **private placement of 1,500 bonds at US$200,000 face**
+  *(1,500 × 200,000 = US$300,000,000 exactly)*, held in the **Q2/2026 financial statements**. **Investors:
+  IFC US$200m and Proparco US$100m — 200 + 100 = 300.** **Proceeds ring-fenced for green, social and
+  sustainable projects: renewable energy, sustainable transport, low-emission agriculture.** *No coupon
+  disclosed; the 2019 US$300m at 6.25% is a DIFFERENT, three-year issue and is not used here.*
+  **⚠⚠ AND IT FAILS THE TIER 2 TEST DESPITE PASSING THE TENOR TEST — WHICH IS EXACTLY THE CORRECTION MY 18:54
+  ENTRY NEEDS.** **Tier 2 requires more than five years' maturity: it must be SUBORDINATED and it must be
+  FREELY AVAILABLE to absorb losses.** ***A sustainability bond with proceeds contractually allocated to named
+  project categories is USE-OF-PROCEEDS RESTRICTED, and DFI money from IFC and Proparco is typically SENIOR.
+  Five-year tenor, and still not capital.***
+  **⚠⚠ SO THE 18:54 INFERENCE SURVIVES ONLY IN ONE DIRECTION, AND I SHOULD HAVE SAID SO THEN.** *"Tier 2
+  requires ≥5 years; TCB's issues are 36 months; therefore not Tier 2"* is **valid — tenor below the minimum is
+  DISQUALIFYING.** ***But the converse — "5 years, therefore Tier 2" — is INVALID, and VPB is the
+  counter-example sitting one name over.*** **The TCB conclusion stands; the reasoning as written invited a
+  reverse reading it does not support, and that is corrected here.** *(This is a stated inference from the
+  Tier 2 criteria, not a quotation — no source labels VPBIP2530 either way.)*
+  **⚠ AND IT QUALIFIES MY 06:54 FINDING TOO, WITHOUT WITHDRAWING IT.** At 06:54 I concluded that VPB's FX leg is
+  regulatorily capped while *"the roll-fails half is capped by NOTHING."* ***That stands as a statement about
+  regulation. But IFC and Proparco are DEVELOPMENT FINANCE INSTITUTIONS, not market investors, and DFI funding
+  is structurally stickier than syndicated market funding — a mitigant to roll risk that is real and is not a
+  cap.*** **The refinancing leg remains the live one; it is less brittle than "capped by nothing" implies.**
+  **THE THREE-BANK PICTURE, NOW COMPLETE ON 51.5% OF THE BOOK:**
+  | | capital instrument | tenor | Tier 2? |
+  |---|---|---|---|
+  | **MB** | ₫20,000bn programme, 3 tranches | **5–10yr** | **YES — explicitly structured to qualify** |
+  | **TCB** | ~₫10,000bn, 5 tranches | **36 months** | **NO — below the 5-year minimum** |
+  | **VPB** | US$300m VPBIP2530 | **5 years** | **NO — restricted proceeds, DFI senior money** |
+  ***One threshold, three outcomes, and only one of the three is actually raising Tier 2 capital: MB — the bank
+  that publishes no CAR and names the regulatory minimum as its own floor.*** **Recorded as coherent. Still not
+  a capital ratio for MB, and no CAR is inferred.**
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2; this is T5 press plus stated inference.
+  `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB GOES EX-RIGHTS TOMORROW, 11-AUG; record 12-Aug.** **Item 38's `fy26e_npat` re-derivation was due
+  today, was NOT done, and the deadline has passed — §4 human-only.**
+
 - **⚠⚠⚠ 18:54 ICT MON 10-AUG · TCB (lanes 3, 5 — 35% of the book) — MY 04:54 TCB ISSUANCE FIGURE IS WRONG BY
   5×, AND THE QUALITATIVE CLAIM I BUILT ON IT IS WITHDRAWN. BUT THE SENIORITY QUESTION RESOLVES — BY TENOR.**
   **⚠⚠ THE ERROR.** At 04:54 I logged *"TCB issued ₫2,000bn of bonds in 5M/2026."* ***₫2,000bn is ONE TRANCHE.
