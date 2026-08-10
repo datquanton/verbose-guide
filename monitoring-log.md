@@ -113,6 +113,45 @@ item on `research/DEPTH-QUEUE.md` and commits that artifact instead. Re-scanning
 headlines is not work; the empty `research/dossiers/` directory is what that produced.
 ---
 
+## 2026-08-11
+
+- **✅ 00:54 ICT TUE 11-AUG · MBB — EX-RIGHTS DAY (lane 3) — MY CLOSED FORM IS CONFIRMED AGAINST THE
+  EXCHANGE'S PUBLISHED ADJUSTMENT RULE, DERIVED BY A COMPLETELY DIFFERENT ROUTE. AND THE HANDOFF GETS SIMPLER:
+  HOSE PUBLISHES THE ADJUSTED REFERENCE ITSELF.**
+  ***Today is MBB's ex-rights date; record 12-Aug. Vietnam opens in ~8 hours. The US session is ~4h25m in and
+  its close is 04:00 ICT — still intraday, still not read.***
+  **THE STANDARD HOSE ADJUSTMENT, which this file did not hold** *(`giá tham chiếu` returned 1 log hit)*:
+  > **Ptc = [ P(t−1) + I × Pph − D ] / ( 1 + I + α + β )**
+  where **P(t−1)** = prior close, **D** = cash dividend/share, **I** = rights ratio, **Pph** = subscription
+  price, **α** = stock-dividend ratio, **β** = bonus-share ratio.
+  **FOR MBB: D = 0** *(the 10% cash was paid 17-Jul — established 09-Aug)*, **I = 0.10, Pph = ₫10,000,
+  α = 0.15, β = 0.**
+  > **Ptc = (P + 1,000) / 1.25 = 0.8 × P + ₫800**
+  **⚠⚠ THAT IS MY 09:54 CLOSED FORM, TO THE COEFFICIENT.** *It reproduces both figures on file exactly —
+  ₫22,050 → ₫18,440 and ₫23,900 → ₫19,920.* ***And the principle the source states for the rule — "tổng vốn hóa
+  trước và sau chia phải bằng nhau", total market cap must be equal before and after — is precisely the
+  cap-conservation logic I derived it from. Same principle, independent route, identical expression.***
+  *A detail that does not matter and is worth saying so: whether MBB's 15% is α (stock dividend) or β (bonus
+  shares) is immaterial — **both sit in the same denominator term**, so 1 + I + α + β = 1.25 either way. It is
+  a stock dividend from retained earnings, so α = 0.15.*
+  *And the 200m private placement correctly does NOT enter: it is not part of this corporate action (the dated
+  tranche is +25.0%, the placement separate and undated — established 07:54 yesterday), and a placement at
+  market would not adjust the reference price in any case.*
+  **✅ THE HANDOFF IS NOW SIMPLER AND SHARPER, WHICH IS THE PRACTICAL POINT ON THE DAY IT MATTERS.**
+  ***HOSE PUBLISHES Ptc ITSELF on the ex-date morning. Whoever runs the test does not need to compute
+  anything — and comparing against the EXCHANGE'S published reference removes any argument about the formula:***
+  > **For whoever has the prices: compare MBB's actual ex-open against HOSE's PUBLISHED adjusted reference
+  > (Ptc) for 11-Aug — not against a self-computed figure. Then subtract the VN-Index move over the same
+  > interval; `VN-Index close(10-Aug) = 1,776.77` is already supplied. Only the market-net residual is
+  > information, and a residual of a few tenths of a percent is not interpretable.**
+  ⚠ **What has NOT changed: `P(t−1)` is MBB's 10-Aug close, the number three searches failed to obtain
+  yesterday, and single-stock closes are a CLOSED route from here. The test still needs one screen the sweep
+  cannot see — but now it needs HOSE's published Ptc, which is a disclosure rather than a price.**
+  **NOTHING MODELLED. `valuation.MBB.price` untouched and human-only. No confidence moved. `DECISION-BRIEF.md`
+  byte-identical; no trigger fires.**
+  **⚠⚠ ITEM 38's `fy26e_npat` RE-DERIVATION WAS DUE BEFORE TODAY AND WAS NOT DONE. THE DEADLINE HAS PASSED —
+  §4 human-only, and no automated run can perform it.**
+
 ## 2026-08-10
 
 - **⚠⚠⚠ 21:54 ICT MON 10-AUG · VPX / CAEX (lane 3 — 2.8% of the book) — THE CONTEXT-CHECK CAUGHT A 400×
