@@ -114,6 +114,45 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-10
 
+- **⚠⚠ 13:54 ICT MON 10-AUG · HPG (lane 3 — 16.8% of the book) — ITEM 13's "THIRD CANDIDATE FIGURE" DISSOLVES
+  UNDER AN INTERNAL-CONSISTENCY CHECK. IT IS A ROUNDED DECOMPOSITION, NOT A THIRD MEASUREMENT — SO THE
+  CALIBRATION ANCHOR GOES FROM THREE CANDIDATES BACK TO TWO.**
+  ***Afternoon session running; the cum close does not exist until 14:45, so the pre-registered MBB test waits
+  for the next sweep. This hour went to the item the file calls "the calibration anchor of the whole spread
+  bridge".***
+  **WHAT ARRIVED.** A source decomposes HPG's **₫9,056bn Q1/2026 AFTER-TAX profit** as **₫5,200bn core +
+  ₫3,800bn one-off from the transfer of the Phố Nối, Hưng Yên property project.**
+  **⚠⚠ AND IT DOES NOT CLOSE, WHILE THE FILE'S DOES.**
+  | decomposition | core | gain | sum | vs ₫9,056bn |
+  |---|---|---|---|---|
+  | **file** | **5,046** | **4,010** *(implied)* | **9,056** | **0 — EXACT** |
+  | source | 5,200 | 3,800 | 9,000 | **−56** |
+  ***The two component errors run in OPPOSITE directions — core +₫154bn, gain −₫210bn — and both figures end in
+  "00". That is the signature of a source rounding a decomposition to convenient hundreds, not of an independent
+  measurement of either part.***
+  **⚠ SO THE ~₫3,800bn IS NOT ADMISSIBLE AS A THIRD CANDIDATE.** Item 13 recorded it as *"7.8% below the file's
+  figure — too far to be a rounding."* ***That reasoning treated ₫3,800bn as a rounding of ₫4,123bn, which it
+  plainly is not. But it is a rounded HALF OF A DECOMPOSITION whose other half is wrong by ₫154bn in the other
+  direction — and a decomposition that misses its own headline by ₫56bn cannot discriminate at the ₫113bn level
+  item 13 turns on.***
+  **THE NARROWING, WHICH IS THE POINT: item 13 goes from THREE candidate figures to TWO — ₫4,123bn (stated) vs
+  ₫4,010bn (implied by 9,056 − 5,046).** **The anchor spread quoted as 1.644 → 1.752m/t (6.5%) was driven by the
+  ₫3,800bn end; removing it collapses most of that range.** ⚠ ***What is NOT resolved is the original ₫113bn
+  question — whether the 4,123-vs-4,010 gap is TAX or COMPOSITION. This hour removed a distractor; it did not
+  answer the item.***
+  ✅ *One thing confirmed and worth keeping: the one-off is described as a component of **`lợi nhuận sau thuế`**
+  — **after-tax** — and is specifically **the Phố Nối, Hưng Yên project transfer**, not a basket. Both were
+  assumptions in the file rather than quotations.*
+  ⚠ *Discipline note: the file's own figures are the PRECISE ones here and the newcomer is the rounded one —
+  the reverse of this morning's rebar entry, where the incumbent 15,120 was the unattributed record. **Neither
+  outcome was assumed; both were decided by checking whether the arithmetic closed.***
+  **NOTHING MODELLED — `q1_core_npat` = 5,046 is UNCHANGED, and a rounded press decomposition is not grounds to
+  touch a figure that reconciles exactly. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  **⚠⚠ MBB'S LAST CUM SESSION CLOSES AT 14:45, ~50 MINUTES AWAY.** Ex 11-Aug, record 12-Aug. **The corrected
+  market-net test is armed for the next sweep. Item 38's `fy26e_npat` re-derivation was due by today and remains
+  undone — §4 human-only.**
+
 - **⚠⚠ 12:54 ICT MON 10-AUG · KDH / PROPERTY (lane 5 — 20.3% of the book) — OPEN ITEM 20's OWN DESCRIPTION OF
   K2 IS WRONG, AND CORRECTING IT CHANGES WHAT HAS TO BE ESTABLISHED. PLUS A BOUND ON K AND A SCOPE LIST THE
   FILE NEVER HELD.**
