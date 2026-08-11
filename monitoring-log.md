@@ -116,6 +116,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 13:54 ICT TUE 11-AUG · KDH (lane 3 — 20.3% of the book) — KDH'S Q2 REVENUE IS NET OF ₫78bn OF SALES
+  RETURNS, 32.6% OF GROSS. THE FILE HAS NEVER HELD THIS, AND IT PARTIALLY CORRECTS MY OWN ENTRY FROM ONE HOUR
+  AGO.**
+  ***I went looking for KDH's presales — the cell the 12:54 peer table could not fill. I did not get it. This
+  turned up instead, and it is more important.***
+  **NEW, AND `hàng bán bị trả lại` / `sales return` RETURN ZERO HITS IN BOTH FILES:**
+  > **Q2 gross sales revenue ₫239bn − ₫78bn of SALES RETURNS = ₫161bn net, −85% YoY. 239 − 78 = 161 exactly.**
+  > **RETURNS ARE 32.6% OF GROSS Q2 SALES REVENUE.**
+  *(H1 net revenue ₫442bn against ₫1,759.2bn, −74.9%; inventory ~₫29,500bn concentrated at Khang Phúc,
+  consistent with the ₫29,488bn on file.)*
+  **⚠⚠ THIS PARTIALLY CORRECTS THE 12:54 ENTRY, WRITTEN ONE HOUR AGO.** There I concluded: *"the current-revenue
+  line reads as a SECTOR handover-timing phenomenon, and the KDH-specific reading of it is weaker than the file
+  has had it."* ***That is true of the DIRECTION and false of the COMPOSITION.***
+  **NLG's fall is accompanied by presales 1.5× and ₫2,900bn of advances — the signature of timing. A TIMING LULL
+  DOES NOT PRODUCE RETURNS. Returns are cancellations or hand-backs of units already recognised.**
+  ***So the revenue line is NOT purely sector: part of KDH's fall is a return item with no sector analogue on
+  file, and the "weakened half" of yesterday's thesis is less weakened than I wrote.***
+  ⚠ **AND THE HONEST LIMIT ON THAT: I do NOT know NLG's returns line. None was reported, which is not the same
+  as none existing. What is established is that KDH HAS a material return and that the file had no record of
+  it — not that NLG has none.**
+  **⚠⚠ THIS IS SQUARELY THE OWNER'S STANDING INSTRUCTION — *"what is deceptively shown in P&L."*** **A headline
+  of *"house-sale revenue −85%"* is ACCURATE and INCOMPLETE: the net figure is correct, and it conceals that
+  roughly a third of gross Q2 sales was handed back.** *The file has carried the −85% since the Q2 print and
+  never had the numerator.*
+  **THE 12:54 FORWARD-BOOK DIVERGENCE IS UNAFFECTED AND STANDS** — advances ₫398.9bn vs NLG's ~₫2,900bn, and
+  inventory +27% vs flat. ***What has changed is that a THIRD divergence now sits on the revenue line itself,
+  where I had conceded the sector explained it.***
+  **NOTHING MODELLED. `q2_revenue`-type fields untouched; the kill criterion is a 3Q26 test and is NOT declared
+  fired. No confidence moved — §2 requires T1–T2 and this is T5. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY, session closes 14:45; record 12-Aug. Item 38's re-derivation was due before
+  today and was NOT done — deadline passed, §4 human-only.**
+
 - **⚠⚠ 12:54 ICT TUE 11-AUG · KDH vs NLG (lane 6 — 20.3% of the book) — THE PEER TEST SPLITS THE THESIS. THE
   REVENUE COLLAPSE IS SECTOR-WIDE. THE FORWARD BOOK IS KDH-SPECIFIC, AND BY A FACTOR OF SEVEN.**
   ***Lane 6 was untouched today. NLG is KDH's direct listed comparable — both HCMC residential developers — and
