@@ -116,6 +116,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 09:54 ICT TUE 11-AUG · MBB (lane 3) — I WEAKENED A COVERED ROW ON ONE LUCKY RETURN, AND THREE FAILURES
+  SINCE SAY THE ROW WAS RIGHT. THE FALSIFICATION IS UNRESOLVED AND PASSES TO THE HUMAN.**
+  ***Read at the open slot: the ATO settled 09:15, ~39 minutes before this sweep, and an OPEN is final at 09:15
+  where a close needs the whole session — the distinction drawn at 08:54 and honoured here.***
+  **⚠⚠ THE CORRECTION, TO MY OWN 06:54 ENTRY.** At 06:54 I wrote that the single-stock route *"was closed to
+  direct price queries; it was never tested against disclosure queries"*, and that the COVERED row's **"never"**
+  **"was too absolute."** ***Two disclosure-shaped queries have failed since — the 07:54 ex-rights list and this
+  hour's Ptc/open request.***
+  | attempt | asked for | result |
+  |---|---|---|
+  | 10-Aug 14:54 · 15:54 · 16:54 | the close | **nil ×3** |
+  | 11-Aug 06:54 | the ex-date **notice** | **by-product: ₫24,400** |
+  | 11-Aug 07:54 | the ex-rights **list** / Ptc | **nil** |
+  | 11-Aug 09:54 | Ptc / the **open** | **nil** |
+  ***Five nil in six. The ₫24,400 was a BY-PRODUCT of one query, not a repeatable channel — and I generalised a
+  route from a single return.*** **The COVERED row was closer to right than my amendment to it. Recorded here
+  rather than by re-editing the row, so both the claim and its retraction stay visible.**
+  ⚠ *The distinction I drew at 06:54 — disclosure queries versus price queries — was reasonable and is not
+  withdrawn as a **hypothesis**. What is withdrawn is treating it as **established** on n = 1, when the same
+  shape of query has now returned nothing twice.*
+  **THE ₫24,400 CANDIDATE IS UNCHANGED AND STILL A CANDIDATE.** *It was never accepted; nothing rests on it;
+  `valuation.MBB.price` remains ₫22,050 and untouched.* **What has changed is only my confidence in the ROUTE
+  that produced it — and a datum from a channel that works one time in three is weaker than one from a channel
+  that works.**
+  **⚠⚠ THE FALSIFICATION IS UNRESOLVED FROM HERE AND PASSES INTACT TO WHOEVER HAS A SCREEN:**
+  > **If `P_cum` = ₫24,400, HOSE's adjusted reference for MBB today is ₫20,320 and it opened at or near it.
+  > If the published Ptc is materially different, the candidate is withdrawn. The formula is separately
+  > confirmed against the exchange rule and is not what is in doubt.**
+  *Confirmed again, for the fourth or fifth independent time and consistent every time: **the 11/08/2026
+  exercise of rights at 10:1, ₫10,000 per share.** The corporate action itself has never been in question.*
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug, with CPI at 19:30 ICT that evening — AFTER the record date
+  closes, so they cannot interact. Item 38's re-derivation was due before today and was NOT done — deadline
+  passed, §4 human-only.**
+
 - **⚠⚠ 06:54 ICT TUE 11-AUG · MBB (lane 3) — A CANDIDATE `P_cum` ARRIVES BY THE ROUTE I DECLARED CLOSED, AND IT
   IS RECORDED AS A CANDIDATE BECAUSE IT IS THE SAME CLASS OF DATUM THAT PRODUCED TWO WITHDRAWALS YESTERDAY. IT
   IS FALSIFIABLE AT THE OPEN, TWO HOURS FROM NOW.**
