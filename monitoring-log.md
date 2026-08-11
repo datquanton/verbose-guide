@@ -118,6 +118,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 22:54 ICT TUE 11-AUG · CORRECTION + FLOWS (lanes 4, 3) — I READ AN INTRADAY PIECE AS A CLOSE, WROTE
+  THE WORD "CLOSED", AND BUILT A TEST RESULT ON IT. THE 16:54 NULL IS WITHDRAWN. SECOND TIME IN TWO DAYS ON
+  THE SAME INSTRUMENT.**
+  **THE FACT: VN-Index FELL 3.36 POINTS on 11-Aug** — *"giảm nhẹ sau hai phiên tăng"*, a slight fall after two
+  rising sessions. From the verified 10-Aug close of **1,776.77** that is **~1,773.41, or −0.19%.** **I logged
+  "+0.7%" and called it a CLOSE. The source was `Nhịp đập Thị trường` — literally "market pulse" — which is an
+  INTRADAY running commentary.** Its claim that financial-banking led was probably true *at the moment it was
+  written*; the session did not end there.
+  ⚠⚠ **WHAT THAT DOES TO THE EX-DATE TEST, WHICH IS THE REAL COST.** The pre-registered test is
+  `[MBB vs Ptc] − [VN-Index]`. I ran it as **(+1.0% to +1.6%) − (+0.7%) = +0.3 to +0.9pp**, inside the band I
+  had declared uninterpretable in advance, and reported a **pre-registered NULL**. **The market leg was wrong by
+  +0.89pp.** Substituting the true index move gives **(+1.0% to +1.6%) − (−0.19%) = +1.19pp to +1.79pp — OUTSIDE
+  the "few tenths of a percent" band.**
+  ⚠⚠ **BUT I AM NOT REPLACING THE NULL WITH A POSITIVE FINDING, AND THE REASON MATTERS.** The recomputation
+  pairs a **closing** index move with an MBB figure whose **timing I can no longer establish** — the "~+1% to
+  +1.6%" was a range read across sources, and if it came from the same intraday piece then both legs were
+  simultaneous and the original +0.3–0.9pp residual is a valid *intraday* residual even though neither leg is a
+  close. **I cannot reconstruct which.** ***So the correct outcome is that the null is WITHDRAWN AS UNSUPPORTED,
+  not reversed. The test returns to UNRESOLVED — where it already was on the Ptc leg.*** *Mixing a close with an
+  unknown-time quote would be the `timezone`/timing member of the measure-substitution family, and I am
+  declining to do it rather than doing it and captioning it.*
+  ⚠⚠⚠ **THIS IS THE SECOND FALSE MARKET READ IN TWO DAYS AND THE PATTERN IS NOW THE FINDING, NOT THE
+  INCIDENT.** 10-Aug 11:54: logged **−15.56 pts / −0.86%**, actual **+0.7%** — withdrawn at 14:54. 11-Aug 16:54:
+  logged **+0.7%**, actual **−3.36 pts**. ***Both times I had a figure that was not a close and treated it as
+  one. Both times the arithmetic downstream was clean. The defect is not in the reasoning — it is that I do not
+  check the INSTRUMENT CLASS of a market number before spending it, and this file has a name for that already.***
+  ⚠ **AND THE 129-MINUTE INDEXING BRACKET IS NOT THE FIX I THOUGHT IT WAS.** I have twice congratulated the
+  offset for "working". **It governs whether a source has been INDEXED, not whether that source is reporting a
+  CLOSE** — a market-pulse piece is indexed just as reliably as a closing wrap. *Two different problems, and
+  solving the first has been masking the second.*
+  ⚠ **PROPAGATION, stated because it is not contained to one file:** the same false claim is in
+  `research/SESSION-HANDOVER.md`, **and the parallel session created at 21:28 ICT was seeded to read that file
+  first.** Handover corrected in the same commit. *Its assigned task is a repo audit that does not depend on any
+  market datum, so no work is invalidated — but a wrong number in a handover propagates to every reader of it,
+  which is exactly what a handover is for.*
+  ✅ **NOW THE FLOWS, WHICH ARE CLEAN AND MATERIAL. FOREIGN INVESTORS NET SOLD ₫768.77bn ON HOSE ON 11-AUG —
+  buy ₫1,265.32bn against sell ₫2,034.09bn, roughly 2.76× the prior session.** ✅ **AND THAT RECONCILES MY OWN
+  10-AUG FIGURE:** the source says *"gấp gần 3 lần phiên trước"*, and **768.77 ÷ 279 = 2.76×**, so the ₫279bn I
+  logged for 10-Aug is independently corroborated by a ratio I did not supply. **HOSE turnover ₫16,005bn on 640m
+  shares, −10.83% on the session.**
+  ⚠⚠ **TCB WAS THE SINGLE MOST HEAVILY NET-SOLD STOCK ON THE EXCHANGE: ₫221.8bn**, ahead of VHM ₫185.07bn and
+  FPT ₫104.66bn. **TCB is a holding and the largest position in the book. One session of foreign selling is not
+  a thesis input and I am not treating it as one — it is logged because a holding topping the foreign sell list
+  on the day the index fell is exactly the kind of fact the CIO run should see, and because TCB's foreign room
+  is on file as LOCKED at 22.4908% and EXHAUSTED, which makes any foreign sell mechanically a room-opening
+  event.** *Not modelled. Not a confidence move.*
+  ⚠ **TWO FLOW CONSTRUCTIONS, ~₫2bn apart, and I am recording both rather than averaging:** ₫1,265.32bn /
+  ₫2,034.09bn (net −768.77) versus ₫1,252.1bn / ₫2,023bn (net −770.9) on 37.1m units bought / 59.2m sold. **The
+  gap is ~1% and almost certainly matched-order versus total including put-through.** *Neither is wrong; they
+  are different measures, and the file's habit is to keep the basis rather than the tidier number.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** ⚠⚠ **MBB'S RECORD DATE IS TOMORROW, WED 12-AUG. US CPI 19:30 ICT the same evening, ~5h after it
+  closes — they cannot interact; first VN reaction is THU 13-AUG. Item 38's `fy26e_npat` re-derivation deadline
+  has PASSED undone, §4 human-only.**
+  [Tin nhanh CK — khối ngoại bán ròng hơn 760 tỷ, gấp gần 3 lần phiên trước](https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-hon-760-ty-dong-trong-phien-118-gap-gan-3-lan-phien-truoc-post395743.html) · [CafeF — phiên 11/8, một cổ phiếu ngân hàng bị xả mạnh](https://cafef.vn/phien-11-8-khoi-ngoai-tiep-da-ban-rong-gan-800-ty-dong-mot-co-phieu-ngan-hang-bi-xa-manh-188260811151732099.chn) · [Thời báo Tài chính — VN-Index giảm nhẹ sau hai phiên tăng](https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-11-8-vn-index-giam-nhe-sau-hai-phien-tang-202155.html) · [Người Quan Sát — bán ròng gần 800 tỷ](https://nguoiquansat.vn/phien-11-8-khoi-ngoai-ban-rong-gan-800-ty-nhom-dau-khi-giam-dong-loat-309862.html)
+
 - **✅ 21:54 ICT TUE 11-AUG · HPG / QUÝ XA (lanes 3, 5) — I CHASED THE ONE THREAD I OPENED LAST HOUR AND IT IS
   REAL, LARGE, AND ENTIRELY ABSENT FROM THIS FILE. IT ALSO DOES NOT DO WHAT THE BROKER SAID IT DOES IN 2026.**
   **THE ASSET.** **Quý Xa, Lào Cai** — described as among the largest iron-ore mines in Southeast Asia.
@@ -359,6 +415,11 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   RESIDUAL IS INSIDE THE BAND I DECLARED UNINTERPRETABLE BEFORE THE DATA, SO IT SAYS NOTHING — AND SAYING SO IS
   THE RESULT.**
   *(Read at 129 minutes after the 14:45 close — the offset that worked yesterday, after 69 minutes failed.)*
+  ⚠⚠⚠ **WITHDRAWN 11-Aug 22:54 — THE MARKET LEG OF THIS ENTRY IS FALSE AND THE NULL IT REPORTS IS THEREFORE
+  UNSUPPORTED. VN-INDEX DID NOT CLOSE +0.7% ON 11-AUG; IT FELL 3.36 POINTS to ~1,773.41, i.e. −0.19%.** I read
+  an **intraday** market-pulse piece (*"Nhịp đập Thị trường 11/08 — nhóm tài chính-ngân hàng đóng vai trò dẫn
+  dắt"*) as a **close**, and wrote the word "CLOSED". **Body retained unedited below so the mistake survives —
+  see the 22:54 entry for the full correction.**
   **THE SESSION: VN-Index CLOSED +0.7%; the financial-banking group led. MBB was among the VN30's leading
   gainers at ~+1% to +1.6%, and among the most actively traded at 9.9m shares matched.**
   ⚠⚠ **READING THAT CORRECTLY MATTERS MORE THAN THE NUMBER.** **MBB went EX-RIGHTS today. The quoted "+1% to
