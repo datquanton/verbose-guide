@@ -117,6 +117,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 20:54 ICT TUE 11-AUG · STREET (lanes 2, 6) — I BUILT A TRIGGER-3 ESCALATION ON HPG AND THE FILE'S OWN
+  PRIOR WORK KILLED IT BEFORE I COMMITTED. THE TRIGGER DOES NOT FIRE. RECORDED AS A FAILURE, NOT A SAVE.**
+  **WHAT I HAD.** **BVSC raised its HPG target ₫32,500 → ₫33,200**, OUTPERFORM maintained, on lifting its 2026
+  net-margin forecast **10.7% → 11.9%**. **Dated ~05-Aug-2026, six days old**, confirmed against two independent
+  5/8 datelines. Rationale: sector leadership; **HRC anti-dumping duties as the foundation for Dung Quat 2**;
+  steel-rail projects, Hòa Phát Phú Yên, the Red River avenue project; and **margin upside from the Quý Xa
+  iron-ore mine.** Separately, **SSI: BUY, TP ₫35,000, "~30% upside"** ⇒ implied reference **₫26,923**.
+  **THE ARGUMENT I WAS ONE STEP FROM PUBLISHING.** The file holds `valuation.HPG.price` = **₫20,800**. Against
+  it, ₫26,923 is **+29.4%**, and I had it drafted as *"trigger 3 fires on HPG, second standing fire alongside
+  MBB"*, complete with a table showing ₫20,800 (7.51× TTM) and ₫26,923 (9.72×) landing on **opposite sides of
+  HPG's entire `exit_pe` band of 8.0–9.0.** The table is arithmetically correct and the conclusion was wrong.
+  ⚠⚠ **WHAT KILLED IT: OPEN-DECISIONS ITEM 2 ALREADY HOLDS A HARD, DATED HPG PRICE — ₫22,550 ON 03-AUG-2026**,
+  cross-checked by market cap ÷ price reproducing the share count to **0.0004%**. **The file is 7.76% below it,
+  not 29% below. And item 2 had ALREADY computed the trigger: HPG +6.38% → −1.88%, −8.26pp — BELOW the 10pp
+  threshold. ⚠ TRIGGER 3 DOES NOT FIRE ON HPG. My claim that it did was false, and it was false about the
+  thing this sweep exists to report accurately.**
+  ⚠⚠ **THE ERROR, NAMED PRECISELY, AND IT IS A NEW ONE: DATE CONTAMINATION WITHIN A BATCH.** One summariser
+  output carried BVSC and SSI together. **I dated BVSC to 05-Aug — and then let SSI ride on BVSC's date without
+  ever checking it.** *In the same entry where I wrote that I now date a figure before reasoning from it, I
+  reasoned from an undated figure because a neighbouring one was dated.* **A date attaches to a document, never
+  to a batch.**
+  ✅ **AND THE FILE DATES THE SSI REPORT FOR ME, WHICH CLOSES IT COMPLETELY.** Item 2 records HPG's registered
+  insider buy executing **12-Mar → 09-Apr-2026 in a band of ₫25,500–28,250.** **₫26,923 sits squarely inside
+  that band.** ***So SSI's report is almost certainly March–April vintage — four to five months old — and the
+  evidence that dates it was already in this repository.*** Against the hard 03-Aug ₫22,550, the SSI-implied
+  price is **+19.4%**, i.e. it prices a market that existed in the spring.
+  ⚠ **THE PROCESS FAILURE UNDERNEATH, which is the durable part.** I checked `assumptions.json` for HPG's
+  price — and stopped there. **The file's *dated observations* live in `OPEN-DECISIONS.md` item 2, not in the
+  model, and I did not look.** *The COVERED-block discipline says check the file before spending a search; the
+  same rule applies before spending an ESCALATION, and the price field is not the whole file.* **Had I checked
+  first, the whole argument dies in one grep and costs nothing.**
+  **WHAT ACTUALLY SURVIVES — genuinely new, and smaller than what I nearly claimed:**
+  **(1)** **BVSC's 05-Aug target raise to ₫33,200 on a net-margin revision 10.7% → 11.9%.** Against the hard
+  ₫22,550 that is **+47.2%** upside — a rich target, but a broker's target is not a price and is not an input.
+  **(2)** ⚠ **`Quý Xa` returns ZERO hits repo-wide.** HPG self-supplying iron ore bears **directly** on the
+  spread bridge, which gears **₫0.34m of after-tax profit per US$10/t of ore** — a captive mine changes the
+  *sign* of that exposure, not just its size. **T3, a broker rationale bullet, NOT a disclosure. Named as an
+  open question, NOT modelled.**
+  ⚠ **REJECTED — TCB's "₫45,000 target, +27%".** An **SHS initial report from 05-AUG-2025**: the text says
+  *"+27% vs the close of **04/08/2025**"*, the URL is `20250805_..._TCB Initial report.pdf`, and the forecast
+  table is headed **2024 / 2025F / 2026F**. **One year stale, three independent tells, discarded** — *and note
+  it was the report I DID date that got thrown out, while the one I failed to date is what nearly published.*
+  ⚠⚠ **THE SUMMARISER ALSO LABELLED VPB AS "VietinBank". VPB IS VPBANK; VIETINBANK IS CTG — and CTG SITS ON MY
+  OWN LANE-6 COMPETITOR LIST**, so adopting that label would have crossed a holding with a comparable. *Two
+  independent defects in one batch — a wrong bank name and an undated report — and I caught the first
+  immediately because it was a fact I knew, and missed the second because it was a fact I had to go look up.*
+  *Noted without weight: Agriseco's August-2026 pick list — HPG, MBB, VNM, VPB, GMD, NTP — three of the eight.*
+  **LANE 2 — CONFIRMED NIL, AS THE GATE PREDICTS.** No CORE circumvention preliminary determination yet; the
+  inquiry initiated **25-Mar-2026** remains open, consistent with the **24-Aug** intended date. ✅ **Two file
+  facts verified against the Federal Register listing rather than press: the Vietnam inquiry is `2026-05808` at
+  91 FR 14530–14532, matching the file's `91 FR 14530`, which leaves its attribution of `2026-05807` to the
+  parallel CHINESE-substrate inquiry coherent (adjacent numbers, same day).** **NEW: petitioners are STEEL
+  DYNAMICS INC. and NUCOR CORP.**, filed 02-Feb-2026 — the two largest US sheet producers.
+  **NOTHING MODELLED. NO INPUT CHANGED. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO TRIGGER
+  FIRES — and that sentence is only trustworthy this hour because the file contradicted me.**
+  [Tin nhanh CK — cổ phiếu cần quan tâm 5/8 (BVSC HPG ₫33,200)](https://www.tinnhanhchungkhoan.vn/co-phieu-can-quan-tam-ngay-58-post395300.html) · [VOV — HPG và MBB 5/8](http://vov.vn/thi-truong/mot-so-co-phieu-can-quan-tam-58-co-hoi-dau-tu-tiem-nang-voi-hpg-va-mbb-post1321179.vov) · [FR — CORE Vietnam circumvention initiation 2026-05808](https://www.federalregister.gov/documents/2026/03/25/2026-05808/certain-corrosion-resistant-steel-products-from-the-socialist-republic-of-vietnam-initiation-of) · [SHS TCB initial report — 05-Aug-2025, REJECTED AS STALE](https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/reportattach/20250805_114912_TCB%20Initial%20report.pdf)
+
 - **✅ 19:54 ICT TUE 11-AUG · OWNERSHIP (lane 7) — I HAVE BEEN WATCHING FOR A KDH DISCLOSURE THAT CANNOT
   LEGALLY EXIST. THE SAME SENTENCE IS TRUE OF VCI AND FALSE OF KDH, AND THE FILE NEVER WROTE DOWN WHY.**
   **The gate table has said since 05-Aug that KDH's insider buy produces TWO disclosures: (a) a 1%-ownership
