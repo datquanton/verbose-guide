@@ -32,6 +32,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **COKING COAL INDEX PROVENANCE (item 46)** *(added 11-Aug 02:54 after TWO failed attempts on the same sub-question)* | ✅ **OBTAINABLE AND ON FILE:** Fastmarkets **MB-COA-0003**, *Premium hard coking coal, fob eastern Australian ports*, **USD/wmt**, published **18:30 SGT**; specs **CSR 71 / VM 21 / ash 9.50**, min **10,000t**, laycan **16–60 days**; load port amended from **FOB DBCT** to a five-port basket (DBCT, Hay Point, Abbot Point, Gladstone, Port Kembla). Argus runs a **different** construction — 50% traded / 50% survey, **100% survey in low liquidity**. ⚠ **NOT OBTAINABLE: the EFFECTIVE DATE of the load-port amendment** — searched 10-Aug 22:54 and 11-Aug 02:54, both nil. **That date is the whole point: it decides whether the file's 238.9 (10-Jul) and 228 straddle a definition change, worth ~₫0.154m/t against a ₫0.096m bear-branch gap** | **a Fastmarkets pricing notice carrying a date**, or the methodology PDF — **not another general search** |
 | **CHINA HRC EXPORT PRICE (Mysteel weekly)** *(added 10-Aug 03:54 — after re-search number TEN)* | **US$485/t FOB, SS400 3mm, Tianjin, at 24-JUL, −$1/t w/w** — plus the offer dispersion (**private mills 488–490, state-owned 500–510**, $20/t negotiation discounts, buyers targeting 480) **and the freight reconciliation already done: 485 FOB → ~495–510 landed Vietnam = 5.4–8.2% below the bridge's 539 and 4.7–7.5% below HPG's 535 volume price.** *17-Jul's $486 is derivable from "−$1/t on the week" and adds nothing.* ⚠ **NO AUGUST ASSESSMENT IS REACHABLE — the latest is 17 days old, and a summarizer relabelled these July weeks as "early August".** **This is a DIFFERENT instrument from HPG's own offer row above — offer vs assessed transaction index** | **an assessment dated AUGUST or later** — not a re-run of the same July weeklies |
 | **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
+| **WEEKLY MONEY MARKET — OMO, OVERNIGHT INTERBANK, POLICY RATE** *(added 11-Aug 18:54, first time this file has ever held an overnight rate)* | Week **03–07 Aug** complete: SBV **net injected ₫24,726.73bn**, gross repo **₫76,040.07bn** across **7/42/63/91-day**, rate **HELD 4.5%/yr — no policy-rate change**. Overnight **0.75% → 5.72%** end-July, **4.83% at 5-Aug**. **Series extremes now bounded: 17%/yr 2-Feb-2026 (Tet, the year's high), 11%/yr 1-Jun-2026 (highest ex-Tet), 0.75% the low.** **SBV reaction function MEASURED: 1-Jun 11% → offered ₫46,000bn + 14-day USD/VND swaps → ~7% by the afternoon of 2-Jun, one session.** ⚠ **DO NOT RE-SEARCH THE 11% — it is 1-JUNE and it cost a full search to date; it will keep resurfacing undated because the headlines carry no date.** ⚠ **Central rate is a DIFFERENT row and this file runs AHEAD of the weekly wraps** — they lead on ₫25,463 "record", which is Friday 07-Aug; the file holds **₫25,491 at Mon 10-Aug** | **the NEXT week's report, i.e. Sat 15-Aug or later** — **WEEKLY, never hourly.** A policy-rate move away from 4.5%, or an overnight print above ~8%, re-opens it immediately |
 | **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
 | **KDH — Clarita divestment & Gladia absorption/launch** *(added 09-Aug 13:54; the grep caught this before a 7th re-search)* | Keppel 49% / KDH 51% JV, Clarita + Emeria (both Thủ Đức, agreed May-2023, construction Oct-2023) combined into **Gladia by the Water**; **naming trap resolved** — Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn; Emeria ~60 low-rise + ~600 condos; **Gladia Heights LAUNCHED, developer says the profit is a 2027 event**. ⚠ **The kill criterion is LIVE — "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched", the brief's "decisive test"; the launch condition is now satisfied and it has NOT fired** | **3Q26 filing, due 30-Oct** |
 
@@ -115,6 +116,67 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **✅ 18:54 ICT TUE 11-AUG · MONEY MARKET (lanes 1, 5) — THE FILE HAS NEVER RECORDED AN OVERNIGHT INTERBANK
+  RATE. IT DOES NOW, AND THE FIRST THING THE SEARCH RETURNED WAS A TEN-WEEK-OLD NUMBER DRESSED AS NEWS.**
+  ⚠⚠ **THE CATCH FIRST, BECAUSE IT IS THE POINT.** The lane-1 search surfaced two undated headlines —
+  *"Lãi suất qua đêm tăng vượt 11%"* and *"Lãi suất liên ngân hàng qua đêm lên 11%, NHNN có động thái can
+  thiệp mới."* **An 11% overnight rate is a systemic-liquidity event on the 51.5% of this book that is banks**,
+  and both headlines were returned in response to a query naming **11/8/2026**. I spent a search doing nothing
+  but dating them. **They are 1-JUNE-2026. Ten weeks stale.** This is the **FOURTH** stale-figure-as-current
+  near-miss (after *"VN-Index 1,768"*, *"MBB +1.05%"*, *"iron ore 93.70 to 93.70"*) and **by far the most
+  expensive of the four had it landed** — the other three were levels, this one would have been a fabricated
+  funding crisis. ***The tell was not in the content. It was that a search keyed to one date returned headlines
+  carrying no date at all, and I have now been burned often enough to treat missing dates as the finding.***
+  **WHAT THE DATING BOUGHT — a series the file did not have, with both its extremes:** overnight peaked at
+  **17%/yr on 2-FEB-2026** (Tet), the highest of the year; **11%/yr on 1-JUN-2026**, the highest excluding that
+  Tet spike; and the recent low is **0.75%**.
+  ⚠ **AND A MEASURED SBV REACTION FUNCTION, WHICH THIS FILE HAS REASONED ABOUT FOR TWO WEEKS WITHOUT EVER
+  OBSERVING:** on 1-Jun the SBV offered **₫46,000bn** and ran **14-day USD/VND swaps** with credit institutions
+  and foreign bank branches; **by the afternoon session of 2-Jun the overnight rate was back to ~7%.** *11% to
+  7% in one session.* **The file's recurring question is whether the SBV is "boxed in"; this is the first
+  evidence of what it actually does under acute stress and how fast the response works.**
+  **THE CURRENT STATE, week 03–07 Aug 2026 — dated, and all of it new:** SBV **net injected ₫24,726.73bn**
+  via OMO, reversing direction; **gross repo issuance ₫76,040.07bn** across **7 / 42 / 63 / 91-day** tenors
+  with the rate **HELD AT 4.5%/yr** — *no policy-rate change*. Overnight spiked **0.75% → 5.72%** at end-July,
+  then eased to **4.83% by 5-Aug**.
+  **✅ AND THAT CHAIN CLOSES AGAINST WHAT THE FILE ALREADY HELD.** The late-July entry records *"SBV drained
+  ₫26,300bn, interbank at year low"* — **0.75% IS that year low**, and a drain of ₫26,300bn followed by a spike
+  to 5.72% and then a reversal to a ₫24,727bn injection is one coherent sequence: *drain → squeeze → reverse.*
+  **The two figures are within ₫1,573bn of offsetting each other.** *(The drain and the spike are not pinned to
+  the same calendar day, so the sequence closes on direction and magnitude, not to the session.)*
+  ⚠ **RATE LEVEL, and it is the read that matters for the banks:** overnight at **4.83–5.72% sits ABOVE the
+  SBV's 4.5% OMO rate.** Banks paying more to each other than the central bank charges is precisely why the
+  ₫76,040bn of repo got taken up — the window is the cheap money. **This is a funding-cost observation on
+  51.5% of the book and it is NOT modelled**; NIM is not an input I may touch.
+  ⚠⚠ **THESIS-BEARING, THEREFORE ESCALATED UNDER §5 RATHER THAN WORKED INTO ANY BRANCH.** The SBV **net
+  injected in the very same week the central rate set a record high.** Those are not the two sides of a
+  trade-off — it ran both levers the same way at once. Combined with yesterday's correction that **raising the
+  central rate WIDENS the permitted band**, the file's *"record central rate ⇒ SBV boxed in"* framing is now
+  weakened on a **second, independent leg**: not only was the mechanism backwards, the behaviour is not
+  constrained-looking either. ***I am not rewriting the thesis from a sweep. It is flagged for the CIO run.***
+  ⚠ **STALE-BY-ONE-SESSION, caught by the file rather than by the source:** the weekly report leads on *"central
+  rate to a record ₫25,463"*. **The file already holds ₫25,463 as FRIDAY 07-AUG and has moved past it to
+  ₫25,491 on MON 10-AUG.** A "record" in a weekly wrap is a record *as at Friday*, and this file is two
+  sessions ahead of it. **Not new; not logged as new.**
+  ⚠ **UNIT HAZARD — the summariser rendered `tỷ` (billion) as "trillion" throughout**, giving *"24,726.73
+  trillion VND"* for what is **₫24,726.73bn ≈ US$0.97bn** — a 1,000× inflation, and consistent across every
+  figure so it corrupts nothing selectively. **One number I could NOT reconcile and therefore did not use:
+  overnight volume *"exceeding 1 million trillion VND"*, which is unreadable at any plausible scale.**
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [Vietstock — tuần 03-07/08 bơm ròng hơn 24,700 tỷ](https://vietstock.vn/2026/08/tuan-03-0708-nhnn-tiep-tuc-bom-rong-hon-24700-ty-dong-757-1478422.htm) · [Thời báo Tài chính — bơm ròng gần 25.000 tỷ, tỷ giá trung tâm đỉnh lịch sử](https://thoibaotaichinhvietnam.vn/thi-truong-tien-te-tuan-3-7-8-bom-rong-gan-25-000-ty-dong-qua-kenh-omo-ty-gia-trung-tam-tang-manh-len-dinh-lich-su-201981.html) · [VietnamBiz — qua đêm vọt lên 11%, bơm ròng 13.600 tỷ (1-2/6/2026)](https://vietnambiz.vn/lai-suat-qua-dem-lien-ngan-hang-vot-len-11-nhnn-bom-rong-hon-13600-ty-dong-202662152643298.htm) · [Nhà đầu tư — qua đêm vọt lên 11%](https://nhadautu.vn/lai-suat-qua-dem-lien-ngan-hang-vot-len-11-d105408.html)
+
+- **⛔ 18:54 ICT TUE 11-AUG · STEEL (lane 5) — NOT LOGGED AS MATERIAL, AND THE REASON IS INSTRUMENT MISMATCH,
+  NOT ABSENCE OF DATA.** The 11/8 steel wraps report iron ore **both** *"above 750 CNY/t, a near one-month
+  high"* **and** *"back to around 711 CNY/t"* **in the same summary** — two dates mashed together, direction
+  contradictory, neither attributable. **Discarded on that alone.** ⚠ **But even the readable half would not
+  have been usable: Dalian futures in CNY/t are a 62% Fe contract quoted DRY-BASIS WITH VAT INCLUDED, and the
+  file's 93.70 is a USD/t CFR assessment.** Converting needs an FX rate *and* the 13% VAT stripped —
+  93.70 × ~7.2 × 1.13 ≈ **762 CNY/t**, so the "one-month high" of 750 is *below* the file's own standing
+  figure once put on a common basis. ***A number that looks like a rise and is arithmetically a fall is the
+  measure-substitution family doing exactly what it always does*** — here **two members at once, `basis` and
+  `unit of observation`. Shanghai HRC futures 3,090–3,150 CNY/t is a THIRD instrument again**, distinct from
+  both the bridge's **HRC 539 CFR** and Mysteel's **US$485 FOB export assessment**. **The bridge is untouched.**
 
 - **⛔ 17:54 ICT TUE 11-AUG · Ptc (lane 3) — I TESTED A DISTINCTION I BELIEVED IN AND IT WAS WRONG. THE
   ANNOUNCED REFERENCE PRICE IS NOT A DIFFERENT ROUTE FROM THE CLOSING PRICE; IT IS THE SAME BLOCKED THING.**
