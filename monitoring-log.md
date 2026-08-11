@@ -118,6 +118,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 23:54 ICT TUE 11-AUG · THE CLOSE IS CONFIRMED, AND MY 22:54 CORRECTION OVER-CORRECTED (lanes 4, 7)**
+  ✅ **VN-INDEX CLOSED 11-AUG AT 1,773.41, −3.36 pts, −0.19% — now SOURCE-REPORTED as a level, not derived.**
+  It matches the figure I computed at 22:54 from 1,776.77 to the cent. *That is a second thing confirmed for
+  free: a derived level landing exactly on a later independently-reported one re-validates the 10-Aug close of
+  **1,776.77** a fourth way.*
+  ⚠⚠ **AND IT ANSWERS THE QUESTION I SAID 60 MINUTES AGO I COULD NOT RECONSTRUCT. The MBB "+1% to +1.6%" is
+  explicitly a MORNING figure** — *"in the VN30 group, MBB was among the top gainers, rising between 1% to over
+  1.6% during the **morning session**."* **So BOTH legs of the 16:54 test were contemporaneous intraday
+  readings**, and the residual **+0.3 to +0.9pp is a valid INTRADAY residual.**
+  ⚠⚠ ***WHICH MAKES MY 22:54 RECOMPUTATION THE INVALID ONE, NOT THE 16:54 ONE.*** I paired a **closing** index
+  move with a **morning** MBB quote and got +1.19 to +1.79pp "outside the band". **That is precisely the timing
+  measure-substitution I named in the same breath — and I declined to claim from it. The refusal was right and
+  it is the only reason this is a scope error and not a false finding.**
+  ⚠ **SO, EXACTLY WHAT STANDS AND WHAT FALLS — the two must be separated because I got one of them wrong twice:**
+  **(a) The word "CLOSED" in the 16:54 entry stays WITHDRAWN. It was flatly false** — the index did not close
+  +0.7%, it closed −0.19%, and I read a market pulse as a wrap. **(b) The NULL is RESTORED, but ONLY as a
+  MORNING/INTRADAY result** — never as the pre-registered test, which specified the **OPEN** and still needs
+  `Ptc`. *My 22:54 self-correction fixed a real labelling error and then drew too strong a consequence from it:
+  I withdrew a result that was sound within a scope I had failed to state, rather than stating the scope.*
+  ⚠ **THE UNDERLYING SESSION SHAPE HAS BEEN STABLE ACROSS ALL THREE OF MY READINGS, AND THAT IS THE PART TO
+  TRUST:** *"VN-Index held gains for most of the session but late selling pushed it below reference"* —
+  headline *"Áp lực bán cuối phiên kéo VN-Index trở lại sắc đỏ"*. **The index faded −0.89pp into the close.**
+  Every version of my story is consistent with that shape; **all three errors were in LABELLING a number's
+  instrument class and scope, not in the market reading.** *Three passes at one session is not diligence — it is
+  the cost of not asking "morning, or close?" the first time, and the fix belongs at first contact.*
+  ⚠⚠ **MBB'S CLOSE REMAINS UNKNOWN AND I AM NOT ESTIMATING IT.** With the index fading 0.89pp late and **foreign
+  investors named as net sellers of MBB specifically in the AFTERNOON**, MBB's close-vs-adjusted-reference is
+  likely below the morning +1–1.6% — but "likely below" is not a number, and inventing one is how the morning
+  figure became a close in the first place. **A close-to-close version of the test is still uncomputable.**
+  ⚠ *Lane 7 note, new: MBB drawing afternoon foreign selling on the day before its RECORD DATE is worth a line —
+  exchange-wide foreigners net sold ₫768.77bn with TCB topping the list. Not modelled; logged.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** **MBB record date TOMORROW 12-Aug; US CPI 19:30 ICT the same evening, first VN reaction THU 13-Aug.**
+  [Tạp chí KTTC — áp lực bán cuối phiên kéo VN-Index trở lại sắc đỏ](https://tapchikinhtetaichinh.vn/vn-index-dang-siet-bien-do-de-tim-diem-can-bang-moi-sau-nhip-phuc-hoi-164244.html) · [Vietstock — Nhịp đập TT 11/08: dòng tiền suy yếu về cuối phiên](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1108-dong-tien-suy-yeu-ve-cuoi-phien-1636-1479057.htm) · [Thời báo Tài chính — VN-Index giảm nhẹ sau hai phiên tăng](https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-11-8-vn-index-giam-nhe-sau-hai-phien-tang-202155.html) · [TNCK — giao dịch phiên sáng 11/8](https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-118-dong-tien-than-trong-vn-index-tiep-tuc-rung-lac-nhe-post395708.html)
+
 - **⚠⚠⚠ 22:54 ICT TUE 11-AUG · CORRECTION + FLOWS (lanes 4, 3) — I READ AN INTRADAY PIECE AS A CLOSE, WROTE
   THE WORD "CLOSED", AND BUILT A TEST RESULT ON IT. THE 16:54 NULL IS WITHDRAWN. SECOND TIME IN TWO DAYS ON
   THE SAME INSTRUMENT.**
