@@ -116,6 +116,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 11:54 ICT TUE 11-AUG · BANKS / OWNERSHIP (lane 7 — 51.5% of the book) — THE FILE PARKED "IS THE FOREIGN
+  ROOM FULL?" AS *"THE NEXT QUESTION, NOT AN ANSWER."* HERE IS THE ANSWER, AND IT SUPPLIES A MECHANISM FOR THE
+  FLOW ASYMMETRY I COULD NOT EXPLAIN ON 10-AUG.**
+  ***Lane 4 was the intended target and was ABANDONED before searching: VNDiamond is an explicitly CLOSED route
+  — "seven attempts, three routes… NO FURTHER DEDICATED SEARCHES… KDH's status stays UNKNOWN and is not to be
+  re-searched." The COVERED discipline worked BEFORE the search this time.***
+  **NEW, ZERO HITS: `69/2025` and `22.4908`.**
+  | bank | foreign room | status |
+  |---|---|---|
+  | **TCB** (35.0% of book) | **locked at 22.4908%** — below the standard cap, a company choice | **EXHAUSTED** |
+  | **MBB** (6.5%) | — | **EXHAUSTED** |
+  | **VPB** (10.0%) | — | **room available** |
+  **Plus: Nghị định 69/2025/NĐ-CP lets banks taking part in MANDATORY RESTRUCTURING raise the ceiling to 49%,
+  with HDBank, MBB and VPB named as the beneficiaries.**
+  ⚠⚠ ***THE CRITICAL CAVEAT, STATED FIRST: the room figures are dated 14-AUGUST-2025 — nearly a YEAR old.***
+  **⚠⚠ AND A CONTRADICTION THAT IS THE MOST USEFUL PART OF THE ENTRY.** On 10-Aug I logged **MBB net BOUGHT
+  ₫415bn** in the 03–07 Aug week. ***You cannot net-buy into a full room — foreign-to-foreign trades net to
+  zero.*** **So either the year-old "exhausted" is stale, or MB's ceiling was raised under 69/2025 — and MB is a
+  mandatory-restructuring participant, which this file established THIS MORNING at 01:54 from the chairman's own
+  stated reason for its ~35% credit target.**
+  ***That is a coherent, mechanism-level candidate for the flow asymmetry the 10-Aug entry could not explain.***
+  **⚠ BUT THE EXPLANATION HAS A HARD LIMIT, AND IT KILLS HALF OF IT. ROOM CONSTRAINS BUYING, NOT SELLING.**
+  **TCB full and net SOLD ₫394bn is consistent — selling is always available. But VPB HAS ROOM and was net sold
+  ₫572bn, the largest sale of the four.** ***So room cannot explain the sell side at all. It is a candidate
+  mechanism for the BUY side only, and the 10-Aug puzzle is at best half-addressed.***
+  ⚠ *A second thing it partly touches and does not settle: the FTSE roster. Investable foreign headroom is an
+  FTSE criterion, and TCB at zero headroom would fail it mechanically — a candidate reason for the
+  TCB/VPB/MBB/TCX/VPX-ineligible split that this file has listed without ever explaining. **But VPB has room and
+  is still ineligible, so headroom is not the whole criterion.** Offered as partial, not as the answer.*
+  **⚠ AND ONE STANDING CLAIM IS NOW SHARPER RATHER THAN CHANGED: TCB's 22.4908% is BELOW the standard ceiling
+  and is described as locked — a company decision, not a regulatory one. On 35% of the book that is a structural
+  cap on net foreign buying that no upgrade or index event can relieve while it stands.**
+  **NOTHING MODELLED. No confidence moved — §2 requires T1–T2, this is T5, and the load-bearing figures are a
+  year old. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug, CPI 19:30 ICT that evening AFTER the record date closes. Item 38's
+  re-derivation was due before today and was NOT done — deadline passed, §4 human-only.**
+
 - **⚠⚠ 09:54 ICT TUE 11-AUG · MBB (lane 3) — I WEAKENED A COVERED ROW ON ONE LUCKY RETURN, AND THREE FAILURES
   SINCE SAY THE ROW WAS RIGHT. THE FALSIFICATION IS UNRESOLVED AND PASSES TO THE HUMAN.**
   ***Read at the open slot: the ATO settled 09:15, ~39 minutes before this sweep, and an OPEN is final at 09:15
