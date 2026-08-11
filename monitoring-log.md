@@ -116,6 +116,43 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅ 16:54 ICT TUE 11-AUG · MBB EX-DATE (lanes 3, 4) — THE TEST RAN AND RETURNED A PRE-REGISTERED NULL. THE
+  RESIDUAL IS INSIDE THE BAND I DECLARED UNINTERPRETABLE BEFORE THE DATA, SO IT SAYS NOTHING — AND SAYING SO IS
+  THE RESULT.**
+  *(Read at 129 minutes after the 14:45 close — the offset that worked yesterday, after 69 minutes failed.)*
+  **THE SESSION: VN-Index CLOSED +0.7%; the financial-banking group led. MBB was among the VN30's leading
+  gainers at ~+1% to +1.6%, and among the most actively traded at 9.9m shares matched.**
+  ⚠⚠ **READING THAT CORRECTLY MATTERS MORE THAN THE NUMBER.** **MBB went EX-RIGHTS today. The quoted "+1% to
+  +1.6%" is the move versus the ADJUSTED REFERENCE (Ptc) — that is how Vietnamese exchanges quote an ex-date.
+  The −16.7% mechanical drop sits INSIDE the reference and is not counted as a change.** ***So MBB traded ABOVE
+  its adjusted reference on its ex-rights day. It did not "fall 16.7%" and it did not "rise 1.6%" in any sense
+  a naive reading would give.***
+  **THE PRE-REGISTERED TEST, APPLIED:**
+  > **Deviation = [MBB vs Ptc] − [VN-Index move] = (+1.0% to +1.6%) − (+0.7%) = +0.3pp to +0.9pp.**
+  **⚠⚠ AND THE 10-AUG 11:54 PRE-REGISTRATION SAID, VERBATIM: *"a residual of a few tenths of a percent will not
+  be interpretable either way."* ***+0.3 to +0.9pp IS a few tenths. BY MY OWN PRE-REGISTRATION THIS RESIDUAL IS
+  NOT INTERPRETABLE, AND NOTHING IS CLAIMED FROM IT.*** **Writing "MBB outperformed on its ex-date" would
+  violate the rule I set before the data existed, and the whole point of setting it early was to make that
+  refusal automatic rather than a judgement made after seeing a flattering number.**
+  **WHAT THE NULL DOES ESTABLISH, WHICH IS NOT NOTHING:** ***no anomaly. The mechanical adjustment happened
+  without incident — no reported mispricing, no failed adjustment, no dispute. On a corporate action worth
+  +25.0% of shares on 6.5% of the book, "it went through cleanly" is a real outcome.***
+  ⚠ **THREE LIMITS, STATED:** **(1)** the figure is a session move, not the **OPEN** the test specified — a full
+  session of drift is inside it; **(2)** it is a RANGE (+1% to +1.6%), not a number; **(3)** ***I still do not
+  have Ptc, so the ₫24,400 candidate is UNRESOLVED.*** **The half of the test that would confirm or withdraw it
+  — "is HOSE's published Ptc ₫20,320?" — is untouched.**
+  **⚠ ALSO NEW AND ABOUT YESTERDAY, NOT TODAY: foreign investors net SOLD ₫279bn on HOSE on 10-AUG** (net buying
+  >₫1bn on HNX). *That is the full-day figure against the ₫53.1bn morning number I logged as provisional at
+  15:54 on 10-Aug — same direction, larger, and it supersedes the provisional reading.*
+  *Not invented: the source gave the index move as a PERCENTAGE only. 1,776.77 × 1.007 = **~1,789.2** is
+  arithmetic, flagged as derived, and is not recorded as a reported close.*
+  **NOTHING MODELLED. `valuation.MBB.price` remains ₫22,050 and untouched — and it is now stale against BOTH a
+  price change and a share-count change, which is item 2 and §4 human-only. No confidence moved.
+  `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ RECORD DATE IS TOMORROW 12-AUG. CPI prints 19:30 ICT tomorrow evening, AFTER the record date closes —
+  they cannot interact. Item 38's re-derivation was due before today and was NOT done; the deadline has passed,
+  §4 human-only.**
+
 - **⚠ 14:54 ICT TUE 11-AUG · NLG / KDH (lane 6) — I TESTED THE LIMIT I STATED AN HOUR AGO. THE ANSWER IS A WEAK
   NEGATIVE. AND THE SEARCH FOUND TWO CONFLICTS IN THE NLG DATA I BUILT THE 12:54 PEER TEST ON.**
   ***Vietnam closed 9 minutes before this sweep — too fresh on the 113–114 minute bracket, and I refused at
