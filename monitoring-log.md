@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 01:54 ICT WED 12-AUG · STEEL INPUTS (lane 5) — A POSSIBLE RANGE BREAK ON HPG'S KEY INPUT, FROM A
+  SOURCE THAT FAILED A COHERENCE CHECK IN THE SAME BREATH. LOGGED UNVERIFIED, NOT MODELLED.**
+  **THE SIGNAL: iron ore reported at US$94.45/t on 07-Aug** (−0.87% d/d), with Australian 62% Fe fines quoted
+  **US$96.55/t on 31-Jul** (−2.37% w/w); **coking coal −2.71% w/w** and **HRC −0.83%** in the week of 03-Aug.
+  ⚠⚠ **WHY THIS WOULD MATTER IF TRUE: the file's iron ore has been US$98.25/t inside a tracked range of
+  97.70–103.00. US$94.45 is BELOW THE ENTIRE RANGE** — a −3.87% break on the largest input of the book's
+  16.8% position. **Using the file's OWN bridge (`$97.70 → $98.25 = −₫0.019m/t`, i.e. −₫0.0345m/t per $1),
+  a $3.80 fall is worth ≈ +₫0.13m/t of profit — FAVOURABLE to HPG.**
+  ⚠⚠⚠ **AND HERE IS WHY I AM NOT BANKING IT. The same synthesis states an HRC *"export premium (FOB minus
+  domestic) of 719.3 USD/T"*. A premium cannot exceed the price — HPG's own August HRC offer is US$546.50.
+  That figure is impossible as described, which means the synthesis is mangling at least one field, and I
+  cannot tell which others.** *A source that fails an internal coherence check on a number I CAN check does
+  not get trusted on numbers I cannot.*
+  ⚠⚠ **SECOND REASON, AND IT IS THE ONE THIS FILE HAS ALREADY PAID FOR: TWO DIFFERENT IRON-ORE SERIES ARE
+  MIXED HERE** — a bare "Iron Ore" at 94.45 and "Australian 62% Fe fines" at 96.55, $2.10 apart. **The file's
+  series is 62% Fe CFR Qingdao, and there is a standing correction at line 12015 where I logged iron ore at
+  ~US$115 that was actually US$97.70 — the identical instrument-class error.** *Two of my last three market
+  errors were instrument-class. I am not making the third at 2am on a five-day-old quote.*
+  ⚠ **DATING, STATED PLAINLY: the 94.45 is 07-Aug and the 96.55 is 31-Jul. Neither is new news — they are
+  new TO THIS FILE, which is a different and weaker thing.** *Five days of unobserved drift sits between that
+  quote and now.*
+  **RESOLUTION CONDITION, so this does not become another row waiting on nothing observable:** *confirm a
+  62% Fe CFR Qingdao print below 97.70 from a source that also prices HRC coherently.* **If confirmed, it is
+  a favourable spread input for HPG and belongs in the bridge; until then it is colour.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** *The interpretive claim in the same synthesis — that rebar fell more than raw materials, so demand
+  weakness outweighed input relief — is unattributed and is NOT carried into the file as a finding.*
+  [Trading Economics — iron ore](https://tradingeconomics.com/commodity/iron-ore) · [Double Steel weekly, 2026 wk 32 (03-Aug)](https://www.double-steel.com/en/news/3e4d54d1-5a6d-4888-838c-9c069508e22c) · [Mysteel — China coal pricing](https://www.mysteel.net/commodities/coal/)
+
 - **✅⚠ 23:54 ICT TUE 11-AUG · THE CLOSE IS CONFIRMED, AND MY 22:54 CORRECTION OVER-CORRECTED (lanes 4, 7)**
   ✅ **VN-INDEX CLOSED 11-AUG AT 1,773.41, −3.36 pts, −0.19% — now SOURCE-REPORTED as a level, not derived.**
   It matches the figure I computed at 22:54 from 1,776.77 to the cent. *That is a second thing confirmed for
