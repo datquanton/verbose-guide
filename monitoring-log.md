@@ -118,6 +118,29 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 02:54 ICT WED 12-AUG · THE RESOLUTION CONDITION I WROTE 60 MINUTES AGO IS ITSELF UNOBSERVABLE (lane 5).
+  NO MARKET DEVELOPMENT — this entry changes a WATCH STATUS, nothing else, and it is short on purpose.**
+  **WHAT I WENT LOOKING FOR:** the 01:54 condition, verbatim — *a 62% Fe CFR Qingdao print below 97.70 from a
+  source that also prices HRC coherently.* **NOT MET.** What exists: **KORE 62% Fe Qingdao US$100.26/t CFR —
+  dated 20-FEB-2026**, six months stale; a US$105.14 print dated 09-Jul; and a February forecast band of
+  US$95–105/t. **No current print, at any level.**
+  ⚠⚠ **THE REASON IS STRUCTURAL, NOT TIMING. The authoritative publishers of this exact series — Fastmarkets,
+  Kallanish, SMM — are subscription price reporters. The daily 62% Fe CFR Qingdao fix is PAYWALLED, and no
+  amount of searching from here will produce it.** ***So the condition I wrote specifically to avoid leaving a
+  row waiting on nothing names an observation this environment cannot make. Not a phantom — the price is real
+  and printed daily. UNOBSERVABLE, which is the other half of the same taxonomy, and I wrote it 60 minutes
+  after warning about the first half.***
+  **THIS IS THE SEVENTH CATALOGUED UNOBSERVABLE.** *The six existing ones were inherited findings; this one I
+  created myself, an hour ago, while being careful. That is the useful part — the trap is not ignorance of the
+  distinction, it is that "name the observation that would settle it" feels like enough without also asking
+  "and can I make that observation?" **Two questions, not one.***
+  **REVISED, TO SOMETHING REACHABLE:** *treat the US$94.45 as UNCONFIRMED COLOUR and re-test only via a
+  free-tier aggregator that publishes BOTH iron ore and HRC (so the coherence check remains runnable), or via
+  FiinQuant once authorised.* **If neither, the input stays at the on-file US$98.25 and the range break is
+  never claimed.** *Better a watch item that can fail than one that can only stay open.*
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [Fastmarkets — 62% Fe CFR Qingdao (paywalled)](https://www.fastmarkets.com/commodity-prices/iron-ore-62-fe-fines-cfr-qingdao-dollar-dmt-mb-iro-0008/) · [Kallanish KORE 62% Fe (paywalled)](https://www.kallanish.com/en/prices/details/62FeIronOre/) · [SMM IOSI62](https://www.metal.com/Iron-Ore-Index/201804260007) · [GMK Center — iron ore down >6% YTD](https://gmk.center/en/news/iron-ore-prices-have-fallen-by-more-than-6-since-the-beginning-of-the-year/)
+
 - **⚠⚠ 01:54 ICT WED 12-AUG · STEEL INPUTS (lane 5) — A POSSIBLE RANGE BREAK ON HPG'S KEY INPUT, FROM A
   SOURCE THAT FAILED A COHERENCE CHECK IN THE SAME BREATH. LOGGED UNVERIFIED, NOT MODELLED.**
   **THE SIGNAL: iron ore reported at US$94.45/t on 07-Aug** (−0.87% d/d), with Australian 62% Fe fines quoted
