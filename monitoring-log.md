@@ -28,7 +28,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **System margin debt** | **₫445,000bn total / ₫435,000bn margin**, 13 consecutive quarters — on file verbatim | **Q3 brokers' filings** |
 | **Corporate-action ex/record dates** | `vsd.vn` gateway-blocked; MBB **dated** (ex 11-Aug), VPB **bounded** (Q3–Q4), **TCB's 60% bonus unbounded**. ⚠ **CADENCE ADDED 09-Aug 13:54 — searched twice (true Sat 17:57 and Sun 13:54), same nil result both times. "Re-open on a TCB announcement" is UNOBSERVABLE from inside a sweep, so it read as "search every hour."** | **WEEKLY, not hourly** — or a TCB filing surfacing in another lane |
 | **VPS IPO** *(added 09-Aug 14:54)* | ⚠ **CLOSED EIGHT MONTHS AGO — the routine's lane 6 still lists it as live.** Completed **mid-Nov-2025**, listed **~1.5bn shares on HoSE 16-Dec-2025**, ticker **VCK**; terms on file: **202.3m shares, floor ₫60,000, minimum raise ₫12,138bn**. Retained only as the **external comparable for the broker cluster** | **never** — it is a closed event; a *secondary* VCK raise would be a new item |
-| **SINGLE-STOCK CLOSING PRICES** *(added 10-Aug 16:54 after THREE failed attempts)* | ⚠ **NOT REACHABLE FROM THIS ENVIRONMENT.** Three searches across the measured indexing bracket returned the VN-Index close, sector indices and flow direction — **never a single-stock EOD quote.** `simplize.vn`, HOSE and `24hmoney` are all blocked. **Index-level closes ARE obtainable** (VN-Index 10-Aug = **1,776.77**, verified three ways) | **never** — a price feed or an unblocked host would be a new route, not a re-search |
+| **SINGLE-STOCK CLOSING PRICES** *(added 10-Aug 16:54 after THREE failed attempts)* | ⚠ **NOT REACHABLE FROM THIS ENVIRONMENT.** Three searches across the measured indexing bracket returned the VN-Index close, sector indices and flow direction — **never a single-stock EOD quote.** `simplize.vn`, HOSE and `24hmoney` are all blocked. **Index-level closes ARE obtainable** (VN-Index 10-Aug = **1,776.77**, verified three ways). ⚠⚠ **WIDENED 11-Aug 17:54 — THE ANNOUNCED ADJUSTED REFERENCE PRICE (`giá tham chiếu điều chỉnh`, HOSE's `Ptc`) IS NOT A SEPARATE ROUTE.** I hypothesised it would be reachable *because it is a different instrument*: a traded close is an outcome of a session, whereas Ptc is a number **announced in advance** inside the corporate-action notice, and this file's own discipline says an instrument's attributes decide its readability. **The hypothesis is FALSIFIED.** A search shaped entirely around the announcement (`giá tham chiếu điều chỉnh`, the ex-date, both legs, the ₫10,000 subscription price) returned **the corporate-action structure and nothing else** — 10:1 rights at ₫10,000, 15% stock dividend, charter capital ceiling **₫102,687bn** (= 10,268.7m shares at ₫10,000 par, which **corroborates the file's 10,068.75m + 200m placement ceiling** and is the only thing gained). **No Ptc.** That is **attempt seven, nil six.** The correct generalisation is narrower than "closes are blocked": **no MBB-specific price of any construction — traded, announced, or reference — has ever been returned by this environment**, so the blocked thing is *the ticker's price dimension*, not *the close* | **never** — and the announced-reference variant is now explicitly inside this row, so it is not a fresh route either. Only a price feed or an unblocked host reopens it |
 | **COKING COAL INDEX PROVENANCE (item 46)** *(added 11-Aug 02:54 after TWO failed attempts on the same sub-question)* | ✅ **OBTAINABLE AND ON FILE:** Fastmarkets **MB-COA-0003**, *Premium hard coking coal, fob eastern Australian ports*, **USD/wmt**, published **18:30 SGT**; specs **CSR 71 / VM 21 / ash 9.50**, min **10,000t**, laycan **16–60 days**; load port amended from **FOB DBCT** to a five-port basket (DBCT, Hay Point, Abbot Point, Gladstone, Port Kembla). Argus runs a **different** construction — 50% traded / 50% survey, **100% survey in low liquidity**. ⚠ **NOT OBTAINABLE: the EFFECTIVE DATE of the load-port amendment** — searched 10-Aug 22:54 and 11-Aug 02:54, both nil. **That date is the whole point: it decides whether the file's 238.9 (10-Jul) and 228 straddle a definition change, worth ~₫0.154m/t against a ₫0.096m bear-branch gap** | **a Fastmarkets pricing notice carrying a date**, or the methodology PDF — **not another general search** |
 | **CHINA HRC EXPORT PRICE (Mysteel weekly)** *(added 10-Aug 03:54 — after re-search number TEN)* | **US$485/t FOB, SS400 3mm, Tianjin, at 24-JUL, −$1/t w/w** — plus the offer dispersion (**private mills 488–490, state-owned 500–510**, $20/t negotiation discounts, buyers targeting 480) **and the freight reconciliation already done: 485 FOB → ~495–510 landed Vietnam = 5.4–8.2% below the bridge's 539 and 4.7–7.5% below HPG's 535 volume price.** *17-Jul's $486 is derivable from "−$1/t on the week" and adds nothing.* ⚠ **NO AUGUST ASSESSMENT IS REACHABLE — the latest is 17 days old, and a summarizer relabelled these July weeks as "early August".** **This is a DIFFERENT instrument from HPG's own offer row above — offer vs assessed transaction index** | **an assessment dated AUGUST or later** — not a re-run of the same July weeklies |
 | **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
@@ -115,6 +115,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **⛔ 17:54 ICT TUE 11-AUG · Ptc (lane 3) — I TESTED A DISTINCTION I BELIEVED IN AND IT WAS WRONG. THE
+  ANNOUNCED REFERENCE PRICE IS NOT A DIFFERENT ROUTE FROM THE CLOSING PRICE; IT IS THE SAME BLOCKED THING.**
+  **The hypothesis, stated before the search so it could fail:** the COVERED block closes *single-stock
+  **closing** prices*, and a close is an **outcome of a session** — it exists only after 14:45 and only if the
+  stock traded. HOSE's **`Ptc` is a different instrument on four attributes**: it is **announced, not
+  realised**; it is published **in advance** of the session it governs; it is **computed from a formula**, not
+  from order flow; and it lives in the **corporate-action notice**, a document class this file has read
+  successfully before. This file's own repeated lesson is that *an instrument with an unstated attribute is
+  unreadable* — so four differing attributes ought to mean a genuinely separate route, not a re-search.
+  **RESULT: nil.** A query shaped entirely around the announcement — `giá tham chiếu điều chỉnh`, the 11-Aug
+  ex-date, both legs, the ₫10,000 subscription price — returned **only the corporate-action structure I already
+  hold**: 10:1 rights at ₫10,000, the 15% stock dividend, and a charter-capital ceiling of **₫102,687bn**.
+  **That ceiling is the single thing gained, and it is a corroboration rather than news:** ₫102,687bn ÷ ₫10,000
+  par = **10,268.7m shares**, which reconciles to the file's **10,068.75m post-action count plus the up-to-200m
+  placement** (10,068.75 + 200 = 10,268.75m). Two independent constructions of MBB's share count now agree to
+  0.05m shares. **No Ptc, at attempt seven and nil six.**
+  **WHAT I GOT WRONG, precisely:** I reasoned that *because* the instrument differs, the **reachability**
+  differs. Those are unrelated. The four attributes I listed are attributes of **what the number means**; the
+  block operates on **which host serves it**, and every host that carries MBB-specific pricing — announced or
+  traded — is the same blocked set. **A real distinction can still be an irrelevant one**, and I did not
+  separate "these are different numbers" from "these come from different places" before spending the search.
+  **THE CORRECTED GENERALISATION, and it is narrower than the row it replaces:** the closed route is not
+  *closing prices*. It is **MBB's price dimension entire** — no price of any construction for this ticker has
+  ever been returned by this environment. The COVERED row has been **widened in place** to say so, so the
+  announced-reference variant cannot present itself as a fresh idea to a later sweep the way it just did to me.
+  ⚠ **CONSEQUENCE FOR THE OPEN QUESTION: the ₫24,400 `P_cum` candidate stays UNRESOLVED, and it is now
+  unresolvable from inside this environment rather than merely unresolved.** The closed form `ex = 0.8 × P_cum +
+  ₫800` is confirmed against HOSE's published rule and needs exactly one observed price to become a number; that
+  price is the one class of fact this environment cannot supply. **This is the SEVENTH member of the
+  "unobservable trigger" family** — a test whose specification is complete and whose input is structurally out
+  of reach. **NOTHING MODELLED. NO CONFIDENCE MOVED. `valuation.MBB.price` UNTOUCHED AT ₫22,050.**
+  ⚠⚠ **RECORD DATE IS TOMORROW, WED 12-AUG. US CPI prints 19:30 ICT the same evening — ~5 hours AFTER the
+  record date has closed, so they cannot interact, and the first VN session able to react to CPI is THU 13-AUG.
+  Item 38's `fy26e_npat` re-derivation was due before today and was NOT done; that deadline has now passed, and
+  it is §4 human-only.**
 
 - **✅ 16:54 ICT TUE 11-AUG · MBB EX-DATE (lanes 3, 4) — THE TEST RAN AND RETURNED A PRE-REGISTERED NULL. THE
   RESIDUAL IS INSIDE THE BAND I DECLARED UNINTERPRETABLE BEFORE THE DATA, SO IT SAYS NOTHING — AND SAYING SO IS
