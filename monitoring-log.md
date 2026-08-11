@@ -116,6 +116,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 12:54 ICT TUE 11-AUG · KDH vs NLG (lane 6 — 20.3% of the book) — THE PEER TEST SPLITS THE THESIS. THE
+  REVENUE COLLAPSE IS SECTOR-WIDE. THE FORWARD BOOK IS KDH-SPECIFIC, AND BY A FACTOR OF SEVEN.**
+  ***Lane 6 was untouched today. NLG is KDH's direct listed comparable — both HCMC residential developers — and
+  this is the same test the file ran on HPG's steel peers on 07-Aug: let an outsider check the thesis.***
+  **NLG Q2/2026: revenue ₫415bn, −46% YoY; NPAT ₫66bn. H1: revenue ₫1,695bn, NPAT ₫176bn. Gross margin
+  IMPROVED 30.8% → 36.4%. Operating cash flow ~−₫1,100bn. FY target ₫7,630bn, +35%.**
+  **⚠ HALF THE KDH THESIS IS WEAKENED: THE REVENUE COLLAPSE IS NOT KDH-SPECIFIC.** The file holds KDH's
+  *"real-estate revenue at a four-year low, house-sale revenue down about 85%."* **NLG's Q2 revenue is −46% YoY
+  and its own coverage calls it *"khoảng lặng tạm thời do điểm rơi bàn giao"* — a temporary lull from handover
+  timing.** ***Two HCMC developers, same quarter, same direction. The current-revenue line reads as a sector
+  handover-timing phenomenon, and the KDH-specific reading of it is weaker than the file has had it.***
+  **⚠⚠ BUT THE OTHER HALF IS STRENGTHENED, AND SHARPLY, BECAUSE THE FORWARD INDICATORS DIVERGE.**
+  | forward indicator | NLG | KDH |
+  |---|---|---|
+  | buyer prepayments / customer advances | **~₫2,900bn** | **₫398.9bn** — *below its own ₫1,000bn kill threshold* |
+  | H1 presales | **~₫5,080bn, 1.5× YoY** | *(no comparable figure on file)* |
+  | inventory | ~₫8,600bn, ~34% of assets, **FLAT** since year-start | **₫29,488bn, +27% YTD** |
+  ***NLG's revenue fell while its forward book GREW — presales 1.5×, advances ₫2,900bn, inventory flat. That is
+  the signature of timing. KDH's revenue fell while its advances sit at ₫398.9bn and its inventory grew 27%.
+  That is not the same shape.*** **On advances the gap is ~7.3×.**
+  **⚠⚠ SO THE PEER TEST DOES NOT VINDICATE OR CONVICT — IT SEPARATES.** ***The sector explains the revenue line.
+  It does NOT explain the forward book, and KDH's armed kill criterion lives on exactly the indicator where the
+  peer diverges.*** *Two independent divergences — advances and inventory — pointing the same way is worth more
+  than either alone.*
+  ⚠ **COMPARABILITY CAVEAT, AND IT IS NOT SMALL:** NLG's *"tiền người mua trả trước"* and KDH's *"customer
+  advances"* are **broadly the same concept but I have NOT verified identical line definitions**, and a 7.3×
+  gap would survive a definitional difference far larger than any I would expect — **but the ratio, not the
+  levels, is what is being relied on.** *(`5,080` returns zero hits; `398.9` and `29,488` are the file's own.)*
+  **NOTHING MODELLED. The kill criterion is NOT declared fired — it is a 3Q26 test with a launch condition,
+  and this is peer evidence about its LIKELIHOOD, not the test itself. No confidence moved; §2 requires T1–T2
+  and this is T5. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB IS EX-RIGHTS TODAY; record 12-Aug. Item 38's re-derivation was due before today and was NOT done —
+  deadline passed, §4 human-only.**
+
 - **⚠⚠ 11:54 ICT TUE 11-AUG · BANKS / OWNERSHIP (lane 7 — 51.5% of the book) — THE FILE PARKED "IS THE FOREIGN
   ROOM FULL?" AS *"THE NEXT QUESTION, NOT AN ANSWER."* HERE IS THE ANSWER, AND IT SUPPLIES A MECHANISM FOR THE
   FLOW ASYMMETRY I COULD NOT EXPLAIN ON 10-AUG.**
