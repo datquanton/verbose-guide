@@ -116,6 +116,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠ 14:54 ICT TUE 11-AUG · NLG / KDH (lane 6) — I TESTED THE LIMIT I STATED AN HOUR AGO. THE ANSWER IS A WEAK
+  NEGATIVE. AND THE SEARCH FOUND TWO CONFLICTS IN THE NLG DATA I BUILT THE 12:54 PEER TEST ON.**
+  ***Vietnam closed 9 minutes before this sweep — too fresh on the 113–114 minute bracket, and I refused at
+  exactly this point yesterday and was right to. Not read.***
+  **THE QUESTION I SET MYSELF AT 13:54:** *"I do NOT know NLG's returns line. None was reported, which is not
+  the same as none existing."*
+  **THE ANSWER, AND IT IS WEAK BY CONSTRUCTION: no returns line is reported for NLG. Its Q2 fall is attributed
+  entirely to *"số lượng sản phẩm bàn giao trong kỳ thấp hơn"* — fewer handovers — with no mention of revenue
+  deductions.** ***Absence of reporting is still not absence of the item.*** **What can be said: KDH's ₫78bn WAS
+  reported, presumably because at 32.6% of gross it was material; NLG's silence is consistent with immaterial or
+  zero. That is a weak asymmetry, and it is recorded as weak.**
+  **⚠⚠ THE MORE USEFUL FINDING IS A PROBLEM WITH MY OWN 12:54 SOURCE.** Two conflicts:
+  | figure | 12:54 source | this source |
+  |---|---|---|
+  | NLG Q2 NPAT | **₫66bn** | **>₫55bn** |
+  | gross margin | **30.8% → 36.4%, IMPROVED** | **~36.5%, *"gần tương đương năm trước"* — roughly FLAT vs last year** |
+  *The ₫66bn/₫55bn split has the shape of consolidated-versus-parent (LNST vs LNST công ty mẹ), the standard
+  Vietnamese reporting pair — **but that is a hypothesis and neither figure is preferred.** The margin conflict
+  reconciles arithmetically as an H1 measure (₫618bn gross profit ÷ ₫1,695bn revenue = 36.5%) **without
+  resolving whether it improved or was flat.***
+  **✅ AND THE 12:54 CONCLUSION SURVIVES, WHICH IS WORTH CHECKING RATHER THAN ASSUMING.** ***The peer test rested
+  on presales (~₫5,080bn, 1.5×), buyer advances (~₫2,900bn) and inventory (~₫8,600bn, flat). NONE of those is in
+  conflict. The two conflicting items — NPAT and gross margin — were colour in that entry and carried no
+  weight.***
+  ⚠ **But the source-quality caveat is real and belongs on the record: the NLG figures I used at 12:54 come
+  from a source that disagrees with a second source on two of its numbers. The load-bearing three are
+  unchallenged; the entry as a whole is on thinner sourcing than it read.**
+  **NOTHING MODELLED. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  **⚠⚠ MBB HAS NOW TRADED EX-RIGHTS; record 12-Aug, with CPI at 19:30 ICT tomorrow evening AFTER the record
+  date closes. Item 38's re-derivation was due before today and was NOT done — deadline passed, §4 human-only.**
+
 - **⚠⚠⚠ 13:54 ICT TUE 11-AUG · KDH (lane 3 — 20.3% of the book) — KDH'S Q2 REVENUE IS NET OF ₫78bn OF SALES
   RETURNS, 32.6% OF GROSS. THE FILE HAS NEVER HELD THIS, AND IT PARTIALLY CORRECTS MY OWN ENTRY FROM ONE HOUR
   AGO.**
