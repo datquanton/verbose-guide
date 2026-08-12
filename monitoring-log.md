@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 16:54 ICT WED 12-AUG · THE 129-MINUTE BRACKET FAILED TODAY. IT IS NOT A RULE — IT WAS ONE SUCCESS I
+  GENERALISED FROM, AND I HAVE CITED IT THREE TIMES TODAY (lanes 4, 3).**
+  **WHAT HAPPENED.** Read at **129 minutes** past the 14:45 close — the offset that worked yesterday and the
+  reason I DECLINED to read at 15:54. **It returned 11-Aug data again: "VN-Index −0.19%, retreating to
+  1,773.41" and "net selling −₫769bn", both attributed to 12-Aug. Those are yesterday's figures to the
+  decimal.** *Fourth consecutive sweep in which the search layer served stale data as current; the detector —
+  holding 1,773.41 and ₫768.77bn firmly enough to recognise them — caught it each time.*
+  ⚠⚠ **THE OPERATIONAL FINDING, WHICH IS THE POINT OF THIS ENTRY. The tally is now: 69 min FAILED, 129 min
+  WORKED (once, yesterday), 129 min FAILED (today), and 84 min failed against the MORNING close — a different
+  reference event that must not be pooled with these. So the record is ONE success and THREE failures, and the
+  one success is the entire basis on which I called 129 "the tested window".** ***The indexing lag is VARIABLE,
+  not a fixed offset. "The offset that worked" was an over-generalisation from n=1, and I acted on it three
+  times today — including declining a 15:54 read on its authority.*** *Waiting cost nothing, because the hour
+  went to the MBB record date instead. But the justification I gave was stronger than the evidence supported,
+  and that is the error even when the decision happens to be fine.*
+  ⚠ **WHAT I DID GET ON 12-AUG, AND IT IS A HEADLINE ONLY — NO NUMBER, NOT A CLOSE.** A 12-Aug piece in the
+  `Nhịp đập Thị trường` series reports **VN-Index *bứt phá* (breaking out), with money flowing into PROPERTY
+  and BANKING.** ⚠⚠ **That series is the intraday market-pulse feed — the exact publication type I misread as a
+  close on 11-Aug. It is recorded as an INTRADAY DIRECTIONAL READ and nothing more.**
+  ✅ **THE APPARENT CONTRADICTION RESOLVES CLEANLY AND IS WORTH STATING:** a breakout headline for 12-Aug sits
+  beside a "−0.19%" in the same result set. **They do not conflict — the −0.19% is 11-Aug's close, misdated by
+  the synthesis; the breakout is 12-Aug intraday.** *Two different sessions, not a disputed number.*
+  ⚠ **RELEVANCE, UNMODELLED: property and banking are where this book sits — KDH, and TCB/VPB/MBB. A directional
+  read with no level attached does not move anything, and today is MBB's record date, so its quoted move is
+  against an ADJUSTED reference in any case.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** **US CPI 19:30 ICT tonight — ~2.5h away, and 5h after the VN close, so the first VN reaction is
+  THU 13-AUG.**
+  [Vietstock — Nhịp đập Thị trường 12/08 (INTRADAY)](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1208-vn-index-but-pha-dong-tien-tiep-tuc-do-vao-nhom-bat-dong-san-va-ngan-hang-1636-1479537.htm) · [Vietstock Daily 12/08](https://vietstock.vn/2026/08/vietstock-daily-12082026-chua-the-but-pha-1636-1479320.htm) · [TNCK — 11-Aug flows, the figure misdated to today](https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-hon-760-ty-dong-trong-phien-118-gap-gan-3-lan-phien-truoc-post395743.html)
+
 - **✅ 15:54 ICT WED 12-AUG · MBB RECORD DATE LANDED AS PREDICTED, AND THE FILE'S DATING METHOD IS VINDICATED
   (lanes 3, 7). Short entry — one new fact, the rest is confirmation.**
   ✅ **MBB closed its shareholder list TODAY, 12-Aug, for BOTH legs** — the 15% stock dividend (**>1.2bn
