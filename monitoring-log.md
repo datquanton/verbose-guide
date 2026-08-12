@@ -118,6 +118,28 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 04:54 ICT THU 13-AUG · THE PRE-STATED CPI TRANSMISSION MEETS REALITY — AND ITS FIRST LINK IS WEAK
+  (lane 1). Context for the VN open in ~4h.**
+  **THE US SESSION THAT TRADED ON CPI, closed 03:00 ICT:** S&P 500 **+0.26%** to 7,748.50 · Nasdaq **+0.54%**
+  to 26,588.49 · Dow **−0.04%** (−21.58 pts). **Treasuries rallied: 2Y −4bp to 4.17%, 10Y −4bp to 4.65%.**
+  ⚠⚠ **THE DOLLAR DID NOT MOVE. DXY 99.8386, +0.01% — flat.** ***I wrote the chain down BEFORE the print:
+  "lower hike odds ⇒ less USD pressure ⇒ more SBV policy space." The Fed leg delivered — hike odds 42%, yields
+  −4bp at both tenors, coverage explicitly saying pressure to raise next month has eased. THE USD LEG DID
+  NOT.*** *Recording that the mechanism's first link came in at essentially zero is the entire value of having
+  fixed the chain in advance — an after-the-fact write-up would have run "CPI cooled, dollar softer, good for
+  VN" without anyone noticing the middle term never happened.*
+  ⚠ **SO THE HONEST READ FOR THE VN OPEN: a mildly supportive rates backdrop, a NEUTRAL currency backdrop, and
+  no measured elasticity on file to convert either into a Vietnamese price. Directionally benign; quantitatively
+  nothing.** *The book is 51.5% banks, which is where any SBV-policy-space effect would land — and there is no
+  effect to land yet.*
+  ⚠ **TWO THINGS I AM NOT CLAIMING.** (1) One DXY citation is framed as investors *"braced for"* the readings —
+  **a PRE-print framing**, so the 99.8386 may straddle the release; the flatness is robust, the precise level
+  is not. (2) A headline names **Kevin Warsh** as deciding September rates, implying Fed leadership this file
+  has never recorded. **Headline only, unverified, not claimed, and not needed for anything here.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [Yahoo Finance — Dow, S&P, Nasdaq rise after CPI cools slightly](https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html) · [TheStreet — S&P 500 climbs following key inflation report](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-12-2026) · [CNBC — Treasury yields and the CPI print](https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html) · [TradingEconomics — DXY](https://tradingeconomics.com/dxy:cur)
+
 - **✅⚠ 02:54 ICT THU 13-AUG · THE REVISED IRON-ORE CONDITION FAILED — AND ITS STATED DEFAULT FIRES, WHICH IS
   THE POINT OF HAVING WRITTEN ONE (lane 5). Short entry: this CLOSES a row rather than opening one.**
   **WHAT I TESTED.** Exactly 24h ago I found my first iron-ore condition UNOBSERVABLE (paywalled 62% Fe CFR
