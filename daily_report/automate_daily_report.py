@@ -43,6 +43,8 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import zipfile
+from copy import deepcopy
 from pathlib import Path
 
 import docx
@@ -350,6 +352,53 @@ def update_charts(prs, provider):
             replace_categories(_chart_on(prs.slides[si]), cat[0], cat[1])
 
 
+# --- Update charts directly from the Word report's EMBEDDED charts ----------
+# The MAS Word .docx embeds the deck's charts as native OOXML (word/charts/
+# chartN.xml) with full cached data. This copies that data straight into the
+# deck's chart caches -- no external workbook, no manual transcription, and
+# it is the authoritative daily source. Deck slide index -> Word chart number:
+SLIDE_TO_WORDCHART = {3: 2, 4: 1, 6: 3, 7: 6, 8: 8, 9: 9}
+
+
+def _copy_cache(src, dst):
+    """Copy ptCount + every <c:pt> from one cache element to another,
+    leaving the destination's <c:formatCode> untouched."""
+    if src is None or dst is None:
+        return
+    sp, dp = src.find(_c("ptCount")), dst.find(_c("ptCount"))
+    if sp is not None and dp is not None:
+        dp.set("val", sp.get("val"))
+    for pt in dst.findall(_c("pt")):
+        dst.remove(pt)
+    for pt in src.findall(_c("pt")):
+        dst.append(deepcopy(pt))
+
+
+def _word_chart_series(docx_path, n):
+    with zipfile.ZipFile(docx_path) as z:
+        root = etree.fromstring(z.read(f"word/charts/chart{n}.xml"))
+    return root.findall(".//" + _c("ser"))
+
+
+def update_charts_from_word(prs, docx_path, mapping=None):
+    """Refresh the deck's charts from the Word report's embedded charts.
+    Series are matched by position (names/order verified to align); if the
+    Word chart has more series than the deck (e.g. bond yields duplicated onto
+    a second axis), the extra Word series are ignored."""
+    mapping = mapping or SLIDE_TO_WORDCHART
+    for slide_idx, wc in mapping.items():
+        chart = _chart_on(prs.slides[slide_idx])
+        if chart is None:
+            continue
+        wsers = _word_chart_series(docx_path, wc)
+        for pi, ps in enumerate(_series(chart)):
+            if pi >= len(wsers):
+                break
+            ws = wsers[pi]
+            _copy_cache(_cache(ws.find(_c("cat"))), _cache(ps.find(_c("cat"))))
+            _copy_cache(_cache(ws.find(_c("val"))), _cache(ps.find(_c("val"))))
+
+
 # ---------------------------------------------------------------------------
 # 4. CLI
 # ---------------------------------------------------------------------------
@@ -369,7 +418,11 @@ def main(argv=None):
     ap.add_argument("--template", required=True)
     ap.add_argument("--word")
     ap.add_argument("--out")
-    ap.add_argument("--chart-source", choices=["none", "csv", "fiinquant"], default="none")
+    ap.add_argument("--chart-source", choices=["none", "word", "csv", "fiinquant"],
+                    default="word",
+                    help="'word' (default): copy the deck's 6 charts from the Word "
+                         "report's embedded charts; 'csv'/'fiinquant': external feed; "
+                         "'none': leave charts as-is")
     ap.add_argument("--data-dir", default="./data")
     ap.add_argument("--fx-rate", type=float, default=DEFAULT_FX_RATE)
     ap.add_argument("--inspect", action="store_true")
@@ -386,7 +439,9 @@ def main(argv=None):
     prs = Presentation(args.template)
     apply_text(prs, fields, args.fx_rate)
 
-    if args.chart_source != "none":
+    if args.chart_source == "word":
+        update_charts_from_word(prs, args.word)
+    elif args.chart_source != "none":
         from chart_data import get_provider
         update_charts(prs, get_provider(args.chart_source, Path(args.data_dir), fields))
 

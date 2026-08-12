@@ -9,47 +9,44 @@ with no Microsoft Office and no network-share access required.
 | Part of the deck | Source | How it's updated |
 |---|---|---|
 | Theme, OHLC table, VN-Index row, narrative, liquidity line, VN30 lists, trading value, foreign flow, short news | the **Word `.docx`** (text + tables) | `python-pptx`, run-level text edits (formatting preserved) |
-| 6 charts (contributors, foreign flows, P/E band, VN vs US$/VND, bond yields, interbank) | a **market-data feed** | chart **cache XML** rewritten directly (`lxml`) |
+| 6 charts (contributors, foreign flows, P/E band, VN vs US$/VND, bond yields, interbank) | the **Word `.docx`'s embedded charts** | chart **cache XML** copied across directly (`lxml`) |
 
-The charts are **native PowerPoint charts**, but their data is **OLE-linked to an
-external workbook**:
+The deck's charts are **native PowerPoint charts** whose data is OLE-linked to an
+external workbook (`\\10.0.16.23\...\Daily data-*.xlsm`); the deck stores a
+*cached* copy of each series for display. Because the link is external,
+`python-pptx`'s `chart.replace_data()` fails — so this tool edits the cached
+`<c:cat>`/`<c:val>` values in the chart XML instead, which works **headlessly**
+(server/cron/cloud), independent of the share.
 
-```
-\\10.0.16.23\mas\Department\Reseach\6.Daily Report\Daily data-2025_Aug_updated.xlsm
-```
+## Where the chart numbers come from — the Word doc itself
 
-The deck stores a *cached* copy of each chart's series for display. Because the
-link is external, `python-pptx`'s `chart.replace_data()` fails — so this tool
-edits the cached `<c:cat>`/`<c:val>` values in the chart XML instead. That makes
-chart updates work **headlessly** (server/cron/cloud), independent of the share.
+The same MAS Word report **embeds those six charts as native OOXML**
+(`word/charts/chartN.xml`) with full cached data — the authoritative daily
+figures. So the charts need **no external feed**: the tool copies each embedded
+Word chart's series straight into the matching deck chart. Swappable via
+`--chart-source`:
 
-## The one real dependency: where do the chart numbers come from?
-
-The Word report only contains the **text/table** data. The **chart series**
-(time-series of P/E, yields, interbank, FX, index; per-ticker contribution and
-foreign flows) need a data feed. Three options, swappable via `--chart-source`:
-
-- **`fiinquant`** — pull from the **FiinQuant** connector (VN market data: index,
-  foreign flows, valuations/P-E, bond yields, interbank, FX). *Most hands-off.*
-  ⚠️ Authorize the FiinQuant connector first (claude.ai connector settings, or
-  `/mcp` in an interactive Claude Code session), then wire `FiinQuantProvider`
-  in `chart_data.py` (it's a clearly-marked stub today).
-- **`csv`** — drop daily CSVs in a folder (formats below). No connector needed.
-- **`none`** (default) — text/tables only; charts left untouched.
+- **`word`** (default) — copy the 6 charts from the Word report's embedded
+  charts. No workbook, no connector, no manual transcription. Mapping
+  (deck slide → Word chart) lives in `SLIDE_TO_WORDCHART`.
+- **`csv`** — drop daily CSVs in a folder (formats below).
+- **`fiinquant`** — pull from the **FiinQuant** connector (stub in `chart_data.py`;
+  authorize the connector first via claude.ai settings or `/mcp`).
+- **`none`** — text/tables only; charts left untouched.
 
 ## Usage
 
 ```bash
 pip install python-pptx python-docx lxml
 
-# text/tables only:
+# text/tables + all 6 charts, straight from the Word report (default):
 python automate_daily_report.py \
     --word     Daily_MAS_YYYYMMDD.docx \
     --template DailyReport_Mobile_EN_template.pptx \
     --out      DailyReport_Mobile_EN_YYYYMMDD.pptx
 
-# text/tables + charts from CSVs:
-python automate_daily_report.py ... --chart-source csv --data-dir ./data
+# text/tables only (leave charts as-is):
+python automate_daily_report.py ... --chart-source none
 
 # after a template redesign, re-check shape addressing:
 python automate_daily_report.py --template TEMPLATE.pptx --inspect
