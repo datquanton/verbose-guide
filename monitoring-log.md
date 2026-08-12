@@ -118,6 +118,29 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 02:54 ICT THU 13-AUG · THE REVISED IRON-ORE CONDITION FAILED — AND ITS STATED DEFAULT FIRES, WHICH IS
+  THE POINT OF HAVING WRITTEN ONE (lane 5). Short entry: this CLOSES a row rather than opening one.**
+  **WHAT I TESTED.** Exactly 24h ago I found my first iron-ore condition UNOBSERVABLE (paywalled 62% Fe CFR
+  Qingdao) and **revised it to something reachable**: *re-test via a free-tier aggregator publishing BOTH iron
+  ore and HRC, so the coherence check stays runnable — failing that, the input stays at US$98.25 and the range
+  break is never claimed.* **Tested tonight. FAILED.** No current dual-benchmark source: HRC quotes returned
+  are **2-Apr** (US$1,075/t) and **March** (NE Asia ~US$490/t, N.America ~US$1,050/t); iron ore came back only
+  as an undated *"SGX futures around US$100–103.60"*.
+  ✅ **SO THE DEFAULT FIRES: `iron ore` STAYS AT THE ON-FILE US$98.25, AND THE −3.87% RANGE BREAK IS NEVER
+  CLAIMED. The row is CLOSED, not left hopeful.** *This is the difference yesterday's lesson was about — a
+  condition that can FAIL resolves the question; one that can only stay open never does.*
+  ⚠⚠ **AND A FOURTH INSTRUMENT VARIANT HAS APPEARED, WHICH RETROSPECTIVELY STRENGTHENS THE ORIGINAL REFUSAL.**
+  Iron ore is now quoted across sources at **US$94.45** (07-Aug, bare "Iron Ore"), **US$96.55** (31-Jul, 62% Fe
+  fines), **US$98.25** (on file, 62% Fe CFR Qingdao) and now **US$100–103.60** (SGX futures, undated). ***Four
+  numbers spanning 9.7%, all called "iron ore". At 01:54 yesterday I declined to bank the US$94.45 because the
+  series was ambiguous and it would have FLATTERED the book by ≈+₫0.13m/t. Each further variant makes that
+  refusal look better, and it is the only kind of vindication worth having — the discipline paid in a direction
+  I did not want.***
+  ⚠ *HRC quotes here are US and NE-Asia regional benchmarks months stale; HPG's own August offer is
+  **US$546.50** list. Not comparable, not compared.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** *`iron_ore` remains US$98.25 by stated default. Only FiinQuant, once authorised, changes this.*
+
 - **✅⚠⚠ 00:54 ICT THU 13-AUG · THE CPI SCORE IS FULLY RESOLVED: 4 OF 4 EXACT. THERE WAS NO MISS — I HAD THE
   CONSENSUS WRONG, AND THE "FINDING" I REPORTED WAS AN ARTIFACT OF MY OWN BENCHMARK (lane 1).**
   ✅ **THE DOW JONES CONSENSUS FOR HEADLINE CPI WAS +0.1% MoM, bringing the 12-month gain to 3.4%; core +0.2%
