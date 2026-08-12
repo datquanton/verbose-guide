@@ -118,6 +118,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 23:54 ICT WED 12-AUG · MY CPI "MISS" IS WITHDRAWN — THE BENCHMARK WAS A COMPOSITE I LABELLED AS
+  SINGLE-SOURCE. PLUS THE FED-PATH NUMBER, WHICH IS THE REAL MACRO CONTENT (lane 1).**
+  ⚠⚠ **THE CORRECTION FIRST. CNBC reports the July print — headline +0.1% MoM, core +0.2%, 3.4% and 2.5% YoY,
+  each down 0.1pp — and states that ALL of the readings were IN LINE WITH THE DOW JONES CONSENSUS. That is the
+  same house I attributed my 19:54 benchmark to, and against which I scored a MISS on headline MoM.**
+  ***Both cannot stand. My 19:54 table took the MoM figures from a preview synthesis and the YoY figures from
+  a Dow Jones attribution, then captioned the whole table "Dow Jones survey". It was a COMPOSITE BENCHMARK
+  PRESENTED AS SINGLE-SOURCE.*** **THE MISS IS WITHDRAWN AS UNESTABLISHED — not reversed to "exact", because
+  I still cannot show what the Dow Jones headline MoM consensus actually was.**
+  ⚠⚠ **AND THE PART WORTH KEEPING: AT 20:54 I DIAGNOSED THE RIGHT FAILURE FAMILY AND THE WRONG INSTANCE.** I
+  wrote that a survey-house mismatch could keep both statements true, and named **LSEG vs Dow Jones** as the
+  candidate pair. *The substitution was real, but it was INSIDE MY OWN BENCHMARK — MoM from one provider, YoY
+  from another — not between mine and theirs. Suspecting the right mechanism while pointing it outward is its
+  own error, and a comfortable one: it located the ambiguity in someone else's yardstick rather than in the
+  one I built.*
+  ✅ **WHAT SURVIVES, AND IT IS THE PRACTICE RATHER THAN THE SCORE: writing the expectation down BEFORE the
+  print was still right, and it is what made this correction possible at all.** *A benchmark recorded after
+  the fact could not have been caught being wrong, because it would have been assembled to fit. The lesson is
+  narrower than "pre-register" — it is **pre-register from ONE named provider, and if you must compose, say
+  so in the caption.***
+  ✅ **THE MACRO CONTENT, WHICH IS GENUINELY NEW: after the print, CME FedWatch odds of a SEPTEMBER RATE HIKE
+  were cut to 42%.** ⚠ **A HIKE, not a cut — this is a tightening-risk environment, and the file's Fed framing
+  already reflects that (14 hits for "hike" here, 8 in `assumptions.json`, so the FRAME is not new; the
+  DATED, MARKET-IMPLIED NUMBER is).** *An in-line, cooling print took the urgency out of a September move.*
+  ⚠ **TRANSMISSION, UNBENT FROM WHAT I WROTE BEFORE THE PRINT: lower hike odds ⇒ less USD pressure ⇒ more SBV
+  policy space. INDIRECT, no measured elasticity on file, no holding reprices mechanically.** *The direction
+  is mildly favourable for a book that is 51.5% banks, and it is recorded as context, not as an input.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** **FIRST VN REACTION THU 13-AUG — the session opens ~9h from now.**
+  [CNBC — CPI July 2026: prices rose 0.1%, annual 3.4%](https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html) · [Invezz — CPI and Fed rate clues](https://invezz.com/za/news/2026/08/12/us-cpi-data-today-to-provide-fed-rate-clues-this-is-how-markets-might-react/) · [Phemex — July CPI and the Fed's September odds](https://phemex.com/academy/wednesdays-cpi-report-hike-off-table)
+
 - **⚠⚠⚠ 21:54 ICT WED 12-AUG · `bls.gov` IS EGRESS-BLOCKED, SO THE T1 UPGRADE I PROMISED AN HOUR AGO CAN
   NEVER HAPPEN — MY SECOND SELF-AUTHORED UNOBSERVABLE CONDITION IN NINETEEN HOURS (lane 1).**
   **WHAT I TRIED.** The 20:54 entry logged the CPI actual as **T4 secondary** (Fox Business, NBC) with an
@@ -150,7 +181,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   (lane 1). THREE OF FOUR EXACT; HEADLINE MoM ONE TENTH SOFTER.**
   | | pre-registered 19:54 | **ACTUAL** | |
   |---|---|---|---|
-  | Headline MoM | +0.2% | **+0.1%** | ⚠ **MISS — 0.1pp softer** |
+  | Headline MoM | +0.2% *(composite)* | **+0.1%** | ⚠⚠ **MISS WITHDRAWN 23:54 — benchmark provenance unverified** |
   | Headline YoY | 3.4% | **3.4%** | ✅ exact |
   | Core MoM | +0.2% | **+0.2%** | ✅ exact |
   | Core YoY | 2.5% | **2.5%** | ✅ exact |
