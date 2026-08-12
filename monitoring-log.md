@@ -118,6 +118,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅ 20:54 ICT WED 12-AUG · US JULY CPI — THE ACTUAL, SCORED AGAINST THE BENCHMARK I FIXED 60 MINUTES AGO
+  (lane 1). THREE OF FOUR EXACT; HEADLINE MoM ONE TENTH SOFTER.**
+  | | pre-registered 19:54 | **ACTUAL** | |
+  |---|---|---|---|
+  | Headline MoM | +0.2% | **+0.1%** | ⚠ **MISS — 0.1pp softer** |
+  | Headline YoY | 3.4% | **3.4%** | ✅ exact |
+  | Core MoM | +0.2% | **+0.2%** | ✅ exact |
+  | Core YoY | 2.5% | **2.5%** | ✅ exact |
+  **Headline YoY cooled from 3.5%; core from 2.6%, its lowest since January. Inflation cooled while remaining
+  elevated.**
+  ⚠⚠ **THE ONE MISS IS THE ONLY INTERESTING CELL, AND IT ONLY EXISTS BECAUSE THE NUMBER WAS WRITTEN DOWN
+  FIRST.** *Had I searched once at 20:54 and logged "CPI came in at 3.4%/2.5%, in line", the 0.1pp headline
+  undershoot would have vanished into the word "in line" — which is exactly how it is being reported.*
+  ⚠ **AND A BASIS NOTE THAT KEEPS BOTH STATEMENTS TRUE: coverage says the print was "in line with the
+  estimates of economists polled by LSEG", while I pre-registered the DOW JONES survey. Two different survey
+  houses. A 0.1pp headline miss against one and "in line" against the other are not contradictory** — *and
+  this is the same measure-substitution family the file catalogues, appearing this time in the BENCHMARK
+  rather than in the measurement. I am not adjudicating which survey was right; I am recording that my score
+  is against Dow Jones.*
+  ⚠ **TIER: the actual is from SECONDARY wires (Fox Business, NBC). The BLS pages reachable this hour are
+  still `2026 M06` — JUNE. The primary July release is not yet indexed, so this is T4, not T1**, and the
+  numbers should be re-confirmed against `bls.gov` when it appears.
+  ✅ **A CHECK THAT CAME BACK NEGATIVE, REPORTED BECAUSE NEGATIVE CHECKS ARE THE POINT.** The coverage
+  attributes the inflation spike to energy and *"the war with Iran showing no sign of ending"*. **I moved to
+  log that as a gap — and it is NOT one: `Iran` returns 8 hits in this log and 4 in `assumptions.json`.** *The
+  file already carries the energy driver. Recording it as a discovery would have inflated known context into a
+  finding, which is the failure mode on the opposite side of missing something.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** ⚠ **The transmission stated BEFORE the print stands unchanged and unbent by the result: CPI → Fed
+  path → USD/VND and SBV policy space, INDIRECT, no measured elasticity on file. A 0.1pp headline undershoot
+  does not reprice any holding. FIRST VN REACTION THU 13-AUG.**
+  [Fox Business — July CPI, price growth cooled but remained elevated](https://www.foxbusiness.com/economy/cpi-inflation-july-2026) · [NBC — July 2026 CPI report](https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698) · [BLS CPI news release (still M06 as of this hour)](https://www.bls.gov/news.release/cpi.nr0.htm)
+
 - **⚠⚠ 19:54 ICT WED 12-AUG · US JULY CPI — THE CONSENSUS, PRE-REGISTERED, WITH THE ACTUAL STILL UNKNOWN TO
   ME (lane 1). THIS IS A BENCHMARK, NOT A RESULT, AND THE DISTINCTION IS THE WHOLE POINT OF THE ENTRY.**
   **THE PRINT WAS RELEASED 24 MINUTES AGO — 19:30 ICT / 08:30 ET. IT IS NOT INDEXED. Every source reachable
