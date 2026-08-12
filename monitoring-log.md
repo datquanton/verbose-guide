@@ -118,6 +118,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 21:54 ICT WED 12-AUG · `bls.gov` IS EGRESS-BLOCKED, SO THE T1 UPGRADE I PROMISED AN HOUR AGO CAN
+  NEVER HAPPEN — MY SECOND SELF-AUTHORED UNOBSERVABLE CONDITION IN NINETEEN HOURS (lane 1).**
+  **WHAT I TRIED.** The 20:54 entry logged the CPI actual as **T4 secondary** (Fox Business, NBC) with an
+  explicit instruction: *"re-confirm against `bls.gov` when the July release indexes."* **I went to do exactly
+  that. `WebFetch` on `https://www.bls.gov/news.release/cpi.nr0.htm` returns `EGRESS_BLOCKED`.**
+  ⚠⚠ **SO THE INSTRUCTION IS VOID, AND LEAVING IT STANDING WOULD BE WORSE THAN NEVER WRITING IT — it reads
+  as actionable follow-up and would send every future sweep back to a host that cannot be reached. THE JULY
+  CPI FIGURES ARE T4 PERMANENTLY from this environment: headline +0.1% MoM / 3.4% YoY, core +0.2% MoM / 2.5%
+  YoY, two independent secondary outlets agreeing, and no primary route established.** *Two agreeing
+  secondaries is what the evidence is; calling it provisional-pending-primary implies a primary is coming.*
+  ⚠⚠⚠ **THE PATTERN IS THE FINDING, AND IT IS NOT FLATTERING. At 02:54 I wrote a resolution condition on iron
+  ore that named a PAYWALLED series, logged it as the seventh catalogued unobservable and the first I had
+  authored myself, and drew the lesson: "name the observation that would settle it" is only the FIRST of two
+  questions; the second is "AND CAN I MAKE THAT OBSERVATION?". NINETEEN HOURS LATER I WROTE ANOTHER ONE.**
+  ***Knowing the rule, having just written the rule, and having named the exact trap did not stop me walking
+  into it a second time — because both times the condition was written at the END of an entry, as a tidy
+  closing gesture, when the checking energy had already been spent on the finding itself.*** *That is the
+  actual mechanism, and it is more useful than restating the rule a third time.*
+  **HOST CATALOGUE UPDATED: `bls.gov` joins the blocked set** — previously **six egress-blocked hosts incl.
+  `lseg.com`**, plus `vsd.vn` gateway-blocked. ⚠ *Note what these three have in common: **lseg.com** (FTSE
+  constituent lists), **vsd.vn** (Vietnamese record dates), **bls.gov** (US inflation primaries). **Every
+  authoritative PRIMARY registry this file needs is unreachable, while the secondary press that repeats them
+  is fully reachable.** That is not three separate misfortunes — it is a structural property of this
+  environment, and it means T1 is essentially unattainable for regulatory and statistical facts here.*
+  **EIGHTH CATALOGUED UNOBSERVABLE. Nothing modelled. No input changed. `DECISION-BRIEF.md` byte-identical;
+  no trigger fires.** *The CPI numbers themselves are unaffected — this changes their CEILING, not their
+  value.*
+
 - **✅ 20:54 ICT WED 12-AUG · US JULY CPI — THE ACTUAL, SCORED AGAINST THE BENCHMARK I FIXED 60 MINUTES AGO
   (lane 1). THREE OF FOUR EXACT; HEADLINE MoM ONE TENTH SOFTER.**
   | | pre-registered 19:54 | **ACTUAL** | |
@@ -138,8 +166,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   rather than in the measurement. I am not adjudicating which survey was right; I am recording that my score
   is against Dow Jones.*
   ⚠ **TIER: the actual is from SECONDARY wires (Fox Business, NBC). The BLS pages reachable this hour are
-  still `2026 M06` — JUNE. The primary July release is not yet indexed, so this is T4, not T1**, and the
-  numbers should be re-confirmed against `bls.gov` when it appears.
+  still `2026 M06` — JUNE. The primary July release is not yet indexed, so this is T4, not T1**, ⚠ **VOID — SEE 21:54: `bls.gov` IS EGRESS-BLOCKED; THIS RE-CONFIRMATION CAN NEVER BE PERFORMED. T4 IS THE PERMANENT CEILING.**
   ✅ **A CHECK THAT CAME BACK NEGATIVE, REPORTED BECAUSE NEGATIVE CHECKS ARE THE POINT.** The coverage
   attributes the inflation spike to energy and *"the war with Iran showing no sign of ending"*. **I moved to
   log that as a gap — and it is NOT one: `Iran` returns 8 hits in this log and 4 in `assumptions.json`.** *The
