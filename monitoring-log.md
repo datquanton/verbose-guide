@@ -118,6 +118,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅ 15:54 ICT WED 12-AUG · MBB RECORD DATE LANDED AS PREDICTED, AND THE FILE'S DATING METHOD IS VINDICATED
+  (lanes 3, 7). Short entry — one new fact, the rest is confirmation.**
+  ✅ **MBB closed its shareholder list TODAY, 12-Aug, for BOTH legs** — the 15% stock dividend (**>1.2bn
+  shares**) and the ~**805.5m**-share rights offer at ₫10,000. **Exactly what gate row 43 said**: record Wed
+  12-Aug, ex Tue 11-Aug, last cum Mon 10-Aug.
+  ⚠⚠ **THE VINDICATION IS THE METHOD, NOT THE DATE. That row derived the ex/record gap from MBB's OWN prior
+  action — its 10% cash dividend, record 10-Jul ⇒ ex 09-Jul, a one-business-day gap — rather than from any
+  claim in this file. It then REJECTED an external source that called 12-Aug the ex-date and the record date
+  in the same paragraph.** *The source was wrong, the issuer's own precedent was right, and a one-day error
+  there costs an entire entitlement.*
+  **NEW TO THE FILE — the instrument identifier: the offering runs under SSC Certificate No. `335/GCN-UBCK`,
+  issued 31-Jul-2026.** ⚠ *Recorded because this file has twice diagnosed itself as "recording what a rule
+  does and not which rule it is" — the LDR change and the HCMC land table both went in by substance with no
+  instrument ID. `335/GCN` and `GCN-UBCK` had ZERO hits repo-wide before this entry. That is the gap class
+  closing, not a new development.*
+  ✅ **AN APPARENT ARITHMETIC DISCREPANCY THAT RESOLVES, CHECKED RATHER THAN ASSUMED.** 805.5m rights at 10:1
+  implies an **8,055m** base; 15% of that is **1,208m**, matching the ">1.2bn" reported — **so the dated tranche
+  is +25.0%, not the +27.5% row 49 carries.** *Not a conflict: the extra 2.5pp is the **undated placement of up
+  to 200m shares**, and line 1327 already separates them — "+27.5% of share issuance, and its dated +25.0%
+  tranche". Two figures, two scopes, both correct, and the file had already said so.*
+  ⚠ **WHAT REMAINS OPEN AND IS NOT CLOSED BY TODAY:** rights transferable **18–26 Aug** (~₫992 each),
+  subscription to **07-Sep**; `valuation.MBB.price` still ₫22,050 against a worked theoretical adjustment of
+  **₫18,440**; and **item 38's `fy26e_npat` re-derivation was due by TODAY and has NOT been done — §4
+  human-only, an automated run cannot do it.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [TNCK — MB chốt quyền cổ tức 15%, chào bán 805,5 triệu cp giá 10.000đ](https://www.tinnhanhchungkhoan.vn/mb-chot-quyen-chia-co-tuc-15-phat-hanh-chao-ban-gan-8055-trieu-co-phieu-gia-10000-dongcp-post395281.html) · [FireAnt — MBB chốt ngày chào bán và trả cổ tức](https://fireant.vn/bai-viet/mbb-chot-ngay-chao-ban-co-phieu-va-tra-co-tuc-cho-co-dong/41249240) · [CafeF — tuần tới một ngân hàng chốt quyền 15%](https://cafef.vn/tuan-toi-mot-ngan-hang-se-chot-quyen-nhan-co-tuc-ty-le-15-co-dong-con-duoc-mua-them-co-phieu-gia-re-188260808180555989.chn)
+
 - **⚠⚠ 02:54 ICT WED 12-AUG · THE RESOLUTION CONDITION I WROTE 60 MINUTES AGO IS ITSELF UNOBSERVABLE (lane 5).
   NO MARKET DEVELOPMENT — this entry changes a WATCH STATUS, nothing else, and it is short on purpose.**
   **WHAT I WENT LOOKING FOR:** the 01:54 condition, verbatim — *a 62% Fe CFR Qingdao print below 97.70 from a
