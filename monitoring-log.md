@@ -118,6 +118,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 18:54 ICT WED 12-AUG · THE 12-AUG CLOSE, AT LAST — A STRONG SESSION AND A FOREIGN-FLOW REVERSAL
+  (lanes 4, 3). Obtained at 249 MINUTES, after 129 and 189 both failed.**
+  ✅ **VN-INDEX CLOSED 1,793.18, +19.77 pts, +1.11%.** ⚠⚠ **AND IT RECONCILES EXACTLY AGAINST MY OWN PRIOR
+  WORK: 1,773.41 + 19.77 = 1,793.18 to the cent, and 19.77 ÷ 1,773.41 = +1.11% as reported.** *Two
+  independently-obtained figures agreeing to the cent is the strongest confirmation available here — it
+  re-validates the hard-won 11-Aug close a FOURTH time and validates this one on arrival.*
+  ⚠⚠ **THE PORTFOLIO-RELEVANT ITEM IS THE FLOW REVERSAL: "khối ngoại MUA RÒNG TRỞ LẠI" — FOREIGN INVESTORS
+  NET BOUGHT AGAIN, after 11-Aug's ₫768.77bn net SELL in which TCB was the single most-sold stock on the
+  exchange at ₫221.8bn. ⚠ DIRECTION ONLY — NO MAGNITUDE IS REPORTED, and I am not supplying one.** *A
+  reversal with no size is a fact about sign, not about scale, and TCB's foreign room is on file as LOCKED at
+  22.4908% and EXHAUSTED, which makes the sign the part that matters mechanically.*
+  ✅ **MY 16:54 INTRADAY DIRECTIONAL READ WAS RIGHT, AND IT WAS RIGHT AS LABELLED.** The `Nhịp đập Thị trường`
+  pulse said *bứt phá* with money into property and banking; the close confirms **+1.11%**, and a second
+  outlet names **property and energy as the leaders**. *The value of having logged it as an INTRADAY
+  DIRECTIONAL READ with no number is that it is now confirmed without ever having been overstated.*
+  ⚠⚠ **A BASIS AMBIGUITY I AM RECORDING RATHER THAN RESOLVING, BECAUSE IT CHANGES THE ANSWER BY 6.6pp.**
+  Turnover is given as **584.29m units / ₫13,888.87bn "trên TOÀN THỊ TRƯỜNG"** (whole market), with HNX
+  (₫704.81bn) and UPCoM (₫353.4bn) listed separately. **If that total INCLUDES them, HOSE ≈ ₫12,830bn, i.e.
+  −19.8% against 11-Aug's ₫16,005bn. If it EXCLUDES them, the fall is −13.2%.** *Both readings say the same
+  qualitative thing — **the index rose 1.11% on materially LOWER turnover** — and neither is claimed as the
+  number. Yesterday this same ecosystem gave two constructions ~1% apart; today the gap is 6.6pp, so averaging
+  would be worse than useless.*
+  **OTHER INDICES:** HNX **−0.85%** to 288.45 — *falling while HOSE rose*; UPCoM **+0.26%** to 127.51;
+  VNXALL **+0.68%** to 2,870.4.
+  ⚠ **MBB IS NOT READABLE FROM THIS.** Today is its RECORD DATE, so any quoted move is against the ADJUSTED
+  reference, and no single-stock close is in this source — a row already COVERED as unobservable after three
+  failed attempts.
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** *Index level is not a model input in this file; the flow reversal has no size; and MBB's price
+  remains §4 human-only.* **US CPI 19:30 ICT — ~36 MINUTES AWAY, ~5h after this close, so the first VN
+  reaction is THU 13-AUG.**
+  [Nhân Dân — VN-Index tăng gần 20 điểm, khối ngoại mua ròng trở lại](https://baomoi.com/chung-khoan-ngay-12-8-vn-index-tang-gan-20-diem-khoi-ngoai-mua-rong-tro-lai-c55818692.epi) · [Người Đưa Tin — bất động sản và năng lượng dẫn dắt](https://baomoi.com/vn-index-tang-gan-20-diem-nhom-bat-dong-san-va-nang-luong-dan-dat-c55818344.epi) · [CafeF — VN-Index tiến sát 1.800 điểm](https://cafef.vn/vn-index-tien-sat-1800-diem-them-co-phieu-ngan-hang-len-san-188260812160424064.chn) · [TNCK — phiên sáng 12/8, thử thách mốc 1.790](https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-sang-128-thi-truong-khoi-sac-vn-index-thu-thach-moc-1790-diem-post395790.html)
+
 - **⚠⚠⚠ 16:54 ICT WED 12-AUG · THE 129-MINUTE BRACKET FAILED TODAY. IT IS NOT A RULE — IT WAS ONE SUCCESS I
   GENERALISED FROM, AND I HAVE CITED IT THREE TIMES TODAY (lanes 4, 3).**
   **WHAT HAPPENED.** Read at **129 minutes** past the 14:45 close — the offset that worked yesterday and the
