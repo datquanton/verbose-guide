@@ -118,6 +118,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 00:54 ICT THU 13-AUG · THE CPI SCORE IS FULLY RESOLVED: 4 OF 4 EXACT. THERE WAS NO MISS — I HAD THE
+  CONSENSUS WRONG, AND THE "FINDING" I REPORTED WAS AN ARTIFACT OF MY OWN BENCHMARK (lane 1).**
+  ✅ **THE DOW JONES CONSENSUS FOR HEADLINE CPI WAS +0.1% MoM, bringing the 12-month gain to 3.4%; core +0.2%
+  MoM and 2.5% YoY. THE ACTUAL WAS +0.1% / 3.4% / +0.2% / 2.5%. ALL FOUR EXACT.**
+  | | **Dow Jones consensus (now verified)** | **actual** | |
+  |---|---|---|---|
+  | Headline MoM | **+0.1%** | +0.1% | ✅ exact |
+  | Headline YoY | 3.4% | 3.4% | ✅ exact |
+  | Core MoM | +0.2% | +0.2% | ✅ exact |
+  | Core YoY | 2.5% | 2.5% | ✅ exact |
+  ⚠⚠ **SO MY 19:54 TABLE CARRIED A WRONG CELL: I RECORDED HEADLINE MoM AS +0.2%. That figure came from a
+  market-calendar post, NOT from Dow Jones — and I captioned the whole table "Dow Jones survey."** *The 23:54
+  composite diagnosis was right; this closes it with the actual number rather than leaving it at "cannot
+  establish."*
+  ⚠⚠⚠ **AND THE SHAPE OF THIS ERROR IS ALREADY IN THIS FILE UNDER ANOTHER NAME. At 20:54 I reported the
+  "miss" as THE most interesting cell — "the only interesting cell, and it exists only because the number was
+  written down first." IT DID NOT EXIST AT ALL. I computed a deviation against a consensus that was never the
+  consensus.** ***That is structurally the KDH PHANTOM: a completion rate computed for an event carrying no
+  reporting obligation. Same disease — a real calculation performed against a referent that isn't there — and
+  the tell is identical, that nobody asked whether the thing being measured against was actually so.***
+  ✅ **WHAT SURVIVES, NARROWED AGAIN AND NOW EARNED: pre-registration remains right, and it is STILL what made
+  this findable — a benchmark assembled after the print could never have been audited. But the refined rule
+  from 23:54 needed one more clause. Not just "pre-register from ONE named provider" — VERIFY THE CELLS AGAINST
+  THAT PROVIDER BEFORE SCORING ANYTHING AGAINST THEM.** *A pre-registration is a claim about the world too,
+  and I gave it none of the checking I gave the actual.*
+  ⚠ **NOTHING ABOUT THE PORTFOLIO CHANGES. The print was in line on every measure, September hike odds sit at
+  42%, and the transmission stands as pre-stated: lower hike odds ⇒ less USD pressure ⇒ more SBV policy space,
+  indirect, no measured elasticity.** **NOTHING MODELLED. No input changed. No confidence moved.
+  `DECISION-BRIEF.md` byte-identical; no trigger fires.** **VN opens in ~8h — first session to carry CPI.**
+  [CNBC — an inflation report Wednesday: what to expect (DJ consensus +0.1%)](https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html) · [CNBC — CPI July 2026 actual](https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html) · [Morningstar — July CPI expected to bounce back](https://www.morningstar.com/economy/july-cpi-expected-bounce-back-after-unexpected-june-inflation-decline)
+
 - **⚠⚠⚠ 23:54 ICT WED 12-AUG · MY CPI "MISS" IS WITHDRAWN — THE BENCHMARK WAS A COMPOSITE I LABELLED AS
   SINGLE-SOURCE. PLUS THE FED-PATH NUMBER, WHICH IS THE REAL MACRO CONTENT (lane 1).**
   ⚠⚠ **THE CORRECTION FIRST. CNBC reports the July print — headline +0.1% MoM, core +0.2%, 3.4% and 2.5% YoY,
@@ -181,7 +212,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   (lane 1). THREE OF FOUR EXACT; HEADLINE MoM ONE TENTH SOFTER.**
   | | pre-registered 19:54 | **ACTUAL** | |
   |---|---|---|---|
-  | Headline MoM | +0.2% *(composite)* | **+0.1%** | ⚠⚠ **MISS WITHDRAWN 23:54 — benchmark provenance unverified** |
+  | Headline MoM | ~~+0.2%~~ **WRONG CELL** | **+0.1%** | ✅ **RESOLVED 00:54 — DJ consensus WAS +0.1%. NO MISS; MY BENCHMARK WAS WRONG** |
   | Headline YoY | 3.4% | **3.4%** | ✅ exact |
   | Core MoM | +0.2% | **+0.2%** | ✅ exact |
   | Core YoY | 2.5% | **2.5%** | ✅ exact |
