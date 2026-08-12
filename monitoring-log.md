@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 19:54 ICT WED 12-AUG · US JULY CPI — THE CONSENSUS, PRE-REGISTERED, WITH THE ACTUAL STILL UNKNOWN TO
+  ME (lane 1). THIS IS A BENCHMARK, NOT A RESULT, AND THE DISTINCTION IS THE WHOLE POINT OF THE ENTRY.**
+  **THE PRINT WAS RELEASED 24 MINUTES AGO — 19:30 ICT / 08:30 ET. IT IS NOT INDEXED. Every source reachable
+  this hour is a PREVIEW dated 10-Aug or earlier — *"US CPI Prep"*, *"What to Expect"*, *"expected to"*.**
+  ⚠ *Presenting any of it as the outcome would be the exact failure I have caught four times today in the
+  other direction, so it is recorded for what it is.*
+  **CONSENSUS ON FILE, BEFORE THE FACT — Dow Jones survey:**
+  | | MoM | YoY | prior YoY |
+  |---|---|---|---|
+  | **Headline CPI** | **+0.2%** | **3.4%** | 3.5% |
+  | **Core CPI** | **+0.2%** | **2.5%** | 2.6% |
+  *Headline MoM follows a **−0.4%** prior; core MoM follows a **flat** prior; core at 2.5% would be **the
+  lowest since January**.*
+  ⚠⚠ **WHY WRITE THIS DOWN NOW RATHER THAN WAIT AN HOUR FOR THE ACTUAL. Because this file's own practice is
+  that a benchmark recorded AFTER the outcome is not a benchmark.** *The pre-registered MBB ex-date test is
+  the precedent: its value came entirely from the band being fixed before the data existed. I happen to hold
+  the expectation and not the result, which is the only moment at which pre-registration is free — an hour
+  from now it would be reconstruction, and indistinguishable in the log from honest recall.*
+  **ZERO HITS repo-wide for the CPI consensus before this entry** — the gate row carried the DATE and TIME of
+  the release but never what the market expected, so a surprise would have had nothing to be a surprise
+  AGAINST.
+  ⚠ **TRANSMISSION, STATED SO IT IS NOT INVENTED LATER: CPI → Fed path → USD/VND and SBV policy space. It is
+  INDIRECT and this file holds no measured elasticity for it. No holding reprices off a US CPI print
+  mechanically.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** ⚠ **TIMING: the print lands ~5h AFTER the VN close, so the FIRST Vietnamese reaction is THU
+  13-AUG. Nothing in today's +1.11% session contains any CPI information.**
+  [Kiplinger — what to expect from the July CPI report](https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect) · [NBC — July 2026 CPI, inflation expected steady](https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698) · [CNBC — prediction markets point to tamer inflation](https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html) · [BLS CPI home (primary, for the actual)](https://www.bls.gov/cpi/)
+
 - **✅⚠⚠ 18:54 ICT WED 12-AUG · THE 12-AUG CLOSE, AT LAST — A STRONG SESSION AND A FOREIGN-FLOW REVERSAL
   (lanes 4, 3). Obtained at 249 MINUTES, after 129 and 189 both failed.**
   ✅ **VN-INDEX CLOSED 1,793.18, +19.77 pts, +1.11%.** ⚠⚠ **AND IT RECONCILES EXACTLY AGAINST MY OWN PRIOR
