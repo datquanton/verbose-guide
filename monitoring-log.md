@@ -118,6 +118,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 12:54 ICT THU 13-AUG · THE CENTRAL-RATE MOVE IS WORSE THAN I LOGGED AN HOUR AGO: IT IS A SUSTAINED
+  RUN AT SUCCESSIVE ALL-TIME HIGHS — AND A GREP NEARLY MADE ME RETRACT A TRUE FINDING (lane 1).**
+  ✅ **THE SERIES, FROM THIS FILE'S OWN RECORDS PLUS TODAY'S PRINT:**
+  | date | central rate | change |
+  |---|---|---|
+  | ~31-Jul | ₫25,338 | — |
+  | 05-Aug | ₫25,405 | +67 |
+  | 07-Aug | **₫25,463** | +58 — **logged on file as an ALL-TIME HIGH** |
+  | 13-Aug | **₫25,539** | +76 |
+  **That is +₫201, +0.79%, in about two weeks — and today sits ₫76 ABOVE a level this file had already recorded
+  as a record.** *At 11:54 I described it as "+134 đồng in eight days." The fuller series makes it a sustained
+  run setting successive records, which is a different and more adverse fact than a one-week drift.*
+  ⚠⚠⚠ **THE NEAR-MISS IS THE PART WORTH KEEPING, AND IT CUTS THE OPPOSITE WAY TO EVERY OTHER MISTAKE THIS
+  WEEK. A grep for central-rate levels returned FIVE apparent matches. FOUR WERE SHARE PRICES:** ₫25,561 is a
+  **TCB street target**, ₫25,400 a **VPX per-share value**, ₫25,500–28,250 an **HPG insider buy band**. **Only
+  ₫25,463 was an exchange rate.** ***And the most seductive false positive — ₫25,561 — sits ABOVE today's
+  ₫25,539. Taken uncontextualised it would have read as "the rate has been higher before," and I would have
+  SOFTENED a correct finding on the strength of a share price.***
+  ⚠⚠ *Every other error this week ran toward over-claiming. This one would have run toward under-claiming, and
+  it would have felt like caution. **The `context-check every grep hit` rule is not only a brake on
+  enthusiasm — it protects true findings from being talked down by their own file.*** *Sixth-plus instance of
+  the substring family, and the first where the false positive would have suppressed rather than manufactured.*
+  ⚠ **NOTHING ABOUT THE 11:54 CONCLUSION CHANGES — IT IS REINFORCED. The pre-stated chain's Vietnamese leg is
+  adverse; a central rate at successive records constrains SBV easing further, not less.** **The book is 51.5%
+  banks. NO ELASTICITY ON FILE — context, not an input.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** *No new external source this hour — the sharpening came from re-reading the file correctly.*
+
 - **⚠⚠⚠ 11:54 ICT THU 13-AUG · THE VIETNAMESE LEG OF THE PRE-STATED CHAIN IS NOT ABSENT — IT IS RUNNING THE
   OTHER WAY. USD/VND CENTRAL RATE IS RISING (lane 1).**
   **THE FACT: SBV's central rate on 13-Aug is ₫25,539, UP 23 đồng this morning.** ⚠ *One outlet says **+27
