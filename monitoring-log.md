@@ -118,6 +118,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 01:54 ICT FRI 14-AUG · A HOMONYM TRAP: I SEARCHED FOR THE QUOTA-REMOVAL PILOT AND GOT A DIFFERENT
+  "ROOM" POLICY ENTIRELY. MY TIMING QUESTION IS STILL OPEN — BUT THE WRONG ANSWER IS ITSELF MATERIAL, AND IT
+  NAMES TCB (lanes 1, 5-property).**
+  ⚠⚠⚠ **THE TRAP FIRST, BECAUSE IT IS A NEW FAILURE MODE FOR THIS FILE. I asked which banks are in the pilot
+  to remove CREDIT-GROWTH TARGETS. What came back is `Công văn 4551` — a SECTORAL CARVE-OUT in which 25 banks
+  may EXCLUDE incremental lending to SOCIAL HOUSING, INDUSTRIAL PARKS and EXPORT-PROCESSING ZONES from the
+  credit-room calculation for 01-Jan to 31-Dec-2026.** ***That is not the removal of quotas. It is a change to
+  what COUNTS AGAINST them. Two different instruments sharing the words "room tín dụng".*** *This file
+  catalogues stale-data traps and grep false positives; this is neither. It is a SEARCH returning a
+  same-named DIFFERENT INSTRUMENT — a homonym — and the only reason it was caught is that the mechanism
+  described did not match the mechanism asked for.*
+  ⚠ **SO THE 00:54 QUESTION STANDS UNANSWERED: whether the quota-removal pilot is running, imminent, or still
+  being drafted is NOT ESTABLISHED, and no pilot bank list has been found.**
+  ✅ **NOW THE THING I DID FIND, WHICH IS MATERIAL ON ITS OWN. `Công văn 4551` names 25 banks — and TCB IS
+  AMONG THEM** (alongside VietinBank, Agribank, BIDV, MSB, Sacombank, Eximbank, Nam A Bank, ACB, Saigonbank).
+  **The excluded categories are social housing, industrial parks and export-processing zones, for calendar
+  2026.** *Only 2 hits repo-wide for this concept, so it is largely new to the file.*
+  ⚠⚠⚠ **AND A TOUCH-POINT WITH AN ARMED KILL CRITERION, STATED CAREFULLY. Related coverage reports room
+  exclusion for 18 PROJECTS OF VINGROUP, SUN GROUP AND MASTERISE. This file carries an ARMED TCB KILL CRITERION
+  on "a Masterise bond event", with TCB recorded (T5, 16-month-old press, unverified) as Masterise's credit
+  sponsor and guarantor. Masterise has 90 hits in this log and 29 in `assumptions.json`.**
+  ***DIRECTION MATTERS AND IT IS THE OPPOSITE OF ALARMING: excluding project lending from credit-room limits
+  makes financing those projects EASIER, which reduces rather than raises the probability of the distress the
+  criterion contemplates. THE CRITERION REQUIRES A BOND EVENT. NONE IS REPORTED. IT DOES NOT FIRE, AND IT
+  REMAINS "NOT TESTABLE" on its three undefined terms — this changes none of that.***
+  ⚠ *Not established: whether TCB actually lends to the 18 named projects, and whether the 25-bank list and the
+  18-project list are the same instrument or two. Both are assumed by neither.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; NO TRIGGER
+  FIRES — checked explicitly against the Masterise criterion, which needs an event that has not occurred.**
+  [Thư viện Pháp luật — Công văn 4551, danh sách 25 ngân hàng](https://thuvienphapluat.vn/banan/tin-tuc/cong-van-4551-danh-sach-25-ngan-hang-duoc-noi-room-tin-dung-bat-dong-san-chi-tiet-50295.html) · [Tiền Phong — NHNN nới room tín dụng bất động sản](https://baomoi.com/ngan-hang-nha-nuoc-noi-room-tin-dung-bat-dong-san-c55281554.epi) · [BBW — loại khoản vay mới cho 18 dự án của Vingroup, Sun Group, Masterise](https://bbw.vn/ngan-hang-nha-nuoc-loai-khoan-vay-moi-cho-18-du-an-cua-vingroup-sun-group-masterise-58798.html)
+
 - **⚠⚠ 00:54 ICT FRI 14-AUG · THE OFFSET I QUANTIFIED AN HOUR AGO HAS A STATED DECAY PATH — AND THE SUCCESSOR
   REGIME SELECTS ON DIFFERENT CRITERIA (lane 1).**
   **I NAMED THIS AS THE NEXT QUESTION AT 23:54:** *"if quotas are being phased out, the privilege's value
