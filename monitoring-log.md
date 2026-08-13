@@ -118,6 +118,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 22:54 ICT THU 13-AUG · THE BANK BLOCK IS NOT ONE BLOCK: MBB AND VPB HOLD REGULATORY OFFSETS THAT TCB
+  DOES NOT. PLUS A FALSE-NEGATIVE GREP OF MY OWN, TWO HOURS OLD (lanes 1, 3, 7).**
+  ⚠⚠ **FIRST, MY 20:54 FLAG IS ANSWERED — BY THIS FILE, NOT BY TONIGHT'S SEARCH.** I flagged VPB's "34%
+  foreign ownership" as exceeding the 30% norm, said `34%` had zero repo hits, and named an external settling
+  observation. ***The mechanism was on file all along: `Nghị định 69/2025/NĐ-CP` lets banks in MANDATORY
+  RESTRUCTURING raise the ceiling to 49%, with HDBank, MBB and VPB named as beneficiaries — already recorded,
+  alongside TCB's room LOCKED at 22.4908% (a company choice, below the standard cap) and MBB EXHAUSTED, VPB
+  ROOM AVAILABLE.*** **34% is unremarkable under a 49% cap. There was nothing to verify.**
+  ⚠⚠⚠ **THE METHOD ERROR IS THE KEEPER, AND IT IS THE MIRROR OF YESTERDAY'S. I GREPPED THE SURFACE NUMBER
+  ("34%") INSTEAD OF THE UNDERLYING MECHANISM ("69/2025", "49%", "chuyển giao bắt buộc"). Yesterday a FALSE
+  POSITIVE nearly made me soften a true finding; tonight a FALSE NEGATIVE made me declare an open question that
+  the repo had already closed.** *Same discipline, opposite failure: a figure can be absent while the fact it
+  expresses is present. Grep the concept, not the digits.* **Fourth time this week the file's own contents
+  answered something I went outside for.**
+  ✅ **NOW THE GENUINELY NEW PART — ZERO HITS in BOTH files for `dự trữ bắt buộc`, `hỗ trợ thanh khoản`,
+  `cơ chế đặc thù` and credit-growth-limit privileges. THE THREE RESTRUCTURING BANKS RECEIVE SPECIAL MECHANISMS
+  ON: (1) CREDIT GROWTH LIMITS, (2) REQUIRED RESERVE RATIOS, (3) LIQUIDITY SUPPORT.** *Decree 69/2025 issued
+  18-Mar-2025, effective 19-May-2025; SBV announced GPBank's transfer to VPB in January.*
+  ⚠⚠⚠ **AND THIS CUTS AGAINST THE THREAD I HAVE BEEN BUILDING FOR THREE DAYS. I have logged three independent
+  funding-cost pressures on "51.5% banks" as though the bank weight were homogeneous. IT IS NOT:**
+  | | funding pressure | regulatory offset | foreign room |
+  |---|---|---|---|
+  | **TCB** (largest position) | **yes — 6.5%→8.5% roll evidenced** | **NONE — not a restructuring bank** | **LOCKED 22.4908%, EXHAUSTED** |
+  | **MBB** | yes — 10yr at 8.3–8.4% | **credit quota · reserves · liquidity** | exhausted, but ceiling to **49%** |
+  | **VPB** | yes — 3yr at 8.6%, CDs 9.0% | **credit quota · reserves · liquidity** | **room available**, ceiling to **49%** |
+  ***TCB carries the funding pressure with no offset and no room; MBB and VPB carry it with preferential credit
+  quotas, lower reserve requirements and SBV liquidity backing. Treating them as one exposure was wrong, and I
+  did it three times.***
+  ⚠ **NOT MODELLED, AND THE OFFSET IS NOT QUANTIFIED — no figures for the quota uplift, the reserve
+  differential or the liquidity facility are on file, so this changes the SHAPE of the bank exposure, not any
+  number.** *An offset of unknown size does not net against a funding cost of partly-known size.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [TNCK — MB, HDBank, VPBank nới room ngoại lên 49% sau chuyển giao bắt buộc](https://www.tinnhanhchungkhoan.vn/mb-hdbank-vpbank-se-duoc-noi-room-ngoai-len-49-sau-khi-nhan-chuyen-giao-bat-buoc-post365715.html) · [Vietstock — ngân hàng Việt được tăng sở hữu nước ngoài tới 49%](https://vietstock.vn/2025/05/ngan-hang-viet-duoc-tang-ty-le-so-huu-nuoc-ngoai-toi-49-757-1311812.htm) · [VCCI — sắp nới room ngoại lên 49%, ngân hàng nào hưởng lợi](https://vcci.com.vn/news/sap-noi-room-ngoai-len-49-nhung-ngan-hang-nao-se-duoc-huong-loi)
+
 - **⚠⚠⚠ 21:54 ICT THU 13-AUG · THE ROLL IS CHEAP-INTO-EXPENSIVE: TCB IS REPLACING 6.5% MONEY WITH 8.5% MONEY
   ON LIKE-FOR-LIKE TENOR. THE FUNDING FINDING DOES REACH THE LARGEST POSITION (lane 3).**
   **THE QUESTION I POSED AT 15:54, VERBATIM:** *"if TCB is rolling ₫17,000bn of old paper into new paper at
