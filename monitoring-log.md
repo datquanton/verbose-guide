@@ -118,6 +118,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 21:54 ICT THU 13-AUG · THE ROLL IS CHEAP-INTO-EXPENSIVE: TCB IS REPLACING 6.5% MONEY WITH 8.5% MONEY
+  ON LIKE-FOR-LIKE TENOR. THE FUNDING FINDING DOES REACH THE LARGEST POSITION (lane 3).**
+  **THE QUESTION I POSED AT 15:54, VERBATIM:** *"if TCB is rolling ₫17,000bn of old paper into new paper at
+  8.5%, WHAT WAS THE OLD COUPON? ... that single number determines whether the 14:54 finding touches TCB at
+  all."* **ANSWERED FOR ONE LOT.**
+  ✅ **`TCBL2326010` — ₫2,000bn, issued 22-DEC-2023, 36-month term, maturing 22-Dec-2026, FIXED COUPON 6.5%/YR
+  WITH A CALL PROVISION.** Against TCB's new **3-year** issuance at **8.5%**, that is a **+2.0pp STEP-UP ON
+  LIKE-FOR-LIKE TENOR** — 3-year replaced by 3-year, so the comparison needs no maturity adjustment.
+  **On this lot alone the step-up costs ≈₫40bn a year.**
+  ⚠⚠ **AND HERE IS THE ARITHMETIC I AM DELIBERATELY NOT CLAIMING: if the entire ₫17,000bn repurchase rolled
+  6.5% → 8.5%, the extra interest would be ≈₫340bn/yr. I HAVE THE COUPON FOR ₫2,000bn OF ₫17,000bn — ELEVEN
+  PERCENT OF THE PROGRAMME. Extrapolating one lot to the whole is exactly the move this file keeps catching,
+  so the ₫340bn is recorded as CONDITIONAL and is NOT a finding.** *The ₫40bn is evidenced; the ₫340bn is a
+  scale marker for a human, explicitly flagged as resting on an assumption I have not tested.*
+  ⚠ **TWO HONEST QUALIFIERS ON THE ₫40bn ITSELF.** (1) `TCBL2326010` matures **22-Dec-2026** — it was near
+  maturity anyway, so retiring it early is refinancing slightly ahead of schedule rather than a discretionary
+  swap. (2) Its inclusion in the repurchase programme is **inferred from the coverage context**, not stated
+  lot-by-lot. *Both cut against the strength of the read and are stated because they do.*
+  ⚠ **RELATED, AND NOT YET EXPLAINED: coverage reports TCB "settling two bond lots just ONE YEAR after
+  issuance."** *Retiring year-old paper into an 8.5% market is not obviously ordinary liability management, and
+  the file has no explanation for it. Recorded as an open oddity, not spun into a story.*
+  ✅ **WHAT THIS RESOLVES: the 14:54 funding-cost finding — TCB/MB/VPB coupons at 8.3–8.6%, 2026 highs — NOW
+  HAS A DEMONSTRATED PATH TO TCB'S P&L for at least one tranche, where six hours ago it was floating sector
+  colour. The 15:54 correction (rolling, not retiring) stands; what it lacked was the direction of the roll,
+  and the direction is ADVERSE.**
+  ⚠ **STILL UNANSWERED, AND STILL A MISS RATHER THAN AN UNOBSERVABLE: the Tier 2 vs ordinary SENIORITY of these
+  lots. `TCBL2326010`'s fixed coupon plus call provision is consistent with either.**
+  **NOTHING MODELLED — no NIM elasticity exists on file, and §4 bars the inputs. No confidence moved.
+  `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [DNSE — Techcombank tất toán 2 lô trái phiếu chỉ sau 1 năm phát hành](https://www.dnse.com.vn/senses/tin-tuc/techcombank-tat-toan-2-lo-trai-phieu-chi-sau-1-nam-phat-hanh-35219794) · [Mekong Asean — chi 1.500 tỷ mua lại lô TCBL2427003](https://baomoi.com/techcombank-chi-1-500-ty-dong-mua-lai-trai-phieu-truoc-han-c55269039.epi) · [Mekong Asean — chi 6.000 tỷ mua lại trước hạn](https://mekongasean.vn/techcombank-chi-6000-ty-dong-mua-lai-trai-phieu-truoc-han-32013.html) · [CafeBiz — lô trái phiếu tháng 12 (TCBL2326010, 6,5%/năm)](https://cafebiz.vn/techcombank-phat-hanh-lo-trai-phieu-thu-3-trong-thang-12-176251228140103628.chn)
+
 - **⚠⚠ 20:54 ICT THU 13-AUG · VPB'S CAPITAL PLAN GETS TIMING, AND A FOREIGN-OWNERSHIP FIGURE ABOVE THE
   STANDARD CAP APPEARS (lanes 3, 7).**
   ✅ **THE PLACEMENT RECONCILES THE TWO DESCRIPTIONS THIS FILE CARRIES. 624.3m shares raising ~₫6,243bn — and
