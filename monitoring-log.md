@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 00:54 ICT FRI 14-AUG · THE OFFSET I QUANTIFIED AN HOUR AGO HAS A STATED DECAY PATH — AND THE SUCCESSOR
+  REGIME SELECTS ON DIFFERENT CRITERIA (lane 1).**
+  **I NAMED THIS AS THE NEXT QUESTION AT 23:54:** *"if quotas are being phased out, the privilege's value
+  decays — that is the natural next question and it is unanswered."* **ANSWERED.**
+  ✅ **THE PM HAS DIRECTED SBV TO BUILD A ROADMAP AND PILOT THE REMOVAL of credit-growth targets, TO RUN FROM
+  2026 — phased, not sudden: pilot first at banks meeting HIGH SAFETY STANDARDS, then extended system-wide.
+  ELIGIBILITY CRITERIA: efficient and sound operation, good governance, compliance with prudential safety
+  ratios, and high credit-quality indices.** SBV retains inspection, supervision and post-audit.
+  ⚠⚠⚠ **THE TENSION IS THE FINDING, AND I AM FLAGGING IT RATHER THAN RESOLVING IT. THE 35% QUOTA PRIVILEGE WAS
+  GRANTED FOR TAKING A MANDATORY TRANSFER. THE PILOT SELECTS ON SAFETY STANDARDS AND CREDIT QUALITY. THOSE ARE
+  DIFFERENT CRITERIA, AND ABSORBING A DISTRESSED INSTITUTION IS NOT OBVIOUSLY HELPFUL TO THE SECOND.**
+  ***So the privilege that favours MBB and VPB today sits inside a regime being dismantled, and there is no
+  basis on file for assuming they carry into the successor regime. Commentary frames removal as opening
+  opportunity "especially for SMALL-SCALE banks" — not for the large privileged four.*** *Not established
+  either way; recorded as a live structural question.*
+  ✅ **A BASIS RECONCILIATION, SO A FUTURE READER DOES NOT SEE A CONFLICT: this file already holds "SBV's 2026
+  SYSTEM credit growth target is ~15%", and last hour I logged "most banks given ~13% from the start of the
+  year." THOSE ARE DIFFERENT MEASURES — an INITIAL PER-BANK ALLOCATION versus a FULL-YEAR SYSTEM TARGET — and
+  the gap is exactly what the "flexible in-year adjustment" mechanism fills. Consistent, not contradictory.**
+  ⚠ **TIMING IS THE WEAK POINT: "from 2026" and we are IN 2026, yet the directive is to "URGENTLY BUILD" the
+  roadmap — which reads as not yet started. Whether the pilot is running, imminent, or still being drafted is
+  NOT ESTABLISHED and I am not guessing.** *That single fact determines whether the 13%-vs-35% gap is a
+  durable 2026 feature or a fading one.*
+  ⚠ *The file had already noted it "has been running the lane without recording" the removal pilot — tonight
+  adds the roadmap, the criteria and the phasing to that acknowledgement.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [VnEconomy — Thủ tướng yêu cầu thí điểm gỡ bỏ room tín dụng từ 2026](https://vneconomy.vn/thu-tuong-yeu-cau-thi-diem-go-bo-room-tin-dung-tu-nam-2026.htm) · [Công Luận — bỏ room từ 2026: từ mệnh lệnh hành chính sang quản lý theo rủi ro](https://congluan.vn/bo-room-tin-dung-tu-2026-chuyen-tu-menh-lenh-hanh-chinh-sang-quan-ly-theo-rui-ro-va-chuan-muc-post304759.html) · [VietnamPlus — thí điểm bỏ room tín dụng từ 2026](https://www.vietnamplus.vn/thi-diem-bo-room-tin-dung-tu-nam-2026-cu-hich-cho-cac-ngan-hang-post1055461.vnp) · [TNCK — nhà băng phải tự xác định điểm an toàn](https://www.tinnhanhchungkhoan.vn/bo-room-tin-dung-nha-bang-phai-tu-xac-dinh-diem-an-toan-post374844.html)
+
 - **✅⚠⚠ 23:54 ICT THU 13-AUG · THE OFFSET IS QUANTIFIED, AND IT IS LARGE: 13% GENERAL QUOTA vs UP TO 35% FOR
   THE RESTRUCTURING BANKS (lanes 1, 3).**
   **ONE HOUR AGO I WROTE: *"the offset is NOT quantified — no figures for the quota uplift... are on file, so
