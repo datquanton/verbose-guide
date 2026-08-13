@@ -118,6 +118,37 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 06:54 ICT FRI 14-AUG · VPB'S NPLs ARE AT MULTI-YEAR LOWS — AND I NEARLY USED THAT TO EXCUSE ITS LOW
+  COVERAGE, WHICH WOULD HAVE BEEN A RATIO ERROR (lanes 5-banks, 3).**
+  ✅ **NEW AND HOLDING-SPECIFIC: VPBank's NPL ratio AND its Group-2 ("needs attention") ratio are reported at
+  their LOWEST IN MANY YEARS.** *Favourable, and it concerns the one holding this file had singled out on asset
+  quality.*
+  ⚠⚠⚠ **THE REASONING TRAP, CAUGHT BEFORE IT WAS WRITTEN. This file records VPB's LLR coverage at 56.2%
+  (−26.8pp) — the LOWEST of the four bank names, beside Sacombank 56.67% and HDBank — and reads it via the pair
+  test as "thin stock with HEAVY flow, rebuilding" on 45.2% provisioning intensity. My first instinct on seeing
+  the multi-year-low NPLs was that they EXPLAIN the low coverage. THEY DO NOT.**
+  ***LLR COVERAGE IS PROVISIONS DIVIDED BY NPLs — IT IS ALREADY NORMALISED BY THE NPL LEVEL. 56.2% means ₫56 of
+  provisions per ₫100 of bad loans however few bad loans there are. "VPB has few NPLs" and "VPB holds thin
+  cover against each one" are INDEPENDENT facts, both true, and the second is NOT excused by the first.*** *A
+  ratio cannot be explained away by the size of its own denominator.*
+  ✅ **SO BOTH READS STAND, AND THEY COMPOSE RATHER THAN CANCEL: fewer bad loans (new, favourable) with thinner
+  cover per bad loan (on file) and the heaviest provisioning intensity of the four (on file) — which is
+  consistent with a bank whose NPL stock has fallen fast and whose reserve build is still catching up.**
+  **SECTOR REFINEMENTS, mostly corroborating figures already held:** total NPLs **+21.4% since year-start,
+  ~₫48,000bn added in H1**; Group-2 ratio **1.45%**; sector **LLCR 82.9%** (the file holds ~83% — consistent,
+  slightly more precise); **NPL 1.97%, the highest since 2020** (on file). **Largest NPL increases: VietinBank,
+  HDBank, Sacombank, BIDV — NONE IS A HOLDING.**
+  ⚠ **FORECAST, RECORDED AS A FORECAST: end-2026 NPL ~1.8%, Group 2 ~1.4%, coverage ~85%.** *Third-party
+  projection, not an input.*
+  ⚠⚠ **THE TENSION WORTH CARRYING INTO THE CIO RUN: this week established that MBB and VPB may grow credit at
+  up to 35% against a ~13% general quota. Sector NPLs are simultaneously at their highest since 2020 with
+  coverage falling. RAPID CREDIT GROWTH INTO DETERIORATING SECTOR ASSET QUALITY IS THE CLASSIC WAY A QUOTA
+  PRIVILEGE BECOMES A LIABILITY** — *stated as a structural tension, NOT a prediction, and with no elasticity
+  on file to size it.*
+  **NOTHING MODELLED. No input changed. No confidence moved — §4. `DECISION-BRIEF.md` byte-identical; no
+  trigger fires.**
+  [Vietstock — động lực giúp nợ xấu và nợ nhóm 2 của VPBank xuống mức thấp nhất nhiều năm](https://vietstock.vn/2026/08/dong-luc-giup-ty-le-no-xau-va-no-nhom-2-cua-vpbank-xuong-muc-thap-nhat-trong-nhieu-nam-757-1477938.htm) · [Doanh nhân & Pháp luật — ngành ngân hàng quý II/2026: nợ xấu bộc lộ rủi ro trên diện rộng](https://doanhnhan.baophapluat.vn/nganh-ngan-hang-quy-ii-2026-loi-nhuan-tang-vot-gan-28-no-xau-boc-lo-rui-ro-tren-dien-rong.html) · [Doanh Nhân VN — nợ xấu tăng 48.000 tỷ sau nửa đầu năm](https://baomoi.com/no-xau-ngan-hang-tang-48-000-ty-dong-sau-nua-dau-nam-c55760740.epi) · [TNCK — nợ xấu ăn mòn lợi nhuận nhiều nhà băng](https://www.tinnhanhchungkhoan.vn/no-xau-an-mon-loi-nhuan-nhieu-nha-bang-post395159.html)
+
 - **⚠ 05:54 ICT FRI 14-AUG · THE "FOUR-YEAR HRC DUTY" I FLAGGED AN HOUR AGO IS NOT CORROBORATED. FLAG
   RESOLVED, NEGATIVELY (lanes 2, 5-steel). Short entry — it closes a check I opened.**
   **WHAT I FLAGGED AT 04:54:** an 01-Aug headline that MOIT had imposed duties on Chinese wide HRC *"for the
