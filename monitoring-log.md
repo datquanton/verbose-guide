@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 15:54 ICT THU 13-AUG · CORRECTION TO MY OWN 14:54 FRAMING — TCB IS ROLLING ITS BOND DEBT, NOT
+  RETIRING IT. THE SENIORITY QUESTION IS STILL UNANSWERED (lane 3).**
+  ⚠⚠ **WHAT I IMPLIED AN HOUR AGO:** *"TCB retiring paper while fresh 3-year money costs it 8.5% makes that
+  seniority question materially more interesting"* — framed as a puzzle about a bank shrinking its bond book
+  into a funding squeeze. **THAT FRAMING IS WRONG. TCB HAS BEEN ISSUING THROUGHOUT: ₫8,000bn in April, ~₫10,000bn
+  across five months, and lot TCB12606 (₫2,000bn, 22-May) — alongside the repurchases. It is REFINANCING.**
+  ✅ **AND THE ISSUER SAYS SO IN ITS OWN WORDS: the stated purpose is *"nhằm cơ cấu lại nguồn vốn"* — to
+  RESTRUCTURE ITS FUNDING BASE — funded from loan principal and interest collections, other income, and lawful
+  mobilisation, i.e. NOT from a capital raise.** *The puzzle I posed largely dissolves; a bank rolling debt is
+  ordinary liability management, not a distress signal.*
+  ⚠⚠ **BUT IT REPLACES THE PUZZLE WITH A SHARPER AND STRICTLY MORE USEFUL QUESTION: IF TCB IS ROLLING
+  ₫17,000bn OF OLD PAPER INTO NEW PAPER AT 8.5%, WHAT WAS THE OLD COUPON? A roll from cheap to expensive locks
+  in a funding-cost increase; a roll from expensive to cheap does the opposite. THE OLD COUPONS ARE NOT IN ANY
+  COVERAGE I CAN REACH, AND THAT SINGLE NUMBER DETERMINES WHETHER THE 14:54 FINDING TOUCHES TCB AT ALL.**
+  ⚠ **PLANNED VERSUS EXECUTED — two constructions, recorded not blended:** announced plans total **₫22,500bn**
+  (6 lots ₫13,500bn, 21–28 Apr; 4 lots ₫9,000bn, late May–early Jun) against **₫17,000bn actually spent YTD**.
+  **Plans exceed spend by ₫5,500bn, +32.4%.** *Either not all lots executed, or the periods overlap — not
+  established, not guessed. The file's ₫17,000bn figure is the SPEND, and that is the one to carry.*
+  ⚠⚠ **THE SENIORITY QUESTION — TIER 2 SUBORDINATED OR ORDINARY BANK BONDS — REMAINS UNANSWERED after a
+  dedicated search. It is REACHABLE in principle (Vietnamese coverage does distinguish *trái phiếu tăng vốn
+  cấp 2*), so this is a MISS, not an unobservable.** *Stated plainly because the distinction between "I could
+  not find it" and "it cannot be found" is the one I got wrong twice this week in the other direction.*
+  ⚠ **NET POSITION IS NOT COMPUTABLE from these figures** — the issuance numbers are overlapping
+  constructions (April ₫8,000bn sits inside the ₫10,000bn five-month total), so repurchases minus issuance
+  cannot be differenced. **Not attempted.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.** *The 14:54 funding-cost finding STANDS on its own evidence — TCB/MB/VPB coupons of 8.3–8.6% are
+  unaffected by this correction. What changes is only the inference I drew ABOUT TCB's repurchases.*
+  [DNSE — kế hoạch mua lại 13.500 tỷ trước hạn](https://www.dnse.com.vn/senses/tin-tuc/techcombank-len-ke-hoach-mua-lai-13500-ty-ong-trai-phieu-truoc-han-35205271) · [Nhịp sống KD — huy động 8.000 tỷ qua trái phiếu tháng 4/2026](https://nhipsongkinhdoanh.vn/techcombank-huy-dong-8-000-ty-dong-qua-kenh-trai-phieu-trong-thang-4-2026-28269.htm) · [Nhịp sống nhà đất — phát hành 8.000 tỷ, mua lại 9.000 tỷ](https://nhipsongnhadat.vn/mxh/techcombank-phat-hanh-8-000-ty-trai-phieu-mua-lai-truoc-han-9-000-ty.html) · [Doanh nhân & Pháp luật — mua lại 9.000 tỷ trước hạn](https://doanhnhan.baophapluat.vn/techcombank-tcb-mua-lai-9-000-ty-dong-trai-phieu-truoc-han-chot-quyen-nhan-co-tuc-bang-tien-mat-ty-le-7.html)
+
 - **⚠⚠ 14:54 ICT THU 13-AUG · WHOLESALE FUNDING COSTS AT 2026 HIGHS ACROSS ALL THREE BANK HOLDINGS — THE
   THIRD INDEPENDENT PRESSURE ON 51.5% OF THE BOOK THIS FORTNIGHT (lanes 3, 5-banks).**
   **THE ISSUANCE, NAMED AND PRICED:**
