@@ -118,6 +118,29 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠ 05:54 ICT FRI 14-AUG · THE "FOUR-YEAR HRC DUTY" I FLAGGED AN HOUR AGO IS NOT CORROBORATED. FLAG
+  RESOLVED, NEGATIVELY (lanes 2, 5-steel). Short entry — it closes a check I opened.**
+  **WHAT I FLAGGED AT 04:54:** an 01-Aug headline that MOIT had imposed duties on Chinese wide HRC *"for the
+  next four years"*, recorded as **unverified and flagged for a later check**. **THE CHECK HAS RUN. NO FOUR-YEAR
+  DEFINITIVE MEASURE IS FOUND.** *Every source returned describes the same instrument this file already holds.*
+  ✅ **AND THE FILE IS CONFIRMED CORRECT ON EVERY DETAIL: `Decision 612/QĐ-BCT` — anti-CIRCUMVENTION duty,
+  TEMPORARY, 27.83%, issued 02-Apr-2026, effective 17-Apr-2026; HRC of width 1,880–2,300mm; 24 HS codes
+  7208.25.00–7226.91.90; petitioned by HOA PHAT and Formosa Ha Tinh; investigation initiated 27-Oct-2025;
+  ~650,000t of wide HRC from China in H1/2025, ~15× YoY.** *Nine separate particulars, all matching.*
+  ⚠ **THE DUTY REMAINS TEMPORARY. The "four years" is most likely the headline conflating this measure with the
+  usual term of a definitive AD order — but that is a GUESS and is recorded as one, not as a finding.**
+  ✅ **ONE GENUINELY NEW PROCEDURAL ITEM: MOIT HAS HELD A HEARING on the HRC duty — Hoa Phat and Formosa
+  consulted, and CHINESE PRODUCERS ARGUED THE GROUNDS ARE INSUFFICIENT.** *That places the case between
+  temporary measure and final determination, with the outcome contested. **No date for the final determination
+  is established and I am not inferring one.***
+  ⚠ **WHY THIS MATTERS BEYOND PROCEDURE: HPG's Q2 beat, logged one hour ago, was MARGIN-led and HRC-driven
+  (Dung Quất 2). The 27.83% wall protecting that domestic HRC market is TEMPORARY and under active challenge —
+  which is a different risk profile from a settled four-year moat, and the difference is exactly what the
+  unverified headline would have obscured.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [DNSE — Việt Nam chính thức áp thuế 27,83% với HRC khổ rộng Trung Quốc](https://www.dnse.com.vn/senses/tin-tuc/viet-nam-chinh-thuc-ap-thue-2783-doi-voi-thep-hrc-kho-rong-tu-trung-quoc-35209792) · [Người Quan Sát — Bộ Công Thương điều trần: Hòa Phát, Formosa tham vấn](https://nguoiquansat.vn/bo-cong-thuong-dieu-tran-vu-ap-thue-hrc-hoa-phat-formosa-tham-van-doanh-nghiep-trung-quoc-khang-dinh-chua-du-can-cu-303922.html) · [Thời báo Tài chính — siết lẩn tránh, bảo vệ sản xuất trong nước](https://thoibaotaichinhvietnam.vn/ap-thue-gan-28-voi-thep-hrc-kho-rong-trung-quoc-siet-lan-tranh-bao-ve-san-xuat-trong-nuoc-194936.html)
+
 - **✅⚠⚠ 04:54 ICT FRI 14-AUG · HPG'S Q2 LEVEL AT LAST — ₫6,424bn — WHICH FINALLY MAKES THE PRE-REGISTERED
   ESTIMATE SCORABLE. THE RANGE WAS RIGHT; THE POINT ESTIMATE WAS 28% LOW (lane 3).**
   ⚠ **WHY THIS WAS OPEN AT ALL: gate row 44 recorded HPG's Q2 as PERCENTAGES — "revenue +53%, NPAT +51%" —
