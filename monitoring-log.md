@@ -118,6 +118,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 11:54 ICT THU 13-AUG · THE VIETNAMESE LEG OF THE PRE-STATED CHAIN IS NOT ABSENT — IT IS RUNNING THE
+  OTHER WAY. USD/VND CENTRAL RATE IS RISING (lane 1).**
+  **THE FACT: SBV's central rate on 13-Aug is ₫25,539, UP 23 đồng this morning.** ⚠ *One outlet says **+27
+  đồng** — two figures for the same move, recorded rather than averaged.* **Against the ₫25,405 on file for
+  05-Aug that is +134 đồng, +0.53% in eight days, and the VND is WEAKER.** Vietnamese headlines are explicit:
+  *"tỷ giá trung tâm tiếp tục tăng mạnh"* — the central rate keeps rising strongly — and *"đồng USD lấy lại đà
+  tăng."*
+  ⚠⚠⚠ **THIS CONTRADICTS THE CONCLUSION OF THE CHAIN I FIXED BEFORE THE CPI PRINT.** I wrote: *"lower hike
+  odds ⇒ less USD pressure ⇒ more SBV policy space."* **Scoring all three legs now: Fed leg DELIVERED (hike
+  odds 42%, 2Y and 10Y both −4bp). Global USD leg FLAT (DXY +0.01%). VIETNAMESE LEG ADVERSE — the currency is
+  moving against the VND anyway.** ***A rising central rate constrains SBV easing rather than freeing it: they
+  cannot ease into currency pressure. So the chain's CONCLUSION is contradicted, not merely unrealised, and it
+  is contradicted at the only leg that is actually Vietnamese.***
+  ⚠⚠ **THE METHODOLOGICAL POINT, WHICH IS THE REASON THIS WAS FINDABLE AT ALL.** *At 04:54 I recorded that the
+  USD leg came in at zero and called the backdrop "directionally benign." **That was already too generous, and
+  I could not have known it, because I was reading the GLOBAL dollar as a proxy for the VIETNAMESE one.** DXY
+  flat and USD/VND rising are not in conflict — they are different instruments, and substituting one for the
+  other is the measure-substitution family again, this time as a PROXY error. The pre-stated chain is what
+  forced me to check each link separately instead of stopping at "dollar flat, fine."*
+  ⚠ **BAND AND QUOTE COHERENCE, CHECKED:** the SBV trading-desk band is quoted **₫24,313–26,765**, which is
+  **−4.80%/+4.80%** around 25,539 — inside the ±5% statutory band, so internally coherent. Commercial sell
+  quotes cluster tightly: **Vietcombank ₫26,250 (+2.78%), ACB ₫26,240 (+2.74%), Vietinbank ₫26,258 (+2.82%)**.
+  ⚠ *A fourth headline gives a sell price of **₫26,322 (+3.07%)** — outside that cluster and probably a
+  different bank or hour; noted, not blended.*
+  ⚠ **PORTFOLIO RELEVANCE, UNMODELLED: the book is 51.5% banks. Currency pressure that limits SBV easing is
+  directionally ADVERSE for bank margins and credit growth — the opposite of what I flagged as "mildly
+  supportive" seven hours ago. NO ELASTICITY IS ON FILE, so this is context, not an input, and the correction
+  is to the SIGN of a qualitative read, not to any number.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [Thanh Niên — tỷ giá trung tâm tiếp tục tăng mạnh 13/8](https://thanhnien.vn/gia-usd-hom-nay-1382026-ty-gia-trung-tam-tiep-tuc-tang-manh-185260813084243286.htm) · [Báo Tin Tức — tỷ giá trung tâm tăng 27 đồng](https://baotintuc.vn/thi-truong-tien-te/ty-gia-hom-nay-138-ty-gia-trung-tam-tang-27-dong-20260813090049773.htm) · [Doanh nghiệp Hội nhập — USD lấy lại đà tăng](https://doanhnghiephoinhap.vn/ty-gia-usd-hom-nay-1382026-dong-usd-lay-lai-da-tang-146241.html) · [Vietbao — giá bán ra 26.322](https://vietbao.vn/ty-gia-usd-hom-nay-138-gia-usd-ban-ra-ha-xuong-moc-26322-dongusd-602872.html)
+
 - **✅⚠ 04:54 ICT THU 13-AUG · THE PRE-STATED CPI TRANSMISSION MEETS REALITY — AND ITS FIRST LINK IS WEAK
   (lane 1). Context for the VN open in ~4h.**
   **THE US SESSION THAT TRADED ON CPI, closed 03:00 ICT:** S&P 500 **+0.26%** to 7,748.50 · Nasdaq **+0.54%**
