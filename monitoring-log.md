@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 23:54 ICT THU 13-AUG · THE OFFSET IS QUANTIFIED, AND IT IS LARGE: 13% GENERAL QUOTA vs UP TO 35% FOR
+  THE RESTRUCTURING BANKS (lanes 1, 3).**
+  **ONE HOUR AGO I WROTE: *"the offset is NOT quantified — no figures for the quota uplift... are on file, so
+  this changes the SHAPE of the bank exposure, not any number."* HERE IS THE NUMBER.**
+  ✅ **2026 CREDIT-GROWTH ALLOCATION: most banks were given ~13% from the start of the year, with flexible
+  in-year adjustment. THE MANDATORY-TRANSFER BANKS WERE GIVEN HIGHER THAN THE GENERAL LEVEL — VPB and HDBank
+  cited at UP TO 35%.** Analyst forecasts of what will actually be USED: **VPB 30.9% · MB 27.0% · HDBank
+  27.6–30.7%.**
+  **On ceilings that is +22pp, a 2.7× multiple; on forecast USE it is still ~2.1–2.4× the general quota.**
+  ⚠⚠ **SCALE CHECK AGAINST YESTERDAY'S FUNDING FINDING: a bank permitted to grow credit at 27–31% while peers
+  grow at 13% has a VOLUME offset that can comfortably swamp a ~200bp rise in wholesale funding cost. I spent
+  three days building a one-sided funding-pressure thread; this is the other side, and it is bigger.**
+  ⚠⚠ **A LIST DISCREPANCY THAT MUST NOT BE CONFLATED — TWO PRIVILEGES, TWO DIFFERENT LISTS.** The
+  credit-quota privilege names **FOUR** banks: **Vietcombank, MB, HDBank, VPB.** The 49% foreign-room uplift
+  under Decree 69/2025 names **THREE**: **HDBank, MBB, VPB — no VCB.** *Consistent rather than contradictory
+  (a state-owned bank would not take the foreign-room uplift the same way), but a future reader must not treat
+  "the restructuring banks" as one roster.*
+  ⚠ **WHAT I AM NOT CLAIMING: THAT TCB WAS GIVEN 13%. TCB is absent from the privileged four, but absence from
+  that list does not fix its allocation — quotas vary bank by bank and TCB's is NOT established here.** *The
+  honest statement is that TCB carries the evidenced 6.5%→8.5% funding roll WITHOUT the quota privilege, not
+  that it carries it at exactly the general rate.*
+  ⚠ **STILL OPEN: the QUOTA-REMOVAL PILOT named in the lane brief returned nothing this hour. If quotas are
+  being phased out, the privilege's value decays — that is the natural next question and it is unanswered.**
+  ⚠ **RESERVE-RATIO and LIQUIDITY-SUPPORT differentials remain UNQUANTIFIED. One of three offsets now has a
+  number; two do not.**
+  **NOTHING MODELLED — no credit-volume-to-earnings path exists on file for any holding, and §4 bars the
+  inputs. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [CafeF — tăng trưởng tín dụng 2026: MB, HDBank và VPBank nắm ưu thế lớn](https://cafef.vn/tang-truong-tin-dung-2026-mb-hdbank-va-vpbank-nam-uu-the-lon-188260113134422958.chn) · [DNSE — hé lộ ngân hàng có thể tăng trưởng tín dụng trên 30%](https://www.dnse.com.vn/senses/tin-tuc/he-lo-ngan-hang-co-the-tang-truong-tin-dung-tren-30-trong-2026-35182409) · [VietnamFinance — ngân hàng tăng trưởng tín dụng trên 30% năm 2026](https://vietnamfinance.vn/he-lo-ngan-hang-co-the-tang-truong-tin-dung-tren-30-trong-2026-d138944.html) · [VnBusiness — tín dụng tăng tốc, áp lực thanh khoản hiện rõ](https://vnbusiness.vn/tin-dung-ngan-hang-tang-toc-ap-luc-thanh-khoan-bat-dau-hien-ro.html)
+
 - **⚠⚠⚠ 22:54 ICT THU 13-AUG · THE BANK BLOCK IS NOT ONE BLOCK: MBB AND VPB HOLD REGULATORY OFFSETS THAT TCB
   DOES NOT. PLUS A FALSE-NEGATIVE GREP OF MY OWN, TWO HOURS OLD (lanes 1, 3, 7).**
   ⚠⚠ **FIRST, MY 20:54 FLAG IS ANSWERED — BY THIS FILE, NOT BY TONIGHT'S SEARCH.** I flagged VPB's "34%
