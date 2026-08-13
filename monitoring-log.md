@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 04:54 ICT FRI 14-AUG · HPG'S Q2 LEVEL AT LAST — ₫6,424bn — WHICH FINALLY MAKES THE PRE-REGISTERED
+  ESTIMATE SCORABLE. THE RANGE WAS RIGHT; THE POINT ESTIMATE WAS 28% LOW (lane 3).**
+  ⚠ **WHY THIS WAS OPEN AT ALL: gate row 44 recorded HPG's Q2 as PERCENTAGES — "revenue +53%, NPAT +51%" —
+  while the pre-registered estimate is a LEVEL (`q2_npat_est` = 5,020 in the `market_check_2026_07_24` block).
+  A percentage cannot be scored against a level, so a filed actual sat unscored for two weeks.**
+  ✅ **ACTUAL: Q2 revenue ₫55,557bn, NPAT ₫6,424bn (+53% / +51%).**
+  | | value | |
+  |---|---|---|
+  | pre-registered point est | **₫5,020bn** | actual **+₫1,404bn, +28.0%** |
+  | lane-brief range | **₫5,020–6,500bn** | actual at **94.9% of range — INSIDE, ₫76bn below the top** |
+  ***THE CALIBRATION READ: THE RANGE WAS WELL-CHOSEN AND THE POINT ESTIMATE WAS MATERIALLY LOW. A forecaster
+  quoting 5,020 was badly wrong; a forecaster quoting 5,020–6,500 was right and nearly precise. Same file, two
+  representations of the same view, opposite verdicts — which is an argument for carrying ranges rather than
+  points.***
+  ⚠⚠ **AND THE H1 RUN-RATE IS THE BIGGER NUMBER: H1 revenue ₫108,870bn (+47%), H1 NPAT ₫15,480bn (+103%) —
+  70% OF THE FULL-YEAR ₫22,000bn PROFIT TARGET ACHIEVED IN SIX MONTHS (and 52% of the ₫210,000bn revenue
+  target). If H2 merely REPEATS H1, FY NPAT lands ≈₫30,960bn, +41% above the company's own target.**
+  ⚠ *Stated as arithmetic, not a forecast — H2 repeating H1 is an assumption, not an expectation, and the file
+  holds no H2 steel-spread view capable of supporting one. **The profit-vs-revenue completion gap (70% vs 52%)
+  is itself the signal: margin, not volume, is carrying the beat.***
+  **DRIVER NAMED BY THE COMPANY: Dung Quất 2 volumes, especially HRC.**
+  ⚠ *Also surfaced and NOT claimed: an 01-Aug headline that MOIT imposed duties on Chinese WIDE HRC for four
+  years. Directionally protective for HPG's domestic HRC, but undated in the snippet and unverified against
+  this file — flagged for a later check, not logged as fact.*
+  **NOTHING MODELLED — `q2_npat_est` lives in a DATED MARKET-EXPECTATION SNAPSHOT and is not consumed by
+  `run.py` (verified 03:54); the actual is already on file by percentage. No input changed. No confidence
+  moved — §4. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [Vietstock — Hòa Phát lãi hơn 6,400 tỷ trong quý 2, tăng 51%](https://vietstock.vn/2026/07/hoa-phat-lai-hon-6400-ty-trong-quy-2-tang-51-so-voi-cung-ky-737-1472700.htm) · [TNCK — lãi 15.480 tỷ sau 6 tháng, hoàn thành 70% kế hoạch](https://www.tinnhanhchungkhoan.vn/hoa-phat-hpg-lai-15480-ty-dong-sau-6-thang-hoan-thanh-70-ke-hoach-nam-post394895.html) · [Người Quan Sát — báo lãi quý II tăng 51%, gần 7 triệu tấn thép thô](https://nguoiquansat.vn/hoa-phat-hpg-bao-lai-quy-ii-2026-tang-51-san-xuat-gan-7-trieu-tan-thep-tho-trong-nua-dau-nam-307034.html)
+
 - **⚠⚠ 01:54 ICT FRI 14-AUG · A HOMONYM TRAP: I SEARCHED FOR THE QUOTA-REMOVAL PILOT AND GOT A DIFFERENT
   "ROOM" POLICY ENTIRELY. MY TIMING QUESTION IS STILL OPEN — BUT THE WRONG ANSWER IS ITSELF MATERIAL, AND IT
   NAMES TCB (lanes 1, 5-property).**
