@@ -118,6 +118,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 18:54 ICT THU 13-AUG · THE 13-AUG CLOSE: −27.55 pts TO ~1,765.63, A ~30-POINT LATE REVERSAL ON RISING
+  VOLUME, AND FOREIGN SELLING BACK ON TCB AND HPG (lanes 4, 3). Obtained at 249 min — the same offset that
+  worked yesterday.**
+  ⚠⚠ **VN-INDEX CLOSED ~1,765.63, −27.55 pts, −1.54%.** *Arithmetic checks: 1,793.18 − 27.55 = 1,765.63, and
+  the source says "gần 1.766". A second outlet gives "giảm gần 28 điểm" — same move, rounded.*
+  ⚠⚠⚠ **THE SHAPE IS THE STORY, AND I HAVE BOTH ENDS OF IT BECAUSE I READ THE MORNING SEPARATELY AND REFUSED
+  TO CALL IT A CLOSE. Morning: +2.36 to 1,795.54. Close: 1,765.63. THAT IS A −29.91 POINT, −1.67% REVERSAL
+  INSIDE ONE SESSION**, with the headline *"lực bán 'dội' mạnh cuối phiên"* — heavy selling dumped late.
+  *Two hours ago I logged the morning print as noise and declined to file it. It was not the number that
+  mattered; it was the BASELINE that makes tonight's close legible as a reversal rather than a drift.*
+  ⚠⚠ **AND THE VOLUME SIGN FLIPPED, WHICH MATTERS MORE THAN THE POINTS. The prior two sessions ROSE on FALLING
+  turnover; today FELL on RISING turnover — 3-exchange volume 833m units / ₫20,052bn, up on the prior session
+  (HOSE alone 312.98m / ₫10,572.73bn).** ***A weak rally on thin volume followed by a sharp fall on heavier
+  volume is a distribution pattern, and it is the first time this week the turnover trend has confirmed rather
+  than contradicted the price move.***
+  ⚠⚠⚠ **FOREIGN SELLING RETURNED — ₫558bn NET SOLD ACROSS ALL THREE EXCHANGES, CONCENTRATED IN TCB, VHM, VIC,
+  HPG AND ACB. TWO ARE HOLDINGS: TCB AND HPG.** ⚠ **BASIS WARNING: this is a THREE-EXCHANGE figure and the
+  ₫768.77bn from 11-Aug was HOSE-ONLY. THEY ARE NOT DIRECTLY COMPARABLE and I am not differencing them.**
+  ⚠⚠ **TCB HAS NOW TOPPED OR NEAR-TOPPED THE FOREIGN SELL LIST IN TWO OF THREE SESSIONS** — most-sold on
+  11-Aug at ₫221.8bn, a positive contributor on 12-Aug during the net-buy day, and back among the most-sold
+  today. *TCB is the largest position in the book and its foreign room is on file as LOCKED at 22.4908% and
+  EXHAUSTED, so every foreign sale mechanically opens room. Logged as a pattern across three sessions, with no
+  per-stock magnitude for today.*
+  ⚠⚠ **WHAT I AM NOT SAYING: THAT CPI CAUSED THIS. This was the first VN session carrying the print, the print
+  was IN LINE on all four measures, and the file holds NO MEASURED ELASTICITY from US CPI to Vietnamese
+  equities. A −1.54% session on the day a benign print arrives is not evidence that the print did it.**
+  ⚠ *Honest note on my own pre-stated chain: it pointed to a benign-to-supportive backdrop, was already
+  contradicted at the currency leg (12:54), and today's tape does not support the benign read either. **That is
+  a failed forecast direction, not an established mechanism** — and the distinction is the only reason the
+  chain was worth writing down.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires** — index level is not an input, the flow figure has no per-name magnitude, and MBB/TCB prices are §4
+  human-only.
+  [Nhân Dân — VN-Index mất hơn 27 điểm, sắc đỏ lan rộng](https://baomoi.com/chung-khoan-ngay-13-8-vn-index-mat-hon-27-diem-sac-do-lan-rong-toan-thi-truong-c55825993.epi) · [VnExpress — chứng khoán giảm gần 28 điểm](https://vnexpress.net/chung-khoan-giam-gan-28-diem-5108768.html) · [Tiền Phong — lực bán dội mạnh cuối phiên](https://tienphong.vn/luc-ban-doi-manh-cuoi-phien-vn-index-lai-roi-xa-1800-diem-post1867647.tpo) · [TNCK — phiên sáng 13/8 (the morning baseline)](https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-138-dong-tien-than-trong-vn-index-giang-co-nhe-post395852.html)
+
 - **⚠⚠ 15:54 ICT THU 13-AUG · CORRECTION TO MY OWN 14:54 FRAMING — TCB IS ROLLING ITS BOND DEBT, NOT
   RETIRING IT. THE SENIORITY QUESTION IS STILL UNANSWERED (lane 3).**
   ⚠⚠ **WHAT I IMPLIED AN HOUR AGO:** *"TCB retiring paper while fresh 3-year money costs it 8.5% makes that
