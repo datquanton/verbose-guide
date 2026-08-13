@@ -118,6 +118,41 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 14:54 ICT THU 13-AUG · WHOLESALE FUNDING COSTS AT 2026 HIGHS ACROSS ALL THREE BANK HOLDINGS — THE
+  THIRD INDEPENDENT PRESSURE ON 51.5% OF THE BOOK THIS FORTNIGHT (lanes 3, 5-banks).**
+  **THE ISSUANCE, NAMED AND PRICED:**
+  | issuer | tranche | coupon | vs retail 6–13m deposit (6.20%) |
+  |---|---|---|---|
+  | **TCB** | ₫3,000bn, 3yr | **8.5%** | +2.30pp |
+  | **TCB** | ₫1,500bn, 2yr | **8.4%** first two periods, then reference **+1.22%** | +2.20pp |
+  | **MB** | ₫100–200bn, **10yr** | **8.3–8.4%** | ~+2.15pp |
+  | **VPB** | ₫1,000bn, 3yr | **8.6%** | +2.40pp |
+  | **VPB** | **certificates of deposit**, 6m–<13m, ≥₫100m | **9.0%** | **+2.80pp** |
+  **Coverage states the bond-coupon floor has set a NEW HIGH FOR 2026, with tranches clustering 8–9%, and that
+  banks are SHARPLY CUTTING issuance volumes as yields rise** — a coherent pair: price up, quantity down.
+  ⚠⚠ **THE SHARPEST SINGLE NUMBER IS INTERNAL TO ONE ISSUER: VPB pays 6.20% on a 6–13m TERM DEPOSIT and 9.0%
+  on a CERTIFICATE OF DEPOSIT in the SAME TENOR BAND — a 280bp gap inside one bank at one maturity.** ⚠
+  *Different instruments, so this is not an arbitrage and is not presented as one; it is a statement about
+  which funding channel is actually clearing.*
+  ⚠⚠⚠ **THIS IS THE THIRD PRESSURE ON THE SAME 51.5% OF THE BOOK IN ONE FORTNIGHT, AND THEY ARE INDEPENDENT
+  OF ONE ANOTHER: (1) the central rate at successive ALL-TIME HIGHS, constraining SBV easing (12:54); (2)
+  retail deposit rates RISING — VPB +0.2pp to 6.20% on 6–13m (13:54); (3) wholesale funding at 2026-high
+  coupons of 8.3–8.6%.** ***Any one is colour. Three independent funding-cost signals pointing the same way,
+  on TCB + VPB + MBB together, is a pattern the CIO run should see stated as one thing rather than three.***
+  ⚠⚠ **AND IT SHARPENS AN OPEN QUESTION ALREADY ON FILE. This file records TCB repurchasing ₫17,000bn of its
+  own bonds across 2026, and flagged that WHETHER THEY ARE TIER 2 SUBORDINATED OR ORDINARY BANK BONDS WAS NOT
+  ESTABLISHED. TCB retiring paper while fresh 3-year money costs it 8.5% makes that seniority question
+  materially more interesting, not less** — *the two facts are only reconcilable under some readings, and the
+  file cannot yet say which.* **Still unresolved; not guessed.**
+  ⚠ **DATING IS THE WEAKNESS AND I AM NOT HIDING IT: the coverage says "2026" and "a new high for 2026"
+  without tranche dates. These are FY-2026 issuance facts, not necessarily this week's.** *The direction and
+  the levels are well-sourced across multiple outlets; the timing is not.*
+  ⚠ **NO NIM ELASTICITY IS ON FILE, so none of this is modelled. A 210–280bp premium over retail funding has no
+  computed path to any holding's earnings in this repo — that absence is itself worth the CIO run's attention.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [VnExpress — ngân hàng đua phát hành trái phiếu lãi suất trên 8,3%](https://vnexpress.net/ngan-hang-dua-phat-hanh-trai-phieu-lai-suat-tren-8-3-5088287.html) · [Người Quan Sát — lãi suất trái phiếu gần 9%, ngân hàng giảm mạnh phát hành](https://nguoiquansat.vn/lai-suat-trai-phieu-len-gan-9-nam-ngan-hang-giam-manh-phat-hanh-292706.html) · [Dân Việt — TCB, MB, VPB đẩy lãi suất trái phiếu lên gần 9%](https://danviet.vn/techcombank-mb-vpbank-day-lai-suat-trai-phieu-len-gan-9-cuoc-choi-phia-sau-la-gi-d1441615.html) · [Nhịp sống KD — VPBank phát hành trái phiếu 9%/năm](https://nhipsongkinhdoanh.vn/vpbank-phat-hanh-trai-phieu-lai-suat-9--nam-31028.htm)
+
 - **⚠⚠⚠ 12:54 ICT THU 13-AUG · THE CENTRAL-RATE MOVE IS WORSE THAN I LOGGED AN HOUR AGO: IT IS A SUSTAINED
   RUN AT SUCCESSIVE ALL-TIME HIGHS — AND A GREP NEARLY MADE ME RETRACT A TRUE FINDING (lane 1).**
   ✅ **THE SERIES, FROM THIS FILE'S OWN RECORDS PLUS TODAY'S PRINT:**
