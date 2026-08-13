@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 07:54 ICT FRI 14-AUG · TCB'S CAPITAL RATIO WAS NOT ON FILE AT ALL — AND IT ANSWERS THE TIER 2
+  QUESTION INDIRECTLY, AFTER TWO DIRECT FAILURES (lane 3).**
+  ✅ **NEW, AND A REAL GAP FOR A 35% POSITION: TCB'S CAR (Basel II) — 14.6% end-2025 → 15.2% Q1/2026 → 15.0%
+  at 30-Jun-2026, the Q2 easing attributed to paying ~₫5,000bn of cash dividends.** ⚠ *`CAR` returned 33 hits
+  repo-wide and **every one was a substring false positive** — CARRY, CARVE-OUT, CAREFULLY, CARRIES, CARRIED.
+  The substring family again; the capital ratio of the largest holding was simply absent.*
+  ⚠⚠⚠ **THE INDIRECT ANSWER, AND IT IS AN INFERENCE NOT A DISCLOSURE. I have twice failed to establish whether
+  TCB's ₫17,000bn of repurchased bonds are TIER 2 SUBORDINATED or ORDINARY. TIER 2 SITS IN THE CAR NUMERATOR:
+  retiring ₫17,000bn of it would cut the ratio materially. CAR ROSE over the window and eased only on a
+  dividend payment.** ***That is evidence AGAINST the repurchases being predominantly Tier 2 — a directional
+  read reached from a third angle after two head-on searches failed.***
+  ⚠ **THREE REASONS IT DOES NOT SETTLE THE QUESTION, stated because they matter:** (1) the Q2 dip is
+  explicitly attributed to dividends, not to capital retirement, so the series is not a clean test; (2)
+  simultaneous issuance could mask a Tier 2 retirement; (3) Tier 2 amortises in its final five years anyway.
+  **STILL A MISS, now with a lean rather than a blank.**
+  ⚠⚠ **AN ISSUANCE CONFLICT, RECORDED NOT BLENDED: one source says ~₫10,000bn raised across 5 bond lots YTD
+  2026; another says ₫25,000bn "hút về từ đầu năm". A 2.5× gap.** ***It matters directionally: against
+  ₫17,000bn repurchased, the ₫10,000bn reading makes TCB a net RETIRER and the ₫25,000bn reading makes it a
+  net ISSUER. I cannot say which, and the 15:54 conclusion — that TCB is ROLLING rather than retiring — holds
+  under both.***
+  ✅ **Charter capital heading to ₫113,700bn after the issues — the largest private credit institution in
+  Vietnam by charter capital.**
+  ⚠ *NOT CLAIMED: the summary characterised TCB as "actively strengthening TIER 2 through bond issuance." That
+  is the summariser's gloss, not a sourced statement, and it is precisely the proposition under test — so it
+  cannot be used as evidence for itself.*
+  **NOTHING MODELLED. No input changed. No confidence moved — §4. `DECISION-BRIEF.md` byte-identical; no
+  trigger fires.**
+  [Techcombank — 2Q26 press release (primary)](https://techcombank.com/content/dam/techcombank/public-site/documents/2q26-press-release-vie.pdf) · [DNKTX — tất toán sớm hàng nghìn tỷ, hút về 25.000 tỷ từ đầu năm](https://doanhnghiepkinhtexanh.vn/techcombank-tat-toan-som-hang-nghin-ty-dong-trai-phieu-dong-thoi-hut-ve-25000-ty-tu-dau-nam-a49225.html) · [Nhịp sống nhà đất — hút 10.000 tỷ trái phiếu sau 5 tháng](https://nhipsongnhadat.vn/mxh/techcombank-hut-10-000-ty-trai-phieu-sau-5-thang.html) · [Chính phủ — chia cổ tức tới 67%, tăng vốn lên hơn 113.000 tỷ](https://baochinhphu.vn/techcombank-chia-co-tuc-toi-67-tang-von-len-hon-113000-ty-dong-102260425172132113.htm)
+
 - **⚠⚠ 06:54 ICT FRI 14-AUG · VPB'S NPLs ARE AT MULTI-YEAR LOWS — AND I NEARLY USED THAT TO EXCUSE ITS LOW
   COVERAGE, WHICH WOULD HAVE BEEN A RATIO ERROR (lanes 5-banks, 3).**
   ✅ **NEW AND HOLDING-SPECIFIC: VPBank's NPL ratio AND its Group-2 ("needs attention") ratio are reported at
