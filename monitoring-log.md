@@ -118,6 +118,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 19:54 ICT THU 13-AUG · PER-NAME FLOWS: TCB IS THE MOST FOREIGN-SOLD STOCK ON THE EXCHANGE FOR THE
+  SECOND TIME IN THREE SESSIONS, AND TWO HOLDINGS TOOK ~HALF OF ALL NET SELLING (lanes 4, 7).**
+  **13-AUG FOREIGN NET SELL — TOP FIVE:**
+  | rank | ticker | ₫bn | |
+  |---|---|---|---|
+  | 1 | **TCB** | **170.19** | **HOLDING — largest position in the book** |
+  | 2 | VHM | 159.62 | |
+  | 3 | VIC | 126.52 | |
+  | 4 | **HPG** | **106.65** | **HOLDING — 16.8% of the book** |
+  | 5 | ACB | 92.85 | |
+  ⚠⚠⚠ **TCB + HPG = ₫276.84bn against a ₫558bn three-exchange total — ROUGHLY HALF OF ALL FOREIGN NET SELLING
+  LANDED ON TWO OF THE EIGHT.** ⚠ *Ratio flagged as INDICATIVE not exact: the numerators are HOSE names and the
+  denominator is a three-exchange figure. The top five alone sum to ₫655.83bn — **117.5% of the net total** —
+  which is arithmetically normal (net nets buying against selling) but is exactly why the 49.6% must not be
+  quoted as a precise share.*
+  ⚠⚠ **TCB ACROSS THREE SESSIONS: 11-Aug ₫221.80bn MOST-SOLD · 12-Aug a positive contributor on the net-BUY
+  day · 13-Aug ₫170.19bn MOST-SOLD AGAIN. Two of three sessions as the single most net-sold stock on the
+  exchange, ₫391.99bn across the two.** *Its foreign room is on file as LOCKED at 22.4908% and EXHAUSTED, so
+  each sale mechanically opens room — the direction of that room is now a three-session trend rather than an
+  incident.*
+  ⚠ **SECTOR SHAPE: coverage names the Vingroup family, BANKS and BROKERS as the pressured groups. That is
+  four of the eight — TCB, VPB, MBB and VCI.**
+  ⚠⚠ **ESCALATION TRIGGER 4 CONSIDERED EXPLICITLY AND DOES NOT FIRE.** *The trigger is "a held name's EVIDENCE
+  STATUS changes." Foreign flow is positioning, not evidence about earnings, valuation or credit quality, and
+  this file has consistently treated flows as context. **A three-session selling pattern on the largest
+  position is the strongest flow signal recorded here, and it still is not a thesis input — asserting a trigger
+  on it would be inventing one.** Recorded so that a future reader sees the test was applied rather than
+  skipped.*
+  **NOTHING MODELLED. No input changed. NO CONFIDENCE MOVED — flows are not an evidence-quality input and
+  prices are §4 human-only. `DECISION-BRIEF.md` byte-identical; no trigger fires.**
+  [Vnbusiness — VN-Index giảm 27 điểm: họ Vin, ngân hàng, chứng khoán chịu áp lực](https://baomoi.com/vn-index-giam-27-diem-ho-vin-ngan-hang-chung-khoan-cung-chiu-ap-luc-ban-c55826542.epi) · [Dân trí — cổ phiếu ngân hàng, bất động sản lao dốc](https://dantri.com.vn/kinh-doanh/co-phieu-ngan-hang-bat-dong-san-lao-doc-vn-index-giam-28-diem-20260813161620001.htm) · [CafeF — lực bán dội mạnh cuối phiên](https://cafef.vn/luc-ban-doi-manh-cuoi-phien-vn-index-lai-roi-xa-1800-diem-188260813165551732.chn) · [Tri thức — VN-Index bốc hơi 27 điểm](https://baomoi.com/vn-index-boc-hoi-27-diem-c55826297.epi)
+
 - **⚠⚠⚠ 18:54 ICT THU 13-AUG · THE 13-AUG CLOSE: −27.55 pts TO ~1,765.63, A ~30-POINT LATE REVERSAL ON RISING
   VOLUME, AND FOREIGN SELLING BACK ON TCB AND HPG (lanes 4, 3). Obtained at 249 min — the same offset that
   worked yesterday.**
