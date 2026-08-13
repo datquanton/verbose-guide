@@ -118,6 +118,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 20:54 ICT THU 13-AUG · VPB'S CAPITAL PLAN GETS TIMING, AND A FOREIGN-OWNERSHIP FIGURE ABOVE THE
+  STANDARD CAP APPEARS (lanes 3, 7).**
+  ✅ **THE PLACEMENT RECONCILES THE TWO DESCRIPTIONS THIS FILE CARRIES. 624.3m shares raising ~₫6,243bn — and
+  ₫6,243bn ÷ 25,539 = US$244.4m, which IS the "$250m foreign placement" in the lane brief.** *Same transaction,
+  two currencies, never previously tied together here.*
+  ✅ **THE WHOLE CAPITAL PLAN CHECKS OUT ARITHMETICALLY AGAINST GATE ROW 49:** charter capital **₫79,339bn →
+  ₫100,000bn** via a **26.04%** issue from retained earnings (79,339 × 1.2604 = 99,999 ✓; and the row's
+  2,062.8m shares × ₫10,000 par = ₫20,628bn ✓), then **→ ₫106,243bn** on the placement (source says 106,244).
+  **On completion VPB would lead the system on charter capital.**
+  ⚠⚠ **NEW — TIMING, WHERE THE FILE HAD NONE. Gate row 49 says "No ex-date established for any tranche."
+  This gives QUARTERS: Stage 1 (stock issue) Q2–Q3/2026; Stage 2 (placement) Q3–Q4/2026, EXPLICITLY CONDITIONAL
+  ON SBV *AND* SSC APPROVAL.** *Quarters are not dates and do not retire the row — but the APPROVAL DEPENDENCY
+  is the more useful half: it names what must happen before either tranche can, and it is a thing that gets
+  announced.*
+  ⚠ **NEW — A 5% CASH DIVIDEND FOR 2025, expected Q2–Q3/2026.** *The gate row tracks VPB's 26% stock dividend
+  and the placement; a cash leg is not among them. Recorded; not modelled — `cash_yield` is §4 human-only, and
+  this file has a standing open item where TCB's `cash_yield` still counts an ALREADY-PAID dividend as forward
+  return.*
+  ⚠⚠⚠ **NEW AND FLAGGED FOR VERIFICATION: coverage states foreign ownership "could rise to 34%". VIETNAMESE
+  BANKS ARE NORMALLY CAPPED AT 30%. `34%` had ZERO genuine hits repo-wide — both apparent matches were false
+  positives (MBB's 1.34% PBT share; a 34%-of-assets inventory line).** ***I am NOT asserting the mechanism. A
+  raised cap exists in Vietnamese policy for banks absorbing weak institutions, but nothing here establishes
+  that VPB is on that footing, and "34%" may simply be loose reporting. WHAT WOULD SETTLE IT: an SBV approval
+  document or a company filing stating VPB's permitted foreign-ownership limit.*** *Named as a reachable check,
+  not left as an open wonder.*
+  ⚠⚠ **THE CROSS-HOLDING CONTRAST IS WORTH ONE LINE: TCB's foreign room is LOCKED at 22.4908% and EXHAUSTED,
+  and foreigners have been its heaviest sellers in two of three sessions. VPB is simultaneously MANUFACTURING
+  foreign room via a placement.** *Opposite directions on the same constraint, inside one book, in the same
+  fortnight.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical; no trigger
+  fires.**
+  [Báo Đầu tư — chào bán riêng lẻ 624 triệu cp, sở hữu ngoại có thể lên 34%](https://baodautu.vn/vpbank-chao-ban-rieng-le-624-trieu-co-phieu-cho-doi-tac-ngoai-ty-le-so-huu-von-ngoai-co-the-len-34-d571247.html) · [CafeF — phát hành riêng lẻ, dẫn đầu hệ thống về vốn](https://cafef.vn/vpbank-du-kien-phat-hanh-rieng-le-cho-ndt-nuoc-ngoai-vuon-len-dan-dau-he-thong-ve-quy-mo-von-18826041609292937.chn) · [Vietstock/Investing — tăng vốn lên gần 106,244 tỷ](https://vn.investing.com/news/economy-news/vpbank-du-kien-phat-hanh-rieng-le-cho-1-co-dong-ngoai-tang-von-len-gan-106244-ty-2586565) · [Tiền Phong — một NĐT ngoại dự kiến mua hơn 620 triệu cp](https://tienphong.vn/mot-nha-dau-tu-ngoai-du-kien-mua-hon-620-trieu-co-phieu-vpbank-post1836800.tpo)
+
 - **⚠⚠⚠ 19:54 ICT THU 13-AUG · PER-NAME FLOWS: TCB IS THE MOST FOREIGN-SOLD STOCK ON THE EXCHANGE FOR THE
   SECOND TIME IN THREE SESSIONS, AND TWO HOLDINGS TOOK ~HALF OF ALL NET SELLING (lanes 4, 7).**
   **13-AUG FOREIGN NET SELL — TOP FIVE:**
