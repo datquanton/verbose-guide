@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨⚠⚠ 14:54 ICT FRI 14-AUG · TRIGGER 2 TESTED FOR THE FIRST TIME — TWO CAPS ARE BREACHED, AND THE
+  CONSTITUTION SAYS SO IN ITS OWN TEXT. PLUS A RULE CONFLICT THAT RESOLVES USEFULLY (process, lane 3).**
+  **I named trigger 2 untested an hour ago. Tested now. `DECISION-FRAMEWORK` §5 opens: *"Rules written when
+  calm, to be obeyed when not. THE BOOK CURRENTLY BREACHES TWO."***
+  | cap | limit | book | breach |
+  |---|---|---|---|
+  | max single name | **20%** | **TCB 35.0%** | **+15.0pp** |
+  | max correlated cluster | **35%** | **Techcom 40.5%** (TCB 35.0 + TCX 5.5) | **+5.5pp** |
+  ✅ **The arithmetic reproduces the constitution's own figures exactly, and the proposed cycle cures both:
+  TCB → 20.0% (at cap), cluster → 22.2%.**
+  ⚠⚠ **TRIGGER 2 IS "a cap BREACHES, or an existing breach WORSENS." TWO BREACHES ARE STANDING AND
+  ACKNOWLEDGED. WHETHER EITHER HAS WORSENED SINCE 24-JUL IS NOT COMPUTABLE FROM THIS FILE — position weights
+  move with PRICE, and the `valuation` prices are stale and §4 human-only (MBB is still ₫22,050 against a
+  worked ₫18,440).** ***So the honest state is: BREACHED — standing and known; WORSENING — UNKNOWN. That is
+  materially different from the "no trigger fires" I typed 32 times.***
+  ⚠⚠⚠ **NOW THE RULE CONFLICT, AND IT RESOLVES IN A HELPFUL DIRECTION. The constitution says a constitutional
+  breach *"OVERRIDES this and returns to cap IMMEDIATELY."* The brief says *"nothing that fights a dated
+  catalyst inside 5 sessions."* With trigger 5 live, those two rules point opposite ways — but ONLY for part
+  of the book:**
+  - **TRIM TCB −15.0pp — the large leg, and the one the override authorises. TCB is ABSENT from the FTSE
+    roster and has NO catalyst inside the 5-session window. NOT catalyst-conflicted.**
+  - **SELL TCX −3.3pp — the small leg. The 21-Aug list SETTLES TCX's membership and Forecast #7 resolves the
+    same day. CATALYST-CONFLICTED.**
+  ***So the conflict is confined to a 3.3pp trade, while the 15.0pp constitutional correction runs free. A
+  human reading "constitution vs catalyst" as a blanket standoff would freeze the whole cluster; it is not a
+  standoff, it is a 3.3pp exception.*** *Stated as a reading of two written rules — the decision remains the
+  human's.*
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES THIS HOUR —
+  but trigger 2 is now recorded as STANDING-BREACHED rather than untested, and trigger 5 remains fired.**
+
 - **⚠⚠⚠ 13:54 ICT FRI 14-AUG · SELF-AUDIT: I WROTE "NO TRIGGER FIRES" 32 TIMES WHILE THREE OF THE FIVE HAD
   FIRED THIS CYCLE. THE PHRASE WAS IMPRECISE, NOT FALSE — AND THE IMPRECISION READS AS "NOTHING IS
   ESCALATED" (process).**
