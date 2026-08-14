@@ -118,6 +118,31 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 12:54 ICT FRI 14-AUG · CORRECTION TO MY OWN 10:54 HEADLINE — TRIGGER 5 IS NOT THE "FIRST TO FIRE THIS
+  CYCLE." IT FIRED ON 01-AUG. AND A PASSED CATALYST ON A 20.3% POSITION IS STILL UNRESOLVED (lanes 3, 4).**
+  ⚠⚠ **THE CORRECTION. At 10:54 I headlined trigger 5 as the "FIRST TRIGGER TO FIRE THIS CYCLE." `assumptions.json`
+  carries `_ESCALATION_TRIGGER_5_VNDIAMOND_EFFECTIVE_MONDAY_2026_08_01` — trigger 5 fired on 01-Aug, on KDH's
+  VNDiamond catalyst, against a proposed TRIM, within the SAME brief cycle (the brief is dated 24-Jul).**
+  ***Mine is a NEW firing, not the first. The escalation stands exactly as reported; only the "first" claim
+  falls.*** *I checked the trade list and the calendar carefully and did not check whether the trigger had a
+  history — the one question whose answer was already written down.*
+  ⚠⚠⚠ **AND THE OLDER FIRING NEVER RESOLVED, WHICH MATTERS MORE THAN THE CORRECTION. KDH's VNDiamond status is
+  recorded as UNKNOWN AND EXPLICITLY FENCED: gate rows 66/68 read *"ROUTE CLOSED — BLOCKED, NOT UNRESEARCHED;
+  `vietcat.com` and `vsd.vn` are gateway-blocked; KDH's status stays UNKNOWN and is not to be re-searched."***
+  **So a dated catalyst on the book's second-largest position PASSED eleven days ago and its outcome is
+  structurally unobtainable from here.** *I did not search it — the fence is correct and I am honouring it.*
+  ✅ **THE MECHANISM IS ON FILE AND SHARPENS THE PROBLEM: VNDiamond REBALANCES QUARTERLY BUT REVIEWS
+  CONSTITUENTS SEMI-ANNUALLY, and REMOVAL happens at the SEMI-ANNUAL review — sources put the relevant one at
+  JULY 2026, with KDH removable if its foreign-ownership ratio stayed below the 65% minimum (it was 61.8%).
+  The file's own note: "the timing was right by accident; the mechanism was not."** *So 03-Aug was a quarterly
+  rebalance date, and the decision that matters had already happened.*
+  ⚠⚠ **WHAT THE HUMAN SHOULD SEE, since two trigger-5 firings now sit on KDH and TCX/VCI respectively: the
+  brief's SELL KDH −3.2pp cites the VNDiamond watchlist as supporting evidence, and that evidence has an
+  UNRESOLVED, UNREACHABLE outcome that may already have gone either way. Its AGM ruled out new equity issuance,
+  which removes one lever for lifting the ratio.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. TRIGGER 5
+  REMAINS FIRED (10:54, FTSE/rights window); this entry corrects its framing and surfaces the earlier one.**
+
 - **⚠⚠⚠ 11:54 ICT FRI 14-AUG · THE CATALYST CALENDAR THE BRIEF POINTS TO DOES NOT EXIST — AND THAT MATTERS
   BECAUSE TRIGGER 5 FIRED ONE HOUR AGO (lane 3, process).**
   **THE BRIEF'S SEQUENCING RULE:** *"nothing that fights a dated catalyst inside 5 sessions — **see the catalyst
@@ -149,7 +174,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   10:54; this entry qualifies how its prescribed remedy can be reached.**
 
 - **🚨🚨🚨 10:54 ICT FRI 14-AUG · ESCALATION TRIGGER 5 FIRES — DATED CATALYSTS LAND INSIDE 5 SESSIONS OF
-  FIVE PROPOSED TRADES. FIRST TRIGGER TO FIRE THIS CYCLE (lanes 3, 4).**
+  FIVE PROPOSED TRADES. ⚠ **CORRECTED 12:54 — NOT the "first this cycle"; trigger 5 also fired 01-Aug on KDH/VNDiamond. This is a NEW firing and the escalation stands.** (lanes 3, 4).**
   **THE SESSION COUNT, computed not eyeballed. Today is Fri 14-Aug; 15–16 Aug is a weekend:**
   | session | date | catalyst |
   |---|---|---|
