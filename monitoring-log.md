@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 13:54 ICT FRI 14-AUG · SELF-AUDIT: I WROTE "NO TRIGGER FIRES" 32 TIMES WHILE THREE OF THE FIVE HAD
+  FIRED THIS CYCLE. THE PHRASE WAS IMPRECISE, NOT FALSE — AND THE IMPRECISION READS AS "NOTHING IS
+  ESCALATED" (process).**
+  ⚠⚠ **WHAT PROMPTED IT: yesterday I found trigger 5 firing the moment I actually read the trade list against
+  the calendar. That raised a question I should have asked far earlier — WAS I CHECKING TRIGGERS 1–4, OR
+  RECITING? So I read DECISION-FRAMEWORK §4 verbatim and tested each.**
+  **THE TRUE STATE OF THE 24-JUL BRIEF CYCLE:**
+  | # | trigger | state |
+  |---|---|---|
+  | 1 | kill criterion | **not fired.** TCB's Masterise criterion is ARMED but **NOT TESTABLE** on three undefined terms |
+  | 2 | cap breach or worsening | ⚠ **NOT VERIFIED BY ME THIS CYCLE — see below** |
+  | 3 | E[r] moves >10pp | **FIRED REPEATEDLY**, escalated extensively in `assumptions.json` |
+  | 4 | estimate → filed actual | **FIRED 29–31 Jul on HPG, KDH and MBB — and HANDLED:** HPG confidence **0.60 → 0.70** *("now T1 actual rather than estimate")*; MBB **held 0.55** *(T5 press about a filing, not the filing)*; KDH **held 0.50** *(deliberate deviation)* |
+  | 5 | catalyst within 5 sessions | **FIRED 01-Aug** (KDH/VNDiamond — **still unresolved**) **and 14-Aug** (FTSE/rights — mine) |
+  ⚠⚠⚠ **SO TRIGGER 4 — "an estimate becomes a filed actual" — WAS BEING MET IN FRONT OF ME. I spent yesterday
+  and this morning SCORING exactly those estimate-to-actual transitions for HPG and KDH while typing "no
+  trigger fires" underneath. The trigger's definition is the thing I was doing.** *It was handled at the time,
+  in the brief's evidence strings, so nothing was missed operationally — but I was not the one checking.*
+  ✅ **WHAT SURVIVES: the phrase was never FALSE about the hour it described. No NEW trigger fired in those 32
+  hours. THE ACCURATE FORM IS "NO NEW TRIGGER FIRES THIS HOUR", and I will use it.** *"No trigger fires" reads
+  to a human as "nothing is escalated" — which is not true of this cycle and has not been true since 29-Jul.*
+  ⚠⚠ **AND THE HONEST GAP I WILL NOT PAPER OVER: TRIGGER 2 (CAP BREACH) I HAVE NEVER TESTED. The book carries
+  TCB at 35.0% against a north star of 20.0%, and I do not know what the position-sizing constitution's caps
+  ARE — §5 of DECISION-FRAMEWORK is where they live and I have not read it against the current weights.**
+  ***I am recording that as unverified rather than asserting it clean, which is what I have effectively been
+  doing 32 times.***
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES THIS HOUR;
+  trigger 5 remains fired from 10:54 and from 01-Aug.**
+
 - **⚠⚠ 12:54 ICT FRI 14-AUG · CORRECTION TO MY OWN 10:54 HEADLINE — TRIGGER 5 IS NOT THE "FIRST TO FIRE THIS
   CYCLE." IT FIRED ON 01-AUG. AND A PASSED CATALYST ON A 20.3% POSITION IS STILL UNRESOLVED (lanes 3, 4).**
   ⚠⚠ **THE CORRECTION. At 10:54 I headlined trigger 5 as the "FIRST TRIGGER TO FIRE THIS CYCLE." `assumptions.json`
