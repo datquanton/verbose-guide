@@ -118,6 +118,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 23:54 ICT FRI 14-AUG · THE THIRD OFFSET'S MECHANISM IS NAMED BUT NOT SIZED — AND IT IS A DIFFERENT
+  KIND OF THING FROM THE OTHER TWO (lanes 1, 3). Short entry; it closes a ledger.**
+  ✅ **MECHANISM, NAMED AND DATED: SBV SPECIAL LOANS AT 0%/YEAR, UNSECURED. Authority moved from the Prime
+  Minister to the SBV under the amended Law on Credit Institutions, effective 15-OCT-2025. Drawn when a credit
+  institution faces LIQUIDITY DIFFICULTY, or to conduct MANDATORY RESTRUCTURING OR TRANSFER.**
+  ⚠ **SIZE STILL UNKNOWN — no limit or drawn amount for MB or VPB is disclosed in reachable coverage, which
+  centres on deposit-insurance organisations and the general provisions. WHAT WOULD SETTLE IT: a disclosed
+  facility limit or a drawn balance in a bank's own statements.**
+  ⚠⚠⚠ **THE DISTINCTION THAT MATTERS MORE THAN THE MISSING NUMBER: THE THREE "OFFSETS" ARE NOT THE SAME KIND
+  OF THING. Offsets 1 and 2 — the credit quota and the halved reserve ratio — are ONGOING AND EXERCISABLE
+  ADVANTAGES that show up in normal operation. OFFSET 3 IS A CONTINGENT BACKSTOP, valuable only in the state
+  where you would least want to need it.** ***I have been carrying all three under one word. They should not
+  net against a funding-cost pressure in the same way, and a reader adding them up would overstate the
+  ongoing benefit.***
+  **THE LEDGER, CLOSED HONESTLY:**
+  | | offset | status | character |
+  |---|---|---|---|
+  | 1 | credit quota — ~13% vs **up to 35%** | quantified | **ongoing** |
+  | 2 | reserve ratio **halved**, ~₫54,500bn | quantified | **ongoing** |
+  | 3 | SBV special loan, **0% unsecured** | mechanism named, **size unknown** | **contingent** |
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES THIS HOUR.**
+  [Chính phủ — chuyển thẩm quyền quyết định cho vay đặc biệt lãi suất 0%/năm cho NHNN](https://baochinhphu.vn/chuyen-tham-quyen-quyet-dinh-cho-vay-dac-biet-lai-suat-0-nam-cho-ngan-hang-nha-nuoc-102250520144144077.htm) · [VnExpress — NHNN được quyết cho vay đặc biệt, lãi suất 0%](https://vnexpress.net/ngan-hang-nha-nuoc-duoc-quyet-cho-vay-dac-biet-lai-suat-0-mot-nam-4906834.html) · [SBV — dự thảo Quyết định về cho vay đặc biệt 0%, không TSBĐ](https://sbv.gov.vn/en/w/sbv615425)
+
 - **✅⚠⚠ 22:54 ICT FRI 14-AUG · THE SECOND OFFSET IS QUANTIFIED — RESERVE REQUIREMENT HALVED FOR THE FOUR
   TRANSFER BANKS, ~₫54,500bn RELEASED. AND IT CORROBORATES A LINE ALREADY IN THE BRIEF (lanes 1, 3).**
   ✅ **RESERVE REQUIREMENT CUT 50% for credit institutions receiving mandatory transfers of a bank under
