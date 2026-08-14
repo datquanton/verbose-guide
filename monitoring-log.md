@@ -118,6 +118,30 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 18:54 ICT FRI 14-AUG · NO 14-AUG PER-NAME FLOWS — THE DETECTOR CAUGHT 13-AUG DATA RELABELLED AS
+  TODAY, AND THIS IS ITS SHARPEST CATCH YET. THE MISLABELLED SET ALSO RECONCILES A BASIS I FLAGGED YESTERDAY
+  (lanes 4, 7).**
+  ⚠⚠ **WHAT WAS RETURNED AS "phiên 14/8": TCB −170.2 · VHM −159.6 · VIC −128.5 · HPG −108.7, total −573.27bn.
+  WHAT I LOGGED FOR 13-AUG: TCB −170.19 · VHM −159.62 · VIC −126.52 · HPG −106.65, total −558bn.**
+  ***TCB AND VHM MATCH TO TWO DECIMAL PLACES. Two names repeating to the hundredth across different sessions
+  is not credible.*** *Confirming it: the result set's own links are 13-Aug pieces — "khối ngoại bán ròng hơn
+  560 tỷ trong phiên giảm sâu ngày 13/8" and "trong ngày VN-Index mất 27 điểm", and the −27-point day is
+  13-Aug.*
+  ⚠ **THIS IS A NEW FORM OF THE DETECTOR AND WORTH NAMING: every previous catch this week was an INDEX LEVEL
+  matching a prior close. This one is PER-NAME MAGNITUDES matching to two decimals — a far finer fingerprint,
+  and it only worked because yesterday's entry recorded the figures to the cent rather than rounding them.**
+  ✅ **AND THE MISLABELLED SET IS USEFUL ANYWAY — IT RECONCILES THE BASIS WARNING I ATTACHED TO 13-AUG. I
+  logged ₫558bn as a THREE-EXCHANGE net sell and warned it was not comparable to HOSE-only figures. This source
+  gives HOSE-ONLY −₫573.27bn. THE TWO ARE CONSISTENT AND IMPLY HNX + UPCoM WERE NET BUYERS OF ≈₫15.27bn on
+  13-Aug** — *a larger HOSE outflow partly offset off-exchange, which is exactly the shape the basis warning
+  was protecting against mis-stating.*
+  ⚠ *ALSO IN THE SET, DATE NOW SUSPECT SO NOT CLAIMED: KDH named among net-sold stocks alongside VCB, DGC,
+  MSN — no magnitude given. Net BUYING named in GEX (+117.5), LPB (+97.9), SSI (+97.8), none a holding.*
+  **SO: 14-AUG PER-NAME FLOWS REMAIN UNOBTAINED. The 14-Aug aggregate is also not established — the −573.27bn
+  belongs to 13-Aug.**
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES THIS HOUR.**
+  [TNCK — khối ngoại bán ròng hơn 560 tỷ trong phiên giảm sâu ngày 13/8](https://www.tinnhanhchungkhoan.vn/khoi-ngoai-quay-ra-ban-rong-hon-560-ty-dong-trong-phien-giam-sau-ngay-138-post395884.html) · [CafeF — bán ròng gần 600 tỷ trong ngày VN-Index mất 27 điểm](https://cafef.vn/khoi-ngoai-dao-chieu-ban-rong-gan-600-ty-dong-trong-ngay-vn-index-mat-27-diem-co-phieu-nao-bi-xa-manh-nhat-18826081315352743.chn)
+
 - **⚠⚠⚠ 17:54 ICT FRI 14-AUG · THE WEEKLY CLOSE: −2.07% TO ~1,729, THIRD CONSECUTIVE FALL, −3.58% IN THREE
   SESSIONS, BREADTH 66 UP / 228 DOWN. REAL ESTATE THE WORST SECTOR (lane 4).**
   ✅ **VN-INDEX CLOSED ~1,729, −37 pts, −2.07%.** *Checks: 1,765.63 − 36.63 = 1,729.00 and −36.63/1,765.63 =
