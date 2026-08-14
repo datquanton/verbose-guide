@@ -118,6 +118,28 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 16:54 ICT FRI 14-AUG · SECOND CONSECUTIVE SHARP DECLINE — ~2.7% OFF IN UNDER TWO SESSIONS. THIS IS A
+  MORNING FIGURE AND IS LABELLED AS ONE (lane 4).**
+  **14-AUG MORNING SESSION: VN-Index −20.88 pts, −1.18%, to 1,744.75.** ✅ *Reconciles exactly: 1,765.63 −
+  20.88 = 1,744.75, confirming yesterday's close and this print together. Detector clear — 1,744.75 matches
+  neither 1,765.63 (13-Aug) nor 1,793.18 (12-Aug).*
+  ⚠⚠ **THE SEQUENCE: 12-Aug close 1,793.18 → 13-Aug close 1,765.63 (−1.54%) → 14-Aug MORNING 1,744.75
+  (−1.18%). CUMULATIVE −48.43 pts, −2.70% IN UNDER TWO SESSIONS.** *And 1,744.75 sits **below** the 07-Aug
+  weekly close of 1,768.06 — the prior week's +32.28 gain has been given back.*
+  ⚠⚠⚠ **THE CAUTION IS NOT BOILERPLATE, IT IS YESTERDAY'S MEASURED FACT: on 13-Aug the MORNING was +0.13% and
+  the CLOSE was −1.54% — a 1.67pp intraday reversal. THE MORNING IS A DEMONSTRABLY POOR PREDICTOR OF THIS
+  MARKET'S CLOSE, on this week's own evidence. Today's close is 3¼ hours after this print and is not yet
+  indexed.**
+  ⚠ **WHY IT IS LOGGED ANYWAY: yesterday I filed the morning as noise, and it became the baseline that made
+  the close legible as a reversal rather than a drift. The same applies here — and a ~2.7% two-session
+  drawdown is the context in which a human weighs the live trigger-5 trades.**
+  ⚠ *NOT CLAIMED: a line that foreign net buying "has played a supporting role" — undated, possibly referring
+  to an earlier period, and it sits against three sessions in which foreigners were net sellers twice with TCB
+  and HPG the largest names sold. Left out.*
+  **NOTHING MODELLED — index level is not an input. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR; trigger 5 remains fired, trigger 2 standing-breached.**
+  [TNCK — giao dịch phiên sáng 14/8: VN-Index tiếp tục điều chỉnh](https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-148-vn-index-tiep-tuc-dieu-chinh-post395916.html) · [Tuổi Trẻ — chứng khoán 14-8, vùng hỗ trợ nào đang được chờ đợi](https://tuoitre.vn/chung-khoan-14-8-vn-index-rung-lac-vung-ho-tro-nao-dang-duoc-cho-doi-100260814074820245.htm) · [Thanh Tra — tuần 10–14/8, bài kiểm tra vùng 1.800](https://thanhtra.com.vn/tai-chinh-701717FFD/chung-khoan-tuan-10-148-vn-index-truoc-bai-kiem-tra-vung-1800-diem-dc915f6d8.html)
+
 - **⚠ 15:54 ICT FRI 14-AUG · A ONE-DAY DISCREPANCY ON THE VCI WINDOW CLOSE — SMALL, FENCED, AND LOGGED
   BECAUSE THIS FILE HAS PAID FOR ONE-DAY ERRORS BEFORE (lane 7). Nil otherwise on the eight.**
   **THE DISCREPANCY: gate row 55 says Tô Hải's VCI buy window "opened 04-Aug, closes **02-Sep**-2026" (8 hits
