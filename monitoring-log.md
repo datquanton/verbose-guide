@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 11:54 ICT FRI 14-AUG · THE CATALYST CALENDAR THE BRIEF POINTS TO DOES NOT EXIST — AND THAT MATTERS
+  BECAUSE TRIGGER 5 FIRED ONE HOUR AGO (lane 3, process).**
+  **THE BRIEF'S SEQUENCING RULE:** *"nothing that fights a dated catalyst inside 5 sessions — **see the catalyst
+  calendar**."* ⚠⚠⚠ **THERE IS NO CATALYST CALENDAR. `research/PROCESS.md` line 71 carries it as an UNTICKED
+  CHECKBOX — `- [ ] Dated catalyst calendar (earnings, ex-dates, index reviews, regulatory decisions)` — and no
+  such file exists in `research/` or `research/decisions/`.** *What exists is a `## 7. Catalysts (dated) & risks`
+  section in the dossier TEMPLATE and a filled one in `dossiers/TCB.md`; nothing consolidated.*
+  ⚠⚠ **SO THE ESCALATION I RAISED AT 10:54 PRESCRIBES A REMEDY THAT CANNOT BE FOLLOWED AS WRITTEN.** *A human
+  told "trigger 5 fires — see the catalyst calendar" would find no calendar. Reporting the trigger without
+  reporting that is an incomplete escalation.*
+  ✅ **THE MITIGATION, AND IT IS SUBSTANTIAL: THE INFORMATION EXISTS — it is scattered across the gate table's
+  dated rows. This is a CONSOLIDATION defect, not an information gap, so the escalation remains actionable via
+  a different route. Supplying the content here rather than creating a new repo artefact unasked:**
+  | date | sessions out | catalyst | proposed trades touched |
+  |---|---|---|---|
+  | **Sat 15-Aug** | — | SBV circulars **29/2026** (lending) + **31/2026** (leasing) take effect | banks |
+  | **Tue 18-Aug** | **2** | **MBB rights begin trading** (to 26-Aug, ~₫992) | **BUY MBB +6.8pp** |
+  | **Fri 21-Aug** | **5** | **FTSE constituent list** · **KDH insider window closes** · **Forecast #7 resolves** | **SELL TCX, BUY VCI, BUY HPG, SELL KDH** |
+  | **Mon 24-Aug** | 6 | CORE circumvention preliminary (*an intention; extensions routine*) | HPG |
+  | **Sun 07-Sep** | — | MBB rights subscription closes | MBB |
+  | **Tue 02-Sep** | — | VCI — Tô Hải buy window closes | VCI |
+  | **mid–late Sep** | — | rebar ITC final injury vote | HPG |
+  | **Mon 21-Sep** | — | FTSE reclassification EFFECTIVE | HPG, KDH, VCI |
+  ⚠ **I am NOT creating a calendar file. The dates above are drawn from existing gate rows and are reproduced
+  for the human handling the live trigger; building a new standing artefact is a scope decision, not a sweep
+  decision.** *Same call I made on the forecast register at 09:54 and the stale routine prompt at 04:54 — flag,
+  supply what I can, leave the artefact to a human.*
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. TRIGGER 5 REMAINS FIRED from
+  10:54; this entry qualifies how its prescribed remedy can be reached.**
+
 - **🚨🚨🚨 10:54 ICT FRI 14-AUG · ESCALATION TRIGGER 5 FIRES — DATED CATALYSTS LAND INSIDE 5 SESSIONS OF
   FIVE PROPOSED TRADES. FIRST TRIGGER TO FIRE THIS CYCLE (lanes 3, 4).**
   **THE SESSION COUNT, computed not eyeballed. Today is Fri 14-Aug; 15–16 Aug is a weekend:**
