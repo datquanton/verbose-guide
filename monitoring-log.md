@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 00:54 ICT SAT 15-AUG · THE WEEKLY FOREIGN FLOW ROW RE-OPENS ON SCHEDULE: ~₫2,200bn NET SOLD ON HOSE
+  — AND IT LETS ME DERIVE THE ONE MAGNITUDE I LEFT OPEN ON WEDNESDAY (lane 4).**
+  *Gate-compliant: the COVERED row "WEEKLY FOREIGN NET FLOW (aggregate)" was fenced to re-open Sat 15-Aug. It
+  is Sat 15-Aug.*
+  ✅ **WEEK 10–14 AUG: FOREIGN INVESTORS NET SOLD ~₫2,200bn ON HOSE.**
+  ⚠⚠⚠ **THE DERIVATION. On 12-Aug I logged "foreigners net BOUGHT again — DIRECTION ONLY, NO MAGNITUDE IS
+  REPORTED, and I am not supplying one." The weekly total now supplies it by difference:**
+  | day | HOSE net | |
+  |---|---|---|
+  | Mon 10-Aug | −275 | |
+  | Tue 11-Aug | −768.77 | *TCB the most-sold at 221.8* |
+  | **Wed 12-Aug** | **+275 to +291 — DERIVED** | *the net-buy day* |
+  | Thu 13-Aug | −573.27 | |
+  | Fri 14-Aug | −858 **or** −874 | *two constructions* |
+  | **week** | **≈ −2,200** | |
+  ***Sells of 2,475–2,491 against a weekly 2,200 implies a 12-Aug NET BUY of ₫275–291bn.*** ⚠ **STATED AS
+  DERIVED, NOT REPORTED, and it rests on all five figures sharing a HOSE basis — of which the 10-Aug ₫275bn is
+  the least certain. If that one is on another basis the derivation moves.**
+  ⚠ **TWO CONSTRUCTIONS FOR 14-AUG: ₫858bn against the ₫874bn I logged at 19:54 — 1.9% apart. BOTH RECORDED,
+  NEITHER BLENDED.** *That gap is the entire width of the derived range above, which is why it is quoted as a
+  range and not a point.*
+  ✅ **VIC REFINED: ₫479.82bn, against the ₫480.00 I logged. VHM 183.75, SHB 99.68, MSN 76.75 unchanged.**
+  ⚠⚠ **WHAT THE WEEK LOOKS LIKE WHOLE: four selling days around one buying day, ~₫2.2tn out of HOSE, against
+  an index that fell 39.06 points. AND THE COMPOSITION MOVED — TCB led the sell list on 11-Aug and was ABSENT
+  from it on 14-Aug, when VIC alone took ~55%.** *A pattern the daily entries could not show and the weekly
+  row was fenced precisely to permit.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES THIS HOUR.**
+  [Vietstock — Chứng khoán tuần 10–14/08: thất bại trước ngưỡng 1,800](https://vietstock.vn/2026/08/chung-khoan-tuan-10-14082026-that-bai-truoc-nguong-1800-diem-1636-1480878.htm) · [TNCK — khối ngoại bán ròng 858 tỷ phiên 14/8](https://www.tinnhanhchungkhoan.vn/khoi-ngoai-tiep-tuc-ban-rong-858-ty-dong-trong-phien-giam-sau-ngay-148-post395939.html) · [CafeF — "xả" gần 500 tỷ một cổ phiếu bluechip](https://cafef.vn/khoi-ngoai-thang-tay-ban-rong-trong-phien-vn-index-giam-36-diem-xa-gan-500-ty-mot-co-phieu-bluechip-188260814155113236.chn) · [TNCK — bán ròng 275 tỷ phiên 10/8](https://www.tinnhanhchungkhoan.vn/nha-dau-tu-ngoai-ban-rong-275-ty-dong-trong-phien-108-post395678.html)
+
 - **⚠⚠ 23:54 ICT FRI 14-AUG · THE THIRD OFFSET'S MECHANISM IS NAMED BUT NOT SIZED — AND IT IS A DIFFERENT
   KIND OF THING FROM THE OTHER TWO (lanes 1, 3). Short entry; it closes a ledger.**
   ✅ **MECHANISM, NAMED AND DATED: SBV SPECIAL LOANS AT 0%/YEAR, UNSECURED. Authority moved from the Prime
