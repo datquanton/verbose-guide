@@ -118,6 +118,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 10:54 ICT FRI 14-AUG · ESCALATION TRIGGER 5 FIRES — DATED CATALYSTS LAND INSIDE 5 SESSIONS OF
+  FIVE PROPOSED TRADES. FIRST TRIGGER TO FIRE THIS CYCLE (lanes 3, 4).**
+  **THE SESSION COUNT, computed not eyeballed. Today is Fri 14-Aug; 15–16 Aug is a weekend:**
+  | session | date | catalyst |
+  |---|---|---|
+  | 1 | Mon 17-Aug | — |
+  | **2** | **Tue 18-Aug** | **MBB RIGHTS BEGIN TRADING** (18–26 Aug, ~₫992 each) |
+  | 3 | Wed 19-Aug | — |
+  | 4 | Thu 20-Aug | — |
+  | **5** | **Fri 21-Aug** | **FTSE OFFICIAL CONSTITUENT LIST · KDH INSIDER WINDOW CLOSES · Forecast #7 resolves** |
+  ⚠⚠⚠ **THE BRIEF'S OWN SEQUENCING RULE READS: *"nothing that fights a dated catalyst inside 5 sessions — see
+  the catalyst calendar."* THAT CONDITION IS NOW MET, AND THE TRADE LIST HAS NOT BEEN RE-READ AGAINST IT.**
+  **THE COLLISIONS, name by name:**
+  - **BUY VCI +6.7pp** — the brief's own rationale says *"Bull case is the #1 institutional franchise into
+    FTSE Sep-21 — an EVENT bet, not a franchise investment."* **The 21-Aug list is the event's first hard
+    evidence, and it lands on session 5.**
+  - **SELL TCX −3.3pp** — gate row 59 records that the 21-Aug document **"settles TCX's and VPX's
+    membership"**, and **Forecast #7 (TCX FTSE, EV +6.25%) resolves on that same date.** *Selling into the
+    session that resolves the thesis is the textbook shape of fighting a catalyst.*
+  - **BUY HPG +3.2pp** and **SELL KDH −3.2pp** — both are **IN** the 23-name FTSE roster; the 21-Aug list is
+    the confirming document.
+  - **BUY MBB +6.8pp**, the joint-largest add — **MBB's rights begin trading on session 2**, so the position
+    being added to changes composition mid-window.
+  ⚠⚠ **WHAT I AM AND AM NOT SAYING. TRIGGER 5 IS MECHANICAL AND IT FIRES: a dated catalyst lands within five
+  sessions of proposed trades. WHETHER ANY GIVEN TRADE "FIGHTS" ITS CATALYST IS A JUDGEMENT, AND THAT JUDGEMENT
+  IS THE HUMAN'S — I am not re-ranking, re-weighting or deferring anything.** *The brief is dated **24-Jul**;
+  the catalyst calendar it points to has since moved under it.*
+  ⚠ **NOTE THE ASYMMETRY WORTH A HUMAN'S ATTENTION: the FTSE list CONFIRMS membership for HPG, KDH and VCI —
+  names already screened IN on 28-Apr data — but SETTLES it for TCX and VPX, which are ABSENT. The information
+  content is far higher for the two the brief wants to SELL and ADD respectively than for the three it
+  confirms.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical — this entry
+  changes nothing in it; it reports that its own sequencing precondition is now live.**
+
 - **⚠⚠⚠ 08:54 ICT FRI 14-AUG · KDH Q2 SCORED — AND THE SAME FORECAST IS A 341% BEAT OR A 71% MISS DEPENDING
   ON WHICH "PARENT PROFIT" YOU MEAN. THREE BASES FOR ONE QUARTER (lane 3).**
   ⚠⚠ **THE THREE FIGURES, ALL FOR KDH Q2/2026:**
