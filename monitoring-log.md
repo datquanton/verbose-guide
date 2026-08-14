@@ -118,6 +118,29 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 03:54 ICT SAT 15-AUG · MBB RIGHTS MECHANICS CONFIRMED TWO SESSIONS AHEAD OF THE CATALYST — AND THE
+  TWO WINDOWS ARE NOT THE SAME LENGTH (lane 3).**
+  ✅ **CONFIRMED against gate row 43, every particular: rights TRANSFERABLE 18-Aug → 26-Aug; SUBSCRIPTION AND
+  PAYMENT 18-Aug → 07-Sep; ratio 10:1 (one share = one right, ten rights buy one new share); price ₫10,000;
+  805.5m shares raising ~₫8,055bn.**
+  ⚠⚠⚠ **THE ASYMMETRY IS THE USEFUL PART AND IT IS NEW HERE: BOTH WINDOWS OPEN ON 18-AUG BUT THEY CLOSE 12
+  DAYS APART — TRANSFER ENDS 26-AUG, SUBSCRIPTION RUNS TO 07-SEP. After 26-Aug a holder can still SUBSCRIBE
+  but can NO LONGER SELL the right.** ***That is a hard, dated deadline on the only leg that can be monetised
+  without putting up cash, and it sits inside the fired trigger-5 window against a proposed BUY MBB +6.8pp.***
+  ⚠ *Also new and small: NO MINIMUM subscription quantity.*
+  ✅ **A CHARTER-CAPITAL RECONCILIATION THAT PREVENTS A FUTURE FALSE CONFLICT. Coverage says MBB's charter
+  capital will exceed ₫100,600bn; this file carries 10,268.75m shares, which is ₫102,687.5bn. THEY DO NOT
+  CONFLICT: 8,055m base + 1,208.25m dividend + 805.5m rights = 10,068.75m = ₫100,687.5bn (the "over 100,600"),
+  and the file's figure ADDS the placement of up to 200m shares.** *Pre-placement versus post-placement — two
+  correct numbers for two different scopes, which is exactly the shape that has caused trouble twice this week
+  (KDH's three profit bases, HPG's percentage-versus-level).*
+  ⚠ **`vsd.vn` surfaced again as the primary source and remains GATEWAY-BLOCKED — every figure above is
+  secondary. The block has now cost this file the primary on record dates, the FTSE list, US inflation and
+  now rights mechanics.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES THIS HOUR; trigger 5 remains fired and this entry adds a dated deadline INSIDE it.**
+  [ACBS — MBB thực hiện quyền mua cổ phiếu phát hành cho cổ đông hiện hữu](https://acbs.com.vn/tin-tuc/chi-tiet/mbb-thuc-hien-quyen-mua-co-phieu-phat-hanh-cho-co-dong-hien-huu) · [Vietstock — MB chốt quyền, vốn điều lệ lên hơn 100,600 tỷ](https://vietstock.vn/2026/08/mb-chot-quyen-chia-co-tuc-va-chao-ban-co-phieu-nang-von-dieu-le-len-hon-100600-ty-738-1476203.htm) · [TNCK — chốt quyền cổ tức 15%, chào bán 805,5 triệu cp giá 10.000đ](https://www.tinnhanhchungkhoan.vn/mb-chot-quyen-chia-co-tuc-15-phat-hanh-chao-ban-gan-8055-trieu-co-phieu-gia-10000-dongcp-post395281.html)
+
 - **✅⚠⚠ 00:54 ICT SAT 15-AUG · THE WEEKLY FOREIGN FLOW ROW RE-OPENS ON SCHEDULE: ~₫2,200bn NET SOLD ON HOSE
   — AND IT LETS ME DERIVE THE ONE MAGNITUDE I LEFT OPEN ON WEDNESDAY (lane 4).**
   *Gate-compliant: the COVERED row "WEEKLY FOREIGN NET FLOW (aggregate)" was fenced to re-open Sat 15-Aug. It
