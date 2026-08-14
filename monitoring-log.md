@@ -118,6 +118,38 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 08:54 ICT FRI 14-AUG · KDH Q2 SCORED — AND THE SAME FORECAST IS A 341% BEAT OR A 71% MISS DEPENDING
+  ON WHICH "PARENT PROFIT" YOU MEAN. THREE BASES FOR ONE QUARTER (lane 3).**
+  ⚠⚠ **THE THREE FIGURES, ALL FOR KDH Q2/2026:**
+  | basis | value | |
+  |---|---|---|
+  | **parent company STANDALONE** (*riêng lẻ*) | **₫49.6bn** | **−94.2% YoY** |
+  | **consolidated, NPAT TO PARENT SHAREHOLDERS** | **~₫750bn** | **+277% YoY** |
+  | consolidated NPAT, total | ₫770bn | *(the figure gate row 44 carries)* |
+  ***A forecast of ₫170bn scores as +341% (4.4×) against the middle row and −71% against the top one. Same
+  forecast, same quarter, opposite verdicts — and the file's gate row holds only the THIRD.***
+  ✅ **THE BASIS IS DEFINED IN THE REPO, WHICH IS WHY THIS IS SCORABLE AT ALL.** `market_check_2026_07_24`
+  states *"NPAT basis"*, KDH carries **`q2_npat_mi_est: 170`** with **`q2_npat_mi_yoy_est: −0.146`**, and VCI
+  carries an OFFICIAL **`q2_npat_mi: 251`** — so `_mi` is a consistent convention for NPAT attributable to
+  parent shareholders. **The estimate belongs against the ~₫750bn.**
+  ⚠⚠⚠ **SCORED: estimate ₫170bn expecting −14.6% YoY; ACTUAL ~₫750bn, +277% YoY. ERROR +₫580bn (+341%).
+  DIRECTION WRONG — it forecast a decline and growth arrived. The street preview of ₫348bn was also low by
+  +116%.**
+  ⚠⚠ **BUT THE REASON INVERTS THE VERDICT, AND THIS IS THE PART THAT MATTERS. The ~₫750bn came almost entirely
+  from a ONE-OFF FINANCIAL GAIN of ~₫900bn on reducing a subsidiary stake. CORE PROPERTY REVENUE FELL ~85% TO A
+  FOUR-YEAR LOW.** ***So the estimate called the OPERATING collapse correctly and was blindsided by a
+  divestment gain it could not have modelled. Scoring it a plain MISS punishes analysis that was right about
+  the business; scoring it a HIT rewards a number it never predicted. The honest verdict is: WRONG ON THE
+  REPORTED FIGURE, RIGHT ON THE UNDERLYING — and this file's own rule that "right for the wrong reason is a
+  failure" has a mirror image it has never had to name until now: WRONG FOR THE RIGHT REASON.***
+  ⚠ **CONSEQUENCE FOR THE FILE: gate row 44's "Q2 NPAT ₫770bn" is correct but is the CONSOLIDATED TOTAL, which
+  is not the basis any forecast on file was made against. A future reader scoring against it would compute a
+  different error than the one that belongs.**
+  **NOTHING MODELLED — `market_check_2026_07_24` is a dated expectation snapshot, not consumed by `run.py`
+  (verified 03:54); `assumptions.json` NOT edited, §4. No confidence moved. `DECISION-BRIEF.md`
+  byte-identical; no trigger fires.**
+  [Vietstock — Khang Điền lập kỷ lục lợi nhuận bằng một thương vụ thoái vốn](https://vietstock.vn/2026/07/khang-dien-lap-ky-luc-loi-nhuan-bang-mot-thuong-vu-thoai-von-737-1474200.htm) · [Stockbiz — lãi kỷ lục nhờ thoái vốn, doanh thu BĐS chạm đáy 4 năm](https://stockbiz.vn/tin-tuc/kdh-nha-khang-dien-lai-ky-luc-nho-thoai-von-doanh-thu-bat-dong-san-cham-day-4-nam/41285126) · [Người Quan Sát — kinh doanh cốt lõi lao dốc, vẫn báo lãi gấp 4 lần](https://nguoiquansat.vn/kinh-doanh-cot-loi-lao-doc-nha-khang-dien-kdh-van-bao-lai-gap-4-lan-307531.html) · [Mekong Asean — khoản thu tài chính gần 900 tỷ](https://mekongasean.vn/khang-dien-lap-dinh-loi-nhuan-nho-khoan-thu-tai-chinh-gan-900-ty-dong-57951.html)
+
 - **✅⚠⚠ 07:54 ICT FRI 14-AUG · TCB'S CAPITAL RATIO WAS NOT ON FILE AT ALL — AND IT ANSWERS THE TIER 2
   QUESTION INDIRECTLY, AFTER TWO DIRECT FAILURES (lane 3).**
   ✅ **NEW, AND A REAL GAP FOR A 35% POSITION: TCB'S CAR (Basel II) — 14.6% end-2025 → 15.2% Q1/2026 → 15.0%
