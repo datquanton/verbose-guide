@@ -118,6 +118,23 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠ 15:54 ICT FRI 14-AUG · A ONE-DAY DISCREPANCY ON THE VCI WINDOW CLOSE — SMALL, FENCED, AND LOGGED
+  BECAUSE THIS FILE HAS PAID FOR ONE-DAY ERRORS BEFORE (lane 7). Nil otherwise on the eight.**
+  **THE DISCREPANCY: gate row 55 says Tô Hải's VCI buy window "opened 04-Aug, closes **02-Sep**-2026" (8 hits
+  repo-wide). A source today gives the same registration — 31.05m shares — running **04-Aug to 03-Sep**.**
+  ✅ **BOTH ARE DEFENSIBLE AND THE CAUSE IS A COUNTING CONVENTION: 30 days INCLUSIVE of 04-Aug ends 02-Sep;
+  30 days EXCLUSIVE ends 03-Sep.** *Not a contradiction between sources — a difference in whether the opening
+  day counts.*
+  ⚠ **NO OPERATIONAL CONSEQUENCE TODAY: the date is 19 days out and row 55 is fenced ("Do NOT check weekly").
+  Logged anyway because the file's MBB precedent is explicit that "a one-day error here costs an entire
+  entitlement", and a fenced row is exactly where a wrong date sits undisturbed until it matters.**
+  **WHAT WOULD SETTLE IT: the registration filing's own stated end date, or the completion report when it
+  lands — both reachable, neither urgent.** *Named so this does not become another condition with no test.*
+  ⚠ *Otherwise nil: today's insider list carried PNJ (1m), PDR (20m), VBB (22m) — none a holding — plus the
+  VCI registration already on file. Nothing new on the eight.*
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES THIS HOUR;
+  trigger 5 remains fired (10:54 and 01-Aug), trigger 2 standing-breached.**
+
 - **🚨⚠⚠ 14:54 ICT FRI 14-AUG · TRIGGER 2 TESTED FOR THE FIRST TIME — TWO CAPS ARE BREACHED, AND THE
   CONSTITUTION SAYS SO IN ITS OWN TEXT. PLUS A RULE CONFLICT THAT RESOLVES USEFULLY (process, lane 3).**
   **I named trigger 2 untested an hour ago. Tested now. `DECISION-FRAMEWORK` §5 opens: *"Rules written when
