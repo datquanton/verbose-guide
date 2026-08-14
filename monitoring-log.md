@@ -118,6 +118,36 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 22:54 ICT FRI 14-AUG · THE SECOND OFFSET IS QUANTIFIED — RESERVE REQUIREMENT HALVED FOR THE FOUR
+  TRANSFER BANKS, ~₫54,500bn RELEASED. AND IT CORROBORATES A LINE ALREADY IN THE BRIEF (lanes 1, 3).**
+  ✅ **RESERVE REQUIREMENT CUT 50% for credit institutions receiving mandatory transfers of a bank under
+  special control: demand and <12-month deposits 3.0% → 1.5%; >12-month 1.0% → 0.5%. Estimated ~₫54,500bn
+  freed for lending across the four.**
+  **BENEFICIARIES, with the transfers named: Vietcombank ← CBBank (VCBNeo) · MB ← OceanBank (MBV) · VPBank ←
+  GPBank · HDBank ← DongABank (Vikki).**
+  ⚠⚠⚠ **AND THIS CORROBORATES THE FILE FROM AN UNEXPECTED DIRECTION. The brief's MBB evidence string already
+  reads: the ROE erosion 25.0% → 20.9% is "THE PRICE OF THE MBV TRANSFER, WHICH BOUGHT A 30–35% CREDIT
+  ALLOWANCE." That "30–35%" is the same quota privilege I quantified last night as ~13% general vs UP TO 35%
+  — reached independently, from opposite ends.** *The brief had MBB's side of it as a bought allowance; the
+  policy source has the system-wide rule. Two descriptions of one arrangement, and they agree.*
+  ⚠ **UNIT ARTEFACT CAUGHT AGAIN — SECOND TIME IN TWO DAYS: the source renders the release as "54,500 TRILLION
+  VND", which would be ~US$2.1 TRILLION. The coherent reading is ₫54,500bn ≈ US$2.13bn.** *Yesterday it was
+  "₫7,027.2 trillion" for turnover. A 1,000× error survives unless someone checks the magnitude against
+  something real.*
+  **THE OFFSET LEDGER FOR MBB AND VPB NOW STANDS:**
+  | | offset | status |
+  |---|---|---|
+  | 1 | credit quota — ~13% general vs **up to 35%** | **quantified** |
+  | 2 | reserve ratio — **halved**, ~₫54,500bn released | **quantified (new)** |
+  | 3 | liquidity support | **still unquantified** |
+  ⚠⚠ **SO TWO OF THREE OFFSETS ARE NOW SIZED, AND BOTH ARE LARGE — against a funding-cost pressure whose only
+  evidenced instance is TCB's +200bp roll, and TCB gets NONE of these. The asymmetry inside the bank block has
+  widened, not narrowed, since I first drew it.** ⚠ *The decay path still stands: the quota privilege sits
+  inside a regime the PM has ordered piloted for removal, on criteria that do not obviously favour these banks.*
+  **NOTHING MODELLED — no path from a reserve release to any holding's earnings exists on file. No confidence
+  moved. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES THIS HOUR.**
+  [Báo Đầu tư — được giảm 50% dự trữ bắt buộc, 4 nhà băng có thêm hàng chục nghìn tỷ để cho vay](https://baodautu.vn/duoc-giam-50-du-tru-bat-buoc-4-nha-bang-co-them-hang-chuc-nghin-ty-dong-de-cho-vay-d517578.html) · [Diễn đàn Doanh nghiệp — giảm 50% dự trữ bắt buộc, tăng sức cho VCB, MB, VPBank, HDBank](https://diendandoanhnghiep.vn/giam-50-ty-le-du-tru-bat-buoc-tang-suc-cho-vietcombank-mb-vpbank-va-hdbank-10159082.html) · [Tiền Phong — giảm 50% dự trữ bắt buộc với nhiều ngân hàng: tác động gì](https://tienphong.vn/giam-50-du-tru-bat-buoc-voi-nhieu-ngan-hang-tac-dong-gi-post1821733.tpo)
+
 - **⚠⚠ 21:54 ICT FRI 14-AUG · FOUR STREET TARGETS SURFACED, NONE DATED — AND MBB's CORPORATE ACTION HAS NOW
   EXECUTED, WHICH MAKES EVERY PRE-12-AUG MBB TARGET STALE BY CONSTRUCTION (lane 6).**
   **WHAT CAME BACK, all undated:** SSI raises **HPG** to **₫36,000** (from ₫35,000), BUY · BVSC **HPG
