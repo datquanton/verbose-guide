@@ -118,6 +118,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 21:54 ICT FRI 14-AUG · FOUR STREET TARGETS SURFACED, NONE DATED — AND MBB's CORPORATE ACTION HAS NOW
+  EXECUTED, WHICH MAKES EVERY PRE-12-AUG MBB TARGET STALE BY CONSTRUCTION (lane 6).**
+  **WHAT CAME BACK, all undated:** SSI raises **HPG** to **₫36,000** (from ₫35,000), BUY · BVSC **HPG
+  ₫33,200** *(already on file, dated 05-Aug)* · VCBS **MBB ₫37,230**, BUY, on P/B 1.6× and residual income ·
+  SHS **TCB ₫33,800**, initial, BUY.
+  ⚠⚠⚠ **THE NEW AND DATED POINT — MBB's 15% STOCK DIVIDEND AND 10:1 RIGHTS HAD RECORD DATE 12-AUG AND HAVE
+  EXECUTED. SO ANY MBB TARGET SET BEFORE 12-AUG SITS ON A SUPERSEDED SHARE BASE.** Applying this file's own
+  worked factor (**₫22,050 → ₫18,440 = 0.8363**), **₫37,230 becomes ≈₫31,135** if it is pre-adjustment.
+  ***I cannot tell which it is, because the target is undated — and that is precisely the problem.*** *MBB
+  carries the joint-largest proposed add at +6.8pp.*
+  ⚠⚠ **TCB IS THE SAME TRAP, STILL PENDING: the 60% bonus is undated and outstanding, so ₫33,800 pre-bonus is
+  ≈₫21,125 after. The brief already states "consensus TP is quoted pre-60%-bonus and adjusts to ~10.6% BELOW
+  spot."** *A headline BUY at ₫33,800 and a target 10.6% below spot are the same number in different clothes.*
+  ✅ **HPG NEEDS NO ADJUSTMENT — no pending share change on file. SSI's ₫36,000 (from ₫35,000) is the only
+  genuinely new, adjustment-free datum here, and even it is undated.**
+  ⚠⚠ **NONE OF THESE IS LOGGED AS A FINDING, AND THE REASON IS ON FILE ALREADY: on 07-Aug this log caught
+  itself dating BVSC to 05-Aug "and then letting SSI ride on BVSC's date." The identical set of brokers has
+  come back undated, and I am not repeating it. `PROCESS.md` carries an UNTICKED box reading "All sell-side
+  TPs tabled WITH DATES and stock-dividend adjustments verified" — this is that box, unticked, in action.**
+  ⚠ *The useful takeaway is structural, not any one number: **consensus targets on TCB and MBB are being
+  quoted on share bases that have changed or will change, which systematically OVERSTATES apparent upside on
+  two of the three bank holdings.***
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES THIS HOUR.**
+  [Vietstock — MBB khuyến nghị MUA, giá mục tiêu 37.230đ (VCBS)](https://finance.vietstock.vn/bao-cao-phan-tich/19031/mbb-khuyen-nghi-mua-voi-gia-muc-tieu-37230-dongco-phieu.htm) · [DNSE — nhìn lại nhóm cổ phiếu được khuyến nghị tuần qua](https://www.dnse.com.vn/senses/tin-tuc/nhin-lai-dien-bien-nhom-co-phieu-duoc-cac-cong-ty-chung-khoan-khuyen-nghi-tuan-qua-35231625) · [SSI — báo cáo công ty HPG](https://www.ssi.com.vn/khach-hang-ca-nhan/bao-cao-cong-ty?keyword=HPG&page=1)
+
 - **✅⚠⚠ 19:54 ICT FRI 14-AUG · GENUINE 14-AUG FLOWS AT LAST — AND THE SELLING ROTATED AWAY FROM OUR
   HOLDINGS. HOSE NET SELL ₫874bn, UP 52%, BUT VIC TOOK 55% OF IT (lanes 4, 7).**
   ✅ **CLOSE, NOW EXACT: VN-Index −36.55 pts, −2.07%, to 1,729.08.** *1,765.63 − 36.55 = 1,729.08. My 17:54
