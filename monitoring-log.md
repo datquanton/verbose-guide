@@ -118,6 +118,39 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 17:54 ICT FRI 14-AUG · THE WEEKLY CLOSE: −2.07% TO ~1,729, THIRD CONSECUTIVE FALL, −3.58% IN THREE
+  SESSIONS, BREADTH 66 UP / 228 DOWN. REAL ESTATE THE WORST SECTOR (lane 4).**
+  ✅ **VN-INDEX CLOSED ~1,729, −37 pts, −2.07%.** *Checks: 1,765.63 − 36.63 = 1,729.00 and −36.63/1,765.63 =
+  −2.07%, matching the reported figures.*
+  ⚠⚠ **THE SHAPE REPEATED YESTERDAY'S EXACTLY: MORNING 1,744.75 (−1.18%) → CLOSE ~1,729 — the afternoon lost a
+  FURTHER 15.75 points. Second consecutive session in which selling accelerated into the close.** *This is why
+  the morning print was worth logging at 16:54: it is what makes "accelerated into the close" a measured
+  statement rather than an impression.*
+  **THE RUN, AND THE WEEK:**
+  | | | |
+  |---|---|---|
+  | 12-Aug close | 1,793.18 | |
+  | 13-Aug close | 1,765.63 | −1.54% |
+  | 14-Aug close | **~1,729.00** | **−2.07%** |
+  | **three sessions** | **−64.18 pts** | **−3.58%** |
+  | **week (from 1,768.06)** | **−39.06 pts** | *source: "lost nearly 39 points" — exact* |
+  ⚠⚠ **BREADTH IS THE WORST SIGNAL HERE: 66 advancers against 228 decliners on HOSE — 3.5× more falling than
+  rising, with EVERY sector group negative and REAL ESTATE, oil & gas and chemicals worst.** ⚠⚠⚠ ***REAL
+  ESTATE IS KDH — 20.3% of the book, carrying a proposed SELL −3.2pp, an UNRESOLVED VNDiamond catalyst from
+  01-Aug, and an insider window that closes on 21-Aug.***
+  ⚠ **TURNOVER FIGURES DELIBERATELY NOT PRESENTED AS FULL-DAY: the quoted 282.8m units / ₫7,027.2bn are
+  compared by the source to "the PREVIOUS DAY'S MORNING SESSION", so they are morning-basis. A full-day
+  comparison is not available and is not constructed.** *Also: one rendering says "7,027.2 trillion VND" — that
+  is a translation artefact for **tỷ** (billion); ₫7,027.2bn is the coherent reading.*
+  ⚠ *VIC near ₫200,000 named as the main drag — not a holding.*
+  ⚠⚠ **CONTEXT FOR THE WEEKEND, STATED PLAINLY AND WITHOUT A VIEW: the book goes into Monday having given back
+  a week, with a live trigger-5 escalation, a standing trigger-2 breach on TCB at 35.0%, MBB rights beginning
+  to trade Tue 18-Aug, and the FTSE list, the KDH window close and Forecast #7 all landing Fri 21-Aug. I am
+  making no directional inference from three sessions.**
+  **NOTHING MODELLED — index level is not an input. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR.**
+  [VnExpress — chứng khoán giảm thêm 37 điểm](https://vnexpress.net/chung-khoan-giam-them-37-diem-5109204.html) · [Thanh Tra — tuần 10–14/8](https://thanhtra.com.vn/tai-chinh-701717FFD/chung-khoan-tuan-10-148-vn-index-truoc-bai-kiem-tra-vung-1800-diem-dc915f6d8.html) · [Tuổi Trẻ — chứng khoán 14-8](https://tuoitre.vn/chung-khoan-14-8-vn-index-rung-lac-vung-ho-tro-nao-dang-duoc-cho-doi-100260814074820245.htm) · [TNCK — phiên sáng 14/8 (the morning baseline)](https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-148-vn-index-tiep-tuc-dieu-chinh-post395916.html)
+
 - **⚠⚠ 16:54 ICT FRI 14-AUG · SECOND CONSECUTIVE SHARP DECLINE — ~2.7% OFF IN UNDER TWO SESSIONS. THIS IS A
   MORNING FIGURE AND IS LABELLED AS ONE (lane 4).**
   **14-AUG MORNING SESSION: VN-Index −20.88 pts, −1.18%, to 1,744.75.** ✅ *Reconciles exactly: 1,765.63 −
