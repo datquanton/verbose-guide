@@ -118,6 +118,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 19:54 ICT FRI 14-AUG · GENUINE 14-AUG FLOWS AT LAST — AND THE SELLING ROTATED AWAY FROM OUR
+  HOLDINGS. HOSE NET SELL ₫874bn, UP 52%, BUT VIC TOOK 55% OF IT (lanes 4, 7).**
+  ✅ **CLOSE, NOW EXACT: VN-Index −36.55 pts, −2.07%, to 1,729.08.** *1,765.63 − 36.55 = 1,729.08. My 17:54
+  figure of ~1,729.00 used the rounded "−37"; this replaces it with the precise number.*
+  ⚠ **DETECTOR CLEARED: none of today's per-name figures matches the 13-Aug fingerprint (TCB −170.19 / VHM
+  −159.62 / VIC −126.52 / HPG −106.65). Different names, different magnitudes. This set is genuinely 14-Aug.**
+  **FOREIGN NET SELL ON HOSE ₫874bn — and because 13-Aug's ₫573.27bn is ALSO HOSE-only, these ARE comparable:
+  selling INTENSIFIED ~52%.**
+  | rank | 14-Aug | ₫bn | | 13-Aug | ₫bn |
+  |---|---|---|---|---|---|
+  | 1 | **VIC** | **480.00** | | **TCB** | 170.19 |
+  | 2 | VHM | 183.75 | | VHM | 159.62 |
+  | 3 | SHB | 99.68 | | VIC | 126.52 |
+  | 4 | MSN | 76.75 | | **HPG** | 106.65 |
+  ⚠⚠⚠ **THE COMPOSITION IS THE FINDING: TCB AND HPG ARE ABSENT FROM TODAY'S TOP LIST. TCB had been the single
+  most foreign-sold stock on the exchange in TWO OF THREE SESSIONS; today the outflow concentrated in VIC —
+  ₫480bn alone, 55% OF THE ENTIRE HOSE NET SELL — with VHM, SHB and MSN behind it.**
+  ⚠ ***STATED PRECISELY: "NOT AMONG THE LARGEST", NOT "NOT SOLD." Anything below ₫76.75bn is invisible in a
+  top-four list, so this establishes that TCB and HPG were not the biggest outflows — it does NOT establish
+  that they were bought or left alone.*** *The favourable reading is the one that needs the tighter wording.*
+  **MARKET-WIDE: ~500 decliners; ₫324,000bn of market capitalisation erased; VIC itself −3.6% to ₫200,400.**
+  ⚠ **CONTEXT WITHOUT A VIEW: a −2.07% session whose foreign selling was 55% one non-held name reads
+  differently from one led by the book's largest position — but three sessions do not make a rotation, and the
+  file holds no flow-to-price elasticity. Recorded for the CIO run, not interpreted.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES THIS HOUR.**
+  [CafeF — "tội đồ" nào khiến VN-Index bay gần 37 điểm phiên 14/8](https://cafef.vn/toi-do-nao-khien-vn-index-bay-gan-37-diem-trong-phien-14-8-188260814153439097.chn) · [VnExpress — VN-Index giảm thêm 37 điểm](https://vnexpress.net/chung-khoan-giam-them-37-diem-5109204.html) · [Vietstock — Nhịp đập TT 14/08: khối ngoại tiếp tục bán ròng](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1408-khoi-ngoai-tiep-tuc-ban-rong-vn-index-boc-hoi-hon-36-diem-1636-1480599.htm) · [Thời báo Ngân hàng — mất trắng 324.000 tỷ vốn hoá](https://baomoi.com/vn-index-lao-doc-mat-trang-324-000-ty-von-hoa-c55833820.epi)
+
 - **⚠⚠⚠ 18:54 ICT FRI 14-AUG · NO 14-AUG PER-NAME FLOWS — THE DETECTOR CAUGHT 13-AUG DATA RELABELLED AS
   TODAY, AND THIS IS ITS SHARPEST CATCH YET. THE MISLABELLED SET ALSO RECONCILES A BASIS I FLAGGED YESTERDAY
   (lanes 4, 7).**
