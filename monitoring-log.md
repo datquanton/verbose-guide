@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯⚠⚠ 15:54 ICT SAT 15-AUG · TCB AND MBB DID NOT RUN OUT OF FOREIGN ROOM — THEY LOCKED THEIR OWN
+  DOOR. AND MY 14:54 FALSIFICATION OF VPB WAS PUT AT RISK THIS HOUR AND SURVIVES A CHECK (lanes 7, 4, 3).**
+
+  🎯 **THE MECHANISM, AND IT IS NOT WHAT "ROOM EXHAUSTED" IMPLIES.**
+  | bank | statutory ceiling | **self-imposed LOCK** | actual | headroom |
+  |---|---|---|---|---|
+  | **TCB** | 30% | **22.51%** | 22.51% | **zero** |
+  | **MBB** | **49%** (mandatory-transfer) | **23.23–23.24%** | ~23.23% | **zero** |
+  | **VPB** | **49%** | **none reported** | **~25%** (08-Apr-26) | **~24pp** |
+  ⚠⚠ **BOTH BANKS DELIBERATELY CAPPED THEMSELVES BELOW THE STATUTE.** TCB's chairman Hồ Hùng Anh stated the
+  purpose at the **2024 AGM**: locking at ~22% lets Techcombank **issue 10% of capital to a strategic
+  investor.** ✅ **AND THE ARITHMETIC CONFIRMS IT IS CALIBRATED, NOT APPROXIMATE: (22.51 + 10) / 110 =
+  29.55% — just under the 30% cap.** *A lock chosen to leave exactly one strategic placement of headroom.
+  That internal check is what makes the 22.51% and the 30% ceiling corroborate each other.*
+  ⚠⚠⚠ **MBB IS THE SHARPER CASE: ITS STATUTORY CEILING IS 49% AND IT LOCKED ITSELF AT 23.24%.** ***The door
+  is closed by the bank, not by the law*** — MBB is giving up ~26pp of legally available foreign capacity.
+
+  ✅✅ **THIS REPAIRS THE DATING WEAKNESS I FLAGGED AT 14:54, AND THE REPAIR IS A DISTINCTION, NOT A NEW
+  SOURCE.** An hour ago I wrote that the confirming leg (TCB "room exhausted", dated **14-Aug-2025**) was
+  worse-dated than the falsifying leg. ***But an old date on a STATE is not the same as an old date on a
+  LEVEL.*** A market ownership ratio drifts daily; **a board-level lock at 22.51% is a standing
+  administrative state that does not move until the board moves it.** **So the TCB/MBB leg is well-founded
+  at the 28-Apr-2026 screen despite its date, and the objection I raised against myself is answered.**
+
+  ⚠⚠⚠ **AND THEN THE FALSIFICATION WAS PUT AT RISK — BY A SUMMARISER'S YEAR ERROR.** A source this hour
+  stated the 49% ceiling applies **"starting May 19, 2026."** ***If true, that is AFTER the 28-Apr-2026
+  screen, VPB's ceiling at the screen would have been 30% not 49%, its ~25% would leave only ~5pp of
+  headroom, and my 14:54 falsification would collapse.*** **CHECKED, AND IT IS WRONG: Nghị định
+  69/2025/NĐ-CP took effect 19-MAY-2025** (a Monday, verified with `date -d`, not by hand). **The 49% was in
+  force ELEVEN MONTHS before the screen. The falsification STANDS.**
+  *This is the 05:54 anchor error's family — a date attached to the right instrument and the wrong year —
+  and it was caught only because I asked what would have to be true for my own conclusion to fail.*
+  ✅ **THE DECREE'S STRUCTURE, NOW ON FILE: (i) ≤30% Vietnamese commercial bank, ≤50% non-bank CREDIT
+  INSTITUTION; (ii) PM decides case-by-case for a weakened institution; (iii) mandatory-transfer banks
+  >30% but ≤49% (excluding banks >50% state-held). Investors over the limit get 6 months to adjust.**
+  ⚠ **AND IT DOES NOT TOUCH TCX OR VPX: securities companies are not credit institutions** — they sit under
+  the Securities Law, which is why TCX's **100% room** (established 12:54) is consistent with a decree that
+  caps non-bank credit institutions at 50%. *Checked precisely because two ceilings that look adjacent
+  (50% and 100%) would otherwise have read as a contradiction.*
+
+  ⚠⚠⚠ **THE EIGHTH SINGLE-STOCK PRICE ATTEMPT RETURNED NUMBERS — AND THEY FAILED A CALENDAR CHECK. NOT
+  LOGGED AS PRICES.** A lane-3 core sweep (not a dedicated search — the COVERED row forbids those) surfaced
+  **TCB ₫29,700 "on 09/08/2026"** and **VCI ₫22,100 "on 12/08/2026"**, both from VietstockFinance landing
+  pages via a summariser.
+  ⚠⚠ ***09-AUG-2026 IS A SUNDAY*** (verified with `date -d`). **There is no session, so that cannot be a
+  traded price for that date — the summariser is reading some field other than a trade date.** 12-Aug is a
+  Wednesday and survives the calendar check, **but it comes off the same page type, and a source that
+  returns an impossible date for one name has not earned trust on another name from the same page.**
+  **BOTH REJECTED.** *Seven prior attempts failed by returning nothing; this one failed by returning
+  something, which is the more dangerous failure and the only one the detector can catch.*
+  ⚠ **ESCALATION, NOT ADOPTION (§4 human-only): IF the VCI ₫22,100 were ever verified, `valuation.VCI.price`
+  = ₫20,500 would be 7.8% low** — below trigger 3's 10pp bar in any case. **The file's TCB ₫29,250 against a
+  Sunday-dated ₫29,700 is not testable at all.** *Flagged for the human; nothing edited.*
+
+  ⚠ **LANE 3 OTHERWISE COVERED GROUND: TCB's 25-Apr-2026 AGM, the 67% total distribution and the 7% cash
+  (₫700/share) are all on file** — the COVERED row added at 13:54 for exactly this predicted correctly.
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 3 considered explicitly against the surfaced VCI price and does
+  NOT fire (7.8% < 10pp, and the input is rejected as unverified anyway); trigger 5 remains FIRED; trigger 2
+  remains STANDING-BREACHED; triggers 1 and 4 negative.**
+  [TheLEADER — cánh cửa room ngoại phân hoá các ngân hàng](https://theleader.vn/canh-cua-room-ngoai-phan-hoa-cac-ngan-hang-d41710.html) · [Báo Đầu tư — tỷ lệ sở hữu nước ngoài: nơi kẹt room, nơi ế khách](https://baodautu.vn/ty-le-so-huu-nuoc-ngoai-tai-ngan-hang-noi-ket-room-noi-e-khach-d157954.html) · [TNCK — MB, HDBank, VPBank được nới room ngoại lên 49% sau chuyển giao bắt buộc](https://www.tinnhanhchungkhoan.vn/mb-hdbank-vpbank-se-duoc-noi-room-ngoai-len-49-sau-khi-nhan-chuyen-giao-bat-buoc-post365715.html) · [LuatVietnam — Nghị định 69/2025/NĐ-CP sửa đổi NĐ 01/2014](https://luatvietnam.vn/dau-tu/nd-69-2025-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nd-01-2014-nd-cp-ve-nha-dau-tu-nuoc-ngoai-mua-co-phan-cua-to-chuc-tin-dung-viet-nam-394391-d1.html) · [CILAF — điểm mới có hiệu lực từ 19/05/2025](https://cilaf.vn/bai-viet/277/mot-so-diem-moi-ve-nha-dau-tu-nuoc-ngoai-mua-co-phan-cua-to-chuc-tin-dung-viet-nam-co-hieu-luc-tu-ngay-19052025) · [Người Quan Sát — từ 19/5, nâng trần sở hữu nước ngoài lên 49%](https://nguoiquansat.vn/tu-19-5-chinh-phu-nang-tran-so-huu-nuoc-ngoai-tai-ngan-hang-nhan-chuyen-giao-bat-buoc-len-49-206003.html)
+
 - **🎯🎯⚠⚠ 14:54 ICT SAT 15-AUG · THE FTSE QUESTION MOVES TO THE 51.5% BANK BLOCK — AND FOREIGN ROOM IS
   FALSIFIED FOR VPB WHILE SURVIVING FOR TCB AND MBB (lanes 7, 4, 3). The most decision-relevant hour today:
   this is 51.5% of the book, against 8.3% for the TCX/VPX thread that has run since 04:54.**
