@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 18:54 ICT SAT 15-AUG · THE 14-AUG REVIEWED-STATEMENT GATE OPENED YESTERDAY AND NOTHING HAS
+  SURFACED — PLUS TWO VALUE COLLISIONS INSIDE THIS REPO, ONE OF THEM ON A NUMBER I QUOTED AN HOUR AGO
+  (lanes 3, 1). Deliberate rotation off the index thread after seven hours.**
+
+  ⚠ **THE GATE IS OPEN AND THE DOCUMENT IS NOT REACHABLE. Standalone/parent H1 REVIEWED statements were due
+  FRI 14-AUG (45 days, Circular 96/2020) — that was YESTERDAY — and two searches shaped directly at them
+  return NOTHING for any of the eight.** *What comes back for KDH is the **SELF-REPORTED 30-Jul release**:
+  Q2 NPAT ₫770bn described as "gấp 4 lần", which is the ~+277% already on file. **The tell is that the
+  numbers match the July self-report** — a reviewed statement is exactly the document that could differ.*
+  ⚠ **GATE STAYS OPEN; the CONSOLIDATED deadline is 29-AUG.** *Recorded as a MISS at press tier — Vietnamese
+  outlets do report post-review restatements ("chênh lệch sau soát xét"), so the absence of coverage is
+  weak evidence that no restatement has been filed, not evidence that none will be.*
+
+  ⚠⚠ **A THIRD KDH H1 PROFIT FIGURE: ₫1,031bn**, described as *"lợi nhuận ròng ... gấp 3,2 lần"*, against the
+  **₫1,097bn** this file carries for H1. **₫66bn apart.** *The gap is CONSISTENT with a consolidated-total vs
+  attributable-to-parent split — Q2 already splits ₫770bn total / ~₫750bn to parent — but the implied Q1
+  minority interest of ~₫46bn on ~₫327bn does not sit comfortably against Q2's ~₫20bn on ₫770bn.* **NOT
+  RECONCILED, NOT BLENDED.** *KDH's profit now has FOUR bases in this file: standalone parent ₫49.6bn,
+  H1 ₫321bn, H1 ₫1,031bn, H1 ₫1,097bn.*
+  ✅ **NEW AND UNAMBIGUOUS: H1 real-estate transfer revenue ~₫144bn, −86%, THE LOWEST SINCE Q2/2022.**
+  ***That is the core business, and it is at a four-year low while the reported profit is up 3.2×.*** *Bears
+  on the kill criterion (customer advances < ₫1,000bn at 3Q26) and on the ₫493–1,106bn H2 gap.*
+  ✅ *H1 net revenue ₫442bn (−75%) CORROBORATES the ₫442bn against ₫1,759.2bn already on file.*
+  ⚠ **QUESTION (1) IS NOT RESOLVED.** The source attributes the H1 profit to *"completion of transferring 51%
+  of Bình Trưng Mới"* — **which is the horn the file ALREADY holds**, against `binh_trung_moi_transfer_expected`
+  = Q3/2026. ***Repeating one horn of a contradiction is not resolving it***, and a reviewed statement is
+  still what settles it.
+
+  🚨⚠⚠ **TWO VALUE COLLISIONS INSIDE THIS REPO, FOUND THIS HOUR — AND ONE IS ON A NUMBER I USED AT 17:54.**
+  | value | subject A | subject B |
+  |---|---|---|
+  | **₫1,097bn** | **KDH's H1/2026 profit** | **`caex_q1_investment_bn`** — VPBankS's 11% CAEX injection |
+  | **19.2%** | **VPX's share of VPB's PBT** (used to build the look-through) | **VPB's total-asset growth vs end-2025** |
+  ⚠⚠⚠ ***A grep for `1,097` returns 24 hits spanning two entirely unrelated subjects, and a grep for `19.2%`
+  now spans a third.*** **The 11-Aug rule was "grep the CONCEPT, not the digits." It has just been confirmed
+  twice in one hour, and the reason is structural: this log is large enough that values REPEAT, so a numeric
+  grep is a search over coincidences.** *Same family as the 83%-coverage collision — a coincident VALUE
+  anchored to different subjects — and the earlier case was two periods of one series, which is the benign
+  version. **Two different subjects is the malignant one.***
+
+  ✅ **BALANCE-SHEET DIVERGENCE THAT SUPPORTS THE BANK SPLIT, BOTH NEW: VPB total assets >₫1.5 QUADRILLION at
+  30-Jun-2026, +19.2% vs end-2025; TCB total assets ₫1,273 TRILLION, +6.9%.** ***VPB is growing its balance
+  sheet 2.8× as fast as TCB.***
+  ⚠ *That is the same shape as the differentiated block already on file — TCB with an evidenced +200bp funding
+  roll and NO offsets, against VPB/MBB carrying quota, reserve and liquidity offsets — now visible in the
+  asset line rather than inferred from the policy side.* **The file holds VPB CREDIT at >₫1,180,000bn at
+  30-Jun; TOTAL ASSETS is a different measure and neither displaces the other.**
+
+  ⚠ **LANE 1 — A HEADLINE-ONLY SIGNAL, DATED TODAY, DELIBERATELY NOT PROMOTED: "Lãi suất ngân hàng ngày
+  15/8/2026: nhiều nhà băng tiếp tục giảm" — many banks continuing to cut DEPOSIT rates.** *Coherent with
+  this week's overnight collapse from 6.09% to 4.38%.* ⚠⚠ **AND IT DOES NOT BEAR ON TCB'S +200bp FUNDING
+  ROLL, WHICH IS A DIFFERENT INSTRUMENT: retail term deposits versus wholesale/bond funding — different
+  market, different tenor, different repricing clock.** *Written down precisely because "funding costs are
+  falling" is the sentence that would otherwise get carried across, and no figures were returned to support
+  even the retail leg.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 4 tested against the ₫1,031bn (does a third H1 basis change KDH's
+  evidence status?) and does NOT fire: it is an unreconciled basis, which is the status KDH's profit has held
+  since 02-Aug, not a change in it. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1
+  and 3 negative.**
+  [Người Quan Sát — kinh doanh cốt lõi lao dốc, KDH vẫn báo lãi gấp 4 lần](https://nguoiquansat.vn/kinh-doanh-cot-loi-lao-doc-nha-khang-dien-kdh-van-bao-lai-gap-4-lan-307531.html) · [Báo Pháp luật — tổng tài sản vượt 1,5 triệu tỷ, VPBank báo lãi bán niên tăng 68%](https://baophapluat.vn/tong-tai-san-vuot-1-5-trieu-ty-dong-vpbank-vpb-bao-lai-ban-nien-tang-68.html) · [CafeF — toàn cảnh lợi nhuận 27 ngân hàng 6T/2026](https://cafef.vn/toan-canh-loi-nhuan-cua-27-ngan-hang-trong-6-thang-dau-nam-2026-vietcombank-gay-bat-ngo-lon-188260730152540587.chn) · [DNHN — lãi suất ngân hàng ngày 15/8/2026, nhiều nhà băng tiếp tục giảm](https://doanhnghiephoinhap.vn/lai-suat-ngan-hang-ngay-1582026-nhieu-nha-bang-tiep-tuc-giam-146484.html)
+
 - **🎯🎯⚠⚠ 17:54 ICT SAT 15-AUG · VPX HAS AN INDEX MEMBERSHIP THIS FILE DID NOT HOLD — ~₫181.5bn OF
   PASSIVE, LIVE SINCE 22-JUNE — AND THE "FTSE" BASKETS TURN OUT TO BE THREE DIFFERENT THINGS (lanes 4, 3).**
 
