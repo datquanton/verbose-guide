@@ -122,6 +122,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨⚠⚠⚠ 04:54 ICT SUN 16-AUG · THE REPO CONTRADICTED ITSELF ABOUT WHO CHAIRS THE FED — AND THE CAUTIOUS
+  FILE WAS THE WRONG ONE. Plus three dated Fed events this log did not hold, one of which lands FIVE DAYS
+  BEFORE THE FTSE EFFECTIVE DATE (lane 1).**
+
+  🚨 **THE CONTRADICTION, AND IT IS INSIDE THIS REPOSITORY.**
+  | file | what it says | tier |
+  |---|---|---|
+  | `assumptions.json`, 29-Jul FOMC note | *"**Chair Kevin Warsh** gave no forward guidance"* | **T1 — the Fed's own release** |
+  | `calibration-log.md`, 13-Aug | *"a headline names **Kevin Warsh** … implying **Fed leadership never recorded in this file** — headline only, unverified, not claimed"* | T5 |
+  ⚠⚠⚠ ***A T1 FACT ALREADY HELD IN THE MODEL FILE WAS TREATED AS AN UNVERIFIED RUMOUR IN THE LOG THREE DAYS
+  AGO — AND THE CAUTION WAS WRITTEN DOWN AS A VIRTUE.*** *`Powell` returns **zero** hits in this log and
+  `Warsh` returns two, both of them expressions of doubt.* **This is the 11-Aug lesson inverted: there I
+  checked the model and stopped, and `OPEN-DECISIONS` held the killer fact; here the MODEL held the fact and
+  the LOG doubted it.** ***"Check the file before spending a search" only works if "the file" means every
+  file*** — and refusing to claim something you already hold at a higher tier is not scepticism, it is a
+  failure to look.
+
+  ✅ **CONFIRMED AT T1 FROM THE PRIMARY, WITH THE DATE THE REPO NEVER HAD: the Federal Reserve Board named
+  Powell CHAIR PRO TEMPORE from 15-May-2026 until his successor was sworn in, and KEVIN M. WARSH WAS SWORN IN
+  ON 22-MAY-2026 as the 17th Chair, for a four-year term to 21-May-2030.** *federalreserve.gov press release
+  `other20260515a`, plus contemporaneous coverage of the 22-May ceremony. Nominated January 2026.*
+  ⚠⚠ **AND IT REFRAMES THE FILE'S CENTRAL MACRO DATUM: the 29-Jul hold at 3.50–3.75% was 9–3 with all three
+  dissenters preferring to RAISE — and that was a chair TEN WEEKS INTO THE JOB facing a hawkish dissenting
+  bloc, who then gave NO forward guidance.** *The file reasons FOMC → dollar → VND → SBV and calls it
+  *"boxes SBV in on a second side."* **A new chair with three hike dissents and no guidance is a wider
+  distribution than the same vote under a settled chair** — the direction is unchanged and the variance is not.*
+
+  ✅ **THREE DATED FED EVENTS, NONE OF WHICH WAS IN THIS LOG (`Jackson Hole` returned ZERO hits):**
+  | date | event | ICT |
+  |---|---|---|
+  | **Thu 27 – Sat 29 AUG** | **Jackson Hole symposium**, topic *"Financial Innovation: Implications for Payments and Policy"* | — |
+  | **Fri 28 AUG, ~10:00 ET** | ***WARSH'S FIRST JACKSON HOLE KEYNOTE AS CHAIR*** | **~21:00 ICT — after Vietnam's close, first reactable session MON 31-AUG** |
+  | **Tue 15 – Wed 16 SEP** | **FOMC decision 16-Sep 14:00 ET, WITH THE DOT PLOT (SEP)** | **~01:00 ICT 17-Sep** |
+  🚨⚠⚠ ***THE COLLISION: THE SEPTEMBER FOMC AND ITS DOT PLOT LAND 16-SEP. THE FTSE INCLUSION IS EFFECTIVE
+  21-SEP. FIVE DAYS.*** **A hawkish dot plot would run the dollar against the VND in the very week the
+  ~US$150m first tranche arrives** — the two largest dated events on this book's horizon, and until this hour
+  the file held one of them.
+  ⚠ **AND A THIRD DATE SITS BETWEEN THEM: MBB's rights TRANSFER window closes WED 26-AUG — the day before
+  Jackson Hole opens.** *A holder who wants to sell the right rather than fund it must act before a macro
+  event the file did not know was coming.*
+
+  ⚠ **WHAT IS NOT CLAIMED: nothing about what Warsh will SAY, and no probability on the September move.** *The
+  29-Jul vote shifts the distribution of the next move upward; that is on file and is not extended here.
+  **A first keynote is a scheduled uncertainty, not a directional forecast**, and this file's rule is that a
+  dated catalyst gets a date, not a view.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  ⚠ **TRIGGER 5 TESTED AGAINST THE NEW DATES AND ITS STATUS IS UNCHANGED, BUT THE REASONING IS NOW WIDER:**
+  the fired window is Mon 17-Aug → Fri 21-Aug; **Jackson Hole (27–29 Aug) and the September FOMC (15–16 Sep)
+  are BEYOND five sessions and therefore do NOT fire it today** — they are logged as forward catalysts, and
+  the 26-Aug MBB transfer deadline sits between. **NO NEW TRIGGER FIRES — trigger 2 remains
+  STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [Federal Reserve Board — Powell named chair pro tempore until Warsh is sworn in (primary)](https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm) · [Spectrum News — Kevin Warsh sworn in as Federal Reserve chair, 22-May-2026](https://spectrumlocalnews.com/us/snplus/politics/2026/05/22/kevin-warsh-sworn-in-jerome-powell-trump-white-house-ceremony-clarence-thomas) · [Kansas City Fed — Jackson Hole Economic Policy Symposium](https://www.kansascityfed.org/research/jackson-hole-economic-symposium/) · [Federal Reserve Board — calendar](https://www.federalreserve.gov/newsevents/calendar.htm)
+
 - **🚨⚠⚠⚠ 03:54 ICT SUN 16-AUG · I WITHDRAW A SENTENCE I WROTE AN HOUR AGO — AND THE PEER CUT REVERSES A
   STANDING FRAMING: ON PROPERTY CREDIT, VPB IS NOW MORE EXPOSED THAN TCB, ON BOTH MEASURES (lanes 3, 5, 6).**
 
