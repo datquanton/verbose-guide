@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠⚠ 05:54 ICT SAT 15-AUG · CORRECTION TO MY OWN 04:54 TEST — I ANCHORED THE SEASONING RULE TO THE WRONG
+  DATE. THE THRESHOLD IS ~28-JAN, NOT ~21-MAY (lanes 4, 3).**
+  ⚠⚠ **WHAT I WROTE AN HOUR AGO:** *"Three months before the 21-Aug list is ~21-MAY-2026. If TCX listed on or
+  before that, seasoning cannot explain its absence."* ***WRONG ANCHOR. Gate row 59 states the roster was cut
+  to 23 names ON 28-APR-2026 DATA — that is the SCREEN date. A seasoning rule bites at the SCREEN, not at
+  PUBLICATION.***
+  ✅ **CORRECTED TEST: three months before 28-Apr-2026 ⇒ TCX must have been listed by ~28-JANUARY-2026 for
+  seasoning not to explain its absence. That is 113 days earlier than the threshold I set at 04:54 — a
+  materially harder test, and one my own framing had made look nearly satisfied.**
+  ⚠ **AND IT VOIDS WHAT TODAY'S SEARCH RETURNED. The one hard datum is TCX trading at ₫42,000 on 29-MAY-2026.
+  Against my wrong 21-May anchor that was tantalisingly close; against the correct 28-Jan anchor it is 121 days
+  LATE and establishes nothing.** *An hour ago I would have called it near-decisive. It is worthless for this
+  test, and only re-deriving the anchor showed that.*
+  **STILL NOT ESTABLISHED — three converging indications, none conclusive, and the file's standard is "NOT
+  established, NOT guessed":**
+  | indication | what it gives | why it falls short |
+  |---|---|---|
+  | gate row 59: "listed after the screen date" excuse **dies at 28-Apr** | implies listing by 28-Apr | an implication, and 28-Apr is 3 months TOO LATE for the corrected test |
+  | **TCX entered VN30 effective 03-Aug-2026** | VN30 has its own listing-history rule | that rule is **not established here** |
+  | founded 2008 as a Techcombank subsidiary | corporate age | **founding is not listing** |
+  ⚠⚠ **THE LESSON, AND IT IS THE ONE THIS FILE KEEPS RE-LEARNING IN NEW COSTUMES: I got the RULE right at
+  04:54 and applied it to the wrong DATE. Establishing a rule and establishing WHERE IT BITES are two separate
+  acts, and the second is where the KDH phantom, the HPG percentage-vs-level and the KDH three-bases problem
+  all lived.**
+  **WHAT WOULD SETTLE IT, UNCHANGED IN KIND BUT NOW CORRECTLY SPECIFIED: TCX's first HOSE trading date,
+  tested against ~28-Jan-2026.**
+  ⚠ **Forecast #7 STILL NOT RE-WEIGHTED. It resolves Fri 21-Aug, session 5.**
+  **NOTHING MODELLED. No input changed. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES.**
+
 - **✅⚠⚠ 04:54 ICT SAT 15-AUG · THE FTSE LISTING-HISTORY RULE — THE VARIABLE THIS FILE NAMED AND COULD NOT
   ESTABLISH — IS REACHABLE, AND IT IS THREE MONTHS. FORECAST #7 RESOLVES IN 5 SESSIONS (lanes 4, 3).**
   **WHY THIS VARIABLE: gate row 59 records TCX and VPX as ABSENT from the 23-name FTSE roster and says
@@ -133,8 +162,8 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   egress-blocked for direct fetch, but the ground rules surfaced through search and CDN mirrors
   (`lseg.com.cn`). The file has spent a week distinguishing "cannot find" from "cannot be found" — this one
   CAN be found, and had not been.**
-  ⚠⚠⚠ **WHAT REMAINS, AND IT IS NOW EXACTLY ONE REACHABLE FACT: TCX's ACTUAL LISTING DATE. Three months before
-  the 21-Aug list is ~21-MAY-2026. If TCX listed on or before that, seasoning cannot explain its absence — and
+  ⚠⚠⚠ **WHAT REMAINS, AND IT IS NOW EXACTLY ONE REACHABLE FACT: TCX's ACTUAL LISTING DATE. ⚠ **CORRECTED 05:54 — the anchor below is WRONG; the seasoning rule bites at the 28-APR SCREEN date, so the threshold is ~28-JAN-2026, not ~21-May.** ~~Three months before
+  the 21-Aug list is ~21-MAY-2026.~~ If TCX listed on or before that, seasoning cannot explain its absence — and
   the absence becomes INFORMATIVE, pointing where the log already said the evidence points.**
   ⚠ ***I AM NOT CLOSING IT ON INFERENCE. Gate row 59's remark that the "listed after the screen date" excuse
   DIES at 28-Apr-2026 implies TCX was listed by then — roughly four months before the list — but the same row
