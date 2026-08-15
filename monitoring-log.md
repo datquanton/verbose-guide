@@ -118,6 +118,34 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅✅⚠⚠ 06:54 ICT SAT 15-AUG · RESOLVED: TCX LISTED 21-OCT-2025, SO SEASONING CANNOT EXPLAIN ITS ABSENCE
+  FROM THE FTSE ROSTER. A QUESTION GATE ROW 59 EXPLICITLY LEFT OPEN IS NOW CLOSED — FIVE SESSIONS BEFORE
+  FORECAST #7 RESOLVES (lanes 4, 3).**
+  ✅ **THE FACT: TCX (TCBS) began trading on HOSE on 21-OCTOBER-2025 — 2.31bn shares, reference price
+  ₫46,800, market capitalisation over ₫108,000bn on debut.**
+  ✅✅ **THE TEST, ON THE CORRECTED ANCHOR: 21-Oct-2025 → the 28-Apr-2026 SCREEN is 189 days ≈ 6.2 MONTHS,
+  against FTSE GEIS's 3-MONTH minimum. IT CLEARS BY 99 DAYS. (To the 21-Aug list it is 10.0 months.)**
+  ⚠⚠⚠ **THEREFORE — and this is exactly what gate row 59 said it turned on — TCX'S ABSENCE FROM THE 23-NAME
+  ROSTER IS INFORMATIVE. It was NOT excluded on a listing-history technicality; it was screened out on other
+  grounds — liquidity, free float, size or foreign accessibility, which one is NOT established.** *Row 59's
+  words were "whether their absence is informative now turns on FTSE's LISTING-HISTORY REQUIREMENT — NOT
+  established, NOT guessed." It is now established, and the answer is that the absence stands on its merits.*
+  ⚠⚠ **AND FORECAST #7 IS STILL NOT RE-WEIGHTED — deliberately, and this is the hour that tests the rule.**
+  ***The forecast (TCX FTSE, EV +6.25%) resolves Fri 21-Aug. The log recorded that it "got real evidence
+  pointing at its downside" and chose not to move it, on the 07-Aug principle that "a pre-registration that
+  only survives when the evidence is neutral was never a pre-registration." I have now removed the last
+  innocent explanation for that downside evidence. Moving the forecast now would be the same act the rule
+  forbids, merely better justified — and better justification is precisely what the rule anticipates.***
+  ⚠ **VPX IS NOT RESOLVED BY THIS AND MUST NOT RIDE ON IT. Row 59 groups "ABSENT — TCX, VPX (8.3%)", but VPX
+  appears to have IPO'd around January 2026. If it listed near or after ~28-Jan, SEASONING MAY GENUINELY
+  EXPLAIN VPX while failing to explain TCX. Two names, one row, potentially two different answers — separate
+  question, left open.**
+  ⚠ *Incidental: 2.31bn shares at listing against the 2,773,896,000 this file uses — consistent with the
+  pre-listing stock dividend TCBS announced. Not reconciled here; flagged.*
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES — but SELL TCX −3.3pp is the catalyst-conflicted leg, and its thesis just lost an excuse.**
+  [VnEconomy — hơn 2,3 tỷ cp TCX giao dịch trên HOSE ngày 21/10, giá tham chiếu 46.800đ](https://vneconomy.vn/hon-23-ty-co-phieu-tcx-chinh-thuc-giao-dich-tren-hose-ngay-2110-gia-tham-chieu-46800-dong.htm) · [VietnamBiz — 2,31 tỷ cp TCBS chính thức chào sàn HOSE ngày 21/10](https://vietnambiz.vn/231-ty-co-phieu-chung-khoan-tcbs-tcx-chinh-thuc-chao-san-hose-ngay-2110-2025102110472779.htm) · [DNSE — cổ phiếu TCX lên sàn, vốn hoá vượt 100.000 tỷ](https://www.dnse.com.vn/senses/tin-tuc/co-phieu-tcx-cua-tcbs-chinh-thuc-len-san-hose-von-hoa-vuot-100000-ty-ong-35146430)
+
 - **⚠⚠⚠ 05:54 ICT SAT 15-AUG · CORRECTION TO MY OWN 04:54 TEST — I ANCHORED THE SEASONING RULE TO THE WRONG
   DATE. THE THRESHOLD IS ~28-JAN, NOT ~21-MAY (lanes 4, 3).**
   ⚠⚠ **WHAT I WROTE AN HOUR AGO:** *"Three months before the 21-Aug list is ~21-MAY-2026. If TCX listed on or
