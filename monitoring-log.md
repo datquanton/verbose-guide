@@ -122,6 +122,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅🚨⚠⚠ 01:54 ICT SUN 16-AUG · THE INSTRUMENT QUESTION I CALLED "THE SINGLE MOST CONSEQUENTIAL OPEN ITEM
+  ON A 35% POSITION" IS ANSWERED ONE HOUR LATER — BY TCB'S OWN MANAGEMENT. IT IS ORIGINATE-TO-DISTRIBUTE
+  (lanes 3, 5).**
+
+  ✅ **THE MECHANISM, STATED BY TCB'S LEADERSHIP: for infrastructure lending TCB *"initially participates as
+  the MAIN CAPITAL-ARRANGING BANK, and then gradually distributes risk by restructuring into SYNDICATED LOANS
+  with domestic and foreign banks, or by DISTRIBUTING BONDS TO INDIVIDUAL INVESTORS."*** *Zero prior hits for
+  the distribute model in this file.*
+  ✅ **THAT PICKS ONE OF THE THREE CANDIDATES I NAMED AT 00:54 AND CONFIRMS THE ARITHMETIC THAT FORCED THE
+  QUESTION.** *An hour ago the reasoning was: ₫167,000bn is 13.1% of TCB's balance sheet, no prudential regime
+  allows that as a single funded exposure, therefore the instrument must be something else. **The counterparty
+  has now said which something else.** The inference was sound and it was not evidence; this is.*
+
+  ⚠⚠⚠ **BUT "ARRANGER" IS NOT "NO EXPOSURE", AND THE WORD THAT CARRIES THE RISK IS *INITIALLY*.** TCB takes
+  the paper onto its own book FIRST and distributes AFTERWARDS. ***So the exposure is neither ₫167,000bn nor
+  zero — it is the PEAK WAREHOUSE BALANCE, and that number is not disclosed anywhere this file can reach.***
+  ⚠⚠ ***THE MEASURE CHANGES FROM A STOCK TO A FLOW.*** *A 13.1%-of-assets commitment that is warehoused and
+  distributed is a **pipeline**, and pipelines are measured by peak inventory and distribution speed, not by
+  headline size. **The old question ("what instrument?") is closed; the new one ("what peak warehouse?") is
+  sharper, smaller, and still unanswered** — and it is the right question to carry to the CIO run.*
+
+  ⚠⚠ **THE DISTRIBUTION CHANNEL INCLUDES RETAIL — AND THAT IS THE CHANNEL WITH VIETNAM'S SPECIFIC HISTORY.**
+  *"Distributing bonds to individual investors" is the same conduit at the centre of the 2022 corporate-bond
+  failures. **Legal transfer of a bond does not reliably transfer reputational or franchise risk from the
+  distributor**, which is the mechanism by which a sold-down exposure can still cost the seller.*
+  ⚠ **CONNECTS TO 13:54 WITHOUT CLOSING IT: the Masterise ₫44,500bn / 8 tranches were "registered and held at
+  A SECURITIES COMPANY", unnamed, and I declined to name it.** ***This hour establishes that
+  distribution-to-retail is TCB GROUP STRATEGY. It still does not name the securities company, and I still do
+  not name it.*** *The gap is now narrower and it is the same gap.*
+
+  ✅ **AND IT IS A STRATEGY, NOT ONE DEAL: the named infrastructure pipeline is GIA BÌNH AIRPORT, PHÚ MỸ 2
+  BRIDGE and CẦN GIỜ BRIDGE.** ⚠ *`Cần Giờ` already has four hits in this file — but attached to **Hưng Phát
+  Invest's ₫16,950bn bond stack** and to **Grand Marina Saigon**, i.e. to a Masterise-adjacent property
+  borrower, not to a TCB-arranged bridge. **Same place name, different projects, different borrowers** —
+  checked before writing, because a coincident proper noun is the non-numeric version of the value collisions
+  found at 18:54.*
+
+  ⚠ **TWO DATING CAVEATS, BOTH STATED RATHER THAN GLOSSED. (1) The management-strategy piece carries a
+  materially LOWER article id than this month's coverage, so it is NOT August and its date is UNESTABLISHED**
+  — the mechanism is a standing strategy, which (per yesterday's 15:54 distinction) **tolerates an old date
+  far better than a level would**, but the pipeline list may have moved. **(2) TCB "seeking a US$1bn foreign
+  loan" is ALREADY ON FILE** from 03:53 on 07-Aug, together with the correction that it is not leadership
+  because VPB had already done more — *re-encountered, not re-logged, and it now reads differently: a bank
+  warehousing multi-hundred-trillion infrastructure commitments needs term funding, and that is what a US$1bn
+  facility is for.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — same reason as an hour ago: `confidence`
+  measures EARNINGS evidence quality, and a resolved instrument question is governance, not earnings.
+  `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 1 re-tested against TCB's criterion (*"developer/related-party NPL formation
+  above 2.0%, or a Masterise bond event"*) and does NOT fire: a distribution MODEL is not an event. Trigger 5
+  remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 3 and 4 negative.**
+  [Doanh Nhân VN — ban lãnh đạo Techcombank nói về chiến lược kiểm soát rủi ro khi cho vay hạ tầng](https://baomoi.com/ban-lanh-dao-techcombank-noi-ve-chien-luoc-kiem-soat-rui-ro-khi-cho-vay-linh-vuc-ha-tang-c54471300.epi) · [Vnbusiness — Techcombank tìm kiếm khoản vay 1 tỷ USD](https://baomoi.com/techcombank-tim-kiem-khoan-vay-1-ty-usd-cuoc-dua-huy-dong-von-ngoai-tang-toc-c55769161.epi) · [Nhịp sống nhà đất — Techcombank nhắm tài trợ sân bay quốc tế](https://nhipsongnhadat.vn/mxh/techcombank-nham-tai-tro-san-bay-quoc-te-du-bao-loi-nhuan-2026.html)
+
 - **🚨🚨⚠⚠⚠ 00:54 ICT SUN 16-AUG · GIA BÌNH IS QUANTIFIED AT LAST — TCB ~₫167,000bn ACROSS TWO PHASES, AND
   MASTERISE OWNS 80% OF THE PROJECT (lanes 3, 5). The TCB dossier has flagged this as UNQUANTIFIED since it
   was written; it is the largest single item attached to the book's largest position.**
