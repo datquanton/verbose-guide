@@ -60,7 +60,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | KDH insider buy — ~~**TWO separate disclosures, not one**~~ **⚠⚠ CORRECTED 11-Aug 19:54 — THERE IS ONLY ONE, AND (a) WAS A PHANTOM** | ~~**(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal~~ **⚠⚠ (a) IS DELETED. THE 1%-THRESHOLD OBLIGATION APPLIES ONLY TO HOLDERS ALREADY AT ≥5%** — it is a **step-size rule for existing major shareholders, not an entry threshold.** Statute: *"cổ đông lớn ... **sở hữu từ 5% trở lên** ... khi có thay đổi ... **qua các ngưỡng 1%** ... phải công bố thông tin ... trong **05 ngày làm việc**."* **Lý Tuấn Kiệt goes 0.056% → 1.838% and NEVER REACHES 5%, so no 1% filing will ever fire.** The file was waiting on an "early signal" that does not exist, and the 05-Aug arithmetic (*"the 1% crossing needs 53.0% completion"*) computed the completion rate for **an event with no reporting obligation attached.** **(b) IS NOW THE WHOLE SIGNAL:** he is a **người nội bộ** (Phó Tổng Giám đốc) *and* a **người có liên quan** (son of the Vice Chairman), so Thông tư 96/2020 before/after reporting applies — the "before" was the 20-Jul registration, the "after" is the **completion report following the window's close on 21-Aug.** ⚠ **The de-minimis test is ≥₫50m/day or ≥₫200m/month `TÍNH THEO MỆNH GIÁ` — AT PAR, NOT MARKET;** 20m shares × ₫10,000 par = ₫200bn, far above, so it binds regardless of price. **RE-OPEN: 21-Aug window close — and NOTHING before it.** T2: multiple broker compliance pages (SSI, ASEAN, VIX, PSI) concur; the primary (Luật Chứng khoán 2019 Điều 31 / TT96/2020) was **not** read directly | 7 |
 | **⚠ HPG — QUÝ XA IRON-ORE MINE RESTART** *(added 11-Aug 21:54; `Quý Xa` had ZERO hits repo-wide until today)* | **Expected from OCTOBER 2026** per Lào Cai provincial leadership — **not a company disclosure.** Lào Cai; designed mineable reserve **>73.2m t** (in-situ resource *">120m t"* is a **different measure** — both recorded with bases attached); capacity **5m t ore/yr**; life **~15y 8m**. ⚠⚠ **HPG HOLDS 40%, NOT 100% — Chairman Trần Đình Long holds 10% PERSONALLY, Trần Đăng Khoa 25%; founding structure, may have moved, and a separate 99% takeover of the mine's OPERATING unit is a DIFFERENT corporate layer. Current cap table NOT established.** **Bears on the bridge's ore leg (₫0.34m per US$10/t) and on the kill criterion (core NPAT/tonne < ₫1.25m), but NOT quantifiable here:** stake is 40%, **ore GRADE vs the 62% Fe benchmark unknown**, and HPG's total ore consumption is absent from this file — no denominator. ⚠ **BVSC cited it as a driver of its 2026 margin upgrade (10.7% → 11.9%); an October restart at a minority stake cannot carry a FULL-YEAR 2026 margin. It is a 2027+ item.** **RE-OPEN ON: an HPG disclosure naming Quý Xa, or Oct-2026 — not a general re-search.** | 3, 5 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
-| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **⚠ CORRECTED 08-Aug 06:53 — the "28-name list built on 31-Dec-2024 data" was WRONG on both counts.** FTSE published an **indicative 32** on ~08-Apr-2026 and then **CUT it to 23 on 28-Apr-2026 data** (removed: SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC; 32 − 9 = 23 checks). Of this book: **IN — HPG, KDH, VCI (40.2%), and they survived a screen on liquidity, free float, market cap and foreign accessibility, which is stronger than the indicative list they were previously "in" on. ABSENT — TCB, VPB, MBB (51.5%), now against a FOUR-month-old screen, not a twenty-month-old one. ABSENT — TCX, VPX (8.3%); the old excuse "listed after the screen date" DIES at 28-Apr-2026, and whether their absence is informative now turns on FTSE's LISTING-HISTORY requirement — NOT established, NOT guessed.** T4: four Vietnamese outlets, no primary reachable (six hosts egress-blocked incl. lseg.com). **This document settles TCX's and VPX's membership and lands before 21-Sep.** | 4 |
+| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **⚠ CORRECTED 08-Aug 06:53 — the "28-name list built on 31-Dec-2024 data" was WRONG on both counts.** FTSE published an **indicative 32** on ~08-Apr-2026 and then **CUT it to 23 on 28-Apr-2026 data** (removed: SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC; 32 − 9 = 23 checks). Of this book: **IN — HPG, KDH, VCI (40.2%), and they survived a screen on liquidity, free float, market cap and foreign accessibility, which is stronger than the indicative list they were previously "in" on. ABSENT — TCB, VPB, MBB (51.5%), now against a FOUR-month-old screen, not a twenty-month-old one. ABSENT — TCX, VPX (8.3%); the old excuse "listed after the screen date" DIES at 28-Apr-2026, and whether their absence is informative now turns on FTSE's LISTING-HISTORY requirement — NOT established, NOT guessed.** T4: four Vietnamese outlets, no primary reachable (six hosts egress-blocked incl. lseg.com). **This document settles TCX's and VPX's membership and lands before 21-Sep.** ✅✅ **THE FULL 23-NAME ROSTER, ON FILE 15-Aug 16:54 (it counts to exactly 23): VIC, HPG, VHM, FPT, MSN, SSI, VNM, STB, VCB, VJC, VRE, VIX, NVL, VCI, SHB, GEX, VND, KBC, KDH, BID, DGC, BSR, GEE.** ⚠⚠⚠ **IT CONTAINS FOUR BANKS (STB, VCB, SHB, BID) AND FOUR SECURITIES FIRMS (SSI, VIX, VND, VCI) — SO NEITHER "BANK" NOR "BROKER" IS DISQUALIFYING, AND THE 14:54 CLAIM THAT "EVERY INCLUDED NAME IS A NON-BANK" WAS AN ARTEFACT OF READING AN 8-NAME BOOK AS THE POPULATION. CORRECTED 16:54.** *NVL — a distressed developer — is also IN, which says the screen is mechanical rather than quality-based.* | 4 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
@@ -121,6 +121,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨⚠⚠⚠ 16:54 ICT SAT 15-AUG · I GOT THE ACTUAL 23-NAME ROSTER — AND IT FALSIFIES THE PREMISE I BUILT THE
+  LAST TWO HOURS ON. FOUR BANKS ARE IN THE LIST (lanes 4, 7, 3). Correction first.**
+
+  ⚠⚠⚠ **THE CORRECTION. At 14:54 I wrote that the hypothesis was worth testing because *"every ABSENT large
+  name in this book is a bank while every INCLUDED name is not."* THAT SYMMETRY IS FALSE.** It was true of
+  **the eight names in this book** and I read it as a property of **the screen**. **The screen's actual
+  output contains STB, VCB, SHB and BID.** ***A sample-selection substitution — the population is 23 names
+  and I used a portfolio of 8 as the test set.*** *The file has a whole family for this and I walked into it
+  anyway; what makes it the dangerous kind is that every individual observation was correct.*
+
+  ✅✅ **THE FULL ROSTER, NOW ON FILE AND ADDED TO GATE ROW 59 (counts to exactly 23):**
+  **VIC · HPG · VHM · FPT · MSN · SSI · VNM · STB · VCB · VJC · VRE · VIX · NVL · VCI · SHB · GEX · VND ·
+  KBC · KDH · BID · DGC · BSR · GEE.**
+  ✅ *Corroborates every claim the file already made: HPG, KDH, VCI present; TCB, VPB, MBB, TCX, VPX absent.
+  It adds the other twenty, which is what makes the comparison possible at all.*
+  | group | in the 23 | our absentees |
+  |---|---|---|
+  | banks | **STB · VCB · SHB · BID** | TCB · VPB · MBB |
+  | securities | **SSI · VIX · VND · VCI** | TCX · VPX |
+  ⚠⚠ ***NEITHER "BANK" NOR "BROKER" IS DISQUALIFYING.*** **And NVL — a distressed developer — is IN, which
+  says the screen is MECHANICAL (size, float, liquidity, access), not quality-based.** *Any explanation that
+  reaches for franchise quality is dead on arrival.*
+
+  ✅ **VPB's FREE FLOAT IS ELIMINATED TOO — the fourth criterion to fall for this name.** Chairman **Ngô Chí
+  Dũng and related parties hold 33.648%**; **SMBC holds 15%** (~1.2bn shares). **33.648 + 15 = 48.648%
+  restricted ⇒ free float ≤ 51.35%, against FTSE's 5% minimum.** *Stated as ≤ because other restricted
+  holders may exist — VPB discloses 13 individual shareholders at ≥1% — and it clears by an order of
+  magnitude either way.*
+  ✅ **AND THE 5pp CONTRADICTION FROM 14:54 RESOLVES IN FAVOUR OF THE 25%.** SMBC's 15% ≈ 1.2bn shares
+  reconciles to ₫79,339bn / ₫10,000 = 7,933.9m shares (15% = 1,190m). **So foreign ownership decomposes as
+  SMBC 15% + ~10% other ≈ 25% — the 08-Apr-2026 figure is CORROBORATED BY ITS OWN PARTS.** ⚠ **The "~34%
+  post-placement" leg is NOT reproducible on any base I can construct** (25% of the enlarged 10,621m plus
+  624.3m new gives **29.4%**; on the pre-dividend base, 30.5%). **Recorded as unreproducible, not blended.**
+
+  🚨 **WHERE THAT LEAVES VPB — AND IT IS A FRAMEWORK PROBLEM, NOT A REMAINING SUSPECT.** Seasoning, market
+  cap, foreign accessibility and free float are all now eliminated for VPB. **The only criterion left in the
+  press's four-item list is LIQUIDITY, and VPB is one of the most heavily traded stocks on HOSE — that is
+  not a credible answer.**
+  ⚠⚠⚠ ***WHEN EVERY PLAUSIBLE CAUSE IS ELIMINATED AND THE RESIDUAL IS IMPLAUSIBLE, THE MODEL IS WRONG, NOT
+  THE RESIDUAL.*** **The quadruple "liquidity, free float, market cap, foreign accessibility" comes from
+  VIETNAMESE PRESS CHARACTERISATION, not from FTSE's methodology — `lseg.com` is egress-blocked and the
+  methodology has never been read.** *So the four-criterion frame is itself the thing now in doubt.*
+  ⚠ **WHAT SURVIVES INDEPENDENTLY, AND WHY:** the TCB/MBB **self-imposed lock** (22.51% / 23.24%, zero
+  headroom) stands, because **zero foreign headroom is mechanically disqualifying under any index
+  construction** — it never needed the symmetry that just broke. *What it has lost is the support of
+  "and nothing else could explain it."*
+  ⚠ **AND IT PUTS A CAVEAT, NOT A REVERSAL, ON 12:54's TCX CONCLUSION** — "liquidity is the last candidate
+  standing" used the same four-item frame. **TCX's liquidity is at least PLAUSIBLE for a name listed
+  21-Oct-2025, so that conclusion degrades far less than VPB's.**
+
+  🎯 **THE SHARP QUESTION THE ROSTER FINALLY MAKES ASKABLE, AND IT IS THE RIGHT ONE TO CARRY FORWARD:
+  WHAT SEPARATES STB, VCB, SHB AND BID FROM TCB, VPB AND MBB?** *Four banks in, at least six out. That is a
+  comparison set, and until this hour the file did not have one — it had a portfolio.*
+  ⚠ **NOT GUESSED HERE. VCB and BID are majority state-held with small percentage free floats and are IN,
+  which is already awkward for any float-based story, but their float figures are NOT established and I am
+  not supplying them.**
+
+  ✅ **CONFIRMED IN PASSING: the semi-annual review changes are announced from 21-AUG-2026 and the official
+  list precedes the September GEIS review** — matching the file's 21-Aug gate exactly, from a fifth
+  independent outlet.
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 4 tested again (does falsifying my own framing change a held
+  name's EVIDENCE STATUS?) and does NOT fire: what changed is my model of a third party's screen, not any
+  evidence about VPB. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3
+  negative.**
+  [Vietstock — FTSE Russell rút gọn danh sách xuống 23 mã](https://vietstock.vn/2026/05/ftse-russell-rut-gon-danh-sach-co-phieu-viet-tiem-nang-xuong-con-23-ma-830-1438711.htm) · [Kinh tế Chứng khoán — 23 cổ phiếu lọt danh sách, ngân hàng và BĐS chiếm ưu thế](https://kinhtechungkhoan.vn/23-co-phieu-viet-nam-lot-danh-sach-ftse-russell-ngan-hang-va-bat-dong-san-chiem-uu-the-1445219.html) · [SGGP — rút gọn từ 32 xuống 23 mã](https://www.sggp.org.vn/ftse-russell-rut-gon-danh-sach-co-phieu-viet-nam-tu-32-xuong-con-23-ma-post851327.html) · [VnEconomy — cập nhật danh sách 23 cổ phiếu vào FTSE GEIS](https://vneconomy.vn/ftse-russell-cap-nhat-danh-sach-23-co-phieu-moi-vao-ftse-geis.htm) · [Nhà đầu tư — VPBank công bố cơ cấu cổ đông trên 1%](https://nhadautu.vn/vpbank-cong-bo-co-cau-co-dong-tren-1-d87538.html) · [Znews — 13 cổ đông cá nhân nắm từ 1% vốn VPBank](https://znews.vn/13-co-dong-ca-nhan-nam-tu-1-von-vpbank-post1488087.html)
 
 - **🎯🎯🎯⚠⚠ 15:54 ICT SAT 15-AUG · TCB AND MBB DID NOT RUN OUT OF FOREIGN ROOM — THEY LOCKED THEIR OWN
   DOOR. AND MY 14:54 FALSIFICATION OF VPB WAS PUT AT RISK THIS HOUR AND SURVIVES A CHECK (lanes 7, 4, 3).**
