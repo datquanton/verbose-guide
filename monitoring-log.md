@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅✅🚨 02:54 ICT SUN 16-AUG · THE PEAK-WAREHOUSE QUESTION IS BOUNDED ONE HOUR AFTER I SAID IT WAS
+  "DISCLOSED NOWHERE THIS FILE CAN REACH" — AND THREE FACTS THE FILE HAS CARRIED LOOSE SINCE EARLY AUGUST
+  NOW HAVE ONE MECHANISM (lanes 3, 5).**
+
+  ✅ **THE BOUND. At 30-JUN-2026 TCB had DISBURSED ₫20,000bn into national infrastructure projects, and its
+  ENTIRE construction book was ₫41,300bn (+56.3% YTD).**
+  | | ₫bn | vs the ₫167,000bn Gia Bình arrangement |
+  |---|---|---|
+  | **disbursed to national infrastructure** | **20,000** | **12.0%** |
+  | **whole construction book** | **41,300** | **24.7%** |
+  ***So the warehouse is not hypothetical and it is not ₫167,000bn: at the half-year TCB had put ₫20,000bn to
+  work against a commitment more than eight times larger.*** ⚠ **THE ₫41,300bn IS A CEILING ONLY IF GIA BÌNH
+  IS CLASSIFIED AS CONSTRUCTION** — it could sit under real estate or a project-finance line instead. *The
+  ₫20,000bn is the cleaner figure because it is disclosed as infrastructure directly rather than inferred
+  from a sector label.*
+
+  🚨 **THREE LINES THE FILE HAS HELD SINCE EARLY AUGUST WITHOUT A MECHANISM NOW HAVE ONE.**
+  | line | growth | on file since |
+  |---|---|---|
+  | corporate bonds on TCB's own book | **+80%** | early Aug |
+  | Group-2 ("needs attention") loans | **+46%** | early Aug |
+  | **construction lending** | **+56.3% YTD, ₫26,424bn → ₫41,300bn** | **NEW this hour** |
+  ⚠⚠⚠ ***THE ORIGINATE-TO-DISTRIBUTE MODEL ESTABLISHED AT 01:54 EXPLAINS ALL THREE AT ONCE: a bank that
+  arranges infrastructure paper, warehouses it, then sells it down as syndications or retail bonds will show
+  exactly this — a construction book filling, a corporate-bond book filling, and the inventory ageing through
+  Group 2 while it waits for distribution.*** *Three independently-reported lines, one explanation. **The
+  file had all three and no mechanism; it now has a mechanism it did not have to guess at, because TCB's
+  management stated it.*** ⚠ **This is a COHERENT reading, not a proven causal chain** — Group-2 formation
+  has other causes, and none of these three lines is broken out by project.
+
+  ⚠⚠ **AND THE CONCENTRATION, STATED PLAINLY: REAL ESTATE + CONSTRUCTION = ₫253,586bn = 31.87% OF TOTAL LOANS
+  at 30-Jun-2026 — up from a Q1 in which real-estate-business lending had been pulled DOWN to 26.44%.**
+  ***Nearly a third of the loan book of the portfolio's largest position sits in property and construction,
+  and the direction over the quarter is UP after a deliberate reduction.***
+  ✅ **INTERNAL CHECK: ₫253,586bn ÷ 31.87% ⇒ total loans ≈ ₫795,689bn, which against total assets of
+  ₫1,273,000bn is a 62.5% loans-to-assets ratio — coherent for TCB and consistent with VPB's larger
+  >₫1,180,000bn book already on file.** *Two figures from different sources that had never been divided into
+  each other; the quotient is plausible, which is weak confirmation of both and would have been strong
+  refutation of either.*
+
+  ⚠ **WHAT REMAINS OPEN, NARROWED AGAIN: the ₫20,000bn is a HALF-YEAR position, not a peak.** *Distribution
+  and origination both run continuously, so the maximum balance held at any moment between reporting dates is
+  still unobservable. **The question has gone from "what instrument?" (closed 01:54) to "what peak
+  warehouse?" (bounded this hour at ≤₫41,300bn, disclosed at ₫20,000bn) to "what INTRA-PERIOD peak?" —
+  each step smaller, and each one still the right question to hand the CIO run.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved — `confidence` measures EARNINGS evidence
+  quality and this is balance-sheet composition. `DECISION-BRIEF.md` byte-identical.
+  ⚠ **TRIGGER 1 TESTED WITH CARE AND DOES NOT FIRE.** TCB's criterion is *"developer/related-party NPL
+  formation above 2.0%, or a Masterise bond event."* **Group-2 is NOT NPL — Vietnamese Group 2 is "needs
+  attention", and NPLs are Groups 3–5; the file already records that distinction.** *A +46% rise in Group 2
+  is a leading indicator on the wrong side of the definition, and reading it as NPL formation would fire this
+  trigger on a measure the criterion does not name.* **NO NEW TRIGGER FIRES — trigger 5 remains FIRED;
+  trigger 2 remains STANDING-BREACHED; triggers 3 and 4 negative.**
+  [Techcombank — 2Q26 press release (primary, egress-blocked; cited for provenance)](https://techcombank.com/content/dam/techcombank/public-site/documents/2q26-press-release-vie.pdf) · [Điện tử & Ứng dụng — TCB lãi 18.540 tỷ, nợ nhóm 2 tăng 46%, trái phiếu doanh nghiệp tăng 80%](https://baomoi.com/techcombank-lai-18-540-ty-dong-no-nhom-2-tang-46-trai-phieu-doanh-nghiep-tang-80-c55740226.epi) · [VietBao — tín dụng BĐS phân hoá: Techcombank giảm giải ngân mua nhà, VPBank tăng tốc](https://vietbao.vn/tin-dung-bat-dong-san-phan-hoa-techcombank-giam-giai-ngan-mua-nha-vpbank-tang-toc-cho-vay-doanh-nghiep-601094.html) · [DNSE — lợi nhuận quý 2 tăng 22%, Techcombank còn đà tăng 2026](https://www.dnse.com.vn/senses/tin-tuc/loi-nhuan-quy-2-tang-22-techcombank-se-con-a-tang-cho-kinh-doanh-nam-2026-35251628)
+
 - **✅🚨⚠⚠ 01:54 ICT SUN 16-AUG · THE INSTRUMENT QUESTION I CALLED "THE SINGLE MOST CONSEQUENTIAL OPEN ITEM
   ON A 35% POSITION" IS ANSWERED ONE HOUR LATER — BY TCB'S OWN MANAGEMENT. IT IS ORIGINATE-TO-DISTRIBUTE
   (lanes 3, 5).**
