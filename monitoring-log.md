@@ -122,6 +122,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 21:54 ICT SAT 15-AUG · THE WEEKLY CAEX CHECK — ROUND 2's CRITERIA ARE NAMED FOR THE FIRST TIME, AND
+  THEY ARE THE AXIS ON WHICH CAEX LEADS (lanes 3, 6). Mostly covered ground; two real items. Short entry.**
+  *Gate-compliant: row 62 says "Q3 window — check weekly, not hourly." The last dedicated check was a week
+  ago.*
+
+  ✅ **ITEM 1 — THE SECOND ROUND WAS AN INFERENCE AND NOW HAS CONTENTS.** The file's 06-Aug work concluded
+  only that *"TCEX's 'round 1' approval in May implies at least a second round — so shortlisted is NOT
+  licensed."* **Round 1 tested DOCUMENT VALIDITY under Nghị quyết 05/2025/NQ-CP. Round 2 requires FINANCIAL
+  CAPACITY, INFRASTRUCTURE, TECHNOLOGY, and INFORMATION-SYSTEM SECURITY STANDARDS.**
+  ⚠⚠⚠ ***THAT REFRAMES TCEX'S "LEAD". Round 1 is a paperwork check that all five shortlisted firms face;
+  round 2 is the CAPITAL check — and CAEX is on record as the FIRST applicant to complete the ₫10,000bn
+  minimum*** (OKX Ventures and HashKey Capital, April-2026, both already on file). **The file separately
+  holds TCEX's charter capital as economically negligible — "₫1,097bn is 11× TCEX's entire charter capital."**
+  ***So TCEX leads on the criterion that does not discriminate, and CAEX leads on the one that does.***
+  ⚠ **STATED AS A RANKING OF POSITIONS, NOT AN OUTCOME.** *Charter capital can be raised, and "first to meet
+  a minimum" is not "meets every round-2 condition" — infrastructure, technology and security are three
+  further tests on which this file has NOTHING for either firm.* **Bears on VPX's armed criterion (*"CAEX
+  licence rejected under the 5-licence cap"*), already labelled un-fireable on 06-Aug because five candidates
+  remain for five slots — this hour says nothing that re-arms it.**
+
+  ✅ **ITEM 2 — A HARD DOCUMENT IDENTITY THAT PARTLY RESOLVES A CAUTION THE FILE FLAGGED AS LOAD-BEARING.**
+  **Công văn 5547/BTC-UBCK, dated 04-MAY-2026**, is TCEX's round-1 approval. *Zero hits for `5547` before
+  this hour.*
+  ⚠⚠ **THE FILE'S CAUTION (1) READ: "the date of the 5-of-7 selection is NOT established — the results around
+  it run April–May 2026 and no firm date was returned."** ***TCEX is one of the five, and it held its round-1
+  letter on 04-May-2026, so the 5-of-7 screening happened ON OR BEFORE 04-May-2026.*** **That is a BOUND, not
+  a date, and it is recorded as a bound.** *The two events are different — a shortlisting and an individual
+  approval letter — and conflating them would have manufactured a date this evidence does not support.*
+
+  ⚠ **EVERYTHING ELSE THIS HOUR WAS COVERED GROUND, INCLUDING THE PART THAT LOOKED NEWEST.** TCEX's
+  shareholders (**Nguyễn Xuân Minh 89% · TCBS 9.9% · TechcomCapital 1.1%**), its 05-May-2025 establishment,
+  the 5-of-7 with 2 eliminated, the named five (CAEX, VIXEX, LPEX, TCEX, Vietnam Digital Assets), the
+  ₫10,000bn minimum and OKX/HashKey — **all already on file from the 06-Aug structure work.** *Corroborated,
+  not re-logged.*
+  ⚠⚠ **AND THE UNDERLYING NEWS IS THREE MONTHS OLD — 04/06-May-2026 — so this is a GAP-FILL, not a
+  development.** *Labelled as such deliberately: a May document surfacing in an August sweep reads as "new"
+  unless the date is put in front of it, and that is the failure mode this file has caught four times this
+  week.* **TCBS's 9.9% of TCEX against VPBankS's 11% of CAEX remains the cleanest symmetry in the pair — two
+  brokers in one book, two exchanges, near-identical minority stakes.**
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 1 re-tested against VPX's CAEX criterion and does NOT fire (it remains
+  un-fireable on its stated mechanism, and nothing this hour re-arms it). Trigger 5 remains FIRED; trigger 2
+  remains STANDING-BREACHED; triggers 3 and 4 negative.**
+  [Vietstock — TCEX được chấp thuận vòng 1 quy trình cấp phép](https://vietstock.vn/2026/05/tcex-duoc-chap-thuan-vong-1-trong-quy-trinh-cap-phep-san-tai-san-ma-hoa-16312-1438536.htm) · [VietnamBiz — TCEX được chấp thuận vòng 1](https://vietnambiz.vn/tcex-duoc-chap-thuan-vong-1-cap-phep-san-giao-dich-tai-san-ma-hoa-20265694053480.htm) · [VietnamNet — Bộ Tài chính lấy ý kiến 5/7 hồ sơ, loại 2](https://vietnamnet.vn/bo-tai-chinh-duyet-5-7-ho-so-san-tai-san-ma-hoa-loai-2-ho-so-2498601.html) · [TheLEADER — sớm cấp phép các sàn tài sản số trong quý III/2026](https://theleader.vn/som-cap-phep-cac-san-tai-san-so-trong-quy-iii-2026-d45915.html)
+
 - **⚠⚠✅ 20:54 ICT SAT 15-AUG · I CORRECT MY OWN 19:54 ARITHMETIC — AND THE FILE ALREADY HELD THE RIGHT
   ANSWER, COMPUTED ON 11-AUG (lanes 3, 7, 4). No search was needed for any of this.**
 
