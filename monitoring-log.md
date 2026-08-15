@@ -39,6 +39,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **SECTOR NPL & LLR COVERAGE CROSS-SECTION, H1/2026** *(added 15-Aug 13:54 — after a search returned ~90% covered ground)* | **On file in full: sector NPL 1.97% (from 1.88%), highest since 2020; total NPLs >₫310,000bn, +21.4% YTD / +9.5% QoQ, ~₫48,000bn added in H1; Group-2 1.45%; LLCR 82.9%.** The **two coverage series and their unresolved 83%-vs-80% collision** are documented (A: 95% Q2/25 → 86% Q1/26 → 83% Q2/26; B: 83% end-25 → 80% Q2/26) — *do not "resolve" it by picking one.* **Cross-section held: VCB 0.61% (lowest), ACB 1.03%, CTG 1.2%; largest NPL increases VietinBank, HDBank, Sacombank, BIDV — NONE IS A HOLDING.** ⚠ **VPB's 56.2% LLR coverage is the portfolio-relevant number and it is ALREADY ON FILE, together with the reasoning trap it invites** *(a ratio cannot be excused by the size of its own denominator)* | **Q3/2026 bank filings (~late Oct)** — or a per-bank coverage figure for **TCB, VPB or MBB specifically**, which is the only cut this row does not hold |
 | **THE FOUR PENDING SHARE-COUNT INCREASES — HEADLINE TERMS** *(added 15-Aug 13:54; this is the COVERED twin of date-gate row 49)* | ⚠ **A general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" returns THE SAME TERMS EVERY TIME and they are all on file:** TCB **60% bonus, ~4.25bn shares, charter capital >₫113,000bn**; VPB **₫79,339bn → >₫106,000bn in two tranches, tranche 2 = >624m shares to ONE FOREIGN INVESTOR**; MBB **record date 12-Aug, 15% stock dividend**. **What is genuinely missing is EX/RECORD DATES for TCB's 60% and VPB's two tranches, and `vsd.vn` is gateway-blocked** | **an ISSUER filing naming a date**, or a tranche actually executing — **not a re-run of the terms** |
 
+| **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 **Date gates — do NOT search these before their date** (per charter §6):
 
 | Item | Not before | Lane |
@@ -120,6 +121,75 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯🎯⚠⚠ 14:54 ICT SAT 15-AUG · THE FTSE QUESTION MOVES TO THE 51.5% BANK BLOCK — AND FOREIGN ROOM IS
+  FALSIFIED FOR VPB WHILE SURVIVING FOR TCB AND MBB (lanes 7, 4, 3). The most decision-relevant hour today:
+  this is 51.5% of the book, against 8.3% for the TCX/VPX thread that has run since 04:54.**
+
+  ⚠⚠ **THE HYPOTHESIS, STATED BEFORE THE EVIDENCE: Vietnamese banks carry a STATUTORY foreign-ownership cap
+  that non-banks do not, FTSE screens foreign accessibility (gate row 59 names it as one of the four criteria
+  the included names survived), and every ABSENT large name in this book is a bank while every INCLUDED name
+  is not.** *That symmetry is the reason to test it, not the reason to believe it.*
+
+  🎯 **RESULT — THE HYPOTHESIS IS FALSIFIED FOR VPB ON A DATE 20 DAYS BEFORE THE SCREEN.**
+  **VPB's foreign ownership was ~25% at 08-APR-2026 against a 49% ceiling — roughly 24pp of ROOM — and VPB
+  is ABSENT from the 23-name roster screened on 28-APR-2026 data.** ***A name with a quarter of its register
+  still open to foreigners cannot have been excluded for foreign inaccessibility.***
+  ✅ **THE 49% IS THE MANDATORY-TRANSFER CEILING under Nghị định 69/2025 — already on file, and VPB, MB and
+  HDBank are the named beneficiaries.**
+
+  ✅ **SURVIVES FOR TCB AND MBB: both are reported to have COMPLETELY EXHAUSTED their foreign room**, and TCB,
+  MBB, VIB and ACB are described as having filled **>80%** of theirs.
+  ⚠⚠⚠ **AND THE CONFIRMING LEG IS WORSE-DATED THAN THE FALSIFYING LEG, WHICH IS THE WRONG WAY ROUND.** The
+  sharpest statement on TCB is dated **14-AUG-2025 — a year old**, and the ">80%" claim carries **no date at
+  all**; the VPB figure that KILLS the hypothesis is dated **08-Apr-2026**, three weeks before the screen.
+  ***So the leg I would like to rely on is the weak one.*** *Recorded as SURVIVING, not confirmed. Room
+  status at or near 28-Apr-2026 for TCB and MBB is the named next datum.*
+
+  ⚠⚠ **THE STRUCTURE THIS FORCES: TWO MECHANISMS, NOT ONE.**
+  | name | FTSE 23 | bank cap? | foreign room | reading |
+  |---|---|---|---|---|
+  | HPG · KDH · VCI | **IN** | no | unconstrained | included |
+  | TCB · MBB | ABSENT | yes | reported exhausted | **room survives as the explanation** |
+  | **VPB** | ABSENT | yes (49%) | **~24pp free at 08-Apr-26** | **room FALSIFIED — cause unknown** |
+  | TCX · VPX | ABSENT | no | **TCX 100%, established 12:54** | **room cannot apply; TCX narrowed to LIQUIDITY** |
+  ***Non-bank status is plainly not sufficient for inclusion — TCX and VPX are non-banks with open room and
+  are absent anyway. So foreign room can at most be one of SEVERAL exclusion routes, and this book's five
+  absentees now need at least two different explanations.*** *A single tidy cause was available and does not
+  survive its own test set.*
+  ⚠ **FTSE's foreign-headroom THRESHOLD is NOT established here** — only that accessibility is among the
+  screened criteria. *The falsification does not need the threshold (24pp of room clears any plausible one);
+  the TCB/MBB leg eventually will.*
+
+  ⚠⚠ **VPB PLACEMENT — ₫6,243bn IS THE PAR/CHARTER-CAPITAL LEG, NOT THE CASH PROCEEDS, AND A SUMMARISER SAID
+  "RAISE".** **624.3m shares × ₫10,000 par = ₫6,243bn EXACTLY**, and ₫100,000bn + ₫6,243bn = the
+  **">₫106,243bn"** charter capital quoted — *the arithmetic is charter-capital arithmetic throughout.*
+  **Proceeds are NOT stated.** ⚠ *If ₫6,243bn were the cash, the placement price would be PAR — roughly a 60%
+  discount to the ~₫25,000 level this file carries for VPB — which would be the story of the year and is far
+  more likely a basis artefact.* **Refines the file's ">624m shares": the number is 624.3m.**
+  ⚠⚠ **AND TWO FOREIGN-OWNERSHIP FIGURES THAT CANNOT SHARE A BASE, LOGGED UNBLENDED.** A post-placement
+  foreign ratio of **~34%** implies a pre-placement ~29.9%, against the **~25%** reported for 08-Apr-2026 —
+  **~5pp apart.** ***The falsification is robust to the whole gap: at 25% or at 30%, VPB had ≥19pp of room
+  against 49%.*** *Same shape as the 63%/76% share-supply finding an hour ago — a conclusion that holds
+  across the full range of a disputed input is reportable, provided the dispute is reported with it.*
+
+  ⚠⚠⚠ **PROCESS — A THIRD TOPIC IN TWO HOURS COST A SEARCH ON COVERED GROUND.** Domestic construction-steel
+  prices returned the ₫14,440–15,150 range and the ₫15,120 level, **all of it on file since 01-Aug together
+  with the ex-VAT/regional basis conflict that makes the "rebar ~5% above HRC" reading reverse.** **COVERED
+  ROW ADDED.** *That is five COVERED rows added today. **The pattern is not carelessness about the block —
+  it is that steel, banks' NPLs, corporate actions and now rebar were all researched BEFORE the block
+  existed on 09-Aug, so the oldest and best-covered topics are precisely the ones missing from it.***
+  ⚠ **LANE 5 STEEL IS NOW EFFECTIVELY EXHAUSTED BY ITS OWN GATES:** HPG's offer (September), China HRC (an
+  August-dated assessment), coking coal (a Fastmarkets notice), iron ore (retired at US$98.25 by stated
+  default), Quý Xa (October), and now domestic rebar. *Stated so a future sweep does not read the silence as
+  an unsearched lane.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 4 considered explicitly (does a falsified exclusion hypothesis
+  change a held name's EVIDENCE STATUS?) and does NOT fire: nothing was established about VPB's prospects,
+  only that one candidate REASON for a known absence is dead. Trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 3 negative.**
+  [Người Quan Sát — bức tranh vốn ngoại tại 27 ngân hàng, 9,55 tỷ cp hở room](https://nguoiquansat.vn/buc-tranh-von-ngoai-tai-27-ngan-hang-9-55-ty-co-phieu-ho-room-nhung-tien-lon-chi-tap-trung-o-cua-hep-301072.html) · [DNSE — HDB, MBB, VPB và room ngoại 49%](https://www.dnse.com.vn/senses/tin-tuc/hdb-mbb-vpb-bo-ba-quyen-luc-nam-giu-chia-khoa-room-ngoai-49-va-ky-vong-dong-von-3-ty-usd-35194452) · [TBTCVN — sắp nới room ngoại lên 49%, ngân hàng nào hưởng lợi](https://thoibaotaichinhvietnam.vn/sap-noi-room-ngoai-len-49-nhung-ngan-hang-nao-se-duoc-huong-loi-172850.html) · [Vietnam.vn — VPBank chào bán riêng lẻ 624 triệu cp, sở hữu ngoại có thể lên 34%](https://www.vietnam.vn/en/vpbank-chao-ban-rieng-le-624-trieu-co-phieu-cho-doi-tac-ngoai-ty-le-so-huu-von-ngoai-co-the-len-34) · [VietnamBiz — giá thép hôm nay 6/7, Hòa Phát hạ giá HRC giao tháng 8](https://vietnambiz.vn/gia-thep-hom-nay-67-hoa-phat-ha-gia-thep-hrc-giao-thang-8-2026752250102.htm)
 
 - **✅⚠⚠ 13:54 ICT SAT 15-AUG · THE MASTERISE BOND STACK IS SIZED FOR THE FIRST TIME — ₫44,500bn IN H1/2026
   FROM SIX LINKED ENTITIES — AND IT MOVES THE TCB SENIORITY QUESTION WITHOUT ANSWERING IT (lanes 5, 6, 3).**
