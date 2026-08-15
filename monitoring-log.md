@@ -122,6 +122,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 06:54 ICT SUN 16-AUG · I RAN THE AUDIT MY OWN 05:54 RULE DEMANDED, AND THE RESULT IS NEGATIVE:
+  THERE IS NO MATERIAL CONTENT GAP BETWEEN `assumptions.json` AND THIS LOG. The 04:54 Fed-chair failure looks
+  close to ISOLATED, not systematic — which is the opposite of what I would have assumed (lanes 1, 3).**
+
+  ⚠⚠ **FIRST, A CORRECTION TO THE METHOD I PUBLISHED AN HOUR AGO. The normalised proper-noun test
+  OVER-REPORTS badly — 13 flagged phrases, ~2 real, PRECISION ~15%.** *The defect: **testing whether a PHRASE
+  is present is not testing whether the FACT is present.*** **The log routinely carries an entity under a
+  shorter name plus all of its numbers, so the long form is absent while nothing is missing.**
+  | flagged as "absent" | what the log actually holds | verdict |
+  |---|---|---|
+  | *An Lap Real Estate Development* | **`An Lập` · ₫285bn bargain gain · ₫2,553bn · 02-Mar-2026** | **false positive — fact fully on file** |
+  | *Hoa Phat Hai Duong* | `Hải Dương` | false positive |
+  | *Techcom Securities* | TCBS / TCX throughout | false positive |
+  | *Doan Nguyen* | **`Gladia inventory`, ₫3.45tn at Q1, ~₫15bn per handover** | **name-only absence; substance on file** |
+  | **Mirae Asset 2.94%** | — | **the ONE true gap** |
+
+  ✅ **THE ONE TRUE GAP IS IMMATERIAL, AND THE FILE ALREADY SAYS SO.** `assumptions.json` carries the full
+  Q2/26 HOSE brokerage table including **Mirae Asset 2.94%**; the log carries the table's summary and the
+  rows that matter (TCBS 9.36%, VPBankS 3.57% record, the 65.19% internal check). ***The COVERED block's own
+  wording is "market share is not an input to any branch."*** *A missing tenth row of a non-input table is
+  the correct thing for a summary to omit.*
+
+  🎯 **THE RESULT WORTH RECORDING IS THE NEGATIVE ONE. After the 04:54 discovery — a T1 fact held in the
+  model file and doubted in the log — the natural inference is that many more such gaps exist. I TESTED IT
+  AND THEY DO NOT.** ***One isolated failure on one entity, not a systematic divergence between the two
+  artefacts.*** *Recorded because "if one cross-file gap exists there must be dozens" is exactly the
+  plausible story a future session would adopt without checking — the same reason yesterday's 08:54
+  free-float negative was logged.*
+  ⚠ **BOUNDED HONESTLY: this tested ENGLISH multi-word proper nouns, which is where the orthography split
+  does NOT interfere.** *It does not clear numeric facts, single-word entities, or anything expressed only as
+  prose. **The claim is "no material gap found by this test", not "no gap exists" — and at ~15% precision the
+  test's power is limited even where it applies.***
+
+  ⚠ **LANE CHECK, SUNDAY MORNING: nothing material for the eight.** *No filings; the 14-Aug reviewed-statement
+  gate remains unfilled; general coverage returned VietABank's ₫9,021bn capital raise, Becamex TDC's project
+  phase and a generic "steel results improved" line — **none of them a holding, and the steel read is already
+  on file at company level for HSG and NKG.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO TRIGGER IS ENGAGED — a negative audit result bears on no holding's evidence, price or expected return.
+  Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  *No external sources are cited for the audit: every figure above is measured from
+  `research/models/assumptions.json` and `monitoring-log.md` in this repository.*
+
 - **🚨🚨⚠⚠⚠ 05:54 ICT SUN 16-AUG · I FOUND THE MECHANICAL CAUSE OF LAST HOUR'S FAILURE, AND IT IS WORSE THAN
   "CHECK EVERY FILE": THE TWO ARTEFACTS USE DIFFERENT ORTHOGRAPHIES, SO CROSS-FILE GREPS SILENTLY FAIL ON
   EVERY VIETNAMESE NAME. Zero searches — this is a repo audit prompted by the 04:54 finding.**
@@ -161,6 +205,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   tested seven names and found one wrap failure; the orthography split is systematic but affects only
   Vietnamese proper nouns, not tickers, numbers or English terms — which are most of what this file greps.
   **The defect is real, bounded, and now measured.***
+  **⚠ AND THE DETECTION METHOD ITSELF OVER-REPORTS — measured at 06:54: ~15% precision. See 06:54.**
   ⚠ **RECORDED, NOT FIXED: normalising either artefact is a bulk rewrite of a human-owned research file, far
   outside what an automated sweep should do.** *The remedy is a habit, not an edit — and the habit is now
   written down where the next sweep will read it.*
