@@ -122,6 +122,70 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠⚠ 17:54 ICT SAT 15-AUG · VPX HAS AN INDEX MEMBERSHIP THIS FILE DID NOT HOLD — ~₫181.5bn OF
+  PASSIVE, LIVE SINCE 22-JUNE — AND THE "FTSE" BASKETS TURN OUT TO BE THREE DIFFERENT THINGS (lanes 4, 3).**
+
+  🎯 **THE HOLDING FINDING FIRST. VPX WAS ADDED TO THE MARKETVECTOR VIETNAM LOCAL INDEX IN THE JUNE-2026
+  REVIEW AT A 1.21% WEIGHT**, alongside **VCK 2.44%** and **MCH 6.01%**. Tracked by the **VanEck Vietnam
+  ETF**, AUM **>₫15,000bn**. **Effective after the close FRI 19-JUN-2026, trading from MON 22-JUN-2026.**
+  ✅ **SIZE: 1.21% × ₫15,000bn = ₫181.5bn ≈ US$6.9m.** ***The file's index picture had VPX at ZERO passive
+  backing. It is not index-orphaned.***
+  ✅ **AND AN FX CHECK DISCRIMINATED BETWEEN TWO REPORTED AUMs WITHOUT A THIRD SOURCE:** one outlet says
+  **US$570m**, another **US$580m**. **₫15,000bn / 570 = ₫26,316; / 580 = ₫25,862. The file's own working
+  conversion is ~₫26,300** (used for the ₫15,120/kg → US$575/t rebar bridge). ***US$570m reconciles; US$580m
+  does not.*** *Both recorded; the ₫ basis is used for the number that matters.*
+  ⚠⚠ **TCX WAS NOT ADDED. VCK AND VPX WERE.** ***That is the FOURTH divergence between TCX and VPX today***
+  — seasoning margins (189 vs 138 days), foreign room (TCX established, VPX untested), the free-float test
+  (TCX only), and now index membership. *The grouped row "ABSENT — TCX, VPX" has been wrong to group them
+  every single time it has been tested.*
+
+  🚨 **"FTSE" IS THREE DIFFERENT BASKETS IN THIS FILE'S SOURCES, AND ONE DATUM PROVES IT.**
+  | basket | what it is | our names |
+  |---|---|---|
+  | **FTSE GEIS 23-name list** | the Secondary-EM inclusion universe, screened on 28-Apr-26 data | HPG · KDH · VCI in |
+  | **FTSE Vietnam Index** | a country index, reviewed quarterly | **a DIFFERENT membership** |
+  | MarketVector Vietnam Local | VanEck's benchmark, not FTSE at all | **VPX in, 1.21%** |
+  ⚠⚠⚠ **THE PROOF: DGC WAS REMOVED FROM THE FTSE VIETNAM INDEX ON 05-JUN-2026 AND IS PRESENT IN THE 23-NAME
+  GEIS LIST.** *One name, out of one basket and in the other, on the same provider's letterhead. **Any
+  reasoning that treats "FTSE membership" as a single fact is broken**, and I was one hour from doing exactly
+  that when I asked whether TCB/VPB/MBB were "already in the basket."*
+  ✅ **Q2/2026 FTSE VIETNAM INDEX REVIEW, 05-JUN-2026: ADDED VCK; REMOVED DIG, DGC, GAS.** *Note DIG is also
+  one of the nine cut from the 32→23 GEIS list, and DGC is not — which is what makes DGC the discriminating
+  case rather than DIG.*
+
+  ⚠⚠ **THE INDEX LIVES; THE MONEY LEFT.** The **Xtrackers FTSE Vietnam Swap UCITS ETF renamed to Xtrackers
+  Vietnam Swap UCITS ETF and switched its benchmark from the FTSE Vietnam Index to the STOXX Vietnam Total
+  Market Liquid Index in SEPTEMBER 2025.** *So FTSE Vietnam Index reviews are now index events **without
+  flow** — while Vietnamese headlines still say "rổ FTSE Vietnam ETF."* ⚠ **THE TENSION IS REPORTED, NOT
+  SMOOTHED: one source says no fund tracks the index; another describes a June-2026 review of it. Both hold
+  if FTSE MAINTAINS the index and the press keeps the retired label — that reconciliation is stated as a
+  reconciliation and is NOT independently confirmed.** *A trap worth fencing: a future sweep reading an
+  "FTSE Vietnam ETF rebalance" headline would attribute flow that may no longer exist.*
+
+  ✅ **A FINDING THAT COST NOTHING, FROM DATA ALREADY ON FILE: TCB, VPB AND MBB WERE NEVER IN THE 32-NAME
+  INDICATIVE LIST EITHER.** **32 − 9 named removals = 23, and TCB/VPB/MBB are not among the nine** (SAB, DPM,
+  HUT, DIG, EIB, DXG, PDR, FRT, KDC). ***So their exclusion PREDATES the 28-Apr screen and was already true
+  of the ~08-Apr indicative list.*** *Six hours of this thread have treated the 28-Apr screen as the event to
+  explain. It is not the event; it is the second sighting of a condition that was already there.*
+
+  ⚠ **A DOCUMENTED NULL, RECORDED AS ONE: a search shaped directly at "why are TCB/VPB/MBB absent" returns
+  the roster and NO REASON.** *The Vietnamese press names the 23 and does not explain the bank absences. At
+  press tier this is a MISS, not an unobservable — the answer exists in FTSE's methodology, and `lseg.com` is
+  egress-blocked.*
+
+  ⚠⚠ **THE FLOW ALLOCATION, STATED PLAINLY FOR THE FIRST TIME — it has been implicit for a week.** On the
+  roster as it stands, **40.2% of the book (HPG, KDH, VCI) is INSIDE the September inclusion flow (~US$1.5bn
+  total, ~US$150m in the first tranche) and 59.8% (TCB, VPB, MBB, TCX, VPX) is OUTSIDE it** — with VPX's
+  ~₫181.5bn MarketVector position a separate, smaller, and already-effective flow. ***BUY VCI +6.7pp is
+  explicitly an event bet on the inside half; SELL TCX −3.3pp sells into the session that settles the
+  outside half.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 4 tested against VPX's index membership: it is a GAP IN THE FILE
+  being closed, not a CHANGE in VPX's evidence status (the membership has been live since 22-Jun), so it does
+  NOT fire. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  [TBTCVN — MCH, VPS và VPBankS lọt rổ ETF ngoại quy mô 570 triệu USD](https://thoibaotaichinhvietnam.vn/co-phieu-masan-consumer-vps-va-vpbanks-lot-ro-danh-muc-quy-etf-ngoai-quy-mo-570-trieu-usd-193720.html) · [CafeF — một CTCK mới lên sàn lọt rổ FTSE Vietnam ETF kỳ tháng 6](https://cafef.vn/mot-cong-ty-chung-khoan-moi-len-san-vua-lot-ro-ftse-vietnam-etf-trong-ky-co-cau-thang-6-188260606012142247.chn) · [Người Quan Sát — ETF cổ phiếu Việt Nam nửa đầu 2026: áp lực rút ròng và tái phân bổ](https://nguoiquansat.vn/etf-co-phieu-viet-nam-nua-dau-nam-2026-ap-luc-rut-rong-va-cuoc-tai-phan-bo-am-tham-302468.html) · [Người Quan Sát — FTSE Vietnam Index bổ sung BSR, GAS kỳ Q1/2026](https://nguoiquansat.vn/ftse-vietnam-index-bo-sung-bsr-gas-trong-ky-ra-soat-quy-i-2026-277570.html) · [Vietstock — SHB chính thức vào rổ FTSE Global All Cap](https://vietstock.vn/2026/04/chung-khoan-viet-nam-nang-hang-shb-chinh-thuc-vao-ro-chi-so-toan-cau-ftse-global-all-cap-830-1425285.htm)
+
 - **🚨⚠⚠⚠ 16:54 ICT SAT 15-AUG · I GOT THE ACTUAL 23-NAME ROSTER — AND IT FALSIFIES THE PREMISE I BUILT THE
   LAST TWO HOURS ON. FOUR BANKS ARE IN THE LIST (lanes 4, 7, 3). Correction first.**
 
