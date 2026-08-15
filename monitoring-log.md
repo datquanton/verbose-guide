@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 04:54 ICT SAT 15-AUG · THE FTSE LISTING-HISTORY RULE — THE VARIABLE THIS FILE NAMED AND COULD NOT
+  ESTABLISH — IS REACHABLE, AND IT IS THREE MONTHS. FORECAST #7 RESOLVES IN 5 SESSIONS (lanes 4, 3).**
+  **WHY THIS VARIABLE: gate row 59 records TCX and VPX as ABSENT from the 23-name FTSE roster and says
+  verbatim that "whether their absence is INFORMATIVE now turns on FTSE's LISTING-HISTORY REQUIREMENT — NOT
+  established, NOT guessed." That single unknown decides whether Forecast #7 (TCX FTSE, EV +6.25%) is heading
+  for a hit or a miss, and it sits under the SELL TCX −3.3pp leg that is catalyst-conflicted.**
+  ✅ **THE RULE, FOUND: FTSE GEIS requires a MINIMUM OF THREE MONTHS' TRADING for IPO eligibility.** *A Fast
+  Entry route now admits eligible mega-IPOs after the fifth trading day, but that is an exception, not the
+  general path.* **Also recovered: minimum free float 5%; EM securities are EXEMPT from the >5% unrestricted
+  voting-rights test that applies to developed markets; existing constituents must turn over ≥0.04% of shares
+  in ≥8 of the 12 months before a full review.**
+  ⚠⚠ **STATUS CHANGE, AND IT MATTERS FOR THE TAXONOMY: THIS IS A MISS, NOT AN UNOBSERVABLE. `lseg.com` is
+  egress-blocked for direct fetch, but the ground rules surfaced through search and CDN mirrors
+  (`lseg.com.cn`). The file has spent a week distinguishing "cannot find" from "cannot be found" — this one
+  CAN be found, and had not been.**
+  ⚠⚠⚠ **WHAT REMAINS, AND IT IS NOW EXACTLY ONE REACHABLE FACT: TCX's ACTUAL LISTING DATE. Three months before
+  the 21-Aug list is ~21-MAY-2026. If TCX listed on or before that, seasoning cannot explain its absence — and
+  the absence becomes INFORMATIVE, pointing where the log already said the evidence points.**
+  ⚠ ***I AM NOT CLOSING IT ON INFERENCE. Gate row 59's remark that the "listed after the screen date" excuse
+  DIES at 28-Apr-2026 implies TCX was listed by then — roughly four months before the list — but the same row
+  says "NOT established, NOT guessed," and an implication is not a date. The file's own standard forbids me
+  finishing this from a hint.***
+  ⚠ **AND FORECAST #7 IS STILL NOT RE-WEIGHTED. The 07-Aug rule stands: "a pre-registration that only survives
+  when the evidence is neutral was never a pre-registration." Establishing the RULE is not the same as moving
+  the FORECAST, and I have done only the first.**
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical. NO NEW
+  TRIGGER FIRES; Forecast #7 and the FTSE list both land Fri 21-Aug, session 5.**
+  [FTSE GEIS Ground Rules (July 2026)](https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-global-equity-index-series-ground-rules.pdf) · [FTSE GEIS FAQ 2026](https://www.lseg.com/content/dam/ftse-russell/en_us/documents/policy-documents/ftse-faq-document-geis-2026.pdf) · [FTSE Russell — IPO fast-entry consultation results](https://www.lseg.com/content/dam/ftse-russell/en_us/documents/policy-documents/ftse-faq-document-ipo-fast-entry-market-consultation-results.pdf) · [ETF Stream — FTSE Russell to fast-track mega-IPO entry](https://www.etfstream.com/articles/ftse-russell-indexes-to-fast-track-entry-of-us-mega-ipos)
+
 - **✅⚠ 03:54 ICT SAT 15-AUG · MBB RIGHTS MECHANICS CONFIRMED TWO SESSIONS AHEAD OF THE CATALYST — AND THE
   TWO WINDOWS ARE NOT THE SAME LENGTH (lane 3).**
   ✅ **CONFIRMED against gate row 43, every particular: rights TRANSFERABLE 18-Aug → 26-Aug; SUBSCRIPTION AND
