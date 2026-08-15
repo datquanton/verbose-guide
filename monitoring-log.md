@@ -122,6 +122,59 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨⚠⚠⚠ 03:54 ICT SUN 16-AUG · I WITHDRAW A SENTENCE I WROTE AN HOUR AGO — AND THE PEER CUT REVERSES A
+  STANDING FRAMING: ON PROPERTY CREDIT, VPB IS NOW MORE EXPOSED THAN TCB, ON BOTH MEASURES (lanes 3, 5, 6).**
+
+  ⚠⚠⚠ **THE WITHDRAWAL FIRST. At 02:54 I wrote that TCB's property concentration was *"UP after a deliberate
+  reduction"*, comparing 31.87% (real estate **+ construction**, 30-Jun) against 26.44% (real-estate
+  **business only**, Q1). ***Those are different measures and the comparison manufactures a rise.*** **TCB's
+  REAL-ESTATE share FELL 1.92pp over H1, from 28.60% to 26.68%.** *My own measure substitution, one hour
+  old, withdrawn in place. **The combined figure was correct; the direction I read off it was not.***
+
+  ✅✅✅ **AND THE THREE NUMBERS RECONCILE TO 0.01%, WHICH IS HOW THE ERROR WAS FOUND:**
+  | | ₫bn | % of loans |
+  |---|---|---|
+  | TCB real estate (this hour) | **212,311** | **26.68%** |
+  | TCB construction (02:54) | **41,300** | **5.19%** |
+  | **sum** | **253,611** | **31.87%** |
+  | logged 02:54 as combined | **253,586** | **31.87%** |
+  ***253,586 − 212,311 = 41,275 against a construction book of 41,300 — 0.06% apart. The percentages close
+  exactly: 26.68 + 5.19 = 31.87.*** ✅ **AND MY 02:54 IMPLIED LOAN BOOK IS CONFIRMED BY AN INDEPENDENT ROUTE:
+  212,311 / 26.68% = ₫795,768bn against 253,586 / 31.87% = ₫795,689bn — 0.010% apart.** *Two derivations from
+  two sources agreeing to one part in ten thousand.*
+
+  🚨 **THE PEER CUT, 30-JUN-2026 — 12 banks, ₫1.12 QUADRILLION of property credit in total:**
+  | bank | property credit ₫bn | % of loans | move vs start-2026 |
+  |---|---|---|---|
+  | SHB | 220,379 | **34.62%** | — |
+  | BVBank | — | 30.47% | — |
+  | **VPB** | **286,682 — LARGEST** | **27.17%** | **+3.60pp** |
+  | **TCB** | 212,311 | **26.68%** | **−1.92pp** |
+  | **MBB** | 167,081 | **14.25%** | **+2.88pp** |
+  ⚠⚠⚠ ***VPB HAS OVERTAKEN TCB ON BOTH MEASURES — 1.35× the absolute book and 0.49pp more of its own loans —
+  AND THE TWO ARE MOVING IN OPPOSITE DIRECTIONS.*** **This file's standing framing treats TCB as the
+  property-concentrated bank. On this cut it is VPB**, and TCB is the only one of the three reducing.
+  ✅ **AND IT COMPOSES WITH 01:54 AND 02:54 INTO ONE COHERENT ACT: TCB is ROTATING OUT OF PROPERTY INTO
+  INFRASTRUCTURE — real estate −1.92pp while construction ran +56.3% YTD, under a stated
+  arrange-warehouse-distribute model.** *Three hours of separately-sourced findings describing one strategy.*
+  ⚠ **THE CAVEAT THAT LIMITS ALL OF IT: "tín dụng bất động sản" in these tables is real-estate BUSINESS
+  lending and generally EXCLUDES home mortgages — and TCB's model is mortgage-heavy.** *The file already
+  holds that TCB CUT home-purchase disbursement this year. **So this cut understates TCB's total
+  property-linked risk by an amount nobody here has measured**, and the VPB-overtakes-TCB conclusion is
+  stated on THIS measure, not on all property exposure.*
+
+  ⚠⚠ **A THIRD VALUE COLLISION, AND THIS ONE CROSSES BANKS: MBB's property book is ₫167,081bn and TCB's Gia
+  Bình arrangement is ~₫167,000bn — 0.05% apart, entirely unrelated.** *After ₫1,097bn (KDH profit vs the
+  CAEX injection) and 19.2% (VPX's PBT share vs VPB's asset growth) at 18:54. **Three in twenty-four hours,
+  and this is the worst kind: same order, same unit, adjacent subjects, different banks.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on the framing reversal and does NOT fire: **a peer RANKING
+  changed, not any held name's evidence status**, and TCB's own numbers moved in the direction the thesis
+  would call favourable. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3
+  negative.**
+  [VietnamNet — 1,12 triệu tỷ đổ vào bất động sản, lộ diện các ngân hàng cho vay mạnh nhất](https://vietnamnet.vn/1-12-trieu-ty-dong-do-vao-bat-dong-san-8-ngan-hang-tang-ty-trong-cho-vay-2543965.html) · [VietTimes — gần 200.000 tỷ chảy vào bất động sản trong 6 tháng](https://viettimes.vn/gan-200000-ty-chay-vao-bat-dong-san-trong-6-thang-ngan-hang-nao-bom-manh-nhat-post204453.html) · [VnBusiness — Techcombank cắt nợ, VPBank và SHB vươn lên dẫn đầu](https://vnbusiness.vn/phia-sau-bien-dong-ve-du-no-cho-vay-bat-dong-san.html) · [Dân Việt — 1,12 triệu tỷ vốn ngân hàng đang nằm trong bất động sản](https://danviet.vn/112-trieu-ty-dong-von-ngan-hang-dang-nam-trong-bat-dong-san-d1450932.html)
+
 - **✅✅🚨 02:54 ICT SUN 16-AUG · THE PEAK-WAREHOUSE QUESTION IS BOUNDED ONE HOUR AFTER I SAID IT WAS
   "DISCLOSED NOWHERE THIS FILE CAN REACH" — AND THREE FACTS THE FILE HAS CARRIED LOOSE SINCE EARLY AUGUST
   NOW HAVE ONE MECHANISM (lanes 3, 5).**
@@ -155,7 +208,9 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   ⚠⚠ **AND THE CONCENTRATION, STATED PLAINLY: REAL ESTATE + CONSTRUCTION = ₫253,586bn = 31.87% OF TOTAL LOANS
   at 30-Jun-2026 — up from a Q1 in which real-estate-business lending had been pulled DOWN to 26.44%.**
   ***Nearly a third of the loan book of the portfolio's largest position sits in property and construction,
-  and the direction over the quarter is UP after a deliberate reduction.***
+  ~~and the direction over the quarter is UP after a deliberate reduction~~***
+  **⚠⚠⚠ WITHDRAWN 03:54 — I COMPARED A COMBINED FIGURE (RE + construction) TO A SINGLE-LEG ONE (RE only)
+  AND READ A RISE THAT IS NOT THERE. TCB's REAL-ESTATE SHARE FELL 1.92pp OVER H1, 28.60% → 26.68%. See 03:54.**
   ✅ **INTERNAL CHECK: ₫253,586bn ÷ 31.87% ⇒ total loans ≈ ₫795,689bn, which against total assets of
   ₫1,273,000bn is a 62.5% loans-to-assets ratio — coherent for TCB and consistent with VPB's larger
   >₫1,180,000bn book already on file.** *Two figures from different sources that had never been divided into
