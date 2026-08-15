@@ -122,6 +122,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠✅ 20:54 ICT SAT 15-AUG · I CORRECT MY OWN 19:54 ARITHMETIC — AND THE FILE ALREADY HELD THE RIGHT
+  ANSWER, COMPUTED ON 11-AUG (lanes 3, 7, 4). No search was needed for any of this.**
+
+  ⚠⚠ **CORRECTION. The post-ex theoretical MBB price is ₫19,920, not the ₫19,802 I published an hour ago.**
+  I built it SEQUENTIALLY — apply the 15% stock dividend, then the 10:1 rights. **The file's own identity is
+  SIMULTANEOUS, and it is the correct one:**
+  **`P_cum = 1.15 × P_ex + 0.1 × (P_ex − 10,000)`  ⇒  `P_ex = (P_cum + 1,000) / 1.25`**
+  *The two events share one record date; they are not sequential repricings, and treating them as a sequence
+  double-counts the order in which value leaves the share.* **Error −0.59%.**
+
+  ✅✅ **AND THE FILE HAD IT ALREADY — line 5126, written 11-Aug: *"0.1 × (19,920 − 10,000) = ₫992 — 4.15% of
+  the cum price. The balance closes exactly: 1.15 × 19,920 + 992 = 23,900."*** ***So an hour ago I "derived"
+  ₫23,900 from the 07-Aug price-gap audit, and the file had independently derived the same ₫23,900 four days
+  earlier from a rights-value balance check. Two unrelated methods, the same number to the đồng.***
+  | route | input | ₫23,900 obtained from |
+  |---|---|---|
+  | **19:54 today** | `valuation.MBB.price` ₫22,050 and the 07-Aug measured gap −7.74% | 22,050 / (1 − 0.0774) |
+  | **11-Aug, line 5126** | the rights value ₫992 and the 1.15 identity | 1.15 × 19,920 + 992 |
+  *That is the strongest form of corroboration this file recognises — **two different regulatory/market
+  mechanisms pointing at one number**, the same standard that made VPX's 11-Dec-2025 listing date solid.*
+
+  🚨 **THE REAL FINDING: THIS FILE CONTAINS TWO POST-EX MBB PRICES, 8.0% APART, PRODUCED BY THE SAME FORMULA
+  FROM DIFFERENT INPUTS.**
+  | input price | source | P_ex | right per existing share |
+  |---|---|---|---|
+  | **₫23,900** | the MARKET, corroborated twice | **₫19,920** | **₫992** |
+  | **₫22,050** | `valuation.MBB.price`, **measured 7.74% LOW on 07-Aug** | **₫18,440** | **₫844** |
+  ⚠⚠⚠ ***THE RIGHTS LEG IS WORTH ₫992 OR ₫844 DEPENDING ON WHICH PRICE FEEDS IT — A 17.5% SPREAD ON THE ONLY
+  LEG MONETISABLE WITHOUT PUTTING UP CASH, WITH THE TRANSFER WINDOW CLOSING 26-AUG.*** *The ₫992 is the
+  correct one and the file has been carrying it correctly in the catalyst tables all along; **₫18,440 is the
+  artefact — the same formula run on the stale model input.** Both are in the file, neither cross-referenced
+  the other until now.* ⚠ **§4 HUMAN-ONLY. Escalated, not edited.**
+
+  ✅ **THE 19:54 BSC NUMBERS, RESTATED ON THE CORRECT BASE:**
+  | | 19:54 (on ₫19,802) | **corrected (on ₫19,920)** |
+  |---|---|---|
+  | upside if ₫32,400 quoted post-ex | 63.6% | **62.7%** |
+  | overstatement vs the stated 44% | 19.6pp | **18.7pp** |
+  | rebased target | ₫26,922 | **₫27,005** |
+  *The conclusion is unchanged in every respect that matters; only the magnitudes move by ~1pp. **Recorded
+  because a corrected input that leaves its derivatives untouched is precisely the failure I logged twice
+  today** — the −39.06 weekly change this morning and the ₫18,440 above.*
+
+  ✅ **A FALSE CONFLICT DEFUSED BEFORE IT WAS WRITTEN: charter capital ">₫100,687bn" (today's sources) against
+  the "₫102,687bn ceiling" on file. BOTH ARE CORRECT AND THEY ARE DIFFERENT SCOPES.**
+  **80,550 + 12,082.5 (15% dividend) + 8,055 (805.5m × ₫10,000) = ₫100,687.5bn — the two ANNOUNCED legs.
+  Plus the ≤200m placement (₫2,000bn) = ₫102,687.5bn — the CEILING.** *Reconciles to the ₫0.5bn. **A number
+  that differs by exactly one known component is a scope difference, not a contradiction**, and the test is
+  whether the gap equals a component you can name.*
+  ✅ *Confirmed and already on file: rights transfer **18–26 Aug**, subscription and payment **18-Aug → 07-Sep**,
+  ~1.21bn dividend shares, 805.5m rights shares at ₫10,000. **Rights begin trading TUE 18-AUG — session 2.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 3 re-tested on the corrected ₫19,920 and still does NOT fire: it is a
+  DERIVED post-ex figure, and `valuation.MBB.price` was already known 7.74% low on 07-Aug with the trigger
+  computed below threshold then. Trigger 5 remains FIRED (rights begin trading in 2 sessions against a
+  proposed BUY MBB +6.8pp); trigger 2 remains STANDING-BREACHED; triggers 1 and 4 negative.**
+  [TNCK — MB chốt quyền chia cổ tức 15%, chào bán gần 805,5 triệu cp giá 10.000đ](https://www.tinnhanhchungkhoan.vn/mb-chot-quyen-chia-co-tuc-15-phat-hanh-chao-ban-gan-8055-trieu-co-phieu-gia-10000-dongcp-post395281.html) · [Vietstock — MB chốt quyền, nâng vốn điều lệ lên hơn 100.600 tỷ](https://vietstock.vn/2026/08/mb-chot-quyen-chia-co-tuc-va-chao-ban-co-phieu-nang-von-dieu-le-len-hon-100600-ty-738-1476203.htm) · [TBTCVN — MB chào bán hơn 805 triệu cp để tăng vốn vượt 100.000 tỷ](https://thoibaotaichinhvietnam.vn/mb-sap-tra-co-tuc-bang-co-phieu-chao-ban-hon-805-trieu-co-phieu-de-tang-von-vuot-100000-ty-dong-200251.html) · [ACBS — MBB thực hiện quyền mua cổ phiếu phát hành cho cổ đông hiện hữu](https://acbs.com.vn/tin-tuc/chi-tiet/mbb-thuc-hien-quyen-mua-co-phieu-phat-hanh-cho-co-dong-hien-huu)
+
 - **🚨⚠⚠⚠ 19:54 ICT SAT 15-AUG · A STREET TARGET PUBLISHED ACROSS MBB'S EX-DATE IS WORTH ~20pp OF PHANTOM
   UPSIDE — AND THE FILE'S OWN WORKED POST-EX PRICE INHERITS A STALENESS IT WAS NEVER CORRECTED FOR
   (lanes 6, 3, 5).** *Second stale-derivative catch today, and this one is on a live number.*
@@ -141,8 +200,8 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
   ⚠⚠⚠ **AND THE FILE'S OWN POST-EX FIGURE HAS THE SAME DISEASE, ONE LAYER DOWN. The worked ₫18,440 was
   computed off `valuation.MBB.price` = ₫22,050 — a price the 07-Aug audit MEASURED AS 7.74% LOW.**
-  **Corrected: cum ₫22,050 / (1 − 0.0774) = ₫23,900 ⇒ post-ex theoretical ₫19,802, which is +7.4% above the
-  ₫18,440 on file.** *The staleness was measured on 07-Aug and recorded; the derivative worked from it was
+  **Corrected: cum ₫22,050 / (1 − 0.0774) = ₫23,900 ⇒ post-ex theoretical ~~₫19,802~~ **⚠ CORRECTED 20:54 → ₫19,920**, which is +8.0% above the
+  ₫18,440 on file.** *(₫19,802 used a SEQUENTIAL construction; the file's own simultaneous identity gives ₫19,920 — see 20:54.)* *The staleness was measured on 07-Aug and recorded; the derivative worked from it was
   never re-run. **Exactly this morning's −39.06 shape, on a number that feeds a proposed trade rather than a
   historical weekly change.*** ⚠ **§4 HUMAN-ONLY — ESCALATED, NOT EDITED.** *Note the two errors run in
   OPPOSITE directions: the model price is too LOW, so the worked post-ex price is too low too, while BSC's
