@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨⚠⚠⚠ 19:54 ICT SAT 15-AUG · A STREET TARGET PUBLISHED ACROSS MBB'S EX-DATE IS WORTH ~20pp OF PHANTOM
+  UPSIDE — AND THE FILE'S OWN WORKED POST-EX PRICE INHERITS A STALENESS IT WAS NEVER CORRECTED FOR
+  (lanes 6, 3, 5).** *Second stale-derivative catch today, and this one is on a live number.*
+
+  🚨 **MBB — BSC's ₫32,400 TARGET IS A CUM-BASIS NUMBER AND MBB WENT EX ON 11-AUG.** BSC: BUY, TP **₫32,400**,
+  *"upside 44%"* ⇒ **implied spot ₫22,500**. **That is unmistakably a CUM price** — the post-ex theoretical is
+  ~₫19,800, and no construction of the post-ex price is within 13% of ₫22,500.
+  | quoted against | upside |
+  |---|---|
+  | BSC's own cum basis (₫22,500) | **+44.0%** — as published |
+  | a POST-EX spot (~₫19,802) | **+63.6%** |
+  | **overstatement** | **19.6pp of upside that is a corporate action, not a view** |
+  ✅ **REBASED PROPERLY: ₫32,400 × 0.8309 = ₫26,922 post-ex equivalent.** *The adjustment factor is ~0.83 and
+  is NOT a constant — the rights are struck at a fixed ₫10,000, so f depends on the spot: 0.8317 at ₫22,050,
+  0.8309 at ₫22,500, 0.8286 at ₫23,900.* ***A target and a price must cross an ex-date together or not at
+  all***, and the file's proposed **BUY MBB +6.8pp** is the joint-largest trade in the brief.
+
+  ⚠⚠⚠ **AND THE FILE'S OWN POST-EX FIGURE HAS THE SAME DISEASE, ONE LAYER DOWN. The worked ₫18,440 was
+  computed off `valuation.MBB.price` = ₫22,050 — a price the 07-Aug audit MEASURED AS 7.74% LOW.**
+  **Corrected: cum ₫22,050 / (1 − 0.0774) = ₫23,900 ⇒ post-ex theoretical ₫19,802, which is +7.4% above the
+  ₫18,440 on file.** *The staleness was measured on 07-Aug and recorded; the derivative worked from it was
+  never re-run. **Exactly this morning's −39.06 shape, on a number that feeds a proposed trade rather than a
+  historical weekly change.*** ⚠ **§4 HUMAN-ONLY — ESCALATED, NOT EDITED.** *Note the two errors run in
+  OPPOSITE directions: the model price is too LOW, so the worked post-ex price is too low too, while BSC's
+  unadjusted target is too HIGH against a post-ex spot. They do not cancel; they widen.*
+
+  ⚠⚠ **HPG — THE SAME SSI PAIR THAT CAUSED THE 11-AUG NEAR-MISS HAS RESURFACED VERBATIM, AND A SECOND PAIR
+  NOW CONTRADICTS IT.**
+  | house | TP | stated upside | implied spot |
+  |---|---|---|---|
+  | SSI (BUY) | ₫35,000 | +30% | **₫26,923** |
+  | MBS (outperform) | ₫33,000 | +33% | **₫24,812** |
+  | BVSC | **₫32,500 → ₫33,200** | — | — |
+  ⚠⚠⚠ ***THE TWO IMPLIED SPOTS ARE 8.5% APART. THEY CANNOT BOTH DESCRIBE THE SAME STOCK ON THE SAME DAY, SO
+  AT LEAST ONE PAIR IS STALE — AND THAT IS PROVEN WITHOUT ANY EXTERNAL PRICE.*** *On 11-Aug the SSI pair
+  alone produced a drafted FALSE trigger-3 fire. **Four days later it is back, still undated, and the file's
+  hard measurement stands: HPG was ₫22,550 at 03-Aug and `valuation.HPG.price` = ₫20,800 is 7.76% low.**
+  Both implied spots sit ABOVE that hard figure — +19.4% and +10.0% — across a week in which the index fell
+  3.58% in three sessions.* **NEITHER IS USED.**
+  ✅ *BVSC's TP move ₫32,500 → ₫33,200 is new; its DRIVER — the 2026 net-margin upgrade 10.7% → 11.9% — is
+  already on file in the Quý Xa row, where it is also already flagged as unable to carry a full-year 2026
+  margin off an October restart at a 40% stake.*
+
+  ⚠ **KDH — SSI outperform, TP ₫27,300 (12-month), *"+26.4%"* ⇒ implied spot ₫21,598, against
+  `valuation.KDH.price` = ₫18,000 (+20.0%).** *Same undated-pair construction; recorded, not used. The
+  07-Aug audit measured KDH at **+1.1%**, the second-tightest gap of the eight — so the model's KDH price is
+  among the LEAST likely to be stale, which makes a 20% implied gap evidence about the PAIR, not the model.*
+
+  ⚠ **A NAVIGATION NOTE WORTH ONE LINE: I searched `research/decisions/` for `OPEN-DECISIONS.md` — the file
+  whose item 2 killed the 11-Aug false escalation — found nothing, and was one step from reporting it
+  missing. It is at `research/OPEN-DECISIONS.md`, a directory up from its sibling artefacts.** *The 11-Aug
+  rule reads "one grep there kills the whole argument at zero cost." **It is zero-cost only if you know
+  where "there" is**, and the four decision artefacts do not all live together.*
+  ✅ *Once found, it confirms the full 07-Aug tally: HPG −7.76% · MBB −7.74% · TCB −2.34% · KDH +1.1% ·
+  VPB −0.60% · VCI bracketed · TCX undated · VPX 12-Jun — gaps that share no sign and no size relationship.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  ⚠ TRIGGER 3 CONSIDERED CAREFULLY AND DOES NOT FIRE: the MBB correction is +7.4% on a POST-EX DERIVED figure,
+  not on a model input, and `valuation.MBB.price` itself was already known 7.74% low on 07-Aug with the
+  trigger computed BELOW threshold then. NO NEW TRIGGER FIRES — trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 4 negative.**
+  [TNCK — MBS khuyến nghị khả quan HPG, giá mục tiêu 33.000](https://m.tinnhanhchungkhoan.vn/bcpt/mbs-khuyen-nghi-kha-quan-danh-cho-co-phieu-hpg-4647.html) · [VOV — một số cổ phiếu cần quan tâm 5/8: HPG và MBB](http://vov.vn/thi-truong/mot-so-co-phieu-can-quan-tam-58-co-hoi-dau-tu-tiem-nang-voi-hpg-va-mbb-post1321179.vov) · [Người Quan Sát — cổ phiếu đáng chú ý: HPG, VHC, MBB](https://nguoiquansat.vn/co-phieu-dang-chu-y-ngay-6-7-hpg-vhc-mbb-302124.html) · [SSI — báo cáo công ty](https://www.ssi.com.vn/khach-hang-ca-nhan/bao-cao-cong-ty?keyword=HPG&page=1)
+
 - **⚠⚠⚠ 18:54 ICT SAT 15-AUG · THE 14-AUG REVIEWED-STATEMENT GATE OPENED YESTERDAY AND NOTHING HAS
   SURFACED — PLUS TWO VALUE COLLISIONS INSIDE THIS REPO, ONE OF THEM ON A NUMBER I QUOTED AN HOUR AGO
   (lanes 3, 1). Deliberate rotation off the index thread after seven hours.**
