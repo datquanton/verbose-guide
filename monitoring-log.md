@@ -118,6 +118,35 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅✅✅ 07:54 ICT SAT 15-AUG · VPX RESOLVED TOO — AND GATE ROW 59'S OPEN QUESTION NOW CLOSES FOR BOTH NAMES.
+  8.3% OF THE BOOK (lanes 4, 3).**
+  ✅ **VPX listed on HOSE 11-DEC-2025 (~1.9bn shares), after the largest securities IPO of 2025 — completed
+  12-Nov-2025, 375m shares at ₫33,900, raising ₫12,713bn and lifting charter capital to ₫18,750bn.**
+  | name | listed | to the 28-Apr SCREEN | vs 3-month rule |
+  |---|---|---|---|
+  | **TCX** | 21-Oct-2025 | 189 days ≈ **6.2 months** | clears by **99 days** |
+  | **VPX** | 11-Dec-2025 | 138 days ≈ **4.5 months** | clears by **48 days** |
+  ⚠⚠⚠ **SO BOTH ABSENCES FROM THE 23-NAME FTSE ROSTER ARE INFORMATIVE. Gate row 59 said this turned on the
+  listing-history requirement and left it "NOT established, NOT guessed" — IT IS NOW ESTABLISHED FOR BOTH, AND
+  NEITHER IS EXCUSED BY SEASONING. They were screened out on other grounds; which grounds is still open.**
+  ✅ **AND THE VPX DATE HAS AN INDEPENDENT CONFIRMATION FROM A DIFFERENT REGULATORY THRESHOLD: HOSE granted VPX
+  margin eligibility on 12-JUN-2026 "after satisfying the requirement of being LISTED FOR AT LEAST 6 MONTHS."
+  11-Dec-2025 + 6 months = 11-Jun-2026 — consistent to the day.** *Two unrelated rules pointing at one date is
+  worth more than a second article repeating it.*
+  ⚠⚠ **REFUSING TO LET VPX RIDE ON TCX LAST HOUR WAS RIGHT IN METHOD EVEN THOUGH THE ANSWER MATCHED: VPX
+  clears by 48 days against TCX's 99 — LESS THAN HALF THE MARGIN. Had VPX listed six weeks later it would have
+  failed while TCX passed, and the grouped row "ABSENT — TCX, VPX" would have carried one true and one false
+  conclusion.**
+  ⚠ **PORTFOLIO REACH: this is 8.3% of the book, and the two proposed trades point OPPOSITE ways — SELL TCX
+  −3.3pp and BUY VPX +5.6pp. Both now rest on an absence established as informative rather than technical.**
+  *Which screening criterion excluded them — liquidity, free float, size, foreign accessibility — remains
+  unestablished and is the natural next question.*
+  ✅ *Structural detail worth keeping: `Nghị định 245/2025/NĐ-CP` cut the listing procedure to under 30 days
+  after IPO, from 3–6 months previously. That is why a Nov-2025 IPO was trading by 11-Dec.*
+  **NOTHING MODELLED. No input changed. No confidence moved. Forecast #7 STILL NOT RE-WEIGHTED — it resolves
+  Fri 21-Aug. `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES.**
+  [Chính phủ — VPBankS lên sàn HoSE sau thương vụ IPO lớn nhất ngành chứng khoán](https://baochinhphu.vn/vpbanks-len-san-hose-sau-thuong-vu-ipo-lon-nhat-nganh-chung-khoan-102251205162950945.htm) · [VietnamBiz — cổ phiếu VPX được giao dịch ký quỹ](https://vietnambiz.vn/co-phieu-vpx-cua-chung-khoan-vpbank-duoc-giao-dich-ky-quy-202661222371489.htm) · [DNSE — VPX đủ điều kiện margin sau nửa năm lên sàn](https://www.dnse.com.vn/senses/tin-tuc/co-phieu-vpx-cua-chung-khoan-vpbank-duoc-giao-dich-ky-quy-35236203)
+
 - **✅✅⚠⚠ 06:54 ICT SAT 15-AUG · RESOLVED: TCX LISTED 21-OCT-2025, SO SEASONING CANNOT EXPLAIN ITS ABSENCE
   FROM THE FTSE ROSTER. A QUESTION GATE ROW 59 EXPLICITLY LEFT OPEN IS NOW CLOSED — FIVE SESSIONS BEFORE
   FORECAST #7 RESOLVES (lanes 4, 3).**
