@@ -122,6 +122,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠⚠ 05:54 ICT SUN 16-AUG · I FOUND THE MECHANICAL CAUSE OF LAST HOUR'S FAILURE, AND IT IS WORSE THAN
+  "CHECK EVERY FILE": THE TWO ARTEFACTS USE DIFFERENT ORTHOGRAPHIES, SO CROSS-FILE GREPS SILENTLY FAIL ON
+  EVERY VIETNAMESE NAME. Zero searches — this is a repo audit prompted by the 04:54 finding.**
+
+  🚨 **MEASURED, NOT ASSERTED:**
+  | file | diacritic marks | length | per 100k chars |
+  |---|---|---|---|
+  | **`assumptions.json`** | **3** | 1,006,102 | **0** |
+  | **`monitoring-log.md`** | **3,107** | 1,383,985 | **224** |
+  ***`assumptions.json` is effectively ASCII-only. The log is fully accented. The split is near-total*** —
+  three marks in a million characters is not a convention, it is the absence of one.
+
+  ⚠⚠⚠ **WHAT THAT DOES, VERIFIED NAME BY NAME:**
+  | name | log (accented) | `assumptions.json` (ASCII) | a grep in EITHER form finds |
+  |---|---|---|---|
+  | `Lý Tuấn Kiệt` | ✅ | ✅ as *Tuan Kiet* | **one file only** |
+  | `Rạch Chiếc` | ✅ | ✅ as *Rach Chiec* | **one file only** |
+  | `Phạm Nhật Vượng` | ✅ | ✅ as *Pham Nhat Vuong* | **one file only** |
+  | `Bình Trưng Mới` | ✅ | **both forms** | both — the lone exception |
+  ***THIS IS THE MECHANICAL CAUSE OF THE 04:54 FAILURE.*** *An hour ago I concluded that "check the file
+  before spending a search" only works if "the file" means every file. **That was the right lesson and it is
+  unactionable as stated.** This is actionable: **when grepping across these two artefacts for a Vietnamese
+  proper noun, search BOTH forms, or normalise before comparing.*** ⚠ **And the file's own 11-Aug rule —
+  *"grep the concept, not the digits"* — DOES NOT HELP HERE, because the concept IS the name and the name is
+  spelled two ways.**
+
+  🚨 **A SECOND, INDEPENDENT GREP-DEFEATING MECHANISM, FOUND IN THE SAME AUDIT: LINE WRAPPING INSIDE PROPER
+  NOUNS.** ***`Ngô Chí Dũng` returns ZERO hits in this log — and he is in it, in an entry I wrote yesterday
+  at 16:54*** (line 815: *"Chairman **Ngô Chí** / **Dũng** and related parties hold 33.648%"*). **The name
+  falls across the wrap.** *Of seven names tested, exactly one is findable only after whitespace
+  normalisation — and it happens to be the chairman of a holding, in a finding that reversed a hypothesis.*
+  ⚠⚠ **The two mechanisms are independent and they compose: an ASCII/accented mismatch defeats CROSS-file
+  greps; a wrap defeats WITHIN-file greps.** *Both are silent. Both return "0 hits", which this file has
+  repeatedly and correctly treated as evidence of absence — **and on these entities it is not.***
+
+  ⚠ **WHAT THIS DOES NOT LICENSE: it is not a reason to distrust every past zero-hit result.** *The audit
+  tested seven names and found one wrap failure; the orthography split is systematic but affects only
+  Vietnamese proper nouns, not tickers, numbers or English terms — which are most of what this file greps.
+  **The defect is real, bounded, and now measured.***
+  ⚠ **RECORDED, NOT FIXED: normalising either artefact is a bulk rewrite of a human-owned research file, far
+  outside what an automated sweep should do.** *The remedy is a habit, not an edit — and the habit is now
+  written down where the next sweep will read it.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO TRIGGER IS ENGAGED — this is a repository-hygiene finding with no bearing on any holding's evidence,
+  price or expected return. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4
+  negative.**
+  *No external sources this hour: every figure above is measured from `research/models/assumptions.json` and
+  `monitoring-log.md` in this repository.*
+
 - **🚨⚠⚠⚠ 04:54 ICT SUN 16-AUG · THE REPO CONTRADICTED ITSELF ABOUT WHO CHAIRS THE FED — AND THE CAUTIOUS
   FILE WAS THE WRONG ONE. Plus three dated Fed events this log did not hold, one of which lands FIVE DAYS
   BEFORE THE FTSE EFFECTIVE DATE (lane 1).**
