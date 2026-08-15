@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠⚠ 00:54 ICT SUN 16-AUG · GIA BÌNH IS QUANTIFIED AT LAST — TCB ~₫167,000bn ACROSS TWO PHASES, AND
+  MASTERISE OWNS 80% OF THE PROJECT (lanes 3, 5). The TCB dossier has flagged this as UNQUANTIFIED since it
+  was written; it is the largest single item attached to the book's largest position.**
+
+  🚨 **THE NUMBERS, ALL NEW — zero prior hits for `167,000` or `Gelex`:**
+  | | |
+  |---|---|
+  | project total | **₫196,378bn** *(on file)* — sources this hour say ~₫200,000bn |
+  | **TCB credit, two phases** | **~₫167,000bn — NEW** |
+  | **sponsor equity** | **Masterise Group 80% · Gelex Infrastructure 20% — NEW** |
+  | TCB's share of project cost | **85.0%** |
+  | **as a share of TCB's ENTIRE balance sheet** | **13.1%** *(₫1,273,000bn total assets at 30-Jun, established 18:54)* |
+  | timeline | construction complete **end-2026**, trial operation **Feb-2027** |
+  ⚠ *Separately: a ~₫40,000bn airport-city urban project is being developed by a company less than a year old.*
+
+  ⚠⚠⚠ **THE INSTRUMENT IS NOT ESTABLISHED, AND THE ARITHMETIC PROVES IT CANNOT BE PLAIN FUNDED LENDING.**
+  ***₫167,000bn is 13.1% of TCB's whole balance sheet committed to ONE project.*** **No prudential regime
+  permits a single-project funded exposure at that scale**, so the figure must be an **arranging or
+  syndication role**, a **multi-year phased commitment across many borrowers**, or a **project-cost figure
+  attached to TCB's name** — three very different things with three very different loss profiles.
+  ***The number is real and its instrument is unknown. Recorded as an unresolved INSTRUMENT question, which
+  is the single most consequential open item now attached to a 35% position.*** *This is the family the file
+  catalogues, at the largest scale it has ever appeared here: a headline invites reading "provides ₫167,000bn
+  of credit" as balance-sheet exposure, and that reading is arithmetically impossible.*
+
+  ⚠⚠ **WHAT IT DOES TO THE RELATED-PARTY PICTURE, WITHOUT OVERSTATING IT.** The armed kill criterion is
+  *"developer/related-party NPL formation above 2.0%, or a Masterise bond event."* **Masterise at 80% of a
+  ₫196,378bn project financed ~85% by TCB is a concentration of a different order from the ₫44,500bn of H1
+  bond issuance logged at 13:54** — and the file's own 22.7% ratio (H1 raise ÷ project cost) was computed
+  against this same project **before anyone knew TCB's share of it.**
+  ⚠ **NOT A TRIGGER. The criterion needs an EVENT and there is none** — a large commitment to a project on
+  schedule for Feb-2027 trial operation is exposure, not impairment. *The same discipline applied at 13:54:
+  a bigger stack is a bigger exposure, not a fired criterion.*
+  ⚠ **AND THE 85% LOAN-TO-COST IS DERIVED, NOT REPORTED**: it assumes ₫167,000bn is debt against a ₫196,378bn
+  cost. *If the ₫167,000bn is an arranged total rather than TCB's own book, the ratio describes the PROJECT's
+  gearing and not TCB's exposure at all — which is the same instrument question one paragraph up, and it
+  changes what the number means without changing its size.*
+
+  ✅ **DEPTH-QUEUE ITEM 1 ADVANCED — this is its named open sub-item.** The TCB dossier (`wip`) lists *"Open:
+  AR loan-book note, Gia Binh sizing, insider txns, 5yr×8q table"*; **Gia Binh sizing is now answered to the
+  extent press tier allows, with the instrument gap stated.**
+  ⚠⚠ **AND THE QUEUE'S OWN SUMMARY LINE IS WRONG: it reads *"Every item is `done` or `blocked`. Nothing
+  remains for an automated run to advance."* ITEM 1 IS `wip` WITH FOUR NAMED OPEN SUB-ITEMS.** *A queue that
+  tells an automated run there is nothing to do is worse than an empty queue — **it is the reason fifteen
+  sweeps today wrote to the log instead of advancing the backlog**, and the backlog's top item is the 35%
+  position the queue itself calls "the least documented, which is exactly backwards."*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — and deliberately: `confidence` measures the
+  quality of the EARNINGS evidence, which is a filed Q2 and is untouched. What changed is the size of a
+  governance exposure. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 1 tested explicitly against TCB's criterion and does NOT fire (no event);
+  trigger 4 considered and does NOT fire (a quantified exposure is new INFORMATION, and the evidence STATUS
+  of TCB's earnings is unchanged). Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; trigger 3
+  negative.**
+  [Người Quan Sát — TCB tiết lộ tham vọng ở các dự án sân bay quốc tế](https://nguoiquansat.vn/techcombank-tcb-tiet-lo-tham-vong-o-cac-du-an-san-bay-quoc-te-tu-tin-voi-hai-kich-ban-loi-nhuan-nam-2026-298106.html) · [TheLEADER — những ông lớn tư nhân sau siêu dự án sân bay Gia Bình 196.000 tỷ](https://theleader.vn/nhung-ong-lon-tu-nhan-dang-sau-sieu-du-an-san-bay-gia-binh-d45133.html) · [Znews — Techcombank hỗ trợ giải phóng mặt bằng dự án sân bay Gia Bình](https://znews.vn/techcombank-ho-tro-giai-phong-mat-bang-du-an-san-bay-gia-binh-post1574068.html) · [Vietstock — doanh nghiệp chưa đầy một năm tuổi làm khu đô thị sân bay Gia Bình gần 40.000 tỷ](https://vietstock.vn/2026/07/doanh-nghiep-chua-day-mot-nam-tuoi-lam-khu-do-thi-san-bay-gia-binh-gan-40000-ty-4222-1466417.htm)
+
 - **⚠⚠✅ 23:54 ICT SAT 15-AUG · A FLOW NUMBER 3.3–5.3× LARGER THAN THE FILE'S IS CIRCULATING FOR THE SAME
   EVENT — AND IT IS A DIFFERENT MEASURE, NOT A CORRECTION (lanes 4, 6). Last sweep of the day; short.**
 
