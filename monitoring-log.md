@@ -118,6 +118,32 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠ 08:54 ICT SAT 15-AUG · MY FREE-FLOAT HYPOTHESIS IS WEAKENED, NOT CONFIRMED — A NEGATIVE RESULT ON THE
+  QUESTION I NAMED AN HOUR AGO (lanes 4, 3). Short entry.**
+  **THE HYPOTHESIS: having established that seasoning cannot excuse TCX's or VPX's absence from the FTSE
+  roster, I proposed FREE FLOAT as the likely screening failure — both are bank subsidiaries, and FTSE GEIS
+  sets a 5% minimum. It was the obvious answer, which is why it needed testing.**
+  ⚠⚠ **THE DATUM: TECHCOMBANK HOLDS 79.8% OF TCBS. That implies ~20.2% outside the parent, against a 5%
+  minimum — so a free-float failure would need MORE THAN 15.2pp of ADDITIONAL restricted holdings beyond the
+  parent stake. POSSIBLE, BUT UNLIKELY. THE HYPOTHESIS IS WEAKENED, NOT DISPROVEN, AND IT IS NOT THE ANSWER I
+  EXPECTED.**
+  ⚠ **VPX: no ownership figure returned. UNTESTED — and I am not carrying TCX's result across, for the same
+  reason the seasoning check had to be run separately.**
+  **WHERE THE FOUR CRITERIA NOW STAND** *(row 59's own list: liquidity, free float, market cap, foreign
+  accessibility)*:
+  | criterion | TCX | VPX |
+  |---|---|---|
+  | free float | **unlikely** — parent at 79.8% | untested |
+  | market cap | **implausible** — ~₫108,000bn (~US$4.2bn) at listing | untested |
+  | liquidity | **untested** — plausible for a recent listing | untested |
+  | foreign accessibility | **untested** — TCB's own room is locked/exhausted, TCX's is unknown | untested |
+  ⚠⚠ **RECORDING A NEGATIVE RESULT BECAUSE IT IS THE ONE THAT WOULD OTHERWISE BE ASSUMED. "Bank subsidiary,
+  therefore thin float" is exactly the plausible story a future session would adopt without checking — and the
+  parent stake says otherwise. Liquidity and foreign accessibility are now the live candidates, and neither is
+  established.**
+  **NOTHING MODELLED. No input changed. Forecast #7 STILL NOT RE-WEIGHTED — resolves Fri 21-Aug.
+  `DECISION-BRIEF.md` byte-identical. NO NEW TRIGGER FIRES.**
+
 - **✅✅✅ 07:54 ICT SAT 15-AUG · VPX RESOLVED TOO — AND GATE ROW 59'S OPEN QUESTION NOW CLOSES FOR BOTH NAMES.
   8.3% OF THE BOOK (lanes 4, 3).**
   ✅ **VPX listed on HOSE 11-DEC-2025 (~1.9bn shares), after the largest securities IPO of 2025 — completed
