@@ -60,7 +60,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | KDH insider buy — ~~**TWO separate disclosures, not one**~~ **⚠⚠ CORRECTED 11-Aug 19:54 — THERE IS ONLY ONE, AND (a) WAS A PHANTOM** | ~~**(a)** crossing **1% ownership** triggers a major-shareholder filing on its own timetable — he goes 0.056% → 1.838%, so this fires FIRST and is the early signal~~ **⚠⚠ (a) IS DELETED. THE 1%-THRESHOLD OBLIGATION APPLIES ONLY TO HOLDERS ALREADY AT ≥5%** — it is a **step-size rule for existing major shareholders, not an entry threshold.** Statute: *"cổ đông lớn ... **sở hữu từ 5% trở lên** ... khi có thay đổi ... **qua các ngưỡng 1%** ... phải công bố thông tin ... trong **05 ngày làm việc**."* **Lý Tuấn Kiệt goes 0.056% → 1.838% and NEVER REACHES 5%, so no 1% filing will ever fire.** The file was waiting on an "early signal" that does not exist, and the 05-Aug arithmetic (*"the 1% crossing needs 53.0% completion"*) computed the completion rate for **an event with no reporting obligation attached.** **(b) IS NOW THE WHOLE SIGNAL:** he is a **người nội bộ** (Phó Tổng Giám đốc) *and* a **người có liên quan** (son of the Vice Chairman), so Thông tư 96/2020 before/after reporting applies — the "before" was the 20-Jul registration, the "after" is the **completion report following the window's close on 21-Aug.** ⚠ **The de-minimis test is ≥₫50m/day or ≥₫200m/month `TÍNH THEO MỆNH GIÁ` — AT PAR, NOT MARKET;** 20m shares × ₫10,000 par = ₫200bn, far above, so it binds regardless of price. **RE-OPEN: 21-Aug window close — and NOTHING before it.** T2: multiple broker compliance pages (SSI, ASEAN, VIX, PSI) concur; the primary (Luật Chứng khoán 2019 Điều 31 / TT96/2020) was **not** read directly | 7 |
 | **⚠ HPG — QUÝ XA IRON-ORE MINE RESTART** *(added 11-Aug 21:54; `Quý Xa` had ZERO hits repo-wide until today)* | **Expected from OCTOBER 2026** per Lào Cai provincial leadership — **not a company disclosure.** Lào Cai; designed mineable reserve **>73.2m t** (in-situ resource *">120m t"* is a **different measure** — both recorded with bases attached); capacity **5m t ore/yr**; life **~15y 8m**. ⚠⚠ **HPG HOLDS 40%, NOT 100% — Chairman Trần Đình Long holds 10% PERSONALLY, Trần Đăng Khoa 25%; founding structure, may have moved, and a separate 99% takeover of the mine's OPERATING unit is a DIFFERENT corporate layer. Current cap table NOT established.** **Bears on the bridge's ore leg (₫0.34m per US$10/t) and on the kill criterion (core NPAT/tonne < ₫1.25m), but NOT quantifiable here:** stake is 40%, **ore GRADE vs the 62% Fe benchmark unknown**, and HPG's total ore consumption is absent from this file — no denominator. ⚠ **BVSC cited it as a driver of its 2026 margin upgrade (10.7% → 11.9%); an October restart at a minority stake cannot carry a FULL-YEAR 2026 margin. It is a 2027+ item.** **RE-OPEN ON: an HPG disclosure naming Quý Xa, or Oct-2026 — not a general re-search.** | 3, 5 |
 | CAEX licence decision | Q3 window — check weekly, not hourly | 3 |
-| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche.** | **⚠ CORRECTED 08-Aug 06:53 — the "28-name list built on 31-Dec-2024 data" was WRONG on both counts.** FTSE published an **indicative 32** on ~08-Apr-2026 and then **CUT it to 23 on 28-Apr-2026 data** (removed: SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC; 32 − 9 = 23 checks). Of this book: **IN — HPG, KDH, VCI (40.2%), and they survived a screen on liquidity, free float, market cap and foreign accessibility, which is stronger than the indicative list they were previously "in" on. ABSENT — TCB, VPB, MBB (51.5%), now against a FOUR-month-old screen, not a twenty-month-old one. ABSENT — TCX, VPX (8.3%); the old excuse "listed after the screen date" DIES at 28-Apr-2026, and whether their absence is informative now turns on FTSE's LISTING-HISTORY requirement — NOT established, NOT guessed.** T4: four Vietnamese outlets, no primary reachable (six hosts egress-blocked incl. lseg.com). **This document settles TCX's and VPX's membership and lands before 21-Sep.** ✅✅ **THE FULL 23-NAME ROSTER, ON FILE 15-Aug 16:54 (it counts to exactly 23): VIC, HPG, VHM, FPT, MSN, SSI, VNM, STB, VCB, VJC, VRE, VIX, NVL, VCI, SHB, GEX, VND, KBC, KDH, BID, DGC, BSR, GEE.** ⚠⚠⚠ **IT CONTAINS FOUR BANKS (STB, VCB, SHB, BID) AND FOUR SECURITIES FIRMS (SSI, VIX, VND, VCI) — SO NEITHER "BANK" NOR "BROKER" IS DISQUALIFYING, AND THE 14:54 CLAIM THAT "EVERY INCLUDED NAME IS A NON-BANK" WAS AN ARTEFACT OF READING AN 8-NAME BOOK AS THE POPULATION. CORRECTED 16:54.** *NVL — a distressed developer — is also IN, which says the screen is mechanical rather than quality-based.* | 4 |
+| **⚠⚠ FTSE OFFICIAL CONSTITUENT LIST — DATED 21-AUG-2026, effective 21-SEP. 11 sessions. Phased 10/20/35/35; ~US$1.5bn total passive, ~US$150m in the September tranche. ⚠⚠⚠ **DO NOT OVERWRITE THESE WITH THE "US$5–8bn" FIGURE THAT CIRCULATES IN VIETNAMESE PREVIEWS (first seen 15-Aug 23:54, zero prior hits): that is TOTAL foreign capital including ACTIVE money over a "medium-to-long term" horizon, 3.3–5.3× the passive number, and it is a DIFFERENT MEASURE — not a correction.** | **⚠ CORRECTED 08-Aug 06:53 — the "28-name list built on 31-Dec-2024 data" was WRONG on both counts.** FTSE published an **indicative 32** on ~08-Apr-2026 and then **CUT it to 23 on 28-Apr-2026 data** (removed: SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC; 32 − 9 = 23 checks). Of this book: **IN — HPG, KDH, VCI (40.2%), and they survived a screen on liquidity, free float, market cap and foreign accessibility, which is stronger than the indicative list they were previously "in" on. ABSENT — TCB, VPB, MBB (51.5%), now against a FOUR-month-old screen, not a twenty-month-old one. ABSENT — TCX, VPX (8.3%); the old excuse "listed after the screen date" DIES at 28-Apr-2026, and whether their absence is informative now turns on FTSE's LISTING-HISTORY requirement — NOT established, NOT guessed.** T4: four Vietnamese outlets, no primary reachable (six hosts egress-blocked incl. lseg.com). **This document settles TCX's and VPX's membership and lands before 21-Sep.** ✅✅ **THE FULL 23-NAME ROSTER, ON FILE 15-Aug 16:54 (it counts to exactly 23): VIC, HPG, VHM, FPT, MSN, SSI, VNM, STB, VCB, VJC, VRE, VIX, NVL, VCI, SHB, GEX, VND, KBC, KDH, BID, DGC, BSR, GEE.** ⚠⚠⚠ **IT CONTAINS FOUR BANKS (STB, VCB, SHB, BID) AND FOUR SECURITIES FIRMS (SSI, VIX, VND, VCI) — SO NEITHER "BANK" NOR "BROKER" IS DISQUALIFYING, AND THE 14:54 CLAIM THAT "EVERY INCLUDED NAME IS A NON-BANK" WAS AN ARTEFACT OF READING AN 8-NAME BOOK AS THE POPULATION. CORRECTED 16:54.** *NVL — a distressed developer — is also IN, which says the screen is mechanical rather than quality-based.* | 4 |
 | FTSE Secondary Emerging effective | 2026-09-21 — **10% first tranche only** (then 20% Mar-27, 35% Jun-27, 35% Sep-27); **Frontier deletion is a SINGLE tranche on the same date** | 4 |
 | **MSCI — Vietnam NOT on the upgrade watchlist** | **Decided 24-Jun-2026; remains FRONTIER.** Next chance: **2027 Annual Review.** On MSCI's standard sequence (watchlist → ≥1yr → announcement → ~1yr → implementation) **EM inclusion is not a 2026 or 2027 event** | 4 |
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
@@ -121,6 +121,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **⚠⚠✅ 23:54 ICT SAT 15-AUG · A FLOW NUMBER 3.3–5.3× LARGER THAN THE FILE'S IS CIRCULATING FOR THE SAME
+  EVENT — AND IT IS A DIFFERENT MEASURE, NOT A CORRECTION (lanes 4, 6). Last sweep of the day; short.**
+
+  ⚠⚠⚠ **THE NUMBER: Vietnamese week-ahead previews say the 21-Sep FTSE upgrade *"is expected to attract an
+  additional US$5–8bn in foreign capital in the medium and long term."* ZERO prior hits in this file.**
+  **The file carries ~US$1.5bn TOTAL PASSIVE with ~US$150m in the September tranche.**
+  | figure | what it measures | horizon |
+  |---|---|---|
+  | **~US$1.5bn** | **index-tracking PASSIVE inflow** | the phased 10/20/35/35 schedule |
+  | **~US$150m** | the **September tranche only** | 21-Sep |
+  | **US$5–8bn** | **TOTAL foreign capital, ACTIVE INCLUDED** | *"medium and long term"* — undefined |
+  ⚠⚠ ***3.3× to 5.3× the passive figure, and a future sweep meeting it in isolation would read it as a
+  correction and overwrite ~US$1.5bn.*** **A FENCE HAS BEEN WRITTEN INTO GATE ROW 63 SAYING SO.** *Both can
+  be true simultaneously: passive money is mechanical and dated, active money is discretionary and
+  undated — **and only the passive leg is a CATALYST.*** ***This matters directly: BUY VCI +6.7pp is
+  described in the brief as "an EVENT bet" on the September inclusion, and the event is the ~US$150m
+  tranche, not the ₫5–8bn narrative.***
+
+  ✅ **A SMALL INTERNAL OBSERVATION WORTH ONE LINE: the recovery-confirmation band quoted for next week is
+  1,760–1,780, and the 07-Aug close of 1,768.06 sits INSIDE it.** *From Friday's 1,729.08 that is **+1.79%
+  to +2.94%** — i.e. **"confirmation" is defined as recovering exactly the level the index held eight
+  sessions ago.** Recorded as arithmetic, not as a view; the file does not trade technicals and this is T5.*
+
+  ⚠ **LANE 3 AND LANE 2 CHECKED AND EMPTY, AS EXPECTED FOR A SATURDAY NIGHT: no filings, no Commerce or ITC
+  action possible on a US Saturday, and the 14-Aug reviewed-statement gate remains unfilled for all eight.**
+  *Also noted without promotion: VN30 fell a second consecutive session on 14-Aug on the same technicals as
+  VN-Index. **TCX has been a VN30 constituent since 03-Aug**, so VN30 commentary now touches this book — a
+  connection that did not exist twelve days ago and is recorded so it is not missed later.*
+
+  ⚠⚠ **WHAT MONDAY OPENS INTO, ASSEMBLED FROM DATED ITEMS ALREADY ON FILE — SYNTHESIS, NOT DISCOVERY:**
+  | session | date | dated item |
+  |---|---|---|
+  | 1 | **Mon 17-Aug** | market reopens; **US advance retail sales (14-Aug, 19:30 ICT)** is the first print VN can react to |
+  | **2** | **Tue 18-Aug** | ***MBB RIGHTS BEGIN TRADING*** — transfer window 18→26 Aug, subscription to 07-Sep |
+  | 3 | Wed 19-Aug | — |
+  | 4 | Thu 20-Aug | — |
+  | **5** | **Fri 21-Aug** | ***FTSE constituent list · KDH insider-buy window CLOSES · Forecast #7 resolves*** |
+  ***Trigger 5 remains FIRED across all five.*** *The brief's sequencing rule — "trims before adds… and
+  nothing that fights a dated catalyst inside 5 sessions" — collides with **BUY MBB +6.8pp** at session 2
+  and with **SELL TCX −3.3pp** and **BUY VCI +6.7pp** at session 5.* **This system recommends; a human
+  signs.**
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — the US$5–8bn figure is explicitly NOT treated as a change to the flow input, so
+  trigger 3 is not engaged. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 4
+  negative.**
+  [Vietstock — chứng khoán phái sinh tuần 17–21/08/2026: rủi ro ngắn hạn gia tăng](https://vietstock.vn/2026/08/chung-khoan-phai-sinh-tuan-17-21082026-rui-ro-ngan-han-gia-tang-1636-1480784.htm) · [Investing.vn — bản tin tuần 17–21/08/2026](https://vn.investing.com/news/stock-market-news/chung-khoan-phai-sinh-tuan-1721082026-rui-ro-ngan-han-gia-tang-2692355)
 
 - **✅✅⚠⚠ 22:54 ICT SAT 15-AUG · THE SYSTEM-CREDIT SERIES NOW HAS A BASE — ₫18,592,000bn AT END-2025, AND
   THE FILE'S TWO PRINTS BACK-SOLVE TO IT TO 0.00% (lanes 1, 5). That base then KILLS a stale figure served
