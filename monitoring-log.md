@@ -122,6 +122,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅✅⚠⚠ 22:54 ICT SAT 15-AUG · THE SYSTEM-CREDIT SERIES NOW HAS A BASE — ₫18,592,000bn AT END-2025, AND
+  THE FILE'S TWO PRINTS BACK-SOLVE TO IT TO 0.00% (lanes 1, 5). That base then KILLS a stale figure served
+  as current this hour.**
+
+  ✅✅ **THE ANCHOR THIS FILE HAS NEVER HELD: EVERY CREDIT PRINT IT CARRIES IS A YTD PERCENTAGE PLUS A LEVEL,
+  AND THE BASE THEY IMPLY WAS NEVER COMPUTED.**
+  | print | level | YTD | back-solved end-2025 base |
+  |---|---|---|---|
+  | 26-Jun-2026 | ₫19,970,000bn | +7.41% | **₫18,592,310bn** |
+  | 29-Jul-2026 | ₫20,150,000bn | +8.38% | **₫18,591,991bn** |
+  | | | **agreement** | **0.002% — ₫319bn on ₫18.6 QUADRILLION** |
+  ⚠⚠ ***THE TWO PRINTS CAME FROM DIFFERENT RELEASES — the 26-Jun figure from an SBV report, the 29-Jul from a
+  government press conference on 03-Aug — and neither had ever been checked against the other.*** **They
+  agree to two thousandths of one percent.** *That validates BOTH, and it is the strongest internal check
+  available on this series: a shared base is a constraint two independent measurements must satisfy and
+  cannot satisfy by accident.* **USE: every future YTD percentage is now convertible to a level without
+  waiting for one to be quoted.**
+
+  ⚠⚠⚠ **AND THE BASE IMMEDIATELY EARNS ITS KEEP. A source this hour states *"in the first half of 2026,
+  outstanding credit exceeded ₫18.2 QUADRILLION, up 16.56% from the END OF 2024."*** ***₫18.2 quadrillion is
+  BELOW the ₫18.592 quadrillion end-2025 base, and credit does not shrink — so it cannot be an H1-2026 figure
+  at any date.*** **It is a LATE-2025 datum wearing an H1-2026 label**, and the *"from the end of 2024"*
+  base in the same sentence is the corroborating tell. **REJECTED.**
+  *Back-solving it: end-2024 ≈ ₫15,614,000bn, implying full-2025 growth of ~19.1% — high, coherent for
+  Vietnam, and unmistakably not 2026.* ⚠ **Sixth date substitution caught this week, and the FIRST one this
+  file could refute by ARITHMETIC ALONE rather than by holding the competing figure.** *The previous five all
+  needed a verified prior number in hand; this one needed only a base and a monotonicity argument.*
+
+  ⚠ **AN OPEN GATE WITH NO MOVEMENT IN TWELVE DAYS, RECORDED AS SUCH: the ₫220,000bn package's SBV guidelines
+  were "in the coming days" from 03-Aug and are still described as being FINALISED.** *Row 69's gate has been
+  LIVE NOW for twelve days without resolving. **An open gate that never resolves is indistinguishable from a
+  forgotten one unless somebody writes down that it was checked and did not move.***
+  ✅ **AND THE ROW GAINS ITS TARGET, WHICH IT DID NOT HAVE: the file held the CHANNEL ("registered by the four
+  state-owned banks") and this hour adds the BENEFICIARY — SMEs in priority sectors, ~US$8.4bn.**
+  *Complementary, not conflicting: one names who lends, the other who borrows. **The file's own note that the
+  four banks "are not ours" is a statement about the channel and says nothing about whether our three banks
+  compete for the same borrowers.***
+
+  ⚠ **EVERYTHING ELSE THIS HOUR WAS COVERED: the ~15% system credit-growth target (on file since 08-Aug), the
+  ₫220,000bn size, the four-bank channel, and SBV's "flexible and supportive" rate stance.** *Lane 2 is a US
+  Saturday — no Commerce or ITC action is possible. Lane 3: no filings; the reviewed-statement gate opened
+  14-Aug and remains unfilled.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — the credit base is a derived ANCHOR, not a model input, and it moves no name's
+  expected return. Trigger 5 remains FIRED (Mon 17-Aug reopens the market; Tue 18-Aug MBB rights begin
+  trading; Fri 21-Aug is session 5); trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [SGGP English — central bank reports credit growth over 7.4% in H1/2026](https://en.sggp.org.vn/central-bank-reports-credit-growth-of-over-74-percent-in-first-half-of-2026-post127594.html) · [VietnamPlus — SBV prepares US$8.4bn credit package for SMEs](https://en.vietnamplus.vn/vietnam-to-roll-out-84-billion-usd-preferential-loan-scheme-post349433.vnp) · [VietnamPlus — monetary policy must ensure macro stability: PM](https://en.vietnamplus.vn/monetary-policy-must-ensure-macro-stability-support-growth-pm-post350036.vnp) · [Vietnam News — rate race tightens as exchange pressures mount](https://vietnamnews.vn/economy/1723613/rate-race-tightens-as-exchange-pressures-mount.html)
+
 - **✅⚠ 21:54 ICT SAT 15-AUG · THE WEEKLY CAEX CHECK — ROUND 2's CRITERIA ARE NAMED FOR THE FIRST TIME, AND
   THEY ARE THE AXIS ON WHICH CAEX LEADS (lanes 3, 6). Mostly covered ground; two real items. Short entry.**
   *Gate-compliant: row 62 says "Q3 window — check weekly, not hourly." The last dedicated check was a week
