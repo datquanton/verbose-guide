@@ -118,6 +118,132 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠⚠ 12:54 ICT SAT 15-AUG · THE MONEY-MARKET ROW RE-OPENS ON SCHEDULE AND THE WEEK REVERSED: SBV NET
+  WITHDREW ₫11,592.78bn WHILE THE OVERNIGHT FELL 6.09% → 4.38% (lanes 1, 4, 3). The second fence to pay out
+  on its own date today.**
+  *Gate-compliant: the COVERED row "WEEKLY MONEY MARKET — OMO, OVERNIGHT INTERBANK, POLICY RATE" was fenced
+  to re-open Sat 15-Aug. It is Sat 15-Aug. Its sibling flow row was collected at 00:54; this is the other
+  half of the same fence, and neither was searched early.*
+
+  ✅ **WEEK 10–14 AUG — OMO: SBV NET WITHDREW ₫11,592.78bn**, reversing two weeks of injection (>₫37,000bn
+  combined, of which **₫24,726.73bn** was 03–07 Aug and is already on file).
+  | leg | ₫bn |
+  |---|---|
+  | gross issuance, cầm cố GTCG | 38,258.10 |
+  | maturities | 49,850.88 |
+  | **net** | **−11,592.78** |
+  ✅ **RECONCILES EXACTLY: 49,850.88 − 38,258.10 = 11,592.78.** *This matters beyond tidiness. The source
+  prints the same ₫11,592.78bn figure twice — once attached to a single day, once to the week — and the two
+  legs are what say the WEEKLY reading is the true one. Without them I would have had to choose.*
+
+  ✅ **OVERNIGHT INTERBANK — THE FIRST FULL WEEKLY PATH THIS FILE HAS EVER HELD:**
+  | date | overnight, %/yr | |
+  |---|---|---|
+  | Wed 5-Aug | 4.83 | *on file since 11-Aug* |
+  | Fri 7-Aug | **5.97 — DERIVED** | *from "1.59pp lower than the prior week’s end", not reported* |
+  | Mon 10-Aug | 6.09 | |
+  | Thu 13-Aug | 4.38 | |
+  | Fri 14-Aug | **not reported** | |
+  ⚠⚠ **THE READING: THE OVERNIGHT CROSSED THE POLICY RATE FROM ABOVE TO BELOW INSIDE THE WEEK.** 6.09% is
+  **159bp OVER** the 4.5% OMO rate; 4.38% is **12bp UNDER** it. **That is why the SBV withdrew — it was
+  draining a surplus, not tightening into stress.** *An ₫11.6tn withdrawal read on its own looks hawkish and
+  is not; the sign of the OMO flow is uninterpretable without the level of the rate it is defending.*
+  ⚠ **NO POLICY-RATE CHANGE IS REPORTED — WHICH IS NOT THE SAME AS "HELD AT 4.5%."** The gate row’s re-open
+  conditions are a move away from 4.5% or an overnight print above ~8%; **neither is evidenced, so the row
+  stays fenced to next Saturday.** *Recorded as "not reported" rather than "unchanged" because the source
+  never addressed it — silence is not a reading.*
+
+  ⚠⚠⚠ **THE ₫143,000bn USD/VND SWAP FIGURE IS HISTORICAL, NOT CURRENT — AND THE TELL IS ONE VIETNAMESE
+  WORD.** The headline reads *"kênh hoán đổi **từng** ‘giải khát’ thanh khoản 143.000 tỷ đồng"* — **`từng` =
+  "once / formerly."** It is a retrospective placed inside a current weekly wrap. **Logged as a record balance
+  at an UNSTATED PAST DATE, never as this week’s swap outstanding.**
+  ⚠ **A corroboration search failed to date it and returned two date substitutions in one result set:** a
+  **February headline spliced onto a June body** (*"lãi suất qua đêm vọt 17%"* is **2-Feb-2026**, the Tet high
+  already on file, while the 11% / max 1bn USD / ~₫24,000bn body is **1-Jun**), **and a "4-Feb-2026" swap spot
+  of ₫23,864/USD that cannot be 2026** — the file holds a **₫25,491 central rate at 10-Aug**, and a 6.8%
+  move inside six months would have been the story of the year. **Nothing from that search is logged.**
+  ✅ **What survives is an order of magnitude, and it is not nothing: the swap channel operates at a scale of
+  the same order as a whole week’s OMO book — ₫143,000bn against ₫38,258bn gross repo this week is 3.7×.**
+  *The file’s measured 1-Jun reaction function ("₫46,000bn + 14-day USD/VND swaps → 11% to ~7% in one
+  session") never had its swap leg sized. It now has an undated upper-bound order, stated as such.*
+
+  ✅ **FLOWS — THE 00:54 DERIVATION SURVIVES A CROSS-CHECK IT DID NOT HAVE.** All-market weekly net sell is
+  **≈₫2,100bn**, with **HNX a net BUY of ₫37bn** against HOSE’s **−₫2,200bn** ⇒ **UPCoM ≈ +₫60–75bn
+  (derived)**. **All three legs are mutually consistent, so the HOSE ₫2,200bn is corroborated and the derived
+  12-Aug net BUY of ₫275–291bn STANDS.** *I first read "gần 2.100 tỷ" as contradicting "gần 2.200 tỷ on HOSE"
+  and it does not — one is all-market, the other one exchange. **Basis before conflict**; had I flipped the
+  order I would have "corrected" a correct figure and moved the derived Wednesday buy by ~₫60bn.*
+
+  ⚠ **WEEKLY INDEX CHANGE CORRECTED — −38.98 pts, NOT −39.06.** 1,768.06 (Fri 07-Aug) − 1,729.08
+  (Fri 14-Aug) = **38.98**, i.e. **−2.2047%**, against the source’s *"gần 40 điểm (2,21%)"*. **The −39.06
+  on file was computed at 17:54 Friday off a PROVISIONAL close of ~1,729.00; the exact close landed later and
+  the weekly figure was never re-derived.** *A superseded input leaving a stale derivative behind — the same
+  shape as the TCB cash-yield residue, at a harmless scale, and found only because the source quoted a
+  percentage I could check.*
+  ✅ **AND THE 14-AUG CLOSE GAINS INDEPENDENT CORROBORATION: −36.55 pts / −2.07% to 1,729.08, with
+  1,729.08 + 36.55 = 1,765.63 — the 13-Aug close, exactly.**
+
+  ⚠ **BREADTH: THREE DECLINER COUNTS FOR ONE SESSION, NOT RECONCILED AND NOT BLENDED.** The file holds
+  **228 decliners / 66 advancers on HOSE**; this hour returned **"257 falling on HoSE"** and **"511 declining /
+  182 rising"** market-wide. **The 511 is plainly all-exchange, but 228 vs 257 on the SAME exchange is not
+  explicable by universe — most likely an intraday-versus-close snapshot.** *Flagged open. The file’s 228 is
+  not overwritten on a summarizer’s count.*
+  ✅ **CORROBORATED WITHOUT CONFLICT: all 19 sector groups closed below reference and REAL ESTATE fell 2.93%**
+  — the file’s "every sector negative, real estate worst" now carries a number. ***Real estate is KDH: 20.3%
+  of the book, a proposed SELL −3.2pp, and an insider window closing 21-Aug.***
+
+  ✅ **PER-NAME MOVES — PERCENTAGES, NOT LEVELS (the blocked instrument is the price LEVEL, per the COVERED
+  row): HPG −1.8% on 14-Aug under heavy foreign selling; TCB among only THREE banks (with MSB and OCB) to
+  hold green.** *TCB green on the worst session of the week cuts against the 51.5%-banks split — it is the
+  name with the evidenced +200bp funding roll and NO offsets, and it outperformed anyway. One session is not
+  a refutation; it is the first datum on the other side, and it is recorded because a single contrary datum
+  is exactly what a settled split stops looking for.*
+
+  🎯 **FTSE — FOREIGN ACCESSIBILITY IS ELIMINATED FOR TCX, AND LIQUIDITY IS THE LAST CANDIDATE STANDING
+  (lane 4).** **TCX carries a maximum foreign ownership ratio of 100% — no `room ngoại` at all** — and
+  **48% of total IPO subscription demand came from international institutions.** *A name foreign funds cannot
+  be kept out of, and demonstrably were not.*
+  | FTSE GEIS criterion | TCX | VPX |
+  |---|---|---|
+  | listing history, 3m min | ❌ eliminated 06:54 — 189 days | ❌ eliminated 07:54 — 138 days |
+  | market cap | ❌ implausible — ~₫108,000bn (~US$4.2bn) at listing | untested |
+  | free float, 5% min | weakened 08:54 — parent at 79.8% ⇒ ~20.2% outside | untested |
+  | **foreign accessibility** | **❌ ELIMINATED — 100% room; 48% of IPO to foreign institutions** | **untested** |
+  | **liquidity / turnover** | **LAST STANDING** | untested |
+  ⚠⚠ **VPX AGAIN NOT ALLOWED TO INHERIT.** VPBankS is the same regulatory class and a 100% room is *likely* —
+  **and "likely" is precisely what the seasoning check punished, where VPX cleared by 48 days against TCX’s
+  99.** *One row, two names, still two answers. This is the third consecutive hour the grouped row has been
+  refused, and the one time it was tested the margins differed by more than 2×.*
+  ⚠ **TIER DISCIPLINE: the 100% figure is T4 press — the 21-Oct-2025 listing-day report — not an SSC or HOSE
+  filing.** *It eliminates the hypothesis at the tier this lane has run on throughout, and the elimination is
+  no stronger than that tier.*
+  ⚠⚠ **FORECAST #7 (TCX FTSE, EV +6.25%) STILL NOT RE-WEIGHTED — fifth consecutive hour.** *Today has removed
+  a THIRD innocent explanation for the downside evidence standing against it. **The rule does not get easier
+  to keep as the evidence accumulates; that is the whole reason it is fixed in advance.***
+
+  ✅ **CREDIT — THE JUNE ANCHOR, WHICH THE FILE DID NOT HOLD: ₫19,970,000bn at 26-Jun-2026, +7.41% YTD**,
+  against the **₫20,150,000bn / +8.38% at 29-Jul** already on file. **+0.97pp in 33 days ⇒ ~0.88pp/month; on
+  that pace the full year lands near +13.6% — AT the ~13% allocation for most banks, not through it.**
+  *Stated as a linear extrapolation, which December never is; Vietnamese credit is back-loaded and the
+  extrapolation is a floor on the run-rate question, not an answer to it.*
+  ⚠ **NOT LOGGED AS FACT: an MBS forecast of USD/VND 26,800–27,000 at end-2026 ("+2–2.8% versus the start of
+  the year"). It is UNDATED and it is a DIFFERENT INSTRUMENT — back-solving the stated percentage gives a
+  1-Jan base of ~₫26,270, which cannot be the central rate (the file holds ₫25,491 at 10-Aug) and which sits
+  ABOVE the ₫25,491 × 1.05 = ₫26,766 trading ceiling.** *Either a commercial-bank quote on a basis this file
+  does not carry, or stale. Recorded as an open BASIS question, not as a forecast — an unresolved basis is
+  the one thing this file has learned never to absorb.*
+
+  ⚠ **LANE 2 — NOTHING NEW: the 24-Aug CORE circumvention preliminary is still an intention.** One addition:
+  the Vietnam-substrate inquiry’s document number is **FR 2026-05808** (91 FR 14530–14532, 25-Mar-2026). The
+  file held the page cite and the parallel Chinese-substrate **2026-05807**, but not this one.
+  *`federalregister.gov` is gateway-blocked; the number came from a search index, not a fetch.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 5 remains FIRED (Fri 21-Aug is session 5 counting from Mon 17-Aug
+  and carries the FTSE constituent list, the KDH insider-window close and Forecast #7’s resolution); trigger 2
+  remains STANDING-BREACHED. Triggers 1, 3 and 4 tested this hour and negative.**
+  [TBTCVN — thị trường tiền tệ tuần 10–14/8](https://thoibaotaichinhvietnam.vn/thi-truong-tien-te-tuan-10-14-8-lai-suat-qua-dem-ve-quanh-4-kenh-hoan-doi-tung-giai-khat-thanh-khoan-143-000-ty-dong-202360.html) · [Người Quan Sát — tuần 3–7/8, bơm ròng 25.000 tỷ](https://nguoiquansat.vn/tuan-3-7-8-nhnn-dao-chieu-bom-rong-25-000-ty-dong-lai-suat-lien-ngan-hang-bat-tang-309504.html) · [Dân Việt — tuần qua: VN-Index hụt mốc 1.800](https://danviet.vn/chung-khoan-tuan-qua-vn-index-hut-moc-1800-diem-khoi-ngoai-ban-manh-loat-co-phieu-lon-d1451572.html) · [Nhịp sống kinh doanh — bán ròng gần 2.100 tỷ tuần Index mất 40 điểm](https://nhipsongkinhdoanh.vn/ban-rong-gan-2-100-ty-dong-trong-tuan-index-mat-40-diem--khoi-ngoai-dang--xa--ma-nao-30816.htm) · [HDBS — bản tin thị trường 14/08/2026](https://hdbs.vn/ban-tin-thi-truong-ngay-14-08-2026/) · [VietnamBiz — TCX chào sàn, room ngoại 100%](https://vietnambiz.vn/tcx-tang-5-phien-chao-san-von-hoa-tcbs-lon-nhat-nganh-chung-khoan-20251021104149950.htm) · [TTTCTT — tín dụng +7,41% đến cuối tháng 6/2026](https://thitruongtaichinhtiente.vn/den-cuoi-thang-6-2026-tang-truong-tin-dung-dat-7-41-83990.html) · [Federal Register — 2026-05808, CORE Vietnam circumvention initiation](https://www.federalregister.gov/documents/2026/03/25/2026-05808/certain-corrosion-resistant-steel-products-from-the-socialist-republic-of-vietnam-initiation-of)
+
 - **⚠ 08:54 ICT SAT 15-AUG · MY FREE-FLOAT HYPOTHESIS IS WEAKENED, NOT CONFIRMED — A NEGATIVE RESULT ON THE
   QUESTION I NAMED AN HOUR AGO (lanes 4, 3). Short entry.**
   **THE HYPOTHESIS: having established that seasoning cannot excuse TCX's or VPX's absence from the FTSE
@@ -459,7 +585,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   | 13-Aug close | 1,765.63 | −1.54% |
   | 14-Aug close | **~1,729.00** | **−2.07%** |
   | **three sessions** | **−64.18 pts** | **−3.58%** |
-  | **week (from 1,768.06)** | **−39.06 pts** | *source: "lost nearly 39 points" — exact* |
+  | **week (from 1,768.06)** | ~~**−39.06 pts**~~ **⚠ CORRECTED 15-Aug 12:54 → −38.98 pts (−2.2047%)** | *source: "lost nearly 39 points"; the −39.06 was derived off the PROVISIONAL ~1,729.00 close and was never re-run when the exact 1,729.08 landed. 1,768.06 − 1,729.08 = 38.98* |
   ⚠⚠ **BREADTH IS THE WORST SIGNAL HERE: 66 advancers against 228 decliners on HOSE — 3.5× more falling than
   rising, with EVERY sector group negative and REAL ESTATE, oil & gas and chemicals worst.** ⚠⚠⚠ ***REAL
   ESTATE IS KDH — 20.3% of the book, carrying a proposed SELL −3.2pp, an UNRESOLVED VNDiamond catalyst from
