@@ -36,6 +36,9 @@ question the file had already answered.** Re-open any row below only on its stat
 | **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
 | **KDH — Clarita divestment & Gladia absorption/launch** *(added 09-Aug 13:54; the grep caught this before a 7th re-search)* | Keppel 49% / KDH 51% JV, Clarita + Emeria (both Thủ Đức, agreed May-2023, construction Oct-2023) combined into **Gladia by the Water**; **naming trap resolved** — Clarita's developer is *BĐS Bình Trung*, but what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn; Emeria ~60 low-rise + ~600 condos; **Gladia Heights LAUNCHED, developer says the profit is a 2027 event**. ⚠ **The kill criterion is LIVE — "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched", the brief's "decisive test"; the launch condition is now satisfied and it has NOT fired** | **3Q26 filing, due 30-Oct** |
 
+| **SECTOR NPL & LLR COVERAGE CROSS-SECTION, H1/2026** *(added 15-Aug 13:54 — after a search returned ~90% covered ground)* | **On file in full: sector NPL 1.97% (from 1.88%), highest since 2020; total NPLs >₫310,000bn, +21.4% YTD / +9.5% QoQ, ~₫48,000bn added in H1; Group-2 1.45%; LLCR 82.9%.** The **two coverage series and their unresolved 83%-vs-80% collision** are documented (A: 95% Q2/25 → 86% Q1/26 → 83% Q2/26; B: 83% end-25 → 80% Q2/26) — *do not "resolve" it by picking one.* **Cross-section held: VCB 0.61% (lowest), ACB 1.03%, CTG 1.2%; largest NPL increases VietinBank, HDBank, Sacombank, BIDV — NONE IS A HOLDING.** ⚠ **VPB's 56.2% LLR coverage is the portfolio-relevant number and it is ALREADY ON FILE, together with the reasoning trap it invites** *(a ratio cannot be excused by the size of its own denominator)* | **Q3/2026 bank filings (~late Oct)** — or a per-bank coverage figure for **TCB, VPB or MBB specifically**, which is the only cut this row does not hold |
+| **THE FOUR PENDING SHARE-COUNT INCREASES — HEADLINE TERMS** *(added 15-Aug 13:54; this is the COVERED twin of date-gate row 49)* | ⚠ **A general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" returns THE SAME TERMS EVERY TIME and they are all on file:** TCB **60% bonus, ~4.25bn shares, charter capital >₫113,000bn**; VPB **₫79,339bn → >₫106,000bn in two tranches, tranche 2 = >624m shares to ONE FOREIGN INVESTOR**; MBB **record date 12-Aug, 15% stock dividend**. **What is genuinely missing is EX/RECORD DATES for TCB's 60% and VPB's two tranches, and `vsd.vn` is gateway-blocked** | **an ISSUER filing naming a date**, or a tranche actually executing — **not a re-run of the terms** |
+
 **Date gates — do NOT search these before their date** (per charter §6):
 
 | Item | Not before | Lane |
@@ -117,6 +120,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **✅⚠⚠ 13:54 ICT SAT 15-AUG · THE MASTERISE BOND STACK IS SIZED FOR THE FIRST TIME — ₫44,500bn IN H1/2026
+  FROM SIX LINKED ENTITIES — AND IT MOVES THE TCB SENIORITY QUESTION WITHOUT ANSWERING IT (lanes 5, 6, 3).**
+
+  🎯 **THE NEW DATUM.** Six Masterise-linked enterprises raised **₫44,500bn across EIGHT tranches in H1/2026**,
+  at **9–10%/yr**, tenors **12–60 months**, **most of them COLLATERALISED**, and **registered/custodied at
+  "a securities company"**. *T4, Vietstock, July-2026 dated. The 9–10% coupon was already on file; the SIZE,
+  the count, the tenor band and the collateral status are all new.*
+  ⚠⚠⚠ **THE SECURITIES COMPANY IS UNNAMED IN THE SOURCE AND I AM NOT NAMING IT.** TCBS/TCX is the obvious
+  candidate — it is the ecosystem's bond house and this file holds its lead bond-advisory share. ***"The
+  obvious candidate" is exactly what the free-float hypothesis was at 08:54 this morning, and testing it
+  weakened it.*** **Recorded as UNNAMED.**
+  ⚠⚠ **WHAT COLLATERAL ACTUALLY DOES TO TCB'S EXPOSURE — AND IT IS NOT "TCB IS SECURED."** The file's open
+  seniority question is whether TCB is **guarantor** (pays on a Masterise bond event, full P&L transmission)
+  or **mortgagee** (secured, better placed). **Collateral here secures the BONDHOLDERS, not TCB.** *So the
+  correct inference is narrower than it first looks: if TCB is the guarantor, bondholder collateral reduces
+  the SEVERITY of any guarantee call without changing TCB's seniority at all.* **It constrains loss-given-
+  event, not rank. The seniority question stays open; the severity leg improves.** *I drafted "collateralised
+  ⇒ TCB better placed" and it is wrong — the security runs to a different party.*
+  ⚠ **TCB's kill criterion remains ARMED AND NOT TESTABLE** — it needs "a Masterise bond event", and
+  ₫44,500bn of fresh issuance at 9–10% is the opposite of an event. *A bigger stack is a bigger exposure, not
+  a fired criterion.*
+
+  ⚠⚠ **THREE MATURITY FIGURES, THREE BASES, THREE WINDOWS — AND I NEARLY DIVIDED TWO OF THEM.**
+  | figure | basis | window |
+  |---|---|---|
+  | **₫192,500bn** | principal **AND interest** | H2/2026 |
+  | **~₫103,000bn** | **principal only**, all corporate | "rest of 2026" |
+  | **~₫60,000bn** | **principal only, PROPERTY** | H2/2026 |
+  ***60/103 = 58%, which contradicts the source's own "nearly half" — because the windows differ.*** *H2 runs
+  from July; "rest of 2026" from roughly now. **The shorter window cannot exceed the longer one for the same
+  universe, and that impossibility is what exposed the mismatch.** No ratio is computed across them.*
+  ⚠ ***Property is ~half of everything maturing, which is the sector backdrop for KDH (20.3%, proposed SELL
+  −3.2pp) and for TCB's property-credit concentration.***
+
+  ✅ **BANK SHARE SUPPLY — OUR THREE BANKS ARE THE MAJORITY OF THE ENTIRE SECTOR WAVE.** The market is due
+  **>12bn new bank shares in 2026**, TCB and VPB the two largest. **From figures already on file, TCB
+  (4,251.7m) + VPB (2,062.8m + >624m) + MBB (~1,208m stock dividend + 805.5m rights + ≤200m placement) =
+  ~9,152m — about 76% of a >12bn wave.**
+  ⚠ **THE BASIS OF THE 12bn IS UNVERIFIED (stock dividends only? rights? placements?) — SO THE CONCLUSION IS
+  STATED ON BOTH READINGS: stock-dividends-only for our three is ~7,523m = ~63%.** ***63% or 76%, the finding
+  survives: the dilution this file tracks name-by-name IS, at sector level, overwhelmingly our names.*** *An
+  unverified denominator does not have to block a conclusion if the conclusion holds across its plausible
+  range — but it does have to be stated.*
+
+  ✅ **PEER CROSS-SECTION — ONLY TWO GENUINELY NEW CUTS, BOTH ON COVERAGE DIRECTION.** **CTG: NPLs +21.8% QoQ
+  and coverage 167.19% → 133.95%, a 33.24pp fall in one quarter.** **ACB: provision expense +55% QoQ on a
+  1.03% NPL ratio.** *Both are banks REBUILDING or DEFENDING cover as NPLs rise.* ⚠⚠ **THE YARDSTICK THIS
+  GIVES VPB: sector coverage 83%, CTG 134%, VPB 56.2%. VPB is not merely below average — it sits at the
+  bottom of a cross-section spanning 2.4×.** *The file had the 56.2% and the 83%; it did not have the
+  DISPERSION, and "below average" and "at the floor of the range" are different findings.*
+
+  ⚠⚠⚠ **PROCESS — TWO OF THIS HOUR'S FOUR SEARCHES RETURNED ALMOST ENTIRELY COVERED GROUND, AND NEITHER
+  TOPIC HAD A COVERED ROW.** The sector NPL/coverage search returned ~90% material already on file (1.97%,
+  ₫310,000bn, Group-2 1.45%, LLCR 82.9%, the VCB/ACB/CTG cross-section, the two-series collision); the
+  TCB/VPB/MBB corporate-action search returned the 60% bonus, the ₫113,000bn, the ₫79,339bn → ₫106,000bn and
+  the 12-Aug record date — **all of it on file.** **TWO COVERED ROWS ADDED ABOVE.** *The COVERED block was
+  built on 09-Aug precisely because "at least six sweeps this weekend spent a search on a question the file
+  had already answered." **It works only for the topics somebody has written down, and these two were not.***
+
+  ⚠ **LANE 3 OTHERWISE QUIET; LANE 1 CARRIED FORWARD FROM 12:54.** Nothing new on HPG, KDH, TCX, VPX or VCI
+  this hour. *Saturday, market closed since Friday 14:45 ICT.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES THIS HOUR — trigger 1 tested explicitly against TCB's Masterise criterion and does NOT
+  fire (fresh issuance is not an event); trigger 5 remains FIRED (Fri 21-Aug = session 5 from Mon 17-Aug);
+  trigger 2 remains STANDING-BREACHED; triggers 3 and 4 negative.**
+  [Vietstock — nhóm doanh nghiệp liên quan Masterise hút 44.5 ngàn tỷ trong nửa đầu năm](https://vietstock.vn/2026/07/nhom-doanh-nghiep-lien-quan-masterise-hut-445-ngan-ty-dong-trai-phieu-trong-nua-dau-nam-3118-1465836.htm) · [TBTCVN — hơn 103.000 tỷ trái phiếu đáo hạn cuối năm](https://thoibaotaichinhvietnam.vn/hon-103-000-ty-dong-trai-phieu-doanh-nghiep-se-dao-han-vao-cuoi-nam-202169.html) · [CafeF — thêm ~60.000 tỷ trái phiếu BĐS đáo hạn nửa cuối 2026](https://cafef.vn/thi-truong-bds-them-khoang-60000-ty-dong-trai-phieu-dao-han-trong-nua-cuoi-nam-2026-188260729141519375.chn) · [VnEconomy — 192,5 nghìn tỷ gốc và lãi phải trả 6 tháng cuối năm](https://vneconomy.vn/1925-nghin-ty-dong-goc-va-lai-trai-phieu-doanh-nghiep-phai-tra-6-thang-cuoi-nam-2026.htm) · [VnEconomy — SSI Research: nợ xấu tăng, bao phủ giảm quý 2/2026](https://vneconomy.vn/ssi-research-ty-le-no-xau-nganh-ngan-hang-tang-trong-quy-22026-bao-phu-no-xau-giam.htm) · [StockBiz — hơn 12 tỷ cổ phiếu ngân hàng sắp ra thị trường](https://stockbiz.vn/tin-tuc/hon-12-ty-co-phieu-ngan-hang-sap-duoc-dua-ra-thi-truong-techcombank-va-vpbank-dung-dau/40754045)
 
 - **✅⚠⚠ 12:54 ICT SAT 15-AUG · THE MONEY-MARKET ROW RE-OPENS ON SCHEDULE AND THE WEEK REVERSED: SBV NET
   WITHDREW ₫11,592.78bn WHILE THE OVERNIGHT FELL 6.09% → 4.38% (lanes 1, 4, 3). The second fence to pay out
