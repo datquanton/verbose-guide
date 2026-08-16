@@ -122,6 +122,42 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 23:54 ICT SUN 16-AUG · A FIFTH INSTRUMENT CONFLATION — "FOREIGNERS RETURNED TO NET BUYING" IS THE
+  DERIVATIVES MARKET — AND I CORRECT MY OWN 18:54 REASONING (lanes 4, 6). Last sweep before the open.**
+
+  ⚠⚠⚠ **THE CONFLATION, AND IT WOULD INVERT A NUMBER THIS FILE IS USING.** *A weekend note reports
+  **"foreign investors returned to NET BUYING — 620 contracts on 14-Aug, 145 for the week."*** ***Those are
+  DERIVATIVES contracts. The cash market ran the other way: foreigners net SOLD ~₫2,200bn on HOSE over
+  10–14 Aug*** — the figure this file used at 00:54 Sat to derive a ₫275–291bn net buy on 12-Aug.
+  **Both are true and they describe different markets.** *Read together as one flow they would flip the
+  week's direction. **Fifth instrument boundary defended this weekend**, after retail-vs-wholesale funding,
+  deposits-vs-bonds at 9.2%, board-rate channels, and CASA denominators.*
+
+  🚨 **AND I CORRECT MY OWN 18:54 ENTRY — the reasoning, not the conclusion.** *I logged the 200-day break on
+  the grounds that **"the file CHOSE to record this level"**, implying the 50-week average was an untracked
+  import I was right to leave out.* ***THE 50-WEEK WAS TRACKED. On 02-Aug the file recorded "VN-Index fell
+  for a fourth consecutive week, cutting below its 50-week SMA" — and ruled explicitly: "None of that is new
+  information to this file and none of it moves an input," committing nothing but a timestamp fix.***
+  ⚠⚠ **TWO CONSEQUENCES, BOTH AGAINST ME.** *(1) **The index has been below its 50-week average since at
+  least 02-Aug**, so this hour's "fell below the 50-week SMA" is **NOT NEW** — it is a two-week-old state
+  restated. *(2)* **The file had already ruled this commentary class immaterial, and my 18:54 entry logged an
+  MA break anyway.** *The 18:54 conclusion is defensible — that level genuinely flipped from cleared to lost
+  — but **the justification I gave for it was factually wrong about the file's own history**, and a right
+  answer reached through a wrong reason is what this file records as a failure.*
+  ✅ **A grep for `50-week` would have found it in one line. I asserted the negative instead of testing it** —
+  five hours after logging the orthography audit whose entire subject was greps that fail silently.
+
+  ⚠ **NOTHING ELSE THIS HOUR: the only other company item is ANT (An Giang Vegetable & Food), not a holding.**
+  *The week's dated items are unchanged — **Mon 17-Aug reopen · Tue 18-Aug MBB rights begin trading ·
+  Fri 21-Aug FTSE constituent list, KDH insider window close, Forecast #7 resolution** — with trigger 5 fired
+  across all five sessions.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical — unchanged
+  through every commit of this weekend.
+  NO NEW TRIGGER FIRES — trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4
+  negative.**
+  [Vietstock — Vietstock Weekly 17–21/08/2026: mất đà phục hồi?](https://vietstock.vn/2026/08/vietstock-weekly-17-21082026-mat-da-phuc-hoi-1636-1481193.htm) · [Vietstock — chứng khoán phái sinh tuần 17–21/08/2026](https://vietstock.vn/2026/08/chung-khoan-phai-sinh-tuan-17-21082026-rui-ro-ngan-han-gia-tang-1636-1480784.htm) · [Investing.vn — phân tích kỹ thuật chứng khoán Việt Nam tuần 17–21/08/2026](https://vn.investing.com/news/stock-market-news/phan-tich-ky-thuat-chung-khoan-viet-nam-tuan-1721082026-2692446)
+
 - **🚨🚨⚠⚠ 22:54 ICT SUN 16-AUG · THE FLAG I RAISED AN HOUR AGO RESOLVES AND IT CORRECTS THE FILE: MASTERISE
   GROUP IS NO LONGER THE REGISTERED DIRECT OWNER OF THE GIA BÌNH PROJECT COMPANY — THREE INDIVIDUALS HOLD
   40/30/30 (lanes 5, 3).**
@@ -318,7 +354,9 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   mean is not a fixed line, and quoting a gap to a two-week-old value of it as if it were current would be a
   small version of the stale-derivative failures logged twice this weekend.*
   ⚠ ***WHY IT IS LOGGED AT ALL, GIVEN THIS FILE DOES NOT TRADE TECHNICALS: because the file CHOSE to record
-  this level and called its clearing notable.*** *A reference tracked on the way up and ignored on the way
+  this level and called its clearing notable.***
+  **⚠⚠ QUALIFIED 23:54 — I ALSO IMPLIED THE 50-WEEK AVERAGE WAS UNTRACKED. IT WAS TRACKED, ON 02-Aug, AND
+  THE FILE THEN RULED THAT EXACTLY THIS COMMENTARY CLASS IS NOT MATERIAL. See 23:54.** *A reference tracked on the way up and ignored on the way
   down is a one-sided record. **The candle patterns in the same source — Big Black Candle, Three Black
   Crows — are NOT logged; they are the part this file has no use for.***
   ✅ *Context recorded without inference: HNX-Index fell a THIRD consecutive session on 14-Aug on
