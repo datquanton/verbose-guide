@@ -122,6 +122,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 17:54 ICT SUN 16-AUG · THE 16:54 QUESTION IS ANSWERED BY AN ABSENCE: MB IS NOT AMONG THE TOP TWO
+  DEPOSIT GROWERS, SO VOLUME CANNOT EXPLAIN ITS +82% COST RISE (lanes 3, 6).**
+
+  🎯 **THE INFERENCE, AND IT TURNS ON A RANKING RATHER THAN A FIGURE.** *Deposit growth H1/2026 is led by
+  **HDBank +20.2%** (₫113,000bn added) then **VPBank +16.7%**. **MB is named for SIZE (~₫964,000bn, the
+  largest private book) and NOT for growth — so MB grew deposits by LESS than 16.7%.***
+  ⚠⚠⚠ ***VPB THEREFORE GREW DEPOSITS FASTER THAN MB, AND VPB'S INTEREST EXPENSE ROSE +56% AGAINST MB'S
+  +82%. VOLUME ALONE CANNOT PRODUCE THAT.*** **The 16:54 question — is MB's +82% arithmetic or pressure? —
+  resolves toward PRICE.**
+  ⚠⚠ **AND THE RESOLUTION IS DIRECTIONAL, NOT QUANTITATIVE, FOR A REASON THIS FILE NAMED THREE HOURS AGO:
+  THE WINDOWS DIFFER.** *Expense growth is **YoY** and Q1-dated (16:54); deposit growth is **YTD**, six
+  months. **A window substitution — the class identified at 14:54 — sits between the two series, so the
+  comparison supports a DIRECTION and not a decomposition.*** **MB's exact deposit growth is still not
+  established and is not guessed.**
+
+  ✅ **DEPOSIT LEVELS, PRIVATE BANKS, 30-JUN-2026 — NEW:**
+  | bank | customer deposits ₫bn |
+  |---|---|
+  | **MB** | **~964,000 — largest private book** |
+  | **VPB** | **732,887** |
+  | HDB | 674,058 |
+  | **TCB** | **662,448** |
+  ⚠⚠ **A BASIS CONFLICT ON TCB, THE SECOND IN TWO DAYS ON THE SAME BANK: ₫697,400bn from TCB's own release
+  (13:54) against ₫662,448bn on this ranking — ₫34,952bn / 5.3% apart.** *Almost certainly headline
+  "deposits" versus the balance-sheet **customer-deposit line**. **Both recorded; the CASA ratios computed at
+  13:54 used the ₫697,400bn base and would move if rebased**, which is exactly what 14:54 warned about when
+  it found two CASA denominators.*
+  ✅✅ **AND A CLEAN INTERNAL CHECK THAT SETTLES VPB: ₫732,887bn less the ~₫100,000bn raised = a ₫632,887bn
+  base ⇒ +15.80%, reproducing the 15.8% logged at 12:54 to two decimals.** *This hour's ranking says 16.7% —
+  0.90pp apart, the same basis gap in miniature. **The 15.8% is the one that reconciles to a level, so it is
+  the one to keep.***
+  ⚠ ***MB's deposit book is 45.5% larger than TCB's on the common basis*** — worth holding beside the fact
+  that their CASA ratios differ by 0.59pp: **MB runs a much bigger book at nearly the same mix, and its cost
+  is rising fastest.**
+
+  ⚠ **WHAT THIS DOES TO THE TWO CONFLICTING HOURS: 16:54's realised-cost reading is STRENGTHENED and 15:54's
+  structural reading is UNCHANGED.** *MBB still holds the CASA franchise and the three policy offsets; but
+  its funding cost is rising fastest of the three and the volume defence is now weak. **Neither hour is
+  withdrawn — the tension has simply moved from "which is right" to "how long does a structural advantage
+  survive a cost trend running against it", which is a question for the CIO run and not for a gather sweep.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered and does NOT fire: an inference of mine firmed up; no held
+  name's disclosed evidence changed. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED;
+  triggers 1 and 3 negative.**
+  [VietnamBiz — ngân hàng nào tăng được nhiều tiền gửi nhất trong nửa đầu năm 2026](https://vietnambiz.vn/ngan-hang-nao-tang-duoc-nhieu-tien-gui-nhat-trong-nua-dau-nam-2026-20268891214368.htm) · [VietnamBiz — TOP 10 ngân hàng có nhiều tiền gửi nhất nửa đầu năm 2026](https://vietnambiz.vn/top-10-ngan-hang-co-nhieu-tien-gui-nhat-nua-dau-nam-2026-20268411544852.htm) · [Người Quan Sát — top 10 ngân hàng nhiều tiền gửi nhất sau quý II/2026](https://nguoiquansat.vn/top-10-ngan-hang-nhieu-tien-gui-nhat-sau-quy-ii-2026-308536.html) · [Mekong Asean — top 10 ngân hàng nắm gần 83% tiền gửi hệ thống](https://mekongasean.vn/top-10-ngan-hang-nam-gan-83-tien-gui-he-thong-sau-nua-dau-nam-2026-58129.html)
+
 - **🎯🚨⚠⚠ 16:54 ICT SUN 16-AUG · THE REALISED MEASURE AT LAST — DEPOSIT INTEREST EXPENSE — AND IT RANKS
   TCB BEST OF THE THREE, WHICH PARTLY OFFSETS MY OWN 15:54 CONCLUSION (lanes 3, 6).**
 
