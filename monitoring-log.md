@@ -122,6 +122,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨⚠⚠ 16:54 ICT SUN 16-AUG · THE REALISED MEASURE AT LAST — DEPOSIT INTEREST EXPENSE — AND IT RANKS
+  TCB BEST OF THE THREE, WHICH PARTLY OFFSETS MY OWN 15:54 CONCLUSION (lanes 3, 6).**
+
+  🎯 **THE FIGURES: DEPOSIT INTEREST EXPENSE, YoY GROWTH.**
+  | bank | growth | rank |
+  |---|---|---|
+  | **TCB** | **+53%** | **lowest of the three** |
+  | VPB | **+56%** | |
+  | **MB** | **+82%** | **highest — the largest rise among big banks** |
+  | sector | all 30 banks up sharply, one **>+90%** | |
+  ⚠⚠⚠ **DATING CAUTION, AND IT IS LOAD-BEARING: THE PER-BANK FIGURES ARE MOST LIKELY Q1/2026, NOT H1.** *They
+  surfaced alongside a **27-MAY-2026** article whose own phrasing maps onto them exactly — *"VPBank và
+  Techcombank **tăng gấp rưỡi**"* (≈+50%, against +53% and +56%) and *"MB **cao hơn 80%** cùng kỳ"* (against
+  +82%). **The H1 framing comes from a DIFFERENT, recent article that gives only the sector picture.**
+  ***Recorded as Q1-dated. Sixth date substitution caught this week, and the tell was the source's own
+  wording reproducing the numbers.***
+
+  🚨 **EVEN Q1-DATED, THE RANKING IS THE POINT — AND IT IS THE THIRD INDEPENDENT MEASURE POINTING THE SAME
+  WAY ON TCB:**
+  | measure | TCB | when |
+  |---|---|---|
+  | blended cost of funds | **4.4% vs sector 4.81%** | 12:54 |
+  | CASA | **35.02%, sector-leading** | 13:54 / 15:54 |
+  | **deposit interest expense growth** | **+53%, lowest of the three** | **this hour** |
+  *Three measures — a level, a mix and a rate of change — from three separate sources, none sought as
+  confirmation of the others.*
+
+  🚨⚠⚠ **AND IT CUTS AGAINST MY 15:54 CONCLUSION, WHICH I STATE PLAINLY RATHER THAN LEAVE STANDING.** *An
+  hour ago I found MBB's CASA at 34.43% against TCB's 35.02% and concluded the file's MBB-over-TCB ranking
+  was strengthened.* ***MBB's realised deposit interest expense grew 29pp FASTER than TCB's — 82% against
+  53%, a 1.55× ratio — while their deposit MIX differs by only 0.59pp.***
+  ⚠⚠⚠ ***NEAR-IDENTICAL MIX, VERY DIFFERENT COST TRAJECTORY. So the CASA ratio does NOT explain the
+  divergence, and something else does.*** **THE DECOMPOSITION IS NOT AVAILABLE AND IS NOT GUESSED: expense
+  growth = volume × price, and I hold deposit-base growth for VPB only (+15.8%, from 12:54). Without MB's and
+  TCB's, price and volume cannot be separated.** *If MB simply grew deposits far faster, +82% is arithmetic
+  rather than pressure; if it did not, it is pressure. **That is the next question and it decides which of
+  two consecutive hours' conclusions survives.***
+  ⚠ **NEITHER HOUR IS WITHDRAWN.** *15:54's structural point stands — MBB holds the CASA franchise AND the
+  three policy offsets. This hour's realised point stands too — TCB's funding cost is growing slowest. **They
+  are a level-versus-change disagreement, which is the same shape as the CASA window substitution at 14:54,
+  and it resolves only with the volume split.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered across both hours and does NOT fire: **two of my own readings
+  disagree; no held name's disclosed evidence changed.** Trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 3 negative.**
+  [VietnamNet — chi phí trả lãi tiền gửi của 30 ngân hàng tăng vọt, có nhà băng tăng hơn 90%](https://vietnamnet.vn/chi-phi-tra-lai-tien-gui-cua-30-ngan-hang-tang-vot-co-nha-bang-tang-hon-90-2544553.html) · [CafeF (27-May-2026) — chi phí lãi tiền gửi BIDV gần 22.000 tỷ một quý, VPBank và Techcombank tăng gấp rưỡi, MB cao hơn 80%](https://cafef.vn/ngan-hang-ngam-don-chay-dua-lai-suat-chi-phi-lai-tien-gui-bidv-vot-len-gan-22000-ty-mot-quy-vpbank-va-techcombank-tang-gap-ruoi-mb-cao-hon-80-cung-ky-188260527072713147.chn) · [VnBusiness — chi phí trả lãi tiền gửi ăn mòn lợi nhuận ngân hàng](https://vnbusiness.vn/chi-phi-tra-lai-tien-gui-an-mon-loi-nhuan-ngan-hang.html) · [VietnamBiz — ngân hàng nào tăng được nhiều tiền gửi nhất nửa đầu 2026](https://vietnambiz.vn/ngan-hang-nao-tang-duoc-nhieu-tien-gui-nhat-trong-nua-dau-nam-2026-20268891214368.htm)
+
 - **🚨🚨⚠⚠ 15:54 ICT SUN 16-AUG · MBB HAS ESSENTIALLY THE SAME CASA FRANCHISE AS TCB — 34.43% vs 35.02% —
   WHICH REVERSES THE IMPLICATION I DREW AT 13:54 AND STRENGTHENS THE FILE'S RANKING RATHER THAN WEAKENING IT
   (lanes 3, 6).**
