@@ -122,6 +122,59 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅⚠ 07:54 ICT SUN 16-AUG · LANE 2 IS NOT QUIET AFTER ALL — A FEDERAL REGISTER DOCUMENT THIS FILE DOES
+  NOT HOLD, AND THE ITC's FINAL-PHASE RECORD CLOSED ON 12-AUG (lanes 2, 5). Short entry; the content is
+  procedural.**
+
+  ✅ **NEW — ZERO PRIOR HITS FOR ANY OF IT: `FR 2026-15922`, *"Steel Concrete Reinforcing Bar From Bulgaria,
+  Egypt, and Vietnam; Supplemental Schedule for the Final Phase of the Investigations."* Notice issued
+  MON 03-AUG-2026, published THU 06-AUG-2026. SUPPLEMENTAL PARTY COMMENTS WERE DUE WED 12-AUG-2026 AT
+  5:15 p.m.**
+  ✅ **AND THE CANONICAL CASE IDENTIFIERS, ALSO NEW: 701-TA-769–770 and 731-TA-1752–1754 (Final).**
+  ⚠⚠ **INTERNAL CHECK, AND IT PASSES: THREE AD numbers against TWO CVD numbers.** *731-TA-1752–1754 = three
+  countries; 701-TA-769–770 = two. **Bulgaria has no CVD case** — which is exactly what the file already
+  holds (*"the countervailing duty investigations of rebar from Egypt and Vietnam"*). **A count of docket
+  numbers reproduced a fact recorded in prose**, and had it not, one of the two would have been wrong.*
+
+  ⚠⚠ **WHY A SUPPLEMENTAL SCHEDULE MATTERS AND WHAT IT DOES NOT TELL US.** The ITC issues one when the final
+  phase needs further briefing after Commerce's determination. ***So the final-phase RECORD CLOSED on
+  12-Aug — four days before this entry — and the vote is the only step left.*** **The FR notice may name a
+  vote date and I cannot read it: `federalregister.gov` is gateway-blocked, RE-TESTED THIS HOUR AND STILL
+  BLOCKED.** *The 03-Aug record of that block stands; testing it cost one call and the alternative was
+  assuming.*
+  ⚠ **A BOUNDED OBSERVATION, NOT A FINDING: the USITC publishes notational-vote dates on calendar pages with
+  the date in the URL — several surfaced this hour (hardwood plywood 19-Aug, welded stainless pipe 28-Aug) —
+  and NO REBAR PAGE APPEARED.** *That is weak evidence the rebar vote is not yet calendared, **and it is
+  weak because I saw a handful of pages from a search result, not the calendar itself.** Stated at that
+  strength deliberately.*
+  ✅ **THE TIMETABLE, UNCHANGED BUT NOW TIGHTER AT THE FRONT:**
+  | | date | |
+  |---|---|---|
+  | Commerce finals announced | 28-Jul-2026 | on file |
+  | published FR 2026-15437/15438 | 30-Jul-2026 | on file |
+  | **supplemental schedule issued** | **03-Aug-2026** | **NEW** |
+  | **published** | **06-Aug-2026** | **NEW** |
+  | **final-phase comments closed** | **12-Aug-2026, 17:15** | **NEW** |
+  | ITC vote, statutory outer bound (+45d) | **13-Sep-2026** *(a Sunday, so on or before Fri 11-Sep in practice)* | derived |
+  ⚠ *The file's "mid-to-late Sep" stands, and the +45-day bound lands on a **Sunday** — so the practical
+  latest is the preceding Friday. **A statutory deadline computed in calendar days does not respect
+  weekends, and reading 13-Sep as a possible vote date would be a small version of the weekday errors this
+  file caught on the US data calendar.***
+
+  ⚠ **ALSO CONFIRMED, NOT NEW: the CVD period of investigation is 01-Jan-2024 → 31-Dec-2024.** *Worth one
+  line only because it dates the subsidy findings to a year before the current quota and reserve changes
+  this file has been tracking — **the duties are priced off 2024 conduct, not off anything in the 2026 file.***
+
+  ⚠ **PORTFOLIO IMPACT, STATED SMALL: HPG carries a proposed BUY +3.2pp and the rebar duties are on file at
+  128.53–136.57%.** *Nothing this hour changes a rate or an outcome; it dates the remaining procedure and
+  removes the possibility that the vote has already happened unnoticed.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 5 tested against the ITC vote and it does NOT fire: the vote is ~4 weeks
+  out, far beyond five sessions. Trigger 5 remains FIRED on the 21-Aug cluster; trigger 2 remains
+  STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [Federal Register — FR 2026-15922, supplemental schedule (gateway-blocked; cited for provenance)](https://www.federalregister.gov/documents/2026/08/06/2026-15922/steel-concrete-reinforcing-bar-from-bulgaria-egypt-and-vietnam-supplemental-schedule-for-the-final) · [trade.gov — final affirmative determinations, rebar from Bulgaria, Egypt and Vietnam](https://www.trade.gov/final-affirmative-determinations-antidumping-and-countervailing-duty-investigations-steel-concrete) · [USITC — pub5653, rebar from Algeria, Bulgaria, Egypt and Vietnam](https://www.usitc.gov/publications/701_731/pub5653.pdf)
+
 - **✅⚠⚠ 06:54 ICT SUN 16-AUG · I RAN THE AUDIT MY OWN 05:54 RULE DEMANDED, AND THE RESULT IS NEGATIVE:
   THERE IS NO MATERIAL CONTENT GAP BETWEEN `assumptions.json` AND THIS LOG. The 04:54 Fed-chair failure looks
   close to ISOLATED, not systematic — which is the opposite of what I would have assumed (lanes 1, 3).**
