@@ -122,6 +122,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 03:54 ICT MON 17-AUG · VPX'S FILED Q2 ACTUALS ARRIVE — AND THEY BOTH CORRECT MY OWN 02:54 ALARM
+  AND REORDER THE BROKER TABLE. VPX EARNS TWICE AS MUCH PER UNIT OF BOOK PAID AS TCX (lanes 3, 6).**
+  ⚠⚠ **TRIGGER 4 IS THE CLOSEST ANY TRIGGER HAS COME THIS WEEKEND AND IS ESCALATED PROMINENTLY BELOW.**
+
+  ✅ **THE FILED ACTUALS, Q2/2026:** **PBT ₫2,159bn** and **NPAT ₫1,733bn**, both ~**4× YoY**. **H1: PBT
+  ₫2,673bn, NPAT ₫2,169bn, ~3× H1/2025.** **ROE 14%.** Total assets **~₫89,000bn at 30-Jun (+21.8%,
+  +₫16,000bn YTD)**; margin book **>₫38,000bn** with **>₫33,000bn of room left**.
+
+  🚨 **CORRECTION TO MY OWN 02:54 ENTRY — I COMPARED A FORWARD TARGET TO A TRAILING FIGURE.** *I set VPX's
+  **FY2026 PBT target of ₫6,450bn** (≈₫5,160bn NPAT) against the model's **`npat_ttm` of ₫2,800bn** and called
+  it a **1.45–1.84× gap** "wide enough that the resolution matters."* ***Those are different windows: one is
+  forward-year, the other trailing-twelve-month.***
+  ✅ **AND THE TTM RECONCILES. `npat_ttm` at 30-Jun-26 = H2/2025 + H1/2026 = H2/2025 + ₫2,169bn. The model's
+  ₫2,800bn requires H2/2025 = ₫631bn — entirely plausible against an H1/2025 of ₫723bn** (derived from the
+  stated 3× H1 growth). ***So ₫2,800bn is COHERENT as a TTM, and the "gap" I flagged an hour ago is largely
+  an artefact of my own window substitution.*** *Third window-basis self-correction of the weekend, and the
+  second where I committed the substitution class I had myself named.*
+  ✅ *The forward picture is coherent too: H1 PBT is **41.4% of the FY target**, and Q2's ₫2,159bn annualises
+  to **1.34× it** — a back-loaded target on a run-rate that clears it.*
+
+  🎯 **THE 02:54 TENSION RESOLVES, AND IT RESOLVES AS "THE ROE WAS STALE": 14.0% FILED against the 10.5% in
+  this file's broker cross-section.** ***That reorders the table and moves VPX ABOVE TCX.***
+  | | ROE | P/B | **ROE ÷ P/B** |
+  |---|---|---|---|
+  | VCK | 14.3–15.5% | 2.32–2.50× | 6.18% |
+  | **VPX** | **14.0% — was 10.5%** | **1.36–1.47×** | **9.89%** |
+  | **TCX** | 12.4% | **2.49×** | **4.98%** |
+  | VCI | 7.8% | 1.378× | 5.66% |
+  ⚠⚠⚠ ***VPX EARNS 1.99× AS MUCH PER UNIT OF BOOK PAID AS TCX, AND IS THE BEST OF THE FOUR ON THAT TEST.***
+  *The same ratio the file ran on the banks, where it found "the book's largest position screens worst."*
+  **Both are held — TCX 5.5%, VPX ~2.8% — so this is a RELATIVE statement inside the book, not a call.**
+
+  🚨🚨 **TRIGGER 4 — ESCALATED, NOT FIRED, AND THE DISTINCTION IS STATED.** *The framework covers "a held
+  name's evidence status changes / an estimate becomes a filed actual," and the routine says a filed actual
+  should move confidence UP. **VPX's confidence was cut to 0.55 explicitly BECAUSE `npat_ttm` "failed its own
+  cross-check", with the number "left for the filing." The filing is here and the field now reconciles.***
+  ⚠ **WHY I DO NOT DECLARE IT FIRED: the reconciliation rests on MY derivation of H2/2025 = ₫631bn, not on a
+  disclosed TTM.** *Supportive, not conclusive.* **⚠⚠ AND §4 IS HUMAN-ONLY ON `confidence` — I HAVE NOT
+  TOUCHED IT.** ***This is the strongest candidate any trigger has produced this weekend and it belongs in
+  front of the CIO run, not buried in a table.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO TRIGGER FORMALLY FIRES — trigger 4 escalated as above; trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 3 negative.**
+  [TNCK — VPBankS (VPX) đạt lợi nhuận trước thuế 2.159 tỷ đồng trong quý II/2026](https://www.tinnhanhchungkhoan.vn/vpbanks-vpx-dat-loi-nhuan-truoc-thue-2159-ty-dong-trong-quy-ii2026-gap-4-lan-cung-ky-post394217.html) · [Người Quan Sát — VPBankS báo lãi quý II gấp 4 lần, hơn 33.000 tỷ room margin](https://nguoiquansat.vn/vpbanks-vpx-bao-lai-quy-ii-gap-4-lan-cung-ky-con-hon-33-000-ty-dong-room-cho-vay-margin-304623.html) · [Người Quan Sát — cập nhật KQKD quý II/2026 ngành chứng khoán: VPBankS vươn lên dẫn đầu](https://nguoiquansat.vn/cap-nhat-kqkd-quy-ii-2026-nganh-chung-khoan-vpbanks-vuon-len-dan-dau-cts-va-vix-hut-hoi-304822.html) · [Mekong Asean — lợi nhuận ngành chứng khoán quý 2: VPBankS tăng trưởng mạnh nhất](https://mekongasean.vn/loi-nhuan-nganh-chung-khoan-quy-2-vpbanks-tang-truong-manh-nhat-57526.html)
+
 - **⚠⚠🚨 02:54 ICT MON 17-AUG · THE LAST FTSE CRITERION STAYS UNTESTED — BUT THE SEARCH RETURNED SOMETHING
   BIGGER: VPX REPORTEDLY LED THE ENTIRE SECURITIES INDUSTRY ON PROFIT IN Q2/2026, AHEAD OF SSI AND TCBS
   (lanes 4, 6, 3).**
