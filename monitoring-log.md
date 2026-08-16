@@ -122,6 +122,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠ 09:54 ICT SUN 16-AUG · THE SBV CONSTRAINT IS LOOSENING AT BOTH ENDS FOR THE FIRST TIME IN THIS
+  FILE'S RECORD — AND A DISCRIMINATOR THE FILE WROTE DOWN TO CATCH A FALSE POSITIVE HAS EXPIRED (lanes 1, 6).**
+  *08:54 was a genuine nil. This hour is not.*
+
+  ✅ **THE FX LEG TURNED. The central rate FELL on FRI 14-AUG to ₫25,561, −5 dong — the FIRST decline after
+  THREE CONSECUTIVE WEEKS of increases.** ✅ **Series reconciles: 07-Aug 25,463 → 10-Aug 25,491 (+28) →
+  13-Aug 25,566 (+75) → 14-Aug 25,561 (−5).** *The first two are on file; the last two are new.*
+  ✅ **AND THE GLOBAL LEG AGREES: DXY 99.64, −0.33%, BELOW 100** — against the **99.8386** this file recorded
+  as *"flat"* during the CPI work. ⚠ *Reported as "at 15-Aug", which is a **Saturday**; FX closes Friday
+  17:00 ET, so this is the **Friday close reported on Saturday**. Recorded as Friday's.*
+  ✅ **Free-market USD is below ₫26,000, well inside the ₫26,839 ceiling (25,561 × 1.05).**
+
+  🚨 **COMPOSED WITH SATURDAY'S MONEY-MARKET WORK, THIS IS BOTH ENDS OF THE CONSTRAINT MOVING THE SAME WAY:**
+  | leg | reading | when |
+  |---|---|---|
+  | **FX** | central rate's first fall in 3 weeks; DXY < 100 | **14–15 Aug** |
+  | **liquidity** | overnight 6.09% → 4.38%; SBV net **WITHDREW** ₫11,592.78bn | 10–14 Aug, logged 12:54 Sat |
+  ⚠⚠⚠ ***THE FILE'S STANDING READING IS THAT THE FED "BOXES SBV IN ON A SECOND SIDE" AND THAT
+  "funding-cost relief is not coming from policy." THIS IS THE FIRST EVIDENCE ON THE OTHER SIDE OF THAT
+  CHAIN, AND IT ARRIVES ON BOTH LEGS AT ONCE.*** *Bears on the 51.5% bank block, whose margins the file
+  ties to SBV's room. **Stated as evidence, not as a reversal: one week is not a trend, and the file's chain
+  was built on months.***
+  ⚠ *Second independent source this weekend for deposit rates falling (*"lãi suất huy động bất ngờ giảm"*),
+  after the 15-Aug headline I deliberately did not promote at 18:54. **Still no figures, so still not
+  promoted** — but it is now corroborated rather than single-sourced, and it is the third leg pointing the
+  same way.*
+
+  🚨⚠⚠ **A DISCRIMINATOR THIS FILE WROTE DOWN HAS EXPIRED — AND IT EXPIRED BY BEING OVERTAKEN, NOT BY BEING
+  WRONG.** The log records: *"A grep for central-rate levels returned FIVE apparent matches. FOUR WERE SHARE
+  PRICES … and the most seductive false positive — **₫25,561** — **sits ABOVE today's central rate**."*
+  ***AS OF 14-AUG THE CENTRAL RATE IS ₫25,561.***
+  | ₫25,561 means | where |
+  |---|---|
+  | the **mean adjusted TCB street target** (low 22,688 · mean **25,561** · high 29,562) | on file since the street-target work |
+  | **the SBV central exchange rate** | **14-Aug-2026 — new this hour** |
+  ⚠⚠ ***The test the file used to tell those apart was "it sits above the central rate." That test now
+  returns the wrong answer.*** **This is the FOURTH value collision in 48 hours — after ₫1,097bn, 19.2% and
+  ₫167,0xx — and the first in which a previously-RECORDED discriminator was invalidated by events rather
+  than by an error.** *A collision you have already been burned by once, whose antidote has since decayed,
+  is the most dangerous kind on this file, because the note warning about it now reads as reassurance.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — a macro read is not evidence about any
+  company's numbers, per the file's standing rule. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on the FX/liquidity turn and does NOT fire: **the SBV chain is
+  an INFERENCE layer above the holdings, not any held name's evidence status**, and no bank's disclosed
+  numbers moved. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  [CafeF — tỷ giá trung tâm giảm sau chuỗi ngày cao kỷ lục](https://cafef.vn/ty-gia-trung-tam-giam-sau-chuoi-ngay-cao-ky-luc-188260814220916607.chn) · [VnExpress — NHNN hạ tỷ giá trung tâm sau nhịp tăng kỷ lục](https://vnexpress.net/ngan-hang-nha-nuoc-ha-ty-gia-trung-tam-sau-nhip-tang-ky-luc-5109165.html) · [DNHN — tỷ giá USD hôm nay 16/8/2026, đồng USD tiếp tục chịu áp lực giảm](https://doanhnghiephoinhap.vn/ty-gia-usd-hom-nay-1682026-dong-usd-tiep-tuc-chiu-ap-luc-giam-146506.html) · [CafeF — NHNN nêu định hướng điều hành lãi suất, tỷ giá, tín dụng](https://cafef.vn/ngan-hang-nha-nuoc-neu-dinh-huong-dieu-hanh-lai-suat-ty-gia-tin-dung-va-thi-truong-vang-thoi-gian-toi-188260814081132009.chn) · [Vietstock — lãi suất huy động bất ngờ giảm](https://vietstock.vn/2026/08/lai-suat-huy-dong-bat-ngo-giam-757-1479046.htm)
+
 - **✅⚠ 07:54 ICT SUN 16-AUG · LANE 2 IS NOT QUIET AFTER ALL — A FEDERAL REGISTER DOCUMENT THIS FILE DOES
   NOT HOLD, AND THE ITC's FINAL-PHASE RECORD CLOSED ON 12-AUG (lanes 2, 5). Short entry; the content is
   procedural.**
