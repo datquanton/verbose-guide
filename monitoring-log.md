@@ -122,6 +122,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠ 15:54 ICT SUN 16-AUG · MBB HAS ESSENTIALLY THE SAME CASA FRANCHISE AS TCB — 34.43% vs 35.02% —
+  WHICH REVERSES THE IMPLICATION I DREW AT 13:54 AND STRENGTHENS THE FILE'S RANKING RATHER THAN WEAKENING IT
+  (lanes 3, 6).**
+
+  ✅ **THE SAME-BASIS TABLE, 30-JUN-2026, 27 LISTED BANKS:**
+  | rank | bank | CASA |
+  |---|---|---|
+  | **1** | **TCB** | **35.02%** |
+  | **2** | **MB** | **34.43%** |
+  | 3 | VCB | 32.8% |
+  | 4 | CTG | 23.2% |
+  | 5 | MSB | 22.83% *(−6.07pp YTD, the deepest fall)* |
+  | 6–10 | TPB 21% · PGB 20.9% · ACB 20.5% · BID 20.4% · STB 16.6% | |
+  | **—** | **VPB — ABSENT FROM THE TOP TEN, so BELOW 16.6%; −2.12pp YTD** | |
+  ✅✅ **VPB'S 12.5% FROM 12:54 IS CONFIRMED ON THIS BASIS BY TWO ROUTES: it is below the 16.6% cut-off, and
+  12.5% + 2.12pp = 14.62% against the 14.6% start-of-year figure the earlier source gave — a 0.02pp match.**
+
+  🚨⚠⚠ **THE CORRECTION TO MY OWN 13:54 CONCLUSION, TWO HOURS OLD.** *I wrote that TCB has a structural
+  funding offset the file's split says it lacks, and that **"the word that fails is NONE"**.* ***That
+  sentence is still literally true — and the implication I drew from it is wrong.***
+  | | CASA offset | policy offsets (quota · reserve · liquidity) |
+  |---|---|---|
+  | **TCB** | **35.02%** | **none** |
+  | **MBB** | **34.43% — 0.59pp behind, a 1.02× gap** | **all three, on file** |
+  | VPB | 12.5% | on file |
+  ⚠⚠⚠ ***MBB HAS THE SAME CASA FRANCHISE AS TCB AND THE POLICY OFFSETS ON TOP. So finding TCB's offset does
+  NOT close the gap between TCB and the offset-carrying banks — it shifts BOTH up together and leaves MBB
+  strictly ahead.*** **The file's relative ranking of MBB over TCB is STRENGTHENED by this hour's work, not
+  weakened by yesterday's.** *I found a real offset and reached for the wrong conclusion because I checked
+  whether TCB had one and not whether the comparators did.*
+  ⚠ **AND THE MULTIPLE I FLAGGED AT 14:54 AS POSSIBLY BASIS-MIXED IS NOW MEASURED: 35.02 / 12.5 = 2.80×, not
+  the 3.1× computed from 38.3%.** *Overstated by 0.26×, exactly as the basis warning predicted. **MB/VPB is
+  2.75× — statistically the same advantage** — which is the whole point.*
+
+  ⚠ **WHAT SURVIVES UNCHANGED FROM 13:54 AND 14:54: the +200bp roll is worth ~17bp of blended funding cost
+  (8.5% wholesale share), TCB's blended cost is 4.4% against a 4.81% sector, and CASA is decaying slowly
+  (−0.88pp) inside a sector where 22 of 27 banks fell.** *None of that depended on the comparison I got
+  wrong.*
+  ⚠ **STILL NOT ESTABLISHED: MBB's CASA TREND.** *TCB −0.88pp and VPB −2.12pp are both on file; **MB's YTD
+  change is not**, so whether the 0.59pp gap is closing or widening is unknown. That is the next question and
+  it is not guessed here.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on the reversal and does NOT fire: **what changed is my own
+  comparison, not any held name's disclosed evidence.** Trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 3 negative.**
+  [VietnamBiz — TOP 10 ngân hàng có CASA cao nhất nửa đầu 2026: Techcombank vượt MB vươn lên dẫn đầu](https://vietnambiz.vn/top-10-ngan-hang-co-casa-cao-nhat-nua-dau-2026-techcombank-vuot-mb-vuon-len-dan-dau-2026812113847193.htm) · [Mekong Asean — CASA ngành ngân hàng nửa đầu năm: Techcombank dẫn đầu, MSB giảm sâu](https://mekongasean.vn/casa-nganh-ngan-hang-nua-dau-nam-techcombank-dan-dau-msb-giam-sau-58421.html) · [Nhà Quản Lý — soi tỷ lệ CASA của 27 ngân hàng niêm yết](https://nhaquanly.vn/soi-ty-le-casa-cua-27-ngan-hang-niem-yet-ai-dang-la-quan-quan-a9316.html) · [VietnamNet — chi phí trả lãi tiền gửi của 30 ngân hàng tăng vọt](https://vietnamnet.vn/chi-phi-tra-lai-tien-gui-cua-30-ngan-hang-tang-vot-co-nha-bang-tang-hon-90-2544553.html)
+
 - **🎯🎯🎯 14:54 ICT SUN 16-AUG · TWO CASA RATIOS FOR TCB AT THE SAME DATE, 3.28pp APART — AND RECONCILING
   THEM HANDS ME THE WHOLESALE SHARE I ESTIMATED AN HOUR AGO. IT LANDS INSIDE MY RANGE (lanes 3, 6).**
 
