@@ -122,6 +122,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨⚠⚠ 19:54 ICT SUN 16-AUG · THE QUOTA-REMOVAL PILOT FINALLY HAS AN INSTRUMENT, A DATE AND CRITERIA —
+  AND ITS CRITERIA SELECT AGAINST THE BANK THE FILE CREDITS WITH THE QUOTA PRIVILEGE (lane 1).**
+  *This closes a question the file named twice as open and "the natural next question": 14-Aug 01:54 got a
+  homonym instead, and 14-Aug 22:54 recorded it as still unanswered.*
+
+  ✅ **THE INSTRUMENT: `Công điện 128/CĐ-TTg`, dated 06-AUG-2025.** *Zero prior hits for the directive, for
+  `phanh tự động` or for `counter-cyclical`.*
+  ⚠⚠ ***AND IT IS 375 DAYS OLD. The file has been treating the quota-removal pilot as a live 2026
+  development; the directive predates this entire log.*** *The pilot is "from 2026" — the ORDER is 2025.*
+  ✅ **THE DESIGN, NOW SPECIFIED:** *pilot first at banks meeting **high safety standards**, then extended
+  system-wide from 2026, run alongside a **counter-cyclical "automatic brake"**; SBV studying a phased
+  roadmap explicitly described as not abrupt.*
+  ✅ **THE SELECTION CRITERIA, VERBATIM IN SUBSTANCE: institutions that are efficient and sound, with good
+  governance, COMPLYING WITH PRUDENTIAL RATIOS, and carrying HIGH CREDIT-QUALITY indices.**
+
+  🚨⚠⚠ **THE PORTFOLIO POINT, AND IT CUTS THE SAME WAY AS THIS WEEKEND'S OTHER BANK WORK.** *The file's
+  differentiated block credits **MBB and VPB with a quota privilege** — up to 35% against ~13% — earned by
+  accepting mandatory transfers. **The removal pilot does not select on that. It selects on prudential
+  soundness and credit quality.***
+  | criterion the pilot names | what this file has measured |
+  |---|---|
+  | prudential ratios | **TCB CAR 15.0%** (on file) |
+  | credit quality | **VPB LLR coverage 56.2% — the floor of a 2.4× sector dispersion** (13:54 Sat) |
+  | | **VPB most property-exposed of the three, +3.60pp** (03:54) |
+  | | **VPB CASA 12.5%, lowest of the three; lent ~2× what it raised** (12:54) |
+  | | **TCB CASA 35.02%, sector-leading; blended cost 4.4% vs 4.81% sector** (13:54–15:54) |
+  ⚠⚠⚠ ***SO THE PRIVILEGE THE FILE TREATS AS AN MBB/VPB OFFSET MAY BE THE FIRST THING TO DECAY, WHILE THE
+  BANK WITHOUT IT SCREENS WELL ON THE CRITERIA THAT DECIDE WHO IS FREED FIRST.***
+  ⚠ **STATED AS AN INFERENCE WITH NO ROSTER TO CONFIRM IT: no list of pilot banks exists, none of the
+  criteria has a published threshold, and "screens well" is my reading of this file's own measurements
+  against a paraphrased standard.** *The criteria are established; the mapping to names is not.*
+
+  ⚠⚠ **A PATTERN WORTH RECORDING ACROSS TWO SBV ITEMS: the quota-removal directive is 375 days old and the
+  pilot is still "being studied"; the ₫220,000bn package's guidelines were "in the coming days" from 03-Aug
+  and had not landed when checked on 15-Aug (13 days).** ***Both were announced with urgency and both are
+  running behind it.*** *Relevant to how much weight a dated policy intention should carry in this file —
+  and the 24-Aug CORE circumvention preliminary is the third such intention now pending.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — a policy roadmap is not evidence about any
+  company's numbers. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on the offset question and does NOT fire: **the quota privilege
+  has not changed, and what changed is that its eventual removal now has named criteria.** Trigger 5 remains
+  FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  [VnEconomy — Thủ tướng yêu cầu thí điểm gỡ bỏ "room tín dụng" từ năm 2026](https://vneconomy.vn/thu-tuong-yeu-cau-thi-diem-go-bo-room-tin-dung-tu-nam-2026.htm) · [Thư viện Pháp luật — khẩn trương xây dựng lộ trình thí điểm bỏ room tín dụng từ 2026](https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/91720/khan-truong-xay-dung-lo-trinh-thi-diem-bo-room-tin-dung-tu-nam-2026) · [Công Luận — bỏ room tín dụng từ 2026: chuyển từ mệnh lệnh hành chính sang quản lý theo rủi ro](https://congluan.vn/bo-room-tin-dung-tu-2026-chuyen-tu-menh-lenh-hanh-chinh-sang-quan-ly-theo-rui-ro-va-chuan-muc-10303392.html) · [VietnamPlus — thí điểm bỏ room tín dụng từ 2026: cơ hội mới cho ngân hàng](https://www.vietnamplus.vn/thi-diem-bo-room-tin-dung-tu-nam-2026-cu-hich-cho-cac-ngan-hang-post1055461.vnp)
+
 - **⚠⚠ 18:54 ICT SUN 16-AUG · A LEVEL THIS FILE ITSELF RECORDED AS "CLEARED" HAS BEEN LOST: THE INDEX IS
   BACK BELOW ITS 200-DAY AVERAGE GOING INTO SESSION 1 (lane 4). Short entry; lane 3 nil.**
 
