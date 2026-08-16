@@ -122,6 +122,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **✅✅ 01:54 ICT MON 17-AUG · VPX'S FOREIGN ROOM IS 100% — THE FIFTH TCX/VPX TEST AND THE FIRST TO COME BACK
+  A MATCH. FOREIGN ACCESSIBILITY IS NOW ELIMINATED FOR BOTH (lanes 7, 4).**
+  *Closing an item I explicitly refused to infer four times rather than opening new ground.*
+
+  ✅ **VPBankS shareholders approved raising the maximum foreign ownership ratio to 100%**, alongside the IPO
+  of **up to 375m shares (up to 25% of capital)** and the HoSE listing plan. *Proceeds earmarked **30% to
+  proprietary investment, 70% to MARGIN LENDING** and other activities.*
+  ⚠ **DATING, AND WHY IT DOES NOT DEGRADE THE FINDING: this is IPO-period material, so roughly a year old.
+  But a 100% foreign-room ceiling is a STANDING ADMINISTRATIVE STATE, not a level that drifts** — the same
+  distinction drawn at 15:54 Sat to rescue TCB's year-old "room exhausted" datum. *A ceiling changes when a
+  shareholder meeting changes it.*
+
+  ✅✅ **THE ELIMINATION TABLE, NOW COMPLETE ON THIS CRITERION FOR BOTH NAMES:**
+  | FTSE GEIS criterion | TCX | VPX |
+  |---|---|---|
+  | listing history, 3m | ❌ eliminated — 189 days | ❌ eliminated — 138 days |
+  | market cap | ❌ implausible (~US$4.2bn) | untested |
+  | free float, 5% | weakened — parent at 79.8% | untested |
+  | **foreign accessibility** | **❌ eliminated 12:54 Sat — 100%** | **❌ ELIMINATED — 100%, NEW** |
+  | **liquidity / turnover** | **LAST STANDING** | **LAST STANDING** |
+  ⚠⚠ ***FIVE SEPARATE TESTS OF TCX AGAINST VPX THIS WEEKEND AND THIS IS THE FIRST MATCH*** — seasoning
+  margins differed (189 vs 138 days), index membership differed (MarketVector took VPX, not TCX), free float
+  and market cap were tested on TCX only. **The four refusals to let VPX inherit TCX's answer were right on
+  the four occasions the answers differed; this time the answer is the same, and it was still worth the
+  search that proved it.** *A rule that only ever produces divergences would be a rule about the rule.*
+
+  ✅ **AND AN INDEPENDENT CROSS-CHECK OF THE FILE'S OWN RECONSTRUCTION: "up to 375m shares = up to 25%"
+  implies post-money ≤1,500m shares and a VPB stake ≥75%.** ***The file's reconstructed ceiling for VPB's
+  holding in VPX is ~79.5%, which sits inside that bound.*** *The reconstruction was built from a raise size
+  and a listing date; this validates it from the offering structure instead — **two routes, consistent, and
+  the 79.5% implies ~20.5% dilution against a stated 25% maximum.***
+
+  ⚠ **WHAT THIS DOES NOT DO: it does not touch the 21-Aug roster.** *Whatever excluded TCX and VPX from the
+  23 names, it is not foreign accessibility, and liquidity is the only named criterion still standing for
+  either. **The list itself lands Friday and settles the question regardless.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 5 remains FIRED (Fri 21-Aug is session 5, carrying the FTSE list, the KDH
+  insider-window close and Forecast #7); trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [Báo Đầu tư — VPBankS dự kiến chào bán tối đa 25% cổ phần, nới room ngoại lên 100%](https://baodautu.vn/vpbanks-du-kien-chao-ban-toi-da-25-co-phan-trong-dot-ipo-noi-room-ngoai-len-100-d378529.html) · [TBTCVN — VPBankS "mở toang" room ngoại, chốt phương án IPO 375 triệu cổ phiếu](https://thoibaotaichinhvietnam.vn/vpbanks-mo-toang-room-ngoai-chot-phuong-an-ipo-375-trieu-co-phieu-182572.html) · [VnEconomy — công ty chứng khoán được mở room 100% ngay](https://vneconomy.vn/cong-ty-chung-khoan-duoc-mo-room-100-ngay.htm)
+
 - **⚠⚠ 23:54 ICT SUN 16-AUG · A FIFTH INSTRUMENT CONFLATION — "FOREIGNERS RETURNED TO NET BUYING" IS THE
   DERIVATIVES MARKET — AND I CORRECT MY OWN 18:54 REASONING (lanes 4, 6). Last sweep before the open.**
 
