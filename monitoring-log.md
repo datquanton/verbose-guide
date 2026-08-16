@@ -122,6 +122,57 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 05:54 ICT MON 17-AUG · A SECOND, INDEPENDENT DEFECT IN THE SAME VALUATION BLOCK — VPX'S IMPLIED
+  SHARE COUNT IS 25% ABOVE THE CEILING ITS OWN IPO STRUCTURE ALLOWS, WHILE FOUR OTHER NAMES RECONCILE TO
+  0.1% (lane 3). No searches — this is an internal audit of `assumptions.json`.**
+  ⚠⚠ **TRIGGER 4 REMAINS FIRED FROM 04:54; this compounds it on a different field.**
+
+  🎯 **THE TEST: `pe_ttm × npat_ttm` = implied market cap ⇒ ÷ `price` = implied share count.** *The file
+  calls this an identity. Run across the book it audits every valuation block at once, for free.*
+  | ticker | implied shares (m) | file's own count (m) | gap |
+  |---|---|---|---|
+  | KDH | 1,122.0 | 1,122.9 | **−0.08%** |
+  | TCB | 7,087.7 | 7,086.2 | **+0.02%** |
+  | VPB | 7,936.7 | 7,933.9 | **+0.04%** |
+  | MBB | 8,060.9 | 8,055.0 | **+0.07%** |
+  | HPG · TCX · VCI | 8,446.9 · 2,774.3 · 1,152.2 | not independently held | — |
+  | **VPX** | **1,875.2** | **≤1,500 — from its OWN IPO structure** | **+25.01%** |
+  ⚠⚠⚠ ***FOUR NAMES LAND INSIDE ONE TENTH OF ONE PERCENT. VPX MISSES BY 25%.*** *The ≤1,500m ceiling is not
+  imported — it comes from **"up to 375m shares = up to 25% of capital"**, established at 01:54 this morning
+  and cross-checked there against the file's own ~79.5% VPB-stake reconstruction.*
+
+  🚨 **WHAT IT DOES TO THE MULTIPLE, AND THE RANGE IS LARGE.**
+  | construction | implied cap ₫bn | `pe_ttm` |
+  |---|---|---|
+  | **as carried** | 49,881 | **13.93×** |
+  | at 1,500m shares × ₫26,600, carried `npat_ttm` 3,580.8 | 39,900 | **11.14×** |
+  | at 1,500m shares × ₫26,600, **04:54's corrected `npat_ttm` 5,039** | 39,900 | **7.92×** |
+  ***So VPX's carried 13.93× could be overstated by up to 76%. At 7.92× it would be the cheapest name in the
+  book on trailing earnings*** — against HPG 7.51×, VPB 6.48×, MBB 5.76×, TCB 7.21×, and TCX at 20.05×.
+  ⚠ **THE TWO DEFECTS ARE INDEPENDENT AND THEY COMPOUND IN THE SAME DIRECTION: an understated `npat_ttm`
+  (04:54) and an overstated implied share count (this hour) BOTH make VPX look more expensive than it is.**
+  *That they push the same way is the reason to report them together and the reason not to treat the
+  combination as confirmation of either.*
+
+  ⚠⚠ **WHAT IS NOT ESTABLISHED, AND IT MATTERS: WHICH FIELD IS WRONG.** *The identity has three terms and I
+  have shown only that they are mutually inconsistent with a share count derived elsewhere.* **It could be
+  `pe_ttm`, `npat_ttm`, `price`, or the ≤1,500m ceiling itself — for instance if VPX has issued shares since
+  the IPO, which this file does not track.** ***Naming the inconsistency is the finding; assigning it to a
+  field would be a guess.***
+  ⚠⚠⚠ **§4 IS HUMAN-ONLY AND `assumptions.json` IS UNTOUCHED — no field, no confidence.** *VPX confidence
+  stands at 0.55.*
+  ✅ **AND THE AUDIT'S NEGATIVE RESULT IS WORTH AS MUCH AS ITS POSITIVE ONE: KDH, TCB, VPB and MBB are CLEAN
+  on this test.** *The file's 27-Jul claim that the `npat_ttm` defect is "bounded to the two names with rough
+  early TTM estimates" (VPX and VCI) survives for the four names that can be checked. **VCI cannot be checked
+  this way — no independent share count is on file — so it remains the untested half of that claim.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  🚨 **TRIGGER 4 REMAINS FIRED** (from 04:54, on `npat_ttm`); this hour adds a second field to the same
+  escalation rather than a new trigger. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED;
+  triggers 1 and 3 negative.**
+  *No external sources this hour: every figure is computed from `research/models/assumptions.json` and from
+  the IPO structure established at 01:54.*
+
 - **🚨🚨🚨 04:54 ICT MON 17-AUG · ESCALATION TRIGGER 4 FIRES. VPX'S `npat_ttm` IS UNDERSTATED BY ~44% AGAINST
   A TTM BUILT FROM TWO FILED PERIODS — AND MY OWN 03:54 "RECONCILIATION" IS WITHDRAWN (lanes 3, 6).**
 
