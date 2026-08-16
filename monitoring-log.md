@@ -122,6 +122,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠ 22:54 ICT SUN 16-AUG · THE FLAG I RAISED AN HOUR AGO RESOLVES AND IT CORRECTS THE FILE: MASTERISE
+  GROUP IS NO LONGER THE REGISTERED DIRECT OWNER OF THE GIA BÌNH PROJECT COMPANY — THREE INDIVIDUALS HOLD
+  40/30/30 (lanes 5, 3).**
+
+  🚨 **THE REGISTRY CHANGE, 25-FEB-2026 — the company's FIRST amendment since formation.**
+  | holder | share | ₫bn |
+  |---|---|---|
+  | Trần Hoài Việt Anh | **40%** | **11,720** |
+  | Vũ Hoàng Long | **30%** | **8,790** |
+  | Nguyễn Thị Thu Trà | **30%** | **8,790** |
+  | **total** | **100%** | **29,300 — unchanged** |
+  ✅ *Every line divides exactly into the ₫29,300bn charter, and the three sum to 100%.*
+  ⚠⚠⚠ ***MASTERISE GROUP'S 100% DIRECT OWNERSHIP IS RECORDED AS "không có / không xác định" — absent or
+  undetermined.***
+
+  🚨 **THIS CORRECTS WHAT I LOGGED AT 00:54.** *I recorded the sponsors as **"Masterise Group 80% / Gelex
+  Infrastructure 20%"**.* ***That is a PLANNED structure from press coverage. The registry shows no Masterise
+  direct holding and no Gelex holding — the three individuals account for the whole 100%.*** **Gelex's 20% is
+  a BOARD RESOLUTION dated 13-FEB-2026, an intention, and the new capital-representative date of 13-Feb
+  coincides exactly with it.** *The 80/20 was never the registered position.*
+  ⚠ **WHAT THIS DOES AND DOES NOT MEAN: "đại diện phần vốn" (representing the capital) is consistent with
+  individuals holding on behalf of an ultimate owner, so BENEFICIAL control may be unchanged.** *But for a
+  bank arranging ~₫167,000bn, **the registered direct owner being three individuals rather than a corporate
+  group is a different credit proposition**, and the file's 80/20 had no registry basis.*
+
+  ⚠⚠ **AND IT PUTS A CONDITION ON MY OWN 21:54 RECONCILIATION. Gelex is reported as putting in ₫8,000bn for
+  20% — but 20% of the CURRENT ₫29,300bn is ₫5,860bn.** ***₫8,000bn at 20% implies a post-money capital of
+  ₫40,000bn.***
+  | scenario | equity | implied debt | gearing |
+  |---|---|---|---|
+  | **current charter** | **29,300** | **167,078 — matches the ₫167,000bn on file** | **85.0%** |
+  | **post a Gelex raise to ₫40,000bn** | 40,000 | 156,378 | **79.6%** |
+  ⚠⚠⚠ ***So last hour's 0.04% reconciliation holds at TODAY's charter and would re-open if the Gelex
+  injection lands as reported.*** *Flagged one hour after publishing it, on the same day I twice qualified
+  my own conclusions — **the reconciliation was right and it was a snapshot, and a snapshot of a company
+  mid-recapitalisation is a dated quantity.***
+  ✅ *Context: Gelex Group total assets >₫87,000bn, so an ₫8,000bn commitment is ~9.2% of its balance sheet.*
+
+  ⚠ **NAMED AND NOT GUESSED: whether the three individuals are Masterise nominees, and whether the Gelex
+  ₫8,000bn has been paid.** *Both decide whether the counterparty behind TCB's largest arrangement is a group
+  or a set of persons, and neither is establishable from press.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  ⚠ **TRIGGER 1 TESTED CAREFULLY AND DOES NOT FIRE.** *TCB's criterion is "developer/related-party NPL
+  formation above 2.0%, **or a Masterise bond event**." **A change in the borrower's registered ownership is
+  neither** — though it is exactly the kind of fact that would matter if one ever fired.* **NO NEW TRIGGER
+  FIRES — trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 3 and 4 negative.**
+  [CafeF — doanh nghiệp làm sân bay Gia Bình điều chỉnh thông tin về cơ cấu sở hữu](https://cafef.vn/doanh-nghiep-lam-san-bay-gia-binh-196000-ty-cua-masterise-co-bien-dong-ve-chu-so-huu-188260226004429864.chn) · [DNSE — Masterise không còn sở hữu trực tiếp công ty làm Cảng hàng không quốc tế Gia Bình](https://www.dnse.com.vn/senses/tin-tuc/masterise-khong-con-so-huu-truc-tiep-cong-ty-lam-cang-hang-khong-quoc-te-gia-binh-35195682) · [CafeBiz — Masterise rút tên khỏi vị trí sở hữu trực tiếp giữa lúc Hạ tầng GELEX muốn rót 20% vốn](https://cafebiz.vn/bien-dong-lon-tai-san-bay-gia-binh-masterise-rut-ten-khoi-vi-tri-so-huu-truc-tiep-giua-luc-ha-tang-gelex-muon-rot-20-von-17626022608332256.chn) · [Mekong Asean — tổng tài sản vượt 87.000 tỷ, Gelex rót 8.000 tỷ vào sân bay Gia Bình](https://mekongasean.vn/to-ng-ta-i-sa-n-vuot-87000-ty-do-ng-gelex-rot-8000-ty-do-ng-va-o-san-bay-gia-bi-nh-54679.html)
+
 - **🎯🎯🎯 21:54 ICT SUN 16-AUG · THE GIA BÌNH CAPITAL STRUCTURE CLOSES TO 0.04% — AND THE 85% I DERIVED AND
   FLAGGED AS "NOT REPORTED" IS NOW REPORTED FROM THE SPONSOR'S OWN FINANCING PLAN (lanes 5, 3).**
 
