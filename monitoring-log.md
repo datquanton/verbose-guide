@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨⚠⚠ 12:54 ICT SUN 16-AUG · TCB's BLENDED COST OF FUNDS IS 4.4% — BELOW THE SECTOR'S 4.81% — WHICH
+  SIZES A QUALIFICATION ON THE FILE'S BANK SPLIT WITHOUT OVERTURNING IT. And I chased a suspected error in
+  the file's own +200bp claim; there isn't one (lanes 1, 6, 3).**
+  *This is the measure three hours of board-rate work were groping toward: channel-free, tenor-free,
+  segment-free, and disclosed.*
+
+  ⚠⚠ **THE SUSPECTED ERROR, AND THE CHECK THAT KILLED IT — reported because a false correction published
+  would have been worse than the original.** *This hour's source says PRIVATE joint-stock banks raised
+  deposit rates by **up to 200bp**, double state banks' 100bp. I suspected the file's "TCB's evidenced +200bp
+  funding roll" was that COHORT figure misattributed to one bank, or the Masterise 9–10% → 11.5–12% bond
+  repricing (also ~200bp, on ₫44.5tn, ≈₫890bn/yr).* ✅ ***IT IS NEITHER. The log traces cleanly: "TCB IS
+  REPLACING 6.5% MONEY WITH 8.5% MONEY … against TCB's new 3-YEAR ISSUANCE at 8.5%, a +2.0pp step-up."
+  The claim is TCB's OWN bond issuance and it is sound.*** *There are now **three distinct 200bp facts** in
+  this domain — TCB's bond roll, VPB's deposit-curve inversion, and the private-JSB cohort deposit rise —
+  plus the Masterise repricing at ~200bp. **Four. The collision compounds every time I look.***
+
+  🎯 **THE NEW MEASURE, AND WHAT IT DOES:**
+  | | Q2/2026 |
+  |---|---|
+  | **TCB blended cost of funds** | **4.4%** |
+  | sector cost of funds | **4.81%**, +0.6pp QoQ |
+  | **TCB vs sector** | **41bp CHEAPER** |
+  | TCB NIM (trailing 12m) | **3.6%** |
+  | sector NIM | **2.89% Q1 (multi-year low) → 3.06% Q2** |
+  ⚠⚠⚠ ***SO TCB FUNDS ITSELF MORE CHEAPLY THAN THE SECTOR WHILE ITS MARGINAL WHOLESALE TRANCHE PRICES AT
+  8.5%. Both are true, and the gap between blended and marginal is 410bp.*** **The file's split — "TCB
+  burdened by funding, NO offsets" — is therefore a claim about the MARGINAL slice, and it overstates the
+  burden by exactly as much as that slice is small.** ***THE MISSING QUANTITY IS NAMED: TCB's bond/wholesale
+  book as a share of total funding. Until that is known, the +200bp cannot be weighted.*** *Not a correction
+  — a denominator.*
+  ✅ **AND NIM IS MOVING THE RIGHT WAY FOR BOTH OUR PRIVATE BANKS: TCB +0.29pp and MB +0.35pp QoQ**, against a
+  sector that recovered 2.89% → 3.06% off a multi-year low. *SHB +0.49pp led; HDBank +0.33, ACB +0.25,
+  BIDV +0.22.*
+
+  🚨 **VPB — A FUNDING-QUALITY DETERIORATION THAT COMPOSES WITH TWO EARLIER FINDINGS TODAY.**
+  **Credit +24.8% (>₫200,000bn lent) against deposits +15.8% (~₫100,000bn raised) — it lent roughly TWICE
+  what it took in — and CASA fell from 14.6% to 12.5%.** *`CASA` returned **zero** hits in this log.*
+  ⚠⚠ ***Set beside 03:54 (VPB now the most property-exposed of the three, +3.60pp) and 10:54 (VPB's deposit
+  curve inverted 200bp, refusing to lock in term money), the picture is consistent: VPB is growing assets
+  fastest, funding them least, and shortening its liabilities while doing it.*** *Three separately-sourced
+  findings in nine hours, none sought as confirmation of the others. **Recorded as a pattern, not a verdict
+  — H1 PBT of ₫18,880bn is not a bank in difficulty.***
+
+  ⚠ **A FOURTH INSTRUMENT CONFLATION CAUGHT IN THE SAME RESULT: "lãi suất huy động thực tế đã leo lên
+  9.2%/năm tại nhiều ngân hàng" — described as DEPOSIT rates.** ***9.2% is irreconcilable with the 6.15–6.90%
+  board rates established at 11:54.*** *The file already holds **"TCB, MB, VPB đẩy lãi suất trái phiếu lên
+  gần 9%"** — bank BONDS near 9%. **So the 9.2% is the wholesale/bond leg wearing a deposit label**, which is
+  the same instrument boundary this file has now defended four times in nineteen hours.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — cost of funds and NIM are not inputs this
+  model carries, and §4 bars them regardless. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on TCB's 4.4% and does NOT fire: it QUALIFIES an inference the
+  file drew, and does not change any disclosed result. Trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1 and 3 negative.**
+  [StockBiz — lợi nhuận ngân hàng quý II/2026 khi chi phí vốn tăng và NIM thu hẹp](https://stockbiz.vn/tin-tuc/loi-nhuan-ngan-hang-quy-ii2026-ra-sao-khi-chi-phi-von-tang-va-nim-thu-hep/40530063) · [KIS — kết quả kinh doanh TCB quý 2/2026: lợi nhuận, NIM và tín dụng](https://kisvn.vn/hoc-dau-tu/ket-qua-kinh-doanh-tcb-quy-2-2026) · [TNCK — biên lãi thuần của ngân hàng tiếp tục chịu sức ép](https://www.tinnhanhchungkhoan.vn/bien-lai-thuan-cua-ngan-hang-tiep-tuc-chiu-suc-ep-post395577.html) · [VietnamPlus — bức tranh lợi nhuận ngân hàng quý 2/2026](https://www.vietnamplus.vn/buc-tranh-loi-nhuan-ngan-hang-quy-2-tang-truong-tich-cuc-phan-hoa-manh-post1120961.vnp)
+
 - **🚨⚠⚠⚠ 11:54 ICT SUN 16-AUG · I QUALIFY MY OWN 10:54 TABLE: "TCB's 12-MONTH DEPOSIT RATE" IS NOT ONE
   NUMBER BUT A 75bp RANGE, AND THE PEER RANKING INVERTS DEPENDING ON WHICH CHANNEL THE PEER FIGURES CAME
   FROM (lanes 1, 6, 3).**
