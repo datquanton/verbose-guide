@@ -122,6 +122,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨⚠⚠⚠ 11:54 ICT SUN 16-AUG · I QUALIFY MY OWN 10:54 TABLE: "TCB's 12-MONTH DEPOSIT RATE" IS NOT ONE
+  NUMBER BUT A 75bp RANGE, AND THE PEER RANKING INVERTS DEPENDING ON WHICH CHANNEL THE PEER FIGURES CAME
+  FROM (lanes 1, 6, 3).**
+
+  ✅ **THE DISPUTE FROM 10:54 IS RESOLVED, AND THE 7.25% IS REFUTED. TCB's 12-MONTH BOARD RATES, AUG-2026:**
+  | channel / segment | 12-month rate |
+  |---|---|
+  | **at the counter (tại quầy)** | **6.15%** |
+  | **online (F@stmobile)** | **6.75%** |
+  | **Private, online, ≥₫3bn** | **6.90%** |
+  ⚠ *Two corrections to my own entry: the **7.25%** does not exist in TCB's table, and the **6.90% is a
+  12-MONTH PRIVATE rate, not "long tenors"** as the previous hour's source framed it.* ✅ **What survives
+  unchanged: TCB's rates did NOT move in August.**
+
+  🚨⚠⚠⚠ **THE CONSEQUENCE, AND IT UNDOES THE COMPARISON I PUBLISHED AN HOUR AGO.** At 10:54 I tabled MBB
+  6.35% · VPB 6.20% · TCB disputed — **and NONE of those three figures carried a channel or a customer
+  segment.**
+  | if MBB's 6.35% and VPB's 6.20% are… | TCB's comparable | TCB ranks |
+  |---|---|---|
+  | **ONLINE standard rates** | **6.75%** | **HIGHEST of the three** |
+  | **COUNTER rates** | **6.15%** | **LOWEST of the three** |
+  ***THE RANKING INVERTS. "TCB pays the most" and "TCB pays the least" are both consistent with the numbers I
+  published an hour ago*** — and TCB's funding cost, with no offsets, is a load-bearing part of the file's
+  bank split. **THE 10:54 CROSS-BANK COMPARISON IS QUALIFIED IN PLACE AND IS NOT USED.**
+  ⚠⚠ **A CHANNEL/SEGMENT SUBSTITUTION — the SECOND new member of the measure family in two hours**, after the
+  tenor substitution at 10:54. *A Vietnamese bank posts several 12-month rates at once (counter, online,
+  Priority, Private, size-tiered), so **"the 12-month rate" is a category, not a quantity**, and every
+  cross-bank deposit comparison needs channel and segment pinned before tenor is even reached.*
+
+  ⚠ **WHAT IS STILL SOUND FROM 10:54, STATED SO IT IS NOT LOST WITH THE REST:** the **tenor** finding holds
+  independently — the sector genuinely raised 6–13 month while cutting the long end, and **VPB's own 12m
+  6.20% against its own 36m 4.20% is a WITHIN-BANK comparison, so the 200bp inversion survives the channel
+  problem entirely.** *A within-issuer spread is immune to the defect that destroys a cross-issuer level
+  comparison — which is the general lesson worth keeping.*
+
+  ⚠ **AND THE 18:54 INSTRUMENT DISTINCTION STILL SITS ABOVE ALL OF IT: none of these retail board rates
+  speaks to TCB's +200bp WHOLESALE roll.** *Three nested qualifications now stand between a deposit headline
+  and any claim about TCB's funding cost — instrument, tenor, channel/segment. **All three were found in
+  eighteen hours, and each one alone would have been enough to make the naive reading wrong.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — this is a correction to my own comparison, not new evidence about any holding.
+  Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [Thương Gia — lãi suất tiết kiệm Techcombank tháng 8/2026 không đổi](https://thuonggiaonline.vn/lai-suat-tiet-kiem-techcombank-thang-82026-khong-doi-ky-han-dai-giu-muc-69nam-post572081.html) · [Topi — lãi suất Techcombank mới nhất tháng 8/2026](https://topi.vn/lai-suat-techcombank.html) · [VNSignal — lãi suất Techcombank 8/2026: online & tại quầy](https://vnsignal.vn/vi-mo/lai-suat-ngan-hang/techcombank)
+
 - **🎯🚨⚠⚠ 10:54 ICT SUN 16-AUG · "DEPOSIT RATES ARE FALLING" AND "DEPOSIT RATES ARE RISING" ARE BOTH TRUE
   THIS WEEK, BECAUSE THEY ARE DIFFERENT TENORS — AND I WAS RIGHT TO DECLINE THE CLAIM TWICE (lanes 1, 6, 3).**
   *First per-bank deposit figures on file for all three banks.*
@@ -142,7 +187,8 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   |---|---|---|---|
   | **MBB** | **6.35%** | — | — |
   | **VPB** | **6.20%** | **36m 4.20%** | **12m RISEN +0.2pp (on file, 13:54); 36m CUT 1.4pp from 5.60%** |
-  | **TCB** | *disputed — see below* | **6.9% long tenors** | **UNCHANGED in August** |
+  | **TCB** | ~~*disputed*~~ **⚠ RESOLVED 11:54 — 6.15% counter / 6.75% online / 6.90% Private ≥₫3bn** | ~~6.9% long tenors~~ **⚠ the 6.90% is a 12-MONTH Private rate, not a long-tenor rate** | **UNCHANGED in August** |
+  **⚠⚠⚠ AND THE MBB/VPB ROWS ABOVE CARRY NO CHANNEL OR SEGMENT, SO THIS TABLE'S CROSS-BANK COMPARISON DOES NOT STAND AS WRITTEN. See 11:54.**
   🚨 ***VPB'S DEPOSIT CURVE IS INVERTED BY 200bp: 6.20% at 12 months against 4.20% at 36 months.*** *A bank
   raising its 12-month rate while cutting 36-month funding by 140bp is **refusing to lock in term money** —
   consistent with expecting rates to fall, or with not needing it. **Either reading is a signal, and the
