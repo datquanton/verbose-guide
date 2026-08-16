@@ -122,6 +122,40 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠ 18:54 ICT SUN 16-AUG · A LEVEL THIS FILE ITSELF RECORDED AS "CLEARED" HAS BEEN LOST: THE INDEX IS
+  BACK BELOW ITS 200-DAY AVERAGE GOING INTO SESSION 1 (lane 4). Short entry; lane 3 nil.**
+
+  ⚠⚠ **THE STATE CHANGE, AND IT IS THE FILE'S OWN REFERENCE RATHER THAN AN IMPORTED TECHNICAL.** *On 04-Aug
+  this log wrote: **"The 1,770 MA200 is cleared, the close sitting 0.40% above it"** — the second resistance
+  level in three sessions to clear.* ***This hour's read has the index BELOW its 200-day SMA. Against the
+  1,770 the file recorded, Friday's 1,729.08 close is 2.31% below.***
+  ⚠ **BOTH HALVES STATED, BECAUSE THE AVERAGE MOVES: the "below the MA200" claim is from this hour's source;
+  the −2.31% is measured against the file's LAST RECORDED level of the average, not today's.** *A 200-day
+  mean is not a fixed line, and quoting a gap to a two-week-old value of it as if it were current would be a
+  small version of the stale-derivative failures logged twice this weekend.*
+  ⚠ ***WHY IT IS LOGGED AT ALL, GIVEN THIS FILE DOES NOT TRADE TECHNICALS: because the file CHOSE to record
+  this level and called its clearing notable.*** *A reference tracked on the way up and ignored on the way
+  down is a one-sided record. **The candle patterns in the same source — Big Black Candle, Three Black
+  Crows — are NOT logged; they are the part this file has no use for.***
+  ✅ *Context recorded without inference: HNX-Index fell a THIRD consecutive session on 14-Aug on
+  above-average volume, so the weakness is not confined to HOSE.*
+  ⚠ **AND ONE FIGURE DELIBERATELY NOT IMPORTED: a "VN-Index 1.869,04" dated 24-Jun-2026 appeared this
+  weekend only as a fragment of a BULLETIN TITLE in a search-result list.** *That would imply a −7.49%
+  drawdown over 51 days to Friday's close — a striking frame, and **its only provenance is a filename.**
+  The file's mid-2026 high is therefore UNESTABLISHED, and it stays that way rather than being anchored to a
+  document header.*
+
+  ⚠ **LANE 3 CHECKED AND NIL: no weekend disclosures from any of the eight, and no new corporate-action dates
+  beyond those already gated.** *The week's dated items are unchanged from the 23:54 calendar — **Mon 17-Aug
+  reopen · Tue 18-Aug MBB rights begin trading · Fri 21-Aug FTSE list, KDH insider window close, Forecast
+  #7** — with trigger 5 fired across all five sessions.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — an index level crossing a moving average is not a kill criterion, a cap, an
+  expected-return move, an evidence change or a dated catalyst. Trigger 5 remains FIRED; trigger 2 remains
+  STANDING-BREACHED; triggers 1, 3 and 4 negative.**
+  [Vietstock — phân tích kỹ thuật chứng khoán Việt Nam tuần 17–21/08/2026](https://vietstock.vn/2026/08/phan-tich-ky-thuat-chung-khoan-viet-nam-tuan-17-21082026-585-1481195.htm) · [Vietstock — chứng khoán phái sinh tuần 17–21/08/2026: rủi ro ngắn hạn gia tăng](https://vietstock.vn/2026/08/chung-khoan-phai-sinh-tuan-17-21082026-rui-ro-ngan-han-gia-tang-1636-1480784.htm) · [Vietstock — phong vũ biểu thị trường tháng 8/2026](https://vietstock.vn/2026/08/phong-vu-bieu-thi-truong-thang-82026-cac-tin-hieu-trai-chieu-van-con-579-1478348.htm)
+
 - **🎯🎯🚨 17:54 ICT SUN 16-AUG · THE 16:54 QUESTION IS ANSWERED BY AN ABSENCE: MB IS NOT AMONG THE TOP TWO
   DEPOSIT GROWERS, SO VOLUME CANNOT EXPLAIN ITS +82% COST RISE (lanes 3, 6).**
 
