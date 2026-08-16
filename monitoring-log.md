@@ -122,6 +122,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 21:54 ICT SUN 16-AUG · THE GIA BÌNH CAPITAL STRUCTURE CLOSES TO 0.04% — AND THE 85% I DERIVED AND
+  FLAGGED AS "NOT REPORTED" IS NOW REPORTED FROM THE SPONSOR'S OWN FINANCING PLAN (lanes 5, 3).**
+
+  ✅✅✅ **THE RECONCILIATION, THREE NUMBERS FROM THREE SOURCES:**
+  | leg | ₫bn | source |
+  |---|---|---|
+  | **equity — Công ty TNHH Cảng Hàng Không Masterise, charter capital** | **29,300** | **NEW this hour** (formed Aug-2025) |
+  | **debt — TCB's arranged credit, two phases** | **167,000** | 00:54 |
+  | **total** | **196,300** | |
+  | project cost on file | **196,378** | |
+  ***0.040% APART. And 167,000 / 196,378 = 85.0% gearing, against a sponsor financing plan that states debt
+  and other sources will be "khoảng 85% tổng mức đầu tư".***
+  ✅ **A SECOND WAY IN: 15% equity on ₫196,378bn = ₫29,457bn against the ₫29,300bn charter capital — 0.53%
+  apart.** *The capital structure is now closed from both ends.*
+
+  🎯 **WHAT THIS SETTLES, AND IT IS THE CAVEAT I ATTACHED AT 00:54 RATHER THAN THE HEADLINE.** *I wrote then:
+  "the 85% loan-to-cost is DERIVED, NOT REPORTED … **if the ₫167,000bn is an arranged total rather than TCB's
+  own book, the ratio describes the PROJECT's gearing and not TCB's exposure at all.**"* ***Both halves are
+  now confirmed: the 85% is the project's gearing, stated by the sponsor; and 01:54 established from TCB's
+  management that the ₫167,000bn is arranged-then-distributed.*** **So TCB is arranging essentially the
+  ENTIRE debt leg of a ₫196,378bn project — and warehousing only part of it at any moment (₫20,000bn
+  disbursed at 30-Jun, 02:54).**
+
+  ✅ **NEW STRUCTURAL FACTS, ALL ZERO PRIOR HITS:**
+  - **Cảng Hàng Không Masterise Co. Ltd, charter capital ₫29,300bn, established AUG-2025** for the airport.
+  - **Masterise Group raised its OWN charter capital to >₫35,200bn in Aug-2025** — *only 1.20× the airport
+    subsidiary's capital, so the project company is most of the group's registered capital base.*
+  - **The NATIONAL ASSEMBLY approved Masterise as investor (Dec-2025); >₫196,000bn, explicitly NO STATE
+    BUDGET.** *A legislature-level approval is a stronger commitment than a provincial one and the file had
+    neither.*
+  - Site clearance advancing in Bắc Ninh; thousands of households across four communes filed and took advance
+    payments by early Dec-2025.
+
+  ⚠⚠ **AND A FLAG RAISED, NOT RESOLVED: two Feb-2026 reports describe *"biến động lạ"* at the airport investor
+  and an *"điều chỉnh thông tin về cơ cấu sở hữu"* — an OWNERSHIP-STRUCTURE CHANGE.** ***The file's holding —
+  Masterise 80% / Gelex Infrastructure 20%, logged 00:54 — may post-date or pre-date that change and I cannot
+  tell which.*** *Named as an open question rather than absorbed. **The ownership of the counterparty inside
+  TCB's largest single arrangement is not something to hold at one undated snapshot.***
+
+  ⚠ **PORTFOLIO IMPACT, UNCHANGED IN DIRECTION AND FIRMER IN SIZE: TCB (35.0% of the book) is arranging ~85%
+  of a ₫196,378bn project for a related party whose equity in it is ₫29,300bn.** *The kill criterion still
+  needs an EVENT and there is none.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 1 re-tested against TCB's Masterise criterion: a reconciled capital
+  structure is not a bond event. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 3 and
+  4 negative.**
+  [Người Quan Sát — Masterise lập công ty cảng hàng không 29.300 tỷ đồng](https://nguoiquansat.vn/masterise-group-lap-cong-ty-cang-hang-khong-29-300-ty-dong-chuan-bi-cho-du-an-san-bay-trong-diem-265431.html) · [CafeF — Quốc hội chốt chủ trương Masterise làm siêu sân bay Gia Bình 196.000 tỷ](https://cafef.vn/quoc-hoi-chot-chu-truong-masterise-group-lam-sieu-san-bay-gia-binh-196000-ty-dong-lo-dien-nhung-phoi-canh-dau-tien-188251226102733987.chn) · [Tuổi Trẻ — biến động "lạ" từ phía chủ đầu tư sân bay Gia Bình](https://tuoitre.vn/bien-dong-la-tu-phia-chu-dau-tu-san-bay-gia-binh-20260227002920954.htm) · [CafeF — doanh nghiệp làm sân bay Gia Bình điều chỉnh thông tin về cơ cấu sở hữu](https://cafef.vn/doanh-nghiep-lam-san-bay-gia-binh-196000-ty-cua-masterise-co-bien-dong-ve-chu-so-huu-188260226004429864.chn)
+
 - **⚠✅ 20:54 ICT SUN 16-AUG · THE PRUDENTIAL-RATIO GAP I OPENED AN HOUR AGO STAYS OPEN — AND A DIGIT
   TRANSPOSITION IN TCB'S CHARTER CAPITAL IS CAUGHT BY THE FILE'S OWN SHARE COUNT (lanes 1, 3). Short entry.**
 
