@@ -122,6 +122,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 14:54 ICT SUN 16-AUG · TWO CASA RATIOS FOR TCB AT THE SAME DATE, 3.28pp APART — AND RECONCILING
+  THEM HANDS ME THE WHOLESALE SHARE I ESTIMATED AN HOUR AGO. IT LANDS INSIDE MY RANGE (lanes 3, 6).**
+
+  ⚠⚠ **THE CONFLICT: 38.3% and 35.02%, both at 30-JUN-2026.**
+  | figure | source | basis |
+  |---|---|---|
+  | **38.3%**, balance ₫267,000bn | TCB's own release and most coverage | **CASA ÷ CUSTOMER DEPOSITS** |
+  | **35.02%**, −0.88pp vs end-2025 | a 27-bank sector table | **a WIDER denominator** |
+  ✅ **RECONCILED, AND IT IS A DENOMINATOR: ₫267,000bn ÷ 35.02% = ₫762,421bn, against customer deposits of
+  ₫697,400bn. The residual is ₫65,021bn = 8.5% of that base.** *And ₫267,000bn ÷ ₫697,400bn = **38.29%**,
+  which is the 38.3% quoted — so both ratios are correct on their own bases.*
+
+  🎯🎯 **THAT RESIDUAL IS THE WHOLESALE SLICE I SOLVED FOR AT 13:54 — AND IT CHECKS.**
+  | | 13:54 (derived from board rates + CASA split) | 14:54 (from the CASA basis gap) |
+  |---|---|---|
+  | wholesale share of funding | **1.1% – 11.4%** | **8.5%** |
+  | **+200bp roll worth** | **2 – 23bp** | **17bp** |
+  ***An estimate built from assumed deposit costs and a figure extracted from two incompatible CASA ratios
+  are two entirely different routes, and they agree.*** *The point estimate now sits in the upper half of the
+  range rather than the middle — **so the roll is worth about 17bp against a 3.6% NIM, or 4.7% of it.
+  Still small, and no longer merely bounded.*** ⚠ *The ₫65,021bn is "wholesale and other", not certified as
+  valuable papers alone — the reconciliation fixes its SIZE, not its composition.*
+
+  🚨 **AND THE TREND QUESTION I LEFT OPEN AT 13:54 IS ANSWERED — WITH A TWIST THAT IS A THIRD SUBSTITUTION
+  CLASS IN FOUR HOURS.** **TCB's CASA is DOWN 0.88pp against end-2025 (35.90% → 35.02% on the wide basis) AND
+  UP STRONGLY within the quarter (balance +8% QoQ).** ***Falling year-to-date, recovering inside the
+  quarter. The "CASA king is running short" headline and the "recovered strongly" claim are BOTH TRUE, on
+  different WINDOWS.***
+  ⚠⚠ ***A WINDOW SUBSTITUTION — after TENOR (10:54) and CHANNEL/SEGMENT (11:54). Three new members of this
+  file's measure family in four hours, all in the same lane, all with the same signature: two
+  opposite-sounding claims, both true, one unstated measurement choice.***
+
+  ✅ **THE OFFSET SURVIVES THE SCRUTINY AND IS BETTER-CHARACTERISED THAN AT 13:54: TCB LEADS THE SECTOR ON
+  CASA, and 22 OF 27 BANKS SAW CASA FALL against end-2025 while only 5 improved — MSB fell deepest.**
+  ***So TCB's −0.88pp is a mild decay inside a broadly deteriorating sector, from the top of it.*** *The
+  13:54 conclusion stands and hardens: **TCB has a structural funding offset the file's split says it lacks**,
+  it is sector-leading, it is decaying slowly, and it recovered in the most recent quarter.*
+
+  ⚠ **WHAT IS STILL NOT ESTABLISHED, NAMED SO IT IS NOT ASSUMED: VPB's and MBB's CASA on the SAME basis.**
+  *The 12.5% recorded for VPB at 12:54 carries no stated denominator, so **the 3.1× advantage I computed an
+  hour ago may be comparing 38.3% on one basis against 12.5% on another.*** **The direction is not in doubt —
+  a 3.28pp basis gap cannot close a 25.8pp difference — but the multiple is.**
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — same reasoning as 13:54: these are Q2 facts arriving at this file, not disclosed
+  facts changing. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1, 3 and 4
+  negative.**
+  [Mekong Asean — CASA ngành ngân hàng nửa đầu năm: Techcombank dẫn đầu, MSB giảm sâu](https://mekongasean.vn/casa-nganh-ngan-hang-nua-dau-nam-techcombank-dan-dau-msb-giam-sau-58421.html) · [Báo Pháp Luật — Techcombank báo lãi bán niên 18.500 tỷ, tỷ lệ CASA đạt 38,3%](https://baophapluat.vn/techcombank-tcb-bao-lai-ban-nien-18-500-ty-dong-ty-le-casa-dat-38-3.html) · [Techcombank — 2Q26 press release (primary, egress-blocked; cited for provenance)](https://techcombank.com/content/dam/techcombank/public-site/documents/2q26-press-release-vie.pdf) · [CafeBiz — lợi nhuận quý 2 Techcombank chạm đỉnh mới](https://cafebiz.vn/loi-nhuan-quy-2-techcombank-cham-dinh-moi-tu-dong-luc-tang-truong-da-chieu-176260722183635764.chn)
+
 - **🎯🎯🚨 13:54 ICT SUN 16-AUG · THE DENOMINATOR I NAMED AN HOUR AGO IS NOW ESTIMATED — THE +200bp ROLL IS
   WORTH 2–23bp OF BLENDED FUNDING COST, AND TCB TURNS OUT TO HAVE THE ONE OFFSET THE FILE SAYS IT LACKS
   (lanes 3, 6).**
