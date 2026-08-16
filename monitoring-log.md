@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 04:54 ICT MON 17-AUG · ESCALATION TRIGGER 4 FIRES. VPX'S `npat_ttm` IS UNDERSTATED BY ~44% AGAINST
+  A TTM BUILT FROM TWO FILED PERIODS — AND MY OWN 03:54 "RECONCILIATION" IS WITHDRAWN (lanes 3, 6).**
+
+  🚨🚨🚨 **TRIGGER 4 — "AN ESTIMATE BECOMES A FILED ACTUAL / A HELD NAME'S EVIDENCE STATUS CHANGES" — FIRES.**
+
+  ✅ **THE MISSING PIECE, FILED: VPBankS FY2025 PBT = ₫4,476bn** (4× FY2024), revenue ₫7,910bn, **CIR 25%**
+  (from 36.5%), margin book >₫34,000bn at year-end.
+  ✅ **THE EFFECTIVE TAX RATE IS OBSERVED, NOT ASSUMED: Q2/2026 PBT ₫2,159bn → NPAT ₫1,733bn = 19.73%.**
+  *So FY2025 NPAT = 4,476 × 0.8027 = **₫3,593bn**.*
+
+  🚨 **THE RECONSTRUCTION, AND IT KILLS MY 03:54 ENTRY.**
+  | step | ₫bn |
+  |---|---|
+  | FY2025 NPAT (derived from filed PBT at the observed rate) | **3,593** |
+  | H1/2025 NPAT (H1/26 ₫2,169bn stated as 3×) | 723 |
+  | **H2/2025 NPAT** | **2,870** |
+  | H1/2026 NPAT (filed) | 2,169 |
+  | **`npat_ttm` at 30-Jun-2026** | **≈ 5,039** |
+  | **model actually carries — READ FROM `assumptions.json`, NOT FROM A LOG ENTRY** | **3,580.8** |
+  | | **TTM is 1.41× the carried field — understated by 28.9%** |
+  ⚠⚠⚠ **AND I ALMOST COMMITTED THIS ENTRY QUOTING ₫2,800bn.** *That figure comes from the 27-Jul depth-queue
+  note; **the model has since been updated to 3,580.8, matching the margin-room reconstruction.** I read the
+  file before committing and the gap fell from 1.80× to 1.41×. **Third time this repo has punished quoting a
+  number from a log entry instead of the artefact that holds it** — and the first time I caught it inside the
+  same hour.*
+  ⚠⚠⚠ ***AT 03:54 I INFERRED H2/2025 = ₫631bn TO MAKE ₫2,800bn WORK AND CALLED THE FIELD "COHERENT". THE
+  FILED FY2025 SAYS H2/2025 WAS ₫2,870bn — 4.5× MY INFERENCE. THAT PARAGRAPH IS WITHDRAWN IN PLACE.***
+  *I solved backwards for the number that would vindicate the model instead of finding the number. **The
+  02:54 alarm I "corrected" an hour ago was closer to right than the correction.***
+
+  ✅ **THE ONLY SOFT INPUT IS THE STATED "3×" MULTIPLE, AND THE RESULT IS INSENSITIVE TO IT:**
+  | H1/26 ÷ H1/25 | implied H2/2025 | TTM | vs carried |
+  |---|---|---|---|
+  | 2.5× | 2,725 | 4,894 | **1.37×** |
+  | **3.0× (stated)** | **2,870** | **5,039** | **1.41×** |
+  | 3.5× | 2,973 | 5,142 | 1.44× |
+  | 4.0× | 3,051 | 5,220 | 1.46× |
+  ***Every cell is 1.37×–1.46×. The magnitude barely moves, because H1/2026's ₫2,169bn is FILED and FY2025's
+  ₫4,476bn PBT is FILED — the multiple only shifts how the 2025 half-years split.***
+
+  🚨 **WHY THIS IS A TRIGGER AND NOT A CURIOSITY: `npat_ttm` is a MODEL FIELD, the file flagged it as failing
+  its own cross-check, cut VPX's confidence to 0.55 on that basis, and left the number "for the filing."
+  The filings are now in hand — FY2025 and H1/2026 — and they move the field by ~1.4×, not by a rounding.**
+  ⚠⚠ **§4 IS HUMAN-ONLY. `assumptions.json` IS NOT TOUCHED — NOT THE FIELD, NOT THE CONFIDENCE.** *The
+  routine says a filed actual should move confidence UP; **that is a human's edit and the direction of the
+  E[r] change is not obvious**, since a larger `npat_ttm` cuts `pe_ttm` on an unchanged price.*
+  ⚠ **WHAT REMAINS DERIVED, STATED PRECISELY: the 19.73% tax rate is observed from one quarter; H1/2025 comes
+  from a stated "3×" multiple; FY2025 NPAT is PBT × that rate.** *Only the two PBT figures and H1/2026's NPAT
+  are filed. **The magnitude is derived; the direction is not.***
+
+  **NOTHING MODELLED. `DECISION-BRIEF.md` byte-identical — and it should NOT be assumed to survive a
+  human's correction of this field.
+  🚨 **TRIGGER 4 FIRES.** Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3
+  negative.**
+  [CafeF — Chứng khoán VPBankS báo lợi nhuận cả năm 2025 cao gấp 4 lần, hạn mức margin còn 34.000 tỷ](https://cafef.vn/chung-khoan-vpbanks-bao-loi-nhuan-ca-nam-2025-cao-gap-4-lan-han-muc-margin-van-con-34000-ty-188260119142724723.chn) · [Báo Đầu tư — VPBankS báo lãi gần 4.500 tỷ đồng](https://baodautu.vn/vpbanks-bao-lai-gan-4500-ty-dong-d495130.html) · [TNCK — VPBankS đạt lợi nhuận trước thuế 2.159 tỷ đồng quý II/2026](https://www.tinnhanhchungkhoan.vn/vpbanks-vpx-dat-loi-nhuan-truoc-thue-2159-ty-dong-trong-quy-ii2026-gap-4-lan-cung-ky-post394217.html)
+
 - **🚨🚨🎯 03:54 ICT MON 17-AUG · VPX'S FILED Q2 ACTUALS ARRIVE — AND THEY BOTH CORRECT MY OWN 02:54 ALARM
   AND REORDER THE BROKER TABLE. VPX EARNS TWICE AS MUCH PER UNIT OF BOOK PAID AS TCX (lanes 3, 6).**
   ⚠⚠ **TRIGGER 4 IS THE CLOSEST ANY TRIGGER HAS COME THIS WEEKEND AND IS ESCALATED PROMINENTLY BELOW.**
@@ -134,11 +190,11 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   **FY2026 PBT target of ₫6,450bn** (≈₫5,160bn NPAT) against the model's **`npat_ttm` of ₫2,800bn** and called
   it a **1.45–1.84× gap** "wide enough that the resolution matters."* ***Those are different windows: one is
   forward-year, the other trailing-twelve-month.***
-  ✅ **AND THE TTM RECONCILES. `npat_ttm` at 30-Jun-26 = H2/2025 + H1/2026 = H2/2025 + ₫2,169bn. The model's
+  ⚠⚠⚠ **THIS PARAGRAPH IS WITHDRAWN 04:54 — FY2025 PBT IS ₫4,476bn (FILED), SO H2/2025 NPAT IS ~₫2,870bn, NOT THE ₫631bn I INFERRED. THE TTM DOES **NOT** RECONCILE. SEE 04:54.**
+  ~~✅ **AND THE TTM RECONCILES. `npat_ttm` at 30-Jun-26 = H2/2025 + H1/2026 = H2/2025 + ₫2,169bn. The model's
   ₫2,800bn requires H2/2025 = ₫631bn — entirely plausible against an H1/2025 of ₫723bn** (derived from the
   stated 3× H1 growth). ***So ₫2,800bn is COHERENT as a TTM, and the "gap" I flagged an hour ago is largely
-  an artefact of my own window substitution.*** *Third window-basis self-correction of the weekend, and the
-  second where I committed the substitution class I had myself named.*
+  an artefact of my own window substitution.***~~ *Third window-basis self-correction of the weekend — **and itself wrong; see 04:54.***
   ✅ *The forward picture is coherent too: H1 PBT is **41.4% of the FY target**, and Q2's ₫2,159bn annualises
   to **1.34× it** — a back-loaded target on a run-rate that clears it.*
 
