@@ -122,6 +122,47 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠✅ 20:54 ICT SUN 16-AUG · THE PRUDENTIAL-RATIO GAP I OPENED AN HOUR AGO STAYS OPEN — AND A DIGIT
+  TRANSPOSITION IN TCB'S CHARTER CAPITAL IS CAUGHT BY THE FILE'S OWN SHARE COUNT (lanes 1, 3). Short entry.**
+
+  ⚠⚠ **THE NULL, DOCUMENTED. Last hour established that the quota-removal pilot selects on PRUDENTIAL RATIOS,
+  and a grep showed this file holds CAR for TCB ONLY — the two apparent MBB/VPB hits were `CARRY` and
+  `CAREFULLY`, the exact grep trap this file catalogued on 11-Aug.** *A search for the three banks' CAR
+  returns figures **explicitly dated "cuối quý 3/2022" — four years stale**, caught by the source's own
+  labelling.* ***MBB's and VPB's current CAR remain NOT ESTABLISHED, which is a real hole directly under the
+  criterion the pilot names.***
+
+  🚨 **A DIGIT TRANSPOSITION CAUGHT BY ARITHMETIC ALREADY ON FILE.** The source puts TCB's charter capital
+  rising from **₫70,862bn to ₫113,738bn (+₫42,800bn, the largest raise in the system)**.
+  ***₫70,862bn × 1.60 = ₫113,379.2bn — and the file's own share counts give 7,086.2m → 11,337.9m shares,
+  which at ₫10,000 par is exactly ₫70,862bn → ₫113,379bn.***
+  | | source | correct |
+  |---|---|---|
+  | post-bonus charter capital | ₫113,**738**bn | **₫113,379bn** |
+  | increase | ₫42,800bn | **₫42,517bn** |
+  ⚠ **The digits 379 and 738 are a transposition, and the ₫283bn overstatement of the increase follows from
+  it.** *The file's ">₫113,000bn" was already right; **what is new is that the precise figure is ₫113,379bn
+  and that a widely-repeated ₫113,738bn is wrong.*** *Caught because a 60% bonus on a known base is a
+  one-multiplication check.*
+
+  ✅ **CONTEXT, RECORDED AT ITS TRUE TIER: TCB describes itself as a Basel III PIONEER**, prioritising capital
+  and liquidity buffers ahead of the transition — **and the transition replaces LDR with CDR and adds NSFR
+  and LEV.** ⚠ *This is TCB's own positioning in a TCB-sourced piece, so it is **self-description at T5, not
+  an independent assessment**. It bears on the pilot's "complying with prudential ratios" criterion and is
+  logged as a claim, not a qualification.*
+  ✅ *Corroborated without conflict: TCB's CAR is described as **above 15%, among the market's highest**,
+  consistent with the 15.2% (Q1) → 15.0% (Q2) already on file.*
+  ✅ *VPB's raise is ~₫27,000bn to >₫106,000bn — consistent with the ₫106,243bn established 14:54 Saturday.*
+
+  ⚠ **LANES 2, 4, 5, 6, 7 CHECKED AND NIL FOR A SUNDAY EVENING.** *The week's dated items are unchanged:
+  **Mon 17-Aug reopen · Tue 18-Aug MBB rights · Fri 21-Aug FTSE list, KDH window close, Forecast #7.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — a corrected charter-capital figure changes a share count already on file to four
+  significant figures, not any expected return. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED;
+  triggers 1, 3 and 4 negative.**
+  [Nhà Đầu Tư — làn sóng tăng vốn ngân hàng 2026: cuộc đua đáp ứng Basel III](https://nhadautu.vn/lan-song-tang-von-ngan-hang-2026-cuoc-dua-dap-ung-basel-iii-va-bo-dem-an-toan-moi-d105019.html) · [Vietstock/Investing — Techcombank tiên phong triển khai Basel III](https://vn.investing.com/news/economy-news/techcombank-tien-phong-trien-khai-basel-iii-cung-co-nen-tang-von-va-quan-tri-rui-ro-theo-chuan-quoc-te-2500748) · [CafeF — hé lộ kế hoạch kinh doanh 2026 của VPBank, MB và Techcombank](https://cafef.vn/he-lo-ke-hoach-kinh-doanh-nam-2026-cua-vpbank-mb-va-techcombank-188260219231937129.chn) · [Nhân Dân — tỷ lệ an toàn vốn (CAR) trong đánh giá ngân hàng](https://nhandan.vn/ngan-hang-tang-cuong-bo-dem-von-post746200.html)
+
 - **🎯🚨⚠⚠ 19:54 ICT SUN 16-AUG · THE QUOTA-REMOVAL PILOT FINALLY HAS AN INSTRUMENT, A DATE AND CRITERIA —
   AND ITS CRITERIA SELECT AGAINST THE BANK THE FILE CREDITS WITH THE QUOTA PRIVILEGE (lane 1).**
   *This closes a question the file named twice as open and "the natural next question": 14-Aug 01:54 got a
