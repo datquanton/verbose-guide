@@ -122,6 +122,61 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨⚠⚠ 10:54 ICT SUN 16-AUG · "DEPOSIT RATES ARE FALLING" AND "DEPOSIT RATES ARE RISING" ARE BOTH TRUE
+  THIS WEEK, BECAUSE THEY ARE DIFFERENT TENORS — AND I WAS RIGHT TO DECLINE THE CLAIM TWICE (lanes 1, 6, 3).**
+  *First per-bank deposit figures on file for all three banks.*
+
+  🎯 **THE RESOLUTION, AND IT IS A TENOR SUBSTITUTION — A NEW MEMBER OF THIS FILE'S MEASURE FAMILY.**
+  | source, this week | claim |
+  |---|---|
+  | 10-Aug | *"tăng lãi suất huy động kỳ hạn **6–13 tháng**"* — RAISING |
+  | 11-Aug | *"trên đà **tăng mạnh**"* — rising strongly |
+  | 15-Aug | *"lãi suất huy động **bất ngờ giảm**"* — unexpectedly FALLING |
+  ***All three are true. The sector is RAISING the short-to-mid end and CUTTING the long end at the same
+  time — a curve move, not a level move.*** **Every "deposit rates fell/rose" headline this week is
+  unfalsifiable without a tenor attached**, which is exactly why the claim was declined at 18:54 Sat and
+  again at 09:54 today for want of figures. *The figures did not confirm it or refute it; they dissolved it.*
+
+  ✅ **THE FIGURES — 12-MONTH BOARD RATES, AUG-2026, FIRST TIME ALL THREE ARE ON FILE TOGETHER:**
+  | bank | 12m | long end | move |
+  |---|---|---|---|
+  | **MBB** | **6.35%** | — | — |
+  | **VPB** | **6.20%** | **36m 4.20%** | **12m RISEN +0.2pp (on file, 13:54); 36m CUT 1.4pp from 5.60%** |
+  | **TCB** | *disputed — see below* | **6.9% long tenors** | **UNCHANGED in August** |
+  🚨 ***VPB'S DEPOSIT CURVE IS INVERTED BY 200bp: 6.20% at 12 months against 4.20% at 36 months.*** *A bank
+  raising its 12-month rate while cutting 36-month funding by 140bp is **refusing to lock in term money** —
+  consistent with expecting rates to fall, or with not needing it. **Either reading is a signal, and the
+  file had neither.***
+  ⚠⚠ **A CONTRADICTION INSIDE THE TCB SOURCE, FLAGGED AND NOT RESOLVED: the same result gives TCB "12-month
+  7.25%" AND "highest rate 6.9%".** ***A 12-month rate cannot exceed the stated maximum.*** *The article's own
+  headline says **"Techcombank tháng 8/2026 KHÔNG ĐỔI, kỳ hạn dài giữ 6,9%/năm"** — unchanged, long tenors at
+  6.9% — so the 7.25% is most likely another bank's row misattributed by the summariser. **NEITHER NUMBER IS
+  ADOPTED as TCB's 12-month rate**, and the difference matters because it decides whether TCB pays the most.*
+
+  ⚠⚠ **WHAT IS PORTFOLIO-RELEVANT, STATED NARROWLY: TCB's board rates are UNCHANGED in August while VPB cuts
+  140bp at the long end.** *The file's differentiated block has TCB with an evidenced funding roll and NO
+  offsets, against VPB/MBB with offsets. **A peer taking long-end relief that TCB is not taking is consistent
+  with that split** — and it is one month of board rates, not a thesis.*
+  ⚠⚠⚠ **AND THE INSTRUMENT DISTINCTION FROM 18:54 STILL BINDS: these are RETAIL BOARD RATES; TCB's +200bp
+  roll is WHOLESALE/BOND funding.** *Different market, different tenor, different repricing clock. **The two
+  legs may move oppositely and neither refutes the other.***
+
+  🚨 **A FIFTH VALUE COLLISION, IN THE SAME DOMAIN AS THE FOURTH AND ONE DAY LATER: `200bp`.**
+  | 200bp means | where |
+  |---|---|
+  | **VPB's 12m-to-36m deposit-curve inversion** | **new, this hour** |
+  | **TCB's evidenced wholesale funding roll** | on file since early Aug |
+  ***Two funding-cost facts about two different banks on two different instruments, one paragraph apart,
+  sharing a number.*** *After ₫1,097bn, 19.2%, ₫167,0xx and ₫25,561. **Five in 48 hours, and this one was
+  created by my own arithmetic this hour — the subtraction that produced it is the reason it is flagged
+  rather than the reason it is dangerous.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on the deposit figures and does NOT fire: board rates are
+  PRICES A BANK POSTS, not disclosed results, and no held name's evidence status changed. Trigger 5 remains
+  FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  [Thương Gia — lãi suất tiết kiệm Techcombank tháng 8/2026 không đổi, kỳ hạn dài 6,9%/năm](https://thuonggiaonline.vn/lai-suat-tiet-kiem-techcombank-thang-82026-khong-doi-ky-han-dai-giu-muc-69nam-post572081.html) · [VietnamNet — lãi suất ngân hàng 10/8: tăng huy động kỳ hạn 6–13 tháng](https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-10-8-2026-tang-lai-suat-huy-dong-ky-han-6-13-thang-2543696.html) · [CafeF — lãi suất ngân hàng 11/8 tại Agribank, Vietcombank, BIDV, VietinBank, MB…](https://cafef.vn/lai-suat-ngan-hang-11-8-tai-agribank-vietcombank-bidv-vietinbank-mb-sacombank-hdbank-18826081120405852.chn) · [Vietstock — lãi suất huy động bất ngờ giảm](https://vietstock.vn/2026/08/lai-suat-huy-dong-bat-ngo-giam-757-1479046.htm)
+
 - **🚨🚨⚠⚠ 09:54 ICT SUN 16-AUG · THE SBV CONSTRAINT IS LOOSENING AT BOTH ENDS FOR THE FIRST TIME IN THIS
   FILE'S RECORD — AND A DISCRIMINATOR THE FILE WROTE DOWN TO CATCH A FALSE POSITIVE HAS EXPIRED (lanes 1, 6).**
   *08:54 was a genuine nil. This hour is not.*
