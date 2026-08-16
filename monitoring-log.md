@@ -122,6 +122,51 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠⚠🚨 02:54 ICT MON 17-AUG · THE LAST FTSE CRITERION STAYS UNTESTED — BUT THE SEARCH RETURNED SOMETHING
+  BIGGER: VPX REPORTEDLY LED THE ENTIRE SECURITIES INDUSTRY ON PROFIT IN Q2/2026, AHEAD OF SSI AND TCBS
+  (lanes 4, 6, 3).**
+
+  ⚠ **THE NULL FIRST, BECAUSE IT IS WHAT I WENT LOOKING FOR. Per-stock turnover for TCX and VPX is NOT
+  returned** — so **liquidity, the last standing FTSE criterion for both names since 12:54 Saturday, remains
+  untested.** *Market-level context only: 2026 average session value forecast at **₫34,850bn, +20% YoY**.*
+  ***The 21-Aug roster settles the question in four sessions regardless, so this is a gap that closes itself.***
+
+  🚨 **THE UNSOUGHT FINDING: *"In Q2/2026 VPBankS took the lead across the entire securities industry in
+  profitability, surpassing two former champions SSI and TCBS."*** ***That is one holding overtaking
+  another*** — VPX and TCX are both in this book, at 8.3% combined.
+  ⚠⚠ **AND IT LANDS ON THE FILE'S OWN BROKER CROSS-SECTION AWKWARDLY: P/B TCX 2.49× · VCK 2.32–2.50× ·
+  VCI 1.378× · **VPX 1.36–1.47×**; ROE VCK 14.3–15.5% · TCX 12.4% · **VPX 10.5%** · VCI 7.8%.** *If VPX is
+  now the industry's most profitable firm while trading at the CHEAPEST end of that table and carrying the
+  second-lowest ROE, either the ROE is stale or the profit lead is a level rather than a return.* **Both
+  readings are recorded and neither is chosen.**
+
+  ⚠⚠⚠ **AND A NUMBER THAT BEARS DIRECTLY ON THE FIELD THIS FILE ALREADY FLAGGED AS SUSPECT: VPX's 2026 PBT
+  TARGET IS >₫6,450bn.**
+  | comparison | ₫bn | target implies |
+  |---|---|---|
+  | target PBT | 6,450 | — |
+  | **implied NPAT at 20% tax** | **~5,160** | — |
+  | model `npat_ttm` | 2,800 | **1.84×** |
+  | earnings-path reconstruction | 3,047–3,447 | 1.50–1.69× |
+  | margin-room reconstruction | 3,559 | 1.45× |
+  ⚠ ***A TARGET IS NOT AN ACTUAL AND IS NOT TREATED AS ONE.*** *The file already sets VPX confidence at 0.55
+  and flags `npat_ttm` as failing its own cross-check, with the number "left for the filing". **This does not
+  resolve it — it bounds the company's own ambition at roughly 1.5–1.8× the figure the model carries**, which
+  is a wide enough gap that the resolution matters and a company target is the weakest possible evidence for
+  it.* **§4 human-only; escalated, not edited.**
+  ⚠ **DATING CAUTION, STATED: the two VPX articles carry TNCK ids in the 388–389k range against 395k for
+  mid-August pieces, so they are NOT current-week and their exact dates are unestablished.** *The "Q2/2026"
+  and "2026 target" framings are internally dated, which is why they are usable at all — but **the industry
+  profit ranking is a claim about a quarter, from a source I cannot date, and it is logged at that strength.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved — a company target is not evidence about a filed
+  actual, and §4 bars the field regardless. `DECISION-BRIEF.md` byte-identical.
+  NO NEW TRIGGER FIRES — trigger 4 considered on VPX's profit lead and does NOT fire: **an undated ranking
+  claim does not change a held name's evidence status**, and the `npat_ttm` defect it touches was already on
+  file with confidence already cut to 0.55. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED;
+  triggers 1 and 3 negative.**
+  [TNCK — bức tranh tăng trưởng VPBankS (VPX) năm 2026](https://www.tinnhanhchungkhoan.vn/buc-tranh-tang-truong-vpbanks-vpx-nam-2026-khi-cac-manh-ghep-cung-vao-guong-post388408.html) · [TNCK — lợi nhuận VPBankS (VPX) tăng gần 47% trong quý I/2026](https://www.tinnhanhchungkhoan.vn/loi-nhuan-vpbanks-vpx-tang-gan-47-trong-quy-i2026-post389108.html) · [VnEconomy — dư nợ margin kỷ lục hơn 446 nghìn tỷ đồng](https://baomoi.com/du-no-margin-ky-luc-hon-446-nghin-ty-dong-phan-lon-tap-trung-vao-hoat-dong-cho-vay-theo-deal-rieng-c55664619.epi)
+
 - **✅✅ 01:54 ICT MON 17-AUG · VPX'S FOREIGN ROOM IS 100% — THE FIFTH TCX/VPX TEST AND THE FIRST TO COME BACK
   A MATCH. FOREIGN ACCESSIBILITY IS NOW ELIMINATED FOR BOTH (lanes 7, 4).**
   *Closing an item I explicitly refused to infer four times rather than opening new ground.*
