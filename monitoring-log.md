@@ -122,6 +122,57 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 13:54 ICT SUN 16-AUG · THE DENOMINATOR I NAMED AN HOUR AGO IS NOW ESTIMATED — THE +200bp ROLL IS
+  WORTH 2–23bp OF BLENDED FUNDING COST, AND TCB TURNS OUT TO HAVE THE ONE OFFSET THE FILE SAYS IT LACKS
+  (lanes 3, 6).**
+
+  ✅ **TWO FIGURES, BOTH ABSENT FROM THIS LOG UNTIL NOW: TCB CUSTOMER DEPOSITS ₫697,400bn AT 30-JUN-2026
+  (+4.8% YTD), AND CASA AT 38.3% OF DEPOSITS = ₫267,000bn.**
+  ✅ **INTERNAL CHECK: 38.3% × ₫697,400bn = ₫267,104bn against the ₫267,000bn reported — 0.04% APART.** *Two
+  separately-quoted figures reproducing each other to four parts in ten thousand.* *Deposits are **54.8% of
+  the ₫1,273,000bn total assets** established at 18:54 yesterday.*
+
+  🎯 **THE ESTIMATE, WITH ITS ASSUMPTIONS ON THE TABLE.** Solve `d(1−w) + 8.5w = 4.4` for the wholesale share
+  **w**, where **d** is blended deposit cost built from the CASA split and the 12-month board rates
+  established at 11:54 (6.15% counter / 6.45% mid / 6.75% online):
+  | CASA cost assumed | term cost | implied deposit cost | implied wholesale share | **+200bp on that share** |
+  |---|---|---|---|---|
+  | 0.2% | 6.15% | 3.87% | 11.4% | **23bp** |
+  | 0.5% | 6.45% | 4.17% | 5.3% | **11bp** |
+  | 1.0% | 6.15% | 4.18% | 5.1% | **10bp** |
+  | 0.5% | 6.75% | 4.36% | 1.1% | **2bp** |
+  ⚠⚠⚠ ***ACROSS EVERY PLAUSIBLE PAIR THE ANSWER LANDS BETWEEN 2bp AND 23bp — UNDER A QUARTER OF A
+  PERCENTAGE POINT, AGAINST A NIM OF 3.6%. That is 0.6% to 6.4% of NIM.***
+  🚨 **SO THE +200bp ROLL CANNOT CARRY THE WEIGHT THE FILE'S BANK SPLIT PUTS ON IT.** *It is real, it is
+  TCB's own bond issuance, and at the blended level it is small.* ⚠ **THE RANGE IS WIDE AND THE ASSUMPTIONS
+  ARE NOT DISCLOSED — CASA and term deposit costs are mine, not TCB's.** ***What is robust is the ORDER, not
+  the point estimate: every cell is under 25bp, and no assumption inside the plausible range produces a
+  number that would matter to a 3.6% margin.***
+
+  🚨⚠⚠ **AND THE FINDING UNDER THE FINDING: TCB's CASA IS 38.3% AGAINST VPB's 12.5% (established 12:54) —
+  A 3.1× ADVANTAGE.** ***That is what puts TCB's blended cost 41bp BELOW the sector, and it is a structural
+  funding offset.*** **The file's differentiated block reads *"TCB with an evidenced +200bp funding roll and
+  NO offsets, against MBB/VPB carrying quota, reserve and liquidity offsets."*** ⚠⚠⚠ ***TCB HAS AN OFFSET.
+  It is not a policy privilege — it is a deposit franchise — which is exactly why a search for POLICY
+  offsets never found it.*** *The three offsets the file catalogued are all things the SBV grants; this one
+  TCB owns.*
+  ⚠ **STATED AS A CORRECTION TO THE FRAMING, NOT TO THE FACTS: every component of the file's split is
+  individually true.** *TCB is not a restructuring bank, has no quota privilege, no reserve cut, no liquidity
+  support, and does carry the roll. **The word that fails is "NONE".***
+  ⚠ **AND A DIRECTION QUESTION LEFT OPEN RATHER THAN GUESSED: one headline this hour reads *"tiền gửi không
+  kỳ hạn giảm mạnh, 'ông vua CASA' cũng hụt hơi"* — CASA falling sharply, the "CASA king" running short.
+  The file has no prior CASA level for TCB, so 38.3% is a first observation and its TREND is unestablished.**
+  *If it is falling, the offset is decaying and the size of that decay is the next question.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — cost of funds, CASA and NIM are not inputs
+  this model carries. `DECISION-BRIEF.md` byte-identical.
+  ⚠ **TRIGGER 4 CONSIDERED SERIOUSLY AND DOES NOT FIRE.** *A reader could argue TCB's evidence status
+  improved: the burden shrank and an offset appeared. **But nothing DISCLOSED about TCB changed — the 4.4%,
+  the deposits and the CASA are all Q2 facts that existed before I found them, and trigger 4 covers evidence
+  CHANGING, not evidence ARRIVING at this file.*** **NO NEW TRIGGER FIRES — trigger 5 remains FIRED;
+  trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  [CafeBiz — lợi nhuận quý 2 Techcombank chạm đỉnh mới](https://cafebiz.vn/loi-nhuan-quy-2-techcombank-cham-dinh-moi-tu-dong-luc-tang-truong-da-chieu-176260722183635764.chn) · [VietnamNet — Techcombank lãi kỷ lục trong quý II/2026](https://vietnamnet.vn/techcombank-lai-ky-luc-trong-quy-ii-2026-2537945.html) · [VietnamNet — tiền gửi không kỳ hạn giảm mạnh, "ông vua CASA" cũng hụt hơi](https://vietnamnet.vn/tien-gui-khong-ky-han-giam-manh-ong-vua-casa-cung-hut-hoi-2543068.html) · [VietBao — tăng trưởng nửa năm 22,5%, lợi nhuận quý 2 cao nhất từ trước tới nay](https://vietbao.vn/tang-truong-nua-nam-225-techcombank-dat-loi-nhuan-quy-2-cao-nhat-tu-truoc-toi-nay-599917.html)
+
 - **🎯🚨⚠⚠ 12:54 ICT SUN 16-AUG · TCB's BLENDED COST OF FUNDS IS 4.4% — BELOW THE SECTOR'S 4.81% — WHICH
   SIZES A QUALIFICATION ON THE FILE'S BANK SPLIT WITHOUT OVERTURNING IT. And I chased a suspected error in
   the file's own +200bp claim; there isn't one (lanes 1, 6, 3).**
