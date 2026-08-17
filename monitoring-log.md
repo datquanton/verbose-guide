@@ -122,6 +122,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 19:54 ICT MON 17-AUG · THE TRIGGER-4 ANCHOR IS CONFIRMED TO 0.007% BY A ROUTE THAT
+  NEVER TOUCHES IT — AND THE FILE HAD VPX's PROFIT WITHOUT ITS REVENUE, THE SAME GAP FOUND ON VCI NINE HOURS
+  AGO (lane 3, the fired-trigger name).**
+  🎯 **THE CONFIRMATION FIRST.** VPX's **FY2026 PBT target is ₫6,453bn, stated as +44.2% on 2025.**
+  **Zero prior hits for `44.2%` — the file holds the target but never the growth rate.** ***Invert it:
+  6,453 ÷ 1.442 = ₫4,475.7bn implied FY2025 PBT. The file's FILED FY2025 PBT is ₫4,476bn. 0.007% apart.***
+  ✅ **That is the trigger-4 calculation's first anchor, reproduced from a FORWARD TARGET and a GROWTH RATE —
+  neither of which is the FY2025 figure, and neither of which came from the filing that produced it.**
+  ⚠ *The file carries the target as both ₫6,450bn and ₫6,453bn; the precise figure is the one that closes
+  (6,450 ÷ 1.442 = ₫4,473.6bn, 0.05% off). **The rounding mattered and the unrounded figure won.***
+  ✅ **NEW, ZERO PRIOR HITS: VPX's H1/2026 OPERATING REVENUE ₫7,013bn (~4× H1/2025), AND THE FY2026 REVENUE
+  TARGET ₫11,074bn (+39%).** **The file holds H1 PBT ₫2,673bn, NPAT ₫2,169bn, Q2 PBT ₫2,159bn, ROE 14%,
+  assets ~₫89,000bn — and had NO top line for any of it.** ***Second time today the file has held a broker's
+  profit without its denominator; the first was VCI at 10:54.***
+  🚨 **AND THE TWO PACES DIVERGE SHARPLY.** **Revenue is at 63.3% of plan at the half (7,013 ÷ 11,074);
+  PBT is at 41.4% (2,673 ÷ 6,453). A 21.9pp gap.** **H1 PBT margin 38.12%** against a **plan margin of
+  58.27%** (6,453 ÷ 11,074). ***Back out H1/2025 from the growth multiples — revenue ≈₫1,753bn, PBT ≈₫891bn —
+  and last year's margin was 50.8%. The margin has fallen 12.7pp year-on-year while the plan requires it to
+  RISE to 58.3%.***
+  🎯 **THE CLEANEST STATEMENT OF THE PROBLEM, NEEDING NO FORECAST: if H2 merely REPEATS H1, VPX ends the
+  year at ₫14,026bn revenue = 127% of plan, and ₫5,346bn PBT = 83% of plan.** ***It overshoots the revenue
+  target by 27% and still misses the profit target by 17%.*** *(Management is on record as confident of
+  completing the plan; that is their view, recorded, not adopted.)*
+  ⚠⚠ **THE INSTRUMENT CAUTION, RAISED BEFORE THE CONCLUSION RATHER THAN AFTER — WHICH IS THE POINT.**
+  **Vietnamese broker *"doanh thu hoạt động"* includes GROSS realised proceeds on FVTPL disposals.** ***So a
+  4× revenue jump beside a 3× profit jump is characteristic of higher TRADING TURNOVER, not necessarily a
+  margin collapse — the ratio is contaminated by gross-vs-net recognition.*** **The 12.7pp margin decline is
+  therefore an UPPER BOUND on any real margin deterioration, not a measurement of it.** *Same species as
+  VCI's AFS caution at 10:54; there I reconciled after drawing the inference, here before.*
+  🚨 **WHAT THIS DOES AND DOES NOT DO TO TRIGGER 4.** ***It does NOT change the arithmetic: `npat_ttm`
+  stays carried at ₫3,580.8bn against ≈₫5,039bn built from filed FY2025 PBT ₫4,476bn and filed H1/2026 NPAT
+  ₫2,169bn — 1.41×, understated 28.9%.*** **What changes is the CONFIDENCE IN THE ANCHOR: the FY2025 PBT leg
+  is now independently reproduced to 0.007%, so the gap can no longer be explained by that figure being
+  wrong.** **This is the THIRD independent route to the same conclusion** *(route 1: the two filings; route
+  2: P/B ÷ ROE at 27.4%; route 3: this)*. **§4 HUMAN-ONLY — `assumptions.json` UNTOUCHED.**
+  ⚠ **A TEMPTING EXPLANATION FOR THE SHARE-COUNT ANOMALY, PRE-EMPTIVELY REFUSED.** VPX plans to raise
+  **US$450–500m internationally** *(zero prior hits for the figure)*. ***A later sweep may reach for this to
+  explain the 1,875.2m implied share count against the ≤1,500m ceiling. It does not: "huy động vốn quốc tế"
+  for a Vietnamese broker is ordinarily OFFSHORE DEBT — syndicated facilities — not equity, and debt does not
+  create shares.*** **Fenced now, before it is used.** *At ₫26,300 the raise is ≈₫11,800–13,150bn = 13–15% of
+  the ₫89,000bn asset base; the file already holds >₫33,000bn of unused margin-lending room, so the use of
+  proceeds is legible without invoking equity.*
+  **PORTFOLIO IMPACT:** the escalated VPX defect survives its strongest available cross-check and its first
+  anchor is now confirmed from an independent direction; separately, the name's profit pace is materially
+  behind its plan while its revenue pace is far ahead. **Nothing modelled; no §4 input touched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) AND IS NOW BETTER EVIDENCED THAN WHEN IT FIRED.
+  TRIGGER 5 REMAINS FIRED — MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW AND THE FTSE LIST LAND FRI 21-AUG
+  = SESSION 5; and the CORE circumvention PRELIMINARY intended 24-AUG enters the 5-session window TOMORROW.**
+  Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: vietstock.vn 1473560 (VPBankS FY26 targets ₫11,074bn revenue / ₫6,453bn PBT, +39% / +44.2%;
+  US$450–500m international raise); vietbao.vn 599429 (H1 PBT ~₫2.7tn ~3×, revenue ₫7,013bn ~4×); file's own
+  filed anchors at line 856 (Q2 PBT ₫2,159bn, H1 PBT ₫2,673bn, NPAT ₫2,169bn, assets ~₫89,000bn, >₫33,000bn
+  margin room) and line 6503 (the ₫6,453bn plan as a model input).
+
 - **🚨🚨🎯 17:54 ICT MON 17-AUG · THE FILE HAS BEEN WATCHING THE WRONG FIELD. `price` DOES NOT
   ENTER THE EXPECTED-RETURN CALCULATION AT ALL — `cap_now = pe_ttm × npat_ttm`. A STALE PRICE IS NOT THE
   PROBLEM; IT IS THE SYMPTOM OF A STALE `pe_ttm`, WHICH IS THE FIELD THAT DRIVES EVERYTHING (lanes 7, 3, 1).**
