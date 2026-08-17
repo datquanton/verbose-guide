@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 04:54 ICT TUE 18-AUG · A NAMED OPEN ITEM CLOSES: TCB's CREDIT QUOTA IS 12% — AND IT
+  USED 10.39% OF IT IN THE FIRST HALF, LEAVING ~1.45% OF GROWTH FOR H2. THE QUOTA PRIVILEGE BECOMES
+  QUANTITATIVE FOR THE FIRST TIME (lanes 1, 3).**
+  ✅ **THE FILE NAMED THIS GAP EXPLICITLY AND REFUSED TO GUESS AT IT.** Line 4206: *"WHAT I AM NOT CLAIMING:
+  THAT TCB WAS GIVEN 13%. TCB is absent from the privileged four, but absence from that list does not fix its
+  allocation — **quotas vary bank by bank and TCB's is NOT established here.**"* ***That refusal was right and
+  it is now answerable.*** ✅ **NEW: Techcombank was allocated a credit growth limit of 12%.** *Zero prior hits
+  for a TCB quota figure.*
+  🚨 **AND THE FILE ALREADY HELD THE OTHER HALF, WHICH IS WHAT MAKES IT BITE. TCB's OWN Q2 RELEASE STATES
+  CREDIT GREW +10.39% YEAR-TO-DATE AT THE HALF.** ***10.39 of 12 is 86.6% of the full-year allowance consumed
+  in six months.*** **Remaining headroom is 1.61pp of the start-year base — which on the H1 balance is growth
+  of just +1.45% across the whole second half.**
+  🎯 **THE PRIVILEGE IS NOW MEASURABLE, NOT MERELY NAMED.** The file holds the credit-quota privilege as
+  going to **four banks — VCB, MB, HDBank, VPB — with TCB absent.** Against that:
+  | bank | privileged? | H1 credit / loan growth YTD |
+  |---|---|---|
+  | **VPB** | ✅ yes | **+24.6%** (`credit_growth_ytd`) |
+  | **MBB** | ✅ yes | **+13.2%** (`h1_customer_loans_growth_ytd`) |
+  | **TCB** | ❌ **no** | **+10.39%** (company release) |
+  ***VPB grew credit 2.37× as fast as TCB in the same half.*** **The file has carried "TCB with no quota
+  offset against MBB/VPB carrying quota, reserve and liquidity offsets" as a QUALITATIVE split since early
+  August. This is the first time a number sits under it.**
+  ⚠⚠ **STRENGTH STATED HONESTLY, BECAUSE THE FILE REFUSED A WEAKER VERSION OF THIS CLAIM ONCE ALREADY. The
+  12% is T5 — a Vietnamese aggregator summary carrying no date.** ***I must not now assert from a weak source
+  what line 4206 correctly declined to assert from an absence.*** **What raises it above a bare figure is
+  that it is INTERNALLY CONSISTENT with a number the file already held from TCB itself: 10.39% fits inside
+  12% and fits TIGHTLY — a fabricated or mismatched cap would have no reason to land 1.61pp above the actual.**
+  ⚠ **AND TWO THINGS THAT WOULD LOOSEN IT: (a) SBV ROUTINELY REVISES ALLOCATIONS UPWARD IN Q3/Q4, so "1.45%
+  left for H2" is a no-uplift case, not a forecast; (b) the file's own quota-REMOVAL pilot (`Công điện
+  128/CĐ-TTg`, 06-Aug-2025) selects on prudential ratios and credit quality — if TCB qualifies, the cap
+  decays.** ***Both cut the same way: toward the constraint being softer than 1.45%.***
+  🎯 **PORTFOLIO READ, AND IT IS NOT THE OBVIOUS ONE. A binding quota is a growth constraint AND a margin
+  protection** — a bank that cannot grow volume competes less on price. **The file separately established
+  TCB's blended cost of funds at 4.4% against the sector's 4.81%, and CASA at 38.3% versus VPB's 12.5%, a
+  3.1× advantage it called "an offset TCB OWNS" rather than one the SBV grants.** ***A franchise-funded bank
+  with a tight volume cap is a different animal from a privileged bank growing 24.6% into a rising cost of
+  funds. Neither reading is banked — this is the GATHER stage.***
+  ⚠ **A NEAR-MISS WORTH RECORDING: I INDEPENDENTLY REBUILT A REFUTATION THE FILE HAD ALREADY MADE — AND THEN
+  FOUND THE WITHDRAWAL.** The log's 28-Jul entry reconciles TCB's credit-vs-loans gap by inferring the
+  corporate bond book *"shrank… every plausible starting balance implies a large decline"* — while another
+  entry holds **"TCB: corporate bonds +80% YTD."** **I proved these incompatible from the arithmetic: with
+  credit +10.39% and loans +14.46%, a bond book at +80% requires a NEGATIVE opening balance
+  (0.6961 × B₀ = −33,763).** ✅ ***Then found `assumptions.json` already carries
+  `_CREDIT_VS_LOANS_RESOLVED_AND_THE_28_JUL_INFERENCE_IS_INVERTED_2026_08_01` — the file withdrew it
+  seventeen days ago and reached the same answer.***
+  🚨 **BUT THE HYGIENE FINDING IS REAL AND IS NEW: THE WITHDRAWAL LIVES ONLY IN `assumptions.json`. THE
+  LOG ENTRY STILL PRESENTS THE DEAD INFERENCE AS "a coherent explanation" WITH NO WITHDRAWAL MARKER.**
+  ***Anyone grepping the log — as I just did — finds a retracted claim alive and unqualified.*** *The file's
+  own convention is to strike through superseded gate rows; that convention was not applied to a superseded
+  ENTRY, and the two artefacts have drifted.*
+  **PORTFOLIO IMPACT:** the largest holding's growth constraint has a number for the first time, and the
+  quota privilege that separates it from MBB/VPB is now measured rather than asserted. **Nothing modelled — no
+  quota figure is a model input; no §4 field touched; TCB confidence unchanged at 0.7.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — TODAY MBB's RIGHTS BEGIN TRADING; FRI 21-AUG = SESSION 4
+  (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG =
+  SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: doanhnghiepkinhtexanh.vn a44815 / cafef.vn 188260219231937129 (TCB credit growth limit 12%; VPB
+  FY26 PBT plan >₫41,000bn, MB ₫39,500bn); znews.vn post1674509 (H1 profit gap; VPB +68% to ~₫18,900bn);
+  `research/models/assumptions.json` — `tcb.model.consolidated_customer_loans_growth_ytd` 0.104,
+  `vpb.actuals.credit_growth_ytd` 0.246, `mbb.actuals.h1_customer_loans_growth_ytd` 0.132,
+  `tcb.model._CREDIT_VS_LOANS_RESOLVED_..._2026_08_01`; this file's lines 2003 and 4206.
+
 - **🚨🚨🚨 03:54 ICT TUE 18-AUG · I WITHDRAW THE ROBUSTNESS CLAIM I MADE ONE HOUR AGO. I TESTED
   THE AXIS I HAPPENED TO NOTICE, CALLED THE RESULT ROBUST, AND NEVER TESTED A SECOND AXIS THAT IS LARGER AND
   FLIPS THE SIGN (lane 5). No new development; a correction to my own work.**
