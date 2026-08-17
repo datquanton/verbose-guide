@@ -122,6 +122,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠⚠ 12:54 ICT MON 17-AUG · A BLOCK MARKED "ON FILE IN FULL" CARRIES FOUR FIGURES OF WHICH
+  THREE CLOSE AND ONE DOES NOT — AND A NEWLY-FOUND FIFTH FIGURE VALIDATES THE THREE TO 1.0% (lanes 5, 1, 3).
+  The status that stops anyone checking is the status that most needs checking.**
+  **THE ROW.** Gate row 39 — *"SECTOR NPL & LLR COVERAGE CROSS-SECTION, H1/2026 · **On file in full**"* —
+  carries: sector NPL **1.97% (from 1.88%)**, total NPLs **>₫310,000bn**, **+21.4% YTD / +9.5% QoQ**, and
+  **~₫48,000bn added in H1**. *Added 15-Aug 13:54 after a search came back ~90% covered.* **Nothing since has
+  tested the four numbers against each other. This hour did.**
+  ✅ **TEST 1 — THE QoQ BLOCK CLOSES.** Stock **+9.5% QoQ** against a ratio moving **1.88% → 1.97%**
+  (**+4.79% relative**) implies **QoQ LOAN growth of 1.095 ÷ 1.0479 = +4.49%**. System credit was **+7.41%
+  YTD at 26-Jun**; with Q1 around +2.8%, **Q2 alone is ≈ +4.5%.** ✅ **Coherent.**
+  ✅ **TEST 2 — THE TWO GROWTH RATES ARE MUTUALLY COHERENT.** If Q2 added 9.5% and the half added 21.4%, then
+  Q1 added **1.214 ÷ 1.095 − 1 = +10.87%**, and **1.1087 × 1.095 = 1.214** ✅ — the pair reproduces itself.
+  🚨 **TEST 3 — AND HERE THE FOURTH FIGURE FAILS.** **+21.4% YTD on an end-H1 level of ₫310,000bn implies a
+  start-year base of ₫255,354bn and an H1 INCREMENT of ₫54,646bn.** **The same row carries ~₫48,000bn.**
+  ⚠ **Gap: ₫6,646bn — 12.2% of the increment.** *Solved the other way, ₫48,000bn at +21.4% forces an end-H1
+  level of ₫272,299bn, which is BELOW the row's own ">₫310,000bn". The two cannot both describe one sample.*
+  ***So three of the four figures form a closed system and ₫48,000bn is the outlier.***
+  🎯 **TEST 4 — A NEWLY-FOUND FIGURE ADJUDICATES, AND IT BACKS THE THREE. ZERO PRIOR HITS FOR `1.76%`.**
+  End-2025 sector NPL is reported at **1.76%**. **The file's own YTD block predicts it without being told:**
+  **1.97% × 1.0741 ÷ 1.214 = 1.743%.** **Against 1.76% reported — 1.0% apart.** ✅ ***A ratio, a stock growth
+  rate and a credit growth rate, from three unrelated sources, reproducing a fourth number nobody supplied.***
+  ⚠ **THE CAVEAT IS REAL AND IS STATED, NOT BURIED: that close mixes a SYSTEM credit-growth number (+7.41%,
+  all credit institutions) with a LISTED/27-BANK NPL ratio.** **Different populations.** *It holds only if the
+  two sets grew credit at similar rates in H1 — though agreement to 1.0% across that mismatch is itself weak
+  evidence that they did. **Sample discipline applies to the check as much as to the thing checked.***
+  ⚠ **THE LIKELY RESOLUTION, STATED AS LIKELY.** The ₫48,000bn is probably a **different bank sample** from
+  the ₫310,000bn "27 banks" aggregate — **the sample/population substitution again**, and the parsimonious
+  read given every other figure agrees. **NOT asserted: no source in hand states the ₫48,000bn universe.**
+  ⚠ **GATE ROW 39 SHOULD NO LONGER READ "ON FILE IN FULL" WITHOUT THIS QUALIFICATION** — but a run may only
+  edit status marks, not rewrite gate content, so **this entry is the qualification and the row is untouched.**
+  ✅ **ALSO CONFIRMED, ALREADY-HELD:** LLR coverage **83%** (file: LLCR **82.9%**, already reconciled at line
+  3172); NPL **highest Q2 level since 2020**; Group-2 **1.45%**; the deterioration concentrated at **CTG, STB,
+  HDB, BID**. ⚠⚠ ***AND THE ABSENCE OF TCB, VPB AND MBB FROM THAT LIST IS NOT EVIDENCE THEY WERE STABLE.***
+  **A top-four concentration list is a ranking, not a census — this is exactly the sample-selection error made
+  on 14-Aug over the FTSE roster, where "every absent large name is a bank" collapsed once the full 23-name
+  list showed STB, VCB, SHB and BID inside it. Not repeated here.** *51.5% of the book is banks and this hour
+  says nothing about our three.*
+  ✅ **FY26 SECTOR FORECAST (SSI), logged as a forecast:** NPL **1.8%** (vs 1.76% end-2025), Group-2 **1.4%**
+  (+20bp), coverage **~85%**. ⚠ *Group-2 forecast 1.4% sits BELOW the 1.45% ALREADY PRINTED at H1 — a
+  forecast implying improvement from here, not deterioration. Noted; not reconciled.*
+  ✅ **THREE FURTHER CLEAN NEGATIVES.** **TCX** (lane 3) — nothing dated August; ₫41,800 and the VN30 entry
+  *"flow completed 31-Jul"* both on file. **PMI 52.9** for July (lane 1) — gate rows 72 and 74, resolved
+  03-Aug. **Coverage-ratio chain** 83% ← 86% ← 95% — the file already flags a two-coverage-series collision.
+  **PORTFOLIO IMPACT:** none modelled — no sector NPL figure is a model input. The finding is that a
+  load-bearing sector block was carrying an internal inconsistency behind an "in full" mark; the block's core
+  is now independently validated and its one bad figure isolated.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed).
+  TRIGGER 5 REMAINS FIRED — TODAY IS SESSION 1; MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW AND THE FTSE
+  LIST BOTH LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: vneconomy.vn — SSI Research, Q2/26 sector NPL up and coverage down (83% ← 86% ← 95%; FY26 NPL 1.8%
+  vs 1.76% end-2025, Group-2 1.4%, coverage ~85%); vietnambiz.vn 202687232656327 (27 banks, NPL >₫310,000bn);
+  baomoi 55760740 / Doanh Nhân VN (+₫48,000bn in H1); baodauthau 203879 (concentration at CTG/STB/HDB/BID);
+  thitruongtaichinhtiente.vn (credit +7.41% to 26-Jun); finance.vietstock.vn/TCX (TCX, no August news).
+
 - **🎯🚨⚠ 10:54 ICT MON 17-AUG · THE FILE HAD VCI'S Q2 PROFIT BUT NEVER ITS REVENUE LINE — AND THE
   REVENUE LINE IS WHAT MAKES THE +36% READABLE: PROFIT +36.26% ON REVENUE +1.39%. Lanes 2, 5, 6, 7; three of
   the four were clean negatives the gate table caught BEFORE the write-up.**
