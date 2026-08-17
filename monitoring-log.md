@@ -122,6 +122,73 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 20:54 ICT MON 17-AUG · THE PENDING VPX CORRECTION FIRES TRIGGER 3 IN *EVERY*
+  DIRECTION — AND THE SIGN FLIPS DEPENDING ON WHICH FIELD THE HUMAN TREATS AS WRONG. −29.0pp OR +25.0pp,
+  BOTH FAR BEYOND THE 10pp BAR. THIS HAS NEVER BEEN COMPUTED (lanes 3, 6).**
+  ✅ **WHAT WAS ALREADY DONE, AND WHERE IT STOPPED.** The 05:54 entry built the cap table — **as carried
+  ₫49,881bn / 13.93×; at 1,500m shares ₫39,900bn / 11.14×; at 1,500m shares with 04:54's corrected
+  `npat_ttm` 5,039, ₫39,900bn / 7.92×** — and the 17:54 entry established the closed form
+  **E[r]_new = (E[r]_old − cash_yield + 1)/k − 1 + cash_yield.** ***Nobody ran the second through the
+  first.*** **VPX's `cash_yield` is 0.0, so the form collapses exactly to E[r]_new = 1/k − 1 — no
+  approximation anywhere.**
+  🚨 **THE THREE CANDIDATE CORRECTIONS, AND THEY DO NOT AGREE EVEN IN SIGN.** VPX's raw E[r] is **−0.0%**.
+  | construction | cap_now ₫bn | k | **raw E[r]** | implied shares vs ≤1,500m ceiling |
+  |---|---|---|---|---|
+  | **as carried** | 49,881 | 1.000 | **−0.0%** | 1,875.2m — **+25.0%** |
+  | **A · correct `npat_ttm` alone** (3,580.8 → 5,039, `pe_ttm` held 13.93) | 70,193 | 1.4073 | **−29.0%** | 2,639.0m — **+75.9%** |
+  | **B/C · pin cap_now to the market** (1,500m × ₫26,600) | 39,900 | 0.7999 | **+25.0%** | 1,500m — **0%** ✅ |
+  🎯 **AND CONSTRUCTION A IS ARITHMETICALLY SELF-REFUTING, WHICH IS THE MOST USEFUL RESULT HERE.**
+  ***Correcting `npat_ttm` alone drives implied shares from 1,875.2m to 2,639.0m — from 1.25× the IPO ceiling
+  to 1.76×. It makes the second flagged defect WORSE.*** **So the "obvious" reading of trigger 4 — raise
+  `npat_ttm` to the filed-actual TTM and leave everything else — is the one construction the file can rule
+  out on its own arithmetic.** *The two VPX defects were logged separately on 04:54 and 05:54; they are one
+  defect, and testing a fix for either against the other is what exposes it.*
+  🎯 **A STRUCTURAL POINT THAT FALLS OUT AND CHANGES HOW TRIGGER 4 SHOULD BE READ. Constructions B and C
+  give the IDENTICAL E[r], because `cap_now` = price × shares does not depend on `npat_ttm` at all.**
+  ***Once cap_now is pinned to the market, `npat_ttm` stops affecting expected return entirely — it only sets
+  the REPORTED `pe_ttm` (11.14× carried, 7.92× corrected).*** **So the trigger-4 understatement is
+  consequential ONLY if corrected WITHOUT re-pinning cap_now — i.e. only via the construction that is already
+  refuted.** *That is a considerable narrowing of what the human actually has to decide.*
+  🚨 **WHAT B/C WOULD MEAN FOR THE BOOK, STATED SO THE CIO RUN SEES IT.** **Raw E[r] +25.0%; shrunk at
+  confidence 0.55 = +13.8%.** ***That would rank VPX SECOND in the book on both measures*** (MBB +36.6% raw
+  / +18.3% shrunk). **The brief already proposes ADD VPX +5.6pp on an E[r] of −0.0% — carried by the
+  optimizer's risk/correlation terms, not by return. Under B/C the return would agree with the risk.**
+  ⚠⚠ **FOUR CAVEATS, AND THE FIRST IS LOAD-BEARING.** **(1) The ≤1,500m ceiling is the FILE'S OWN derivation**
+  — *"up to 375m shares = up to 25% of capital"*, built 01:54 and cross-checked against the ~79.5% VPB-stake
+  reconstruction — **NOT a filed share count.** *Everything above inherits that.* **(2) `cap_target` is held
+  FIXED throughout.** If `npat_ttm` is understated 40.7%, **`fy26e_npat` may be too, which would raise
+  cap_target and push E[r] HIGHER still — so B/C's +25.0% is a FLOOR, not a point estimate.** **(3) The
+  05:54 circularity caveat stands: the four clean share-count matches prove self-consistency, not
+  correctness.** **(4) This is a SENSITIVITY. Nothing is recommended.**
+  🚨🚨 **THE ESCALATION IN ONE LINE: TRIGGER 3 WILL FIRE ON VPX THE MOMENT THIS §4 CORRECTION IS MADE, IN
+  WHICHEVER DIRECTION IT IS MADE. THE FILE SHOULD NOT BE READ AS SAYING THE CORRECTION IS COSMETIC.**
+  **`price`, `pe_ttm`, `npat_ttm`, `cash_yield`, `confidence` ALL §4 HUMAN-ONLY — `assumptions.json`
+  UNTOUCHED, `DECISION-BRIEF.md` BYTE-IDENTICAL.**
+  ✅ **WHAT LED ME HERE — THE THIRD BROKER, CHECKED FOR THE VCI/VPX PATTERN.** TCX Q2/2026: total revenue
+  **₫3,745bn (+41%)**, PBT **₫2,097bn (+21%)**, net revenue **₫3,250bn** — margin lending **42%**, capital
+  ops + bond distribution **30%**, IB **26%** — all on file. ✅ **NEW: the FY2026 REVENUE target ₫13,200bn**
+  *(zero prior hits; the ₫7,500bn PBT target was already held)*. **H1 = 47% of the profit plan.**
+  🎯 **THE PLAN-PACE RANKING ACROSS THE THREE FINANCIALS, ASSEMBLED FOR THE FIRST TIME: TCX 47% (needs
+  1.13× H1) > VPX 41.4% (needs 1.41×) > VCI 29% (needs 2.45×).** ⚠⚠ ***The engine proposes SELL on the one
+  closest to plan and BUY on the two furthest behind — and that is NOT an inconsistency: plan completion is a
+  company-set benchmark, not a valuation. TCX is 20.05×, VCI 17.6×, VPX 13.93× (7.92× under construction C).
+  The engine ranks price paid for earnings; the plan ranks management's own ambition. Both are recorded so
+  the CIO run is not surprised by the tension.***
+  ✅ *TCX's own block is coherent: 20.05 × 5,687 ÷ 41,100 = 2,774.3m implied shares — consistent with TCBS's
+  charter capital, and consistent with 07:54's book-wide pass finding VPX the sole outlier.*
+  **PORTFOLIO IMPACT:** the human decision the file has been escalating since 04:54 is now sized — it is
+  worth −29.0pp or +25.0pp of expected return on a 2.8%→8.4% position, and one of the two candidate fixes is
+  refuted by the file's own arithmetic.
+  🚨 **TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — MBB RIGHTS TRADE TOMORROW; KDH's INSIDER
+  WINDOW AND THE FTSE LIST LAND FRI 21-AUG = SESSION 5; CORE circumvention preliminary 24-AUG enters the
+  window TOMORROW.** **TRIGGER 3 IS NOT FIRED TODAY — it fires ON CORRECTION, which has not been made.**
+  Trigger 2 STANDING-BREACHED; trigger 1 negative.
+  Sources: tcbs.com.vn press release (TCBS Q2/2026 record PBT ₫2,097bn, revenue ₫3,745bn +41%, net revenue
+  ₫3,250bn, segment mix); vietstock.vn 1472546 (H1 = 47% of plan; FY26 targets ₫13,200bn revenue /
+  ₫7,500bn PBT); `research/models/assumptions.json` (VPX 13.93 × 3,580.8, price ₫26,600, cash_yield 0.0,
+  conf 0.55); `DECISION-BRIEF.md` (VPX raw E[r] −0.0%, ADD +5.6pp); this file's own 05:54 cap table and
+  17:54 closed form.
+
 - **🎯🎯🚨 19:54 ICT MON 17-AUG · THE TRIGGER-4 ANCHOR IS CONFIRMED TO 0.007% BY A ROUTE THAT
   NEVER TOUCHES IT — AND THE FILE HAD VPX's PROFIT WITHOUT ITS REVENUE, THE SAME GAP FOUND ON VCI NINE HOURS
   AGO (lane 3, the fired-trigger name).**
