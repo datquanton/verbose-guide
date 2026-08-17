@@ -122,6 +122,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 03:54 ICT TUE 18-AUG · I WITHDRAW THE ROBUSTNESS CLAIM I MADE ONE HOUR AGO. I TESTED
+  THE AXIS I HAPPENED TO NOTICE, CALLED THE RESULT ROBUST, AND NEVER TESTED A SECOND AXIS THAT IS LARGER AND
+  FLIPS THE SIGN (lane 5). No new development; a correction to my own work.**
+  ✅ **WHAT PROMPTED IT — AN APPARENT VOLUME CONFLICT THAT TURNS OUT NOT TO BE ONE.** A route reports HPG Q2
+  consumption **3.8mt** and H1 **6.8mt**; the file carries **3.5** and **6.5**. **Both gaps are exactly
+  0.3mt.** ***`_q2_volume_source` in `assumptions.json` had already named the answer in advance: the file's
+  basket is "construction steel + high-quality coil + HRC + billet" and **"excludes pipe (212kt) and
+  galvanised (83kt)"** — 212 + 83 = **295kt ≈ 0.3mt.*** **6.5 + 0.295 = 6.795 ≈ 6.8; 3.5 + 0.295 = 3.795 ≈
+  3.8.** ✅ **NO CONFLICT. The source note did exactly the job a source note exists to do, and it did it a
+  month before the question arose.**
+  🚨🚨 **BUT THAT RECONCILIATION BREAKS MY 02:54 DERIVATION, AND THE BREAK IS LARGE.** ***`q2_revenue`
+  includes pipe and galvanised SALES; the 3.5mt denominator EXCLUDES those tonnes. I divided a wider revenue
+  by a narrower volume.*** **Correct denominator ≈ 3.795mt.**
+  **Blended realised steel ASP = ₫51,668bn ÷ 3.795mt = ₫13.615m/t = US$517.7/t — NOT the US$561.3 I published
+  an hour ago. Overstated by 8.4%.**
+  🚨 **AND THE ROBUSTNESS CLAIM DOES NOT SURVIVE.** At 02:54 I solved across all three rebar bases in gate
+  row 42, found US$549.8 / 556.2 / 578.9, and wrote *"the conclusion is robust across the entire span of a
+  conflict the file could not resolve."* ***That tested the REBAR-BASIS axis only. The VOLUME-SCOPE axis was
+  never tested, is worth 8.4% against a margin of 2.0–7.4%, and reverses the answer.*** **On the corrected
+  basket — HRC 1.9mt (50.1%), construction + HQ coil 1.3mt (34.3%), billet ~0.3mt (7.9%), pipe + galvanised
+  0.295mt (7.8%) — with billet below HRC and coated product above it, the implied HRC ASP lands ROUGHLY
+  US$470–500, BELOW the bridge's 539.**
+  ⚠⚠ **I AM NOT ASSERTING THE OPPOSITE CONCLUSION EITHER. Billet and galvanised prices are ASSUMED, not on
+  file, and the answer is sensitive to both.** ***The correct statement is that this derivation cannot place
+  HPG's realised Q2 HRC ASP on either side of 539, and my claim that it could is withdrawn.***
+  🎯 **WHAT DOES SURVIVE, AND IT IS THE MORE USEFUL HALF: the realised BLEND is US$517.7 against LIST
+  prices of US$546–575 on the same products in the same quarter — HPG realised roughly 6–10% BELOW list.**
+  ***That quantifies, for the first time, the gap I flagged at 16:54 as unmeasured: "a list cut is a
+  decision; a realised ASP is an outcome, and the two differ by discounting and mix."*** **The blend needs no
+  assumption about billet or coated prices — it is filed revenue over a filed basket — so it is the part of
+  the derivation that stands.**
+  ⚠ **AND IT CUTS AGAINST THE BRIDGE IN THE UNCOMFORTABLE DIRECTION.** *If HPG realises ~6–10% below list,
+  then the bridge's HRC input of 539 — itself taken from LIST offers — is measuring the wrong quantity, and
+  measuring it high. **The 15:54 entry called HPG's own September offer "the producer's own price" and
+  treated it as better than an index. It is better than an index and it is still a LIST price.***
+  ✅ **THE LESSON, STATED GENERALLY BECAUSE IT WILL RECUR: a robustness check is only as good as the axes it
+  varies.** ***Varying one input across its full plausible range and declaring the conclusion robust is a
+  strictly weaker statement than it sounds, and it reads as a strong one.*** **The honest form names the axes
+  tested AND the axes not tested. 02:54 named neither.**
+  ⚠ **02:54's OTHER findings are unaffected and are NOT withdrawn:** the ASP was uncomputed rather than
+  missing; `_q2_core_npat_per_tonne_m` = **₫1.803** realised against **₫0.8632** on fully-dated spot
+  (**−52.1%**); Q2's realised figure sitting at **97.5% of the BULL branch** while spot sits **31% below
+  BEAR**. ***None of those depends on the ASP split or on the volume denominator*** — they are a filed
+  per-tonne actual against a bridge output.
+  **PORTFOLIO IMPACT:** one of my own numbers is withdrawn and one is strengthened; the bridge's HRC input is
+  now known to be a list price against a book that realises below list, which makes the −30.9% reading
+  conservative rather than aggressive. **Nothing modelled; no §4 field touched; HPG confidence unchanged.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — TODAY MBB's RIGHTS BEGIN TRADING; FRI 21-AUG = SESSION 4
+  (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG =
+  SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  ⚠ *No July monthly operating release for HPG was found — searched and absent, not overlooked. That is an
+  UNOBSERVABLE at this hour, and it is the measurement that would test the 52% collapse directly.*
+  Sources: baodauthau.vn post202434 (H1 HRC ~3.4mt +57%; basket 6.8mt +31%); elibook.vn 2026/07/10 (Q2 3.8mt
+  +30%, HRC +64%); nguoiquansat.vn 302916 (Q2 HRC 1.9mt, construction + HQ coil 1.3mt); vietstock.vn 1464253
+  (3.6mt CRUDE STEEL production — the figure the file's source note warns not to confuse); and
+  `research/models/assumptions.json` `hpg.actuals._q2_volume_source`, which named the 212kt/83kt exclusion in
+  advance.
+
 - **🎯🎯🎯 02:54 ICT TUE 18-AUG · THE MEASUREMENT I NAMED AS MISSING THREE TIMES WAS DERIVABLE
   FROM FIELDS ALREADY IN `assumptions.json`. HPG's REALISED Q2 HRC ASP IS ~US$550–579 — ABOVE THE BRIDGE'S
   539 ON EVERY BRANCH. AND AGAINST IT, CURRENT SPOT IMPLIES A 52% COLLAPSE (lane 5). No search needed.**
