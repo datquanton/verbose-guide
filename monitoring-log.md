@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠⚠ 23:54 ICT MON 17-AUG · THE PAST-DUE QUESTION IS ANSWERED BY AN HNX FILING, NOT AN
+  ALLEGATION — AND THE ANSWER DEFUSES RATHER THAN ESCALATES: ₫3.5bn ON A ₫10,000bn PROGRAMME. BUT IT EXPOSES
+  A THREE-YEAR MATURITY MISMATCH THAT DOES MATTER (lanes 5, 3). Last sweep of the day.**
+  ✅ **22:54 NAMED THE ITEM — *"whether the June/July-2025 tranches were paid"* — AND IT IS NOW ESTABLISHED
+  RATHER THAN ALLEGED.** **A report to HNX dated 14-NOV-2025: Saigon Glory could not pay on time
+  approximately ₫3.5bn of INTEREST due 18-JUN-2025 on lot SGL-2020.02, with no reason given.** *Zero prior
+  hits for `SGL-2020.02`, `14-Nov-2025`. This is a FILING, which is what separates it from the undated
+  late-payment allegations recorded an hour ago as open.* **Fourth time today naming the exact document
+  produced it.**
+  🎯 **SIZE STATED FIRST, BECAUSE IT CUTS AGAINST THE ALARM I RAISED TWO HOURS AGO. ₫3.5bn against a
+  ₫10,000bn programme is 0.035%.** ***A genuine payment failure in form and a trivial one in size.*** **A
+  file that reported "Saigon Glory failed to pay" without that ratio would be manufacturing an event.**
+  ⚠ **INSTRUMENT DISTINCTION, NOT BLURRED: THE FILING SPEAKS TO INTEREST, NOT PRINCIPAL.** ***A ₫3.5bn
+  interest miss says nothing directly about whether the ~₫3,000bn of SGL-2020.01–.03 PRINCIPAL extended to
+  June 2025 was repaid.*** **That remains open.**
+  🎯 **BUT THE SIZE IS ITSELF INFORMATIVE, AND THIS IS THE USEFUL PART. ₫3.5bn is far too small to be a
+  full coupon on a ₫1,000bn lot.** **At coupons of 8–12% on semi-annual or quarterly terms it implies
+  outstanding principal of roughly ₫58–140bn on that lot — 6–14% of ₫1,000bn.** ***So SGL-2020.02 is largely
+  amortised***, which is consistent with both the ~₫1,000bn early restructuring payment and the resolution's
+  *"payment ratios increasing gradually each period."* ⚠ *Coupon and frequency are ASSUMED, not known; the
+  range is given rather than a point.*
+  ⚠⚠ **AND THE INFERENCE CUTS THE WRONG WAY FOR THE LOTS THAT ACTUALLY MATTER. SGL-2020.02 sits in the FIRST
+  extension group (June 2025), so it is the MOST amortised of the ten.** ***The .06–.10 group running to
+  NOVEMBER 2026 is the LAST group and has had the LEAST time to pay down.*** **One lot licenses nothing about
+  nine — and the one observed is the most favourable case, not a representative one.** *Same census/ranking
+  discipline applied at 12:54 and 13:54, here against my own convenience.*
+  ✅ **THE OWNERSHIP TRANSFER FINALLY HAS A DATE: BEFORE OCTOBER 2024.** *The file had none; 21:54 could not
+  establish whether the obligation followed the asset.* **The H1-2025 report attributed non-compliance to the
+  PRE-transfer period — staff shortages, resources diverted to the extension plan — and states that under new
+  ownership the company HAS complied with disclosure on buybacks, swaps and conversions.** ***So the observed
+  failure is attributed by the issuer to the OLD owner's period, and the post-transfer record is compliance.***
+  🚨 **THE STRUCTURAL FINDING, WHICH IS THE ONE WORTH CARRYING FORWARD.** **HCMC's Department of
+  Construction confirmed the Spirit of Saigon project received commencement notification on 11-NOV-2025 and a
+  48-MONTH timeline extension running from 16-OCT-2025 — completion around OCTOBER 2029.** ***The last bonds
+  fall due NOVEMBER 2026. The asset meant to repay them completes ~35 months LATER.***
+  ⚠⚠ **That is the classic Vietnamese property-bond maturity mismatch, and it is now QUANTIFIED on a
+  Masterise-era project inside the ecosystem whose bank this book holds at 20% weight.** **It does not
+  predict a default — refinancing, presales and sponsor support all sit in between — but ***a three-year gap
+  between maturity and completion is a structural fact, not a forecast, and the file did not have it.***
+  🚨 **TRIGGER 1 STILL DOES NOT FIRE, AND I WANT THAT ON THE RECORD PLAINLY AFTER TWO HOURS OF ESCALATING
+  TONE.** ***A ₫3.5bn interest delay from June 2025, filed November 2025, attributed by the issuer to a prior
+  owner, is not "a Masterise bond event" in any sense that reaches TCB's P&L.*** **It is 0.035% of one
+  programme.** **What survives the two hours is not an event but a STRUCTURE: named instruments, dated
+  maturities, an ownership date, a completion date, and a three-year gap between the last two.**
+  ⚠ **AND A HONEST NOTE ON WHAT THIS SWEEP IS: 2025 BACKFILL, NOT A NEW DEVELOPMENT.** *The routine asks for
+  what is NEW since the last entry. This is eight months old. **It is logged because it ANSWERS A QUESTION
+  THE FILE OPENED AT 22:54 and bears on an armed criterion — not because it happened today.***
+  **PORTFOLIO IMPACT:** the two-hour Masterise thread resolves — no event, a defused alarm, and one durable
+  structural fact (Nov-2026 bonds vs ~Oct-2029 completion). Nothing modelled; no §4 input touched.
+  🚨 **END-OF-DAY TRIGGER STATE. TRIGGER 4 FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed, 1.41×,
+  three independent routes) AND ITS CORRECTION FIRES TRIGGER 3 IN EITHER DIRECTION (−29.0pp or +25.0pp, per
+  20:54), WITH ONE OF THE TWO CANDIDATE FIXES SELF-REFUTING. TRIGGER 5 FIRED — TUE 18-AUG: MBB RIGHTS BEGIN
+  TRADING (transfer to 26-Aug, payment to 07-Sep); FRI 21-AUG = SESSION 5: FTSE GEIS LIST, KDH's INSIDER
+  WINDOW CLOSES, FORECAST #7 RESOLVES; CORE CIRCUMVENTION PRELIMINARY 24-AUG ENTERS THE WINDOW TOMORROW.**
+  **Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative today.** **`assumptions.json` UNTOUCHED ALL DAY;
+  `DECISION-BRIEF.md` md5 `db994d19` BYTE-IDENTICAL ACROSS ALL ELEVEN COMMITS.**
+  Sources: vietstock.vn / fili.vn 1381194 (Dec-2025, *"Saigon Glory lại chậm thanh toán trái phiếu"*);
+  baomoi 54024532 (HNX report 14-Nov-2025, ₫3.5bn interest due 18-Jun-2025, SGL-2020.02);
+  taichinhdoanhnghiep.net.vn d63483 (H1-2025 bond-debt report, pre-transfer attribution, ownership change
+  before Oct-2024, post-transfer disclosure compliance); tuoitre.vn 20251218161511018 (sector context);
+  HCMC Department of Construction via the same route (commencement 11-Nov-2025, 48-month extension from
+  16-Oct-2025).
+
 - **🎯🎯🚨 22:54 ICT MON 17-AUG · THE MEASUREMENT NAMED AN HOUR AGO CAME BACK AND IT REFUTES
   BOTH THE FILE *AND* ME. THE ₫10,000bn IS NOT MATURED — AND IT IS NOT DUE IN ELEVEN DAYS EITHER. FIVE LOTS
   RUN TO NOVEMBER 2026 (lanes 5, 3).**
