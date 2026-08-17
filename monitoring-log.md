@@ -122,6 +122,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 02:54 ICT TUE 18-AUG · THE MEASUREMENT I NAMED AS MISSING THREE TIMES WAS DERIVABLE
+  FROM FIELDS ALREADY IN `assumptions.json`. HPG's REALISED Q2 HRC ASP IS ~US$550–579 — ABOVE THE BRIDGE'S
+  539 ON EVERY BRANCH. AND AGAINST IT, CURRENT SPOT IMPLIES A 52% COLLAPSE (lane 5). No search needed.**
+  ⚠ **I SAID AT 16:54, 15:54 AND 01:54 THAT "the file has NO HPG realised HRC ASP" AND NAMED IT AS THE NEXT
+  MEASUREMENT TO FIND. IT WAS NOT MISSING — IT WAS UNCOMPUTED.** ***`q2_revenue`, `h1_steel_share_of_revenue`,
+  `q2_volume_mt` and `q2_hrc_volume_mt` have all been on file since late July.*** **Naming a missing
+  measurement three times without once checking whether the inputs were already held is the same defect as
+  re-searching covered ground, in a different costume.**
+  ✅ **THE BLENDED REALISED STEEL ASP, FROM FILED FIELDS ONLY.** Q2 revenue **₫55,557bn** × steel share
+  **0.93** = **₫51,668bn** ÷ **3.5mt** = **₫14.762m/tonne** = **US$561.3/t** at the file's FX 26,300.
+  *(Zero prior hits for `51,668` or `14.76`.)*
+  🎯 **AND THE HRC LEG SEPARATES OUT, BECAUSE THE MIX IS ON FILE: `q2_hrc_volume_mt` = 1.9 of 3.5mt =
+  54.29% HRC, 45.71% other.** **Solving `561.3 = 0.5429 × ASP_HRC + 0.4571 × ASP_other` against EACH of the
+  three rebar levels in gate row 42's unresolved basis conflict:**
+  | rebar basis (₫/kg) | ASP_other US$/t | **derived Q2 realised HRC ASP** | vs bridge 539 | vs Sep offer 535 |
+  |---|---|---|---|---|
+  | 15,120 | 574.9 | **US$549.8** | **+2.0%** | +2.8% |
+  | 14,920 | 567.3 | **US$556.2** | **+3.2%** | +4.0% |
+  | 14,210 | 540.3 | **US$578.9** | **+7.4%** | +8.2% |
+  🎯 **THE CONCLUSION IS ROBUST ACROSS THE ENTIRE SPAN OF A CONFLICT THE FILE COULD NOT RESOLVE.**
+  ***Whichever rebar basis you pick — including the 14,210 that sits BELOW the file's own market floor — the
+  derived realised Q2 HRC ASP exceeds the bridge's 539.*** **So the bridge's HRC input is CONSERVATIVE
+  against what HPG actually realised, by 2.0% to 7.4%.** *A range that never crosses the threshold is worth
+  more than a point estimate that sits near it.*
+  🚨🚨 **AND HERE IS THE NUMBER THAT MATTERS MOST, ANCHORED TO AN ACTUAL RATHER THAN A BRANCH.**
+  **`_q2_core_npat_per_tonne_m` = ₫1.803 — HPG's REALISED Q2 core profit per tonne.** **Yesterday's fully-dated
+  three-blade spot reading is ₫0.8632m.** ***Current spot conditions imply core profit per tonne 52.1% BELOW
+  what HPG actually earned in Q2.***
+  ✅ **AND IT RE-FRAMES THE BRANCHES: Q2's realised 1.803 sits at 97.5% of the BULL branch (1.85), between
+  base 1.60 and bull. Current spot at 0.863 is 31% below the BEAR branch (1.25).** ***The 1.25/1.60/1.85
+  ladder was calibrated on Q2-like conditions, and spot has moved off the bottom of it entirely.*** *That is
+  what "−30.9% to bear" means in the units of a realised quarter.*
+  ⚠⚠ **FIVE CAVEATS, AND THE FIFTH IS THE WEAKEST LINK — NAMED, NOT BURIED.**
+  **(1) `h1_steel_share_of_revenue` is an H1 figure applied to Q2 revenue — a WINDOW SUBSTITUTION.**
+  **(2) The rebar leg inherits gate row 42's unresolved basis conflict in full, which is why all three
+  branches are shown and none is picked.**
+  **(3) A realised ASP embeds discounts, grade mix within HRC, and the domestic/export split — none observable
+  here.**
+  **(4) FX 26,300 is the file's convention; its own newest interbank print is ₫26,293 (−0.03%, immaterial).**
+  ⚠ **(5) THE 45.71% "OTHER" IS NOT ALL REBAR — it includes billet, pipe and galvanised product. Billet
+  prices BELOW rebar and coated product ABOVE, so treating the residual as rebar-priced biases the derived
+  HRC ASP in an undetermined direction.** ***This is an approximation, not a measurement, and the robustness
+  claim above is what survives it: the residual would have to price at US$580/t — above every rebar figure on
+  file — before the derived HRC ASP fell to 539.***
+  *(Checked: line 11558 records an abandoned "listing-site ASP route" — that was **KDH**, unrelated. This
+  route is new and was not previously ruled unsound.)*
+  **PORTFOLIO IMPACT:** the bridge's HRC assumption is conservative versus HPG's own realised Q2, which
+  strengthens rather than weakens the −30.9% reading; and that reading now has a realised anchor — spot
+  implies core profit per tonne 52% below the quarter HPG just filed. **Nothing modelled:
+  `core_npat_per_tonne_m` (1.25 / 1.60 / 1.85) is §4 HUMAN-ONLY and untouched; HPG confidence unchanged at
+  0.75.**
+  🚨 **NO NEW TRIGGER FIRES — no model input changed, so no computed E[r] moved. TRIGGER 4 REMAINS FIRED
+  (VPX) — correction fires TRIGGER 3 either way (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — TODAY MBB's
+  RIGHTS BEGIN TRADING; FRI 21-AUG = SESSION 4 (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES);
+  CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  ✅ **CLEAN NEGATIVE — LANE 2 (US trade), run in the US session.** Rebar finals (30-Jul, FR 2026-15437/15438),
+  the Rebar Trade Action Coalition petitioners, the CORE ten-country petitions and Vietnam's own **27.83%**
+  duty on Chinese steel are all on file — the last with a full gate row on **Decision 612/QĐ-BCT** (final
+  outer bound 27-Oct-2026, temporary duty carrying NO stated term). *That row says "do not re-search before
+  ~mid-Sep **unless a steel-lane item surfaces it free**" — it surfaced free inside a US-trade query, so no
+  gate was violated.* **No new Vietnam trade case found.**
+  Sources: `research/models/assumptions.json` — `hpg.actuals.q2_revenue` 55,557, `h1_steel_share_of_revenue`
+  0.93, `q2_volume_mt` 3.5, `q2_hrc_volume_mt` 1.9, `_q2_core_npat_per_tonne_m` 1.803; this file's gate row 42
+  (rebar basis conflict) and gate row 25 (September offer 535); trade.gov + federalregister.gov FR
+  2026-15437 (rebar CVD final, petitioner list) — lane-2 negative.
+
 - **🎯🎯⚠ 01:54 ICT TUE 18-AUG · THE THIRD BLADE REFRESHES ON AN EXACT-BASIS MATCH — AND FOR THE
   FIRST TIME ALL THREE HPG INPUTS CARRY DATED VALUES FROM THE SAME WEEK. THE FULLY-DATED READING IS
   ₫0.863m/t, −30.9% TO BEAR (lane 5). US session.**
