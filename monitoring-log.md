@@ -122,6 +122,75 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨⚠ 10:54 ICT MON 17-AUG · THE FILE HAD VCI'S Q2 PROFIT BUT NEVER ITS REVENUE LINE — AND THE
+  REVENUE LINE IS WHAT MAKES THE +36% READABLE: PROFIT +36.26% ON REVENUE +1.39%. Lanes 2, 5, 6, 7; three of
+  the four were clean negatives the gate table caught BEFORE the write-up.**
+  ✅ **NEW, ZERO PRIOR HITS: VCI Q2/2026 OPERATING REVENUE ₫1,175.85bn, +1.39% YoY.** *(The file's single
+  "1,175" match was a coincidental substring inside `₫31,175bn` — checked, not assumed.)* The file already
+  carried the **profit** — ₫250.6bn / ₫251bn, and *"1H is ~29% of plan"* — but **never the top line, so it
+  never had the QUALITY of that profit.**
+  🎯 **WHAT THE TWO LINES SAY TOGETHER, DERIVED AND SELF-CONTAINED.** Q2 net margin **21.31%**
+  (250.59 ÷ 1,175.85). Back out the growth rates: prior-year Q2 revenue **₫1,159.7bn** (1,175.85 ÷ 1.0139),
+  prior-year Q2 NPAT **₫183.9bn** (250.59 ÷ 1.3626) ⇒ prior-year margin **15.86%**. **So the entire +36% is a
+  net-margin expansion of +5.45pp on a FLAT top line — not franchise growth.** *No plan level or share count
+  is needed for this; it is two published growth rates and two published levels.*
+  ⚠⚠ **AND THAT CREATES A TENSION I CANNOT CLOSE FROM SNIPPETS, SO IT IS LOGGED AS A TENSION.** The same
+  routes report Vietcap **"gồng lỗ tự doanh gần nửa ngàn tỷ"** — carrying a proprietary loss of nearly
+  **₫500bn** — while a second headline names **AFS as the DRIVER** of the quarter. **A ₫500bn P&L charge is
+  irreconcilable with +36% NPAT on flat revenue.** 🎯 **The parsimonious reading is that it is NOT a P&L
+  charge:** *gồng lỗ* means **carrying/holding** a loss, and an **AFS-classified** position marks through
+  **OCI/equity, not through profit**. On that reading the two facts stop contradicting each other — **an
+  unrealised carrying loss in equity beside a profit up 36%.** ⚠ **Stated as the parsimonious reconciliation
+  of two headlines, NOT as a verified accounting treatment; the FS line is not in hand.** *This is the
+  instrument distinction again — where a loss LANDS decides whether it contradicts anything.*
+  🚨 **WHY IT MATTERS: THIS IS THE BOOK'S LOWEST-CONFIDENCE NAME (VCI, 0.4) AND THE ENGINE PROPOSES TO
+  BUY IT +6.7pp.** At **29% of plan after the half, H2 must carry 71% — 2.45× the H1 run-rate.** *(That ratio
+  needs no plan level, only the 29%.)* **Profit that came from margin rather than revenue is a thinner base
+  from which to demand 2.45×** than profit that came from a growing top line. **This is an argument for
+  LOWERING VCI's confidence — and `confidence` is a §4 HUMAN-ONLY field, so it is escalated, NOT written.**
+  `assumptions.json` untouched.
+  ⚠ **ESCALATION TRIGGER 4 TESTED ON THIS, AND IT DOES NOT FIRE.** Trigger 4 covers *a held name's evidence
+  status changing* / *an estimate becoming a filed actual*. **VCI's Q2 was ALREADY a filed actual on this
+  file.** The number did not change; **my reading of it did.** ***An interpretation improving is not an
+  evidence status changing*** — the same distinction drawn at 08:54 when a frozen bond market was ruled not
+  to be "a Masterise bond event." **Recorded as a deliberate non-fire, not an omission.**
+  ⚠ **WINDOW FENCE — MARGIN BOOK.** New route: **₫16,646.46bn, +3.89% YTD.** File: *"flat at ₫16,644bn in the
+  best conditions on record."* **Same level to 0.015% — 2 đồng-bn apart on rounding.** "Flat" and "+3.89%"
+  are **not a conflict: they are different windows** (QoQ/period vs since-1-Jan), and +3.89% across six months
+  IS approximately flat. **Consistent, not contradictory. Fenced so it is not re-litigated as a discrepancy.**
+  ✅ **ALSO CONFIRMED, ALREADY-HELD:** VCI **4th on HOSE by brokerage value share at 7%**; **institutional-client
+  share >28%, still #1** (2 prior hits). Margin ₫16,644bn — 7 prior hits.
+  ✅ **THREE CLEAN NEGATIVES, ALL CAUGHT BY THE GATE TABLE BEFORE ANY WRITE-UP — WHICH IS THE TABLE WORKING ON
+  THE FIRST LOOK, NOT THE SECOND (contrast 09:54).**
+  **(lane 2) US REBAR — NOTHING NEW.** `FR 2026-15922` supplemental schedule, comments due **12-Aug 5:15 p.m.**,
+  dockets **701-TA-769–770 / 731-TA-1752–1754**, Commerce finals **28-Jul announced / 30-Jul published**
+  (FR 2026-15438 AD + 2026-15437 CVD), Vietnam **128.53–136.57%** vs Bulgaria 53.27% / Egypt 34.20–52.73% —
+  **all on file, and gate row 2 already fences the "August ITC vote" as a STALE pre-determination projection
+  (the vote is mid-to-late Sep, within 45 days of 30-Jul).** *The 121.97% prelim on Hoa Phat has 8 hits.*
+  **(lane 7) KDH INSIDER — NOTHING NEW.** Lý Tuấn Kiệt (29, son of Vice-Chairman Lý Điền Sơn, Deputy GM since
+  late Mar-26), **20m shares, 23-Jul → 21-Aug, 0.056% → 1.838%**, est. cost ~₫360bn. **11 prior hits on the
+  name; gate row 60 holds 1.838%.** ⚠ *An est. ₫360bn for 20m shares implies **₫18,000/share — exactly the
+  model's carried KDH price.** Noted as a coincidence of level, not a confirmation of it.* **No execution
+  report exists: that is an UNOBSERVABLE, not a miss. Window closes Fri 21-Aug — session 5.**
+  **(lane 5) STEEL — NOTHING NEW EXCEPT THE CO-MOVERS.** CB240 **₫14,920/kg**, D10 CB300 **₫14,210/kg**, the
+  **+₫100/kg from 27-Jul**, DCE ore **744.5 CNY/t** — all on file, with gate row 42 holding the unresolved
+  basis conflict in full. **The only increment: the rise was INDUSTRY-WIDE — Hòa Phát, Kyoei, VIS, Vinausteel
+  and VNSteel all +~₫100/kg.** ⚠ **It does NOT resolve gate row 42**, which states the only resolver is *a
+  Hòa Phát announcement carrying an EXPLICIT basis*. **And ₫15,120 − ₫14,920 = ₫200/kg = TWO such rises, not
+  one — so a single increase cannot bridge the file's two levels either.** *Colour, and the file already
+  records that the rebar level is unmodelled: HPG's spread bridge runs on HRC, ore and coal.*
+  **PORTFOLIO IMPACT:** VCI's already-filed Q2 profit is now readable as margin-driven on a flat top line —
+  an argument to lower confidence on the book's weakest-evidenced name, escalated not executed; no §4 input
+  touched, no trigger newly fires.
+  🚨 **TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed, 1.41×). TRIGGER 5 REMAINS
+  FIRED — TODAY IS SESSION 1; MBB RIGHTS TRADE FROM TOMORROW; KDH's INSIDER WINDOW AND THE FTSE LIST BOTH
+  LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: 24hmoney 2810418 (VCI Q2, AFS driver); dnse.com.vn 35248897 (Q2 NPAT ₫250.59bn +36.26%, revenue
+  ₫1,175.85bn +1.39%); doanhnghiephoinhap.vn 143926 (29% of plan at H1); kinhdoanhnet.vn a80035 (margin
+  ₫16,646.46bn +3.89% YTD); finhay.com.vn/co-phieu-vci-vietcap (prop carrying loss ~₫500bn);
+  trade.gov final-affirmative-determinations (rebar finals); FR 2026-15922 (gateway-blocked, provenance);
+  vietstock 1468609 + kinhdoanhnet a80021 (KDH insider); danviet d1447710 (industry-wide +₫100/kg).
+
 - **🎯⚠⚠ 09:54 ICT MON 17-AUG · A FLAGGED SINGLE-SOURCED FIGURE GETS ITS SECOND ROUTE — AND THE SAME
   SOURCE OPENS A DIRECTION CONFLICT ON THE SERIES IT CORROBORATES (lanes 1, 4). Market open, session 1.**
   **WHAT RESOLVED.** The 16:53 entry recorded July interbank turnover at **~₫850,000bn/session against
