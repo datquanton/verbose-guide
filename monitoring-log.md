@@ -122,6 +122,53 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠ 08:54 ICT MON 17-AUG · THE PRIMARY BOND MARKET COLLAPSED IN JULY TO A FIVE-YEAR LOW — WHICH
+  IMPAIRS THE EXACT CHANNEL TCB's ORIGINATE-TO-DISTRIBUTE MODEL DEPENDS ON. And the PM has ordered LENDING
+  rates down with sanctions for non-compliance (lanes 1, 5, 3). Six minutes before the open.**
+  *Rotating back to external gathering after four hours of internal audit.*
+
+  🚨 **THE BOND MARKET. Private placement raised ~₫21,000bn in JULY — the lowest July since 2021 — with banks
+  ~3/4 of the total and issuance volume DOWN MORE THAN 70% month-on-month.**
+  | | ₫bn |
+  |---|---|
+  | July private issuance, total | **21,000** |
+  | of which banks (~75%) | 15,750 |
+  | **NON-BANK issuance** | **~5,250** |
+  | June implied (at −70%) | **>70,000** |
+  ⚠⚠⚠ ***THE COMPARISON THAT SIZES IT: Masterise-linked entities raised ₫44,500bn in H1 — ₫7,417bn a month.
+  THE ENTIRE NON-BANK PRIMARY MARKET IN JULY WAS ₫5,250bn, or 0.71× Masterise's own monthly run-rate.***
+  🚨 **WHY IT LANDS ON THE 35% POSITION: 01:54 established from TCB's own management that it ARRANGES
+  infrastructure debt then distributes it "by restructuring into syndicated loans, or by DISTRIBUTING BONDS
+  TO INDIVIDUAL INVESTORS."** ***A primary market at a five-year low is a blocked exit. Distribution slows,
+  the warehouse period lengthens, and peak inventory rises*** — which is the same mechanism 02:54 read off
+  the balance sheet (construction +56.3%, corporate bonds +80%, Group-2 +46%).
+  ⚠ **STATED AS A MECHANISM, NOT A MEASUREMENT: no TCB-specific distribution figure is available, the ₫21,000bn
+  is a market total, and one month is not a trend.** *The composition is what makes it worth logging — **a
+  model whose exit channel just recorded a five-year low is a different risk from the same model in June.***
+
+  🚨 **AND A SECOND POLICY LEVER ON THE SAME BANKS: the Prime Minister has directed the SBV to press credit
+  institutions to cut costs, STABILISE the deposit-rate baseline and REDUCE LENDING RATES — with measures
+  against institutions that do not comply.**
+  ⚠⚠⚠ ***THAT IS THE ASSET SIDE BEING PUSHED DOWN BY DIRECTIVE WHILE FUNDING COSTS RISE.*** *This weekend
+  established sector cost of funds +0.6pp QoQ to 4.81% and deposit interest expense +53% to +82% across our
+  three. **A NIM squeezed from both ends, one end by policy** — and sector NIM only just recovered 2.89% →
+  3.06% off a multi-year low.*
+  ⚠ **AND IT COMPOSES WITH 19:54's FINDING RATHER THAN REPEATING IT: the quota-removal pilot selects on
+  soundness and compliance; this adds an explicit SANCTION dimension to rate directives.** *Two policy levers
+  now point at the same institutions, and **the file's differentiated bank block was built before either was
+  on file.***
+
+  ⚠ **NOT LOGGED: the week's "₫5,000bn+ dividend from a new HOSE listing" — not one of the eight, and our
+  names' corporate actions are already dated.** *Dairy-sector margin commentary likewise irrelevant here.*
+
+  **NOTHING MODELLED. No input changed. No confidence moved — a market total and a policy directive are not
+  evidence about any company's numbers. `assumptions.json` untouched. `DECISION-BRIEF.md` byte-identical.
+  ⚠ **TRIGGER 1 TESTED AGAINST TCB'S CRITERION AND DOES NOT FIRE: a frozen primary market is not "a Masterise
+  bond event" — it is a condition that makes one more likely, which the criterion does not cover.**
+  🚨 **TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — TODAY IS SESSION 1.** Trigger 2 remains
+  STANDING-BREACHED; trigger 3 negative.**
+  [Vietstock — 17/08: Đọc gì trước giờ giao dịch chứng khoán?](https://vietstock.vn/2026/08/1708-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1481276.htm)
+
 - **🎯🎯🚨 07:54 ICT MON 17-AUG · TWO INDEPENDENT ROUTES CONVERGE TO 1.5pp ON VPX, AND THE BOOK-WIDE PASS
   COMPLETES: SEVEN OF EIGHT COHERENT, VPX THE SOLE OUTLIER (lane 3). One hour before the open.**
 
