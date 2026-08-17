@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 15:54 ICT MON 17-AUG · THE MEASUREMENT I NAMED AN HOUR AGO AS THE MOST VALUABLE OPEN ITEM
+  ARRIVED — AND IT IS BETTER THAN AN INDEX: HOA PHAT'S OWN SEPTEMBER HRC OFFER. GATE ROW 25's "NOT BEFORE"
+  CONDITION IS MET AND THE ROW CLOSES (lane 5).**
+  ✅ **GATE ROW 25 LITERALLY NAMED ITS OWN RELEASE CONDITION — "*a **September** offer*" — AND THIS IS IT.**
+  The row held HPG's August cut (**−US$34/t**, list **546–547**, volume **535 CFR HCMC**, July ≈ **580**) with
+  the note *"already inside the bridge's 539 — not a further leg down."* **Zero prior hits for `September
+  delivery`, `US$522`, `US$524`, `US$530`. The file's HRC coverage stopped at August.**
+  ✅ **NEW — HOA PHAT'S SEPTEMBER-DELIVERY HRC ≈ US$535/t CIF Vietnam.** ✅ **AND FORMOSA HA TINH's
+  September–October SAE1006/SS400 at ≈US$522–524/t CIF**, roughly **−US$15/t MoM**; on the matched
+  ≥20,000t basis Formosa went **530 (Aug) → 522 (Sep) = −US$8/t.**
+  🎯 **THE HEADLINE RESULT, AND IT VALIDATES THE BRIDGE RATHER THAN BREAKING IT.** ***The bridge holds
+  HRC at 539. Hoa Phat's OWN September offer is 535 — US$4/t away, 0.74%.*** **An hour ago I called HRC "the
+  dominant caveat" and invoked a ±US$20/t band. That band was a confession of ignorance about an index proxy;
+  this is the producer's own price, and it lands inside the assumption.** *A third-party assessment tells you
+  about the market; the issuer's own offer tells you about the issuer.*
+  🚨 **THE BRIDGE, WITH BOTH OF TODAY'S CORRECTIONS APPLIED.** From the verified base row *"ore 100,
+  coal 220, HRC 539 ⇒ ₫0.853m/t"* and gearings **₫0.34m per US$10/t ore · ₫0.14m per US$10/t coal · ₫0.021m
+  per US$1/t HRC**: ore 100→**94.45** = +₫0.189m · coal 220→**225** = −₫0.070m · HRC 539→**535** = −₫0.084m.
+  ***Implied core NPAT/tonne = ₫0.888m. Gap to bear 1.25 = −28.96%.***
+  | reading | implied core NPAT/t | gap to bear |
+  |---|---|---|
+  | 08:53 (coal 212, HRC 539) | ₫1.154m | −7.7% |
+  | 14:54 (coal 225, HRC 539) | ₫0.972m | −22.2% |
+  | **now (coal 225, HRC 535)** | **₫0.888m** | **−29.0%** |
+  ⚠⚠ **WINDOW SUBSTITUTION, FLAGGED BEFORE IT IS USED: A SEPTEMBER OFFER IS A FORWARD PRICE FOR FORWARD
+  DELIVERY, NOT A REALISED ASP.** **The bridge models CURRENT profitability, so the −₫0.084m line is
+  ILLUSTRATIVE OF THE FORWARD, not a re-measurement of the current period.** ***Substituting a forward offer
+  for a realised measure is the same species as the forward-vs-trailing alarm I raised and had to withdraw on
+  04-Aug.*** **Stated in advance this time, not after correction.**
+  ⚠ **BASIS UNRESOLVED, AND IT IS NOT ACADEMIC. September's 535 carries NO order-size qualifier, while August
+  had BOTH a list (546–547) and a volume price (535 CFR HCMC).** **If September's 535 is a LIST price the MoM
+  move is −US$11/t; if it is a VOLUME price the move is ZERO.** ***Formosa's own pair proves the two bases
+  moved by different amounts — −US$15/t on the general offer against −US$8/t on the matched ≥20,000t basis —
+  so "which basis" changes the answer by nearly 2×.*** **Both readings carried; neither picked.**
+  ⚠ *Also noted: HPG's 535 is quoted **CIF Vietnam** — an IMPORT basis for a DOMESTIC producer, so it reads as
+  a competitive benchmark quote rather than an ex-works realisation. Recorded, not adjusted for.*
+  ✅ **DIRECTION, WHICH SURVIVES EVERY BASIS QUESTION ABOVE: BOTH Vietnamese HRC producers cut September
+  prices, and this is HPG's second consecutive monthly cut** (July ≈580 → Aug 546–547 → Sep ~535). *The
+  drivers named — rainy-season demand, a reduced EU quota, slowed Brazilian buying — are all already on file
+  (lines 12284/14265 and 12256/14245); only the September prices are new.*
+  ⚠ **GATE ROW 33 REMAINS OPEN.** It requires *"an assessment dated AUGUST or later"* for the China export
+  leg; the file still holds **US$485 FOB at 24-Jul**. **A headline that China export prices "dip again"
+  carried no date in the return and does NOT satisfy it.** *Row 25 closes this hour; row 33 does not.*
+  **PORTFOLIO IMPACT:** HPG's HRC assumption is corroborated to 0.74% by the producer's own September offer —
+  the bridge's most uncertain leg becomes its best-evidenced one — while the forward direction is one further
+  leg down. **Nothing modelled: `core_npat_per_tonne_m` (1.25 / 1.6 / 1.85) is §4 HUMAN-ONLY and untouched;
+  HPG confidence unchanged at 0.75.**
+  🚨 **NO NEW TRIGGER FIRES — no model input changed. TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn
+  vs ≈₫5,039bn filed). TRIGGER 5 REMAINS FIRED — SESSION 1 COMPLETE; MBB RIGHTS TRADE TOMORROW; KDH's INSIDER
+  WINDOW AND THE FTSE LIST BOTH LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; 1 and 3 negative.
+  Sources: news.mesteel.com — local HRC producers cut prices for September deliveries; Formosa cuts domestic
+  HRC following Hoa Phat; gmk.center — Formosa reduced HRC prices for September sales; kallanish.com —
+  Formosa trims HRC prices after Hoa Phat reduction / Formosa follows Hoa Phat with domestic HRC cuts;
+  indexbox.io — FHS lowers HRC prices for August–September deliveries; news.metal.com 103984886 (SMM —
+  August CFR offers 546/547/535, −US$34/t, rainy season, EU quota, Brazil).
+
 - **🚨🚨🎯 14:54 ICT MON 17-AUG · THE COAL LEG RESOLVES IN THE DIRECTION THE FILE ITSELF FLAGGED, AND
   IT PARTLY RETRACTS MY OWN 08:53 "WITHIN 8% OF BEAR" READING ON HPG: −7.7% BECOMES −22.2% (lanes 5, 4, 3).
   Session 1 closed −0.09%.**
