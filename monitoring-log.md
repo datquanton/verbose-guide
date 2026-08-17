@@ -122,6 +122,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠ 01:54 ICT TUE 18-AUG · THE THIRD BLADE REFRESHES ON AN EXACT-BASIS MATCH — AND FOR THE
+  FIRST TIME ALL THREE HPG INPUTS CARRY DATED VALUES FROM THE SAME WEEK. THE FULLY-DATED READING IS
+  ₫0.863m/t, −30.9% TO BEAR (lane 5). US session.**
+  ✅ **NEW, ZERO PRIOR HITS: IRON ORE US$95.17/t AT 14-AUG-2026, +0.13% ON THE DAY.**
+  🎯 **AND THE BASIS MATCHES THE MODEL'S OWN STATED BASIS WORD FOR WORD — WHICH ALMOST NEVER HAPPENS
+  HERE.** `assumptions.json` carries **`_iron_ore_price_basis` = *"62% Fe CFR Tianjin (Iron Ore Fine China
+  Import, spot cost and freight)"***; the return reads *"Iron Ore Fine China Import 62 percent grade Spot Cost
+  and Freight for delivery at the Chinese port of Tianjin."* ***Identical instrument. No basis question
+  arises at all*** — against coal, where the whole 14:54 entry turned on one.
+  ✅ **THE SERIES, WITH THE MODEL'S OWN DATED FIELDS.** `iron_ore_spot_2026_07_30` = **98.25** →
+  `iron_ore_spot_2026_08_03` = **93.66** (`..._change` = **−4.43%**, ***which is that DAY's move, not the move
+  from 30-Jul — 98.25 → 93.66 is −4.67%; reading the stored change as the period change would have been a
+  window substitution***) → [94.45, log-only] → **14-Aug 95.17.**
+  ***Ore has recovered +1.61% off the 03-Aug low and remains 3.13% below 30-Jul.***
+  🚨 **THE FIRST FULLY-DATED THREE-BLADE READING. All three inputs now carry values from the same window**
+  — ore **95.17** (14-Aug), coal **225** (14-Aug), HRC **535** (HPG's own September offer). *The file once
+  recorded it as noteworthy that "both blades now have dated values four days apart"; this is three.*
+  **Computed from the bridge's verified base row *"ore 100, coal 220, HRC 539 ⇒ ₫0.853m/t"* and its gearings
+  (₫0.34m per US$10/t ore · ₫0.14m per US$10/t coal · ₫0.021m per US$1/t HRC):**
+  **ore 100→95.17 = +₫0.1642m · coal 220→225 = −₫0.0700m · HRC 539→535 = −₫0.0840m.**
+  ***Implied core NPAT/tonne = ₫0.8632m. Gap to bear 1.25 = −30.94%.***
+  ✅ **CROSS-CHECKED BY A SECOND ROUTE: incrementing yesterday's ₫0.888m (which used ore 94.45) by the ore
+  move alone — 94.45→95.17 = −₫0.0245m — gives ₫0.8635m. The two agree to 0.03%.** *Rebuilding from the base
+  row and stepping from the prior result are different computations; agreeing to three decimal places is what
+  makes the number usable.*
+  | reading | ore | coal | HRC | implied core NPAT/t | gap to bear |
+  |---|---|---|---|---|---|
+  | 08:53 | 94.45 | **212** *(basis-disclaimed)* | 539 | ₫1.154m | −7.7% |
+  | 14:54 | 94.45 | 225 | 539 | ₫0.972m | −22.2% |
+  | 15:54 | 94.45 | 225 | **535** | ₫0.888m | −29.0% |
+  | **now — all three dated** | **95.17** | **225** | **535** | **₫0.8632m** | **−30.9%** |
+  ⚠ **DIRECTION FLAG ON A DIFFERENT INSTRUMENT, NOT BLENDED: Dalian iron ore closed CNY 705/t on 17-AUG,
+  −0.77% on the day** *(zero prior hits)*. ***Dalian is a yuan-denominated, VAT-inclusive futures contract —
+  it does NOT convert to the CFR Tianjin index and no conversion is attempted here.*** **It says only that
+  ore softened again after the 14-Aug print, so 95.17 is likely a touch stale on the high side.**
+  🚨 **AND A §4 ITEM THE HUMAN SHOULD SEE: `assumptions.json`'s NEWEST ore field is 93.66 (03-Aug), while
+  the market is 95.17 (14-Aug) — and line 4369 records *"`iron_ore` remains US$98.25 by stated default. Only
+  FiinQuant, once authorised, changes this."*** **So the model may be defaulting to a 30-JULY price that is
+  now 3.13% above market, while an 11-day-newer, exact-basis print sits available.** ⚠ **`core_npat_per_tonne_m`
+  and every ore field are §4 HUMAN-ONLY — NOTHING EDITED. FiinQuant remains unauthorised and cannot be
+  authorised from a non-interactive session.**
+  ⚠ **THE CAVEATS THAT DO NOT GO AWAY: the ore print is T4 (tradingeconomics is egress-blocked, read through a
+  summary — same route and same tier as the coal print); the HRC 535 is a FORWARD September offer, not a
+  realised ASP; and the file still has NO HPG realised HRC ASP.** *All three were stated when each blade was
+  set and none is quietly dropped now that the three combine.*
+  **PORTFOLIO IMPACT:** HPG's cost side, measured on three same-week dated inputs rather than mixed vintages,
+  sits ~31% below the bear branch — the deterioration is now a measurement rather than an assembly artefact.
+  **Nothing modelled; no §4 field touched; HPG confidence unchanged at 0.75.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — TODAY MBB's RIGHTS BEGIN TRADING; FRI 21-AUG = SESSION 4
+  (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG =
+  SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: tradingeconomics.com/commodity/iron-ore (US$95.17/t, 14-Aug, +0.13%, 62% Fe CFR Tianjin —
+  egress-blocked, read via summary, T4) and /commodity/iron-ore-cny (CNY 705/t, 17-Aug, −0.77%);
+  `research/models/assumptions.json` — `_iron_ore_price_basis`, `iron_ore_spot_2026_07_30` = 98.25,
+  `iron_ore_spot_2026_08_03` = 93.66, and the bridge's gearings; this file's lines 4369 and 6218–6222.
+
 - **🚨🎯⚠⚠ 00:54 ICT TUE 18-AUG · I WAS ONE STEP FROM REPORTING A TIGHTENING SCARE THAT IS THE EXACT
   OPPOSITE OF THE TRUTH — AND CHASING IT DOWN BROKE THE FILE'S OWN PRE-REGISTERED MACRO CHAIN AT ITS FIRST
   LINK (lanes 1, 4). US session; no Vietnam data at this hour.**
