@@ -122,6 +122,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 07:54 ICT MON 17-AUG · TWO INDEPENDENT ROUTES CONVERGE TO 1.5pp ON VPX, AND THE BOOK-WIDE PASS
+  COMPLETES: SEVEN OF EIGHT COHERENT, VPX THE SOLE OUTLIER (lane 3). One hour before the open.**
+
+  🎯 **THE CONVERGENCE, AND THE SECOND ROUTE USES NEITHER PRICE NOR SHARE COUNT.**
+  | route | inputs | result |
+  |---|---|---|
+  | **04:54** | filed FY2025 PBT + filed H1/2026 NPAT | **`npat_ttm` understated 28.9%** |
+  | **07:54** | **P/B ÷ ROE only** — no price, no shares | **`pe_ttm` overstated 27.4%** |
+  | | | ***1.5pp apart*** |
+  ✅ **AND IT IDENTIFIES A SINGLE ROOT CAUSE. P/B 1.415 ÷ the FILED ROE of 14.0% ⇒ `pe_ttm` ≈ 10.11×.
+  P/B 1.415 ÷ the file's OLD, STALE ROE of 10.5% ⇒ 13.48×, within 3.3% of the carried 13.93×.**
+  ***So one upstream error propagates three ways: an understated earnings figure ⇒ an understated ROE ⇒ an
+  overstated multiple.*** *That supersedes the 06:54 range — **the earnings field is the source, and price
+  is not implicated by this route at all.***
+  ⚠⚠ **BUT THE 25% SHARE-COUNT ANOMALY IS GENUINELY SEPARATE AND SURVIVES THE FIX.** *Correcting both
+  earnings terms gives a cap of 10.11 × 5,039 = ₫50,944bn, needing **1,915m shares** at ₫26,600 against the
+  **≤1,500m** ceiling.* **Two defects, one earnings-driven and one capitalisation-driven, as stated at
+  05:54 — the diagnosis narrows on the first without touching the second.**
+
+  ✅✅ **THE BOOK-WIDE PASS, COMPLETED. Route A — brokers, P/B ÷ ROE against carried `pe_ttm`:**
+  | | implied | carried | gap |
+  |---|---|---|---|
+  | TCX | 20.08× | 20.05× | **0.15%** |
+  | VCI | 17.67× | 17.60× | **0.38%** |
+  | **VPX** | **10.11×** | **13.93×** | **27.44%** |
+  **Route B — carried `npat_ttm` less FILED H1/2026, leaving an implied H2/2025:**
+  | | implied H2/2025 as × of H1/2026 | |
+  |---|---|---|
+  | MBB · TCB · VPB | **0.96× · 0.94× · 1.03×** | *sensible, roughly flat half-on-half* |
+  | KDH | 0.49× | *explained by its lumpy one-offs* |
+  | **VPX** | **0.65×** | ***but the FILED FY2025 makes it 1.32× — the implied ₫1,411.8bn against ₫2,870bn, 2.03× apart*** |
+  ***Seven of eight are coherent on every route available. VPX fails all three.***
+
+  ⚠ **WHAT THIS PASS IS AND IS NOT: routes A and B test CONSISTENCY and ROUGH PLAUSIBILITY, not correctness
+  against filings.** *Only VPX has been checked against filed earnings end-to-end. **The other seven are
+  "nothing looks wrong", which after yesterday's circularity lesson is exactly as much as it sounds like.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `assumptions.json` untouched — §4 human-only.
+  `DECISION-BRIEF.md` byte-identical.
+  🚨 **TRIGGER 4 REMAINS FIRED** — VPX, from 04:54, now corroborated by a second independent route. **Trigger
+  5 remains FIRED and TODAY IS SESSION 1** (Mon 17-Aug; MBB rights begin trading tomorrow; Fri 21-Aug carries
+  the FTSE list, the KDH insider-window close and Forecast #7). Trigger 2 remains STANDING-BREACHED; triggers
+  1 and 3 negative.**
+  *No external sources: computed from `assumptions.json`, the filed figures logged 03:54–04:54, and the
+  broker table's P/B and ROE.*
+
 - **🎯⚠⚠ 06:54 ICT MON 17-AUG · I RE-READ MY OWN 05:54 AUDIT AND THE FOUR "CLEAN" NAMES PROVE LESS THAN I
   CLAIMED — WHICH MAKES VPX'S FAILURE MEAN MORE. AND VCI, THE UNTESTED HALF, IS NOW TESTED (lane 3).**
   *No searches. Internal arithmetic only.*
