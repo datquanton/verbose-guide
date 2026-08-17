@@ -122,6 +122,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯⚠⚠ 06:54 ICT MON 17-AUG · I RE-READ MY OWN 05:54 AUDIT AND THE FOUR "CLEAN" NAMES PROVE LESS THAN I
+  CLAIMED — WHICH MAKES VPX'S FAILURE MEAN MORE. AND VCI, THE UNTESTED HALF, IS NOW TESTED (lane 3).**
+  *No searches. Internal arithmetic only.*
+
+  ⚠⚠ **THE CIRCULARITY I MISSED AN HOUR AGO.** *If a valuation block is built as **cap = price × shares**,
+  then `pe_ttm` = cap ÷ `npat_ttm` and P/B = cap ÷ equity **by construction**.* ***So the identity
+  `pe_ttm × npat_ttm ÷ price = shares` holds automatically for ANY correctly-assembled block — regardless of
+  whether `npat_ttm` is right.*** **KDH, TCB, VPB and MBB matching to 0.1% therefore demonstrates internal
+  SELF-CONSISTENCY and says nothing about whether their earnings figures are correct.** *I presented those
+  four as validation. They are not.*
+  🎯 ***BUT THE INVERSION IS THE USEFUL PART: if the identity is automatic for a well-built block, then VPX's
+  25.01% miss means VPX's BLOCK IS NOT INTERNALLY CONSISTENT — a field was changed without the others being
+  recomputed.*** **That is a stronger diagnosis than "one number looks wrong", and it is only available once
+  the circularity is admitted.**
+
+  ✅ **AND IT LOCATES THE BREAK, WITHIN A RANGE.** *VPX's block is self-consistent at **cap ₫49,881bn**
+  (13.93 × 3,580.8), which requires **1,875.2m shares at ₫26,600**.*
+  | if the true share count is… | the price implying that cap | note |
+  |---|---|---|
+  | 1,875.2m | ₫26,600 — as carried | requires the IPO ceiling to be wrong |
+  | **~1,500m (IPO ceiling)** | **₫33,254** | *and VPX's IPO priced at ~**₫34,667**/share (₫13,000bn ÷ 375m)* |
+  ⚠⚠⚠ ***THE ₫33,254 NEEDED TO RECONCILE AT 1,500m SHARES SITS WITHIN 4.1% OF VPX'S OWN IPO PRICE OF
+  ~₫34,667.*** **That is consistent with the cap having been built at or near the IPO price while `price` was
+  later refreshed to a market ₫26,600 — leaving the block self-consistent on a STALE capitalisation.**
+  ⚠ *Stated as the most economical explanation, not as the established one. **`price` could equally be the
+  sound field and the share count the stale one**; the arithmetic cannot separate them.*
+
+  ✅✅ **VCI — THE UNTESTED HALF OF THE 27-JUL CLAIM — IS NOW TESTED, AND IT IS SELF-CONSISTENT.**
+  **P/B 1.378× × equity ₫17,137bn = ₫23,615bn; `pe_ttm` 17.6 × `npat_ttm` 1,342 = ₫23,619bn — 0.019% apart.**
+  ⚠ **WITH THE SAME CAVEAT THAT NOW APPLIES TO ALL OF THEM: this shows VCI's block hangs together, not that
+  its earnings figure is right.** *The 27-Jul finding — VCI's `npat_ttm` failing its own cross-check by
+  25.2%, confidence cut 0.65 → 0.45 — **is untouched by this test and remains open.***
+  ***So the book now splits three ways: VPX INTERNALLY INCONSISTENT (this hour's finding, plus the
+  ~29% `npat_ttm` understatement at 04:54); VCI CONSISTENT BUT WITH A KNOWN OPEN EARNINGS DEFECT; and the
+  other six consistent with nothing yet checked against filings.***
+
+  **NOTHING MODELLED. No input changed. No confidence moved. `assumptions.json` untouched — §4 human-only.
+  `DECISION-BRIEF.md` byte-identical.
+  🚨 **TRIGGER 4 REMAINS FIRED** (04:54, VPX `npat_ttm`). This hour sharpens the diagnosis and does not add a
+  trigger. Trigger 5 remains FIRED; trigger 2 remains STANDING-BREACHED; triggers 1 and 3 negative.**
+  *No external sources: every figure is computed from `research/models/assumptions.json`, the ₫17,137bn VCI
+  equity logged 06-Aug, and the IPO structure established at 01:54.*
+
 - **🚨🚨🚨 05:54 ICT MON 17-AUG · A SECOND, INDEPENDENT DEFECT IN THE SAME VALUATION BLOCK — VPX'S IMPLIED
   SHARE COUNT IS 25% ABOVE THE CEILING ITS OWN IPO STRUCTURE ALLOWS, WHILE FOUR OTHER NAMES RECONCILE TO
   0.1% (lane 3). No searches — this is an internal audit of `assumptions.json`.**
@@ -137,7 +180,7 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
   | MBB | 8,060.9 | 8,055.0 | **+0.07%** |
   | HPG · TCX · VCI | 8,446.9 · 2,774.3 · 1,152.2 | not independently held | — |
   | **VPX** | **1,875.2** | **≤1,500 — from its OWN IPO structure** | **+25.01%** |
-  ⚠⚠⚠ ***FOUR NAMES LAND INSIDE ONE TENTH OF ONE PERCENT. VPX MISSES BY 25%.*** *The ≤1,500m ceiling is not
+  ⚠⚠⚠ ***FOUR NAMES LAND INSIDE ONE TENTH OF ONE PERCENT. VPX MISSES BY 25%.*** **⚠⚠ RE-READ 06:54 — THE FOUR MATCHES ARE CIRCULAR AND PROVE SELF-CONSISTENCY, NOT CORRECTNESS. THAT MAKES VPX'S MISS *MORE* DIAGNOSTIC, NOT LESS. See 06:54.** *The ≤1,500m ceiling is not
   imported — it comes from **"up to 375m shares = up to 25% of capital"**, established at 01:54 this morning
   and cross-checked there against the file's own ~79.5% VPB-stake reconstruction.*
 
