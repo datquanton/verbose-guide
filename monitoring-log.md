@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯⚠⚠ 00:54 ICT TUE 18-AUG · I WAS ONE STEP FROM REPORTING A TIGHTENING SCARE THAT IS THE EXACT
+  OPPOSITE OF THE TRUTH — AND CHASING IT DOWN BROKE THE FILE'S OWN PRE-REGISTERED MACRO CHAIN AT ITS FIRST
+  LINK (lanes 1, 4). US session; no Vietnam data at this hour.**
+  🚨 **THE NEAR-MISS FIRST.** My opening search returned *"futures pricing implying a roughly 65% chance of
+  a September hike"* — against the file's dated **42%**. **A +23pp tightening scare on a book that is 51.5%
+  banks.** ***It is backwards.*** **Dated readings: 69% probability the Fed HOLDS in September as of
+  14-AUG-2026 ⇒ hike odds ≈31%; and 60% hold ⇒ ≈40% about a week earlier.** ***Hike odds have FALLEN from 42%
+  to ~31%, not risen to 65%.*** **The 65% — and a 73.6% figure from a second aggregator — PREDATE 07-Aug.**
+  ✅ **AND THE FILE ALREADY HELD THE EVENT THAT KILLED THEM: the 07-Aug payroll print of −23,000**, logged
+  with *"the market repriced HIKE risk down, not cut odds up. Right direction, wrong reason."* **The stale
+  figures are pre-jobs-miss.**
+  🎯 **THE DETECTOR WAS FREE AND VISIBLE BEFORE ANY GREP.** ***The same search return carried both
+  "Fed Lowers Rates for 3rd Time" and "a September hike is now expected." Two mutually exclusive regimes in
+  one result set.*** **An aggregated return that contains both directions of a policy cycle is
+  date-contaminated on its face — that contradiction is the cheapest possible check and it costs nothing to
+  run before the greps.**
+  🚨🚨 **NOW THE FINDING THAT MATTERS, AND IT IS ABOUT THIS FILE'S OWN FRAMEWORK.** The log carries a
+  **PRE-REGISTERED chain**: *"lower hike odds ⇒ less USD pressure ⇒ more SBV policy space."* **Assemble every
+  dated point now on file and the first link is empirically NEAR ZERO:**
+  | date | Sep hike odds | DXY |
+  |---|---|---|
+  | pre-07-Aug | **~73.6% / 65%** | — |
+  | 07-Aug (payroll −23,000) | repriced down | **99.60** |
+  | post-CPI (file) | **42%** | **99.8386 — flat, +0.01%** |
+  | ~10-Aug | ~40% | — |
+  | **14-Aug** | **~31%** | **99.64** (file's newest) |
+  ***A collapse of roughly 42.6pp in September hike probability moved the dollar index by 4 BASIS POINTS —
+  99.60 to 99.64.*** **The dollar has been range-bound 99.60–99.84 across the entire repricing.**
+  🎯 **SO THE CHAIN IS NOW BROKEN AT BOTH LINKS, AND THE SECOND WAS ALREADY DISOWNED.** **Link 1 (hike
+  odds → USD) is empirically ~zero over this episode — the file noted it once as *"the mechanism's first link
+  came in at essentially zero"* on a single print; ***it now holds across a 42.6pp move, which is a different
+  and much stronger statement.*** **Link 2 (DXY → USD/VND) was already labelled a PROXY ERROR at line 3466 —
+  *"I was reading the GLOBAL dollar as a proxy for the VIETNAMESE one."*** ⚠⚠ ***A chain whose first link is
+  empirically flat and whose second link the file has already ruled invalid should not be used to reason from
+  Fed expectations to SBV policy space. Recorded as a framework failure, not a data point.***
+  ✅ **NEW, ZERO PRIOR HITS FOR `task force`: Chair Warsh introduced FIVE POLICY REVIEW TASK FORCES at his
+  first meeting as Chair, and a scenario in circulation is that the Fed stays on PAUSE until they report
+  later in the year.** ⚠ **That is an analyst scenario, not a Fed statement, and is logged as such.** *But it
+  supplies a MECHANISM consistent with the odds collapse — **a Fed on procedural pause does neither, which
+  mutes the chain in both directions rather than only the easing one.***
+  ✅ **ALREADY ON FILE AND RE-CONFIRMED:** the July hold at **3.50–3.75% on a 9–3 vote with three HIKE
+  dissents** (line 6251); the −23,000 payroll and its market reaction; DXY below 100.
+  **PORTFOLIO IMPACT:** the direction of Fed risk is the favourable one for 51.5% banks — but the file's own
+  route from that to SBV policy space is now shown not to transmit, so the favourable direction should not be
+  banked. **Nothing modelled — no Fed variable is a model input; no §4 field touched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp, per 20:54). TRIGGER 5 REMAINS FIRED — TODAY, TUE 18-AUG, MBB's RIGHTS BEGIN TRADING
+  (transfer to 26-Aug, payment to 07-Sep); FRI 21-AUG = SESSION 4 FROM TODAY: FTSE GEIS LIST, KDH's INSIDER
+  WINDOW CLOSES, FORECAST #7 RESOLVES; CORE CIRCUMVENTION PRELIMINARY 24-AUG IS NOW SESSION 5.**
+  Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: cnbc.com 2026/08/07 (*"Odds the Fed hikes in September tumble following big July jobs miss"*);
+  kucoin.com flash (68–69% hold at 14-Aug); longbridge.com 3276372 (73.6% hike — PRE-07-Aug, cited as the
+  stale figure); chase.com (65% hike, July-anchored — cited and REFUSED); ishares.com Fed outlook (Warsh's
+  five policy review task forces); this file's own lines 4274/4366 (42% and DXY 99.8386), 6251 (9–3 hold at
+  3.50–3.75%), 7394 (payroll −23,000, DXY 99.60) and 3466 (the DXY-as-proxy error).
+
 - **🎯🎯⚠⚠ 23:54 ICT MON 17-AUG · THE PAST-DUE QUESTION IS ANSWERED BY AN HNX FILING, NOT AN
   ALLEGATION — AND THE ANSWER DEFUSES RATHER THAN ESCALATES: ₫3.5bn ON A ₫10,000bn PROGRAMME. BUT IT EXPOSES
   A THREE-YEAR MATURITY MISMATCH THAT DOES MATTER (lanes 5, 3). Last sweep of the day.**
