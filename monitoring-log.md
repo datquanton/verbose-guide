@@ -122,6 +122,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 22:54 ICT MON 17-AUG · THE MEASUREMENT NAMED AN HOUR AGO CAME BACK AND IT REFUTES
+  BOTH THE FILE *AND* ME. THE ₫10,000bn IS NOT MATURED — AND IT IS NOT DUE IN ELEVEN DAYS EITHER. FIVE LOTS
+  RUN TO NOVEMBER 2026 (lanes 5, 3).**
+  ✅ **I NAMED THE DOCUMENT — *"the Feb-2024 bondholder RESOLUTION (not the consultation notice)"* — AND THE
+  RESOLUTIONS ARE WHAT CAME BACK.** *Third time today that naming the exact document produced it within the
+  hour (the September HRC offer at 15:54, the August Mysteel print at 16:54, this).*
+  🚨 **THE LOT-BY-LOT SCHEDULE, ZERO PRIOR HITS ON EVERY IDENTIFIER (`SGL-2020`, `TVSI`, `November 2026`).**
+  Bondholder resolutions announced **5 February** by **TVSI (Tân Việt Securities)** as bondholders'
+  representative, extending all ten lots by **one to two years**:
+  | lots | original maturity | extended to |
+  |---|---|---|
+  | SGL-2020.01 – .03 | June 2023 | **June 2025** |
+  | SGL-2020.04 – .05 | July 2023 | **July 2025** |
+  | **SGL-2020.06 – .10** | **August 2025** | **NOVEMBER 2026** |
+  🚨 **SO THE FILE IS WRONG, SPECIFICALLY AND CORRECTABLY.** *"Latest maturity 28-Aug-2025 — i.e. already
+  matured"* **describes the ORIGINAL schedule of the last five lots. Those five were extended to November
+  2026 and are NOT matured.** ***The discriminator at line 5864 — used to rule the ₫10,000bn programme out of
+  a criterion-relevant question — must be withdrawn.***
+  🚨 **AND MY OWN 21:54 ALTERNATIVE WAS WRONG TOO, WHICH MATTERS MORE THAN BEING RIGHT ABOUT THE FILE.**
+  ***I floated 28-Aug-2026 and wrote "ELEVEN DAYS AWAY." The correct date is NOVEMBER 2026 — roughly 105
+  calendar days, ~74 sessions.*** **I was right that "already matured" was unsafe and wrong about what
+  replaces it.** ✅ *The one thing that held: I explicitly refused to assert the 2026 date and marked it
+  "T5, consultation not resolution, I am not asserting this." **The refusal was the load-bearing part, not
+  the hypothesis.*** ⚠ **Had I asserted 28-Aug-2026, this file would now carry a wrong date presented as a
+  correction of another wrong date — which is worse than the original error.**
+  🚨🚨 **THE SHARPER QUESTION IS NOT NOVEMBER — IT IS THE TWO GROUPS ALREADY PAST DUE.** ***SGL-2020.01–.05
+  were extended to JUNE and JULY 2025. Both dates are over a year in the past.*** **Alongside them the same
+  search surfaced: investors alleging LATE PAYMENT, a report of LATE INTEREST with the issuer *"still not out
+  of financial difficulty,"* and a DEADLOCK over the ₫10,000bn collateral.** ⚠⚠ **ALL THREE ARE UNDATED IN
+  THE RETURN AND COULD PREDATE THE EXTENSIONS — which is exactly the trap that produced today's near-misses.
+  They are recorded as an OPEN QUESTION, not as a default.** ***Whether the June/July-2025 tranches were paid
+  is now the live item, and it is a question about the PAST, not the future.***
+  ⚠ **SIZING, WITH ITS ASSUMPTION NAMED: if the ten lots are equal at ₫1,000bn each, the November-2026 group
+  is ₫5,000bn and the already-due group is ₫5,000bn. NOTHING STATES THE LOTS ARE EQUAL.** *Ten lots totalling
+  ₫10,000bn is the only figure in hand.*
+  ✅ **ONE PIECE OF EVIDENCE THAT THE OBLIGATION FOLLOWED THE ASSET — the question 21:54 could not answer.**
+  **After the ownership change, Saigon Glory spent nearly ₫1,000bn restructuring bond debt EARLY.** ***A new
+  owner paying ahead of schedule is evidence the liability came with the project*** — not proof, and the
+  identity of the paying party is not established, **but it is the first thing on this file that connects the
+  Bitexco-ecosystem issuer to a Masterise-era balance sheet.**
+  ⚠ **THE RESOLUTION YEAR IS STILL NOT SETTLED AND IS NOT GUESSED.** 21:54's route said **February 2024**;
+  this one says **5 February** with two-year extensions off 2023 maturities, implying **February 2023**.
+  ***The extension TARGETS are specific and consistent across both routes' arithmetic ("one to two years"),
+  so the targets are used and the announcement year is left open.***
+  🚨 **TRIGGER 1 STILL DOES NOT FIRE — but the criterion is far more testable than it was this morning.**
+  It was flagged by the file's own audit as *"not testable on three undefined terms"* with *"no transmission
+  mechanism on file."* **There are now NAMED INSTRUMENTS (SGL-2020.01 through .10), a NAMED REPRESENTATIVE
+  (TVSI), DATED DEADLINES, and a collateral question.** ***Defining the criterion remains §4 human-only.***
+  ⚠ **NOVEMBER 2026 IS ~74 SESSIONS OUT — FAR OUTSIDE TRIGGER 5's FIVE-SESSION WINDOW.** *The urgency I
+  raised an hour ago is withdrawn along with the date that created it.*
+  **PORTFOLIO IMPACT:** a wrong negative in the file is replaced by a correct schedule; the near-term alarm
+  is withdrawn; and the live question moves from a future maturity to whether two already-due tranches were
+  paid. Nothing modelled; no §4 input touched; nothing armed.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — its correction fires TRIGGER 3 either way
+  (−29.0pp or +25.0pp, per 20:54). TRIGGER 5 REMAINS FIRED — MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW
+  AND THE FTSE LIST LAND FRI 21-AUG = SESSION 5; CORE circumvention preliminary 24-AUG enters the window
+  TOMORROW.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: theleader.vn d5628 (₫10,000bn extended) + mekongasean.vn 13848 + congly.vn 431838 (Bitexco
+  ecosystem) — bondholder resolutions via TVSI, lot-by-lot extension schedule; doanhnhan.baophapluat.vn
+  (ownership change, ~₫1,000bn early bond-debt restructuring); taichinhdoanhnghiep.net.vn d42974 + d63483
+  (late-payment and late-interest allegations — UNDATED, recorded as open); theleader.vn d6205 (collateral
+  deadlock); this file's own lines 5864 and 6518 for the withdrawn 28-Aug-2025 claim.
+
 - **🚨🚨⚠⚠ 21:54 ICT MON 17-AUG · A DISCRIMINATOR THIS FILE HAS USED TWICE TO RULE OUT A ₫10,000bn
   MASTERISE-LINKED BOND PROGRAMME RESTS ON A DATE A SECOND ROUTE CONTRADICTS BY EXACTLY ONE YEAR —
   28-AUG-2025 vs 28-AUG-2026. THE SECOND DATE IS ELEVEN DAYS AWAY (lanes 5, 3).**
