@@ -122,6 +122,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 13:54 ICT MON 17-AUG · A SELF-IDENTIFIED BLANK PARTLY CLOSES — HCMC's LAND-FEE LANE
+  PRODUCES DATA FOR THE FIRST TIME. AND A GREP FALSE POSITIVE ALMOST MADE ME SKIP IT AS "ALREADY COVERED"
+  (lanes 5, 6). This is the first time that defect would have cost a FINDING rather than time.**
+  🚨 **THE NEAR-MISS FIRST, BECAUSE IT IS THE TRANSFERABLE PART.** I grepped `838`, `417`, `393` and read
+  back **23, 6 and 5 hits** — and concluded the HCMC dataset was on file. **Every one was a false positive:
+  `838` was matching inside `1.838%`, KDH's insider ownership percentage.** Re-run with boundaries
+  (`838 dự án`, `417 dự án`, `393 dự án`) — **ZERO, ZERO, ZERO.** ***Third instance of this defect
+  (`CARRY`/`CAREFULLY` matched a `CAR` search twice) — but the first where it would have suppressed a
+  MATERIAL FINDING rather than wasting a search.*** **A bare number is the worst possible grep token: it has
+  no word boundary of its own and lives inside every longer number and every percentage.**
+  ✅ **AND THE FILE HAD ALREADY DIAGNOSED THE BLANK IT WAS ABOUT TO MISS.** Line 13811: *"Searching this repo
+  for 'land-use fee', 'bảng giá đất', 'hệ số K', 'Land Law' and '254/2025' returns ZERO hits in
+  `assumptions.json` and ZERO in `monitoring-log.md`. Lane 5 explicitly covers 'HCMC approvals, land-fee/legal
+  changes' — **that lane item has never produced anything.**"* **This hour it produces something.**
+  ✅ **NEW — THE PROJECT-RESOLUTION CENSUS, ZERO PRIOR HITS.** HCMC's Department of Finance counts **838
+  projects / land plots requiring review**: **417 fully resolved**, **393 basically complete**, **28 still in
+  progress.** 🎯 **INTERNAL CHECK: 417 + 393 + 28 = 838 EXACTLY.** *The components close to the total — the
+  decomposition corroboration named at 09:54, and here it passes on the first attempt.*
+  ✅ **NEW — AND THIS IS THE HALF THE FILE WAS ACTUALLY MISSING: THE CASH.** Land-use-fee collection for
+  **4M/2026 is ₫14,625bn**, **16.3% of the ₫90,000bn central-budget target**, and **184.2% of the same period
+  in 2025** — attributed explicitly to projects being legally unblocked and developers beginning to pay.
+  🎯 **WHY THAT MATTERS MORE THAN THE COUNTS.** ***Resolution counts are an INPUT measure; cash collected is
+  the OUTPUT measure.*** **A project "resolved" on paper and a developer actually paying its land-use fee are
+  different events**, and 184.2% YoY is the first evidence on this file that the legal unblocking is
+  converting into payments — **which is the gate on a developer's ability to launch.**
+  ⚠⚠ **BOTH SIDES REPORTED, BECAUSE ONE SIDE ALONE WOULD BE THE ERROR I MADE ON 13-AUG.** **16.3% of target at
+  one-third of the year is BEHIND a linear pace — 48.8% of it.** To reach ₫90,000bn the remaining eight
+  months need **₫75,375bn = ₫9,422bn/month against ₫3,656bn/month achieved — 2.58×.** ***So collection nearly
+  DOUBLED year-on-year AND is running at half the pace the target requires. Both are true; reporting only the
+  184.2% would be the one-sided test on a comparative claim, caught on CASA at 13:54 Sat.***
+  ⚠ *A near-echo, noted as coincidence not connection: VCI must do **2.45×** its H1 run-rate to hit its plan
+  (10:54); HCMC must do **2.58×** its 4-month run-rate to hit this one.*
+  ✅ **NEW — THE FORWARD LEG.** HCMC expects to complete specific land valuation for **~100 projects in 2026**,
+  yielding **>₫100,000bn**. ⚠ **THAT EXCEEDS THE ₫90,000bn ANNUAL BUDGET TARGET — so either the proceeds land
+  across more than one fiscal year or the target is conservative. Two different bases (a budget estimate vs a
+  valuation programme's expected proceeds); NOT blended, NOT reconciled.** *Implied ~₫1,000bn per project.*
+  ⚠⚠ **WHAT THIS DOES NOT SAY, STATED PLAINLY: NOTHING ABOUT KDH.** **Whether Clarita, Gladia or any KDH plot
+  sits among the 417 resolved is unknown, and the file's own open question — *"which of its projects have
+  already settled their land-use fee"* (line 13836) — is NOT answered.** ***Absence from a list is not
+  membership in its complement*** — the census/ranking distinction drawn an hour ago on sector NPLs, and the
+  FTSE roster error of 14-Aug. **This hour gives the population, not KDH's place in it.**
+  ⚠ **WINDOW FENCE: ₫14,625bn IS A JANUARY–APRIL FIGURE.** Four months stale at mid-August. **Any later
+  comparison must be to a 4-month base, not a run-rate read as current.**
+  ✅ **LANE 6, MINOR AND LOGGED AS MINOR: `VPS Smart Indexing` (VSI) launched 11-Aug-2026 in Hanoi** — a
+  discretionary managed-portfolio product from the HOSE retail brokerage share leader. **Zero prior hits.**
+  ⚠ *No AUM, no fee, no revenue figure — competitive colour for VCI (4th, 7% share) and TCX, not a
+  measurement.* ✅ **VPS IPO itself: gate row 30 already records it as CLOSED EIGHT MONTHS AGO (HoSE listing
+  16-Dec-2025) with the routine's lane-6 brief still calling it live — the staleness is on file, unchanged.**
+  **PORTFOLIO IMPACT:** a lane that had never produced anything now has a population, a cash series and a
+  two-sided read on it; KDH's own position within it remains the open question it already was. Nothing
+  modelled — no §4 input touched.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed).
+  TRIGGER 5 REMAINS FIRED — TODAY IS SESSION 1; MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW AND THE FTSE
+  LIST BOTH LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: doanhnghiepkinhtexanh.vn a48042 (838 / 417 / 393 / 28 project census); tinnhanhchungkhoan.vn
+  post390136 (land-fee collection ₫14,625bn, 16.3% of ₫90,000bn, 184.2% YoY); doanhnhansaigon.vn 334448
+  (~100 projects, >₫100,000bn in 2026); vietstock.vn 1478995 (VPS Smart Indexing, 11-Aug); cafef.vn
+  188251202010616591 + thoibaotaichinhvietnam.vn 187940 (VPS HoSE listing, Dec-2025).
+
 - **🎯🎯⚠⚠ 12:54 ICT MON 17-AUG · A BLOCK MARKED "ON FILE IN FULL" CARRIES FOUR FIGURES OF WHICH
   THREE CLOSE AND ONE DOES NOT — AND A NEWLY-FOUND FIFTH FIGURE VALIDATES THE THREE TO 1.0% (lanes 5, 1, 3).
   The status that stops anyone checking is the status that most needs checking.**
