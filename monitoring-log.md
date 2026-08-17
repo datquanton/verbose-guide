@@ -122,6 +122,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨⚠⚠ 21:54 ICT MON 17-AUG · A DISCRIMINATOR THIS FILE HAS USED TWICE TO RULE OUT A ₫10,000bn
+  MASTERISE-LINKED BOND PROGRAMME RESTS ON A DATE A SECOND ROUTE CONTRADICTS BY EXACTLY ONE YEAR —
+  28-AUG-2025 vs 28-AUG-2026. THE SECOND DATE IS ELEVEN DAYS AWAY (lanes 5, 3).**
+  **WHAT THE FILE HOLDS.** The **Spirit of Saigon** programme — **ten lots, ₫10,000bn**, most maturing 2023,
+  ***"latest maturity 28-Aug-2025 — i.e. already matured."*** **That "already matured" is not idle: line 5864
+  USES it as a discriminator**, to establish that a ₫33,000bn withheld-disclosure allegation *"is NOT the
+  ₫10,000bn Spirit of Saigon programme."* **A load-bearing negative.**
+  🚨 **WHAT THIS HOUR RETURNED.** A route reports that in **February 2024, SAIGON GLORY's bondholders were
+  consulted on adjusting the payment schedule on those lots to NO LATER THAN 28-AUG-2026** — and, separately,
+  that **Masterise Group ACQUIRED The Spirit of Saigon.** *Saigon Glory was the project's issuer.*
+  🎯 **THE TWO DATES ARE COMPATIBLE, WHICH IS EXACTLY WHY THIS IS DANGEROUS.** ***An original latest
+  maturity of 28-Aug-2025 extended by one year to 28-Aug-2026 is a textbook Nghị định 08/2023 restructuring —
+  same day, same month, one year apart.*** **So "already matured" may be true of the ORIGINAL schedule and
+  false of the OBLIGATION.** **This is the highest-risk shape in the date-substitution family the file has
+  caught six times, and here it is load-bearing rather than decorative.**
+  ⚠⚠ **STATED AT ITS REAL STRENGTH, WHICH IS LOW. (1) The route is T5.** **(2) The wording is *"được lấy ý
+  kiến"* — bondholders were CONSULTED. ***A consultation is a proposal, not an approved resolution***, and
+  nothing states the vote passed.** **(3) Saigon Glory was Bitexco's SPV — `Bitexco` returns ZERO hits in
+  this file — and whether the bond obligations followed the project to Masterise is NOT established.**
+  ***I am not asserting the 2026 date. I am marking the 2025 date UNSAFE as a discriminator.***
+  🚨 **WHY IT IS WORTH FLAGGING AT LOW CONFIDENCE: THE CONSEQUENCES ARE ASYMMETRIC.** **If the file is
+  right, nothing changes.** ***If the file is wrong, a ₫10,000bn obligation on a project Masterise ACQUIRED
+  falls due in ELEVEN DAYS, against TCB's armed kill criterion — "developer/related-party NPL formation >
+  2.0%, OR A MASTERISE BOND EVENT."*** **A cheap check against a large one-sided downside is worth naming
+  even when the evidence is thin.**
+  ✅ **AND IT SPEAKS TO THE GAP THE FILE ITSELF DIAGNOSED AT LINE 6512:** *"the file has the VOLUME —
+  Masterise-linked H1 issuance of ₫44,500bn across six enterprises — and not the CHANNEL."* **The channel was
+  later identified as guarantee/credit sponsorship (TCB sponsors and guarantees most Masterise projects).
+  What was still missing was a SPECIFIC, DATED, SIZED obligation. This is a candidate — with all three
+  caveats above attached.** ⚠ *`Saigon Glory` had ONE prior hit, and that hit was a record of it returning
+  ZERO. The acquisition of The Spirit of Saigon by Masterise Group is NEW.*
+  🚨 **TRIGGER 1 DOES NOT FIRE AND MUST NOT BE READ AS FIRING. Nothing has happened.** ***A contested
+  maturity date is not a bond event*** — the same distinction drawn at 08:54, when a frozen primary market
+  was ruled a condition that makes an event more likely rather than the event itself. **What fires is a
+  research task, not a criterion.**
+  ⚠ **THE NEXT MEASUREMENT, NAMED PRECISELY — the practice that produced the September HRC offer within the
+  hour: the HNX bond-disclosure page for SAIGON GLORY's ten lots, or the Feb-2024 bondholder RESOLUTION (not
+  the consultation notice), establishing whether the extension was APPROVED and to what date.**
+  ✅ **CLEAN NEGATIVE — FTSE (lane 4), AND COMPREHENSIVELY SO.** The 21-Aug GEIS publication, the 21-Sep
+  effective date, the **four-tranche phase-in (Sep-26 10% · Mar-27 +20% · Jun-27 +35% · Sep-27 +35% = 100%
+  ✓)** and all four index weights (**Global All Cap 0.04% · All-World 0.02% · Emerging All Cap 0.34% ·
+  Emerging Index 0.22%**) are on file, as is the ~US$1.5bn passive figure with its fence. *70 hits on the
+  tranche language alone. Candidate-roster counts circulating at 28/29/30/32 against the file's 23-name
+  28-Apr roster — a spread the file already holds; **Friday settles it.***
+  **PORTFOLIO IMPACT:** a negative the file was relying on may be a year out of date, on the only holding
+  whose kill criterion names Masterise by name. Nothing modelled; no §4 input touched; nothing armed.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — and per 20:54 its correction fires TRIGGER 3
+  in either direction (−29.0pp or +25.0pp). TRIGGER 5 REMAINS FIRED — MBB RIGHTS TRADE TOMORROW; KDH's
+  INSIDER WINDOW AND THE FTSE LIST LAND FRI 21-AUG = SESSION 5; CORE circumvention preliminary 24-AUG enters
+  the window TOMORROW.** ⚠ *28-Aug is session 10 from today — outside the window, and it enters on 21-Aug.*
+  Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: smartf.vn (Masterise Group's acquisition of The Spirit of Saigon; Saigon Glory bondholders
+  consulted Feb-2024 on payment adjustment to no later than 28-Aug-2026 — T5, interrogative-strength);
+  thuonghieuplus.vn a70601 (Masterise Homes bond issuance scale); this file's own lines 5864 and 6518 for the
+  ₫10,000bn / 28-Aug-2025 claim; thoibaotaichinhvietnam.vn 202440 + vneconomy.vn (FTSE GEIS 21-Aug
+  publication, tranche schedule, index weights — all previously held).
+
 - **🚨🚨🚨 20:54 ICT MON 17-AUG · THE PENDING VPX CORRECTION FIRES TRIGGER 3 IN *EVERY*
   DIRECTION — AND THE SIGN FLIPS DEPENDING ON WHICH FIELD THE HUMAN TREATS AS WRONG. −29.0pp OR +25.0pp,
   BOTH FAR BEYOND THE 10pp BAR. THIS HAS NEVER BEEN COMPUTED (lanes 3, 6).**
