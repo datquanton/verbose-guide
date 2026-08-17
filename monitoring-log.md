@@ -122,6 +122,59 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 16:54 ICT MON 17-AUG · GATE ROW 33 CLOSES TOO — AND WITH BOTH STEEL GATES OPEN THE TWO
+  SERIES COMBINE INTO SOMETHING NEITHER SHOWED ALONE: HPG HAS CUT ITS PREMIUM OVER LANDED CHINESE HRC FROM
+  ~15% TO ~7% IN TWO MONTHS, AND ALMOST NONE OF IT IS CHINA MOVING (lane 5).**
+  ✅ **GATE ROW 33 REQUIRED "*an assessment dated AUGUST or later — not a re-run of the same July weeklies*."
+  IT IS MET, ON THE EXACT INSTRUMENT THE ROW SPECIFIES.** **Mysteel, SS400 3mm commercial-grade HRC, North
+  China Tianjin port, FOB: US$483/t on 03-AUG-2026, −US$2/t from 31-Jul.** *Same publisher, same grade, same
+  thickness, same port, same basis — no instrument question arises.* **Zero prior hits for `$483`.**
+  ✅ **THE SERIES NOW READS, WITH TWO NEW PRINTS:** 17-Jul **486** → 24-Jul **485** *(on file)* → 31-Jul
+  **485** *(new)* → **03-Aug 483** *(new, and the August date the row demanded)*.
+  🎯 **THE COMBINATION, WHICH IS THE ACTUAL FINDING.** Row 33 carries the freight reconciliation
+  **485 FOB → ~495–510 landed Vietnam** (i.e. **+US$10 to +US$25/t**). Applying the file's own band:
+  **483 FOB → 493–508 landed**, and **486 FOB → 496–511 landed**.
+  | | HPG offer | landed Chinese | HPG premium |
+  |---|---|---|---|
+  | **July** | ≈**580** | 496–511 (from 486 FOB, 17-Jul) | **+13.5% to +16.9%** |
+  | **September** | **535** | 493–508 (from 483 FOB, 03-Aug) | **+5.3% to +8.5%** |
+  ***The premium has roughly HALVED — midpoints 15.2% → 6.9%, a compression of 8.3pp.***
+  🚨 **AND THE ATTRIBUTION IS ONE-SIDED, WHICH IS THE PART THAT MATTERS. HPG cut 580 → 535 = −7.76%.
+  The Chinese benchmark moved 486 → 483 = −0.62%.** ***HPG's cut is 12.5× the benchmark's move.*** **So the
+  compression is almost entirely HPG's own doing, not Chinese prices falling.** *Had HPG held its July price
+  the premium would have WIDENED, since China drifted down too.* **The "growing competition from imported
+  material" narrative is real in its effect and misleading in its mechanism: the import price barely moved —
+  HPG moved to meet it.**
+  ✅ **THE BASIS MATCHES BETTER THAN IT LOOKS, AND THAT IS WORTH SAYING.** Last hour I flagged that HPG's 535
+  is quoted **CIF Vietnam** — an import basis for a domestic producer. **Against a FOB-plus-freight LANDED
+  Chinese figure that is apples-to-apples, not apples-to-oranges.** *The oddity noted yesterday turns out to
+  make this specific comparison MORE valid, not less. Recorded because I flagged it as a caveat and it
+  resolved the other way.*
+  ⚠⚠ **THREE CAVEATS, NONE OF WHICH I CAN CLOSE.** **(1) WINDOW: HPG's September figure is a FORWARD offer;
+  the Chinese 483 is a SPOT assessment dated 03-Aug — two weeks earlier and a different kind of measure.
+  Forward-vs-spot across a fortnight.** **(2) FREIGHT BAND: the ±US$15/t spread the file's own reconciliation
+  carries is worth ±~3pp on the premium — which is why BOTH ends are given and no midpoint is asserted as the
+  answer.** **(3) The July ≈580 is carried by gate row 25 as approximate ("July ≈ 580"), so the 8.3pp
+  compression inherits that approximation.** ***None of the three changes the sign or the order of magnitude,
+  and none is buried.***
+  ⚠ **WHAT THIS DOES NOT SHOW: HPG's REALISED price.** **Every figure above is an OFFER or an ASSESSMENT.**
+  ***A list cut is a decision; a realised ASP is an outcome, and the two differ by discounting and mix.***
+  **The file has no HPG realised HRC ASP, and this hour does not supply one.** *Flagged as the next
+  measurement worth naming — the same way naming the September offer at 14:54 produced it at 15:54.*
+  ⚠ **NOTHING RE-RUN THROUGH THE BRIDGE THIS HOUR.** The bridge's HRC leg was set at **535** at 15:54 from
+  HPG's own offer; **a Chinese export assessment is a competitive reference, not an HPG input**, so implied
+  core NPAT/tonne stays **₫0.888m, −29.0% to bear**. *Resisting the temptation to re-run the arithmetic on an
+  input that does not enter it.*
+  **PORTFOLIO IMPACT:** both steel gates are now closed and they jointly quantify the margin mechanism — HPG
+  is defending share by giving up price against a benchmark that has barely moved. **Nothing modelled: no
+  §4 input touched; HPG confidence unchanged at 0.75.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed).
+  TRIGGER 5 REMAINS FIRED — SESSION 1 COMPLETE; MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW AND THE FTSE
+  LIST BOTH LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: Mysteel Global (@MysteelGlobal) assessments for 03-Aug (US$483/t FOB Tianjin, −$2/t), 31-Jul
+  (US$485/t) and 17-Jul (US$486/t), SS400 3mm commercial grade; mysteel.net weekly HRC export analyses
+  (5119845 / 5133207); file's own gate rows 25 and 33 for the July ≈580 offer and the freight reconciliation.
+
 - **🎯🎯🎯 15:54 ICT MON 17-AUG · THE MEASUREMENT I NAMED AN HOUR AGO AS THE MOST VALUABLE OPEN ITEM
   ARRIVED — AND IT IS BETTER THAN AN INDEX: HOA PHAT'S OWN SEPTEMBER HRC OFFER. GATE ROW 25's "NOT BEFORE"
   CONDITION IS MET AND THE ROW CLOSES (lane 5).**
