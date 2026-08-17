@@ -122,6 +122,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯⚠⚠ 09:54 ICT MON 17-AUG · A FLAGGED SINGLE-SOURCED FIGURE GETS ITS SECOND ROUTE — AND THE SAME
+  SOURCE OPENS A DIRECTION CONFLICT ON THE SERIES IT CORROBORATES (lanes 1, 4). Market open, session 1.**
+  **WHAT RESOLVED.** The 16:53 entry recorded July interbank turnover at **~₫850,000bn/session against
+  ~₫800,000bn the prior month** and explicitly logged it as **ONE T5 route, not two** — both returns traced
+  to a single VietnamNet article. The 04:53 entry then listed it under *"a second disagreement, also
+  unresolved."* Vietstock's **monthly Bond–Money report for July 2026** — an analysis product, not a news
+  mirror — reports the **same pair, ₫850,000bn vs ₫800,000bn**. ✅ **That is a genuinely independent second
+  route. The turnover figure is no longer single-sourced.** The *rate* series (overnight 2.43% → 2.97%,
+  1w 3.51% → 3.81%, 2w 5.47% → 5.60%, 3w 5.29% → 5.88%) is **NOT corroborated by this** — only the turnover
+  pair appears in both. **Corroborating one number in an article does not corroborate the article.**
+  🚨 **WHAT IT OPENS.** The same Vietstock report headlines overnight interbank **cooling**, with the rate
+  *"at one point falling to its lowest in more than 2 years"* during July — against VietnamNet's **+54bp rise**
+  across the month. **These are not necessarily contradictory: a monthly average can rise while an intramonth
+  low is set.** They are an **average vs an extreme** — the measure-substitution family again, this time as
+  **statistic**: mean and minimum of the same series are different measures, and neither refutes the other.
+  ⚠ **I cannot settle which the sources mean from the snippets; vietstock.vn remains egress-blocked, so the
+  report body is unreadable from here. Logged as an open conflict, not a resolution.**
+  🎯 **BUT IT CUTS THE SAME WAY AS THE 04:53 CAVEAT, WHICH IS THE useful part.** 04:53 argued the +54bp
+  finding *"stands as a fact and shrinks as a signal"* because the file **never established the series'
+  own volatility** — *"a move is only a signal against a scale, and the scale was missing."* **A >2-year low
+  printed inside the same month is direct evidence that the intramonth range is wide.** So the second route
+  arrives corroborating the turnover and **independently confirming the qualification** on the rate.
+  ✅ **NEW AND NOT PREVIOUSLY IN THE FILE — USD/VND on the INTERBANK leg.** End-July interbank **₫26,293**,
+  **−0.1% MoM**, intramonth range **₫26,254–₫26,335** — an **81đ band, 0.31%**, very tight. Zero prior hits
+  for 26,293 in this file. **The file's only USD/VND cluster is line 3472's COMMERCIAL SELL quotes**
+  (Vietcombank ₫26,250 / ACB ₫26,240 / Vietinbank ₫26,258, at an SBV central of 25,539).
+  🎯 **THE APPARENT ANOMALY RECONCILES, AND THE RECONCILIATION DATES THE OTHER FIGURE.** A bank's customer
+  **sell** rate cannot durably sit **below** interbank — the markup runs the other way. So ₫26,240–₫26,258
+  (sell) against ₫26,293 (interbank) is only coherent **if the two are at different dates and the VND firmed
+  between them**. Central 25,539 vs the **14-Aug central 25,561** places the line-3472 quotes in **August, not
+  end-July** — i.e. *later*, and lower. **That is exactly the direction the "tỷ giá hạ nhiệt" (FX cooling)
+  headline reports.** Two instruments, two dates, one consistent story — **not** an anomaly, and **not**
+  a figure to blend. ⚠ *Stated as a dating inference from rate-mechanics, not as a filed date.*
+  ⚠ **UNIT FENCE — FOREIGN FLOWS, 14-AUG.** One summary route renders that session's foreign net sell as
+  **"2.91 billion dong"** and the week as **"9.6 billion"**; a second gives **₫852bn all-market / ₫877.65bn
+  HOSE**, decomposed as **VIC ₫480.27bn · VHM ₫184.63bn · SHB ₫99.75bn · MSN ₫76.77bn** (top-4 sum ₫841.42bn,
+  95.9% of the total — internally coherent). **The decomposed figure wins: a total that survives being broken
+  into named parts outranks a bare total.** The ₫2.91/₫9.6 pair is a session-vs-week unit rendering and must
+  not be read as ₫2,910bn. **Fenced so the next sweep does not re-litigate it.**
+  ✅ **ALREADY IN THE FILE — CHECKED BEFORE WRITING, NOT AFTER.** (a) VN-Index **1,729.08**, −36.55pt
+  (−2.07%) on 14-Aug — **9 prior hits**; week −39pt; 1,700 named as this week's support test. (b) Credit
+  **7.41%** YTD to 26-Jun at **₫19.97 triệu tỷ** — already logged. *One cross-check is still worth the line:*
+  the file's end-2025 base **₫18,592,000bn × 1.0741 = ₫19,969,667bn**, against the reported ₫19.97 triệu tỷ —
+  **0.02%**. **Third independent confirmation of that base.** (c) MBB's rights arithmetic — 8,055m × 1.15 +
+  805.5m = **10,068.75m shares → ₫100,687bn** vs the reported *"hơn 100,600 tỷ"* — **already at lines
+  1813/2558 and in the gate table.** I re-derived it before grepping and it was a re-search; the gate table
+  did its job on the second look, not the first.
+  ✅ **MBB RIGHTS — TIMETABLE RE-CONFIRMED, ONE FIELD ADDED.** 805.5m shares at **₫10,000** ≈ **₫8,055bn**
+  raised; **rights transfer 18/08–26/08** (as carried); **subscription and payment 18/08– 07/09**. The
+  transfer window opens **tomorrow**.
+  ⚠ **NOT LOGGED AS A FINDING — A SEARCH SUMMARY RETURNED "TCB ₫31,650 on 17-Aug-2026" off a live quote
+  widget.** Single uncorroborated route, off a page whose contents change between fetches, on a day the market
+  has been open under an hour. **The file's TCB prints span ₫28,754–₫33,800, so 31,650 is unremarkable inside
+  the range and discriminates nothing.** 🚨 **And `price` is a §4 HUMAN-ONLY field — even a confirmed quote
+  would be escalated, not written.** `assumptions.json` untouched. **Recorded so a later sweep does not
+  mistake this for a datapoint the file accepted.**
+  **PORTFOLIO IMPACT:** none modelled — one flagged single-sourcing closes, one average-vs-extreme conflict
+  opens, and the July FX leg is now on file with its instrument and date fenced; no §4 input touched.
+  🚨 **TRIGGER 4 REMAINS FIRED (VPX — `npat_ttm` ₫3,580.8bn vs ≈₫5,039bn filed, 1.41×). TRIGGER 5 REMAINS
+  FIRED — TODAY IS SESSION 1; MBB RIGHTS TRADE FROM TOMORROW.** Trigger 2 STANDING-BREACHED; triggers 1 and
+  3 negative. **No NEW trigger fires on this entry.**
+  Sources: Vietstock Bond–Money monthly report 07/2026 (finance.vietstock.vn/bao-cao-phan-tich/21615);
+  thitruongtaichinhtiente.vn (credit 7.41% / ₫19.97 triệu tỷ); tinnhanhchungkhoan.vn (deposit rates up, FX
+  cooling); cafef.vn 188260814155113236 + baomoi 55839463 (14-Aug flows, decomposed); vietstock.vn
+  1476203 + acbs.com.vn + psi.vn (MBB rights timetable); vov.vn post1324402 (1,700 support).
+
 - **🚨🚨⚠⚠ 08:54 ICT MON 17-AUG · THE PRIMARY BOND MARKET COLLAPSED IN JULY TO A FIVE-YEAR LOW — WHICH
   IMPAIRS THE EXACT CHANNEL TCB's ORIGINATE-TO-DISTRIBUTE MODEL DEPENDS ON. And the PM has ordered LENDING
   rates down with sanctions for non-compliance (lanes 1, 5, 3). Six minutes before the open.**
