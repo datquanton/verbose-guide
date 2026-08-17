@@ -122,6 +122,67 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 17:54 ICT MON 17-AUG · THE FILE HAS BEEN WATCHING THE WRONG FIELD. `price` DOES NOT
+  ENTER THE EXPECTED-RETURN CALCULATION AT ALL — `cap_now = pe_ttm × npat_ttm`. A STALE PRICE IS NOT THE
+  PROBLEM; IT IS THE SYMPTOM OF A STALE `pe_ttm`, WHICH IS THE FIELD THAT DRIVES EVERYTHING (lanes 7, 3, 1).**
+  ✅ **READ FROM `decide.py`, NOT INFERRED.** Line 67: **`cap_now = v["pe_ttm"] * v["npat_ttm"]`.** Line 71:
+  **`rets.append(cap_target / cap_now - 1 + v["cash_yield"])`.** ***`price` appears NOWHERE in the return
+  construction.*** **It enters only indirectly, because `cash_yield` was struck against it.**
+  ⚠⚠ **SO FIVE PRIOR ENTRIES TRACKING "THE PRICE IS STALE" (lines 3245, 4607, 4800, 6595, 7144) WERE WATCHING
+  A FIELD THAT DOES NOT MOVE E[r].** ***That is not wasted work — a stale price is real evidence — but the
+  file never said what it was evidence OF, and the answer is `pe_ttm`.***
+  🎯 **THE COHERENCE CHECK THAT MAKES THE INFERENCE VALID.** TCB: **7.21 × 28,754 = ₫207,316bn**, and
+  **207,316 ÷ 29,250 = 7.087bn implied shares** — TCB's actual count is ~7.06bn. ✅ **`pe_ttm` and `price`
+  WERE struck consistently at ₫29,250.** ⚠ *Per the 06:54 lesson this identity holds BY CONSTRUCTION and
+  proves consistency, not correctness — but it is used here in the only direction it is valid: **if the two
+  were struck together, a gap in one implies a gap in the other.***
+  🚨 **AND THE PRICE GAP NOW HAS TWO ROUTES, NOT ONE.** At 10:54 I declined a single live-widget quote of
+  **₫31,650 (17-Aug)**. A second, independent route now gives **₫31,000 with a −1.12% move and a ₫221.79bn
+  foreign net-sell attached** — **a decomposed datapoint, which by the 09:54 principle outranks a bare
+  quote.** ⚠ **The second is undated beyond "early August", so the two are NOT a repeat measurement — but
+  ₫31,000 (early Aug) → ₫31,650 (17-Aug) is +2.1% and internally coherent.** ***Both put TCB 6.0%–8.2%
+  above the carried ₫29,250.***
+  🚨 **WHAT THAT WOULD DO, COMPUTED EXACTLY RATHER THAN APPROXIMATELY.** Because `cap_now` is a COMMON
+  DENOMINATOR across every branch, scaling it by *k* transforms the whole probability-weighted result in
+  closed form: **E[r]_new = (E[r]_old − cash_yield + 1)/k − 1 + cash_yield.** With TCB's **raw E[r] = +4.0%**
+  and **cash_yield = 0.024**:
+  | price | k | implied `pe_ttm` | raw E[r] | shrunk (×0.70) |
+  |---|---|---|---|---|
+  | **29,250 (carried)** | 1.000 | **7.21** | **+4.0%** | **+2.8%** |
+  | 31,000 | 1.060 | 7.64 | **−1.8%** | −1.2% |
+  | 31,650 | 1.082 | 7.80 | **−3.7%** | −2.6% |
+  ✅ **ESCALATION TRIGGER 3 TESTED AND IT DOES NOT FIRE: the raw move is −5.8pp to −7.7pp, BELOW the 10pp
+  bar** *(shrunk: −4.0 to −5.4pp)*. **Recorded as a deliberate non-fire.** *TCB's E[r] is small to begin
+  with, so a large price move produces a small absolute E[r] move — the multiplicative structure, not luck.*
+  🚨 **BUT THE SIGN FLIPS, AND THAT IS THE DECISION-RELEVANT PART: TCB's EXPECTED RETURN WOULD GO
+  NEGATIVE.** **+4.0% → −1.8% to −3.7% raw.** ✅ ***AND IT STRENGTHENS THE EXISTING RECOMMENDATION RATHER
+  THAN THREATENING IT: the brief already says SELL TCB −15.0pp (35.0% → 20.0%). A negative E[r] on the
+  largest proposed trim makes that direction MORE robust, not less.*** **No reversal risk from this.**
+  ⚠⚠ **THE WHOLE THING IS CONDITIONAL AND THE CONDITION IS WEAK. Neither price route is solid** — one is a
+  live widget that changes between fetches, the other is undated. **Nothing above is asserted as TCB's price.
+  It is a SENSITIVITY, run so the human sees the shape before deciding whether to verify.** 🚨 **`price`,
+  `pe_ttm`, `npat_ttm`, `cash_yield` and `confidence` are ALL §4 HUMAN-ONLY. `assumptions.json` UNTOUCHED;
+  `DECISION-BRIEF.md` byte-identical.**
+  ⚠ **LANE 7 — FOREIGN ROOM, FLAGGED NOT ADOPTED.** A route reports **MBB and TCB with only ~1% foreign room
+  remaining** and **VPB ~6–10%**, plus ~**9.55bn** bank shares of open room across 27 banks. ⚠⚠ **The same
+  return anchors part of this to "as of August 14, 2025" — a YEAR-OLD date presented alongside 2026
+  material.** ***A source that mixes a 2025 anchor into a 2026 answer has not earned adoption for either***
+  — the same rule applied at line 2556 when a page returned an impossible date for one name. **Not logged as
+  fact.** *It does bear on the VPB placement: a foreign investor taking 624.3m shares needs room to exist.*
+  ✅ **CLEAN NEGATIVE — DEPOSIT RATES (lane 1).** 17-Aug essentially unchanged on the prior week; dispersion
+  persists with some tenors above 7%; **LPBank +0.1pp to 4.4%**. ⚠ *A "9.00% at 12 months (PVcomBank)"
+  headline is the conditional-tier trap already caught on TCB's 6.15/6.75/6.90 channel spread at 10:54 Sun —
+  a headline rate is a channel, not a level. Not treated as a market rate.*
+  **PORTFOLIO IMPACT:** the file now knows WHICH field a price gap is evidence about, and the largest
+  proposed trade is robust to the gap — TCB's E[r] would turn negative, reinforcing the existing SELL.
+  🚨 **NO NEW TRIGGER FIRES — TRIGGER 3 TESTED AND NEGATIVE AT −5.8/−7.7pp. TRIGGER 4 REMAINS FIRED (VPX).
+  TRIGGER 5 REMAINS FIRED — MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW AND THE FTSE LIST LAND FRI
+  21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: `research/models/decide.py` lines 67 and 71 (read, not inferred); `DECISION-BRIEF.md` (TCB raw
+  E[r] +4.0%, conf 0.70, SELL −15.0pp); stockbiz.vn 41388539 (TCB ₫221.79bn net sell, −1.12%, ₫31,000);
+  vnbusiness.vn + nguoiquansat.vn 301072 (bank foreign room, 27 banks — DATE-CONFLICTED, not adopted);
+  ngoisao.vn d490261 (deposit rates 17-Aug); vneconomy.vn (August savings-rate survey, LPBank +0.1pp).
+
 - **🎯🎯🚨 16:54 ICT MON 17-AUG · GATE ROW 33 CLOSES TOO — AND WITH BOTH STEEL GATES OPEN THE TWO
   SERIES COMBINE INTO SOMETHING NEITHER SHOWED ALONE: HPG HAS CUT ITS PREMIUM OVER LANDED CHINESE HRC FROM
   ~15% TO ~7% IN TWO MONTHS, AND ALMOST NONE OF IT IS CHINA MOVING (lane 5).**
