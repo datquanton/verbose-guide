@@ -122,6 +122,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 14:54 ICT MON 17-AUG · THE COAL LEG RESOLVES IN THE DIRECTION THE FILE ITSELF FLAGGED, AND
+  IT PARTLY RETRACTS MY OWN 08:53 "WITHIN 8% OF BEAR" READING ON HPG: −7.7% BECOMES −22.2% (lanes 5, 4, 3).
+  Session 1 closed −0.09%.**
+  ✅ **NEW, ZERO PRIOR HITS: A DATED COKING-COAL PRINT OF US$225/t AT 14-AUG-2026**, flat on the day,
+  **−1.21% MoM**, **+15.38% YoY**. **Same route as the file's US$212 — `tradingeconomics.com`, egress-blocked,
+  read through a search summary, so T4 both times. Same series, therefore comparable to itself.**
+  🎯 **WHAT IT DOES TO THE 03-AUG US$212 — AND THE FILE HAD ALREADY NAMED THIS AS A CANDIDATE
+  FALSIFICATION.** The 212 was **basis-disclaimed BY ITS OWN PUBLISHER** — *"a broader coking coal price
+  rather than specifically PHCC FOB Australia"* — and logged at 08:53 as a **candidate**, with both readings
+  carried. **This hour supplies the discriminator, from the SOURCE'S OWN internal arithmetic:**
+  **US$225 at 14-Aug with −1.21% MoM implies ≈US$227.8 a month earlier.** ***So the same series ran
+  227.8 (mid-Jul) → 225 (14-Aug) — a gentle drift. A genuine 212 on 03-Aug would require a V-shaped 6.9%
+  round trip inside eleven days, against a file narrative of EIGHT consecutive weekly declines.***
+  ✅ **AND THE LEVEL TEST AGREES.** The file holds **FOB Australia US$228** and **CFR China US$238**.
+  **US$225 sits −1.32% from FOB Australia and −5.5% from CFR China** — it is the FOB series, drifted.
+  **US$212 sat 7.0% below FOB Australia and 10.9% below CFR China — near neither.** ***A figure 1.3% from the
+  held index is far more likely to BE that index than one 7.0% away.*** **The basis disclaimer is upheld:
+  the 212 is treated as an instrument artefact, not a trough.**
+  🚨 **THE ARITHMETIC, ON THE FILE'S OWN VERIFIED BRIDGE AND GEARINGS.** Base row *"ore 100, coal 220,
+  HRC 539"* ⇒ **₫0.853m/t**. Gearings: **₫0.34m per US$10/t ore**, **₫0.14m per US$10/t coal**.
+  Ore 100 → **94.45** = **+₫0.189m**. Coal 220 → **225** = **−₫0.070m**. ***Implied core NPAT/tonne =
+  0.853 + 0.189 − 0.070 = ₫0.972m.*** Against bear **1.25**: **−22.24%.**
+  ⚠ **SO THE THREE READINGS NOW STAND SIDE BY SIDE, AND THE MIDDLE ONE WAS THE FLATTERING ARTEFACT:**
+  | coal input | implied core NPAT/t | gap to bear 1.25 |
+  |---|---|---|
+  | 220 (bridge's own) | ₫1.042m | −16.6% |
+  | 212 (basis-disclaimed) | **₫1.154m** | **−7.7%** |
+  | **225 (this hour, index-consistent)** | **₫0.972m** | **−22.2%** |
+  ***"The cost side has closed three quarters of the distance to the bear case" was built on the ONE print
+  whose own publisher disclaimed its basis. On the index-consistent figure it has closed about a third.***
+  ⚠⚠ **THE DOMINANT CAVEAT IS RESTATED, NOT DROPPED — IT IS STILL LARGER THAN THE RESULT. HRC is held at 539
+  and was NOT re-measured this hour. At ₫0.021m per US$1/t, ±US$20/t of HRC is ±₫0.420m/t — larger than the
+  entire ₫0.278m gap to bear.** **This sizes two measured blades with the third held fixed. It is not a
+  forecast.** *Ore also unchanged at 94.45 — no fresh print, and that is stated rather than implied.*
+  🚨 **A US$460 CHINA HRC EXPORT OFFER SURFACED AND IS REFUSED — AND ITS OWN IMPLAUSIBILITY IS THE PROOF.**
+  Zero prior hits, **but undated and from a commodity-aggregator page carrying no assessment date, no port
+  and no spec** — failing gate row 32's specification test outright. ***Test it anyway: 539 → 460 is −US$79/t
+  = −₫1.659m/t, which would take implied core NPAT/tonne to NEGATIVE ₫0.687m.*** **A figure that drives a
+  profitable book negative is evidence of instrument mismatch, not evidence about HRC.** *This is the
+  US$260/US$241 lesson exactly — undated quotes set against an index-based model input, withdrawn on 12-Aug.*
+  ⚠ **AND IT NAMES THE MOST VALUABLE OPEN MEASUREMENT IN THIS FILE: a DATED, SPEC'D HRC index print.** It is
+  the dominant caveat on every bridge reading; **precisely because a real move there would dwarf both other
+  legs, it must come from an assessment, not an aggregator.**
+  ✅ **LANE 4 — SESSION 1 OF THE TRIGGER-5 WINDOW CLOSED ESSENTIALLY FLAT.** VN-Index **1,727.46, −1.62pt
+  (−0.09%)**; opened **1,731.75 (+2.67)**. 🎯 **BOTH ARITHMETIC CHECKS CLOSE EXACTLY against Friday's
+  1,729.08: 1,729.08 − 1.62 = 1,727.46 ✅ and 1,729.08 + 2.67 = 1,731.75 ✅ — same series, same date,
+  confirmed rather than assumed.** ⚠ **The week's consensus call was a test of 1,700; on day 1 it did not
+  happen.** *Not scored — the call is a weekly one and Friday is its resolution, not today.*
+  ⚠ **Foreign selling again led by VIC, MSN and VHM — three of the same four names that led 14-Aug's
+  ₫877.65bn (VIC ₫480.27bn, VHM ₫184.63bn, MSN ₫76.77bn). Persistence noted; none of the eight appears on
+  either side.**
+  ✅ **CLEAN NEGATIVE — MBB (lane 3).** 1.21bn shares at 15%, 805.5m rights at ₫10,000 = ₫8,055bn, transfer
+  **18–26 Aug**, payment to **07-Sep**, record **12-Aug** / ex **11-Aug**, charter **₫80,550bn → ₫100,687bn**
+  — all on file. *The ₫80,550bn does externally confirm the 8,055m pre-action share base the file derived.*
+  **PORTFOLIO IMPACT:** HPG's cost side is materially further from the bear case than the 08:53 reading
+  implied — a partial retraction of my own entry, not a new adverse development. **Nothing modelled:
+  `core_npat_per_tonne_m` (1.25 / 1.6 / 1.85) is §4 HUMAN-ONLY and untouched; no confidence moved.**
+  🚨 **NO NEW TRIGGER FIRES — no model input changed, so no computed E[r] moved. TRIGGER 4 REMAINS FIRED
+  (VPX). TRIGGER 5 REMAINS FIRED — SESSION 1 IS NOW COMPLETE; MBB RIGHTS TRADE TOMORROW; KDH's INSIDER WINDOW
+  AND THE FTSE LIST BOTH LAND FRI 21-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: tradingeconomics.com/commodity/coking-coal (US$225/t, 14-Aug, −1.21% MoM, +15.38% YoY —
+  egress-blocked, read via summary, T4); index.vn + danviet.vn d1452104 (VN-Index 17-Aug close and open,
+  foreign flows); vietstock.vn 1476203 + thoibaotaichinhvietnam.vn 200251 (MBB timetable, charter capital);
+  expertmarketresearch / mwalloys (US$460 China HRC export offer — CITED AND REFUSED, undated and unspec'd).
+
 - **🎯🎯🚨 13:54 ICT MON 17-AUG · A SELF-IDENTIFIED BLANK PARTLY CLOSES — HCMC's LAND-FEE LANE
   PRODUCES DATA FOR THE FIRST TIME. AND A GREP FALSE POSITIVE ALMOST MADE ME SKIP IT AS "ALREADY COVERED"
   (lanes 5, 6). This is the first time that defect would have cost a FINDING rather than time.**
