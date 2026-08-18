@@ -203,11 +203,11 @@
       <h1>Vietnam Equity Research Library</h1>
       <p class="standfirst">A single accumulating file on eight Vietnamese holdings — banks, brokers, property and steel — built from primary documents, swept hourly, and written so that every number carries its source, its date and its basis. Errors are corrected in place and kept on the record.</p>
       <div class="stamp">
-        <span>Last sweep <b>2026-08-18 21:54 ICT</b></span>
-        <span>Commit <b class="mono">354d93a</b></span>
-        <span><b>487</b> commits</span>
+        <span>Last sweep <b>2026-08-18 22:54 ICT</b></span>
+        <span>Commit <b class="mono">571f6d7</b></span>
+        <span><b>488</b> commits</span>
         <span><b>17,115</b> lines of log</span>
-        <span><b>1,705</b> calibration entries</span>
+        <span><b>1,712</b> calibration entries</span>
       </div>
     </header>
 
@@ -255,8 +255,8 @@
           <p>MB went ex on 11 Aug for a 15% stock dividend and a 10:1 rights issue; the valuation block still reconciles to the pre-ex share count of 8,055m. The stock dividend is capital-neutral. The rights are not: ₫8,055bn of new cash by 7 Sep takes <span class="mono">pe_ttm</span> from 5.76 to <b>6.021</b> and raw expected return from +36.6% to <b>+30.7%</b>. Mechanical, dated, and it changes no ranking.</p>
         </article>
         <article class="esc locked">
-          <div class="esc-head"><strong>TCX — the price field, and a stored trigger 20% too low</strong> <span class="chip locked">§4 human-only</span></div>
-          <p>The carried price of ₫41,100 sits below the entire 52-week range and is contradicted by an independent market capitalisation that corroborates the model's own <span class="mono">pe_ttm × npat_ttm</span> to 1.66%. Separately, the stored price-to-book kill trigger of ₫33,010 was computed on an implied share count 20% above the real one; the true level is <b>₫39,616</b>.</p>
+          <div class="esc-head"><strong>TCX — the price field carries no date</strong> <span class="chip locked">§4 human-only</span></div>
+          <p><b>Corrected 18 Aug 22:54.</b> This card previously said the stored price-to-book kill trigger of ₫33,010 was 20% too low and that ₫41,100 sat below the whole 52-week range. <b>Both were wrong</b>, and both traced to TCX's listing-date share count — superseded by a 20% stock dividend that takes the count to 2,773,896,000. On that count ₫33,010 is <em>correct</em>, and ₫41,100 sits 17.1% above the ₫35,100 low. An independent capitalisation — the exchange's own VN30 review figure, ₫116,354–116,532bn — corroborates the model's <span class="mono">pe_ttm × npat_ttm</span> of ₫114,024bn to within 2.2%, so the capitalisation is sound. What is genuinely open is narrower: the price field carries <em>no date</em>. It was last corroborated on 7 August at ₫40,550 against an implied prior close of ₫41,400 — within 1.4% either way. The criterion needs a <b>19.7%</b> fall from the file's price, measured against price rather than against the trigger.</p>
         </article>
         <article class="esc locked">
           <div class="esc-head"><strong>VCI — confidence against a plan running behind</strong> <span class="chip locked">§4 human-only</span></div>
@@ -494,7 +494,7 @@
 
     <footer>
       <p><b>Disclosure and disclaimer.</b> Independent research, published for information only. It is not investment advice, an offer, or a solicitation, and nothing here is a trade instruction. Third-party forecasts belong to their publishers and are cited with their dates; estimates are flagged in line and distinguished from filed actuals throughout. The author may hold positions in the securities discussed. Vietnamese equities carry market, liquidity, currency and regulatory risk, and figures denominated in dong are exposed to exchange-rate movement.</p>
-      <p style="margin-top:12px" class="mono">Last sweep 2026-08-18 21:54 ICT · commit 354d93a · <a href="https://github.com/datquanton/verbose-guide/tree/claude/banking-vietnam-reports-scrape-5p6rtu">source</a></p>
+      <p style="margin-top:12px" class="mono">Last sweep 2026-08-18 22:54 ICT · commit 571f6d7 · <a href="https://github.com/datquanton/verbose-guide/tree/claude/banking-vietnam-reports-scrape-5p6rtu">source</a></p>
     </footer>
 
   </main>

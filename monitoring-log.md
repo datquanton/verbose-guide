@@ -125,6 +125,86 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 22:54 ICT TUE 18-AUG · THE ERROR THIS HOUR IS MINE AND IT IS IN MY OWN WORKING STATE: I HAVE
+  BEEN CARRYING THREE TCX FACTS THAT THIS FILE WITHDREW ON 02-AUG, INCLUDING A KILL-CRITERION TRIGGER PRICE
+  THAT IS 20% WRONG IN THE DIRECTION THAT MAKES THE CRITERION LOOK CLOSER THAN IT IS (lane 3).**
+  *Three searches this hour returned nothing new. The fourth returned something already on file — and checking
+  it against the file is what exposed this.*
+
+  🚨🚨 **THE THREE CARRIED CLAIMS, AND WHAT THE FILE ACTUALLY HOLDS:**
+  | I have been carrying | the file's resolved position | status |
+  |---|---|---|
+  | *"`pb_kill_trigger_price` should be **₫39,616**, not ₫33,010"* | ***"Trigger price is 2.0 × 45,782bn ÷ 2,773,896,000 = **33,010, NOT 39,616**"*** — 02-Aug | **BACKWARDS. 33,010 is CORRECT** |
+  | *"TCX `price` ₫41,100 sits **below the entire 52-week range**"* | ATH **54,000** (24-Feb-2026), ATL **35,100** (04-Nov-2025); 41,100 is **17.1% ABOVE the low** | **FALSE** |
+  | *"the 52-week low is **₫42,100**"* | no such figure anywhere in the file | **UNSOURCED** |
+
+  ⚠⚠⚠ **THE MECHANISM, AND IT IS THE SAME ONE I NAMED AN HOUR AGO POINTED AT MYSELF.** ₫39,616 comes from
+  **2.0 × equity ₫45,782bn ÷ 2,311,308,021 shares** — the **LISTING-DATE** count. **TCX paid a 20% stock
+  dividend in Q2/2026; the current count is 2,773,896,000, confirmed FOUR ways** (charter capital ₫27,739bn ÷
+  ₫10,000 par; the 24-Jul cap ₫108,758.6bn ÷ the 24-Jul price ₫39,200; 2,311.58m × 1.2; and HOSE's own VN30
+  review cap). **2,773,896/2,311,308 = 1.2000 — the entire error is the stock dividend, exactly.** ***And this
+  file already knows that: the 09:53 02-Aug entry built on the stale count was WITHDRAWN NINETY MINUTES LATER
+  and called "the largest error of the session."*** **I have been carrying the withdrawn side of a withdrawn
+  finding as though it were an open §4 escalation.**
+  🚨 **THAT IS THE 04-AUG LESSON FIRING AGAINST THE PERSON WHO WROTE IT.** The file says verbatim: ***"A WRONG
+  NUMBER CAN BE FOUND BY ARITHMETIC; AN EXPIRED ONE CANNOT, BECAUSE IT IS SELF-CONSISTENT WITH EVERYTHING THAT
+  PREDATES ITS EXPIRY."*** *It was written about a share count in `assumptions.json`. It applies identically to
+  a **conclusion** carried in working memory across hours — and there the defence (a date on the quantity) does
+  not exist, because working state carries no dates at all.* ⚠ **DIRECTION MATTERS: every one of the three
+  errors points the same way — toward TCX being cheaper, more broken, and closer to a kill than it is.** *A
+  set of independent errors that all lean one way is not noise.*
+
+  🎯 **AND CHECKING IT SURFACED A REAL DEFECT IN THE FILE ITSELF — THE SAME CRITERION IS QUOTED ON TWO
+  DIFFERENT DENOMINATORS, 4.8pp APART:**
+  | entry | wording | arithmetic | denominator |
+  |---|---|---|---|
+  | 02-Aug | *"the criterion is **24.5% away**"* | 8,090 ÷ **33,010** = 24.51% | ÷ **TRIGGER** |
+  | 07-Aug | *"needs ₫33,009 — an **18.6% FALL** from here"* | 7,541 ÷ **40,550** = 18.60% | ÷ **PRICE** |
+  | *at the file price ₫41,100* | — | 8,090 ÷ **41,100** = **19.68%** | ÷ **PRICE** |
+  ✅ **BOTH ARE ARITHMETICALLY CORRECT AND THEY ARE NOT THE SAME QUANTITY.** ***This is the catalogue's oldest
+  family — BASIS substitution — sitting inside this file's own text, on an armed kill criterion.*** **The
+  decision-relevant measure is ÷ PRICE, because the question a kill criterion asks is "how far must the stock
+  fall", not "how far does it sit above a threshold."** **So: TCX must fall 19.7% from the file's price for the
+  P/B criterion to fire. Not 24.5%.** *Recorded so the two numbers stop being read as a disagreement.*
+
+  ⚠ **THE SEARCH THAT TRIGGERED ALL THIS RETURNED A NEAR-DUPLICATE OF A FIGURE ALREADY ON FILE, AND THE FILE
+  ALREADY FORBIDS THE INFERENCE I WAS BUILDING FROM IT.** HOSE's VN30 review cap came back as **₫116,354bn**
+  against `_hose_avg_market_cap_bn_to_2026_06_30` = **₫116,532bn** — **0.15% apart, the same disclosure.** *I
+  was two steps from dividing it by a share count to imply a price of ~₫50,000 and declaring `price` 22% stale.*
+  **The 03-Aug entry forecloses exactly that, verbatim: *"116,532bn IS AN AVERAGE OVER A REVIEW WINDOW, NOT A
+  POINT CAP, so it is NOT used to imply a price... Dividing an average cap by a current share count across a
+  period in which the share count changed would produce a number that is not any price that ever traded."***
+  ✅ **WHAT THE FIGURE LEGITIMATELY DOES, AND THE FILE ALREADY DID IT: cap-to-cap.** `cap_now` = 20.05 ×
+  5,687 = **₫114,024bn** against the exchange's **₫116,354–116,532bn** — **1.7–2.2% below**. *On the withdrawn
+  listing-date count it would be ₫95,005bn, **18.5% below**. The exchange's figure discriminates decisively
+  between the two counts and picks the corrected one — for the second time, from an independent cut of the
+  same disclosure.* **So `cap_now` is approximately RIGHT for TCX, which is the opposite of the TCB/HPG finding
+  two hours ago, where the market price was right and `cap_now` was stale.** ***Two names, the same-shaped
+  defect, opposite directions — and only an independent market capitalisation can tell them apart. That is the
+  precise thing this file said it was missing, and on TCX it has it.***
+
+  ⚠ **THREE OTHER SEARCHES, ALL NIL, ONE OF THEM A GATE VIOLATION I AM RECORDING RATHER THAN HIDING.**
+  *(a) Iron ore / coking coal at 18-Aug — genuine nil; no assessment newer than the 14-Aug pair (ore 95.17,
+  coal 225) is reachable, and the summariser correctly refused to supply one rather than returning a stale
+  year. (b) Credit-quota removal pilot — everything returned is **Công điện 128 of 6-AUG-2025**, a year old.
+  (c) **VPB's 26% stock dividend — GATE ROW 40 NAMED THIS SEARCH AND I RAN IT ANYWAY.*** *The row says a
+  general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" **"returns THE SAME TERMS EVERY
+  TIME and they are all on file"**, and it did: 2,062.8m shares, ₫79,339bn → ₫100,000bn, Q3–Q4/2026, and the
+  ₫106,244bn placement step are all held, with `₫100,000bn + 624.3m × ₫10,000 = ₫106,243bn` already worked
+  through at 14:54 Saturday.* **Nothing gained. The row was right and I did not read it first.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED —
+  and note that the correction this hour REMOVES a §4 item rather than adding one. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. TCX's P/B kill criterion is NOT near — 19.7% below the file's price on the
+  corrected share count, against the 6.3%-from-the-52-week-low I had been carrying, which was built on a
+  withdrawn number. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3, CORE
+  circumvention preliminary 24-Aug = session 4. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **§4 QUEUE CORRECTED: the item *"TCX pb_kill_trigger_price should be ₫39,616"* is WITHDRAWN — the stored
+  ₫33,010 is correct. What remains genuinely open on TCX is only the `price` field's DATE (undated on file,
+  last corroborated 07-Aug at ₫40,550/₫41,400), not its level, which is within 1.4% on both readings.**
+  [Vietstock — TCX/Techcom Securities](https://finance.vietstock.vn/TCX-ctcp-chung-khoan-ky-thuong.htm) · [VnExpress — cổ phiếu Masan Consumer, TCBS vào rổ VN30 từ đầu tháng 8](https://vnexpress.net/co-phieu-masan-consumer-tcbs-vao-ro-vn30-tu-dau-thang-8-5097858.html) · [DNKTX — Chứng khoán TCBS tăng vốn lên 27,7 nghìn tỷ ngay quý II/2026](https://doanhnghiepkinhtexanh.vn/chung-khoan-tcbs-tang-von-len-277-nghin-ty-dong-ngay-quy-ii2026-a47554.html) · [StockBiz — VPB sẽ phát hành hơn 2 tỷ cổ phiếu trả cổ tức](https://stockbiz.vn/tin-tuc/vpb-vpbank-se-phat-hanh-hon-2-ty-co-phieu-tra-co-tuc/41230584) · [Vietstock — VPBank lấy ý kiến cổ đông thay đổi phương án tăng vốn sang cổ tức cổ phiếu 26%](https://vietstock.vn/2026/07/vpbank-lay-y-kien-co-dong-thay-doi-phuong-an-tang-von-dieu-le-sang-tra-co-tuc-bang-co-phieu-ty-le-26-757-1463767.htm) · [VnEconomy — Thủ tướng yêu cầu thí điểm gỡ bỏ room tín dụng từ 2026 *(Công điện 128, 6-Aug-2025 — cited to date it, not as news)*](https://vneconomy.vn/thu-tuong-yeu-cau-thi-diem-go-bo-room-tin-dung-tu-nam-2026.htm)
+
 - **🎯🎯✅ 21:54 ICT TUE 18-AUG · A "28-AUG-2026" MASTERISE MATURITY SURFACED, TEN DAYS OUT, ON THE
   INSTRUMENT THAT GATES AN ARMED TCB KILL CRITERION — AND IT IS FALSE. I CAN NOW NAME THE EXACT ARITHMETIC
   THAT GENERATES IT. Two questions this file explicitly refused to guess are BOTH closed (lanes 3, 5).**
