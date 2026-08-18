@@ -122,6 +122,56 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 11:54 ICT TUE 18-AUG · HPG's OWN GROSS MARGIN WAS NEVER ON FILE — ONLY ITS PEERS'.
+  IT IS 19.01%, AND THE MECHANISM THAT PRODUCED IT REVERSES IN Q3 (lanes 5, 6). Lunch break.**
+  ✅ **NEW, ZERO PRIOR HITS ANYWHERE: HPG Q2/2026 GROSS PROFIT ₫10,487.8bn, +59.2%, with the GROSS MARGIN
+  RISING 18.35% → 19.01%.** ⚠ ***`assumptions.json` carries `gross_margin` eight times and not once for HPG —
+  it held HSG's 14.86% and NKG's 10.50% and never our own name's.*** **Third instance in two days of the same
+  collection habit: VCI's revenue line, VPX's revenue line, now HPG's margin. The file gathers comparators
+  more reliably than it gathers the subject.**
+  🎯 **THE LIKE-FOR-LIKE COMPARISON IS NOW POSSIBLE — AND COMES WITH A CAUTION THAT MATTERS MORE THAN THE
+  NUMBERS.** **HPG 19.01% · HSG 14.86% · NKG 10.50% — +4.15pp and +8.51pp.**
+  ⚠⚠ ***HPG is an INTEGRATED mill; HSG and NKG are coated-steel CONVERTERS that BUY hot-rolled coil. The
+  gross-margin gap is structural, not competitive — same line item, different position in the value chain.***
+  **Recorded so the spread is never read as outperformance.** ✅ **What IS comparable is DIRECTION: HPG's
+  margin EXPANDED +0.66pp in a quarter where VCBS forecasts had HSG's profit −64.8% and NKG's −75%.**
+  🚨🚨 **AND THE STATED MECHANISM CUTS AGAINST Q3 — THIS IS THE PART THAT MATTERS.** The margin gain is
+  attributed to **inventory recognition, with *"selling prices adjusting up FASTER than cost of goods sold"***,
+  plus favourable input costs. ***That is an inventory-timing TAILWIND, and Q2 is April–June.***
+  **The price cuts began in JULY: ≈580 → 546/547 (August) → ~535 (September), −7.76%.**
+  ***So in Q3 the same mechanism runs in reverse — falling selling prices against inventory carried in at
+  higher cost.***
+  🎯 **THIS SHARPENS THE −52% READING RATHER THAN CONTRADICTING IT.** The fully-dated spot bridge says the
+  INPUT side deteriorated (₫0.8632m/t against a filed Q2 of ₫1.803m). **This says the REPORTED Q2 margin was
+  additionally FLATTERED by a lag that is now unwinding.** ⚠ ***And Q3 is precisely the first quarter that
+  could print below the ₫1.25m/t kill threshold*** — established at 06:54 as needing Q3 AND Q4 to breach.
+  🚨 **A SECOND NEW FIGURE, AND IT IS A STRUCTURAL HEADWIND INDEPENDENT OF THE SPREAD: Q2 INTEREST EXPENSE
+  ₫1,519.6bn AGAINST ₫439.1bn A YEAR EARLIER — 3.46×.** ⚠ **Against `financial_debt_growth_ytd` of just
+  **+9%**.** ***Interest expense up 246% on debt up 9% is not new borrowing — it is CAPITALISED interest
+  moving into the profit and loss account as Dung Quat 2 completes.***
+  **Sized against Q2 core NPAT of ₫6,311bn: the charge is 24.08% of core profit, and the INCREASE ALONE
+  (₫1,080.5bn) is 17.12%.** ***Had interest stayed at last year's level, Q2 core profit would have been about
+  17% higher.*** **This does not reverse; commissioning is one-way.**
+  ⚠ **A PERIOD MISMATCH INSIDE ONE SENTENCE, FENCED: the VCBS figures pair an HSG revenue forecast for
+  QUARTER THREE (₫10,295bn) with an NKG estimate for QUARTER TWO (₫4,268bn).** ***They are also FORECASTS,
+  where the file's own HSG ₫382.3bn and NKG ₫102.6bn are FILED ACTUALS.*** **Two different periods and two
+  different epistemic classes in one comparison — used only for direction, never blended with the actuals.**
+  **PORTFOLIO IMPACT:** HPG's headline Q2 quality is weaker than the print suggests — a margin flattered by
+  an inventory lag that reverses, and a commissioning interest charge that does not — while the spread's
+  input side has already deteriorated. All three point at Q3, which is also the first quarter that could
+  breach the kill threshold. **Nothing modelled: `core_npat_per_tonne_m` is §4 HUMAN-ONLY and untouched; HPG
+  confidence unchanged at 0.75.**
+  🚨 **NO NEW TRIGGER FIRES — Q3 does not report until ~late October, and the criterion needs Q3 AND Q4.
+  TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE TODAY; FRI 21-AUG = SESSION 4
+  (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG =
+  SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: baomoi 55767977 / Tạp chí Điện tử & Ứng dụng (Q2 gross profit ₫10,487.8bn +59.2%, gross margin
+  18.35% → 19.01%, the inventory-recognition mechanism, interest expense ₫1,519.6bn vs ₫439.1bn);
+  tapchikinhtetaichinh.vn 164452 (quality-of-growth read); cafef.vn 188260619221237977 (VCBS forecasts —
+  HSG and NKG, PERIOD-MISMATCHED and forecast-class, used for direction only);
+  `research/models/assumptions.json` `hpg.actuals._peer_hsg_q2_gross_margin` 0.1486,
+  `_peer_nkg_q2_gross_margin` 0.105, `_q2_core_npat_bn` 6,311, `financial_debt_growth_ytd` 0.09.
+
 - **🎯🎯🚨 10:54 ICT TUE 18-AUG · A KILL CRITERION THE FILE RECORDED AS HAVING "NO COMPUTABLE
   THRESHOLD" NOW HAS ONE — AND IT IS NEARLY UNFIREABLE. VPB's PLACEMENT IS FLOORED AT BOOK VALUE, SO IT CAN
   ONLY FIRE IF VPB RE-RATES ABOVE 1.176× BOOK (lanes 3, 5). Market open two hours.**
