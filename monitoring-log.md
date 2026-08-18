@@ -122,6 +122,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠⚠ 17:54 ICT TUE 18-AUG · HCMC'S ABSORPTION RATE HAS FALLEN TO 32% — AND AGAINST THAT
+  BACKDROP GLADIA'S LAUNCH-DAY >90% IS AN EXTREME OUTLIER, NOT A MARKET. TWO SUPPLY FIGURES ALSO FAIL AN
+  ARITHMETIC CHECK BY 10.6× (lane 5, property). Evening.**
+  ✅ **NEW, ZERO PRIOR HITS ACROSS THE SET.** **H1/2026 HCMC new apartment supply 3,700 units (Q2 alone
+  1,800); average primary price ₫98.1m/m², +10.5% YoY; new launches above ₫90m/m² with 80% of new supply
+  above ₫120m/m²; the East accounting for 70% of new supply and 43.2% high-end.**
+  🚨 **AND THE HEADLINE FOR THIS BOOK: MARKET-WIDE ABSORPTION FELL TO 32% AT END-Q2 — roughly 1,500
+  transactions across the whole city in the half.**
+  🎯 **PUT THAT BESIDE THE FILE'S OWN GLADIA NUMBERS AND THE CONTRAST IS EXTREME. Gladia Heights launched
+  01-Aug: ~500 units, >90% BOOKED ON THE DAY, ~₫4,000bn of transaction value.** ***Roughly 450 units in one
+  day against ~1,500 transactions in the entire city over six months.***
+  ⚠⚠ **STATED CAREFULLY, BECAUSE THE PERIODS DO NOT OVERLAP: Gladia was 01-Aug — a Q3 event — and the 1,500
+  is an H1 count. This is a SCALE comparison, not a market share.** ***What it establishes is that Gladia is
+  an outlier against its market, not that KDH captured 30% of anything.***
+  🎯 **A PRICE COHERENCE CHECK THAT CONSTRAINS TWO UNKNOWNS AND PINS NEITHER.** Gladia implies **₫8.89bn
+  per unit** (₫4,000bn ÷ ~450). Against the market's **₫98.1m/m²** that is **~90.6 m² per unit**; against the
+  **₫120m/m²** threshold that 80% of new supply exceeds, it is **~74 m²**. ***So either Gladia's units average
+  ~90m² at the market's average price, or ~74m² at a premium price — the identity holds both readings and the
+  file cannot pin which without a unit-size disclosure.*** *Recorded as a bounded pair, not a conclusion.*
+  🚨 **AND TWO SUPPLY FIGURES IN THE SAME LANE FAIL AN ARITHMETIC CHECK BY AN ORDER OF MAGNITUDE.** **H1
+  new supply is 3,700 units; the full-year expectation circulating is 43,000 units launched with 31,000
+  absorbed.** ***That requires H2 supply of 39,300 — 10.62× the first half. Not credible as the same
+  measure.***
+  ⚠ **THE LIKELY EXPLANATION IS A POPULATION CHANGE, AND IT IS A REAL ONE FOR VIETNAM RIGHT NOW: HCMC's
+  ADMINISTRATIVE BOUNDARIES were expanded in the 2025 provincial mergers.** ***A post-merger "TP.HCM" supply
+  figure covers a far larger area than the old city, so 3,700 and 43,000 may be counting different
+  geographies.*** **Not asserted — the alternative is that 43,000 is a stale start-of-year forecast. Either
+  way the two must not be blended, and `43,000` already has 5 hits in this file, so the fence matters.**
+  🎯 **WHAT IT MEANS FOR KDH, WHICH IS THE POINT. The market read SUPPORTS the project-specific read
+  rather than contradicting it — but a 32% city-wide absorption rate is a weak backdrop for KDH's OTHER
+  inventory.** ***Gladia is not evidence about Clarita or Emeria.*** **KDH's armed criterion —
+  customer advances < ₫1,000bn at 3Q26 with Gladia launched — is tested at the Q3 filing due 30-Oct, and the
+  developer has stated Gladia's profit is a 2027 event.** *So a spectacular launch and a weak market can both
+  be true of the same company, and the criterion reads the balance sheet rather than the launch.*
+  ⚠ **ALSO WORTH THE LINE: the market's price is RISING (+10.5% YoY to ₫98.1m/m²) WHILE absorption FALLS to
+  32%.** ***Price and volume moving opposite ways is a supply-mix effect — 43.2% of new supply is high-end and
+  80% is above ₫120m/m² — not evidence of demand strength.*** *A rising average price on a shrinking
+  transaction count measures WHAT IS BEING LAUNCHED, not what buyers will pay.*
+  **PORTFOLIO IMPACT:** KDH's flagship launch is now measurable against its market and stands far outside it,
+  while the market itself is weak — which sharpens rather than resolves the question of KDH's non-Gladia
+  inventory. **Nothing modelled; no §4 field touched; KDH confidence unchanged at 0.55.**
+  🚨 **NO NEW TRIGGER FIRES — KDH's criterion is a Q3-filing test, due 30-Oct. TRIGGER 4 REMAINS FIRED
+  (VPX) — correction fires TRIGGER 3 either way (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — FRI 21-AUG =
+  SESSION 3 (FTSE GEIS LIST, KDH's INSIDER WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION
+  PRELIMINARY 24-AUG = SESSION 4.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: vov.vn post1323256 (HCMC apartment supply mostly high-end, transactions subdued; H1 new supply
+  3,700 units, Q2 1,800; East 70%, high-end 43.2%; launches above ₫90m/m², 80% above ₫120m/m²; **absorption
+  32%, ~1,500 transactions**); batdongsan.baoxaydung.vn 192260707111523805 (full-year expectation 31,000 of
+  43,000 units — **FENCED, fails the H1 arithmetic by 10.6×**); vietbao.vn 598688 (Q2 average primary price
+  ₫98.1m/m², +10.5% YoY); this file's own 22:54-Sun Gladia entry (~500 units, >90% booked, ~₫4,000bn,
+  profit a 2027 event) and gate row 37.
+
 - **🚨🚨🎯 16:54 ICT TUE 18-AUG · MY 09:54 PRE-REGISTERED TEST MAY BE UNFALSIFIABLE BY
   CONSTRUCTION — I ASSUMED THE WRONG TRADING MECHANISM. AND THE FACT THAT REVEALS IT ALSO MAKES MY VALUATION
   AN UPPER BOUND (lane 3). Two hours after the close.**
