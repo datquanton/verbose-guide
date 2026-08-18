@@ -40,6 +40,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **THE FOUR PENDING SHARE-COUNT INCREASES — HEADLINE TERMS** *(added 15-Aug 13:54; this is the COVERED twin of date-gate row 49)* | ⚠ **A general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" returns THE SAME TERMS EVERY TIME and they are all on file:** TCB **60% bonus, ~4.25bn shares, charter capital >₫113,000bn**; VPB **₫79,339bn → >₫106,000bn in two tranches, tranche 2 = >624m shares to ONE FOREIGN INVESTOR**; MBB **record date 12-Aug, 15% stock dividend**. **What is genuinely missing is EX/RECORD DATES for TCB's 60% and VPB's two tranches, and `vsd.vn` is gateway-blocked** | **an ISSUER filing naming a date**, or a tranche actually executing — **not a re-run of the terms** |
 | **JACKSON HOLE 2026 & WARSH'S FIRST KEYNOTE** *(added 18-Aug 20:54 — after a search returned 100% covered ground)* | ✅ **ON FILE IN FULL AT LINES 3258–3281, WRITTEN 16-AUG:** symposium **Thu 27 – Sat 29 AUG**; theme *"Financial Innovation: Implications for Payments and Policy"* (**a payments theme, NOT a rates theme**); **Warsh's first keynote as Chair FRI 28-AUG ~10:00 ET = ~21:00 ICT, after Vietnam's close, so the first reactable session is MON 31-AUG**; Warsh sworn in 22-May-2026; FOMC + dot plot 15–16 Sep colliding with FTSE effective 21-Sep; **and the trigger-5 test is already computed and recorded** (*"beyond five sessions, therefore do NOT fire it today"*). ⚠⚠ **AND THE FILE NOW HOLDS THE REASON NOT TO OVER-WEIGHT IT: the Fed→dollar→VND chain is broken at link 1 (00:54 — a 42.6pp move in hike odds shifted DXY 4bp) AND at link 2 (20:54 18-Aug — DXY fell while the central rate set a record).** Only *"~120 central bankers from 70+ countries"* was ever new, and that is not a portfolio fact | **28-Aug ENTERS THE 5-SESSION WINDOW ON FRI 21-AUG** — re-open the trigger-5 test then, not the facts. Otherwise: **what Warsh actually SAYS**, from 31-Aug |
 | **SINGLE-STOCK PRICES — THE BLOCK IS PER-TICKER, AND THE TICKER IS MBB** *(added 18-Aug 20:54; this NARROWS the "not reachable" row above, which is falsified in its headline form)* | ⚠ **HPG ₫21,200 and TCB ₫31,450 both came back UNPROMPTED on 18-Aug** (TCB twice: ₫31,650 on 17-Aug am), inside searches aimed at company news — and **HPG ₫22,550 was already obtained on 03-Aug**. **So single-stock prices ARE reachable for at least three tickers.** ✅ **What survives is the row's NARROW form: no MBB-specific price of any construction — traded, announced or reference — has EVER been returned, across eight attempts.** Consequences are computed and on file (**TCB −7.1pp, HPG −2.0pp**; neither fires trigger 3) and both are **§4 human-only escalations, not edits** | **PRE-REGISTERED: MBB's price should become reachable AFTER WED 26-AUG** (rights-transfer window closes; ex was 11-Aug) **if the cause is the live corporate action.** Still blocked in September ⇒ the per-ticker story is wrong. **Costs no dedicated search — scored on whatever other lanes hand back** |
+| **SAIGON GLORY / MASTERISE BOND MATURITIES — SETTLED, AND A FALSE DATE KEEPS RETURNING** *(added 18-Aug 21:54)* | ✅ **RESOLVED AND SOURCED: agreement 5-FEB-2024 extended ALL TEN LOTS SGL-2020.01–.10, ₫10,000bn (= ₫1,000bn/lot, cross-checked twice against figures already on file), by 1–2 years.** **.01–.03 → Jun-2025 · .04–.05 → Jul-2025 (both PAST DUE) · .06–.10 → NOVEMBER 2026 (+15 months).** **₫997bn of .06–.10 was REPURCHASED EARLY on 26–27 FEB 2026 = 19.94%, leaving ≈₫4,003bn net.** Also on file: the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on SGL-2020.02. 🚨 **THE TRAP: "28-AUG" HAS NOW BEEN OFFERED IN TWO DIFFERENT YEARS AND BOTH ARE FALSE** — 28-Aug-2025 (the original maturity, no extension applied) and 28-Aug-2026 (a 12-month default applied instead of the stated 15). ***Any source giving an AUGUST maturity has applied the adjustment's direction without its magnitude. Do not treat it as a correction; the answer is NOVEMBER 2026*** | **an ISSUER OR HNX FILING dated after Feb-2026** — a further buyback, a new extension, or a payment failure. **NOT another general search, and NEVER an August date from a summariser** |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -123,6 +124,94 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯🎯✅ 21:54 ICT TUE 18-AUG · A "28-AUG-2026" MASTERISE MATURITY SURFACED, TEN DAYS OUT, ON THE
+  INSTRUMENT THAT GATES AN ARMED TCB KILL CRITERION — AND IT IS FALSE. I CAN NOW NAME THE EXACT ARITHMETIC
+  THAT GENERATES IT. Two questions this file explicitly refused to guess are BOTH closed (lanes 3, 5).**
+
+  ⚠⚠ **THE SCARE, STATED FIRST BECAUSE IT IS THE PART THAT WOULD HAVE MOVED SOMETHING.** A search on the
+  Masterise bond stack returned: *"According to bondholders' consultation in February 2024, Saigon Glory
+  adjusted the principal and interest payment schedule for its bonds, with the latest maturity date being
+  **August 28, 2026**."* **TCB's kill criterion reads *"developer/related-party NPL formation > 2.0%, or A
+  MASTERISE BOND EVENT"* and is ARMED.** *A dated maturity on 28-Aug is **ten days away** and would enter
+  trigger 5's five-session window on **FRI 21-AUG** — the difference between that reading and the file's is
+  the difference between a fired trigger and a quiet one.* **⚠ AND IT IS THE THIRD YEAR THIS FILE HAS BEEN
+  OFFERED FOR THE SAME DAY-MONTH: 28-Aug-2025 (asserted 21:54 Sun, WITHDRAWN 22:54), 28-Aug-2026 (this hour),
+  against the file's November 2026.** *A date that keeps returning with a different year is a fingerprint, and
+  I treated it as one rather than as news.*
+
+  ✅✅ **RESOLVED, AND THE FILE WAS RIGHT.** A second search naming the instrument returns the resolution
+  itself: **on 5-FEB-2024 Saigon Glory agreed with bondholders to extend ALL TEN LOTS — SGL-2020.01 through
+  .10, ₫10,000bn — by ONE TO TWO YEARS**, and specifically **SGL-2020.06–.10, originally maturing AUGUST
+  2025, were extended to NOVEMBER 2026 — an extension of FIFTEEN MONTHS.**
+
+  🎯🎯 **AND THAT GIVES THE ERROR'S MECHANISM EXACTLY, WHICH IS WORTH MORE THAN THE CORRECTION:**
+  > **August 2025 + 15 months = NOVEMBER 2026.  August 2025 + 12 months = AUGUST 2026.**
+  ***The false date is produced by applying the extension's EXISTENCE but not its SIZE*** — taking the known
+  original maturity, knowing it was extended, and reaching for the default unit of one year instead of the
+  stated fifteen months. **⚠⚠ NEW CATALOGUE ENTRY, AND IT IS NOT A MEASURE SUBSTITUTION: *APPLYING AN
+  ADJUSTMENT'S DIRECTION WITHOUT ITS MAGNITUDE*.** *The measure-substitution family swaps one well-defined
+  quantity for another well-defined quantity. This is different — the right quantity, the right direction, the
+  right starting point, and a **defaulted** step size. It is more dangerous than a swap because every visible
+  component is correct, and it is invisible to the file's usual detector (checking what a number measures),
+  since the number measures precisely what it claims to.* **It also explains the WITHDRAWN 28-Aug-2025 claim
+  as the same defect with the step size set to ZERO: original maturity, no adjustment at all.** *Three values,
+  one instrument, one generator: 0 months, 12 months, 15 months.*
+
+  ✅ **TWO REFUSALS THIS FILE MADE ON PURPOSE ARE NOW BOTH PAID OFF — and this is the argument for making
+  them.** The 15-Aug entry says verbatim ***"THE RESOLUTION YEAR IS STILL NOT SETTLED AND IS NOT GUESSED"***
+  (21:54's route said February 2024; the file declined to assert it). **It is 5-FEB-2024 — the refused guess
+  was right, and is now sourced.** And the same entry recorded *"Saigon Glory spent nearly ₫1,000bn
+  restructuring bond debt EARLY"* while noting ***"the identity of the paying party is not established"***
+  and giving no date. **That buyback is now DATED AND LOT-IDENTIFIED: ₫997bn repurchased on 26–27 FEB 2026,
+  on lots SGL-2020.06, .07, .08, .09 AND .10.**
+
+  🚨 **WHICH IS THE PORTFOLIO POINT, BECAUSE THOSE ARE THE NOVEMBER LOTS — the early buyback retired part of
+  the ONE tranche group that still has a live maturity:**
+  | | | |
+  |---|---|---|
+  | 10 lots SGL-2020.01–.10, extended 5-Feb-2024 | **₫10,000bn** | ⇒ **₫1,000bn per lot** |
+  | .01–.03 → Jun-2025 · .04–.05 → Jul-2025 | past due, on file since 11-Aug | — |
+  | **.06–.10 → NOVEMBER 2026** | 5 lots × ₫1,000bn = **₫5,000bn** | the only forward maturity |
+  | **less early buyback 26–27 Feb 2026** | **−₫997bn** | **19.94% of the stack** |
+  | **= residual November-2026 principal** | **≈ ₫4,003bn** | **first time this file has had a NET figure** |
+  ✅ **THE ₫1,000bn PER LOT IS CROSS-CHECKED TWO WAYS AGAINST FIGURES ALREADY ON FILE, NOT ASSUMED:** the
+  11-Aug entry's *"~₫3,000bn of SGL-2020.01–.03 principal"* (3 lots) and its *"₫58–140bn on that lot — 6–14%
+  of ₫1,000bn"* for SGL-2020.02 both agree with ₫10,000bn ÷ 10. *Two independent corroborations of a divisor
+  I would otherwise have been dividing by on faith.*
+
+  ✅ **AND IT ANSWERS THE 15-AUG QUESTION DIRECTLY: a new owner buying back ₫997bn of the successor's bonds
+  EARLY, on named lots, is much stronger than "spent nearly ₫1,000bn restructuring."** *An early repurchase of
+  identified instruments is a party discharging a specific liability — it is the clearest evidence yet that
+  the obligation travelled with the project into the Masterise-era balance sheet, which is the whole reason
+  this stack sits inside a TCB criterion.* ⚠ **STILL NOT ESTABLISHED: who paid. The buyback is Saigon Glory's
+  own filing; nothing here traces the funding to Masterise or to TCB, and I am not inferring it.**
+
+  🚨 **NET EFFECT ON THE ARMED CRITERION: NOTHING IS DUE IN AUGUST. The nearest dated Masterise bond maturity
+  is NOVEMBER 2026, ~₫4,003bn net, and one-fifth of it was retired six months ago.** *That is a de-risking of
+  the nearest-term reading — but the criterion stays ARMED and unchanged, because it is written on a "bond
+  event", not on a maturity date, and the past-due .01–.05 lots plus a documented interest miss on .02 remain
+  exactly where they were.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — and I want the reason on the record rather than
+  the omission: this clarifies the TIMING OF A CRITERION, not the quality of TCB's own disclosed evidence, and
+  `confidence` is a §4 human-only field besides. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES — and the whole point of this hour is that one nearly did on a false date.
+  Trigger 5 tested against 28-Aug-2026 and it is FALSIFIED, so nothing enters the window; the real date,
+  November 2026, is ~3 months out. Trigger 4 does NOT fire — a third party's bond schedule is not a held
+  name's disclosed evidence, the same ruling this file applied to posted deposit rates on 16-Aug and to market
+  prices at 20:54. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED on the pre-existing dates — Fri
+  21-Aug = session 3, CORE circumvention preliminary 24-Aug = session 4. Trigger 2 STANDING-BREACHED.
+  Trigger 1 negative.**
+  ⚠ **LANES 2 AND 7 CHECKED AND CLEAN, BOTH BY GATE ROW RATHER THAN BY SEARCH — and both rows worked.** Row 2
+  fences the rebar file: Commerce finals 28-Jul (published 30-Jul, Vietnam 128.53–136.57%), **ITC final injury
+  vote mid-to-late Sep, outer bound 13-Sep**, record closed 12-Aug — and it explicitly pre-labels the
+  *"August ITC vote"* that a search returned this hour as **a stale pre-determination projection**. Row 62
+  fences KDH's insider window: *"RE-OPEN: 21-Aug window close — and NOTHING before it."* Row 61 fences VCI's.
+  ***Zero searches spent on either. This is the fifth-instance fix from 20:54 working the same day it was
+  written.***
+  [Mekong Asean — Saigon Glory gia hạn thành công 10.000 tỷ đồng nợ trái phiếu (5-Feb-2024 agreement, lot-by-lot)](https://mekongasean.vn/saigon-glory-gia-han-thanh-cong-10000-ty-dong-no-trai-phieu-13848.html) · [StockBiz — Saigon Glory mua lại gần 1.000 tỷ đồng trái phiếu](https://stockbiz.vn/tin-tuc/saigon-glory-mua-lai-gan-1000-ty-dong-trai-phieu/39941574) · [Doanh nhân & Pháp luật — đổi chủ sở hữu, chi gần 1.000 tỷ cơ cấu nợ trước hạn](https://doanhnhan.baophapluat.vn/doi-chu-so-huu-saigon-glory-chi-gan-1-000-ty-dong-co-cau-no-trai-phieu-truoc-han.html) · [SmartF — Masterise Group mua lại The Spirit of Saigon, trái chủ Saigon Glory nghĩ gì *(carries the false 28-Aug-2026 date; cited as the source of the error, not for it)*](https://smartf.vn/article/masterise-group-mua-lai-the-spirit-of-saigon/) · [trade.gov — final affirmative determinations, rebar from Bulgaria, Egypt and Vietnam](https://www.trade.gov/final-affirmative-determinations-antidumping-and-countervailing-duty-investigations-steel-concrete)
 
 - **🚨🚨⚠⚠⚠ 20:54 ICT TUE 18-AUG · I WITHDRAW SUNDAY'S "THE FX LEG TURNED" — THE CENTRAL RATE SET A NEW
   RECORD THE VERY NEXT SESSION, AND THE DOLLAR FELL WHILE IT ROSE, WHICH FALSIFIES THE FILE'S DXY→VND LINK
