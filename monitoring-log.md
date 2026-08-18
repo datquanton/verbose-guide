@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 08:54 ICT TUE 18-AUG · I RAN THE CHECK I LOGGED AN HOUR AGO AND THE STORED TRIGGER
+  PRICE IS WRONG BY 20%. TCX's TRUE P/B KILL LEVEL IS ₫39,616, NOT ₫33,010 — AND THE 52-WEEK LOW SITS ONLY
+  6.3% ABOVE IT (lanes 3, 5). Six minutes to the open.**
+  ✅ **07:54 SAID `pb_kill_trigger_price` = ₫33,010 SHOULD BECOME "a standing check rather than a stored
+  figure." RUNNING IT BROKE IT.**
+  🎯 **THE ARITHMETIC. The criterion is P/B < 2.0×. Equity `equity_q2_2026_bn` = ₫45,782bn ⇒ the trigger
+  CAP is 2.0 × 45,782 = ₫91,564bn.** **Divide by TCX's ACTUAL listed count — 2,311,308,021 shares, which
+  `assumptions.json` carries verbatim — and the trigger PRICE is ₫39,616.** ***Divide instead by the model's
+  IMPLIED count of 2,774.3m and you get ₫33,006 ≈ the stored ₫33,010.*** **So the stored figure was computed
+  on an implied share count that is 20.0% above the real one.**
+  🚨 **AND THE MARGIN IS THE POINT: against the 52-week LOW of ₫42,100, the true trigger is 6.3% away —
+  not the 27.5% the stored number implies.** ***The criterion is materially closer to firing than the file
+  believed, and I reported the comfortable version one hour ago.***
+  ⚠ *`equity_q2_2026_bn` is a Q2 actual; retained earnings raise it and therefore raise the trigger price
+  further. ₫39,616 is a floor on the threshold, not a fixed level.*
+  ✅ **THE CRITERION ITSELF: NOT FIRED, AND ROBUSTLY SO. Every available price reading is above ₫39,616** —
+  quoted **₫55,800**, market-cap-implied **₫50,166**, model-cap-implied **₫49,333**, 52-week low **₫42,100**.
+  **The check is answered without needing a precise quote, because the threshold sits below the entire
+  52-week range.** *That is the check executed, which is what 07:54 asked for.*
+  🚨🚨 **AND THE SAME SEARCH ADJUDICATES A QUESTION THE FILE POSED ON 02-AUG AND COULD NOT ANSWER.**
+  The 02-Aug note recorded: *"Two market caps exist and they do not agree: price × shares = ₫94,995bn, while
+  pe_ttm × npat_ttm = ₫82,215bn. A GAP OF 15.5%. **One of price, pe_ttm or npat_ttm is wrong.**"*
+  ***Since then the fields moved — `pe_ttm` 20.3 → 20.05 and `npat_ttm` 4,050 → 5,687 — so cap_now is now
+  ₫114,024bn and the gap has FLIPPED SIGN and GROWN to +20.0%.***
+  🎯 **AN INDEPENDENT MARKET CAP SETTLES IT: TCX is quoted at ₫115.95tn — within 1.66% of the model's
+  ₫114,024bn, and 22.1% ABOVE the price-implied ₫94,995bn.** ***So `pe_ttm × npat_ttm` is right and `price` =
+  ₫41,100 is the wrong field.*** ✅ **Corroborated twice more: the model's cap ÷ actual shares implies
+  ₫49,333, within 1.7% of the cap-implied ₫50,166; and ₫41,100 sits BELOW the entire 52-week range
+  (₫42,100–64,800), which a live quote cannot do.**
+  ⚠ **ONE PIECE OF THE SOURCE IS SELF-INCONSISTENT AND IS NOT USED: the page's headline price ₫55,800 ×
+  2,311.308m = ₫128.97tn, not the ₫115.95tn it also reports — an 11.2% internal gap.** ***The CAP is used
+  because it agrees with the model to 1.66%; the headline price does not even agree with its own page.***
+  🎯 **THE METHODOLOGICAL RESULT, WHICH IS THE PART THAT TRANSFERS. TCX's implied share count exceeds its
+  actual by 20% — the SAME arithmetic symptom as VPX's 1,875.2m against a ≤1,500m ceiling. The DIAGNOSES ARE
+  OPPOSITE.** ***For TCX an independent market cap CORROBORATES `cap_now`, so only the display field `price`
+  is stale and E[r] is untouched. For VPX no independent cap corroborates it, and `cap_now` is overstated 25%
+  — a real E[r] error.*** **A share-count audit alone cannot tell "stale price" from "wrong cap." It needs an
+  independent market capitalisation, and the 05:54 audit listed TCX as *"not independently held"* precisely
+  because it did not go looking for one — while `assumptions.json` held the exact share count in another key.**
+  ⚠ **NOTHING EDITED. `price`, `pe_ttm`, `npat_ttm` are §4 HUMAN-ONLY, and `pb_kill_trigger_price` is a
+  derived criterion parameter I will not overwrite either.** ***The escalation is: the stored trigger
+  understates the true one by 20%, and TCX's `price` field is stale by roughly 20–35%.*** **No E[r] moves and
+  no trigger fires — `cap_now` is the field that feeds returns and it is corroborated.**
+  **PORTFOLIO IMPACT:** the one kill criterion checkable every session had a trigger level 20% too low; the
+  corrected level is 6.3% below the 52-week low. TCX is a proposed SELL −3.3pp and this makes its downside
+  criterion nearer, not further.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE
+  FROM TODAY; FRI 21-AUG = SESSION 4; CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: vn.investing.com/equities/techcom-securities-jsc (quoted price ₫55,800, market cap ₫115.95tn,
+  52-week range ₫42,100–64,800 — internally inconsistent, cap used and headline price refused);
+  `research/models/assumptions.json` — `tcx.actuals.equity_q2_2026_bn` 45,782, `listing_mktcap_bn` 108,169,
+  `pb_reproducible_at_file_price` 2.49, `pb_kill_trigger_price` 33,010, the 2,311,308,021 share count inside
+  `_THE_MARKET_CAP_IS_INTERNALLY_INCONSISTENT_..._2026_08_02`, and `valuation.TCX` (20.05 × 5,687, price
+  41,100).
+
 - **🚨🚨🎯 07:54 ICT TUE 18-AUG · I DATED ALL SEVENTEEN ARMED CRITERIA, NOT JUST HPG's — AND
   THIRTEEN OF THEM CANNOT FIRE UNTIL THE Q3 FILINGS IN LATE OCTOBER. THREE CAN FIRE TODAY (lanes 4, 3).
   One hour to the open.**
