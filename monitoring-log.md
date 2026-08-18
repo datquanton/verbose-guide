@@ -122,6 +122,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 06:54 ICT TUE 18-AUG · HPG's KILL CRITERION CANNOT FIRE BEFORE THE Q4/2026 PRINT —
+  ~LATE JANUARY 2027 — NO MATTER HOW BAD Q3 IS. AND THE REASON IS THAT Q2's FILED ACTUAL WAS 44% ABOVE THE
+  THRESHOLD (lanes 5, 6). Two hours to the open.**
+  🎯 **THE CRITERION, AND THE CALENDAR NOBODY HAS WRITTEN DOWN.** *"HPG — the spread thesis breaks — core
+  NPAT/tonne < ₫1.25m **for two consecutive quarters** — armed."* **`_q2_core_npat_per_tonne_m` = ₫1.803 —
+  a FILED ACTUAL, and 44.2% ABOVE the ₫1.25m threshold. So Q2 is NOT a breach quarter.**
+  ***The earliest possible pair of consecutive breach quarters is therefore Q3/2026 and Q4/2026. Q3 files
+  ~late October; Q4 files ~late January 2027.*** **⇒ The criterion cannot fire for roughly five months —
+  about 110 sessions — however bad Q3 turns out to be.** *Zero prior hits for any earliest-fire reasoning;
+  the file had tested the criterion and never dated it.*
+  ⚠⚠ **AND THAT IS A STATEMENT ABOUT THE CRITERION, NOT ABOUT THE RISK — WHICH IS THE UNCOMFORTABLE HALF.**
+  ***A thesis can break long before a criterion designed to detect it fires.*** **The two-quarter confirmation
+  rule buys protection against false positives and pays for it in lag, and here the lag is five months against
+  a spot reading (₫0.8632m, −30.9% to bear) that is already deep below the threshold.**
+  🚨 **THE DESIGN OBSERVATION, ESCALATED BECAUSE IT IS §4 AND STRUCTURAL: THE THRESHOLD IS SET EXACTLY AT
+  THE BEAR BRANCH.** `core_npat_per_tonne_m` bear = **1.25**; the kill threshold = **₫1.25m**. ***So the
+  criterion fires only after reality has sat at-or-below the BEAR case for two straight quarters — it
+  CONFIRMS the bear case rather than warning of it.*** **A kill criterion pinned to the bear branch with a
+  two-quarter confirmation is a lagging indicator by construction.** *Whether that is the intended design is a
+  human judgement; recording that it IS the design is not.*
+  ✅ **THE FILE'S EARLIER TESTS WERE RIGHT AND ARE NOT DISTURBED:** the criterion is *"a test on reported
+  actuals, not on a spot-case reconstruction"* (line 10297), and it *"was tested and passed"* (line 8100).
+  ***What is added is the calendar and the design note, not a re-test.***
+  🚨 **A CLEAN NEGATIVE THAT IS WORSE THAN A NEGATIVE — MY BROKER SOURCE WAS STALE AND THE FILE IS AHEAD
+  OF IT (lane 6).** The return gave **SSI: HPG BUY, target ₫35,000, +30% upside.** ***The file already holds
+  that row — line 3003 carries `| SSI (BUY) | ₫35,000 | +30% | ₫26,923 |`, having back-solved the implied
+  reference price — AND line 3807 records SSI RAISING HPG to ₫36,000 FROM ₫35,000.*** **I retrieved the
+  superseded target and the file holds the current one.** *A search can be behind a research file; treating
+  search freshness as a proxy for recency is its own substitution.*
+  ⚠ **TWO DATE/ENTITY DEFECTS IN ONE RETURN, BOTH FENCED.**
+  **(1) "VPB (VietinBank)" — WRONG. VPB is VPBank; VietinBank is CTG.** ***Second entity conflation in two
+  days: yesterday's return called VCB "VietinBank."*** **A source route that conflates two named banks in a
+  single clause has not earned adoption for the numbers beside it.**
+  **(2) The SHS TCB target of ₫45,000 is dated to a closing price of 04-AUGUST-2025 and its document stamp is
+  `20250805` — a ONE-YEAR-OLD report surfaced as current.** *Not adopted.*
+  ⚠ **MBB's ₫32,400 (BSC, "44% upside") BACK-SOLVES TO A REFERENCE PRICE OF ₫22,500** — within 2.0% of the
+  model's ₫22,050 and nowhere near the worked post-ex ₫19,920. ***So that target is struck on a PRE-EX basis
+  too, which dates the report to before 11-Aug and independently corroborates yesterday's 05:54 finding that
+  the whole MBB complex is carrying a pre-ex vintage.*** *Agriseco's ₫28,000 carries no stated upside and is
+  not back-solvable.*
+  **PORTFOLIO IMPACT:** the book's armed HPG criterion is now dated — it cannot fire before ~late Jan 2027 —
+  and is shown to be a confirming rather than warning instrument; the spot deterioration remains real and
+  untriggerable. **Nothing modelled: `core_npat_per_tonne_m` and every price field are §4 HUMAN-ONLY and
+  untouched; HPG confidence unchanged at 0.75.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE FROM TODAY; FRI 21-AUG = SESSION 4 (FTSE
+  GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.**
+  Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: nguoiquansat.vn 308720 + thuongtruong.com.vn 167735 (Agriseco August portfolio: BMP, HPG, GMD, MBB,
+  VNM, VPB; MBB target ₫28,000); dautucophieu.net (BSC MBB ₫32,400, "44% upside"); ssi.com.vn company reports
+  (HPG ₫35,000 — SUPERSEDED, the file holds ₫36,000); shs.com.vn `20250805_114912` TCB initial report
+  (₫45,000 — DATED AUG-2025, refused); `DECISION-BRIEF.md` line 93 (HPG kill criterion) and
+  `research/models/assumptions.json` `hpg.actuals._q2_core_npat_per_tonne_m` = 1.803.
+
 - **🚨🚨🎯 05:54 ICT TUE 18-AUG · MBB's ENTIRE VALUATION BLOCK IS STRUCK ON A PRE-EX BASIS AND
   THE EX-DATE PASSED SEVEN DAYS AGO. THE MECHANICAL RE-STRIKE MOVES `pe_ttm` 5.76 → 6.02 AND RAW E[r] +36.6%
   → +30.7%. TRIGGER 3 DOES NOT FIRE — AND MBB STAYS #1 BY A WIDE MARGIN (lanes 3, 7). Rights trade today.**
