@@ -122,6 +122,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 18:54 ICT TUE 18-AUG · A NAMED HOLE CLOSES ON DATA ALREADY SUPPLIED — AND THE
+  QUOTA PRIVILEGE INVERTS ON THE PILOT'S OWN CRITERION. PLUS A LIKE-FOR-LIKE MARGIN-GROWTH CROSS-SECTION THAT
+  RANKS THE THREE BROKERS OPPOSITE TO THE ENGINE, FOR THE SECOND TIME ON A SECOND METRIC (lanes 1, 3, 4).**
+  ✅ **THE HOLE, IN THE FILE'S OWN WORDS AT LINE 2404: *"a grep showed this file holds CAR for TCB ONLY — the
+  two apparent MBB/VPB hits were `CARRY` and `CAREFULLY`… A search returns figures explicitly dated 'cuối quý
+  3/2022' — FOUR YEARS STALE… **MBB's and VPB's current CAR remain NOT ESTABLISHED, which is a real hole
+  directly under the criterion the pilot names.**"***
+  🎯 **THE HUMAN'S CROSS-SECTION SUPPLIED IT YESTERDAY AND I TABULATED IT WITHOUT NOTICING IT CLOSED A
+  NAMED GAP. CAR (2025): TCB 14.6% · VPB 14.3% · MBB 11.6%** — **four years fresher than anything the file
+  could reach on its own.** ⚠ *Dated 2025, so it is a year-end figure and not "current"; the hole is closed
+  to within one year, not to today.*
+  🚨🚨 **AND RANKING ALL FOURTEEN PRODUCES AN INVERSION THAT BEARS DIRECTLY ON A THREE-WEEK-OLD
+  QUESTION.** **HDB 16.7 · TCB 14.6 · VPB 14.3 · TPB 13.7 · OCB 12.6 · MSB 12.5 · ACB 12.3 · VIB 12.0 ·
+  LPB 11.8 · VCB 11.7 · MBB 11.6 · CTG 10.3 · STB 9.2 · BID 9.0.**
+  ***The quota-REMOVAL pilot selects on PRUDENTIAL RATIOS and CREDIT QUALITY. On CAR, TCB ranks SECOND of
+  fourteen and MBB ranks ELEVENTH — below Vietcombank. On NPL, TCB is 1.1% against MBB's 1.4% and VPB's 3.6%.
+  TCB outranks MBB on BOTH stated criteria — and MBB holds the credit-quota privilege while TCB does not.***
+  🎯 **BUT THE INVERSION RESOLVES, AND THE RESOLUTION IS THE FINDING. TWO DIFFERENT SCHEMES ARE IN PLAY.**
+  **The existing privilege went to VCB, MB, HDBank and VPB as RESTRUCTURING banks — compensation for
+  absorbing a failed institution, not a reward for soundness.** *The file already carries the other side of
+  that bargain as an armed criterion: "MBB — weak-bank transfer turns from privilege to COST."*
+  ***The prospective quota-REMOVAL pilot selects on soundness instead. So TCB loses on the first scheme and
+  would rank at or near the top on the second.*** **That is a materially different reading of TCB's
+  constraint from "TCB is not privileged," and it makes the pilot the specific thing to watch for TCB.**
+  🚨 **SECOND FINDING — A LIKE-FOR-LIKE MARGIN-BOOK GROWTH CROSS-SECTION, ZERO PRIOR HITS FOR EVERY RATE.**
+  System margin debt **₫446tn at end-June across 80 of 85 brokers (99.95% of industry equity), +8.1% QoQ
+  (+₫33.4tn) and +11.2% since end-2025 (+₫45tn)**; top ten = 61% of the market. **QoQ growth:**
+  | broker | margin book QoQ | vs system +8.1% |
+  |---|---|---|
+  | **TCX (TCBS)** | **+15.6%** | **1.93×** |
+  | MBS | +12.1% | 1.49× |
+  | SSI | +9.4% | 1.16× |
+  | HSC · ACBS | +2.5% | 0.31× |
+  | **VCI (Vietcap)** | **+2.3%** | **0.28×** |
+  | **VPX (VPBankS)** | **+1.7%** | **0.21×** |
+  ***TCX grew its margin book 9.2× faster than VPX and 6.8× faster than VCI.***
+  ⚠⚠ **AND IT RANKS THE THREE BROKERS EXACTLY OPPOSITE TO THE ENGINE, FOR THE SECOND TIME ON A SECOND
+  METRIC.** *20:54 Sunday found plan-pace TCX 47% > VPX 41.4% > VCI 29%; this finds margin growth TCX 15.6% >
+  VCI 2.3% > VPX 1.7%.* **The engine proposes SELL TCX −3.3pp and ADD VPX +5.6pp / VCI +6.7pp.**
+  ***The resolution is the same as before and is restated rather than rediscovered: the engine ranks PRICE
+  PAID FOR EARNINGS (TCX 20.05× · VCI 17.6× · VPX 13.93×), not operational momentum.*** **Two independent
+  operational metrics now agree with each other and disagree with the engine. That is not an error in either
+  — but a CIO run should see it stated once rather than meet it twice by accident.**
+  🎯 **AND VPX's NUMBER CORROBORATES THE FILE'S OWN THESIS FROM A NEW ANGLE. VPX has the MOST headroom
+  (>₫33,000bn unused against a >₫38,000bn book) and the LEAST growth (+1.7%), while total assets grew 21.8%
+  YTD.** ***Capacity without deployment: the balance-sheet growth went somewhere other than margin lending***
+  — which is exactly the file's characterisation of VPX as *"NOT primarily a broker: ~₫30tn FVTPL book (>₫18tn
+  bonds) + ₫38.2tn margin vs only 3.57% HOSE share."* **An independent confirmation, not a new claim.**
+  ⚠ **VALUE FENCE — THE SYSTEM FIGURE HAS FIVE RENDERINGS: ₫435tn · ₫445tn · "gần 450tn" · ₫446tn · ₫454tn,
+  against the file's own ₫453.8tn.** ***A dispersion of ₫19tn — 4.4% — on "the same" quarter-end number,
+  driven by sample (80 of 85 brokers vs all) and by cut-off.*** **Fenced: the ₫446tn is the one with a stated
+  sample and coverage ratio, so it is the one used here; the others are not blended.**
+  ✅ *VCI's +2.3% QoQ is consistent with the +3.89% YTD logged at 10:54 yesterday — a half-year figure
+  exceeding a quarterly one is ordinary, and the two do not conflict.*
+  **PORTFOLIO IMPACT:** a named prudential hole is closed to within a year; TCB's exclusion from the quota
+  privilege is reframed as a different scheme rather than a soundness judgement, making the removal pilot the
+  thing to watch; and the broker ranking now disagrees with the engine on two independent operational
+  measures. **Nothing modelled; no §4 field touched; no confidence moved.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — FRI 21-AUG = SESSION 3 (FTSE GEIS LIST, KDH's INSIDER WINDOW
+  CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 4.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: the human-supplied 14-bank Q2/2026 cross-section (CAR 2025 row); vneconomy.vn + baomoi 55664619
+  (**₫446tn across 80/85 brokers, 99.95% of industry equity, +8.1% QoQ / +11.2% YTD; TCBS +15.6%, MBS +12.1%,
+  SSI +9.4%, VPBankS +1.7%, HSC +2.5%, ACBS +2.5%, Vietcap +2.3%**); vn.investing.com 2668501 (₫435tn),
+  cafef.vn 188260721001349581 (~₫450tn), vietstock.vn 1468883 (₫454tn), moneyf.vn (₫445tn) — **the dispersion,
+  fenced**; this file's line 2404 (the CAR hole) and `DECISION-BRIEF.md` (MBB weak-bank-transfer criterion).
+
 - **🎯🎯⚠⚠ 17:54 ICT TUE 18-AUG · HCMC'S ABSORPTION RATE HAS FALLEN TO 32% — AND AGAINST THAT
   BACKDROP GLADIA'S LAUNCH-DAY >90% IS AN EXTREME OUTLIER, NOT A MARKET. TWO SUPPLY FIGURES ALSO FAIL AN
   ARITHMETIC CHECK BY 10.6× (lane 5, property). Evening.**
