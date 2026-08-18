@@ -122,6 +122,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠⚠ 15:54 ICT TUE 18-AUG · THE REAL 18-AUG CLOSE ARRIVES AND VINDICATES LAST HOUR'S REFUSAL —
+  THE INDEX ROSE 4.5 POINTS, IT DID NOT FALL 1.62. AND THE FOREIGN SELLING ROTATED INTO THIS BOOK'S OWN
+  SECTORS (lane 4). An hour after the close.**
+  ✅ **AT 14:54 I REFUSED A FIGURE — *"VN-Index closed −1.62 points to 1,727.46"* attributed to 18-Aug — on
+  the ground that it was, to two decimals and in its change, the 17-Aug print this file already held.**
+  ***The actual 18-Aug close is +4.5 points to 1,732, after three consecutive DOWN sessions.*** **Had I
+  accepted the relabelled figure, this file would now record a flat session on a day the market rose and
+  reversed a three-day slide.**
+  🎯 **AND THE TWO PRINTS RECONCILE EXACTLY, WHICH CONFIRMS BOTH: 1,727.46 + 4.5 = 1,731.96 ≈ 1,732.**
+  *The reported round level is consistent with the file's own 17-Aug close plus the reported move — so the
+  refusal did not merely reject a bad figure, it preserved the anchor that validates the good one.*
+  ✅ **THE SESSION, ALL ZERO-HIT.** **VN-Index +4.5 to ~1,732**, oil & gas and a few large caps carrying it.
+  **HOSE turnover 550m shares / ₫14,872bn, +7.95% on the session — but still BELOW the 20-session average,
+  and BREADTH WAS NEGATIVE: decliners outnumbered advancers on a day the index rose.**
+  ⚠ ***A low-quality up session: the index moved on a handful of names while the majority fell and money
+  stayed cautious.*** *Recorded that way rather than as a recovery.*
+  🚨 **FOREIGN NET SELLING CONTINUED — ₫768bn — AND ITS COMPOSITION ROTATED INTO THIS BOOK'S SECTORS.**
+  | session | foreign net sell | leaders |
+  |---|---|---|
+  | 14-Aug | ₫877.65bn (HOSE) | VIC 480.27 · VHM 184.63 · SHB 99.75 · MSN 76.77 |
+  | 17-Aug | ~₫600bn | VIC · VHM |
+  | **18-Aug** | **₫768bn** | **VIC 151 · VPB 117 · SSI 65** |
+  ***Three consecutive net-sell sessions. VIC leads all three — but its magnitude collapsed from ₫480bn to
+  ₫151bn, and VHM dropped out of the top three entirely while VPB and SSI entered.*** 🚨 **The selling has
+  moved off property blue-chips and onto a BANK and a BROKER — which is where 51.5% plus the brokerage sleeve
+  of this book sits, and VPB is a holding.**
+  ⚠⚠ **STATED AT ITS REAL STRENGTH: ONE SESSION IS NOT A ROTATION.** ***Three sessions of direction is a
+  pattern; one session of composition is an observation.*** **And the aggregate is not escalating — ₫877.65bn
+  → ₫600bn → ₫768bn has no trend.** *What changed is WHO is being sold, not HOW MUCH.*
+  ⚠ **VPB at ₫117bn is the second-largest single-name foreign sell of the session and the first time in this
+  three-session run that a holding has led the list.** *Recorded; `price` is §4 HUMAN-ONLY and nothing is
+  written. The file's VPB read is unchanged — last of eight on expected return, NPL 3.6% and coverage 52.8%
+  from yesterday's cross-section.*
+  ✅ **AND IT COMPOSES WITH 07:54's FLOW COHERENCE CHECK RATHER THAN REPEATING IT.** *That check found
+  foreign BUYING collapsing −36.66% by volume against −37.3% by value — a participation collapse without a
+  change in what was bought. **Today the volume recovered (+7.95% turnover) and the composition DID change.**
+  Different sessions, opposite readings, both recorded.*
+  ⚠ **STILL UNOBSERVED: the MBB rights price.** *First session closed at 14:45; no quote has published an hour
+  later. The file's expected value stands at **₫960–1,030** from 09:54 and is untested.* **UNOBSERVABLE, not
+  absent.**
+  **PORTFOLIO IMPACT:** a refused figure is confirmed to have been wrong and the correct one recovered; the
+  foreign bid has weakened specifically in banks and brokers for one session. **Nothing modelled; no §4 field
+  touched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — FRI 21-AUG IS NOW SESSION 3 (FTSE GEIS LIST, KDH's INSIDER
+  WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 4.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: baomoi 55857458 / Người Đưa Tin (VN-Index +4.5 to 1,732, oil & gas support); baomoi 55857944 /
+  Thời Báo Ngân Hàng (index green, decliners still dominant); thoibaotaichinhvietnam.vn 202500 (turnover 550m
+  shares / ₫14,872bn, +7.95%, below the 20-session average); cafef.vn 188260818151029415 (foreign net sell
+  ₫768bn — VIC 151, VPB 117, SSI 65); this file's own 14-Aug and 17-Aug flow entries.
+
 - **🎯🎯🚨 14:54 ICT TUE 18-AUG · THE SUSPENSION I IMPOSED ONE HOUR AGO IS LIFTED — A SOURCE
   THAT NAMES ITS MEASURE CONFIRMS THE SLIDE'S ROW IS CUSTOMER LOANS, NOT CREDIT. AND THE SESSION CLOSE CAME
   BACK MISDATED (lanes 3, 4). Nine minutes after the close.**
