@@ -122,6 +122,57 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 07:54 ICT TUE 18-AUG · I DATED ALL SEVENTEEN ARMED CRITERIA, NOT JUST HPG's — AND
+  THIRTEEN OF THEM CANNOT FIRE UNTIL THE Q3 FILINGS IN LATE OCTOBER. THREE CAN FIRE TODAY (lanes 4, 3).
+  One hour to the open.**
+  🎯 **YESTERDAY'S 06:54 QUESTION GENERALISES, AND THE FILE HAS NEVER ASKED IT OF THE OTHER SIXTEEN.**
+  | when it can EARLIEST fire | count | which |
+  |---|---|---|
+  | **ANY SESSION** | **3** | TCB *"a Masterise bond event"* (event-driven) · **TCX P/B < 2.0× (price-based)** · VPB *"placement executed >15% below market"* (fires on execution) |
+  | **~19-Oct** | 1 | TCX *"no net foreign accumulation in the 4 weeks after Sep 21"* |
+  | **Q3 FILINGS, ~30-Oct** | **12** | MBB transferee drag · TCB Q3 NIM · TCB RE share >32% · KDH advances · KDH debt >₫18tn · KDH synthetic earnings · VPX FVTPL 3rd quarter · VPX CAEX · VCI 9M PBT <55% · VCI foreign share · VPB FE Credit · HPG DQ2 ramp *(names Q4 but tests a Q4 run-rate)* |
+  | **Q4 FILINGS, ~late Jan 2027** | 1 | HPG core NPAT/tonne — *established 06:54: Q2's filed ₫1.803m is 44.2% above the threshold, so the earliest consecutive pair is Q3+Q4* |
+  🚨 **SO THE ARMED-CRITERIA APPARATUS CANNOT FIRE ON THIRTEEN OF SEVENTEEN FRONTS FOR THE NEXT TEN WEEKS.**
+  ⚠ ***Stated precisely, because "blind" would overstate it: the criteria are CONFIRMATION devices, not
+  monitors. This sweep is the monitor. What cannot happen before late October is a criterion FIRING — not
+  the underlying deterioration becoming observable.*** **The distinction matters because a CIO run reading
+  "no criterion fired" between now and October would be reading the calendar, not the evidence.**
+  ✅ **AND ON THE ONE CRITERION CHECKABLE EVERY SESSION, THE FILE IS AHEAD OF ME AGAIN — IT IS ALREADY
+  PRE-COMPUTED.** `assumptions.json` carries **`tcx.actuals.pb_kill_trigger_price` = ₫33,010** against
+  `pb_reproducible_at_file_price` = **2.49×**. ***TCX must fall 19.68% from the carried ₫41,100 to trigger
+  it.*** **That is a single number, checkable against one quote, every day — and nothing in this file's
+  recent sweeps has been checking it.** *Recorded so it becomes a standing check rather than a stored figure.*
+  ⚠ **THE OTHER TWO "ANY SESSION" CRITERIA ARE LESS LIVE THAN THEY LOOK.** **TCB's bond-event test: yesterday
+  established the nearest DATED Saigon Glory maturity is NOVEMBER 2026** — so there is no scheduled trigger
+  before then, though an unscheduled one (a missed payment, a distressed exchange) is not calendar-bound.
+  **VPB's placement test cannot be pre-computed at all: the file established the issue PRICE is unknown** —
+  the ₫6,243bn is a par-value charter increment, not proceeds — **so "15% below market" has no computable
+  threshold until terms are announced.**
+  ✅ **NEW MARKET DATA, 17-AUG SESSION (lane 4) — ALL ZERO-HIT.** **Foreign net sell ~₫600bn**, focus the
+  **VIC/VHM pair.** ⚠ *Yesterday at 14:54 I recorded the leaders as "VIC, MSN and VHM"; this route gives the
+  pair, so MSN drops out. Refinement, not contradiction.* **HOSE foreign BUY: 41.3m units / ₫1,314.8bn —
+  −36.66% by VOLUME and −37.3% by VALUE against the prior session.** *(The "600 tỷ" greps returned mostly
+  `100,600 tỷ` — MBB's charter capital — and the one genuine prior hit is a different session, "VN-Index mất
+  27 điểm". `1,720` returned only `11,720`. Both checked, not assumed.)*
+  🎯 **A COHERENCE CHECK THAT SAYS SOMETHING: volume −36.66% against value −37.3% implies the AVERAGE
+  PRICE of foreign purchases moved just −1.01%.** ***A participation collapse without a change in what was
+  being bought*** — foreigners did far less of the same thing, rather than rotating.
+  ✅ **CONTEXT: third consecutive DOWN session; 1,720 support tested for the SECOND time and losses narrowed
+  into the close (17-Aug closed 1,727.46, already on file). Today's call is accumulation in 1,720–1,750 with
+  new buying discouraged.** *`1,720` is new to this file as a level.*
+  **PORTFOLIO IMPACT:** the book's protective apparatus is now dated end-to-end — three criteria live, one in
+  mid-October, thirteen waiting on filings — and the single daily-checkable one has a pre-computed trigger
+  price 19.7% below the carried level. **Nothing modelled; no §4 field touched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE FROM TODAY; FRI 21-AUG = SESSION 4 (FTSE
+  GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.**
+  Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: tinnhanhchungkhoan.vn post396061 (17-Aug foreign net sell ~₫600bn; HOSE buy 41.3m units /
+  ₫1,314.8bn, −36.66% / −37.3%); vov.vn post1324945 (18-Aug call: 1,720–1,750, hold off new buys);
+  vietstock.vn 1481685 (derivatives — market-wide liquidity slump); `DECISION-BRIEF.md` kill-criteria table
+  (all seventeen); `research/models/assumptions.json` `tcx.actuals.pb_kill_trigger_price` = 33,010 and
+  `pb_reproducible_at_file_price` = 2.49.
+
 - **🚨🚨🎯 06:54 ICT TUE 18-AUG · HPG's KILL CRITERION CANNOT FIRE BEFORE THE Q4/2026 PRINT —
   ~LATE JANUARY 2027 — NO MATTER HOW BAD Q3 IS. AND THE REASON IS THAT Q2's FILED ACTUAL WAS 44% ABOVE THE
   THRESHOLD (lanes 5, 6). Two hours to the open.**
