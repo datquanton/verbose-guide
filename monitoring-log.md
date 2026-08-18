@@ -38,6 +38,8 @@ question the file had already answered.** Re-open any row below only on its stat
 
 | **SECTOR NPL & LLR COVERAGE CROSS-SECTION, H1/2026** *(added 15-Aug 13:54 — after a search returned ~90% covered ground)* | **On file in full: sector NPL 1.97% (from 1.88%), highest since 2020; total NPLs >₫310,000bn, +21.4% YTD / +9.5% QoQ, ~₫48,000bn added in H1; Group-2 1.45%; LLCR 82.9%.** The **two coverage series and their unresolved 83%-vs-80% collision** are documented (A: 95% Q2/25 → 86% Q1/26 → 83% Q2/26; B: 83% end-25 → 80% Q2/26) — *do not "resolve" it by picking one.* **Cross-section held: VCB 0.61% (lowest), ACB 1.03%, CTG 1.2%; largest NPL increases VietinBank, HDBank, Sacombank, BIDV — NONE IS A HOLDING.** ⚠ **VPB's 56.2% LLR coverage is the portfolio-relevant number and it is ALREADY ON FILE, together with the reasoning trap it invites** *(a ratio cannot be excused by the size of its own denominator)* | **Q3/2026 bank filings (~late Oct)** — or a per-bank coverage figure for **TCB, VPB or MBB specifically**, which is the only cut this row does not hold |
 | **THE FOUR PENDING SHARE-COUNT INCREASES — HEADLINE TERMS** *(added 15-Aug 13:54; this is the COVERED twin of date-gate row 49)* | ⚠ **A general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" returns THE SAME TERMS EVERY TIME and they are all on file:** TCB **60% bonus, ~4.25bn shares, charter capital >₫113,000bn**; VPB **₫79,339bn → >₫106,000bn in two tranches, tranche 2 = >624m shares to ONE FOREIGN INVESTOR**; MBB **record date 12-Aug, 15% stock dividend**. **What is genuinely missing is EX/RECORD DATES for TCB's 60% and VPB's two tranches, and `vsd.vn` is gateway-blocked** | **an ISSUER filing naming a date**, or a tranche actually executing — **not a re-run of the terms** |
+| **JACKSON HOLE 2026 & WARSH'S FIRST KEYNOTE** *(added 18-Aug 20:54 — after a search returned 100% covered ground)* | ✅ **ON FILE IN FULL AT LINES 3258–3281, WRITTEN 16-AUG:** symposium **Thu 27 – Sat 29 AUG**; theme *"Financial Innovation: Implications for Payments and Policy"* (**a payments theme, NOT a rates theme**); **Warsh's first keynote as Chair FRI 28-AUG ~10:00 ET = ~21:00 ICT, after Vietnam's close, so the first reactable session is MON 31-AUG**; Warsh sworn in 22-May-2026; FOMC + dot plot 15–16 Sep colliding with FTSE effective 21-Sep; **and the trigger-5 test is already computed and recorded** (*"beyond five sessions, therefore do NOT fire it today"*). ⚠⚠ **AND THE FILE NOW HOLDS THE REASON NOT TO OVER-WEIGHT IT: the Fed→dollar→VND chain is broken at link 1 (00:54 — a 42.6pp move in hike odds shifted DXY 4bp) AND at link 2 (20:54 18-Aug — DXY fell while the central rate set a record).** Only *"~120 central bankers from 70+ countries"* was ever new, and that is not a portfolio fact | **28-Aug ENTERS THE 5-SESSION WINDOW ON FRI 21-AUG** — re-open the trigger-5 test then, not the facts. Otherwise: **what Warsh actually SAYS**, from 31-Aug |
+| **SINGLE-STOCK PRICES — THE BLOCK IS PER-TICKER, AND THE TICKER IS MBB** *(added 18-Aug 20:54; this NARROWS the "not reachable" row above, which is falsified in its headline form)* | ⚠ **HPG ₫21,200 and TCB ₫31,450 both came back UNPROMPTED on 18-Aug** (TCB twice: ₫31,650 on 17-Aug am), inside searches aimed at company news — and **HPG ₫22,550 was already obtained on 03-Aug**. **So single-stock prices ARE reachable for at least three tickers.** ✅ **What survives is the row's NARROW form: no MBB-specific price of any construction — traded, announced or reference — has EVER been returned, across eight attempts.** Consequences are computed and on file (**TCB −7.1pp, HPG −2.0pp**; neither fires trigger 3) and both are **§4 human-only escalations, not edits** | **PRE-REGISTERED: MBB's price should become reachable AFTER WED 26-AUG** (rights-transfer window closes; ex was 11-Aug) **if the cause is the live corporate action.** Still blocked in September ⇒ the per-ticker story is wrong. **Costs no dedicated search — scored on whatever other lanes hand back** |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -121,6 +123,134 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨⚠⚠⚠ 20:54 ICT TUE 18-AUG · I WITHDRAW SUNDAY'S "THE FX LEG TURNED" — THE CENTRAL RATE SET A NEW
+  RECORD THE VERY NEXT SESSION, AND THE DOLLAR FELL WHILE IT ROSE, WHICH FALSIFIES THE FILE'S DXY→VND LINK
+  BY DIRECT OBSERVATION FOR THE FIRST TIME. Separately, TWO SINGLE-STOCK PRICES CAME BACK UNASKED against a
+  COVERED row that says they cannot (lanes 1, 3, 4).**
+
+  ⚠⚠⚠ **THE WITHDRAWAL FIRST — and it is a STATISTIC substitution, the family's ninth member.** At **09:54
+  SUN 16-AUG** I wrote, under the headline *"THE SBV CONSTRAINT IS LOOSENING AT BOTH ENDS FOR THE FIRST TIME
+  IN THIS FILE'S RECORD"*, that the central rate *"FELL on FRI 14-AUG to ₫25,561, −5 dong — the FIRST decline
+  after THREE CONSECUTIVE WEEKS of increases."* ***I compared a ONE-SESSION change against a trend measured in
+  WEEKS and called the small one a turn.*** **The next session says no:**
+
+  | date | central rate | Δ | ceiling (×1.05) | floor (×0.95) |
+  |---|---|---|---|---|
+  | Fri 07-Aug | 25,463 | — | — | — |
+  | Mon 10-Aug | 25,491 | +28 | 26,766 | — |
+  | Thu 13-Aug | 25,566 | +75 | — | — |
+  | Fri 14-Aug | 25,561 | **−5** ← *the "turn"* | — | — |
+  | **Mon 17-Aug** | **25,586** | **+25 vs 14-Aug** | **26,865** | **24,307** |
+  | **Tue 18-Aug** | **25,580** | **−6** | **26,859** | **24,301** |
+
+  ✅ **ALL SIX BANDS RECONCILE EXACTLY** — 25,586×1.05 = 26,865.3 → 26,865; ×0.95 = 24,306.7 → 24,307;
+  25,580×1.05 = 26,859.0; ×0.95 = 24,301.0. And the chain closes: 25,561+25 = 25,586; 25,586−6 = 25,580.
+  *The 17-Aug source states the +25 is measured **against 14-Aug**, which independently resolves the weekend
+  ambiguity I would otherwise have had to assume away (15–16 Aug are Sat/Sun; there is no session between).*
+  🚨 **₫25,586 IS A NEW RECORD — ₫20 ABOVE THE 13-AUG HIGH OF 25,566, and the sources say so in terms
+  (*"tỷ giá trung tâm lập kỷ lục mới"*). Today's 25,580 is STILL ₫14 above that prior record.** **There was no
+  turn. There was a −5 dong session inside a series whose weekly steps are +28 and +75 — i.e. the "decline"
+  was one-fifteenth of the immediately preceding move.** T1, SBV's own published fixing, four sources.
+
+  🚨🚨 **AND THE SECOND LEG IS WORSE, BECAUSE IT BREAKS A LINK RATHER THAN A READING.** Sunday's entry paired
+  the FX read with *"AND THE GLOBAL LEG AGREES: DXY 99.64, −0.33%, BELOW 100"* and concluded **"BOTH ENDS OF
+  THE CONSTRAINT MOVING THE SAME WAY."** Today's FX wires lead with ***"Đồng USD giảm nhẹ khi kỳ vọng tăng
+  lãi suất của giới đầu tư giảm"*** — the dollar is still soft, on *falling* US hike expectations.
+  ***So the dollar WEAKENED and Vietnam's central rate went to a RECORD, in the same window.*** ⚠⚠ **At 00:54
+  this file labelled the DXY→USD/VND step a PROXY ERROR — an inferred defect. This is the first time the two
+  legs have been observed moving in OPPOSITE directions on dated prints.** *An inferred weakness and an
+  observed contradiction are different evidence, and only the second one can retire a link.* **The file's
+  Fed→dollar→VND→SBV chain is now broken at link 2 by measurement, not by argument** — which compounds
+  00:54's finding that link 1 was already broken (a **42.6pp** collapse in September hike odds moved DXY by
+  **four basis points**). ⚠ **Consequence for the coming week: this is the reason NOT to read Jackson Hole
+  (Fri 28-Aug, Warsh's first keynote) as automatically consequential for this book.** *Two of the three links
+  between a Fed event and an SBV action have now failed on this file's own data.*
+
+  ✅ **A DECOMPOSITION THAT SURVIVES WHERE THE LEVEL DOES NOT: the PRESSURE measure barely moved.** Bank USD
+  sell **₫26,478 (18-Aug)** against the ₫26,859 ceiling = **₫381 of headroom**; the file's 10-Aug row held
+  ₫26,400 against 26,766 = **₫366**. **The level rose ₫89 in eight days; the distance to the ceiling widened
+  ₫15.** *A record fixing with unchanged headroom is a different object from a record fixing that is closing
+  on its own band, and the file has been recording only the first number.*
+  ⚠ **ONE BASIS MISMATCH I AM NOT RESOLVING AND WILL NOT ASSERT AROUND: 17-Aug gives Vietcombank at
+  25,920–26,330 (sell 26,330); 18-Aug gives a sell of 26,478, i.e. +₫148 in one session against a −₫6
+  fixing.** *Those are almost certainly not the same instrument — one is VCB-specific, the other is very
+  likely a max-across-banks quote. **I am recording both with their attributions and drawing no
+  session-over-session bank move from the pair.*** *This is the tenth entry in the measure-substitution
+  catalogue's oldest family and the trap is the cheapest one on this file to fall into.*
+  ⚠ **AND THE FREE-MARKET STRUCTURE IS THE OPPOSITE OF WHAT A RECORD FIXING SUGGESTS: the parallel market at
+  ₫25,900–25,950 (17-Aug) trades BELOW Vietcombank's own sell of ₫26,330** — ₫380–430 below it. *A parallel
+  market at a **discount** to the official bank offer says there is no scarcity premium in cash dollars. It
+  also confirms, for a second time, that the discriminator this file retired on 16-Aug (*"it sits above the
+  central rate"*) is dead: 25,900 sits above the 25,586 fixing **and** below the bank offer, so the test
+  cannot separate the two series any more.*
+
+  🚨🚨 **SECOND FINDING — THE "SINGLE-STOCK CLOSING PRICES ARE NOT REACHABLE" GATE ROW IS FALSIFIED IN ITS
+  HEADLINE FORM. TWO PRICES CAME BACK IN ONE SWEEP, NEITHER OF THEM ASKED FOR:**
+
+  | ticker | file `price` (§4) | returned | dated | file is |
+  |---|---|---|---|---|
+  | **HPG** | ₫20,800 | **₫21,200** | 18-Aug | **1.9% LOW** |
+  | **TCB** | ₫29,250 | **₫31,450** (₫31,650 on 17-Aug am) | 18-Aug | **7.0% LOW** |
+
+  ⚠ **TIER: T4, NOT T1.** *Both arrived as search-summariser text over hosts this environment cannot open
+  directly. What raises them above noise is that TCB came back **twice on two days** (31,650 → 31,450, −0.63%)
+  and the pair is internally coherent; and that TCB at 31,450 on ~7,064m shares implies ₫222,163bn ≈ **US$8.68bn**
+  at today's fixing and a **7.73× TTM P/E** against the file's 7.21× — both plausible for this bank, so nothing
+  in the number self-refutes.* **The escalation below is "verify before writing", NOT "write this number."**
+
+  ✅ **CONSEQUENCE QUANTIFIED, WHICH IS THE PART §4 PERMITS.** `price` never enters `decide.py` — the return is
+  built from `cap_now = pe_ttm × npat_ttm`. But **`price` and `cap_now` are pinned to each other by the
+  valuation identity**, so a price that is x% stale is a `cap_now` that is x% stale, and the closed form
+  `E[r]_new = (E[r]_old − cash_yield + 1)/k − 1 + cash_yield` applies with **k = price_mkt / price_file**:
+
+  | name | k | E[r] now | E[r] at market | **Δ** | conf-weighted |
+  |---|---|---|---|---|---|
+  | **TCB** | 31,450/29,250 = **1.07521** | **+4.0%** | **−3.1%** | **−7.1pp** | +2.8% → **−2.2%** |
+  | **HPG** | 21,200/20,800 = **1.01923** | **+6.3%** | **+4.3%** | **−2.0pp** | +4.7% → **+3.2%** |
+
+  🚨 **NEITHER FIRES TRIGGER 3 — the threshold is >10pp and the larger of the two is 7.1pp.** *Stated
+  explicitly because the temptation runs the other way: a **sign flip** feels like it must be an escalation,
+  and the trigger is written in magnitude, not in sign.* **But the ranking consequence is real: TCB falls from
+  3rd of eight to 6th**, landing between VPX (−0.0%) and VCI (−4.5%). ✅ **This STRENGTHENS rather than
+  contradicts the standing brief, which already says TRIM TCB −15.0pp** — the largest trim in the book was
+  sized against a TCB that the model was valuing **7% too cheaply**.
+  ⚠ **AND IT RE-DATES A MEASUREMENT THE FILE HAS BEEN CARRYING: HPG was measured ₫22,550 at 03-Aug, making
+  `price` 7.76% low. At ₫21,200 it is 1.9% low. The file did not get more accurate — HPG FELL ~6.0% in eleven
+  sessions while the stored number stood still.** *A staleness gap that shrinks is not a defect repairing
+  itself; it is the market walking down to meet a stale number, and it will walk past it.*
+
+  ✅ **THE GATE ROW'S NARROW FORM SURVIVES, AND IT IS NOW A MECHANISM CLAIM.** The row was widened on 11-Aug
+  to *"no MBB-specific price of any construction has ever been returned"* — and **MBB again returned nothing,
+  in a search that handed back HPG and TCB unprompted.** *So the block is **per-ticker**, not per-instrument
+  and not environment-wide.* **PRE-REGISTERED, SCOREABLE: if the per-ticker reading is right and the cause is
+  MBB's live corporate action (ex 11-Aug; rights transfer window closing WED 26-AUG), then MBB's price should
+  become reachable in the sweeps AFTER 26-Aug.** *If it is still unreachable in September the per-ticker story
+  is wrong and something structural is blocking that one symbol. Either way this costs no dedicated search —
+  it is scored on whatever the FX and bank lanes hand back anyway.*
+
+  ⚠ **HOUSEKEEPING — I SPENT A SEARCH ON JACKSON HOLE AND THE FILE HELD ALL OF IT.** Dates 27–29 Aug, the
+  theme *"Financial Innovation: Implications for Payments and Policy"*, **Warsh's first keynote Fri 28-Aug
+  ~10:00 ET = ~21:00 ICT with MON 31-AUG the first reactable session**, and even the trigger-5 test (*"beyond
+  five sessions, therefore do NOT fire it today"*) are all at lines 3258–3281, written 16-Aug. **Only "~120
+  central bankers from 70+ countries" was new, and that is not a portfolio fact.** ***This is the FIFTH time
+  the gate table has failed the same way: it indexes what has been SEARCHED, never what has been CONCLUDED,
+  and a conclusion buried in a dated entry is invisible to the next sweep.*** **A COVERED row is added below
+  — the structural fix I can actually make from inside a sweep.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED —
+  `price` is a §4 HUMAN-ONLY field and both corrections above are ESCALATIONS, not edits.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 considered on the two prices and does NOT fire — a MARKET PRICE IS NOT
+  A DISCLOSED RESULT, on the same reasoning this file used on 16-Aug to keep posted deposit rates outside
+  trigger 4; no held name's evidence status changed. Trigger 3 computed and negative (max 7.1pp vs a 10pp
+  threshold). Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3 (FTSE GEIS
+  list, KDH insider window closes, Forecast #7 resolves); CORE circumvention preliminary 24-Aug = session 4.
+  Trigger 2 STANDING-BREACHED. Trigger 1 negative.**
+  ⚠ **AWAITING A HUMAN, ADDED THIS HOUR:** *(1) `valuation.TCB.price` ₫29,250 vs a T4 market ₫31,450 — verify,
+  then correct; the consequence is −7.1pp on TCB's E[r] and a fall from 3rd to 6th in the book. (2)
+  `valuation.HPG.price` ₫20,800 vs a T4 ₫21,200 — −2.0pp. Both join the standing §4 queue.*
+  [Infographics/VNA — tỷ giá trung tâm 18/8/2026: 1 USD = 25.580 VND](https://infographics.vn/interactive-ty-gia-trung-tam-ngay-18-8-2026-1-usd-25580-vnd/241903.vna) · [Thị trường Tài chính Tiền tệ — ngày 18/8 tỷ giá trung tâm giảm 6 đồng](https://thitruongtaichinhtiente.vn/ngay-18-8-ty-gia-trung-tam-giam-6-dong-84967.html) · [CafeF — tỷ giá trung tâm ngày 17/8 tăng 25 đồng, USD ngân hàng tăng mạnh](https://cafef.vn/ty-gia-trung-tam-ngay-17-8-tang-25-dong-usd-ngan-hang-tang-manh-188260817142230127.chn) · [Thời báo Ngân hàng — sáng 17/8 NHNN niêm yết tỷ giá trung tâm 25.586 đồng](https://baomoi.com/sang-17-8-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25-586-dong-c55847810.epi) · [Tiền Phong — tỷ giá trung tâm lập kỷ lục mới](https://tienphong.vn/gia-vang-dong-loat-tang-ty-gia-trung-tam-lap-ky-luc-moi-post1868496.tpo) · [Báo Quốc tế — tỷ giá USD/VND 18/8, đồng USD giảm nhẹ khi kỳ vọng tăng lãi suất giảm](https://baoquocte.vn/ty-gia-ngoai-te-ty-gia-usd-vnd-hom-nay-18-8-dong-usd-giam-nhe-khi-ky-vong-tang-lai-suat-cua-gioi-dau-tu-giam-432649.html) · [Vietbao — giá USD bán ra 26.478 đồng (18/8)](https://vietbao.vn/ty-gia-usd-hom-nay-188-gia-usd-ban-ra-tang-nhe-26478-dongusd-603643.html) · [GiaVang.net — USD/VND 17/8, NH nâng giá nhưng không theo kịp TGTT](https://giavang.net/ty-gia-usd-vnd-ngay-17-8-cac-nh-tiep-tuc-nang-gia-usd-nhung-van-khong-theo-kip-da-tang-cua-tgtt/) · [VietstockFinance — TCB](https://finance.vietstock.vn/TCB-ngan-hang-tmcp-ky-thuong-viet-nam.htm) · [VietstockFinance — HPG](https://finance.vietstock.vn/HPG-ctcp-tap-doan-hoa-phat.htm)
 
 - **🚨🎯⚠⚠ 19:54 ICT TUE 18-AUG · KDH's NON-GLADIA REVENUE IS AT A FOUR-YEAR LOW WITH A 32.6% RETURN
   RATE — AND ITS "SYNTHETIC EARNINGS" CRITERION MAY NOT BE TRIGGERABLE BY THE GAIN THAT ACTUALLY AROSE
