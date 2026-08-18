@@ -122,6 +122,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 10:54 ICT TUE 18-AUG · A KILL CRITERION THE FILE RECORDED AS HAVING "NO COMPUTABLE
+  THRESHOLD" NOW HAS ONE — AND IT IS NEARLY UNFIREABLE. VPB's PLACEMENT IS FLOORED AT BOOK VALUE, SO IT CAN
+  ONLY FIRE IF VPB RE-RATES ABOVE 1.176× BOOK (lanes 3, 5). Market open two hours.**
+  ✅ **THREE HOURS AGO I WROTE THAT VPB's CRITERION *"cannot be pre-computed at all: the file established the
+  issue PRICE is unknown… so '15% below market' has no computable threshold until terms are announced."*
+  THE TERMS INCLUDE A FLOOR, AND IT WAS ALREADY PUBLISHED.**
+  🎯 **NEW, ZERO PRIOR HITS FOR ANY OF IT: the placement price is to be agreed directly with the investor
+  but *"NOT LOWER THAN THE BOOK VALUE of a VPBank share at the most recent date, per the consolidated
+  financial statements of the quarter immediately preceding the offering."*** **A contractual price floor.**
+  🚨 **AND THE TEST COLLAPSES TO A SINGLE RATIO, WHICH IS WHY IT IS ROBUST.** The criterion fires if the
+  execution price is **more than 15% below market** — i.e. if `execution < 0.85 × market`. **With execution
+  floored at book value, that requires `book < 0.85 × market`, which is exactly `market ÷ book > 1 ÷ 0.85 =`
+  **1.176×**.
+  ***So: VPB's placement kill criterion can fire ONLY if VPB's price-to-book exceeds 1.176×.***
+  **VPB's `cap_now` = 6.48 × ₫30,620bn = ₫198,418bn against equity of ~₫186,605bn ⇒ P/B ≈ 1.063×.**
+  ***VPB would have to RE-RATE by 10.7% in price-to-book terms before the criterion could fire at all.***
+  🎯 **THE RATIO FORMULATION IS DELIBERATE AND IT DISPOSES OF A TRAP.** *My first route was per-share —
+  book ₫23,520 against a 15% threshold of ₫21,250 — and it turns on whether "book value" means TOTAL or
+  PARENT equity. VPB consolidates FE Credit and VPBankS minorities, so the two differ materially, and at
+  ~90.3% of total the answer flips.* ***The ratio test is invariant to that choice PROVIDED the same equity
+  measure is used on both sides — which is the natural reading, since the floor and the market comparison
+  both reference the same statements.*** **Stated as a condition on the reading, not assumed away.**
+  ✅ **AND EVERY REMAINING UNCERTAINTY CUTS THE SAME WAY — TOWARD "CANNOT FIRE".** **The floor uses the
+  quarter IMMEDIATELY PRECEDING the offering** (Q2 or Q3, not the Q1 figure used above), **and book value
+  RISES with retained earnings — VPB's H1 pre-tax profit was ₫18,880bn, +68%.** ***A higher floor requires a
+  higher price to satisfy the 15% discount, so the criterion gets HARDER to fire as time passes.***
+  ⚠⚠ **THE LIMITS, STATED. (1) The equity figure ₫186,605bn is end-Q1/2026 from a T5 press comparison, not
+  read off a filing — and `assumptions.json` carries NO VPB equity field at all, so the file could not have
+  computed this ratio before today.** **(2) A price floor in a shareholder-approved capital plan is a stated
+  intention, not a signed subscription agreement; terms can change and the criterion should stay armed.**
+  **(3) VPB's `price` of ₫25,000 is a §4 field of unknown vintage — but note the ratio test does NOT use it,
+  which is precisely why it survives that uncertainty.**
+  🎯 **AND IT MAKES A THIRD CRITERION READABLE IN THE 07:54 AUDIT.** That audit put VPB's placement test in
+  the *"any session"* row with the note that it *"has no computable threshold."* ***It should now read: any
+  session, threshold known, and requiring a RE-RATING UP before it can fire.*** **A kill criterion that
+  fires only if the stock rises is an unusual object, and worth the human's attention as a design question
+  rather than a monitoring one.**
+  ✅ **ALSO CONFIRMED, ALREADY-HELD:** the two-phase structure — phase 1 a >26% bonus issue from equity to
+  charter capital ₫100,000bn, phase 2 the 624.3m-share placement to **₫106,244bn**, foreign ownership
+  potentially to 34%, execution in Q3–Q4/2026 after State Bank and securities-commission approval.
+  ⚠ **A SMALL GAP FOUND AND LOGGED, NOT CHASED (lane 5): `Circular 08/2026/TT-BTC` (14 hits) and
+  `121/2020` (11 hits) are both well covered, but `120/2020/TT-BTC` — on the TRADING of listed shares, and
+  amended by the same instrument — returns ZERO in both files, as does the consolidated text
+  `09/VBHN-BTC`.** ***An amending circular that touches three instruments was picked up on two of the three.***
+  *No August-dated margin or securities circular exists; that lane is otherwise clean.*
+  **PORTFOLIO IMPACT:** one of the three criteria that could fire at any session turns out to require a
+  10.7% re-rating first — the book's protective apparatus is one notch less live than the 07:54 audit
+  concluded. **Nothing modelled; no §4 field touched; VPB confidence unchanged at 0.7.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE
+  TODAY; FRI 21-AUG = SESSION 4 (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE
+  CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: cafef.vn 18826041609292937 + baodautu.vn d571247 + dnse.com.vn 35216469 + vietnambiz.vn
+  2026416112648850 + etime.danviet.vn d1419054 (placement price floored at book value per the immediately
+  preceding quarter's consolidated statements; 624.3m shares; foreign ownership to 34%; Q3–Q4/2026 subject to
+  SBV and SSC approval; charter capital to ₫106,244bn); cafef.vn 188260512171933297 (VPB equity ~₫186,605bn
+  at end-Q1/2026 — T5); lsvn.vn a169838 + luatvietnam.vn (Circular 08/2026/TT-BTC amending 96/2020, 120/2020
+  and 121/2020); `research/models/assumptions.json` `valuation.VPB` (6.48 × 30,620, price 25,000).
+
 - **🎯🎯⚠ 09:54 ICT TUE 18-AUG · A DATED PRE-EX PRICE SETTLES YESTERDAY'S THREE-WAY MBB PUZZLE — AND
   SHOWS THE FILE'S OWN ₫19,920 IS ONE POINT IN A BAND, NOT THE ANSWER. THE RIGHTS ARE WORTH ~₫960–1,030,
   NOT THE ₫1,400 RETAIL GUIDANCE IMPLIES (lanes 3, 4). Rights day one; market open an hour.**
