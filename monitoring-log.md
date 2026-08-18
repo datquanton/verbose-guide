@@ -129,6 +129,86 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 04:54 ICT WED 19-AUG · TCB'S ARMED RE-SHARE KILL CRITERION IS EITHER 5.56pp AWAY OR 0.13pp AWAY,
+  AND THE ONLY THING THAT DECIDES IT IS A BASIS THE CRITERION NEVER STATES. THE DISTANCE VARIES BY A FACTOR
+  OF FORTY-THREE. Also: the 33.2% baseline date is RESOLVED, and a six-point strategy path is new (lanes 3, 5).**
+
+  ✅ **FIRST, THE §4 QUEUE ITEM CLOSES. `33.2%` IS A 2024 FIGURE — the brief's label is CORRECT and the
+  user-supplied slide's "2025" was the mismatch.** *Sourced this hour: *"giảm từ **33,2% (năm 2024)** xuống…"*
+  in two independent write-ups. **Remove from the queue.***
+
+  🚨🚨🚨 **NOW THE FINDING, AND IT IS THE SHARPEST OF THE NIGHT. THE CRITERION READS:**
+  > *"RE share of loans back above **32%** (was 33.2% in 2024 → 28.9% at Q1/26)"* — **armed.**
+
+  ⚠⚠⚠ ***"RE share of loans" NAMES NO BASIS. This file now holds at least FIVE distinct real-estate-share
+  measures for TCB, and the 32% trigger falls INSIDE their span:***
+  | measure | value | date | **distance to the 32% trigger** |
+  |---|---|---|---|
+  | RE **business only** | **26.44%** | Q1/26 | **+5.56pp** |
+  | the criterion's **own stated series** | **28.9%** | Q1/26 | **+3.10pp** |
+  | RE share, end-2025 *(new — three conflicting values)* | **28.60% / 30.7% / 31.1%** | end-2025 | +0.9 to +3.4pp |
+  | **RE + CONSTRUCTION** | **31.87%** | **30-Jun-26** | 🚨 **+0.13pp** |
+  | RE + construction + **building materials** *(new)* | **34% is the 2026 TARGET** | 2026 | 🚨 **ALREADY ABOVE** |
+  🚨 **5.56 ÷ 0.13 = 42.8. The distance to an ARMED KILL CRITERION varies by a factor of FORTY-THREE across
+  measures the file already holds, and by more if the three-sector aggregate is meant, on which it is long
+  since breached.**
+
+  ⚠⚠ **WHAT I AM AND AM NOT CONCLUDING. The criterion's parenthetical — *"was 33.2% in 2024 → 28.9% at
+  Q1/26"* — ANCHORS the intended measure to whatever series produced 28.9%, and **31.87% is not from that
+  series.** ***So on the criterion's own stated series it is NOT breached, and I am NOT declaring it fired.***
+  **But the ambiguity is now quantified, and quantified ambiguity on an armed criterion is a §4 escalation,
+  not a footnote.**
+  🎯🎯 **AND IT IS A NEW DEFECT CLASS — THE THIRD CRITERION-DEFINITION FAILURE IN TWENTY-FOUR HOURS, AND NOT
+  THE SAME AS THE OTHER TWO.** *KDH (19:54) and TCB-Masterise (23:54) were **criteria that ENUMERATE rather
+  than DEFINE** — the event fits the spirit and falls outside the list.* ***This one is different: the
+  THRESHOLD is stated to three significant figures and the MEASURE is stated to none.*** **A criterion whose
+  precision is entirely in its number and none of it in its subject.** *That asymmetry is what makes it feel
+  rigorous while being undecidable, and it is invisible to any check that looks at the number.*
+
+  ✅ **SECOND FINDING, NEW AND USEFUL: TCB HAS A PUBLISHED, DATED, SIX-POINT DE-RISKING PATH — which this
+  file has never held and which changes how the criterion should be READ.**
+  | 2024 | 2025 | 2026 | 2027 | 2028 | 2030 |
+  |---|---|---|---|---|---|
+  | **36%** | **35%** | **34%** | **32%** | **29%** | **25%** |
+  *(RE + construction + building materials; separately, a stated **22% for RE alone within five years**.)*
+  ⚠⚠ **I NEARLY COMMITTED A MEASURE SUBSTITUTION WITH IT AND CAUGHT IT ONE STEP OUT.** *The tempting line was
+  "TCB's 31.87% at 30-Jun sits 2.13pp below its own 34% target for 2026, so it is a year ahead of schedule."*
+  ***That comparison is invalid: 31.87% is TWO sectors and the path is THREE. Adding building materials moves
+  31.87% UP by an unknown amount, so the 2.13pp gap is not a margin of safety — it is an artefact of a missing
+  sector.*** **Not claimed.**
+  ✅ **WHAT THE PATH DOES LEGITIMATELY CHANGE: a FALLING RE share is management's published plan, not evidence
+  of stress — so the criterion's real information content is in a RISE AGAINST A PUBLISHED DOWNWARD PATH,
+  which is far stronger evidence than a bare level.** *A criterion written as a level test on a series with a
+  declared trajectory is measuring the wrong thing; it should be measuring deviation from the trajectory.*
+
+  ✅ **THIRD — A FIELD IDENTIFIED FROM TWO OTHERS, AT NO SEARCH COST.** A new TCB **FY2026 loan target of
+  ₫849,000bn** sat in an apparently impossible relationship to the model's `loans_mid_fy` = **950,000**. *It is
+  not impossible — it is a different measure, and the file proves it internally:* **`retail_sme_credit_h1_bn`
+  407,000 + `corporate_credit_h1_bn` 542,400 = ₫949,400bn ≈ 950,000.** ***So `loans_mid_fy` is a CREDIT
+  aggregate, not a customer-loan balance*** — distinct from `consolidated_customer_loans_h1_bn` **835,813**,
+  the gap being corporate bonds and interbank. **That is the credit-vs-loans distinction this file already
+  resolved once, now shown to be silently encoded in a field NAME that says "loans".**
+  ⚠ **UNRESOLVED AND NOT GUESSED: whether ₫849,000bn is a parent-bank or consolidated target, and on which
+  measure.** *At H1 consolidated customer loans are already ₫835,813bn, so a ₫849,000bn full-year target would
+  imply +1.6% across H2 after +10.4% in H1 — implausible enough that the basis, not the ambition, is what is
+  wrong. Recorded with the arithmetic that makes the question sharp.*
+  ✅ *Also new and simply recorded: **FY2025 PBT ₫32,500bn (a record)** and an **FY2026 PBT target of
+  ₫37,500bn** — +15.4%. Zero prior hits on both.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO KILL CRITERION DECLARED FIRED — on the criterion's own stated series it is 3.10pp away. TRIGGER 1
+  NOT FIRED, and the reason is recorded rather than assumed: the 31.87% that sits 0.13pp from the threshold
+  is a DIFFERENT MEASURE from the one the criterion's parenthetical anchors to. Trigger 4 does NOT fire — no
+  TCB disclosure changed; this is a definitional finding about a criterion. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3, CORE preliminary 24-Aug = session 4. Trigger 2
+  STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **§4 QUEUE — ONE ITEM CLOSED, ONE OPENED. CLOSED: the 33.2% baseline is 2024, confirmed. OPENED, AND IT
+  IS THE MORE IMPORTANT OF THE TWO: TCB's RE-share criterion must name its measure. Until it does, its
+  distance to firing is somewhere between 0.13pp and 5.56pp, and a human has to pick the basis — an automated
+  run may not.**
+  [CafeLand — Techcombank giảm dần cho vay BĐS, mục tiêu dư nợ 849.000 tỷ, lãi 37.500 tỷ năm 2026](https://cafeland.vn/tin-tuc/techcombank-giam-dan-cho-vay-bat-dong-san-dat-muc-tieu-du-no-849000-ty-dong-lai-37500-ty-nam-2026-150319.html) · [CafeLand — giảm cho vay BĐS – xây dựng – vật liệu xây dựng xuống 25% vào 2030](https://cafeland.vn/tin-tuc/giam-cho-vay-bat-dong-san-xay-dung-vat-lieu-xay-dung-xuong-25-vao-2030-techcombank-tinh-lam-gi-146308.html) · [VietnamBiz — Techcombank muốn giảm tỷ trọng cho vay BĐS xuống 22% trong 5 năm tới](https://vietnambiz.vn/techcombank-muon-giam-ty-trong-cho-vay-bat-dong-san-xuong-22-trong-5-nam-toi-2025102482440421.htm) · [VietnamNet — top ngân hàng cho vay bất động sản](https://vietnamnet.vn/top-ngan-hang-cho-vay-bat-dong-san-2494252.html) · [VietnamPlus — Techcombank lãi trước thuế 32.500 tỷ đồng năm 2025](https://www.vietnamplus.vn/techcombank-lai-truoc-thue-32500-ty-dong-nho-he-sinh-thai-va-so-hoa-post1089602.vnp) · [Vietstock — TCB hạ dần tỷ trọng cho vay lĩnh vực rủi ro (01/12/2025)](https://finance.vietstock.vn/downloadedoc/18200)
+
 - **🎯🎯 03:54 ICT WED 19-AUG · A MAINSTREAM SOURCE PUBLISHES MBB'S FOREIGN HEADROOM AS 26.7pp. THIS FILE
   ESTABLISHED FOUR DAYS AGO THAT THE INVESTABLE FIGURE IS **ZERO**. And the legal instrument behind the whole
   49% ceiling — never once named in this file — is now on the record (lanes 7, 4).**
