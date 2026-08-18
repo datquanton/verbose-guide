@@ -41,6 +41,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **JACKSON HOLE 2026 & WARSH'S FIRST KEYNOTE** *(added 18-Aug 20:54 — after a search returned 100% covered ground)* | ✅ **ON FILE IN FULL AT LINES 3258–3281, WRITTEN 16-AUG:** symposium **Thu 27 – Sat 29 AUG**; theme *"Financial Innovation: Implications for Payments and Policy"* (**a payments theme, NOT a rates theme**); **Warsh's first keynote as Chair FRI 28-AUG ~10:00 ET = ~21:00 ICT, after Vietnam's close, so the first reactable session is MON 31-AUG**; Warsh sworn in 22-May-2026; FOMC + dot plot 15–16 Sep colliding with FTSE effective 21-Sep; **and the trigger-5 test is already computed and recorded** (*"beyond five sessions, therefore do NOT fire it today"*). ⚠⚠ **AND THE FILE NOW HOLDS THE REASON NOT TO OVER-WEIGHT IT: the Fed→dollar→VND chain is broken at link 1 (00:54 — a 42.6pp move in hike odds shifted DXY 4bp) AND at link 2 (20:54 18-Aug — DXY fell while the central rate set a record).** Only *"~120 central bankers from 70+ countries"* was ever new, and that is not a portfolio fact | **28-Aug ENTERS THE 5-SESSION WINDOW ON FRI 21-AUG** — re-open the trigger-5 test then, not the facts. Otherwise: **what Warsh actually SAYS**, from 31-Aug |
 | **SINGLE-STOCK PRICES — THE BLOCK IS PER-TICKER, AND THE TICKER IS MBB** *(added 18-Aug 20:54; this NARROWS the "not reachable" row above, which is falsified in its headline form)* | ⚠ **HPG ₫21,200 and TCB ₫31,450 both came back UNPROMPTED on 18-Aug** (TCB twice: ₫31,650 on 17-Aug am), inside searches aimed at company news — and **HPG ₫22,550 was already obtained on 03-Aug**. **So single-stock prices ARE reachable for at least three tickers.** ✅ **What survives is the row's NARROW form: no MBB-specific price of any construction — traded, announced or reference — has EVER been returned, across eight attempts.** Consequences are computed and on file (**TCB −7.1pp, HPG −2.0pp**; neither fires trigger 3) and both are **§4 human-only escalations, not edits** | **PRE-REGISTERED: MBB's price should become reachable AFTER WED 26-AUG** (rights-transfer window closes; ex was 11-Aug) **if the cause is the live corporate action.** Still blocked in September ⇒ the per-ticker story is wrong. **Costs no dedicated search — scored on whatever other lanes hand back** |
 | **SAIGON GLORY / MASTERISE BOND MATURITIES — SETTLED, AND A FALSE DATE KEEPS RETURNING** *(added 18-Aug 21:54)* | ✅ **RESOLVED AND SOURCED: agreement 5-FEB-2024 extended ALL TEN LOTS SGL-2020.01–.10, ₫10,000bn (= ₫1,000bn/lot, cross-checked twice against figures already on file), by 1–2 years.** **.01–.03 → Jun-2025 · .04–.05 → Jul-2025 (both PAST DUE) · .06–.10 → NOVEMBER 2026 (+15 months).** **₫997bn of .06–.10 was REPURCHASED EARLY on 26–27 FEB 2026 = 19.94%, leaving ≈₫4,003bn net.** Also on file: the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on SGL-2020.02. 🚨 **THE TRAP: "28-AUG" HAS NOW BEEN OFFERED IN TWO DIFFERENT YEARS AND BOTH ARE FALSE** — 28-Aug-2025 (the original maturity, no extension applied) and 28-Aug-2026 (a 12-month default applied instead of the stated 15). ***Any source giving an AUGUST maturity has applied the adjustment's direction without its magnitude. Do not treat it as a correction; the answer is NOVEMBER 2026*** | **an ISSUER OR HNX FILING dated after Feb-2026** — a further buyback, a new extension, or a payment failure. **NOT another general search, and NEVER an August date from a summariser** |
+| **SAIGON GLORY .01–.05 — THE PAST-DUE BLOCK, NOW MEASURED** *(added 18-Aug 23:54)* | ✅ **2025 scheduled principal ~₫300bn/lot × 5 = ₫1,500bn; ACTUALLY PAID < ₫7bn = 0.47%; outstanding ₫1,496bn — and 1,500 − 7 = 1,493 reconciles to 0.20%.** ⚠ **TWO READINGS of the ₫1,496bn are on file with the arithmetic that discriminates (total-remaining vs unpaid-2025-instalment, ₫2,500bn apart); the reconciliation selects the WORSE one and it is NOT collapsed to.** **FINED for failing to disclose payment information on .02 and .03 (matured June 2025)** — a governance fact, distinct from the 14-Nov-2025 missed ₫3.5bn interest on .02. **.05 originally matured 10-Jul-2023; .01–.03 June-2023 — extensions of +24/+24/+15 months, bracketing the agreement's stated "1–2 years" exactly.** Financials: swung from ~−₫16,000bn to +₫1,500bn under the new owner, **accumulated losses ~₫18,000bn**, still cannot pay. **Collateral appraisal reported down sharply — DIRECTIONAL AND UNDATED, deliberately not quantified** | **a 2026-dated payment, a further sanction, or a NUMBER on the collateral haircut** — not a re-run. ⚠ **The open question is NOT factual but definitional and sits in the §4 queue: does "a Masterise bond event" cover a Bitexco-era issuer's pre-acquisition defaults?** |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -124,6 +125,92 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨 23:54 ICT TUE 18-AUG · THE PAST-DUE SAIGON GLORY LOTS ARE NOT "LATE" — THEY PAID 0.47% OF A FULL
+  YEAR'S SCHEDULED PRINCIPAL AND WERE FINED FOR NOT DISCLOSING IT. And the reconciliation that works is the
+  one that REMOVES the good news (lanes 3, 5). BACKFILL, labelled as such.**
+  *Two hours ago I closed the FORWARD maturity (Nov-2026, ₫4,003bn net) and wrote that "the sharper question
+  is not November — it is the two groups already past due." This is that question.*
+
+  🚨🚨 **THE HARD NUMBERS, ALL ZERO PRIOR HITS (`1,496`, `bị phạt`, `gần 18 ngàn tỷ`, `10/7/2023`):**
+  | | |
+  |---|---|
+  | 2025 scheduled principal, SGL-2020.01–.05 | **~₫300bn per lot × 5 = ₫1,500bn** |
+  | **actually paid in the whole of 2025** | **< ₫7bn** — *"hundreds of millions to a few billion per lot"* |
+  | **payment rate** | **0.47%** |
+  | outstanding on that obligation | **₫1,496bn** |
+  ✅ **AND IT RECONCILES TO 0.20%: ₫1,500bn − ₫7bn = ₫1,493bn against the stated ₫1,496bn.**
+
+  ⚠⚠⚠ **THE READING MATTERS MORE THAN THE FIGURE, AND THE ARITHMETIC PICKS THE WORSE ONE.** *"Outstanding
+  principal ≈ ₫1,496bn"* admits two readings that differ by ₫2,500bn:
+  - **(A) TOTAL remaining on .01–.05** ⇒ ₫1,496bn of an original ₫5,000bn ⇒ **~70% ALREADY REPAID** — a large
+    de-risking of the past-due block.
+  - **(B) the UNPAID 2025 INSTALMENT** ⇒ the ₫5,000bn is largely still outstanding and one year's amortisation
+    simply did not happen.
+  🚨 ***THE RECONCILIATION SELECTS (B): ₫1,500bn scheduled less ₫7bn paid IS ₫1,496bn to within 0.2%. Under
+  (A) the near-identity of "scheduled 2025" and "total outstanding" would be a coincidence at the 0.2% level.***
+  ⚠ **I am recording both readings with the arithmetic that discriminates, and NOT collapsing to (B) as
+  established** — but the honest summary is that **the check which works is the one that deletes the
+  favourable interpretation**, and that is the direction a file like this one is biased against noticing.
+
+  🚨 **AND THE CONDUCT IS SANCTIONED, NOT MERELY LATE — WHICH IS A DIFFERENT EVIDENCE CLASS.** Saigon Glory
+  was **FINED for violating bond information-disclosure obligations**, specifically for **failing to disclose
+  principal-and-interest payment information on the maturity date for SGL-2020.02 AND .03 (June 2025)**. *The
+  file already held the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on .02. **A missed payment
+  is a liquidity fact; a REGULATORY PENALTY for not reporting the payment is a governance fact, and only the
+  second one is an act by a supervisor rather than by the issuer.*** **T2 — an administrative sanction.**
+
+  ✅ **AN INDEPENDENT CONFIRMATION OF THE FILE'S OWN LOT TABLE, FROM A SOURCE THAT NEVER MENTIONS IT.**
+  SGL-2020.05 **originally matured 10-JUL-2023** (₫29.2bn of interest paid, the ₫1,000bn principal not), and
+  .01–.03 originally **June 2023**. **Against the file's table — .01–.03 June-2023 → June-2025, .04–.05
+  July-2023 → July-2025, .06–.10 Aug-2025 → Nov-2026 — the extensions are +24, +24 and +15 months, which
+  brackets the agreement's stated "1 to 2 years" EXACTLY at both ends.** *That is the second independent
+  corroboration of the schedule I closed at 21:54, and it also re-confirms the ₫1,000bn-per-lot divisor.*
+
+  ⚠⚠ **THE FINANCIALS CUT BOTH WAYS AND I AM NOT NETTING THEM.** Under the new owner Saigon Glory swung from
+  a loss of **~₫16,000bn** to a **profit of ~₫1,500bn** — but carries **accumulated losses of ~₫18,000bn** and
+  the coverage states it **still cannot pay the bond debt**. *A single-year profit against accumulated losses
+  twelve times its size does not service ₫5,000bn of principal, and the file's rule is that a decomposition
+  outranks a bare total: the profit is the total, the ₫7bn of principal actually paid is the decomposition.*
+  ⚠ **ALSO REPORTED AND DELIBERATELY NOT QUANTIFIED: the appraised value of the COLLATERAL securing these
+  bonds has fallen sharply.** *Directional, undated, no base and no magnitude — T4. Recorded so the next sweep
+  knows the claim exists; **not** used, because a collateral haircut with no number is not a number.*
+
+  🚨🚨 **THE CRITERION QUESTION, AND IT IS THE SECOND TIME TODAY THIS EXACT DEFECT HAS SURFACED.** TCB's armed
+  kill criterion reads ***"developer/related-party NPL formation > 2.0%, or A MASTERISE BOND EVENT."*** *If a
+  documented, regulator-sanctioned failure to pay ₫1,493bn of scheduled principal on the bonds of the company
+  that owns the project Masterise acquired is not "a Masterise bond event", it is hard to say what would be.*
+  ⚠ **But Saigon Glory is a BITEXCO-ERA issuer, the defaults are 2023–2025 and therefore largely PRE-DATE the
+  ownership change, and nothing on this file traces the obligation to TCB's balance sheet.** ***So the
+  criterion is arguably satisfied on its SPIRIT and not clearly satisfied on its LETTER — which is precisely
+  the "criteria that enumerate rather than define" failure logged at 19:54 today against KDH's
+  synthetic-earnings criterion. Two of the eight names now have armed criteria whose wording cannot decide the
+  case actually in front of them.*** **I am NOT declaring it fired. That reading is a §4 judgment and it goes
+  to a human with the evidence attached, which is what the charter requires of exactly this situation.**
+
+  ⚠ **ONE OTHER SEARCH THIS HOUR, NIL: lane 6 street targets are ALL on file** — SHS ₫36,200, BVSC
+  ₫32,500→₫33,200 (with its 10.7%→11.9% margin driver already worked, *and already criticised* — gate row 64
+  records that BVSC's Quý Xa justification is a 2027+ item that cannot carry a full-year 2026 margin), SSI
+  ₫35,000 (whose "30% upside" implies the ₫26,923 reference already on file), VCBS MBB ₫37,230, Agriseco MBB
+  ₫28,000. ⚠⚠ **AND A WARNING WORTH MORE THAN THE TARGETS: MBB WENT EX ON 11-AUG (15% stock dividend + 10:1
+  rights at ₫10,000), SO ANY COMPARISON OF MBB PRICE TARGETS ACROSS THAT DATE IS MEANINGLESS WITHOUT EACH
+  ONE'S BASIS.** *On this file's own identity `P_cum = 1.25 × P_ex − 1,000`, the cum/ex adjustment at these
+  levels is worth **~21%** — larger than most genuine target-price disagreements, so a cum-vs-ex pair will
+  read as a violent disagreement when the analysts may barely differ. **The ₫37,230-vs-₫28,000 spread is
+  33.0%; I do not know either report's basis and am therefore attributing NONE of it.***
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — `confidence` is §4 human-only, and the evidence
+  here concerns a third-party issuer, not TCB's disclosed results. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO KILL CRITERION DECLARED FIRED — see the paragraph above; the call is escalated, not made. Trigger 4
+  does NOT fire: a third-party issuer's default history is not a held name's disclosed evidence status, the
+  same ruling applied to deposit rates (16-Aug), market prices (20:54) and the bond schedule (21:54). Trigger 4
+  REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3, CORE circumvention preliminary
+  24-Aug = session 4. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **ADDED TO THE §4 QUEUE: does TCB's "Masterise bond event" criterion cover a Bitexco-era issuer whose
+  project Masterise now owns, on defaults that pre-date the acquisition? The file cannot answer it from the
+  criterion's text, and the answer decides whether an armed criterion is live tonight.**
+  [Doanh nhân & Pháp luật — Saigon Glory bị phạt do vi phạm công bố thông tin trái phiếu](https://doanhnhan.baophapluat.vn/saigon-glory-chu-dau-tu-du-an-tu-giac-ben-thanh-bi-phat-do-vi-pham-cong-bo-thong-tin-trai-phieu.html) · [Vietstock — Saigon Glory lại chậm thanh toán trái phiếu (12-2025)](https://vietstock.vn/2025/12/saigon-glory-lai-cham-thanh-toan-trai-phieu-3118-1381194.htm) · [TBTCTT — thêm một lô trái phiếu nghìn tỷ đáo hạn nhưng chưa thu xếp được tiền trả](https://thitruongtaichinhtiente.vn/them-mot-lo-trai-phieu-nghin-ty-cua-saigon-glory-dao-han-nhung-chua-thu-xep-duoc-tien-tra-47994.html) · [VietnamFinance — báo lãi 1.500 tỷ, vẫn lỗ lũy kế gần 18.000 tỷ và chưa trả được nợ trái phiếu](https://vietnamfinance.vn/bao-lai-1500-ty-saigon-glory-van-lo-sau-gan-18000-ty-va-chua-tra-duoc-no-trai-phieu-d142761.html) · [Vietstock — đổi chủ mới, lội ngược dòng từ lỗ gần 16 ngàn tỷ thành lãi 1.5 ngàn tỷ (4-2026)](https://vietstock.vn/2026/04/doi-chu-moi-saigon-glory-loi-nguoc-dong-tu-lo-gan-16-ngan-ty-thanh-lai-15-ngan-ty-737-1423916.htm) · [TNCK — định giá tài sản bảo đảm cho các trái phiếu Saigon Glory giảm mạnh](https://www.tinnhanhchungkhoan.vn/do-dang-10000-ty-dong-trai-phieu-sai-gon-glory-post333243.html) · [Vietstock — MBB khuyến nghị MUA, giá mục tiêu 37,230](https://finance.vietstock.vn/bao-cao-phan-tich/19031/mbb-khuyen-nghi-mua-voi-gia-muc-tieu-37230-dongco-phieu.htm) · [Vietstock — HPG khuyến nghị TĂNG TỶ TRỌNG, giá mục tiêu 36,200](https://finance.vietstock.vn/bao-cao-phan-tich/18957/hpg-khuyen-nghi-tang-ty-trong-voi-gia-muc-tieu-36200-dongco-phieu.htm)
 
 - **🚨🚨🚨 22:54 ICT TUE 18-AUG · THE ERROR THIS HOUR IS MINE AND IT IS IN MY OWN WORKING STATE: I HAVE
   BEEN CARRYING THREE TCX FACTS THAT THIS FILE WITHDREW ON 02-AUG, INCLUDING A KILL-CRITERION TRIGGER PRICE
