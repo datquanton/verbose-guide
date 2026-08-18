@@ -122,6 +122,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯⚠⚠ 19:54 ICT TUE 18-AUG · KDH's NON-GLADIA REVENUE IS AT A FOUR-YEAR LOW WITH A 32.6% RETURN
+  RATE — AND ITS "SYNTHETIC EARNINGS" CRITERION MAY NOT BE TRIGGERABLE BY THE GAIN THAT ACTUALLY AROSE
+  (lanes 3, 6). Short entry; most of what came back was already held in depth.**
+  ⚠ **THE HONEST OPENING: I WENT LOOKING FOR AN NLG-vs-KDH COMPARISON AND THE FILE HAS IT IN FULL — lines
+  6038–6101 carry NLG's gross margin 30.8% → 36.4%, presales ~₫5,080bn (1.5×), advances ~₫2,900bn against
+  KDH's ₫398.9bn, inventory ~₫8,600bn and operating cash flow ~−₫1,100bn.** ***Second time today I nearly
+  re-reported a comparison the file had already made*** *(after the VCI insider window at 12:54). **Neither
+  topic has a gate row — the gate table covers what has been SEARCHED, not what has been CONCLUDED.***
+  ✅ **WHAT IS GENUINELY NEW, ZERO PRIOR HITS: KDH's Q2 REVENUE DECOMPOSITION.** **Gross sales revenue
+  ₫239bn, less ~₫78bn of RETURNED GOODS, giving NET revenue of only ~₫160bn — the LOWEST IN FOUR YEARS.
+  Property-transfer revenue, its primary line, ~₫144bn — DOWN 86% YoY and the lowest since Q2/2022.**
+  🚨 **THE RETURN RATE IS 78 ÷ 239 = 32.6% OF GROSS REVENUE.** ⚠⚠ *For a developer, "hàng bán bị trả lại"
+  is contract cancellation or handover reversal, not shop returns.* ***A 32.6% cancellation rate is alarming
+  in ratio and small in absolute terms — on a ₫239bn base it could be one or two units, so the RATIO is not
+  evidence of a systemic problem and the LEVEL is not evidence of an immaterial one.*** **Both stated; neither
+  resolved.**
+  🎯 **AND IT LETS ME MAKE THE READ-ACROSS I EXPLICITLY DECLINED TWO HOURS AGO FOR LACK OF DATA.** At
+  17:54 I wrote *"Gladia is not evidence about Clarita or Emeria"* and left it there. ***Now: HCMC absorption
+  32%, KDH's non-Gladia transfer revenue −86% to a four-year low, and a 32.6% return rate. Gladia's
+  launch-day >90% is the exception; the rest of the business is at multi-year lows.*** **The two readings are
+  consistent, not contradictory — one project sold out and the delivery book emptied.**
+  🚨🚨 **THE SHARPER POINT, AND IT IS ABOUT THE CRITERION RATHER THAN THE COMPANY. KDH's armed test
+  reads: *"a second consecutive quarter where BARGAIN-PURCHASE or REVALUATION gains exceed operating PBT."***
+  **Q1 fits: a ₫285bn bargain-purchase gain against core PBT ≈ ₫70bn. Q2's ~₫750bn profit came from a
+  CAPITAL TRANSACTION — a stake disposal.** ***A disposal gain is neither a bargain purchase nor a
+  revaluation. On the criterion's stated wording, Q2 may not count as the second quarter at all.***
+  ⚠ **THAT IS EITHER A GAP IN THE CRITERION OR THE REASON IT DOES NOT FIRE, AND WHICH ONE IS A §4 HUMAN
+  JUDGEMENT.** *A test written for two named gain types is silent on a third that produces the same
+  earnings-quality problem.* **NOT CALLED. The file's own line 49 still asks whether the Q2 gain is the Bình
+  Trưng Mới transaction at all — that question is open and it precedes this one.**
+  🎯 **A THIRD GAIN TYPE IS ALSO A METHOD POINT: the file catalogues measure substitutions between
+  QUANTITIES. This is a substitution between CATEGORIES — an event that satisfies a criterion's SPIRIT while
+  falling outside its ENUMERATION.** *Recorded as a distinct species: **criteria that enumerate rather than
+  define.***
+  **PORTFOLIO IMPACT:** KDH's operating business is measurably weaker than the headline profit implies, and
+  its earnings-quality criterion may be unable to register the very transaction that makes the point.
+  **Nothing modelled; no §4 field touched; KDH confidence unchanged at 0.55.**
+  🚨 **NO KILL CRITERION IS CALLED. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — FRI 21-AUG = SESSION 3 (FTSE GEIS LIST, KDH's INSIDER WINDOW
+  CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 4.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: baomoi 55753120 / Tạp chí Điện tử & Ứng dụng (**KDH Q2 gross revenue ₫239bn, ~₫78bn returns, net
+  ~₫160bn — lowest in four years; transfer revenue ~₫144bn, −86% YoY, lowest since Q2/2022**);
+  vietstock.vn 1474200 + mekongasean.vn 57951 (the ~₫750bn record profit from a divestment); vietstock.vn
+  1475442 + stockbiz.vn 41244151 (NLG H1 presales ₫5,079bn, advances >₫2,900bn, H1 PAT ₫176bn — **already on
+  file at lines 6038–6101**); this file's line 49 (the open Bình Trưng Mới question) and `DECISION-BRIEF.md`
+  line 100 (KDH synthetic-earnings criterion).
+
 - **🚨🚨🎯 18:54 ICT TUE 18-AUG · A NAMED HOLE CLOSES ON DATA ALREADY SUPPLIED — AND THE
   QUOTA PRIVILEGE INVERTS ON THE PILOT'S OWN CRITERION. PLUS A LIKE-FOR-LIKE MARGIN-GROWTH CROSS-SECTION THAT
   RANKS THE THREE BROKERS OPPOSITE TO THE ENGINE, FOR THE SECOND TIME ON A SECOND METRIC (lanes 1, 3, 4).**
