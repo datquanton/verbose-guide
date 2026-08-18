@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯⚠ 09:54 ICT TUE 18-AUG · A DATED PRE-EX PRICE SETTLES YESTERDAY'S THREE-WAY MBB PUZZLE — AND
+  SHOWS THE FILE'S OWN ₫19,920 IS ONE POINT IN A BAND, NOT THE ANSWER. THE RIGHTS ARE WORTH ~₫960–1,030,
+  NOT THE ₫1,400 RETAIL GUIDANCE IMPLIES (lanes 3, 4). Rights day one; market open an hour.**
+  ✅ **NEW AND DATED, ZERO PRIOR HITS: MBB traded around ₫24,350 on the MORNING OF 04-AUG, on liquidity of
+  >20.6m shares/day, and was +0.09% year-to-date at that point.**
+  🎯 **THIS IDENTIFIES YESTERDAY'S REFUSED FIGURE. At 05:54 a retail-guidance piece gave "around ₫24,000"
+  and I declined it as undated and round.** ***It is now placeable: ₫24,000 is a PRE-EX price.*** **It sits
+  between the dated 04-Aug ₫24,350 and the file's 07-Aug ₫23,900 — and nowhere near any post-ex level.**
+  ✅ ***So the article was not evidence that MBB rallied 20% after going ex. It was evidence the article was
+  written before 11-Aug.*** **Refusing it was right; placing it is better than refusing it.**
+  🚨 **AND THE ARTICLE'S HEADLINE CLAIM IS WRONG BY A LARGE MARGIN, WHICH MATTERS ON THE DAY THE RIGHTS
+  START TRADING.** It says the ₫10,000 subscription price is *"~60% below the market price of around
+  ₫24,000."* ***That compares a subscription price to a CUM price.*** **Against the theoretical EX price the
+  discount is about 49–51%, not 60%.**
+  🎯 **THE RIGHTS' VALUE, WHICH IS THE NUMBER A HOLDER ACTUALLY NEEDS TODAY.** On the file's identity
+  **`right = 0.1 × (P_ex − 10,000)`**:
+  | P_cum used | date | ⇒ P_ex | ⇒ value per right |
+  |---|---|---|---|
+  | ₫24,350 | 04-Aug *(new)* | ₫20,280 | **₫1,028** |
+  | ₫23,900 | 07-Aug *(on file)* | **₫19,920** | **₫992** |
+  | ₫23,460 | 10-Aug, *extrapolated at the observed −1.85%/3 sessions* | ₫19,568 | ₫957 |
+  ***So roughly ₫960–1,030 — against the ₫1,400 that the article's ₫24,000 would imply if that figure were an
+  ex price. The retail number overstates the right by 36–46%.***
+  ⚠⚠ **AND AN HONEST QUALIFICATION OF A NUMBER I HAVE QUOTED ALL WEEK. The file's ₫19,920 is derived from a
+  07-AUG price — line 3087 records it came from "the 07-Aug price-gap audit."** ***The last cum session was
+  MONDAY 10-AUG and its close is NOT ON FILE AT ALL.*** **So ₫19,920 is the identity applied to a price three
+  sessions before the ex-date, not the ex-price. It is one point in a band of roughly ₫19,570–20,280,
+  and I have been calling it "the worked post-ex price" without that qualification.**
+  ✅ **THE IDENTITY ITSELF IS UNDISTURBED and its balance still closes: `1.15 × 19,920 + 992 = 23,900` ✓.**
+  *What is corrected is the INPUT's vintage, not the arithmetic — the same distinction drawn on MBB's
+  valuation block yesterday, where the maths was right and the date was old.*
+  ⚠ **ONE OBSERVATION WORTH A LINE ON ITS OWN: MBB was +0.09% YEAR-TO-DATE at 04-Aug — flat on the year —
+  against Q2 pre-tax profit +40%, H1 net profit +26.51%, and the highest modelled expected return in the book
+  (+36.6% raw).** ***A name whose earnings grew 40% and whose price did not is either the opportunity the
+  model says it is or a market that disagrees with the model; the file records the divergence and does not
+  resolve it.***
+  ⚠ **NOTHING EDITED. `price` is §4 HUMAN-ONLY, and none of ₫24,350, ₫20,280 or the band above is written to
+  the model.** *The escalation from 05:54 stands unchanged: the MBB block is struck pre-ex, and the mechanical
+  re-strike at 07-Sep moves `pe_ttm` 5.76 → 6.021 and raw E[r] +36.6% → +30.7%, which fires no trigger and
+  changes no ranking.*
+  **PORTFOLIO IMPACT:** a refused figure becomes a placed one, a widely-quoted retail discount is shown to be
+  overstated by ~10pp, and the file's own ex-price is downgraded from a point to a band.
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE
+  TODAY (transfer to 26-Aug, payment to 07-Sep); FRI 21-AUG = SESSION 4 (FTSE GEIS LIST, KDH's WINDOW CLOSES,
+  FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED;
+  triggers 1 and 3 negative.
+  ✅ **PUBLIC RESEARCH LIBRARY REBUILT THIS HOUR (`public/index.html`).** *Stale since 26-Jul while the log ran
+  on ~30 sweeps ahead of it. Now carries: the two fired triggers, the §4 human-only queue, the eight-name
+  expected-return table, **the seventeen dated kill criteria**, the catalyst calendar to Jan-2027, the
+  measure-substitution catalogue, an indexed library of every artefact, and a plain statement of what the
+  automation deliberately cannot do.* **Maintaining it is now part of the routine.**
+  Sources: simplize.vn/co-phieu/MBB (MBB ₫24,350 morning 04-Aug, >20.6m shares/day, +0.09% YTD);
+  vietstock.vn 1476203 + psi.vn (805.5m shares at ₫10,000, ₫8,055bn, transfer 18–26 Aug, no minimum
+  subscription); this file's line 3087 (the ₫23,900 provenance — the 07-Aug price-gap audit) and its
+  simultaneous ex-price identity.
+
 - **🚨🚨🚨 08:54 ICT TUE 18-AUG · I RAN THE CHECK I LOGGED AN HOUR AGO AND THE STORED TRIGGER
   PRICE IS WRONG BY 20%. TCX's TRUE P/B KILL LEVEL IS ₫39,616, NOT ₫33,010 — AND THE 52-WEEK LOW SITS ONLY
   6.3% ABOVE IT (lanes 3, 5). Six minutes to the open.**
