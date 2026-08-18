@@ -126,6 +126,87 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯🎯 00:54 ICT WED 19-AUG · THIS FILE HAS NEVER HELD VPBANKS'S EQUITY AND HAS BEEN INFERRING IT TO
+  SIZE A BULL CASE. THE REPORTED FIGURE IS 11.2% BELOW THE INFERENCE — AND THE ROUTE THAT USED IT LANDED ON
+  THE RIGHT CAP TO ONE-TENTH OF A PERCENT WITH BOTH INPUTS WRONG BY ~11% IN OPPOSITE DIRECTIONS (lane 3).**
+
+  🎯 **NEW, ZERO PRIOR HITS ON ALL THREE (`32,000`, `89,000`, `7,013`):** VPBankS at end-Q2/2026 — **equity
+  ≈₫32,000bn, total assets ≈₫89,000bn, ROE 14%**, H1 operating revenue **₫7,013bn** (≈4× YoY), Q2 **NPAT
+  ₫1,733bn** on the ₫2,159bn PBT already held. *The file carried `h1_pbt` 2,673, `q2_pbt` 2,159, the ₫38,000bn
+  margin book and the ₫18,000bn bond book — **and no equity, no assets and no ROE at all.***
+  ⚠ **TIER STATED BEFORE USE, AND IT DECIDES A TRIGGER: these are PRESS figures and two are explicitly
+  approximate (*"xấp xỉ 32,000 tỷ"*, *"gần 89,000 tỷ"*). THAT IS NOT A FILED ACTUAL.** *The TCX precedent of
+  02-Aug fired **escalation trigger 4** on the ground *"an estimate becomes a filed actual"* — but that was
+  equity of **45,782**, exact, off the statements. **A rounded press number does not meet that bar, so trigger
+  4 does NOT fire on this ground.** Recorded as approximate, flagged as approximate, not promoted.*
+
+  🎯🎯 **THE FINDING THAT MATTERS — A ROUTE THAT WAS RIGHT FOR COMPENSATING WRONG REASONS.**
+  `valuation.VPX._npat_ttm_FLAG` derives equity by inference, verbatim: ***"38,177 drawn + >33,000 room ⇒
+  ceiling ≥71,177 ⇒ equity ≥35,588"***, then multiplies by an **assumed P/B of 1.40** to reach a cap of
+  **₫49,826bn**.
+  | | inferred / assumed | actual | error |
+  |---|---|---|---|
+  | equity | **≥35,588** | **~32,000** | **+11.2% too HIGH** |
+  | P/B | **1.40** | **49,875 ÷ 32,000 = 1.559×** | **−10.2% too LOW** |
+  | **⇒ market cap** | **49,826** | **1,875,000,000 × ₫26,600 = 49,875** | **0.098%** |
+  ✅ **1.112 × 0.898 = 0.9986.** ***The two errors cancel to fourteen parts in ten thousand.*** **This file's
+  calibration rule says right-for-the-wrong-reason is recorded as a FAILURE, and it is scored as one** — the
+  cap looked like confirmation of the route and was nothing of the kind.
+
+  🚨 **AND THE CONSEQUENCE SPLITS IN TWO, WITH ONLY ONE HALF SURVIVING — WHICH IS THE WHOLE POINT.**
+  - ✅ **The `npat_ttm` output SURVIVES.** That route's `npat_ttm` is just **cap ÷ `pe_ttm`**, so it inherits
+    the cap's accuracy and is untouched by the input errors: **₫3,577 against the file's ₫3,580.8, 0.1%.**
+  - 🚨 **The MARGIN HEADROOM DOES NOT, because nothing cancels it — it rests on equity ALONE.** Circular
+    121/2020 caps margin at **200% of equity**: **2 × 32,000 = ₫64,000bn**, less **₫38,177bn** drawn =
+    **₫25,823bn of headroom, NOT ">₫33,000bn" — 21.8% SMALLER.** **Utilisation is 59.7% of the regulatory
+    cap, not the 53.6% the file's own numbers imply.**
+  ⚠⚠ **THAT IS NOT A FOOTNOTE: `valuation.VPX.evidence` CALLS THAT HEADROOM *"the real bull case, better than
+  the CAEX option."* A stated bull case on a held name is oversized by more than a fifth.** ***The evidence
+  string is NOT edited here — charter §5 forbids the quiet retune, and restating a live evidence string was
+  itself the largest single error of 02-Aug on TCX. Escalated to a human.***
+  ✅ **THE GENERAL LESSON, WHICH IS WORTH MORE THAN EITHER HALF: one wrong input fed two conclusions, and
+  whether each survives depends entirely on what happens downstream — cancellation rescued the first and there
+  was nothing to rescue the second.** *An input error is not uniformly fatal or uniformly harmless. It has to
+  be traced conclusion by conclusion, and "the route checked out" is not a finding about the route.*
+
+  ⚠⚠ **AN EQUITY MOVEMENT I AM RECORDING AND DELIBERATELY NOT EXPLAINING.** The file's **end-Q1 equity was
+  ₫34,200bn** (approximate, and flagged as such when written). End-Q2 is **~₫32,000bn**. ***Equity FELL
+  ~₫2,200bn in a quarter in which the company earned ₫1,733bn — an implied outflow of roughly ₫3,900bn.***
+  *A distribution, a buyback, an OCI revaluation, or one of the two approximate figures simply being loose —
+  **I am not choosing.** ₫2,200bn is too large to be rounding and too unexplained to assert.* **Resolve from
+  the Q2 filing.**
+
+  🚨 **THE ROE IS A TRAP AND I AM NAMING IT BEFORE IT CATCHES A LATER SWEEP.** ROE **14%** on ~₫32,000bn
+  implies profit of **~₫4,480bn**, which sits *temptingly* between the file's `npat_ttm` **3,580.8** and the
+  standing §4 escalation's **≈5,039**. ***It is an ANNUALISATION, not a TTM.*** **The reconciliation identifies
+  the measure:** H1 NPAT derives as H1 PBT **2,673 × the Q2 tax retention (1,733 ÷ 2,159 = 80.27%) = ₫2,146bn**;
+  doubled, **₫4,292bn ÷ 32,000 = 13.4%** against a reported 14%. **TTM is H2/2025 + H1/2026 — a DIFFERENT
+  WINDOW.** *So `npat_ttm` REMAINS UNRESOLVED and **neither 3,580.8 nor ≈5,039 is refuted.*** ⚠ *The constant
+  effective tax rate across both quarters is an assumption, and it is flagged rather than buried.* **This is
+  the measure-substitution family's WINDOW member, and the number was one step from being adopted as the
+  answer to a §4 escalation that has been open for three weeks.**
+
+  ✅ **ONE CHECK THE FILE ALREADY PASSES: H1 PBT ₫2,673bn against `fy_plan_pbt` ₫6,453bn = 41.4%, matching the
+  source's *"khoảng 41% kế hoạch"* exactly.** *Confirms the plan figure and the half's arithmetic in one line,
+  at no search cost.*
+
+  **`assumptions.json` UPDATED — `vpx.actuals` only: `q2_npat_bn`, `h1_operating_revenue_bn`,
+  `equity_q2_2026_bn_approx`, `total_assets_q2_2026_bn_approx`, `roe_reported`, and the reasoning key. NO FIELD
+  FEEDING `run.py` OR `decide.py` IS TOUCHED — `price`, `pe_ttm`, `npat_ttm`, `cash_yield`, `confidence`,
+  `fy26e_npat`, `exit_pe` and `probs` are ALL UNCHANGED, and `DECISION-BRIEF.md` is byte-identical
+  (`db994d19`), which is the check that proves it. NO CONFIDENCE MOVED — no model input changed, and
+  `confidence` is §4 human-only in any case.**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 explicitly considered on the equity figure and does NOT fire on the
+  TCX precedent's ground — a rounded press number is not a filed actual. Trigger 3 negative: `npat_ttm` is
+  unresolved, not moved, and no E[r] changes. Trigger 4 REMAINS FIRED on VPX for the pre-existing `npat_ttm`
+  defect. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3 (FTSE GEIS list, KDH insider window closes,
+  Forecast #7 resolves); CORE circumvention preliminary 24-Aug = session 4. Trigger 2 STANDING-BREACHED.
+  Trigger 1 negative.**
+  ⚠ **§4 QUEUE, ADDED: `valuation.VPX.evidence` overstates the margin headroom by 21.8% (₫25,823bn, not
+  ">₫33,000bn") and calls it "the real bull case". The correction is a one-line edit to a live evidence string
+  and is therefore human-only.**
+  [Tuổi Trẻ — VPBankS báo lãi quý 2 gấp 4 lần cùng kỳ, vượt TCBS](https://tuoitre.vn/vpbanks-bao-lai-quy-2-gap-4-lan-cung-ky-vuot-tcbs-100260717170520303.htm) · [Doanh nhân & Pháp luật — VPX lãi quý II gấp 4 lần, dư nợ margin vượt 38.000 tỷ](https://doanhnhan.baophapluat.vn/vpbanks-vpx-lai-quy-ii-gap-4-lan-cung-ky-du-no-margin-vuot-38-000-ty-dong.html) · [VietnamBiz — VPBankS báo lãi kỷ lục gần 2.200 tỷ, vượt mặt TCBS](https://vietnambiz.vn/vpbanks-bao-lai-ky-luc-gan-2200-ty-dong-vuot-mat-tcbs-2026717161513100.htm) · [DNKTX — VPBankS lãi hơn 2.100 tỷ trong quý II/2026, 6 tháng gấp 3 lần](https://doanhnghiepkinhtexanh.vn/vpbanks-lai-hon-2100-ty-dong-trong-quy-ii2026-a51189.html) · [Báo Đầu tư — VPBankS báo lãi gần 4.500 tỷ đồng](https://baodautu.vn/vpbanks-bao-lai-gan-4500-ty-dong-d495130.html)
+
 - **🚨🚨 23:54 ICT TUE 18-AUG · THE PAST-DUE SAIGON GLORY LOTS ARE NOT "LATE" — THEY PAID 0.47% OF A FULL
   YEAR'S SCHEDULED PRINCIPAL AND WERE FINED FOR NOT DISCLOSING IT. And the reconciliation that works is the
   one that REMOVES the good news (lanes 3, 5). BACKFILL, labelled as such.**
