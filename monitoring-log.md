@@ -122,6 +122,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 16:54 ICT TUE 18-AUG · MY 09:54 PRE-REGISTERED TEST MAY BE UNFALSIFIABLE BY
+  CONSTRUCTION — I ASSUMED THE WRONG TRADING MECHANISM. AND THE FACT THAT REVEALS IT ALSO MAKES MY VALUATION
+  AN UPPER BOUND (lane 3). Two hours after the close.**
+  🚨 **THE CLAIM, VERBATIM FROM 09:54: *"the rights trade from TODAY, so the market is about to price this
+  directly and a real number will exist by tonight."*** ***Two hours after the close and two sweeps later,
+  no price has published.*** **I logged that at 14:54 and again at 15:54 as UNOBSERVABLE. It is now clear it
+  may not be observable at all, and the reason is a fact I did not have.**
+  ✅ **NEW, ZERO PRIOR HITS: the MBB rights carry ISIN `VNMIRMBB2615`, effective 18-Aug — and the right may be
+  TRANSFERRED ONLY ONCE.** *(`VNMIRMBB` 0 hits; "chuyển nhượng một lần" / "transferred once" 0 hits. The file
+  held "transferable 18–26 Aug" and never the restriction.)*
+  🎯 **WHY A ONE-TRANSFER RULE CHANGES THE VALUATION AND NOT MERELY THE PLUMBING.** **A freely tradable
+  right can pass through intermediaries, market-makers and inventory before reaching an exerciser. A right
+  transferable ONCE must go from the original holder DIRECTLY to a FINAL EXERCISER** — someone willing to
+  subscribe and pay ₫10,000 by 07-Sep. ***That collapses the buyer pool to end-subscribers and removes the
+  arbitrage and inventory layer entirely.***
+  🚨 ***So the file's ₫960–1,030 — computed as `0.1 × (P_ex − 10,000)` — is an UPPER BOUND, not a point
+  estimate. A right that changes hands should clear BELOW theoretical value, and the one-transfer rule is the
+  reason.*** **The arithmetic was never wrong; the instrument was not what I priced.**
+  🚨🚨 **AND IT EXPLAINS THE MISSING PRICE, WHICH IS THE HARDER LESSON. A once-transferable right
+  registered through VSD is a NEGOTIATED TRANSFER, not an order-book instrument.** ***There may be no
+  published closing price at all — not "not yet," but not in principle.*** **I pre-registered a test whose
+  observability depended on a trading mechanism I assumed rather than checked.**
+  🎯 **A NEW MEMBER FOR THE METHOD CATALOGUE, AND IT IS NOT A MEASURE SUBSTITUTION — IT IS A LAYER
+  BENEATH ONE: *pre-registering a test against an instrument whose MECHANISM was assumed.*** **The file's
+  standing rule is that an unobservable is not a miss.** ***It should also say: notice when your forecast was
+  UNFALSIFIABLE BY CONSTRUCTION, because that is a defect in the forecast, not in the world.*** *Same species
+  as 08:54's stored TCX trigger, which was arithmetically fine and computed on the wrong share count — a
+  correct calculation over a wrong object.*
+  ✅ **WHAT THE PRE-REGISTRATION NONETHELESS BOUGHT, WHICH IS THE ARGUMENT FOR KEEPING THE PRACTICE.** *The
+  ₫992 / ₫960–1,030 was written down before the event with its formula attached.* ***Because it was explicit,
+  it can now be RECLASSIFIED as a bound rather than silently abandoned — and the mechanism error surfaced only
+  because a stated expectation failed to be met.*** **An unwritten expectation fails invisibly.**
+  ⚠ **WHAT IS STILL NOT ESTABLISHED, STATED PLAINLY: whether Vietnamese rights of this class produce ANY
+  published transfer price.** *Some do; the VSD registration route and the single-transfer rule both point
+  away from it. **I am not asserting that no price will appear — only that I no longer expect one on the
+  basis I previously gave.*** *The next observable is the SUBSCRIPTION OUTCOME after 07-Sep, which is a
+  filing, not a quote.*
+  ✅ **ALSO RE-CONFIRMED, ALREADY HELD:** 805.5m shares at ₫10,000 ≈ ₫8,055bn; ratio 10:1; transfer window
+  18–26 Aug; registration and payment 18-Aug–07-Sep; **no minimum subscription quantity** *(logged 05:54)*.
+  **PORTFOLIO IMPACT:** the file's rights valuation is downgraded from an estimate to an upper bound, and a
+  pre-registered test is reclassified rather than left hanging. **Nothing modelled: the 05:54 escalation is
+  unchanged — MBB's block is struck pre-ex and the mechanical re-strike at 07-Sep moves `pe_ttm` 5.76 → 6.021
+  and raw E[r] +36.6% → +30.7%, firing no trigger and changing no ranking. §4 untouched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — FRI 21-AUG = SESSION 3 (FTSE GEIS LIST, KDH's INSIDER WINDOW
+  CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 4.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: acbs.com.vn (MBB rights execution notice — **ISIN VNMIRMBB2615, effective 18-Aug, transferable
+  ONCE**, no minimum registration); tapchikinhtetaichinh.vn 164789 + psi.vn + vietstock.vn 1476203 (805.5m
+  shares at ₫10,000, 10:1, transfer 18–26 Aug, payment to 07-Sep); this file's own 09:54 entry (the
+  pre-registered claim and the ₫960–1,030 band) and 05:54 entry (the pre-ex block escalation).
+
 - **🎯🎯⚠⚠ 15:54 ICT TUE 18-AUG · THE REAL 18-AUG CLOSE ARRIVES AND VINDICATES LAST HOUR'S REFUSAL —
   THE INDEX ROSE 4.5 POINTS, IT DID NOT FALL 1.62. AND THE FOREIGN SELLING ROTATED INTO THIS BOOK'S OWN
   SECTORS (lane 4). An hour after the close.**
