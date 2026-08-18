@@ -43,6 +43,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **SAIGON GLORY / MASTERISE BOND MATURITIES — SETTLED, AND A FALSE DATE KEEPS RETURNING** *(added 18-Aug 21:54)* | ✅ **RESOLVED AND SOURCED: agreement 5-FEB-2024 extended ALL TEN LOTS SGL-2020.01–.10, ₫10,000bn (= ₫1,000bn/lot, cross-checked twice against figures already on file), by 1–2 years.** **.01–.03 → Jun-2025 · .04–.05 → Jul-2025 (both PAST DUE) · .06–.10 → NOVEMBER 2026 (+15 months).** **₫997bn of .06–.10 was REPURCHASED EARLY on 26–27 FEB 2026 = 19.94%, leaving ≈₫4,003bn net.** Also on file: the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on SGL-2020.02. 🚨 **THE TRAP: "28-AUG" HAS NOW BEEN OFFERED IN TWO DIFFERENT YEARS AND BOTH ARE FALSE** — 28-Aug-2025 (the original maturity, no extension applied) and 28-Aug-2026 (a 12-month default applied instead of the stated 15). ***Any source giving an AUGUST maturity has applied the adjustment's direction without its magnitude. Do not treat it as a correction; the answer is NOVEMBER 2026*** | **an ISSUER OR HNX FILING dated after Feb-2026** — a further buyback, a new extension, or a payment failure. **NOT another general search, and NEVER an August date from a summariser** |
 | **SAIGON GLORY .01–.05 — THE PAST-DUE BLOCK, NOW MEASURED** *(added 18-Aug 23:54)* | ✅ **2025 scheduled principal ~₫300bn/lot × 5 = ₫1,500bn; ACTUALLY PAID < ₫7bn = 0.47%; outstanding ₫1,496bn — and 1,500 − 7 = 1,493 reconciles to 0.20%.** ⚠ **TWO READINGS of the ₫1,496bn are on file with the arithmetic that discriminates (total-remaining vs unpaid-2025-instalment, ₫2,500bn apart); the reconciliation selects the WORSE one and it is NOT collapsed to.** **FINED for failing to disclose payment information on .02 and .03 (matured June 2025)** — a governance fact, distinct from the 14-Nov-2025 missed ₫3.5bn interest on .02. **.05 originally matured 10-Jul-2023; .01–.03 June-2023 — extensions of +24/+24/+15 months, bracketing the agreement's stated "1–2 years" exactly.** Financials: swung from ~−₫16,000bn to +₫1,500bn under the new owner, **accumulated losses ~₫18,000bn**, still cannot pay. **Collateral appraisal reported down sharply — DIRECTIONAL AND UNDATED, deliberately not quantified** | **a 2026-dated payment, a further sanction, or a NUMBER on the collateral haircut** — not a re-run. ⚠ **The open question is NOT factual but definitional and sits in the §4 queue: does "a Masterise bond event" cover a Bitexco-era issuer's pre-acquisition defaults?** |
 | **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
+| **BANK FOREIGN-OWNERSHIP ROOM — INSTRUMENT, DATE, ELIGIBILITY AND THE LOCKS, ALL ON FILE** *(added 19-Aug 03:54)* | ✅ **DECREE 69/2025, EFFECTIVE 19-MAY-2025.** Eligibility: banks that took a **MANDATORY TRANSFER** of a weak institution, **excluding** banks >50% state-held — **which is why TCB is capped at 30% and MBB/VPB/HDB at 49%.** 🚨 **THE TRAP THIS ROW EXISTS TO STOP: sources publish STATUTORY headroom as INVESTABLE headroom.** They give MB **26.7pp**, VPB **24.7pp**, HDB **32.2pp**. **MBB's self-imposed lock is 23.23–23.24% and TCB's is 22.51%, so MBB's and TCB's actually-available room is ZERO** *(15-Aug: "the door is closed by the bank, not by the law"; TCB's lock is calibrated — (22.51+10)/110 = 29.55%, just under its 30% cap)*. **VPB alone has no reported lock, ~24pp of real room — and VPB alone is placing 624.3m shares with a foreign investor.** ⚠ A 0.93pp discrepancy on MBB's current level (source implies 22.3%, file holds 23.23%) is recorded unresolved; **the zero-headroom conclusion holds at either value** | **A BOARD OR AGM RESOLUTION MOVING A LOCK** — that, and only that, re-opens MBB or TCB. Ownership-level drift does not. ⚠ **"Sắp nới room ngoại" headlines are describing MAY-2025 and are not news** |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 | **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | **THE NEXT STEEL-LANE RETURN, AT NO DEDICATED SEARCH COST. If BOTH ₫15,120 and ₫14,440–15,150 repeat ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED, the series is live, and this row closes.** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
@@ -127,6 +128,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯🎯 03:54 ICT WED 19-AUG · A MAINSTREAM SOURCE PUBLISHES MBB'S FOREIGN HEADROOM AS 26.7pp. THIS FILE
+  ESTABLISHED FOUR DAYS AGO THAT THE INVESTABLE FIGURE IS **ZERO**. And the legal instrument behind the whole
+  49% ceiling — never once named in this file — is now on the record (lanes 7, 4).**
+
+  🎯 **FIRST: THE INSTRUMENT. `Nghị định 69`, `Decree 69` and `19-5-2025` ALL RETURNED ZERO HITS REPO-WIDE.**
+  **The 49% ceiling comes from DECREE 69/2025, EFFECTIVE 19-MAY-2025**, and its eligibility test is narrow:
+  **commercial banks that took a MANDATORY TRANSFER of a weak institution, EXCLUDING banks where the state
+  holds >50% of charter capital.** *The file has carried the 49%-vs-30% asymmetry for weeks and has never
+  carried the reason for it.* ✅ **THAT REASON NOW EXPLAINS THE TABLE THIS FILE ALREADY HAD: TCB's ceiling is
+  30% because TCB TOOK NO MANDATORY TRANSFER; MBB, VPB and HDB are at 49% because they did.** *A mechanism
+  behind a number the file was treating as a brute fact — and it is fifteen months old, so the many sources
+  still writing **"sắp nới room ngoại"** ("about to be raised") are describing something that happened last
+  year. **Same defect as the credit-quota pilot at 22:54, where everything returned was Công điện 128 of
+  6-Aug-2025.***
+
+  🚨🚨 **SECOND, AND IT IS THE PORTFOLIO POINT. TODAY'S SOURCE GIVES "POTENTIAL ADDITIONAL INVESTMENT
+  CAPACITY" AS MB 26.7pp · VPB 24.7pp · HDB 32.2pp. FOR MBB THAT NUMBER IS STATUTORY, NOT INVESTABLE.**
+  | bank | statutory ceiling | **self-imposed LOCK** *(on file 15-Aug)* | today's source says | **actually available** |
+  |---|---|---|---|---|
+  | **MBB** | **49%** | **23.23–23.24%** | **26.7pp** | **ZERO** |
+  | **VPB** | **49%** | **none reported** | **24.7pp** | **~24pp — the source is RIGHT here** |
+  | TCB | 30% | 22.51% | *not covered* | zero |
+  ⚠⚠⚠ ***The source computes 49% minus current ownership and stops. MBB has bolted its own door at 23.24%, so
+  a foreign buyer cannot take that 26.7pp without the board moving the lock first.*** **This is the file's
+  15-Aug finding — *"the door is closed by the bank, not by the law"* — meeting a live source that makes
+  precisely the error the finding was written to prevent, four days later.**
+  🚨 **WHY IT MATTERS FOR THE BOOK RATHER THAN AS TRIVIA: MBB IS THE BRIEF'S LARGEST PROPOSED ADD (+6.8pp,
+  E[r] +36.6% raw / +18.3% confidence-weighted), AND THE FTSE INCLUSION EFFECTIVE 21-SEP IS THE BOOK'S BIGGEST
+  DATED CATALYST.** ***Any leg of an MBB thesis that runs "foreign money arrives when Vietnam is reclassified"
+  is wrong for MBB specifically, because the constraint is not the statute and reclassification does not
+  touch it.*** *MBB is in any case OUT of the FTSE eligible roster on the file's own 23-name list — so the
+  two facts point the same way and this hour supplies the mechanism for one of them.*
+
+  ✅ **THIRD, A CAUSAL LINK THE FILE HAD THE PIECES FOR BUT NOT THE JOIN: VPB IS THE ONLY ONE OF THE THREE
+  WITHOUT A SELF-IMPOSED LOCK — AND VPB IS THE ONE PLACING 624.3m SHARES WITH A SINGLE FOREIGN INVESTOR.**
+  *The file holds the placement, holds "sở hữu ngoại có thể lên 34%", and holds "none reported" in VPB's lock
+  column. **The join is that the placement is executable precisely because VPB left the door open**, and it
+  would be unexecutable at MBB or TCB without a board resolution first.* ⚠ **NOT CLAIMED: that the lock's
+  absence CAUSED the placement rather than the two sharing a common cause in VPB's capital plan. The
+  observation is that the constraint binds on two of three names and not on the one actually doing the deal.**
+
+  ⚠ **A 0.93pp DISCREPANCY I AM RECORDING RATHER THAN RESOLVING.** The source's 26.7pp implies MBB foreign
+  ownership of **22.3%**; the file holds **23.23%** (28-Apr-2026 screen). *Ownership ratios drift daily and
+  neither figure is dated in a way that lets me rank them, so **both are recorded with their provenance and
+  neither is promoted.*** **The conclusion is robust to the gap: at 22.3% or 23.23%, MBB sits at or fractionally
+  under its own 23.24% lock, and the investable headroom is zero either way.** *That robustness check is what
+  makes the discrepancy safe to leave open.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 considered on MBB and does NOT fire — a 15-month-old decree and a
+  third party's arithmetic are not a change in MBB's disclosed evidence; what changed is the file's account of
+  WHY a ceiling is where it is. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug =
+  session 3 (FTSE GEIS list, KDH insider window closes, Forecast #7 resolves); CORE circumvention preliminary
+  24-Aug = session 4. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  [VnBusiness — room ngoại được nới lên 49%, nhà băng nào sẽ "nổ phát súng" đầu tiên](https://vnbusiness.vn/room-ngoai-duoc-noi-len-49-nha-bang-nao-se-no-phat-sung-dau-tien.html) · [Saigon Times — ngân hàng nhận chuyển giao bắt buộc được nâng room ngoại lên 49% từ ngày 19-5](https://thesaigontimes.vn/ngan-hang-nhan-chuyen-giao-bat-buoc-duoc-nang-room-ngoai-len-49-tu-ngay-19-5/) · [DNSE — trước thời điểm NĐ 69 có hiệu lực, ngân hàng nào có khả năng nới room cao nhất](https://www.dnse.com.vn/senses/tin-tuc/truoc-thoi-diem-nd-69-co-hieu-luc-ngan-hang-nao-co-kha-nang-noi-room-ngoai-cao-nhat-35048860) · [TheLEADER — cánh cửa room ngoại phân hóa các ngân hàng](https://theleader.vn/canh-cua-room-ngoai-phan-hoa-cac-ngan-hang-d41710.html) · [VCCI — sắp nới room ngoại lên 49%, những ngân hàng nào được hưởng lợi](https://vcci.com.vn/news/sap-noi-room-ngoai-len-49-nhung-ngan-hang-nao-se-duoc-huong-loi)
 
 - **🚨🎯🎯 02:54 ICT WED 19-AUG · HPG'S DOMESTIC STEEL PRICE IS BYTE-IDENTICAL TO 17 DAYS AGO — AND SO IS
   THE WHOLE MARKET RANGE AROUND IT. I AM CALLING THE SOURCE INTO QUESTION RATHER THAN THE PRICE, AND
