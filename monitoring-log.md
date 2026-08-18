@@ -122,6 +122,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🚨 14:54 ICT TUE 18-AUG · THE SUSPENSION I IMPOSED ONE HOUR AGO IS LIFTED — A SOURCE
+  THAT NAMES ITS MEASURE CONFIRMS THE SLIDE'S ROW IS CUSTOMER LOANS, NOT CREDIT. AND THE SESSION CLOSE CAME
+  BACK MISDATED (lanes 3, 4). Nine minutes after the close.**
+  🚨 **AT 13:54 I SUSPENDED THIS MORNING'S QUOTA ARITHMETIC because the supplied slide put TCB's YTD
+  credit growth at 15.2% against the file's 10.39%. I hypothesised the row was a LOAN measure and said so was
+  "a hypothesis, not a resolution."** ***It now has a source that names the measure.***
+  🎯 **THE CONFIRMATION, AND IT IS EXPLICIT RATHER THAN INFERRED.** A third independent route gives MBB's
+  figure as **"dư nợ cho vay khách hàng… tăng 13.2%"** — ***customer LOAN balances, named as such.***
+  **The slide's row — headed *tăng trưởng tín dụng* (CREDIT growth) — carries 13.2% for MBB.**
+  ***So a row labelled "credit" is reporting a customer-LOAN number. That is no longer a match hypothesis; it
+  is a labelled measure reproducing the row.***
+  ✅ **AND IT MAKES TCB's TWO FIGURES CONSISTENT RATHER THAN CONTRADICTORY.** **Slide (loans) 15.2% · file's
+  own model loan growth (28-Jul) 14.46% — same measure, 0.74pp apart, entirely ordinary as a period or basis
+  difference.** **TCB's DISCLOSED CREDIT growth of 10.39% measures a different quantity — loans PLUS corporate
+  bonds held — and is NOT contradicted by either.**
+  ✅ ***So the 04:54 quota arithmetic is REINSTATED: TCB used 10.39% of a 12% allowance in H1, 86.6% of the
+  year in six months.*** ⚠⚠ **With the caveat that never went away and is now the ONLY weak link: the 12%
+  itself is T5 and undated.** *The finding is exactly as strong as that input and no stronger — which is what
+  I said when I first used it.*
+  🎯 **A CORRECTION TO A CORRECTION, AND THE SEQUENCE IS THE LESSON.** *Original finding (04:54) →
+  suspended on an apparent conflict (13:54) → conflict dissolved by a source that names its measure (now).*
+  ***Suspending was right on the evidence available, and reinstating is right on the evidence now. What made
+  both cheap was that the 13:54 entry stated its resolution as a HYPOTHESIS and named exactly what would
+  settle it.***
+  🚨 **SEPARATELY — THE SESSION CLOSE CAME BACK MISDATED AND IS REFUSED.** A return attributes
+  **"VN-Index closed down 1.62 points (−0.09%) to 1,727.46"** to **18/08/2026.** ***Those are, to the đồng and
+  to two decimals, the figures this file recorded yesterday for MONDAY 17-AUG*** — with two arithmetic checks
+  against Friday's 1,729.08. **A close repeating exactly AND its change repeating exactly two sessions running
+  is not a coincidence; it is a relabelling.** ⚠ **No 18-Aug close is actually in hand.** *Nine minutes after
+  the 14:45 close is too early for Vietnamese session wraps — an ordinary timing limit, recorded rather than
+  papered over.*
+  🎯 **AND A SECOND ARTICLE DATES ITSELF BY ITS OWN CONTENT, WHICH IS WORTH KEEPING AS A TECHNIQUE.** One
+  route says *"within the VN30 basket, MBB, VPB and TPB continue to attract foreign net buying."* ***TPB WAS
+  REMOVED FROM VN30 ON 03-AUG*** (established at 13:54 from the HOSE review). **So that article predates
+  03-Aug regardless of when it surfaced.** *A constituent list is a dating instrument: naming a member that
+  has left bounds the text's age without any timestamp.*
+  ✅ **NEW BUT MINOR, ZERO-HIT: MBB total assets >₫1.73 quadrillion (+7.3% YTD), customer deposits ~₫964,000bn
+  (+4.6%), Q2 profit +40.6%.** ⚠ *The deposit figure has 2 prior hits; assets and the +40.6% are new. The
+  file already holds Q2 PBT +40% and NPAT-to-parent +40.01%, so +40.6% is a third rendering of the same
+  quarter, not a new fact.*
+  🎯 **ONE READ WORTH CARRYING: MBB's loans grew 13.2% while DEPOSITS grew only 4.6%.** ***A 8.6pp gap
+  between asset and funding growth is filled at the margin — which is where the file's interbank work bites,
+  and it is the same funding-gap mechanism flagged on 16-Aug.*** *Recorded as a mechanism; MBB's CASA and
+  cost of funds are on file and unchanged.*
+  **PORTFOLIO IMPACT:** a suspended finding on the largest position is restored on better evidence, and the
+  file's credit-versus-loans discipline is what did it. **Nothing modelled; no §4 field touched.**
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way
+  (−29.0pp / +25.0pp). TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADED TODAY; FRI 21-AUG = SESSION 3 FROM HERE
+  (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG =
+  SESSION 4.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  ⚠ *No MBB rights price found — the instrument's first session ended nine minutes ago and no quote has
+  published. UNOBSERVABLE, not absent; the file's expected value is ₫960–1,030 from 09:54.*
+  Sources: vietbao.vn 601568 + stockbiz.vn 41270779 (MBB Q2 — **"dư nợ cho vay khách hàng… +13.2%"**, total
+  assets >₫1.73 quadrillion +7.3%, deposits ~₫964,000bn +4.6%, profit +40.6%, 15% stock dividend record
+  12-Aug; **and the pre-03-Aug VN30 self-dating via TPB**); tapchikinhtetaichinh.vn 163707 + vietstock.vn
+  1481707 (18-Aug session commentary — the close figure REFUSED as a relabelled 17-Aug print); this file's
+  own 28-Jul credit-vs-loans work and `mbb.actuals.h1_customer_loans_growth_ytd` = 0.132.
+
 - **🚨🚨🚨 13:54 ICT TUE 18-AUG · A 14-BANK Q2/2026 CROSS-SECTION ARRIVES FROM THE HUMAN AND IT
   PUTS THIS MORNING'S TCB QUOTA FINDING IN SERIOUS DOUBT — CREDIT +15.2% YTD, NOT 10.39%. Also: VPX is on the
   VN30 RESERVE LIST and this file never recorded it (lanes 3, 6, 4).**
