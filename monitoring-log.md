@@ -122,6 +122,86 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 13:54 ICT TUE 18-AUG · A 14-BANK Q2/2026 CROSS-SECTION ARRIVES FROM THE HUMAN AND IT
+  PUTS THIS MORNING'S TCB QUOTA FINDING IN SERIOUS DOUBT — CREDIT +15.2% YTD, NOT 10.39%. Also: VPX is on the
+  VN30 RESERVE LIST and this file never recorded it (lanes 3, 6, 4).**
+  ⚠ **PROVENANCE FIRST: a sell-side slide supplied by the human, house not identified — a SECONDARY
+  compilation of filed Q2/2026 actuals, so T3.** *It is used because it is far better than the forecast
+  figures I was about to commit, and because it is internally consistent across fourteen banks and thirteen
+  metrics. **It is not a filing.***
+  🚨🚨 **THE FINDING THAT MATTERS MOST IS A CHALLENGE TO MY OWN 04:54 ENTRY.** **The slide puts TCB's
+  YTD credit growth at 15.2%.** ***This file holds 10.39% — from TCB's own Q2 release — and built a headline
+  on it: "TCB used 10.39% of a 12% quota, 86.6% of the full-year allowance in six months, leaving ~1.45% for
+  H2."*** 🚨 **At 15.2%, a 12% quota is ALREADY BREACHED, which the SBV does not permit — so at most one of
+  {the 12% quota, the 15.2%, the 10.39%} can stand as I used them.**
+  🎯 **THE LIKELY RESOLUTION IS THE MEASURE, AND THE FILE ALREADY OWNS IT.** *"Tín dụng" (credit) = customer
+  loans PLUS corporate bonds held; "cho vay" = loans alone.* **The file's own 28-Jul work recorded the model's
+  loan growth at +14.46% against a disclosed credit growth of 10.39% — and 15.2% sits far closer to the LOAN
+  measure than to the credit measure.** ***So the slide's row is probably not the quantity a credit quota is
+  measured against.*** ⚠⚠ **But that is a hypothesis, not a resolution — and until it is settled, THIS
+  MORNING'S QUOTA ARITHMETIC SHOULD NOT BE RELIED ON.** *The weakest link was always the 12% itself: T5,
+  undated, and I said so at the time. It is now weaker.*
+  🎯 **WHAT THE CROSS-SECTION ADDS THAT THE FILE HAS NEVER HAD — Q2/2026 ACTUALS, FOURTEEN BANKS.**
+  | | BID | CTG | VCB | **MBB** | **VPB** | **TCB** | ACB | STB | HDB | LPB | VIB | TPB | MSB | OCB |
+  |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  | **ROE** | 18.6 | 22.4 | 18.2 | **22.1** | **18.2** | **16.0** | 16.6 | 5.0 | **25.8** | 25.2 | 15.9 | 18.7 | 13.9 | 13.1 |
+  | **NIM** | 2.2 | 2.9 | 3.0 | **4.1** | **5.2** | **4.0** | 3.0 | 2.9 | 4.2 | 2.7 | 3.1 | 2.9 | 3.0 | 3.0 |
+  | **NIM − credit cost** | 1.2 | 1.9 | 2.9 | **2.7** | **2.3** | **3.7** | 2.5 | −0.3 | 2.6 | 1.9 | 1.8 | 2.0 | 2.1 | 1.3 |
+  | **NPL** | 1.8 | 1.0 | 0.6 | **1.4** | **3.6** | **1.1** | 1.0 | 6.9 | 2.6 | 1.8 | 2.9 | 1.8 | 2.7 | 4.3 |
+  | **Coverage** | 86.9 | 167.2 | 253.4 | **92.2** | **52.8** | **129.4** | 114.0 | 53.2 | 50.0 | 69.6 | 43.1 | 68.4 | 51.6 | 53.0 |
+  | **CAR (2025)** | 9.0 | 10.3 | 11.7 | **11.6** | **14.3** | **14.6** | 12.3 | 9.2 | 16.7 | 11.8 | 12.0 | 13.7 | 12.5 | 12.6 |
+  | **Credit YTD** | 5.5 | 5.0 | 5.0 | **13.2** | **23.1** | **15.2** | 8.6 | 1.5 | 20.1 | 9.6 | 4.0 | 10.5 | 11.4 | 11.0 |
+  | **PBT growth** | 19.8 | 21.8 | 57.9 | **40.7** | **76.3** | **22.4** | −11.9 | −44.5 | 50.5 | 5.3 | −8.2 | 16.7 | −0.6 | 24.7 |
+  ✅ **AND MBB's 13.2% MATCHES THE FILE EXACTLY** *(`mbb.actuals.h1_customer_loans_growth_ytd` = 0.132)* —
+  **which is itself evidence the slide's credit row is a LOAN measure, since MBB's figure is explicitly a
+  customer-loan number.** ***That is a real discriminator, not a guess: the same row reproduces a loan figure
+  on one holding and exceeds a credit figure on another.***
+  🎯 **THE SHARPEST NEW READ ON THE LARGEST POSITION: TCB HAS THE BEST RISK-ADJUSTED MARGIN OF ALL FOURTEEN
+  BANKS — NIM MINUS CREDIT COST OF 3.7% — AND CONVERTS IT INTO AN ROE OF ONLY 16.0%, BELOW MBB (22.1), CTG
+  (22.4) AND HDB (25.8).** ***The gap is capital and permission: TCB carries CAR 14.6% against BID's 9.0%,
+  and it is the one large private bank OUTSIDE the credit-quota privileged four.*** **A bank earning the
+  sector's best spread on the sector's most conservative balance sheet, unable to lever it — which is a
+  coherent statement of the TCB position and one the file has been circling for three weeks.**
+  🚨 **A KILL CRITERION IS NEAR ITS THRESHOLD AND THE DATE IS CONFLICTED. TCB's armed criterion reads "RE
+  share of loans back above 32% (was 33.2% in 2024 → 28.9% at Q1/26)." The slide gives TCB real-estate &
+  construction credit at 33.2% — labelled (2025), not 2024.** ⚠⚠ ***Same number, two different years, in two
+  artefacts.*** **If 33.2% is a 2025 figure then the de-risking from 33.2% to 28.9% happened over ONE year,
+  not two — and the criterion's baseline is misdated.** **Flagged, NOT resolved: it needs the filed
+  disclosure, and `RE share` is a §4-adjacent input.** *Also on the slide: VPB 29.3%, HDB 25.5%, MSB 24.2%,
+  OCB 27.9% — TCB is the sector's most real-estate-concentrated bank on this measure.*
+  ⚠ **VPB's ASSET QUALITY IS THE WEAKEST OF THE THREE HOLDINGS AND NEAR THE WORST IN THE SET: NPL 3.6%,
+  Group-2 3.2%, coverage just 52.8%** — against MBB 1.4 / 1.0 / 92.2 and TCB 1.1 / 0.7 / 129.4. ***VPB grew
+  credit 23.1% YTD and grew profit 76.3% while carrying triple TCB's NPL ratio at 41% of TCB's coverage.***
+  *The file ranks VPB last of eight on expected return; this is the balance-sheet version of that ranking.*
+  ✅ **SECOND, SEPARATE FINDING — ZERO PRIOR HITS: HOSE's VN30 review of 15-JUL (effective 03-AUG) named a
+  RESERVE PORTFOLIO of VCK, BCM, GEE, **VPX** and PLX.** ***VPX — a holding, carrying the only fired trigger 4
+  and a proposed ADD +5.6pp — is first substitute for VN30 inclusion, and this file never recorded it,
+  although it priced TCX's ENTRY from the very same announcement in detail.*** **One document, two holdings,
+  one logged.**
+  ⚠ **At its real strength: reserve-list membership is NOT inclusion, HOSE reviews in JANUARY and JULY, so
+  absent an intra-period removal the earliest entry is the JANUARY 2027 review — ~110 sessions out, and this
+  is BACKFILL of a month-old announcement.** *It earns the entry because `assumptions.json` carries a
+  `ftse_event_tree` for TCX and a `caex_option` tree for VPX and NOTHING for VPX index inclusion — an
+  asymmetry a human should see even if the answer is that it does not deserve one.*
+  ✅ **SECTOR VIEW ON THE SLIDE, RECORDED AS A FORECAST: 2H26 credit demand high, NIM under POLICY pressure,
+  provisioning rising; PBT growth 15% / 19% / 20% for 2026–2028.** *The NIM-under-policy-pressure line is the
+  same mechanism the file logged on 17-Aug from the PM's directive to cut lending rates.*
+  **PORTFOLIO IMPACT:** the morning's quota arithmetic is suspended pending a measure resolution; TCB is
+  re-read as the sector's best spread trapped under the sector's most conservative capital; VPB's ranking
+  gains a balance-sheet basis; and an unmodelled index catalyst sits on VPX from January 2027. **Nothing
+  modelled — no §4 field touched, no confidence moved, no event tree added.**
+  🚨 **NO NEW TRIGGER FIRES. TCB's RE-SHARE CRITERION IS NEAR ITS THRESHOLD BUT ON A CONFLICTED DATE AND
+  IS NOT CALLED. TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way (−29.0pp / +25.0pp).
+  TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE TODAY; FRI 21-AUG = SESSION 4 (FTSE GEIS LIST, KDH's WINDOW
+  CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION PRELIMINARY 24-AUG = SESSION 5.** Trigger 2
+  STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: sell-side Q2/2026 bank cross-section supplied by the human, house unidentified (T3, secondary
+  compilation of filed actuals) — fourteen banks × thirteen metrics, plus the 2H26 outlook and 15/19/20%
+  PBT-growth forecasts; vietstock.vn 1479050 + tapchikinhtetaichinh.vn 161885 (HOSE VN30 July review —
+  MCH and TCX in, PLX and TPB out, **reserve portfolio VCK, BCM, GEE, VPX, PLX**); this file's own
+  `tcb.model.consolidated_customer_loans_growth_ytd` 0.104, `mbb.actuals.h1_customer_loans_growth_ytd` 0.132,
+  the 28-Jul credit-vs-loans work, and `DECISION-BRIEF.md` line 97 (TCB RE-share criterion).
+
 - **🎯🎯🚨 11:54 ICT TUE 18-AUG · HPG's OWN GROSS MARGIN WAS NEVER ON FILE — ONLY ITS PEERS'.
   IT IS 19.01%, AND THE MECHANISM THAT PRODUCED IT REVERSES IN Q3 (lanes 5, 6). Lunch break.**
   ✅ **NEW, ZERO PRIOR HITS ANYWHERE: HPG Q2/2026 GROSS PROFIT ₫10,487.8bn, +59.2%, with the GROSS MARGIN
