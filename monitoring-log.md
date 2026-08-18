@@ -42,6 +42,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **SINGLE-STOCK PRICES — THE BLOCK IS PER-TICKER, AND THE TICKER IS MBB** *(added 18-Aug 20:54; this NARROWS the "not reachable" row above, which is falsified in its headline form)* | ⚠ **HPG ₫21,200 and TCB ₫31,450 both came back UNPROMPTED on 18-Aug** (TCB twice: ₫31,650 on 17-Aug am), inside searches aimed at company news — and **HPG ₫22,550 was already obtained on 03-Aug**. **So single-stock prices ARE reachable for at least three tickers.** ✅ **What survives is the row's NARROW form: no MBB-specific price of any construction — traded, announced or reference — has EVER been returned, across eight attempts.** Consequences are computed and on file (**TCB −7.1pp, HPG −2.0pp**; neither fires trigger 3) and both are **§4 human-only escalations, not edits** | **PRE-REGISTERED: MBB's price should become reachable AFTER WED 26-AUG** (rights-transfer window closes; ex was 11-Aug) **if the cause is the live corporate action.** Still blocked in September ⇒ the per-ticker story is wrong. **Costs no dedicated search — scored on whatever other lanes hand back** |
 | **SAIGON GLORY / MASTERISE BOND MATURITIES — SETTLED, AND A FALSE DATE KEEPS RETURNING** *(added 18-Aug 21:54)* | ✅ **RESOLVED AND SOURCED: agreement 5-FEB-2024 extended ALL TEN LOTS SGL-2020.01–.10, ₫10,000bn (= ₫1,000bn/lot, cross-checked twice against figures already on file), by 1–2 years.** **.01–.03 → Jun-2025 · .04–.05 → Jul-2025 (both PAST DUE) · .06–.10 → NOVEMBER 2026 (+15 months).** **₫997bn of .06–.10 was REPURCHASED EARLY on 26–27 FEB 2026 = 19.94%, leaving ≈₫4,003bn net.** Also on file: the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on SGL-2020.02. 🚨 **THE TRAP: "28-AUG" HAS NOW BEEN OFFERED IN TWO DIFFERENT YEARS AND BOTH ARE FALSE** — 28-Aug-2025 (the original maturity, no extension applied) and 28-Aug-2026 (a 12-month default applied instead of the stated 15). ***Any source giving an AUGUST maturity has applied the adjustment's direction without its magnitude. Do not treat it as a correction; the answer is NOVEMBER 2026*** | **an ISSUER OR HNX FILING dated after Feb-2026** — a further buyback, a new extension, or a payment failure. **NOT another general search, and NEVER an August date from a summariser** |
 | **SAIGON GLORY .01–.05 — THE PAST-DUE BLOCK, NOW MEASURED** *(added 18-Aug 23:54)* | ✅ **2025 scheduled principal ~₫300bn/lot × 5 = ₫1,500bn; ACTUALLY PAID < ₫7bn = 0.47%; outstanding ₫1,496bn — and 1,500 − 7 = 1,493 reconciles to 0.20%.** ⚠ **TWO READINGS of the ₫1,496bn are on file with the arithmetic that discriminates (total-remaining vs unpaid-2025-instalment, ₫2,500bn apart); the reconciliation selects the WORSE one and it is NOT collapsed to.** **FINED for failing to disclose payment information on .02 and .03 (matured June 2025)** — a governance fact, distinct from the 14-Nov-2025 missed ₫3.5bn interest on .02. **.05 originally matured 10-Jul-2023; .01–.03 June-2023 — extensions of +24/+24/+15 months, bracketing the agreement's stated "1–2 years" exactly.** Financials: swung from ~−₫16,000bn to +₫1,500bn under the new owner, **accumulated losses ~₫18,000bn**, still cannot pay. **Collateral appraisal reported down sharply — DIRECTIONAL AND UNDATED, deliberately not quantified** | **a 2026-dated payment, a further sanction, or a NUMBER on the collateral haircut** — not a re-run. ⚠ **The open question is NOT factual but definitional and sits in the §4 queue: does "a Masterise bond event" cover a Bitexco-era issuer's pre-acquisition defaults?** |
+| **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 **Date gates — do NOT search these before their date** (per charter §6):
@@ -125,6 +126,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯⚠ 01:54 ICT WED 19-AUG · LANE 2'S BLIND SPOT IS BIGGER THAN THE ONE CASE THAT EXPOSED IT — AND NOW
+  BOUNDED. THIS FILE HAS RECORDED **ZERO** NON-STEEL VIETNAM TRADE PROCEEDINGS; AT LEAST FOUR EXIST; NONE
+  TOUCHES A HOLDING. And the one that reads across to the 24-Aug CORE preliminary runs in the OPPOSITE
+  DIRECTION (lane 2). Short entry — the steel half came back 100% covered.**
+
+  ⚠⚠ **THE GAP, AND WHY IT IS WORTH AN ENTRY EVEN THOUGH NOTHING IN IT IS PORTFOLIO-RELEVANT.** On 31-Jul
+  this file wrote *"lane 2 clean, no new case filed in 2026"* and **that was FALSE** — the CORE circumvention
+  petition had been filed 02-Feb and initiated 25-Mar (91 FR 14530), found only on 03-Aug. *The natural
+  reading of that miss was "one case slipped through."* **`tissue`, `compressor`, `fish fillet`, `photovoltaic`
+  and `silicon` ALL RETURN ZERO HITS REPO-WIDE.** ***The file has never recorded a single Vietnam trade
+  proceeding outside steel, so the miss was not one case — it was a whole category.***
+  | proceeding | stage | date | touches a holding? |
+  |---|---|---|---|
+  | **Tissue paper products completed IN VIETNAM** | **circumvention inquiry INITIATED** | **FR 06-AUG-2026** | **no** |
+  | Stationary & portable **air compressors** (China, Malaysia, **Vietnam**) | AD/CVD investigations initiated | **~27-May-2026** | **no** |
+  | Certain **frozen fish fillets** from Vietnam | AD administrative review, final results | **FR 13-AUG-2026** | **no** |
+  | Crystalline silicon **PV cells** (Cambodia, Malaysia, Thailand, **Vietnam**) | AD/CVD investigations initiated | ⚠ **UNDATED in the source — NOT recorded as 2026** | **no** |
+  ✅ **THE ANSWER IS THEREFORE A BOUNDED NEGATIVE, WHICH IS A RESULT AND NOT AN ABSENCE: none of the eight
+  makes tissue paper, air compressors, fish fillets or solar cells, so a category the file had never swept
+  turns out to contain nothing that reaches this book.** *An unknown-size gap has become a measured one. Future
+  sweeps should not chase these, and a COVERED row now says so.*
+  ⚠ *The PV row is deliberately undated — the well-known four-country solar case predates 2026 and the source
+  carried no date. **Recorded as undated rather than assigned a plausible year**, which is the exact defect
+  ("applying an adjustment's direction without its magnitude", 21:54 yesterday) that produced a false Masterise
+  maturity nine hours ago.*
+
+  🚨🚨 **THE READ-ACROSS THAT WOULD HAVE BEEN WRONG, PRE-EMPTED FIVE SESSIONS BEFORE IT MATTERS.** A second
+  live Vietnam **circumvention** inquiry, initiated 06-Aug, looks like a base rate for the **CORE circumvention
+  preliminary due 24-AUG** — which is a **trigger-5 event at session 4**. ***It is not, because the two run in
+  opposite directions:***
+  | | completion country | orders being circumvented | Vietnam's role |
+  |---|---|---|---|
+  | **Tissue paper** | **VIETNAM** | another country's orders | **the alleged CIRCUMVENTER** |
+  | **CORE** | **INDONESIA** | **the orders on VIETNAM** | **the ORIGIN being protected** |
+  ⚠ ***Same statutory instrument, same agency, same month, and Vietnam sits on opposite sides of it.*** **A
+  count of "Vietnam circumvention inquiries" pools two populations and would answer neither question.** *This
+  is the measure-substitution family's SAMPLE/POPULATION member, and the tell is that the appealing statistic —
+  "how often does Commerce find affirmative against Vietnam?" — is not the statistic either case measures.*
+  ✅ **WHAT DOES SURVIVE, AND IT IS THE PART THAT BEARS ON THE BOOK: an affirmative CORE finding EXTENDS the
+  Vietnam orders to Indonesian-finished goods, which is adverse to Vietnamese COLD-ROLLED substrate exporters
+  feeding Indonesia — a channel, not a price.** *HPG's exposure through that channel is **not quantified in
+  this file** — there is no figure for Vietnamese CRS shipped to Indonesia, let alone HPG's share of it — so
+  the direction is recorded and the magnitude is not guessed.*
+
+  ✅ **THE STEEL HALF OF LANE 2 IS 100% COVERED AND TWO GATE ROWS DID THEIR JOB.** Everything returned is on
+  file: rebar prelim **121.97%** (HPG) inside a range reaching **130.77%**, finals **128.53–136.57%** published
+  30-Jul, the ITC injury vote mid-to-late Sep with a **13-Sep** statutory outer bound, and the CORE inquiry's
+  petitioners — **Steel Dynamics and Nucor** — already named. *`130.77`, `Nucor`, `Steel Dynamics`, `121.97`
+  and `128.53` return 6, 4, 3, 12 and 12 hits respectively.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES — and trigger 5 was tested against the 06-Aug tissue-paper initiation and does NOT
+  fire: it is not a dated catalyst for any proposed trade on any held name. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 3, CORE circumvention preliminary 24-Aug = session 4.
+  Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  [govinfo — FR 06-Aug-2026, tissue paper products completed in Vietnam, circumvention inquiry](https://www.govinfo.gov/content/pkg/FR-2026-08-06/pdf/2026-16056.pdf) · [Federal Register — frozen fish fillets from Vietnam, final results of AD administrative review 2023-2024 *(gateway-blocked; cited for provenance)*](https://www.federalregister.gov/documents/2026/08/13/2026-16553/certain-frozen-fish-fillets-from-the-socialist-republic-of-vietnam-final-results-and-rescission-in) · [govinfo — FR 27-May-2026, stationary and portable air compressors](https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10526.pdf) · [Federal Register — CORE from Vietnam, initiation of circumvention inquiry (25-Mar-2026)](https://www.federalregister.gov/documents/2026/03/25/2026-05808/certain-corrosion-resistant-steel-products-from-the-socialist-republic-of-vietnam-initiation-of) · [trade.gov — preliminary affirmative determinations, rebar from Bulgaria, Egypt and Vietnam](https://www.trade.gov/preliminary-affirmative-determinations-antidumping-duty-investigations-steel-concrete-reinforcing-0)
 
 - **🚨🎯🎯 00:54 ICT WED 19-AUG · THIS FILE HAS NEVER HELD VPBANKS'S EQUITY AND HAS BEEN INFERRING IT TO
   SIZE A BULL CASE. THE REPORTED FIGURE IS 11.2% BELOW THE INFERENCE — AND THE ROUTE THAT USED IT LANDED ON
