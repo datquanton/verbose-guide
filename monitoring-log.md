@@ -122,6 +122,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🎯 05:54 ICT TUE 18-AUG · MBB's ENTIRE VALUATION BLOCK IS STRUCK ON A PRE-EX BASIS AND
+  THE EX-DATE PASSED SEVEN DAYS AGO. THE MECHANICAL RE-STRIKE MOVES `pe_ttm` 5.76 → 6.02 AND RAW E[r] +36.6%
+  → +30.7%. TRIGGER 3 DOES NOT FIRE — AND MBB STAYS #1 BY A WIDE MARGIN (lanes 3, 7). Rights trade today.**
+  🎯 **THE DIAGNOSIS, FROM THE BLOCK'S OWN ARITHMETIC.** `pe_ttm` **5.76** × `npat_ttm` **₫30,858bn** =
+  `cap_now` **₫177,742bn**; ÷ `price` **₫22,050** = **8,060.9m implied shares.** ***MBB's actual PRE-EX count
+  is 8,055m — a 0.07% match, which the 05:54 book-wide audit already recorded.*** **But MBB went ex on
+  11-AUG for BOTH legs — the 15% stock dividend AND the 10:1 rights. The share count is now 9,263.25m and
+  will be 10,068.75m once the rights are paid.** ***A block that reconciles to the pre-ex count is a block
+  that has not been re-struck.***
+  ✅ **THE STOCK-DIVIDEND LEG CHANGES NOTHING AND THAT IS WORTH SAYING: it is CAP-NEUTRAL.** 8,055m →
+  9,263.25m shares with the price falling proportionally leaves `cap_now` at ₫177,742bn. **`pe_ttm` is
+  untouched by it.** *Half of the corporate action is a non-event for the model, and treating both legs as
+  dilutive would be an error in the other direction.*
+  🚨 **THE RIGHTS LEG IS NOT CAP-NEUTRAL, AND IT IS DATED. 805.5m shares at ₫10,000 = ₫8,055bn of NEW CASH,
+  payable to 07-SEP.** **`cap_now` ₫177,742bn + ₫8,055bn = ₫185,797bn — a k of 1.0453 — with `npat_ttm`
+  unchanged.** ***So `pe_ttm` must become 185,797 ÷ 30,858 = 6.021×, and the fully-diluted price is
+  185,797bn ÷ 10,068.75m = ₫18,453.***
+  🎯 **AND BY 17:54's CLOSED FORM (`cash_yield` = 0.0 for MBB, so it collapses exactly):**
+  | | `pe_ttm` | cap_now ₫bn | raw E[r] | shrunk (×0.50) |
+  |---|---|---|---|---|
+  | **as struck (pre-ex)** | **5.76** | 177,742 | **+36.6%** | **+18.3%** |
+  | **re-struck post-rights** | **6.021** | 185,797 | **+30.7%** | **+15.3%** |
+  ✅ **ESCALATION TRIGGER 3 TESTED AND IT DOES NOT FIRE: −5.9pp raw, −3.0pp shrunk, against a 10pp bar.
+  Recorded as a deliberate non-fire.** 🎯 **AND THE RANKING IS UNTOUCHED — MBB at +30.7% raw remains FIRST
+  in the book by a wide margin (TCB +4.0%, VPX −0.0%). The brief's BUY MBB +6.8pp is ROBUST to full
+  dilution.**
+  ✅ **AND −5.9pp IS A CEILING, NOT A POINT ESTIMATE. It assumes the rights are FULLY subscribed.** ***If only
+  a fraction subscribes, the cash raised and the dilution both scale down*** — and the file's one measured
+  Vietnamese completion rate this year is **66.6%** (HPG: 33.3m of 50m registered), at which the E[r] impact
+  would be about **−4.0pp**. *The maximum-dilution case is the conservative one and it is what is reported.*
+  ⚠⚠ **A THIRD MBB PRICE APPEARED AND IS REFUSED. A retail-guidance piece describes the market price as
+  *"around ₫24,000"* and the ₫10,000 issue price as *"~60% below"* it — internally consistent (10,000/24,000
+  ⇒ −58.3%) but UNDATED and ROUND.** ***The file now holds three MBB prices that disagree materially: the
+  model's ₫22,050 (pre-ex), the worked post-ex ₫19,920 (from P_cum ₫23,900 via the file's simultaneous
+  identity), and this ₫24,000.*** **Not adopted — it is the same class of figure refused for TCB at 10:54 and
+  17:54, and `price` is §4 HUMAN-ONLY regardless.** *At ₫24,000 a right would be worth 0.1 × (24,000 −
+  10,000) = ₫1,400 against the file's ₫992 at ₫19,920; **the rights trade from TODAY, so the market is about
+  to price this directly** and a real number will exist by tonight.*
+  ✅ **MINOR AND NEW: MBB has set NO MINIMUM subscription quantity** *(zero prior hits)* — which removes one
+  friction from the 66.6%-completion comparison above, since small holders are not forced into round lots.
+  ⚠ **WHAT I AM NOT CLAIMING: that the model is WRONG to hold a pre-ex basis.** *A valuation block struck at
+  one date and left alone is stale, not erroneous, and re-striking it is a §4 HUMAN-ONLY act.* **What is new
+  is that the re-strike is now MECHANICAL and DATED — it does not await new information, only 07-Sep — and
+  its size is known in advance.** **`assumptions.json` UNTOUCHED; `DECISION-BRIEF.md` BYTE-IDENTICAL.**
+  **PORTFOLIO IMPACT:** the book's largest proposed ADD carries a valuation basis that a passed corporate
+  action has superseded; re-striking it costs MBB ~5.9pp of expected return at most and changes no ranking.
+  🚨 **TRIGGER 4 REMAINS FIRED (VPX) — correction fires TRIGGER 3 either way (−29.0pp / +25.0pp).
+  TRIGGER 5 REMAINS FIRED — MBB's RIGHTS TRADE FROM TODAY (transfer to 26-Aug, payment to 07-Sep); FRI
+  21-AUG = SESSION 4 (FTSE GEIS LIST, KDH's WINDOW CLOSES, FORECAST #7 RESOLVES); CORE CIRCUMVENTION
+  PRELIMINARY 24-AUG = SESSION 5.** Trigger 2 STANDING-BREACHED; triggers 1 and 3 negative.
+  Sources: tinnhanhchungkhoan.vn post395281 + vietstock.vn 1476203 + acbs.com.vn + psi.vn + vsd.vn/ad/198851
+  (MBB rights timetable, ₫10,000, 10:1, no minimum subscription, market price cited "around ₫24,000");
+  `research/models/assumptions.json` `valuation.MBB` (price 22,050, pe_ttm 5.76, npat_ttm 30,858, cash_yield
+  0.0, confidence 0.50); `DECISION-BRIEF.md` (MBB raw E[r] +36.6%, BUY +6.8pp); this file's own MBB ex-price
+  identity and the 05:54 share-count audit.
+
 - **🎯🎯🚨 04:54 ICT TUE 18-AUG · A NAMED OPEN ITEM CLOSES: TCB's CREDIT QUOTA IS 12% — AND IT
   USED 10.39% OF IT IN THE FIRST HALF, LEAVING ~1.45% OF GROWTH FOR H2. THE QUOTA PRIVILEGE BECOMES
   QUANTITATIVE FOR THE FIRST TIME (lanes 1, 3).**
