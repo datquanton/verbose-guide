@@ -132,6 +132,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 14:54 ICT WED 19-AUG · I RAN THE RE-STRIKE. **THE RANKING CHANGES, TWO OF THE EIGHT PROPOSED
+  TRADES ARE CONTRADICTED BY IT, AND NOT ONE ESCALATION TRIGGER CAN SEE ANY OF THAT** — because every trigger
+  is written on a magnitude and none on ORDERING (lane 3).**
+  *Zero searches. This is the question 12:54 raised and did not answer: does the vintage defect move the
+  levels only, or the DECISIONS?*
+
+  ✅ **THE TEST: apply all seven known market prices simultaneously via `E[r]_new = (E[r]_old − cy + 1)/k − 1 + cy`,
+  hold MBB and TCX flat (MBB unchecked; TCX within 1.4%).**
+  | | **E[r] now** | **re-struck** | **Δpp** | **cw now** | **cw re-struck** | rank |
+  |---|---|---|---|---|---|---|
+  | **MBB** | +36.6% | +36.60% | 0.00 | **+18.3%** | **+18.30%** | 1 → **1** |
+  | **HPG** | +6.3% | +4.29% | −2.01 | +4.7% | +3.22% | 2 → **2** |
+  | **TCB** | +4.0% | **−3.11%** | **−7.11** | +2.8% | **−2.18%** | 🚨 **3 → 5** |
+  | **KDH** | +3.5% | +5.25% | +1.75 | +1.9% | **+2.89%** | 🚨 **4 → 3** |
+  | **VPX** | −0.0% | **+3.91%** | +3.91 | −0.0% | **+2.15%** | 🚨 **5 → 4** |
+  | **VCI** | −11.3% | **−17.72%** | **−6.42** | −4.5% | **−7.09%** | 6 → 6 |
+  | **TCX** | −11.2% | −11.20% | 0.00 | −8.4% | −8.40% | 7 → 7 |
+  | **VPB** | −13.9% | −12.85% | +1.05 | −9.7% | −9.00% | 8 → 8 |
+  🚨 **TCB FALLS THREE PLACES AND FLIPS SIGN; KDH AND VPX EACH RISE ONE; VPX FLIPS SIGN THE OTHER WAY.**
+  *`MBB > HPG > **TCB > KDH > VPX** > VCI > TCX > VPB` becomes `MBB > HPG > **KDH > VPX > TCB** > VCI > TCX > VPB`.*
+
+  🚨🚨 **AND TWO OF THE EIGHT PROPOSED TRADES NOW POINT AGAINST THE RE-STRUCK BOOK:**
+  | trade in the brief | re-struck standing | |
+  |---|---|---|
+  | **TRIM KDH −3.2pp** | KDH rises to **3rd of eight** at **+2.89%** cw | 🚨 **trimming a name that improves into the top three** |
+  | **ADD VCI +6.7pp** | VCI falls to **−7.09%** cw, **second-worst** | 🚨 **adding to the second-worst-ranked name** |
+  ✅ *The other six are unaffected or reinforced: **TRIM TCB is strengthened** — the largest trim in the book
+  was sized against a TCB the model valued 7% too cheaply, and re-struck it is NEGATIVE. **ADD VPX is
+  strengthened** — it flips positive. ADD MBB, ADD HPG, TRIM TCX and VPB-hold are unchanged.*
+  ⚠⚠ **VCI IS NOW CARRYING THREE OPEN ITEMS AT ONCE ON ONE NAME: a stale price (−6.4pp), a `confidence` of
+  0.40 that was already a standing §4 escalation, and a proposed ADD that the re-strike contradicts.**
+
+  🚨🚨🚨 **THE STRUCTURAL FINDING, AND IT IS THE FOURTH TRIGGER-DEFINITION DEFECT THIS WEEK. NO ESCALATION
+  TRIGGER FIRES ON ANY OF THE ABOVE.** *Trigger 3 is *"any name's expected return moves >10pp"* and the
+  largest single move is **TCB −7.11pp**. Triggers 1, 2, 4 and 5 are about kill criteria, cap breaches,
+  evidence status and dated catalysts.* ***So a change that REORDERS the book and CONTRADICTS TWO OF THE
+  EIGHT PROPOSED TRADES fires nothing at all, because every trigger is written on a MAGNITUDE and none on
+  ORDERING or on TRADE-LIST CONSISTENCY.*** **The trade list is a function of the ranking; the triggers watch
+  the inputs and never the output.** *After criteria that enumerate rather than define (KDH, TCB-Masterise)
+  and a threshold stated more precisely than its measure (TCB RE-share), this is the same family at the level
+  of the trigger set itself.*
+
+  ⚠⚠ **THREE LIMITS ON THE TEST, STATED BEFORE THE CONCLUSION IS USED.** *(1) **The re-strike prices span
+  07-Aug to 18-Aug — eleven days. It is LESS vintage-heterogeneous than the current block, not
+  contemporaneous.** This is an improvement, not a fix. (2) **MBB is held FLAT and is unchecked** — at
+  **+18.3%** it is by far the largest weight in the ranking, so **the whole ordering pivots on the one price
+  the file cannot get.** (3) This is a **what-if**: `price` is §4 human-only and **nothing was written.**
+  `DECISION-BRIEF.md` is byte-identical, which proves it.*
+
+  ⚠ **LANE 4, PARTIAL AND LABELLED AS SUCH: 19-Aug opened **1,733**, +1.72 pts; by 10:30 matched liquidity
+  ₫2,953bn with agreed deals taking the session past ₫3,750bn; foreign investors net SOLD **₫768bn on HOSE**
+  intraday, ₫250.12bn net across all three boards, with VCB the largest single sale at ₫49.26bn.** ***These
+  are 10:30 snapshots, NOT the close, and are recorded as intraday.*** *A headline claiming "VN-Index lost
+  nearly 19 points, foreigners dumped" was returned undated and is NOT adopted — the fifth stale-date refusal
+  in a day and a half.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO TRIGGER FIRES — AND THAT IS THIS HOUR'S FINDING RATHER THAN ITS REASSURANCE. Trigger 3's largest
+  single move is −7.11pp against a 10pp threshold. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED —
+  Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 1
+  negative.**
+  ⚠ **§4 QUEUE — ESCALATED IN FORM AS WELL AS CONTENT: the re-strike is no longer "two stale prices" or even
+  "no common vintage". It is *"the ranking changes and two proposed trades are contradicted, and the trigger
+  set is structurally unable to report it."* A human needs to see the re-struck table before signing anything
+  in the current brief.**
+  [Vietstock — nhịp đập thị trường 19/08: rung lắc quanh ngưỡng 1,723 điểm](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1908-rung-lac-quanh-nguong-1723-diem-1636-1482473.htm) · [Vietstock Daily 19/08/2026 — chưa hết rung lắc?](https://vietstock.vn/2026/08/vietstock-daily-19082026-chua-het-rung-lac-1636-1482284.htm) · [Vietstock — thị trường chứng quyền 19/08/2026](https://vietstock.vn/2026/08/thi-truong-chung-quyen-ngay-19082026-su-bi-quan-van-con-1636-1482208.htm)
+
 - **🎯🚨 13:54 ICT WED 19-AUG · THE BACK-SOLVE ROUTE GETS A PRICE FOR **MBB** — THE TICKER BLOCKED ACROSS
   EIGHT ATTEMPTS — AND IT WOULD FIRE TRIGGER 3 AT **−33.0pp** ON THE BRIEF'S LARGEST ADD. I AM NOT ASSERTING
   IT, AND THE REASON IS THE SAME ONE THAT KILLED YESTERDAY'S KDH SCARE (lanes 3, 6).**
