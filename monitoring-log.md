@@ -45,6 +45,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
 | **BANK FOREIGN-OWNERSHIP ROOM — INSTRUMENT, DATE, ELIGIBILITY AND THE LOCKS, ALL ON FILE** *(added 19-Aug 03:54)* | ✅ **DECREE 69/2025, EFFECTIVE 19-MAY-2025.** Eligibility: banks that took a **MANDATORY TRANSFER** of a weak institution, **excluding** banks >50% state-held — **which is why TCB is capped at 30% and MBB/VPB/HDB at 49%.** 🚨 **THE TRAP THIS ROW EXISTS TO STOP: sources publish STATUTORY headroom as INVESTABLE headroom.** They give MB **26.7pp**, VPB **24.7pp**, HDB **32.2pp**. **MBB's self-imposed lock is 23.23–23.24% and TCB's is 22.51%, so MBB's and TCB's actually-available room is ZERO** *(15-Aug: "the door is closed by the bank, not by the law"; TCB's lock is calibrated — (22.51+10)/110 = 29.55%, just under its 30% cap)*. **VPB alone has no reported lock, ~24pp of real room — and VPB alone is placing 624.3m shares with a foreign investor.** ⚠ A 0.93pp discrepancy on MBB's current level (source implies 22.3%, file holds 23.23%) is recorded unresolved; **the zero-headroom conclusion holds at either value** | **A BOARD OR AGM RESOLUTION MOVING A LOCK** — that, and only that, re-opens MBB or TCB. Ownership-level drift does not. ⚠ **"Sắp nới room ngoại" headlines are describing MAY-2025 and are not news** |
 | **⚠⚠ EU / UK TRADE POLICY ON VIETNAMESE STEEL — AN UNLANED JURISDICTION, FIRST SWEPT 19-Aug 05:54** | 🚨 **`CBAM` and `hạn ngạch` returned ZERO HITS repo-wide.** The routine's lane 2 is *"US trade actions"*, lane 5 covers domestic and **CHINA** export prices, lane 6 is competitors — **so EU/UK measures fall inside no lane's remit. The gap is in the lane DEFINITIONS.** Now held: **CBAM costs on Vietnamese coated-steel exports; new UK and EU import QUOTAS biting after 30-JUN-2026 (a dated event already passed); galvanised + pipe export volume forecast ~1.5m t in 2026, −25% YoY; NKG volume −17% with exports −30%.** 🚨 **HPG LINK: `_q2_volume_source` excludes pipe 212kt + galvanised 83kt = 295kt = 7.77% of Q2 volume — exactly the affected classes. That 7.77% is an UPPER BOUND; HPG's export share of those classes is NOT on file and is not guessed.** ✅ **No bridge input moves — pipe and galvanised are outside all three blades** | **an EU/UK measure naming Vietnam or a steel product**, HPG's export split for pipe/galvanised, or a 2026 actual against the −25% forecast. ⚠ **Second lane-scope blind spot found in four hours (01:54 was non-steel US cases) — both from a lane named for a jurisdiction-and-topic pair** |
+| **🚨 VIETNAM'S OWN HRC DUTY ON CHINA — 1917/QĐ-BCT, 27.83%, IN FORCE 12-AUG-2026 TO JULY 2030** *(added 19-Aug 10:54; `1917`, `27.83`, `chống lẩn tránh` all returned ZERO hits)* | 🚨 **ANTI-CIRCUMVENTION — a DIFFERENT legal basis from AD612 (anti-dumping, gate row 82, final outer bound 27-Oct-2026), so it does NOT by itself close AD612's "unprotected interval" question and is not claimed to.** 🚨 **IT INVERTS THE 16:54 MON FINDING: landed Chinese HRC US$495–510 × 1.2783 = US$632.8–651.9 against HPG's US$535 September offer ⇒ HPG moves from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a 21–26pp swing.** ⚠ Duty base is CIF; the 495–510 is FOB+freight, so the direction is firm and the magnitude approximate. ✅ **HPG domestic HRC share 43.4% (Jun-2026); crude capacity 16mt/yr; DQ2 complete and optimising; rail plant 700kt >50% done, first product Q1/2027.** 🎯 **OPEN PUZZLE, PRE-REGISTERED: HPG CUT its September offer 7.76% in the same window — test (b) share-buying vs (c) ore pass-through against the Q3 filing and HPG's October offer** | **an October or later HPG offer, the AD612 final (~27-Oct), or a change to 1917's scope or rate** — not a re-run |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 | **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | **THE NEXT STEEL-LANE RETURN, AT NO DEDICATED SEARCH COST. If BOTH ₫15,120 and ₫14,440–15,150 repeat ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED, the series is live, and this row closes.** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
@@ -129,6 +130,95 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨🚨 10:54 ICT WED 19-AUG · VIETNAM PUT A **27.83% ANTI-CIRCUMVENTION DUTY ON CHINESE HRC ON 12-AUGUST**
+  AND THIS FILE HAD NO RECORD OF IT. IT INVERTS MONDAY'S HEADLINE: HPG GOES FROM A +5–8% PREMIUM TO A ~15–18%
+  DISCOUNT VERSUS THE IMPORT. Plus: the identity audit the file said had never been run, run on all eight
+  (lanes 5, 3, 2).**
+
+  🚨🚨 **THE INSTRUMENT, ZERO PRIOR HITS ON EVERY IDENTIFIER (`1917`, `27.83`, `chống lẩn tránh`, `12/8/2026`):
+  QUYẾT ĐỊNH 1917/QĐ-BCT — the Ministry of Industry and Trade imposes an ANTI-CIRCUMVENTION duty of 27.83% on
+  HRC imported from China, IN FORCE FROM 12-AUGUST-2026 TO JULY 2030.**
+  ⚠ **AND IT IS *NOT* THE CASE THIS FILE HAS BEEN TRACKING. Gate row 82 follows **AD612**, an anti-DUMPING
+  investigation (initiated 27-Oct-2025, final outer bound 27-Oct-2026) whose open worry is verbatim *"612
+  states NO TERM for the temporary duty itself — if it lapses before the final, there is an unprotected
+  interval."*** ***1917 is anti-CIRCUMVENTION — a different legal basis. Two duties can coexist on one product
+  under different instruments, so I am NOT claiming 1917 closes AD612's unprotected-interval question.*** *What
+  is established is that Chinese HRC landing in Vietnam has carried 27.83% since 12-Aug, whatever AD612 does.*
+
+  🚨🚨 **IT REVERSES THE FINDING I LOGGED ON MONDAY, AND BY MORE THAN IT COST.** *At 16:54 Mon the file
+  concluded HPG's premium over landed Chinese HRC had **halved from +13.5–16.9% (July) to +5.3–8.5%
+  (September)**, on landed Chinese HRC of US$495–510 against HPG's September offer of US$535.*
+  | | landed Chinese HRC | **HPG Sept offer** | HPG's position |
+  |---|---|---|---|
+  | **before 12-Aug** | **US$495–510** | US$535 | **+5.3% to +8.5% PREMIUM** |
+  | **from 12-Aug, ×1.2783** | **US$632.8–651.9** | US$535 | 🚨 **−15.5% to −17.9% DISCOUNT** |
+  🚨 ***A SWING OF ROUGHLY 21 TO 26 PERCENTAGE POINTS IN RELATIVE POSITION, ON A DATE THAT HAD ALREADY PASSED
+  WHEN I WROTE MONDAY'S ENTRY.*** ⚠ **BASE FLAGGED, NOT BURIED: Vietnamese trade remedies are levied on the
+  CIF import value. The US$495–510 on file is "FOB 485 + freight", which approximates CIF, so the multiplication
+  is right in form and approximate in level. The DIRECTION does not depend on the base and the magnitude does.**
+  ✅ **AND IT EXPLAINS A NUMBER THAT CAME BACK IN THE SAME SEARCH: HPG's DOMESTIC HRC MARKET SHARE IS 43.4%
+  IN JUNE 2026** — a quantity this file has never held.
+
+  🎯🎯 **A PUZZLE I AM RAISING RATHER THAN RESOLVING, BECAUSE IT IS THE INTERESTING PART.** ***HPG CUT ITS
+  SEPTEMBER HRC OFFER 7.76% (580 → 535) IN THE SAME WINDOW THAT ITS MAIN IMPORT COMPETITOR BECAME 27.83% MORE
+  EXPENSIVE.*** *Cutting price into a market that just got sharply more protected is a real commercial choice
+  and the file should not paper over it.* **Four readings, none selected:** *(a) the cut was decided before
+  1917 landed; (b) HPG is buying share while protected — consistent with 43.4%; (c) it is input-cost
+  pass-through — **and the file has the evidence for this one: iron ore is near a 14-month low at ~US$95**; (d)
+  domestic demand is weak.* **(b) and (c) are testable against the Q3 filing and against whether HPG's October
+  offer moves with ore. Logged as a pre-registration rather than a conclusion.**
+
+  ✅ **ALSO NEW ON HPG, RECORDED: Dung Quất 2 COMPLETE and in capacity-optimisation; crude-steel capacity now
+  16 MILLION TONNES/YEAR, the highest in the group's history; crude production 3.6mt, +48% YoY** *(⚠ a
+  PRODUCTION measure — NOT comparable to the 3.5mt Q2 SALES basket the bridge uses, and not compared to it)*;
+  **+₫3,400bn of additional DQ2 investment approved for +500,000 t/yr; the rail and special-steel plant
+  (700kt/yr) past 50% at end-Q2, first rail products expected Q1/2027.**
+  ✅ **AND IT COMPOSES WITH 05:54 INTO A CLEAN DIVERGENCE: Vietnamese coated-steel EXPORTERS are being squeezed
+  abroad (CBAM, new UK/EU quotas from 30-Jun, export volume −25%) in the same year the DOMESTIC HRC market
+  gained 27.83% of protection. HPG is the domestic-facing name; HSG and NKG are the export-facing ones.**
+  *That is the same divergence the peer forecasts show — HSG +33% profit, NKG flat on exports −30% — reached
+  from a different direction.*
+
+  ✅✅ **SECOND FINDING, AT ZERO SEARCH COST: THE IDENTITY AUDIT THE FILE SAID HAD NEVER BEEN RUN.** *The
+  02-Aug TCX entry states verbatim: "NOTE THE SAME DEFECT MAY EXIST ON OTHER NAMES — `cap_now` is `pe_ttm ×
+  npat_ttm` for all eight, and this file has no share count for any of them… **That check has not been run and
+  is not claimed here.**" It can be run now.*
+  | | TCB | VPB | MBB | HPG | KDH | TCX | VPX | VCI |
+  |---|---|---|---|---|---|---|---|---|
+  | **`pe×npat` vs `shares×price`** | **+0.022%** | **+0.035%** | **+0.073%** | **+0.047%** | **−0.004%** | **+0.015%** | **+0.011%** | **−0.007%** |
+  🚨 ***ALL EIGHT CLOSE TO UNDER 0.08%. AND THAT IS NOT REASSURING — IT IS THE OPPOSITE.*** **VPX proved this
+  morning that `npat_ttm` can be 39.1% wrong and `pe_ttm` 39% wrong in the offsetting direction while the
+  identity still closes to 0.011%.** ***So an eight-for-eight fit at a tenth of a percent is not evidence the
+  inputs are right; it is evidence that every valuation block was populated by solving for a market cap that
+  was already known.*** **The file calls this check "GUARD 2" and has been treating it as verification. It has
+  ZERO diagnostic power against the one defect class it was built to catch, and VPX demonstrates that
+  empirically rather than in principle.**
+  🎯🎯 **THE CONSEQUENCE GENERALISES THIS MORNING'S VPX RESULT TO THE WHOLE BOOK: since `cap_now` equals
+  `shares × price` on every name, and E[r] depends on the trailing block ONLY through `cap_now`, ***no
+  `npat_ttm` or `pe_ttm` error can move any name's expected return, provided the pair moves together.*** **That
+  retires an entire class of escalation across all eight.**
+  🚨 **AND IT RELOCATES THE RISK PRECISELY. `cap_now` is a STORED PRODUCT — `price` never enters `decide.py`
+  — so each name's capitalisation is frozen at ONE market price, on an UNKNOWN DATE, and drifts as the market
+  moves.** ***The entire book's expected returns are functions of eight prices whose dates are not recorded.***
+  **Only THREE of the eight have any dated market comparison on file — HPG (₫20,800 vs ₫21,200, −1.9%), TCB
+  (₫29,250 vs ₫31,450, −7.0%, worth −7.1pp) and TCX (within 1.4% at 07-Aug). FIVE have none at all.** *The
+  04-Aug open-decisions item — "every share count and price in this file now needs a date" — is not one item
+  among many. **On this engine it is the only trailing-block item that can change a decision.***
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — HRC, ore and coal
+  fields are §4 human-only and the duty changes a COMPETITIVE CEILING, not HPG's own realised price.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG and does NOT fire — the standing ₫0.8632m/t reading
+  is a STANDING condition, and this hour's news is FAVOURABLE, not adverse. Trigger 4 does NOT fire — a
+  government decision is not a held name's disclosed evidence, the same ruling applied to deposit rates,
+  market prices, a bond schedule and a decree this week. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS
+  FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 3
+  negative.**
+  ⚠ **§4 QUEUE, RE-PRIORITISED RATHER THAN EXTENDED: the audit says the eight `price` fields and their DATES
+  are the only trailing-block inputs that can move a return. TCB's is the one measured defect (−7.1pp). Five
+  names have never been checked against a market price at all.**
+  [CafeF — Hòa Phát khai lò thổi số 2, chuẩn bị hoàn thành toàn bộ Dung Quất 2](https://cafef.vn/hoa-phat-khai-lo-thoi-so-2-chuan-bi-hoan-thanh-toan-bo-du-an-dung-quat-2-trong-thang-9-188250812085037029.chn) · [CafeF — Hòa Phát được chấp thuận tăng 3.400 tỷ đầu tư cho DQ2, +500.000 tấn/năm](https://cafef.vn/hoa-phat-chinh-thuc-duoc-chap-thuan-tang-3400-ty-dau-tu-cho-hoa-phat-dung-quat-2-nang-cong-suat-nam-them-500000-tan-188250807072739105.chn) · [KIS Việt Nam — kết quả kinh doanh HPG quý 2/2026: Dung Quất 2 tạo động lực](https://kisvn.vn/hoc-dau-tu/ket-qua-kinh-doanh-hpg-quy-2-2026) · [Hòa Phát — Dung Quất 2 nỗ lực hoàn thành đúng tiến độ](https://noibo.hoaphat.com.vn/tin-tuc/hoa-phat-dung-quat-2-no-luc-hoan-thanh-dung-tien-do.html) · [DNSE — khối ngoại tăng tốc gom HPG, triển vọng của Hòa Phát ra sao](https://www.dnse.com.vn/senses/tin-tuc/khoi-ngoai-tang-toc-gom-hpg-trien-vong-cua-hoa-phat-ra-sao-35195930)
 
 - **🚨🚨🚨 09:54 ICT WED 19-AUG · THE THREE-WEEK-OLD VPX `npat_ttm` ESCALATION IS CLOSED ON ARITHMETIC —
   THE DEFECT IS CONFIRMED AT 39.1% AND **THE FILE'S STANDING CLAIM ABOUT ITS CONSEQUENCE IS WRONG. TRIGGER 3
