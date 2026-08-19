@@ -40,6 +40,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **THE FOUR PENDING SHARE-COUNT INCREASES — HEADLINE TERMS** *(added 15-Aug 13:54; this is the COVERED twin of date-gate row 49)* | ⚠ **A general search on "TCB/VPB/MBB cổ tức · chốt quyền · phát hành riêng lẻ" returns THE SAME TERMS EVERY TIME and they are all on file:** TCB **60% bonus, ~4.25bn shares, charter capital >₫113,000bn**; VPB **₫79,339bn → >₫106,000bn in two tranches, tranche 2 = >624m shares to ONE FOREIGN INVESTOR**; MBB **record date 12-Aug, 15% stock dividend**. **What is genuinely missing is EX/RECORD DATES for TCB's 60% and VPB's two tranches, and `vsd.vn` is gateway-blocked** | **an ISSUER filing naming a date**, or a tranche actually executing — **not a re-run of the terms** |
 | **JACKSON HOLE 2026 & WARSH'S FIRST KEYNOTE** *(added 18-Aug 20:54 — after a search returned 100% covered ground)* | ✅ **ON FILE IN FULL AT LINES 3258–3281, WRITTEN 16-AUG:** symposium **Thu 27 – Sat 29 AUG**; theme *"Financial Innovation: Implications for Payments and Policy"* (**a payments theme, NOT a rates theme**); **Warsh's first keynote as Chair FRI 28-AUG ~10:00 ET = ~21:00 ICT, after Vietnam's close, so the first reactable session is MON 31-AUG**; Warsh sworn in 22-May-2026; FOMC + dot plot 15–16 Sep colliding with FTSE effective 21-Sep; **and the trigger-5 test is already computed and recorded** (*"beyond five sessions, therefore do NOT fire it today"*). ⚠⚠ **AND THE FILE NOW HOLDS THE REASON NOT TO OVER-WEIGHT IT: the Fed→dollar→VND chain is broken at link 1 (00:54 — a 42.6pp move in hike odds shifted DXY 4bp) AND at link 2 (20:54 18-Aug — DXY fell while the central rate set a record).** Only *"~120 central bankers from 70+ countries"* was ever new, and that is not a portfolio fact | **28-Aug ENTERS THE 5-SESSION WINDOW ON FRI 21-AUG** — re-open the trigger-5 test then, not the facts. Otherwise: **what Warsh actually SAYS**, from 31-Aug |
 | **SINGLE-STOCK PRICES — THE BLOCK IS PER-TICKER, AND THE TICKER IS MBB** *(added 18-Aug 20:54; this NARROWS the "not reachable" row above, which is falsified in its headline form)* | ⚠ **HPG ₫21,200 and TCB ₫31,450 both came back UNPROMPTED on 18-Aug** (TCB twice: ₫31,650 on 17-Aug am), inside searches aimed at company news — and **HPG ₫22,550 was already obtained on 03-Aug**. **So single-stock prices ARE reachable for at least three tickers.** ✅ **What survives is the row's NARROW form: no MBB-specific price of any construction — traded, announced or reference — has EVER been returned, across eight attempts.** Consequences are computed and on file (**TCB −7.1pp, HPG −2.0pp**; neither fires trigger 3) and both are **§4 human-only escalations, not edits** | **PRE-REGISTERED: MBB's price should become reachable AFTER WED 26-AUG** (rights-transfer window closes; ex was 11-Aug) **if the cause is the live corporate action.** Still blocked in September ⇒ the per-ticker story is wrong. **Costs no dedicated search — scored on whatever other lanes hand back** |
+| **✅ THE PRICE-LIMIT TEST — HOSE ±7% A DAY IS A HARD FALSIFIER FOR ANY QUOTED PRICE** *(added 19-Aug 11:54, after it killed a −31.6pp trigger-3 scare)* | 🎯 **A quoted price can be falsified against ANY dated anchor without a second quote: HOSE limits daily moves to ±7%, so max travel over n sessions is ×1.07ⁿ.** **Worked case: KDH closed ₫17,700 on 14-Aug; an undated ₫25,900 needs 5.63 consecutive limit-ups and only THREE sessions existed — max reachable ₫21,683. FORBIDDEN, not merely improbable.** ✅ **PRICES NOW CHECKED, six of eight: HPG −1.9% · TCB −7.0% · TCX ±1.4% · KDH +1.7% · VPB +1.2% · VCI −7.2%. E[r] deltas: TCB −7.1pp, VCI −6.4pp, everything else under 2pp. STILL UNCHECKED: MBB (per-ticker blocked) and VPX.** ✅ **KDH's `cap_now` ₫20,196.2bn is confirmed by an INDEPENDENT market cap of ₫20,087.6bn — 0.54%. Second name after TCX with a non-self-fulfilling cap check** | **any new quote — run the limit test on it before use.** Two free corroborators exist and cost nothing: an externally-reported market cap ÷ share count, and a broker target back-solved from its own stated upside % (NHSV's ₫34,600 at "+95.5%" reproduced ₫17,698 against a ₫17,700 close) |
 | **SAIGON GLORY / MASTERISE BOND MATURITIES — SETTLED, AND A FALSE DATE KEEPS RETURNING** *(added 18-Aug 21:54)* | ✅ **RESOLVED AND SOURCED: agreement 5-FEB-2024 extended ALL TEN LOTS SGL-2020.01–.10, ₫10,000bn (= ₫1,000bn/lot, cross-checked twice against figures already on file), by 1–2 years.** **.01–.03 → Jun-2025 · .04–.05 → Jul-2025 (both PAST DUE) · .06–.10 → NOVEMBER 2026 (+15 months).** **₫997bn of .06–.10 was REPURCHASED EARLY on 26–27 FEB 2026 = 19.94%, leaving ≈₫4,003bn net.** Also on file: the 14-Nov-2025 HNX report of a missed ₫3.5bn interest payment on SGL-2020.02. 🚨 **THE TRAP: "28-AUG" HAS NOW BEEN OFFERED IN TWO DIFFERENT YEARS AND BOTH ARE FALSE** — 28-Aug-2025 (the original maturity, no extension applied) and 28-Aug-2026 (a 12-month default applied instead of the stated 15). ***Any source giving an AUGUST maturity has applied the adjustment's direction without its magnitude. Do not treat it as a correction; the answer is NOVEMBER 2026*** | **an ISSUER OR HNX FILING dated after Feb-2026** — a further buyback, a new extension, or a payment failure. **NOT another general search, and NEVER an August date from a summariser** |
 | **SAIGON GLORY .01–.05 — THE PAST-DUE BLOCK, NOW MEASURED** *(added 18-Aug 23:54)* | ✅ **2025 scheduled principal ~₫300bn/lot × 5 = ₫1,500bn; ACTUALLY PAID < ₫7bn = 0.47%; outstanding ₫1,496bn — and 1,500 − 7 = 1,493 reconciles to 0.20%.** ⚠ **TWO READINGS of the ₫1,496bn are on file with the arithmetic that discriminates (total-remaining vs unpaid-2025-instalment, ₫2,500bn apart); the reconciliation selects the WORSE one and it is NOT collapsed to.** **FINED for failing to disclose payment information on .02 and .03 (matured June 2025)** — a governance fact, distinct from the 14-Nov-2025 missed ₫3.5bn interest on .02. **.05 originally matured 10-Jul-2023; .01–.03 June-2023 — extensions of +24/+24/+15 months, bracketing the agreement's stated "1–2 years" exactly.** Financials: swung from ~−₫16,000bn to +₫1,500bn under the new owner, **accumulated losses ~₫18,000bn**, still cannot pay. **Collateral appraisal reported down sharply — DIRECTIONAL AND UNDATED, deliberately not quantified** | **a 2026-dated payment, a further sanction, or a NUMBER on the collateral haircut** — not a re-run. ⚠ **The open question is NOT factual but definitional and sits in the §4 queue: does "a Masterise bond event" cover a Bitexco-era issuer's pre-acquisition defaults?** |
 | **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
@@ -130,6 +131,76 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨🚨 11:54 ICT WED 19-AUG · A PRICE THAT WOULD HAVE FIRED TRIGGER 3 AT −31.6pp IS **ARITHMETICALLY
+  IMPOSSIBLE**, AND HOSE'S 7% DAILY LIMIT IS WHAT KILLED IT. A NEW FREE DETECTOR, AND THE 10:54 AUDIT'S GAP
+  CLOSES FROM FIVE NAMES TO TWO (lane 3).**
+
+  🚨 **THE SCARE. A search for the five names with no dated price returned KDH at ₫25,900 — "giá hiện tại",
+  UNDATED, T5. The file carries ₫18,000.** *That is the file 30.5% LOW, and on the closed form it is worth:*
+  **k = 1.43889 ⇒ E[r] +3.5% → −28.1% ⇒ −31.6pp.** 🚨 ***THAT WOULD FIRE TRIGGER 3 BY THREE TIMES ITS
+  THRESHOLD — the largest price-staleness consequence this file has ever computed, four and a half times the
+  TCB one.*** ⚠⚠ **AND IT RESTED ON THE WEAKEST EVIDENCE OF ANY OF THEM: one figure, no date, one source.
+  *Biggest consequence, thinnest evidence* — that pairing is the alarm, not the number.**
+
+  🎯🎯🎯 **THE TEST THAT KILLED IT, AND IT IS NEW TO THIS FILE: **HOSE'S DAILY PRICE LIMIT IS ±7%, WHICH IS A
+  HARD ARITHMETIC CEILING ON HOW FAR ANY PRICE CAN TRAVEL FROM A DATED ANCHOR.** *The same source family
+  supplies the anchor: **KDH closed ₫17,700 on 14-AUG.** From Friday 14-Aug to today there are at most **THREE
+  sessions** (Mon 17, Tue 18, Wed 19).*
+  | | |
+  |---|---|
+  | maximum reachable in 3 consecutive limit-ups | **17,700 × 1.07³ = ₫21,683** |
+  | sessions of UNINTERRUPTED limit-up needed for ₫25,900 | **5.63** |
+  🚨 ***₫25,900 CANNOT BE A KDH PRICE ON 19-AUGUST. It is not improbable — it is forbidden by the exchange's
+  own rules.*** ✅ **AND THE FILE'S ₫18,000 IS ESSENTIALLY RIGHT: 1.7% ABOVE the 14-Aug close, not 30.5%
+  below. Real consequence: k = 0.98333 ⇒ E[r] +3.5% → +5.25%, **+1.75pp**. Nothing fires.**
+
+  ✅✅ **THREE INDEPENDENT ROUTES CONVERGE ON ~₫17,700–17,900, AND NONE WAS COLLECTED FOR THE OTHERS' SAKE:**
+  | route | value |
+  |---|---|
+  | stated closing price, 14-Aug | **₫17,700** |
+  | **an independent MARKET CAP of ₫20,087.6bn (July) ÷ 1,122.1m shares** | **₫17,902** |
+  | **NHSV's target ₫34,600 back-solved from its own stated "+95.5% upside"** | **₫17,698** |
+  ✅ ***That third one is the prettiest: a broker's percentage reproduces the anchor to ONE DONG, from a number
+  published for an entirely different purpose.***
+  🎯🎯 **AND THE SECOND ROUTE IS THE CHECK THE 10:54 AUDIT SAID THE FILE NEEDED. `cap_now` = 12.36 × 1,634 =
+  ₫20,196.2bn against an externally-reported ₫20,087.6bn — **0.54%**.** ***KDH becomes the SECOND name, after
+  TCX, whose capitalisation is confirmed by an INDEPENDENT market cap rather than by the self-fulfilling
+  `pe × npat = shares × price` identity.*** *The file wrote weeks ago that "a share-count audit alone cannot
+  distinguish 'stale price' from 'wrong cap' — it needs an independent market capitalisation." Two of eight
+  now have one.*
+
+  ✅ **THE OTHER TWO PRICES, BOTH DATED, BOTH RECORDED:**
+  | | file | market | dated | **Δ E[r]** |
+  |---|---|---|---|---|
+  | **VPB** | ₫25,000 | **₫24,700** | **18-Aug pm** | **+1.05pp** *(file 1.2% high)* |
+  | **VCI** | ₫20,500 | **₫22,100** | **12-Aug** | 🚨 **−6.42pp** *(file 7.2% low)* |
+  ⚠ **VCI's −6.4pp is the SECOND-LARGEST price defect found, behind TCB's −7.1pp, and it lands on the name
+  whose `confidence` (0.40) is ALREADY a standing §4 escalation.** *Below the 10pp threshold, so trigger 3
+  does not fire — stated explicitly, as at 20:54, because the temptation runs the other way.* **On a
+  confidence-weighted basis VCI moves −4.5% → −7.1%.**
+
+  ✅ **THE 10:54 AUDIT'S GAP NARROWS FROM FIVE UNCHECKED NAMES TO TWO IN ONE HOUR.** *Now checked against a
+  market price: **HPG −1.9%, TCB −7.0%, TCX ±1.4%, KDH +1.7%, VPB +1.2%, VCI −7.2%** — six of eight.* **STILL
+  UNCHECKED: MBB (per-ticker blocked, eight attempts, and the 26-Aug pre-registration is running) and VPX.**
+  ✅ **AND THE SHAPE OF THE SIX IS ITSELF INFORMATIVE: four are within ±2%, two are 7% low. The book's price
+  staleness is NOT uniform drift — it is concentrated in TCB and VCI, and those two are worth −7.1pp and
+  −6.4pp against everything else being noise.**
+
+  ✅ *Also recorded, new: **NHSV rates KDH BUY with a 1-year target of ₫34,600** — a street target on a
+  holding the file did not have.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — every `price` is
+  §4 human-only and all four readings above are escalations, not edits. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES — AND THE ONE THAT NEARLY DID WAS FALSIFIED BY EXCHANGE RULES RATHER THAN BY A
+  SECOND SOURCE. Trigger 3 computed on all four names: KDH +1.75pp, VPB +1.05pp, VCI −6.42pp, all below the
+  10pp threshold; the −31.6pp figure rested on an impossible price. Trigger 4 REMAINS FIRED on VPX. Trigger 5
+  REMAINS FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED.
+  Trigger 1 negative.**
+  ⚠ **§4 QUEUE: TCB (−7.1pp) and VCI (−6.4pp) are the two measured price defects; KDH, VPB and HPG are within
+  2% and can be left. VCI's stale price and its 0.40 confidence are now a PAIR of open items on one name.**
+  [VOV — một số cổ phiếu cần quan tâm 17/8: cơ hội tiềm năng với GMD, KDH, BID](http://vov.vn/thi-truong/mot-so-co-phieu-can-quan-tam-178-co-hoi-tiem-nang-voi-gmd-kdh-bid-post1324401.vov) · [CafeF — dữ liệu KDH (HOSE)](https://cafef.vn/du-lieu/hose/kdh-cong-ty-co-phan-dau-tu-va-kinh-doanh-nha-khang-dien.chn) · [CafeF — dữ liệu VPB (HOSE)](https://cafef.vn/du-lieu/hose/vpb-ngan-hang-thuong-mai-co-phan-viet-nam-thinh-vuong.chn) · [VietstockFinance — VCI/Vietcap](https://finance.vietstock.vn/VCI-ctcp-chung-khoan-vietcap.htm) · [VietstockFinance — KDH](https://finance.vietstock.vn/KDH-ctcp-dau-tu-va-kinh-doanh-nha-khang-dien.htm)
 
 - **🚨🚨🚨 10:54 ICT WED 19-AUG · VIETNAM PUT A **27.83% ANTI-CIRCUMVENTION DUTY ON CHINESE HRC ON 12-AUGUST**
   AND THIS FILE HAD NO RECORD OF IT. IT INVERTS MONDAY'S HEADLINE: HPG GOES FROM A +5–8% PREMIUM TO A ~15–18%
