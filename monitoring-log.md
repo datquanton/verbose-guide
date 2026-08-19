@@ -132,6 +132,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨 13:54 ICT WED 19-AUG · THE BACK-SOLVE ROUTE GETS A PRICE FOR **MBB** — THE TICKER BLOCKED ACROSS
+  EIGHT ATTEMPTS — AND IT WOULD FIRE TRIGGER 3 AT **−33.0pp** ON THE BRIEF'S LARGEST ADD. I AM NOT ASSERTING
+  IT, AND THE REASON IS THE SAME ONE THAT KILLED YESTERDAY'S KDH SCARE (lanes 3, 6).**
+
+  🎯 **THE ROUTE, TWO HOURS OLD, APPLIED TO THE ONE NAME THAT HAS NEVER YIELDED A PRICE.** *At 11:54 a broker
+  target back-solved from its own stated upside reproduced KDH's close to one dong. **MBB has never returned a
+  price of any construction — traded, announced or reference — across eight attempts.*** **VCBS's ₫37,230 is
+  stated as *"approximately 28% higher than the current market price"* ⇒ reference **₫29,086**.**
+
+  🚨 **AGAINST THE FILE'S ₫22,050 THAT IS 24.2% LOW, AND THE CONSEQUENCE IS THE LARGEST IN THE BOOK:**
+  *k = 1.31909 ⇒ **E[r] +36.6% → +3.56%**, a **−33.0pp** move — **more than three times trigger 3's threshold,
+  on MBB, which carries the brief's largest proposed ADD at +6.8pp and its top confidence-weighted return of
+  +18.3%.***
+  ⚠⚠⚠ ***AND IT IS THE SAME SHAPE AS YESTERDAY'S KDH SCARE — BIGGEST CONSEQUENCE, WEAKEST EVIDENCE — SO IT
+  GETS THE SAME TREATMENT.***
+
+  🚨🚨 **THE REPORT IS DATED FEBRUARY 2026. The source PDF is `mbb_tang_toc_don_dau_chu_ky_moi_02_2026.pdf`.**
+  ***So ₫29,086 is a SIX-MONTH-OLD reference and says nothing about MBB's price in July or August.*** **The
+  back-solve inherits the report's date, and at 11:54 it worked precisely because the KDH report was
+  contemporaneous with a dated close. Applied to an undated or stale report the method transfers the
+  arithmetic and not the evidence.**
+
+  🎯🎯 **AND A SECOND BROKER TARGET ACTIVELY SUPPORTS THE FILE'S NUMBER, WHICH IS THE PART THAT SETTLES IT.**
+  **TPS rates MBB a BUY with a target of ₫23,500.** ***A BUY at ₫23,500 requires the market price to be BELOW
+  ₫23,500.*** **The file's ₫22,050 satisfies that; ₫29,086 does not — a broker does not publish a BUY with a
+  target 19% below the market.** *So at the TPS report's date, MBB was under ₫23,500, and the file's price is
+  consistent with it.*
+  ✅ **THE FULL BACK-SOLVE SET, WHICH IS A SPREAD AND NOT A POINT — AND THE SPREAD IS THE 11-AUG EX-DATE:**
+  | stated | implied reference | |
+  |---|---|---|
+  | ₫37,230 at **+28%** | **₫29,086** | *Feb-2026* |
+  | ₫29,300 at **+17%** | **₫25,043** | undated |
+  | ₫37,230 at **"over 60%"** | **₫23,269** | undated |
+  ✅✅ **THE CUM/EX IDENTITY EXPLAINS THE TWO CLUSTERS AND IS THE STRONGEST THING HERE: on this file's own
+  `P_ex = (P_cum + 1,000) / 1.25`, a cum price of ₫29,086 becomes **₫24,069 ex** — which lands INSIDE the
+  ₫23,269–25,043 cluster.** ***Two groups of undated broker references, six months apart in origin, reconcile
+  exactly as one stock either side of the 11-August ex-date. That is a real result about MBB even though it
+  does not give a current price.***
+  ⚠ **WHERE IT LEAVES THE STANDING MBB ESCALATION: `price` ₫22,050 is BELOW even the ex-cluster (₫23,269–25,043)
+  by 5–12%, and its own cum-equivalent is 1.25 × 22,050 − 1,000 = ₫26,562 — below the ₫29,086 cum reference by
+  8.7%.** ***So ₫22,050 fits neither cluster cleanly, and I am NOT converting that into a direction.*** *The
+  honest position is that MBB's price remains unestablished, the −33.0pp figure is unsupported, and the file's
+  number is the only one with a corroborating constraint behind it (TPS).*
+
+  ✅ **THREE GENUINELY NEW MBB FACTS, ALL ZERO PRIOR HITS:**
+  - **VCBS values MBB on a stated 1.6× P/B**, combined with a residual-income model — *a valuation BASIS for a
+    target the file has been carrying as a bare number since yesterday.*
+  - **VCBS estimates 2026 profit >₫43,244bn, +26.2% YoY.** ⚠ *Reported as "net profit"; at that level against
+    MBB's scale it is far more likely PBT. **Recorded with the ambiguity attached and not compared to
+    `npat_ttm` 30,858**, which would be exactly the measure substitution this file catalogues.*
+  - 🚨 **MBB's OWN 2026 guidance is profit growth of 15–20%. VCBS is at +26.2% — SIX TO ELEVEN POINTS ABOVE
+    MANAGEMENT'S OWN TARGET.** *That gap is the interesting number: the street is not marking MBB to guidance,
+    it is marking it above guidance, on the name the brief already ranks first.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — `price` is §4
+  human-only and nothing here is established enough to escalate as a value. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 3 was computed at −33.0pp and is NOT declared, because the price it rests
+  on is a February reference and a second broker's BUY target contradicts it. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2
+  STANDING-BREACHED. Trigger 1 negative.**
+  ⚠ **THE AUDIT STAYS AT SEVEN OF EIGHT. MBB is not closed — what closed is the belief that no route exists:
+  the back-solve DOES reach MBB, it just needs a DATED report.** *That is a narrower and more useful statement
+  of the block than "MBB never returns a price."*
+  [VietstockFinance — MBB: khuyến nghị MUA với giá mục tiêu 37,230 đồng/cp](https://finance.vietstock.vn/bao-cao-phan-tich/19031/mbb-khuyen-nghi-mua-voi-gia-muc-tieu-37230-dongco-phieu.htm) · [VCBS Research — MBB tăng tốc đón đầu chu kỳ mới *(file stamped 02_2026)*](http://static1.vietstock.vn/edocs/19031/mbb_tang_toc_don_dau_chu_ky_moi_02_2026.pdf) · [Tạp chí KTTC — MBB tăng tốc chu kỳ mới, định giá còn hấp dẫn](https://tapchikinhtetaichinh.vn/mbb-tang-toc-chu-ky-moi-dinh-gia-con-hap-dan-147919.html) · [StockBiz — chuyên gia khuyến nghị mua MBB với kỳ vọng giá tăng 27%](https://stockbiz.vn/tin-tuc/chuyen-gia-khuyen-nghi-mua-co-phieu-mbb-voi-ky-vong-gia-tang-27/30063205) · [Báo Sức Khỏe & Đời Sống — TPS khuyến nghị mua MBB, kỳ vọng giá lên 23.500 đồng](https://baomoi.com/tps-khuyen-nghi-mua-co-phieu-mbb-ky-vong-gia-len-23-500-dong-c55829626.epi)
+
 - **🚨🚨 12:54 ICT WED 19-AUG · THE PRICE BLOCK WAS **NOT** STRUCK ON ONE DATE, AND I CAN PROVE IT FROM THE
   FILE'S OWN NUMBERS. THE BRIEF'S E[r] RANKING MAY BE COMPARING CAPITALISATIONS STRUCK WEEKS APART. VPX
   closes the audit to seven of eight (lane 3).**
