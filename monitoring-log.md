@@ -133,6 +133,73 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨 22:54 ICT WED 19-AUG · `valuation.VPB.npat_ttm` = 30,620 IS ALMOST CERTAINLY VPB's FY2025 **PBT**,
+  NOT A TRAILING NPAT — IT MATCHES THE FILED PRE-TAX FIGURE TO **0.065%**. THIRD NAME WITH THIS DEFECT, AND
+  THE 10:54 AUDIT PREDICTED EXACTLY THIS SHAPE (lane 3).**
+
+  🚨 **THE COINCIDENCE THAT IS NOT ONE.** *At 09:54 today the file recorded **VPBank's FY2025 profit of
+  ₫30,600bn**, and VietnamPlus states it explicitly as **"lợi nhuận TRƯỚC THUẾ"** — **PRE-TAX**.*
+  | | |
+  |---|---|
+  | VPB FY2025 **PBT** | **₫30,600bn** |
+  | `valuation.VPB.npat_ttm` | **30,620** |
+  | **gap** | **0.065%** |
+  ⚠⚠ ***A trailing-twelve-month NPAT spanning H2/2025 + H1/2026 has NO REASON to land within seven parts in
+  ten thousand of a full-year PRE-TAX figure.*** **The overwhelmingly likely reading is that the field holds
+  FY2025 PBT under an NPAT label.** *At a bank-typical 79–80% retention, VPB's FY2025 NPAT is **₫24,174–24,480bn**
+  — the stored figure is **25–27% too high**.*
+
+  ✅ **AND THE CONSEQUENCE IS EXACTLY WHAT THIS MORNING'S AUDIT PREDICTED, WHICH IS THE POINT.** *At 10:54 the
+  identity audit found `pe_ttm × npat_ttm` equals `shares × price` on all eight names and concluded: **"no
+  `npat_ttm` or `pe_ttm` error can move any name's expected return, provided the pair moves together."***
+  | | |
+  |---|---|
+  | `pe_ttm × npat_ttm` = 6.48 × 30,620 | **₫198,417.6bn** |
+  | `shares × price` = 7,933.9m × ₫25,000 | **₫198,347.5bn** |
+  | gap | **0.035%** |
+  🚨 **So `cap_now` is RIGHT, E[r] does NOT move, TRIGGER 3 DOES NOT FIRE — and the coherent correction moves
+  `npat_ttm` DOWN to ≈₫24,174–24,480bn WITH `pe_ttm` UP from 6.48 to ≈8.10–8.20×.** ⚠⚠ ***AND THE STORED
+  "6.48× P/E" IS NOT A P/E AT ALL — it is a price-to-PRE-TAX-earnings multiple, and it has been sitting in a
+  field called `pe_ttm` and read as the cheapest multiple in the book.***
+
+  🎯🎯 **THIS IS THE THIRD NAME, AND THE FILE ITSELF NAMED THE FIRST TWO.** *`valuation.VPX._npat_ttm_FLAG`
+  opens: **"SUSPECT 2026-07-27 — SECOND instance of this error class after VCI."*** **VCI, then VPX, now VPB.
+  Three of eight trailing-earnings fields defective, each discovered separately, none by a systematic pass —
+  and the 10:54 audit explains why a systematic pass on the IDENTITY could never have found them: the identity
+  closes to under 0.08% on all eight precisely because every block was solved for a cap already known.**
+  ⚠ **WHAT WOULD HAVE FOUND THEM, AND WHAT THIS FILE SHOULD RUN: a MAGNITUDE check against each name's filed
+  earnings — which is what caught VPB tonight, by accident, from a figure collected thirteen hours ago for an
+  entirely different purpose.**
+
+  ⚠ **WHAT I AM NOT CLAIMING: VPB's true TTM NPAT.** *TTM is H2/2025 + H1/2026 and this file has neither half
+  for VPB. **The ₫24,174–24,480bn figure is FY2025 NPAT, not TTM**, and is offered only to size the error —
+  the correct replacement needs VPB's H1/2026 NPAT, which is not on file.* **§4 human-only in any case;
+  nothing is written.**
+
+  ✅ **TWO FREE CONFIRMATIONS FROM THE SAME SEARCH:** *VPX's FY2026 plan is revenue **₫11,074bn (+59%)** and
+  **PBT ₫6,453bn (+44%)** — and `vpx.actuals.fy_plan_pbt` is **6,453**, an EXACT match on a stored field.*
+  *VPB's own 2026 plan is **>₫41,300bn** of profit against FY2025's ₫30,600bn = **+35.0%**, with charter
+  capital going to "the highest in the banking system" — consistent with the ₫100,000bn step already on file.*
+
+  ⚠ **ONE ITEM DROPPED ON PURPOSE — THE SIXTH UNDATED TRAP IN TWO DAYS.** *A VPB board resolution
+  **"approving contracts, TTTC-product transactions and risk limits with CTCK VPBank"** would be a
+  related-party exposure between TWO HOLDINGS and the file has never sized it.* **It is undated in every
+  result, its substance sits in an unretrievable PDF, and a sibling resolution for GPBank is dated May-2026 —
+  so the VPX one could be anything.** ***Recorded as existing, not used.*** *Yesterday I said the date check
+  has to run hardest on the evidence one wants; this is that rule applied to something I would very much like
+  to have.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — `npat_ttm` and
+  `pe_ttm` are both §4 human-only. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 3 computed and NEGATIVE — `cap_now` is right, so E[r] is unchanged, the
+  same result as VPX at 09:54. Trigger 4 does NOT fire: this is an error in THIS FILE's field, not a change
+  in VPB's disclosed evidence. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session
+  2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 1 negative.**
+  ⚠ **§4 QUEUE: VPB needs `npat_ttm` and `pe_ttm` corrected TOGETHER (≈24,174–24,480 with ≈8.10–8.20×, pending
+  a true TTM). Three of eight trailing-earnings fields are now known defective — VCI, VPX, VPB — and the
+  remaining five have never been magnitude-checked against filed earnings.**
+  [VietnamPlus — VPBank lập kỷ lục lợi nhuận TRƯỚC THUẾ 30.600 tỷ đồng năm 2025](https://www.vietnamplus.vn/loi-nhuan-truoc-thue-cua-vpbank-dat-30600-ty-dong-tang-cao-nhat-lich-su-post1089391.vnp) · [CafeF — ĐHCĐ VPBank: kế hoạch lợi nhuận 2026 trên 41.300 tỷ, tăng vốn điều lệ cao nhất hệ thống](https://cafef.vn/dhcd-vpbank-ke-hoach-loi-nhuan-2026-tren-41300-ty-dong-tang-von-dieu-le-len-cao-nhat-he-thong-ngan-hang-188260422140909744.chn) · [Thời báo Tài chính — Chứng khoán VPBank đặt mục tiêu lãi hơn 6.400 tỷ đồng năm 2026](https://thoibaotaichinhvietnam.vn/chung-khoan-vpbank-dat-muc-tieu-lai-hon-6400-ty-dong-trong-nam-2026-192641.html) · [VOV — ĐHĐCĐ VPBankS thông qua kế hoạch tăng trưởng 39% năm 2026](https://vov.vn/doanh-nghiep/dhdcd-vpbanks-thong-qua-ke-hoach-tang-truong-39-trong-nam-2026-post1285501.vov) · [Vietstock — VPB nghị quyết HĐQT hạn mức rủi ro với GPBank *(May-2026; cited to show the sibling resolution's dating)*](https://vietstock.vn/2026/05/vpb-nghi-quyet-hdqt-ve-viec-thong-qua-hop-dong-giao-dich-va-han-muc-rui-ro-voi-gpbank-737-1442072.htm)
+
 - **🎯⚠ 21:54 ICT WED 19-AUG · MY 08:54 PREDICTION WAS RIGHT ABOUT THE HEADLINE AND WOULD HAVE RETIRED A
   REAL FINDING ABOUT A HOLDING. VPB's DEPOSIT BOARD IS TIERED UP TO 8.8% AT **RETAIL** TICKET SIZES, NOT AT
   ₫500bn. Also: gate row 33 repaired in place (lanes 1, 3).**
