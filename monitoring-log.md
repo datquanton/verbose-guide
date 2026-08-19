@@ -133,6 +133,59 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨 00:54 ICT THU 20-AUG · THE 29-JUL FOMC MINUTES ARE OUT AND THEY ARE MORE HAWKISH THAN THE VOTE
+  COUNT SUGGESTED — THE SENTIMENT EXTENDS **BEYOND** THE THREE DISSENTERS. AND WARSH HAS PROPOSED CUTTING
+  FOMC MEETINGS FROM EIGHT TO SIX. The file has already measured that none of this reaches Vietnam (lane 1).**
+  *Released overnight US time — the dated event flagged at 08:54 yesterday, arriving on schedule.*
+
+  ✅ **WHAT WAS ALREADY ON FILE AND IS NOT RE-REPORTED:** the 3.50–3.75% hold, the 9–3 vote, and the three
+  dissenters by name — **Hammack (Cleveland), Kashkari (Minneapolis), Logan (Dallas)**, all preferring a
+  quarter-point RISE — sit at line 18309.
+
+  🚨🚨 **WHAT IS NEW, AND THE SECOND ITEM IS THE ONE THAT MATTERS:**
+  - **"The most dissents since SEPTEMBER 2016"** — a ten-year extreme, and the first time the file has had the
+    vote placed in a historical distribution rather than described.
+  - 🚨 ***THE HAWKISH SENTIMENT EXTENDED WELL BEYOND THE THREE DISSENTERS.*** *Participants recorded that
+    **"policy tightening would likely be necessary if inflation did not decline"**, and some judged that
+    **current financial conditions "might not be tight enough"** to bring inflation back.* **The file has been
+    reading this meeting as "3 of 12 want to raise." The minutes say the bloc is wider than the vote.** *A
+    dissent count is a floor on hawkishness, not a measure of it — the ones who voted with the chair are not
+    thereby doves, and this file had been treating 9–3 as if they were.*
+  - **A 166-word statement with no forward guidance**, consistent with Warsh's stated scepticism of guidance.
+  - 🚨 **WARSH ASKED THE COMMITTEE TO CONSIDER CUTTING FOMC MEETINGS FROM EIGHT A YEAR TO SIX**, arguing six
+    *"would allow more information to accumulate between meetings than under current practice."*
+
+  🎯 **THE MEETING-COUNT PROPOSAL IS THE ONE WITH STRUCTURAL CONSEQUENCES FOR THIS FILE'S MACHINERY, AND IT IS
+  WORTH SAYING EVEN THOUGH IT IS ONLY A PROPOSAL.** *Trigger 5 — "a dated catalyst within 5 sessions of a
+  proposed trade" — depends on a calendar of dated events, and FOMC dates are among the most reliable entries
+  on it.* ***Six meetings instead of eight means fewer, larger, more widely spaced policy decision points, and
+  longer intervals in which a book sits unrepriced by policy.*** **Recorded as a PROPOSAL under discussion,
+  not a decision. It changes nothing on the current calendar — 15–16 Sep with the dot plot stands.**
+
+  ⚠⚠ **AND THE HONEST FRAMING, WHICH IS THE WHOLE REASON THIS IS A SHORT ENTRY RATHER THAN A LONG ONE: THIS
+  FILE HAS ALREADY MEASURED THAT THE FED DOES NOT REACH THIS BOOK.** *Link 1 broke at 00:54 yesterday — a
+  **42.6pp** collapse in September hike odds moved DXY by **four basis points**. Link 2 broke over 18–19 Aug —
+  **DXY below 100 while the SBV central rate set records on three consecutive sessions.*** **So a more hawkish
+  Fed is a real fact about the Fed and a measured non-event for eight Vietnamese equities.** ***That
+  discounting is a conclusion this file earned with data, not an assumption — and it is the reason a
+  ten-year extreme in dissent gets four lines and no model change.***
+
+  ⚠ **A DATE CHANGES TODAY AND IT IS NOT THE FED'S. IT IS NOW THURSDAY 20-AUG:**
+  | | |
+  |---|---|
+  | **FRI 21-AUG = SESSION 1 — TOMORROW** | **FTSE GEIS official constituent list · KDH's insider-buy window CLOSES · calibration Forecast #7 RESOLVES** |
+  | **MON 24-AUG = SESSION 2** | **US CORE circumvention PRELIMINARY determination** |
+  🚨 **Trigger 5 remains FIRED and TIGHTENS — three separate resolutions land tomorrow, and gate row 62's
+  fence on KDH (*"RE-OPEN: 21-Aug window close — and NOTHING before it"*) expires with them.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — a macro read is not evidence about any
+  company's numbers, per the file's standing rule. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 was already FIRED and simply tightens by one session. Trigger 4 does
+  NOT fire — an FOMC minute is not a held name's disclosed evidence. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  [Yahoo Finance — Fed July 2026 FOMC minutes: rate hike debate details](https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html) · [Quartz — Fed FOMC minutes July 2026, rate-hike dissent](https://qz.com/fed-fomc-minutes-july-2026-rate-hike-dissent-081926) · [CNBC — Fed rate decision July 2026: divided Fed holds rates steady](https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html) · [PNC Economics — FOMC meeting 29 July 2026 (166-word statement, no guidance)](https://www.pnc.com/content/dam/pnc-com/pdf/aboutpnc/EconomicReports/EconomicUpdates/2026/PNC_Economics_Research_FOMC_Meeting_29_July_2026.pdf) · [Fox Business — July FOMC: Fed holds interest rates steady](https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-july-29-2026)
+
 - **🚨🚨🚨 23:54 ICT WED 19-AUG · I RAN THE MAGNITUDE PASS I NAMED AN HOUR AGO. **FOUR OF EIGHT
   TRAILING-EARNINGS FIELDS ARE NOT A TRAILING-TWELVE-MONTH NPAT** — and the fourth one is TCX, where the file
   says so openly. Two pass, two cannot be tested (lane 3, zero searches).**
