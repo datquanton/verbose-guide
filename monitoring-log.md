@@ -75,7 +75,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
 | ~~**⚠ SBV monthly credit/deposit prints — DUE ~05-AUG**~~ **RESOLVED 05-Aug 06:53 — AND THE GATE WAS MIS-DATED. The print came 03-AUG at the government press conference, not on a "month-end +5d" calendar: ₫20,150,000bn at 29-Jul, +8.38% YTD. A gate placed in the future for an event already past SUPPRESSED the search for two days. FUTURE ROWS FOR THIS ITEM MUST WATCH THE GOVERNMENT PRESS CONFERENCE CYCLE, NOT A STATISTICAL CALENDAR.** **Next print ~early Sep.** **⚠ NEW GATE: SBV guidelines for the ₫220,000bn four-state-bank package — "in the coming days" from 03-Aug, so LIVE NOW.** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
-| ~~VNDiamond effective 03-Aug~~ **ROUTE CLOSED 15:53 — BLOCKED, NOT UNRESEARCHED** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
+| ~~VNDiamond effective 03-Aug~~ ~~**ROUTE CLOSED 15:53**~~ **⚠⚠ RE-OPENED 19-Aug 06:54 — THE CLOSURE WAS TOO BROAD. The three closed routes were fund-portfolio documents (`vietcat.com`) and `vsd.vn`. GENERAL NEWS COVERAGE OF A CONSTITUENT CHANGE IS A FOURTH ROUTE, WAS NEVER TRIED, AND IS NOT BLOCKED — it worked first attempt and returned a real article (wrong YEAR: Oct-2021). ⚠ AND THE QUESTION IS INVERTED: KDH was a CONSTITUENT as of 01-Nov-2021, so the open question is REMOVAL (forced ETF selling, same direction as the proposed TRIM), not addition. `valuation.TCX` already held the general lesson — *"a blocked host is evidence about a host, not about a number"* — and it was not carried across.** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | ~~3-Aug quadruple date~~ **SPENT — CLOSED 04-Aug** | July CPI ✓ 4.45% · July PMI ✓ 52.9 · TCX VN30 effective ✓ (flow completed 31-Jul) · **VNDiamond — route closed, `vietcat.com` and `vsd.vn` are gateway-blocked; KDH's status stays UNKNOWN and is not to be re-searched** | — |
 | ~~July CPI release~~ **RESOLVED 03-Aug 12:53: +4.45% YoY** | **CLOSED.** Second consecutive monthly fall (May 5.60 → Jun 4.69 → Jul 4.45); **May confirmed as the peak.** The **cumulative average ROSE 4.38% → 4.39% in the same month** — the pre-registered warning held. **Core +4.63% YoY is now ABOVE headline +4.45%**: the fall is petrol and food, i.e. a price event, not a demand event. **Level unchanged — still ~0.95pp above risk.py's 3.5%.** Next print ~2026-09-06 | 1 |
@@ -129,6 +129,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🎯🎯 06:54 ICT WED 19-AUG · A HEADLINE READING *"VNDIAMOND ADDS KDH"* CAME BACK AND I DATED IT BEFORE
+  USING IT — IT IS FROM OCTOBER **2021**. But it changes the open catalyst's DIRECTION, and it proves the
+  "ROUTE CLOSED" row was closed too broadly (lane 4).**
+
+  ⚠⚠⚠ **THE TRAP, AND IT IS THE MOST DANGEROUS SHAPE THIS WEEK HAS PRODUCED.** The file carries an
+  **UNRESOLVED trigger-5 catalyst FIRED 01-AUG — KDH's VNDiamond status at the 03-Aug review — against a
+  PROPOSED TRIM of KDH −3.2pp on 20.3% of the book.** *A search returned "VNDiamond cơ cấu danh mục: Thêm mới
+  KDH, loại LPB và TCM" — which reads exactly like the resolution.* **It is dated OCTOBER 2021**: the CafeF
+  URL carries `20211018`, and Vietstock and Fili both file it under `2021/10`. **Rebalance completed 29-Oct,
+  effective 01-NOV-2021, rule set v2.0 introduced, basket cut to 17 names.**
+  🚨 ***THIS IS THE FOURTH STALE-YEAR TRAP IN TWELVE HOURS — after the 28-Aug Masterise maturity (21:54),
+  Công điện 128 of Aug-2025 (22:54) and "sắp nới room ngoại" on a May-2025 decree (03:54) — AND IT IS THE
+  FIRST WHERE THE STALE ITEM WOULD HAVE **CLOSED** A FIRED TRIGGER RATHER THAN OPENED A FALSE ONE.***
+  ⚠⚠ **THAT ASYMMETRY IS THE LESSON: a stale item that raises a false alarm gets scrutinised, because alarms
+  invite checking. A stale item that RETIRES a real alarm gets welcomed, because it removes work.** *Eighteen
+  days of an open fired trigger create an appetite for exactly the article that closes it. The date check has
+  to run hardest on the evidence one wants.*
+
+  ✅✅ **AND THE DEAD ARTICLE IS STILL WORTH MORE THAN THE SEARCH COST, BECAUSE IT REFRAMES THE QUESTION.**
+  **KDH WAS A VNDIAMOND CONSTITUENT AS OF 01-NOV-2021**, with no removal recorded anywhere in this file since.
+  | the file has been asking | what it should be asking |
+  |---|---|
+  | *"was KDH ADDED at the 03-Aug review?"* | ***"was KDH REMOVED at the 03-Aug review?"*** |
+  🚨 **THOSE HAVE OPPOSITE FLOW CONSEQUENCES, AND THE BOOK IS POSITIONED ON ONE SIDE OF IT.** *An incumbent's
+  removal is FORCED ETF SELLING; a non-member's addition is buying. **Against a proposed TRIM of KDH, removal
+  would push the same way and retention would mean no flow at all** — so the unresolved catalyst's SIGN is now
+  known to be removal-risk, not addition-upside, and the file has been carrying it for eighteen days without
+  knowing which way it pointed.* ⚠ **STATED PRECISELY AND NOT OVERSTATED: KDH was a constituent AS OF
+  Nov-2021 and this file records no removal since. That is NOT the same as continuous membership through
+  2022–2026, and I am not claiming it.**
+
+  🎯 **AND THE "ROUTE CLOSED" ROW IS CLOSED TOO BROADLY — WHICH IS A LESSON ALREADY WRITTEN IN THIS REPO AND
+  NOT APPLIED HERE.** Gate row 78 reads *"ROUTE CLOSED 15:53 — BLOCKED, NOT UNRESEARCHED. Seven attempts,
+  three routes"*, and the routes were **fund-portfolio documents (`vietcat.com`) and `vsd.vn`** — both
+  gateway-blocked. ***General NEWS COVERAGE OF A CONSTITUENT CHANGE IS A FOURTH ROUTE, IT WAS NEVER TRIED, AND
+  IT IS NOT BLOCKED — it worked on the first attempt and returned a real article. It simply returned the wrong
+  YEAR.*** **`valuation.TCX` already holds the general form of this error verbatim: *"I HAVE BEEN INFERRING
+  'THE DATA IS UNAVAILABLE' FROM 'THE PAGE I TRIED IS 403'… A blocked host is evidence about a host. It is not
+  evidence about a number."*** *Recorded there on 07-Aug, about TCX, and not carried across to VNDiamond.*
+  **The row is therefore RE-OPENED on the news route rather than left closed.**
+
+  ✅ **ONE STRUCTURAL FACT RECOVERED, AND IT MEETS YESTERDAY'S LOCK FINDING HEAD-ON: VNDIAMOND SELECTS STOCKS
+  THAT HAVE NEARLY REACHED OR TOUCHED THE FOREIGN-OWNERSHIP LIMIT** — it is an index of foreign demand under
+  constraint. 🚨 **SO WHICH CAP HOSE MEASURES AGAINST DECIDES TWO HOLDINGS' ELIGIBILITY, AND THE TWO ANSWERS
+  ARE FAR APART:**
+  | | statutory cap | actual | **utilisation vs STATUTORY** | vs the **self-imposed LOCK** |
+  |---|---|---|---|---|
+  | **TCB** | 30% | 22.51% | **75.0%** | **~100%** |
+  | **MBB** | **49%** | 23.23% | **47.4%** | **~100%** |
+  | VPB | 49% | ~25% | 51.0% | *no lock reported* |
+  ⚠ ***A 47.4%-vs-100% gap on MBB is not a rounding question — it is the difference between plainly ineligible
+  and plainly eligible on a criterion defined as "near the limit".*** **NOT ASSERTED: which cap the index rules
+  use is not established here, and I am not inferring it from MBB's historical membership.** *This is the same
+  shape as the 04:54 TCB criterion finding — **a threshold stated precisely against a measure left unstated** —
+  and it is now the second index rule and the fourth criterion this week with that defect.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES, AND ONE PREVIOUSLY FIRED TRIGGER IS **NOT** RESOLVED — the 01-Aug KDH/VNDiamond
+  catalyst REMAINS OPEN, and this hour establishes its direction without closing it. Trigger 4 REMAINS FIRED
+  on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2 (FTSE GEIS list, KDH insider window closes,
+  Forecast #7 resolves); CORE circumvention preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED.
+  Triggers 1 and 3 negative.**
+  [VnEconomy — VNDiamond cơ cấu danh mục: thêm mới KDH, loại LPB và TCM](https://vneconomy.vn/vndiamond-co-cau-danh-muc-them-moi-kdh-loai-lpb-va-tcm.htm) · [CafeF — VNDiamond Index thêm mới KDH, loại LPB và TCM trong kỳ cơ cấu tháng 10 *(URL date-stamp `20211018`)*](https://cafef.vn/vndiamond-index-them-moi-kdh-loai-lpb-va-tcm-khoi-danh-muc-trong-ky-co-cau-thang-10-20211018182800561.chn) · [Vietstock — đảo danh mục VNDiamond, thêm KDH *(filed `2021/10`)*](https://vietstock.vn/2021/10/dao-danh-muc-vndiamond-them-kdh-loai-lpb-va-tcm-3358-901126.htm) · [TNCK — chỉ số VNDiamond loại LPB và TCM, thêm KDH cho kỳ quý cuối năm](https://m.tinnhanhchungkhoan.vn/chi-so-vndiamond-loai-lpb-va-tcm-them-kdh-cho-ky-quy-cuoi-nam-post282814.html) · [Tạp chí KTTC — cơ cấu VNDiamond quý I/2026: ít biến động](https://tapchikinhtetaichinh.vn/co-cau-vndiamond-quy-i2026-it-bien-dong-khong-con-la-mo-vang-etf-153493.html) · [VnEconomy — thay đổi quy tắc chỉ số VNDiamond, một số cổ phiếu có thể bị loại](https://vneconomy.vn/thay-doi-quy-tac-chi-so-vndiamond-index-mot-so-co-phieu-co-the-bi-loai-do-khong-du-dieu-kien.htm)
 
 - **🚨🚨 05:54 ICT WED 19-AUG · `CBAM` AND `hạn ngạch` RETURN **ZERO HITS** REPO-WIDE. EU AND UK TRADE
   POLICY ON VIETNAMESE STEEL IS NOT COVERED BY ANY LANE — AND THE SEGMENT IT HITS IS EXACTLY THE ONE THIS
