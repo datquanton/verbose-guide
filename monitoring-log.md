@@ -132,6 +132,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🚨 17:54 ICT WED 19-AUG · THE 05:54 BOUND GETS ITS MISSING FACTOR INDIRECTLY — HPG's PIPE AND
+  GALVANISED VOLUMES DO NOT BEHAVE LIKE AN EXPORT-SQUEEZED BOOK. But galvanised fell 21.7% QoQ **BEFORE** the
+  quota change took effect, so the first affected quarter is still ahead (lanes 5, 3).**
+
+  🎯 **NEW SEGMENT DATA, ZERO PRIOR HITS ON EVERY FIGURE (`453,000`, `189,000`, `7 triệu tấn`, HRC `80%`):**
+  | | H1/2026 | **YoY** | Q1 *(derived)* | **Q2** | **QoQ** |
+  |---|---|---|---|---|---|
+  | **steel pipe** | **453,000 t** | **+13%** | 241kt | **212kt** | **−12.0%** |
+  | **galvanised sheet** | **189,000 t** | **−5%** | 106kt | **83kt** | 🚨 **−21.7%** |
+  ✅ **THE Q2 FIGURES CONFIRM `hpg.actuals._q2_volume_source` TO THE TONNE — 212kt pipe and 83kt galvanised,
+  the exact pair the file excludes from its 3.5mt basket.** *A stored exclusion verified against an
+  independent source for the first time.* ✅ *Also new: H1 production **7 million tonnes, +36% YoY**.*
+
+  🎯🎯 **AND THIS SUPPLIES — INDIRECTLY — THE FACTOR I EXPLICITLY REFUSED TO GUESS AT 05:54.** *That entry
+  bounded HPG's exposure to the coated/pipe export squeeze at **7.77% of Q2 volume**, and said the true figure
+  is 7.77% × (HPG's export share of those classes), **"and the second factor is unknown. I am not supplying
+  it."*** **It is still not measured — but it is now BOUNDED FROM THE OTHER SIDE: pipe is +13% YoY and
+  galvanised −5% YoY in a market whose export volume is forecast −25%, with NKG's volume −17% on exports
+  −30%.** ***A book heavily exposed to a market down 25% does not print +13%.*** **So the 7.77% upper bound
+  stands and is now visibly LOOSE.**
+  ⚠ **STATED AS AN INFERENCE, NOT A MEASUREMENT: a producer can hold volume while its export mix collapses by
+  redirecting domestically, so this bounds the exposure without measuring it.** *What would settle it is a
+  segment export split, which HPG does not publish.*
+
+  ✅ **A DIRECT DATUM ON THE PRODUCT THAT DOES MATTER: HPG's HRC IS 80% DOMESTIC, 20% EXPORT.** 🚨 **Composed
+  with this morning: the 27.83% anti-circumvention duty on Chinese HRC (in force 12-Aug) protects the 80%,
+  while CBAM and the new UK/EU quotas squeeze the 20%.** ***HPG's HRC book is overwhelmingly on the protected
+  side of the divergence this file identified at 05:54 and 10:54 — and that is the first time the split has
+  been quantified rather than asserted.***
+  ⚠ **AND THE PRODUCT DISCIPLINE HOLDS: 20% is HRC's export share. It is NOT pipe's or galvanised's, and
+  substituting it would be exactly the product substitution flagged at 05:54.** *Two different questions, and
+  only one of them now has a number.*
+
+  🚨🚨 **THE FINDING THAT POINTS FORWARD, AND IT IS A DATED PRE-REGISTRATION.** **Galvanised fell **−21.7%
+  QoQ** in Q2 (106kt → 83kt) and pipe **−12.0%**.** ***But the new UK and EU import quotas bite from
+  30-JUNE-2026 — i.e. from Q3.*** **So Q2's decline PRE-DATES the quota change entirely, and the Q3 print is
+  the FIRST quarter that will carry it.**
+  ✅ **PRE-REGISTERED, SCOREABLE AT THE Q3 FILING (~30-OCT, the same window as KDH's): if the quota regime is
+  material to HPG, Q3 galvanised should fall FURTHER from 83kt; if HPG's coated book is essentially domestic —
+  the reading the +13% pipe growth supports — Q3 should stabilise or recover.** *Either outcome is
+  informative, which is what makes it worth writing down now rather than explaining afterwards.*
+  ⚠ *The Q1 figures are DERIVED by subtraction (H1 less Q2) and are labelled as such; the H1 and Q2 numbers
+  are reported.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — segment volumes outside the 3.5mt basket are
+  not inputs to any branch, and the bridge prices ore, coal and HRC only. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered against HPG's two criteria and does NOT fire: the
+  per-tonne test is on core economics, not segment volume, and the DQ2 nameplate test is a Q4 test whose
+  denominator this file flagged as unfixed an hour ago. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS
+  FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 3
+  negative.**
+  [Thời báo Tài chính — Hòa Phát sản xuất 7 triệu tấn thép trong nửa đầu năm 2026, tăng 36%](https://thoibaotaichinhvietnam.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-so-voi-cung-ky-2025-200425.html) · [VietnamPlus — Hòa Phát sản xuất 7 triệu tấn thép nửa đầu năm 2026](https://www.vietnamplus.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-post1123152.vnp) · [Tiền Phong — Hòa Phát 7 triệu tấn thép nửa đầu 2026](https://tienphong.vn/hoa-phat-san-xuat-7-trieu-tan-thep-trong-nua-dau-nam-2026-tang-36-so-voi-cung-ky-2025-post1858031.tpo) · [VnEconomy — toàn cảnh ngành thép 2026: tăng trưởng ở thép xây dựng và HRC](https://vneconomy.vn/toan-canh-nganh-thep-2026-tang-truong-an-tuong-o-thep-xay-dung-va-cuon-can-nong.htm) · [Tạp chí Công Thương — Hòa Phát bán 3 triệu tấn thép trong quý I/2026](https://tapchicongthuong.vn/hoa-phat-ban-3-trieu-tan-thep-trong-quy-i-2026--tang-26--so-voi-cung-ky-510566.htm)
+
 - **🚨🚨🚨 16:54 ICT WED 19-AUG · I AUDITED ALL SEVENTEEN ARMED KILL CRITERIA. **THIRTEEN CANNOT BE
   EVALUATED AS WRITTEN.** The five defects found ad hoc this week were not five accidents — they were the
   visible part of a property of the whole set (lane 3, zero searches).**
