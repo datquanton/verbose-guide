@@ -133,6 +133,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 01:54 ICT THU 20-AUG · **FORECAST #7 DOES NOT RESOLVE TOMORROW.** IT RESOLVES ~21-**OCT**, AND
+  `assumptions.json` SAYS SO TWICE. I HAVE WRITTEN "21-Aug ... Forecast #7 resolves" **34 TIMES** IN THIS LOG
+  (lane 3, zero searches).**
+  *Found while preparing tomorrow's cluster so its outcomes could be scored cleanly. Preparing to score it is
+  what exposed that it is not scoreable tomorrow.*
+
+  🚨 **THE AUTHORITIES ALL SAY OCTOBER, AND THEY ARE THE PRIMARY ONES:**
+  | source | says |
+  |---|---|
+  | `assumptions.json` | ***"forecast #7 resolves on ~21-OCT-2026"*** |
+  | `assumptions.json`, separately | ***"forecast #7 was pre-registered and resolves ~21-Oct"*** |
+  | `calibration-log.md`, the forecast REGISTER (line 747) | **`~21-Oct-2026`** |
+  ⚠⚠ ***THE "21-AUG" DATE EXISTS ONLY IN NARRATIVE ENTRIES — five in the calibration log and THIRTY-FOUR
+  occurrences in this file — NOT IN A SINGLE PRIMARY RECORD.*** **The register and the model file have been
+  right all along, and the prose has been wrong since 14-Aug.**
+
+  🎯🎯 **THE MECHANISM, AND IT IS A CATEGORY SUBSTITUTION I CAN NAME EXACTLY.** *Forecast #7 is a **PRICE-RETURN
+  DISTRIBUTION** — **+20% (p=0.35) / +5% (p=0.45) / −15% (p=0.20), EV +6.25%** — on TCX around the FTSE event.*
+  | date | what it is |
+  |---|---|
+  | **Fri 21-AUG** | the FTSE GEIS **constituent-list ANNOUNCEMENT** |
+  | **Mon 21-SEP** | the **EFFECTIVE** date |
+  | **~21-OCT** | **a month after the event — where a price-return forecast can be MEASURED** |
+  🚨 ***"The date the FTSE news lands" was collapsed into "the date the FTSE forecast resolves." An
+  ANNOUNCEMENT DATE was substituted for a MEASUREMENT WINDOW'S END.*** **A membership announcement cannot
+  resolve a price distribution; the price has to be given somewhere to go.**
+
+  🚨🚨 **WHY THIS MATTERED TONIGHT RATHER THAN IN OCTOBER: HAD TOMORROW PASSED ON THE WRONG BELIEF, I WOULD
+  HAVE SCORED A PRICE FORECAST AGAINST A MEMBERSHIP ANNOUNCEMENT.** *This file's standing rule is that
+  **right-for-the-wrong-reason is recorded as a failure**.* ***Scoring on the wrong EVENT is worse than
+  either: a hit would have been recorded on evidence that could not bear on the claim, and the forecast would
+  have been closed two months before it could be judged.*** **A forecast scored early is not a forecast — and
+  the register that would have contradicted me was sitting in the same file.**
+
+  ⚠ **TOMORROW'S CLUSTER IS THEREFORE TWO ITEMS, NOT THREE:**
+  | ✅ **Fri 21-AUG still carries** | ❌ **removed** |
+  |---|---|
+  | **FTSE GEIS official constituent list** · **KDH's insider-buy window CLOSES** *(gate row 62's fence expires with it)* | **Forecast #7** — not until ~21-Oct |
+  ✅ **TRIGGER 5's FIRING IS UNAFFECTED and I want that stated plainly rather than buried: it fired on
+  14-Aug because DATED CATALYSTS land inside five sessions of proposed trades, and the FTSE list (session 1)
+  and the CORE circumvention preliminary (Mon 24-Aug, session 2) are both real and both stand.** *Only the
+  roster of what RESOLVES tomorrow shrinks. The trigger was right; my description of its contents was not.*
+  ⚠ **ONE CLAUSE IN THE CALIBRATION LOG IS HALF-WRONG AND IS FLAGGED RATHER THAN EDITED:** its 14-Aug entry
+  reads *"SELL TCX (−3.3pp) is a sale into the very session that SETTLES TCX's membership **and resolves
+  Forecast #7**."* **The first half stands. The second does not.** *The historical record is left as written —
+  this file corrects at the top.*
+
+  🎯 **AND THE PATTERN THIS COMPLETES IS ABOUT MY OWN WORKING STATE, NOT ABOUT THE WORLD — THE THIRD SUCH
+  ERROR IN THREE DAYS.** *22:54 Tue: I carried the WITHDRAWN side of TCX's kill-trigger price. 06:54 Wed: I
+  had KDH's VNDiamond question inverted — addition, when the file's own 2021 record made it removal. Tonight:
+  a resolution date two months early, repeated 34 times.* ***All three were settled in a primary file the
+  whole time. None was caught by a search; each was caught by going back to the primary record before
+  acting.*** **Working state carries no dates and no provenance, and it decays silently — the only defence is
+  re-deriving from the file before the moment of action, which is exactly what tomorrow's cluster forced.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. FORECAST #7 IS **NOT** RE-WEIGHTED — it stays at
+  +20%/+5%/−15%, EV +6.25%, per the 07-Aug pre-registration rule this file has now held for thirteen days
+  under repeated pressure. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 REMAINS FIRED and its BASIS is unchanged — Fri 21-Aug = session 1
+  (FTSE list, KDH window close), Mon 24-Aug = session 2 (CORE preliminary). Trigger 4 REMAINS FIRED on VPX.
+  Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  *(Sources: `research/models/assumptions.json` — two independent statements that forecast #7 resolves
+  ~21-Oct-2026; `research/decisions/calibration-log.md` line 747, the forecast register. **Internal
+  reconciliation — no external source, and labelled as one.**)*
+
 - **🎯🚨 00:54 ICT THU 20-AUG · THE 29-JUL FOMC MINUTES ARE OUT AND THEY ARE MORE HAWKISH THAN THE VOTE
   COUNT SUGGESTED — THE SENTIMENT EXTENDS **BEYOND** THE THREE DISSENTERS. AND WARSH HAS PROPOSED CUTTING
   FOMC MEETINGS FROM EIGHT TO SIX. The file has already measured that none of this reaches Vietnam (lane 1).**
