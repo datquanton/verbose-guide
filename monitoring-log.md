@@ -132,6 +132,67 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯 15:54 ICT WED 19-AUG · TCX'S ARMED FOREIGN-FLOW CRITERION MEASURES A FOUR-WEEK WINDOW ON A SERIES
+  THAT FLIPS SIGN EVERY WEEK. ITS OUTCOME DEPENDS ON PHASE, NOT ON ACCUMULATION. Plus the 19-Aug close, and
+  the first liquidity figure this file has held (lane 4).**
+
+  ✅ **THE CLOSE, DATED AND INTERNALLY CONSISTENT: VN-Index **1,726.69** on 19-AUG, **−5.33 pts, −0.31%**.**
+  *Zero prior hits on `1,726.69` and `1,732.02`.* ✅ **Check: 18-Aug 1,732.02 − 5.33 = 1,726.69 EXACTLY.**
+  **Against the file's last held level of 1,776.77 (10-Aug) that is −2.82% over seven sessions.** ✅ **And it
+  completes this morning's partial: foreign net selling was ₫768bn on HOSE at the 10:30 snapshot and finished
+  at ₫710bn — **selling EASED into the close**, which the intraday figure alone said nothing about.**
+  ✅ *New quantity: **HOSE matched liquidity ~₫13,900bn** — the first session-liquidity figure this file has
+  ever carried.* ⚠ *Property stocks led the weakness (*"cổ phiếu bất động sản hụt hơi sau nhịp hồi"*) —
+  relevant to KDH at 20.3% of the book, but a one-session sector read and recorded as nothing more.*
+
+  🎯🎯🎯 **THE FINDING. FOUR CONSECUTIVE FOREIGN-FLOW OBSERVATIONS ARE NOW ON FILE AND THEY ALTERNATE:**
+  | period | net flow |
+  |---|---|
+  | week to 31-Jul | **SELL ₫2,438.7bn** |
+  | week to 07-Aug | **BUY ₫2,249.5bn** |
+  | week to 14-Aug | **SELL ~₫2,200bn** |
+  | **19-Aug (one session)** | **SELL ₫710bn** |
+  🚨 ***THE SIGN FLIPS EVERY WEEK AND THE MAGNITUDES ARE ALL ₫2,200–2,450bn. THERE IS NO TREND.*** **So the
+  *"khối ngoại xả hàng"* framing that leads almost every daily wrap — including today's — carries NO
+  directional content at this frequency, and a single ₫710bn session is not evidence of anything.**
+
+  🚨🚨 **AND THAT IS A PROBLEM FOR AN ARMED KILL CRITERION. TCX's reads: *"no net foreign accumulation in the
+  4 WEEKS AFTER SEP 21"*** — reclassified on 07-Aug from pending-SOURCE to pending-WINDOW once per-ticker
+  foreign flows turned out to be obtainable. ***But the window is FOUR WEEKS and the series flips sign every
+  ONE. Four weeks buys four sign-flips, not four independent observations averaging out — so the four-week
+  net is a sum of comparable terms with opposite signs, and its SIGN depends on which phase 21-September falls
+  in.***
+  🎯 **NEW DEFECT TYPE, AND THE FIFTH CRITERION FINDING THIS WEEK: *a criterion whose measurement window is
+  too short relative to the oscillation in the series it measures.*** *The others were about wording — criteria
+  that ENUMERATE rather than define (KDH, TCB-Masterise), a threshold stated more precisely than its measure
+  (TCB RE-share), and a trigger set blind to ORDERING (14:54). **This one is properly specified and still
+  uninformative: it names the right series, the right window and the right test, and the series is too noisy
+  at that horizon for the test to mean much.*** **A criterion can be well-written and still be a coin flip.**
+  ⚠ **WHAT I AM NOT CLAIMING: a distribution.** *Four observations do not establish one, and I am not
+  computing a probability of firing.* **The claim is narrower and survives: the observed sign-flip period is
+  ~1 week, the window is 4 weeks, and nothing in the four observations trends.** *Whether that makes the
+  criterion useless or merely weak is a §4 judgment.*
+  ✅ **AND IT ESTABLISHES SOMETHING THE FILE WILL NEED IN FIVE WEEKS: the PRE-EVENT BASELINE. A criterion
+  asking "was there net accumulation after 21-Sep" is far more readable against a known prior run-rate — and
+  that run-rate is *oscillating around zero at ±₫2,200–2,450bn a week*, not "persistent outflow".** *Without
+  the baseline, any post-event figure would have been read against an impression formed from headlines.*
+
+  ⚠ **ONE THING THIS DOES NOT DO: it does not touch the FTSE inflow thesis.** *The ~US$150m of passive money
+  effective 21-Sep is a MECHANICAL index flow; the figures above are DISCRETIONARY market flow. **Netting one
+  against the other would be an instrument substitution*** — and the temptation is real, because "foreigners
+  are selling ahead of the inclusion" is an available and wrong-shaped sentence.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. TCX's foreign-flow criterion remains PENDING-WINDOW — the window does not open
+  until 21-Sep and today's finding is about its DESIGN, not its state. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **§4 QUEUE, ADDED: TCX's foreign-flow criterion may be uninformative as written — a 4-week window on a
+  weekly-alternating series. A human should decide whether to lengthen the window, switch to a per-ticker
+  measure, or accept it as a coin flip. An automated run may not rewrite a criterion.**
+  [CafeF — phiên 19/8: tiếp đà bán ròng hơn 700 tỷ đồng, khối ngoại "xả" mạnh cổ phiếu nào](https://cafef.vn/phien-19-8-tiep-da-ban-rong-hon-700-ty-dong-khoi-ngoai-xa-manh-co-phieu-nao-188260819152848201.chn) · [Dân Việt — cổ phiếu bất động sản hụt hơi sau nhịp hồi, VN-Index chao đảo phiên 19/8](https://danviet.vn/co-phieu-bat-dong-san-hut-hoi-sau-nhip-hoi-vn-index-chao-dao-phien-19-8-d1452664.html) · [Người Đưa Tin — VN-Index giảm hơn 5 điểm, dòng tiền thận trọng](https://baomoi.com/vn-index-giam-hon-5-diem-dong-tien-than-trong-c55865616.epi) · [VnBusiness — dòng tiền đi đâu khi thanh khoản tiếp tục "cạn"](https://baomoi.com/dong-tien-di-dau-khi-thanh-khoan-chung-khoan-tiep-tuc-can-vn-index-chim-trong-sac-do-c55866129.epi) · [Vietstock — nhịp đập thị trường 19/08](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1908-rung-lac-quanh-nguong-1723-diem-1636-1482473.htm)
+
 - **🚨🚨🚨 14:54 ICT WED 19-AUG · I RAN THE RE-STRIKE. **THE RANKING CHANGES, TWO OF THE EIGHT PROPOSED
   TRADES ARE CONTRADICTED BY IT, AND NOT ONE ESCALATION TRIGGER CAN SEE ANY OF THAT** — because every trigger
   is written on a magnitude and none on ORDERING (lane 3).**
