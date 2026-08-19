@@ -133,6 +133,71 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯 02:54 ICT THU 20-AUG · I AUDITED THE REST OF THE FORECAST REGISTER. LAST HOUR'S DATE ERROR WAS
+  **ISOLATED** — BUT THE REGISTER HAS A DEEPER PROBLEM, AND THE DIAGNOSIS HAS A FIX: `assumptions.json` HAS
+  BEEN THE REAL FORECAST REGISTRY AND THE CALIBRATION LOG HAS NOT (lane 3, zero searches).**
+
+  ✅ **FIRST, THE DATE AUDIT — THE OTHER TWO OPEN FORECASTS HOLD.**
+  | | resolution date | check |
+  |---|---|---|
+  | **#8 — CAEX licence, p=0.40** | **by 30-Sep-2026** | ✅ **CORROBORATED BY A SECOND PRIMARY STATEMENT:** `assumptions.json` records it on 05-Aug as *"open and unscored, **56 days left**"*. **05-Aug + 56 days = 30-Sep EXACTLY.** |
+  | **#9 — VCI 9M PBT ≥ 55% of FY target** | with Q3 statements (~Oct) | ✅ consistent with the file's own VCI gate (Q3/9M filing ~late Oct) |
+  🚨 **So last hour's two-month error was ISOLATED TO #7.** *And the contrast is instructive: **#8's date is
+  corroborated by an independent arithmetic statement in the model file; #7's was correct in the register and
+  drifted only in the prose.*** **A date with two independent primary statements did not drift. A date with
+  one did.**
+
+  🚨🚨 **SECOND, AND LARGER: THE SCOREBOARD IS COMPUTED OVER LESS THAN HALF THE REGISTER.**
+  | | |
+  |---|---|
+  | **scored** | **5** — #1, #2, #4 (misses) · #10, #11 (hits) |
+  | **open** | 3 — #7, #8, #9 |
+  | 🚨 **UNKNOWN — content unrecoverable** | **3 — #3, #5, #6** |
+  | **total** | **11** |
+  ✅ *The scoreboard's "2 hits, 3 misses, 3 open, 3 unknown" reconciles to 11 exactly — the arithmetic is
+  sound.* 🚨 ***BUT THE HEADLINE HIT RATE OF 2/5 = 40% IS COMPUTED OVER 45% OF THE SET, WITH 27% PERMANENTLY
+  UNSCOREABLE.*** **The register's own sentence is the right one: *"A hit rate computed over a set you cannot
+  enumerate is not a measurement."*** *It was written about the enumeration problem; it applies just as well
+  to the enumerated-but-unrecoverable third.*
+  ✅ **AND I TRIED TO RECOVER THEM RATHER THAN RESTATING THAT THEY ARE LOST: `forecast #3`, `#5` and `#6`
+  return ZERO hits in `monitoring-log.md` AND ZERO in `assumptions.json`.** *Independently confirmed. They are
+  not mislaid — they were never written down.*
+
+  🎯🎯 **THE DIAGNOSIS, AND IT IS THE USEFUL PART — THE IDs REFERENCED IN `assumptions.json` ARE EXACTLY
+  #1, #2, #4, #7, #8, #10.**
+  | referenced in the MODEL file | not referenced |
+  |---|---|
+  | **#1 · #2 · #4 · #7 · #8 · #10** | **#3 · #5 · #6** *(UNKNOWN)* · **#9** *(mentioned once in the log, never elsewhere)* · **#11** *(pre-registered 05-Aug, resolved 07-Aug, and had NO ID until the register was built)* |
+  🚨 ***EVERY FORECAST THE MODEL FILE REFERENCES IS ENUMERABLE AND SCOREABLE. EVERY ONE IT DOES NOT IS EITHER
+  UNKNOWN OR WAS NEARLY LOST.*** **The split is perfect across eleven forecasts.** ***So `assumptions.json`
+  has been functioning as the de facto forecast registry, and the calibration log — the file whose job this
+  is — has not.*** *Forecasts recorded only in prose decay; forecasts written into the model file survive,
+  because the model file is re-read every time anything is computed and prose is re-read only when someone
+  goes looking.*
+  ✅ **THAT IS A DIAGNOSIS WITH A FIX, WHICH IS WHY IT IS WORTH MORE THAN THE COUNT: a forecast is durable when
+  it is anchored in a file that gets READ AS A DEPENDENCY, not one that gets read as a narrative.** ⚠ **Writing
+  new forecast anchors into `assumptions.json` is a §4 human act and I have not done it — escalated.**
+  ⚠ *Small note on the holes: the gaps sit at 3, 5 and 6, which reads like IDs minted in a sequence and never
+  written down rather than entries written and later lost. **Either way unrecoverable, and I am not
+  reconstructing what they might have said.***
+
+  ⚠ **AND THIS COMPLETES LAST HOUR'S THREAD HONESTLY: the #7 error was mine and isolated; the register's
+  gaps predate it and are structural.** *Two different failures — one of my working state, one of the system's
+  design — and conflating them would let each excuse the other.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. NO FORECAST RE-WEIGHTED — #7 stays at
+  +20%/+5%/−15%, EV +6.25%, fourteenth day. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 1 (FTSE GEIS list, KDH insider
+  window closes), Mon 24-Aug = session 2 (CORE preliminary). Trigger 4 REMAINS FIRED on VPX. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **§4 QUEUE: three of eleven pre-registered forecasts (#3, #5, #6) are permanently unscoreable, and the
+  book's stated hit rate is computed over five. A human should decide whether to retire them explicitly — an
+  unscoreable forecast left "unknown" inflates the denominator's uncertainty without informing anything.**
+  *(Sources: `research/decisions/calibration-log.md` lines 735–755, the forecast register;
+  `research/models/assumptions.json` — ID references and the CAEX "56 days left" statement. **Internal audit,
+  labelled as one.**)*
+
 - **🚨🚨🚨 01:54 ICT THU 20-AUG · **FORECAST #7 DOES NOT RESOLVE TOMORROW.** IT RESOLVES ~21-**OCT**, AND
   `assumptions.json` SAYS SO TWICE. I HAVE WRITTEN "21-Aug ... Forecast #7 resolves" **34 TIMES** IN THIS LOG
   (lane 3, zero searches).**
