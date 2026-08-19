@@ -130,6 +130,78 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 09:54 ICT WED 19-AUG · THE THREE-WEEK-OLD VPX `npat_ttm` ESCALATION IS CLOSED ON ARITHMETIC —
+  THE DEFECT IS CONFIRMED AT 39.1% AND **THE FILE'S STANDING CLAIM ABOUT ITS CONSEQUENCE IS WRONG. TRIGGER 3
+  DOES NOT FIRE. E[r] DOES NOT MOVE AT ALL** (lane 3).**
+
+  🎯 **THE MISSING PIECE, ZERO PRIOR HITS: VPBankS FY2025 NPAT = ₫3,569bn** (PBT ₫4,476bn, +266% NPAT growth;
+  Q4/2025 NPAT ₫955.2bn; FY2025 operating revenue ₫7,910bn = 110% of the revised plan; margin book
+  >₫34,000bn at year end). **With FY2025 in hand the TTM is computable for the first time.**
+
+  ✅ **THE DERIVATION, AND ITS ONE IMPRECISE INPUT IS STRESS-TESTED RATHER THAN ASSUMED AWAY.**
+  *TTM = H2/2025 + H1/2026.* H1/2026 NPAT = **H1 PBT 2,673 × the Q2 tax retention (1,733 ÷ 2,159 = 80.27%) =
+  ₫2,146bn**. H1/2025 = 2,673 ÷ *"gần 3 lần"*, taxed at the FY2025 retention **3,569 ÷ 4,476 = 79.74%**
+  *(which agrees with the Q2/2026 retention to 0.5pp — an independent consistency check)*. H2/2025 = 3,569
+  less H1/2025.
+  | multiplier | 2.8× | **2.9×** | 3.0× |
+  |---|---|---|---|
+  | **implied TTM NPAT** | **₫4,954bn** | **₫4,980bn** | **₫5,005bn** |
+  ✅ **A SPREAD OF 1.0% ACROSS THE WHOLE PLAUSIBLE RANGE. This is a FOURTH independent route and the FIRST
+  built from full-year ACTUALS rather than inference — and it lands within 1.2% of the standing escalation's
+  ≈₫5,039bn.** 🚨 **SO THE DEFECT IS CONFIRMED: `npat_ttm` = 3,580.8 IS UNDERSTATED BY 39.1%.**
+
+  🚨🚨🚨 **AND NOW THE PART THAT MATTERS MORE, BECAUSE IT CORRECTS THIS FILE RATHER THAN THE WORLD.** The
+  standing escalation says the correction *"fires trigger 3 either way — **−29.0pp** if `npat_ttm` is
+  corrected alone, or **+25.0pp** if `cap_now` is pinned to the market."* ***BOTH BRANCHES ARE WRONG, BECAUSE
+  `cap_now` IS ALREADY PINNED:***
+  | | |
+  |---|---|
+  | `pe_ttm × npat_ttm` = 13.93 × 3,580.8 | **₫49,880.5bn** |
+  | `shares_outstanding × price` = 1,875,000,000 × ₫26,600 | **₫49,875.0bn** |
+  | **gap** | **0.011%** |
+  ✅ ***THE ARITHMETICALLY COHERENT CORRECTION MOVES BOTH FIELDS TOGETHER: `npat_ttm` UP 39.1% to ≈₫4,980bn
+  AND `pe_ttm` DOWN FROM 13.93 TO ≈10.0×*** (49,875 ÷ 4,980 = **10.015**; the 2.8–3.0× range gives
+  **9.97–10.07×**). **`cap_now` is unchanged ⇒ E[r] is unchanged ⇒ TRIGGER 3 DOES NOT FIRE.**
+  ⚠ *The −29.0pp branch requires correcting `npat_ttm` while leaving `pe_ttm` wrong, which breaks the identity
+  `pe × npat = shares × price` — **and the file had ALREADY labelled that branch self-refuting** on different
+  grounds. The +25.0pp branch assumes `cap_now` needs pinning to a market it already matches to eleven parts
+  in a hundred thousand.*
+  🎯🎯 **THE GENERAL POINT, AND IT IS THE useful one: `npat_ttm` IS A LABEL IN THIS ENGINE, NOT A DRIVER.**
+  *`decide.py` line 67 uses it only through `cap_now = pe_ttm × npat_ttm`, and `cap_now` is right.* **A real,
+  large, three-week-old data defect turns out to have ZERO decision consequence once its partner field moves
+  with it.** *An escalation can be entirely correct about a number and entirely wrong about what the number
+  does.*
+  ⚠⚠ **AND IT IS THE SAME COMPENSATING-ERRORS PATTERN AS THE 00:54 FINDING NINE HOURS AGO, ON THIS SAME
+  TICKER, IN A DIFFERENT PLACE** *(there: inferred equity 11.2% high × assumed P/B 10.2% low, leaving the cap
+  right to 0.098%).* ***VPX's `cap_now` keeps coming out right for wrong reasons — twice now, from two
+  unrelated derivations. That is no longer a coincidence; it is a property of how this block was populated:
+  whoever set the fields solved for a cap they already knew.***
+
+  🚨 **WHAT DOES CHANGE, AND IT IS NEW: THE MODEL'S IMPLIED GROWTH INVERTS.** `fy26e_npat` base is **4,125**.
+  *Against `npat_ttm` 3,580.8 that reads **+15.2% growth**; against a true TTM of ₫4,980bn it is **−17.2%**.*
+  **The branches themselves are sound — annualised H1/2026 is ₫4,292bn, close to the base — but the file has
+  been describing a declining year as a growing one.**
+  🚨 **AND THE DECLINE IS REAL AND MASKED BY THE HEADLINES: H2/2025 NPAT ≈₫2,834bn vs H1/2026 ≈₫2,146bn is
+  −24.3% HALF-ON-HALF (range −23.6% to −24.9%), while the coverage reports +266%, "4×" and "3×" YEAR ON
+  YEAR.** *Both are true. The YoY comparison spans a base half in which VPBankS was a fraction of its current
+  size; the half-on-half comparison is the one that describes the business as it now is.* ✅ **CORROBORATED
+  INDEPENDENTLY BY THE MARGIN BOOK: ₫34,000bn at end-2025 → ₫38,177bn at Q2/2026 is +12.3% in six months,
+  against roughly 4× across 2025. The same deceleration, on a different line.**
+
+  **`assumptions.json` UPDATED — `vpx.actuals` ONLY: `fy2025_pbt_bn`, `fy2025_npat_bn`, `q4_2025_npat_bn`,
+  `fy2025_operating_revenue_bn`, `margin_book_end_2025_bn` and the reasoning key. ⚠⚠ `npat_ttm` AND `pe_ttm`
+  ARE BOTH §4 HUMAN-ONLY AND NEITHER IS TOUCHED, even though the correct values are now derived to ~1%.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`) — which is the check that proves no driver moved.**
+  🚨 **NO NEW TRIGGER FIRES, AND ONE EXPECTED FIRING IS RETIRED. TRIGGER 3 DOES NOT FIRE AND WILL NOT FIRE ON
+  THIS CORRECTION — the file has been carrying a −29.0pp/+25.0pp expectation that is arithmetically
+  impossible. Trigger 4 REMAINS FIRED on VPX — the defect is confirmed, not dissolved; what dissolves is its
+  consequence. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3.
+  Trigger 2 STANDING-BREACHED. Trigger 1 negative.**
+  ⚠ **§4 QUEUE, REWRITTEN RATHER THAN CLOSED: VPX needs `npat_ttm` 3,580.8 → ≈4,980 **AND** `pe_ttm` 13.93 →
+  ≈10.0 applied TOGETHER. Applied together the book does not move. Applied singly either field produces a
+  cap that contradicts shares × price. A human must apply both or neither.**
+  [Người Đưa Tin — VPBankS lãi hơn 3.500 tỷ đồng năm 2025, quy mô tài sản tăng gần 3 lần](https://www.nguoiduatin.vn/vpbanks-lai-hon-3500-ty-dong-nam-2025-quy-mo-tai-san-tang-gan-3-lan-204260120152817581.htm) · [CafeBiz — Chứng khoán VPBankS lãi gần 4.500 tỷ đồng năm 2025](https://cafebiz.vn/chung-khoan-vpbanks-lai-gan-4500-ty-dong-nam-2025-176260119140224805.chn) · [Báo Đầu tư — VPBankS báo lãi gần 4.500 tỷ đồng](https://baodautu.vn/vpbanks-bao-lai-gan-4500-ty-dong-d495130.html) · [Tuổi Trẻ — VPBankS báo lãi quý 2 gấp 4 lần cùng kỳ, vượt TCBS](https://tuoitre.vn/vpbanks-bao-lai-quy-2-gap-4-lan-cung-ky-vuot-tcbs-100260717170520303.htm)
+
 - **🚨🎯 08:54 ICT WED 19-AUG · SECOND NEW RECORD IN THREE SESSIONS — ₫25,598. THE 16-AUG "FX LEG TURNED"
   CALL IS NOW FALSIFIED TWICE OVER. AND A NEW ANTI-CORRELATION: THE FIXING AND THE BANK QUOTE MOVED IN
   OPPOSITE DIRECTIONS ON THE SAME SESSION, FOR THE SECOND SESSION RUNNING (lane 1).**
