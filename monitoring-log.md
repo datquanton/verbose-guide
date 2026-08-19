@@ -50,7 +50,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **🚨 VIETNAM'S OWN HRC DUTY ON CHINA — 1917/QĐ-BCT, 27.83%, **WIDE-FORMAT 1,880–2,300mm ONLY**, IN FORCE 12-AUG-2026 TO JULY 2030** ⚠⚠ **SCOPE CORRECTED 19-Aug 18:54 AND THE 21–26pp SWING IS WITHDRAWN — 24 HS codes 7208.25.00–7226.91.90; EXEMPT: carbon >0.30% and sheet ≥10mm; MoIT is accepting exemption applications. THE FILE'S BENCHMARK IS MYSTEEL SS400 **3mm**, WHICH IS NOT IN SCOPE, so multiplying it by 1.2783 was a product substitution. Direction survives (1917 replaced the April-2026 temporary measure with no gap and, with the standard-width AD measure, closes the whole imported HRC line); MAGNITUDE does not. ⚠ MISSING AND ESCALATED: the AD rate on STANDARD-WIDTH Chinese HRC — without it no landed comparison is possible.** *(added 19-Aug 10:54; `1917`, `27.83`, `chống lẩn tránh` all returned ZERO hits)* | 🚨 **ANTI-CIRCUMVENTION — a DIFFERENT legal basis from AD612 (anti-dumping, gate row 82, final outer bound 27-Oct-2026), so it does NOT by itself close AD612's "unprotected interval" question and is not claimed to.** 🚨 **IT INVERTS THE 16:54 MON FINDING: landed Chinese HRC US$495–510 × 1.2783 = US$632.8–651.9 against HPG's US$535 September offer ⇒ HPG moves from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a 21–26pp swing.** ⚠ Duty base is CIF; the 495–510 is FOB+freight, so the direction is firm and the magnitude approximate. ✅ **HPG domestic HRC share 43.4% (Jun-2026); crude capacity 16mt/yr; DQ2 complete and optimising; rail plant 700kt >50% done, first product Q1/2027.** 🎯 **OPEN PUZZLE, PRE-REGISTERED: HPG CUT its September offer 7.76% in the same window — test (b) share-buying vs (c) ore pass-through against the Q3 filing and HPG's October offer** | **an October or later HPG offer, the AD612 final (~27-Oct), or a change to 1917's scope or rate** — not a re-run |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
-| **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | **THE NEXT STEEL-LANE RETURN, AT NO DEDICATED SEARCH COST. If BOTH ₫15,120 and ₫14,440–15,150 repeat ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED, the series is live, and this row closes.** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
+| **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | ⚠ **RESTATED 20-Aug 03:54 — THE TEST NEEDS A READING *DATED 19-AUG OR LATER*, NOT MERELY A LATER LOOK. On 20-Aug the pair came back identical but labelled 18/8 — the same snapshot returned twice, which resolves nothing.** If both ₫15,120 and ₫14,440–15,150 repeat ON A LATER DATE ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED and this row closes. 🎯 **PARTIAL SUPPORT ALREADY, from a column I was not testing: the 17-Aug and 18-Aug editions both describe DCE ore falling from the SAME prior level of ¥725.5 (to ¥721 "−¥4.5" and to ¥721.5 "−0.55%").** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
 **Date gates — do NOT search these before their date** (per charter §6):
 
 | Item | Not before | Lane |
@@ -132,6 +132,52 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯🎯 03:54 ICT THU 20-AUG · MY OWN PRE-REGISTERED TEST IS UNDER-SPECIFIED — "THE NEXT CHECK" IS NOT "THE
+  NEXT DATE", AND I ALMOST SCORED IT ON A RE-READ OF THE SAME SNAPSHOT. Meanwhile a SECOND COLUMN of the same
+  table corroborates the static-payload hypothesis (lane 5).**
+
+  ⚠⚠ **THE TEST I WROTE AT 02:54 YESTERDAY: *"if the pair reads ₫15,120 AND ₫14,440–15,150 again at the next
+  check, the static-table reading is supported; if EITHER number moves, it is falsified."*** *Today the pair
+  came back **identical** — and it is **labelled 18/8**, the same date as Wednesday's reading.*
+  🚨 ***THAT IS NOT A SECOND OBSERVATION. IT IS THE SAME SNAPSHOT RETURNED TWICE.*** **The test is NOT resolved
+  and I am NOT scoring it.** *A 19/8 edition of the same publication demonstrably exists — the search returned
+  its headline — and its domestic prices did not come back.*
+  🎯🎯 **THE DEFECT IS IN MY WORDING AND IT IS THE SAME SHAPE AS FORECAST #7 TWO HOURS AGO.** *There I
+  conflated an ANNOUNCEMENT DATE with a MEASUREMENT WINDOW'S END. Here I specified **the act of observing**
+  ("the next check") instead of **the observation** (a later-DATED reading).* ***Both name what I would DO
+  rather than what would be MEASURED — and a test that names the action can be satisfied by repeating the
+  action on unchanged data.*** **Second under-specified test caught in three hours, both mine, and this is
+  precisely the defect the 16:54 criteria audit found in twelve of seventeen kill criteria.** ✅ **RESTATED:
+  the test needs a reading DATED 19-Aug OR LATER. Nothing before that resolves it either way.**
+
+  ✅✅ **AND WHILE THE FIRST TEST WAITS, A DIFFERENT COLUMN OF THE SAME TABLE SUPPLIES INDEPENDENT SUPPORT.**
+  | edition | DCE September ore | stated move | **implied prior level** |
+  |---|---|---|---|
+  | **17-Aug** | **¥721** | **−¥4.5** | **¥725.5** |
+  | **18-Aug** | **¥721.5** | **−0.55%** | **¥725.49** |
+  🚨 ***TWO EDITIONS DATED A DAY APART DESCRIBE A DECLINE FROM THE SAME PRIOR LEVEL, ¥725.5, TO THE SAME PLACE
+  — ONCE IN DONG-EQUIVALENT TERMS AND ONCE IN PERCENT.*** **That is the same move reported twice under two
+  dates, and it is corroboration for the static-payload hypothesis from a column I was not testing.** ⚠ **NOT
+  conclusive: ore genuinely not moving would also produce near-identical figures. What it is NOT is
+  independent confirmation of two days' trading.**
+  ✅ *Refinement worth keeping: **SGX September ore is US$95.35/t at 18-Aug**, an EXACT figure replacing
+  Wednesday's approximate *"quanh mức 95,5"* — a −0.157% change, i.e. flat. **The model's `iron_ore_spot`
+  default of US$98.25 (30-Jul) remains 3.04% above market**, which is the standing §4 item and does not move.*
+
+  ⚠ **NOTHING ELSE THIS HOUR. The domestic steel figures, the market range and the Việt Đức comparison are all
+  the 18-Aug snapshot already on file and already fenced by the gate row added Wednesday.** *No bridge input
+  moves; the ₫0.8632m/t three-blade reading stands.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — every ore and coal
+  field is §4 human-only. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 negative — no input moved. Trigger 4 REMAINS FIRED on VPX. Trigger 5
+  REMAINS FIRED — Fri 21-Aug = session 1 (FTSE GEIS list, KDH insider window closes), Mon 24-Aug = session 2
+  (CORE preliminary). Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **THE PRE-REGISTRATION IS RESTATED, NOT RETIRED: the static-table test resolves on a reading DATED 19-Aug
+  or later, on the RANGE rather than on HPG's own price — a mill can hold its list price on purpose, a
+  ten-brand distribution cannot hold itself.**
+  [DNHN — giá thép hôm nay 18/8/2026: quặng sắt sát đáy 14 tháng](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-1882026-quang-sat-sat-day-14-thang-vi-tin-dung-trung-quoc-giam-sau-146597.html) · [DNHN — giá thép hôm nay 19/8/2026: giằng co biên độ hẹp, chờ cú hích từ Trung Quốc *(exists; its domestic prices were not returned)*](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-1982026-giang-co-bien-do-hep-cho-cu-hich-tu-trung-quoc-146704.html) · [DNHN — giá thép hôm nay 17/8/2026: thị trường phân hóa, quặng sắt chịu áp lực](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-1782026-thi-truong-phan-hoa-quang-sat-chiu-ap-luc-146540.html) · [VietnamBiz — giá thép hôm nay 15/8: hồi phục khi tồn kho ở các cảng giảm](https://vietnambiz.vn/gia-thep-hom-nay-158-hoi-phuc-khi-ton-kho-o-cac-cang-giam-2026814224822248.htm)
 
 - **🚨🎯 02:54 ICT THU 20-AUG · I AUDITED THE REST OF THE FORECAST REGISTER. LAST HOUR'S DATE ERROR WAS
   **ISOLATED** — BUT THE REGISTER HAS A DEEPER PROBLEM, AND THE DIAGNOSIS HAS A FIX: `assumptions.json` HAS
