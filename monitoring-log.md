@@ -31,6 +31,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **SINGLE-STOCK CLOSING PRICES** *(added 10-Aug 16:54 after THREE failed attempts)* | ⚠ **NOT REACHABLE FROM THIS ENVIRONMENT.** Three searches across the measured indexing bracket returned the VN-Index close, sector indices and flow direction — **never a single-stock EOD quote.** `simplize.vn`, HOSE and `24hmoney` are all blocked. **Index-level closes ARE obtainable** (VN-Index 10-Aug = **1,776.77**, verified three ways). ⚠⚠ **WIDENED 11-Aug 17:54 — THE ANNOUNCED ADJUSTED REFERENCE PRICE (`giá tham chiếu điều chỉnh`, HOSE's `Ptc`) IS NOT A SEPARATE ROUTE.** I hypothesised it would be reachable *because it is a different instrument*: a traded close is an outcome of a session, whereas Ptc is a number **announced in advance** inside the corporate-action notice, and this file's own discipline says an instrument's attributes decide its readability. **The hypothesis is FALSIFIED.** A search shaped entirely around the announcement (`giá tham chiếu điều chỉnh`, the ex-date, both legs, the ₫10,000 subscription price) returned **the corporate-action structure and nothing else** — 10:1 rights at ₫10,000, 15% stock dividend, charter capital ceiling **₫102,687bn** (= 10,268.7m shares at ₫10,000 par, which **corroborates the file's 10,068.75m + 200m placement ceiling** and is the only thing gained). **No Ptc.** That is **attempt seven, nil six.** The correct generalisation is narrower than "closes are blocked": **no MBB-specific price of any construction — traded, announced, or reference — has ever been returned by this environment**, so the blocked thing is *the ticker's price dimension*, not *the close* | **never** — and the announced-reference variant is now explicitly inside this row, so it is not a fresh route either. Only a price feed or an unblocked host reopens it |
 | **COKING COAL INDEX PROVENANCE (item 46)** *(added 11-Aug 02:54 after TWO failed attempts on the same sub-question)* | ✅ **OBTAINABLE AND ON FILE:** Fastmarkets **MB-COA-0003**, *Premium hard coking coal, fob eastern Australian ports*, **USD/wmt**, published **18:30 SGT**; specs **CSR 71 / VM 21 / ash 9.50**, min **10,000t**, laycan **16–60 days**; load port amended from **FOB DBCT** to a five-port basket (DBCT, Hay Point, Abbot Point, Gladstone, Port Kembla). Argus runs a **different** construction — 50% traded / 50% survey, **100% survey in low liquidity**. ⚠ **NOT OBTAINABLE: the EFFECTIVE DATE of the load-port amendment** — searched 10-Aug 22:54 and 11-Aug 02:54, both nil. **That date is the whole point: it decides whether the file's 238.9 (10-Jul) and 228 straddle a definition change, worth ~₫0.154m/t against a ₫0.096m bear-branch gap** | **a Fastmarkets pricing notice carrying a date**, or the methodology PDF — **not another general search** |
 | **CHINA HRC EXPORT PRICE (Mysteel weekly)** *(added 10-Aug 03:54 — after re-search number TEN)* | **US$485/t FOB, SS400 3mm, Tianjin, at 24-JUL, −$1/t w/w** — plus the offer dispersion (**private mills 488–490, state-owned 500–510**, $20/t negotiation discounts, buyers targeting 480) **and the freight reconciliation already done: 485 FOB → ~495–510 landed Vietnam = 5.4–8.2% below the bridge's 539 and 4.7–7.5% below HPG's 535 volume price.** *17-Jul's $486 is derivable from "−$1/t on the week" and adds nothing.* ⚠ **NO AUGUST ASSESSMENT IS REACHABLE — the latest is 17 days old, and a summarizer relabelled these July weeks as "early August".** **This is a DIFFERENT instrument from HPG's own offer row above — offer vs assessed transaction index** | **an assessment dated AUGUST or later** — not a re-run of the same July weeklies |
+| **🚨🚨 EVERY LANDED-IMPORT COMPARISON IN THIS FILE IS UNDERSTATED BY 19.38–27.83% — AD20** *(added 19-Aug 19:54)* | **CASE AD20: anti-dumping duty 19.38%–27.83% on Chinese HRC of width ≤1,880mm, thickness 1.2–25.4mm, carbon ≤0.3%, untreated — IN FORCE FIVE YEARS FROM 6-JULY-2025.** ✅ **It and 1917/QĐ-BCT partition the product at 1,880mm and share the 0.3% carbon condition in opposite senses.** 🚨 **The file's benchmark — Mysteel SS400, 3mm, Tianjin — IS INSIDE AD20's SCOPE** *(width inferred from "standard coil" and flagged)*, **so the "HPG premium over landed Chinese HRC" series used UNDUTIED import prices throughout and the premium was never real. Corrected: HPG's US$535 sits 9.5%–17.9% BELOW the dutied import (US$590.9–651.9), and has done throughout.** ⚠ The rate is EXPORTER-SPECIFIC so the range stays a range; **AD20 also covers INDIA**, which this file has never tracked | **an AD20 review, an exporter-specific rate, or an exemption/undertaking** — and BEFORE any future landed comparison, apply the duty. **Do not re-derive a "premium" from an undutied benchmark** |
 | **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
 | **WEEKLY MONEY MARKET — OMO, OVERNIGHT INTERBANK, POLICY RATE** *(added 11-Aug 18:54, first time this file has ever held an overnight rate)* | Week **03–07 Aug** complete: SBV **net injected ₫24,726.73bn**, gross repo **₫76,040.07bn** across **7/42/63/91-day**, rate **HELD 4.5%/yr — no policy-rate change**. Overnight **0.75% → 5.72%** end-July, **4.83% at 5-Aug**. **Series extremes now bounded: 17%/yr 2-Feb-2026 (Tet, the year's high), 11%/yr 1-Jun-2026 (highest ex-Tet), 0.75% the low.** **SBV reaction function MEASURED: 1-Jun 11% → offered ₫46,000bn + 14-day USD/VND swaps → ~7% by the afternoon of 2-Jun, one session.** ⚠ **DO NOT RE-SEARCH THE 11% — it is 1-JUNE and it cost a full search to date; it will keep resurfacing undated because the headlines carry no date.** ⚠ **Central rate is a DIFFERENT row and this file runs AHEAD of the weekly wraps** — they lead on ₫25,463 "record", which is Friday 07-Aug; the file holds **₫25,491 at Mon 10-Aug** | **the NEXT week's report, i.e. Sat 15-Aug or later** — **WEEKLY, never hourly.** A policy-rate move away from 4.5%, or an overnight print above ~8%, re-opens it immediately |
 | **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
@@ -131,6 +132,66 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨🚨 19:54 ICT WED 19-AUG · THE ESCALATION I OPENED AN HOUR AGO IS CLOSED — AND IT EXPOSES A BIGGER
+  ERROR THAN THE ONE I WITHDREW. **THE FILE'S "HPG PREMIUM OVER LANDED CHINESE HRC" HAS NEVER INCLUDED AN
+  ANTI-DUMPING DUTY IN FORCE SINCE 6-JULY-2025. THE PREMIUM WAS NEVER REAL** (lanes 5, 2).**
+
+  🎯 **THE MISSING NUMBER, FOUND: CASE **AD20**. Anti-dumping duty of **19.38%–27.83%** on Chinese HRC,
+  effective **FIVE YEARS FROM 6-JULY-2025**.** *Zero prior hits on `AD20`, `19.38` and `25.4mm`.*
+  | **AD20** | **1917/QĐ-BCT** |
+  |---|---|
+  | width **≤ 1,880mm** (narrow) | width **1,880–2,300mm** (wide) |
+  | thickness **1.2–25.4mm**, carbon **≤ 0.3%**, untreated | **exempts** carbon **> 0.30%** and sheet ≥10mm |
+  | **19.38–27.83%**, from **6-Jul-2025**, 5 years | **27.83%**, from **12-Aug-2026** to Jul-2030 |
+  ✅✅ ***THE TWO MEASURES ARE EXACTLY COMPLEMENTARY AND THE SEAM IS 1,880mm — the same figure appears as
+  AD20's ceiling and 1917's floor, and both carry the SAME 0.3% carbon condition in opposite senses.*** **That
+  is why the coverage says 1917 "closes the barriers covering the entire imported HRC line": it is the second
+  half of a partition, not a new front.**
+
+  🚨🚨🚨 **AND HERE IS THE ERROR IT EXPOSES, WHICH IS LARGER THAN THE ONE I WITHDREW AT 18:54.** *The file's
+  Chinese-HRC benchmark is the Mysteel weekly — **SS400, 3mm, Tianjin**. **3mm sits inside AD20's 1.2–25.4mm;
+  SS400 is a structural carbon steel at roughly 0.15–0.25% carbon, inside the ≤0.3% condition; and standard
+  coil is well under 1,880mm.*** ⚠ *(The width is not stated in the benchmark spec and is inferred from
+  "standard coil" — flagged, not hidden.)* **SO THE FILE'S BENCHMARK HAS BEEN INSIDE AD20's SCOPE SINCE
+  6-JULY-2025, AND EVERY LANDED-PRICE COMPARISON THIS FILE HAS MADE USED AN UNDUTIED IMPORT PRICE.**
+  ⚠⚠ ***MONDAY'S HEADLINE — "HPG's premium over landed Chinese HRC HALVED from +13.5–16.9% (July) to +5.3–8.5%
+  (September)" — HAS THE DUTY MISSING FROM BOTH LEGS. There was no premium to halve.***
+
+  ✅ **THE CORRECTED COMPARISON, WITH THE DUTY WHERE IT BELONGS:**
+  | | landed Chinese HRC | **HPG Sept offer** | **HPG's position** |
+  |---|---|---|---|
+  | undutied *(as the file had it)* | US$495–510 | US$535 | +5.3% to +8.5% "premium" |
+  | **× AD20 at 19.38%** | **US$590.9–608.8** | US$535 | **−9.5% to −12.1%** |
+  | **× AD20 at 27.83%** | **US$632.8–651.9** | US$535 | **−15.5% to −17.9%** |
+  🚨 ***HPG SITS 9.5% TO 17.9% BELOW THE DUTIED IMPORT, AND HAS DONE THROUGHOUT — this is not a swing, it is
+  a level the file never measured.*** **The 10:54 finding's DIRECTION is restored and now properly founded;
+  its attribution to 1917 was wrong and its framing as a change is wrong. The right statement is that HPG's
+  domestic price has been structurally protected since July 2025, and this file has been pricing its
+  competitive ceiling off an import price no importer could actually pay.**
+  ⚠ **THE RANGE STAYS A RANGE: AD20's rate is EXPORTER-SPECIFIC (19.38–27.83%) and the file has no import mix,
+  so a point estimate is not available and is not manufactured.** *Also unrecorded until now: **AD20 covers
+  INDIA as well as China**, and this file has only ever tracked China.*
+
+  🎯 **WHAT THIS MEANS FOR THE BRIDGE, STATED CAREFULLY.** *No input moves — the bridge prices ore, coking coal
+  and HPG's own HRC offer, none of which is an import price.* **But the CEILING on HPG's pricing power is
+  materially higher than the file has assumed, and that bears on the HPG kill criterion's economics rather
+  than on its arithmetic.** ⚠ **It also re-frames this morning's other puzzle: HPG cut its September offer
+  7.76% while sitting 9.5–17.9% BELOW a dutied import.** *Reading (b) from 10:54 — buying share while
+  protected — gains support; reading (c), input-cost pass-through, is untouched. **Still not selected**, and
+  the Q3 filing plus HPG's October offer remain the pre-registered test.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — the HRC offer, ore and coal are §4 human-only
+  and an import duty is not one of them. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG's spread criterion: the finding is FAVOURABLE and
+  changes no input, and the standing ₫0.8632m/t bridge reading is unchanged. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE circumvention preliminary 24-Aug = session 3.
+  Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **§4 QUEUE — THE ITEM OPENED AT 18:54 IS CLOSED (AD20 is 19.38–27.83% from 6-Jul-2025) AND REPLACED BY A
+  SHARPER ONE: every landed-import comparison in this file predating tonight is understated by 19.38–27.83%
+  and should be re-read, not just the two entries named above.**
+  [PHFM — thuế chống bán phá giá thép HRC: góc nhìn từ vụ việc điều tra AD20](https://www.phfm.vn/thue-chong-ban-pha-gia-thep-hrc-goc-nhin-tu-vu-viec-dieu-tra-ad20/) · [Dân trí — chính thức áp thuế chống bán phá giá thép HRC từ Trung Quốc](https://dantri.com.vn/kinh-doanh/chinh-thuc-ap-thue-chong-ban-pha-gia-thep-hrc-tu-trung-quoc-20250705170554334.htm) · [CITICOM — AD20 là gì, diễn biến mới vụ việc AD20 tại Việt Nam](https://citicom.vn/ad20-la-gi-dien-bien-moi-vu-viec-ad20-tai-viet-nam.html) · [Vinalogs — điều tra chống bán phá giá thép cán nóng Trung Quốc & Ấn Độ (AD20)](https://vinalogs.com/tham-khao/dieu-tra-chong-ban-pha-gia-hang-thep-can-nong-trung-quoc-an-do/) · [Người Quan Sát — vụ điều tra lẩn tránh thuế thép HRC khổ rộng: Hòa Phát và Formosa](https://nguoiquansat.vn/vu-dieu-tra-lan-tranh-thue-thep-hrc-kho-rong-tu-trung-quoc-hoa-phat-va-formosa-tuyen-chien-bo-cong-thuong-tiep-tuc-vao-cuoc-255737.html)
 
 - **🚨🚨🚨 18:54 ICT WED 19-AUG · I WITHDRAW THIS MORNING'S 21–26pp SWING. THE 27.83% DUTY IS ON
   **WIDE-FORMAT** HRC, 1,880–2,300mm — AND THE FILE'S CHINESE-HRC BENCHMARK IS A **3mm** PRODUCT. I APPLIED A
