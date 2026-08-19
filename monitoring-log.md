@@ -133,6 +133,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 23:54 ICT WED 19-AUG · I RAN THE MAGNITUDE PASS I NAMED AN HOUR AGO. **FOUR OF EIGHT
+  TRAILING-EARNINGS FIELDS ARE NOT A TRAILING-TWELVE-MONTH NPAT** — and the fourth one is TCX, where the file
+  says so openly. Two pass, two cannot be tested (lane 3, zero searches).**
+  *At 22:54 I wrote that "the remaining five trailing-earnings fields have never been magnitude-checked against
+  filed earnings." This is that check.*
+
+  🚨🚨 **TCX IS THE FOURTH, AND IT IS DOCUMENTED IN THE FIELD ITSELF.**
+  `valuation.TCX._npat_ttm_basis_2026_08_02` reads verbatim: ***"FY2025 PBT 7,109 × 0.8 — TTM not computable,
+  H1/2025 not established."*** ✅ **7,109 × 0.8 = 5,687.2 against a stored 5,687. Exact.** ***So TCX's
+  `npat_ttm` is a tax-adjusted FULL-YEAR figure, not a trailing twelve months — by construction, and stated.***
+
+  ✅ **TWO NAMES PASS, AND BOTH PASS ON ARITHMETIC RATHER THAN ON ABSENCE OF EVIDENCE:**
+  | | stored | the check | verdict |
+  |---|---|---|---|
+  | **HPG** | **23,395** | H1/2026 NPAT is **9,056 (Q1) + 6,424 (Q2) = ₫15,480bn**, both filed ⇒ implied **H2/2025 = ₫7,915bn**, which sits properly against a Q2/2025 NPAT of ₫4,256.75bn already on file. **A TTM PBT would be ~₫26–28bn tn — far above 23,395.** | ✅ **consistent as a TTM NPAT; NOT a PBT** |
+  | **TCB** | **28,754** | FY2025 **PBT ₫32,500bn** ⇒ NPAT ≈ **₫26,000bn**; H1/2026 PBT ₫18,500bn implies a TTM PBT near **₫35,000bn**. **28,754 sits above the FY2025 NPAT and well below any PBT reading.** | ✅ **consistent as a TTM NPAT** |
+
+  ⚠ **TWO CANNOT BE TESTED, AND SAYING SO IS THE POINT:**
+  *• **MBB — UNRESOLVED, and awkwardly so.** Stored **30,858**. Against the on-file Q2 PBT estimate of ₫8,812bn,
+  annualised PBT is ₫35,248bn ⇒ NPAT ≈ **₫28,198bn**, so 30,858 is ~9% HIGH for a trailing NPAT — yet far too
+  LOW to be a PBT. **It fits neither cleanly, and this file has no MBB full-year filed figure to settle it.**
+  ⚠ *(VCBS's ₫43,244bn "2026 net profit" is almost certainly PBT and was already refused as a comparator at
+  13:54 — using it here would be the same substitution.)*
+  • **KDH — no anchor exists.** Stored **1,634**. KDH's earnings are lumpy and gain-driven, the file holds only
+  a Q2 PARENT estimate range of ₫170–348bn, and **no consolidated full-year filed figure. Untestable, not
+  clean.***
+
+  🎯🎯 **THE SCORECARD, AND IT IS THE FIRST TIME THIS FILE HAS HAD ONE:**
+  | ❌ **NOT a TTM NPAT (4)** | ✅ **passes (2)** | ⚠ **untestable (2)** |
+  |---|---|---|
+  | **VCI · VPX · VPB · TCX** | **HPG · TCB** | **MBB · KDH** |
+  🚨 ***HALF THE BOOK'S TRAILING-EARNINGS FIELDS ARE NOT WHAT THEIR NAME SAYS.*** *VCI and VPX were found
+  27-Jul and 02-Aug; VPB an hour ago; TCX has been declared all along.*
+
+  🎯🎯 **AND THE DISTINCTION THAT MATTERS MORE THAN THE COUNT: TCX's APPROXIMATION IS DECLARED AND VPB's WAS
+  NOT.** *TCX's field says exactly what it is and why — "TTM not computable, H1/2025 not established" — so it
+  has been **safely usable for weeks**: anyone reading it knows the basis and can decide whether it serves.
+  VPB's field is labelled `npat_ttm`, holds FY2025 PBT, and says nothing.* ***The difference between an
+  approximation you declare and one you don't is the whole of the reliability question — a declared
+  approximation is a measurement with a stated basis, an undeclared one is a wrong number.***
+  ✅ **AND IT VINDICATES THE 10:54 AUDIT'S PRESCRIPTION ONE MORE TIME: none of these four would EVER be found
+  by the identity check, which closes to under 0.08% on all eight because each block was solved for a cap
+  already known. The magnitude test against filed earnings found VPB in one accidental comparison and TCX in
+  one field read — and cost nothing.**
+
+  ⚠ **WHAT THIS DOES NOT DO — AND IT IS THE SAME CONCLUSION AS 09:54 AND 22:54: NO EXPECTED RETURN MOVES.**
+  *`cap_now = pe_ttm × npat_ttm` equals `shares × price` on all eight, so every one of these four errors is
+  paired with an offsetting `pe_ttm` and E[r] is untouched.* **What IS wrong is every multiple the file quotes:
+  TCX's 20.05×, VPX's 13.93× and VPB's 6.48× are not price/earnings ratios, and VPB's has been read as the
+  cheapest in the book.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — `npat_ttm` and
+  `pe_ttm` are §4 human-only on all eight. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 3 negative on every name — `cap_now` is right throughout, which is
+  precisely why this defect class has survived. Trigger 4 does NOT fire: these are errors in THIS FILE's
+  fields, not changes in any issuer's disclosed evidence. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS
+  FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 1
+  negative.**
+  ⚠ **§4 QUEUE, CONSOLIDATED: four `npat_ttm` fields need correcting WITH their `pe_ttm` partners (VCI, VPX,
+  VPB undisclosed; TCX declared and arguably acceptable as-is). MBB and KDH need a filed full-year figure
+  before they can be judged at all. HPG and TCB are clear.**
+  *(Sources: `research/models/assumptions.json` — `valuation.TCX._npat_ttm_basis_2026_08_02`,
+  `valuation.VPX._npat_ttm_FLAG`, `hpg.actuals.q2_npat` 6,424 and `q2_2025_npat` 4,256.75; this log's entries
+  of 04:54 (TCB FY2025 PBT ₫32,500bn), 09:54 (HPG Q1/2026 NPAT ₫9,056bn), 10:54 (the identity audit), 13:54
+  and 22:54. **Internal audit — no external source, and labelled as one.**)*
+
 - **🚨🚨 22:54 ICT WED 19-AUG · `valuation.VPB.npat_ttm` = 30,620 IS ALMOST CERTAINLY VPB's FY2025 **PBT**,
   NOT A TRAILING NPAT — IT MATCHES THE FILED PRE-TAX FIGURE TO **0.065%**. THIRD NAME WITH THIS DEFECT, AND
   THE 10:54 AUDIT PREDICTED EXACTLY THIS SHAPE (lane 3).**
