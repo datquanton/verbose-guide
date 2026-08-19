@@ -132,6 +132,85 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 16:54 ICT WED 19-AUG · I AUDITED ALL SEVENTEEN ARMED KILL CRITERIA. **THIRTEEN CANNOT BE
+  EVALUATED AS WRITTEN.** The five defects found ad hoc this week were not five accidents — they were the
+  visible part of a property of the whole set (lane 3, zero searches).**
+  *The brief's own sentence is the reason this matters: **"A triggered criterion is not a suggestion — it
+  forces the resize at the next brief."** A criterion that cannot be evaluated cannot force anything.*
+
+  🚨🚨 **THE AUDIT. 4 CLEAN, 13 DEFECTIVE, SORTED BY DEFECT TYPE:**
+
+  ✅ **CLEAN — named metric, named threshold, named date, single published series (4):**
+  *TCB "Q3 NIM < 3.25% vs 3.4% in Q2" · KDH "customer advances < ₫1,000bn at 3Q26 with Gladia launched" ·
+  VCI "9M PBT < 55% of FY target" · TCX "P/B < 2.0× " (trigger price ₫33,010 established) — **though TCX's
+  "on unchanged earnings" is an unquantified escape clause and is flagged below.***
+
+  🚨 **(A) MEASURE UNSTATED — the file holds several series and the criterion names none (4):**
+  | criterion | the competing measures | consequence |
+  |---|---|---|
+  | **HPG** *"core NPAT/tonne < ₫1.25m for two consecutive quarters"* | **filed Q2 = ₫1.803m** vs **the spread bridge = ₫0.8632m** | 🚨 **44% ABOVE the line, or already BELOW it for a quarter — Q3 would be the second** |
+  | **TCB** *"RE share of loans above 32%"* | five measures spanning **26.44%–36%** | distance to firing varies **43×** *(04:54)* |
+  | **VPX** *"FVTPL marks > 50% of PBT"* | **gross 1,639 ÷ 2,159 = 75.9% FIRES** · **net 716 ÷ 2,159 = 33.2% DOES NOT** | 🚨 **opposite answers, and the criterion says neither** |
+  | **TCB** *"NPL formation > 2.0%"* | of loans? of the developer book? a rate or a flow? | **denominator absent** |
+  ⚠⚠ ***THE VPX ONE WAS ALREADY FOUND — `valuation.VPX._THE_KILL_CRITERION_ON_THIS_NAME_GIVES_OPPOSITE_ANSWERS_ON_TWO_READINGS_2026_08_02_2253`. It was recorded on ONE name and never generalised.*** *Same shape as 06:54's finding that the TCX "blocked host" lesson never crossed to VNDiamond. **A lesson filed under a ticker does not generalise itself.***
+
+  🚨 **(B) ENUMERATES RATHER THAN DEFINES — the event fits the spirit and falls outside the list (3):**
+  *TCB "a **Masterise** bond event" — Saigon Glory is a Bitexco-era issuer (23:54) · KDH "**bargain-purchase
+  or revaluation** gains" — a disposal gain is neither (19:54) · **VPX "CAEX licence rejected under the
+  5-licence cap"** — a rejection on dossier, capital or timing would NOT satisfy it, and a decision that never
+  arrives satisfies nothing at all.*
+
+  🚨 **(C) UNOBSERVABLE AS WRITTEN — no published series carries the quantity (3):**
+  *MBB **"transferee drag > 5% of PBT"** — banks consolidate the transferee; no issuer publishes a "drag"
+  line · VCI **"market-share gain in FOREIGN brokerage"** — the file holds total HOSE brokerage share, not a
+  foreign cut, and "through the FTSE event" fixes no window · VPB **"FE Credit credit cost > 3.0%
+  annualised"** — consolidated, not separately disclosed.*
+
+  🚨 **(D) HALF-QUANTIFIED — one leg has a number, the other has a phrase (2):**
+  *KDH **"debt > ₫18tn WITHOUT A MATCHING PRE-SALE STEP-UP"** — no threshold, no ratio, no measure on the
+  second leg · TCX **"P/B < 2.0× ON UNCHANGED EARNINGS"** — an escape clause with no tolerance, so any
+  earnings move can be argued to void it.*
+
+  🚨 **(E) MOVING DENOMINATOR (1):** *HPG **"HRC volume run-rate < 85% of NAMEPLATE at Q4"** — nameplate moved
+  THIS MORNING: crude capacity is now **16mt/yr** and DQ2 just had **+500,000 t/yr** approved. **The criterion
+  fixes no vintage for its own denominator, and "HRC nameplate" and "crude-steel nameplate" are different
+  numbers.***
+  🚨 **(F) WINDOW TOO SHORT FOR THE NOISE (1):** *TCX foreign flows — 4 weeks on a weekly-alternating series
+  (15:54).*
+  🚨 **(G) DISARMED BY STRUCTURE (1):** *VPB **"placement executed > 15% below market"** — floored at book
+  value, so it fires only above **1.176× P/B** against a current **1.063×**.*
+
+  🎯🎯 **WHAT THE AUDIT ADDS BEYOND THE SUM OF ITS PARTS.** *Five defects found ad hoc this week looked like
+  bad luck on four names.* ***Thirteen of seventeen is a property of how the set was drafted: every criterion
+  is written as a crisp-sounding TEST, and the crispness lives in the THRESHOLD while the MEASURE, the
+  DENOMINATOR, the ENUMERATION or the OBSERVABILITY is left loose.*** **A number makes a sentence feel
+  falsifiable. Twelve of the thirteen defects survive precisely because each criterion HAS a number.**
+  ⚠ **AND THE ASYMMETRY IS ONE-SIDED IN A SPECIFIC WAY: on (A) and (B), the LOOSER READING IS ALWAYS THE ONE
+  THAT DOES NOT FIRE.** *HPG on filed earnings, TCB on RE-business-only, VPX on net FVTPL, TCB on "Masterise"
+  strictly construed, KDH on "bargain-purchase or revaluation" strictly construed — **every ambiguity has a
+  branch on which the criterion stays quiet**, and nothing in the file says which branch to take.*
+
+  ⚠ **WHAT THIS IS NOT: it is NOT a claim that any criterion should have fired.** *No criterion is declared
+  fired here, and the classification is about EVALUABILITY, not about outcomes. **Rewriting a criterion is a
+  §4 human act — an automated run may find one unevaluable, quantify why, and escalate. It may not redraft
+  it.***
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 is negative BY CONSTRUCTION this hour — the audit is about whether the
+  criteria CAN fire, not whether they have. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri
+  21-Aug = session 2, CORE preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠⚠ **§4 QUEUE — THIS SUPERSEDES THE FOUR SEPARATE CRITERION ITEMS LOGGED THIS WEEK: **13 of 17 armed kill
+  criteria need a measure, a denominator, a definition, a window or an observable source before they can be
+  evaluated.** The four clean ones are TCB-NIM, KDH-advances, VCI-9M-PBT and TCX-P/B. ***Until the other
+  thirteen are specified, the brief's stated safety mechanism — "a triggered criterion forces the resize" —
+  is operative on four names' worth of tests and dormant on the rest.***
+  *(Sources: `research/decisions/DECISION-BRIEF.md` lines 90–110; `research/models/assumptions.json`
+  `valuation.VPX._THE_KILL_CRITERION_ON_THIS_NAME_GIVES_OPPOSITE_ANSWERS_ON_TWO_READINGS_2026_08_02_2253`,
+  `vpx.actuals.q2_fvtpl_gross` 1,639 / `q2_fvtpl_loss` 923 / `q2_pbt` 2,159, `hpg.actuals._q2_core_npat_per_tonne_m`
+  1.803; this log's entries of 19:54, 23:54, 04:54, 14:54 and 15:54. **No external source — this hour is an
+  internal audit and is labelled as one.**)*
+
 - **🚨🎯 15:54 ICT WED 19-AUG · TCX'S ARMED FOREIGN-FLOW CRITERION MEASURES A FOUR-WEEK WINDOW ON A SERIES
   THAT FLIPS SIGN EVERY WEEK. ITS OUTCOME DEPENDS ON PHASE, NOT ON ACCUMULATION. Plus the 19-Aug close, and
   the first liquidity figure this file has held (lane 4).**
