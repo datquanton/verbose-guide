@@ -130,6 +130,81 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🎯 08:54 ICT WED 19-AUG · SECOND NEW RECORD IN THREE SESSIONS — ₫25,598. THE 16-AUG "FX LEG TURNED"
+  CALL IS NOW FALSIFIED TWICE OVER. AND A NEW ANTI-CORRELATION: THE FIXING AND THE BANK QUOTE MOVED IN
+  OPPOSITE DIRECTIONS ON THE SAME SESSION, FOR THE SECOND SESSION RUNNING (lane 1).**
+
+  ✅ **THE SERIES, NOW SEVEN POINTS AND RECONCILING AT EVERY STEP:**
+  | date | central rate | Δ | |
+  |---|---|---|---|
+  | 07-Aug | 25,463 | — | |
+  | 10-Aug | 25,491 | +28 | |
+  | 13-Aug | 25,566 | +75 | *record* |
+  | 14-Aug | 25,561 | **−5** | ← *the claimed "turn"* |
+  | 17-Aug | 25,586 | +25 | **record** |
+  | 18-Aug | 25,580 | **−6** | |
+  | **19-Aug** | **25,598** | **+18** | 🚨 **NEW RECORD** |
+  ✅ **25,580 + 18 = 25,598 exactly. Band: ceiling 25,598 × 1.05 = ₫26,877.9, floor ×0.95 = ₫24,318.1.**
+  🚨 ***TWO SINGLE-SESSION DECLINES, EACH FOLLOWED BY A NEW HIGH.*** **On 16-Aug I called the −5 "the FIRST
+  decline after THREE CONSECUTIVE WEEKS of increases" and headlined the constraint loosening. That was
+  withdrawn yesterday on one counter-observation; it is now falsified on two, with the same shape both
+  times.** *A hypothesis that fails twice in the identical way is not unlucky — the statistic was wrong, not
+  the sample.*
+
+  🎯🎯 **THE NEW FINDING, AND IT IS THE ONE I REFUSED TO DRAW YESTERDAY BECAUSE THE BASIS WAS MIXED.**
+  *At 20:54 I declined to read a session move from ₫26,330 (Vietcombank, 17-Aug) against ₫26,478 (18-Aug,
+  almost certainly a max-across-banks quote), and said so.* **Today the basis is clean — Vietcombank AND BIDV,
+  both named, both quoting buy ₫25,990 / sell ₫26,370, both CUT 40 dong.**
+  | session | **central rate** | **Vietcombank sell** |
+  |---|---|---|
+  | 17-Aug | 25,586 | **26,330** *(on file)* |
+  | 18-Aug | **25,580 (−6)** | **26,410 (+80)** *(derived from today's stated −40 cut — flagged as derived)* |
+  | **19-Aug** | **25,598 (+18)** | **26,370 (−40)** |
+  🚨 ***THE FIXING AND THE COMMERCIAL QUOTE MOVED IN OPPOSITE DIRECTIONS ON BOTH SESSIONS.*** ⚠ **Two
+  observations are not a correlation and I am not calling one.** *But this file has been treating the central
+  rate and bank quotes as two readings of a single thing called "FX pressure", and on the only two sessions
+  where both are cleanly dated they disagree in sign.* **The 18-Aug leg is DERIVED, not observed, and that is
+  stated; the 19-Aug leg is observed on both sides.**
+
+  ✅ **AND THE DECOMPOSITION GETS A THIRD POINT ON A CONSISTENT BASIS — CONFIRMING YESTERDAY'S READING AND
+  IMPROVING IT.** *Yesterday's headroom figures mixed bases; these are Vietcombank throughout:*
+  | | ceiling | VCB sell | **headroom** |
+  |---|---|---|---|
+  | 17-Aug | 26,865.3 | 26,330 | **₫535.3** |
+  | 18-Aug | 26,859.0 | 26,410 *(derived)* | **₫449.0** |
+  | **19-Aug** | **26,877.9** | **26,370** | **₫507.9** |
+  ✅ ***HEADROOM OSCILLATES IN A ~₫90 BAND WITH NO TREND WHILE THE LEVEL MAKES RECORDS.*** **The pressure
+  measure and the level are telling different stories, and the file has been recording only the level** — the
+  same conclusion as 20:54 yesterday, now on three points and one basis instead of two points and two.
+  ✅ *Free-market USD back below ₫26,000. DXY below 100.*
+
+  🎯 **THIRD CONSECUTIVE SESSION OF DXY / CENTRAL-RATE DIVERGENCE.** *18-Aug: dollar soft, fixing at a record.
+  19-Aug: **DXY below 100** and the fixing sets another record.* **The Fed→dollar→VND chain was broken at
+  link 1 on 00:54 (a 42.6pp move in hike odds shifted DXY four basis points) and at link 2 yesterday. Today is
+  the third observation on link 2 and the first where it was PREDICTED rather than noticed.**
+
+  ⚠ **A DATED EVENT NOT ON FILE — `biên bản Fed` / `FOMC minutes` RETURN ZERO HITS. The minutes of the 29-JUL
+  FOMC are due imminently** *(coverage today leads "DXY nhích lên **trước biên bản Fed**")*. 🚨 **That is a
+  dated macro catalyst inside trigger 5's five-session window — but trigger 5 is ALREADY FIRED on 21-Aug and
+  24-Aug, so it adds a date, not a state.** ⚠⚠ ***AND THE FILE'S OWN WORK SAYS TO DISCOUNT IT: the 29-Jul
+  meeting is the one whose 9–3 hold with three HIKE dissents is already on file in full, and both links from a
+  Fed event to this book are now empirically broken.*** *Logged as dated-and-low-consequence, which is a
+  judgment the file has earned rather than an assumption.*
+  ⚠ *Also noted, not adopted: **four banks quoting deposit rates above 8.2%**. Against TCB's 6.9% long-tenor
+  on file that looks dramatic, **but headline Vietnamese deposit rates at that level are almost always
+  conditional** — minimum balances in the hundreds of billions, or special products. **No bank named, no
+  condition stated, no tenor given: recorded as a claim, not a rate.***
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — a macro read is not evidence about any
+  company's numbers, per the file's standing rule. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 tested against the FOMC minutes: it adds a date inside an ALREADY-FIRED
+  window and does not change the state. Trigger 4 does NOT fire — the SBV chain is an inference layer above
+  the holdings, not any held name's evidence status. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED
+  — Fri 21-Aug = session 2, CORE circumvention preliminary 24-Aug = session 3. Trigger 2 STANDING-BREACHED.
+  Triggers 1 and 3 negative.**
+  [VOV — tỷ giá USD hôm nay 19/8: tỷ giá trung tâm tăng lên mốc 25.598 đồng/USD](http://vov.vn/thi-truong/ty-gia-usd-hom-nay-198-ty-gia-trung-tam-tang-len-moc-25598-dongusd-post1325190.vov) · [Thời báo Tài chính — tỷ giá trung tâm tiến sát 25.600 đồng, DXY nhích lên trước biên bản Fed](https://thoibaotaichinhvietnam.vn/ty-gia-usd-hom-nay-19-8-ty-gia-trung-tam-tien-sat-25-600-dong-dxy-nhich-len-truoc-bien-ban-fed-202523.html) · [Thanh Niên — giá USD hôm nay 19.8.2026: giảm xuống dưới 26.000 đồng](https://thanhnien.vn/gia-usd-hom-nay-1982026-giam-xuong-duoi-26000-dong-185260819080650969.htm) · [Báo Văn Hóa — tỉ giá USD 19.8.2026: giá ngân hàng quay đầu giảm, DXY dưới 100 điểm](https://baovanhoa.vn/kinh-te/ti-gia-usd-hom-nay-1982026-gia-ngan-hang-quay-dau-giam-dxy-duoi-100-diem-257207.html) · [DNHN — tỷ giá USD hôm nay 19/8/2026: đồng USD đi ngang trước tín hiệu mới từ Fed](https://doanhnghiephoinhap.vn/ty-gia-usd-hom-nay-1982026-dong-usd-di-ngang-truoc-tin-hieu-moi-tu-fed-146740.html) · [Ngôi Sao — lãi suất ngân hàng 19/8/2026: bốn ngân hàng trên 8,2%](https://ngoisao.vn/theo-dong-su-kien/tin-nong-trong-ngay/cap-nhat-lai-suat-ngan-hang-moi-nhat-hom-nay-19-8-2026-bon-ngan-hang-co-lai-suat-tren-82-d490392.html)
+
 - **🎯🎯🎯 07:54 ICT WED 19-AUG · THE 01-AUG TRIGGER-5 CATALYST IS RESOLVED — AS A NON-EVENT. THE JULY
   REVIEW CHANGED **VN30** CONSTITUENTS AND GAVE VNDIAMOND ONLY A DATA-AND-WEIGHTS UPDATE. SEVEN SEARCHES AND
   EIGHTEEN DAYS WENT LOOKING FOR AN ANNOUNCEMENT THAT DOES NOT EXIST (lane 4).**
