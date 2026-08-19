@@ -132,6 +132,67 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨 12:54 ICT WED 19-AUG · THE PRICE BLOCK WAS **NOT** STRUCK ON ONE DATE, AND I CAN PROVE IT FROM THE
+  FILE'S OWN NUMBERS. THE BRIEF'S E[r] RANKING MAY BE COMPARING CAPITALISATIONS STRUCK WEEKS APART. VPX
+  closes the audit to seven of eight (lane 3).**
+
+  ✅ **THE LAST EASY PRICE: VPX ₫25,600 at 10-AUG against the file's ₫26,600 — the file 3.9% HIGH.** *k =
+  0.96241 ⇒ E[r] −0.0% → **+3.9%**, a **+3.9pp** move. Below the 10pp threshold; trigger 3 does not fire.*
+  ✅ **AND A SECOND EXTERNAL MARKET CAP: ₫52,593.8bn for VPX in JUNE 2026.** *On 1,875.0m shares that implies
+  **₫28,050** in June — so VPX ran 28,050 (Jun) → 26,600 (the file) → 25,600 (10-Aug), monotone down.*
+  🎯 **WHICH DATES AN UNDATED FIELD BY BRACKETING IT — A METHOD THIS FILE HAS NOT USED.** *₫26,600 sits
+  between two dated caps, so VPX's price was struck **mid-to-late JULY**.* ✅✅ **AND THE BRACKET IS CONFIRMED
+  INDEPENDENTLY BY THE REPO ITSELF: `valuation.VPX._npat_ttm_FLAG` is stamped **2026-07-27**.** *The method
+  recovered a strike date to within days, from two external caps, with no access to the field's history.*
+
+  🚨🚨 **SO I TESTED THE OBVIOUS HYPOTHESIS — "the whole block was struck when the brief was generated,
+  24-JUL-2026" — AND IT IS FALSE.**
+  | | TCX's price at 24-JUL *(on file)* | TCX's price at 07-AUG *(on file)* | **the stored field** |
+  |---|---|---|---|
+  | | **₫39,200** | **₫40,550 / ₫41,400** | **₫41,100** |
+  🚨 ***₫41,100 is 4.85% ABOVE TCX's 24-July price and sits INSIDE its 07-August range. TCX's price field
+  cannot have been struck on 24-July.*** **So the block has been partially updated, name by name, without any
+  date being recorded — at least two distinct vintages are demonstrable, and probably more.**
+  ⚠⚠ ***THIS IS WORSE THAN A COMMON STALE DATE, NOT BETTER.*** *A block struck on one known date is stale in a
+  single, correctable way — every E[r] is wrong by the same market move and the RANKING survives. **A block of
+  heterogeneous, unrecorded vintages means the brief's expected returns are computed off capitalisations
+  struck WEEKS APART, and every cross-name comparison in it — the ranking, the trade list, the ADD/TRIM
+  ordering — silently assumes contemporaneous prices that do not exist.*** **The defect is in the brief's core
+  output, not in any one field.**
+
+  ✅ **THIS REFINES YESTERDAY'S CONCLUSION RATHER THAN CONTRADICTING IT, AND BOTH HALVES STAND.** *At 11:54 I
+  wrote that staleness is "concentrated, not uniform — so it is two escalations, not a whole-block
+  re-strike."* **The CONSEQUENCE is still concentrated (only TCB −7.1pp and VCI −6.4pp exceed ~2pp). But the
+  CAUSE is now known to be heterogeneous vintages, and that argues for a full re-strike anyway** — not
+  because the other six are individually wrong enough to matter, but because **a re-strike to one dated
+  timestamp is the only thing that stops the defect recurring, and it is the only way the ranking becomes
+  meaningful.** *Two escalations fix today's numbers; one re-strike fixes the method.*
+
+  ✅ **THE AUDIT IS NOW SEVEN OF EIGHT. Only MBB is unchecked** *(per-ticker blocked, eight attempts; the
+  26-Aug pre-registration is running)*:
+  | HPG | TCB | TCX | KDH | VPB | VCI | **VPX** | MBB |
+  |---|---|---|---|---|---|---|---|
+  | −1.9% | **−7.0%** | ±1.4% | +1.7% | +1.2% | **−7.2%** | **+3.9%** | **unchecked** |
+  *E[r] deltas: TCB **−7.1pp**, VCI **−6.4pp**, VPX **+3.9pp**, everything else under 2pp.* ⚠ **AND NOTE THE
+  SIGNS DIVERGE — TCB and VCI are stale LOW, VPX is stale HIGH. That is exactly what heterogeneous vintages
+  against different price paths produce, and it is not what a single common strike date would produce.**
+
+  ⚠ **WHAT I AM NOT CLAIMING: a strike date for each name.** *Only TCX's is pinned (early August, from two
+  on-file readings) and only VPX's is bracketed (mid-to-late July, confirmed by a `2026-07-27` stamp). **The
+  other six have no vintage evidence at all**, and inventing one from the direction of the gap would assume
+  the market path in order to date the field.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — every `price` is
+  §4 human-only. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 3 computed on VPX: +3.9pp, below threshold. Trigger 4 does NOT fire — a
+  market price is not a disclosed result, the standing ruling since 20:54. Trigger 4 REMAINS FIRED on VPX for
+  the `npat_ttm`/`pe_ttm` pair. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE preliminary 24-Aug =
+  session 3. Trigger 2 STANDING-BREACHED. Trigger 1 negative.**
+  ⚠ **§4 QUEUE — THE ITEM IS UPGRADED FROM "two stale prices" TO "the price block has no common vintage and
+  the brief's ranking assumes one."** *Re-strike all eight to a single dated timestamp; TCB and VCI are the
+  two that move a number, but the ranking is the thing actually at risk.*
+  [CafeF — dữ liệu VPX (HOSE)](https://cafef.vn/du-lieu/hose/vpx-cong-ty-co-phan-chung-khoan-vpbank.chn) · [VietstockFinance — VPX/VPBANKS](https://finance.vietstock.vn/VPX-ctcp-chung-khoan-vpbank.htm) · [Investing.com — giá cổ phiếu VPBank Securities JSC](https://vn.investing.com/equities/vpbank-securities-jsc) · [Báo Chính phủ — tái định giá cổ phiếu VPB sau thương vụ IPO VPBankS](https://baochinhphu.vn/tai-dinh-gia-co-phieu-vpb-sau-thuong-vu-ipo-vpbanks-102251119202615916.htm)
+
 - **🚨🚨🚨 11:54 ICT WED 19-AUG · A PRICE THAT WOULD HAVE FIRED TRIGGER 3 AT −31.6pp IS **ARITHMETICALLY
   IMPOSSIBLE**, AND HOSE'S 7% DAILY LIMIT IS WHAT KILLED IT. A NEW FREE DETECTOR, AND THE 10:54 AUDIT'S GAP
   CLOSES FROM FIVE NAMES TO TWO (lane 3).**
