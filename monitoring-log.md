@@ -46,7 +46,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
 | **BANK FOREIGN-OWNERSHIP ROOM — INSTRUMENT, DATE, ELIGIBILITY AND THE LOCKS, ALL ON FILE** *(added 19-Aug 03:54)* | ✅ **DECREE 69/2025, EFFECTIVE 19-MAY-2025.** Eligibility: banks that took a **MANDATORY TRANSFER** of a weak institution, **excluding** banks >50% state-held — **which is why TCB is capped at 30% and MBB/VPB/HDB at 49%.** 🚨 **THE TRAP THIS ROW EXISTS TO STOP: sources publish STATUTORY headroom as INVESTABLE headroom.** They give MB **26.7pp**, VPB **24.7pp**, HDB **32.2pp**. **MBB's self-imposed lock is 23.23–23.24% and TCB's is 22.51%, so MBB's and TCB's actually-available room is ZERO** *(15-Aug: "the door is closed by the bank, not by the law"; TCB's lock is calibrated — (22.51+10)/110 = 29.55%, just under its 30% cap)*. **VPB alone has no reported lock, ~24pp of real room — and VPB alone is placing 624.3m shares with a foreign investor.** ⚠ A 0.93pp discrepancy on MBB's current level (source implies 22.3%, file holds 23.23%) is recorded unresolved; **the zero-headroom conclusion holds at either value** | **A BOARD OR AGM RESOLUTION MOVING A LOCK** — that, and only that, re-opens MBB or TCB. Ownership-level drift does not. ⚠ **"Sắp nới room ngoại" headlines are describing MAY-2025 and are not news** |
 | **⚠⚠ EU / UK TRADE POLICY ON VIETNAMESE STEEL — AN UNLANED JURISDICTION, FIRST SWEPT 19-Aug 05:54** | 🚨 **`CBAM` and `hạn ngạch` returned ZERO HITS repo-wide.** The routine's lane 2 is *"US trade actions"*, lane 5 covers domestic and **CHINA** export prices, lane 6 is competitors — **so EU/UK measures fall inside no lane's remit. The gap is in the lane DEFINITIONS.** Now held: **CBAM costs on Vietnamese coated-steel exports; new UK and EU import QUOTAS biting after 30-JUN-2026 (a dated event already passed); galvanised + pipe export volume forecast ~1.5m t in 2026, −25% YoY; NKG volume −17% with exports −30%.** 🚨 **HPG LINK: `_q2_volume_source` excludes pipe 212kt + galvanised 83kt = 295kt = 7.77% of Q2 volume — exactly the affected classes. That 7.77% is an UPPER BOUND; HPG's export share of those classes is NOT on file and is not guessed.** ✅ **No bridge input moves — pipe and galvanised are outside all three blades** | **an EU/UK measure naming Vietnam or a steel product**, HPG's export split for pipe/galvanised, or a 2026 actual against the −25% forecast. ⚠ **Second lane-scope blind spot found in four hours (01:54 was non-steel US cases) — both from a lane named for a jurisdiction-and-topic pair** |
-| **🚨 VIETNAM'S OWN HRC DUTY ON CHINA — 1917/QĐ-BCT, 27.83%, IN FORCE 12-AUG-2026 TO JULY 2030** *(added 19-Aug 10:54; `1917`, `27.83`, `chống lẩn tránh` all returned ZERO hits)* | 🚨 **ANTI-CIRCUMVENTION — a DIFFERENT legal basis from AD612 (anti-dumping, gate row 82, final outer bound 27-Oct-2026), so it does NOT by itself close AD612's "unprotected interval" question and is not claimed to.** 🚨 **IT INVERTS THE 16:54 MON FINDING: landed Chinese HRC US$495–510 × 1.2783 = US$632.8–651.9 against HPG's US$535 September offer ⇒ HPG moves from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a 21–26pp swing.** ⚠ Duty base is CIF; the 495–510 is FOB+freight, so the direction is firm and the magnitude approximate. ✅ **HPG domestic HRC share 43.4% (Jun-2026); crude capacity 16mt/yr; DQ2 complete and optimising; rail plant 700kt >50% done, first product Q1/2027.** 🎯 **OPEN PUZZLE, PRE-REGISTERED: HPG CUT its September offer 7.76% in the same window — test (b) share-buying vs (c) ore pass-through against the Q3 filing and HPG's October offer** | **an October or later HPG offer, the AD612 final (~27-Oct), or a change to 1917's scope or rate** — not a re-run |
+| **🚨 VIETNAM'S OWN HRC DUTY ON CHINA — 1917/QĐ-BCT, 27.83%, **WIDE-FORMAT 1,880–2,300mm ONLY**, IN FORCE 12-AUG-2026 TO JULY 2030** ⚠⚠ **SCOPE CORRECTED 19-Aug 18:54 AND THE 21–26pp SWING IS WITHDRAWN — 24 HS codes 7208.25.00–7226.91.90; EXEMPT: carbon >0.30% and sheet ≥10mm; MoIT is accepting exemption applications. THE FILE'S BENCHMARK IS MYSTEEL SS400 **3mm**, WHICH IS NOT IN SCOPE, so multiplying it by 1.2783 was a product substitution. Direction survives (1917 replaced the April-2026 temporary measure with no gap and, with the standard-width AD measure, closes the whole imported HRC line); MAGNITUDE does not. ⚠ MISSING AND ESCALATED: the AD rate on STANDARD-WIDTH Chinese HRC — without it no landed comparison is possible.** *(added 19-Aug 10:54; `1917`, `27.83`, `chống lẩn tránh` all returned ZERO hits)* | 🚨 **ANTI-CIRCUMVENTION — a DIFFERENT legal basis from AD612 (anti-dumping, gate row 82, final outer bound 27-Oct-2026), so it does NOT by itself close AD612's "unprotected interval" question and is not claimed to.** 🚨 **IT INVERTS THE 16:54 MON FINDING: landed Chinese HRC US$495–510 × 1.2783 = US$632.8–651.9 against HPG's US$535 September offer ⇒ HPG moves from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a 21–26pp swing.** ⚠ Duty base is CIF; the 495–510 is FOB+freight, so the direction is firm and the magnitude approximate. ✅ **HPG domestic HRC share 43.4% (Jun-2026); crude capacity 16mt/yr; DQ2 complete and optimising; rail plant 700kt >50% done, first product Q1/2027.** 🎯 **OPEN PUZZLE, PRE-REGISTERED: HPG CUT its September offer 7.76% in the same window — test (b) share-buying vs (c) ore pass-through against the Q3 filing and HPG's October offer** | **an October or later HPG offer, the AD612 final (~27-Oct), or a change to 1917's scope or rate** — not a re-run |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 | **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | **THE NEXT STEEL-LANE RETURN, AT NO DEDICATED SEARCH COST. If BOTH ₫15,120 and ₫14,440–15,150 repeat ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED, the series is live, and this row closes.** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
@@ -131,6 +131,68 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨🚨 18:54 ICT WED 19-AUG · I WITHDRAW THIS MORNING'S 21–26pp SWING. THE 27.83% DUTY IS ON
+  **WIDE-FORMAT** HRC, 1,880–2,300mm — AND THE FILE'S CHINESE-HRC BENCHMARK IS A **3mm** PRODUCT. I APPLIED A
+  DUTY DEFINED ON ONE SPECIFICATION TO A PRICE INDEX DEFINED ON ANOTHER. Separately, my own 16:54 audit is
+  corrected in HPG's favour (lanes 5, 2, 3).**
+
+  🚨🚨 **THE WITHDRAWAL.** At 10:54 I wrote that landed Chinese HRC of **US$495–510 × 1.2783 = US$632.8–651.9**
+  against HPG's **US$535** moved HPG *"from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a swing of
+  roughly 21 to 26 percentage points."* ***THE SCOPE IS NARROWER THAN I ASSUMED:***
+  | | |
+  |---|---|
+  | **Decision 1917/QĐ-BCT** | issued **28-JUL-2026**, in force **12-Aug-2026 → July 2030** |
+  | **product scope** | **HRC of WIDTH 1,880–2,300 mm only** — *"khổ rộng"*, wide format |
+  | **tariff lines** | **24 HS codes, 7208.25.00 → 7226.91.90** |
+  | **exempt** | **carbon > 0.30%**, and **sheet ≥ 10mm thick** |
+  | **exemption route** | **MoIT is accepting exemption applications** |
+  🚨 ***THE FILE'S LANDED-CHINESE-HRC FIGURE COMES FROM THE MYSTEEL WEEKLY — "SS400, 3mm, Tianjin". A 3mm
+  standard-width coil IS NOT IN 1917's SCOPE.*** **So multiplying that benchmark by 1.2783 applied a duty
+  defined on one product specification to a price index defined on another.** *That is the product-substitution
+  family, committed by me eight hours ago, on the headline of a first-order finding — and it is the ninth time
+  this week the catalogue has caught something, the second time it has caught me.*
+
+  ✅ **WHAT SURVIVES, AND IT IS NOT NOTHING.** *The same source states that 1917 **replaces the temporary
+  decision of April 2026** and thereby **"closes the trade-defence barriers covering the ENTIRE imported HRC
+  line"** — i.e. wide format by 1917, standard widths by the pre-existing anti-dumping measure.* **So the
+  DIRECTION of this morning's finding holds: Chinese HRC entering Vietnam is now comprehensively dutied. The
+  MAGNITUDE does not, because the benchmark product is covered by a DIFFERENT measure at a DIFFERENT rate
+  THAT THIS FILE DOES NOT HOLD.** ⚠ **The missing number is the AD rate on standard-width Chinese HRC. Until
+  it is on file, no landed-price comparison can be made at all, and I am not making one.**
+  🎯 **AND IT CLOSES ONE HALF OF GATE ROW 82's WORRY: the April-2026 TEMPORARY measure ran straight into the
+  12-Aug DEFINITIVE one with NO GAP.** *That row's fear was verbatim: **"612 states NO TERM for the temporary
+  duty itself — if it lapses before the final, there is an unprotected interval."*** ⚠ **This is the
+  CIRCUMVENTION case's timeline (temporary April → definitive 28-Jul), not AD612's (initiated 27-Oct-2025,
+  final outer bound 27-Oct-2026). AD612's own gap question stays open** — the same separation I insisted on at
+  10:54, now with the other case's timeline as a worked precedent rather than a hope.
+
+  ✅✅ **SECOND CORRECTION, AND IT GOES THE OTHER WAY — MY OWN AUDIT WAS TOO HARSH ON HPG.** *At 16:54 I
+  classified **HPG's "HRC volume run-rate < 85% of NAMEPLATE at Q4"** as defective under "moving denominator",
+  citing this morning's 16mt crude capacity and the +500,000 t/yr approval.* 🚨 ***THE FILE ALREADY FIXES THE
+  RIGHT DENOMINATOR: `hpg.actuals._dq2_hrc_nameplate_mt` = **5.6mt**, an HRC-specific figure, alongside
+  `_q2_hrc_annualised_run_rate_mt` = **7.6mt**.*** **7.6 ÷ 5.6 = 136% against an 85% threshold — the criterion
+  is EVALUABLE and NOT CLOSE.** *The 16mt is CRUDE-steel capacity, a different measure, and the file already
+  distinguishes them — which was the second half of my own objection and turns out to be the resolution rather
+  than the problem.*
+  ✅ **THE AUDIT IS THEREFORE RESTATED: 5 CLEAN, 12 DEFECTIVE** *(HPG-DQ2 joins TCB-NIM, KDH-advances,
+  VCI-9M-PBT and TCX-P/B)*. ⚠ *Even the +500,000 t/yr expansion is immaterial here: at a 6.1mt nameplate the
+  threshold is 5.185mt against a 7.6mt run-rate.* **An audit that cannot be corrected downward is not an
+  audit, and finding one of my own thirteen was wrong makes the other twelve worth more, not less.**
+
+  ⚠ *Nil on the rest: the "HPG Q2 net profit ₫6,400bn, +51%" headline returned alongside is the file's
+  `q2_npat` of **₫6,424bn**, rounded — already held.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES, AND ONE PREVIOUSLY-FLAGGED DEFECT IS RETIRED. HPG's DQ2 criterion is clean and
+  sits at 136% of nameplate. Trigger 1 negative on both HPG criteria. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2, CORE circumvention preliminary 24-Aug = session 3.
+  Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **§4 QUEUE, ADDED: the file needs the ANTI-DUMPING rate on standard-width Chinese HRC. Without it the
+  landed-import comparison — the HPG bridge's competitive ceiling — cannot be computed at all, and this
+  morning's 21–26pp figure must not be quoted.**
+  [Nhịp sống kinh doanh — Việt Nam áp thuế 27,83% với thép HRC khổ rộng từ Trung Quốc](https://nhipsongkinhdoanh.vn/nong--viet-nam-ap-thue-chong-ban-pha-gia-27-83--voi-thep-hrc-kho-rong-tu-trung-quoc-27231.htm) · [Tuổi Trẻ — Việt Nam áp thuế 27,83% với thép HRC khổ rộng từ Trung Quốc](https://tuoitre.vn/viet-nam-ap-thue-27-83-voi-thep-hrc-kho-rong-tu-trung-quoc-20260402154455217.htm) · [MoIT — tiếp nhận hồ sơ đề nghị miễn trừ áp dụng biện pháp chống lẩn tránh với thép cán nóng từ Trung Quốc (primary)](https://moit.gov.vn/tin-tuc/tiep-nhan-ho-so-de-nghi-mien-tru-ap-dung-bien-phap-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-chinh-thuc-doi-voi-mot-.html) · [TNCK — áp thuế chống lẩn tránh chính thức với thép cán nóng](https://www.tinnhanhchungkhoan.vn/ap-thue-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-chinh-thuc-voi-thep-can-nong-post394935.html) · [Saigon Times — Việt Nam áp thuế gần 28% với thép HRC khổ rộng Trung Quốc](https://thesaigontimes.vn/viet-nam-ap-thue-gan-28-voi-thep-hrc-kho-rong-trung-quoc/)
 
 - **🎯🚨 17:54 ICT WED 19-AUG · THE 05:54 BOUND GETS ITS MISSING FACTOR INDIRECTLY — HPG's PIPE AND
   GALVANISED VOLUMES DO NOT BEHAVE LIKE AN EXPORT-SQUEEZED BOOK. But galvanised fell 21.7% QoQ **BEFORE** the
