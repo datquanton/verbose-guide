@@ -44,6 +44,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **SAIGON GLORY .01–.05 — THE PAST-DUE BLOCK, NOW MEASURED** *(added 18-Aug 23:54)* | ✅ **2025 scheduled principal ~₫300bn/lot × 5 = ₫1,500bn; ACTUALLY PAID < ₫7bn = 0.47%; outstanding ₫1,496bn — and 1,500 − 7 = 1,493 reconciles to 0.20%.** ⚠ **TWO READINGS of the ₫1,496bn are on file with the arithmetic that discriminates (total-remaining vs unpaid-2025-instalment, ₫2,500bn apart); the reconciliation selects the WORSE one and it is NOT collapsed to.** **FINED for failing to disclose payment information on .02 and .03 (matured June 2025)** — a governance fact, distinct from the 14-Nov-2025 missed ₫3.5bn interest on .02. **.05 originally matured 10-Jul-2023; .01–.03 June-2023 — extensions of +24/+24/+15 months, bracketing the agreement's stated "1–2 years" exactly.** Financials: swung from ~−₫16,000bn to +₫1,500bn under the new owner, **accumulated losses ~₫18,000bn**, still cannot pay. **Collateral appraisal reported down sharply — DIRECTIONAL AND UNDATED, deliberately not quantified** | **a 2026-dated payment, a further sanction, or a NUMBER on the collateral haircut** — not a re-run. ⚠ **The open question is NOT factual but definitional and sits in the §4 queue: does "a Masterise bond event" cover a Bitexco-era issuer's pre-acquisition defaults?** |
 | **NON-STEEL VIETNAM TRADE PROCEEDINGS — SWEPT ONCE, BOUNDED, NONE PORTFOLIO-RELEVANT** *(added 19-Aug 01:54)* | ✅ **The file had recorded ZERO of these — `tissue`, `compressor`, `fish fillet`, `photovoltaic`, `silicon` all returned zero hits, so the 31-Jul "lane 2 clean" miss was a CATEGORY, not one case.** Now held: **tissue paper completed IN VIETNAM, circumvention inquiry initiated FR 06-Aug-2026**; **air compressors (China/Malaysia/Vietnam) AD/CVD, ~27-May-2026**; **frozen fish fillets AD administrative review, final results FR 13-Aug-2026**; **crystalline silicon PV cells (Cambodia/Malaysia/Thailand/Vietnam) — UNDATED in source, deliberately not assigned a year.** **NONE of the eight makes any of these products.** 🚨 **DO NOT USE THE TISSUE-PAPER INQUIRY AS A BASE RATE FOR THE 24-AUG CORE PRELIMINARY — the directions are opposite: tissue paper has Vietnam as the alleged CIRCUMVENTER (completion country), CORE has Vietnam as the ORIGIN whose orders Indonesia is alleged to circumvent. Pooling them answers neither question** | **a proceeding naming steel, a bank, a broker or a developer** — not another general sweep of the Vietnam docket |
 | **BANK FOREIGN-OWNERSHIP ROOM — INSTRUMENT, DATE, ELIGIBILITY AND THE LOCKS, ALL ON FILE** *(added 19-Aug 03:54)* | ✅ **DECREE 69/2025, EFFECTIVE 19-MAY-2025.** Eligibility: banks that took a **MANDATORY TRANSFER** of a weak institution, **excluding** banks >50% state-held — **which is why TCB is capped at 30% and MBB/VPB/HDB at 49%.** 🚨 **THE TRAP THIS ROW EXISTS TO STOP: sources publish STATUTORY headroom as INVESTABLE headroom.** They give MB **26.7pp**, VPB **24.7pp**, HDB **32.2pp**. **MBB's self-imposed lock is 23.23–23.24% and TCB's is 22.51%, so MBB's and TCB's actually-available room is ZERO** *(15-Aug: "the door is closed by the bank, not by the law"; TCB's lock is calibrated — (22.51+10)/110 = 29.55%, just under its 30% cap)*. **VPB alone has no reported lock, ~24pp of real room — and VPB alone is placing 624.3m shares with a foreign investor.** ⚠ A 0.93pp discrepancy on MBB's current level (source implies 22.3%, file holds 23.23%) is recorded unresolved; **the zero-headroom conclusion holds at either value** | **A BOARD OR AGM RESOLUTION MOVING A LOCK** — that, and only that, re-opens MBB or TCB. Ownership-level drift does not. ⚠ **"Sắp nới room ngoại" headlines are describing MAY-2025 and are not news** |
+| **⚠⚠ EU / UK TRADE POLICY ON VIETNAMESE STEEL — AN UNLANED JURISDICTION, FIRST SWEPT 19-Aug 05:54** | 🚨 **`CBAM` and `hạn ngạch` returned ZERO HITS repo-wide.** The routine's lane 2 is *"US trade actions"*, lane 5 covers domestic and **CHINA** export prices, lane 6 is competitors — **so EU/UK measures fall inside no lane's remit. The gap is in the lane DEFINITIONS.** Now held: **CBAM costs on Vietnamese coated-steel exports; new UK and EU import QUOTAS biting after 30-JUN-2026 (a dated event already passed); galvanised + pipe export volume forecast ~1.5m t in 2026, −25% YoY; NKG volume −17% with exports −30%.** 🚨 **HPG LINK: `_q2_volume_source` excludes pipe 212kt + galvanised 83kt = 295kt = 7.77% of Q2 volume — exactly the affected classes. That 7.77% is an UPPER BOUND; HPG's export share of those classes is NOT on file and is not guessed.** ✅ **No bridge input moves — pipe and galvanised are outside all three blades** | **an EU/UK measure naming Vietnam or a steel product**, HPG's export split for pipe/galvanised, or a 2026 actual against the −25% forecast. ⚠ **Second lane-scope blind spot found in four hours (01:54 was non-steel US cases) — both from a lane named for a jurisdiction-and-topic pair** |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
 | **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | **THE NEXT STEEL-LANE RETURN, AT NO DEDICATED SEARCH COST. If BOTH ₫15,120 and ₫14,440–15,150 repeat ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED, the series is live, and this row closes.** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
@@ -128,6 +129,70 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨 05:54 ICT WED 19-AUG · `CBAM` AND `hạn ngạch` RETURN **ZERO HITS** REPO-WIDE. EU AND UK TRADE
+  POLICY ON VIETNAMESE STEEL IS NOT COVERED BY ANY LANE — AND THE SEGMENT IT HITS IS EXACTLY THE ONE THIS
+  FILE DELIBERATELY EXCLUDED FROM HPG'S VOLUME BASKET (lanes 6, 5, 2).**
+
+  🚨🚨 **THE STRUCTURAL FINDING FIRST, BECAUSE IT IS THE BIGGER ONE. THE ROUTINE'S LANE 2 IS NAMED "US TRADE
+  ACTIONS."** *Lane 5's sector read lists domestic prices, **China** export prices, ore and coal. Lane 6 is
+  competitors and street.* ***So EU and UK measures on Vietnamese steel fall inside NO lane's remit — an
+  entire jurisdiction is unlaned, and the gap is in the lane DEFINITIONS, not in any sweep's execution.***
+  **This is the SECOND lane-scope blind spot found in four hours** — at 01:54 lane 2's "US trade actions"
+  turned out never to have caught a single NON-STEEL US case. *Both misses share a cause: **a lane named for
+  a jurisdiction-and-topic pair silently excludes everything outside the pair**, and no sweep can find what no
+  lane asks for.*
+
+  🎯 **WHAT IS NOW ON FILE, ALL OF IT NEW (`CBAM`, `hạn ngạch`, `1,5 triệu tấn`, `30/6/2026` — zero hits each):**
+  - **CBAM (the EU carbon border adjustment mechanism) is imposing costs on Vietnamese coated-steel exports.**
+  - **NEW IMPORT-QUOTA REGIMES IN THE UK AND EU BITING AFTER 30-JUN-2026** — a dated policy event that has
+    **already passed** and that this file has never held.
+  - **Vietnamese galvanised-sheet + steel-pipe EXPORT volume is forecast at ~1.5 MILLION TONNES in 2026,
+    −25% YoY.**
+  - **NKG: volume −17%, with EXPORTS DOWN ~30%**, FY profit ~₫197bn — roughly flat.
+  - **HSG: Q3/26 revenue ~₫10,295bn (+8.3%); FY26 revenue ₫40,473bn (+8%), net profit ₫830bn (+33%)**, and
+    gaining share in both domestic and export channels over 4M. *Street forecasts, **T5** — recorded as
+    forecasts, not as actuals.*
+  ✅ **AN INTERNAL CROSS-CHECK THAT PASSES ON TWO INDEPENDENTLY-SOURCED FACTS: the file already holds Q2 gross
+  margins of HSG 14.86% vs NKG 10.50%, and today's independent forecasts put HSG at +33% profit growth against
+  NKG roughly flat. Same direction, same ordering, different sources and different quantities.**
+
+  🚨🚨 **AND HERE IS THE CONNECTION TO A HOLDING, WHICH IS UNCOMFORTABLE AND EXACT.** `hpg.actuals._q2_volume_source`
+  states that HPG's 3.5mt Q2 basket is *"construction steel + high-quality coil + HRC + billet"* and
+  ***"excludes pipe (212kt) and galvanised (83kt)"*** — **295kt.** ***Those two product classes ARE the
+  galvanised-sheet-and-pipe market now forecast down 25% on export volume.***
+  | | |
+  |---|---|
+  | HPG Q2 pipe + galvanised | **295kt** |
+  | HPG Q2 total incl. them | 3.5 + 0.295 = **3.795mt** |
+  | **share of Q2 volume in the affected classes** | **7.77%** |
+  ⚠⚠ ***THE EXCLUSION WAS METHODOLOGICALLY CORRECT AND IT LEFT THE FILE BLIND TO THIS.*** *Dropping 295kt to
+  keep the volume basket on one basis was the right call and is why the file's per-tonne economics are clean.
+  **But nothing was ever put in its place, so HPG's exposure to a shrinking segment has never been examined
+  at all.*** ⚠ **BOUNDED, NOT ESTIMATED: 7.77% is an UPPER bound on the exposure, because HPG's EXPORT share
+  of its own pipe and galvanised output is NOT on file.** *The −25% applies to exports, not to the segment, so
+  the true exposure is 7.77% × (HPG's export share of those classes), and the second factor is unknown. I am
+  not supplying it.* **A bound that cannot be narrowed is still a bound, and it is the first number this file
+  has ever had on the question.**
+
+  ⚠ **WHAT THIS DOES NOT DO: it does not touch the HPG bridge.** *The spread model runs on ore, coking coal
+  and HRC, and pipe and galvanised are downstream products outside all three blades. **No bridge input moves,
+  and the ₫0.8632m/t three-blade reading of 15:54 Monday stands.*** *The exposure is to VOLUME in a segment
+  the bridge does not price, which is precisely why it needed finding separately.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — the forecasts are
+  T5 street numbers and the exposure is a bound, not a quantity. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered against HPG's kill criterion and does NOT fire — the
+  criterion is on core NPAT per tonne, an economics test, and nothing here moves an input to it. Trigger 4
+  does NOT fire — these are third-party forecasts and a policy regime, not HPG's disclosed evidence. Trigger 4
+  REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — Fri 21-Aug = session 2 from today (FTSE GEIS list, KDH
+  insider window closes, Forecast #7 resolves); CORE circumvention preliminary 24-Aug = session 3. Trigger 2
+  STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **⚠ OWNER ACTION, AND IT IS THE SAME KIND THE FILE'S HEADER ALREADY CARRIES: the stored routine has no
+  lane for EU/UK trade policy. It cannot be fixed by editing this file — the trigger text is not a repo file.
+  Logged here so the gap is at least visible to a human reader.**
+  [Người Quan Sát — giá thép tăng mạnh, HPG, HSG và NKG vào tầm ngắm](https://nguoiquansat.vn/gia-thep-tang-manh-hoa-phat-hpg-hoa-sen-hsg-va-nam-kim-nkg-vao-tam-ngam-283470.html) · [CafeF — VCBS dự báo lợi nhuận quý 2 nhóm thép: Hòa Phát +25%, Hoa Sen và Nam Kim hụt hơi](https://cafef.vn/vcbs-du-bao-loi-nhuan-quy-2-loat-dai-gia-thep-hoa-phat-tang-truong-25-hoa-sen-va-nam-kim-hut-hoi-188260619221237977.chn) · [Dân Việt — ngành thép hồi phục, cổ phiếu nào đáng chú ý](https://danviet.vn/nganh-thep-hoi-phuc-co-phieu-nao-dang-chu-y-d1450837.html) · [Doanh Nhân VN — ngành thép quý II/2026: nhiều doanh nghiệp lãi lớn](https://baomoi.com/nganh-thep-quy-ii-2026-nhieu-doanh-nghiep-lai-lon-nhieu-don-vi-dan-thoat-lo-c55803880.epi) · [VietstockFinance — HSG kết quả và kế hoạch kinh doanh](https://finance.vietstock.vn/hsg/ket-qua-ke-hoach-kinh-doanh.htm)
 
 - **🚨🚨🚨 04:54 ICT WED 19-AUG · TCB'S ARMED RE-SHARE KILL CRITERION IS EITHER 5.56pp AWAY OR 0.13pp AWAY,
   AND THE ONLY THING THAT DECIDES IT IS A BASIS THE CRITERION NEVER STATES. THE DISTANCE VARIES BY A FACTOR
