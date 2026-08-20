@@ -136,6 +136,76 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 02:54 ICT FRI 21-AUG · **TRIGGER 4 FIRES ON TCX**, AND WITH IT **EVERY ONE OF THE
+  EIGHT TRAILING-EARNINGS FIELDS IS NOW EITHER VERIFIED OR QUANTIFIED.** The file named the missing input
+  itself — *"H1/2025 not established"* — and it cost one search (lanes 3, 6).**
+
+  ✅ **`valuation.TCX._npat_ttm_basis_2026_08_02` reads verbatim: *"FY2025 PBT 7,109 × 0.8 — TTM not
+  computable, **H1/2025 not established**."* THAT SENTENCE WAS A WORK ORDER AND IT SAT UNFILLED FOR 19 DAYS.**
+
+  🎯🎯 **THE MISSING INPUT, AND IT CLOSES ON FOUR CHECKS:**
+  | item | value | check |
+  |---|---|---|
+  | **Q1-2025 PBT** | **₫1,310bn** *(NEW)* | +40% on Q4-24, +13% yoy |
+  | **Q2-2025 PBT** | **₫1,733bn** *(NEW)* | +32% on Q1, +8% yoy |
+  | **1H-2025 PBT** | **₫3,043bn** *(NEW)* | 1,310 + 1,733 = **3,043 exactly** ✅ |
+  | ⇒ FY25 plan PBT | **₫5,742bn** *(derived)* | 1H stated at **53%** of plan ⇒ 3,043 ÷ 0.53 ✅ |
+  | FY25 **actual** PBT | **₫7,109bn** *(on file)* | plan **+23.8%**, matching *"lợi nhuận TCBS **vượt kế hoạch** năm 2025"* ✅ |
+  | 1H-**2026** PBT | **₫3,549bn** *(on file)* | vs 1H-25 **+16.6% yoy**, and **47.1%** of the ₫7,535bn FY26 plan ✅ |
+
+  🚨🚨 **THE TTM, COMPUTED FOR THE FIRST TIME:**
+  **2H-2025 PBT = 7,109 − 3,043 = ₫4,066bn · TTM PBT (Jul-25 → Jun-26) = 4,066 + 3,549 = ₫7,615bn**
+  | | |
+  |---|---|
+  | TTM NPAT at the file's own 0.8 convention | **₫6,092bn** |
+  | stored `npat_ttm` | **5,687** *(= FY2025 PBT × 0.8)* |
+  | ⇒ **error** | 🚨 **₫405bn, 6.65% — UNDERSTATED** |
+  ✅ **Coherent correction: `npat_ttm` 5,687 → ≈6,092 WITH `pe_ttm` 20.05 → ≈18.72×.** *`cap_now` = 20.05 ×
+  5,687 = ₫114,024bn against `shares × price` = 2,773,896,000 × ₫41,100 = **₫114,007bn** (0.015%, and the
+  file's own `market_cap_bn` is 114,007).* **So E[r] does NOT move — trigger 3 negative.**
+  ⚠ **TCX is 18.7× trailing, not 20.05× — but the file is right that the multiple risk was never the P/E:
+  it is the 2.49× P/B, and THAT is unchanged by this.**
+
+  🎯🎯🎯 **THE BOOK-WIDE PICTURE IS NOW COMPLETE, AND THE PATTERN IN IT IS STRUCTURAL RATHER THAN
+  COMPANY-SPECIFIC:**
+  | name | verdict | defect type | direction & size |
+  |---|---|---|---|
+  | **HPG** | ✅ passes | — | — |
+  | **TCB** | ✅ passes | — | — |
+  | **MBB** | ✅ corroborated *(broker-derived, inside band)* | — | −0.5% to +4.4% |
+  | **VCI** | quantified 01:54 | **period** | **understated 5.8%** |
+  | **TCX** | **quantified NOW** | **period** | **understated 6.65%** |
+  | **VPB** | quantified | **pre-tax basis** | overstated ~25% |
+  | **VPX** | quantified | basis unresolved | overstated 39% |
+  | **KDH** | quantified 23:54 | **attribution (MI)** | overstated ~56% |
+  🎯 ***THE TWO BROKERS ARE UNDERSTATED BY 5.8% AND 6.65%; THE THREE OTHERS ARE OVERSTATED BY 25%, 39%
+  AND 56%. THE DIRECTION TRACKS THE DEFECT TYPE, NOT THE COMPANY: a PERIOD substitution in a growing market
+  understates and costs little; a BASIS substitution — pre-tax, or pre-minority — overstates and costs a
+  lot.*** **That is a rule a human can carry to the next block of inputs, which a list of eight separate
+  errors is not.**
+  ✅ **NO NAME IS UNTESTABLE OR UNCOMPUTABLE ANY MORE. The audit that opened with *"4 not-a-TTM / 2 pass /
+  2 untestable"* is closed.**
+
+  ⚠ **ONE HOUSEKEEPING TRAP CREATED TONIGHT, FLAGGED BEFORE IT BITES: ₫1,733bn now appears in this repo as
+  TWO UNRELATED QUANTITIES — TCBS's **Q2-2025 PBT** (new tonight) and `vpx.actuals.q2_npat_bn` = **1733**,
+  VPX's **Q2-2026 NPAT**.** *Different company, different year, different measure.* ***A future grep on
+  "1,733" will return both, and this file has a running count of substring false positives for exactly this
+  reason.*** **Coincidence, recorded as one.**
+
+  ✅ **LANES CHECKED:** 3 (holdings — TCX above), 6 (street/plans — **fourth consecutive night the
+  plan-growth back-solve has paid: VPB, KDH, VCI, TCX**), 1 · 2 · 4 (nil at this hour; the FTSE list has not
+  landed, as 00:54's London-timezone reading expects).
+
+  🚨 **🚨🚨 TRIGGER 4 FIRES ON TCX (NEW, FAVOURABLE DIRECTION). **FOUR OF EIGHT HELD NAMES NOW
+  CARRY A FIRED TRIGGER 4 — VPX, KDH, VCI, TCX — HALF THE BOOK, ALL WITHIN 48 HOURS, AND ALL ON THE SAME
+  FIELD.** ⚠ *That concentration is itself the finding: this is not four independent surprises, it is one
+  systematic weakness in how trailing earnings were populated, now measured on every name.* Trigger 5
+  REMAINS FIRED — today is session 1; KDH's insider-buy window CLOSES today; the FTSE list most likely
+  belongs to MON 24-AUG with the CORE preliminary. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN — `npat_ttm`, `pe_ttm` and `confidence` are ALL human-only. `assumptions.json` NOT
+  TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Vietnam Business Insider — TCBS đạt kỷ lục lợi nhuận 1.733 tỷ đồng quý 2/2025](https://vietnambusinessinsider.vn/tcbs-dat-ky-luc-loi-nhuan-1733-ty-dong-quy-22025-a46126.html) · [CafeF — TCBS: lợi nhuận trước thuế quý 1/2025 đạt 1.310 tỷ đồng](https://cafef.vn/tcbs-loi-nhuan-truoc-thue-quy-1-2025-dat-1310-ty-dong-tang-40-so-voi-quy-truoc-188250415220008569.chn) · [Mekong ASEAN — TCBS công bố lợi nhuận quý 2/2025, cổ đông chốt kế hoạch IPO](https://mekongasean.vn/tcbs-cong-bo-loi-nhuan-quy-22025-co-dong-chot-ke-hoach-ipo-43531.html) · [TheLEADER — lợi nhuận TCBS vượt kế hoạch năm 2025](https://baomoi.com/loi-nhuan-tcbs-vuot-ke-hoach-nam-2025-c54296764.epi) · [Vietstock — TCBS lợi nhuận năm 2025 đạt kỷ lục hơn 7.100 tỷ đồng *(the FY25 PBT the model's basis note cites)*](https://vietstock.vn/2026/01/tcbs-loi-nhuan-nam-2025-dat-ky-luc-hon-7100-ty-dong-737-1390730.htm)
+
 - **🚨🎯🎯 01:54 ICT FRI 21-AUG · **TRIGGER 4 FIRES ON VCI — IN THE FAVOURABLE DIRECTION.**
   ITS `npat_ttm` IS VERIFIED AGAINST THE INCOME CHAIN FOR THE FIRST TIME, THE FILE'S OWN 27-JUL PRESCRIPTION
   CARRIED OUT — AND THE DEFECT IS **5.8%, NOT 25.2%** (lanes 3, 6).**
