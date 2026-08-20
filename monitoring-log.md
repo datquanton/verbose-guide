@@ -134,6 +134,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠🎯 12:54 ICT THU 20-AUG · THE US$6bn FIGURE CAME BACK — THIS TIME ATTRIBUTED TO **FTSE RUSSELL ITSELF**,
+  NOT A VIETNAMESE PREVIEW. GATE ROW 75 FENCED IT AND I DID NOT OVERWRITE. And the gap I set out to close —
+  the Frontier deletion outflow — SURVIVES A DEDICATED SEARCH (lane 4).**
+  *Preparation for tomorrow's session-1 FTSE list, on the same discipline that caught the Forecast #7 date
+  error last night: re-derive from the file before the moment of action.*
+
+  ✅ **THE FENCE HELD, AND IT WAS TESTED HARDER THAN WHEN IT WAS WRITTEN.** *Gate row 75 says: **"~US$1.5bn
+  total passive, ~US$150m in the September tranche. ⚠⚠⚠ DO NOT OVERWRITE THESE WITH THE 'US$5–8bn' FIGURE
+  THAT CIRCULATES IN VIETNAMESE PREVIEWS."*** 🚨 **Today's return puts the figure at **~US$6bn** and
+  attributes it to **FTSE Russell's own estimate** — a materially stronger attribution than "local previews",
+  and it sits squarely inside the fenced 5–8bn band.** ***Recorded, NOT adopted. A stronger attribution is a
+  reason to REVISIT a fence, not a licence to cross it unilaterally — and the row exists precisely because
+  this number keeps arriving.***
+
+  🎯🎯 **A RECONCILIATION THAT WOULD DISSOLVE THE CONFLICT RATHER THAN DECIDE IT, OFFERED AND FLAGGED
+  UNVERIFIED.** *At Vietnam's **0.34%** Emerging All Cap weight, the two totals imply very different tracking
+  universes:*
+  | figure | implied AUM tracking the index |
+  |---|---|
+  | **US$1.5bn** *(on file)* | **~US$441bn** |
+  | **US$6bn** *(today)* | **~US$1,765bn** |
+  ⚠ ***The most likely reading is that these measure DIFFERENT UNIVERSES — ~US$1.5bn = ETF-only passive;
+  ~US$6bn = all index-tracking assets including institutional mandates. That would make both correct and
+  neither an overwrite.*** **I cannot verify it and am not asserting it — but a measure distinction that
+  reconciles two figures is worth more than a choice between them, and it is the family this file has caught
+  nine times this week.**
+
+  ✅ **A CONCRETE SINGLE-FUND ANCHOR, NEW: VANGUARD's VWO ALLOCATION ≈ US$200m at FULL weight** *(0.34% of
+  VWO's AUM)*. ⚠⚠ **AND IT DOES NOT DISCRIMINATE — WHICH I CHECKED BEFORE REPORTING IT.** *At the September
+  10% tranche VWO buys ~**US$20m**. That is **13.3%** of a US$150m tranche or **3.3%** of a US$600m one, and
+  **both are entirely plausible for one large ETF.*** ***I went looking for a discriminator and this is not
+  one; saying so is the finding.***
+  ✅ *Also new: Vietnam's weight in the **FTSE Global All Cap is 0.04%** — the third weight, alongside the
+  0.22% Emerging and 0.34% Emerging All Cap already on file.*
+
+  🚨 **AND THE GAP I ACTUALLY SET OUT TO CLOSE IS STILL OPEN AFTER A DEDICATED SEARCH.** *The file already
+  identified the asymmetry: **inclusion in Secondary Emerging is PHASED 10/20/35/35, but the FRONTIER DELETION
+  IS A SINGLE TRANCHE ON THE SAME DATE.*** ***So on 21-SEP Vietnam receives ONE TENTH of its Emerging inflow
+  against ONE HUNDRED PERCENT of its Frontier outflow, and the September net could be NEGATIVE.*** **The file's
+  own note says it "cannot net them — that needs Frontier-tracking AUM with Vietnam exposure." Today's search
+  returned Emerging weights, an ETF allocation and a total, and NO Frontier-tracking AUM.** *Second failure on
+  the same specific question.* ⚠ **This is the single most decision-relevant unknown before the book's biggest
+  dated catalyst, and it is 22 sessions away.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED — the US$6bn figure
+  is fenced and the reconciliation is unverified. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 REMAINS FIRED — **FRI 21-AUG = SESSION 1, TOMORROW: the FTSE GEIS
+  OFFICIAL CONSTITUENT LIST lands, and gate row 75's fence on the list expires with it; KDH's insider-buy
+  window CLOSES and gate row 62's fence expires with it.** Mon 24-Aug = session 2 (CORE preliminary).
+  Trigger 4 REMAINS FIRED on VPX. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **FOR TOMORROW, SO THE LIST IS READ CORRECTLY RATHER THAN QUICKLY: the file's 23-name eligible roster on
+  28-Apr data has **HPG, VCI and KDH IN; TCB, VPB, MBB, TCX and VPX OUT.** Three holdings are candidates and
+  five are not, and the roster is APRIL data — **the list is what settles it, and the roster is a prior, not a
+  prediction.***
+  [FTSE Russell — reclassification of Vietnam to Secondary Emerging Market status, FAQ (primary)](https://research.ftserussell.com/products/index-notices/home/getnotice/?id=2619334) · [LSEG — FTSE Russell announces results of the March 2026 semi-annual country classification review](https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-results-march-2026-semi-annual-country-classification-review-equities-fixed-income) · [VinaCapital — research note: Vietnam's emerging-market upgrade, reclassification expected September 2026](https://vinacapital.com/wp-content/uploads/2025/10/VinaCapital-Insights-Vietnams-emerging-market-upgrade-Reclassification-expected-in-September-2026.pdf) · [Vietnam Briefing — Vietnam reclassified to emerging market status by FTSE Russell](https://www.vietnam-briefing.com/news/vietnam-reclassified-to-emerging-market-status-by-ftse-russell.html/) · [Investify — FTSE chốt nâng hạng Việt Nam 21/9/2026](https://investify.vn/en/blog/2026-04-08-ftse-chot-nang-hang-viet-nam-21-9-2026/)
+
 - **🎯🎯🎯 11:54 ICT THU 20-AUG · THE SYNTHESIS: **HPG GOT ITS VOLUME FROM THE CHINA DUTY AND IS LOSING ITS
   PRICE TO DUTY-FREE INDIA.** Two variables, two countries, both real — and the 1-JULY EU MEASURE NOW ORGANISES
   A THIRD SET OF FACTS (lanes 5, 3).**
