@@ -74,7 +74,7 @@ def audit(as_of):
         # also carry history ("advanced from Sat 15-Aug"), and treating those as
         # the fence flags rows that were just brought current -- which this tool
         # did on its first run, against the two rows it had itself just fixed.
-        dates = parse_dates(cells[-2], as_of.year)
+        dates = parse_dates(ANNOTATION_RE.sub("", strip_struck(cells[-2])), as_of.year)
         if dates and max(dates) < as_of:
             topic = re.sub(r"[*~`]", "", cells[1]).strip()[:70]
             overdue.append((idx, max(dates), topic))
@@ -149,6 +149,10 @@ WATCH = [
 
 
 STRUCK_RE = re.compile(r"~~.*?~~", re.S)
+# Italic parentheticals are editorial annotations -- "(advanced 20-Aug 21:54: ...)".
+# Their dates are provenance, not the fence, and leaving them in makes max() pick
+# the annotation date instead of the condition.
+ANNOTATION_RE = re.compile(r"\*\(.*?\)\*", re.S)
 
 
 def strip_struck(text):
@@ -183,4 +187,8 @@ def value_drift():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BrokenPipeError:
+        # piping to head is normal use; do not traceback on it
+        pass
