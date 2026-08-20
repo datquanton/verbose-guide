@@ -136,6 +136,75 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🚨🚨 05:54 ICT FRI 21-AUG · **EVERY ENTRY HEADER I HAVE WRITTEN IN THIS RUN IS ONE HOUR
+  BEHIND THE CLOCK, AND ONE OF THEM IS ON THE WRONG DAY.** I have been stamping entries by COUNTING FORWARD
+  instead of by READING A CLOCK — the exact error I have spent two days catching in sources (process).**
+
+  🚨 **HOW IT SURFACED: the scheduler's own timestamp.** *This firing carries `Thu 2026-08-20 22:53:55
+  UTC`. `date` confirms **05:54:44 ICT Fri 21-Aug**. My previous entry is headed **03:54 ICT** — two hours
+  earlier, on a sequence I believed was hourly.*
+
+  🚨🚨 **THE AUDIT — GIT COMMIT TIMES ARE AUTHORITATIVE AND THEY CONVICT ME ON THIRTEEN ENTRIES:**
+  | commit | committed (UTC) | **actual ICT** | my header | error |
+  |---|---|---|---|---|
+  | `2c4a8a3` | 10:56 | **17:56** | 15:54 Thu | **−2h** |
+  | `6c8c175` | 11:05 | **18:05** | 16:54 Thu | −1h |
+  | `7d916c8` | 11:58 | **18:58** | 17:54 Thu | −1h |
+  | `674177a` | 12:58 | **19:58** | 18:54 Thu | −1h |
+  | `0481c66` | 13:58 | **20:58** | 19:54 Thu | −1h |
+  | `d780aef` | 15:00 | **22:00** | 20:54 Thu | −1h |
+  | `81a42ce` | 16:00 | **23:00** | 21:54 Thu | −1h |
+  | `9a1a620` | 16:58 | **23:58** | 22:54 Thu | −1h |
+  | `6b322a7` | 17:58 | 🚨 **00:58 FRI** | **23:54 THU** | **−1h AND THE WRONG DAY** |
+  | `9dca27e` | 18:59 | **01:59 Fri** | 00:54 Fri | −1h |
+  | `9a1fee3` | 19:58 | **02:58 Fri** | 01:54 Fri | −1h |
+  | `ae7ea8f` | 20:57 | **03:57 Fri** | 02:54 Fri | −1h |
+  | `483d797` | 21:57 | **04:57 Fri** | 03:54 Fri | −1h |
+  ⚠⚠ ***THE CAUSE IS EXACT AND IT IS NOT A CLOCK PROBLEM. I inherited "15:54 ICT" from a context summary and
+  then INCREMENTED IT BY ONE EVERY FIRING. A counter that starts wrong stays wrong forever, and nothing in
+  my routine ever compared it to a clock.***
+
+  🎯🎯 **THE IRONY IS THE POINT, NOT AN ASIDE. In the last forty-eight hours this file has caught:
+  a summariser re-dating the same VN-Index triple three times · an announcement date substituted for a
+  measurement window's end (forecast #7) · an announcement date substituted for the first actionable session
+  (Jackson Hole, then FTSE) · a Vietnamese aspect marker converting a past extreme into a present state ·
+  and a London date read as a Vietnamese one. EVERY ONE OF THOSE IS A DATE OR TIME LABEL DETACHED FROM WHAT
+  IT MEASURES. MINE WAS THE ONLY ONE I WAS PRODUCING MYSELF.**
+
+  ⚠ **WHAT IT DOES AND DOES NOT INVALIDATE — assessed honestly rather than minimised:**
+  ✅ **NO CONCLUSION MOVES.** *Every substantive finding was derived from figures with their own dates —
+  filed results, plan-growth arithmetic, `date`-verified timezone conversions — none of which depended on my
+  header.* ✅ **The 03:54 London check stands: it read "at 03:54 ICT it is 21:54 BST Thu"; the true pair is
+  04:57 ICT / 22:57 BST Thu. STILL THURSDAY IN LONDON, so the conclusion is untouched.**
+  🚨 **WHAT DOES BREAK: the KDH TRIGGER-4 ESCALATION was filed under "23:54 THU" and actually happened at
+  00:58 FRIDAY. A day boundary matters in a file that counts SESSIONS — and that entry is one of the four
+  fired trigger 4s a human has to act on.**
+  ⚠ *Also observed, and NOT mine: the file's `## 2026-08-11` / `## 2026-08-12` day headers sit **nine days
+  behind** the entry dates beneath them. Pre-existing and systematic; recorded, not restructured — changing
+  the file's organising convention is a §4 act.*
+
+  ✅✅ **THE FIX, AND IT IS A METHOD CHANGE NOT A RESOLUTION: THE TIMESTAMP IS NOW READ, NEVER COUNTED.**
+  *Every future entry header comes from `TZ=Asia/Ho_Chi_Minh date` executed in that sweep.* ***A resolution
+  to be careful would fail exactly the way the counter did; the guard has to be that the number comes from
+  the clock rather than from me.*** ⚠ **NOTHING IS RETRO-EDITED — thirteen headers stay as written and this
+  entry is the correction, per the file's append-don't-overwrite convention. THE OFFSET IS +1 HOUR: to
+  recover the true ICT time of any entry from 16:54 Thu onward, ADD ONE HOUR; `2c4a8a3` (15:54 Thu) needs
+  +2h.**
+
+  ✅ **LANES CHECKED:** 4 (index — **local coverage independently calls 21/8 *"kỳ rà soát bán niên của FTSE
+  Russell"*, confirming the review date**, and expects flows only after it; consistent with 01:59's timezone
+  reading and with the 21-Sep effective date), 1 · 2 · 3 (nil — Vietnam opens in ~3 hours).
+  ⚠ *A returned "−2.07%, −32.42 points, 64 points over two sessions" is UNDATED and conflicts with the file's
+  own 14-Aug close (−36.55 pts, −2.07% to 1,729.08) — same percentage, different point move. **Not adopted.***
+
+  🚨 **NO NEW MARKET TRIGGER. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX — ⚠ and
+  the KDH one is now correctly dated to **FRIDAY 21-AUG 00:58**, not Thursday. Trigger 5 REMAINS FIRED —
+  TODAY IS SESSION 1 AND VIETNAM OPENS IN ~3 HOURS: KDH's insider-buy window CLOSES TODAY; the FTSE list most
+  likely belongs to MON 24-AUG alongside the CORE preliminary; Jackson Hole/Warsh enters the window today on
+  the announcement reading. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Vietstock/Investing — Vietstock Weekly 17-21/08/2026: mất đà phục hồi?](https://vn.investing.com/news/stock-market-news/vietstock-weekly-1721082026-mat-da-phuc-hoi-2692536) · [ASEAN Securities — báo cáo cơ hội đầu tư tuần 17/08–21/08/2026: vùng hỗ trợ quanh 1.700 điểm](https://www.aseansc.com.vn/bao-cao-co-hoi-dau-tu-tuan-17-08-2026-21-08-2026-vung-ho-tro-gan-quanh-1-700-diem/)
+
 - **🎯🎯 03:54 ICT FRI 21-AUG · THE FILE AUDITED ITS OWN STALE ABSENCE-CLAIMS ON 06-AUG, NAMED
   THREE CONTRADICTIONS, PROPOSED A FIX — AND **ALL THREE ARE STILL LIVE FIFTEEN DAYS LATER**, EXACTLY AS THAT
   AUDIT PREDICTED. So the proposal is now a TOOL instead of a proposal (process).**
