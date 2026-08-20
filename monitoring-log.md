@@ -134,6 +134,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯 09:54 ICT THU 20-AUG · DXY FELL **0.88% IN ONE SESSION** AND THE CENTRAL RATE MOVED **0.031%** — A
+  RATIO OF 28 TO 1. THE FED→DOLLAR→VND LINK WAS NEVER BROKEN; IT WAS NEVER MECHANICAL, BECAUSE THE FIXING IS A
+  POLICY INSTRUMENT AND NOT A MARKET PRICE (lane 1).**
+
+  ✅ **THE 20-AUG PRINTS, ALL NEW (`25,590`, `98.76`, `26,869`, `25,960` — zero prior hits):**
+  | | |
+  |---|---|
+  | **central rate** | **₫25,590, −8** *(25,598 − 8 = 25,590 exactly)* |
+  | **trading band ±5%** | **₫24,310.5 – 26,869.5** *(both reconcile to the dong)* |
+  | **Vietcombank** | **buy 25,960 / sell 26,370** |
+  | 🚨 **DXY** | **−0.88% to 98.76** — *"do Mỹ tăng mua lại trái phiếu"* |
+
+  🎯🎯 **THE MEASUREMENT THAT MATTERS: 0.88% AGAINST 0.031%.** *DXY fell **0.88%** in a session; the central
+  rate fell **8 dong = 0.031%**.* ***A ratio of 28 to 1 — the VND fixing moved 3.6% as much as the dollar
+  did.*** **This is the THIRD independent measurement of the same thing and by far the sharpest:**
+  | when | shock | response |
+  |---|---|---|
+  | 00:54 19-Aug | September hike odds **−42.6pp** | DXY **+4bp** |
+  | 17–19 Aug | DXY below 100 | central rate set **records** |
+  | **20-Aug** | **DXY −0.88% in ONE session** | **central rate −0.031%** |
+
+  🎯🎯🎯 **AND THIS FORCES A BETTER STATEMENT THAN THE ONE I HAVE BEEN MAKING. I have written three times this
+  week that "link 2 of the Fed→dollar→VND chain is BROKEN."** ***That is the wrong word. THE LINK WAS NEVER
+  MECHANICAL, BECAUSE THE CENTRAL RATE IS AN ADMINISTERED FIXING — SBV sets it against a basket and its own
+  objectives, so LOW PASS-THROUGH IS THE INSTRUMENT'S DESIGN, NOT A MALFUNCTION.*** **Expecting DXY beta from
+  a policy instrument was a category error about what the number IS — the same family as everything else this
+  file catalogues, applied to a rate rather than to a company figure.**
+  ✅ **AND THE FILE'S OWN EVIDENCE ALREADY SAID SO: at 08:54 TUESDAY I found the fixing and the Vietcombank
+  quote moving in OPPOSITE directions on two consecutive dated sessions.** ***An administered rate and a
+  market-facing quote diverging is exactly what you would expect; I recorded it as an anomaly when it was a
+  signature.*** **The right forward test is on the COMMERCIAL quote, not the fixing.**
+
+  ✅ **THE DECOMPOSITION GETS A FOURTH POINT AND STILL SHOWS NO TREND — headroom to the ceiling, Vietcombank
+  basis throughout:**
+  | 17-Aug | 18-Aug *(derived)* | 19-Aug | **20-Aug** |
+  |---|---|---|---|
+  | ₫535.3 | ₫449.0 | ₫507.9 | **₫499.5** |
+  *Four points, a ~₫90 band, no direction — while the LEVEL set two records in the same window.*
+  🎯 **NEW AND IN THE OTHER DIRECTION: VIETCOMBANK'S SPREAD WIDENED. Buy fell 30 (25,990 → 25,960) while sell
+  HELD at 26,370, taking the spread ₫380 → ₫410, +7.9%.** *On a session when the dollar fell 0.88% and the
+  fixing fell 8, the bank widened rather than followed.* ⚠ **One session is not a trend and I am not calling
+  one — but it is the first spread observation this file has, and the spread is the market-facing measure the
+  paragraph above says the file should be watching.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — a macro read is not evidence about any
+  company's numbers, per the file's standing rule. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 does NOT fire — the SBV chain is an inference layer above the holdings,
+  not any held name's evidence status. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — **FRI 21-AUG
+  = SESSION 1, TOMORROW** (FTSE GEIS official list · KDH's insider-buy window CLOSES, and gate row 62's fence
+  expires with it); Mon 24-Aug = session 2 (CORE circumvention preliminary). Trigger 2 STANDING-BREACHED.
+  Triggers 1 and 3 negative.**
+  ⚠ **METHOD NOTE FOR THE NEXT SWEEPS: track the VIETCOMBANK SPREAD and the free-market rate as the
+  market-facing FX measures. The central rate is a policy setting and its beta to anything external is ~0.04
+  on the best measurement this file has.**
+  [Thời báo Tài chính — tỷ giá USD hôm nay 20/8: tỷ giá trong nước phân hóa, DXY sụt giảm](https://thoibaotaichinhvietnam.vn/ty-gia-usd-hom-nay-20-8-ty-gia-trong-nuoc-phan-hoa-dxy-sut-giam-do-my-tang-mua-lai-trai-phieu-202580.html) · [DNHN — tỷ giá USD hôm nay 20/8/2026: đồng USD thế giới giảm mạnh](https://doanhnghiephoinhap.vn/ty-gia-usd-hom-nay-2082026-dong-usd-the-gioi-giam-manh-146849.html) · [tygiausd.org — tỷ giá Vietcombank 20-08-2026: mua 25.960, bán 26.370](https://tygiausd.org/nganhang/vietcombank) · [Investing.com — tỷ giá trung tâm tiếp tục tăng, USD ngân hàng quay đầu giảm](https://vn.investing.com/news/forex-news/ty-gia-trung-tam-tiep-tuc-tang-usd-ngan-hang-quay-dau-giam-2680948) · [Webgia — tỷ giá USD 20/08/2026](https://webgia.com/ngoai-te/usd/)
+
 - **🚨🚨🚨 08:54 ICT THU 20-AUG · **HPG's SEPTEMBER OFFER OF US$535 IS EXACTLY THE INDIAN DELIVERED PRICE.**
   VIETNAM IS THE **LARGEST DESTINATION** FOR INDIAN HRC IN H1/2026, AND ALL THREE PRICES MOVED ~US$40–45
   TOGETHER. THE CUT WAS IMPORT PARITY (lanes 5, 2, 3).**
