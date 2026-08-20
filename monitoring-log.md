@@ -134,6 +134,62 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 11:54 ICT THU 20-AUG · THE SYNTHESIS: **HPG GOT ITS VOLUME FROM THE CHINA DUTY AND IS LOSING ITS
+  PRICE TO DUTY-FREE INDIA.** Two variables, two countries, both real — and the 1-JULY EU MEASURE NOW ORGANISES
+  A THIRD SET OF FACTS (lanes 5, 3).**
+
+  ✅ **NEW VOLUME DATA, ALL ZERO PRIOR HITS (`601,970`, `3,36`, `3,4 triệu tấn`, `Nguyễn Việt Thắng`):**
+  | | |
+  |---|---|
+  | **HPG HRC sales, H1/2026** | **~3.4 MILLION TONNES, +57% YoY** |
+  | *implied Q1* | **1.5mt** *(3.4 less the filed Q2 of 1.9mt)* — **Q2 was +26.7% QoQ** |
+  | Vietnam HRC production, 4M/2026 | **3.36mt, +32%**; sales **3.33mt, +25%** |
+  | **Vietnam HRC EXPORTS, 4M/2026** | **601,970 t — nearly DOUBLE 4M/2025** |
+  ✅ *Cross-checks that pass: exports are **17.9% of production**, against HPG's separately-reported **80%
+  domestic / 20% export** split; and 4M production annualises to **10.08mt**, consistent with the ~8mt of
+  2025 domestic sales plus DQ2's ramp.*
+
+  🚨🚨 **AND A NAMED-EXECUTIVE STATEMENT: HPG's CEO NGUYỄN VIỆT THẮNG ATTRIBUTES THE GROWTH IN HRC CONSUMPTION
+  TO VIETNAM's ANTI-DUMPING TARIFFS ON CHINESE HRC.** *That is the protection thesis stated by the company
+  itself, and it sits in apparent tension with this morning's finding that INDIA, not China, sets the price.*
+  🎯🎯 ***THE TENSION RESOLVES INTO THE SHARPEST STATEMENT THIS FILE HAS ON HPG: PROTECTION DELIVERED VOLUME;
+  THE UNPROTECTED SUBSTITUTE TOOK PRICE.*** **H1 HRC volume +57% — the China duty working exactly as the CEO
+  says. September offer at US$535, the July Indian parity, with August India now at 505–510 — the India
+  exemption working exactly as this morning showed.** ***Two different variables, two different countries,
+  neither claim wrong.*** *A protection story told only in volume terms looks like a triumph; told only in
+  price terms it looks like a rout. Both halves are on file and only together are they the position.*
+
+  🎯 **AND THE 1-JULY-2026 EU MEASURE NOW ORGANISES A THIRD SET OF FACTS — the same date, three effects, all
+  on this book:**
+  | effect | logged |
+  |---|---|
+  | Vietnamese **coated exporters** squeezed (−25% export volume; NKG exports −30%) | Wed 05:54 |
+  | **Indian HRC diverted INTO Vietnam**, EU quota −34% | today 07:54 |
+  | 🚨 **the HRC EXPORT SURGE IS A PRE-MEASURE PHENOMENON** | **this hour** |
+  ✅ ***THAT RESOLVES A CONTRADICTION I WAS CARRYING: "Vietnamese HRC exports nearly doubled" and "Formosa is
+  cutting output 15% because US/EU export demand is weaker than expected" are BOTH TRUE AND NOT IN CONFLICT —
+  the export surge is 4M/2026 data, JANUARY TO APRIL, and Formosa's complaint is August–September. THE
+  1-JULY DATE SITS BETWEEN THEM.*** **Two observations that looked incompatible were on opposite sides of one
+  policy date, and it is the third time this week that date has separated a set of facts.**
+
+  ⚠ **WHAT THIS DOES AND DOES NOT DO TO THE PRE-REGISTERED OCTOBER TEST (set one hour ago).** *It does NOT
+  change the bands — import-parity **US$500–515** vs cost-anchored **US$528–542** stand exactly as written.*
+  ✅ **It strengthens the case that HPG has volume headroom to trade for price if it chooses** — 4M production
+  annualising at 10.08mt against a 16mt crude capacity — **but a capability is not a prediction, and the test
+  is deliberately about the PRICE, which is observable, rather than the intent, which is not.**
+
+  **`assumptions.json` UNTOUCHED this hour — the H1 HRC volume of 3.4mt is a SALES figure on a different
+  basis from `q2_volume_mt` (which excludes pipe and galvanised), and blending them is exactly the basket
+  substitution the file has caught twice. Recorded here, not written there. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`). NO CONFIDENCE MOVED.**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG's DQ2 nameplate criterion — "HRC run-rate < 85% of
+  nameplate at Q4" — and it does NOT fire and is not close: the file holds `_dq2_hrc_nameplate_mt` 5.6 against
+  a Q2 annualised run-rate of 7.6mt (136%), and today's 4M national production of 10.08mt annualised is
+  consistent with that. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — **FRI 21-AUG = SESSION 1,
+  TOMORROW** (FTSE GEIS list · KDH insider window closes); Mon 24-Aug = session 2. Trigger 2
+  STANDING-BREACHED. Trigger 3 negative.**
+  [Báo Đấu thầu — Hòa Phát bán gần 3,4 triệu tấn HRC trong nửa đầu năm 2026](https://baodauthau.vn/hoa-phat-ban-gan-34-trieu-tan-hrc-trong-nua-dau-nam-2026-post202434.html) · [VietnamBiz — xuất khẩu thép cuộn cán nóng (HRC) tăng đột biến](https://vietnambiz.vn/xuat-khau-thep-cuon-can-nong-hrc-tang-dot-bien-202663145316721.htm) · [VietnamBiz — báo cáo thị trường thép tháng 4/2026: tiêu thụ HRC tăng đột biến, xuất khẩu tăng gấp đôi](https://vietnambiz.vn/bao-cao-thi-truong-thep-thang-42026-tieu-thu-thep-hrc-tang-dot-bien-xuat-khau-tang-gap-doi-202662018208998.htm) · [TTWTO VCCI — sản xuất thép cán nóng HRC Việt Nam lao đao trước "sóng gió kép"](https://trungtamwto.vn/an-pham/27027-san-xuat-thep-can-nong-hrc-viet-nam-lao-dao-truoc-song-gio-kep) · [VnEconomy — thị trường thép 2026: sản lượng tăng, xuất khẩu gặp khó khăn](https://vneconomy.vn/san-xuat-va-tieu-thu-thep-tang-truong-hai-con-so-xuat-khau-doi-mat-voi-rao-can-thuong-mai.htm)
+
 - **🎯🎯🎯 10:54 ICT THU 20-AUG · INDIAN HRC HAS FALLEN ANOTHER **US$25–30** SINCE HPG SET ITS SEPTEMBER
   OFFER, WHILE IRON ORE IS FLAT. THE TWO EXPLANATIONS NOW MAKE **NON-OVERLAPPING** PREDICTIONS FOR HPG's
   OCTOBER OFFER — A DISCRIMINATING TEST THAT DID NOT EXIST TWO HOURS AGO (lane 5).**
