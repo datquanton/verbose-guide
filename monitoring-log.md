@@ -134,6 +134,73 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 23:54 ICT THU 20-AUG · **TRIGGER 4 FIRES ON KDH.** THE FILE SAID *"KDH — NO ANCHOR
+  EXISTS… UNTESTABLE"*. TWO ANCHORS EXIST, THEY ARE **56.4% APART**, AND THE MODEL HOLDS THE ONE THE COMPANY
+  DOES NOT USE FOR ITS OWN GROWTH ARITHMETIC (lanes 3, 6).**
+
+  🚨🚨 **THE TWO FIGURES, BOTH LABELLED *"lợi nhuận sau thuế"*, BOTH FY2025, BOTH KDH:**
+  | figure | source | |
+  |---|---|---|
+  | **₫1,633bn** | *"lợi nhuận 2025 vượt 63% kế hoạch, đạt hơn 1.633 tỷ"* — **already cited in this file** | matches stored `npat_ttm` **1,634** to **0.06%** |
+  | **₫1,045bn** | *"năm 2025… doanh thu ₫4,651bn và lợi nhuận sau thuế ₫1,045bn"* — **NEW tonight** | **56.4% BELOW the stored figure** |
+  ⚠ ***The LABEL does not discriminate between them. The ARITHMETIC does.***
+
+  🎯🎯 **THE DISCRIMINATOR: KDH's OWN FY2026 PLAN IS STATED AS A GROWTH RATE, AND IT ONLY WORKS OFF
+  THE SMALLER NUMBER.**
+  | | |
+  |---|---|
+  | FY26 plan | **₫1,500bn**, stated **+44%** |
+  | ⇒ implied FY25 base | **₫1,041.7bn** — *matches **₫1,045bn** to 0.3%* |
+  | against **₫1,633bn** | a ₫1,500bn plan would be a **−8.1% DECLINE**, not +44% |
+  ✅✅ ***A company states plan growth on the basis it reports. The ₫1,500bn plan is on the SAME basis as
+  ₫1,045bn, and that basis is NOT the one in the model.***
+  🎯 **AND THE PRELIMINARY PLAN NAMES THE BASIS EXPLICITLY: the ₫1,500–2,500bn range is quoted as
+  *"sau thuế **& sau lợi ích của cổ đông thiểu số**"* — after tax **AND AFTER MINORITY INTERESTS.**
+  ⇒ **THE LIKELY RECONCILIATION: ₫1,633bn is TOTAL consolidated NPAT; ₫1,045bn is NPAT ATTRIBUTABLE TO
+  PARENT SHAREHOLDERS; the ₫588bn difference is minority interest, ~36% of profit.**
+  🚨🚨 ***AND THAT IS THE DEFECT: A MARKET CAP BELONGS TO THE PARENT'S SHAREHOLDERS, SO THE EARNINGS
+  PAIRED WITH IT MUST BE THE EARNINGS ATTRIBUTABLE TO THEM. `npat_ttm` = 1,634 PAIRS A PARENT-ONLY CAP WITH
+  A GROUP-WIDE PROFIT.*** **It is a SENIORITY / ATTRIBUTION substitution — already in this file's catalogue,
+  now found on a third name.**
+  ⚠ **STATED HONESTLY: the ₫1,045bn figure's OWN label does not say "post-minority", and I cannot confirm the
+  attribution from this environment. The reconciliation is INFERRED from the plan's basis and the growth
+  arithmetic, and it is the best of the readings — not a filing.**
+
+  ✅ **THE CONSEQUENCE, AND IT IS THE SAME SHAPE AS VPB AND VPX — WHICH IS WHY IT IS BELIEVABLE:**
+  | | |
+  |---|---|
+  | `cap_now` = 12.36 × 1,634 | **₫20,196.2bn** |
+  | `shares × price` = 1,122.1m × ₫18,000 | **₫20,197.8bn** — *gap **0.008%*** |
+  | ⇒ **coherent correction** | `npat_ttm` **1,634 → ≈1,045** WITH `pe_ttm` **12.36 → ≈19.33×** |
+  🚨 **SO `cap_now` IS RIGHT, E[r] DOES NOT MOVE, AND TRIGGER 3 DOES NOT FIRE.** ⚠⚠ ***BUT THE STORED
+  "12.36× P/E" IS THEN NOT A P/E ON THE EARNINGS THE SHAREHOLDER OWNS — it is a price-to-GROUP-earnings
+  multiple, and KDH has been read as a mid-teens multiple when the attributable multiple is near 19×.***
+  *Exactly parallel to VPB, where the "6.48×" turned out to be price-to-PRE-TAX-earnings.*
+
+  🚨🚨🚨 **TRIGGER 4 FIRES — A HELD NAME'S EVIDENCE STATUS HAS CHANGED. KDH moves from
+  *"no anchor exists, untestable"* to *"two conflicting anchors, and the model holds the one the company's own
+  growth statement rejects."* THE BRIEF PROPOSES **TRIM KDH −3.2pp**; the direction of this finding makes the
+  name MORE expensive, not less, which is consistent with a trim — but the FILE'S REASON FOR IT WAS NEVER
+  THIS.** ⚠ **§4 QUEUE — HUMAN ONLY: `npat_ttm` and `pe_ttm` must move TOGETHER (≈1,045 with ≈19.33×) or
+  neither, and `confidence` 0.55 should be reconsidered against a trailing-earnings field now known to be
+  basis-ambiguous. NOTHING WRITTEN.**
+  🎯 **THE SCORECARD CHANGES: the book-wide audit read 4 NOT-a-TTM-NPAT / 2 pass / 2 untestable.
+  With MBB corroborated at 22:54 and KDH resolved now, it reads 5 NOT-a-TTM-NPAT (VCI, VPX, VPB, TCX, KDH) /
+  2 pass (HPG, TCB) / 1 partially corroborated (MBB) — and NO name is untestable any more.**
+
+  ✅ **LANES CHECKED:** 3 (holdings — KDH above; **VPB re-checked and COVERED: its FY25 PBT ₫30,600bn and the
+  ₫41,323bn/+35% FY26 target are BOTH already on file, and 41,323 ÷ 1.35 = ₫30,610bn merely narrows the gap
+  to `npat_ttm` 30,620 from 0.065% to 0.033% — a refinement, not a finding**), 6 (street/plans — above),
+  1 and 2 (nil at this hour).
+
+  🚨 **🚨 TRIGGER 4 FIRES ON KDH (NEW) AND REMAINS FIRED ON VPX. Trigger 5 REMAINS FIRED — FRI
+  21-AUG = SESSION 1, TOMORROW, THREE ITEMS: FTSE GEIS OFFICIAL LIST · KDH INSIDER-BUY WINDOW CLOSES ·
+  JACKSON HOLE/WARSH ENTERS THE WINDOW. ⚠ TWO OF TODAY'S THREE ESCALATIONS ARE NOW ON KDH, AND ITS WINDOW
+  CLOSES TOMORROW. FORECAST #7 IS NOT ONE OF THEM — ~21-OCT-2026. Mon 24-Aug = session 2. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Báo Đầu tư — nhà Khang Điền lên kế hoạch lãi 1.500 tỷ đồng trong năm 2026](https://baodautu.vn/nha-khang-dien-len-ke-hoach-lai-1500-ty-dong-trong-nam-2026-d558641.html) · [Doanh nhân & Pháp luật — ĐHĐCĐ Khang Điền 2026: sạch nợ trái phiếu, mục tiêu lãi 1.500 tỷ đồng](https://doanhnhan.baophapluat.vn/dhdcd-khang-dien-kdh-2026-sach-no-trai-phieu-noi-khong-voi-phat-hanh-von-moi-va-muc-tieu-lai-1-500-ty-dong.html) · [Báo Đầu tư — Khang Điền lên kế hoạch lãi có thể lên tới 2.500 tỷ đồng trong năm 2026 *(the "sau thuế & sau lợi ích của cổ đông thiểu số" basis)*](https://baodautu.vn/nha-khang-dien-len-ke-hoach-lai-co-the-len-toi-2500-ty-dong-trong-nam-2026-d486821.html) · [GTJASVN — KDH flash note, ĐHĐCĐ 2026 (PDF)](http://static1.vietstock.vn/edocs/19943/GTJASVN_KDH_Flash_Note_Dai_hoi_co_dong_2026_23.pdf) · [Tin nhanh Chứng khoán — KDH lợi nhuận 2025 vượt 63% kế hoạch, đạt hơn 1.633 tỷ đồng *(the figure the model matches)*](https://www.tinnhanhchungkhoan.vn/khang-dien-kdh-loi-nhuan-2025-vuot-63-ke-hoach-dat-hon-1633-ty-dong-mo-rong-tang-truong-trong-2026-post384618.html)
+
 - **🎯🎯🎯 22:54 ICT THU 20-AUG · AN OPEN FLAG ON MBB CLOSES BY ARITHMETIC, AND MBB's
   `npat_ttm` GETS ITS FIRST CROSS-CHECK — the file has called that field UNTESTABLE since the book-wide
   audit (lanes 6, 3). Largest E[r] in the book, largest proposed ADD.**
