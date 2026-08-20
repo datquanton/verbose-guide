@@ -134,6 +134,104 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯 16:54 ICT THU 20-AUG · THREE FIGURES ARRIVED TODAY UNDER TODAY'S DATE. **ONE WAS TODAY'S.**
+  The same arithmetic bridge — *value − change = prior close, matched against a DATED on-file anchor* —
+  separated all three in under a minute, and the label was wrong in two of three (lanes 1, 4, 7).**
+
+  🚨🚨 **THE TEST, AND WHAT IT DID TO EACH OF THE THREE.** *Every figure below was returned by a search
+  summariser explicitly under a **20/8/2026** heading. I did not weigh plausibility, source quality or
+  house style. I subtracted the stated change from the stated level and asked whether the remainder equals a
+  close this file already holds with a date on it.*
+  | figure served as 20-Aug | level − change | matches a dated on-file close? | verdict |
+  |---|---|---|---|
+  | VN-Index **1,727.46, −1.62, −0.09%** | **1,729.08** | 1,729.08 = the **14-Aug** close ⇒ this is the **17-AUG** session | 🚨 **STALE — REJECTED** |
+  | VN-Index **1,734.24, +7.55, +0.44%** | **1,726.69** | 1,726.69 = the **19-Aug** close, exactly ⇒ prior session is right | ✅ **TODAY — ADOPTED** |
+  | central rate **₫25,598, +18** | **25,580** | 25,580 = the **18-Aug** fixing ⇒ this is the **19-AUG** print | 🚨 **STALE — REJECTED** |
+  ✅✅ ***The discriminator cost nothing and required trusting nothing about the publisher.*** **It is
+  purely internal: a self-consistent triple still has to land on a prior close I can date, and a stale one
+  lands on the wrong one — which is exactly how it betrays itself.**
+
+  🚨 **THE VN-INDEX GHOST HAS NOW BEEN SERVED UNDER THREE DIFFERENT DATES.** *`1,727.46 / −1.62 / −0.09%`
+  is the **17-Aug** close and this file settled that on 18-Aug (lines ~3115–3191, ~4501–4503, six prior hits).*
+  It was served to me as **18-Aug** once, resolved to **17-Aug**, and today it came back as **20-Aug.**
+  ⚠⚠ ***A figure that has been mis-dated three times is not a random error — it is a fixture in the
+  retrieval layer, and it will be served again. It is now indexed here by its VALUE, which is the only
+  handle that survives re-dating.***
+
+  🚨🎯 **THE CENTRAL-RATE GHOST IS SHARPER, BECAUSE I HAD ALREADY LOGGED THE TRUE PRINT SEVEN HOURS
+  EARLIER — TODAY.** *At **09:54 today** this file recorded the 20-Aug fixing as **₫25,590, −8**, with the
+  ±5% band (₫24,310.5–26,869.5) reconciling to the dong.* **The `25,598 / +18` served this hour is the
+  19-Aug record, logged here at 08:54 Wed.** ⚠ **And the publisher serving it today (`doanhnghiephoinhap.vn`)
+  is the same publisher whose 19-Aug piece is already cited in that Wednesday entry's source list.**
+  ***So this was not a stale index somewhere upstream: the same house re-ran its own story under a new
+  date.*** **The 20-Aug fixing stands at ₫25,590, −8 — unchanged, and now corroborated by contrast.**
+
+  ✅ **WHAT IS GENUINELY NEW AND ADOPTED — THE 20-AUG SESSION (lane 4):**
+  | | |
+  |---|---|
+  | **VN-Index close** | **1,734.24, +7.55, +0.44%** ✅ *bridges to 19-Aug 1,726.69 exactly* |
+  | **HNX-Index close** | **278.64, −1.35, −0.48%** ✅ *bridges to 19-Aug 279.98 (0.01 rounding)* |
+  | **HOSE matched liquidity** | **~₫11,755bn, −17% s/s — LOWEST IN 24 SESSIONS** |
+  | **foreign net, HOSE** | **−₫436.55bn** |
+  | 🚨 **largest single foreign sale** | **VPB −₫536.68bn** *(then FPT −179.14, CII −146.86, VND −132.91)* |
+  ⚠ **The two indices moved OPPOSITE ways — HOSE up 0.44%, HNX down 0.48% — on the thinnest matched
+  turnover in 24 sessions. A large-cap-led tape, not a broad one.**
+
+  🎯 **THE ONE PORTFOLIO ITEM IN THAT TABLE: VPB WAS THE SESSION'S LARGEST FOREIGN SALE, AND IT IS THE
+  NAME WITH A FOREIGN PLACEMENT PENDING (lane 7).** *−₫536.68bn ≈ **US$21.0m** at today's ₫25,590 fixing, and
+  **≈0.27% of the ₫198,418bn cap** the model carries (`pe_ttm` 6.48 × `npat_ttm` 30,620).*
+  ⚠⚠ ***It EXCEEDS the whole-board net of −₫436.55bn.*** **That is arithmetically fine — a net is a sum of
+  buys and sells and a single name may exceed it — and I say so explicitly, because YESTERDAY'S entry
+  flagged a pair of flow figures that could NOT both be right. The distinction is that these two are a
+  single-name gross and a board-level net; the pair I flagged were two nets on overlapping boards at one
+  timestamp.** *Knowing which comparisons are legitimate is the other half of internal-consistency discipline.*
+  ✅ **VPB placement terms re-confirmed, unchanged, no new date:** **>624m shares to one foreign investor**,
+  lifting charter capital to **>₫106,200bn**, foreign ownership to **~34%** against a **49%** cap held by
+  virtue of the GPBank transfer; timing **Q3 or Q4/2026** pending SBV and SSC approval; **price "not below
+  book value per the most recent quarterly consolidated statement."** ⚠ ***Foreign investors selling the
+  name at the margin while a book-value-floored placement is unpriced is a directional fact about the
+  clearing price, not a trigger — `price` does not enter `decide.py` and one session is not an evidence-status
+  change.*** **Trigger 4 NOT fired on this.**
+
+  ⚠🎯 **A CLAIM OF MY OWN EXPIRED THIS HOUR, AND IT HAD NO EXPIRY WRITTEN ON IT.** *At 14:54 and again at
+  15:54 I wrote that **"the 20-Aug close is NOT REACHABLE, confirmed by two differently-shaped searches."**
+  At 16:54 it was reachable on the first search.* **The searches were real and the finding was true of those
+  hours — the defect is that I stated a property of a MOMENT as a property of the WORLD.** A close becomes
+  reachable when the wires publish it; "not reachable" was always a sentence about 15:54, and I gave it no
+  clock. ✅ **CATALOGUE ENTRY — *a reachability finding recorded without an expiry*, a window substitution
+  in which the window is the shelf life of the observation itself.** *Both prior sentences stand as written
+  and are corrected here rather than edited, per the file's convention.*
+
+  ⚠⚠ **AND THE PUBLISHED PAGE HAD DRIFTED ON FOUR COUNTERS — CAUGHT BY RECOMPUTING THEM INSTEAD OF
+  CARRYING THEM.** *`public/index.html` is refreshed every sweep. This hour I derived the numbers from the
+  repository rather than incrementing what was there:*
+  | counter | page said | actual | |
+  |---|---|---|---|
+  | commits | **527** | **537** | −10 |
+  | lines of log | **17,115** | **20,456** | −3,341 |
+  | calibration rows (stamp) | **1,893** | **1,603** | +290 |
+  | calibration rows (file card) | **1,691** | **1,603** | +88 |
+  🚨 ***The stamp and the file card disagreed with EACH OTHER by 202 rows — two counters for one quantity,
+  on one page, both wrong in opposite directions.*** **That is the same defect I logged at 15:54 about two
+  flow figures in one of my own sentences, found one sweep later in my own published output.** **All four
+  corrected to computed values.** *The lesson is not "the numbers were wrong" — it is that a counter you
+  CARRY is not a counter you MEASURE, and refreshing a timestamp beside a stale count makes the stale count
+  look freshly checked.*
+
+  ✅ **LANES CHECKED:** 1 (macro/FX/rates — fixing re-confirmed at ₫25,590; deposit rates still dispersed
+  >6% at long tenors, state-owned flat; an SBV net OMO withdrawal of ~₫11,600bn returned **UNDATED** and is
+  **NOT adopted**), 2 (US trade — nothing new; CORE circumvention preliminary still Mon 24-Aug), 3 (holdings
+  — VPB above; no other name printed), 4 (index & flows — above), 7 (ownership signals — VPB above).
+
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 REMAINS FIRED — FRI 21-AUG IS SESSION 1 AND IS NOW TOMORROW:
+  the FTSE GEIS OFFICIAL CONSTITUENT LIST lands (gate row 75's fence expires with it) and KDH's INSIDER-BUY
+  WINDOW CLOSES (gate row 62's fence expires with it). ⚠ THAT CLUSTER IS TWO ITEMS, NOT THREE — FORECAST
+  #7 DOES NOT RESOLVE TOMORROW, IT RESOLVES ~21-OCT-2026. Mon 24-Aug = session 2 (CORE circumvention
+  preliminary). Trigger 4 REMAINS FIRED on VPX. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED THIS HOUR — nothing adopted feeds `run.py` or
+  `decide.py`, and `DECISION-BRIEF.md` is byte-identical (`db994d19`), which is the check that proves it.**
+  [Thời báo Tài chính — chứng khoán ngày 20/8: VN-Index lấy lại sắc xanh, thanh khoản tiếp tục suy giảm](https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-20-8-vn-index-lay-lai-sac-xanh-thanh-khoan-tiep-tuc-suy-giam-202625.html) · [Tạp chí Kinh tế Tài chính — blue-chip giữ nhịp, VN-Index trở lại sắc xanh](https://tapchikinhtetaichinh.vn/blue-chip-giu-nhip-vn-index-tro-lai-sac-xanh-165002.html) · [Vietstock — nhịp đập thị trường 20/08: dòng tiền phân hóa, thanh khoản trầm lắng](https://vietstock.vn/2026/08/nhip-dap-thi-truong-2008-dong-tien-phan-hoa-thanh-khoan-tram-lang-1636-1482998.htm) · [Báo Đầu tư — VPBank chào bán riêng lẻ 624 triệu cổ phiếu cho đối tác ngoại, tỷ lệ sở hữu vốn ngoại có thể lên 34%](https://baodautu.vn/vpbank-chao-ban-rieng-le-624-trieu-co-phieu-cho-doi-tac-ngoai-ty-le-so-huu-von-ngoai-co-the-len-34-d571247.html) · [Tiền Phong — một nhà đầu tư ngoại dự kiến mua hơn 620 triệu cổ phiếu VPBank](https://tienphong.vn/mot-nha-dau-tu-ngoai-du-kien-mua-hon-620-trieu-co-phieu-vpbank-post1836800.tpo) · [DNHN — lãi suất ngân hàng ngày 20/8/2026](https://doanhnghiephoinhap.vn/lai-suat-ngan-hang-ngay-2082026-tien-gui-dai-han-tiep-tuc-duoc-san-don-146847.html) · [DNHN — tỷ giá USD hôm nay 20/8/2026 *(carries the 19-Aug fixing under a 20-Aug date — cited as the ARTEFACT, not as evidence)*](https://doanhnghiephoinhap.vn/ty-gia-usd-hom-nay-2082026-dong-usd-the-gioi-giam-manh-146849.html)
+
 - **⚠🎯 15:54 ICT THU 20-AUG · TWO FOREIGN-FLOW FIGURES IN ONE SENTENCE OF MY OWN ENTRY CANNOT BOTH BE RIGHT
   ON THE BASES I GAVE THEM — CAUGHT TWO DAYS LATE. And the 20-Aug close is NOT REACHABLE, confirmed by two
   differently-shaped searches (lane 4). Short entry.**
