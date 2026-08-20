@@ -134,6 +134,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **⚠🎯 15:54 ICT THU 20-AUG · TWO FOREIGN-FLOW FIGURES IN ONE SENTENCE OF MY OWN ENTRY CANNOT BOTH BE RIGHT
+  ON THE BASES I GAVE THEM — CAUGHT TWO DAYS LATE. And the 20-Aug close is NOT REACHABLE, confirmed by two
+  differently-shaped searches (lane 4). Short entry.**
+
+  🚨 **THE INTERNAL INCONSISTENCY, INSIDE ONE OF MY OWN SENTENCES.** *The 14:54-Wed entry reads: foreign
+  investors net SOLD **₫768bn on HOSE** intraday, **₫250.12bn net across all three boards**, with VCB the
+  largest single sale at ₫49.26bn — and I labelled both explicitly as **10:30 snapshots**.*
+  | | |
+  |---|---|
+  | HOSE net sell, 10:30 | **₫768bn** |
+  | ALL-BOARDS net sell, same 10:30 | **₫250.12bn** |
+  | **⇒ implied net BUY outside that HOSE figure** | 🚨 **₫517.88bn** |
+  ⚠⚠ ***HNX net bought only ~₫5bn that session. UPCOM cannot plausibly account for half a trillion dong on a
+  quiet day. The two figures are not mutually consistent on the bases I assigned them.***
+  🎯 **THE LIKELY RECONCILIATION, OFFERED AND FLAGGED UNVERIFIED — AND IT IS A MEASURE DISTINCTION THE FILE
+  ALREADY HOLDS THE INGREDIENTS FOR.** *The same 14:54 entry records HOSE **matched** liquidity of ₫2,953bn
+  with **agreed (put-through) deals adding ₫806bn**.* ***So −₫768bn is plausibly HOSE MATCHED-ORDER net, while
+  −₫250.12bn is all-boards INCLUDING AGREED DEALS — and a large foreign agreed-deal BUY sits between them.
+  Agreed deals are exactly where foreign blocks trade.*** **That would make both figures correct on different
+  bases.** ⚠ **Unverified.** *And I note the precedent from two hours ago: my last such reconciliation was
+  right in KIND and wrong in its specifics, so this one is offered as a shape, not a solution.*
+  ⚠ **WHY IT WAS MISSED: I labelled both numbers carefully as intraday and never checked them against EACH
+  OTHER.** ***Provenance discipline and internal-consistency discipline are different checks, and doing the
+  first well can feel like having done the second.***
+
+  ⚠ **THE 20-AUG CLOSE IS NOT REACHABLE — AND THAT IS A ROUTE FINDING, NOT AN ABSENCE.** *Two differently-shaped
+  searches at 14:54 and 15:54 both returned the **19-Aug** session. **The 14:54 attempt returned it under a
+  20-Aug date label — the values gave it away, not the label.** The 15:54 attempt confirms the index simply
+  holds no 20-Aug session article yet.* 🎯 **Second duplicate-snapshot catch today, and the detector differed:
+  at 03:54 the steel table repeated its DATE; here the label said 20-Aug and the VALUES said 19-Aug.** ***A
+  date label on a search result is a claim by the summariser; the values are the evidence, and when they
+  disagree the values win.*** *Caught only because the file held the prior session's numbers.*
+
+  ✅ **ONE SMALL CONFIRMED ADDITION FOR 19-AUG: HNX-Index closed 279.98, −2.34, −0.83%** *(zero prior hits)* —
+  alongside the VN-Index's 1,726.69, −5.33, −0.31% already on file.
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 5 REMAINS FIRED — **FRI 21-AUG = SESSION 1, TOMORROW: the FTSE GEIS
+  OFFICIAL CONSTITUENT LIST lands and gate row 75's fence expires with it; KDH's insider-buy window CLOSES and
+  gate row 62's fence expires with it.** Mon 24-Aug = session 2 (CORE circumvention preliminary). Trigger 4
+  REMAINS FIRED on VPX. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **CARRIED FORWARD: the ₫768bn / ₫250.12bn pair is flagged in place. It does not change any conclusion —
+  the 15:54-Wed finding that the weekly flow series ALTERNATES WITH NO TREND rests on the weekly aggregates,
+  not on either of these intraday figures — but a number that cannot be reconciled should not be quoted as if
+  it were.**
+  [Vietstock — nhịp đập thị trường 19/08: VN-Index giằng co trong bối cảnh thanh khoản sụt giảm](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1908-vn-index-giang-co-trong-boi-canh-thanh-khoan-sut-giam-1636-1482473.htm) · [Vietstock — nhịp đập thị trường 20/08: dòng tiền phân hóa, thanh khoản trầm lắng *(exists; its close was not returned)*](https://vietstock.vn/2026/08/nhip-dap-thi-truong-2008-dong-tien-phan-hoa-thanh-khoan-tram-lang-1636-1482998.htm) · [Fili — Vietstock Daily 20/08/2026: áp lực chưa hạ nhiệt](https://fili.vn/2026/08/vietstock-daily-20082026-ap-luc-chua-ha-nhiet-1636-1482738.htm)
+
 - **✅🎯 13:54 ICT THU 20-AUG · THE RECONCILIATION I OFFERED AN HOUR AGO IS **CONFIRMED IN KIND AND WRONG IN
   ITS SPECIFICS** — and the fence was right for a better reason than I gave. The US$6bn was never a competing
   passive estimate (lane 4).**
