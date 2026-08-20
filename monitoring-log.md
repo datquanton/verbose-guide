@@ -32,6 +32,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **COKING COAL INDEX PROVENANCE (item 46)** *(added 11-Aug 02:54 after TWO failed attempts on the same sub-question)* | ✅ **OBTAINABLE AND ON FILE:** Fastmarkets **MB-COA-0003**, *Premium hard coking coal, fob eastern Australian ports*, **USD/wmt**, published **18:30 SGT**; specs **CSR 71 / VM 21 / ash 9.50**, min **10,000t**, laycan **16–60 days**; load port amended from **FOB DBCT** to a five-port basket (DBCT, Hay Point, Abbot Point, Gladstone, Port Kembla). Argus runs a **different** construction — 50% traded / 50% survey, **100% survey in low liquidity**. ⚠ **NOT OBTAINABLE: the EFFECTIVE DATE of the load-port amendment** — searched 10-Aug 22:54 and 11-Aug 02:54, both nil. **That date is the whole point: it decides whether the file's 238.9 (10-Jul) and 228 straddle a definition change, worth ~₫0.154m/t against a ₫0.096m bear-branch gap** | **a Fastmarkets pricing notice carrying a date**, or the methodology PDF — **not another general search** |
 | **CHINA HRC EXPORT PRICE (Mysteel weekly)** *(added 10-Aug 03:54 — after re-search number TEN)* | **US$485/t FOB, SS400 3mm, Tianjin, at 24-JUL, −$1/t w/w** — plus the offer dispersion (**private mills 488–490, state-owned 500–510**, $20/t negotiation discounts, buyers targeting 480) **and the freight reconciliation already done: 485 FOB → ~495–510 landed Vietnam.** 🚨🚨 **CONTAMINATED AND CORRECTED IN PLACE 19-Aug 21:54 — THIS ROW USED TO CONCLUDE *"= 5.4–8.2% below the bridge's 539 and 4.7–7.5% below HPG's 535 volume price"*. THAT COMPARISON OMITS **AD20**, an anti-dumping duty of **23.10%–27.83%** on exactly this product (width ≤1,880mm, thickness 1.2–25.4mm, carbon ≤0.3%), **IN FORCE SINCE 6-JULY-2025**. **DUTIED, ~495–510 BECOMES US$609.3–651.9, AND HPG's US$535 IS 12.2%–17.9% *BELOW* THE IMPORT, NOT ABOVE IT.** ⚠⚠ **THE UNDUTIED FIGURES ARE KEPT because they are the correct INDEX readings; what was wrong was using them as a landed COMPETITIVE price. Apply AD20 before any comparison.** *17-Jul's $486 is derivable from "−$1/t on the week" and adds nothing.* ⚠ **NO AUGUST ASSESSMENT IS REACHABLE — the latest is 17 days old, and a summarizer relabelled these July weeks as "early August".** **This is a DIFFERENT instrument from HPG's own offer row above — offer vs assessed transaction index** | **an assessment dated AUGUST or later** — not a re-run of the same July weeklies |
 | **🚨🚨 EVERY LANDED-IMPORT COMPARISON IN THIS FILE IS UNDERSTATED BY 23.10–27.83% — AD20** ⚠ *(rate corrected 20:54; 19.38% was wrong)* *(added 19-Aug 19:54)* | **CASE AD20: anti-dumping duty **23.10%–27.83%** on Chinese HRC of width ≤1,880mm, thickness 1.2–25.4mm, carbon ≤0.3%, untreated — IN FORCE FIVE YEARS FROM 6-JULY-2025.** ✅ **It and 1917/QĐ-BCT partition the product at 1,880mm and share the 0.3% carbon condition in opposite senses.** 🚨 **The file's benchmark — Mysteel SS400, 3mm, Tianjin — IS INSIDE AD20's SCOPE** *(width inferred from "standard coil" and flagged)*, **so the "HPG premium over landed Chinese HRC" series used UNDUTIED import prices throughout and the premium was never real. Corrected: HPG's US$535 sits **15.5%–17.9%** BELOW the dutied import (**US$632.8–651.9 at the 27.83% that ALMOST EVERY exporter pays** — ⚠ corrected 20-Aug 05:54: the 23.10% floor belongs to **Guangxi Liuzhou ALONE**, Hebei Yanshan is 26.94%, and Baoshan/Shougang/Angang/Shagang/Maanshan/Baotou are ALL at 27.83%; using the rate RANGE as an outcome range was my own weighting error. ⚠ Guangxi Liuzhou borders Vietnam, so its VOLUME share may exceed its firm share — the import split by exporter is the missing datum), and has done throughout.** ⚠ The rate is EXPORTER-SPECIFIC so the range stays a range; ⚠ **CORRECTED 20:54 — INDIA IS *NOT* COVERED: the investigation was TERMINATED because India's import share was under 3%.** AD20 is **28 HS codes** and 1917 is 24, both spanning 7208.25.00 → 7226.9x — **the codes OVERLAP and only WIDTH separates the two measures, so an HS code cannot identify which duty applies** | **an AD20 review, an exporter-specific rate, or an exemption/undertaking** — and BEFORE any future landed comparison, apply the duty. **Do not re-derive a "premium" from an undutied benchmark** |
+| **🚨🚨🚨 CHINA IS NOT THE MARGINAL SUPPLIER — INDIA IS, AND IT IS DUTY-FREE** *(added 20-Aug 08:54; supersedes three days of China-focused landed work)* | 🚨 **HPG's September offer of US$535 IS EXACTLY the Indian HRC SAE1006 delivered price at a Vietnamese port (early July). Formosa is US$522 — US$13 BELOW India. Indonesia is US$543.** ✅ **All three producers cut ~US$40–45 in the same window: India 576→535 (−41), HPG 580→535 (−45), Formosa ~−40 — a common external anchor, not a share war.** 🚨 **VIETNAM IS THE LARGEST DESTINATION FOR INDIAN HRC IN H1/2026**, with the EU's 1-Jul-2026 measure cutting India's EU quota ~34% *(⚠ chronology tension: the measure post-dates the H1 period it is said to explain — anticipation is the natural reading, not asserted)*. **AD20 does NOT cover India — terminated on a sub-3% share.** ⚠ **Tension flagged, unresolved: 9M/2024 imports ran 8.8mt = 171% of domestic production with China+India 75% of Q1/2024 imports — hard to square with India under 3% unless the bases differ** | **evidence that India's share has crossed 3%** — that is the trigger for a new petition, and HPG and Formosa have petitioned jointly twice. Also: Indian/Indonesian volumes in tonnes, which remain unquantified |
 | **WEEKLY FOREIGN NET FLOW (aggregate)** *(added 10-Aug 00:53 — AFTER it caused re-search number SEVEN)* | Week **03–07 Aug** held in full since **09-Aug 09:53**: net **BUY ₫2,249.5bn** against net **SELL ₫2,438.7bn** the week before (swing ₫4,688.2bn); net sold **10.3m units**, −85.4% w/w; the fewer-shares-higher-prices reading; and the four-year trend (≈₫62,000bn to end-May, ≈80,000bn end-Jun, ≈92,000bn end-Jul). **The aggregate is complete — only the PER-NAME split was ever missing, and it is now on file too** | **the NEXT week's figures, i.e. Sat 15-Aug or later** — never twice in one week |
 | **WEEKLY MONEY MARKET — OMO, OVERNIGHT INTERBANK, POLICY RATE** *(added 11-Aug 18:54, first time this file has ever held an overnight rate)* | Week **03–07 Aug** complete: SBV **net injected ₫24,726.73bn**, gross repo **₫76,040.07bn** across **7/42/63/91-day**, rate **HELD 4.5%/yr — no policy-rate change**. Overnight **0.75% → 5.72%** end-July, **4.83% at 5-Aug**. **Series extremes now bounded: 17%/yr 2-Feb-2026 (Tet, the year's high), 11%/yr 1-Jun-2026 (highest ex-Tet), 0.75% the low.** **SBV reaction function MEASURED: 1-Jun 11% → offered ₫46,000bn + 14-day USD/VND swaps → ~7% by the afternoon of 2-Jun, one session.** ⚠ **DO NOT RE-SEARCH THE 11% — it is 1-JUNE and it cost a full search to date; it will keep resurfacing undated because the headlines carry no date.** ⚠ **Central rate is a DIFFERENT row and this file runs AHEAD of the weekly wraps** — they lead on ₫25,463 "record", which is Friday 07-Aug; the file holds **₫25,491 at Mon 10-Aug** | **the NEXT week's report, i.e. Sat 15-Aug or later** — **WEEKLY, never hourly.** A policy-rate move away from 4.5%, or an overnight print above ~8%, re-opens it immediately |
 | **MONTHLY CREDIT PRINT** *(added 10-Aug 00:53 — same search, same re-search)* | **₫20,150,000bn at 29-Jul, +8.38% YTD**, on file with the note that it came from a *government press conference, not a "month-end +5d" calendar* — and that a gate placed in the future for an event already past **suppressed the search for two days** | **the AUGUST print (~early Sep)**, or an SBV release giving a different basis |
@@ -132,6 +133,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🚨🚨🚨 08:54 ICT THU 20-AUG · **HPG's SEPTEMBER OFFER OF US$535 IS EXACTLY THE INDIAN DELIVERED PRICE.**
+  VIETNAM IS THE **LARGEST DESTINATION** FOR INDIAN HRC IN H1/2026, AND ALL THREE PRICES MOVED ~US$40–45
+  TOGETHER. THE CUT WAS IMPORT PARITY (lanes 5, 2, 3).**
+  *This closes the §4 item I opened one hour ago.*
+
+  🚨🚨 **THE NUMBERS, AND THEY LINE UP TO THE DOLLAR.** *Zero prior hits on `8,8 triệu`, `điểm đến lớn nhất`
+  and `171%`.*
+  | | early JUNE | early JULY | move |
+  |---|---|---|---|
+  | **Indian HRC SAE1006, delivered Vietnamese port** | **US$576** | **US$535** | **−US$41 / −7.12%** |
+  | **Indonesian, same grade** | — | **US$543** | — |
+  | **HPG** *(July → September offer)* | 580 | **535** | **−US$45 / −7.76%** |
+  | **Formosa** *(Aug–Sep)* | — | **522** | **~−US$40** |
+  🚨 ***HPG's US$535 IS THE INDIAN PRICE, TO THE DOLLAR. Formosa's US$522 is US$13 BELOW it. Indonesia at
+  US$543 sits US$8 ABOVE HPG. And all three producers cut ~US$40–45 in the same window.***
+  🎯🎯🎯 **THAT IS WEDNESDAY'S PUZZLE ANSWERED COMPLETELY, AND IT IS NOT SHARE-BUYING, NOT PURE COST
+  PASS-THROUGH, AND NOT SIMPLY WEAK DEMAND. IT IS IMPORT PARITY WITH A DUTY-FREE COMPETITOR.** *HPG cut
+  580 → 535 because Indian HRC arrived at 535.* **The magnitudes match across three independent producers to
+  within US$5, which is what a common external price anchor produces and what none of my four readings
+  predicted.**
+
+  🚨 **AND THE STRUCTURAL FACT BEHIND IT: *"VIỆT NAM LÀ ĐIỂM ĐẾN LỚN NHẤT CỦA HRC ẤN ĐỘ TRONG 6 THÁNG ĐẦU NĂM
+  2026"* — VIETNAM IS THE SINGLE LARGEST DESTINATION FOR INDIAN HRC IN H1/2026.** ⚠ **A CHRONOLOGY TENSION I
+  AM FLAGGING, NOT RESOLVING: the source attributes this to the EU measure effective 1-JULY-2026, but the H1
+  data is JANUARY–JUNE — the measure post-dates the period it is said to explain.** *The natural reading is
+  anticipation of an announced measure, and the natural consequence is that H2 intensifies rather than
+  reverses. **Neither is asserted.***
+
+  🚨🚨 **AND THE TENSION THAT MATTERS MOST, BECAUSE HPG's PROTECTION RESTS ON IT.** *AD20 terminated the India
+  case because India's share was **UNDER 3%** — established here at 20:54 Wednesday.* **But the historical
+  record says imports of HRC ran at 8.8mt in 9M/2024 — **171% of domestic production** — and that **China AND
+  INDIA together were 75% of Q1/2024 imports**, both described as surging.** ⚠⚠ ***Those cannot both describe
+  the same India unless the 3% sits on a different basis — of total consumption, or of the subject merchandise
+  narrowly defined, with China taking almost all of the 75%.*** **I cannot resolve which, and I am not
+  guessing.** 🚨 **What is certain and is the point: *the entire duty-free status of what is now Vietnam's
+  fastest-growing HRC import source rests on that sub-3% finding*, and Vietnam has since become India's
+  largest market.**
+
+  ✅ **WHAT THIS SETTLES ABOUT THE THREE DAYS OF LANDED-PRICE WORK.** *Monday's "premium", Wednesday's inverted
+  swing, Tuesday night's AD20 correction and yesterday's exporter schedule were all about **CHINA** — and
+  China is dutied at 23.10–27.83%, lands at US$632.8–651.9, and is collapsing from 6mt to under 2mt.*
+  ***The price that actually sets HPG's ceiling is the UN-DUTIED Indian one at US$535, and this file spent
+  three days measuring the wrong country.*** **The Chinese arithmetic is correct and was never the binding
+  constraint.**
+
+  ⚠ **NOT CLAIMED: that (c) input costs and (d) weak demand are absent.** *Ore near a 14-month low and
+  Formosa's 15% output cut are both on file and both real.* **The claim is narrower and better evidenced: the
+  LEVEL HPG cut TO is the Indian import price, and the SIZE of the cut matches the Indian move.** *Costs and
+  demand explain why the Indian price fell; parity explains why HPG followed it exactly.*
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — an import price is not a bridge input, and the
+  bridge's HRC leg is HPG's own offer, which is unchanged at 535. `assumptions.json` UNTOUCHED.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG's spread criterion — the ₫0.8632m/t reading uses
+  HPG's own 535 and is unchanged. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — **Fri 21-Aug =
+  SESSION 1, TOMORROW** (FTSE GEIS list, KDH insider window closes); Mon 24-Aug = session 2 (CORE
+  preliminary). Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **§4 QUEUE, REPLACED: the old item asked for Indian/Indonesian volumes. It is answered qualitatively —
+  Vietnam is India's largest market. **The sharper open question is now whether India's share has crossed the
+  3% threshold that justified its AD20 exemption**, because that is the trigger for a new petition — and HPG
+  and Formosa have petitioned jointly twice before.**
+  [Dân Việt — thép HRC nội địa lao dốc để cạnh tranh hàng giá rẻ từ Ấn Độ, Indonesia](https://danviet.vn/thep-hrc-noi-dia-lao-doc-de-canh-tranh-hang-gia-re-tu-an-do-indonesia-d1442900.html) · [Tuổi Trẻ — thép HRC trong nước giảm giá trước sức ép hàng nhập khẩu (13-7-2026)](https://tuoitre.vn/thep-hrc-trong-nuoc-giam-gia-truoc-suc-ep-hang-nhap-khau-100260713110833816.htm) · [Vietstock — giá thép HRC của Trung Quốc tiếp tục giảm, giá thép Việt Nam sẽ ra sao](https://vietstock.vn/2026/08/gia-thep-hrc-cua-trung-quoc-tiep-tuc-giam-gia-thep-cua-viet-nam-se-ra-sao-742-1476385.htm) · [Báo Đầu tư — nhập thép cuộn cán nóng tăng mạnh, 9 tháng đạt 8,8 triệu tấn](https://baodautu.vn/nhap-thep-cuon-can-nong-tang-manh-9-thang-dat-88-trieu-tan-d227236.html) · [TTWTO VCCI — lượng nhập khẩu thép cán nóng lớn hơn sản xuất trong nước](https://trungtamwto.vn/thi-truong-duc/26018-luong-nhap-khau-thep-can-nong-lon-hon-san-xuat-trong-nuoc-khong-the-chap-nhan-duoc)
 
 - **🚨🚨🚨 07:54 ICT THU 20-AUG · WEDNESDAY'S PRICE-CUT PUZZLE IS ANSWERED, AND THE ANSWER IS **NONE OF MY
   FOUR READINGS**. IT IS INDIA AND INDONESIA UNDERCUTTING INTO VIETNAM, DISPLACED BY THE SAME EU MEASURE I
