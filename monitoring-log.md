@@ -134,6 +134,80 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 22:54 ICT THU 20-AUG · AN OPEN FLAG ON MBB CLOSES BY ARITHMETIC, AND MBB's
+  `npat_ttm` GETS ITS FIRST CROSS-CHECK — the file has called that field UNTESTABLE since the book-wide
+  audit (lanes 6, 3). Largest E[r] in the book, largest proposed ADD.**
+
+  ✅ **TWO NEW VPBankS FIGURES ON MBB, BOTH ZERO PRIOR HITS: TARGET ₫34,100 at a stated +29.4%, and FY26
+  PBT ₫39,409bn, +14.2% yoy** *— described as "in line with the bank's 15% growth target", from an AGM-2026
+  update report.*
+
+  🎯🎯 **THE FLAG THAT CLOSES. The file has carried VCBS's ₫43,244bn as *"reported as net profit;
+  almost certainly PBT"* — a plausibility judgment, twice recorded, never proved.** ***Two brokers
+  back-solved to a COMMON FY2025 BASE settle it:***
+  | broker | FY26 estimate | stated growth | ⇒ implied FY2025 |
+  |---|---|---|---|
+  | **VPBankS** | **₫39,409bn PBT** | **+14.2%** | **₫34,509bn** |
+  | **VCBS** | **₫43,244bn** *("net profit")* | **+26.2%** | **₫34,266bn** |
+  ✅✅ **ON THE PBT READING THE TWO BASES AGREE TO 0.71%.** 🚨 **ON THE NPAT READING IT IS IMPOSSIBLE: an
+  FY25 NPAT of ₫34,266bn against VPBankS's FY25 PBT of ₫34,509bn implies an effective tax rate of 0.7%,
+  against Vietnam's 20% CIT.** ***The inference is now proved, not assumed, and VCBS's figure is PBT.***
+  ✅ **AND THE FILE GAINS A NUMBER IT DID NOT HAVE: MBB FY2025 PBT ≈ ₫34,266–34,509bn**, derived from two
+  independent estimates that were never intended to corroborate each other.
+
+  🎯 **THE FIRST CROSS-CHECK ON `valuation.MBB.npat_ttm` = 30,858 — a field line 1457 lists as needing
+  "a filed full-year figure" and therefore UNTESTABLE.** *TTM at end-Q2-26 proxied as FY25 + ½·(FY26E − FY25),
+  then taxed at 20%:*
+  | path | TTM PBT | ⇒ TTM NPAT | vs stored 30,858 |
+  |---|---|---|---|
+  | **VPBankS (+14.2%)** | ₫36,959bn | **₫29,567bn** | stored is **+4.37% high** |
+  | **VCBS (+26.2%)** | ₫38,755bn | **₫31,004bn** | stored is **−0.47% low** |
+  ✅✅ ***THE STORED FIGURE SITS INSIDE THE BAND THE TWO BROKERS IMPLY.*** **That is the first magnitude test
+  MBB's trailing-earnings field has ever survived, and it is the fourth of the eight names to get one.**
+  ⚠⚠ **STATED PRECISELY, BECAUSE THE DISTINCTION MATTERS: this is NOT the filed figure the audit asked for.
+  It is a broker-derived approximation resting on a linear TTM interpolation and a flat 20% tax rate. The
+  field remains UNTESTED BY FILING; what changed is that it is no longer UNCORROBORATED.**
+  🎯🎯 **AND THE E[r] CONSEQUENCE IS *ZERO*, WHICH IS THIS FILE'S OWN HARDEST-WON LESSON APPLIED TO
+  ITSELF.** *A one-legged sensitivity would say: `npat_ttm` 30,858 → 29,567 shrinks `cap_now` to ₫170,306bn,
+  k = 0.9582, **E[r] +36.6% → +42.6%, a +6.0pp move.*** 🚨 ***THAT CALCULATION IS WRONG AND IT IS THE VPX
+  ERROR EXACTLY.*** **`cap_now = pe_ttm × npat_ttm` IS the market cap; if `npat_ttm` is off, `pe_ttm` is off
+  inversely, the product is unchanged, and E[r] DOES NOT MOVE.** *The one-legged number is recorded solely to
+  mark it as the incoherent one.* **TRIGGER 3 DOES NOT FIRE, and it would not fire even on the incoherent
+  reading (6.0pp against a 10pp bar).**
+
+  ⚠ **A FOURTH BACK-SOLVED MBB REFERENCE — ATTEMPT NINE AT THIS TICKER'S PRICE, AND STILL NOT A PRICE.**
+  *₫34,100 ÷ 1.294 = **₫26,352** (reverse-checks to ₫34,099.5).* **It is UNDATED and gate row 44 stands.**
+  ⚠⚠ ***I REFUSE THE COINCIDENCE THAT IS SITTING RIGHT THERE:*** *read as a CUM price, ₫26,352 converts on
+  the file's identity to **₫21,882 ex** — **0.76% from the model's ₫22,050**.* 🚨 **THAT IS A BASIS
+  MISMATCH AND NOTHING ELSE: ₫22,050 is a CUM figure — the block reconciles to the PRE-ex count of 8,055.0m —
+  so comparing an ex-converted reference to it compares ex against cum.** *A 0.76% agreement between two
+  quantities on different bases is an artefact, and it is exactly the kind of near-miss this file has been
+  fooled by before.*
+  ✅ **WHAT THE REFERENCE DOES LEGITIMATELY DO, CONDITIONALLY:** *the report describes the 10% cash and 15%
+  stock dividends as **PLANNED** and the charter-capital ceiling as **₫102,687bn** — both consistent with an
+  **AGM-season (≈April)** vintage, since the cash leg had record 10-Jul and was paid from 17-Jul.* **On that
+  dating, the CUM series reads ₫29,086 (Feb) → ₫26,352 (≈Apr) → ₫22,050 (model) — MONOTONIC.**
+  🎯 ***This is the first arrangement in which the model's MBB price sits on a coherent path rather than
+  "fitting neither cluster", which was the file's standing verdict.*** ⚠ **CONDITIONAL ON A DATE I HAVE NOT
+  ESTABLISHED — inferred from report CONTENT, not read off it. Recorded as conditional, adopted as nothing,
+  and `price` is §4 human-only regardless.**
+
+  ✅ **LANES CHECKED:** 6 (street — above; **TCB and VPB returned NO dated August target-price report**,
+  only technical-analysis PDFs), 3 (holdings — MBB above; nothing new on the other seven), 1 (macro — nil at
+  this hour), 2 (US trade — nil since 21:54).
+
+  🚨 **NO NEW TRIGGER FIRES. Trigger 3 tested on MBB and NEGATIVE — see above; the coherent correction
+  moves E[r] by zero. Trigger 4 considered on MBB and DECLINED: a field going from uncorroborated to
+  corroborated-in-the-supporting-direction is not an adverse evidence-status change, and no §4 field moved.
+  Trigger 5 REMAINS FIRED — FRI 21-AUG = SESSION 1, TOMORROW, THREE ITEMS: FTSE GEIS OFFICIAL LIST · KDH
+  INSIDER-BUY WINDOW CLOSES · JACKSON HOLE/WARSH ENTERS THE WINDOW. FORECAST #7 IS NOT ONE OF THEM —
+  ~21-OCT-2026. Mon 24-Aug = session 2. Trigger 4 REMAINS FIRED on VPX. Trigger 2 STANDING-BREACHED.
+  Trigger 1 negative.**
+  ⚠ **NO §4 FIELD WRITTEN — `npat_ttm`, `pe_ttm`, `price` and `confidence` are ALL human-only, and this
+  finding touches three of them. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  [VietstockFinance — MBB: báo cáo cập nhật ĐHCĐ 2026 (VPBankS, TP ₫34,100, +29.4%)](https://finance.vietstock.vn/bao-cao-phan-tich/19860/mbb-bao-cao-cap-nhat-dhcd-2026.htm) · [VietstockFinance — MBB: khuyến nghị MUA với giá mục tiêu 37,230 đồng/cp (VCBS)](https://finance.vietstock.vn/bao-cao-phan-tich/19031/mbb-khuyen-nghi-mua-voi-gia-muc-tieu-37230-dongco-phieu.htm) · [VCBS Research — MBB: tăng tốc đón đầu chu kỳ mới, 02/2026 (PDF)](http://static1.vietstock.vn/edocs/19031/mbb_tang_toc_don_dau_chu_ky_moi_02_2026.pdf)
+
 - **🎯🎯 21:54 ICT THU 20-AUG · THE NEW TOOL'S STATED LIMITATION BIT WITHIN ONE HOUR, EXACTLY AS
   WRITTEN — SO I EXTENDED IT, AND THE EXTENSION FOUND A **FOURTH** STALE GATE ROW. Plus a control-group
   reading on the steel spread that the file did not previously have (lanes 5, 2).**
