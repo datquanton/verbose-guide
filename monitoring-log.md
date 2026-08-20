@@ -133,6 +133,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 06:54 ICT THU 20-AUG · THE IMPORT CHANNEL THIS FILE HAS TREATED AS HPG's COMPETITIVE CEILING IS
+  COLLAPSING FROM ~6 MILLION TONNES TO UNDER 2. AND VIETNAM'S HRC MARKET IS A **DUOPOLY** — HPG 61%, FORMOSA
+  39%. THAT REFRAMES WEDNESDAY'S PRICE-CUT PUZZLE ENTIRELY (lanes 5, 2, 3).**
+
+  🚨 **THE SIZING, WHICH THIS FILE HAS NEVER HAD.** *Zero prior hits on `6,7 triệu`, `dưới 2 triệu` and the
+  6-million-tonne import figure.*
+  | | |
+  |---|---|
+  | Chinese HRC imported into Vietnam, **2025** | **~6.0 MILLION TONNES** |
+  | **expected 2026** | 🚨 **BELOW 2.0 MILLION TONNES — a fall of more than TWO-THIRDS** |
+  | domestic HRC sold, **10M/2025** | **>6.7mt, +21% YoY** (≈8.0mt annualised) |
+  | **domestic PRODUCTION share, 2025** | 🚨 **HÒA PHÁT 61% · FORMOSA HÀ TĨNH 39% — and nobody else** |
+  ✅ **SO CHINA WAS ~42.7% OF VIETNAMESE HRC SUPPLY IN 2025 AND FALLS TO ~20% IN 2026 ON UNCHANGED DOMESTIC
+  VOLUME.** *The collapse is attributed to AD20 (Jul-2025) and the wide-format temporary duty (Apr-2026) —
+  the two instruments this file spent yesterday reconciling.*
+
+  🚨🚨 **AND IT UNDERMINES THE FRAME I HAVE BEEN USING FOR THREE DAYS. Every landed-price comparison —
+  Monday's "premium halved", Wednesday's inverted swing, last night's corrected US$632.8–651.9 — treats the
+  DUTIED IMPORT as HPG's binding competitive ceiling.** ***A ceiling set by a channel shrinking by two-thirds
+  is a far weaker ceiling than one set by a stable channel, and the file has never known which it was.***
+  ✅ *The arithmetic of the ceiling is unchanged and stands. What changes is how much it BINDS.*
+
+  🎯🎯🎯 **AND THIS IS WHAT REFRAMES WEDNESDAY'S PUZZLE — THE ONE I EXPLICITLY LEFT OPEN.** *At 10:54 Wed I
+  asked why HPG cut its September HRC offer **7.76%** into a market that had just become 27.83% more
+  protected, listed four readings, and selected none.*
+  🚨 ***IF CHINESE IMPORTS ARE DOWN TWO-THIRDS, HPG's COMPETITION IS NO LONGER IMPORTS. IT IS FORMOSA.***
+  **The domestic market is a two-firm duopoly, 61/39.** ***A price cut in a duopoly against ONE named domestic
+  rival is a completely different act from a price cut defending against an import flood*** — and reading
+  **(b), "buying share while protected", now has a TARGET rather than a vague direction.*
+  ✅ **AND THE FILE'S OWN 43.4% CORROBORATES THE MECHANISM: HPG's HRC market share at Jun-2026 is 43.4%. On
+  2025 numbers HPG was 61% of domestic production but only ~34.9% of total supply. A share moving 34.9% →
+  43.4% is exactly what the import collapse produces**, and it is the first time the 43.4% has had an
+  explanation rather than a source. ⚠ **STILL NOT SELECTED between (b) and (c) input-cost pass-through — ore
+  near a 14-month low is unchanged as a competing explanation, and the Q3 filing plus HPG's October offer
+  remain the pre-registered test.** *What has changed is that (b) now names a counterparty.*
+
+  ⚠ **WHAT I AM NOT DOING WITH THESE NUMBERS.** *The 6.7mt is TEN months and is annualised at 8.0mt by me,
+  not by the source; the "<2mt for 2026" is a FORECAST, not an actual; and the 61/39 split is PRODUCTION share
+  in 2025, which is not the same measure as the 43.4% MARKET share at Jun-2026.* **Three different bases, all
+  labelled, none blended into a single number.** ⚠ **Also unresolved and now sharper: last hour's missing
+  datum — the import split BY EXPORTER — matters less if the whole channel is halving, but Guangxi Liuzhou's
+  23.10% and border location still bear on what remains.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — market-structure facts are not inputs to the
+  bridge, which prices ore, coking coal and HPG's own offer. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md`
+  byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 negative on both HPG criteria — the finding is favourable and moves no
+  input. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED — **Fri 21-Aug = SESSION 1, TOMORROW**
+  (FTSE GEIS list, KDH insider window closes); Mon 24-Aug = session 2 (CORE preliminary). Trigger 2
+  STANDING-BREACHED. Trigger 3 negative.**
+  [VietnamBiz — tiêu thụ thép HRC tăng vọt, triển vọng tích cực có duy trì trong năm 2026](https://vietnambiz.vn/tieu-thu-thep-hrc-tang-vot-trien-vong-tich-cuc-co-duy-tri-trong-nam-2026-202512475726803.htm) · [Thời báo Tài chính — áp thuế gần 28% với thép HRC khổ rộng Trung Quốc: siết lẩn tránh, bảo vệ sản xuất trong nước](https://thoibaotaichinhvietnam.vn/ap-thue-gan-28-voi-thep-hrc-kho-rong-trung-quoc-siet-lan-tranh-bao-ve-san-xuat-trong-nuoc-194936.html) · [VietnamBiz — xuất khẩu thép cuộn cán nóng (HRC) tăng đột biến](https://vietnambiz.vn/xuat-khau-thep-cuon-can-nong-hrc-tang-dot-bien-202663145316721.htm) · [Saigon Times — Việt Nam áp thuế gần 28% với thép HRC khổ rộng Trung Quốc](https://thesaigontimes.vn/viet-nam-ap-thue-gan-28-voi-thep-hrc-kho-rong-trung-quoc/) · [TTWTO VCCI — lượng nhập khẩu thép cán nóng lớn hơn sản xuất trong nước](https://trungtamwto.vn/thi-truong-duc/26018-luong-nhap-khau-thep-can-nong-lon-hon-san-xuat-trong-nuoc-khong-the-chap-nhan-duoc)
+
 - **🎯🚨 05:54 ICT THU 20-AUG · AD20's RATES ARE ATTACHED TO NAMED EXPORTERS AND **ALMOST ALL OF THEM SIT AT
   THE TOP**. I USED A RATE RANGE AS IF IT WERE AN OUTCOME RANGE. Also: the 19.38% I could not explain at 20:54
   is the PROVISIONAL duty (lanes 2, 5).**
