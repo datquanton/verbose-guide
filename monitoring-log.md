@@ -136,6 +136,74 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 06:56 ICT FRI 21-AUG *(read from `date`, not counted — first entry under the new
+  rule)* · THE FILE HAS **NINETY GATE ROWS ON THE FTSE UPGRADE AND NOTHING ON THE REGULATORY MECHANISM THAT
+  SATISFIED ITS ACCESS CRITERION.** I chased a gap the file had marked *"logged, NOT CHASED"* and this is
+  what was under it (lanes 5, 4, 3).**
+
+  🚨🚨 **CIRCULAR 08/2026/TT-BTC — ISSUED AND EFFECTIVE 3-FEB-2026, OPERATIVE FOR SIX AND A HALF
+  MONTHS.** *The file already held the instrument NUMBER and which circulars it amends (96/2020, 120/2020,
+  121/2020). **What it did not hold — zero hits on `môi giới toàn cầu`, `global broker`, `omnibus`,
+  `tài khoản lưu ký` — is WHAT THE CIRCULAR DOES.***
+  | | |
+  |---|---|
+  | **the mechanism** | foreign investors may route orders through **GLOBAL BROKING INSTITUTIONS** to domestic brokers **without opening a separate trading account at each Vietnamese broker** |
+  | **what still binds** | they must register a securities trading code and hold a **custody account at a depository member** |
+  | **effective** | **3-Feb-2026** |
+  | **why it exists** | the draft's own coverage was headlined *"sửa quy định để đáp ứng **tiêu chí môi giới toàn cầu của FTSE**"* |
+  🎯🎯 ***THIS IS THE ACCESS REMEDY THE UPGRADE WAS CONDITIONAL ON. This file has the eligible roster,
+  the tranche schedule, the passive-versus-active flow split, the projected weights, the effective date and
+  the London-timezone arithmetic — and had NOTHING on how the criterion was actually met.*** **That is a hole
+  in the lane's foundation, not a missing datum, and it is worse than a stale figure because nothing in the
+  file pointed at it.**
+
+  ⚠⚠ **PORTFOLIO RELEVANCE NAMED, AND THE INFERENCE REFUSED.** *TCX and VCI are brokers. An omnibus/global-
+  broker channel changes HOW foreign order flow reaches domestic brokers, and plausibly concentrates it in
+  whichever domestic houses the global brokers route through.* 🚨 ***I DO NOT KNOW WHO THAT FAVOURS AND I
+  AM NOT GUESSING.*** *The tempting line — "VCI is the institutional/foreign-facing broker, TCBS is
+  retail-heavy, therefore VCI wins" — is a story, not evidence.*
+  ✅ **PRE-REGISTERED INSTEAD: the file already holds the Q2/26 HOSE brokerage market-share table (TCBS 9.36%,
+  VPBankS 3.57% record). The test is whether foreign-institutional share has shifted between Q1/26 (pre-
+  circular) and Q2–Q3/26 (post). If VCI's share rose while TCBS's retail-led share did not, the mechanism is
+  visible; if neither moved, the circular changed plumbing and not economics.** *Named in advance so it
+  cannot be fitted afterwards.*
+
+  🚨🚨 **AND THIS IS THE FOURTH SELF-NAMED GAP THIS WEEK THAT SAT UNFILLED — THE SAME DIAGNOSIS FOUR
+  WAYS:**
+  | what the file said about itself | how long it sat |
+  |---|---|
+  | TCX: *"TTM not computable, **H1/2025 not established**"* | **19 days** — closed 03:57 today |
+  | 06-Aug: three named prose-versus-field contradictions | **15 days** — still live, now detected |
+  | rows 36/37: *"the next week's report, Sat 15-Aug or later"* | **5 days** — closed 22:00 |
+  | **this one: *"a small gap found and logged, NOT CHASED"*** | **days, on the FTSE lane** |
+  🎯 ***THE FILE IS EXCELLENT AT NOTICING WHAT IT LACKS AND HAS NO MECHANISM FOR GOING BACK TO GET IT.
+  Naming a gap feels like handling it, and the note that records the gap is what makes it feel handled.***
+
+  ✅✅ **`absence_audit.py` EXTENDED — an EXPLICIT-DEFERRAL QUEUE.** *It scans the log for `NOT CHASED`,
+  `logged, not`, `found and logged`, `deferred` and prints them newest-first with line numbers.* **Neither
+  `gate_audit.py` nor the curated absence claims could see these: they live in PROSE in ordinary entries,
+  which is precisely where a deferral goes to be forgotten.** ✅ **First run surfaced six, including the very
+  line I chased tonight.**
+  ⚠ **HONEST LIMIT, VISIBLE IN THE FIRST RUN: one of the six is a SEMANTIC FALSE POSITIVE — a *"deferred
+  liability"* in a tax discussion, not a deferred task.** *A crude marker list with a stated 1-in-6 false-
+  positive rate is worth more than a precise one that does not exist, and the tool says it does not judge
+  whether a deferral was right — it only makes the queue visible.*
+
+  ✅ **LANES CHECKED:** 5 (banks/brokers — above; also re-confirmed, already held: **121/2020 caps broker
+  margin at 200% of equity**), 4 (FTSE — the mechanism above; ⚠ **it is now 00:54 BST FRIDAY in London, so
+  21-Aug has begun where FTSE publishes — but London's business day starts ~08:00 BST = 15:00 ICT, AFTER
+  Vietnam's 14:45 close. The window in which the list could both arrive AND be tradeable in Vietnam today is
+  the London small hours, and is effectively nil**), 3 · 7 (KDH — **NO execution disclosure; covered ground,
+  and the ₫17,950 close on 20-Jul is already on file with its 0.28% comparison to the model's ₫18,000**).
+
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5
+  REMAINS FIRED — **VIETNAM OPENS IN ~2 HOURS AND TODAY IS SESSION 1**: KDH's insider-buy window CLOSES
+  TODAY; the FTSE list most likely belongs to MON 24-AUG alongside the CORE preliminary; Jackson Hole/Warsh
+  enters the window today on the announcement reading. Trigger 2 STANDING-BREACHED. Triggers 1 and 3
+  negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Người Đưa Tin — Bộ Tài chính nới cơ chế giao dịch chứng khoán cho nhà đầu tư nước ngoài từ 3/2/2026](https://www.nguoiduatin.vn/bo-tai-chinh-noi-co-che-giao-dich-chung-khoan-cho-nha-dau-tu-nuoc-ngoai-tu-3-2-2026-204260203210031525.htm) · [LSVN — những điểm mới của Thông tư 08/2026/TT-BTC về chứng khoán, giao dịch cổ phiếu](https://lsvn.vn/nhung-diem-moi-cua-thong-tu-08-2026-tt-btc-ve-chung-khoan-giao-dich-co-phieu-a169838.html) · [TheLEADER — thông tư mới kích thích dòng vốn ngoại chảy vào chứng khoán Việt Nam](https://theleader.vn/thong-tu-moi-kich-thich-dong-von-ngoai-chay-vao-chung-khoan-viet-nam-d44242.html) · [Fili — sửa quy định để đáp ứng tiêu chí môi giới toàn cầu của FTSE *(the Dec-2025 draft stage)*](https://fili.vn/2025/12/sua-quy-dinh-de-dap-ung-tieu-chi-moi-gioi-toan-cau-cua-ftse-143-1382598.htm) · [Thư viện Pháp luật — Thông tư 121/2020/TT-BTC](https://thuvienphapluat.vn/van-ban/Doanh-nghiep/Thong-tu-121-2020-TT-BTC-huong-dan-hoat-dong-cua-cong-ty-chung-khoan-453690.aspx)
+
 - **🚨🚨🚨 05:54 ICT FRI 21-AUG · **EVERY ENTRY HEADER I HAVE WRITTEN IN THIS RUN IS ONE HOUR
   BEHIND THE CLOCK, AND ONE OF THEM IS ON THE WRONG DAY.** I have been stamping entries by COUNTING FORWARD
   instead of by READING A CLOCK — the exact error I have spent two days catching in sources (process).**

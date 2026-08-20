@@ -48,6 +48,7 @@ import sys
 
 ASSUMPTIONS = "research/models/assumptions.json"
 
+
 # (label, claim substring, resolver path, ignore_paths, note)
 #
 # A row fires when the claim is still present somewhere OUTSIDE ignore_paths
@@ -120,6 +121,41 @@ def resolve(doc, path):
     return node
 
 
+# --- deferrals ---------------------------------------------------------------
+#
+# A third shape of the same disease, found 21-Aug: the log marks a gap and
+# explicitly defers it. "A SMALL GAP FOUND AND LOGGED, NOT CHASED" sat in an
+# ordinary entry while the thing it deferred -- what Circular 08/2026/TT-BTC
+# actually DOES -- stayed missing for days, on the lane the FTSE upgrade runs
+# through. Neither gate_audit nor the curated claims above can see these,
+# because they live in prose in monitoring-log.md rather than in the table or
+# in assumptions.json.
+#
+# This does not judge whether a deferral was right. It only makes the queue
+# visible, so a sweep with nothing better to do can pick one up.
+
+LOG = "monitoring-log.md"
+DEFERRAL_MARKERS = (
+    "NOT CHASED",
+    "not chased",
+    "logged, not",
+    "found and logged",
+    "deferred",
+)
+
+
+def deferrals(limit=12):
+    out = []
+    for number, line in enumerate(io.open(LOG, encoding="utf-8"), start=1):
+        for marker in DEFERRAL_MARKERS:
+            if marker in line:
+                out.append((number, marker, line.strip()[:150]))
+                break
+        if len(out) >= limit:
+            break
+    return out
+
+
 def main():
     doc = load()
     live = []
@@ -150,6 +186,13 @@ def main():
         "clean run means only that the listed claims are resolved. Nothing here edits\n"
         "prose — the append-only convention is why the original audit was possible."
     )
+
+    queue = deferrals()
+    if queue:
+        print(f"\nEXPLICIT DEFERRALS IN THE LOG ({len(queue)} newest, a work queue not a verdict):")
+        for number, marker, text in queue:
+            print(f"  monitoring-log.md:{number}  [{marker}]  {text}")
+        print("  (newest first; a deferral may have been right, and this does not judge that.)")
     return 0
 
 
