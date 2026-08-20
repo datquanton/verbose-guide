@@ -134,6 +134,66 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🎯🎯🎯 10:54 ICT THU 20-AUG · INDIAN HRC HAS FALLEN ANOTHER **US$25–30** SINCE HPG SET ITS SEPTEMBER
+  OFFER, WHILE IRON ORE IS FLAT. THE TWO EXPLANATIONS NOW MAKE **NON-OVERLAPPING** PREDICTIONS FOR HPG's
+  OCTOBER OFFER — A DISCRIMINATING TEST THAT DID NOT EXIST TWO HOURS AGO (lane 5).**
+
+  ✅ **THE NEW PRINT: INDIAN HRC SAE1006, DELIVERED VIETNAM, AUGUST 2026 = US$505–510/t CFR** *(traders at
+  505–510; one mill reference steady at 510).* **The series is now three dated points:**
+  | early JUN | early JUL | **AUG** |
+  |---|---|---|
+  | **US$576** | **US$535** | **US$505–510** |
+  | | *HPG set September here* | **−US$27.5 / −5.14% further** |
+
+  🚨🚨 **AND THE OTHER LEG HAS NOT MOVED: IRON ORE IS US$95.17 (14-Aug) → US$95.35 (18-Aug), +0.19% — FLAT.**
+  ***So between HPG setting 535 and today, the IMPORT anchor fell 5.14% and the COST anchor moved 0.19%. The
+  two hypotheses have separated.***
+
+  🎯🎯🎯 **THE TEST, PRE-REGISTERED WITH BANDS AND NO PROBABILITIES. HPG's OCTOBER HRC OFFER — normally
+  announced in early September:**
+  | outcome | band | reads as |
+  |---|---|---|
+  | **IMPORT-PARITY** | **US$500–515 CFR HCMC** | HPG tracks India again, as it did in September |
+  | **PARTIAL pass-through** | **US$515–528** | the anchor binds, but not fully |
+  | **COST / ORE-ANCHORED** | **US$528–542** | roughly unchanged at 535, because no input moved |
+  ✅ ***THE BANDS DO NOT OVERLAP, AND THAT — NOT ANY WEIGHTING — IS WHERE THE DISCRIMINATING POWER LIVES.***
+  ⚠⚠ **NO PROBABILITIES ARE ATTACHED, DELIBERATELY.** *Branch weights are the same kind of judgment as `probs`
+  and `exit_pe` and are human-only under charter §4.* **And this file's calibration log has criticised my own
+  forecasts for the opposite failure — *"I wrote 'weak' with no band, no threshold, no number, so the
+  magnitude cannot be scored."* This one has bands and thresholds and no weights, which is the half I am
+  permitted to supply.**
+  ✅ **WHAT WOULD INVALIDATE THE TEST RATHER THAN RESOLVE IT, STATED IN ADVANCE:** *a large ore move before the
+  October offer is set; a change in AD20's coverage of India; or HPG announcing October on a basis other than
+  the CFR HCMC volume price.* **Each is checkable at the time, and naming them now stops a spoiled test being
+  scored as a result.**
+
+  ✅ **THIS RESOLVES THE SHAPE OF WEDNESDAY'S QUESTION INTO SOMETHING SCOREABLE.** *At 10:54 Wednesday I asked
+  why HPG cut 7.76% into a protected market and listed four readings. At 07:54 today (b) was falsified when
+  Formosa matched the cut. At 08:54 the answer turned out to be import parity — HPG's 535 IS the July Indian
+  price.* ***Now the same mechanism generates a forward prediction instead of a backward explanation, and the
+  two remaining candidates disagree by more than US$20 a tonne.***
+
+  ⚠ **AND THE BRIDGE CONNECTION, STATED CAREFULLY: `_q2_core_npat_per_tonne_m` and the three-blade reading use
+  HPG's OWN offer as the output leg.** *If October comes in at import parity near US$505, that leg falls
+  ~5.6% from 535 — worth ≈₫0.63m/t on the bridge's ₫0.021m-per-US$1 gearing, against a standing reading of
+  ₫0.8632m/t.* 🚨 **That is a large enough move to matter, and it is exactly why the test is worth
+  pre-registering rather than waiting to explain.** ⚠ **NOT modelled: the HRC leg, ore and coal are all §4
+  human-only, and no branch is being retuned on a forecast.**
+
+  **`assumptions.json` UPDATED — `hpg.actuals` ONLY: the Indian June/July/August prices, the Indonesian July
+  price, Formosa's September offer, and the reasoning key. NO FIELD FEEDING `run.py` OR `decide.py` IS
+  TOUCHED, and `DECISION-BRIEF.md` is byte-identical (`db994d19`), which is the check that proves it. NO
+  CONFIDENCE MOVED.**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG's spread criterion — the standing ₫0.8632m/t reading
+  uses HPG's actual September 535 and is unchanged; a forecast is not a print. Trigger 4 REMAINS FIRED on VPX.
+  Trigger 5 REMAINS FIRED — **FRI 21-AUG = SESSION 1, TOMORROW** (FTSE GEIS list · KDH insider window closes);
+  Mon 24-Aug = session 2 (CORE preliminary). Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **PROPOSED FOR THE FORECAST REGISTER AS #12** *(the register runs to #11)*: **"HPG's October HRC offer
+  lands in US$500–515 (import parity) vs US$528–542 (cost-anchored), resolving early September."** *Assigning
+  it an ID and weights is a human act; the test itself is recorded here and in `hpg.actuals` so it cannot
+  decay — which is the 02:54 finding applied to my own new forecast.*
+  [Vietstock/Investing — giá thép HRC của Trung Quốc tiếp tục giảm, giá thép của Việt Nam sẽ ra sao](https://vn.investing.com/news/commodities-news/gia-thep-hrc-cua-trung-quoc-tiep-tuc-giam-gia-thep-cua-viet-nam-se-ra-sao-2681241) · [Dân Việt — thép HRC nội địa lao dốc để cạnh tranh hàng giá rẻ từ Ấn Độ, Indonesia](https://danviet.vn/thep-hrc-noi-dia-lao-doc-de-canh-tranh-hang-gia-re-tu-an-do-indonesia-d1442900.html) · [Tuổi Trẻ — thép HRC trong nước giảm giá trước sức ép hàng nhập khẩu](https://tuoitre.vn/thep-hrc-trong-nuoc-giam-gia-truoc-suc-ep-hang-nhap-khau-100260713110833816.htm) · [Doanh Nhân VN — rào cản phòng vệ và cục diện phân hóa mới của thị trường HRC](https://baomoi.com/rao-can-phong-ve-va-cuc-dien-phan-hoa-moi-cua-thi-truong-hrc-c55829822.epi) · [Satthep.net — bản tin thế giới 03/8/2026](https://www.satthep.net/ban-tin-the-gioi-ngay-03-8-2026-html.html)
+
 - **🎯🎯 09:54 ICT THU 20-AUG · DXY FELL **0.88% IN ONE SESSION** AND THE CENTRAL RATE MOVED **0.031%** — A
   RATIO OF 28 TO 1. THE FED→DOLLAR→VND LINK WAS NEVER BROKEN; IT WAS NEVER MECHANICAL, BECAUSE THE FIXING IS A
   POLICY INSTRUMENT AND NOT A MARKET PRICE (lane 1).**
