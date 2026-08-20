@@ -136,6 +136,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯🎯 03:54 ICT FRI 21-AUG · THE FILE AUDITED ITS OWN STALE ABSENCE-CLAIMS ON 06-AUG, NAMED
+  THREE CONTRADICTIONS, PROPOSED A FIX — AND **ALL THREE ARE STILL LIVE FIFTEEN DAYS LATER**, EXACTLY AS THAT
+  AUDIT PREDICTED. So the proposal is now a TOOL instead of a proposal (process).**
+
+  🚨 **WHAT THE 06-AUG AUDIT FOUND, IN ITS OWN TERMS:** *129 claims of absence across
+  `assumptions.json` — "still unknown", "is not established", "not on file", "never recorded". **Most are
+  legitimate: they are the file's refusals to infer, which is its best habit.** Several were false — the
+  resolving number was already in the file, in one case **eight fields away**.* **Three failure modes, in
+  descending order of danger: (1) a claim in block A about data in block B; (2) a prose claim contradicted by
+  a plain NUMERIC FIELD in the same block — *"the convention assumes prose is superseded by prose; it has no
+  mechanism at all for a FIELD superseding prose"*; (3) a derived ratio outliving its inputs.**
+  ⚠ *It proposed a cheap rule, recorded that conventions are §4 human-only, and changed nothing.*
+
+  🚨🚨 **THE RE-TEST, RUN THIS HOUR. ALL THREE SURVIVED:**
+  | claim, still live | resolved by | resolved on |
+  |---|---|---|
+  | *"VPB's provisioning line is NOT ESTABLISHED"* — in **`tcb.model`** AND in **`vpb.actuals` itself** | **`vpb.actuals.h1_provisions_bn` = 15,579** *(+10 related fields)* | **02-Aug 21:53** |
+  | *"whether this is the same venture is NOT ESTABLISHED"* (VPB's ₫1,100bn / CAEX) | the **VPX** block: CAEX is **11/39/50, sums to 100**, so no room for a separate VPB stake — and 11% of ₫10,000bn **is** ₫1,100bn | **05-Aug 20:53** |
+  | *"2.49× P/B is NOT REPRODUCIBLE; the reproducible figure is **2.075×**"* | **2.49× is exact** on the verified 2,773,896,000 count; 2.075× used the **stale listing-date count** 2,311,308,021 | **04-Aug** |
+  ⚠⚠ ***Two live claims about one ratio, 20% apart, on the name the file calls the priciest in the book.***
+
+  ✅✅ **`research/tools/absence_audit.py` — NEW. The 06-Aug proposal implemented as DATA rather than as a
+  convention: each entry pairs an absence claim with the FIELD PATH that resolves it, and the tool reports
+  any that are still live.** *It changes no convention and edits no prose — which is what kept it inside §4.*
+  🎯 **It already excludes the two legitimate cases correctly: a claim quoted INSIDE the `_meta` audit
+  note, and a claim quoted inside its own `_WITHDRAWN_` note. Quoting a claim in order to correct it is the
+  convention working, not a contradiction, and a detector that cannot tell those apart would be noise.**
+  🎯🎯 ***THE POINT WORTH KEEPING: THE APPEND-ONLY CONVENTION IS NOT THE BUG. A file that never
+  overwrites is the only reason the 06-Aug audit was possible at all. The cost of never overwriting is that
+  stale claims accumulate — and the answer to that cost is a DETECTOR, not a deletion.*** *Same move as
+  `gate_audit.py` two nights ago, and the third time this week the answer to a recurring manual check has
+  been a script.*
+  ⚠ **LIMIT STATED IN THE TOOL: the list is CURATED — 3 of the 129. A clean run means only that the LISTED
+  claims are resolved.**
+
+  🎯 **AND A CONCRETE CONFIRMATION OF 00:54's TIMEZONE READING, AVAILABLE ONLY AT THIS HOUR:**
+  *`date` says that at **03:54 ICT Fri 21-Aug** it is **21:54 BST THURSDAY 20-AUG** in London.*
+  🚨 ***IT IS NOT YET 21-AUGUST WHERE FTSE RUSSELL PUBLISHES. A list "dated 21-Aug" cannot exist yet,
+  and by the time London's 21-Aug business day is under way Vietnam's Friday session will be over at 08:45
+  BST.*** **The 00:54 argument is not merely convention-based; for the next several hours it is arithmetic.**
+
+  ✅ **LANES CHECKED:** 4 (index — above; FTSE list **cannot** have landed, and this is now demonstrated
+  rather than expected), 3 · 1 · 2 (nil at this hour — Vietnam pre-open, US closed, London closed).
+
+  🚨 **NO NEW TRIGGER FIRES THIS HOUR. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX.
+  Trigger 5 REMAINS FIRED — today is SESSION 1: KDH's insider-buy window CLOSES today; the FTSE list most
+  likely belongs to MON 24-AUG alongside the CORE preliminary; Jackson Hole/Warsh enters the window today on
+  the announcement reading. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED THIS HOUR — the three contradictions are prose in
+  dated entries and this file does not overwrite them; they are now DETECTED instead.
+  `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+
 - **🚨🎯🎯 02:54 ICT FRI 21-AUG · **TRIGGER 4 FIRES ON TCX**, AND WITH IT **EVERY ONE OF THE
   EIGHT TRAILING-EARNINGS FIELDS IS NOW EITHER VERIFIED OR QUANTIFIED.** The file named the missing input
   itself — *"H1/2025 not established"* — and it cost one search (lanes 3, 6).**
