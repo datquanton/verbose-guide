@@ -111,7 +111,75 @@ def main():
     # condition is an EVENT ("a policy-rate move", "an issuer filing naming a
     # date") carry no date and cannot be audited this way. Absence of a hit is
     # not evidence the row is current.
-    print("\nnote: event-conditioned rows carry no date and are not audited here.")
+    print("\nnote: event-conditioned rows carry no date and are not audited above.")
+
+    stale = value_drift()
+    if stale:
+        print(f"\nVALUE DRIFT ({len(stale)}) -- the row and the log disagree:")
+        for label, line_no, in_row, in_log in stale:
+            print(f"  line {line_no}: {label}")
+            print(f"      row carries: {in_row}")
+            print(f"      log's newest: {in_log}")
+    else:
+        print("\nvalue drift: none on the watched quantities")
+    print(f"note: value drift covers only the {len(WATCH)} curated quantities below, not the whole table.")
+
+
+# --- value drift -------------------------------------------------------------
+#
+# The date audit above misses the more common failure: a row whose condition is
+# an EVENT, satisfied by an ordinary entry that was never written back. Row 33
+# asked for "an assessment dated August or later"; the file got one on 03-Aug
+# and the row still carried the 24-Jul figure seventeen days later.
+#
+# There is no robust general parser for this, so this is a CURATED watchlist:
+# (label, gate line, regex). The regex is applied to the gate row and to the
+# whole log; the log's first match is its newest, since entries are newest-first.
+# A quantity not listed here is not checked. Keep this list SHORT and each
+# pattern tightly bound to ONE quantity: an earlier entry here matched any
+# share count rather than MBB's specifically, and reported KDH's 1,122.1m as
+# MBB drift. A check that silently watches the wrong quantity is worse than
+# no check, because it reads as coverage.
+
+WATCH = [
+    ("China HRC export, SS400 3mm FOB Tianjin", 33, r"US\$(\d{3})/t FOB"),
+    ("HPG domestic rebar, CB240 / D10 CB300", 53, r"₫\*?\*?(1[45],\d{3})/kg"),
+    ("HPG HRC volume offer, CFR HCMC", 25, r"\*\*(\d{3}) CFR HCMC\*\*"),
+]
+
+
+STRUCK_RE = re.compile(r"~~.*?~~", re.S)
+
+
+def strip_struck(text):
+    """Drop ~~struck~~ spans -- this file corrects by striking, not deleting."""
+    return STRUCK_RE.sub("", text)
+
+
+def value_drift():
+    lines = io.open(LOG, encoding="utf-8").read().split("\n")
+    # The gate table sits ABOVE the entries, so scanning the whole file would
+    # match the gate row itself first and report "no drift" on a stale row --
+    # which is exactly what this did on its first run, against row 33, whose
+    # staleness was already known. Entries are newest-first BELOW the table.
+    entries = "\n".join(lines[GATE_SCAN_LINES:])
+    out = []
+    for label, line_no, pattern in WATCH:
+        if line_no > len(lines):
+            continue
+        # This file corrects by striking through rather than deleting, so a
+        # ~~struck~~ value is history, not the row's current claim. Leaving it in
+        # made this report flag row 33 as stale immediately after it was fixed.
+        in_row = re.search(pattern, strip_struck(lines[line_no - 1]))
+        in_log = re.search(pattern, entries)
+        if not in_row:
+            # Silence from a checker must not read as "clean": the pattern not
+            # matching the row at all is a different state from the values
+            # agreeing, and it hid a stale row 33 for one run.
+            out.append((label, line_no, "PATTERN DID NOT MATCH THE ROW", in_log.group(1) if in_log else "-"))
+        elif in_log and in_row.group(1) != in_log.group(1):
+            out.append((label, line_no, in_row.group(1), in_log.group(1)))
+    return out
 
 
 if __name__ == "__main__":
