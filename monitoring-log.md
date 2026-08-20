@@ -51,7 +51,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | **🚨 VIETNAM'S OWN HRC DUTY ON CHINA — 1917/QĐ-BCT, 27.83%, **WIDE-FORMAT 1,880–2,300mm ONLY**, IN FORCE 12-AUG-2026 TO JULY 2030** ⚠⚠ **SCOPE CORRECTED 19-Aug 18:54 AND THE 21–26pp SWING IS WITHDRAWN — 24 HS codes 7208.25.00–7226.91.90; EXEMPT: carbon >0.30% and sheet ≥10mm; MoIT is accepting exemption applications. THE FILE'S BENCHMARK IS MYSTEEL SS400 **3mm**, WHICH IS NOT IN SCOPE, so multiplying it by 1.2783 was a product substitution. Direction survives (1917 replaced the April-2026 temporary measure with no gap and, with the standard-width AD measure, closes the whole imported HRC line); MAGNITUDE does not. ⚠ MISSING AND ESCALATED: the AD rate on STANDARD-WIDTH Chinese HRC — without it no landed comparison is possible.** *(added 19-Aug 10:54; `1917`, `27.83`, `chống lẩn tránh` all returned ZERO hits)* | 🚨 **ANTI-CIRCUMVENTION — a DIFFERENT legal basis from AD612 (anti-dumping, gate row 82, final outer bound 27-Oct-2026), so it does NOT by itself close AD612's "unprotected interval" question and is not claimed to.** 🚨 **IT INVERTS THE 16:54 MON FINDING: landed Chinese HRC US$495–510 × 1.2783 = US$632.8–651.9 against HPG's US$535 September offer ⇒ HPG moves from a +5.3–8.5% PREMIUM to a −15.5% to −17.9% DISCOUNT — a 21–26pp swing.** ⚠ Duty base is CIF; the 495–510 is FOB+freight, so the direction is firm and the magnitude approximate. ✅ **HPG domestic HRC share 43.4% (Jun-2026); crude capacity 16mt/yr; DQ2 complete and optimising; rail plant 700kt >50% done, first product Q1/2027.** 🎯 **OPEN PUZZLE, PRE-REGISTERED: HPG CUT its September offer 7.76% in the same window — test (b) share-buying vs (c) ore pass-through against the Q3 filing and HPG's October offer** | **an October or later HPG offer, the AD612 final (~27-Oct), or a change to 1917's scope or rate** — not a re-run |
 
 | **HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)** *(added 15-Aug 14:54 — third topic in two hours to cost a search on covered ground)* | **On file with its unresolved basis conflict fully written up:** ₫**15,120/kg** for BOTH CB240 coil and D10 CB300 at 01-Aug against a market range ₫14,440–15,150 (top of market, 95.8th pct) — **carrying NO STATED BASIS** — versus ₫**14,920** CB240 / ₫**14,210** D10 CB300, **explicitly EX-VAT, explicitly NORTHERN market**, after a **+₫100/kg** rise from 27-Jul. ⚠ **The *"rebar ~5% above HRC"* reading HOLDS at 15,120, WEAKENS at 14,920 and REVERSES at 14,210 — do not pick one.** The ₫15,120 ≈ **US$575/t** at FX 26,300 conversion is also on file. **T5 throughout** | **a Hòa Phát price announcement carrying an EXPLICIT basis** (VAT-inclusive or not, region named), which is the only thing that resolves it — **not another price table** |
-| **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | ⚠ **RESTATED 20-Aug 03:54 — THE TEST NEEDS A READING *DATED 19-AUG OR LATER*, NOT MERELY A LATER LOOK. On 20-Aug the pair came back identical but labelled 18/8 — the same snapshot returned twice, which resolves nothing.** If both ₫15,120 and ₫14,440–15,150 repeat ON A LATER DATE ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED and this row closes. 🎯 **PARTIAL SUPPORT ALREADY, from a column I was not testing: the 17-Aug and 18-Aug editions both describe DCE ore falling from the SAME prior level of ¥725.5 (to ¥721 "−¥4.5" and to ¥721.5 "−0.55%").** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
+| **⚠⚠ THE "GIÁ THÉP HÔM NAY" TABLE MAY BE A STATIC PAYLOAD UNDER A ROLLING DATE — PRE-REGISTERED TEST OPEN** *(added 19-Aug 02:54)* | 🚨 **At 01-AUG and again at 18-AUG the SAME source gives HPG ₫15,120/kg for BOTH CB240 and D10 CB300 AND the SAME market range ₫14,440–15,150.** *A mill holding its own list price 17 days is ordinary; a ten-brand min-and-max reproducing to the dong is not.* **DISCRIMINATOR ALREADY ON FILE: over an overlapping window the OTHER series MOVED — ₫14,920/₫14,210 ex-VAT northern, "after a +₫100/kg rise from 27-Jul".** ⚠ **NOT ASSERTED — genuine list-price stickiness is a live competing explanation.** ⚠⚠ **CONTAMINATION IS NOT SELECTIVE: Việt Đức ₫14,750/kg (HPG +2.51% above it, 18-Aug) comes from the same table and is recorded CONDITIONALLY — do not use it until this resolves** | ⚠ **RESTATED 20-Aug 03:54 — THE TEST NEEDS A READING *DATED 19-AUG OR LATER*, NOT MERELY A LATER LOOK. On 20-Aug the pair came back identical but labelled 18/8 — the same snapshot returned twice, which resolves nothing.** If both ₫15,120 and ₫14,440–15,150 repeat ON A LATER DATE ⇒ static-table reading supported. If EITHER moves ⇒ FALSIFIED and this row closes. 🚨🎯 **TEST MET 20-Aug 17:54 — SUPPORTED, AND THE ROW HARDENS RATHER THAN CLOSES. A genuine 20-Aug edition (`…146797`, distinct from the 18-Aug `…146597` and 19-Aug `…146704`) returned ₫15,120 for BOTH grades, the range ₫14,440–15,150, AND Việt Đức ₫14,750 — all three IDENTICAL to 01-Aug, NEITHER falsifier moved. 🎯 THE DISCRIMINATOR IS INTERNAL TO THE ARTICLE: the SAME page's futures column MOVED and reconciled — DCE Sep ore ¥721 × 1.0104 = ¥728.5 exactly, Sep rebar ¥2,995 +¥12. One column live, the other frozen — which removes the cached-page explanation and leaves the DOMESTIC TABLE as the frozen component. ⇒ ₫15,120, the range, ₫14,750 and the +2.51% premium STAY UNUSABLE; "rebar ~5% above HRC" now rests on a value that is vintage-conflicted as well as basis-conflicted.** 🎯 **PARTIAL SUPPORT ALREADY, from a column I was not testing: the 17-Aug and 18-Aug editions both describe DCE ore falling from the SAME prior level of ¥725.5 (to ¥721 "−¥4.5" and to ¥721.5 "−0.55%").** The RANGE is the better test — a mill can hold its own price on purpose; a distribution cannot hold itself |
 **Date gates — do NOT search these before their date** (per charter §6):
 
 | Item | Not before | Lane |
@@ -133,6 +133,101 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **🎯🎯🎯 17:54 ICT THU 20-AUG · THE PRE-REGISTERED STATIC-TABLE TEST HAS ITS DISCRIMINATING
+  READING, AND IT **SUPPORTS THE STATIC-PAYLOAD SIDE** — because the SAME ARTICLE'S international column
+  MOVED while its domestic table did not move by one dong (lanes 5, 2).**
+
+  🚨🚨 **THE TEST, AS IT WAS WRITTEN AT 02:54 WED AND RESTATED AT 03:54 TODAY:** *"the test needs a
+  reading **DATED 19-AUG OR LATER**, not merely a later look… If both ₫15,120 and ₫14,440–15,150 repeat ON A
+  LATER DATE ⇒ static-table reading supported. **If EITHER moves ⇒ FALSIFIED and this row closes.**"*
+  ✅ **TODAY'S EDITION QUALIFIES: a distinct 20-Aug article (`…146797`), separate from the 18-Aug (`…146597`)
+  and 19-Aug (`…146704`) editions.** *The 03:54 objection — that the identical pair had come back under an
+  **18/8** label, which resolves nothing — does not apply to it.*
+  | domestic figure | 01-Aug | 18-Aug | **20-Aug** | moved? |
+  |---|---|---|---|---|
+  | HPG CB240 **and** D10 CB300 | ₫15,120/kg | ₫15,120/kg | **₫15,120/kg** | 🚨 **no** |
+  | ten-brand market range | ₫14,440–15,150 | ₫14,440–15,150 | **₫14,440–15,150** | 🚨 **no** |
+  | Việt Đức CB240 / D10 CB300 | — | ₫14,750/kg | **₫14,750/kg** | 🚨 **no** |
+  ⚠ **NEITHER FALSIFIER MOVED. On the row's own stated condition the static-table reading is SUPPORTED — the
+  row does not close, it HARDENS.**
+
+  🎯🎯 **AND THE DISCRIMINATOR IS INTERNAL TO THE ARTICLE, WHICH IS WHY IT IS WORTH MORE THAN A THIRD
+  REPEAT WOULD BE.** *The same 20-Aug page's futures column MOVED, and moved coherently:*
+  **DCE September iron ore ¥721 → ¥728.5, stated +1.04% — and ¥721 × 1.0104 = ¥728.5 EXACTLY.** ✅
+  *(¥721 is the 17-Aug edition's close; the 18-Aug edition gave ¥721.5 for the same session — a 0.5-yuan
+  disagreement this file already recorded, and it does not affect the reconciliation.)*
+  Alongside it: **DCE Sep rebar ¥2,995, +¥12, +0.40%; HRC +0.4%; wire −0.24%; stainless flat.**
+  ⚠⚠ ***So the page is NOT wholly stale. One column is live and the other is frozen — which removes the
+  only innocent explanation that covered the whole artefact at once (a cached page) and leaves the domestic
+  table itself as the frozen component.*** **The range remains the decisive half: a mill may hold its own
+  list price for 19 days on purpose; a TEN-BRAND MIN AND MAX cannot hold itself to the dong across three
+  editions while the futures beside it move daily.**
+  🚨 **CONSEQUENCES, UNCHANGED IN DIRECTION AND NOW FIRMER:** ₫15,120, ₫14,440–15,150 and Việt Đức's
+  ₫14,750 — **and therefore the ₫370/kg (+2.51%) "HPG above a named competitor" premium — REMAIN UNUSABLE.**
+  ⚠ **The *"rebar ~5% above HRC"* reading rests on ₫15,120, which is now the value most likely to be STALE
+  rather than sticky. It was already flagged as basis-conflicted; it is now vintage-conflicted as well.**
+
+  🎯🎯 **A NEW CATALOGUE MEMBER, AND THIS SWEEP IS ITS CLEANEST INSTANCE: *FRESHNESS IS PER-FIELD,
+  NOT PER-ARTICLE.*** *One article carried THREE DIFFERENT VINTAGES at once:*
+  | field | vintage | evidence |
+  |---|---|---|
+  | domestic price table | **19 days stale** | identical to 01-Aug to the dong |
+  | DCE futures column | **fresh** | ¥721 × 1.0104 = ¥728.5, reconciles to today |
+  | the CAUSAL NARRATIVE | 🚨 **uncertain — maps to 8–9 AUG** | *"BHP labour negotiations"* |
+  ⚠⚠ ***I checked the attributed cause and it is a 8–9 AUGUST event: a 24-hour ship-loading ban Sat 8-Aug
+  and a 24-hour stoppage from 05:30 AWST Sun 9-Aug at Port Hedland Bulk Export Terminal, plus a concurrent
+  12-hour high-voltage stoppage.*** **Twelve days before this article ran it as today's reason.** *The
+  underlying dispute IS live — a four-year enterprise agreement covering ~450 maritime employees, under
+  negotiation since October 2025 — so a fresh late-August action is possible; **it is simply not evidenced,
+  and the article does not claim one.*** ⚠ **The number moved; the reason may be recycled. Adopting a fresh
+  number together with the sentence attached to it imports the sentence's vintage without noticing.**
+
+  🚨 **THE "US$105.68/t" ORE FIGURE IS REJECTED, ON TWO INDEPENDENT GROUNDS.** *The article attaches it
+  to **¥712, the JANUARY-2027 contract, +0.78%.***
+  | ground | test | |
+  |---|---|---|
+  | **tenor** | Jan-2027 DCE ≠ the **September SGX** series this file tracks | 🚨 tenor substitution |
+  | **arithmetic** | ¥712 ÷ US$105.68 ⇒ **CNY/USD 6.737** — not a 2026 rate | 🚨 impossible |
+  | **cross-check** | vs on-file SGX **US$95.35 (18-Aug)** it is **+10.8% in two sessions**, while the SAME article reports **+1.04%** | 🚨 self-contradicting |
+  ✅ **THE ORE LEG THEREFORE HAS NO NEW DATED USD PRINT. The standing anchor remains US$95.35 (18-Aug).**
+  ⚠ *Derived only, explicitly not a print: if SGX September tracked the DCE +1.04%, US$95.35 → ~US$96.34,
+  worth **−₫0.034m/t** on the file's ₫0.34m-per-US$10 gearing — **noise**, and the three-blade reading stays
+  **₫0.8632m/t** (ore 95.17 · coal 225 · HRC 535). **DCE is not SGX; every ore and coal field is §4
+  human-only and NONE was written.***
+  ✅ **CORROBORATION WORTH KEEPING: ore had *"already declined to a one-year low"* BEFORE the strike threat,
+  and the strike *"placed a temporary floor"* under it — which lines up with this file's own 31-Jul
+  13-month-low and 04-Aug one-year-low records, from an unrelated source.** *Scale of the threatened
+  disruption, for the record: **~800kt/day** affected (Barrenjoey) against **~US$80m/day** of exports through
+  the world's largest iron-ore port.*
+
+  ⚠🎯 **A LAPSE OF MY OWN, RECORDED: I SPENT A SEARCH ON COVERED GROUND.** *I searched the CORE
+  circumvention preliminary without reading **gate row 70** first, which already holds the initiation date
+  (25-Mar, 91 FR 14530), the petition date (02-Feb), the direction, the country-wide scope with no Vietnamese
+  producer named, the underlying **AD 87.07–162.96% / CVD 0.30–257.83%** rates, the parallel Chinese-substrate
+  inquiry (FR 2026-05807), the statutory outer bound, **and the exact 150-day arithmetic.*** **That is what
+  the COVERED block exists to prevent, and it did not prevent it, because I did not open it.**
+  ✅ *Salvage, and it is real: the row's arithmetic — **25-Mar + 150 days = Sat 22-Aug, rolling to MON
+  24-AUG** — is now **independently corroborated** from trade.gov and Federal Register listings, which
+  matters because `federalregister.gov` is gateway-blocked and this lane otherwise runs on press alone.*
+  ⚠ **"No later than 150 days" is a CEILING, not a date. 24-Aug remains an intention, not a fixture.**
+
+  ✅ **LANES CHECKED:** 5 (steel — above; the live variable), 2 (US trade — corroborated, nothing new),
+  3 (holdings — HPG only; no Q2/FY filing, no corporate-action date), 6 (competitors/street — nil; the HPG
+  returns were the Q1 result and the FY26 AGM plan, both long on file: **Q1 NPAT ₫9,056bn +170%, revenue
+  ₫53,300bn +40%; FY26 plan revenue ₫210,000bn +32.6%, NPAT ₫22,000bn +41.8%**).
+
+  🚨 **NO NEW TRIGGER FIRES. ⚠ Trigger 4 considered on HPG and DECLINED WITH REASON: the static-table
+  finding HARDENS a contamination this file has carried since 19-Aug rather than changing an evidence status,
+  ₫15,120 is contextual and feeds NEITHER `run.py` NOR `decide.py`, and a reliability downgrade on an input
+  already marked conditional is not a new status. Trigger 1 negative — no new dated ore, coal or HRC print.
+  Trigger 5 REMAINS FIRED — FRI 21-AUG IS SESSION 1 AND IS TOMORROW: FTSE GEIS official constituent list
+  (gate row 75's fence expires) and KDH's insider-buy window CLOSES (gate row 62's fence expires). THAT IS
+  TWO ITEMS, NOT THREE — FORECAST #7 RESOLVES ~21-OCT-2026, NOT TOMORROW. Mon 24-Aug = session 2 (CORE
+  preliminary). Trigger 4 REMAINS FIRED on VPX. Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED — nothing adopted feeds either engine, and
+  `DECISION-BRIEF.md` is byte-identical (`db994d19`), which is the check that proves it.**
+  [DNHN — giá thép hôm nay 20/8/2026: quặng sắt phục hồi trước nguy cơ gián đoạn nguồn cung](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-2082026-quang-sat-phuc-hoi-truoc-nguy-co-gian-doan-nguon-cung-146797.html) · [DNHN — giá thép hôm nay 18/8/2026: quặng sắt sát đáy 14 tháng](https://doanhnghiephoinhap.vn/gia-thep-hom-nay-1882026-quang-sat-sat-day-14-thang-vi-tin-dung-trung-quoc-giam-sau-146597.html) · [Mining Weekly — BHP Port Hedland iron-ore workers to strike August 8 and 9 if no pay deal reached](https://www.miningweekly.com/article/bhp-port-hedland-iron-ore-workers-to-strike-august-8-and-9-if-no-pay-deal-reached-2026-07-31) · [Argus — Australia's BHP faces iron ore port strike in August](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2861181-australia-s-bhp-faces-iron-ore-port-strike-in-august) · [Federal Register — CORE from Vietnam: initiation of circumvention inquiry (91 FR 14530, 25-Mar-2026)](https://www.federalregister.gov/documents/2026/03/25/2026-05808/certain-corrosion-resistant-steel-products-from-the-socialist-republic-of-vietnam-initiation-of) · [trade.gov — preliminary determinations, CORE AD investigations](https://www.trade.gov/preliminary-determinations-antidumping-duty-investigations-corrosion-resistant-steel-products)
 
 - **🎯🎯 16:54 ICT THU 20-AUG · THREE FIGURES ARRIVED TODAY UNDER TODAY'S DATE. **ONE WAS TODAY'S.**
   The same arithmetic bridge — *value − change = prior close, matched against a DATED on-file anchor* —
