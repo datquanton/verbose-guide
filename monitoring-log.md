@@ -62,7 +62,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | US rebar — **Commerce finals done 28-Jul, published 30-Jul** (FR 2026-15438 AD + 2026-15437 CVD; Vietnam 128.53–136.57% vs Bulgaria 53.27%, Egypt 34.20–52.73%). **ITC final injury vote CONFIRMED mid-to-late Sep**, within 45 days of 30-Jul — an "August" figure circulating is a **stale pre-determination projection, do not treat it as a correction**. Orders issue only on an affirmative vote. **The ITC has already voted affirmative on ALGERIA in the same petition** | 2 |
 | TCX VN30 entry | **Effective 2026-08-03, but the ETF REBALANCE COMPLETED 31-Jul.** The flow date and the effective date are different — index funds trade the session *before* an effective date. **Catalyst landed; trigger 5 resolved** | 4 |
 | KDH insider-buy window closes | 2026-08-21 | 7 |
-| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB: ⚠ CORRECTED 08-Aug 15:53 — THE CASH LEG IS DONE, NOT PENDING.** 7% cash (₫700/sh, ₫4,960bn) **went EX 19-May-2026, record 20-May, PAID 10-Jun-2026**. **Only the 60% bonus (4,251.7m) → 11,337.9m remains, and it is still UNDATED.** ⚠⚠ **`valuation.TCB.cash_yield` = 0.024 still counts that paid dividend as forward return — +2.4pp of a raw E[r] of +3.98%; correct raw is +1.58%. §4 human-only, escalated not fixed.** **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** **No ex-date established for any tranche — AND THAT IS ONE BLOCKED HOST, NOT FOUR MISSES: `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
+| **⚠ FOUR PENDING SHARE-COUNT INCREASES — TCB +60.0%, VPB +33.9%, MBB +27.5%, KDH +11.0%** | **CORRECTED 04-Aug 13:53: 71.8% of the book, not the 51.5% claimed at 11:53.** **TCB: ⚠ CORRECTED 08-Aug 15:53 — THE CASH LEG IS DONE, NOT PENDING.** 7% cash (₫700/sh, ₫4,960bn) **went EX 19-May-2026, record 20-May, PAID 10-Jun-2026**. **Only the 60% bonus (4,251.7m) → 11,337.9m remains, and it is still UNDATED.** ⚠⚠ **`valuation.TCB.cash_yield` = 0.024 still counts that paid dividend as forward return — +2.4pp of a raw E[r] of +3.98%; correct raw is +1.58%. §4 human-only, escalated not fixed.** **VPB:** 26% stock dividend (2,062.8m) + **placement >624m** → 10,620.7m. **MBB:** 15% stock dividend + 10% rights at ₫10,000 + **placement up to 200m** → 10,268.75m; its AGM's *25% dividend* = **15% stock + 10% cash**. **KDH:** 10% STOCK dividend (112.21m) + **10.86m ESOP at ₫12,000** → 1,245.13m — *its AGM ruled out new CAPITAL RAISING, which is not the same as no share-count change.* **HPG is clean — its 10% is already in the count.** 🚨 **REPAIRED IN PLACE 20-Aug 18:54 — THE FACTUAL CLAIM BELOW WAS FALSE FOR TEN DAYS AND CONTRADICTED BY GATE ROW 59 IN THIS SAME TABLE.** ~~"No ex-date established for any tranche"~~ — **MBB's ARE ESTABLISHED and have been since 09-Aug: LAST CUM Mon 10-Aug · EX Tue 11-Aug · RECORD Wed 12-Aug, covering BOTH legs; rights transferable 18–26 Aug, subscription/payment to 07-Sep. SEE ROW 59, WHICH SUPERSEDES THIS ROW FOR MBB.** *Row 65 was written 04-Aug and never re-read after row 59 landed on 09-Aug. **A gate row that is stale is worse than an ordinary stale entry, because the table is the thing future sweeps are told to trust instead of re-deriving.*** ✅ **CORRECTED SCOPE: THREE tranches remain undated — TCB's 60% bonus, VPB's two — and `vsd.vn`, the authoritative Vietnamese record-date source, is gateway-blocked (04-Aug 17:53). ⚠ THE INSTRUCTION STANDS AND IS UNCHANGED: DO NOT SPEND DEDICATED SEARCHES ON EX-DATES — it was correct on 04-Aug and it is correct now; only its justification was wrong.** **One-legged refresh fires trigger 3 on all four: TCB −39.0pp, MBB −29.5pp, VPB −21.8pp, KDH −10.2pp** | 3, 7 |
 | **⚠ US initial jobless claims — 06-AUG, TOMORROW** | consensus **~202,000**, continuing ~1.79m. **First and partial test of the 21:53 pre-registration** (services employment 51.2 → 47.4 ⇒ a weak payroll print expected). *Claims are an early read, not a resolution.* | 1 |
 | **US July employment report** | **Friday 2026-08-07**, 08:30 ET. The other half of the catalyst pair named 02-Aug; ISM Manufacturing resolved 03-Aug at **55.6**, a four-year high with employment back in expansion. **Bears on the Fed, and the Fed is the FX side of the SBV constraint** — the support downgraded at 12:53 and partially restored at 21:53. **ISM Services RESOLVED 05-Aug 21:53: headline 54.1 (prev 54.0), PRICES PAID 70.3 (est 65.0, prev 67.7), EMPLOYMENT 47.4 (est 51.2, prev 51.2 — INTO CONTRACTION). Two halves point opposite ways; the inflation leg is corroborated out of sample against Manufacturing's 71.1, the labour leg is newly adverse. PRE-REGISTERED for Friday: a weak payroll print is the direction expected, as a TILT not a forecast** | 1 |
 | **⚠⚠ US JULY CPI — WED 12-AUG-2026, 08:30 ET. ADDED 09-Aug 18:54; the gate table had NO US row between 07-Aug and 24-Aug and "US CPI" returned ZERO hits repo-wide.** | **Two sessions out.** Baseline (June, also not previously on file): **headline −0.4% MoM SA, +3.5% YoY NSA; core unchanged MoM SA, +2.6% YoY NSA.** ⚠ **It resolves the chain the file reasons on:** FOMC held **3.50–3.75%** on 29-Jul **9–3 with three HIKE dissents**, which the file reads as keeping the dollar firm and VND under pressure — *"boxes SBV in on a second side."* ⚠ **And a tension the file does not have: ISM Services prices paid 70.3 (vs 65.0 est, from 67.7) and ISM Manufacturing prices 71.1 (vs 71.0 est, DOWN from 73.0) — both above 70 — against a JUNE CPI that printed SOFT. Survey prices-paid and realised CPI are different measures and they currently disagree; the file's "inflation leg corroborated out of sample" rests on the surveys.** *Note: 12-Aug is also MBB's record date — coincidence, not causation.* | 1 |
@@ -133,6 +133,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ---
 
 ## 2026-08-11
+
+- **⚠🚨 18:54 ICT THU 20-AUG · NO MARKET DEVELOPMENT FOUND. FOUR SEARCHES, ALL COVERED GROUND — AND
+  WHAT THEY TURNED UP INSTEAD IS THAT **TWO ROWS OF THE GATE TABLE CONTRADICT EACH OTHER**, with the WRONG
+  one being the row that issues an INSTRUCTION (lanes 1, 3, 7).**
+
+  🚨🚨 **THE CONTRADICTION, INSIDE THE CONTROL SURFACE.**
+  | row | added | says |
+  |---|---|---|
+  | **65** | 04-Aug | *"**No ex-date established for any tranche** — … `vsd.vn` … is gateway-blocked. **DO NOT SPEND DEDICATED SEARCHES ON EX-DATES.**"* |
+  | **59** | 09-Aug | *"**MBB — LAST CUM SESSION IS MONDAY 10-AUG.** Ex-rights **TUE 11-Aug**, record date **WED 12-Aug** … covers **both** legs … subscription to **07-Sep**."* |
+  ⚠⚠ ***Row 59 has superseded row 65 for MBB for TEN DAYS and row 65 was never re-read.*** **A stale gate row
+  is worse than a stale ordinary entry, because the table is precisely the thing future sweeps are told to
+  TRUST INSTEAD OF RE-DERIVING — it caches conclusions AND their errors, with more authority.**
+  ✅ **REPAIRED IN PLACE** *(the file's convention, per gate row 33 on 21:54 Wed and row 75 on 13:54 Thu)*:
+  **the false claim struck and pointed at row 59; scope corrected to THREE undated tranches — TCB's 60%
+  bonus and VPB's two — and the instruction LEFT STANDING.**
+
+  ⚠🎯 **AND I MUST SAY BOTH HALVES OF MY OWN LAPSE, BECAUSE ONLY ONE OF THEM FLATTERS ME.**
+  *(a) **The instruction was RIGHT and I violated it.** Row 65 says do not spend dedicated searches on
+  ex-dates. I spent two. They returned MBB's record date, the 805.5m rights at ₫10,000, the ₫8,055bn
+  proceeds, the 18-Aug→07-Sep window and charter capital >₫100,600bn — **every one of which this file
+  already held**, most of it in richer form.*
+  *(b) **The justification attached to that instruction was FALSE**, and a reader following the row would
+  conclude MBB's dates are unknown when they are known to the day.*
+  🚨 **SECOND COVERED-GROUND LAPSE IN TWO CONSECUTIVE SWEEPS, AND THE DIAGNOSIS IS SHARPER THAN LAST
+  HOUR'S.** *At 17:54 I did not open the COVERED block at all. At 18:54 I DID open it first — **and opened
+  the wrong rows**, addressing them by LINE NUMBER (62, 75) when the rows I needed were **59 and 65**.*
+  ***Checking the COVERED block is not the same as checking the RIGHT rows of it. I performed the habit and
+  did not get the benefit of it — which is the more dangerous failure of the two, because it feels like
+  compliance.***
+
+  ✅ **AND MY OWN DERIVATION REPRODUCED THE FILE'S, INDEPENDENTLY, WHICH IS THE ONE GENUINE POSITIVE.**
+  *Before re-reading, I worked the rights leg from the search return alone: cap ₫177,742bn + ₫8,055bn ⇒
+  k = 1.0453 ⇒ **E[r] +36.6% → +30.7%, −5.9pp, trigger 3 does NOT fire**; and the 15% stock leg is
+  **cap-neutral**.* **The file's 11-Aug entry has the same numbers to the decimal — `pe_ttm` 6.021×,
+  fully-diluted ₫18,453, −3.0pp shrunk, ranking untouched, and −5.9pp explicitly a CEILING assuming full
+  subscription** *(at the file's one measured Vietnamese completion rate, 66.6%, it is ≈−4.0pp)*.
+  ⚠ ***A reproduction is worth something and it is not worth a search. It confirms the arithmetic; it
+  discovers nothing.***
+
+  ✅ **LANES CHECKED, ALL NIL:** 1 (macro — no 20-Aug SBV/OMO print; an SSI August strategy note giving
+  1-month interbank ~7% and early-August net OMO injection is UNDATED at the daily level and **not adopted**;
+  the 20-Aug fixing stands at **₫25,590, −8**), 2 (US trade — nothing new since 17:54), 3 (holdings — **KDH
+  insider window: NO execution disclosure, and its absence is UNINFORMATIVE, since HOSE allows five working
+  days after the window closes**; the registration terms returned were the 20-Jul ones already held —
+  20m shares, 23-Jul→21-Aug, 623,635 → 20,623,635 = 1.838%, est. ~₫360bn ⇒ ₫18,000/sh), 7 (ownership —
+  MBB/TCB/VPB corporate actions, all covered).
+  🎯 *One small corroboration kept: **1.838% is computed on 1,122.1m shares, NOT on the post-dividend
+  1,245.13m** — which independently confirms KDH's 10% stock dividend had NOT executed as at the
+  registration date. Worth one line, not worth the search it came from.*
+
+  🚨 **NO NEW TRIGGER FIRES, AND NO TRIGGER STATE CHANGED. Trigger 5 REMAINS FIRED — FRI 21-AUG IS
+  SESSION 1 AND IS TOMORROW: the FTSE GEIS OFFICIAL CONSTITUENT LIST (gate row 75's fence expires) and KDH's
+  INSIDER-BUY WINDOW CLOSING (gate row 62's fence expires). TWO ITEMS, NOT THREE — FORECAST #7 RESOLVES
+  ~21-OCT-2026. Mon 24-Aug = session 2 (CORE preliminary). Trigger 4 REMAINS FIRED on VPX. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`). THIS COMMIT CONTAINS A GATE-ROW REPAIR AND A LOGGED LAPSE — NO MARKET DEVELOPMENT.**
+  [Vietstock — MB chốt quyền chia cổ tức và chào bán cổ phiếu, nâng vốn điều lệ lên hơn 100.600 tỷ](https://vietstock.vn/2026/08/mb-chot-quyen-chia-co-tuc-va-chao-ban-co-phieu-nang-von-dieu-le-len-hon-100600-ty-738-1476203.htm) · [Thời báo Tài chính — MB sắp trả cổ tức bằng cổ phiếu, chào bán hơn 805 triệu cổ phiếu](https://thoibaotaichinhvietnam.vn/mb-sap-tra-co-tuc-bang-co-phieu-chao-ban-hon-805-trieu-co-phieu-de-tang-von-vuot-100000-ty-dong-200251.html) · [Tạp chí Kinh tế Tài chính — cổ đông MB được mua cổ phiếu phát hành thêm với giá 10.000 đồng](https://tapchikinhtetaichinh.vn/co-dong-mb-duoc-mua-co-phieu-phat-hanh-them-voi-gia-10-000-dong-164789.html) · [CafeF — Khang Điền (KDH): Phó Tổng Giám đốc đăng ký mua vào 20 triệu cổ phiếu](https://cafef.vn/khang-dien-kdh-pho-tong-giam-doc-dang-ky-mua-vao-20-trieu-co-phieu-188260720143507357.chn)
 
 - **🎯🎯🎯 17:54 ICT THU 20-AUG · THE PRE-REGISTERED STATIC-TABLE TEST HAS ITS DISCRIMINATING
   READING, AND IT **SUPPORTS THE STATIC-PAYLOAD SIDE** — because the SAME ARTICLE'S international column
