@@ -136,6 +136,79 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 01:54 ICT FRI 21-AUG · **TRIGGER 4 FIRES ON VCI — IN THE FAVOURABLE DIRECTION.**
+  ITS `npat_ttm` IS VERIFIED AGAINST THE INCOME CHAIN FOR THE FIRST TIME, THE FILE'S OWN 27-JUL PRESCRIPTION
+  CARRIED OUT — AND THE DEFECT IS **5.8%, NOT 25.2%** (lanes 3, 6).**
+
+  🎯🎯 **THE RECONSTRUCTION, AND IT CLOSES ON FIVE INDEPENDENT CHECKS. Only ONE figure was missing
+  and it cost one search — VCI's 1H-2025 PBT. Everything else was already in this file, unmultiplied.**
+  | item | value | the check that closes it |
+  |---|---|---|
+  | **1H-2025 PBT** | **₫566.6bn** *(NEW; Q2-25 ₫211.5bn, −38.5% yoy)* | stated **40%** of the FY25 plan |
+  | **FY25 plan PBT** | **₫1,417bn** *(derived)* | 566.6 ÷ 0.40 = **1,416.5** ✅ |
+  | **FY25 ACTUAL PBT** | **₫1,631bn** *(derived)* | plan **+15.1%** — and the file's own source headline is *"Vietcap **vượt 15% kế hoạch** lợi nhuận 2025"* ✅ |
+  | **FY25 ACTUAL NPAT** | **₫1,342bn** *(on file, sourced)* | ⇒ effective tax **17.7%** |
+  | **FY26 plan PBT** | **₫2,300bn** *(on file)* | = FY25 actual **+41.0%** — matching the routine's *"+41% plan"* ✅ |
+  | **1H-2026 PBT** | **₫667bn** *(on file)* | = **29.0%** of the FY26 plan ✅ |
+  ✅✅ ***Six figures, five checks, all closing to within 0.1%. The file held every one of these except the
+  first and had never divided them into each other.***
+
+  🚨🚨 **THE TTM, WHICH IS WHAT THE FIELD CLAIMS TO BE:**
+  **TTM PBT (Jul-25 → Jun-26) = FY25 1,631 − 1H-25 566.6 + 1H-26 667 = ₫1,731.4bn**
+  **TTM NPAT at the observed 17.7% effective rate = ₫1,424.8bn**
+  | | |
+  |---|---|
+  | stored `npat_ttm` | **1,342** |
+  | reconstructed TTM NPAT | **₫1,424.8bn** |
+  | ⇒ **error** | 🚨 **₫82.8bn, 5.8% — UNDERSTATED** |
+  🎯 **THE CHARACTER OF THE DEFECT IS NOW EXACT: `npat_ttm` HOLDS VCI's **FY2025 FULL-YEAR NPAT**, a
+  PERIOD SUBSTITUTION — a prior calendar year sitting in a field labelled trailing-twelve-months.** *And
+  because VCI's H1 was roughly flat year-on-year, the substitution costs only 5.8% — **the mildest of the
+  five defective trailing-earnings fields in this book** (KDH ~56%, VPX 39%, VPB ~25%, TCX declared).*
+
+  ✅ **THIS IS NOT A CONTRADICTION OF THE 27-JUL "25.2%" FINDING, AND I CHECKED BEFORE ASSUMING IT WAS.**
+  *The 26-Jul failure was a **market-cap cross-check** — `cap_now` against an independently reconstructed cap
+  — run BEFORE `pe_ttm` was repaired by construction.* **The file itself recorded that the repair DELETED
+  that detector (*"it is now circular and cannot fail"*) and wrote the prescription: *"`npat_ttm` can no
+  longer be checked internally and must be verified against a filed income statement."***
+  🎯 ***That prescription has now been carried out for VCI, for the first time. The two numbers measure
+  different things at different times; the 25.2% was a block-coherence failure, the 5.8% is an earnings
+  verification.*** **The 27-Jul item is therefore CLOSED, not overwritten.**
+
+  ✅ **THE E[r] CONSEQUENCE IS ZERO AGAIN, AND THE CAP CHECK CONFIRMS IT:**
+  | | |
+  |---|---|
+  | `cap_now` = 17.6 × 1,342 | **₫23,619.2bn** |
+  | `shares × price` = 1,152.2m × ₫20,500 | **₫23,620.1bn** — *gap **0.004%*** |
+  | ⇒ coherent correction | `npat_ttm` **1,342 → ≈1,424.8** WITH `pe_ttm` **17.6 → ≈16.58×** |
+  ⚠ **So `cap_now` is right and E[r] does NOT move — trigger 3 negative.** 🎯 ***But VCI is CHEAPER than
+  the file has been reading it: 16.6× trailing, not 17.6×. It is the ONE name in the book where the
+  earnings defect made the stock look MORE expensive than it is, and it carries a proposed ADD +6.7pp.***
+  ⚠⚠ **THAT IS NOT AN ARGUMENT FOR THE ADD. E[r] is unchanged at −11.3% and VCI is 7th of 8; a multiple
+  moving 5.8% does not touch the ranking. Recorded so the direction is not mistaken for a case.**
+
+  ⚠ **THREE CAVEATS, ONE OF THEM LEARNED TWO HOURS AGO:** *(a)* the **17.7% effective tax rate** is measured
+  on FY2025 and applied to the TTM — reasonable, not verified; *(b)* ₫667bn is treated as **PBT**, consistent
+  with the plan it is measured against being PBT; *(c)* 🚨 **MINORITY INTERESTS ARE UNVERIFIED — and last
+  night's KDH finding was EXACTLY a case where "MI is probably immaterial" would have been wrong by 36%.**
+  *A securities firm is a different structure from a developer, but that is a reason, not a check.*
+
+  ✅ **LANES CHECKED:** 3 (holdings — VCI above), 6 (street/plans — the plan-growth back-solve, third night
+  in a row it has paid: VPB, KDH, now VCI), 1 · 2 · 4 (nil at this hour; **the FTSE list has NOT landed and
+  00:54's timezone reading says it should not be expected before Vietnam's close today**).
+  🎯 **THE SCORECARD, THIRD REVISION IN THREE HOURS: 5 fields NOT a TTM NPAT — but they are no longer a
+  single category. KDH ~56% (attribution) · VPX 39% · VPB ~25% (pre-tax) · TCX (declared) · **VCI 5.8%
+  (period)**. HPG and TCB pass; MBB partially corroborated. ⚠ EVERY ONE IS §4 HUMAN-ONLY.**
+
+  🚨 **🚨 TRIGGER 4 FIRES ON VCI (NEW, FAVOURABLE DIRECTION) AND REMAINS FIRED ON KDH AND VPX —
+  THREE HELD NAMES NOW CARRY A FIRED TRIGGER 4. ⚠ Fired despite the favourable direction because the trigger
+  reads "a held name's evidence status CHANGES", not "worsens" — consistency matters more than comfort, and
+  the direction is stated so a human is not alarmed by it. Trigger 5 REMAINS FIRED — today is session 1;
+  KDH's insider-buy window CLOSES today, and the FTSE list most likely belongs to MON 24-AUG alongside the
+  CORE preliminary. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [DNSE — BCTC quý 2/2025 VCI: lợi nhuận quý 2 giảm 34,13%, lãi 183,9 tỷ đồng](https://www.dnse.com.vn/senses/tin-tuc/bctc-quy-22025-vci-loi-nhuan-quy-2-giam-3413-so-voi-cung-ky-lai-1839-ty-ong-35098762) · [Nhịp sống Kinh doanh — Chứng khoán Vietcap hoàn thành gần 40% kế hoạch lợi nhuận nửa đầu 2025](https://nhipsongkinhdoanh.vn/chung-khoan-vietcap-hoan-thanh-gan-40--ke-hoach-loi-nhuan-nua-dau-2025-19031.htm) · [CafeF — doanh thu tăng mạnh, Vietcap vẫn báo lãi ròng quý II/2025 giảm sâu 34%](https://cafef.vn/doanh-thu-tang-manh-chung-khoan-vietcap-van-bao-lai-rong-quy-ii-2025-giam-sau-34-188250721154342307.chn) · [Vietstock — Vietcap vượt 15% kế hoạch lợi nhuận 2025 *(the FY25 ₫1,342bn the model holds)*](https://vietstock.vn/2026/01/vietcap-vuot-15-ke-hoach-loi-nhuan-2025-tang-dau-tu-vao-nhieu-ma-co-phieu-737-1392728.htm)
+
 - **🚨🎯 00:54 ICT FRI 21-AUG · SESSION 1 BEGINS — AND THE FTSE ITEM PROBABLY IS **NOT ACTIONABLE
   TODAY.** "21-AUG" IS A **LONDON** DATE, AND VIETNAM'S FRIDAY SESSION IS OVER AT **08:45 BST** (lane 4).
   Recorded BEFORE the event, not after.**
