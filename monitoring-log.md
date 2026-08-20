@@ -133,6 +133,70 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-11
 
+- **🚨🚨🚨 07:54 ICT THU 20-AUG · WEDNESDAY'S PRICE-CUT PUZZLE IS ANSWERED, AND THE ANSWER IS **NONE OF MY
+  FOUR READINGS**. IT IS INDIA AND INDONESIA UNDERCUTTING INTO VIETNAM, DISPLACED BY THE SAME EU MEASURE I
+  LOGGED ON WEDNESDAY AS A HEADWIND FOR VIETNAMESE EXPORTERS. And I killed my own hour-old inference on file
+  evidence I already had (lanes 5, 2, 3).**
+
+  ⚠⚠ **FIRST, THE SELF-CORRECTION, BECAUSE IT IS ONE HOUR OLD.** *At 06:54 I found the HRC duopoly (HPG 61% /
+  Formosa 39%) and wrote that reading **(b) "buying share while protected" now has a TARGET** — Formosa.*
+  🚨 ***THE FILE ALREADY CONTAINED THE FACT THAT KILLS (b): "Formosa Ha Tinh followed with a ~US$40/t cut
+  across August–September."*** **HPG cut ~US$45/t over the same window. BOTH duopolists cut, by comparable
+  amounts, for the same delivery months.** ***You cannot buy share from a competitor who matches your cut.***
+  **I built a new inference on a new structural fact and never checked it against a fact the file already held
+  about the same event.** *(b) is FALSIFIED.*
+
+  🚨🚨🚨 **AND THE REAL ANSWER, WHICH WAS NOT ON MY LIST AT ALL: *"fierce competition from HRC imports from
+  INDIA and INDONESIA, as Indian producers continuously lowered prices after the EU implemented new trade
+  defence measures on 1-JULY-2026, which cut India's HRC quota to the EU by ~34%, diverting substantial
+  quantities to other markets INCLUDING VIETNAM."***
+  🎯🎯 **THIS IS THE SAME POLICY EVENT I LOGGED AT 05:54 WEDNESDAY — and it has TWO OPPOSITE effects on this
+  book:**
+  | | |
+  |---|---|
+  | **logged Wed 05:54** | EU/UK quotas from **30-Jun-2026** squeeze **Vietnamese coated exporters** (−25% export volume, NKG −30%) |
+  | 🚨 **NEW** | the SAME measures cut **India's** EU quota **~34%**, diverting Indian HRC **INTO Vietnam** |
+  ✅ *Two independent sources now date this policy to 30-Jun/1-Jul-2026 — my Wednesday source and today's — which is the corroboration that makes the date usable.*
+  🚨🚨 **AND THE STING: AD20 DOES NOT COVER INDIA.** *The India case was TERMINATED because India's import share was **under 3%** — a 2024–25 fact, established here at 20:54 Wednesday.* ***So Indian HRC enters Vietnam DUTY-FREE, and a 2026 EU measure is actively pushing more of it in. The exemption was granted on a share that the EU has since given India every reason to increase.***
+
+  ✅ **THE PRICES, AND THEY ARE LIKE-FOR-LIKE ON THE SAME BASIS AND MONTH:**
+  | | September delivery, CFR HCMC |
+  |---|---|
+  | **Formosa Hà Tĩnh** *(SAE1006 skin-passed, orders ≥20,000t, after a ~US$8/t cut)* | **US$522/t** |
+  | **HPG** *(volume price, on file)* | **US$535/t** |
+  | **dutied Chinese HRC** *(AD20 at 27.83%)* | **US$632.8–651.9** |
+  🚨 ***FORMOSA IS UNDERCUTTING HPG BY US$13/t — 2.43% — ON THE SAME MONTH AND THE SAME CFR HCMC BASIS.***
+  ⚠ **Grades differ (SAE1006 skin-passed vs HPG's unspecified volume grade) and Formosa's is conditional on
+  ≥20,000-tonne orders, so this is CLOSE to like-for-like and not exactly so.** ✅ **Both sit 15.5–17.9% below
+  the dutied Chinese import — which is the clearest evidence yet that CHINA IS NOT THE MARGINAL SUPPLIER
+  SETTING VIETNAMESE HRC PRICES. India and Indonesia are.**
+
+  🚨 **AND A DEMAND SIGNAL THAT SETTLES THE REMAINING BRANCH: FORMOSA IS CUTTING PRODUCTION BY 15% ON
+  OVERSUPPLY**, with US and European export demand weaker than expected. ***That points at reading (d), weak
+  demand, alongside (c) input-cost pass-through — and against any competitive-aggression story.*** **A
+  producer cutting output 15% is not fighting for share.**
+  ⚠ **WHAT I AM NOT CLAIMING: that (c) and (d) are separable here.** *Ore near a 14-month low and a
+  demand-driven 15% output cut are both present and this evidence does not weigh them.* **The Q3 filing and
+  HPG's October offer remain the pre-registered test — but the test's question has changed: it is no longer
+  "share or costs?" but "how much of the cut is imported deflation from India/Indonesia?"**
+
+  ⚠ **A THIRD LANE-SCOPE GAP, AND IT IS THE SAME SHAPE AS THE OTHER TWO.** *Lane 6 enumerates peers — "VPS,
+  SSI, HCM, VCB, ACB, CTG, HSG, NKG, NLG, VHM, NVL". **FORMOSA HÀ TĨNH IS NOT ON IT**, and it is 39% of the
+  domestic HRC duopoly facing the book's largest steel position. Nor is any Indian or Indonesian supplier.*
+  **After non-steel US cases (Wed 01:54) and EU/UK trade policy (Wed 05:54), this is the third blind spot from
+  a lane that ENUMERATES NAMES rather than DEFINING A CRITERION.**
+
+  **NOTHING MODELLED. NO INPUT CHANGED. NO CONFIDENCE MOVED — competitor pricing is not an input to the
+  bridge. `assumptions.json` UNTOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  🚨 **NO NEW TRIGGER FIRES. Trigger 1 considered on HPG's spread criterion and does NOT fire — no input moved,
+  and the standing ₫0.8632m/t reading is unchanged. Trigger 4 REMAINS FIRED on VPX. Trigger 5 REMAINS FIRED —
+  **Fri 21-Aug = SESSION 1, TOMORROW** (FTSE GEIS list, KDH insider window closes); Mon 24-Aug = session 2.
+  Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **§4 QUEUE, ADDED: the file needs INDIAN and INDONESIAN HRC import volumes into Vietnam. AD20's India
+  exemption rests on a sub-3% share that a 34% EU quota cut gives India every reason to exceed — and if it
+  does, the exemption becomes the largest hole in HPG's protection.**
+  [Dân Việt — Formosa Hà Tĩnh và Hòa Phát cùng giảm giá thép HRC](https://danviet.vn/formosa-ha-tinh-va-hoa-phat-cung-giam-gia-thep-hrc-d1450265.html) · [Investing/Vietstock — giá HRC Trung Quốc giảm tuần thứ ba liên tiếp, Hòa Phát và Formosa đồng loạt hạ giá](https://vn.investing.com/news/commodities-news/gia-hrc-trung-quoc-giam-tuan-thu-ba-lien-tiep-hoa-phat-va-formosa-dong-loat-ha-gia-2659024) · [DNSE — Hòa Phát và Formosa hạ giá thép HRC](https://www.dnse.com.vn/senses/tin-tuc/hoa-phat-va-formosa-ha-gia-thep-hrc-33896484) · [Mysteel VN — thông tin giá Formosa](https://www.mysteelvn.com/diemtin/tin-tuc/7263) · [CafeF — Formosa Hà Tĩnh, tag](https://cafef.vn/formosa-ha-tinh.html)
+
 - **🚨🚨🚨 06:54 ICT THU 20-AUG · THE IMPORT CHANNEL THIS FILE HAS TREATED AS HPG's COMPETITIVE CEILING IS
   COLLAPSING FROM ~6 MILLION TONNES TO UNDER 2. AND VIETNAM'S HRC MARKET IS A **DUOPOLY** — HPG 61%, FORMOSA
   39%. THAT REFRAMES WEDNESDAY'S PRICE-CUT PUZZLE ENTIRELY (lanes 5, 2, 3).**
