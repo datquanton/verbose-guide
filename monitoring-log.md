@@ -136,6 +136,68 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯 09:55 ICT FRI 21-AUG *(read from `date`; session 1 is ~55 minutes old)* · A NEW AGGREGATE
+  FOREIGN-OUTFLOW FIGURE — **₫3,400bn OVER 7 CONSECUTIVE SESSIONS** — AND **THE FILE'S OWN DERIVATION REFUSES
+  THE OBVIOUS READING OF IT.** Not adopted (lane 4).**
+
+  ✅ **NEW, ZERO GENUINE PRIOR HITS** *(the six `3,400` matches repo-wide are all substrings of unrelated
+  figures — HPG's DQ2 investment, VPB's ₫43,400bn TOI)*: **foreign investors net withdrew more than
+  ₫3,400bn across 7 CONSECUTIVE SESSIONS.**
+
+  🚨🚨 **THE CONSTRAINT THAT KILLS THE OBVIOUS READING, AND IT IS THIS FILE'S OWN WORK.** *If the
+  streak ends on 20-Aug it must run **12 → 20 Aug**. But on 14-Aug this file DERIVED a **12-AUG NET BUY of
+  ₫275–291bn** — from sells of ₫2,475–2,491bn across the other four sessions against a weekly HOSE net of
+  −₫2,200bn — and that derivation was cross-checked and recorded as STANDING.*
+  ⚠⚠ ***A net-BUY session cannot sit inside a consecutive-net-SELLING streak. Counting back from 20-Aug the
+  most that is available is SIX — 13, 14, 17, 18, 19, 20.***
+
+  ✅ **THREE READINGS, NAMED RATHER THAN CHOSEN:**
+  | | reading | status |
+  |---|---|---|
+  | **(a)** | the figure is on a **different board basis** — all-boards, not HOSE | *the exact ambiguity that produced the ₫768bn/₫250.12bn problem on 19-Aug* |
+  | **(b)** | the window **ends TODAY**: 13·14·17·18·19·20·**21** = 7 | 🎯 **arithmetically the cleanest fit** |
+  | **(c)** | the file's derived 12-Aug net buy is wrong | *possible; it was derived, not reported* |
+  🎯 **READING (b) HAS A CONSEQUENCE WORTH NOTICING: IT WOULD MEAN TODAY IS ALREADY A NET-SELLING SESSION
+  — a live datum on session 1, the day the FTSE list is expected.** ⚠⚠ ***BUT COUNTING AN UNFINISHED SESSION
+  INSIDE A "7 CONSECUTIVE SESSIONS" STREAK IS ITSELF A DEFECT — a window whose last element is still moving.
+  So (b) fitting best is not evidence that (b) is sound.***
+  ✅ **CONSISTENCY CHECK, RUN BOTH WAYS:** *the three known sessions total **−₫1,883bn** (18-Aug −736 ·
+  19-Aug −710.5 · 20-Aug −436.55), leaving **−₫1,517bn** across the other four — **−₫379bn each**, which is
+  entirely plausible and therefore discriminates NOTHING. Recorded so the plausibility is not mistaken for
+  support.*
+  ✅ **PRE-REGISTERED: the 21-Aug closing foreign-flow figure settles it. If today prints a net SELL, (b)
+  survives; if today prints a net BUY, (b) dies and the basis question in (a) becomes the live one.**
+
+  🎯🎯 **AND THE SCALE COMPARISON IS THE PART THAT MATTERS FOR THE FTSE THREAD.**
+  | | |
+  |---|---|
+  | ₫3,400bn at the 20-Aug fixing of ₫25,590 | **≈ US$133m** |
+  | FTSE September FIRST TRANCHE (10%), on file | **≈ US$140–150m** |
+  | ⇒ the recent outflow is | 🚨 **~92% of the entire first tranche** |
+  ⚠⚠ ***STATED WITH ITS DEFECT ATTACHED: one is ordinary trading flow over roughly seven sessions, the other
+  is a one-off index-driven disbursement on a single date. Comparable in SCALE, different in KIND and in
+  DURATION, and it is not a claim that they offset.*** **What it does do is put a number on the file's
+  longest-running unresolved question — the Frontier-deletion outflow, which has failed three dedicated
+  searches because every published estimate is an INFLOW estimate.** ***The market is pricing an inflow it
+  can size and ignoring an outflow it cannot; this is the first figure in the file that shows the ordinary
+  run-rate is already the same order of magnitude as the event everyone is waiting for.***
+
+  ⚠ **THE 21-AUG INTRADAY PIECE IS NOT INDEXED YET AT 09:55, WHICH IS EXPECTED** — the file's measured
+  indexing lag put the 20-Aug session's data ~3h after the 14:45 close. *Not a failure; a route property
+  already on file.*
+
+  ✅ **LANES CHECKED:** 4 (index & flows — above), 1 (macro — **the 21-Aug central rate is STILL
+  unestablished; the pair served under today's date belongs to 20-Aug, per 08:55's bridge test**), 3 · 7
+  (holdings — nothing new intraday; **KDH's insider-buy window closes at today's 14:45 close**).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing here is a model input and nothing was adopted. Trigger 4 REMAINS
+  FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — TODAY IS SESSION 1 AND THE MARKET
+  IS OPEN: KDH's window CLOSES at today's close; the FTSE list most likely belongs to MON 24-AUG with the
+  CORE preliminary; Jackson Hole/Warsh enters the window today on the announcement reading. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Vietstock — nhịp đập thị trường 19/08: VN-Index giằng co trong bối cảnh thanh khoản sụt giảm](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1908-vn-index-giang-co-trong-boi-canh-thanh-khoan-sut-giam-1636-1482473.htm) · [Vietstock — nhịp đập thị trường 18/08: lực bán ở nhóm tài chính gia tăng](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1808-luc-ban-o-nhom-tai-chinh-gia-tang-1636-1482074.htm) · [VnEconomy — diễn biến thị trường chứng khoán hôm nay](https://vneconomy.vn/thi-truong-chung-khoan.htm)
+
 - **🎯🎯 08:55 ICT FRI 21-AUG *(read from `date`)* · THE FILE HAS MEASURED THE FIXING'S DAILY
   PASS-THROUGH TO EXHAUSTION AND NEVER MEASURED ITS **ADMINISTERED PACE.** ONE NEW ANCHOR MAKES THAT
   POSSIBLE. Plus the FOURTH date-relabelling of a central-rate pair (lane 1).**
