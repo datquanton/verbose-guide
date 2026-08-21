@@ -138,6 +138,72 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 06:53 ICT SAT 22-AUG *(read from `date`)* · **THE 21-AUG CLOSE IS RESOLVED — 1,768.12, AND THE
+  FIGURE THIS FILE REFUSED WAS THE RIGHT ONE. THE REFUSAL WAS STILL CORRECT.** The discriminator that broke
+  the tie is the one the file had been missing: **a SECOND INDEX.** (lanes 4, 5).
+
+  ✅✅ **THE RESOLUTION.** *A 21-Aug session diary gives:* **VN-Index 1,768.12 (+1.95%) · HNX-Index 284.07
+  (+5.52, +1.98%) · breadth 547 up / 243 down · HOSE matched 667m shares, >₫15.4tn · foreign net BUY
+  ₫39.63bn on HOSE, led by SHB 137.88, SSI 71.16, MSN 50.75, PNJ 43.08.**
+  🎯🎯 ***WHY THIS BREAKS A TIE THAT A FINER READING OF THE VN-INDEX NEVER COULD.*** *The 18:54 refusal was
+  built on a genuine twin: **1,768.12 − 33.88 = 1,734.24** (the on-file 20-Aug close) and **07-Aug closed at
+  1,768.06**, whose bridge gives **1,734.18** — the SAME 0.06 offset, a perfectly parallel-shifted decoy.
+  **No amount of extra precision on ONE index separates two sessions 0.06 apart.*** ✅ **BUT HNX DOES:
+  284.07 − 5.52 = 278.55 and 5.52 ÷ 278.55 = 1.982% — internally coherent, and a SECOND, INDEPENDENT
+  index that has no reason to replicate the VN-Index's coincidence.**
+  🎯 ***RULE, AND IT GENERALISES BEYOND THIS FILE: WHEN A LEVEL IS AMBIGUOUS BETWEEN TWO SESSIONS, THE
+  DISCRIMINATOR IS A DIFFERENT SERIES, NOT A SHARPER READING OF THE SAME ONE. Two series colliding to
+  0.06 on the same day is a coincidence; two series colliding on BOTH is not.***
+
+  ⚠⚠ **AND THE SOURCE CONTRADICTS ITSELF ON THE POINT CHANGE — THE PERCENTAGE IS THE RELIABLE HALF.**
+  *It prints* **"+33.38 điểm (+1.95%)"**. *Test both against the on-file 20-Aug close of 1,734.24:*
+  | point change | implied prior close | implied % |
+  |---|---|---|
+  | **+33.88** | **1,734.24** ✅ *the on-file anchor* | **1.954% ✅ matches "+1.95%"** |
+  | +33.38 | 1,734.74 ✗ | 1.924% ✗ **rounds to 1.92%, not 1.95%** |
+  ⇒ ***+33.88 IS THE POINT CHANGE AND "33.38" IS A DIGIT ERROR IN THE SUMMARY. The file's original reading
+  of +33.88 was right on the number all along.*** *Caught by arithmetic, not by preferring my own figure.*
+
+  ✅ **THE REFUSAL WAS STILL THE RIGHT CALL AND I AM NOT SCORING IT AS A MISS.** *On 20–21 Aug the evidence
+  genuinely did not separate 21-Aug from 07-Aug; adopting the figure then would have been **right for a
+  reason that did not hold**, which this file records as a failure. **The cost of the refusal was ONE DAY.
+  The cost of a wrong adoption would have been an undated index level in a file that dates everything.***
+
+  🎯 **A THIRD, INDEPENDENT COHERENCE LINK — THE FLOW DIRECTION.** *The 21-Aug wrap says foreigners
+  **"quay lại mua ròng"** — RETURNED to net buying — which only means anything if the prior session was net
+  selling. **It was: 20-Aug was a foreign net SELL of >₫600bn on HOSE.** Sell → buy, and the word "quay
+  lại" is doing real work.*
+  ⚠⚠ **BASIS DISCIPLINE, APPLIED: board is STATED (HOSE) but SESSION SCOPE IS NOT — this publisher set
+  never states it. So I use only the DIRECTION across the two sessions, which the source asserts itself,
+  and I DO NOT difference ₫39.63bn against ₫600bn: different publishers, unstated scope, and the file's own
+  rule forbids differencing figures whose bases are unknown.**
+
+  🚨 **WHERE THE FTSE-ANTICIPATION MONEY WENT, AND IT WAS NOT HERE.** *The four largest foreign buys —
+  **SHB, SSI, MSN**, PNJ — put **three of the top four inside the FTSE small-cap 21**, on the session
+  immediately BEFORE the list published.* ⚠ ***NONE OF THE EIGHT HOLDINGS APPEARS IN THE TOP FOUR***, and
+  ₫39.63bn net is a small number for a day framed all week as the FTSE catalyst. ⚠ *Four names is not a
+  distribution — this is an observation about the top of the list, NOT a claim about total flow by name.*
+
+  ✅ **PROPERTY LANE CHECKED IN FULL AND EVERYTHING FOUND WAS ALREADY ON FILE — recorded so the coverage is
+  dated rather than assumed.** *(a) **HCMC land-use fee**: Decision **45/2026/QĐ-UBND**, K = K1×K2×K3 with
+  K1 = K3 = 1 for 2026, in force from 01-Jul — already on file at two places including a correction note.
+  ⚠ **A FRESHNESS TRAP AVOIDED: the first search surfaced a JANUARY article saying HCMC had not yet issued
+  K, and the summariser presented that state as current. It was issued, ON the statutory deadline.** (b)
+  **Masterise/TCB bonds** — nothing new; the Saigon Glory "28-Aug-2026" date resurfaced and **this file has
+  already established it is FALSE**, so it was not re-adopted. (c) **KDH Gladia Heights** — the 01-Aug
+  launch and the >1,500 attendance are already on file, with the file's own warning that Gladia is a Q3
+  event and does not speak to Clarita or Emeria.*
+
+  ⚠ *No model input changed — an index level is not an input to `decide.py`, which uses only
+  `pe_ttm × npat_ttm`. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: vietstock.vn ("Nhịp đập Thị trường 21/08" — VN-Index, HNX, breadth, liquidity, foreign flows),
+  cafef.vn (20-Aug foreign net sell >₫600bn), hdbs.vn (21-Aug bulletin), thanhnien.vn / vietnamfinance.vn /
+  baodauthau.vn (QĐ 45/2026/QĐ-UBND, hệ số K from 01-Jul), cafef.vn / dantri.com.vn / khangdien.com.vn
+  (Gladia Heights 01-Aug launch), nhadautu.vn / viettimes.vn (Masterise–TCB).
+  **Portfolio impact: the 21-Aug session closed +1.95% at 1,768.12 with foreigners turning net buyers into
+  the FTSE announcement — and the top of that buying was FTSE small-cap names, none of them held.**
+
 - **🚨🚨🚨 05:54 ICT SAT 22-AUG *(read from `date`)* · **I APPLIED LAST HOUR'S RULE ON PURPOSE AND IT
   WORKED — BUT NOT THE WAY I EXPECTED. THE FILE ALREADY HAD THE CIRCULAR; WHAT IT DID NOT HAVE WAS WHAT
   THE CIRCULAR SAYS.** And auditing that gap exposed **a whole ROW SHAPE my own gate tool had never
