@@ -136,6 +136,68 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 10:55 ICT FRI 21-AUG *(read from `date`)* · **THE TEST I PRE-REGISTERED ONE HOUR AGO
+  RESOLVED IN ONE HOUR — AGAINST MY OWN BEST-FITTING READING.** The streak ends 20-Aug and the basis is
+  ALL THREE BOARDS (lane 4).**
+
+  ✅ **THE RESOLVING STATEMENT: *"on 20/8/2026 foreign investors sold net for the **7th consecutive
+  session**, approximately **₫555bn across THREE EXCHANGES**."***
+  | reading, as written at 09:55 | verdict |
+  |---|---|
+  | **(a)** the figure is on a **different board basis** — all-boards, not HOSE | ✅ **CONFIRMED** |
+  | **(b)** the window **ends TODAY**, 13→21 Aug — *"arithmetically the cleanest fit"* | 🚨 **FALSIFIED** |
+  | **(c)** the file's derived 12-Aug net buy is wrong | ⚠ **still open, and now precisely characterised** |
+  🎯🎯 ***I WROTE ONE HOUR AGO: "READING (b) FITTING BEST IS NOT EVIDENCE THAT (b) IS SOUND."
+  IT WAS THE READING I LEANED TOWARD, IT HAD THE CLEANEST ARITHMETIC, AND IT WAS WRONG.*** **The caveat
+  earned its place inside sixty minutes, and the reason it was wrong is the reason I gave: (b) required
+  counting an UNFINISHED session inside a completed streak.**
+
+  ✅ **NEW DATUM, AND IT IS INTERNALLY COHERENT THIS TIME:**
+  | | |
+  |---|---|
+  | 20-Aug foreign net sell, **all three boards** | **₫555bn** 🎯 *new* |
+  | 20-Aug foreign net sell, **HOSE** *(on file)* | **₫436.55bn** |
+  | ⇒ **HNX + UPCOM contribution** | **₫118.45bn** |
+  ✅ ***All-boards EXCEEDS HOSE, which is the right direction — unlike the 19-Aug pair, where an all-boards
+  figure came in SMALLER than its HOSE component and could not be reconciled.*** **That earlier pair is the
+  one this file flagged as internally impossible two days ago; today's pair is the shape a correct one takes.**
+
+  ⚠⚠ **THE 12-AUG TENSION SURVIVES — SHARPENED, NOT RESOLVED.** *A 7-session streak ending 20-Aug spans
+  **12 → 20 Aug**. The file's **₫275–291bn net BUY on 12-Aug** is a **HOSE** derivation, from a **HOSE**
+  weekly net of −₫2,200bn. The streak is **all-boards**.* ✅ **So both CAN hold — but only if HNX+UPCOM net
+  SOLD more than ₫275bn on 12-Aug.** 🚨 ***Against 20-Aug's HNX+UPCOM contribution of ₫118bn, that is more
+  than DOUBLE. Possible; a stretch.*** **Two live readings, named and not chosen: unusually heavy small-board
+  selling on 12-Aug, or a HOSE-derived net buy that is wrong.**
+  ⚠ **AND A TRAP AVOIDED IN THE ARITHMETIC: the file's 19-Aug all-boards ₫250.12bn is a **10:30 INTRADAY
+  SNAPSHOT**, not a close, and must NOT be summed with closing figures.** *Residual across 12–19 Aug is
+  ₫3,400 − ₫555 = **₫2,845bn over six sessions, ≈₫474bn each** — consistent with the ₫486bn seven-session
+  average, and discriminating nothing further.*
+
+  ✅ **RE-CONFIRMED, ALREADY HELD:** FTSE Russell's GEIS list is scheduled for **21-Aug** and the upgrade is
+  effective **21-Sep-2026**.
+
+  ⚠🚨 **AN ENVIRONMENT EVENT, RECORDED AS FACT BECAUSE A READER OF THIS FILE SHOULD KNOW IT HAPPENED.**
+  *At 10:54 the working tree contained only `.git` and an unrelated file from a different branch:
+  **the local branch ref had been reset to `0ec84e0`, a commit belonging to `claude/add-spotify-playlist-artists`.***
+  ✅ **NOTHING WAS LOST. The remote was intact at `97de0dd`; I verified the spotify commit was safely on its
+  own branch both locally and remotely BEFORE touching anything, confirmed there were no stashes and no
+  uncommitted work, then restored with `git reset --hard origin/…`.**
+  ✅ **VERIFIED AFTER RECOVERY: 21,610 log lines, both tools present, `DECISION-BRIEF.md` md5 still
+  `db994d19`.** ⚠⚠ ***NO FORCE-PUSH WAS USED AND NONE WAS CONSIDERED. A non-fast-forward push from the reset
+  state would have destroyed the remote history; the correct move was to treat the REMOTE as authoritative
+  and the local tree as the damaged copy.***
+
+  ✅ **LANES CHECKED:** 4 (flows — above), 1 (macro — **the 21-Aug central rate is STILL unestablished**),
+  3 · 7 (holdings — no 21-Aug intraday piece indexed yet, as the file's measured ~3h post-close lag predicts;
+  **KDH's insider-buy window closes at today's 14:45 close**).
+
+  🚨 **NO NEW TRIGGER FIRES — nothing here is a model input and nothing was adopted beyond the ₫555bn
+  all-boards print. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS
+  FIRED — TODAY IS SESSION 1 AND THE MARKET IS OPEN. Trigger 2 STANDING-BREACHED. Triggers 1 and 3
+  negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Thời báo Tài chính — khối ngoại bán ròng gần 600 tỷ đồng, tâm điểm vẫn là VIC và VHM](https://thoibaotaichinhvietnam.vn/khoi-ngoai-ban-rong-gan-600-ty-dong-tam-diem-van-la-vic-va-vhm-202454.html) · [Thời báo Tài chính — khối ngoại giao dịch thận trọng, bán ròng nhiều cổ phiếu tài chính](https://thoibaotaichinhvietnam.vn/khoi-ngoai-giao-dich-than-trong-ban-rong-nhieu-co-phieu-tai-chinh-202630.html) · [Vietstock — theo dấu dòng tiền cá mập 18/08](https://vietstock.vn/2026/08/theo-dau-dong-tien-ca-map-1808-tu-doanh-va-khoi-ngoai-ban-rong-manh-sang-tay-mot-ma-chung-chi-quy-830-1482388.htm)
+
 - **🚨🎯 09:55 ICT FRI 21-AUG *(read from `date`; session 1 is ~55 minutes old)* · A NEW AGGREGATE
   FOREIGN-OUTFLOW FIGURE — **₫3,400bn OVER 7 CONSECUTIVE SESSIONS** — AND **THE FILE'S OWN DERIVATION REFUSES
   THE OBVIOUS READING OF IT.** Not adopted (lane 4).**
