@@ -78,7 +78,7 @@ question the file had already answered.** Re-open any row below only on its stat
 | ~~KRX system~~ **CLOSED — live since 05-May-2025, not pending.** The forward item is what it enables (below) | — | 4 |
 | **Vietnam CCP (central counterparty clearing)** | **Q1/2027** (VSDC subsidiary, phase-1 go-live). **Tight against MSCI's June-2027 review, which watches it** — a Q1 go-live leaves ~1 quarter of operating history; a one-quarter slip leaves none. Enables **SBL, controlled short selling, T+0** on a 2026–28 UBCKNN roadmap | 4, 5 |
 | ~~duplicate CCP row~~ | **slated early 2027** — MSCI's key watched milestone, and it changes clearing/margin mechanics for brokers (TCX, VCI, VPX; 19.5% look-through) | 4, 5 |
-| ~~**⚠ SBV monthly credit/deposit prints — DUE ~05-AUG**~~ **RESOLVED 05-Aug 06:53 — AND THE GATE WAS MIS-DATED. The print came 03-AUG at the government press conference, not on a "month-end +5d" calendar: ₫20,150,000bn at 29-Jul, +8.38% YTD. A gate placed in the future for an event already past SUPPRESSED the search for two days. FUTURE ROWS FOR THIS ITEM MUST WATCH THE GOVERNMENT PRESS CONFERENCE CYCLE, NOT A STATISTICAL CALENDAR.** **Next print ~early Sep.** **⚠ NEW GATE: SBV guidelines for the ₫220,000bn four-state-bank package — "in the coming days" from 03-Aug, so LIVE NOW.** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
+| ~~**⚠ SBV monthly credit/deposit prints — DUE ~05-AUG**~~ **RESOLVED 05-Aug 06:53 — AND THE GATE WAS MIS-DATED. The print came 03-AUG at the government press conference, not on a "month-end +5d" calendar: ₫20,150,000bn at 29-Jul, +8.38% YTD. A gate placed in the future for an event already past SUPPRESSED the search for two days. FUTURE ROWS FOR THIS ITEM MUST WATCH THE GOVERNMENT PRESS CONFERENCE CYCLE, NOT A STATISTICAL CALENDAR.** **Next print ~early Sep.** **⚠ NEW GATE: SBV guidelines for the ₫220,000bn four-state-bank package — "in the coming days" from 03-Aug, so LIVE NOW.** 🎯 **CANDIDATE, NOT AN IDENTIFICATION *(added 22-Aug 04:53)*: VĂN BẢN 7125/NHNN-TD, dated 07-Aug-2026 — four days into "the coming days", addressed to commercial banks, requiring a preferential credit programme for SMEs and the named growth drivers priced at least 1%/yr BELOW that bank's OWN average lending rate for the SAME TENOR, published from August 2026, with STATE commercial banks asked to pioneer it.** ⚠⚠ **NO reachable coverage names the ₫220,000bn figure or the four institutions inside 7125, so THIS GATE STAYS OPEN. SETTLED BY: the document text naming either.** 🚨 **AND A SEPARATE NEW GATE FROM THE SAME DOCUMENT — the one that is actually measurable: EACH BANK MUST BUILD AND PUBLISH ITS OWN PROGRAMME. Watch for TCB, VPB and MBB announcing programme SIZE, because the NIM drag is 1pp × (programme balance ÷ earning assets) and the file has NO value for the ratio — ~5bp at 5% of the loan book, ~20bp at 20%. DO NOT pick a number until a bank publishes one.** | **month-end +5d.** Surfaced by the 04-Aug 22:53 gate-table audit: this row has sat here as a rule with no date attached, so nobody flagged that the JULY print lands tomorrow. **Credit growth bears directly on the 51.5% bank block** — the file holds H1 system credit growth and our three banks running **1.7–3.2× the system**, and today's work put system NPLs +₫48tn in H1 with LLR coverage down to 79.78%. **A July credit print is the first read on whether that divergence continued** | 1 |
 | ~~VNDiamond effective 03-Aug~~ ✅✅ **RESOLVED 19-Aug 07:54 — AS A NON-EVENT. The JULY review changes VN30 and VNFIN LEAD CONSTITUENTS and gives VNDIAMOND only a DATA-AND-WEIGHTS update (announced 16-Jul, effective 04-Aug). VNDiamond's CONSTITUENT reviews are APRIL and OCTOBER. So there was never an announcement to find, KDH's membership was not at stake in August, and the 01-Aug trigger-5 catalyst is CLOSED, resolved negative.** Corroborated four ways: Q1/2026 also "ít biến động"; the Oct-2021 KDH addition was an OCTOBER review; VN30 DID change in the same July review (TCX in, PLX/TPB out); and seven nil searches are what a non-existent announcement produces. ⚠ 03-Aug vs 04-Aug recorded, not reconciled — the resolution does not depend on it. 🚨 **NEXT CONSTITUENT REVIEW: OCTOBER 2026, the same window as KDH's 3Q26 filing due 30-Oct, and the question is REMOVAL not addition.** ~~19-Aug 06:54 — THE CLOSURE WAS TOO BROAD. The three closed routes were fund-portfolio documents (`vietcat.com`) and `vsd.vn`. GENERAL NEWS COVERAGE OF A CONSTITUENT CHANGE IS A FOURTH ROUTE, WAS NEVER TRIED, AND IS NOT BLOCKED — it worked first attempt and returned a real article (wrong YEAR: Oct-2021). ⚠ AND THE QUESTION IS INVERTED: KDH was a CONSTITUENT as of 01-Nov-2021, so the open question is REMOVAL (forced ETF selling, same direction as the proposed TRIM), not addition. `valuation.TCX` already held the general lesson — *"a blocked host is evidence about a host, not about a number"* — and it was not carried across.** | **Seven attempts, three routes. The primary document was FOUND** — vietcat.com's *"Danh mục chứng khoán cơ cấu ngày giao dịch 31/07/2026 của Quỹ ETF VFCVN DIAMOND"* — **and the environment's network policy returned 403 at the gateway** (`connect_rejected`). ssi.com.vn and ftp2.ssi.com.vn are blocked too, so the standing route for **every future VNDiamond/VN30 review** is closed. **NO FURTHER DEDICATED SEARCHES.** Resolves only via **(a)** FiinQuant MCP authorised by the owner, **(b)** a widened network policy, or **(c)** incidental mention in routine lane-3 KDH coverage — which is free. **KDH's status stays UNKNOWN; the 61.8% FOL failure and the Q2 waiting-list placement stand as the only established facts** | 4 |
 | ~~KDH on the REMOVAL watchlist; next review date UNKNOWN~~ *(superseded)* | KDH fails the **65% foreign-ownership-limit minimum, at 61.8%.** Reviews are quarterly (Q2 completed ~01-May); **whether the Q3 review removed it is not established.** KDH is **20.3% of the book**. Establish the review date and KDH's current status | 4 |
 | ~~3-Aug quadruple date~~ **SPENT — CLOSED 04-Aug** | July CPI ✓ 4.45% · July PMI ✓ 52.9 · TCX VN30 effective ✓ (flow completed 31-Jul) · **VNDiamond — route closed, `vietcat.com` and `vsd.vn` are gateway-blocked; KDH's status stays UNKNOWN and is not to be re-searched** | — |
@@ -137,6 +137,78 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 ## 2026-08-12
 
 ## 2026-08-13
+
+- **🚨🚨🚨 04:53 ICT SAT 22-AUG *(read from `date`)* · **A NAMED SBV DOCUMENT DIRECTED AT LENDING RATES
+  HAS BEEN SITTING UNREAD FOR FIFTEEN DAYS AND IT BEARS ON 51.5% OF THE BOOK: VĂN BẢN 7125/NHNN-TD,
+  07-AUG-2026.** And the headline reading of it is wrong — the text is narrower than the headline. (lanes
+  1, 2, 3, 5).
+
+  🚨🚨 **THE MISS FIRST, BECAUSE IT IS A CORE LANE AND IT WENT FIFTEEN DAYS.** *Lane 1 is checked EVERY
+  sweep. **`grep` over the whole file returns ZERO hits** for "7125", for "giảm lãi suất cho vay", for
+  "doanh nghiệp nhỏ và vừa" and for "1%/năm". A dated, numbered SBV instrument addressed to commercial
+  banks about the price of credit was issued **07-Aug** and this file has never mentioned it.*
+  ⚠ ***It surfaced today only as a by-product of a credit-growth query, from two WordPress re-posts —
+  i.e. by accident, from the weakest sources in the result set — and then verified on Vietstock, Thanh
+  Niên and Bnews.*** *A lane checked hourly is not the same as a lane covered.*
+
+  ✅✅ **WHAT IT ACTUALLY SAYS — AND THE HEADLINE IS A MEASURE SUBSTITUTION.** *Headlines read* **"SBV
+  orders banks to cut lending rates by at least 1%"**, *which sounds like a book-wide rate cut. The text
+  is not that:*
+  🎯 ***VND lending rates under the PROGRAMME must sit at least 1%/year BELOW that same bank's OWN average
+  lending rate for the SAME TENOR (short, medium, long) in the period concerned.***
+  ⚠⚠ **THREE THINGS FOLLOW, AND NONE OF THEM IS "NIM FALLS 1pp":**
+  1. **It is a PROGRAMME, not the loan book.** *Banks must build and publish a preferential credit
+     programme from August 2026; the discount applies to that programme's balances.*
+  2. **The benchmark is SELF-REFERENTIAL and FLOATING — the bank's own average, not a system rate and not
+     a fixed ceiling.** *A bank that raises its ordinary rates raises the preferential rate with them; the
+     discount cannot be pinned to an absolute level. And if a programme grows large enough to move the
+     bank's own average, the benchmark falls with it — a feedback term the headline framing hides.*
+  3. **The NIM cost is NOT COMPUTABLE FROM ANYTHING ON FILE, because the programme SIZE is not specified.**
+     *The honest form is a sensitivity, not an estimate:* **drag ≈ 1pp × (programme balance ÷ earning
+     assets)** — *at a programme running 5% of the loan book that is roughly **5bp**, at 20% roughly 20bp.*
+     ***I am not choosing a number. The share is unknown and I did not find it.***
+
+  ⚠ **WHERE IT BITES HARDEST IS A DIRECTIONAL READ, NOT A MEASUREMENT.** *The target is SMEs and the named
+  "growth drivers", so exposure to that segment is what matters. **VPB's franchise is the most SME- and
+  retail-weighted of the three banks held; TCB's book is the most corporate- and property-weighted.** That
+  ordering is a statement about franchise mix already on file, NOT a new measurement of programme uptake,
+  and it must not be quoted as one.* **SBV also singles out STATE commercial banks to take the lead — none
+  of which is held.**
+
+  🎯 **AND IT MAY — MAY — CLOSE AN OPEN GATE, WHICH I AM FLAGGING WITHOUT CLAIMING.** *Row 81 has carried
+  "SBV guidelines for the ₫220,000bn four-state-bank package — 'in the coming days' from 03-Aug, so LIVE
+  NOW" with **no movement in twelve days**. **7125/NHNN-TD is dated 07-Aug, four days after "the coming
+  days" began, is addressed to commercial banks about preferential credit programmes, and expressly calls
+  on state commercial banks to pioneer them.*** ⚠⚠ ***THAT IS A TIMING-AND-SUBJECT FIT, NOT AN
+  IDENTIFICATION. No coverage I can reach names the ₫220,000bn figure or the four banks inside 7125.***
+  **WHAT WOULD SETTLE IT: the document's own text naming either the ₫220,000bn or the four institutions.
+  Until then the gate stays OPEN and 7125 is recorded beside it, not inside it.**
+
+  ✅ **LANE 2, CHECKED AND NEGATIVE — the rebar file is complete and already on file.** *Commerce's final
+  affirmative AD and CVD determinations on Vietnamese rebar were announced **28-Jul**, published **30-Jul**
+  (FR 2026-15437/15438); Vietnam finals **128.53–136.57%**, and the Hoà Phát entities (Dung Quat, Hai
+  Duong, Hung Yen, Prestressed Concrete) are treated as a **single entity**. **Nothing new since.** The
+  two live lane-2 items remain the **CORE circumvention preliminary on MON 24-AUG** and the **rebar ITC
+  final injury vote mid-to-late September**.* *(CORE's own AD/CVD finals were 26-Aug-2025 — a different,
+  closed proceeding; do not conflate them with Monday's.)*
+
+  ⚠ **LANE 3, TCB — THE RECORD DATE IS STILL NOT PUBLISHED, AND THAT ABSENCE IS NOW DATED.** *Searched
+  22-Aug 04:53: the 67% package (**7% cash = ₫700/share, 60% bonus shares**, charter capital to >₫113,000bn)
+  is confirmed from the 25-Apr AGM, timing "Q2 or Q3 2026", and **no ngày đăng ký cuối cùng has been
+  announced.** Absence recorded with today's date so the next sweep knows when it was last tested — not
+  re-derived as if new.*
+
+  ⚠ *No model input changed. No §4 field written — `confidence` on TCB, VPB and MBB is human-only and is
+  NOT touched, though this is exactly the kind of evidence that should move it. `DECISION-BRIEF.md`
+  byte-identical.*
+
+  Sources: vietstock.vn, thanhnien.vn, baomoi.com/Bnews, thethaovanhoa.vn, doanhnghiephoinhap.vn,
+  nongnghiepmoitruong.vn (7125/NHNN-TD, 07-Aug-2026); baochinhphu.vn (credit +8.38% at 29-Jul, already on
+  file); trade.gov and federalregister.gov listings (rebar finals, already on file); baochinhphu.vn,
+  cafef.vn, tuoitre.vn, congluan.vn (TCB 67% package, 25-Apr AGM).
+  **Portfolio impact: a fifteen-day-old SBV directive prices a preferential lending programme at ≥1pp
+  below each bank's own average — a real but unquantified NIM headwind for the 51.5% bank block, heaviest
+  where the SME book is heaviest, and the file had it nowhere.**
 
 - **🚨🚨🚨 03:53 ICT SAT 22-AUG *(read from `date`)* · **THE ROOM MECHANISM I ASSERTED ONE HOUR AGO WAS
   TESTED ON INDEPENDENT DATA AND PASSED ON ALL THREE BANKS — AND THE SAME SOURCE CORRECTS ME: A DECREE
