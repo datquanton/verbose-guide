@@ -136,6 +136,48 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯 18:54 ICT FRI 21-AUG *(read from `date`)* · **AVAILABILITY IS PER-FIELD, NOT PER-SESSION** — today's
+  breadth, turnover and flows are all reachable and ONLY the index level is not. Plus an independent source
+  finally dates the 17-Aug ghost correctly (lane 4). Short entry.**
+
+  🚨🚨 **THE PATTERN, NOW MEASURED OVER FOUR HOURS AND FOUR DIFFERENTLY-SHAPED SEARCHES:**
+  | 21-Aug field | reachable? |
+  |---|---|
+  | morning index level & delta | ✅ **yes** *(12:54 — 1,726.35, −7.89)* |
+  | HOSE morning matched turnover | ✅ **yes** *(₫3,997bn)* |
+  | full-day breadth | ✅ **yes** *(97/220; 92 → 113 down >1%)* |
+  | two-board matched turnover | ✅ **yes** *(₫10,539bn, 50-session low)* |
+  | foreign flow, gross and net | ✅ **yes** *(₫729.7bn / −₫254.8bn)* |
+  | 🚨 **the CLOSING INDEX LEVEL** | 🚨 **NO — and two claimed values were refused, in OPPOSITE directions** |
+  🎯🎯 ***THIS IS NOT AN INDEXING LAG. 21-Aug content IS indexed — the 16:55 article cites this
+  morning's own "92". What is missing is ONE FIELD.*** **⇒ NEW CATALOGUE MEMBER: *AVAILABILITY IS
+  PER-FIELD, NOT PER-SESSION* — the sibling of the 17:54-Thursday finding that FRESHNESS is per-field.**
+  ⚠ **Practical consequence: "the close is not reachable" is the wrong shape of statement. The right one is
+  "the CLOSING LEVEL is not reachable while everything else about the session is" — and that is a
+  substantially more suspicious state of affairs than a lag.**
+
+  ✅ **AN INDEPENDENT SOURCE FINALLY DATES THE GHOST CORRECTLY, WHICH CLOSES A LOOP THIS FILE OPENED ON
+  18-AUG.** *A Vietnamese week-preview gives **17-Aug: 1,727.46, −1.62, −0.09%** and **14-Aug: 1,729.08,
+  −36.55, −2.07%** — both matching this file exactly (−1.62/1,729.08 = −0.094%; −36.55/1,765.63 = −2.070%).*
+  🎯 ***That 1,727.46 triple was served to me under an 18-AUG label, then under a 20-AUG label, and this
+  file resolved it to 17-Aug from arithmetic alone. A source that dates it correctly now confirms the
+  resolution rather than merely leaving it unchallenged.***
+
+  ⚠ **THE 21-AUG CLOSE REMAINS UNESTABLISHED — third distinct search shape (narrative wrap · close-focused ·
+  weekly recap), four hours past the close, against a measured ~3h lag.** *The weekly-recap shape returned
+  only PRE-WEEK previews, which is itself a route fact: the week's recap is not yet written.*
+
+  ✅ **LANES CHECKED:** 4 (index — above), 1 · 2 · 3 · 5 · 7 (nil since the last sweep; the record ₫25,600
+  fixing is logged at 13:54 and KDH's window closed with the session).
+  ⚠ **FTSE: STILL NOT PUBLISHED at 12:54 BST. Fifth anticipatory phrasing refused today, and the 00:54
+  timezone reading continues to hold.**
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing adopted beyond two corroborations of figures already on file.
+  Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — MON 24-AUG IS
+  SESSION 2. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Vietstock — phân tích kỹ thuật chứng khoán Việt Nam: tuần 17-21/08/2026](https://vietstock.vn/2026/08/phan-tich-ky-thuat-chung-khoan-viet-nam-tuan-17-21082026-585-1481195.htm) · [VOV — nhận định chứng khoán 17-21/8: VN-Index rung lắc, thử thách 1.700 điểm](https://vov.vn/thi-truong/nhan-dinh-chung-khoan-17-218-vn-index-rung-lac-thu-thach-1700-diem-post1324402.vov) · [ASEAN Securities — báo cáo cơ hội đầu tư tuần 17/08–21/08/2026](https://www.aseansc.com.vn/bao-cao-co-hoi-dau-tu-tuan-17-08-2026-21-08-2026-vung-ho-tro-gan-quanh-1-700-diem/)
+
 - **🚨🚨🚨 17:55 ICT FRI 21-AUG *(read from `date`)* · **THE BRIDGE TEST PASSED AND THE FIGURE IS
   STILL ALMOST CERTAINLY WRONG.** A limit of my own main tool, found twice in three hours and now
   characterised properly (lane 4).**
