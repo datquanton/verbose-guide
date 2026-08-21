@@ -136,6 +136,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 13:54 ICT FRI 21-AUG *(read from `date`; 51 min to the close)* · THE 21-AUG CENTRAL
+  RATE IS **₫25,600 — A NEW RECORD** — AND THE SAME ONE-LINE BRIDGE THAT **REJECTED** A FALSE PAIR AT 08:55
+  **CONFIRMS** THE TRUE ONE SIX HOURS LATER (lane 1).**
+
+  ✅✅ **THE PRINT: *"tỷ giá trung tâm LẦN ĐẦU CHẠM 25.600 đồng"* — the central rate touches ₫25,600 FOR THE
+  FIRST TIME, up ₫10.**
+  | test | |
+  |---|---|
+  | 25,600 − 10 | **= 25,590** |
+  | 25,590 is the fixing of… | ✅ **20-AUG, on file** |
+  | ⇒ | ✅✅ **CONFIRMED — and it settles the relabelling** |
+  🎯🎯 ***AT 08:55 A SOURCE GAVE "21-Aug at 08:00 → ₫25,590, −8" AND THE BRIDGE KILLED IT: 25,590 + 8
+  = 25,598, the 19-Aug fixing, so the pair belonged to 20-Aug. Six hours later the SAME TEST accepts ₫25,600
+  because 25,600 − 10 lands exactly on 20-Aug's 25,590.*** **A test that only ever rejects is a filter; one
+  that rejects the false and accepts the true on the same day is a measurement.**
+  ✅ **Band on the new fixing: ceiling ₫26,880, floor ₫24,320.**
+
+  🎯🎯 **AND IT UPGRADES LAST NIGHT'S MEASUREMENT TO A CLEAN, SAME-DAY-OF-MONTH WINDOW:**
+  | window | move | pace |
+  |---|---|---|
+  | **21-JUL ₫25,260 → 21-AUG ₫25,600** | **+₫340** | 🎯 **+1.346% over EXACTLY 30 DAYS** |
+  | *(yesterday's version, 21-Jul → 20-Aug)* | *+₫330* | *+1.306%* |
+  ✅ ***Same day of month, one month apart — the cleanest form of the administered-pace measure the file
+  now has, and it replaces a ragged 30-day proxy with an exact one.***
+
+  ✅✅ **AND IT VINDICATES A REFUSAL MADE TWENTY-FOUR HOURS AGO.** *Yesterday three nested windows showed the
+  pace falling monotonically — **1.372 → 1.165 → 0.749 %/30d** — and I wrote: **"I am not calling a
+  deceleration… each window is SHORTER than the one before, and a nested sequence of shrinking windows is
+  precisely the construction that manufactures an apparent trend out of noise."***
+  🚨 ***TODAY'S CLEAN 30-DAY FIGURE CAME IN AT +1.346%, HIGHER THAN YESTERDAY'S +1.306%. THE APPARENT
+  DECELERATION HAS ALREADY PARTLY REVERSED. HAD I CALLED IT, IT WOULD HAVE BEEN FALSIFIED INSIDE ONE DAY —
+  which is exactly what happened to the 16-Aug "FX leg turned" call that taught the file this shape.***
+  ⚠ **The 20-SEP pre-registration stands unchanged and is now measured from a better base: a genuine
+  deceleration shows as the 30-day pace on 20-Sep coming in below +1.31%.**
+
+  🎯 **THE SIGNATURE APPEARS AGAIN, AND THIS TIME THE HEADLINE ITSELF STATES IT: *"USD ngân hàng ĐI NGƯỢC
+  CHIỀU"* — the banks' USD rates moved in the OPPOSITE direction to the fixing.** *The fixing set a record on
+  a session when the dollar was reported sold off.* ***The file's own words: "an administered rate and a
+  market-facing quote diverging is exactly what you would expect; I recorded it as an anomaly when it was a
+  signature." It is now a signature a Vietnamese headline writer puts in the title.***
+
+  ⚠ **HOUSEKEEPING, FLAGGED BEFORE IT BITES — the second such collision in three days: ₫25,600 now exists in
+  this repo as TWO unrelated quantities — **VPX's share price at 10-Aug** and **the 21-Aug central rate**.**
+  *Different asset, different unit-of-meaning, same digits.* *(The first was ₫1,733bn — TCBS's Q2-2025 PBT
+  and VPX's Q2-2026 NPAT.)*
+
+  ✅ **LANES CHECKED:** 1 (macro/FX — above), 4 (index — **no close yet; the session ends at 14:45, 51
+  minutes from now, and the file's measured ~3h lag puts the close out of reach until ~17:45**), 3 · 7
+  (holdings — **KDH's insider-buy window closes with today's session**), 5 (steel — nil since 11:55).
+
+  🚨 **NO NEW TRIGGER FIRES — a macro print is not evidence about any company's numbers, so NO CONFIDENCE
+  MOVED. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — TODAY IS
+  SESSION 1 AND IT CLOSES IN 51 MINUTES; the FTSE list is due from London AFTER that close. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Thời báo Tài chính — tỷ giá USD hôm nay (21/8): tỷ giá trung tâm lần đầu chạm 25.600 đồng, USD ngân hàng đi ngược chiều](https://thoibaotaichinhvietnam.vn/ty-gia-usd-hom-nay-21-8-ty-gia-trung-tam-lan-dau-cham-25-600-dong-usd-ngan-hang-di-nguoc-chieu-202644.html) · [Thời Báo Ngân Hàng — sáng 21/7: NHNN niêm yết tỷ giá trung tâm ở mức 25.260 đồng *(the 30-day base)*](https://baomoi.com/sang-21-7-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25-260-dong-c55659607.epi) · [Thời Báo Ngân Hàng — sáng 11/8: 25.516 đồng](https://baomoi.com/sang-11-8-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25-516-dong-c55807030.epi) · [Thời Báo Ngân Hàng — sáng 24/7: 25.283 đồng](https://baomoi.com/sang-24-7-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25-283-dong-c55682975.epi)
+
 - **🚨🚨 12:54 ICT FRI 21-AUG *(read from `date`; lunch break, afternoon resumes in 6 min)* ·
   **HOSE MORNING TURNOVER IS AT A NINETEEN-MONTH LOW ON THE VERY MORNING FTSE IS DUE TO PUBLISH.** And a
   THIRD 20-Aug flow figure shows my own reconciliation an hour ago was under-determined (lane 4).**
