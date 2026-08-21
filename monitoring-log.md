@@ -136,6 +136,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯🎯 11:55 ICT FRI 21-AUG *(read from `date`; morning session closed 25 min ago)* · A DATED ORE
+  PRINT **POSITIVELY VERIFIES** LAST NIGHT'S REJECTION AND THE BASIS CAVEAT ATTACHED TO IT — and turns up a
+  BENCHMARK RESPECIFICATION the file does not hold (lane 5).**
+
+  ✅ **NEW, ZERO GENUINE PRIOR HITS** *(both `95.16` matches repo-wide are substrings inside article URLs)*:
+  **IRON ORE US$95.16/t AT 20-AUG-2026, −0.01% on the day, 62% Fe China-import benchmark.**
+  | date | ore | vs prior |
+  |---|---|---|
+  | 14-Aug | US$95.17 | — |
+  | 18-Aug | US$95.35 | +0.19% |
+  | **20-Aug** | **US$95.16** | **−0.20% from 18-Aug, −0.011% from 14-Aug** |
+  🎯 ***THE ORE LEG IS FLAT ACROSS SIX DAYS — a total move of ONE CENT against the 14-Aug anchor.***
+  **On the bridge's ₫0.34m per US$10/t that is −₫0.00034m/t. The standing three-blade reading is UNCHANGED at
+  ₫0.8632m/t (ore 95.17 · coal 225 · HRC 535). TRIGGER 1 NEGATIVE.**
+
+  ✅✅ **TWO THINGS FROM LAST NIGHT ARE NOW VERIFIED RATHER THAN INFERRED, WHICH IS WORTH MORE THAN EITHER
+  WAS AT THE TIME:**
+  | claim, 21:54 yesterday | status now |
+  |---|---|
+  | *"US$105.68 is impossible"* — rejected on tenor, on an implied CNY/USD of 6.737, and on a self-contradicting +10.8% | ✅ **CONFIRMED: against the 20-Aug print of 95.16 it was 11.1% HIGH** |
+  | *"DCE is not SGX"* — a basis caveat attached to a derived DCE-tracking estimate | ✅✅ **CONFIRMED ON THE SAME SESSION: DCE September +1.04% on 20-Aug while the seaborne 62% Fe index was −0.01%** |
+  🎯🎯 ***THE SECOND ONE MATTERS MORE THAN IT LOOKS. I attached "DCE is not SGX" as prudence, and
+  refused to carry the DCE move into the ore leg. On that very session the two moved in OPPOSITE directions
+  by 1.05 percentage points. The caveat was not decoration — it was load-bearing, and had I let the DCE
+  figure through I would have moved the ore leg the wrong way.***
+
+  🚨 **AND A BENCHMARK RESPECIFICATION THE FILE DOES NOT HOLD — WHICH, IF IT STANDS, REFRAMES A
+  CONCLUSION THIS FILE HAS REACHED FOUR TIMES.** *The same source states: **Platts changed the baseline
+  quality of its IODEX iron-ore benchmark from 62% Fe to 61% Fe on 2-JAN-2026.***
+  ⚠⚠ ***The file's established basis is 62% Fe, and it has repeatedly treated a 61% Fe quote as "the WRONG
+  GRADE" — a 05-Aug comparison was withdrawn on 06-Aug on exactly that ground.*** 🚨 **If Platts respecified,
+  then a 61% Fe quote in 2026 is not a mis-grade at all: it is the CURRENT PLATTS IODEX, a DIFFERENT INDEX
+  from the 62% Fe China-import series this file tracks — both legitimate, neither an error.**
+  ✅ **THE WITHDRAWAL WAS STILL RIGHT — the two series must not be mixed. But its stated REASON may be wrong,
+  and this file scores right-for-the-wrong-reason as a failure.** *A future reader told "61% Fe is the wrong
+  grade" would discard a valid benchmark instead of naming it.*
+  ⚠⚠ **NOT ADOPTED — ONE SOURCE, and the file's own rule is that a benchmark's definition is exactly the kind
+  of claim that needs a primary. WHAT WOULD SETTLE IT: a Platts/S&P methodology notice naming the effective
+  date. Recorded so the question exists; the 62% Fe series stands unchanged in the meantime.**
+
+  ⚠ **NO 21-AUG MORNING-SESSION DATA IS INDEXED at 11:55, 25 minutes after the break — expected on the file's
+  measured ~3h lag, and recorded as a route property rather than a miss.** ✅ *Re-confirmed only: FTSE's list
+  is due today and takes effect "one month later" — 21-Sep, consistent with the file.*
+
+  ✅ **LANES CHECKED:** 5 (steel — above; **ore/coal/HRC are ALL §4 human-only and NONE was written**),
+  4 (index — nil; no morning data), 1 (macro — **the 21-Aug central rate is STILL unestablished**),
+  3 · 7 (holdings — nil; **KDH's insider-buy window closes at today's 14:45 close, 2h50m from now**).
+
+  🚨 **NO NEW TRIGGER FIRES. TRIGGER 1 TESTED ON HPG's SPREAD AND NEGATIVE — a one-cent ore move is not
+  a print that moves anything. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5
+  REMAINS FIRED — TODAY IS SESSION 1. Trigger 2 STANDING-BREACHED. Trigger 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [TradingEconomics — iron ore price, chart and historical data](https://tradingeconomics.com/commodity/iron-ore) · [S&P Global Platts — specifications guide, global iron ore (PDF)](https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/metals/iron-ore-specifications.pdf) · [Fastmarkets — how is iron ore priced? VIU and index explainer](https://www.fastmarkets.com/insights/iron-ore-pricing-explained/) · [Phillip Nova — upcoming price adjustments for SGX TSI Iron Ore CFR China (62% Fe Fines) futures](https://www.phillipnova.com.sg/announcement/sgx-iron-ore-index-futures-price-adjustments/)
+
 - **🚨🎯🎯 10:55 ICT FRI 21-AUG *(read from `date`)* · **THE TEST I PRE-REGISTERED ONE HOUR AGO
   RESOLVED IN ONE HOUR — AGAINST MY OWN BEST-FITTING READING.** The streak ends 20-Aug and the basis is
   ALL THREE BOARDS (lane 4).**
