@@ -136,6 +136,69 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🚨🚨 17:55 ICT FRI 21-AUG *(read from `date`)* · **THE BRIDGE TEST PASSED AND THE FIGURE IS
+  STILL ALMOST CERTAINLY WRONG.** A limit of my own main tool, found twice in three hours and now
+  characterised properly (lane 4).**
+
+  🚨 **THE FIGURE: *"VN-Index closed at **1,768.12**, up **33.88** points, **+1.95%**"* — with the headline
+  *"cuối tuần chỉ số VN-Index **thăng hoa**, thị trường **rực sắc tím**"* (end of week, soaring, the market
+  awash in ceiling-purple).**
+  ✅ **AND IT PASSES THE BRIDGE TEST CLEANLY: 1,768.12 − 33.88 = **1,734.24**, EXACTLY the on-file 20-Aug
+  close, and 33.88 / 1,734.24 = **1.954%**.** *Self-consistent, and it lands on my dated anchor to the dong.*
+
+  🚨🚨 **AND IT CONTRADICTS EVERYTHING ELSE I HAVE FOR TODAY, WHICH IS A THREE-SOURCE CHAIN:**
+  | today's corroborated cluster | |
+  |---|---|
+  | morning close *(12:54)* | **1,726.35, −7.89** |
+  | HOSE morning matched *(12:54)* | **₫3,997bn**, lowest morning since 24-Jan-2025 |
+  | stocks down >1% | **92 morning → 113 full day** *(16:55 source cites the 92 — which is how the chain links)* |
+  | breadth *(16:55)* | **97 up · 220 down** |
+  | two-board matched *(16:55)* | **₫10,539bn**, lowest in 50 sessions |
+  ⚠⚠ ***A close of 1,768.12 requires a +41.77-point, +2.42% AFTERNOON RALLY off the morning close — with 220
+  stocks down and turnover at a fifty-session low. Widespread ceilings and record-low turnover are not
+  compatible.***
+
+  🎯🎯 **THE PROBABLE IDENTITY, AND THE ARITHMETIC IS UNCOMFORTABLY NEAT: THE FILE HOLDS
+  **07-AUG = 1,768.06**. 1,768.06 − 33.88 = **1,734.18** — which sits **0.06** from the 20-Aug close of
+  1,734.24, the SAME 0.06 that separates 1,768.12 from 1,768.06.**
+  | base | implied % |
+  |---|---|
+  | 1,734.24 *(20-Aug)* | **1.9536%** |
+  | 1,734.18 *(the 07-Aug hypothesis)* | **1.9537%** |
+  🚨 ***THE TWO CANDIDATE PRIOR CLOSES ARE 0.06 APART, SO THE BRIDGE TEST CANNOT SEPARATE THEM. And the
+  NARRATIVE fits 07-Aug: a Friday surge into ceilings, on a session this file already records as a high
+  point.*** ⚠ **Stated as the leading candidate, NOT as fact — I do not hold the 06-Aug close, so the
+  ₫1,734.18 base is inferred rather than verified.**
+
+  🚨🚨🚨 **THE FINDING THAT MATTERS IS ABOUT THE TOOL, NOT THE FIGURE. THE BRIDGE TEST VERIFIES
+  ARITHMETIC CONSISTENCY WITH *A* PRIOR CLOSE — IT DOES NOT VERIFY THAT THE SESSION IS THE ONE CLAIMED.**
+  *A summariser working from the correct prior close can generate a perfectly bridging triple for the WRONG
+  DAY, and so can a genuinely-dated article about a different session whose base happens to sit near mine.*
+  ⚠⚠ **IT FAILED THIS WAY TWICE IN THREE HOURS: at 16:55 the candidate bases were **2.22 points** apart and
+  the test went silent; now they are **0.06** apart and it actively PASSED a figure that is almost certainly
+  not today's.**
+  ✅✅ **THE COMPANION CHECK THE TEST NEEDS, AND IT IS ONE LINE: *IS THE IMPLIED PRIOR CLOSE UNIQUE AMONG
+  RECENT CLOSES?* If two or more sessions in the last month closed within a point of it, the bridge proves
+  nothing and the figure must be settled some other way.** ***A test that can only ever confirm is not a
+  test; today it confirmed, and it was wrong.***
+
+  ⚠ **SECOND REFUSAL OF TODAY'S CLOSE IN TWO HOURS, AND THE TWO CLAIMS DISAGREE IN DIRECTION — **−5.33**
+  (16:55, verbatim the 19-Aug close) and **+33.88** (now). ***Two mutually exclusive claims about the same
+  session are themselves evidence that neither is established.*** **THE 21-AUG CLOSE REMAINS UNESTABLISHED,
+  and it is now 3h10m past the close against a measured ~3h lag — so the lag itself is no longer the
+  explanation.**
+
+  ✅ **LANES CHECKED:** 4 (index — above), 1 (macro — record ₫25,600 fixing logged 13:54), 3 · 7 (holdings —
+  nil; KDH's window closed with the session), 5 (steel — nil since 11:55).
+  ⚠ **FTSE: STILL NOT PUBLISHED. It is 11:54 BST — London is mid-session, and index-review announcements come
+  after its close, exactly as the 00:54 reading said. Fourth anticipatory phrasing refused today.**
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing was adopted. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH,
+  VCI, TCX. Trigger 5 REMAINS FIRED — SESSION 1 COMPLETE; MON 24-AUG IS SESSION 2 with the CORE preliminary
+  and, on this file's reading, the FTSE list. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Tạp chí Kinh tế Tài chính — cuối tuần chỉ số VN-Index thăng hoa, thị trường rực sắc tím *(cited as the ARTEFACT — its triple is refused)*](https://tapchikinhtetaichinh.vn/cuoi-tuan-chi-so-vn-index-thang-hoa-thi-truong-ruc-sac-tim-165103.html) · [VnEconomy — thanh khoản thấp kỷ lục 50 phiên](https://baomoi.com/thanh-khoan-thap-ky-luc-50-phien-c55865619.epi) · [Thời Báo Ngân Hàng — thanh khoản cạn kiệt, VN-Index tìm điểm cân bằng](https://thoibaonganhang.vn/thanh-khoan-can-kiet-vn-index-tim-diem-can-bang-186400.html)
+
 - **🚨🎯🎯 16:55 ICT FRI 21-AUG *(read from `date`)* · AN ARTICLE THAT IS **GENUINELY TODAY'S**
   AND STILL CARRIES A **STALE INDEX LINE** — the second application of "freshness is per-field, not
   per-article", and the first to a Vietnamese market wrap (lane 4).**
