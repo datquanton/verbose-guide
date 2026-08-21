@@ -136,6 +136,60 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯🎯 15:54 ICT FRI 21-AUG *(read from `date`; close was 1h09m ago)* · THE RULE I WROTE THREE
+  HOURS AGO IMMEDIATELY STOPPED ME MAKING AN ERROR — and the same ambiguity turns out to have a SECOND
+  DIMENSION I had not named (lane 4).**
+
+  ✅ **NEW, ZERO GENUINE PRIOR HITS** *(the one `729.7`/`254.8` match repo-wide is a URL substring)*:
+  | 21-Aug foreign flow, **HOSE** | |
+  |---|---|
+  | **gross SELL** | **₫729.7bn** — **−13% d/d**, and the **LOWEST IN 25 SESSIONS** |
+  | **NET** | **−₫254.8bn** |
+  | ⇒ implied gross BUY *(derived)* | **₫474.9bn** |
+  ✅ *Cross-checks: the −13% implies a prior-day gross of ~₫838.7bn; today's net is **41.6% smaller** than
+  20-Aug's HOSE net of −₫436.55bn. **Foreign investors did not sell harder into the FTSE date — they
+  traded LESS.***
+
+  🚨🚨 **AND HERE IS WHERE THE 12:54 RULE EARNED ITSELF, THREE HOURS OLD.** *The obvious move is to
+  extend the streak: ₫3,400bn over 7 sessions **plus** today's ₫254.8bn = "₫3,654.8bn over 8".*
+  ⚠⚠ ***THAT ADDITION IS FORBIDDEN AND THE RULE SAYS WHY: ₫3,400bn is stated "across THREE EXCHANGES" and
+  ₫254.8bn is stated "on HOSE". Both bases are explicit, they differ, and the sum is meaningless.***
+  ✅ **What CAN be said: if today was a net sell — and it was — the consecutive-net-selling streak now runs to
+  EIGHT sessions. The COUNT extends; the CUMULATIVE does not.**
+  🎯 ***A rule that only ever fires on other people's numbers is a rhetorical device. This one fired on
+  the very next figure I wanted to use, and the figure was mine to compute.***
+
+  🎯🎯 **A SECOND DIMENSION TO THE SAME AMBIGUITY, WHICH I DID NOT NAME AT 12:54.** *This hour's
+  source describes **₫3,997bn** as "the HoSE trading session" total. At 12:54 I recorded it as the **MORNING**
+  figure.*
+  ✅ **THE INTERNAL EVIDENCE SETTLES IT AND IT IS IN THE SENTENCE ITSELF: the figure is described as the first
+  below ₫4,000bn *"since the MORNING SESSION of 24-Jan-2025"*. You compare like with like — a full-day total
+  would be compared against a full day.** ⇒ **₫3,997bn is a MORNING figure; my 12:54 reading STANDS and this
+  hour's "session" restatement is loose.**
+  ⚠⚠ ***SO THE RULE NEEDS WIDENING: at 12:54 I wrote it about the BOARD basis (HOSE vs three exchanges).
+  Today shows the identical ambiguity on the SESSION dimension (morning vs full day), from the same publisher
+  set, on the same day. A Vietnamese market figure needs BOTH marked — board AND session scope — unless the
+  source states them.*** ⚠ **Consequently today's ₫729.7bn / ₫254.8bn are recorded with board = HOSE
+  (stated) and SESSION SCOPE = UNKNOWN, because the same piece mixes a morning turnover figure with a
+  "vs the previous day" flow comparison.**
+
+  ⚠ **THE 21-AUG CLOSE IS STILL NOT ESTABLISHED — no index level was returned, 69 minutes after the close,
+  against the file's measured ~3h indexing lag which puts it near 17:45.** *The spliced "−32.42 / −2.07%"
+  pair refused at 14:53 has not reappeared and is not revived by anything here.*
+  ⚠ **FTSE: still *"was EXPECTED to announce"* — the list is NOT confirmed published.** *It is 09:54 BST in
+  London; index-review announcements come after its close, as the 00:54 reading said.*
+
+  ✅ **LANES CHECKED:** 4 (index & flows — above), 1 (macro — the record ₫25,600 fixing is logged; nothing
+  further), 3 · 7 (holdings — **KDH's insider-buy window CLOSED with today's session; an execution report is
+  due within five working days and its absence until then is uninformative**), 5 (steel — nil since 11:55).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing here is a model input. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES —
+  VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — SESSION 1 IS COMPLETE; MON 24-AUG IS SESSION 2, carrying the
+  CORE circumvention preliminary and, on this file's timezone reading, the FTSE list. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Thương gia Online — thanh khoản xuống thấp trước giờ FTSE công bố danh mục](https://thuonggiaonline.vn/thanh-khoan-xuong-thap-truoc-gio-ftse-cong-bo-danh-muc-kich-ban-but-pha-con-bo-ngo-post572423.html) · [Xa Luận — thị trường "tắt" thanh khoản, sắc đỏ tràn ngập](https://www.xaluannews.com/modules.php?name=News&file=article&sid=3748138) · [VnEconomy — diễn biến thị trường chứng khoán hôm nay](https://vneconomy.vn/thi-truong-chung-khoan.htm) · [CafeF — thanh khoản chứng khoán xuống thấp nhất 1 tháng *(17-Aug, for the trend context)*](https://cafef.vn/thanh-khoan-chung-khoan-xuong-thap-nhat-1-thang-188260817151907154.chn)
+
 - **🚨🎯🎯 13:54 ICT FRI 21-AUG *(read from `date`; 51 min to the close)* · THE 21-AUG CENTRAL
   RATE IS **₫25,600 — A NEW RECORD** — AND THE SAME ONE-LINE BRIDGE THAT **REJECTED** A FALSE PAIR AT 08:55
   **CONFIRMS** THE TRUE ONE SIX HOURS LATER (lane 1).**
