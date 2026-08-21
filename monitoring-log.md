@@ -136,6 +136,66 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🚨 12:54 ICT FRI 21-AUG *(read from `date`; lunch break, afternoon resumes in 6 min)* ·
+  **HOSE MORNING TURNOVER IS AT A NINETEEN-MONTH LOW ON THE VERY MORNING FTSE IS DUE TO PUBLISH.** And a
+  THIRD 20-Aug flow figure shows my own reconciliation an hour ago was under-determined (lane 4).**
+
+  ✅ **THE 21-AUG MORNING SESSION — ALL THREE FIGURES NEW, AND THE INDEX BRIDGES EXACTLY:**
+  | | |
+  |---|---|
+  | **VN-Index, morning close** | **1,726.35**, **−7.89 pts, −0.46%** |
+  | ✅ **bridge test** | 1,734.24 *(20-Aug close, on file)* − 7.89 = **1,726.35 exactly**, and −7.89/1,734.24 = **−0.455%** |
+  | **breadth** | **80 up · 212 down**, of which **92 fell more than 1%** |
+  | 🚨 **HOSE matched turnover** | **~₫3,997bn**, excluding agreed deals |
+
+  🚨🚨 **THE LIQUIDITY NUMBER IS THE STORY: THE FIRST MORNING BELOW ₫4,000bn SINCE **24-JAN-2025** —
+  the last session before the Tết break. NINETEEN MONTHS.** *It is **34.0%** of the previous FULL day's matched
+  turnover (₫11,755bn, itself already the lowest in 24 sessions), so today is on track to be thinner still.*
+  ⚠⚠ ***AND IT IS HAPPENING ON THE MORNING FTSE RUSSELL IS DUE TO PUBLISH ITS CONSTITUENT LIST. A market at a
+  nineteen-month liquidity low, going into the catalyst everyone has been waiting for, is the opposite of
+  positioning ahead of an event.***
+
+  🎯 **AND THAT CUTS BOTH WAYS ON THE FLOW THESIS, WHICH IS WORTH SAYING BECAUSE THE FILE HAS ONLY EVER
+  SIZED THE TRANCHE IN DOLLARS:** *the September first tranche of ~US$145m is **₫3,711bn** at the 20-Aug
+  fixing.*
+  | against | tranche is |
+  |---|---|
+  | 20-Aug full-day matched ₫11,755bn | **31.6%** |
+  | a projected thinner day ~₫9,500bn | **39.1%** |
+  ***A fixed-size flow into a thinning market is a LARGER share of turnover, not a smaller one. The file has
+  argued about whether US$145m is big; it has never asked "big relative to WHAT", and the denominator has
+  been falling all week.*** ⚠ **CAVEAT ATTACHED: the tranche spreads across ~26 names and index flows execute
+  largely in the closing auction, a separate liquidity pool — so this overstates per-name impact and is a
+  SCALE comparison, not an impact estimate.**
+
+  🚨🚨 **A THIRD 20-AUG FOREIGN-FLOW FIGURE, AND IT CORRECTS MY OWN REASONING FROM ONE HOUR AGO.**
+  | basis, as labelled | 20-Aug |
+  |---|---|
+  | HOSE *(16:54 Thu)* | **−₫436.55bn** |
+  | "across three exchanges" *(10:55 today)* | **−₫555bn** |
+  | **"at the close"** *(NEW)* | **−₫617bn** |
+  ⚠⚠ ***AT 10:55 I WROTE THAT ₫555bn vs ₫436.55bn "RECONCILES IN THE RIGHT DIRECTION" AND ATTRIBUTED THE
+  ₫118.45bn GAP TO HNX+UPCOM. THAT WAS AN ASSUMPTION PRESENTED AS A DEMONSTRATION.*** **The same gap is
+  equally explained by MATCHED-versus-AGREED on HOSE alone — and the third figure makes that explicit.**
+  ✅ *A coherent assignment does exist — HOSE matched 436.55 < all-boards matched 555, with HOSE total 617 —
+  and every inequality holds. **But it is an assignment I constructed, not one any source stated**, and the
+  one cross-section that would test it (all-boards TOTAL) is exactly the one never reported.*
+  🎯 ***THIRD INSTANCE OF THIS EXACT AMBIGUITY IN THREE DAYS — the 19-Aug ₫768bn/₫250.12bn pair, the
+  20-Aug pair, and now a triple. The lesson is no longer "check the basis": it is that THIS PUBLISHER SET
+  NEVER STATES ONE, so any Vietnamese foreign-flow figure should be recorded with its basis marked UNKNOWN
+  unless the source says otherwise.***
+
+  ✅ **LANES CHECKED:** 4 (index & flows — above), 1 (macro — **the 21-Aug central rate is STILL
+  unestablished, five hours after its ~08:00 publication time**), 3 · 7 (holdings — no per-name morning data;
+  **KDH's insider-buy window closes at today's 14:45 close, 1h51m from now**), 5 (steel — nil since 11:55).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing here is a model input. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES —
+  VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — TODAY IS SESSION 1, THE AFTERNOON RESUMES IN MINUTES, AND
+  THE FTSE LIST IS DUE FROM LONDON AFTER VIETNAM'S CLOSE. Trigger 2 STANDING-BREACHED. Triggers 1 and 3
+  negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Thương gia Online — thanh khoản xuống thấp trước giờ FTSE công bố danh mục, kịch bản bứt phá còn bỏ ngỏ](https://thuonggiaonline.vn/thanh-khoan-xuong-thap-truoc-gio-ftse-cong-bo-danh-muc-kich-ban-but-pha-con-bo-ngo-post572423.html) · [Xa Luận — thị trường "tắt" thanh khoản, sắc đỏ tràn ngập](https://www.xaluannews.com/modules.php?name=News&file=article&sid=3748138) · [Thời báo Tài chính — chứng khoán ngày 20/8: VN-Index lấy lại sắc xanh, thanh khoản tiếp tục suy giảm](https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-20-8-vn-index-lay-lai-sac-xanh-thanh-khoan-tiep-tuc-suy-giam-202625.html)
+
 - **🎯🎯 11:55 ICT FRI 21-AUG *(read from `date`; morning session closed 25 min ago)* · A DATED ORE
   PRINT **POSITIVELY VERIFIES** LAST NIGHT'S REJECTION AND THE BASIS CAVEAT ATTACHED TO IT — and turns up a
   BENCHMARK RESPECIFICATION the file does not hold (lane 5).**
