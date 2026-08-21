@@ -113,6 +113,15 @@ def main():
     # not evidence the row is current.
     print("\nnote: event-conditioned rows carry no date and are not audited above.")
 
+    passed = deadlines(as_of)
+    if passed:
+        print(f"\nPASSED OBLIGATIONS ({len(passed)}) -- curated register, human-only:")
+        for when, what, why in passed:
+            print(f"  {when.isoformat()} ({(as_of - when).days}d overdue) -- {what}")
+            print(f"      {why}")
+    else:
+        print("\npassed obligations: none")
+
     stale = value_drift()
     if stale:
         print(f"\nVALUE DRIFT ({len(stale)}) -- the row and the log disagree:")
@@ -146,6 +155,32 @@ WATCH = [
     ("HPG domestic rebar, CB240 / D10 CB300", 53, r"₫\*?\*?(1[45],\d{3})/kg"),
     ("HPG HRC volume offer, CFR HCMC", 25, r"\*\*(\d{3}) CFR HCMC\*\*"),
 ]
+
+
+# A deadline stated in a row's BODY is invisible to the re-open check above,
+# which reads only the last cell. I first tried a general parser for "due by
+# <date>" and it FAILED on the case that motivated it: row 59 says the item-38
+# re-derivation is "due by THIS DATE" -- referential, with the date elsewhere in
+# the row -- so it parsed nothing, while matching my own annotation prose and
+# producing one false positive instead.
+#
+# Curated beats general in this file; that is now three for three. So this is a
+# hand-maintained register of dated obligations, each with the reason it cannot
+# be discharged by an automated run.
+DEADLINES = [
+    (
+        datetime.date(2026, 8, 10),
+        "MBB item 38: fy26e_npat REQUIRES HUMAN RE-DERIVATION",
+        "Section 4 human-only. Stored {bear 28,000, base 30,500, bull 33,000}. "
+        "Two broker FY26 PBT estimates found 21-Aug imply NPAT of 31,527bn "
+        "(VPBankS) and 34,595bn (VCBS) at a 20% rate -- the base sits BELOW both "
+        "and the bull sits BELOW the higher one. Largest E[r] in the book.",
+    ),
+]
+
+
+def deadlines(as_of):
+    return [(when, what, why) for when, what, why in DEADLINES if when < as_of]
 
 
 STRUCK_RE = re.compile(r"~~.*?~~", re.S)

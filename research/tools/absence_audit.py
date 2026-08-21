@@ -44,6 +44,7 @@ Usage:  python3 research/tools/absence_audit.py
 
 import io
 import json
+import re
 import sys
 
 ASSUMPTIONS = "research/models/assumptions.json"
@@ -144,11 +145,35 @@ DEFERRAL_MARKERS = (
 )
 
 
+# The queue searches a log that also DESCRIBES the queue. On its second day,
+# six of the twelve newest hits were this tool's own write-up quoting its own
+# markers, and the signal fell from 5-in-6 to about 1-in-12. A detector whose
+# documentation lives inside its own search space will eventually return only
+# itself -- the same self-referential defect as a checker that flags the row it
+# has just fixed.
+SELF_REFERENCE = ("absence_audit", "DEFERRAL_MARKERS", "deferral queue", "EXPLICIT DEFERRAL")
+
+
+QUOTED_SPAN = re.compile(r'"[^"]*"|`[^`]*`|\u201c[^\u201d]*\u201d')
+
+
+def _is_quoted(line, marker):
+    """True when the marker sits inside a quoted SPAN, not just beside a quote mark.
+
+    Adjacency was not enough: this file quotes whole phrases -- *"logged, NOT
+    CHASED"* -- so the quote marks sit several words away from the marker, and
+    an adjacency test let four of the tool's own sentences back into its queue.
+    """
+    return any(marker in span.group(0) for span in QUOTED_SPAN.finditer(line))
+
+
 def deferrals(limit=12):
     out = []
     for number, line in enumerate(io.open(LOG, encoding="utf-8"), start=1):
+        if any(token in line for token in SELF_REFERENCE):
+            continue
         for marker in DEFERRAL_MARKERS:
-            if marker in line:
+            if marker in line and not _is_quoted(line, marker):
                 out.append((number, marker, line.strip()[:150]))
                 break
         if len(out) >= limit:

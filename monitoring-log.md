@@ -136,6 +136,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🚨🚨 20:54 ICT FRI 21-AUG *(read from `date`)* · **A §4 HUMAN-ONLY OBLIGATION ON THE
+  BOOK'S LARGEST POSITION IS ELEVEN DAYS OVERDUE AND HAS NOT BEEN MENTIONED IN TEN THOUSAND LINES.** Found
+  by the deferral queue — but only after I denoised the queue, which had started returning its own
+  documentation (lane 3, process).**
+
+  🚨🚨 **THE OBLIGATION: *"Item 38's instruction that `fy26e_npat` REQUIRES HUMAN RE-DERIVATION is due
+  by this date"* — due **10-AUG**, on MBB.** ✅ **VERIFIED STILL OUTSTANDING: `valuation.MBB.fy26e_npat` is
+  unchanged at **{bear 28,000 · base 30,500 · bull 33,000}**, and the newest dated note anywhere in MBB's
+  valuation block is **07-Aug** — three days BEFORE the deadline.**
+  ⚠⚠ ***The file has written roughly ten thousand lines of entries since, and item 38 appears in none of
+  them. It survives only in gate row 59, phrased as "due by this date" — a deadline that reads as pending
+  forever once its date has passed.***
+
+  🎯🎯 **AND I CAN HAND THE HUMAN THE ARITHMETIC, WHICH IS WHAT AN ESCALATION SHOULD CONTAIN.**
+  *Last night's two broker FY26 PBT estimates, taxed at 20%:*
+  | source | FY26 PBT | ⇒ NPAT | vs stored |
+  |---|---|---|---|
+  | **VPBankS** | ₫39,409bn | **₫31,527bn** | 🚨 **ABOVE base 30,500 (+3.4%)**, below bull |
+  | **VCBS** | ₫43,244bn | **₫34,595bn** | 🚨 **ABOVE bull 33,000 (+4.8%)** |
+  | *MBB's own +15% guidance* | ~₫39,406–39,685bn | *₫31,525–31,748bn* | *also above base* |
+  🚨 ***THE STORED BASE SITS BELOW ALL THREE, AND THE BULL SITS BELOW THE HIGHER BROKER. THE DISTRIBUTION
+  LOOKS TOO LOW.*** **Direction: a higher `fy26e_npat` raises `cap_target` and therefore RAISES MBB's E[r] —
+  already first in the book at +36.6% with the largest proposed ADD (+6.8pp), so this would widen a lead
+  rather than reorder anything.** ⚠ **NOT APPLIED. `fy26e_npat` is §4 human-only and so is `probs`.**
+
+  🚨 **WHY NEITHER TOOL SAW IT, AND BOTH REASONS ARE MINE.**
+  *(1)* **`gate_audit.py` reads only the RE-OPEN column. This deadline lives in the row BODY.**
+  *(2)* **The deferral queue was drowning in its own write-up: six of twelve newest hits were the 06:56 entry
+  that CREATED the tool, quoting its own markers. Signal fell from 5-in-6 on day one to about 1-in-12 on day
+  two.** ***A detector whose documentation lives inside its own search space will eventually return only
+  itself*** — the same self-referential defect as a checker that flags the row it has just fixed, which this
+  file caught on the gate audit two days ago. **Second instance in three days.**
+  ✅ **FIXED: self-reference tokens excluded, and quotation detected by SPAN rather than adjacency** *(this
+  file quotes whole phrases — `*"logged, NOT CHASED"*` — so the quote marks sit words away from the marker
+  and adjacency let four of the tool's own sentences back in)*. **Queue 12 → 8; the residue is one known
+  semantic false positive and one two-line wrap the line-based scan cannot span, both stated.**
+
+  ⚠🎯 **AND I TRIED A GENERAL PARSER FOR BODY DEADLINES, WHICH FAILED ON THE VERY CASE THAT MOTIVATED
+  IT — RECORDED RATHER THAN QUIETLY DROPPED.** *Row 59 says "due by **THIS DATE**" — referential, with the
+  date elsewhere in the row — so it parsed nothing, while matching my own annotation prose and producing one
+  FALSE POSITIVE.* ✅ **REPLACED WITH A CURATED, HAND-MAINTAINED REGISTER of dated obligations, each carrying
+  the reason it cannot be discharged automatically.** ***Curated has now beaten general three times in this
+  file — the value-drift watchlist, the absence claims, and now this. The general parser is the tempting
+  build and the curated list is the one that works.***
+
+  ✅ **LANES CHECKED:** 3 (holdings — MBB above), 5 (property/bonds — **NOT searched: rows 46 and 47 are
+  fenced on an issuer or HNX filing and say explicitly "NOT another general search", so a general sweep is
+  what those rows forbid**), 4 · 1 · 2 (nil; and per 19:54 I did NOT spend a search on the same-day closing
+  level).
+
+  🚨 **🚨 NO NEW TRIGGER FIRES — but the §4 QUEUE NOW CARRIES A DATED, OVERDUE OBLIGATION ON THE
+  LARGEST POSITION, WITH THE ARITHMETIC ATTACHED. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH,
+  VCI, TCX. Trigger 5 REMAINS FIRED — MON 24-AUG IS SESSION 2. Trigger 2 STANDING-BREACHED. Triggers 1 and
+  3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  ⚠ **FTSE: not published at 14:54 BST; London closes 16:30 BST = 22:30 ICT.**
+
 - **⚠🎯 19:54 ICT FRI 21-AUG *(read from `date`)* · **I OVER-READ MY OWN FINDING AN HOUR AGO.** The
   per-field availability pattern has a boring mechanism, and a fourth search shape supplies it — along with
   independent confirmation of the anchor every bridge test today has rested on (lane 4).**
