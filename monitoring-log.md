@@ -136,6 +136,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🚨🎯🎯 16:55 ICT FRI 21-AUG *(read from `date`)* · AN ARTICLE THAT IS **GENUINELY TODAY'S**
+  AND STILL CARRIES A **STALE INDEX LINE** — the second application of "freshness is per-field, not
+  per-article", and the first to a Vietnamese market wrap (lane 4).**
+
+  ✅✅ **ADOPTED — and the reason it can be adopted is decisive: the article EXPLICITLY REFERENCES THIS
+  MORNING'S OWN FIGURE.** *It reports stocks down sharply rising to **113 mã** "so với **phiên sáng là 92 mã**"
+  — and **92** is exactly what this file recorded at 12:54 for the 21-Aug morning. **The article is dated
+  today and is about today.***
+  | 21-Aug, adopted | |
+  |---|---|
+  | **HOSE + HNX matched value** | 🚨 **₫10,539bn — first time in FIFTY SESSIONS the two boards have fallen back to the "đầu 10" handle** |
+  | nearest prior low | **11-Jun-2026, ₫10,086bn** *(today is 4.49% above it)* |
+  | **breadth** | **97 up · 220 down**; stocks down >1% **92 (morning) → 113 (full day)** |
+
+  🚨🚨 **REFUSED — THE INDEX PAIR. *"đóng cửa giảm 0,31% (−5,33 điểm)"* IS, VERBATIM, THIS FILE'S
+  **19-AUG** CLOSE: "VN-Index 1,726.69 on 19-AUG, −5.33 pts, −0.31%."**
+  ⚠ **AND INTERNAL CONSISTENCY CANNOT DISCRIMINATE IT, WHICH IS WHY THIS ONE IS HARDER THAN THE OTHERS:**
+  *−5.33 / 1,732.02 (18-Aug base) = **−0.308%**; −5.33 / 1,734.24 (20-Aug base) = **−0.307%**. **Both round to
+  −0.31%.** The bridge test that killed four earlier relabellings is SILENT here, because the two candidate
+  bases are 2.22 points apart.*
+  🎯 ***So the discriminator has to be the prior: (−5.33, −0.31%) is a triple this file already holds,
+  dated, for a session two days ago. The file's own rule — "when the label and the values disagree, the
+  values win" — points at 19-Aug.***
+  ⚠⚠ **BUT IT CANNOT BE FALSIFIED EITHER, AND I SAY SO RATHER THAN PRETENDING THE CASE IS CLOSED.** *A close
+  of 1,728.91 implies the afternoon RECOVERED +2.56 from the morning's 1,726.35 — **while breadth
+  DETERIORATED**, 92 → 113 stocks down more than 1%. **That combination is not absurd: this file watched
+  exactly that shape on 20-Aug, when VIC and the banks lifted the index 7.55 points on a narrow tape.***
+  ✅ **VERDICT: THE 21-AUG CLOSE REMAINS UNESTABLISHED. The breadth and liquidity are today's; the index line
+  is not established as today's.** ***An article can be genuinely dated today and still contain a stale
+  field — which is the 17:54-Thursday catalogue member, and this is its second sighting.***
+
+  🚨 **THE BASIS RULE BIT A THIRD TIME TODAY, AND IT IS NOW ROUTINE RATHER THAN NOTABLE.** *The tempting
+  line is "turnover fell from ₫11,755bn to ₫10,539bn."* ⚠⚠ ***₫11,755bn is HOSE ALONE (20-Aug); ₫10,539bn is
+  HOSE + HNX (today). Different board sets — the difference is not computable.*** *Board basis at 12:54,
+  session scope at 15:54, board basis again now.*
+  ✅ **WHAT IS COMPARABLE, BECAUSE BOTH ARE TODAY'S TWO-BOARD FIGURE: the FTSE September first tranche of
+  ₫3,711bn is **35.2%** of today's ₫10,539bn matched value** — up from the 31.6% computed at 12:54 against a
+  larger denominator. ***The tranche has not grown; the market has shrunk under it.***
+
+  ⚠ **THIRD DIGIT COLLISION IN FOUR DAYS: ₫10,539bn is ALSO, in this repo, a company's H1 after-tax profit.**
+  *(After ₫1,733bn and ₫25,600.)* ***The rate of these is now high enough that a bare-number grep should be
+  treated as a coincidence generator by default, not as a search.***
+
+  ⚠ **FTSE STILL NOT CONFIRMED PUBLISHED.** *A source phrases it as completed — "ngày 21/8/2026, FTSE Russell
+  **công bố** danh mục chính thức" — but carries NO LIST CONTENTS, and it is **10:55 BST**, mid-morning in
+  London, against a convention of announcing after the close.* **Anticipatory phrasing, third instance today.**
+
+  ✅ **LANES CHECKED:** 4 (index & flows — above), 1 (macro — record ₫25,600 fixing logged at 13:54), 3 · 7
+  (holdings — **KDH's window closed with today's session; an execution report is due within five working days
+  and silence until then is uninformative**), 5 (steel — nil since 11:55).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing here is a model input. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES —
+  VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — SESSION 1 IS COMPLETE; MON 24-AUG IS SESSION 2, carrying the
+  CORE circumvention preliminary and, on this file's timezone reading, the FTSE list. Trigger 2
+  STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [VnEconomy — thanh khoản thấp kỷ lục 50 phiên](https://baomoi.com/thanh-khoan-thap-ky-luc-50-phien-c55865619.epi) · [Thời Báo Ngân Hàng — thanh khoản cạn kiệt, VN-Index tìm điểm cân bằng](https://thoibaonganhang.vn/thanh-khoan-can-kiet-vn-index-tim-diem-can-bang-186400.html) · [Dân trí — chứng khoán Việt Nam thận trọng trước thông tin quan trọng](https://dantri.com.vn/kinh-doanh/chung-khoan-viet-nam-than-trong-truoc-thong-tin-quan-trong-20260819190944894.htm) · [Thương gia Online — thanh khoản xuống thấp trước giờ FTSE công bố danh mục](https://thuonggiaonline.vn/thanh-khoan-xuong-thap-truoc-gio-ftse-cong-bo-danh-muc-kich-ban-but-pha-con-bo-ngo-post572423.html)
+
 - **🎯🎯 15:54 ICT FRI 21-AUG *(read from `date`; close was 1h09m ago)* · THE RULE I WROTE THREE
   HOURS AGO IMMEDIATELY STOPPED ME MAKING AN ERROR — and the same ambiguity turns out to have a SECOND
   DIMENSION I had not named (lane 4).**
