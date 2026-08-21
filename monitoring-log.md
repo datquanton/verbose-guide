@@ -136,6 +136,54 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **⚠🎯 19:54 ICT FRI 21-AUG *(read from `date`)* · **I OVER-READ MY OWN FINDING AN HOUR AGO.** The
+  per-field availability pattern has a boring mechanism, and a fourth search shape supplies it — along with
+  independent confirmation of the anchor every bridge test today has rested on (lane 4).**
+
+  🎯 **THE ANCHOR IS NOW CONFIRMED FROM A SECOND, INDEPENDENT, ENGLISH-LANGUAGE SOURCE: TradingEconomics
+  gives VN-Index **1,734 on 20-Aug, +0.44%** — matching this file's adopted **1,734.24, +7.55, +0.44%** to the
+  rounding.** ***Every bridge test run today — four rejections and one acceptance — hangs on that number, and
+  until now it rested on Vietnamese coverage alone.***
+
+  ⚠⚠ **AND THE SAME SOURCE HAS 20-AUG BUT NOT 21-AUG. FOURTH SHAPE, FOURTH FAILURE ON THE CLOSING LEVEL:**
+  *Vietnamese narrative wrap · Vietnamese close-focused · Vietnamese weekly recap · **English data page.***
+  🚨 **SO IT IS NOT LANGUAGE-SPECIFIC AND NOT PUBLISHER-SPECIFIC.**
+
+  🚨🚨 **BUT AT 18:54 I CALLED THIS *"considerably more suspicious than a lag"* AND THAT WAS AN
+  OVER-READ. THE FOURTH SHAPE SUPPLIES A DULL MECHANISM THAT EXPLAINS ALL OF IT:**
+  | field type | where it lives | indexing |
+  |---|---|---|
+  | breadth · turnover · flows | **freshly-written articles** | fast |
+  | the closing **LEVEL** | **quote/data pages** | ⚠ **crawl cadence — what I see is the CRAWL DATE, not the page's live content** |
+  ✅ ***A data page almost certainly HAS today's close right now. My access is to an index of it, and the
+  index is a day behind. That is not suspicious; it is how crawling works.***
+  🎯 **AND IT EXPLAINS THE TWO REFUSED NARRATIVE CLAIMS TOO, WITHOUT ANY EXTRA ASSUMPTION: the level DOES
+  appear in fast-written wraps — and BOTH of today's instances were stale (−5.33 = the 19-Aug close; +33.88 =
+  probably 07-Aug).** ***So the closing level is the one field where the FAST source is unreliable and the
+  RELIABLE source is slow. Four hours of failure needed no darker explanation than that.***
+  ✅ **THE 18:54 CATALOGUE ENTRY SURVIVES — *availability is per-field, not per-session* is still true and
+  still useful. What is withdrawn is the INFERENCE I hung on it.** *The observation was sound; the
+  characterisation was not, and I reached for "suspicious" when "different document types index at different
+  speeds" was sitting there.*
+
+  ⚠ **PRACTICAL CONSEQUENCE, WORTH MORE THAN THE CORRECTION: STOP SPENDING SEARCHES ON THE SAME-DAY CLOSING
+  LEVEL.** *Four shapes have now failed on it while every other field of the session came back on the first
+  or second attempt.* ✅ **The level should be picked up on the NEXT day's sweep, when the data page's crawl
+  has turned over — which is exactly how the 20-Aug close became available at ~18:00 on 20-Aug.**
+
+  ⚠ **THE 21-AUG CLOSE REMAINS UNESTABLISHED — 5h09m past the close, and now with a mechanism rather than a
+  mystery.**
+
+  ✅ **LANES CHECKED:** 4 (index — above), 1 · 2 · 3 · 5 · 7 (nil since the last sweep).
+  ⚠ **FTSE: still not published at 13:53 BST; London is mid-afternoon and index-review announcements come
+  after its 16:30 close (= 22:30 ICT). Sixth anticipatory phrasing refused today; the 00:54 reading holds.**
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing adopted beyond an independent corroboration of a figure already on
+  file. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — MON
+  24-AUG IS SESSION 2. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [TradingEconomics — Vietnam Ho Chi Minh Stock Index *(1,734 at 20-Aug, +0.44%)*](https://tradingeconomics.com/vietnam/stock-market) · [Investing.com — VN Index today](https://www.investing.com/indices/vn) · [countryeconomy.com — VNINDEX 2026](https://countryeconomy.com/stock-exchange/vietnam)
+
 - **🎯 18:54 ICT FRI 21-AUG *(read from `date`)* · **AVAILABILITY IS PER-FIELD, NOT PER-SESSION** — today's
   breadth, turnover and flows are all reachable and ONLY the index level is not. Plus an independent source
   finally dates the 17-Aug ghost correctly (lane 4). Short entry.**
