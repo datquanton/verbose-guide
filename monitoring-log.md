@@ -136,6 +136,76 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯🎯 08:55 ICT FRI 21-AUG *(read from `date`)* · THE FILE HAS MEASURED THE FIXING'S DAILY
+  PASS-THROUGH TO EXHAUSTION AND NEVER MEASURED ITS **ADMINISTERED PACE.** ONE NEW ANCHOR MAKES THAT
+  POSSIBLE. Plus the FOURTH date-relabelling of a central-rate pair (lane 1).**
+
+  ✅ **NEW, ZERO PRIOR HITS: the central rate was ₫25,260 on 21-JUL-2026.** *Every other point below was
+  already on file; this one closes the month.*
+  | date | central rate |
+  |---|---|
+  | **21-Jul** | **₫25,260** 🎯 *new* |
+  | 10-Aug | ₫25,491 |
+  | 12-Aug | ₫25,539 |
+  | 17-Aug | ₫25,586 *(record)* |
+  | 18-Aug | ₫25,580 |
+  | 19-Aug | ₫25,598 *(record)* |
+  | **20-Aug** | **₫25,590** |
+
+  🎯🎯 **THE MEASUREMENT THIS FILE DID NOT HAVE: +₫330, +1.306%, OVER THIRTY DAYS.**
+  ⚠⚠ ***Why it matters more than any daily print: this file's central FX finding is that the fixing is an
+  ADMINISTERED INSTRUMENT, not a market price — DXY −0.88% against the fixing's −0.031%, a ratio of 28 to 1.
+  If that is right, then the daily pass-through is the WRONG THING TO MEASURE and the POLICY PACE is the
+  right one. Twenty-one entries of daily FX work and this is the first number that describes the SBV's own
+  chosen rate of drift.***
+
+  ⚠ **THE SUB-PERIODS, RECORDED — AND THE TREND EXPLICITLY REFUSED:**
+  | window | move | pace |
+  |---|---|---|
+  | 21-Jul → 10-Aug *(20d)* | +₫231, +0.914% | **1.372%/30d** |
+  | 10-Aug → 20-Aug *(10d)* | +₫99, +0.388% | **1.165%/30d** |
+  | 12-Aug → 20-Aug *(8d)* | +₫51, +0.200% | **0.749%/30d** |
+  🚨 ***THE PACE FALLS MONOTONICALLY ACROSS THE THREE — AND I AM NOT CALLING A DECELERATION.*** **Each
+  window is SHORTER than the one before it, and a nested sequence of shrinking windows is precisely the
+  construction that manufactures an apparent trend out of noise.** *It is this file's own catalogue member —
+  "a window too short for the noise" — and it is the shape that falsified my 16-Aug FX call twice in three
+  sessions.*
+  ✅ **PRE-REGISTERED, DATED, WITH A FIXED WINDOW SO IT CANNOT BE FITTED: a genuine deceleration shows up as
+  the 30-DAY pace measured on 20-SEP-2026 coming in BELOW +1.31%. Same window length, same construction,
+  one month later. No probability attached — that is a §4 judgment.**
+
+  🚨🚨 **AND THE FOURTH DATE-RELABELLING OF A CENTRAL-RATE PAIR, KILLED BY THE SAME ONE-LINE BRIDGE.**
+  *A source states: "on **21-Aug at 08:00** the SBV announced the central rate at **₫25,590, down 8 dong**."*
+  | test | |
+  |---|---|
+  | 25,590 − (−8) | **= 25,598** |
+  | 25,598 is the fixing of… | **19-AUG** |
+  | ⇒ a 21-Aug print of 25,590/−8 would require 20-Aug to have been 25,598 | 🚨 **but 20-Aug IS 25,590** |
+  ✅ ***So the pair belongs to 20-Aug, not 21-Aug. THE 21-AUG CENTRAL RATE REMAINS UNESTABLISHED.***
+  *Third time this run the same publisher family has served a stale central-rate pair under the next day's
+  date — 25,598/+18 under 20-Aug on Thursday, and now 25,590/−8 under 21-Aug. **It is no longer a surprise;
+  it is a standing expectation, and the bridge test costs one subtraction.***
+  ⚠ *Two 21-Aug dollar narratives were returned and they CONTRADICT EACH OTHER — "đồng USD bị bán tháo mạnh"
+  (heavily sold off) against "đồng USD phục hồi nhẹ" (recovered slightly). **Neither adopted.***
+
+  ✅ **ALREADY ON FILE, CHECKED BEFORE WRITING: headroom to the band ceiling is tracked in dong and shows no
+  trend** — ₫535.3 · ₫449.0 · ₫507.9 · **₫499.5** across 17–20 Aug. *A returned headline that banks "still
+  anchor USD well below the ceiling" is a qualitative restatement of the ₫499.5 already held, and adds
+  nothing.*
+
+  ✅ **LANES CHECKED:** 1 (macro/FX — above), 3 · 7 (holdings — **Vietnam opens in FIVE MINUTES; nothing
+  pre-open on any of the eight, and KDH's insider-buy window closes at today's close**), 4 (FTSE — nil, and
+  it is 02:55 BST in London).
+
+  🚨 **NO NEW TRIGGER FIRES. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5
+  REMAINS FIRED — **TODAY IS SESSION 1 AND THE MARKET OPENS IN MINUTES**: KDH's window CLOSES today; the FTSE
+  list most likely belongs to MON 24-AUG with the CORE preliminary; Jackson Hole/Warsh enters the window
+  today on the announcement reading. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **NO §4 FIELD WRITTEN — a macro read is not evidence about any company's numbers, per the file's standing
+  rule, so NO CONFIDENCE MOVED. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical
+  (`db994d19`).**
+  [Thời Báo Ngân Hàng — sáng 21/7: NHNN niêm yết tỷ giá trung tâm ở mức 25.260 đồng *(the new anchor)*](https://baomoi.com/sang-21-7-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25-260-dong-c55659607.epi) · [Thời Báo Ngân Hàng — sáng 12/8: NHNN niêm yết tỷ giá trung tâm ở mức 25.539 đồng](https://thoibaonganhang.vn/sang-128-nhnn-niem-yet-ty-gia-trung-tam-o-muc-25539-dong-186163.html) · [GiaVang.Net — tỷ giá USD/VND ngày 20/8: các NH vẫn neo giá USD khá thấp so với mức trần](https://giavang.net/ty-gia-usd-vnd-ngay-20-8-cac-nh-van-neo-gia-usd-kha-thap-so-voi-muc-tran-ma-tgtt-thiet-lap/) · [Báo Quốc tế — tỷ giá ngoại tệ, USD/VND hôm nay 21/8 *(carries the 20-Aug pair under a 21-Aug date — cited as the ARTEFACT)*](https://baoquocte.vn/ty-gia-ngoai-te-ty-gia-usd-vnd-hom-nay-21-8-dong-usd-bi-ban-thao-manh-nha-dau-tu-tim-kiem-cac-tai-san-thay-the-khac-434021.html)
+
 - **🚨🎯🎯 06:56 ICT FRI 21-AUG *(read from `date`, not counted — first entry under the new
   rule)* · THE FILE HAS **NINETY GATE ROWS ON THE FTSE UPGRADE AND NOTHING ON THE REGULATORY MECHANISM THAT
   SATISFIED ITS ACCESS CRITERION.** I chased a gap the file had marked *"logged, NOT CHASED"* and this is
