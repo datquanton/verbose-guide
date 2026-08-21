@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """Audit the gate table at the top of monitoring-log.md.
 
-Two defects this catches, both found the hard way on 20-Aug-2026:
+Three defects this catches. The first two were found the hard way on 20-Aug-2026;
+the third (3) was found on 22-Aug-2026 by reading the table by hand and noticing
+that a whole ROW SHAPE had never been audited at all -- see ISO_DATE_RE below.
+A checker that reports "none passed" against rows it cannot parse is worse than
+no checker, because the clean line reads as coverage.
+
 
   1. A FENCED ROW WHOSE RE-OPEN DATE HAS PASSED. Rows 36 and 37 both said
      "the next week's report, i.e. Sat 15-Aug or later" and were still
@@ -10,6 +15,12 @@ Two defects this catches, both found the hard way on 20-Aug-2026:
 
   2. A ROW WHOSE PIPE COUNT IS WRONG, which silently breaks the table.
      Two legacy 3-pipe rows are known and expected.
+
+  3. A DATE-COLUMN ROW WHOSE ISO FENCE HAS PASSED. Rows shaped
+     "| topic | 2026-08-15 | lanes |" were invisible to (1) twice over: the
+     date is ISO, which DATE_RE cannot match, and it sits in the MIDDLE cell
+     while (1) reads cells[-2]. Rows 87 and 88 sat six days past their fence
+     while this tool printed "re-open dates: none passed" on every run.
 
 The general defect behind (1): the file does the work in entries and does
 not write it back to the table. A gate row caches conclusions AND their
@@ -37,6 +48,36 @@ MONTHS = {
 }
 DATE_RE = re.compile(r"(\d{1,2})-([A-Za-z]{3})(?:-(\d{4}))?")
 
+# The table uses TWO date conventions and this tool only ever read one of them.
+# Prose cells write "24-Aug" / "15-Aug-2026"; the DATE-COLUMN rows -- shaped
+# "| topic | 2026-08-15 | lanes |" -- write ISO. Found by hand on 22-Aug-2026:
+# rows 87 and 88 carried an ISO fence of 2026-08-15 that had passed SEVEN DAYS
+# earlier and this tool reported "re-open dates: none passed" every run, for two
+# independent reasons: DATE_RE cannot match ISO, and the fence in those rows sits
+# in the MIDDLE cell while the check reads cells[-2] (which holds the lane
+# numbers). Row 64 had the same shape and was also fixed by hand, not by this.
+#
+# The table holds only ~10 ISO dates and every one of them is a fence, so taking
+# the maximum ISO date anywhere in the row is precise here. It is a convention,
+# not a guarantee -- if a prose cell ever writes an ISO date as history, this
+# will read it as a fence.
+ISO_DATE_RE = re.compile(r"(20\d{2})-([01]\d)-([0-3]\d)")
+
+# A row that announces its own closure is not overdue. This is a heuristic with a
+# KNOWN failure mode, stated so a clean run is not over-read: a row that says
+# RESOLVED about a SUB-question while its main fence is still live gets skipped.
+CLOSED_MARKERS = ("CLOSED", "RESOLVED", "SUPERSEDED")
+
+
+def parse_iso_dates(text):
+    out = []
+    for year, month, day in ISO_DATE_RE.findall(text):
+        try:
+            out.append(datetime.date(int(year), int(month), int(day)))
+        except ValueError:
+            continue
+    return out
+
 
 def parse_dates(text, default_year):
     """Every DD-Mon[-YYYY] in text, as dates. Unparseable ones are skipped."""
@@ -54,7 +95,7 @@ def parse_dates(text, default_year):
 
 def audit(as_of):
     lines = io.open(LOG, encoding="utf-8").read().split("\n")
-    overdue, broken = [], []
+    overdue, broken, iso_overdue = [], [], []
 
     for idx, line in enumerate(lines[:GATE_SCAN_LINES], start=1):
         if not line.startswith("|"):
@@ -78,8 +119,18 @@ def audit(as_of):
         if dates and max(dates) < as_of:
             topic = re.sub(r"[*~`]", "", cells[1]).strip()[:70]
             overdue.append((idx, max(dates), topic))
+            continue
 
-    return overdue, broken
+        # ISO fence, read from the whole row -- see ISO_DATE_RE above.
+        row = ANNOTATION_RE.sub("", strip_struck(line))
+        if any(marker in row for marker in CLOSED_MARKERS):
+            continue
+        iso = parse_iso_dates(row)
+        if iso and max(iso) < as_of:
+            topic = re.sub(r"[*~`]", "", cells[1]).strip()[:70]
+            iso_overdue.append((idx, max(iso), topic))
+
+    return overdue, broken, iso_overdue
 
 
 def main():
@@ -88,7 +139,7 @@ def main():
         if len(sys.argv) > 1
         else datetime.date.today()
     )
-    overdue, broken = audit(as_of)
+    overdue, broken, iso_overdue = audit(as_of)
 
     print(f"gate audit as of {as_of.isoformat()}")
 
@@ -111,7 +162,17 @@ def main():
     # condition is an EVENT ("a policy-rate move", "an issuer filing naming a
     # date") carry no date and cannot be audited this way. Absence of a hit is
     # not evidence the row is current.
+    if iso_overdue:
+        print(f"\nISO-DATED FENCE HAS PASSED ({len(iso_overdue)}) -- date-column rows, invisible to the check above:")
+        for idx, latest, topic in iso_overdue:
+            days = (as_of - latest).days
+            print(f"  line {idx}: {latest.isoformat()} ({days}d overdue) -- {topic}")
+    else:
+        print("\nISO-dated fences: none passed")
+
     print("\nnote: event-conditioned rows carry no date and are not audited above.")
+    print("note: rows whose text says CLOSED/RESOLVED/SUPERSEDED are skipped by the ISO check,")
+    print("      so a row that resolves a SUB-question with a live main fence will be missed.")
 
     passed = deadlines(as_of)
     if passed:
