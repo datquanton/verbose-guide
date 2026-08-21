@@ -136,6 +136,50 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **⚠🎯 23:54 ICT FRI 21-AUG *(read from `date`; London closed 1h24m ago)* · **I TESTED MY OWN FIX FROM
+  AN HOUR AGO AND IT FAILED — FOR A REASON I CAN NAME PRECISELY.** I searched CONTENTS instead of the event,
+  as prescribed, and got vintage material anyway (lane 4). Short entry.**
+
+  🚨 **THE RESULT: a **28**-name roster including **DXG** — the NOVEMBER-2025 vintage, older than this
+  morning's 32.** *Gate row 24 lists DXG among the nine removed in the 28-Apr cut (**SAB, DPM, HUT, DIG,
+  EIB, DXG, PDR, FRT, KDC**), so a list containing DXG cannot be the current one.*
+
+  🎯🎯 **WHY THE FIX FAILED, AND IT IS MY OWN ERROR NOT THE CORPUS'S: I SEARCHED THE CONTENTS, BUT I
+  SEARCHED THE *STABLE* CONTENTS.** *The names I queried — **HPG · VCB · VIC · VHM** — appear in EVERY
+  vintage: the 28, the 32 and the 23. **A term common to all three hypotheses cannot separate them.***
+  ⚠⚠ ***That is this file's own standing principle, and I violated it while acting on my own prescription:
+  the bridge test went silent when candidate bases were 0.06 apart; a plausibility check was recorded as
+  "discriminating NOTHING"; and now a search term shared by every candidate list returns whichever one the
+  corpus ranks highest. A DISCRIMINATOR MUST VARY BETWEEN THE HYPOTHESES IT IS MEANT TO SEPARATE.***
+
+  ✅✅ **THE REFINED STRATEGY, AND IT IS TESTABLE ON MONDAY: SEARCH THE NAMES THAT DIFFER BETWEEN VINTAGES,
+  NOT THE ONES THAT PERSIST.**
+  | vintage | count | a name that IDENTIFIES it |
+  |---|---|---|
+  | Nov-2025 | **28** | **DXG** *(present)* |
+  | Apr-2026, on 31-Dec-2025 data | **32** | **SAB** *(present)*, **BID · FPT · NVL · GEE · BSR** *(the five added)* |
+  | **28-Apr-2026 data — the file's current roster** | **23** | 🎯 **SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC ALL ABSENT** |
+  ✅ ***So the single cheapest discriminator is: does the coverage put SAB and DXG IN or OUT? IN ⇒ a
+  pre-April vintage. OUT ⇒ something at least as recent as the 28-Apr roster, and worth reading.***
+  ⚠ **A genuinely NEW final list would also most likely carry a count that is none of 28, 32 or 23 — so an
+  unfamiliar number is itself a positive signal rather than a reason to doubt the source.**
+
+  ⚠ **ONE WEAK TENSE SIGNAL, RECORDED AND NOT LEANED ON: the same sentence that read *"the final list WILL BE
+  published on Friday 21 August"* at 22:54 now reads *"WAS PUBLISHED on Friday, August 21, 2026."*** *That is
+  consistent with publication having occurred — but the same document family carries both tenses, and a
+  summariser re-tensing a sentence is not evidence about the world.* **Contents remain UNESTABLISHED.**
+
+  ✅ **LANES CHECKED:** 4 (index — above), 1 · 2 · 3 · 5 · 7 (nil; no search spent on the same-day closing
+  level per 19:54, and rows 46/47 stay fenced).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing adopted — every figure returned was a superseded vintage already on
+  file. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS FIRED — MON
+  24-AUG IS SESSION 2, carrying the CORE circumvention preliminary and, on this file's reading, the FTSE
+  list. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **THE §4 QUEUE STILL CARRIES THE ELEVEN-DAY-OVERDUE MBB `fy26e_npat` RE-DERIVATION.**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [Vietnam News — FTSE Russell plans inclusion of 28 Vietnamese stocks *(the Nov-2025 vintage that returned tonight)*](https://vietnamnews.vn/economy/1729462/ftse-russell-plans-inclusion-of-28-vietnamese-stocks-in-2026-market-upgrade.html) · [The Investor — FTSE Russell eyes 28 Vietnam stocks ahead of the review](https://theinvestor.vn/ftse-russell-eyes-28-vietnam-stocks-ahead-of-market-status-upgrade-review-d18516.html) · [Investify — FTSE confirms Vietnam upgrade, deadline 21 Sep 2026](https://investify.vn/en/blog/2026-04-08-ftse-chot-nang-hang-viet-nam-21-9-2026/)
+
 - **🎯🎯 22:54 ICT FRI 21-AUG *(read from `date`; London closed 24 min ago)* · **WHY EVERY FTSE
   SEARCH TODAY RETURNED THE SAME APRIL LIST — THE DATE AND THE STALE ROSTER ARE WELDED TOGETHER IN THE SOURCE
   CORPUS.** A retrieval finding that changes how the next sweep should search (lane 4). Short entry.**
