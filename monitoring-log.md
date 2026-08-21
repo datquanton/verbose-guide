@@ -136,6 +136,49 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-12
 
+- **🎯🎯 22:54 ICT FRI 21-AUG *(read from `date`; London closed 24 min ago)* · **WHY EVERY FTSE
+  SEARCH TODAY RETURNED THE SAME APRIL LIST — THE DATE AND THE STALE ROSTER ARE WELDED TOGETHER IN THE SOURCE
+  CORPUS.** A retrieval finding that changes how the next sweep should search (lane 4). Short entry.**
+
+  🚨 **THE THIRD SERVING OF APRIL-VINTAGE CONTENT UNDER A 21-AUG FRAMING TODAY** — *"32 Vietnamese stocks
+  that met the FTSE Global All Cap eligibility screens **based on data as of 31-DEC-2025**", "27 in both the
+  old and new lists", "five new names BID · FPT · NVL · GEE · BSR", PLX removed.* **Gate row 24 already holds
+  that FTSE CUT that 32 to **23** on **28-Apr-2026** data.**
+  🎯🎯 **AND THIS TIME I CAN NAME WHY IT KEEPS COMING BACK. The same documents that carry the April
+  32-name roster ALSO carry the sentence *"the final list … WILL BE PUBLISHED on Friday 21 August 2026"* —
+  because those April documents are what ANNOUNCED the date.** ***So any search phrased around the DATE or
+  the EVENT retrieves the April document by construction. The date and the superseded roster are welded
+  together in the corpus, and I have now paid for that three times in one day.***
+  ✅ **ACTIONABLE FIX FOR THE NEXT SWEEP: SEARCH THE CONTENTS, NOT THE EVENT** — specific names, a count that
+  is not 32 or 28, tranche weights, or "danh mục chính thức" paired with a ticker — **not "21 August", not
+  "semi-annual review", not "official list".**
+
+  ✅ **A CLEAN INTERNAL CHECK THAT CORROBORATES GATE ROW 24 RATHER THAN ADDING ANYTHING: this source lists
+  **SAB** among the April 32's mid-caps, and row 24's removed-nine on 28-Apr data is *SAB, DPM, HUT, DIG,
+  EIB, DXG, PDR, FRT, KDC*.** ***SAB being IN the 32 and OUT of the 23 is exactly what the file says
+  happened. 32 = 27 carried + 5 new, minus PLX; then cut to 23. The April structure is now fully consistent
+  with the file.***
+
+  ⚠⚠ **THE CONTENTS REMAIN UNESTABLISHED 24 MINUTES AFTER THE LONDON CLOSE, AND BOTH READINGS ARE
+  CONSISTENT WITH THE 00:54 TIMEZONE ANALYSIS:** *(a)* FTSE has published and the index has not caught it —
+  **the same crawl mechanism characterised at 19:54 for the VN close**; *(b)* FTSE has not published yet.
+  🎯 **EITHER WAY THE ROUTE CONSEQUENCE IS THE SAME AND IS WORTH STATING FOR MONDAY: `lseg.com` IS
+  GATEWAY-BLOCKED, so the contents cannot come from FTSE directly — they must arrive via press, which will
+  write them up over the coming hours and into Monday.** ⚠ **Mon 24-Aug is already session 2 with the CORE
+  circumvention preliminary; the FTSE list will most likely land on the same session, as the 00:54 reading
+  predicted.**
+
+  ✅ **LANES CHECKED:** 4 (index — above), 1 · 2 · 3 · 5 · 7 (nil; per 19:54 no search was spent on the
+  same-day closing level, and rows 46/47 remain fenced against a general property sweep).
+
+  🚨 **NO NEW TRIGGER FIRES. Nothing adopted — the only figures returned were April-vintage and are
+  already on file. Trigger 4 REMAINS FIRED ON FOUR HELD NAMES — VPX, KDH, VCI, TCX. Trigger 5 REMAINS
+  FIRED — MON 24-AUG IS SESSION 2. Trigger 2 STANDING-BREACHED. Triggers 1 and 3 negative.**
+  ⚠ **THE §4 QUEUE STILL CARRIES THE ELEVEN-DAY-OVERDUE MBB `fy26e_npat` RE-DERIVATION, with the broker
+  arithmetic attached (base 30,500 below all three reference estimates; bull 33,000 below the higher).**
+  ⚠ **NO §4 FIELD WRITTEN. `assumptions.json` NOT TOUCHED. `DECISION-BRIEF.md` byte-identical (`db994d19`).**
+  [VIR — FTSE Russell clarifies Vietnam's reclassification roadmap for 2026](https://vir.com.vn/ftse-russell-clarifies-vietnams-reclassification-roadmap-for-2026-140541.html) · [The Investor — FTSE Russell names 32 Vietnamese stocks eligible *(the April roster that keeps returning)*](https://theinvestor.vn/ftse-russell-names-32-vietnamese-stocks-eligible-for-emerging-market-index-inclusion-d18800.html) · [CNBC — FTSE Russell confirms Vietnam's emerging market status (08-Apr-2026)](https://www.cnbc.com/2026/04/08/ftse-russell-confirms-vietnams-emerging-market-status.html) · [LSEG — March 2026 semi-annual country classification review results (07-Apr-2026)](https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-results-march-2026-semi-annual-country-classification-review-equities-fixed-income)
+
 - **🚨🚨🚨 20:54 ICT FRI 21-AUG *(read from `date`)* · **A §4 HUMAN-ONLY OBLIGATION ON THE
   BOOK'S LARGEST POSITION IS ELEVEN DAYS OVERDUE AND HAS NOT BEEN MENTIONED IN TEN THOUSAND LINES.** Found
   by the deferral queue — but only after I denoised the queue, which had started returning its own
