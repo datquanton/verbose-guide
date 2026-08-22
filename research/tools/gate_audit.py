@@ -240,7 +240,14 @@ DEADLINES = [
         "gearing of 0.14m VND per US$10/t, moving 228 -> ~215 is +0.182m/t, i.e. +21.1% on the "
         "standing 0.8632m/t spread, which is ~17% of HPG FY NPAT. FAVOURABLE direction, which "
         "is why it needs a human: this file withdrew a coal conclusion on 06-Aug for getting "
-        "the direction wrong.",
+        "the direction wrong. "
+        "REVISED 22-Aug 14:53 AFTER A SECOND-PROVIDER CHECK: the '~215 now' half is WITHDRAWN. "
+        "Kallanish weeklies (07-Jul 237.08, 14-Jul 232.91) show the derived 10-Jul 238.8 sits above "
+        "the weekly containing its own date, and the 214.9 is now TWO WEEKS STALE while two weaker "
+        "indicators point up (this file's own 225 at 14-Aug; a 248.50 on 20-Aug that is almost "
+        "certainly a different series and could not be verified). WHAT STANDS: 228 is UNLOCATED -- no "
+        "dated 06-Aug print supports it -- and the file holds three August numbers spanning 6.1%. The "
+        "+16-21% spread effect is a SENSITIVITY, not a current estimate.",
     ),
     (
         datetime.date(2026, 8, 10),

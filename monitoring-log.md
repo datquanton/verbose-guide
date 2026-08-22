@@ -138,6 +138,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 14:53 ICT SAT 22-AUG *(read from `date`)* · **I WENT LOOKING FOR A SECOND PROVIDER TO CONFIRM THE
+  COAL FINDING AND FOUND EVIDENCE THAT PARTLY UNDERCUTS IT. THE HALF THAT SURVIVES IS THE HALF ABOUT 228;
+  THE HALF ABOUT "≈215 NOW" DOES NOT.** Correcting my own 13:53 entry. (lane 5).
+
+  ⚠⚠ **WHY I RAN THIS AT ALL: one hour ago I wrote that a pleasant answer deserves more scrutiny than an
+  unpleasant one, and then committed the pleasant answer. This hour is that scrutiny, and it was needed.**
+
+  ✅ **A SECOND PROVIDER, WITH DATED WEEKLY ASSESSMENTS — NEW TO THE FILE:** *Kallanish PHCC FOB Australia,*
+  **week ended 07-Jul = US$237.08/t · week ended 14-Jul = US$232.91/t (−US$4.17 w/w).** *These are stated
+  assessments, not derived — the first dated coal weeklies this file has from a provider other than the
+  one behind the pinned figure.*
+
+  🚨 **AND THEY WEAKEN A NUMBER I DERIVED AN HOUR AGO.** *I built "10-Jul = US$238.8" from "07-Aug 214.9,
+  −10% on 10-Jul". **But 10-Jul falls INSIDE Kallanish's week ended 14-Jul, assessed at 232.91.** Against
+  232.91, the 07-Aug 214.9 is **−7.7%**, not −10%.*
+  ⚠ ***So my 238.8 sits ~2.5% ABOVE the dated weekly that contains its own date, and I should down-weight
+  it. It agreed with the file's "238.9 on 10-Jul" to 0.05% — which felt like strong corroboration and may
+  instead be two statements inheriting the same upstream reference point.*** *Agreement between two
+  numbers is not independence unless their sources are independent, and I did not establish that.*
+
+  🚨🚨 **THE BIGGER PROBLEM: MY NEWEST FOB-AUSTRALIA PRINT IS 07-AUG, AND TWO WEAKER INDICATORS POINT UP.**
+  | evidence | says | weight |
+  |---|---|---|
+  | Kallanish/IndexBox **07-Aug = US$214.9** | falling | ✅ dated, right basis, but **TWO WEEKS OLD** |
+  | this file's own **coal 225 at 14-Aug** | higher | ⚠ basis not restated in the 14-Aug entry |
+  | tradingeconomics **248.50 on 20-Aug, +1.64% d/d** | higher still | ❌ **almost certainly a DIFFERENT SERIES** (DCE-derived), host **egress-blocked**, unverifiable |
+  ⚠⚠ ***I am NOT adopting 248.50 — the file's standing rule is "DCE is not Fastmarkets, different market
+  entirely", and mixing them is exactly the error this file catalogues. BUT I must not use the rule to
+  dismiss inconvenient evidence either: it is the one datum pointing against my conclusion, and I cannot
+  check it.***
+
+  🎯🎯 **WHAT SURVIVES AND WHAT DOES NOT — STATED SEPARATELY, BECAUSE THEY HAVE DIFFERENT SUPPORT:**
+  - ✅ **SURVIVES: the pinned "US$228 FOB Australia (pinned 2026-08-06)" is not supported by any dated
+    06-Aug print I can find.** *A 07-Aug assessment on the same basis reads 214.9, and the nearest dated
+    weeklies either side of it are 232.91 (14-Jul) and nothing in between. **228 remains unlocated.***
+  - ❌ **DOES NOT SURVIVE: "the coherent value is ≈US$215" as a CURRENT level.** *07-Aug is two weeks
+    stale, and both other indicators — one of them this file's own — sit higher.*
+  - ❌ **THEREFORE THE +16% TO +21% SPREAD EFFECT I PUBLISHED AT 13:53 IS WITHDRAWN AS A CURRENT
+    ESTIMATE.** *It remains valid as a SENSITIVITY — ₫0.14m/t per US$10/t is the file's own gearing and
+    that is unchanged — but I presented a sensitivity as if the input were established, and it is not.*
+
+  ✅ **THE ESCALATION ITSELF IS UNCHANGED AND ARGUABLY STRONGER.** *The §4 obligation added to
+  `gate_audit.py` yesterday asked a human to **re-derive the coal leg against a dated FOB-Australia
+  assessment**. That is exactly the right instruction, and today's work shows why: **the file has three
+  numbers for August coal — 228 (pinned, unlocated), 225 (14-Aug, basis not restated) and 214.9 (07-Aug,
+  right basis, stale) — spanning 6.1%, on an input geared at ₫0.14m/t per US$10/t against a spread that is
+  ~17% of HPG FY NPAT.*** **Nothing is written; the register entry stands as worded.**
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: kallanish.com (PHCC FOB Australia weeklies, 07-Jul US$237.08 and 14-Jul US$232.91),
+  indexbox.io (07-Aug US$214.9), fastmarkets.com MB-COA-0003 (index definition), steelorbis.com and
+  gmk.center (context); tradingeconomics 248.50 on 20-Aug **cited as the contrary datum I could NOT verify,
+  not as a price**.
+  **Portfolio impact: none changed — but yesterday's "+16% to +21%" on the HPG spread is withdrawn as a
+  current estimate and stands only as a sensitivity, while the case that the pinned US$228 is unlocated
+  survives intact.**
+
 - **🚨🚨🚨 13:53 ICT SAT 22-AUG *(read from `date`)* · **THE COKING-COAL LEG OF THE HPG BRIDGE IS PINNED
   ~US$13/t TOO HIGH, AND FOUR INDEPENDENT DATA POINTS FALL ON ONE MONOTONE PATH THAT US$228 IS NOT ON.**
   The spread is ~17% of FY NPAT, so this is worth **+16% to +21%** on the standing reading. §4 — escalated,
