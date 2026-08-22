@@ -138,6 +138,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 18:53 ICT SAT 22-AUG *(read from `date`)* · **"VIETTEL" RETURNS ZERO HITS IN 23,186 LINES — MBB'S
+  ANCHOR SHAREHOLDER IS ABSENT FROM A FILE WITH A DEDICATED OWNERSHIP LANE AND MBB AS ITS LARGEST E[r].**
+  And it is taking up ~₫1,200bn of the rights issue, which implies a stake of **14.90%** three ways over.
+  (lane 7). ✅ *Found by using the coverage check BEFORE searching, one hour after building it.*
+
+  ✅ **THE TOOL DID ITS JOB ON ITS FIRST REAL OUTING, WHICH IS WHY THIS HOUR HAS A FINDING.** *`VNDiamond`
+  81 hits, `VN30 review` 6, `ACB` 56, `CTG` 23 — all skipped unsearched. `ngày đăng ký cuối cùng` **1 hit**
+  → searched, and that pointed at the corporate-action record dates.* **Then, on MBB's action: `805.5` 27
+  hits, `8,055` 54, `100,687` 7, `12-Aug` 130 — the whole mechanism already on file, so no entry there.**
+  🎯 ***ONE TERM CAME BACK ABSENT: `Viettel`, 0 hits.*** *That is the entire finding, and I would not have
+  isolated it by searching.*
+
+  🚨🚨 **WHAT IS MISSING IS NOT A DATUM, IT IS THE CONTROLLING SHAREHOLDER.** *MBB's corporate action is on
+  file in full — record date **12-Aug-2026** for both legs, 15% stock dividend (>1.2bn shares) and the
+  **10:1 rights at ₫10,000** (805.5m shares, ~**₫8,055bn**), charter capital ₫80,550bn → **>₫100,687bn**.
+  **What the file never recorded is WHO OWNS IT.***
+  🎯🎯 **THE NEW FACT: Viettel is spending ~₫1,200bn to take up its rights.** *Three independent routes to
+  the same stake, from figures already on file plus this one:*
+  | route | arithmetic | stake |
+  |---|---|---|
+  | share of the offering | 1,200 ÷ 8,055 | **14.90%** |
+  | shares subscribed | (1,200bn ÷ ₫10,000) = 120m ÷ 805.5m | **14.90%** |
+  | implied holding vs register | 120m × 10 = 1,200m ÷ (₫80,550bn ÷ ₫10,000 par = 8,055m) | **14.90%** |
+  ✅ ***All three agree exactly, because they are the same identity seen from three sides — so treat this as
+  ONE derivation that is internally consistent, NOT as three confirmations.*** *(A trap I have walked into
+  once already today, on coal.)*
+
+  🎯 **WHY IT MATTERS BEYOND being a gap.** *(a) **Lane 7 exists for exactly this** — a ~15% state-parent
+  holder taking up rights is the strongest possible signal that the ₫8,055bn actually lands, and the file
+  had no way to say who was subscribing. (b) **It squares with the FTSE work from this morning**: MBB's
+  free float was reported ~50%, and a 14.9% state-parent block is consistent with that. (c) **It does NOT
+  change foreign room** — Viettel is a domestic state holder and the take-up is **pro rata**, so
+  percentages are unchanged, which is exactly what I argued at 02:54 about MBB's corporate actions being
+  unable to relieve the ~1–3.1% foreign-room constraint. **That argument survives contact with the
+  identity of the shareholder.***
+  ⚠ **NOT ESTABLISHED, AND I AM NOT INFERRING IT: whether Viettel's holding is direct or through
+  subsidiaries, whether ~14.9% is its full economic interest, and whether any part of the rights was
+  waived or transferred. The 14.90% is what a FULL pro-rata take-up implies, and the source says "gần"
+  (nearly) ₫1,200bn, so read it as ≈14.8–14.9%.**
+
+  ⚠ *No model input changed. No §4 field written — `pe_ttm`/`npat_ttm` for MBB stay as stored, and item 38
+  remains overdue. `DECISION-BRIEF.md` byte-identical.*
+  ⚠ *Also checked and already on file: VPB's 26.04% bonus issue (₫79,339bn → >₫106,000bn) with **still no
+  record date announced**, and its 5% cash dividend already paid on the 18-May record date. TCB's 67%
+  package likewise still has no record date, tested at 04:53 today.*
+
+  Sources: thoibaotaichinhvietnam.vn (Viettel's ~₫1,200bn take-up; MBB's issue mechanics),
+  tinnhanhchungkhoan.vn, stockbiz.vn, tapchikinhtetaichinh.vn, thitruongtaichinhtiente.vn (MBB record date
+  12-Aug, 805.5m shares at ₫10,000, capital to >₫100,687bn); dnse.com.vn, cafef.vn, baodautu.vn (VPB).
+  **Portfolio impact: MBB's ₫8,055bn rights issue has its ~14.9% anchor shareholder subscribing, and the
+  file now knows who that shareholder is — on the name carrying the largest expected return in the book.**
+
 - **🚨🚨 17:53 ICT SAT 22-AUG *(read from `date`)* · **NO MARKET FINDING THIS HOUR. I REPEATED A SEARCH THE
   FILE HAD ALREADY CONCLUDED ON — FOR THE FIFTH TIME TODAY — AND A PRIOR SWEEP HAD ALREADY DIAGNOSED THIS
   EXACT DEFECT AND BUILT NOTHING.** So I built the missing check. (lane 6).
