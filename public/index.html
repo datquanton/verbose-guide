@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vietnam Equity Research Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+<style>
+  /* ─── tokens: light is the base set, complete on bare :root ─────────── */
+  :root {
+    color-scheme: light;
+    --page:#f9f9f7; --surface-1:#fcfcfb; --surface-2:#f4f3ef;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#898781;
+    --grid:#e1e0d9; --border:rgba(11,11,11,0.10); --rule:rgba(11,11,11,0.16);
+    --accent:#2a78d6; --accent-soft:rgba(42,120,214,0.10);
+    --good:#006300; --warn:#b45309; --critical:#d03b3b;
+    --locked:#4f5566; --locked-soft:rgba(79,85,102,0.10);
+    --shadow:0 1px 2px rgba(11,11,11,0.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page:#0d0d0d; --surface-1:#1a1a19; --surface-2:#151514;
+      --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8f8d86;
+      --grid:#2c2c2a; --border:rgba(255,255,255,0.11); --rule:rgba(255,255,255,0.18);
+      --accent:#5fa0ec; --accent-soft:rgba(95,160,236,0.14);
+      --good:#38b838; --warn:#e0a02a; --critical:#ef7676;
+      --locked:#9aa1b4; --locked-soft:rgba(154,161,180,0.14);
+      --shadow:none;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:#0d0d0d; --surface-1:#1a1a19; --surface-2:#151514;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8f8d86;
+    --grid:#2c2c2a; --border:rgba(255,255,255,0.11); --rule:rgba(255,255,255,0.18);
+    --accent:#5fa0ec; --accent-soft:rgba(95,160,236,0.14);
+    --good:#38b838; --warn:#e0a02a; --critical:#ef7676;
+    --locked:#9aa1b4; --locked-soft:rgba(154,161,180,0.14);
+    --shadow:none;
+  }
+
+  *,*::before,*::after { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto;} *{animation:none!important;transition:none!important;} }
+
+  body {
+    margin:0; background:var(--page); color:var(--text-primary);
+    font-family:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    font-size:15.5px; line-height:1.62; -webkit-font-smoothing:antialiased;
+  }
+
+  /* ─── shell ─────────────────────────────────────────────────────────── */
+  .shell { max-width:1240px; margin:0 auto; padding:0 22px 96px;
+           display:grid; grid-template-columns:1fr; gap:0; }
+  @media (min-width:1080px){
+    .shell { grid-template-columns:216px minmax(0,1fr); column-gap:52px; padding-right:34px; }
+    .rail  { grid-column:1; }
+    .main  { grid-column:2; }
+  }
+
+  /* ─── rail ──────────────────────────────────────────────────────────── */
+  .rail { display:none; }
+  @media (min-width:1080px){
+    .rail { display:block; position:sticky; top:0; align-self:start;
+            max-height:100vh; overflow-y:auto; padding:38px 0 40px; }
+    .rail-title { font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:10.5px;
+                  letter-spacing:.14em; text-transform:uppercase; color:var(--text-muted); margin:0 0 12px; }
+    .rail nav { display:flex; flex-direction:column; gap:1px; border-left:1px solid var(--grid); }
+    .rail a { display:block; padding:5px 0 5px 13px; margin-left:-1px;
+              border-left:2px solid transparent; font-size:13.5px; color:var(--text-secondary);
+              text-decoration:none; line-height:1.35; }
+    .rail a:hover { color:var(--text-primary); border-left-color:var(--rule); }
+    .rail a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+    .rail .rail-flag { color:var(--critical); font-weight:600; }
+  }
+
+  /* ─── masthead ──────────────────────────────────────────────────────── */
+  .masthead { padding:44px 0 26px; border-bottom:1px solid var(--rule); }
+  .eyebrow { font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11px;
+             letter-spacing:.15em; text-transform:uppercase; color:var(--accent);
+             margin:0 0 14px; }
+  h1 { font-family:Newsreader,ui-serif,Georgia,serif; font-weight:500;
+       font-size:clamp(34px,5.2vw,52px); line-height:1.06; letter-spacing:-0.018em;
+       margin:0 0 16px; text-wrap:balance; }
+  .standfirst { font-family:Newsreader,ui-serif,Georgia,serif; font-size:clamp(17px,2vw,20px);
+                line-height:1.5; color:var(--text-secondary); max-width:62ch; margin:0 0 22px; }
+  .stamp { display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline;
+           font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px;
+           color:var(--text-muted); }
+  .stamp b { color:var(--text-secondary); font-weight:500; }
+
+  /* ─── sections ──────────────────────────────────────────────────────── */
+  section { padding-top:52px; scroll-margin-top:20px; }
+  h2 { font-family:Newsreader,ui-serif,Georgia,serif; font-weight:500; font-size:27px;
+       letter-spacing:-0.012em; margin:0 0 6px; text-wrap:balance; }
+  h3 { font-family:"IBM Plex Sans",sans-serif; font-weight:600; font-size:15px; margin:26px 0 8px;
+       letter-spacing:-0.005em; }
+  .deck { color:var(--text-secondary); max-width:68ch; margin:0 0 20px; font-size:14.5px; }
+  p { max-width:68ch; }
+  a { color:var(--accent); text-decoration:none; text-underline-offset:2px; }
+  a:hover { text-decoration:underline; }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }
+
+  /* ─── state chips ───────────────────────────────────────────────────── */
+  .chip { display:inline-block; font-family:"IBM Plex Mono",ui-monospace,monospace;
+          font-size:10px; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+          padding:2px 7px; border-radius:3px; border:1px solid currentColor; white-space:nowrap; }
+  .chip.fired    { color:var(--critical); }
+  .chip.breached { color:var(--warn); }
+  .chip.clear    { color:var(--good); }
+  .chip.locked   { color:var(--locked); }
+  .chip.sector   { color:var(--text-muted); font-weight:500; }
+
+  /* ─── escalation cards ──────────────────────────────────────────────── */
+  .stack { display:flex; flex-direction:column; gap:12px; }
+  .esc { background:var(--surface-1); border:1px solid var(--border);
+         border-left:3px solid var(--grid); border-radius:0 8px 8px 0;
+         padding:15px 18px; box-shadow:var(--shadow); }
+  .esc.fired    { border-left-color:var(--critical); }
+  .esc.breached { border-left-color:var(--warn); }
+  .esc.clear    { border-left-color:var(--good); }
+  .esc.locked   { border-left-color:var(--locked); background:var(--surface-2); }
+  .esc-head { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:6px; }
+  .esc-head strong { font-size:14.5px; letter-spacing:-0.005em; }
+  .esc p { margin:0; font-size:13.5px; color:var(--text-secondary); max-width:none; }
+  .esc p + p { margin-top:7px; }
+  .mono { font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:0.94em;
+          font-variant-numeric:tabular-nums; }
+
+  /* ─── tables ────────────────────────────────────────────────────────── */
+  .tablewrap { overflow-x:auto; margin:16px 0 4px; border:1px solid var(--border);
+               border-radius:8px; background:var(--surface-1); box-shadow:var(--shadow); }
+  table { border-collapse:collapse; width:100%; font-size:13px; min-width:640px; }
+  caption { caption-side:bottom; text-align:left; font-size:12px; color:var(--text-muted);
+            padding:9px 14px 0; max-width:70ch; }
+  th { text-align:left; font-family:"IBM Plex Mono",ui-monospace,monospace;
+       font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+       color:var(--text-muted); font-weight:600; padding:10px 14px;
+       border-bottom:1px solid var(--rule); background:var(--surface-2); white-space:nowrap; }
+  td { padding:9px 14px; border-bottom:1px solid var(--grid); color:var(--text-secondary);
+       vertical-align:top; }
+  tbody tr:last-child td { border-bottom:0; }
+  td.tkr { color:var(--text-primary); font-weight:600;
+           font-family:"IBM Plex Mono",ui-monospace,monospace; white-space:nowrap; }
+  td.num, th.num { text-align:right; font-family:"IBM Plex Mono",ui-monospace,monospace;
+                   font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .pos { color:var(--good); font-weight:600; }
+  .neg { color:var(--critical); font-weight:600; }
+  .flag { color:var(--warn); font-weight:600; }
+  .dim { color:var(--text-muted); }
+
+  /* ─── library shelves ───────────────────────────────────────────────── */
+  .shelf { display:grid; grid-template-columns:repeat(auto-fit,minmax(272px,1fr)); gap:12px; margin-top:16px; }
+  .doc { background:var(--surface-1); border:1px solid var(--border); border-radius:8px;
+         padding:14px 16px; box-shadow:var(--shadow); }
+  .doc h4 { margin:0 0 3px; font-size:14px; font-weight:600; letter-spacing:-0.005em; }
+  .doc h4 a { color:var(--text-primary); }
+  .doc h4 a:hover { color:var(--accent); }
+  .doc .path { font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:10.5px;
+               color:var(--text-muted); word-break:break-all; display:block; margin-bottom:6px; }
+  .doc p { margin:0; font-size:13px; color:var(--text-secondary); max-width:none; }
+
+  /* ─── method entries ────────────────────────────────────────────────── */
+  .method { border-top:1px solid var(--grid); padding:14px 0 0; margin-top:14px; }
+  .method:first-of-type { border-top:0; padding-top:0; margin-top:8px; }
+  .method dt { font-weight:600; font-size:14px; margin-bottom:3px; }
+  .method dd { margin:0; font-size:13.5px; color:var(--text-secondary); max-width:70ch; }
+  .method dd em { font-style:italic; color:var(--text-primary); }
+
+  .note { background:var(--surface-2); border:1px solid var(--border); border-radius:8px;
+          padding:14px 17px; font-size:13.5px; color:var(--text-secondary); margin-top:18px; }
+  .note b { color:var(--text-primary); }
+
+  footer { margin-top:64px; padding-top:22px; border-top:1px solid var(--rule);
+           font-size:12.5px; color:var(--text-muted); }
+  footer p { max-width:78ch; }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <aside class="rail">
+    <p class="rail-title">Contents</p>
+    <nav aria-label="Section navigation">
+      <a href="#escalations"><span class="rail-flag">▸</span> Standing escalations</a>
+      <a href="#awaiting">Awaiting a human</a>
+      <a href="#positions">Positions &amp; expected return</a>
+      <a href="#criteria">Kill criteria, dated</a>
+      <a href="#calendar">Catalyst calendar</a>
+      <a href="#method">How conclusions are tested</a>
+      <a href="#library">The library</a>
+      <a href="#operation">How this file is kept</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+
+    <header class="masthead">
+      <p class="eyebrow">Vietnam equities · continuous research file</p>
+      <h1>Vietnam Equity Research Library</h1>
+      <p class="standfirst">A single accumulating file on eight Vietnamese holdings — banks, brokers, property and steel — built from primary documents, swept hourly, and written so that every number carries its source, its date and its basis. Errors are corrected in place and kept on the record.</p>
+      <div class="stamp">
+        <span>Last sweep <b>2026-08-22 22:53 ICT</b></span>
+        <span>Commit <b class="mono">367f0c3</b></span>
+        <span><b>584</b> commits</span>
+        <span><b>23,449</b> lines of log</span>
+        <span><b>1,782</b> calibration entries</span>
+      </div>
+    </header>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="escalations">
+      <h2>Standing escalations</h2>
+      <p class="deck">Five escalation triggers govern this file. Two are currently fired. They are stated first because a reader who reads nothing else should read these.</p>
+
+      <div class="stack">
+        <article class="esc fired">
+          <div class="esc-head"><strong>Trigger 4 — a held name's evidence status changed</strong> <span class="chip fired">Fired · VPX</span></div>
+          <p><span class="mono">npat_ttm</span> is carried at <span class="mono">₫3,580.8bn</span> against a trailing twelve months of roughly <span class="mono">₫5,039bn</span> built from the filed FY2025 pre-tax profit and filed H1/2026 net profit — <b>1.41×, understated 28.9%</b>. Three independent routes now agree: the two filings; price-to-book divided by return on equity (27.4%); and inverting the FY2026 target of ₫6,453bn at its stated +44.2% growth, which reproduces the filed FY2025 figure to <b>0.007%</b>.</p>
+          <p>Correcting it fires <b>trigger 3 in either direction</b> — <span class="neg">−29.0pp</span> if <span class="mono">npat_ttm</span> is corrected alone, <span class="pos">+25.0pp</span> if market capitalisation is pinned to the market instead. The first construction is self-refuting: it drives the implied share count from 1.25× to 1.76× the company's own issuance ceiling.</p>
+        </article>
+
+        <article class="esc fired">
+          <div class="esc-head"><strong>Trigger 5 — dated catalysts inside five sessions</strong> <span class="chip fired">Fired</span></div>
+          <p><b>Today, 18 Aug</b> — MB's rights begin trading (transfer to 26 Aug, payment to 7 Sep). <b>Friday 21 Aug, session 4</b> — the FTSE GEIS constituent list publishes, Khang Dien's insider buying window closes, and an open forecast resolves. <b>Monday 24 Aug, session 5</b> — the US corrosion-resistant steel circumvention preliminary determination is intended.</p>
+        </article>
+
+        <article class="esc breached">
+          <div class="esc-head"><strong>Trigger 2 — concentration cap</strong> <span class="chip breached">Standing breach</span></div>
+          <p>Techcombank sits at 35.0% of the book against a 20.0% constitutional cap. The proposed cycle brings it back to the cap in one step rather than the usual 5pp limit — deliberate, and stated as such in the brief.</p>
+        </article>
+
+        <article class="esc clear">
+          <div class="esc-head"><strong>Triggers 1 and 3</strong> <span class="chip clear">Negative</span></div>
+          <p>No kill criterion has fired and no name's expected return has moved more than 10 percentage points on evidence already accepted. Both were tested explicitly this cycle rather than assumed — a frozen primary bond market was ruled a <em>condition</em> that makes an event more likely, not the event the criterion names.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="awaiting">
+      <h2>Awaiting a human</h2>
+      <p class="deck">Charter §4 makes the valuation inputs — price, earnings, multiples, cash yield and confidence — human-only. An automated sweep may find that one is wrong, quantify the consequence and escalate it. It may not write it. These are open.</p>
+
+      <div class="stack">
+        <article class="esc locked">
+          <div class="esc-head"><strong>VPX — trailing earnings and its multiple, together or not at all</strong> <span class="chip locked">§4 human-only</span></div>
+          <p><b>Rewritten 19 Aug 09:54.</b> The defect is confirmed and larger than first thought — trailing earnings are understated <b>39.1%</b>, now derived from full-year 2025 actuals and robust to <b>1.0%</b> across the whole plausible range at ≈₫4,980bn. <b>But this card previously said the correction was worth −29.0pp or +25.0pp of expected return, and both figures were arithmetically impossible.</b> The stored multiple times the stored earnings already equals shares times price to <b>0.011%</b>, so the capitalisation the engine actually uses is correct. The coherent fix moves trailing earnings <em>up</em> 39.1% and the multiple <em>down</em> from 13.93× to ≈10.0× together, and expected return does not move at all. What does change is the story: against the stored figure the 2026 base case reads as +15.2% growth; against the true one it is <b>−17.2%</b>, and half-on-half earnings are down about a quarter behind headlines of +266%. A human must apply both fields or neither — either alone contradicts the market capitalisation.</p>
+        </article>
+        <article class="esc locked">
+          <div class="esc-head"><strong>MBB — the block is struck pre-ex</strong> <span class="chip locked">§4 human-only</span></div>
+          <p>MB went ex on 11 Aug for a 15% stock dividend and a 10:1 rights issue; the valuation block still reconciles to the pre-ex share count of 8,055m. The stock dividend is capital-neutral. The rights are not: ₫8,055bn of new cash by 7 Sep takes <span class="mono">pe_ttm</span> from 5.76 to <b>6.021</b> and raw expected return from +36.6% to <b>+30.7%</b>. Mechanical, dated, and it changes no ranking.</p>
+        </article>
+        <article class="esc locked">
+          <div class="esc-head"><strong>TCX — the price field carries no date</strong> <span class="chip locked">§4 human-only</span></div>
+          <p><b>Corrected 18 Aug 22:54.</b> This card previously said the stored price-to-book kill trigger of ₫33,010 was 20% too low and that ₫41,100 sat below the whole 52-week range. <b>Both were wrong</b>, and both traced to TCX's listing-date share count — superseded by a 20% stock dividend that takes the count to 2,773,896,000. On that count ₫33,010 is <em>correct</em>, and ₫41,100 sits 17.1% above the ₫35,100 low. An independent capitalisation — the exchange's own VN30 review figure, ₫116,354–116,532bn — corroborates the model's <span class="mono">pe_ttm × npat_ttm</span> of ₫114,024bn to within 2.2%, so the capitalisation is sound. What is genuinely open is narrower: the price field carries <em>no date</em>. It was last corroborated on 7 August at ₫40,550 against an implied prior close of ₫41,400 — within 1.4% either way. The criterion needs a <b>19.7%</b> fall from the file's price, measured against price rather than against the trigger.</p>
+        </article>
+        <article class="esc locked">
+          <div class="esc-head"><strong>VCI — confidence against a plan running behind</strong> <span class="chip locked">§4 human-only</span></div>
+          <p>Second-quarter profit rose 36.26% on operating revenue up 1.39% — a 5.45pp margin expansion on a flat top line, not franchise growth. At 29% of plan after the half, the second half must carry 2.45× the first-half run rate. An argument for lowering confidence from 0.40, escalated and not written.</p>
+        </article>
+        <article class="esc locked">
+          <div class="esc-head"><strong>TCB and HPG — two stale prices, measured 18 Aug</strong> <span class="chip locked">§4 human-only</span></div>
+          <p>The file carries TCB at ₫29,250 against a market ₫31,450, and HPG at ₫20,800 against ₫21,200 — the file 7.0% and 1.9% low. Price never enters the return calculation directly, but it is pinned to the capitalisation that does, so correcting them moves TCB's expected return <b>+4.0% → −3.1%</b> (−7.1pp, from third of eight to sixth) and HPG's <b>+6.3% → +4.3%</b>. Neither crosses the 10pp escalation threshold; both are tier-4 evidence, so the ask is verify-then-correct, not correct. Note that HPG's gap has <em>narrowed</em> from 7.76% on 3 August only because the stock fell about 6% while the stored number stood still.</p>
+        </article>
+        <article class="esc locked">
+          <div class="esc-head"><strong>Iron ore — the model defaults above market</strong> <span class="chip locked">§4 human-only</span></div>
+          <p>The newest ore field is US$93.66 (3 Aug) and the model defaults to US$98.25 (30 Jul) against a market at <b>US$95.17</b> (14 Aug) on an exact instrument match to the model's own stated basis. The route that would change it — a market-data connector — is unauthorised and cannot be authorised from an unattended session.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="positions">
+      <h2>Positions &amp; expected return</h2>
+      <p class="deck">Expected return is a probability-weighted twelve-month total return, then shrunk by an evidence-quality confidence factor. The shrink is the discipline: a 40% return computed off an unfiled quarter is not a 40% return.</p>
+
+      <div class="tablewrap">
+        <table>
+          <caption>Model state at the last sweep. Nothing on this page is a trade instruction — this file recommends and a human signs.</caption>
+          <thead>
+            <tr><th>Name</th><th>Sector</th><th class="num">Raw E[r]</th><th class="num">Conf</th><th class="num">Shrunk</th><th class="num">Bear</th><th class="num">Held</th><th class="num">Proposed</th><th>Action</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="tkr">MBB</td><td><span class="chip sector">bank</span></td><td class="num pos">+36.6%</td><td class="num">0.50</td><td class="num pos">+18.3%</td><td class="num">+2.4%</td><td class="num">6.5%</td><td class="num">13.3%</td><td class="pos">add +6.8pp</td></tr>
+            <tr><td class="tkr">HPG</td><td><span class="chip sector">steel</span></td><td class="num pos">+6.3%</td><td class="num">0.75</td><td class="num pos">+4.7%</td><td class="num">−7.5%</td><td class="num">16.8%</td><td class="num">20.0%</td><td class="pos">add +3.2pp</td></tr>
+            <tr><td class="tkr">TCB</td><td><span class="chip sector">bank</span></td><td class="num">+4.0%</td><td class="num">0.70</td><td class="num">+2.8%</td><td class="num neg">−19.5%</td><td class="num flag">35.0%</td><td class="num">20.0%</td><td class="neg">trim −15.0pp</td></tr>
+            <tr><td class="tkr">KDH</td><td><span class="chip sector">property</span></td><td class="num">+3.5%</td><td class="num">0.55</td><td class="num">+1.9%</td><td class="num neg">−38.6%</td><td class="num">20.3%</td><td class="num">17.1%</td><td class="neg">trim −3.2pp</td></tr>
+            <tr><td class="tkr">VPX</td><td><span class="chip sector">broker</span></td><td class="num">−0.0%</td><td class="num">0.55</td><td class="num">−0.0%</td><td class="num neg">−37.4%</td><td class="num">2.8%</td><td class="num">8.4%</td><td class="pos">add +5.6pp</td></tr>
+            <tr><td class="tkr">VCI</td><td><span class="chip sector">broker</span></td><td class="num neg">−11.3%</td><td class="num">0.40</td><td class="num neg">−4.5%</td><td class="num neg">−41.6%</td><td class="num">3.1%</td><td class="num">9.8%</td><td class="pos">add +6.7pp</td></tr>
+            <tr><td class="tkr">TCX</td><td><span class="chip sector">broker</span></td><td class="num neg">−11.2%</td><td class="num">0.75</td><td class="num neg">−8.4%</td><td class="num neg">−37.5%</td><td class="num">5.5%</td><td class="num">2.2%</td><td class="neg">trim −3.3pp</td></tr>
+            <tr><td class="tkr">VPB</td><td><span class="chip sector">bank</span></td><td class="num neg">−13.9%</td><td class="num">0.70</td><td class="num neg">−9.7%</td><td class="num neg">−37.1%</td><td class="num">10.0%</td><td class="num">9.2%</td><td class="dim">hold</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>What the cycle buys</h3>
+      <div class="tablewrap">
+        <table style="min-width:420px">
+          <thead><tr><th></th><th class="num">Expected return</th><th class="num">Expected vol</th><th class="num">Return / vol</th></tr></thead>
+          <tbody>
+            <tr><td>Book as owned</td><td class="num">+1.8%</td><td class="num">29.2%</td><td class="num">0.06</td></tr>
+            <tr><td>After this cycle</td><td class="num">+2.7%</td><td class="num">28.9%</td><td class="num pos">0.09</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="criteria">
+      <h2>Kill criteria, dated</h2>
+      <p class="deck">Seventeen criteria are armed. Each was written to break a thesis, but none had ever been asked <em>when it could first fire</em>. Dating them changes how the next ten weeks should be read: thirteen are gated on quarterly filings that do not arrive before late October.</p>
+
+      <div class="tablewrap">
+        <table>
+          <caption>The criteria are confirmation devices, not monitors — the hourly sweep is the monitor. What cannot happen before late October is a criterion <em>firing</em>, not the underlying deterioration becoming observable.</caption>
+          <thead><tr><th>Earliest fire</th><th class="num">Count</th><th>Which, and why</th></tr></thead>
+          <tbody>
+            <tr>
+              <td class="tkr">Any session</td><td class="num">3</td>
+              <td><b>TCX</b> price-to-book &lt; 2.0× — price-based, checkable daily. True trigger <b>₫39,616</b>, only 6.3% below the 52-week low of ₫42,100.<br>
+                  <b>TCB</b> a Masterise bond event — event-driven, but the nearest dated maturity is November 2026. Separately, TCB&rsquo;s real-estate-share criterion sits near its 32% threshold on a conflicted baseline date.<br>
+                  <b>VPB</b> placement priced &gt;15% below market — the price is floored at book value, so it fires only if VPB re-rates above 1.176&times; book. It is 1.063&times;.</td>
+            </tr>
+            <tr><td class="tkr">~19 Oct</td><td class="num">1</td><td><b>TCX</b> — no net foreign accumulation in the four weeks after 21 September.</td></tr>
+            <tr><td class="tkr">Q3 filings<br><span class="dim">~30 Oct</span></td><td class="num">12</td><td>MBB transferee drag · TCB third-quarter margin · TCB real-estate share above 32% · KDH customer advances, leverage, earnings quality · VPX marks and the licence option · VCI nine-month profit and foreign share · VPB consumer-finance credit cost · HPG ramp run-rate.</td></tr>
+            <tr><td class="tkr">Q4 filings<br><span class="dim">~late Jan 2027</span></td><td class="num">1</td><td><b>HPG</b> core profit per tonne below ₫1.25m for two consecutive quarters. The filed second quarter came in at ₫1.803m — 44.2% <em>above</em> the threshold — so the earliest possible consecutive pair is Q3 and Q4.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note"><b>A design observation, escalated.</b> HPG's kill threshold of ₫1.25m per tonne sits exactly at the model's bear branch. The criterion therefore fires only after reality has been at or below the bear case for two straight quarters — it <em>confirms</em> the bear case rather than warning of it. Whether that is intended is a human judgement; recording that it is the design is not.</div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="calendar">
+      <h2>Catalyst calendar</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Date</th><th>Event</th><th>Affects</th></tr></thead>
+          <tbody>
+            <tr><td class="tkr">18 Aug</td><td>MB rights begin trading — transfer window to 26 Aug, subscription and payment to 7 Sep</td><td>MBB</td></tr>
+            <tr><td class="tkr flag">21 Aug</td><td><b>FTSE GEIS constituent list publishes</b> · Khang Dien insider buying window closes · an open forecast resolves</td><td>All · KDH</td></tr>
+            <tr><td class="tkr">24 Aug</td><td>US corrosion-resistant steel circumvention — preliminary determination intended</td><td>HPG</td></tr>
+            <tr><td class="tkr">7 Sep</td><td>MB rights subscription and payment close</td><td>MBB</td></tr>
+            <tr><td class="tkr flag">21 Sep</td><td><b>FTSE Secondary Emerging effective</b> — roughly US$1.5bn passive, phased 10 / 20 / 35 / 35 to September 2027; about US$150m in the first tranche</td><td>All</td></tr>
+            <tr><td class="tkr">Mid–late Sep</td><td>US rebar — International Trade Commission final injury vote, within 45 days of the 30 July publication</td><td>HPG</td></tr>
+            <tr><td class="tkr">~19 Oct</td><td>Four weeks after FTSE effective — the TCX foreign-accumulation criterion resolves</td><td>TCX</td></tr>
+            <tr><td class="tkr">~30 Oct</td><td>Third-quarter filings — twelve armed criteria become testable at once</td><td>All</td></tr>
+            <tr><td class="tkr">27 Oct</td><td>Vietnam's own trade-defence Decision 612 — outer bound for the final determination</td><td>HPG</td></tr>
+            <tr><td class="tkr">Nov 2026</td><td>Saigon Glory bond lots SGL-2020.06–.10 mature, extended from August 2025</td><td>TCB</td></tr>
+            <tr><td class="tkr">Q3–Q4</td><td>VPBank's 624.3m-share foreign placement — price not yet announced</td><td>VPB</td></tr>
+            <tr><td class="tkr">Pending</td><td>Techcombank 60% bonus issue — no ex-date announced · CAEX digital-asset licence decision</td><td>TCB · VPX</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="method">
+      <h2>How conclusions are tested</h2>
+      <p class="deck">The file's most reusable output is not a view on any company. It is a catalogue of the specific ways a number can be right and still mislead — each one found the hard way, most of them by catching the file's own errors.</p>
+
+      <dl>
+        <div class="method"><dt>Measure substitution</dt><dd>Two figures compared on different bases. The catalogue now runs to <em>basis, instrument, date, unit, tenor, channel, window, sample, statistic</em> and <em>seniority</em>. A recent example: a monthly <em>mean</em> rising while an intramonth <em>minimum</em> was set — both true of the same series, and neither refuting the other.</dd></div>
+
+        <div class="method"><dt>The gate table</dt><dd>Roughly ninety date-fenced rows recording what is already established and when it may next be searched. It exists because the same topics were re-researched ten times over. It is checked <em>before</em> a search, not after — and it has twice caught a re-derivation in progress.</dd></div>
+
+        <div class="method"><dt>Pre-registration</dt><dd>The chain from evidence to conclusion is written down before the data arrives, so its failure is measurable rather than quietly re-narrated &mdash; including when the failure is that the test was unfalsifiable by construction, because the instrument&rsquo;s mechanism had been assumed rather than checked. It has already retired one of the file's own macro frameworks: a 42.6-point collapse in Federal Reserve hike odds moved the dollar index by four basis points, breaking the chain at its first link.</dd></div>
+
+        <div class="method"><dt>Right for the wrong reason is a failure</dt><dd>Scored that way in the calibration log. A correct direction reached through a broken mechanism is not banked as a win.</dd></div>
+
+        <div class="method"><dt>Robustness has axes</dt><dd>Varying one input across its full plausible range and calling a conclusion robust is a strictly weaker claim than it sounds. One derivation here was declared robust across the rebar-price axis and later withdrawn: a second, larger axis existed, and it reversed the sign.</dd></div>
+
+        <div class="method"><dt>Decomposition outranks a bare total</dt><dd>A total that survives being broken into named parts beats one that does not. It settled a flow figure that arrived in two irreconcilable renderings.</dd></div>
+
+        <div class="method"><dt>Bare numbers are the worst search term</dt><dd>They have no word boundary and live inside every longer number and percentage. Grepping <span class="mono">838</span> returned twenty-three hits, all of them <span class="mono">1.838%</span> — and nearly suppressed a material finding rather than merely wasting time.</dd></div>
+
+        <div class="method"><dt>Source tiers, and partial adoption</dt><dd>Sources are rated T1 to T5 and are not adopted or rejected whole. One page's market capitalisation was used because it agreed with the model to 1.66%; the headline price on the same page was refused because it did not agree with its own capitalisation.</dd></div>
+
+        <div class="method"><dt>Unobservable is not the same as absent</dt><dd>A search that returns nothing is recorded as a blocked route with the host named, not as evidence that nothing happened. Roughly fifteen hosts are unreachable from this environment and each is listed rather than retried.</dd></div>
+      </dl>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="library">
+      <h2>The library</h2>
+      <p class="deck">Everything below is in the repository and versioned. The log and the calibration record are append-only; corrections are written as new entries rather than edits, so the reasoning that failed stays legible next to the reasoning that replaced it.</p>
+
+      <h3>The continuous record</h3>
+      <div class="shelf">
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/monitoring-log.md">Monitoring log</a></h4>
+          <span class="path">monitoring-log.md · 23,449 lines</span>
+          <p>The primary artefact. Newest first, hourly, each entry carrying its sources, its arithmetic and its portfolio impact. Opens with the gate table.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/decisions/calibration-log.md">Calibration log</a></h4>
+          <span class="path">research/decisions/calibration-log.md · 1,782 rows</span>
+          <p>What was learned, including every error and near-miss. Forecasts are scored on direction, magnitude and whether the stated reason was the operative one.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/decisions/DECISION-BRIEF.md">Decision brief</a></h4>
+          <span class="path">research/decisions/DECISION-BRIEF.md</span>
+          <p>The current recommendation: ranked expected returns, target weights, risk contributions and the armed kill criteria. Regenerated from the model on every sweep.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/OPEN-DECISIONS.md">Open decisions</a></h4>
+          <span class="path">research/OPEN-DECISIONS.md</span>
+          <p>Questions raised and not yet closed, with what would close each one.</p>
+        </div>
+      </div>
+
+      <h3>Method and governance</h3>
+      <div class="shelf">
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/AGENT-CHARTER.md">Agent charter</a></h4>
+          <span class="path">research/AGENT-CHARTER.md</span>
+          <p>What an unattended run may and may not do. §4 reserves every valuation input to a human; §5 sends branch retuning the same way; §6 governs the date gates.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/decisions/DECISION-FRAMEWORK.md">Decision framework</a></h4>
+          <span class="path">research/decisions/DECISION-FRAMEWORK.md</span>
+          <p>The five escalation triggers and how a position is sized, capped and killed.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/PROCESS.md">Research process</a></h4>
+          <span class="path">research/PROCESS.md</span>
+          <p>Lane structure, source tiering, and the rules for recording a negative result so it can safely suppress a future search.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/guides/accounting-modelling-guide.md">Accounting &amp; modelling guide</a></h4>
+          <span class="path">research/guides/accounting-modelling-guide.md</span>
+          <p>Vietnamese-specific traps: credit versus loans, gross operating revenue at brokers, bargain-purchase gains, and the ex-rights identities.</p>
+        </div>
+      </div>
+
+      <h3>The model</h3>
+      <div class="shelf">
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/assumptions.json">Assumptions</a></h4>
+          <span class="path">research/models/assumptions.json</span>
+          <p>Every input, with its source, date, tier and basis attached. Roughly a million characters, and the file that §4 protects.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/run.py">Earnings engine</a></h4>
+          <span class="path">research/models/run.py</span>
+          <p>Company-level scenario models — bear, base and bull — including Hoa Phat's spread bridge from ore, coking coal and hot-rolled coil to profit per tonne.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/decide.py">Decision engine</a></h4>
+          <span class="path">research/models/decide.py</span>
+          <p>Expected returns, block correlation, cluster caps and the optimiser. Market capitalisation is <span class="mono">pe_ttm × npat_ttm</span> — price does not enter the return calculation, which is why a stale price is a symptom rather than the fault.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/research/models/hpg-spread-bridge.md">HPG spread bridge</a></h4>
+          <span class="path">research/models/hpg-spread-bridge.md</span>
+          <p>The steel thesis in one instrument. Current fully-dated reading: ore US$95.17, coal US$225, coil US$535 — implying ₫0.863m per tonne against a filed second quarter of ₫1.803m, whose 19.01% gross margin was itself flattered by an inventory lag that reverses in the third quarter.</p>
+        </div>
+      </div>
+
+      <h3>Published writing</h3>
+      <div class="shelf">
+        <div class="doc">
+          <h4><a href="banking-updates/index.html">Investor updates</a></h4>
+          <span class="path">banking-updates/</span>
+          <p>Longer-form notes written for a reader rather than for the file.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="banking-updates/updates/2026-07-26-q2-scorecard/index.html">Grading the 2026 bank forecasts</a></h4>
+          <span class="path">banking-updates/updates/2026-07-26-q2-scorecard/</span>
+          <p>Twelve houses' 2026 forecasts scored against the filed second-quarter prints.</p>
+        </div>
+        <div class="doc">
+          <h4><a href="https://github.com/datquanton/verbose-guide/blob/claude/banking-vietnam-reports-scrape-5p6rtu/vietnam-banking-industry-reports-2026.md">Sector report catalogue</a></h4>
+          <span class="path">vietnam-banking-industry-reports-2026.md</span>
+          <p>The 2026 Vietnamese banking research corpus from a dozen houses, indexed with dates so a forecast can be attributed to its publisher and its vintage.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────── -->
+    <section id="operation">
+      <h2>How this file is kept</h2>
+      <p class="deck">An unattended run sweeps every hour. Three lanes are checked every time — Vietnamese macro and policy, United States trade action on Vietnamese steel, and company news across all eight names. Four more rotate: index and flows, sector reads, competitors and the street, and ownership signals. Each sweep is budgeted at four to eight targeted searches.</p>
+
+      <p class="deck">A sweep that finds something material appends a dated entry, escalates any model input that changed, re-runs both engines, tests the five triggers, scores any resolved forecast, and commits. A sweep that finds nothing material commits nothing and says which lanes it checked. That distinction is enforced, and roughly one sweep in eight ends without a commit.</p>
+
+      <div class="note"><b>What the automation deliberately cannot do.</b> It cannot change a valuation input, retune a scenario branch, place or size a trade, or rewrite a gate row's contents. When it finds that an input is wrong it quantifies the consequence — including, where the arithmetic allows, the exact effect on expected return — and stops. Every escalation on this page reached it that way.</div>
+    </section>
+
+    <footer>
+      <p><b>Disclosure and disclaimer.</b> Independent research, published for information only. It is not investment advice, an offer, or a solicitation, and nothing here is a trade instruction. Third-party forecasts belong to their publishers and are cited with their dates; estimates are flagged in line and distinguished from filed actuals throughout. The author may hold positions in the securities discussed. Vietnamese equities carry market, liquidity, currency and regulatory risk, and figures denominated in dong are exposed to exchange-rate movement.</p>
+      <p style="margin-top:12px" class="mono">Last sweep 2026-08-22 22:53 ICT · commit a7f3562 · <a href="https://github.com/datquanton/verbose-guide/tree/claude/banking-vietnam-reports-scrape-5p6rtu">source</a></p>
+    </footer>
+
+  </main>
+</div>
+</body>
+</html>

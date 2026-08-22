@@ -1,0 +1,1105 @@
+# Session handover — state of the book at 2026-07-31
+
+> **⚠ CURRENT STATE — Fri 14-Aug-2026 20:54 ICT, WEEK CLOSED. Read this block first; everything below is older.**
+>
+> ## 🚨 TWO TRIGGERS ARE LIVE — READ BEFORE ANY TRADE
+> **TRIGGER 5 (dated catalyst within 5 sessions of a proposed trade) — FIRED 14-Aug.** Counting from Fri
+> 14-Aug: **session 2 = Tue 18-Aug, MBB RIGHTS BEGIN TRADING** (to 26-Aug, ~₫992); **session 5 = Fri 21-Aug,
+> FTSE CONSTITUENT LIST + KDH INSIDER WINDOW CLOSES + Forecast #7 resolves.** Collisions: **BUY VCI +6.7pp**
+> (the brief calls it *"an EVENT bet"* on FTSE), **SELL TCX −3.3pp** (21-Aug *settles* TCX's membership and
+> resolves Forecast #7), **BUY HPG / SELL KDH** (both in the FTSE roster), **BUY MBB +6.8pp** (rights trade
+> from session 2). ⚠ **Trigger 5 ALSO fired 01-Aug on KDH/VNDiamond and NEVER RESOLVED — that status is
+> UNKNOWN and gate-fenced (`vietcat.com`, `vsd.vn` blocked); do not re-search it.**
+> **TRIGGER 2 (cap breach) — STANDING. `DECISION-FRAMEWORK` §5 says so itself: max single name 20% vs TCB
+> 35.0% (+15.0pp); max cluster 35% vs Techcom 40.5% (+5.5pp).** Whether either has WORSENED is not computable
+> — weights move with prices that are stale and §4 human-only.
+> ⚠⚠ **THE RULE CONFLICT AND ITS RESOLUTION: the constitution says a breach "overrides and returns to cap
+> IMMEDIATELY"; the brief says "nothing that fights a dated catalyst inside 5 sessions." These collide ONLY on
+> TCX. TRIM TCB −15.0pp is override-authorised and TCB has NO catalyst in the window. It is a 3.3pp exception,
+> not a standoff.**
+> ⚠ **The "catalyst calendar" the brief points to DOES NOT EXIST** — `PROCESS.md` line 71 is an unticked
+> checkbox. The dates live scattered in gate rows; a consolidated list is in the 11:54 14-Aug log entry.
+>
+> ## MARKET — THE WEEK ENDED BADLY
+> **VN-Index closed Fri 14-Aug at 1,729.08, −36.55 pts, −2.07%. THIRD CONSECUTIVE FALL: 1,793.18 → 1,765.63 →
+> 1,729.08 = −3.58% in three sessions; −39.06 pts on the week, giving back the prior week's +32.28.** Breadth
+> 66 up / 228 down; ~500 decliners market-wide; ₫324,000bn of market cap erased. **Every sector negative, REAL
+> ESTATE worst** — and KDH is 20.3% of the book. Selling accelerated into the close on BOTH 13- and 14-Aug.
+> **FOREIGN FLOWS (HOSE basis, comparable): 13-Aug −₫573.27bn → 14-Aug −₫874bn, +52%.** ⚠⚠ **BUT THE
+> COMPOSITION ROTATED: TCB and HPG are ABSENT from the 14-Aug top-four** (VIC −480 = 55% of the total, VHM
+> −183.75, SHB −99.68, MSN −76.75) **after TCB led the exchange's sell list in two of three sessions.** *"Not
+> among the largest", NOT "not sold" — anything under ₫76.75bn is invisible in a top-four.*
+>
+> ## BANKS — THE BLOCK IS NOT ONE BLOCK (new this cycle)
+> | | funding pressure | regulatory offset | foreign room |
+> |---|---|---|---|
+> | **TCB** | **6.5% → 8.5% roll EVIDENCED** on `TCBL2326010` (₫2,000bn, like-for-like 3yr, ≈₫40bn/yr) | **NONE** | **LOCKED 22.4908%, EXHAUSTED** |
+> | **MBB** | 10yr at 8.3–8.4% | **credit quota · reserves · liquidity** | exhausted, ceiling to **49%** |
+> | **VPB** | 3yr 8.6%, CDs 9.0% | **credit quota · reserves · liquidity** | room available, ceiling **49%** |
+> **The offset is LARGE and quantified: ~13% general 2026 credit quota vs UP TO 35% for the four
+> mandatory-transfer banks (VCB, MB, HDBank, VPB) — +22pp, 2.7×; forecast actual use VPB 30.9%, MB 27.0%.**
+> ⚠ **But it has a stated DECAY PATH: the PM has ordered a roadmap to PILOT REMOVAL of credit quotas from
+> 2026, selecting on SAFETY STANDARDS — a different criterion from "took a transfer". Timing unestablished.**
+> ⚠ **Counter-tension: sector NPL 1.97%, highest since 2020; coverage 82.9% and falling; NPLs +21.4% YTD.
+> VPB's own NPL and Group-2 ratios are at MULTI-YEAR LOWS — but its 56.2% coverage is NOT excused by that
+> (coverage is already NPL-normalised).** ⚠ **USD/VND central rate at successive ALL-TIME HIGHS: ~31-Jul
+> ₫25,338 → 13-Aug ₫25,539, +0.79%, constraining SBV easing.** ⚠ **TCB CAR 14.6% → 15.2% → 15.0% (30-Jun);
+> rising CAR is evidence AGAINST the ₫17,000bn repurchases being predominantly Tier 2 — an inference, and the
+> seniority remains a MISS (reachable, not unobservable).**
+>
+> ## CALIBRATION — TWO FORECASTS SCORED THIS CYCLE
+> **HPG Q2: actual ₫6,424bn NPAT (rev ₫55,557bn, +51%/+53%) vs point estimate ₫5,020bn = +28.0%, but INSIDE
+> the ₫5,020–6,500bn range at 94.9%. Range right, point estimate low. Right for the STATED reason (Dung Quất 2
+> HRC). H1 ₫15,480bn = 70% of the FY plan on 52% of revenue — margin, not volume, carries it.**
+> **KDH Q2: THREE BASES — standalone ₫49.6bn (−94.2%), NPAT-to-parent ~₫750bn (+277%), consolidated ₫770bn.
+> The `_mi` estimate of ₫170bn belongs against the ~₫750bn ⇒ +341%, DIRECTION WRONG. But ~₫900bn of it is a
+> ONE-OFF divestment gain while core revenue fell ~85% to a four-year low — WRONG ON THE FIGURE, RIGHT ON THE
+> UNDERLYING.** ⚠ Gate row 44 carries the consolidated ₫770bn, which is **not** the basis any forecast used.
+> ⚠ **Open: Forecast #7 (TCX FTSE, EV +6.25%) resolves 21-Aug, never re-weighted; a CAEX forecast to 30-Sep;
+> VPX FY2025 net profit. There is NO forecast register — found missing 07-Aug.**
+>
+> ## STANDING / BLOCKED
+> **No model input has changed in this cycle; `DECISION-BRIEF.md` is byte-identical throughout.** ⚠ **`bls.gov`
+> joins `lseg.com`, `vsd.vn`, `vietcat.com` and others as EGRESS-BLOCKED — every authoritative PRIMARY registry
+> this file needs is unreachable while the secondary press repeating them is reachable, so T1 is effectively
+> unattainable for regulatory and statistical facts.** ⚠ **`iron ore` CLOSED at US$98.25 by its own stated
+> default after both conditions failed.** ⚠ **FiinQuant MCP still UNAUTHORISED** — the only route to
+> single-stock closes and to reopening the iron-ore row. ⚠ **Item 38's MBB `fy26e_npat` re-derivation was due
+> 12-Aug and has NOT been done (§4 human-only).** ⚠ **`valuation.MBB.price` still ₫22,050 vs a worked
+> ₫18,440.** ⚠ **The routine's lane-3 brief is STALE — it still chases Q2 filings closed 29–31 Jul.**
+> ⚠ **The parallel audit session is NOT reachable (`ListAgents`: none); any findings sit on
+> `claude/vn-research-parallel-thread`.**
+>
+> ## DATED AHEAD
+> **Sat 15-Aug** SBV circulars 29/2026 + 31/2026 effective · **Tue 18-Aug** MBB rights begin trading ·
+> **Fri 21-Aug** FTSE list + KDH window closes + Forecast #7 · **Mon 24-Aug** CORE preliminary (*an
+> intention*) · **Tue 02-Sep** VCI window closes (⚠ one source says 03-Sep — counting convention) ·
+> **Sun 07-Sep** MBB subscription closes · **mid–late Sep** rebar ITC vote · **Mon 21-Sep** FTSE effective.
+**Updated Tue 11-Aug 16:54 ICT — MBB EX-RIGHTS DAY.** *(16:54 — ✅ **THE PRE-REGISTERED TEST RAN AND RETURNED A NULL — AND THE PRE-REGISTRATION IS WHAT MAKES THE NULL REPORTABLE.** *(Read at 129 min after the 14:45 close — the offset that worked yesterday, after 69 min failed.)* **✅ 23:54 UPDATE — CLOSE CONFIRMED 1,773.41 (−3.36, −0.19%), matching the 22:54 derived figure exactly. AND the MBB "+1% to +1.6%" is confirmed a **MORNING** figure, so BOTH legs of the 16:54 test were contemporaneous intraday reads: the +0.3–0.9pp null is RESTORED as an INTRADAY result, and it is the 22:54 recomputation (+1.19–1.79pp) that was invalid — it mixed a close with a morning quote. The word "CLOSED" stays withdrawn; the null does not. The PRE-REGISTERED open-based test remains UNRESOLVED (needs Ptc). MBB's own close is unknown and not estimated.** **⚠⚠⚠ CORRECTED 22:54 — VN-INDEX DID **NOT** CLOSE +0.7% ON 11-AUG. IT FELL 3.36 POINTS to ~1,773.41 (−0.19%). I read an INTRADAY market-pulse piece as a CLOSE. THE NULL BELOW IS WITHDRAWN AS UNSUPPORTED — recomputed with the true index move the residual is +1.19 to +1.79pp, OUTSIDE the pre-registered band; but MBB's leg has unknown timing, so the test returns to UNRESOLVED rather than reversing. Second false market read in two days (10-Aug: logged −15.56 pts, actual +0.7%).** ~~Session: VN-Index CLOSED +0.7%, financials leading.~~ MBB among the VN30's top gainers at ~+1% to +1.6%, 9.9m shares matched. ⚠⚠ **Reading the convention matters more than the number: on an EX-DATE the quoted change is versus the ADJUSTED REFERENCE — the −16.7% mechanical drop sits INSIDE the reference. MBB neither "fell 16.7%" nor "rose 1.6%" in any naive sense; it traded ABOVE its adjusted reference.** **TEST: [MBB vs Ptc] − [VN-Index] = (+1.0% to +1.6%) − (+0.7%) = +0.3pp to +0.9pp.** ⚠⚠ ***The 10-Aug 11:54 registration said verbatim: "a residual of a few tenths of a percent will not be interpretable either way." It IS a few tenths. NOTHING IS CLAIMED FROM IT.*** Writing "MBB outperformed on its ex-date" would violate a rule set before the data existed. ✅ **What the null DOES establish: NO ANOMALY. The adjustment went through cleanly — no mispricing, no failed adjustment, no dispute — on a corporate action worth +25.0% of shares.** ⚠ **THREE LIMITS: (1) a SESSION move, not the OPEN the test specified; (2) a RANGE, not a number; (3) Ptc STILL UNOBTAINED, so the ₫24,400 candidate is UNRESOLVED — the half that would confirm or withdraw it is untouched.** ⚠ *New, about YESTERDAY: foreign investors net SOLD ₫279bn on HOSE on 10-Aug (HNX net buy >₫1bn) — the full-day figure, superseding the provisional ₫53.1bn morning number.* *Not invented: the source gave a PERCENTAGE only; 1,776.77 × 1.007 ≈ 1,789.2 is derived arithmetic, not a reported close.* **`valuation.MBB.price` remains ₫22,050 — now stale against BOTH a price change and a share-count change (item 2, §4 human-only). Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **RECORD DATE TOMORROW 12-Aug; CPI 19:30 ICT that evening, AFTER it closes. Item 38 overdue, §4 human-only.**)* *(14:54 — ⚠ **I TESTED THE LIMIT I STATED AN HOUR AGO; THE ANSWER IS A WEAK NEGATIVE — AND THE SEARCH FOUND TWO CONFLICTS IN THE NLG DATA THE 12:54 PEER TEST WAS BUILT ON.** **No returns line is reported for NLG** — its Q2 fall is attributed entirely to *fewer handovers*, no revenue deductions mentioned. ***Absence of reporting is still not absence of the item.*** The narrow claim: **KDH's ₫78bn WAS reported (32.6% of gross, material); NLG's silence is consistent with immaterial or zero. Weak asymmetry, recorded as weak.** ⚠⚠ **The more useful finding is a problem with my own 12:54 source: NLG Q2 NPAT ₫66bn vs >₫55bn, and gross margin "improved 30.8%→36.4%" vs "~36.5%, roughly flat vs last year".** *The 66/55 split has the SHAPE of consolidated-vs-parent (LNST vs LNST công ty mẹ) — a hypothesis, neither figure preferred. The margin reconciles arithmetically as an H1 measure (₫618bn ÷ ₫1,695bn = 36.5%) without resolving improved-vs-flat.* ✅ **The 12:54 conclusion SURVIVES, and I checked rather than assumed: the peer test rested on presales (~₫5,080bn, 1.5×), advances (~₫2,900bn) and inventory (~₫8,600bn flat) — NONE in conflict. The two disputed figures were colour and carried no weight.** ⚠ *But the caveat belongs on the record: the NLG figures come from a source a second source contradicts twice. The load-bearing three are unchallenged; the entry is on thinner sourcing than it read.* *Vietnam closed 9 min before this sweep — too fresh on the 113–114 minute bracket, not read.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB HAS NOW TRADED EX-RIGHTS; record TOMORROW 12-Aug, CPI 19:30 ICT that evening AFTER it closes. Item 38 overdue, §4 human-only.**)* *(13:54 — ⚠⚠⚠ **KDH'S Q2 REVENUE IS NET OF ₫78bn OF SALES RETURNS — 32.6% OF GROSS — AND THE FILE NEVER HELD IT.** **Q2 gross sales ₫239bn − ₫78bn returns = ₫161bn net, −85% YoY; 239 − 78 = 161 exactly.** `hàng bán bị trả lại` / `sales return` = **ZERO hits in both files.** (H1 net ₫442bn vs ₫1,759.2bn, −74.9%; inventory ~₫29,500bn at Khang Phúc, consistent with the ₫29,488bn on file.) ⚠⚠ **THIS PARTIALLY CORRECTS MY OWN 12:54 ENTRY, ONE HOUR OLD.** I wrote that KDH's revenue fall *"reads as a SECTOR handover-timing phenomenon."* ***True of the DIRECTION, false of the COMPOSITION — a timing lull does not produce returns.*** NLG's fall came with presales 1.5× and ₫2,900bn of advances; **KDH's contains cancellations. So the revenue line is NOT purely sector, and the "weakened half" is less weakened than I wrote.** ⚠ *Honest limit: I do NOT know NLG's returns line — none was reported, which is not the same as none existing.* ⚠⚠ **Squarely the owner's standing instruction — *what is deceptively shown in P&L*. "House-sale revenue −85%" is ACCURATE and INCOMPLETE: the net figure is right, and it conceals that ~a third of gross Q2 sales was handed back. The file carried the −85% since the Q2 print and never had the numerator.** **The 12:54 forward-book divergence stands unaffected** (advances ₫398.9bn vs ~₫2,900bn; inventory +27% vs flat) — **and a THIRD divergence now sits on the revenue line itself.** *The search was FOR KDH's presales, to fill the 12:54 table's empty cell. That cell is still empty.* **Nothing modelled; kill criterion is a 3Q26 test and NOT declared fired; no confidence moved (T5); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **Session closes 14:45; record date TOMORROW 12-Aug. Item 38 overdue, §4 human-only.**)* *(12:54 — ⚠⚠ **THE NLG PEER TEST SPLITS THE KDH THESIS: THE REVENUE COLLAPSE IS SECTOR-WIDE, THE FORWARD BOOK IS KDH-SPECIFIC BY ~7×.** **NLG Q2/26: revenue ₫415bn (−46% YoY), NPAT ₫66bn; H1 ₫1,695bn / ₫176bn; gross margin IMPROVED 30.8%→36.4%; op cash flow ~−₫1,100bn.** ⚠ **HALF THE THESIS WEAKENED:** the file holds KDH's revenue at a four-year low with house sales −85%. **NLG is −46% in the same quarter and calls it a handover-timing lull. Two HCMC developers, same direction — the current-revenue line is SECTOR, and the KDH-specific reading of it is weaker than the file has had it.** ⚠⚠ **THE OTHER HALF STRENGTHENED, because the FORWARD indicators diverge: buyer prepayments NLG ~₫2,900bn vs KDH customer advances ₫398.9bn (below its own ₫1,000bn kill threshold) — ~7.3×; NLG H1 presales ~₫5,080bn at 1.5× YoY; inventory NLG ~₫8,600bn FLAT vs KDH ₫29,488bn +27% YTD.** ***NLG's revenue fell while its forward book GREW — that is timing. KDH's fell while advances sat at ₫398.9bn and inventory grew 27% — that is not the same shape.*** **So the peer test SEPARATES rather than vindicates or convicts: the sector explains the revenue line, NOT the forward book — and KDH's armed kill criterion lives on exactly the indicator where the peer diverges.** ⚠ *Comparability caveat: NLG's "tiền người mua trả trước" vs KDH's "customer advances" are broadly the same concept but line definitions are NOT verified — the RATIO is what is relied on, not the levels.* **Kill criterion NOT declared fired — it is a 3Q26 test with a launch condition, and this is peer evidence about LIKELIHOOD. Nothing modelled; no confidence moved (T5); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **Record date TOMORROW 12-Aug; CPI 19:30 ICT that evening. Item 38 overdue, §4 human-only.**)* *(11:54 — ✅ **A QUESTION THE FILE PARKED IS ANSWERED: *"bank foreign rooms are commonly full — that is the next question, not an answer."*** **NEW (zero hits): `69/2025`, `22.4908`. TCB's foreign room is LOCKED AT 22.4908% AND EXHAUSTED — below the standard cap, a COMPANY choice. MBB exhausted. VPB has room.** Plus **Nghị định 69/2025/NĐ-CP**: banks in MANDATORY RESTRUCTURING may raise the ceiling to **49%**, naming HDB, MBB, VPB. ⚠⚠ ***Caveat first: the room figures are dated 14-AUGUST-2025 — nearly a YEAR old.*** ⚠⚠ **The contradiction is the useful part: MBB was net BOUGHT ₫415bn (03–07 Aug), and you CANNOT net-buy into a full room. So either the year-old "exhausted" is stale, or MB's ceiling was raised under 69/2025 — and MB is a restructuring participant, which THIS MORNING's 01:54 entry established independently from the chairman's own reason for its ~35% credit target.** ⚠ **But the explanation has a hard limit that kills half of it: ROOM CONSTRAINS BUYING, NOT SELLING. TCB full + sold ₫394bn is consistent; but VPB HAS ROOM and was sold ₫572bn, the largest of the four. So room cannot explain the sell side, and the 10-Aug puzzle is at best HALF-addressed.** ⚠ *Partial, not settled: foreign headroom is an FTSE criterion, so TCB at zero headroom would fail it mechanically — a candidate reason for the ineligible split the file has listed without explaining. But VPB has room and is still ineligible.* ⚠ **Sharper, not changed: TCB's 22.4908% is a COMPANY lock below the regulatory cap — on 35% of the book, a structural ceiling on net foreign buying that no upgrade or index event relieves while it stands.** *Lane 4 was the intended target and was ABANDONED before searching — VNDiamond is an explicitly closed route (seven attempts, three routes). The COVERED check ran BEFORE the search.* **Nothing modelled; no confidence moved (T5, figures a year old); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **Record date TOMORROW 12-Aug; CPI 19:30 ICT that evening, after it closes. Item 38 overdue, §4 human-only.**)* *(09:54 — ⚠⚠ **I WEAKENED A COVERED ROW ON ONE LUCKY RETURN; THREE FAILURES SINCE SAY THE ROW WAS RIGHT.** *Read at the OPEN slot — the ATO settled 09:15 and an open is FINAL at 09:15 where a close needs the whole session.* **At 06:54 I called the COVERED row's "never" *too absolute* after a disclosure query returned ₫24,400 as a by-product. Two disclosure-shaped queries have failed since (07:54 ex-rights list, 09:54 Ptc/open). Tally: FIVE NIL IN SIX.** ***The ₫24,400 was a by-product of one query, not a repeatable channel — I generalised a route from a single return, and amending a control surface is a higher bar than making a claim.*** Recorded beside the row rather than by re-editing it, so both the claim and its retraction stay visible. ⚠ *The disclosure-vs-price distinction is kept as a HYPOTHESIS; what is withdrawn is treating it as ESTABLISHED on n = 1.* **The ₫24,400 candidate is unchanged and still a candidate — never accepted, nothing rests on it, `valuation.MBB.price` remains ₫22,050. What fell is confidence in the ROUTE.** ⚠⚠ **THE FALSIFICATION IS UNRESOLVED FROM HERE AND PASSES INTACT: if `P_cum` = ₫24,400, HOSE's adjusted reference today is ₫20,320 and MBB opened at or near it; if the published Ptc differs materially, the candidate is withdrawn. The formula is separately confirmed against the exchange rule and is NOT what is in doubt.** *The corporate action itself has never been in question — 10:1 at ₫10,000 on 11/08, now confirmed 4–5 times independently and consistent every time.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **Record date TOMORROW 12-Aug; CPI 19:30 ICT that evening, AFTER the record date closes, so they cannot interact. First VN session able to react to CPI is THU 13-Aug. Item 38's re-derivation was due before today, NOT done, deadline passed — §4 human-only.**)* *(05:54 — ⚠⚠ **READ AT THE PRE-REGISTERED SLOT (114 min after the US close). A FOURTH OUTLET MISDATED CPI; THE PRIMARY SETTLED IT AGAIN — AND THE ICT CONVERSION MOVES EVERY US PRINT A SESSION.** **Close 10-Aug: S&P −0.1%, Dow −0.1%, Nasdaq −0.3%, back below the all-time high. 10-year DOWN just over 1bp, 2-year ~flat — NO LEVEL given, none invented. Oil UP on uncertainty over when Hormuz reopens.** Environment, small moves. ⚠⚠ **The close report said *"US CPI data on TUESDAY"* — today. ✅ **BLS: July CPI is 12-AUGUST, 08:30 ET — WEDNESDAY. The file's gate is CORRECT; the secondary is wrong.** ***Four outlets now, four wrong weekdays, four one-search resolutions at the issuing agency.*** ✅ **THE NEW PART — 08:30 ET = 19:30 ICT, so ALL THREE US prints land AFTER Vietnam's 14:45 close:** **CPI → first VN session able to react is THU 13-Aug · PPI → FRI 14-Aug · retail sales → MON 17-Aug (across a weekend).** ***The file has held "CPI Wed 12-Aug" since 09-Aug, which reads as a Wednesday event for a VIETNAMESE book and is not one — Vietnam's Wednesday session closes ~5h BEFORE the print. Gate row updated with the conversion.*** ⚠ *And it makes an earlier assertion exact: CPI lands ~5h AFTER MBB's 12-Aug record date has passed — **they cannot interact**.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB IS EX-RIGHTS TODAY; Vietnam opens in ~3 hours. Item 38's re-derivation was due before today, NOT done, deadline passed — §4 human-only.**)* *(04:54 — ⚠⚠ **THE CENTRAL RATE IS AT ANOTHER RECORD, THE CHAIN CLOSES EXACTLY — AND A READING THIS FILE HAS CARRIED SINCE 02-AUG IS MECHANICALLY BACKWARDS.** **SBV central rate ₫25,491 (Mon 10-Aug), +₫28 on the week, all-time high; ₫25,463 on Fri 07-Aug, +₫125 in a week.** ✅ **Chain closes to the dong against what the file held: 25,463 − 25,338 (01-Aug) = +125 EXACT; 25,491 − 25,463 = +28 EXACT; and the file's ₫25,380 (04-Aug) sits properly inside. Total +₫153, +0.60% in seven sessions.** ⚠⚠ **THE CORRECTION: the file says *"a currency at its band ceiling constrains the SBV's room to ease."* The commercial rate did NOT follow — VCB/BIDV 26,020 buy / 26,400 sell, DOWN ₫20 and ₫10 on the week.** **Central ×1.05 ceiling rose 26,649 → 26,766 (+₫117) while VCB's sell FELL ₫10, so headroom went ~₫239 → ₫366 — it WIDENED by ₫127.** ***The central rate is the SBV's OWN LEVER, not a market price. Raising it widens the permitted band — that is the SBV creating room, not losing it. What would tighten the constraint is the MARKET rate approaching the ceiling, and that gap moved the other way.*** ⚠ *Bounded to the inference, not the comfort: a rising central rate still means the SBV is ACCOMMODATING depreciation and the dong is weaker outright. Only the claim that its OPTIONS are narrowing is wrong. (VCB's 04-Aug sell is inferred, so ₫239 is approximate; ₫366 and the direction are not.)* **Where it lands: banks' FX mismatch is regulatorily capped (Thông tư 07/2012), so environment for 51.5% — but HPG buys USD inputs, sells in VND, and its bridge has NO FX line; +0.60% in seven sessions is a real cost the bridge cannot see. §4 machinery.** *US closed 54 min before this sweep — too fresh on the 113–114 minute bracket, not read.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB IS EX-RIGHTS TODAY; record 12-Aug; Vietnam opens in ~4 hours. Item 38's re-derivation was due before today, NOT done, deadline passed — §4 human-only.**)* *(01:54 — ⚠ **ITEM 16's "UNATTRIBUTED 30–35%" NOW HAS AN AUTHOR, A DATE AND A REASON — AND IT DISPLACES THE FILE'S OWN EXPLANATION.** **The SAME chairman put credit growth and deposit mobilisation at ~35% at an INVESTOR CONFERENCE ON 2-FEBRUARY, with a stated reason: a quota advantage from participating in MANDATORY BANK RESTRUCTURING.** ⚠⚠ **Item 16 read the 25%→30-35% shift as superseded AT THE APRIL AGM. If the same man said ~35% on 2-Feb, the revision happened FOUR WEEKS after the January figure, not two months later at the AGM. The operative number survives; the mechanism does not.** Advanced in place in OPEN-DECISIONS.md. ✅ *And the stated reason SUPPORTS item 16's own guess — 35% = SBV quota allowance, 25% = internal plan — which was previously held on inference alone. Context: SBV's system 2026 target is ~15%, so ~35% is ~2.3× system, inside the 1.7–3.2× range already on file.* ⚠ *Held open, not resolved: 25%→35% by one person in four weeks may be a revision OR a misreport. Neither is picked.* ⚠ **Re-search, stated: the PBT half was already held — `guidance_pbt` ₫39,400–39,500bn, +15–20% on 2025. What it adds: MB's own February guidance sits BELOW the flat-H2 ₫40,376bn already computed, so "MB guides to flat H2" refines to "slightly BELOW flat" — and it predates H1 actuals, so it is a stale anchor.** **Nothing modelled; `fy26e_npat` UNTOUCHED — this supplies an INPUT to item 38, not a substitute for it. No confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB IS EX-RIGHTS TODAY; record 12-Aug. Item 38's re-derivation was due before today and was NOT done — deadline passed, §4 human-only.**)* *(00:54 — ✅ **MY CLOSED FORM IS CONFIRMED AGAINST THE EXCHANGE'S PUBLISHED ADJUSTMENT RULE, BY A COMPLETELY DIFFERENT ROUTE.** HOSE's standard: **Ptc = [P(t−1) + I·Pph − D] / (1 + I + α + β)**. For MBB — **D = 0** (cash paid 17-Jul), **I = 0.10, Pph = ₫10,000, α = 0.15, β = 0** — this collapses to **(P + 1,000)/1.25 = 0.8 × P + ₫800**, ***identical to the 09:54 closed form, and it reproduces ₫22,050 → ₫18,440 and ₫23,900 → ₫19,920 exactly.*** **The rule's own stated principle — total market cap equal before and after — is the cap-conservation logic I derived it from. Same principle, independent route, same expression.** *Immaterial and worth saying so: α vs β doesn't matter — both sit in the same denominator term. And the 200m placement correctly does not enter (separate, undated, and a market placement wouldn't adjust the reference).* ✅ **THE HANDOFF IS NOW SIMPLER: HOSE PUBLISHES Ptc ITSELF on the ex-date morning.** ***Instruction for whoever has the prices: compare MBB's actual ex-open against HOSE's PUBLISHED adjusted reference for 11-Aug — not a self-computed figure — then subtract the VN-Index move; `VN-Index close(10-Aug) = 1,776.77` is supplied. Only the market-net residual is information; a few tenths of a percent is not interpretable.*** ⚠ **Unchanged: `P(t−1)` is MBB's 10-Aug close, which three searches failed to get, and single-stock closes are a CLOSED route from here — but the test now needs a DISCLOSURE (HOSE's Ptc) rather than a price.** *US session ~4h25m in, close 04:00 ICT — still intraday, not read.* **Nothing modelled; `valuation.MBB.price` untouched and human-only; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **ITEM 38's `fy26e_npat` RE-DERIVATION WAS DUE BEFORE TODAY AND WAS NOT DONE — DEADLINE PASSED, §4 human-only.**)* *(10-Aug 21:54 — ⚠⚠⚠ **THE CONTEXT-CHECK CAUGHT A 400× ERROR ONE STEP BEFORE PUBLICATION.** A source gives **VPBankS ₫2.75bn for 11% of CAEX** ⇒ CAEX capital ₫25bn ⇒ the stake is **0.0083% of VPBankS's ~₫33,000bn equity**. **I was about to write "the CAEX licence cannot move VPX's earnings whatever the outcome."** ⚠⚠⚠ **The file already holds the SAME 11% at ₫1,097bn — 399× larger — with the 11/39/50 split summing to 100. On the file's figure the stake is 3.32% of equity, not 0.0083%.** ***`CAEX` returned 29 log hits; checking them instead of assuming novelty is the only thing that stopped it.*** ✅ **And the conflict may resolve an incoherence the file flagged and shelved** — *"total CAEX capital as 10 tỷ immediately after an injection of 1,097 tỷ; those cannot both be right."* **Hypothesis, offered NOT asserted: ₫2.75bn is a FOUNDING stake in a ₫25bn company and ₫1,097bn a LATER one in a ~₫10,000bn company — both correct at different DATES, with the 11% preserved throughout, which is the one thing all sources agree on.** ⚠ ***What settles it is a date on each figure and neither source supplies one. THREE candidate capitals now: ₫10bn · ₫25bn · ₫10,000bn. NONE adopted.*** ⚠ **Item 8's named gap is a FIRM NEGATIVE: VPB's ownership % of VPBankS still not established — the parallel to TCB's 94.17% of TCBS stays open, `effective_broker_pct.VPX` = 4.22 untouched.** *Not claimed novel (hits unchecked): VPBankS charter capital ₫15,000bn → ₫18,750bn (+25%), equity ~₫33,000bn.* *US session ~85 minutes in — an intraday level, not a settled number — deliberately not read.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, NOT done, deadline passed — §4 human-only.**)* *(20:54 — ⚠⚠ **ITEM 8's "ONE NUMBER THAT WOULD SETTLE IT" IS NOW DATED — AND SPLITTING IT EXPOSES A LABEL ERROR IN THIS FILE.** At 30-Jun-2026: **total loans ₫51,522bn (+17.5% YTD), of which MARGIN ₫51,043bn and ADVANCES ₫479bn — 51,043 + 479 = 51,522 exactly.** Total assets **₫100,592bn (+24.8% YTD)**. ⚠⚠ **Item 8 records ₫51,522.4bn as "margin". It is TOTAL LOANS. Margin alone is ₫51,043bn.** The ratio moves 51.22% → 50.74%, only −0.48pp, **so the comparison against VPS's 65.4% is unaffected — the gain is the LABEL and the DATE, not the number.** ✅ **The file called this input "UNDATED… the weakest in the comparison"; it is now 30-Jun-2026, the SAME date as VPS's ₫31,311bn — item 8's comparison is date-matched for the first time.** ⚠ *But it opens a basis question: is VPS's ₫31,311bn margin-only or total loans? A like-for-like is now POSSIBLE, not done — VPS's basis is not established and is not assumed.* ⚠⚠ **AND A DECOMPOSITION THAT CUTS AGAINST ITEM 8's OWN READING: assets +24.8% (~₫19,989bn) vs loans +17.5% (~₫7,673bn) ⇒ ~₫12,316bn, 62% of asset growth, was NOT LENDING.** *"TCBS EXPANDED" is true and incomplete — the expansion was mostly somewhere the file has no composition for, and none is assumed.* *Corroborated to the dong: assets ₫100,592bn, Q2 revenue ₫3,745bn (+41%), PBT ₫2,097bn (+21%, record).* **The US market opened 25 minutes before this sweep and was deliberately NOT read** — the file's own indexing bracket is 113–114 minutes, and both of today's withdrawals came from session data read too early. **Nothing modelled; TCX `evidence`/`confidence` untouched (a label fix and a dating are not a tier change); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, NOT done, deadline passed — §4 human-only.**)* *(19:54 — ⚠⚠ **THE THIRD BANK COMPLETES THE CAPITAL PICTURE AND IS THE COUNTER-EXAMPLE TO MY OWN 18:54 INFERENCE: FIVE-YEAR TENOR, AND STILL NOT TIER 2.** New, zero hits: **`VPBIP2530`, `IFC`, `Proparco`.** VPB's **US$300m five-year international sustainability bond** — private placement, **1,500 bonds × US$200,000 = US$300m exactly**, in the Q2/2026 statements; **IFC US$200m + Proparco US$100m = 300**; **proceeds ring-fenced** for renewable energy, sustainable transport, low-emission agriculture. *No coupon disclosed; the 2019 US$300m at 6.25% is a different three-year issue.* ⚠⚠ **It PASSES the tenor test and FAILS Tier 2: capital must also be SUBORDINATED and FREELY AVAILABLE to absorb losses — restricted proceeds and DFI senior money are neither.** ⚠⚠ **So 18:54's inference survives ONLY ONE WAY: tenor BELOW the minimum is DISQUALIFYING (TCB's 36 months — conclusion stands), but "five years therefore Tier 2" is INVALID. A necessary condition written without the word "necessary" reads as sufficient; corrected here.** ⚠ **And it qualifies 06:54 without withdrawing it: "the roll-fails half is capped by NOTHING" is true of regulation, but IFC/Proparco are DFIs and DFI funding is structurally stickier than syndicated market money. Live leg, less brittle than the phrasing implied.** **THREE BANKS, ONE THRESHOLD, THREE ANSWERS (51.5% of book): MB ₫20,000bn/5–10yr = Tier 2 YES · TCB ~₫10,000bn/36 months = NO · VPB US$300m/5yr = NO.** ***Only MB is actually raising Tier 2 — the bank that publishes no CAR and names the regulatory minimum as its own floor. Coherent; still not a capital ratio, and no CAR is inferred.*** **Nothing modelled; no confidence moved (§2 needs T1–T2); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, NOT done, deadline passed — §4 human-only.**)* *(18:54 — ⚠⚠⚠ **MY 04:54 TCB ISSUANCE FIGURE IS WRONG BY 5×, AND THE CLAIM BUILT ON IT IS WITHDRAWN — ON 35% OF THE BOOK.** I logged *"TCB issued ₫2,000bn in 5M/2026"*. **₫2,000bn is ONE TRANCHE; the five-month total is ~₫10,000bn across FIVE.** ⚠⚠ **So 04:54's *"TCB retired materially more of its own paper than it issued"* is WITHDRAWN: ~₫10,000bn issued (5M) against ₫9,000bn repurchases scheduled May–June is roughly BALANCED, possibly net issuance.** ⚠ ***The shape of the failure is the lesson: at 04:54 I explicitly REFUSED to compute "8.5× more retired than issued" on a period mismatch — and that refusal was right, the ratio would have been wrong by an order of magnitude. Then I made the same claim QUALITATIVELY and it was wrong anyway. Declining the precise version does not protect the vague version.*** **Corrected numbers: ~₫10,000bn over five tranches, coupons 8.4–8.7%; the ₫8,000bn April raise is 36-MONTH; lot TCB12605 36m, matures 18-May-2029, fixed 8.4%. Repurchases 27-May ₫1,500bn · 29-May ₫5,000bn · 03-Jun ₫2,500bn = ₫9,000bn exactly.** ✅ **AND THE SENIORITY QUESTION RESOLVES — BY TENOR, NOT LABEL. Tier 2 requires ≥5 years original maturity; TCB's 2026 issues are 36 MONTHS, so they are ORDINARY FUNDING, not capital.** *Inference with its basis, not a quotation — but MB's explicitly-Tier-2 programme (logged 17:54) runs 5–10 years in the same market and year: two banks, one threshold, opposite sides.* ***Consequence: TCB's ₫17,000bn of repurchases is NOT capital retirement, so the 40%-short-term-funding concern applies to three-year ordinary funding — materially smaller than retiring capital instruments.*** ⚠ *Unresolved: whether the ₫17,000bn full-year figure and this ₫9,000bn May–June schedule are the same money; 9,000 sits inside 17,000, consistent, but the remaining ₫8,000bn is undated.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, NOT done, deadline passed — §4 human-only.**)* *(17:54 — ⚠⚠ **THE ₫3,500bn I CALLED "THE FIRST TIER 2 DATUM" THIS MORNING IS 17.5% OF A PROGRAMME 5.7× LARGER — AND TRANCHE THREE IS DUE THIS MONTH.** **MB has a private-placement Tier 2 programme of ₫20,000bn for 2026 in THREE tranches: ~Mar ₫7,000bn · ~May ₫7,000bn · ~AUGUST ₫6,000bn — and 7,000+7,000+6,000 = 20,000 exactly.** ⚠⚠ **Tranche three, up to ₫6,000bn (30% of the programme), is due THIS MONTH on a name going EX-RIGHTS TOMORROW. NOT declared a trigger-5 firing: trigger 5 requires a DATED catalyst within 5 sessions, and "August" is a month.** Recorded as an undated in-month catalyst. ⚠ **MB is simultaneously accelerating EARLY REDEMPTION of old tranches, size not given — so ₫3,500bn gross ≠ ₫3,500bn net Tier 2. Same gross-vs-net trap flagged for TCB at 04:54, now inside one name.** ✅ **An unstated attribute CLOSED for one bank: MB's bonds are non-convertible, no warrants, UNSECURED, structured to qualify as Tier 2 under SBV rules — resolving for MB the seniority question raised about TCB's repurchases. STILL OPEN FOR TCB.** **Tenor/coupon (what 04:54 said was missing): programme 5–10yr; issues so far 8.3–8.4% p.a. across 3–10yr.** ⚠ *Tension with 04:54's "nearly 9%" — different tranches or tenors is the obvious read, not established, so no spread computed.* *Novelty rests on the STRUCTURE, not the round figures (`20,000`/`7,000`/`6,000`/`8.3%` unchecked): the file's Tier 2 record began at 04:54 today with "no Tier 2 figure exists for any of the three banks".* **Capital picture coheres further — a ₫20,000bn Tier 2 programme AND +27.5% equity at once — but TWO COHERENT FACTS ARE STILL NOT A CAPITAL RATIO. No CAR inferred for MB.** **Nothing modelled; no confidence moved (§2 needs T1–T2); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, NOT done, deadline passed — §4 human-only.**)* *(16:54 — ✅ **THE CLOSE IS IN AND VERIFIED THREE WAYS: VN-INDEX CLOSED 10-AUG AT 1,776.77, +8.71 pts, +0.49%.** **Level: 1,768.06 + 8.71 = 1,776.77 EXACT. Percentage: +0.4926% ≈ stated +0.49%. Intraday coherence: midday 1,780.40 → high >1,785 → close giving back 3.63 pts, matching "late selling narrowed the gains".** ***Three independent checks, all closing — against the withdrawn 11:54 reading which failed the first two and had no third. THE DAY IS SETTLED: 10-August was an UP day.*** ✅ **THE INDEX LEG OF THE MARKET-NET TEST IS NOW PINNED: `VN-Index close(10-Aug) = 1,776.77`. The human needs ONE number from their own screen — MBB's 10-Aug close — not two.** *A test that was unrunnable at 15:54 is three-quarters assembled an hour later.* ⚠ **MBB's close FAILED A THIRD TIME, and the route is CLOSED rather than retried: single-stock EOD quotes are NOT reachable here (`simplize.vn`, HOSE, `24hmoney` all blocked) while INDEX closes are. A COVERED row now says so — do not spend a fourth search.** *Colour: technology sector +1.83% to 156.04; foreign investors continued net selling, no figure.* ⚠ *1,776.77 closes INSIDE the 1,775–1,785 old-June/200-day SMA zone, near its lower edge — 26.77 above Vietcap's 1,750 support, 23.23 below its 1,800 resistance. **Recorded because a pre-stated level was reached, NOT because it implies anything.*** **No price entered the model; `valuation.MBB.price` untouched and human-only. Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, was NOT done, deadline passed — §4 human-only.**)* *(15:54 — ⚠⚠ **THE CUM CLOSE IS NOT OBTAINABLE FROM HERE, SO THE TEST I PRE-REGISTERED AT 09:54 HAS AN INPUT THIS ENVIRONMENT CANNOT SUPPLY.** Two searches at 69 and ~70 minutes after the 14:45 ATC — inside the measured indexing bracket — returned **no 10-Aug VN-Index close and no MBB closing price at all**. ⚠ **The 14:54 trap reappeared and was caught BEFORE use: a source gave *"VN-Index closed at 1,768"* — Friday's 1,768.06 restated — alongside *"MBB +1.05%"* inside a PRE-session outlook, so its session is Friday's. Recording that would have repeated the withdrawal within the hour.** ✅ **The withdrawal now rests on THREE observations, not one: morning +12.34 → 1,780.4 and breadth 407/201 confirmed by a second outlet, plus an intra-session technical note placing the index at 1,775–1,785 (old-June support / 200-day SMA) — inconsistent with the withdrawn −15.56.** *Provisional on both counts (`53.1` has hits I did NOT context-check): foreign investors net SOLD ₫53.1bn in the morning.* ⚠⚠ **THE STRUCTURAL FINDING, ABOUT MY OWN WORK: both versions of the test need `P_cum`, and I cannot get it. The file had already called *"re-open on a TCB announcement"* UNOBSERVABLE FROM INSIDE A SWEEP — I quoted that approvingly at 00:53 while writing observable triggers, then designed a test whose input is not. SIXTH instance of that family, and the first I manufactured myself.** ✅ **SALVAGE — the test is misaddressed, not wrong. Restated FOR THE HUMAN, who holds the prices: take MBB's 10-Aug CLOSE as `P_cum`; predicted ex = `0.8 × P_cum + ₫800`; compare tomorrow's ex-open, SUBTRACT the VN-Index move over the same interval; only the market-net residual is information, and a few tenths of a percent is not interpretable.** ⚠ **`valuation.MBB.price` untouched and human-only; NO price of any kind recorded this hour.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB GOES EX-RIGHTS TOMORROW 11-AUG, record 12-Aug. Item 38's re-derivation was due today, was NOT done, deadline passed — §4 human-only.**)* *(14:54 — ⚠⚠⚠ **WITHDRAWAL: THE MARKET DATA I PUBLISHED AT 11:54 IS NOT THIS SESSION'S. THE MARKET WAS UP, NOT DOWN.** 11:54 logged **VN-Index −15.56 pts (−0.86%)**, ₫4,752bn turnover at record lows, VN30 3 green/24 red, breadth 68/213. **A source this hour gives the SAME session as VN-Index UP ~12.34 pts (+0.7%) to 1,780.4, breadth 407 up/201 down, market held green.** **The arithmetic decides it: 1,768.06 + 12.34 = 1,780.40 EXACT and +0.698% ≈ stated +0.7% — BOTH close. −15.56 gives −0.880% against a stated −0.86% — NEITHER closes — and implies a base of 1,809.3, not Friday's close.** **WITHDRAWN IN FULL: the points, turnover, VN30 split, breadth, and every inference — including "the tape is weak" and the 1,750-support note.** ⚠⚠ **THE PART I OWN: I CAUGHT THIS AT 11:54 AND PUBLISHED ANYWAY.** That entry calls the pair *"too large for 2dp rounding"*, the level **PROVISIONAL**, and says *"the points and the percentage are not both trusted"* — then titled itself **"THE TAPE IS WEAK"** and reasoned from the number. ***Flagging is not declining.*** ✅ **WHAT SURVIVES: the market-net correction to the ex-date test is independent of which way the market moved — the defect (self-corrects for TODAY, not TOMORROW) holds on an up tape exactly as on a down one. RIGHT CONCLUSION, WRONG EVIDENCE → recorded as a FAILURE, not a save.** The `EGRESS_BLOCKED` finding is unaffected. **ACTUAL 10-AUG: VN-Index ~1,780.4 (+0.7%) at midday, breadth 407/201. NEW: HNX-Index −1.58% to 288.79 — a sharp HOSE/HNX divergence.** ⚠⚠ **THE CUM CLOSE IS STILL NOT RECORDED — the ATC was NINE MINUTES ago and both readings are explicitly MIDDAY; this file measured its indexing bracket at 113–114 minutes. No MBB price recorded; the pre-registered test defers to the next sweep.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB HAS NOW PASSED ITS LAST CUM SESSION — ex-rights TOMORROW 11-Aug, record 12-Aug. Item 38's `fy26e_npat` re-derivation was due today and was NOT done; §4 human-only, deadline passed.**)* *(13:54 — ⚠⚠ **ITEM 13's "THIRD CANDIDATE FIGURE" DISSOLVES — IT IS A ROUNDED DECOMPOSITION, NOT A THIRD MEASUREMENT.** A source splits HPG's ₫9,056bn Q1 AFTER-TAX profit as **₫5,200bn core + ₫3,800bn Phố Nối one-off**. **5,200 + 3,800 = ₫9,000bn against ₫9,056bn — a ₫56bn miss, with component errors running OPPOSITE (+154 core, −210 gain) and both figures ending in "00".** **The file's 5,046 + 4,010 = 9,056 closes EXACTLY.** ***A decomposition that misses its own headline by ₫56bn cannot discriminate at the ₫113bn level item 13 turns on.*** **So item 13 goes from THREE candidates to TWO — ₫4,123bn (stated) vs ₫4,010bn (implied) — and the anchor spread quoted as 1.644 → 1.752m/t (6.5%) largely collapses.** Narrowed in place in OPEN-DECISIONS.md. ⚠ *Item 13's own reasoning — "7.8% is too far to be a rounding" — was true of 3,800-vs-4,123 and irrelevant: **the roundness was in the PARTNER figure, one column across**.* ⚠ **NOT resolved: the original ₫113bn TAX-vs-COMPOSITION question. A distractor was removed; the item was not answered.** ✅ *Confirmed: the one-off is a component of `lợi nhuận sau thuế` (AFTER-tax) and specifically the Phố Nối, Hưng Yên project transfer, not a basket — both had been assumptions.* *Discipline note: here the INCUMBENT was the precise record and the newcomer rounded — the reverse of this morning's rebar entry. Both decided by asking whether the arithmetic closed.* **`q1_core_npat` = 5,046 UNCHANGED. Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S CUM SESSION CLOSES 14:45 — the corrected market-net test is armed for the next sweep. Item 38 remains undone, §4 human-only.**)* *(12:54 — ⚠⚠ **OPEN ITEM 20 DESCRIBES ITS OWN UNKNOWN WRONGLY, AND THE CORRECTION MAKES THE WORK HARDER.** Item 20 calls K2 a **project-type** coefficient. **It is the PLANNING adjustment coefficient (`hệ số điều chỉnh quy hoạch`), applied per CONSTRUCTION PLANNING** (`quy hoạch` = zero hits in both files). ***"What type is Gladia/Clarita" is answerable from a brochure; "what is the zoning adjustment on this parcel" is parcel-level and probably unpublished — the item was pointing at a cheap question that does not exist.*** **Corrected in place in OPEN-DECISIONS.md.** ⚠ **NEW BOUND: HCMC's K coefficients rise BY AT MOST 1.7× — and it must NOT be multiplied against the 8× already on file. Different terms of one formula: 8× is the land price TABLE (01-Jan-2026), 1.7× is K (01-Jul-2026). "8 × 1.7 = 13.6×" is NOT computed — the 8× is a change vs the old table, the 1.7× a maximum with no stated base.** ✅ **SCOPE LIST, new: land use fees · lease EXTENSION · ADJUSTING timeframes · ADJUSTING detailed plans · CONVERSION of land-use form · state-recovery compensation. FOUR OF SIX fire on a project CHANGING — so item 20's settlement-status question is load-bearing, reversing the order the item implies.** ⚠ *One outlet frames the K decision as "residents BENEFIT". **Nothing netted** — the 31-Jul caution stands: a higher table raises fees while a published K removes a blockage that was stalling approvals.* **Substring false positive EIGHTEEN (`1.7` = ₫11,337.9m / 1.79m / 1.782pp). Nothing modelled — item 20's precondition is still unmet and got HARDER. DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S CUM SESSION RESUMES 13:00, CLOSES 14:45; tomorrow's test stands in its CORRECTED market-net form. Item 38 remains undone, §4 human-only.**)* *(11:54 — ⚠⚠ **THE TAPE IS WEAK ON MBB'S LAST CUM SESSION, AND IT EXPOSED A DEFECT IN THE TEST I PRE-REGISTERED TWO HOURS AGO — CORRECTED BEFORE THE DATA.** **Morning session (all new): VN-Index −15.56 pts (−0.86% stated); HoSE matched ₫4,752bn, −20% on yesterday morning and back at early-June RECORD LOWS; VN30 3 green/24 red; breadth 68 up/213 down; selling concentrated in LARGE CAPS.** ⚠ **Points-and-percent do not close: −15.56 on Friday's 1,768.06 is −0.880%, not −0.86% (which would be −15.21); the stated pair implies a base of 1,809.3. ~2bp is too large for rounding, so the implied ~1,752.5 is PROVISIONAL** — it would sit 2.5 pts above the 1,750 Vietcap support logged at 00:53. ⚠⚠ **THE DEFECT: `ex = 0.8 × P_cum + ₫800` self-corrects for TODAY (it takes today's actual close) but NOT for TOMORROW. On a tape down 0.86% at record-low liquidity, a second down day would produce a "deviation" that is pure index beta — the test would have attributed market direction to a corporate action.** **CORRECTED PRE-REGISTRATION: Deviation = [MBB ex-open ÷ (0.8 × P_cum + ₫800) − 1] − [VN-Index open ÷ VN-Index close(10-Aug) − 1]. Only the MARKET-NET residual is information.** ⚠ *Published with its limits: a one-day beta adjustment is crude, MBB's beta is not 1.0 and is not on file, and **a residual of a few tenths of a percent will not be interpretable either way.*** **Route properly closed: a direct `techcombank.com` PDF returned `EGRESS_BLOCKED` at DOMAIN level — NOT the HTTP 403 the file recorded. A 403 invites path-shopping; a domain block forecloses every path. COVERED row corrected in place: DO NOT PATH-SHOP THIS HOST.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S CUM SESSION RESUMES 13:00, CLOSES 14:45 — the cum close still does not exist and is not proxied. Item 38 remains undone, §4 human-only.**)* *(10:54 — ⚠⚠ **THE FIRST CAR LEVELS THIS FILE HAS EVER HELD — AND THEY ARE BASEL II AGAINST A BASEL III TARGET, SO THE OBVIOUS SUBTRACTION IS INVALID.** **The gap was hidden by a substring: every `CAR` hit is the letters inside CARRIES/CARRYING/CARRIED — a false-positive CLASS, and silent, because the grep always returns plenty.** ⚠ **NEW — TCB (35.0%): CAR 15.0% at 30-Jun-2026, down from 15.2% at Q1/26, *after paying nearly ₫5,000bn of cash dividend*** — corroborating the ₫4,960bn already on file **and pricing it: that dividend cost ~20bp of CAR.** ⚠ **NEW — VPB (10.0%): consolidated CAR 13%.** ⚠ **MB (6.5%) has NO published level; its own framing is a FLOOR — *"always above 10.5%"* — exactly the 2030 target, while MB is the bank executing +27.5% of issuance and going ex tomorrow. Recorded as COHERENT, not as evidence of where MB sits.** ⚠⚠ **THE BASIS TRAP, second today: TCB's 15.0% and VPB's 13% are labelled `CAR – Basel II`; Thông tư 14/2025's 10.5% is BASEL III, with stricter definitions and added buffers. So "TCB has 4.5pp of headroom" and "VPB has 2.5pp" ARE NOT COMPUTED — the obvious arithmetic is exactly what the labels forbid.** *(Same shape as this morning's LLR series, five hours apart.)* ✅ **Structural reconciliation, flagged as MY arithmetic: a separate report puts a minimum CAR of 8% from 15-Sep, and 8.0 + 2.5 = 10.5 exactly — the standard Basel III minimum-plus-conservation-buffer shape. Neither source states it, and it does NOT resolve the 04:54 date discrepancy (analyst ~2028 vs circular 2030). A structure is not a schedule.** **False positives SIXTEEN and SEVENTEEN, both structural: `15.0%` = VPX's expected return; `Basel II` is a PROPER SUBSTRING of `Basel III`, so searching the older framework silently returns the newer.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY. Tomorrow's pre-registered test stands: `ex = 0.8 × P_cum + ₫800`, cum close taken after 14:45 ICT. Item 38 remains undone, §4 human-only.**)* *(09:54 — ⚠⚠ **I BUILT AN ARGUMENT NINE HOURS AGO ON THE BUY SIDE OF A TWO-SIDED TABLE. FOREIGNERS SOLD TCB AND VPB — 45% OF THE BOOK — IN A NET-BUYING WEEK.** 00:53 logged the top five net BUYS (MBB +415, HPG +335) and called 09-Aug's *"rotation into bluechips"* inference ***"CONFIRMED by a different instrument"***. **The SELL side was never sought: VPB −₫572bn, TCB −₫394bn** (false positives FOURTEEN and FIFTEEN cleared them as new). **Net BOUGHT: MBB·HPG, 23.3% of book, +₫750bn. Net SOLD: TCB·VPB, 45.0% of book, −₫966bn. Net −₫216bn — against a week AGGREGATE of +₫2,249.5bn.** ⚠ **So "rotation into bluechips" cannot explain selling TCB and VPB, which ARE bluechips — the flow was SELECTIVE WITHIN large caps, and the half of the table I had was the half that agreed with me.** The "confirmed" claim stands for the buy side only and is corrected. *What SURVIVES and strengthens: the FTSE argument. Among ineligible names (TCB/VPB/MBB/TCX/VPX), MBB was bought while TCB and VPB were sold — flows went both ways inside the ineligible set, so eligibility is not the driver. Right conclusion, one-sided evidence, separated explicitly.* **The 00:53 COVERED row indexed only the AGGREGATE — that is why the composition sat unexamined for nine hours.** ✅ **FREE RESULT — the MBB ex-price is a CLOSED FORM, not two point estimates: `ex = 0.8 × P_cum + ₫800`**, coefficients exact (10,068.75 = 8,055 × 1.25; ₫10,000 × 805.5/10,068.75 = ₫800). Reproduces both ₫18,440 and ₫19,920 to the dong. ⚠⚠ **TOMORROW'S TEST PRE-REGISTERED: mechanical ex-move is −16.4% to −16.8% over a ₫22,000–25,000 cum close, MORE negative the higher the close (ex/P = 0.8 + 800/P). Any material deviation from 0.8 × (today's close) + ₫800 is NOT mechanical and is information.** ⚠ **The cum CLOSE is not observable yet — an intraday level is not a closing price; take it after 14:45 ICT. No price recorded; `valuation.MBB.price` is human-only.** *Also new: VN-Index closed **1,768.06** on Fri 07-Aug, +32.28pts/+1.86% on the week.* **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS RUNNING NOW; item 38 remains undone, §4 human-only.**)* *(08:54 — ⚠⚠ **HPG (16.8%): A SECOND SOURCE GIVES TWO DISTINCT REBAR PRICES WHERE THIS FILE HOLDS ONE, BOTH LOWER — AND ONE FALLS BELOW THE FILE'S OWN MARKET FLOOR, WHICH DIAGNOSES IT AS A BASIS CONFLICT RATHER THAN A PRICE FALL.** New, zero hits: **CB240 14,920 · D10 CB300 14,210 VND/kg**, after the +100 rise — **explicitly ex-VAT, northern market, Hòa Phát Hưng Yên.** *The MOVE is not new (same late-July +100 already on file); only the LEVELS are.* ⚠⚠ **The file's 15,120 carries NO region, NO VAT basis, NO producing entity — and assigns ONE price to TWO products the source prices 710 VND/kg apart. The incumbent figure was the weaker record, and it had already been used three times.** **Three conclusions ON NOTICE (FX 26,300): US$/t 574.9 → 567.3 → 540.3; *"rebar ~5% above HRC"* +5.2% → +3.8% → ⚠ −1.1% (INVERTS); *"top of the domestic market"* 95.8th pct → 67.6th → below floor.** ***Not withdrawn** — comparing new attributed numbers against a range measured on the old unattributed basis repeats the error being diagnosed.* ⚠ **NO MODEL INPUT IS AT RISK: the bridge runs on HRC 539, ore and coal — NOT rebar. A 910 VND/kg conflict on a 16.8% position moves no branch, no probability, no expected return.** **FIFTH instance of one discipline — unstated side · seniority · beneficiary · FX match · now region/VAT/entity — and again deliberately NOT a tenth measure-substitution member.** *Written against my own finding: most price pages are commercial DISTRIBUTOR sites, not mill disclosures — distributor quote vs mill list is a sixth candidate unstated attribute, and the file's 15,120 is no better sourced.* **The COVERED block was checked BEFORE the search this hour (12 rows; rebar in none) — the correction to 07:54's compliance failure had to be a change in SEQUENCE, not a resolution to be careful.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY — VIETNAM IS OPENING NOW. Item 38 remains undone, §4 human-only.**)* *(06:54 — ⚠⚠ **THE FILE CARRIED ₫151,000bn AS "FX AND REFINANCING RISK" AND NEVER ASKED WHETHER THE FX LEG IS MATCHED. IT IS REGULATORILY CAPPED.** `07/2012` · `1081/2002` · `trạng thái ngoại tệ`/`net open position` · `vốn tự có` — **ZERO HITS, ALL FOUR, BOTH FILES.** **Thông tư 07/2012/TT-NHNN caps total positive AND negative end-of-day FX position at 20% of `vốn tự có` (OWN capital, not charter).** ⚠ **Caveats lead: (1) 07/2012 is FOURTEEN YEARS OLD and I have NOT verified it is still operative — an instrument found is not an instrument verified as current; (2) the cap is breachable with the Governor's approval; (3) source is a legal-database paraphrase, T5, not the circular.** **THE BOUND, assumption on its face:** VPB charter ₫79,339bn, own capital NOT on file, so at **1.0×/1.5×/2.0×** the 20% cap is **₫15,868bn/₫23,802bn/₫31,736bn = 10.5%/15.8%/21.0% of ₫151,000bn** — ***so ~79–90% must be matched or hedged.*** ⚠⚠ **The file's phrase conflates two risks with OPPOSITE bindings: "if the dong moves OR THE ROLL FAILS" — the dong-moves half is capped by regulation, the roll-fails half is capped by NOTHING. The refinancing leg is the real one**, and its observable is already on file: a **US$1.44bn facility with 15 international FIs signed end-June 2026, 48% of charter capital, TENOR UNSTATED.** ⚠ **This corrects the emphasis of my own 00:53 entry:** the record USD/VND reading **holds for HPG** (USD inputs, VND sales, no FX line in its bridge) and is **much weaker for the banks**, whose mismatch is bounded. Same macro variable, two positions, opposite bindings. **FOURTH instance of one discipline — unstated side · seniority · beneficiary · now an FX liability with no stated MATCH — and again deliberately NOT a tenth measure-substitution member.** The right question was never "how big are the USD liabilities" but **"what is the NET OPEN POSITION", and the file has no such figure for ANY bank.** **Nothing modelled — `run.py` still has ZERO FX references (confirmed this hour); adding one is §4 machinery. No confidence moved. DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~2 HOURS; item 38 remains undone, §4 human-only.**)* *(05:54 — ⚠⚠ **THE 79.78-vs-86 LLR CONFLICT HALF-RESOLVES, AND IT FALSIFIES THE HYPOTHESIS I WROTE DOWN BEFORE SEARCHING.** I predicted an **NPL-DEFINITION** difference (Group 3–5 vs including Group 2, +31.6% YTD) — **member 8. Wrong.** **The mechanism is TWO SERIES SHARING A VALUE AT DIFFERENT DATES: series A 95% (Q2/25) → 86% (Q1/26) → 83% (Q2/26); series B 83% (END-2025) → 80% (Q2/26).** ⚠⚠ **83% sits in BOTH, anchored to different periods — a coincident value invites two series to be read as one, so the disagreement looks like a basis dispute about one number instead of two series that happen to cross. Member 2, date.** **And it places the file's 79.78% ≈ 80% as SERIES B's Q2/2026 figure, not a Q1 figure** — the file had logged it as *"described as a Q1 move"* while also noting it appeared *"alongside H1 NPL data"*, so the tension was on the page, unlabelled. ⚠ **WHAT DOES NOT RESOLVE: series A says Q2/26 = 83%, series B says 80%. Same period, different numbers — that residual gap IS sample-or-definition and is STILL OPEN. HALF resolved, reported as half.** ⚠⚠ **THE OWNER'S QUESTION GETS ITS SECTOR NUMBER: net NPL formation ~₫55,000bn in Q2/26 (from ~₫39,000bn in Q1) against provisioning of only ~₫39,000bn — a ~₫16,000bn shortfall, and coverage falls mechanically.** **Stated as a SECTOR aggregate and explicitly NOT as evidence about any bank in the book — the pair is a bank-level test, and 09-Aug 16:54 published exactly that error and had to correct it.** ⚠ **One arithmetic declined:** ₫39tn + ₫55tn of formation vs the file's **+₫48tn** H1 NPL *balance* rise would imply ~₫46tn of resolution — **gross vs net, AND drawn from series this entry just showed disagree on sample. Not computed.** **False positives TWELVE and THIRTEEN, both on the load-bearing figures:** `39,000` = Agriseco's TCB target price; `55,000` = MBB's 8,055,000,000 share count. **Nothing modelled; no confidence moved (§2 needs T1–T2, all T5); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~3 HOURS; item 38 remains undone, §4 human-only.**)* *(04:54 — ⚠⚠ **THE FIRST TIER 2 DATUM THIS FILE HAS EVER HELD, AND IT ANSWERS PART OF A QUESTION THE OWNER ASKED IN HIS OWN WORDS.** **MB issued ₫3,500bn of bonds in 5M/2026, described as new lots to OPTIMISE TIER 2 CAPITAL and improve CAR** — against this file's own *"no amount figure, no tenor, no rate, no Tier 2"* and *"no Tier 2 figure exists for any of the three banks"*, and against the owner's pasted question *"MB's 2026–2027 debt and Tier 2 issuance plans"*. ⚠ **Still missing is most of it: NO tenor, NO coupon, NO tranche count, NO CAR level for MBB — an issuance amount is not a capital ratio.** ⚠ **AND THE INSTRUMENT BEHIND "CAR TO 10.5%" IS NAMED FOR THE FIRST TIME: THÔNG TƯ 14/2025 (SBV), stepping minimum CAR to 10.5% BY 2030, Basel III-aligned** (`14/2025` and `Basel III` = zero hits in both files). **The file had 10.5% only as an ANALYST'S question — *"CAR to get 10.5% in next 2 years"* (~2028) — so finding the instrument MOVED THE DEADLINE TWO YEARS. Recorded as a discrepancy, NOT resolved; and the source is press DESCRIBING the circular, not the circular — the exact shape of the 31-Jul "lane 2 clean" failure.** **TCB issued ₫2,000bn in 5M/2026 against ₫17,000bn of 2026 repurchases — NOT DIVIDED: five months against twelve is period substitution, member 2.** Bounded reading only: TCB retired materially more paper than it issued, which interacts with the 40% short-term-funding ratio; **seniority still unstated, so whether any of it touches Tier 2 at TCB is unknown.** Bank coupons near 9% vs Masterise 9–10% **deliberately not compared** — no matched-tenor pair. **Lane 6's own finding vetoed the obvious lane-6 search: street TPs are "unusable as found" and MBB carries two pending corporate actions.** **Substring false positive ELEVEN: `3,500` was the bull branch 313,500.** **Nothing modelled; no confidence moved (§2 needs T1–T2, all T5); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY — VIETNAM OPENS IN ~4 HOURS. Item 38 remains undone, §4 human-only.**)* *(02:54 — ⚠ **TCB (35% of the book): I SEARCHED FOR CORROBORATION OF THE GUARANTEE CLAIM AND THE SEARCH RETURNED THE ORIGINAL ARTICLE.** The claim — *"Techcombank is credit sponsor and guarantor for most Masterise projects"* — rests on one **March-2025** T5 piece; the top hit was that same article (URL carries `20250315`; `danviet` already had 4 hits on file). **No independent corroboration. TIER UNCHANGED.** *A search returning what you already hold feels like confirmation and is the opposite — the same evidence counted twice, and it would have upgraded a belief on no new information.* ⚠ **THE ONE GENUINELY NEW DETAIL CUTS AGAINST THE CLAIM I WAS TESTING: enterprises signed ASSET MORTGAGE CONTRACTS WITH TCB ONE DAY BEFORE issuing their bond lots** — systematic, part of the issuance mechanics. ⚠⚠ **And the two readings imply OPPOSITE exposures: as GUARANTOR TCB pays on a bond event (full P&L transmission); as MORTGAGEE it is SECURED. The file's own *"re-pledge collateral at Techcombank to secure bond obligations"* does not say WHOSE claim the security serves — bondholders (TCB as security agent, no exposure) or TCB's own recourse under a guarantee (exposure, mitigated).** **Filed as the THIRD instance of one discipline — unstated *side*, unstated *seniority*, now unstated *beneficiary* — and explicitly NOT a tenth measure-substitution member, since that family compares two NUMBERS on different bases and there is no number here.** ⚠ **ALSO NEW: a group that raised ₫33,000bn into an "old" Masterise project is reportedly WITHHOLDING periodic bond reports** (purpose, coupon, holders, collateral undisclosed) — **but the source frames it as a QUESTION, so it is recorded as an interrogative allegation, T5.** Not the ₫10,000bn Spirit of Saigon programme (already matured 28-Aug-2025); which project is not established and not guessed. **CANDIDATE CHANNEL, ESCALATED NOT ARMED: non-filing of HNX periodic disclosures is observable and dated and needs no blocked PDFs — but an absence-of-filing signal must be DEFINED before it is watched, or every coverage gap reads as a signal. §4 human-only.** **KILL CRITERION DOES NOT FIRE** — it requires a bond *event*; a missed report is a disclosure failure, not a payment default. **Substring false positives EIGHT and NINE, both in this one search** (`33,000` = MBB's `fy26e_npat` bull branch; `one day before` = my own MBB peer-print text). **Nothing modelled; no confidence moved (§2 needs T1–T2); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY; Vietnam opens in ~6 hours; item 38 remains undone — §4 human-only.**)* *(01:54 — ⚠⚠ **KDH (20.3%): THE ₫896bn MECHANISM WAS THIS FILE'S OWN READING, EXPLICITLY FLAGGED AS *"NOT A STATED ONE"* — THE STAKE PERCENTAGES NOW DEMONSTRATE IT ARITHMETICALLY.** New, zero hits: **`50.95`, `48.95`, `Phước Nguyên`, `15.25`.** **Sequence: 99.95% → 49% transferred → 50.95% → a further 2% on 23-Jun for ₫68.3bn → 48.95%. 99.95−51 = 48.95 and 50.95−2 = 48.95, both exact.** ⚠ **That 2% is the tranche that CROSSES 50% — i.e. the control-crossing tranche — so the loss-of-control remeasurement reading is corroborated by an instrument independent of the gain.** *(Width kept honest: crossing 50% is the standard trigger, but control is a **substance** test, not purely a threshold — this is corroboration, not the issuer saying so.)* **And the price per percent is FLAT: ₫34.15bn/pp × 49 = ₫1,673.3bn vs the ₫1,675bn already on file — a 0.1% reconciliation, so the control-crossing tranche carried NO control premium: ₫68.3bn of cash received, ₫896bn of financial revenue booked.** ⚠ **RISK RESTATED: the file carried *"remaining ~₫1,675bn contracted to complete by Q3"*, but a 50.95% starting stake means the 49% had ALREADY transferred — so what remains is most likely a RECEIVABLE, not a pending deal.** *My inference; the **H1 auditor-reviewed statements due FRI 14-AUG** settle it.* ⚠ **ITEM 43 IS UNTOUCHED — Reading A still MET, Reading B still NOT MET; corroborating a mechanism does not define "operating PBT". §4 human-only, NOT declared fired.** **ALSO NEW: KDH paid ₫248bn in JULY for 25% of Phước Nguyên, 60%→85% — and the asymmetry is the point: down through 50% books ₫896bn to P&L, up from 60% to 85% books to EQUITY. It will NOT repeat the gain.** ₫248bn cash out in Q3 against ₫16,500bn debt on an ₫18tn line. ⚠ **PROCESS: six consecutive entries were lane 1 or 4/7 — lane 3 is a CORE "check every sweep" lane and was skipped six sweeps. US macro always has something fresh overnight in ICT, so following what is newest selects macro every time. The COVERED block guards against re-searching; nothing guarded against NOT-searching.** **Nothing modelled; no confidence moved (§2 needs T1–T2; this is T5); DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY; item 38 remains undone — §4 human-only.**)* *(00:53 — ⚠ **THE PER-NAME FLOW SPLIT ARRIVED AND IT TESTS YESTERDAY'S INFERENCE RATHER THAN REPEATING IT. TWO OF THE TOP FIVE FOREIGN NET-BUYS ARE OURS.** Week 03–07 Aug: **FPT ₫667bn · VIC ₫617bn · CTG ₫438bn · MBB ₫415bn · HPG ₫335bn.** At 09:53 yesterday the *aggregate* (net BUY ₫2,249.5bn on value, net SELL 10.3m units) was read as *"rotation into bluechips"* — **an inference from two aggregates. The per-name split is independent data and all five are large caps: CONFIRMED, by a different instrument than produced it.** ⚠⚠ **MBB drew ₫415bn in the week before its cum date — TWO readings fit (entitlement-seeking vs generic bluechip rotation) and flow aggregates cannot separate them, so NEITHER is asserted.** **One asymmetry does cut against the FTSE-anticipation frame, bounded to our eight: HPG is on the 23-name eligible list and MBB is NOT, yet MBB out-drew it ₫415bn to ₫335bn — so FTSE anticipation is not the whole explanation.** *(FPT/VIC/CTG can't be tested; the general claim is not made.)* **LANE 1 — SBV CENTRAL RATE ₫25,380 (04-Aug) vs the ₫25,338 (01-Aug) record: BASIS-CLEAN, both central rate**, against the 02-Aug entry's three non-mixable measures. **Small and stated as small: +₫42, +0.17%; band ceiling ₫26,649; and SIX DAYS OLD — today's level is unmeasured.** HPG's bridge still has **no FX line** (§4 machinery). ⚠ **RE-SEARCH NUMBER SEVEN:** the flow aggregate and the July credit print (**₫20,150,000bn, +8.38% YTD**) both came back already-held with **no COVERED row — both now have one**, with re-open triggers *observable from inside a sweep*. **Substring false positive number SEVEN: `335` was VCBS's ₫5,335bn HPG estimate.** Vietcap's 65%/1,800 call recorded as T5 and **explicitly not read as information about VCI's own Q3.** **Nothing modelled; no confidence moved; DECISION-BRIEF byte-identical, no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TODAY, and item 38's `fy26e_npat` re-derivation was due by today and remains undone — §4 human-only.**)* *(23:57 — ⚠ **THE OIL THREAD HAS A LEVEL AGAIN AFTER FOUR DAYS, AND THE WEEK SCORES THIS FILE'S OWN 04-AUG ENTRY ON THE WRONG SIDE.** **Brent OCTOBER futures US$83.52, +1.25% Friday 07-Aug — but the WEEK FELL MORE THAN 7%.** On 05-Aug this file logged Brent **+2.8% to $86.11** as *"the first datum on the reversal risk this file pre-stated"* (Vietnam's petrol- and food-driven July disinflation reversing with oil). ***That up-day sat inside a week that ended down >7% — it did not merely fail to generalise, it pointed OPPOSITE to the period containing it.*** The 05-Aug rule *"one day up followed by one day down is noise around a stated mechanism"* is now **scored, and the entry it scores is this file's own.** **A gap the file flagged twice is closed:** 05-Aug and 06-Aug both wrote *"no level was given and none is invented"* — correct restraint, **but neither converted the refusal into a search.** ⚠ **THE TWO NUMBERS ARE NOT ON THE SAME CONTRACT: $83.52 is explicitly OCTOBER, $86.11 names none — so 86.11→83.52 = −3.0% IS NOT COMPUTED and must not be quoted. That is INSTRUMENT SUBSTITUTION, member 4 of the nine — an existing member absorbing a new case, and the right move was to add no tenth.** **Nor is 31-Jul backed out of the percentage** (≈$90 implied) — deriving a level from a rounded percentage is the invention 05-Aug refused. **HORMUZ IS TWO-SIDED and my working read an hour ago was one-sided:** an **Iran–Oman deal to RESTORE shipping** is live, **ADNOC reports attacks on three vessels**, and Iran's parliamentary draft is **stricter than markets expected**. *05-Aug said **US–Iran**, this source says **Iran–Oman**; Oman is the standing mediator, so both may be one process — **both recorded, neither corrected into the other**.* **DIRECTION FOR VIETNAM CUTS AGAINST THE THREAD BEING WATCHED:** cheaper oil pushes the **same** way as July CPI **+4.45%**, a second consecutive fall with May the peak — **the pre-stated reversal risk moved further away, not closer.** **But a week of oil is not a CPI print; CPI still sits ~0.95pp above `risk.py`'s 3.5%.** **LANE 2 — a reported new US 12.5% levy on Chinese goods is GENUINELY ABSENT from both files (zero hits), and stays untracked on three stated grounds:** under-identified (no instrument, no docket, *"late July"*); the diversion channel is **already dutied at both ends** (Vietnam's 19.38–27.83% HRC duties + the 27.83% wide-coil circumvention duty from 17-Apr-2026, HPG a petitioner; Chinese steel into the US already faces Section 232 + AD/CVD far above 12.5%); and **opening a lane is §4 human-only.** **Substring false positive number SIX** — *"27.5%"* was MBB's pending share count throughout, not a China trade figure. **Environment, not evidence. Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG, and item 38's `fy26e_npat` re-derivation is due by then — §4 human-only.**)* *(21:54 — ✅ **THE US WEEK IS FULLY MAPPED FROM PRIMARIES.** Census confirms **July advance retail sales FRI 14-AUG, 08:30 EDT**, completing: **CPI Wed 12-Aug (BLS) · PPI Thu 13-Aug (BLS) · retail sales Fri 14-Aug (Census)**. ***Two hours ago the gate table's US coverage stopped at 07-Aug.*** **THE SECONDARY'S ERROR PATTERN, now measured on three items and right at the third attempt: CPI weekday WRONG / date RIGHT · PPI weekday RIGHT / date WRONG · retail sales weekday RIGHT / date absent and would have been wrong if inferred (15-Aug, a Saturday). Exactly one element correct each time, and which one varied — so NO correction rule exists and discarding was the only safe response.** *19:54's "consistently one day behind" was false; 20:54's "unreliable in both directions" was true but vague.* ***The FIRST diagnosis was the dangerous one — the only one that would have licensed acting on the bad dates.*** **THE WEEK AHEAD: Mon 10 — MBB last cum · Tue 11 — MBB ex-rights · Wed 12 — MBB record + US CPI · Thu 13 — US PPI + jobless claims · Fri 14 — US retail sales + KDH's H1 standalone/parent AUDITOR-REVIEWED statements (45d, Circular 96/2020), "the document that settles KDH's ₫321bn vs ₫1,097bn basis question" on 20.3% of the book; consolidated 29-Aug. Four of five sessions carry a dated item; two carry two.** **Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(20:54 — ⚠ **PPI CORROBORATED FROM THE PRIMARY: THU 13-AUG-2026, 08:30 ET (BLS) — AND IT FALSIFIES MY OWN CHARACTERISATION FROM ONE HOUR AGO.** **The week now has two inflation prints in 48 hours — CPI Wed 12-Aug, PPI Thu 13-Aug — into a Fed that held 3.50–3.75% on a 9–3 vote with three HIKE dissents.** ⚠ **At 19:54 I said the calendar source's "weekday labels are consistently one day behind its dates." Falsified: for CPI the LABEL lagged ("Tuesday, August 12"; it is a Wednesday), for PPI the DATE led ("Thursday, August 14"; BLS says 13-Aug, which IS a Thursday). The errors run in OPPOSITE directions — the pairs are unreliable, not offset.** ***What survives is the part that mattered: the refusal to take its dates was correct, and the PPI date it gave was wrong by a day. The decision was right and the reason was too strong*** — *"unreliable pairs"* forces discarding; *"a constant offset"* would have licensed **correcting**, which would have produced **12-Aug for PPI, wrong by a day**. **RETAIL SALES remains unestablished and is not guessed — it is a CENSUS release, not BLS, so the BLS schedule cannot settle it. Gate row now carries PPI as dated and retail sales as outstanding, trigger narrowed to retail sales alone.** **Second time in two hours the primary settled what a secondary muddled (`bls.gov` both times); both times the secondary had the right month and the wrong pairing, and both times the primary was one search away and was not tried first.** **Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(19:54 — ⚠ **PPI AND RETAIL SALES ARE ALSO UNTRACKED AND ALSO IN-WEEK — BUT THEIR DATES ARE NOT ESTABLISHED, because the only source has systematically wrong weekday labels.** **Confirmed absent:** *"retail sales"* returns **zero contexts**; every apparent *"PPI"* hit is a **spurious substring match inside my own timestamp-mapping text** — the 18-hit count was **"jobless claims" alone.** ⚠ **THE SOURCE DEFECT, MEASURED:** it says *"Tuesday, August 12"* (**12-Aug is a Wednesday**), *"Thursday, August 14"* (**a Friday**), *"Friday … retail sales"* implying **15-Aug, a Saturday** — **verified with `date -d`, not by hand.** ***The weekday labels are consistently one day behind the dates.*** **WHAT THAT LICENSES: it CORROBORATES the CPI date — "12 August" agrees with the BLS-schedule reading of Wed 12-Aug 08:30 ET, and only the label is broken; the gate row already says WED 12-AUG and is correct. WHAT IT DOES NOT LICENSE: the PPI and retail-sales dates. A source with a proven systematic label error cannot supply an uncorroborated date — both are logged in-week, dates unestablished, neither guessed.** **SECOND SOURCE-SIDE DATE DEFECT IN FOUR DAYS, SAME SHAPE:** on 09-Aug 00:56 a source called 12-Aug **both** record **and** ex date for MBB — number right, label wrong; **here numbers right, weekdays wrong.** ***Both times the fix was checking the passage's internal consistency before extracting a figure, and both times I verified with a tool rather than by hand.*** **Nothing modelled; no confidence moved; no trigger — trigger 5 stays inapplicable to macro prints on its own wording, "in that name."** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(18:54 — ⚠⚠ **US JULY CPI LANDS WED 12-AUG 08:30 ET — TWO SESSIONS AWAY — AND IT WAS NOT TRACKED AT ALL.** *"US CPI"* returned **zero hits repo-wide** and the gate table had **no US row between 07-Aug and 24-Aug. Gate row added.** **Baseline, also not previously on file — June 2026: headline −0.4% MoM SA, +3.5% YoY NSA; core unchanged MoM SA, +2.6% YoY NSA** (bases stated; nine instances of the unstated-basis family have made that cheap). **WHY IT MATTERS ON THIS FILE'S OWN CHAIN: it holds FOMC held 3.50–3.75% on 29-Jul, 9–3 with THREE HIKE DISSENTS, and concluded that "keeps the dollar firm, keeps VND under pressure" and "boxes SBV in on a second side." US CPI is the print that resolves that chain, and it was untracked two sessions out.** ⚠⚠ **A TENSION THE FILE DOES NOT HAVE: its inflation leg rests on SURVEY prices-paid — ISM Services 70.3 (vs 65.0 est) and ISM Manufacturing 71.1 (down 1.9pp from 73.0), both above 70 — while the JUNE CPI printed SOFT (headline negative MoM, core flat). Survey prices-paid and realised CPI are different measures and they currently disagree. "Corroborated out of sample" meant across two SURVEYS, not against the price index — a distinction never drawn.** **TRIGGER 5 CONSIDERED AND REJECTED ON THE WORDING** — *"a dated catalyst within 5 sessions of a proposed trade **in that name**"*; **a US macro print is not "in that name," so it does NOT fire.** *Same species as the 05-Aug lesson inverted: there a gate placed in the future for a past event suppressed a search; here there was no gate at all.* *Calendar note, not causation: 12-Aug is also MBB's record date.* **Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(16:54 — ⚠⚠ **A CORRECTION I OWE ON MY OWN 15:54 ENTRY, AND THE FILE ALREADY HELD THE DISCONFIRMING DATA WITH ITS INTERPRETATION ALREADY WRITTEN.** I wrote *"state banks: flow cut 26% into a sector whose stock fell to 83% — that is the pair."* ***That is a LEVEL SUBSTITUTION: the pair is a BANK-level test, and I supplied the flow leg at bank-GROUP level and the stock leg at SECTOR-AVERAGE level.*** ⚠⚠ **The file's cross-section — VCB 2.05%/279% · TCB 8.0%/125.5% · MBB 27.6%/93.63% · VPB 45.2%/56.2% — already says: "VCB provisions least and is reserved most: its light flow is the CONSEQUENCE of a heavy stock, not a suppression of it." VCB is the ONLY state bank here with both numbers: lightest flow, thickest stock (279% vs an 83% sector). Light flow with THICK stock is the OPPOSITE of the pair.** **CORRECTED: the Q2 data establishes that state banks cut the FLOW 26% QoQ; it does NOT establish thin STOCK at any particular state bank, and the one with both numbers fails the pair test decisively. So "the signal is in the state banks" is UNPROVEN, not confirmed — and I published it as confirmed.** **SURVIVES unchanged: the sector series (95→86→83; NPL 1.88→1.97; Group 2 +31.6% YTD; provisions +22.6% YoY; LDR 102.4%), the state-vs-private FLOW split as fact, the book's ranking against 83%, VPB's pair-test pass, and the 79.78-vs-86 basis conflict. Only the inference falls.** ***The part worth keeping: at 15:54 I flagged the conclusion as "the comfortable direction" and published it anyway. Naming a bias is not testing it — the disconfirming datapoint was two greps away.*** **Third time in four days the file's own contents answered something I asserted without checking** (after `cash_yield` and MBB's credit allowance). **Ninth member of the measure-substitution family and a new kind — the UNIT OF OBSERVATION: bank-level vs sector-level.** **No new external development; nothing modelled; no confidence moved; no trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(15:54 — ⚠⚠⚠ **THE Q2/2026 SECTOR PROVISIONING PICTURE — AND ON THIS FILE'S OWN WORKING DETECTOR THE EARNINGS-MANAGEMENT SIGNAL IS IN THE STATE BANKS, NONE OF WHICH THIS BOOK HOLDS.** The lane the owner's standing instruction names. **All figures new; the apparent prior hits were false positives (121.97% = rebar duty, −1.88% = HPG's marked E[r], +22.6% = an MBB price band).** **SECTOR: LLR coverage 95% (Q2/25) → 86% (Q1/26) → 83% (Q2/26); NPL 1.88% → 1.97%, the highest Q2 rise since 2020; Group 2 +31.6% YTD / +17.5% QoQ; provision expense +22.6% YoY; LDR down to 102.4%.** ⚠⚠ **THE SPLIT: state-owned banks CUT provisioning 26% QoQ while private banks RAISED it 33%** (Sacombank +152%, HDBank +104%, OCB +85%, ACB +55%). **On the file's own detector — the PAIR, light flow AND thin stock — state banks show it and private banks show heavy flow into the same thinning stock, i.e. rebuilding. NONE OF THE EIGHT IS A STATE BANK; the signal is outside the book, said plainly because it is the comfortable direction.** **BOOK vs the 83% sector: VCB 279% (+196pp, and VCB is named the ONLY bank with a clear LLR improvement — corroborating the 279% on file) · TCB 125.5% (+42.5) · MBB 93.63% (+10.6) · VPB 56.2% (−26.8), the only holding below sector, beside Sacombank 56.67 / HDBank 50.01 / VIB 43.58. ⚠ VPB still PASSES the pair test — provisioning intensity 45.2%, heaviest of the four: thin stock with HEAVY flow is rebuilding.** ⚠ **SECOND FINDING — A BASIS CONFLICT: the file carries system coverage 82.74% → 79.78% (Q1); the new series puts Q1 at 86%. They cannot both be Q1 system coverage on the same basis, and which is right is NOT established. Consequence: MBB "beats the system by 13.85pp" becomes +10.63pp — same direction, 3.22pp less precision. The conclusion survives; the precision does not.** **Eighth instance of the unstated-basis family, and the first found by acquiring a RIVAL series rather than re-reading the held one.** **T5 multi-outlet; nothing modelled; no confidence moved — sector aggregates are not an input to any branch; no trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(14:54 — ⚠⚠ **THE STORED TRIGGER PROMPT NOW HAS TWO DOCUMENTED STALE DIRECTIVES AND NEITHER CAN BE FIXED FROM INSIDE AN AUTOMATED SESSION. External yield again NIL.** **Eighth re-search caught by the grep: lane 6 names "VPS IPO" as live — it CLOSED EIGHT MONTHS AGO** (completed mid-Nov-2025, listed on HoSE 16-Dec-2025 as **VCK**; 202.3m shares, floor ₫60,000, ₫12,138bn minimum). It survives only as the **broker-cluster comparable** and is now a COVERED row. ⚠⚠ **THE JOIN IS WHAT IS NEW:** Saturday recorded that the trigger carries its own copy of the seven lanes, does not read the log, and still says *"91/102 margin rules"* (binding: **121/2020/TT-BTC** + **Decision 87/QĐ-UBCK**). **Today adds the second. Two stale directives, both found BY the routine, both drawing searches, both unreachable — the trigger text is not a repo file. §4 is not the constraint; REACHABILITY is.** ***One stale directive is an oversight; two, neither fixable by the process that found them, is evidence the lane definition has NO MAINTENANCE PATH.*** ⚠ **OWNER ASK, now two named edits: (1) "91/102 margin rules" → 121/2020/TT-BTC + Decision 87/QĐ-UBCK; (2) delete "VPS IPO" or restate as "VCK secondary raises only". Structural fix unchanged: maintain the stored trigger, or make it genuinely read this log header.** **FOURTH MEMBER OF ONE FAMILY IN FOUR DAYS — knowledge that exists but is not where the process looks — and the first that is UNREACHABLE rather than merely unindexed.** **No external development found; nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(13:54 — ⚠ **THE CONTROL SURFACE I BUILT TWO HOURS AGO HAS A DEFECT, FOUND BY USING IT: SOME RE-OPEN TRIGGERS ARE NOT OBSERVABLE FROM INSIDE A SWEEP. External yield this hour was NIL.** Both markets shut, and the one item the COVERED block calls *"the only one worth a search"* — **TCB's 60% bonus record date** — **returned nothing for the second time** (true Sat 17:57 and Sun 13:54). **The row's trigger read "a TCB announcement" — an announcement cannot be detected without searching for it, so the trigger is unobservable and the row read as "search every hour." Cost paid twice in twenty hours.** ***Same class of error the block was built to fix, one level up: it stops re-searching ANSWERED questions and did not stop re-searching an UNANSWERABLE one.*** **The gate table already solved this — *"CAEX licence decision — check WEEKLY, not hourly"* — and I did not copy the pattern. A trigger naming an event needs a CADENCE when the event is not self-announcing. Fixed: "WEEKLY, not hourly — or a TCB filing surfacing in another lane."** **SECOND FIX FOLDED IN AS PROMISED: KDH's Clarita/Gladia is now a COVERED row with a 3Q26-filing trigger** — at 12:54 the grep caught it as a seventh re-search that **the block did not name**, so ***the block is a cache, the grep is the discipline, and the cache will always lag.*** **That row now carries the Keppel 49%/KDH 51% structure, the naming trap (Clarita's developer is *BĐS Bình Trung*; what was sold is 51% of ***Bình Trung Mới, a different company***, for >₫1,700bn), and — on 20.3% of the book — that KDH'S KILL CRITERION IS NOW LIVE: "customer advances < ₫1,000bn at 3Q26 WITH Gladia Heights launched," the brief's "decisive test." The launch condition is SATISFIED and the criterion has NOT fired; it resolves on the 3Q26 filing, due 30-Oct.** **Honest accounting: no external development was found; the commit is a repair to a control surface, made because the cost it removes is RECURRING. Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(11:54 — ⚠⚠ **THE FILE INDEXES WHAT TO SEARCH *WHEN* AND HAS NEVER INDEXED WHAT NOT TO SEARCH *AT ALL*. Fixed, and the fix is the deliverable.** **Measured cost: at least SIX sweeps this weekend spent a search on a question the file had already answered** — FTSE roster + CAEX five-licence cap · HPG's August HRC cut · TCB's blocked primary statements · the Q2 brokerage market-share table · the margin-debt decomposition · VCI's pace vs its +41% plan. ***In the VCI case the file literally says "VCI needs no separate search" and I searched anyway.*** **Structural, not careless: the knowledge exists in FIVE phrasings across two files** (*"needs no separate search"* · *"DO NOT SPEND DEDICATED SEARCHES ON EX-DATES"* · *"check weekly, not hourly"* · *"ROUTE CLOSED — blocked, not unresearched"* · *"do NOT search these before their date"*) **with no single place to consult.** ⚠ **And the gate table could never have caught them — every row there has a DATE, while all six re-searches were UNDATED topics, exactly the class it cannot index.** **FIX: a "COVERED — CHECK THIS BLOCK BEFORE SPENDING A SEARCH" table at the head of `monitoring-log.md`, seven rows, each with what the file holds AND a named re-open trigger** (Q3/9M for VCI · 21-Aug for the FTSE list · a September offer for HRC · a network-policy change for TCB's primary · Q3 tables for share and margin · a TCB announcement for ex-dates). ***The re-open triggers are the design decision: a do-not-search list with no expiry is how a file goes blind.*** **THIRD INSTANCE OF ONE DEFECT FAMILY IN THREE DAYS — the header CLAIMED to be a control surface and was not; the gate table OMITTED its nearest deadline; the file HOLDS anti-re-search knowledge and does not SURFACE it. All three: *knowledge that exists but is not where the process looks* — a different defect from ignorance, and much cheaper to fix.** **Not a portfolio finding; touches no number; nothing modelled; no confidence moved; no trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(09:53 — ⚠⚠ **FOREIGN FLOW INFLECTED: the week 3–7 Aug was a NET BUY of ₫2,249.5bn, against −₫2,438.7bn the week before — a ₫4,688.2bn swing, and the first net-buy week this file will have recorded against a four-year selling trend.** Net sales fell to **10.3m units, −85.4% w/w**, while value turned positive — **fewer shares at higher prices: rotation into bluechips.** **Against the file's own trajectory (>₫62,000bn end-May → ~₫80,000bn end-Jun → ₫92,000bn end-Jul, i.e. July ≈ ₫2,727bn/week of selling), this is a ~₫4,977bn swing vs run-rate — and it lands six weeks before 21-Sep, concentrated in bluechips.** ⚠⚠ **WHAT IT DOES NOT DO: on 31-Jul this file refused to net aggregate foreign flow against FTSE passive inflow — "different pools, different mandates." That refusal was made when the flow was ADVERSE and must hold now it is FAVOURABLE. One net-buy week does not confirm the TCX tree any more than four years of selling refuted it. *The pools argument is symmetric or it is nothing.*** **WHAT IT DOES DO: item 5 questions the tree partly on "four straight years of foreign selling" — that ground is now contradicted at the margin by a dated week. Not dead; no longer unopposed. Forecast #7 NOT re-weighted.** **Second lane closed, for the first time: HOSE's margin-ineligibility list (zero prior hits) — 57 names at 03-Aug, TIX removed. None of the eight appears among the ~30 named, but the enumeration is partial, so the conclusion rests on CRITERIA (warning/control status; listed <6 months; negative audited profit) which structurally exclude all eight large, long-listed, profitable holdings** — *a mechanism argument, not an absence-from-a-partial-list argument, the same trap refused an hour earlier.* *Not new and said so: ₫445,000bn total lending / ₫435,000bn margin / 13 consecutive quarters is already on file verbatim.* **Nothing modelled; no confidence moved — one week of flow is not a tier upgrade and flow is not an input to any branch; no trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(07:54 — ⚠⚠⚠ **I PUBLISHED A CORRECTION ONE HOUR AGO AND THE CORRECTION WAS WRONG IN ALL THREE OF ITS CLAIMS.** `git log --date=format:` renders the **author's** timezone — `+0000` here — and a `TZ=` prefix does **not** convert it. ***I read UTC and called it ICT.*** Checked properly with `%aI` +7: the 06:55 commit is **`2026-08-08T23:57:35+00:00` = Sun 09-Aug 06:57 ICT**, made when `date` read 06:55 — **a two-minute gap.** **CORRECT MAPPING (label → true ICT): 13:53→Sat 12:57 · 14:53→Sat 13:57 · 15:53→Sat 14:57 · 16:53→Sat 15:57 · 17:53→Sat 16:56 · 18:53→Sat 17:57 · 19:53→Sat 18:57 · 20:53→Sat 19:57 · 21:53→Sat 20:56 · 23:53→Sat 22:57 · 01:53→Sun 00:56 · 02:53→Sun 01:56 · 03:53→Sun 02:57 · 04:53→Sun 03:57 · 05:53→Sun 04:57 — a UNIFORM ~56-MINUTE DRIFT, exactly the magnitude this file diagnosed once before.** **WITHDRAWN: (1) "+8h on every row" — it is −56 min. (2) "the five entries were written Saturday 08-Aug" — FALSE, they were 09-Aug ICT; the `## 2026-08-09` header was CORRECT and I defaced it — REPAIRED. (3) "nine hours / eight missed firings" — FALSE, 57 minutes, none missed.** ⚠ **THE MBB FRAMING FLIPS BACK: at true Sun 00:56, "the cum session is TOMORROW, Monday 10-Aug" was CORRECT; the only genuine error was the later reply calling it "today."** ***SEVENTH INSTANCE OF THIS FILE'S CATALOGUED DEFECT — basis · date · held-constant set · instrument · side · seniority · and now TIMEZONE — committed twice in two hours: first by drifting the labels, then by "correcting" them against a misread basis. A timestamp without its zone is exactly a price without its delivery basis.*** **And the meta-lesson: "verified against `date`" was true and still gave a false result, because I compared a correct clock to a misread one — citing a verification source is not checking that both sides share a basis.** **Surviving unchanged: the ~56-minute drift is real and unfixed; remedy is the same one line — read the clock at the start of every sweep; NO substantive finding from any hour is retracted.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(superseded — 06:55 — ⚠⚠⚠ **EVERY TIMESTAMP I WROTE FOR FOURTEEN HOURS IS EXACTLY EIGHT HOURS AHEAD OF THE CLOCK, AND THE FIVE ENTRIES DATED "01:53"–"05:53 09-Aug" WERE ACTUALLY WRITTEN ON SATURDAY 08-AUG, 17:56–21:57 ICT.** Found by reading `date` for the first time in fourteen hours. **Mapping: 14:53→Sat 06:57 · 15:53→Sat 07:57 · 16:53→Sat 08:57 · 17:53→Sat 09:56 · 18:53→Sat 10:57 · 19:53→Sat 11:57 · 20:53→Sat 12:57 · 21:53→Sat 13:56 · 23:53→Sat 15:57 · 01:53→Sat 17:56 · 02:53→Sat 18:56 · 03:53→Sat 19:57 · 04:53→Sat 20:57 · 05:53→Sat 21:57. +8h on every row.** **Not a timezone error — ICT is UTC+7 and the environment has it right; I incremented an assumed counter and never re-read the clock.** ⚠ *This file already records the same failure at 56 minutes; it has recurred at eight times the size, and last time's fix — correcting the numbers — did not prevent it, **because the defect is the habit, not the numbers.*** ⚠⚠ **IT LANDS ON THE MOST TIME-CRITICAL FACT: the entry labelled "01:53 09-Aug" (really Sat 17:56) called MBB's cum session "TOMORROW" when Monday was two days out, and my next reply called it "TODAY." Today is SUNDAY 09-AUG; THE CUM SESSION IS TOMORROW, MONDAY 10-AUG.** **The same entry had corrected an external source for being wrong by one day about this exact date and warned that "a one-day error here costs an entire entitlement."** **WHAT IS NOT WRONG: the date itself is right and verified — ex-rights Tue 11-Aug, record Wed 12-Aug, last cum Mon 10-Aug, confirmed against MBB's own 10-Jul/09-Jul precedent. Only the relative phrasing and the entry timestamps were wrong.** **NO FINDING IS RETRACTED** — four-for-four, item 3, the Masterise channel gap, VPB's US$5.7bn, MB's guidance all rest on **dates in the sources**, not on when I read them. ***The content survives; the filing does not.*** **Observation, not conclusion: nine hours separate the last commit (Sat 21:57) from now — roughly eight hourly firings produced no commit or did not fire; why is not establishable from here.** **Remedy is one line: read the clock at the start of every sweep instead of incrementing a counter.** **Nothing modelled; no confidence moved; no model input touched.**)* *(the entry below, labelled 05:53, was written Sat 08-Aug 21:57 — )* *(05:53 — ⚠⚠⚠ **MB'S OWN FY2026 GUIDANCE IS ESSENTIALLY THE FLAT-H2 OUTCOME THIS FILE ALREADY COMPUTED, AND THE BRANCHES ARE DUE FOR HUMAN RE-DERIVATION TOMORROW.** ⚠ **Correction first:** at 11:53 yesterday I made the finding *"this file has no record of any individual bank's 2026 room."* **Wrong — the file holds MBB's 30–35% CREDIT ALLOWANCE, recorded as the price of the MBV transfer.** ***Second time in two days the file's own contents answered a gap I declared open*** (after the 19:53 `cash_yield` principle). **MB's own 2026 plan now corroborates it from the company side: credit growth ~35%** — two routes, one number, kept as **different measures** (an SBV ceiling vs a company intention). Against **+13.2% at H1** that needs **~21.8pp more in H2.** **NEW: MB's FY2026 profit target is +15–20%, at ~₫40,000bn** (zero prior hits — the "40,000bn" matches here are all TCB real-estate exposure). ⚠⚠ **The brief already computed that "a FLAT H2 gives FY26 PBT 40,376bn, above base and just below bull." MB is guiding to ~₫40,000bn — the company is guiding to what this file modelled as the NO-GROWTH case.** **Bridged explicitly (PBT ≠ NPAT): ₫40,000bn × 0.8 CIT × 97.4% parent = ~₫31,168bn NPAT-to-parent, i.e. +11.3% above bear, +2.2% above base, −5.6% below bull. So the BEAR branch now requires MB to miss its own guidance by 11%** — corroborating the standing *"contradicted from below"* warning, with **item 38's re-derivation due tomorrow.** **ALSO NEW: MB's equity put at nearly ₫150,000bn** — cross-checks against the ROE 20.9% on file (~31,000/150,000 = 20.7%), and it is **the denominator the analysts' CAR-to-10.5% question turns on.** *Already on file, a check not a finding: charter capital ₫102,687bn externally confirms the three-tranche reconstruction to the dong (10,268.75m × ₫10,000), including the 200m placement the watch list lacked.* **T5; nothing modelled; `fy26e_npat`/`probs`/`exit_pe` untouched (§4 human-only — precisely the input a human must re-derive); no confidence moved; no trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(04:53 — ⚠⚠⚠ **THE LANE OPENED ONE HOUR AGO IMMEDIATELY QUALIFIES A STANDING CLAIM ABOUT VPB.** Context-checked first: **"151,000" zero hits, "SMBC" zero hits.** **At end-Q2 2026 VPB had ~₫151,000bn — >US$5.7bn — of foreign-currency loans from FIs, plus US$300m of 5-year international bonds; headline deal a US$1.44bn sustainability-linked syndicated loan with FIFTEEN international FIs at end-June 2026 (~₫38,016bn = 48% of charter capital in one transaction).** 2025: US$1.56bn syndicated + US$300m bonds + US$350m with SMBC/DFIs = **US$2.36bn, its highest ever.** **Scale: 10.1% of total assets, 190% of charter capital.** ⚠⚠ **The file says verbatim "VPB is the name most exposed to it on the loan-to-deposit maths" — and that was written with NO record of this, while coverage states most of the borrowing is LONG-TERM and "supplements medium and long-term capital sources while helping the bank maintain liquidity metrics," the exact denominator the 40% short-term-funding ratio measures.** **NOT AN ALL-CLEAR:** it **replaces one exposure with another** — ₫151,000bn of FX debt adds **FX and refinancing risk that `run.py` cannot see (no FX input exists at all)** — so the question moves from *"can it fund long assets short?"* to *"what happens to US$5.7bn of FX liabilities if the dong moves or the roll fails?"* ⚠ **IT ALSO CORRECTS MY 03:53 READING: TCB seeking US$1bn is NOT leadership — VPB already has 5.7× that. TCB is BEHIND in the race, not setting it.** **WHAT REMAINS UNKNOWN IS EXACTLY WHAT THE ANALYST ASKED: MBB returned NOTHING — no foreign-borrowing figure, no tenor, no rate, no Tier 2 — and no Tier 2 figure exists for ANY of the three banks.** *One hour answered the owner's pasted question for the peer and not for MB.* **T5 multi-outlet; nothing modelled; NO confidence moved — the direction is favourable, which is exactly when a move would be flattery; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(03:53 — ⚠⚠ **TCB IS SEEKING A US$1bn FOREIGN LOAN, AND IT QUALIFIES MY OWN 02:53 READING ONE HOUR LATER.** Zero hits on file for *"1 tỷ USD"*, *"US$1bn"*, *"syndicated"*, *"hợp vốn"*, *"vốn ngoại"*. **At ₫26,400/USD the ₫17,000bn of 2026 bond repurchases ≈ US$644m, and US$1bn sought ≈ ₫26,400bn — so if both are real this is funding SUBSTITUTION plus a NET RAISE of ~₫9,400bn, not the deleveraging my 02:53 question leaned toward.** Against charter capital ₫70,862bn the legs are **24.0%** and **37.3%**. ⚠ **Tier is thin — T5 headline only; both fetches egress-blocked (`vietbao.vn` and `techcombank.com`, the issuer's own site), so size, tenor, pricing, arrangers, purpose and date are ALL unestablished. Recorded as a CANDIDATE qualification, exactly as the coal 212 print was — it puts a leaning on notice, it does not settle anything.** ⚠⚠ **THE STRUCTURAL POINT: FOREIGN FUNDING IS AN UNTRACKED LANE ACROSS ALL THREE BANKS, and the only mention of it anywhere in this file comes from the OWNER'S OWN PASTED MBB ANALYST QUESTIONS** — *"MB's 2026–2027 debt and Tier 2 issuance plans and foreign borrowing (tenor and rate)."* **An analyst thought it worth asking, the seven lanes never picked it up, and it has now gone live on the largest position. That pasted list has now identified a coverage gap TWICE.** *Already on file and not re-reported: the T1 primary (`techcombank.com/.../…-rieng-le-2q26-searchable.pdf`) is already located, already logged as a 403, already among ~fifteen blocked hosts, already called "suppression" — fourth fully-covered check in two days.* ⚠ **THE 02:53 GUARANTEE ESCALATION REMAINS UNRESOLVED: that same standalone VAS statement is exactly what would settle whether TCB guarantees Masterise paper, and it cannot be reached.** **Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(02:53 — ⚠⚠ **THE ARMED "MASTERISE BOND EVENT" CRITERION ON TCB (35% OF THE BOOK) HAS NO TRANSMISSION MECHANISM ON FILE — AND THE MISSING PIECE IS NOT A DEFINITION, IT IS A GUARANTEE.** **Zero hits for "guarantor", "credit sponsor", "bảo lãnh", "Hồ Anh Minh", "Spirit of Saigon".** ***The file has the VOLUME — ₫44,500bn of Masterise-linked H1 issuance — and not the CHANNEL.*** Coverage states **TCB is the credit sponsor and guarantor for most Masterise projects**, and **Hồ Anh Minh, son of chairman Hồ Hùng Anh, is CEO of Masterise Group**; also that Masterise subsidiaries **re-pledged collateral at Techcombank** after an asset transfer, and that the Spirit of Saigon programme (10 lots, ₫10,000bn) had its **latest maturity 28-Aug-2025 — already matured.** **This reframes the 17-criterion audit's complaint: it asked for definitions of "Masterise"/"bond event"/"NPL formation", but the deeper gap is that the file never recorded HOW such an event reaches TCB's P&L. An unguaranteed arranger relationship and a guaranteed one give completely different loss paths from the same event.** ⚠ **STRICT TIERING: all T5, and the guarantee/governance claims come from a MARCH-2025 article — sixteen months old. Recorded as an UNVERIFIED STRUCTURAL CLAIM escalated for a human, no confidence moved (§2), and explicitly NOT firing the kill criterion — that needs a bond EVENT and none is reported.** ⚠ **CORRECTION OF SCALE TO MY OWN 18:53 ENTRY: TCB's 2026 bond repurchases total ₫17,000bn, so the ₫9,000bn I logged is ONE TRANCHE of a programme 1.9× larger; a separate ₫1,500bn early repurchase is also reported.** *Greps context-checked first — "17,000" matched an unrelated issuer and a PBT table, "1,500" matched KDH's plan and TCBS's margin book; third context-check in two days and the first to confirm novelty rather than refute it.* **Funding-side read, as a QUESTION: retiring own bonds cuts medium/long-term funding, touching the 40% short-term-funding ratio and yesterday's LDR loosening — but whether these are TIER 2 or ORDINARY bank bonds is NOT established and not guessed.** *"A bond book with no stated SIDE" gains a sibling: a repurchase with no stated SENIORITY.* **Nothing modelled; no confidence moved; no trigger fires.** ⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG.**)* *(01:53 — ⚠⚠⚠ **MBB'S LAST CUM SESSION IS TOMORROW, MONDAY 10-AUG, AND THE DATE IS NOW VERIFIED AGAINST THE ISSUER'S OWN PRIOR ACTION RATHER THAN AGAINST THIS FILE'S OWN CLAIM.** The file has asserted **ex-rights 11-Aug / record 12-Aug** since 06-Aug and never checked it. **The control is MBB's own 10% cash dividend: record 10-Jul ⇒ ex 09-Jul — a ONE-BUSINESS-DAY gap, established independently at 16:53 yesterday from separate coverage. Same issuer, same year ⇒ record Wed 12-Aug ⇒ ex Tue 11-Aug ⇒ LAST CUM SESSION MON 10-AUG. Confirmed.** ⚠ **AN EXTERNAL SOURCE READ THIS HOUR IS WRONG BY A DAY:** it calls **12-Aug the record date** and, in the same passage, says *"the ex-rights date falls on 12-Aug."* **Both cannot be true, and the July precedent settles it. A one-day error forfeits an entire entitlement on BOTH legs — the 15% stock dividend and the 10:1 rights at ₫10,000.** ⚠ **SECOND FINDING, AND IT IS THIS FILE'S OWN INDEX: until this hour the date-gate table had NO ROW for MBB's ex-date** — the most time-critical fact in the file lived only in log prose and this header, the two places a reader scanning for dates does not look. **A row has been added.** *Same family as 14:53 yesterday (the header that claimed to be a control surface and was not): an index that omits the item closest to its deadline is worse than no index, because it is read as complete.* *Not material and said so: VN30 derivative commentary for 10–14 Aug was returned and refused — this file does not do technicals.* **Nothing modelled; no confidence moved; NO NEW TRIGGER — the 06-Aug trigger 5 already covers this catalyst and this hour confirms its date rather than adding one.** ⚠ **ITEM 38 — `fy26e_npat` REQUIRES HUMAN RE-DERIVATION AND IS DUE BY TOMORROW. §4 human-only; an automated run cannot do it.** *00:53 was reported as nothing material and stands.*)* *(23:53 — **BOTH HPG COST BLADES ARE NOW DATED WITHIN FOUR DAYS OF EACH OTHER, AND THE GAP TO THE BEAR BRANCH HAS NARROWED FROM 32% TO 8% — but the third input is unmeasured and its uncertainty is four times the whole remaining gap.** **New: iron ore US$94.45/t on 07-Aug-2026, −0.87% d/d, 62% Fe CFR Tianjin — the bridge's own basis.** Last reading was ~93.66 around 04-Aug after two one-year lows, so **+0.84%: ore has not rebounded, it has gone flat at the low.** **The pair is the finding, not the print:** with **08:53's dated 03-Aug coal print of US$212/t**, both blades now have dated values four days apart and **both sit below the bridge's modelled ore 115 / coal 220.** **From the bridge's own verified row (ore 100, coal 220, HRC 539 ⇒ ₫0.853m/t) on Friday's after-tax gearings: ore →94.45 = +₫0.189m, coal →212 = +₫0.112m ⇒ implied core NPAT/tonne ₫1.154m. Against bear 1.25 that is −7.7%, where the ore=100/coal=220 row was −31.8%: the cost side has closed three quarters of the distance to the bear case.** ⚠⚠ **DOMINANT CAVEAT, STATED FIRST: HRC is held at 539 and NOT re-measured. At ₫0.021m per US$1/t, ±US$20/t of HRC is ±₫0.420m/t — MORE THAN FOUR TIMES the ₫0.096m gap remaining. "Within 8% of bear" is dominated by an input I did not measure and is not a forecast; it is a statement about the two blades that were measured, holding the third at the bridge's value.** **Second caveat carried forward WITH its number: the coal 212 is basis-disclaimed by its own publisher, and at coal 220 the implied figure is ₫1.042m and the gap to bear is −16.6%, not −7.7%. Both readings printed.** Third: the ore print is **T4** (`tradingeconomics.com` egress-blocked, read via summary). **Nothing modelled; `core_npat_per_tonne_m` untouched (§4 human-only); no confidence moved; NO TRIGGER — no model input changed, so no computed E[r] moved.** *22:53 was reported as nothing material and stands.* ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(21:53 — **VPX LED THE ENTIRE SECURITIES INDUSTRY ON Q2 PROFIT, AND THE LEAD IS SMALLER THAN THE NOISE IN ONE OF ITS OWN LINE ITEMS.** **New and not on file: TCX Q1/2026 PBT ₫1,458bn (+11% YoY) on revenue ₫2,783bn (+37%)** — zero prior hits. **Combined with the file's own "H1 47.1% of a ₫7,535bn plan": TCX H1 PBT ₫3,549bn ⇒ TCX Q2 PBT ₫2,091bn — the first time TCX's quarterly split exists here.** Against **VPX's ₫2,159bn** already on file, **VPX leads by ₫68bn (+3.3%) — the ranking checks out.** ⚠ **But VPX's Q2 gross FVTPL gains were ₫1,639bn (76% of its own PBT) and the quarter absorbed a ₫923bn FVTPL loss, so the ₫68bn lead is 4.1% of one quarter's gross FVTPL gains.** ***A mark-driven ranking over a fee-driven competitor, decided by less than one line item's dispersion — true, and not information about ordering.*** **THE SHARPEST FORM OF THIS FILE'S OWN VPX THESIS, AVAILABLE AND NEVER STATED: rank EIGHT in HOSE brokerage share (3.57%), rank ONE in industry profit — "NOT primarily a broker … a leveraged credit/margin book," assembled from two held facts plus one new one, no new opinion required.** **Recorded as cutting BOTH ways and neither leg discharges the other:** the ranking is evidence the franchise earns; the composition is the earnings-quality risk already setting confidence 0.55 and flagging `npat_ttm` suspect. ***It sizes the tension rather than resolving it.*** *Already on file, not re-reported: the ₫7,535bn and ₫6,453bn plans, VPX's 20-Apr AGM and 44% plan, the full Q2 brokerage share table.* **Nothing modelled; no confidence moved; no branch/probability/weight touched (§4); no new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(20:53 — ⚠⚠⚠ **TWO CORRECTIONS ON MY OWN LAST TWO HOURS, AND TOGETHER THEY MAKE ITEM 3 WORTH ~0.90pp ON A BOOK WHOSE TOTAL EXPECTED RETURN IS +1.8% — ROUGHLY HALF OF IT.** **VCI adds:** cash paid in almost every year since 2017, current cycle drawn on 30-Sep-2025 profit with **expected payment 20-Jan-2026** — so VCI's 0.0 is backward-correct, and its **off-season** cycle (AGM 30-Mar, pay January) **refines** rather than confirms yesterday's "April AGM → May–July" rule. ⚠ **CORRECTION ONE (to 19:53):** I said `risk.py`'s *"seven blanks bias the book's E[r] DOWN"* **"says the opposite"** and is wrong. **Too strong, and itself wrong.** It turns entirely on the convention, and **the file already chose one** — the HPG note: *"`cash_yield` … should be the dividend expected over the HOLDING PERIOD."* **Under that, every recurring payer should be non-zero and every next payment (May–Jul 2027; ~Jan 2027 for VCI) falls inside a 12-month window. `risk.py` is RIGHT and my correction of it was not.** ⚠⚠ **CORRECTION TWO (to 15:53), the one that matters:** I called TCB's `cash_yield` = 0.024 *"a past payment counted as forward return,"* worth −2.4pp. **700/29,250 = 0.0239, and TCB's 7% was its THIRD CONSECUTIVE YEAR — under a forward convention that is a defensible estimate which happens to equal the trailing yield. It is UNDOCUMENTED, not demonstrably wrong, and I overstated it.** **Not walked back: no date, no basis, and a one-filled/seven-blank asymmetry unjustified under EITHER convention.** **THE SIZE: filling the four measured names at their own 2026 rates (TCB 2.39% · MBB 4.54% · HPG 2.40% · VPB 2.00%) takes the book-weighted contribution from 0.84% to 1.74% — a 0.90pp shortfall against a +1.8% book.** ***Item 3 is not an argument about a scalar; it flips the sign of a book-wide bias worth half the book's expected return.*** *Already on file, not re-reported: VCI's 297.54m bonus at 20:7 (record 27-Mar-2026) and 4.6m ESOP at ₫11,000 (June 2026).* **Still unchecked for cash: KDH (10% stock, none expected), TCX, VPX.** **Nothing modelled; no confidence moved; `cash_yield` untouched on all eight — §4 human-only, and the convention is exactly what a human must set; no new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(19:53 — **FOUR FOR FOUR, and a correction I owe on my own 15:53–17:53 framing: the file already had the principle and had it right.** HPG's 5% cash: ex **11-May-2026**, record 12-May, **paid 03-Jun**, ₫500/sh ≈ ₫3,838bn on **7,685.5m** shares, alongside a 10% stock dividend (record 26-May, 767.5m shares). **So all four 2026 cash dividends in this book were paid between 11-May and 17-Jul** — HPG 03-Jun · VPB 25-May · TCB 10-Jun · MBB 17-Jul. ***Not four coincidences: the Vietnamese dividend season after April AGMs.*** **Actionable default: a `cash_yield` recorded in August against an April-AGM dividend is backward-looking unless dated otherwise.** ⚠ **THE CORRECTION:** I presented as a discovery that *"`cash_yield` has no date attached."* **The file already stated the principle correctly, on HPG:** *"…the ₫500 was PAID on 03-June-2026 — it is a TRAILING payment. Setting a forward yield off a payment already made is the same class of error as reading a cumulative average as a rate."* **The principle was not mine and was not new.** My contribution is narrower: applying it to three more names, plus the one genuinely new part — **that TCB's 0.024 violates it.** ***That matters because the HPG note treats TCB as the reference case ("cash_yield is populated for TCB alone") rather than as the error: the file had the rule and never turned it on the one name where the field was filled.*** That diagnosis replaces "the field has no date." ⚠⚠ **SECOND, MORE CONSEQUENTIAL: `risk.py`'s inheritance block warns "seven blanks bias the book's E[r] DOWN" and the HPG note calls HPG's blank "a real blank rather than an accurate zero." FOUR-FOR-FOUR SAYS THE OPPOSITE — HPG's, VPB's and MBB's zeros are ACCURATE for the current forward window; the blanks are correct until the next declaration, which is undated for every name. Flagged, not fixed — `risk.py` is machinery, human-only.** **Model input corroborated from this session's worst error class: 7,685.5m pre-dividend + 767.5m new = 8,453.0m vs the 8,443,000,000 on file — +0.12%** (share counts produced the TCX 27.9% cap error). **Still unchecked: KDH, TCX, VCI, VPX** — KDH's 2026 dividend is recorded as 10% stock, so no cash leg expected. **Nothing modelled; no confidence moved; `cash_yield` untouched — HPG's 0.0 is CORRECT; no new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(18:53 — ⚠⚠ **A THIRD TCB BOND NUMBER ARRIVES AND IT IS ON THE OTHER SIDE OF THE BALANCE SHEET.** **NEW, not on file: TCB repurchased ₫9,000bn of ITS OWN bonds before maturity** — headline-level only, **date and tranche not established and not guessed.** **Why it must not be netted:** the file holds two *contradictory* claims about TCB's *"bond book"* — **(A)** from credit +10.39% vs loans +14.46%, the non-loan part *"must have SHRUNK … every plausible starting point implies a large decline"*; **(B)** from H1 coverage, *"the corporate bond book ROSE 80%."* **A ₫9,000bn repurchase LOOKS like it reconciles (A). It cannot: buying back own issued bonds is a LIABILITY reduction, while both threads are about bonds TCB HOLDS as an ASSET — which is why they sit inside "credit" alongside loans.** *The most dangerous datum is the one that appears to resolve an open question and is measured on the wrong side of the sheet.* ⚠ **FIFTH DIMENSION OF THE ANNOTATION DEFECT: this file says "bond book" throughout and NEVER states which side — zero hits for any side-designation. Basis · date · held-constant set · instrument · and now SIDE.** **Second substring-grep false positive today:** "9,000bn" matched only TCBS's ₫59,000bn/₫61,000bn *arranging* figures (different entity, different activity), just as "1743" matched KDH's ₫1,743bn this morning — *read the matched context, do not trust the count; twice in twelve hours means the habit is the defect.* ⚠⚠ **NEGATIVE RESULT THAT RE-RANKS A RISK: no record date exists in any accessible source for TCB's 60% bonus. The three banks now stand MBB DATED (ex 11-Aug), VPB BOUNDED (Q3–Q4 window, found 17:53), TCB UNBOUNDED — and TCB carries the largest one-legged-refresh exposure in the file, −39.0pp on 35% of the book. The biggest mechanical risk here is now also the only one with neither a date nor a window.** *Minor: the AGM deck's "more than 4.28 billion shares" vs 4,251.7m on file is 0.67%, press rounding.* **Nothing modelled; no confidence moved; no branch/probability/weight touched (§4); no new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(17:53 — ✅⚠⚠ **THREE FOR THREE. VPB's cash dividend was PAID 25-MAY-2026, and OPEN ITEM 3 — open since 29-Jul — IS FULLY RESOLVED, OPPOSITE TO ITS OWN CONCLUSION.** VPB: ex **15-May**, record **18-May**, **paid 25-May**, 5% = **₫500/sh ≈ ₫4,000bn**. **The arithmetic closes it: 500/25,000 = 0.0200 · 1,000/22,050 = 0.0454 · 700/29,250 = 0.0239 — all three of item 3's numbers ARE those three dividends, and all three were paid before the dated prices this file has measured (VPB 25-May, TCB 10-Jun, MBB 17-Jul).** ⚠⚠ **So "seven blanks are not seven zeros" is WRONG for these three: the blanks ARE zeros, because the dividends are past. MBB's 0.0 is correct. VPB's 0.0 is correct. The only wrong field is the one that is NOT blank — TCB's 0.024.** ***NET EFFECT OF RESOLVING ITEM 3: the only movement is TCB DOWN 2.4pp raw. Nothing goes up.*** **The specific prediction that fails: *"adding MBB's 4.54% moves MBB from 4th to 3rd, above HPG"* — produced entirely by a dividend paid 17-Jul. It does not happen.** *Ten days of argument about a convention, when the question was a date.* **⚠ Two stale numbers surfaced inside supposedly-current artefacts: item 3's "cuts shrunk E[r] 1.92pp" was computed at confidence 0.80 while the field is 0.70 (1.68pp); and DECISION-BRIEF's TCB row shows Conf 0.70 in the COLUMN while its evidence PROSE still says "cut 0.85 → 0.80" — the column and the prose disagree, flagged not resolved.** **VPB'S STOCK LEG NOW HAS A WINDOW: the 26% is actually 26.04%, ~2.07bn shares (7,933.9m × 0.2604 = 2,066.0m, matching the file's 2,062.8m to 0.15%), planned for issue AND completion in Q3–Q4 2026 after regulatory approval — so VPB's −21.8pp one-legged-refresh exposure is NOT a next-week risk. A window, not a record date, and labelled as one.** **Also: VPB CHANGED THE INSTRUMENT mid-year, converting a capital-increase plan into a stock dividend by written shareholder consultation in July — the file's "three different instruments" note is right and more fragile than it reads.** **Remaining work on item 3 is narrow: set the `cash_yield` convention (a dated forward yield, not a memory) and correct TCB's 0.024 — §4 human-only. Nothing modelled; no confidence moved; no new trigger.** ⚠⚠ **MBB'S LAST CUM SESSION FOR THE STOCK LEG AND RIGHTS IS MONDAY 10-AUG.**)* *(16:53 — ⚠⚠⚠ **MBB'S 10% CASH DIVIDEND WAS PAID 17-JUL-2026, AND OPEN ITEM 3'S HEADLINE IS FALSIFIED AGAINST THE ENGINE'S FAVOURITE NAME.** Record **10-Jul** ⇒ ex **09-Jul**, **paid 17-Jul**, **₫1,000/sh ≈ ₫8,055bn**, 5% PIT withheld — the **cash leg** of the 25% AGM plan, with the **stock leg** carrying the separate **11-Aug ex / 12-Aug record** dates already on file. ***The 25% resolves into two dated events: one done three weeks ago, one on Monday.*** **Provenance provable exactly as for TCB: 1,000/22,050 = 0.0454 — item 3's "unrecorded 4.54%" IS this dividend.** ⚠⚠ **Item 3 claims it is "worth EXACTLY +4.54pp … and the largest points UP on the name the engine most wants to buy." IT DOES NOT POINT UP — the payment predates the 06-Aug dated price and today, so a forward 12m return cannot contain it. `valuation.MBB.cash_yield` = 0.0 IS CORRECT, and adding +4.54pp would have repeated the TCB error found one hour earlier.** Robust to when ₫22,050 was struck: post-ex ⇒ simply past; pre-ex ⇒ the price is stale by more than the measured 7.74%, **which points the same way.** ⚠⚠ **"THE DIRECTIONS FIGHT" IS ALSO WRONG — BOTH POINT DOWN:** TCB's price mark takes TCB down, MBB's `cash_yield` is not a blank to fill upward, **and TCB's own 0.024 is itself the same stale-dividend error, so TCB moves down twice.** **THE 14:53 TRIGGER-3 NETTING IS RETIRED** — *"even after giving MBB the cash yield it is owed"* concedes something MBB is not owed; the sequence is **+36.69% → +26.11% (−10.58pp) → +21.04% with the 11-Aug rights (−15.64pp), no credit at any step. The trigger still fires, and more cleanly without the concession.** **⚠ VPB NOT RESOLVED: item 3's "VPB's 2.00%" has no established source — the watch list carries no VPB cash dividend — and was left open rather than guessed either way.** ***Two for two in two hours: every cash dividend this file carried as pending or unrecorded had already been paid. The generalisable defect is that `cash_yield` has no date attached, so nothing distinguishes a forward yield from a memory.*** **Nothing modelled; no confidence moved; `cash_yield` untouched (MBB's 0.0 is right, TCB's 0.024 is §4 human-only).** ⚠⚠ **MBB'S LAST CUM SESSION FOR THE STOCK LEG AND RIGHTS IS MONDAY 10-AUG.**)* *(15:53 — ⚠⚠⚠ **TCB'S CASH DIVIDEND WENT EX 19-MAY-2026 AND WAS PAID 10-JUN-2026, AND THE FILE IS STILL COUNTING IT AS FORWARD RETURN.** Confirmed twice across several outlets: 7% = **₫700/sh = ₫4,960bn**, record **20-May**, ex **19-May**, **paid 10-Jun-2026**, third straight year; **the 60% bonus is separate and still undated.** **`valuation.TCB.cash_yield` = 0.024 and 700/29,250 = 0.0239 — provable provenance.** Since `cash_yield` enters E[r] additively (proven 07-Aug 13:53), **TCB's raw E[r] of +3.98% contains +2.4pp already paid and already in the price. Correct raw +1.58%; shrunk +1.10%, not +2.78%.** **The 10:53 implied-target gap of +1.58% was exactly this number** — the identity `gap = mu_raw − cash_yield` had been showing the right answer for five hours with nobody asking why it differed from the brief. **TCB is 35% of the book and the largest position; the brief's action is ALREADY TRIM −15.0pp, so this STRENGTHENS the existing recommendation rather than reversing it** — said plainly because a defect pointing the way the brief already points is the easiest to under-report. **No trigger: −2.4pp is well under 10pp, and it is a model-input defect, not a market move. `cash_yield` is §4 human-only — ESCALATED, NOT FIXED.** TCB is the **only** name with a non-zero `cash_yield`, so this is single-name, not systematic. ⚠ **MIRROR-IMAGE OPEN QUESTION: MBB's AGM approved 25% = 15% stock + 10% CASH; `valuation.MBB.cash_yield` is 0.0 and item 3 flags an unrecorded 4.54% worth +4.54pp. Whether MBB's cash leg shares the 11/12-Aug dates is NOT established and was not guessed — one field, an over-count on TCB and a candidate under-count on MBB, both human-only.** ⚠ **CORRECTION I OWE ON MY OWN 09:53 AND 10:53:** I adjusted TCB's street targets as **(TP − 700)/1.6**, deducting a dividend already paid and already in the targets. Correct is **TP/1.6** → high **₫30,000** vs model **₫29,711**, i.e. **0.96% BELOW the high. "More bullish than all twelve analysts" was overstated — it is above ELEVEN of twelve.** The substantive claim survives: the file's *"far more conservative than the street"* is **still backwards on TCB**, model **+28.5% above the adjusted low, +14.3% above the mean.** *Both entries had flagged the sensitivity correctly in the body and overstated it in the summary line — and the summary line is what gets read.* **Watch-list row corrected: TCB's cash leg is DONE, only the 60% bonus remains.** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(14:53 — **a correction I owe on my own 13:53 framing, and a channel an automated run cannot reach at all.** **(1)** I called the instrument-identifier gap *"a habit — two in three hours."* **Too broad. The file has an exemplary counter-example it produced itself:** on margin rules it named **Circular 121/2020/TT-BTC** (margin debt ≤ 200% of owner's equity) *and* **Decision 87/QĐ-UBCK** (per-stock 10–50%), **and then checked the lane definition against the repo** — *"'Margin rules 91/102' … returns ZERO hits in this repo; the binding instrument is 121/2020, so the lane text may be pointing at the wrong circulars."* ***That is the template.*** **So the diagnosis is INCONSISTENCY, not habit** — more actionable, because the method is already demonstrated and the question becomes why it wasn't applied at 11:53 and 13:53. *Two misses and one exemplary hit is a different problem from three misses.* **(2) ⚠⚠ `monitoring-log.md`'s OWN HEADER MADE A FALSE CLAIM AND IS NOW CORRECTED IN PLACE.** It said *"this header is the canonical lane definition … update the lanes by editing this file, not the trigger."* **The stored trigger carries its own full copy of the seven lanes, does not read the log, and still contains the 91/102 error the file had already corrected. The correction was made, was right, and had nowhere to go.** ⚠ **The 01:53 refinement — "the path exists but is unsignposted" — DOES NOT APPLY HERE: the trigger prompt is not a repo file, so it is unreachable from a non-interactive session. §4 is not the constraint; REACHABILITY is.** **OWNER-ACTIONABLE, and it belongs beside the FiinQuant item as the second thing only the owner can fix: update the stored trigger text (91/102 → 121/2020/TT-BTC + Decision 87/QĐ-UBCK), or make the trigger genuinely point at the log header.** *A control surface not wired to anything is worse than none, because it absorbs the effort that would go to the real one.* **Near-miss named: the full Q2/26 HOSE market-share table came back (VPS 12.61% at a 22-quarter low, TCBS 9.36% +0.51pp, VPBankS 3.57% — a company record and the largest gain at +0.63pp, top-10 65.19% from 69.05%) and EVERY figure, the 65.19% internal check and the "market share is not an input to any branch" ruling were already on file — second fully-covered lane in three hours.** **Nothing modelled; no confidence moved; a process defect, not a portfolio one; no trigger fires. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(13:53 — **the file has been hunting the WRONG VARIABLE on KDH's land-use fee; this is a correction to the question, not a new answer.** The file asserts the mechanism flatly — *"land-use fee … is computed as the land price table multiplied by K"* — and on that basis has been chasing two unknowns: **KDH's project-specific K2 values** and **which projects have already settled**. ⚠⚠ **Today's coverage says developers are little affected directly on LARGE projects because the fee there is typically set by the RESIDUAL/SURPLUS method (*phương pháp thặng dư*), NOT by table × K** — the exposed parties being manufacturing and commercial-service tenants on annual land rent. **If Gladia and Clarita are assessed that way, K2 is irrelevant for them and BOTH standing unknowns point at the wrong variable. The prior question — by which statutory valuation method is each KDH project's fee actually determined? — is new to this file and sits upstream of both.** *Effort spent finding a number for a variable that does not enter is worse than none, because it looks like progress.* **DISCIPLINE NOT RELAXED:** this is **T5 commentary about developers as a class, not about KDH**, and Vietnamese law offers several methods (comparison, income, surplus, coefficient) whose applicability is case-dependent — **so it does NOT establish that KDH is assessed by the residual method**, only that the file's stated mechanism is a simplification now in doubt for its large projects. **Directionally it leans toward a SMALLER direct hit than the 8× table increase implies — the comfortable reading — and was recorded as a lean, with the standing "direction is not established" line left in force.** **Instrument identifier the file also lacked: Nghị quyết 87/2025/NQ-HĐND, effective 01-Jan-2026, first table after the HCMC / Bình Dương / Bà Rịa–Vũng Tàu merger, under the 2024 Land Law; zero hits for "87/2025" or "Land Law 2024" in the repo; peak ₫481.1m/m² (zone-1 non-agricultural production/business).** ⚠ **SECOND INSTRUMENT-IDENTIFIER GAP IN THREE HOURS** (11:53 SBV LDR, now HCMC land) — ***this file records what a rule does and not which rule it is, which is exactly what makes a rule impossible to re-check or to date. One is an oversight; two in three hours is a habit.*** **Nothing modelled; no confidence moved; no branch/probability/weight touched (§4); no trigger fires. *12:53 was reported as nothing material and stands.*** ⚠⚠ **MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(11:53 — **the CREDIT-QUOTA lane is named in the routine and had ZERO coverage in this file.** Grep evidence before the fix: no hits for *"15% credit"*, *"credit growth target"*, *"quota removal"* or *"room tín dụng"* as policy. **Now on file: SBV's 2026 system credit target ~15% (2025 actual 19%); room allocated per bank on 2024 scoring × a common coefficient; guidance pacing ~25% of the year's growth into EACH QUARTER; gradual phase-out not abolition, with the PM instructing SBV to STUDY abolition and room to fit an 8.3–8.5% GDP target; and tightening oversight of PROPERTY credit growth** (touching KDH at 20.3%). **Like-for-like at end-June: system +7.73%, MBB +13.2% = 1.71×, TCB +10.39% = 1.34×. Against a 15% full-year system target six months in, MBB has used 88.0% of it, TCB 69.3%, the system 51.5%.** ⚠ **WHAT THAT DOES NOT LICENSE — and it is the whole discipline of the hour: 15% is a SYSTEM target and banks get INDIVIDUAL room that can exceed it, so "MBB has 1.8pp left for H2" DOES NOT FOLLOW.** *That is the system-vs-bank measure substitution — the sixth instance of an error class catalogued five times before, and this time caught before publication.* **THE FINDING IS A NAMED GAP: no individual bank's 2026 room is on file, and that is exactly the input that would make MBB's `fy26e_npat` branches derivable rather than "typed in, derived from nothing and recomputed by nothing" — one disclosure, not a model.** Conditionally: **IF** MBB's full-year growth were 15%, Q2 alone consumed ~**two and a half quarters** of a 25%-per-quarter allowance — *the "if" is load-bearing and stays visible.* ⚠ **CORRECTION I OWE ON MY OWN 06:53 ENTRY:** I called *"SBV Decision 1743"* already-on-file and leaned on it to report nothing from lane 1. **The substance was on file and that part stands** (80%→50% LDR deduction, 01-Aug-2026 to 31-Jul-2028) — **but the grep for "1743" matched KDH's ₫1,743bn Bình Trưng Mới value.** The identifier is not on file, press disagrees on decision-vs-circular, and the new instrument **repeals Circulars 08/2020 and 08/2026** (zero hits for "08/2020" in the repo). ***The economics were recorded and the legal form was not; a bare four-digit grep is not a coverage test in a file full of ₫ amounts.*** **Recorded as a failure.** **Nothing modelled; no confidence moved; `fy26e_npat` untouched (§4); no trigger fires. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(10:53 — **the implied-target table is complete for the first time, and it makes the VPB-vs-TCB asymmetry measurable.** All eight now exist: **MBB 30,140 · TCX 36,485 · TCB 29,711 · VPX 26,591 · HPG 22,127 · VPB 21,536 · KDH 18,637 · VCI 18,184** — the 07-Aug sweep had computed three, and **all three reproduce exactly**, verifying the method before anything is built on it. **Not new and said so: the E[r] percentages for all eight are already in DECISION-BRIEF §1** — only the **₫/share form** is new, and it is new *because* it is the only form a street comparison can consume. **Identity: implied-target gap = `mu_raw` − `cash_yield`** (TCB +1.6%+2.4% = +4.0%; MBB +36.7% ≈ +36.6%). ⚠⚠ **THE ASYMMETRY IS THE FINDING: adjusted for each bank's pending action, TCB's ₫29,711 is +0.5% ABOVE the street HIGH while VPB's ₫21,536 is −9.6% BELOW the street LOW. Same model, same sector — above every analyst on one, below every analyst on the other.** *When a disagreement with consensus reverses sign between two names in one sector, the explanation is almost never the consensus.* **It is in the file's own inputs: base `exit_pe` TCB 8.0 vs VPB 7.0 — a FULL TURN — and base EPS ₫3,752 vs ₫3,094. Whether that differential is intended is a §4 HUMAN CALL; recorded, not touched.** ⚠ **Refreshing the four measured prices (TCB −2.34%, KDH +1.1%, HPG −7.76%, MBB −7.74%; negative = file price BELOW dated) flips the brief's ranks 2 and 3 negative: HPG +6.4% → −1.9% (−8.3pp), TCB +1.6% → −0.8% (−2.4pp), KDH → +4.7%, and MBB → +26.1% at −10.6pp, REPRODUCING trigger 3's −10.58pp to within 0.02pp — a third independent cross-check.** **So on the file's own measured prices, HPG and TCB (51.8% of the book) sit BELOW their own targets and six of eight names are at or below target; the only meaningful upside left is MBB's +26.1%, the name whose trigger 3 has already fired and whose 11-Aug rights cut it further.** **NO NEW TRIGGER — HPG's −8.3pp is the largest the file has produced without firing the 10pp threshold, and is recorded at −8.3pp rather than rounded toward it.** ***Restating is not refreshing:*** no `price` field was written, so the result is visible to a reader and invisible to the optimizer — which is what §4 is for and why it needs a human. Covers 72.1% of the book; VPB/TCX/VCI/VPX still unmeasured or bracketed. **Nothing modelled; no confidence moved. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(09:53 — **the single broker point became a 12-analyst DISTRIBUTION, and it INVERTS this file's own summary of the street.** The file held one **undated** Agriseco ₫39,000 on TCB and the line *"this model is far more conservative than the street."* **TCB consensus: mean ₫41,597.2, high ₫48,000, low ₫37,000, 12 analysts, 12 buys, 0 sells.** ⚠ **Agriseco's ₫39,000 sits at the 18th PERCENTILE — a bottom-quintile view the file has been calling "the consensus."** ⚠⚠ **Adjusted for the pending 60% bonus + ₫700 cash the whole street maps to ₫22,688 · ₫25,561 · ₫29,562, and THIS MODEL'S IMPLIED TARGET IS ₫29,711 — ABOVE THE ADJUSTED HIGH. On TCB the model is more bullish than all twelve analysts.** On the bonus alone the adjusted high is ₫30,000 and the model sits at the **97th percentile**, so it does not hinge on the cash leg. *The 07-Aug finding was right and understated: not "below one broker" but above all twelve.* **BLOCKER NOT CLEARED, AND NOT SOFTENED:** the file ruled these unusable for **two** reasons — undated *and* corporate actions — and **this hour fixed only the second; the consensus figures are also undated.** *Dispersion and breadth are not dates.* **VPB — first street comparison in this file, and the adjustment trap fires a THIRD time:** mean ₫34,508.9 (high 40,600, low 30,000; 7 analysts, 0 sells), **apparent +38.0% upside → +9.6% once the 26% stock dividend is out — a factor of four**, with the adjusted low (₫23,810) *below* the price on file. ⚠ *Pre-adjustment is an inference here, not the explicit fact it is for TCB* — post-adjustment would imply +51% to +105% across seven analysts, not a plausible distribution. **VPB's own implied target is NOT on file** (07-Aug computed HPG/TCB/MBB only) — *the cheap next step, and it is arithmetic already inside `decide.py`'s inputs.* **MBB — no consensus came back, and it is the one name that needs one:** only an undated VCBS ₫37,230 vs model ₫30,140, while carrying **both live escalations and Monday's cum date.** *An absence from one aggregator is not an absence of coverage — logged as a gap, not a signal.* **Checked and already on file: the 1,735.78 VN-Index close appears six times in each of two files — settled, not news.** *New but second-order: HOSE liquidity 726m shares / ₫17,500bn per session, −12% w/w, −6.4% vs the 20-week average, bearing on the three brokers (11.4%).* **Nothing modelled; `exit_pe`/`probs`/`fy26e_npat` untouched (§4); no confidence moved; no trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(08:53 — **item 46's UNIT question is CLOSED, bridge §9's BASIS question gets a worse answer than §9 assumed, and this file's own "coal is broadly FLAT" line has a candidate falsification.** **UNIT:** Fastmarkets **MB-COA-0003** is published *"Premium hard coking coal, fob eastern Australian ports, **$ per wmt**"* — two independent slugs. **Conditional bonus:** *if* the file's **228** and **238.9** came from that benchmark, **the 241-vs-228 wmt/dmt gap flagged 07-Aug is already like-for-like** — so **the cheapest remaining fix in this lane is a PROVENANCE LINE for 228 and 238.9, not another price.** Stated conditional; provenance is still not on file. **BASIS:** ⚠ *"PHCC FOB Australia" is not a delivery basis — it has covered two.* Fastmarkets moved MB-COA-0003's load port from **`FOB DBCT`** (one terminal) to **`FOB eastern Australian ports`** (adding Hay Point, Abbot Point, Gladstone, Port Kembla); **both names live today under one code**, plus two further amendment notices. ***The problem is not an omitted label but a stable-looking label that silently changed meaning.*** ⚠ **BOUNDED, and the overreach refused:** proposed **Oct-2024, before EVERY coal figure on file** (190 · 244.39 · 238.9 · 241 · 228 · 220) — **so it splices nothing here and explains none of the internal spread.** **DATE:** a dated **03-Aug print of US$212/t** — **−11% from mid-July**, squarely against the file's own 07-Aug *"coal is broadly FLAT, drifting slightly down."* ⚠ **But its publisher calls it "a broader coking coal price rather than specifically PHCC FOB Australia," so it is a CANDIDATE FALSIFICATION on notice, not a correction.** **If it holds the direction is FAVOURABLE and reverses a recorded line:** 220 modelled vs 212 = −US$8/t → **+₫0.11m/t ≈ +₫1,265bn ≈ +4.6% of base-case FY NPAT**, against 07-Aug 13:53's *"the cost side is delivering no relief."* **Still not applied** — basis unverified, `core_npat_per_tonne_m` is §4 human-only. *A process that waves through good news and interrogates bad news is not a process.* **Not new and said so: June-2026 avg 244.39 (242–249) was already on file.** *Blocked this hour: `fastmarkets.com` ×2, `tradingeconomics.com`, `cbonds.com` — the coal lane now joins the index lane in running on search summaries only.* **Nothing modelled; no confidence moved; no trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(07:53 — **the first PER-NAME FTSE flow figures this file has ever held, and they DEFLATE the September event.** **VIC ~US$498m** (stated as **14.6 trading days** of its own volume) · **HPG ~US$115m** · VHM ~US$99m · FPT ~US$69m · MSN ~US$63m; KDH, VCI, VCB, STB, SHB, BID, VRE, NVL, KBC named **present but unfigured**, so all sit below US$63m. ⚠⚠ **HPG is 16.8% of the book and the only holding with a number: US$115m is 1.7–1.9% of market cap, phased 10/20/35/35, so THE 21-SEP TRANCHE IS ~US$11.5m ≈ 0.18% OF CAP.** *The file has called 21-Sep a catalyst for weeks with no magnitude attached — a catalyst with no magnitude is a mood.* **HPG's thesis is the spread, not the index, and this now confirms that quantitatively rather than assuming it:** the entire day-one index event is worth less than a fifth of one percent of the company, against **₫0.34m/t after tax for US$10/t on the ore spread.** **It also closes a gap the file had confessed to** — on 05-Aug 19:53 it guessed KDH index-flow numbers and then recorded *"my estimations two sweeps ago were badly too high"*; the real figures were three hours of searching away, and sat unfound for three days. **NOT COMPUTED, DELIBERATELY:** HPG's inflow in days of its own volume — **HPG's ADTV is not on file (zero hits anywhere)**, so the ratio is left blank rather than back-solved from VIC's implied US$34m. *The blank is the finding.* **Four weights refined, all sub-decimal** (Emerging 0.227%, Emerging All Cap 0.35%, Global All Cap 0.037%, All-World 0.024%) — recorded so the file's figures stop reading as measurements when they are roundings. **A second total from a different estimator: SSI Research US$1.67bn vs US$1.5bn on file — `_ftse_total_passive_usd_bn` LEFT AT 1.5**, and the per-name figures **not divided into either**, because they travel with a different list vintage and 844/1500 = 56.3% vs 844/1670 = 50.5% cannot discriminate. ***Cross-vintage division is this file's own catalogued error class.*** **Yesterday's 32→23 gains a fifth, state-run outlet (Sài Gòn Giải Phóng); a fourth count — 29 — also circulates, joining 32 · 28 · 23. Four counts, none of them the list; 21-Aug publishes it.** ⚠ **TIER CEILING NAMED: ten distinct hosts blocked in two hours, and this lane has NEVER ONCE REACHED A PRIMARY DOCUMENT** — it runs entirely on search-engine summaries, which structurally caps it at T4 and means **under §2 it can never move a confidence on its own.** **Nothing modelled; no confidence moved; forecast #7 still not re-weighted; no trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(06:53 — **the FTSE eligible list was CUT FROM 32 TO 23 on 28-Apr-2026 data, and this file held NEITHER number.** What it held was `ftse_stocks_included = 28` — **a bare integer with no as-of date, no source and no roster** — plus a gate row calling it *"built on 31-Dec-2024 data, twenty months stale."* Both wrong. **Nine names were removed** (SAB, DPM, HUT, DIG, EIB, DXG, PDR, FRT, KDC) on liquidity, free float, market cap and foreign accessibility; **32 − 9 = 23 checks.** ⚠⚠ **THE HOLDINGS VERDICT SURVIVES AND GETS STRONGER: HPG, VCI and KDH are all in the 23 — 40.2% of the book — and they cleared a screen that removed 28% of the names, where before they were merely on an indicative list.** *Same conclusion, better evidence — a process that only counts findings which overturn something will undervalue confirmation, which is most of what good monitoring produces.* **TWO EXCUSES RETIRED:** TCB/VPB/MBB (51.5%) are absent from a **four**-month-old screen, not a twenty-month-old one; and the row's excuse for TCX/VPX (8.3%) — *"listed after the screen date"* — **dies at 28-Apr-2026.** ⚠ But the replacement question — does FTSE require a minimum **listing history**? — is **not established and not guessed**; *absence from a screen a name may not have been eligible to enter is weaker than absence from one it was.* **FORECAST #7 (TCX, EV +6.25%) WAS NOT RE-WEIGHTED** despite evidence pointing at its downside — 21-Aug resolves it in eleven sessions, and *a pre-registration that only survives when the evidence is neutral was never one.* **T4 only: four Vietnamese outlets agree; `lseg.com`, `theinvestor.vn`, `cafef.vn`, `vneconomy.vn`, `nhadautu.vn` and a WordPress mirror are ALL egress-blocked — six hosts in one lane.** So **no confidence moved** (§2). **FOURTH ANNOTATION DEFECT OF THE WEEK, AND THE FIRST OUTSIDE THE HPG BRIDGE — so the pattern is the file's, not that document's:** basis · date · held-constant set · **and now a count with no as-of date.** ***The defect is never the number; it is the missing label that stops anyone from checking the number.*** *Also checked and already on file to the dong — MBB's capital action, the CORE inquiry's subject and 24-Aug intention, SBV Decision 1743's LDR change: three lanes, three items that read like news and were not.* **Nothing modelled; no trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 stand. ⚠⚠ MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)* *(05:53 — **tested the HPG bridge's internals after last hour's defect and it PASSES to ~5%. The machinery is sound; the annotation is not.** From the Q1 anchor (**ore 101, coal 190, HRC 560 → ₫1.68m/t**) the after-tax gearings pinned Friday predict the *"at spot"* row (ore 115, coal 220, HRC 539) at **₫0.343m against a stated ₫0.36m — −4.7%. It reproduces.** **⚠⚠ So the 03:53 defect is CONTAINED: the arithmetic engine is internally consistent and it is the INPUT ANNOTATION that is broken** — which **downgrades item 46 from a model-correctness problem to an input-uncertainty one**, still worth 17.0% of base-case FY NPAT but fixed differently. *Second mechanism this week tested to a PASS, after HPG's kill criterion on Friday.* **⚠ AND A THIRD DEFECT OF THE SAME FAMILY: the "ore = 100, HRC 539 → ₫0.86m/t" row does not state its coal** — at 190 it predicts **₫1.273m, a 48% miss**; at 220, **₫0.853m** against ₫0.86m. **Only coherent at coal 220, and it does not say so.** ***Basis, date, held-constant set — the bridge is missing a different one of the three in each place it is annotated***, which is why fixing one never revealed the others. **Entirely internal — Vietnam closed for the weekend, US close already read. Nothing modelled; `core_npat_per_tonne_m` untouched (§4); no confidence moved; no trigger fires — the 14:53 trigger-3 and 06-Aug trigger-5 stand. MBB'S LAST CUM SESSION IS MONDAY 10-AUG.**)*
+
+**⚠ OWNER ACTION REQUIRED, and it is the binding constraint on this workstream.** The **FiinQuant MCP connector is unauthorised** and **cannot be authorised from a non-interactive session** — it needs the owner in claude.ai connector settings. It would answer index-membership, price and share-count questions directly: the three inputs that have produced this session's largest error (TCX share count), its last broken model input (OPEN-DECISIONS item 2, prices) and its longest-running unresolved question (KDH/VNDiamond, seven failed attempts on 20.3% of the book). Widening the environment's network policy to vietcat.com and ssi.com.vn would substitute for part of it.
+ *(14:53: a VCI insider filing — **Tô Hải registering 31.05m shares, 15.13%→17.83%, ~₫612bn, window 04-Aug to 02-Sep** — does three things. It **externally confirms the `cap_now` share count** (1,151.4–1,151.9m from two ratios vs 1,152.24m on file, ±0.07%); it **contradicts the VCI price** (₫19,700 *limit-up* on 28-Jul vs ₫20,500 on file); and it **argues against VCI's own near-certain October kill criterion**, a tension left unresolved. **Qualified: his wife fully divested shortly before — size unknown, so household reallocation is not excluded.** Confidence held at 0.40 (registration ≠ execution). **Biggest read-across: item 2 is now THREE FOR THREE — every dated price sits below the file's, in a 3.4–4.6% band, which points at a systematic DATE OFFSET and REVERSES the 02-Aug "E[r] biased high" conclusion for the whole panel.** No price applied — a partial refresh breaks cross-name comparability in `decide.py`.)*  *(13:53: **the HPG spread bridge's iron-ore input of US$115 has no source.** Fitch's 2026 assumption is **US$100** — set in the same revision that gave the coal 220 this file uses exactly. The 27-Jul note calling 115 "a Fitch forecast" is falsified. Read the bridge's own grid at `ore = 100`: **₫0.86m/t**, identical to the 31-Jul spot repricing — **the "forecast vs spot" gap was the phantom input, not the market.** The recommended `spot_persists` branch is **2.4× too severe as written**. Still below the ₫1.25m bear branch, so the central finding holds; the miss is ₫0.39m/t, not ₫0.89m/t, and **the cost side is delivering no relief.** Nothing modelled; bridge §8 correction appended, item 6 updated.)*  *(12:53: July CPI +4.45% — second consecutive fall, **May 5.60% confirmed as the 2026 peak**. The pre-registered test from 02-Aug 19:53 resolved; the 7-month cumulative average rose 4.38%→4.39% in the same month, exactly as warned. **Core 4.63% now sits ABOVE headline** — the fall is petrol and food, so this is not yet a demand turn. **Level unchanged: still ~0.95pp above `risk.py`'s 3.5%.** The 31-Jul "SBV boxed in on two sides" conclusion now leans mainly on the **inferred** FX support — a downgrade, recorded as such. 3 of the 4 quadruple-date items are resolved; **VNDiamond is the only one left, check after 15:00 ICT**.)*  *(Timestamps on the three sections below dated 20:57 / 21:57 / 22:57 were corrected from 21:53 / 22:53 / 23:53 — they had drifted 56 minutes ahead; see the 23:53 log entry.)* MBB filed (§2, §3). **Two of the four escalations in §4 are now RESOLVED**,
+and a new structural one has replaced them — see §4 and §9.
+
+**Written at the owner's request to make this session's context survive the container.**
+The session is ephemeral; this file and the git history are not. Everything below is already
+recorded in `monitoring-log.md`, `assumptions.json` and `calibration-log.md` — this exists so
+a reader arriving cold knows *where things stand* without reading 108 commits.
+
+**Nothing here is new analysis. No trade has been placed or recommended as executed.
+The system recommends; a human signs.**
+
+---
+
+## 1 · What the engine currently says
+
+**⚠ REGENERATED 03-Aug 18:53 from `research/decisions/DECISION-BRIEF.md`. The table that stood here
+until now was PRE-`cap_now`-FIX and had been stale since 02-Aug — through seven header updates on
+03-Aug alone. It ranked TCX first with an ADD; the engine now ranks it seventh with a TRIM.**
+
+`python3 research/models/decide.py`. Ranked by **shrunk** expected return:
+
+| Rank | | Raw E[r] | Conf | **Shrunk E[r]** | Proposed this cycle |
+|---|---|---:|---:|---:|---|
+| 1 | **MBB** | +36.6% | 0.50 | **+18.3%** | ADD +6.7pp → 13.2% |
+| 2 | **HPG** | +6.3% | 0.75 | **+4.7%** | ADD +3.2pp → 20.0% |
+| 3 | **TCB** | +4.0% | 0.70 | **+2.8%** | **TRIM −15.0pp → 20.0%** (cap breach) |
+| 4 | **KDH** | +3.5% | 0.55 | **+1.9%** | TRIM −3.2pp → 17.1% |
+| 5 | **VPX** | −0.0% | 0.55 | **−0.0%** | ADD +5.6pp → 8.4% |
+| 6 | **VCI** | −11.3% | 0.40 | **−4.5%** | ADD +6.7pp → 9.8% |
+| 7 | **TCX** | −11.2% | 0.75 | **−8.4%** | **TRIM −3.3pp → 2.2%** |
+| 8 | **VPB** | −13.9% | 0.70 | **−9.7%** | hold (−0.8pp → 9.2%) |
+
+Book as owned +1.8% E[r] / 29.2% vol; after this cycle +2.7% / 28.9%; north star +3.8% / 28.4%.
+
+**⚠ THE ENGINE'S LARGEST CONVICTION RESTS ON ITS LEAST-DERIVED NUMBERS.** MBB leads by 14pp of
+shrunk return, and MBB **has no driver model** — `run.py` builds scenarios for KDH, TCB, VPB, TCX,
+VPX and HPG only, so MBB's branches are typed in, derived from nothing and recomputed by nothing.
+The brief's own evidence cell says they **require human re-derivation** against a filed H1 that
+already implies bear needs H2 −26.6%. **Read the ranking with that in hand.**
+
+**Read these numbers with the blocking caveats in `OPEN-DECISIONS.md` §1 — item 2 above all**
+(prices are undated and, as of 17:53, probably ~20-July rather than the presumed 24-July, which
+means expected returns are more likely **understated** than overstated). They are not decorative;
+each one can move the ranking.
+
+## 2 · The quarter that just landed
+
+| | Status | Result |
+|---|---|---|
+| **HPG** | Filed 29-Jul | Q2 revenue ₫55,557bn **+53%**, NPAT ₫6,424bn **+51%**; H1 = 70% of FY plan. Confidence 0.60 → 0.70. |
+| **KDH** | Filed 30-Jul | **CORRECTED 02-Aug: Q2 NPAT is ₫770bn and H1 ~₫1,097bn — 73% of the ₫1,500bn FY plan.** The ~~"H1 ₫321bn, Q2 profit ≈ zero"~~ on this row was wrong: ₫321bn is on a different basis (core/ex-gain/parent) and was paired with a consolidated Q1. **Core operations did collapse** — Q2 revenue ₫161bn **−85%**, ~3.7 units handed, OCF −₫2,580bn — but profit came from **>₫906bn of financial income** on the Bình Trưng Mới 51% transfer. **The 73% is a one-off, not a run-rate.** Every street estimate too high; VCBS's revenue forecast was **7×** the outcome. |
+| **MBB** | **Filed, surfaced 31-Jul** — one day past its Circular 96/2020 deadline | Q2 PBT **₫10,560bn +40%**; Q2 NPAT-to-parent **₫8,229.06bn +40.01%**; H1 NPAT-to-parent ₫15,744.58bn +26.51%. Net interest income +36.55%. NPL 1.45% (from 1.42%) with coverage *rising* to 93.63%. Confidence **held at 0.55** — T5 press, and charter §2 permits a rise only on T1–T2. |
+
+**All three statements are now in. The date gate is closed; the next is Q3, due 30-Oct.**
+
+**Two figures in MBB's Q2 coverage were the Q1 numbers reappearing** — provisioning ₫3,455bn (+15.7%)
+and loans ₫1.12 million tỷ (+3.3%), both already on file to the digit. Neither was logged, so **H1
+provisioning is still unknown.** The tell was free: *a new figure that exactly equals an old one is
+usually the old one.*
+
+## 3 · Calibration: 1 hit, 2 misses
+
+| # | Forecast | Result |
+|---|---|---|
+| 2 | HPG Q2 core NPAT/tonne below ₫1.60m | ❌ **MISS** — actual ₫1.835m. The forecast contradicted my own timing note written the same day. |
+| 1 | KDH Q2 parent NPAT ₫170–348bn | ❌ **MISS** — by ~5× on the falsifiable part. Right in direction, badly wrong in calibration. |
+| 10 | US rebar final ≈ headline risk only | ✅ **HIT** — right for the *stated* reason. The rate went the wrong way (finals ~6.6pp above preliminary) and the impact claim still carried it. |
+| 4 | MBB Q2 NPAT ≈ ₫7,052bn, band ₫6,347–7,757bn | ❌ **MISS** — actual consolidated NPAT ₫8,448bn, **+19.8%**, on the forecast's own measure. |
+
+**Now 1 hit, 3 misses across four resolved forecasts. All three misses were on the estimate side,
+not the direction side** — the base cases keep being wrong about *magnitude*, twice too high
+(KDH, HPG) and once too low (MBB).
+
+**The pre-registered read on #4 is scored WRONG, on its own stipulation.** It said *if MBB misses,
+expect it to miss on credit cost with net interest income intact* — and pre-committed that *"if MBB
+instead misses on the top line, **or beats outright**, this read is wrong."* **MBB beat outright.**
+That clause is the only reason this is recorded as a failure rather than quietly retired.
+
+**The read-across is the finding, not the miss.** ACB printed **−12%** and VIB **−8%** on
+provisions; I inferred a sector cycle and applied it to MBB. **MBB printed +40%** — a ~52pp spread
+between two large banks in one quarter. What did work was the sequencing: MBB's *own* Q1 provisioning
+(+15.7% vs PBT +14.8%) contradicted the peer inference, and the read was **withdrawn on 30-Jul,
+before the print**, on that bank-specific evidence.
+
+## 4 · Escalations raised this session, all still open
+
+1. **Circular 25/2026/TT-NHNN** — SBV raised the cap on short-term funding usable for
+   medium/long-term lending from **30% to 40%**, effective 01-Jul. **T1.** Bears on 71.8% of the
+   book. It had been in force four weeks and this repo had no record of it.
+2. **Price staleness, measured** — TCB had a dated observation **3.42% below** the file's figure.
+   On the file's own sensitivity that moves TCB from 7th of eight to 6th, weakening a stated
+   support for the headline trim. The market fell **6.55%** in the week to 24-Jul.
+3. **`cash_yield` applied inconsistently** — three of eight names paid cash in H1 (TCB ₫700,
+   MBB ₫1,000, VPB ₫500) and the field records exactly one of them, on a premise shown false.
+   All three are banks.
+4. **KDH Q2** — see §2. `fy26e_npat` branches now contradicted by the run-rate; ~10 units handed
+   in H1 against a bear branch needing 80.
+5. **MBB Q2 — the same defect, opposite sign.** Escalation trigger #4 fired (estimate → filed
+   actual). H1 PBT **₫20,188bn** leaves bear needing H2 **−26.6%**, base **−11.2%**, bull **+4.3%**
+   — and bank profit here is second-half weighted, so a *flat* H2 gives FY PBT ₫40,376bn, above
+   base. **Two of three branches now require profit to fall outright.** The 28-Jul pre-registered
+   table called this exact row in advance and its instruction is *rebuild, do not celebrate*.
+   **The sharp part: a +40% quarter moved MBB's expected return by zero** — still +8.8% — because
+   the branches are typed in and nothing derives them. The engine is blind to the best print in the
+   book while proposing MBB as its joint-largest add. `OPEN-DECISIONS` item 19, new.
+
+### Resolved overnight, 31-Jul → 01-Aug
+
+| Was blocking | Outcome |
+|---|---|
+| **`OPEN-DECISIONS` item 1** — VPB's two credit fields "cannot both be right" | ✅ **RESOLVED.** They can: **both describe the PARENT** (₫1,060,000bn, +24.6%). Consolidated loans are a *third* series at **₫1,160,000bn, +23%**. The fake +10.19% came from dividing a **parent stock by a consolidated base**. **Resolves in VPB's favour** — H2 needs ≤ +12.0% on the base branch, not the feared +22.5%. |
+| **TCB credit-vs-loans**, the reason confidence was cut 0.85→0.80 | ✅ **RESOLVED, and the 28-Jul inference was INVERTED.** **+10.4% is loans; +14.3% is credit** incl. quota-exempt infrastructure/social housing. So the non-loan book **grew**, not shrank. `loans_start_fy`→`loans_mid_fy` is **+14.46% vs a reported +14.3%** — the model's pair was never mismatched. H2 needs **+1.5/+3.2/+5.0%**. |
+
+**Near-miss worth knowing about:** the inverted TCB reading produced a **~₫40,700bn** gap sitting beside
+the **₫39–40,000bn** of real-estate exposure TCB cut and the **₫44,500bn** Masterise raised — an
+irresistible "exposure moved from loans into bonds" story. **The source names the gap as quota-exempt
+lending.** It was false, and *quantitatively closer* to the on-file numbers than the truth.
+**The Masterise test still needs the corporate-bond line and is NOT settled.**
+
+### New escalations raised overnight
+
+5. **The 403 wall is suppressing THREE confidence restorations across 51.5% of the book.** MBB (0.55),
+   VPB (0.70), TCB (0.80) — in every case the evidential objection has been *answered*, and in every case
+   the raise is blocked because the evidence is press, not the document (charter §2, T1–T2 only).
+   **Confidence multiplies `fy26e_npat`, so this biases expected returns downward, selectively, on the
+   three largest bank positions.** `OPEN-DECISIONS` item 17 is no longer an access inconvenience.
+6. **HCMC Decision 45/2026/QĐ-UBND** — the land-price adjustment coefficient (**K = K1×K2×K3, K1=K3=1**),
+   **in force since 01-Jul-2026**, and the repo had **zero record of it**. Land-use fee is the largest cost
+   input for a developer and **KDH is 20.3% of the book with >₫23,000bn of inventory.** *Third* dated
+   regulation missed in four days, and the **second effective 01-Jul**. New `OPEN-DECISIONS` item 20.
+   **The direction is not established** — a higher table raises fees, a published K unblocks stalled
+   approvals, and the two cannot be netted from here.
+7. **`OPEN-DECISIONS` item 13 got WORSE.** A **third** candidate for HPG's divestment gain (~₫3,800bn,
+   Phố Nối) joins ₫4,123bn and ₫4,010bn. **The spread bridge's calibration anchor now ranges
+   1.644–1.752m/t, a 6.5% spread**, and the new figure moves it *up* — the opposite direction from the only
+   alternative previously considered.
+
+### 02-Aug 22:57 — earnings-quality sweep COMPLETE across the book; TCX is the counter-example
+
+**TCX Q2/2026: revenue +41%, costs +78.6%, PBT +21%, margin 65.2% → 56.0%.** Profit grew at **half** the
+rate of revenue. Where the banks' reported profit outran their operating line, **TCX's lags its own top
+line — nothing is flattered here.**
+
+- **⚠ But: TCBS arranged ~₫61,000bn of bonds in Q2, +138%** (~₫59,000bn non-bank corporate, **48% share,
+  #1 in Vietnam**) **while that segment's net income rose just 7% to ₫964bn.** Volume +138% → income +7%.
+  Fee compression, low-margin volume, or undisclosed offsets — **not established, not guessed.** A
+  growth-quality problem, not an accounting one.
+- **It joins the 18:53 Masterise finding:** TCBS is registrar for Masterise-linked paper, H1 issuance
+  ₫44,500bn. **The Masterise exposure sits inside the ₫964bn segment growing at 7%** — the part of TCX most
+  connected to the property-bond complex is its weakest-growing line. **Share of arranged volume that is
+  Masterise-linked: not established.**
+
+**BOOK-WIDE PICTURE NOW COMPLETE:**
+
+| name | earnings-quality read |
+|---|---|
+| TCB / MBB / VPB | flattered by falling provisioning intensity — **5.8 / 9.2 / 23.4pp** of growth |
+| VPX | FVTPL test **unevaluable** (gross vs net give opposite answers) |
+| VCI | profit **−26% QoQ** behind a +36% YoY headline; OCF negative, prop book −₫430bn |
+| **TCX** | **profit lags revenue — understated, not flattered** |
+| KDH / HPG | one-off gains already documented (deconsolidation; Q1 divestment) |
+
+**Confidence not moved (0.75).** Favourable on accounting, unfavourable on operating leverage — they
+offset. TCX's live issue remains the multiple and the undated price.
+
+### 02-Aug 21:57 — the same lens on the brokers: VPX's kill criterion is UNEVALUABLE
+
+**For a bank the discretionary line is the credit charge; for a broker it is FVTPL.** VPX's armed criterion:
+*"FVTPL marks > 50% of PBT for a third consecutive quarter."*
+
+| quarter | FVTPL gross | PBT | ratio |
+|---|--:|--:|--:|
+| Q1/2026 | ₫1,822bn | ₫514bn | **354%** |
+| Q2/2026 | ₫1,639bn | ₫2,159bn | **76%** |
+
+- **Two consecutive quarters above the test on a GROSS reading** — the criterion needs three, so **it has
+  not fired**; Q4/2025 (not on file) decides whether Q3 could be the third.
+- **⚠ But gross and net give OPPOSITE answers.** The file's existing *"Q2 absorbed a ₫923bn FVTPL loss, prop
+  netted >₫700bn"* reconciles exactly: **₫1,639bn gross − ₫923bn = ₫716bn net.** On gross Q2 is **76%** and
+  the chain continues; **on net it is 33% and the chain breaks.** **The criterion does not say which.**
+- **Second undefined armed criterion today**, after TCB's *"a Masterise bond event"*. **New OPEN-DECISIONS
+  item 27.** A criterion that cannot be evaluated is not a safeguard.
+- **Franchise point, sharper than the file had it: Q2 brokerage revenue was ₫126bn of ₫4,098bn — 3.1%.**
+  Margin lending and FVTPL are the business. Bond book now >₫18,000bn.
+- **Period trap disarmed by division:** the source put ₫1,904bn "27% of revenue" in a Q2 list; ₫1,904bn is
+  46.5% of Q2 revenue — it is an **H1** figure. Not used.
+
+**Confidence not moved (0.55): the finding is a test that cannot be evaluated, not a resolved fact.**
+
+### 02-Aug 20:57 — VPB's provisioning gap is CLOSED, and it breaks the peer pattern both ways
+
+**The 20:53 standing check is answered. Refusing to infer it from TCB/MBB was correct.**
+
+| | prov/PPOP prior → now | change | **PPOP growth** | provisioning share of PBT growth |
+|---|--:|--:|--:|--:|
+| TCB | 12.2% → 7.9% | −4.3pp | +16.7% | 5.8pp of 22.5 |
+| MBB | 32.9% → 27.6% | −5.3pp | +17.9% | 9.2pp of 27.1 |
+| **VPB** | **52.8% → 45.2%** | **−7.6pp** | **+44.6%** | **23.4pp of 68** |
+
+- **Provisions ROSE 23.7%** to ₫15,579bn — the opposite of both peers. On the crude question VPB looks the
+  most conservative.
+- **Yet intensity fell the MOST (−7.6pp)** — so **23.4pp of the 68% growth** is lower provisioning
+  intensity, the largest contribution of the three. Derived 45.2% matched reported 45.2% **exactly**
+  (second method validation today).
+- **And the underlying business is by far the strongest: PPOP +44.6%** vs ~17% at both peers. **VPB's
+  growth is not manufactured the way the peers' partly is.** All three are true; each alone misleads.
+- **⚠ Group 4 "doubtful" debt +44.5%** (₫10,880bn → ₫15,718bn) **while the NPL ratio FELL 3.33% → 3.28%.**
+  Third instance today of a ratio diluted by loan growth — **and VPB's NPL ratio is already double the
+  peers'.**
+- **FE Credit: ₫6,158bn of provisions — ~40% of the group charge — for ₫152.6bn of profit.** Sharpens the
+  existing note: not merely immaterial to profit, it consumes 40% of the credit charge to produce it.
+  Bears on item 11.
+- **Confidence HELD at 0.70, deliberately.** Evidence completeness argues up, 23.4pp flattering plus
+  group-4 argues down; **deciding which dominates is item 26's branch rebuild, not a scalar move.**
+- **Noted, not pursued:** VPB put **₫1,100bn into a tokenised-asset exchange** — touches VPX's CAEX option.
+  **Same venture? Not established.**
+
+**The three-bank provisioning picture is now complete at 51.5% of the book.**
+
+### 03-Aug 11:53 — July PMI 52.9, and it corroborates two independent threads
+
+**Date-gated item resolved on schedule. PMI 52.9** (Jun 51.8, May 52.8) — **highest of 2026**, **13th
+consecutive month** above 50, improvement the most marked since February, **new orders near a record**, and
+**output growth fastest since March 2011**.
+
+*(Source discrepancy flagged, not resolved: one headline says the PMI rose fastest in 13 years, another
+dates OUTPUT growth to Mar-2011 — different measures, neither adopted as the other. The 52.9 level is
+consistent.)*
+
+- **⚠ Corroborates the FDI finding from one hour earlier:** manufacturing took **82.6% of realised FDI** in
+  the best half in five years; now manufacturing **output** prints at a multi-year high. **Same story, two
+  angles, found independently.**
+- **⚠ Corroborates the CPI withdrawal from 19:53 yesterday:** the PMI release reports **easing inflationary
+  pressure**, pointing the same way as the monthly CPI series peaking in **May (5.60%)** and falling to
+  **4.69%** in June. **Does not settle it** — a survey is not the CPI — **and July CPI is still due today.**
+- **Per-name, with the limit stated: HPG (16.8%)** — supportive of **volume**, but **the binding variable is
+  the SPREAD** (bear branch ₫1.25m/tonne), which this does not touch. **Must not be read as relieving the
+  spread case. KDH (20.3%)** — bears on the **Lê Minh Xuân industrial park**, its one non-residential
+  segment.
+- **Nothing modelled** (no PMI input in `run.py`); **no confidence moved.** PMI gate **CLOSED**.
+- **Held the no-KDH/VNDiamond rule until 15:00.**
+
+### ⚠ 03-Aug 10:53 — foreign capital runs TWO ways; the file only had one
+
+**Zero repo hits for FDI** — while it carries extensive foreign **portfolio**-flow data and a thesis ground
+built on it.
+
+| flow | H1/2026 | per month |
+|---|--:|--:|
+| foreign **portfolio** (7M) | −₫92,000bn ≈ −US$3.52bn | **−US$0.50bn OUT** |
+| foreign **direct**, realised (6M) | **US$13.03bn, +11.2%** | **+US$2.17bn IN** |
+
+**FDI inflow is ~4.3× the portfolio outflow per month.** Best H1 in five years; **registered FDI US$34.65bn,
++61%, a record.**
+
+- **⚠ Item 5's third ground is NARROWED but SURVIVES.** *"The marginal foreign dollar has been negative for
+  four years"* is **true of portfolio flows, false of foreign capital overall.** The ground holds — the FTSE
+  event is an equity event — but the phrase now reads **"the marginal foreign PORTFOLIO dollar."**
+- **The file made this distinction once and stopped a level short:** the 31-Jul note separated *active* from
+  *passive* equity money. **Portfolio vs direct is the same discipline one level up, unapplied.**
+- **Per-name:** manufacturing took **82.6%** of realised FDI (US$10.76bn) — bears on **HPG volumes** and
+  directly on **KDH's Lê Minh Xuân industrial park**, the one non-residential segment. **Real estate took
+  just 7.4% (US$965m)** — foreign direct money is *not* going into property, consistent with KDH's
+  residential collapse.
+- **Currency:** US$13.03bn of disbursement is a dong support the 02-Aug USD/VND note lacked, with the
+  central rate at a record ₫25,338.
+- **July PMI and CPI still not published** at 10:53; both due today. **Held the no-KDH rule until 15:00.**
+
+### 03-Aug 09:53 — stopping rule expired, data NOT reachable: check after 15:00, not 09:00
+
+**My route was right and my clock was wrong.** At 05:53 the VNDiamond search route was abandoned with
+*"resolves TODAY by observation… market opens 09:00 ICT"*. The session has run 54 minutes and **web search
+does not index intraday Vietnamese equity prints** — two attempts returned nothing from today.
+
+- **⚠ REVISED: the HOSE close is ~15:00 ICT and coverage publishes after it. Check after 15:00.** Without
+  this the next five hourly sweeps each re-check and find nothing — the exact waste the stopping rule
+  existed to prevent. **A route with a wrong time still burns budget.**
+- **Nothing adopted from the results:** a bundle contradicting itself across dates (index slightly down with
+  56% of codes off >1% / up ~40 points with foreigners net buying / ~3% recovery). **Third mixed-date market
+  summary in three days.**
+- **Undated lead, NOT adopted:** ~**₫2,554bn foreign net selling "in the week"**, down >30% on the prior
+  week, **TCB, VPB**, VHM, VIX, ACB most sold; VIC, VNM, **HPG**, FPT, VCB most bought. Fits the ₫12,000bn
+  July run-rate (~₫2,800bn/wk) **but is not dated.** **TCB + VPB are 45% of the book and the file carries
+  foreign selling only in aggregate and for KDH.** **For a post-close sweep to date.**
+- **Trigger 5 remains live on KDH. Nothing modelled; no confidence moved.**
+
+### ⚠ 03-Aug 08:53 — KDH's Q2 one-offs EXCEED the quarter's profit; inventory is far larger than the file had
+
+**No holding has filed its H1 reviewed statement early — the 14-Aug gate stands.** But the check returned
+the Q2 profit composition.
+
+**~₫875bn of capital-transfer gains + ~₫22bn of transfer-price-vs-book-value = ₫897bn of one-offs, against
+Q2 NPAT of ₫770bn — 116% of the quarter's entire profit.**
+
+| reading | one-offs post-tax | residual from everything else |
+|---|--:|--:|
+| ₫897bn is **pre-tax** (20%) | ~₫718bn | **+₫52bn** |
+| ₫897bn is **post-tax** | ₫897bn | **−₫127bn** |
+
+**Basis not established. The range IS the finding — do not quote the −₫127bn alone.** The **14-Aug reviewed
+statement will state the tax treatment**, so this collapses on a known date.
+
+- **Corroboration both ways:** `q2_financial_income` on file is **₫906bn** vs **₫897bn** itemised — a **1%**
+  match, so they are the same money seen two ways.
+- **⚠ Balance sheet moves opposite to the income statement:** **inventory ₫29,488bn, +27% YTD** (file had
+  *"above ₫23,000bn"*) and **total assets ₫39,471bn, +16%** — **inventory +27% while H1 revenue fell 75%**
+  (₫442bn vs ₫1,759bn), funded by the ₫6,500bn of extra borrowing already on file. **That is what the
+  one-off gains are masking.**
+- **New bases:** H1/2025 revenue **₫1,759bn**; Q2/2025 NPAT **~₫196bn**.
+- **Confidence held at 0.55** — sharpens a known picture rather than changing an input; **branches need
+  re-derivation (item 4)**, which a scalar cannot substitute for.
+
+### ⚠ 03-Aug 08:02 — WEEKLY REFRESH run 1: nothing filed, but a filing gate is 11 DAYS AWAY and uncalendered
+
+**STEP 1: nothing new filed.** All eight Q2/2026 statements are in; last refresh 11.5h ago. **On the letter
+of STEP 1 this run should not have committed — the departure is stated in the log entry, with reasons.**
+
+**⚠ The file believed its next filing gate was Q3 on 30-Oct (88 days). It is 11 days.** Circular 96/2020
+also requires **semi-annual AUDITOR-REVIEWED statements**:
+
+| filing | due | days |
+|---|---|--:|
+| **standalone / parent — REVIEWED** | **2026-08-14** | **11** |
+| consolidated — REVIEWED | 2026-08-29 | 26 |
+
+**Zero repo hits for "soát xét" / "bán niên" — the concept was absent.**
+
+- **These are auditor-reviewed; the quarterlies on file are self-reported. A review can RESTATE them.**
+  Every Q2 figure treated as a filed actual since 29-Jul is a management number not yet audited.
+- **⚠ The 14-Aug standalone filing settles KDH's ₫321bn vs ₫1,097bn basis question** — the confusion that
+  caused the "Q2 profit ≈ zero" cascade, a wrongly scored forecast and a false escalation. Also bears on
+  **item 17b** (TCB bonds), **HPG's debt currency mix**, **VPB's provisioning detail**.
+- **Mid-August is dense: 14-Aug is one day before the 15-Aug two-circular cluster** — three dated events in
+  two days on 71.8% of the book. **Added to the gate table.**
+- **STEP 2:** no new bank data; PPOP analysis unchanged (TCB 5.8pp / MBB 9.2pp / **VPB 23.4pp, resolved
+  20:57**). **⚠ The routine's own prompt is already stale** — it still calls VPB's provisioning "the
+  standing open check". **Flagged, not edited**; rewriting a scheduled prompt unasked is not appropriate.
+- **STEP 3:** no model input changed — `npat_ttm`, `pe_ttm`, `shares_outstanding`, `market_cap_bn`,
+  `confidence` all untouched. **STEP 4: no trigger fires.**
+- **⚠ Process:** the routine's prompt says *"Q3 is due 30-Oct"* — **I wrote it yesterday from this file, so
+  it inherited the blind spot** and would have repeated it weekly. Item 12's problem, except **this copy
+  didn't drift — it was born wrong.**
+
+### 03-Aug 07:53 — the cross-check ran once and found two index defects
+
+**Applied the 06:53 lesson** (*grep OPEN-DECISIONS for a holding whenever a sweep records a figure about
+it*), retroactively over 24 hours.
+
+- **⚠ Item 11 was materially mis-stated.** It says `run.py` is wrong to call FE Credit NPL formation the
+  swing factor, since FE Credit is 0.8% of profit. **Both halves are true of different lines:** FE Credit's
+  H1 provisions were **₫6,158bn of ₫15,579bn group — 39.5% of the credit charge** — for **₫152.6bn = 0.81%
+  of PBT.** **It consumes ~49× more of the charge than it contributes of the profit.** `run.py` is wrong
+  about profit and **defensible about provisioning**; the fix is to **name the line**, not delete the claim.
+  **Second-order, for item 26:** a subsidiary taking 39.5% of the charge for 0.8% of profit is exactly where
+  provisioning flattery can originate.
+- **⚠ Items 19 and 20 each exist twice** (§1/§4 = MBB branches, KDH land-use fee; CFA section = λ,
+  volatility corridors). **Log entries and commits cite them ambiguously.** **Fixed by disambiguation, not
+  renumbering** — the log and git history are append-only and already cite those numbers. Read the CFA ones
+  as **CFA-19 … CFA-23**; every pre-03-Aug reference means the §1/§4 item. **New items number from 24 up.**
+- **Fifth instance of a quantity/link recoverable from what the file already held — and the FIRST caught
+  prospectively by a check** rather than by accident.
+
+**Lane clean: July PMI still not out** (June 51.8, May 52.8 on file and correct; release ~11:00 ICT).
+**Stopping rule held — no VNDiamond searches. Market opens in one hour.**
+
+### ⚠ 03-Aug 06:53 — item 17b, "the highest-value single line in the repo", is PARTLY ANSWERED
+
+**The answer entered the file yesterday, from a different article.** Item 17b asks for TCB's corporate bond
+balance at 30-Jun-2026, marked blocked behind a proxy 403. The 02-Aug provisioning sweep logged **"corporate
+bond book +80%"** alongside Group 2 loans +46%. **That is the change 17b asks for**, and nothing connected
+them for a day.
+
+- **It reverses the 28-Jul inference in sign AND magnitude.** That note said the bond book *"must have
+  shrunk… every plausible starting point implies a large decline"* (57%/32%/18%). It **grew 80%.** The
+  01-Aug withdrawal is now emphatically confirmed.
+- **On removal-vs-relocation:** TCB cut real-estate exposure ₫39–40,000bn while the bond book grew 80% —
+  **consistent with RELOCATION, but it does not establish it.** **"Corporate bonds" ≠ "property bonds" and
+  the composition is NOT established. No Masterise link drawn** — that is the 01-Aug near-miss exactly.
+- **Still missing:** (a) the **base period** (+80% vs 31-Dec-2025 or vs H1/2025 — 17b wants the year-end);
+  (b) the **absolute balance**.
+- **⚠ Reconstruction refused, deliberately.** The balance solves in principle from credit growth, loan
+  growth and the +80% — but **14.3% credit is STANDALONE (incl. quota-exempt infra/social housing) while
+  ₫835,813bn loans is CONSOLIDATED.** Solving across them yields a number with **no defined meaning**, so
+  **none was produced** (01-Aug lesson). **Revised ask: both rates on the same basis, or the balance itself.**
+- **Fourth instance** of a quantity recoverable from what the file already held — after `cap_now`, KDH's
+  percentage pair, MBB's provisions.
+
+**Held to the 05:53 stopping rule: no VNDiamond searches. Market opens 09:00.**
+
+### 03-Aug 05:53 — VNDiamond: two corrections, and the search route is ABANDONED
+
+- **The tracking pool is SIX ETFs, not four.** The file names four (FUEVFVND ₫12,070bn, MAFM ₫345bn, KIM
+  ₫71bn, VFCVN unknown) and says *"the four"* five times. **BVFVN Diamond and ABF VNDiamond were never on
+  file.** `found_total` ₫12,486bn is a **floor, not a total**. **Proportion: FUEVFVND is 96.7% of it, so the
+  ~₫72bn KDH forced-flow estimate barely moves — the defect is the completeness claim, not the magnitude.**
+- **Constituent count unresolved.** File says **19**; a Q2/2026 source says **18** (9 banks + 9 non-banks,
+  no additions) — **but that document is a PREDICTION report and the language is forward-looking, so 18 may
+  be a forecast.** Both recorded, neither adopted.
+- **⚠ STOPPING RULE: the fifth failed attempt on whether the August review removed KDH.** All five returned
+  Q2/2026 material. The 01-Aug entry recorded this as a negative result *"so the next sweep does not re-run
+  it"* — **and it was re-run three times since.** **The search route is abandoned.**
+- **It resolves TODAY by observation:** changes are effective today, market opens **09:00 ICT**, and **KDH's
+  own volume and price action plus the ETFs' published holdings will answer it.** **No further searches
+  before 09:00.** **Trigger 5 remains live on 20.3% of the book** — this is a budget discipline, not a
+  judgment that the question stopped mattering.
+
+### ⚠ 03-Aug 04:53 — HPG's interest step is STRUCTURAL and geared against the bear branch
+
+**The cause is now known: after Dung Quất 2 reached full capacity, HPG no longer capitalises borrowing
+costs into construction-in-progress — it expenses them.** While DQ2 was building, that interest never
+touched the P&L. **A permanent, one-direction change**, still working through (Q1 interest **2× Q1-2024**
+and **+14% on Q4-2025**).
+
+**Debt was flat in Q1 and jumped in Q2:** ~₫90,394bn end-2025 → **₫90,600bn** end-Mar (+₫206bn, **69%
+short-term**) → **₫98,530bn** end-Jun (**+₫7,930bn, +8.8%**). Recent and short-dated.
+
+| branch | FY volume | interest/tonne | % of core NPAT/tonne |
+|---|--:|--:|--:|
+| **bear** | 13.5m t | **₫0.421m** | **33.7%** of ₫1.25m |
+| base | 14.5m t | ₫0.392m | 24.5% of ₫1.60m |
+| bull | 15.5m t | ₫0.367m | 19.8% of ₫1.85m |
+
+- **⚠ Interest per tonne is inversely geared to volume, so the bear branch is hit twice** — low volume, and
+  the high per-tonne burden that low volume creates. 02:53 showed no branch *responds* to interest; this
+  shows the direction it would respond in is **adverse to the downside**.
+- **Stated fairly:** the burden **falls** as DQ2 ramps (₫0.421m → ₫0.367m) — **that is the point of the
+  investment.** Operating leverage in both directions, **and the model shows neither.**
+- **Currency mix STILL not established** after two searches. Bounded only: Q1 financial costs ₫1,868bn less
+  interest ₫1,333bn = **₫535bn of non-interest financial cost — an upper bound on any FX loss, not a
+  measurement.** Remains the next cheap check.
+- **Item 28 sharpened. Nothing modelled; confidence not moved.**
+
+### 03-Aug 03:53 — KDH: a documented Layer-4 governance finding, but time-barred
+
+**Government Inspectorate Conclusion 46/KL-TTCP, 06-Feb-2026** — absent from the repo. Found at KDH:
+**bond proceeds used to repay debt** rather than for working capital as disclosed (reported **>₫100bn**);
+**offering documents not accurate, truthful or verifiable**; **late disclosure**.
+
+- **⚠ NO penalty was imposed — time-barred** under art. 6.1(d), so UBCKNN issued no decision. KDH must
+  implement the conclusion and comply going forward.
+- **The statute point cuts both ways.** Time-barred means the conduct is **old** (almost certainly the
+  2021–22 placement wave), so **this is not evidence about current conduct**, and KDH's AGM calls it
+  bond-debt free today. It also means it was never tested in a proceeding.
+- **Proportion: ₫100bn is small** against >₫23,000bn inventory and +₫6,500bn H1 borrowings. **The
+  significance is the conduct, not the amount.**
+- **Why it is on file:** `run.py`'s footer says Layer-4 governance items are **not** in the numbers, and the
+  KDH dossier carried the An Lap concern only as a **hypothetical**. This is the same family, **documented
+  by a state inspection**, on the **second-largest position (20.3%)**.
+- **Confidence held at 0.55**, with the case for cutting stated: KDH's inputs come from KDH's disclosures
+  and a regulator found those wanting. **Against (prevailing):** time-barred, pre-dates every model figure,
+  no penalty — and the scalar cannot encode a governance opinion. **Escalated, not applied.**
+- **No link drawn** to the TCB/TCBS Masterise-registrar finding. Thematically adjacent, mechanically
+  unrelated.
+
+### ⚠ 03-Aug 02:53 — HPG's missing interest line is now SIZED: 24–36% of the model's central metric
+
+**Record debt ₫98,530bn at 30-Jun-2026, +9% in six months**, mostly short-term working-capital borrowing.
+**Q1/2026 financial costs roughly doubled to ~₫1,868bn; interest expense >₫1,333bn — ~₫15bn/day.**
+
+| branch | core NPAT/tonne | interest (₫0.444m/t) as % |
+|---|--:|--:|
+| bear | ₫1.25m | **35.5%** |
+| base | ₫1.60m | **27.8%** |
+| bull | ₫1.85m | **24.0%** |
+
+Annualised: **₫5,332bn = 24.2% of the ₫22,000bn FY target.**
+
+- **This is NOT an arithmetic omission.** NPAT is struck after interest, so it sits inside the observed core
+  NPAT/tonne. **The defect is that no branch RESPONDS to it** — volume and spread vary, interest per tonne
+  is constant by construction, while debt rose 9% and financial costs doubled. **Worst in the bear branch.**
+- **Compounds with USD/VND at a record ₫25,338** *if* material USD debt — **currency mix not established**,
+  and it is one line off the balance sheet. **Next cheap check.**
+- **New OPEN-DECISIONS item 28.** Branch construction is human-only.
+
+**⚠ Figure rejected from the same source:** it also claimed H1 profit *"₫10,539bn, 67% of plan"*. **The
+file's ₫15,480bn is corroborated three ways** — 70.4% of the ₫22,000bn target, 9,056 + 6,424 = 15,480
+exactly, and +104% on H1/2025's ₫7,600bn matching the filed +103%. **₫10,539bn at 67% implies a ~₫15,730bn
+plan — 2025 vintage.** The revenue figure in the same summary (₫108,870bn, +47%) **is** correct for H1/2026.
+**Second bundled true-plus-stale summary in two hours.**
+
+**Undated lead, NOT a finding:** a report that **KDH was cited for violations in bond issuance and use of
+proceeds** — zero hits in the repo, no date established, and KDH's AGM described it as bond-debt free.
+**For the next sweep to date.**
+
+### 03-Aug 01:53 — Moody's separated our three banks in MAY and the file never knew
+
+**04-May-2026:** Vietnam's sovereign outlook **Stable → Positive**, Ba2 affirmed. **05-May-2026:** six banks
+raised to positive outlook — **Vietcombank, BIDV, Agribank, VietinBank, ACB and VPBank.**
+
+- **⚠ VPB is on the list. TCB and MBB are not.** The file has treated the three as a bloc on funding and
+  rating questions; a rating agency has separated them.
+- **Absence is NOT a verdict.** Whether TCB/MBB were assessed and left unchanged, rated by Moody's at all,
+  or outside the action's scope is **not established and not assumed** — the same discipline that held on
+  VPB's provisioning, where a strong three-name pattern would have predicted the wrong sign.
+- **Specific connection:** the upgrade is framed as an advantage in accessing **international capital
+  markets**, and **VPB has a live 624m-share foreign placement** (lane 3's "$250m placement"). **VPB carries
+  an armed criterion: *"placement prices badly — executed >15% below market."*** This is evidence bearing on
+  an armed criterion.
+- **Tension to keep visible:** VPB is **last on corrected E[r] (−13.9% raw)** *and* the only one of our
+  banks with a positive outlook *and* has the strongest operating line (**PPOP +44.6%**). All three at once.
+
+**⚠ Large trap disarmed:** an article had the VN-Index at *"a record high of 1,929 in early Friday trade"*.
+**Friday's close was 1,735.78, and the file's own `vnindex_q2_peak` is 1,927** — the "record" is the Q2 peak,
+the article is from early May. The index is **~10% below it, down four straight weeks.** Caught by a stored
+value, not a search. Also stale in the same piece: a UOB FX forecast treating Q1/2026 as future. The Fed
+line matched `fed_funds_target` exactly.
+
+**Confidence not moved — context, not a model input. July PMI and CPI still not out.**
+
+### 03-Aug 00:53 — KDH's share count is CORROBORATED; the proof was already in the file
+
+**KDH's insider disclosure — 0.056% → 1.838% on a 20,000,000-share purchase — implies 1,122,334,456 shares
+outstanding**, agreeing to **0.024%** with the 1,122,060,000 derived from charter capital on 2-Aug. It also
+**rejects** both rivals: 1,011.1m would give 1.978pp and 1,000.5m would give 1.999pp against a filed
+1.782pp. **The 2025 111m-share issue executed.**
+
+- **Discharges the 12:53 caveat** that the issue was *"a plan with a closed window, not a completion
+  notice."* **KDH's trigger-3 firing (+16.1% → +3.5%, 12.6pp) on 20.3% of the book now rests on a
+  corroborated count**, confirmed two independent ways.
+- **No search was needed** — the pair had sat in the date-gate table for days, read only as a signal about
+  insider conviction. **Third instance of a quantity recoverable from figures already held** (`pe_ttm ×
+  npat_ttm`, MBB's provisions, this).
+- **Nothing modelled**; the number it confirms is already the number in use.
+
+**Rest of the sweep empty and expected:** July PMI and CPI publish today, not yet out; June PMI 51.8 / May
+52.8 already on file and correct.
+
+### ⚠⚠ 02-Aug 20:53 — USER-DIRECTED: provisioning is flattering bank PBT. And the data refresh closes item 25.
+
+**PPOP = PBT + credit provisions. PPOP is the operating line; PBT is the headline.**
+
+| | PBT H1/26 | growth | provisions | change | **PPOP growth** | **provisioning share of growth** |
+|---|--:|--:|--:|--:|--:|--:|
+| **TCB** (35.0%) | ₫18,540bn | +22.5% | ₫1,587bn | **−24.6%** | **+16.7%** | **5.8pp of 22.5pp** |
+| **MBB** (6.5%) | ₫20,188bn | +27.1% | ₫7,701.9bn | **−0.9%** | **+17.9%** | **9.2pp of 27.1pp** |
+
+- **Both pipelines move the other way.** TCB: **Group 2 loans +46%, corporate bonds +80%.** MBB: **NPL
+  balance +27% vs loans +13.2%** — bad debt grew at twice the pace of the book while provisions stayed flat.
+- **Why the ratios hide it:** MBB's NPL *ratio* is 1.45% and coverage *rose* to 93.63%. **Loans are the
+  ratio's denominator**, so a 27% rise in bad debt is a 3bp move. Coverage rising while the balance rises
+  means **the reserve was topped up without a matching P&L charge** — recoveries/write-backs, not
+  repeatable revenue.
+- **Method validated:** MBB provisions derived as TOI − opex − PBT = **7,703** vs reported **7,701.9**
+  (0.01%). **Runs on any bank whose income statement is on file.**
+- **Sector, not held:** Vietcombank Q2 PBT **+57.9%** with provisions **−38%**.
+- **⚠ THE GAP: VPB (10.0%) grew PBT 68% and its provisioning line is NOT established.** Largest unexplained
+  jump in the book. **Not inferred from peers** — that is the 31-Jul lesson. One search settles it.
+
+**DATA REFRESH — `cap_now` now correct on all eight; OPEN-DECISIONS item 25 CLOSED.** `shares_outstanding`
+and `market_cap_bn` are explicit fields; `npat_ttm` from filed statements with the basis recorded per name;
+`pe_ttm` = market cap ÷ `npat_ttm`, so `cap_now` = shares × price exactly. TTM computable for **HPG, TCB,
+VPB, MBB (68.3%)**; FY2025 used for KDH/TCX/VCI; **VPX `npat_ttm` unchanged**, `pe_ttm` corrected.
+**`pe_ttm` is no longer cross-name comparable.**
+
+**⚠ Ranking reordered:** raw E[r] **MBB +36.6 · HPG +6.3 · TCB +4.0 · KDH +3.5 · VPX −0.0 · VCI −11.3 ·
+TCX −11.2 · VPB −13.9.** The former top two (VPX, TCX) are now fifth and seventh.
+
+**Confidence:** TCB 0.80→**0.70**, MBB 0.55→**0.50** (reported PBT is lower-quality by a quantified amount),
+HPG 0.70→**0.75**, KDH 0.50→**0.55** (filed actuals). **`fy26e_npat`, `exit_pe`, `probs` untouched** —
+**re-deriving the bank branches onto a PPOP basis is now the most valuable human task in the repo.**
+
+**⚠ Prices are the last weak link: still undated, presumed 24-Jul, demonstrated wrong for TCX by 4.85%.
+Item 2 is the only input left between this file and a trustworthy ranking.**
+
+**Recurring job created:** `trig_013ufGFB2857Btru5wJjZyHL` — weekly Mondays 08:00 ICT (01:00 UTC), fires
+into this session. Checks new filings, runs the PPOP/LLR analysis as a standing step, refreshes
+`npat_ttm`/shares/`pe_ttm`, runs the engine, checks triggers, commits.
+
+### 02-Aug 19:53 — "inflation accelerating" is WITHDRAWN; CPI peaked in MAY
+
+**The LEVEL finding stands. The DIRECTION claim is withdrawn.** The 31-Jul note argued acceleration from
+*"2M +2.94%, 4M +3.99%, 5M +4.31%, 6M +4.38%"* — **cumulative averages, not monthly rates.** An average
+rises whenever the newest month exceeds it, so **it cannot turn until the monthly rate is already below it.**
+
+| Jan | Feb | Mar | Apr | **May** | **Jun** |
+|--:|--:|--:|--:|--:|--:|
+| 2.53% | 3.35% | 4.65% | 5.46% | **5.60% peak** | **4.69% (−91bp)** |
+
+- **The file already held the disconfirming figure** — *"June alone was −0.39% m/m but +4.69% YoY"* sat one
+  sentence after the word "accelerating" and was never compared to it.
+- **Survives untouched:** June CPI at 4.69% is still **1.19pp above the 3.5%** in `risk.py`'s threshold, so
+  the "repo understates inflation" finding and that open item are unchanged.
+- **Weakens:** the chain *inflation accelerating → SBV room closing → tension with 1.7–3.2× system credit
+  growth and the 40% funding ratio*. **Not reversed — one month is not a trend.** The honest state is that
+  **the direction is unknown and the file was asserting one**, on 51.5% of the book in banks.
+- **Tomorrow's print is now a real test.** **Do not judge it by the cumulative average** — that will keep
+  rising for months either way.
+- **Trap disarmed:** a *"CPI tháng 7 +0.48%"* article is **not** July 2026. Four searches confirm the latest
+  GSO data covers six months; the fetch 403'd, so **the repo's own 03-Aug date gate was the sole line of
+  defence** — the first time that has been true.
+
+**Nothing modelled; no confidence moved.**
+
+### 02-Aug 18:53 — the TCB/TCX Masterise link is CURRENT, established from TCBS's own website
+
+**`tcbs.com.vn` publishes a bondholder record-date notice for bond IHP32602.** The 17:53 entry recorded
+TCBS-as-registrar as an inference *"explicitly NOT established"*; it is now **primary-source established
+for that lot** — ₫5,000bn, issued 30-Jun-2026.
+
+- **Scoped:** this covers **IHP32602 specifically**, **not** all ₫44,500bn of H1/2026 issuance. What it
+  changes is that **the structure is live, not a 2022–23 relic** — the gap the 17:53 period flag named.
+- **The issuer, Hưng Phát Invest Hà Nội**, has three lots totalling **₫16,950bn** with **accumulated losses
+  of ₫208bn** and coupons of **10.0–10.6%** against system deposit rates near 5–6%.
+- **⚠ Refinement to my own 17:53 statement.** I said 12–60 month terms mature "H1/2027 to H1/2031, so the
+  ₫44,500bn does not contribute to any 2026 maturity wall". **The 2026 part stands**, but it implied an even
+  spread: **₫12,650bn of ₫16,950bn — 75% — falls in H1/2027** (an 18-month lot from Oct-2025 maturing
+  ~Apr-2027, and a 12-month lot maturing Jun-2027). **A range is not a distribution.**
+- **⚠ Entity boundary problem in an armed criterion.** Hưng Phát Invest bets on **Grand Marina Saigon**
+  (Masterise) **and Cần Giờ** (Vingroup/Phạm Nhật Vượng) — the ₫9,300bn was raised to take transfer of part
+  of the latter. **"Masterise-related" is a loose label**, and TCB's kill criterion names *"a Masterise bond
+  event"* on a **35%** position. **Definitional, not data — criterion wording is human-only.**
+
+**Evidence status changed; no model input did.** No trigger claimed mechanically, no confidence moved.
+Layer 4.
+
+### 02-Aug 17:53 — the Masterise exposure runs through the BROKER too, not just the bank
+
+**⚠ Period flag first: this is STRUCTURE, not news.** The supporting article cites **2022** reports — a
+2022–23 era story. **Nothing has happened recently.**
+
+**Seven enterprises on the Sài Gòn Bình An project raised ₫32,905bn of bonds, and TCBS — which is TCX —
+was the DEPOSITARY for all of them.**
+
+- TCB's kill criterion is *"developer/related-party NPL formation > 2.0%, **or a Masterise bond event**"*.
+  The file has treated that as **TCB-only, a bank lending question**. On this structure **a Masterise bond
+  event plausibly reaches TCX too** — fee income, reputation, distribution liability, possibly inventory.
+  **TCB 35% + TCX 5.5% = 40.5% of the book in one cluster.** Added as a **second independent ground** to
+  OPEN-DECISIONS item 7 (`corr_same_cluster` at 0.80).
+- **Disclosure gap, same period caveat:** of the seven, only SDI Corp had published payment and financial
+  reports; the rest published nothing, and Osaka Garden had settled lot OSGCB2122001 with the information
+  still absent from HNX. **Whether they report now is NOT established — that is the check.**
+- **Current and separate:** H1/2026 Masterise-linked issuance was **₫44,500bn across 6 enterprises / 8
+  lots**, 9–10%, 12–60 months, mostly collateralised, with **"a securities company"** as registrar —
+  **the source does NOT name it.** That it is TCBS is a **natural inference and explicitly NOT
+  established**; identifying it is **the highest-value cheap check now open on TCB**.
+- **Term arithmetic cuts against alarm:** 12–60 months from H1/2026 matures **H1/2027–H1/2031**, so the
+  ₫44,500bn contributes **nothing** to a 2026 maturity wall.
+- **New context:** VIS Rating puts **~₫60,000bn of RE bonds maturing in H2/2026 — nearly half of all
+  corporate maturities.** That is the environment a "Masterise bond event" would occur in.
+
+**Layer 4, nothing modelled, no confidence moved, no numeric driver changed.**
+
+### 02-Aug 16:53 — the causal chain behind HPG's August cut, and it is a DOUBLE hit
+
+**The EU's new steel mechanism, effective 01-JUL-2026, cut India's HRC quota to the EU by ~34%.** Indian
+material was redirected and **Vietnam is the LARGEST destination for Indian HRC in H1/2026.** Indian and
+Indonesian prices into Vietnam fell continuously; domestic producers cut to compete. **That is HPG's August
+cut, from the supply side.**
+
+- **⚠ The same EU measure hits HPG twice.** The file had HPG's own stated reasons — weak rainy-season
+  demand, **a reduced EU export quota for Vietnamese steel**, slower Brazilian buying. **The second edge is
+  that the same regime diverts Indian supply INTO Vietnam.** Coverage calls it a *"double storm"*: the EU
+  shrinks HPG's export outlet **and** enlarges its domestic competition.
+- **Price correspondence:** Indonesian HRC ~US$543/t vs ~US$576/t in early June — **−US$33/t in two
+  months; HPG cut US$34/t.** HPG's US$535 volume price is **below** the Indonesian quote.
+- **⚠ Measure trap flagged, question still OPEN:** "Vietnam is India's largest destination" is *Vietnam's
+  share of India's exports*; the de minimis test is *India's share of Vietnam's imports*. **Different
+  denominators — the 3% question is NOT answered.**
+- **Two "contradictory" stories are both true:** duties displaced Chinese **volume** (imports possibly
+  6m t 2025 → under 2m t 2026, consumption +25%); India and Indonesia replaced it at a lower **price**.
+  Origin mix improved, price level did not.
+- **Also logged: Decision 460/QĐ-BCT (21-Feb-2025)**, the provisional Chinese HRC duty 19.38–27.83%.
+
+**⚠ This materially strengthens OPEN-DECISIONS item 6** (`spot_persists` branch for HPG). The standing
+objection is that spot is a moment; **now there is a dated structural third-country cause with no expiry on
+file.** Branch creation and weighting are human-only — nothing added.
+
+**Nothing modelled, no confidence moved, no numeric driver changed.**
+
+### 02-Aug 15:53 — the MoIT back-sweep ran once and explained yesterday's puzzle: the open channel is INDIA
+
+**Decision 1959/QĐ-BCT (04-Jul-2025) did two things in one document.** It imposed the **official Chinese
+HRC anti-dumping duty of up to 27.83% for FIVE YEARS** (to ~04-Jul-2030 unless replaced/extended/revoked —
+long-dated support not previously on file) **and TERMINATED the investigation into Indian HRC.**
+
+- **⚠ The India termination was NOT a finding of no dumping.** It was terminated because Indian imports were
+  **under 3% of total import volume** — the **de minimis negligibility** threshold. A **volume** test over a
+  **dated** window (case AD20, initiated July 2024).
+- **So the open import channel is India's.** Chinese HRC: 27.83% for five years plus the wide-format route
+  closed 17-Apr-2026. **Indian HRC: nothing.** The file logged *"Indian landed at US$535"* on 26-Jul as
+  spread bear-evidence and **never knew Indian HRC is duty-free.** **That is the mechanism behind "closed a
+  channel, did not hold the price."**
+- **Forward item, with its uncertainty stated:** the termination rests on a volume threshold. **IF** Indian
+  volumes have risen above 3%, the ground erodes and a fresh petition becomes possible — **HPG is a proven
+  petitioner, twice.** **Whether they now exceed 3% is NOT established and NOT assumed.** Cheap check:
+  Indian HRC's share of Vietnamese HRC imports in 2026. Added to the gate table.
+- **Also found:** **Decision 2310/QĐ-BCT (14-Aug-2025)** — official AD on **galvanised steel from China and
+  South Korea**; peers **HSG/NKG** sit in that product. And **612's investigation was initiated 27-Oct-2025**.
+- **Trap disarmed by logic, not by vote:** one source says the wide band is 1,800–2,300mm, two say
+  1,880–2,300mm. The underlying duty covers **below 1,880mm**, so 1,800 would overlap by 80mm — incoherent.
+  **1,880 is right.**
+
+**Nothing modelled, no confidence moved, no numeric driver changed.** The back-sweep justified itself on its
+first run, as the SBV/MoF one did.
+
+### 02-Aug 14:53 — HPG: a live trade case, in force since April, absent from this repo
+
+**Decision 612/QĐ-BCT** — MoIT, issued 02-Apr-2026, **effective 17-Apr-2026**: a **temporary 27.83%
+anti-circumvention duty** on Chinese HRC of width **1,880–2,300mm**, 24 HS codes, excluding carbon >0.30%
+and plate ≥10mm. **HPG and Formosa are the PETITIONERS**, not bystanders.
+
+- Vietnam already taxed Chinese HRC **below** 1,880mm at 23.01–27.83%; exporters shifted to wide format.
+  Wide HRC imports ran **~650,000t in H1/2025, ~15× YoY** — **that figure is a year old; the current
+  run-rate is not established.**
+- **It is TEMPORARY, so a FINAL determination is pending and this file cannot date it.** An unlogged dated
+  catalyst on a 16.8% position, and the **second** live trade case on HPG alongside the US rebar ITC vote
+  due mid-to-late September.
+- **⚠ It has NOT held the price.** Three months after it took effect, domestic HRC was still falling with
+  import competition *increasing* (13-Jul), and HPG then cut its August offer ~US$34/t, Formosa ~US$40/t.
+  **The measure closed a channel; it did not support the price. Do NOT read it as bear-evidence-cancelled.**
+- **Nothing modelled, confidence not moved** — the bridge's HRC input is HPG's own offer, which prices this
+  measure in by construction, and HPG's unresolved `cap_now` defect would make any confidence move
+  uninterpretable.
+- **New gate row: a monthly MoIT / trade-defence back-sweep, which has never been run.** `_regulatory` held
+  thirteen instruments and **zero from MoIT** — the 31-Jul lesson named MoIT for HPG and no sweep queried
+  it, because the back-sweep that exists runs on a **banking-finance** digest that cannot return a
+  trade-defence decision.
+
+Steel *prices* were already current (the ₫900/kg August HRC cut, rebar +₫100/kg from 27-Jul at ₫15,120/kg,
+domestic HRC ₫14,000–14,350). **Only the regulation was missing.**
+
+### ⚠⚠⚠ 02-Aug 13:53 — AUDIT COMPLETE, ALL EIGHT. SIX FIRE. THE RANKING REORDERS. START HERE.
+
+| ticker | wt | implied shares | actual | err | mu_raw engine → corrected | delta |
+|---|--:|--:|--:|--:|---|--:|
+| **TCB** | 35.0% | 7,065.3m | 7,086.2m | −0.3% | +1.9% → +1.6% | −0.3pp |
+| **KDH** | 20.3% | 1,000.5m | 1,122.1m | −10.8% | +16.1% → +3.5% | **−12.6pp ⚠** |
+| HPG | 16.8% | 7,800.3m | 8,443.0m | −7.6% | +15.1% → +6.4% | −8.8pp |
+| **VPB** | 10.0% | 6,739.4m | 7,933.9m | −15.1% | +1.4% → **−13.9%** | **−15.3pp ⚠** |
+| **MBB** | 6.5% | 9,495.0m | 8,055.0m | **+17.9%** | +16.0% → **+36.7%** | **+20.7pp ⚠** |
+| **TCX** | 5.5% | 2,000.4m | 2,773.9m | −27.9% | +23.1% → **−11.2%** | **−34.3pp ⚠** |
+| **VCI** | 3.1% | 922.9m | 1,152.2m | −19.9% | +10.7% → **−11.3%** | **−22.0pp ⚠** |
+| **VPX** | 2.8% | 1,473.7m | 1,875.0m | −21.4% | +27.2% → **−0.0%** | **−27.2pp ⚠** |
+
+**Only TCB is right. Only HPG is wrong-but-below-threshold. Six of eight fire, at 48.2% of the book.**
+
+**⚠ THE RANKING REORDERS** — engine VPX / TCX / KDH / MBB / HPG / VCI / TCB / VPB → corrected
+**MBB +36.7 / HPG +6.4 / KDH +3.5 / TCB +1.6 / VPX −0.0 / TCX −11.2 / VCI −11.3 / VPB −13.9**.
+**The engine's top two become fifth and sixth; MBB goes fourth to first; four names turn negative.**
+
+- **MBB goes the OTHER way.** Its 15% dividend has **NOT executed — record date 12-AUG-2026** (with the
+  805.5m rights offer). So `cap_now` is too **HIGH** and correcting it **RAISES** MBB's return. **This
+  SUPPORTS the MBB add and destroys the TCX add.** It also settles item 19's puzzle: **16.0% × 0.55 = the
+  recorded +8.8% exactly**; corrected **+20.2%**. **The branch re-derivation is still needed.**
+- **VCI:** both actions executed (bonus record date 27-Mar-2026; ESOP results Jun-2026) → 1,152.24m.
+- **VPX verified to the dong:** 1,875m × ₫25,400 = the stated **₫47,625bn**. It was the engine's #1.
+- **Robustness:** share counts firm on all eight; directions robust because every gap but TCB's and HPG's is
+  10.8–27.9% against ~5% price uncertainty. **HPG is the one name where price error could matter — and the
+  only sub-threshold one.**
+
+**Nothing retuned. No confidence moved on any name.** **⚠ NO WEIGHT SHOULD MOVE ON THE CURRENT RANKING —
+nor toward the corrected one**, which rests on prices already known stale.
+
+**Sequence for a human: (1) refresh eight dated prices [item 2] → (2) settle `pe_ttm`/`npat_ttm` per name
+[item 25] → (3) THEN re-rank.**
+
+### ⚠⚠ 02-Aug 12:53 — `cap_now` AUDIT COMPLETE (7 of 8). THREE NAMES FIRE. START HERE.
+
+| ticker | wt | `cap_now` err | delta | status |
+|---|--:|--:|--:|---|
+| **TCB** | 35.0% | −0.3% | −0.3pp | **correct** |
+| **KDH** | 20.3% | −10.8% | **−12.6pp** | **⚠ TRIGGER 3** (likely reading) |
+| HPG | 16.8% | −7.6% | −8.8pp | material, below threshold |
+| **VPB** | 10.0% | −15.1% | **−15.3pp** | **⚠ TRIGGER 3** |
+| MBB | 6.5% | +17.9%? | +20.7pp? | direction **not** established |
+| **TCX** | 5.5% | −27.9% | **−34.3pp** | **⚠ TRIGGER 3** |
+| VCI | 3.1% | −19.9%? | −22.0pp? | direction **not** established |
+| **VPX** | 2.8% | — | — | **NOT CHECKED — not claimed clean** |
+
+**Three fire, 35.8% of the book. With HPG, names with a measured error are 52.6%. TCB (35%) is clean.**
+
+- **KDH** (new this hour): confirmed floor **1,011.1m** shares — already above the implied 1,000.5m — and
+  likely **1,122.1m** after the 111m 2025 issue (101m dividend + 9.96m ESOP, Q3–Q4 2025 window), which
+  matches an independently reported 1.12bn outstanding. **Fires on the likely reading; recorded as NOT
+  established beyond doubt — one completion notice settles it.** A source typo was in the way: ₫9,904bn is
+  a transposition of **₫9,094bn** (9,094 + 1,017 = 10,111 exactly).
+- **VPB**: 26% issuance is ~2.07bn shares to ₫100,000bn, **first tranche in implementation May 2026**. The
+  implied 6,739.4m = charter **₫67,394bn, a ~2022 figure** — stale on any reading.
+- **MBB / VCI** turn on whether a corporate action executed and whether the price is adjusted. **Neither
+  assumed.** MBB's larger reading would explain item 19 exactly (16.0% × 0.55 = the recorded +8.8%;
+  corrected +20.2%) — **hypothesis only, not usable to argue the MBB add.**
+
+**The directions do NOT agree** — four understate market cap, MBB probably overstates, TCB is right — so
+**correcting them REORDERS the ranking rather than shifting it uniformly.**
+
+**Nothing retuned; no confidence moved on any name.** Confidence multiplies `mu_raw` and would disguise a
+denominator fault as a conviction change. **Fix is one read per name: current shares outstanding, or TTM
+NPAT off the filed statements. NO WEIGHT SHOULD MOVE ON THE CURRENT RANKING.**
+
+**Also corrected:** the 08:53 KDH foreign-gap figure was **~₫282bn** computed off `cap_now`; on the
+corrected cap it is **~₫323bn**. Conclusion unchanged. First demonstrated case of this fault propagating
+out of the engine into narrative.
+
+### ⚠⚠ 02-Aug 11:53 — THE `cap_now` DEFECT IS BOOK-WIDE. START HERE.
+
+Ran the cross-check the 10:53 section said had not been run. **`decide.py` line 67 sets
+`cap_now = pe_ttm × npat_ttm` for all eight names and divides every scenario by it.** Shares derived from
+charter capital at ₫10,000 par.
+
+| ticker | wt | `cap_now` err | mu_raw engine → true | delta | status |
+|---|--:|--:|---|--:|---|
+| **TCB** | 35.0% | **−0.3%** | +1.9% → +1.6% | −0.3pp | **correct** |
+| HPG | 16.8% | −7.6% | +15.1% → +6.4% | −8.8pp | material, no trigger |
+| **VPB** | 10.0% | −15.1% | +1.4% → **−13.9%** | **−15.3pp** | **⚠ TRIGGER 3** |
+| MBB | 6.5% | +17.9%? | +16.0% → +36.7%? | +20.7pp? | **direction NOT established** |
+| **TCX** | 5.5% | −27.9% | +23.1% → **−11.2%** | **−34.3pp** | **⚠ TRIGGER 3** |
+| VCI | 3.1% | −19.9%? | +10.7% → −11.3%? | −22.0pp? | **direction NOT established** |
+
+- **TCB is 35% of the book and is correct to 0.3%.** The largest position is unaffected. Say this first.
+- **VPB's is the clearest break:** implied 6,739.4m shares = charter **₫67,394bn, its ~2022 figure**, against
+  ₫79,339bn today. **Direction robust** — every 2026 action (26% dividend, 624m placement) only raises it.
+- **HPG's inputs predate the 767m-share issue that SETTLED in May 2026** (₫76,755bn → ₫84,430bn).
+- **MBB unresolved:** +17.9% off on the pre-dividend count, only +2.5% if the 15% executed. **If** the
+  larger reading holds it explains item 19 exactly — 16.0% × 0.55 = the recorded **+8.8%**; corrected
+  **+20.2%**. **Hypothesis only — do NOT use it to argue the MBB add until the ex-date is settled.**
+- **VCI unresolved:** −22.0pp if the ESOP+bonus completed, the other way if not.
+- **Not checked: KDH (20.3%), VPX (2.8%).**
+- **The errors do NOT share a direction**, so they do not cancel in the ranking.
+
+**Nothing retuned on any name** (§5 unresolved measure, §4 scope-lock). **Confidence deliberately not moved
+on any name** — it multiplies `mu_raw`, so moving four scalars would disguise a denominator fault as a
+conviction change. **Fix is one read per name: current shares outstanding, or TTM NPAT off the filed
+statements.** OPEN-DECISIONS item 25 widened.
+
+**No weight should move on the current ranking until `cap_now` is settled per name.**
+
+**Minor correction to the 10:53 section below:** it says `cap_now` is "38.7% below" TCX's true cap. It is
+**27.9% below**; the true cap is **38.7% above**. The mu_raw figures and the sign flip are unaffected.
+
+### ⚠⚠ 02-Aug 10:53 — READ THIS BEFORE THE 09:53 SECTION BELOW, WHICH IS PARTLY WITHDRAWN
+
+**The 09:53 P/B finding was wrong and was pushed before it was caught. It is fully withdrawn here.** I used
+TCX's **listing-date** share count. **TCX paid a 20% stock dividend (5:1) in Q2/2026** — 462.3m shares,
+charter capital ₫23,115.8bn → ₫27,739bn — so the count is **2,773,896,000**, confirmed three ways to 0.02%.
+
+- **`2.49x` P/B is exactly right and always was**: 41,100 × 2,773,896,000 / ₫45,782bn = **2.4902×**. The
+  original `valuation.TCX.evidence` string is **restored**.
+- **The kill criterion is not near.** Trigger price **₫33,010, not ₫39,616** — **24.5% away** at the file
+  price, **18.8%** at the verified 24-Jul price of ₫39,200. **Nothing was ever 3.8% away.**
+- **Unaffected, because it rests on filed equity rather than the share count:** filed equity ₫45,782bn and
+  the 1.13× ratio, the withdrawal of the 31-Jul 1.56×, headroom ₫40,064bn, HSC/KBSV/Phú Hưng past 190%,
+  the three-values finding, the margin-figure resolution, USD/VND, the VNDiamond waiting list.
+
+**⚠⚠ ESCALATION TRIGGER 3 — expected return moves >10pp. It moves 34.3pp, and this one is real.**
+
+**`decide.py` line 67: `cap_now = pe_ttm × npat_ttm`.** For TCX that is **20.3 × 4,050 = ₫82,215bn** against
+a true market cap of **₫114,007bn** at the file price (₫108,737bn at ₫39,200, corroborated by an
+independently reported ₫108,758.6bn). **`cap_now` is 38.7% too low, so every branch return is overstated.**
+
+| market cap used | mu_raw |
+|---|---:|
+| engine, `pe_ttm × npat_ttm` ₫82,215bn | **+23.1%** |
+| true, at file price ₫41,100 | **−11.2%** |
+| true, at verified 24-Jul ₫39,200 | **−6.9%** |
+
+**TCX is ranked FIRST and is a proposed ADD. On the corrected market cap its expected return is negative.**
+**Which input is wrong is not established** — `pe_ttm` should be 28.15, or `npat_ttm` ₫5,616bn, or both are
+pre-dividend — **so neither was changed** (§5 forbids retuning an unresolved measure; §4 scope-locks
+`decide.py`). **Confidence is the wrong instrument**: it multiplies `mu_raw`. **The fix is one read —
+TCBS's TTM NPAT off the filed statements.** New **OPEN-DECISIONS item 25**; item 24 withdrawn and replaced.
+
+**⚠ The same defect may exist on the other seven.** `cap_now` is `pe_ttm × npat_ttm` for every name and
+**the file holds no share count for any of them** — **no ticker's market cap has ever been cross-checked
+against shares × price.** That check has not been run.
+
+**Two smaller things.** The file's price is **wrong for the date it is presumed to hold** — TCX's verified
+24-Jul price is **₫39,200** vs ₫41,100 on file (**4.85% high**), which also kills yesterday's "trough"
+reading. And an **adjustment trap**: a 20% stock dividend cuts the quoted price ~16.7% on its ex-date, so
+₫46,800 at listing and ₫39,200 in July are **not on the same basis**.
+
+**A corporate action on a held name went unrecorded.** Lane 3 tracks stock dividends (TCB 60%, VPB 26%,
+MBB 15% + rights); **TCX's 20% was never on the list**, and it is the one fact that would have prevented
+all of this.
+
+### New escalations raised 02-Aug 09:53 — TCX, and it is the largest of the weekend
+
+**Trigger 4 fired on TCX: a derived estimate became a filed actual, and correcting it moved a KILL
+CRITERION from an apparent 24.5% away to 3.8% away with no price movement.**
+
+- **TCBS's filed end-Q2 equity is ₫45,782bn** (+3.8% YTD), reported margin/equity **1.13×**. The 31-Jul
+  entry derived **₫33,018bn** and **1.56×** — **39% low.** It flagged itself as an estimate and then wrote
+  its conclusions flat; **those conclusions are withdrawn.** Headroom is **₫40,064bn, not ~₫14,500bn**;
+  **56% of the cap drawn, not 78%.** The three brokers are a tight band — VCI 0.97×, VPX 1.116× *(period
+  mismatch: equity end-Q1, book end-Q2)*, TCX 1.125× — **not the 0.97–1.56 spread on file.** The
+  constrained brokers are **competitors**: HSC, KBSV, Phú Hưng are all past **190%** of the cap.
+- **Three values for one quantity coexisted in this repo:** `margin_equity_pct` **0.98**, the log's
+  **1.56×**, the filed **1.125×**. Two files, two days, no check looked for it.
+- **The valuation side cuts against TCX.** TCX has **2,311,308,021 shares** — never on file — so
+  `price × shares` = **₫94,995bn** vs `pe_ttm × npat_ttm` = **₫82,215bn**, **15.5% apart**. `pe_ttm` 20.3
+  or `npat_ttm` 4,050 is wrong. **And `valuation.TCX.evidence` calls the multiple THE risk at 2.49×, which
+  cannot be reproduced from any combination of file inputs and filed equity.** Reproducible P/B is
+  **2.075×**.
+- **⚠ `decide.py`'s TCX kill criterion is "P/B < 2.0x on unchanged earnings" — trigger price ₫39,616
+  against a file price of ₫41,100.** **NOT declared fired**: ₫41,100 is stale and already logged as a
+  **trough**, so the true distance may be larger. **The finding is that the distance was mismeasured by
+  ~6×**, and the input that settles it is **OPEN-DECISIONS item 2**, open since 29-Jul. **Refreshing TCX's
+  price is the cheapest high-stakes check in the book right now.**
+- **The criterion says "on unchanged earnings" and equity grew 3.8% YTD** — so the denominator rises and
+  pulls P/B toward the trigger **at a flat price**. Nothing in the repo tracked that drift.
+- Applied: `confidence` 0.80 → **0.75**, `evidence` restated. **`exit_pe`, `probs`, `fy26e_npat`
+  untouched — judgment, human-only.** New **OPEN-DECISIONS item 24**.
+
+**KDH / VNDiamond — partial answer, not a resolution.** The cadence is confirmed (cutoff at quarter end →
+announced the 20th → effective the first Monday after; Q2 was 31-Mar / 20-Apr / 04-May). **KDH was placed
+on the removal WAITING LIST at the Q2 review — watchlisted in May, not removed — and a waiting list
+executes at the next review, which takes effect TOMORROW.** **It does not establish that 20-Jul removed
+KDH**; four attempts at that announcement have failed. **The stated cause of the FOL fall is twelve months
+of foreign selling — the same mechanism as the Dragon Capital / VinaCapital finding, so those are one story
+and the file had them as two.**
+
+**Also new: USD/VND is at an all-time high** (central rate ₫25,338 on 1-Aug; commercial 26,060–26,110;
+free market 26,429–26,520 — consistent, with the ±5% band near its ceiling). **The HPG spread bridge has
+no FX line**, and a currency at its band ceiling constrains SBV easing room. **Nothing modelled.**
+
+**And the four circulating margin figures resolve** — 435 (margin only) → 445 (adds advances) → 446
+(80 of 85 firms) → **453.8 (full coverage, +7% QoQ, +49% YoY)**. The 29-Jul preference for the 445/435
+split was correct.
+
+## 5 · The engine tried to reward a bad print — read this before touching confidence
+
+When KDH's miss landed, applying the routine's own rule (estimate → actual raises confidence)
+pushed KDH's expected return **up** from +8.1% to +9.7% and moved it 5th → 4th.
+
+**Confidence multiplies `fy26e_npat`.** The rule assumes branches are re-derived at the same
+time; they cannot be, because that is human-only. So raising confidence alone amplifies branches
+the same print just contradicted.
+
+**Root cause: one field carries two meanings.** Confidence in the *trailing* data rose;
+confidence in the *forward branches* fell. A single scalar cannot move both ways — and when
+forced, it should not move in the direction that flatters. **Confidence was held at 0.50 and the
+whole thing escalated instead.** That is a deliberate deviation from the routine's instruction,
+recorded so a human can overrule it.
+
+**MBB, a day later, is the same defect pointing the other way — and it is the better test.** KDH's
+branches were contradicted from *above*, so holding confidence cost nothing; it was the convenient
+answer as well as the right one. MBB's are contradicted from *below*, so holding confidence
+**understates a genuinely good quarter** and leaves MBB ranked 4th on a +40% print. It was held
+anyway, because charter §2 forbids raising confidence on press *about* a filing, and that is the
+same rule that protected KDH. **A rule that only binds when it flatters you does not bind.**
+Both names need the same human fix, which is not a confidence number: **re-derive the branches.**
+
+## 6 · What this session got wrong, and what changed as a result
+
+Four self-corrections, three of them on the same day. They share one shape: **building on a
+qualitative phrase before getting the figure.**
+
+| What I claimed | What was true |
+|---|---|
+| KDH's ₫281.4bn is net profit — "three routes agree" | It is **revenue**. All three routes traced to the same ambiguous press phrasing; one of them meant the opposite of my reading. |
+| KDH's reported ₫770bn Q2 profit is "internally impossible" | Irreconcilable **on one measure basis** — total NPAT vs parent NPAT would reconcile it. Same failure, opposite sign. |
+| MBB was already showing the ACB provisioning pattern in Q1 | Provisions **+15.7%** against PBT **+14.8%** — in line, not disproportionate. Withdrawn *before* the print. |
+| The rebar case is resolved | **Commerce's part** is resolved. The **ITC injury vote (~mid-Sept)** decides whether orders issue at all. |
+
+**New standing lessons in `calibration-log.md`:** independence of confirming routes must be
+checked, not assumed; a near-match is not a match and a contradiction is not an impossibility;
+get the figure before building on the adjective; verify when evidence *contradicts* you, not only
+when it confirms you; any ticker-only headline gets an exchange check before a period check.
+
+## 7 · Live dates
+
+| Date | Item |
+|---|---|
+| **3 Aug** | TCX's VN30 entry is **effective** — but **the ETF rebalance COMPLETED 31-Jul**, the session before. **The flow has already happened**; an effective date is not a flow date. Sizing confirmed at ₫59–60bn = **0.073% of market cap**. **July CPI publishes the same day** |
+| ~21 Aug | KDH insider-buy window closes (Vice Chairman's son, 0.056% → 1.838%) |
+| **mid-to-late Sep** | **ITC final injury vote on rebar** — within 45 days of the 30-Jul Commerce finals. An "August" date circulating is a **stale pre-determination projection**. **The ITC has already voted affirmative on ALGERIA in the same petition.** Vietnam's margins (128.53–136.57%) are **2.4–4× Bulgaria's and Egypt's** |
+| 21 Sep | FTSE Secondary Emerging effective, **phased in tranches to Sep-2027** |
+| 30 Oct | Next Circular 96/2020 deadline — Q3 statements |
+| — | MBB stock dividend 15% and rights 10:1 at ₫10,000 — **both still pending, no record date announced.** The rights price is ~45% of market and dilutive to anyone not taking it up |
+
+## 8 · Structural facts a reader should not have to rediscover
+
+- **Vietnam CPI is 4.38%** (H1, accelerating), not the **3.5%** `risk.py` uses as its
+  real-return threshold. Every safety-first ratio against that line is too flattering.
+- **SBV is constrained on two sides**: FX (Fed held 3.50–3.75% with three *hike* dissents) and
+  inflation (CPI 4.38% against a band near 4.5%). Funding-cost relief is not coming from policy.
+- **Effective brokerage exposure is 19.5%**, not the 11.4% stated — TCB contains TCBS, VPB
+  contains VPBankS.
+- **Effective breadth is 1.70 of 8 holdings.** At that breadth no achievable forecasting skill
+  produces even a 0.25 information ratio. The binding constraint is concentration, not research.
+- **Portfolio beta to VN-Index is 1.81**, correlation 0.93. Most deviation from the market is
+  leverage, not selection.
+- **Four of eight holdings have a negative expected *compounded* return** once volatility drag is
+  applied — 68.4% of the book.
+- **MBB is one of the three largest lenders to KDH.** Two holdings, one linkage, not previously
+  on file.
+- **Bank outcomes did not travel across the sector this quarter.** ACB −12%, VIB −8%, MBB +40%
+  on PBT — same quarter, same rate environment. Peer read-across was tested prospectively here
+  and failed by ~52 percentage points.
+- **Foreigners have net sold ₫92,000bn YTD** (>62,000 to May, ~80,000 to June, 92,000 to July) and 2026
+  is on track to be the **fourth consecutive year** of net selling — a third independent ground against the
+  TCX FTSE event tree, though active outflow and passive inclusion inflow are **different pools and must
+  not be netted**.
+- **Interbank funding cost rose at every tenor through July** (overnight 2.43%→2.97%, 3-week 5.29%→5.88%)
+  **while deposit rates sat still** — and **Circular 25/2026 took effect in the same month**, relaxing a
+  ratio while the price moved against it. Loans outgrew deposits **2.2× at TCB** and **13.2% vs a shrinking
+  base at MBB**.
+- **All three HPG spread inputs are now pinned on the file's own benchmarks:** ore **$98.25**, coal
+  **$218.50**, HRC **$535–546.5**. The July move cost **−₫0.437m/t** — coal relief clawed back only 41% of
+  the price cut. Spot case **₫0.86–1.10m/t**, still below the ₫1.25m bear branch but the gap has narrowed
+  from ₫0.42m to ₫0.15–0.39m.
+- **"MBB" pulls at least three entities**: MB Bank (ours), MB Securities, and MBB SE (Xetra).
+  Poland's mBank too. Five false hits this session.
+
+## 9 · What is blocked, and on what
+
+**Five** fronts now, not three, all returning **proxy 403**: the TCB bond line (`OPEN-DECISIONS` 17b),
+the Federal Register rate tables, the HOSE / MB disclosure pages, **techcombank.com's own Q2
+press-release PDF**, and **HPG's statement note on other income** (which is what would settle item 13).
+**This is no longer only an access problem — see §4 escalation 5.** **The FiinQuant connector is unauthorised and cannot be authorised
+from a non-interactive session.** This is `OPEN-DECISIONS` item 17 and it is now binding on three
+fronts at once.
+
+`DEPTH-QUEUE.md` is **exhausted**, and an automated run may only edit status marks — not add or
+re-scope items. Every quiet sweep has reported this. It needs a person.
+
+---
+
+## The private dashboard is NOT in this repo, by design
+
+`research-hq-PRIVATE.html` (v7) contains position data and lives only in the session scratchpad.
+**This repository is public and it must stay out.** It was delivered to the owner directly. If a
+future session needs it, it must be rebuilt from `assumptions.json` plus the owner's position
+file — never committed here.
+
+*Maintained by hand at the owner's request. Not auto-generated, not read by any script.*

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banking Updates</title>
+<style>
+:root {
+    color-scheme: light;
+    --page:           #f9f9f7;
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;
+    --series-1-soft:  #9ec5f4;
+    --good:           #006300;
+    --critical:       #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page:           #0d0d0d;
+      --surface-1:      #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-1-soft:  #1c5cab;
+      --good:           #0ca30c;
+      --critical:       #d03b3b;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:           #0d0d0d;
+    --surface-1:      #1a1a19;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-1-soft:  #1c5cab;
+    --good:           #0ca30c;
+    --critical:       #d03b3b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 80px; }
+
+  /* ---------- header ---------- */
+  .kicker {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--series-1); margin: 32px 0 8px;
+  }
+  h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.01em; }
+  .dek { font-size: 18px; color: var(--text-secondary); margin: 0 0 10px; max-width: 62ch; }
+  .byline { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+  h2 { font-size: 24px; margin: 48px 0 8px; letter-spacing: -0.01em; }
+  h3 { font-size: 18px; margin: 28px 0 6px; }
+  p  { max-width: 70ch; }
+  a  { color: var(--series-1); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .rule { border: 0; border-top: 1px solid var(--grid); margin: 40px 0; }
+
+  /* ---------- stat tiles ---------- */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 28px 0; }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 18px;
+  }
+  .tile .label { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+  .tile .value { font-size: 30px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
+  .tile .note  { font-size: 12.5px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* ---------- figure / chart chrome ---------- */
+  figure.viz {
+    margin: 28px 0; background: var(--surface-1);
+    border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px 16px;
+  }
+  figure.viz .viz-title { font-size: 15px; font-weight: 700; margin: 0; }
+  figure.viz .viz-sub   { font-size: 12.5px; color: var(--text-muted); margin: 2px 0 16px; }
+  figcaption { font-size: 12px; color: var(--text-muted); margin-top: 12px; border-top: 1px solid var(--grid); padding-top: 8px; }
+
+  /* ---------- horizontal bar rows ---------- */
+  .barrow { display: grid; grid-template-columns: 128px 1fr 58px; align-items: center; gap: 10px; padding: 5px 0; border-radius: 6px; }
+  .barrow:hover { background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+  .barrow .name { font-size: 13px; color: var(--text-secondary); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barrow .track { position: relative; height: 18px; }
+  .barrow .track::before { content:""; position:absolute; left:0; top:0; bottom:0; width:1px; background: var(--baseline); }
+  .barrow .bar {
+    position: absolute; left: 1px; top: 2px; bottom: 2px;
+    background: var(--series-1); border-radius: 0 4px 4px 0;
+  }
+  .barrow .bar.soft { background: var(--series-1-soft); }
+  .barrow .val { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .axis-note { font-size: 11.5px; color: var(--text-muted); margin-top: 6px; padding-left: 138px; }
+  @media (max-width: 560px) {
+    .barrow { grid-template-columns: 92px 1fr 52px; }
+    .axis-note { padding-left: 102px; }
+  }
+
+  /* ---------- tables ---------- */
+  .tablewrap { overflow-x: auto; margin: 20px 0; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-1); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 720px; }
+  th {
+    text-align: left; font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--text-muted); font-weight: 600; padding: 12px 14px; border-bottom: 1px solid var(--grid);
+    background: color-mix(in srgb, var(--text-primary) 2.5%, var(--surface-1));
+  }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--grid); vertical-align: top; color: var(--text-secondary); }
+  td:first-child { color: var(--text-primary); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: 0; }
+  tr:hover td { background: color-mix(in srgb, var(--series-1) 5%, transparent); }
+  td.num { font-variant-numeric: tabular-nums; }
+  .up   { color: var(--good); font-weight: 600; }
+  .down { color: var(--critical); font-weight: 600; }
+
+  .pick { display:inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); }
+  .pick.buy  { color: var(--good); }
+  .pick.hold { color: var(--text-secondary); }
+
+  /* ---------- callouts ---------- */
+  .callout {
+    border-left: 3px solid var(--series-1); background: var(--surface-1);
+    border-radius: 0 10px 10px 0; padding: 14px 18px; margin: 24px 0; font-size: 15px;
+    border-top: 1px solid var(--border); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .disclaimer {
+    font-size: 12.5px; color: var(--text-muted); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 18px; margin-top: 40px; background: var(--surface-1);
+  }
+  ol.themes { padding-left: 20px; } ol.themes li { margin: 10px 0; max-width: 68ch; }
+  ul.srcs { padding-left: 20px; font-size: 14px; } ul.srcs li { margin: 6px 0; }
+
+  /* ---------- archive index ---------- */
+  .update-card {
+    display: block; background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 22px; margin: 14px 0; color: inherit;
+  }
+  .update-card:hover { border-color: var(--series-1); text-decoration: none; }
+  .update-card .date { font-size: 12px; color: var(--text-muted); }
+  .update-card h3 { margin: 2px 0 4px; font-size: 19px; color: var(--text-primary); }
+  .update-card p { margin: 0; font-size: 14px; color: var(--text-secondary); }
+  .gen-note { font-size: 11.5px; color: var(--text-muted); margin-top: 24px; }
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="kicker">Investor Briefing · Banking · Vietnam</p><h1>Banking Updates</h1><p class="dek">Periodic investor updates on Vietnamese bank equities — compiled research metrics plus our own view, in one place.</p><a class="update-card" href="updates/2026-07-26-q2-scorecard/index.html"><span class="date">2026-07-26</span><h3>Vietnam Banks, Half-Time 2026: Grading the Forecasts Against the Actual Q2 Prints</h3><p>In December, ten research houses told us Vietnamese banks would grow profits 16–20% in 2026 on falling margins. The first-half numbers are now filed. We scored the forecasts — who was right, who was right for the wrong reason, and what the second half actually hinges on.</p></a><a class="update-card" href="updates/2026-07-22-vietnam-banks-2026/index.html"><span class="date">2026-07-22</span><h3>Vietnam Banks 2026: What Ten Research Houses Are Telling Us — and Which Tickers They Back</h3><p>We consolidated the 2026 banking-sector reports of MBS, SSI, Vietcap, VCBS, VNDirect, Yuanta, Mirae Asset, KBSV, ABS, FiinRatings and VIS Rating into one cumulative view: the metrics that matter, where the houses agree, and where the stock-picking opportunity sits.</p></a><p class="gen-note">2 update(s) · data as of 2026-07-26</p>
+</div>
+</body>
+</html>
