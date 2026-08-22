@@ -138,6 +138,64 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨 09:53 ICT SAT 22-AUG *(read from `date`)* · **TCX'S OWN FY26 PLAN CONTRADICTS THE FY25 ACTUAL THIS
+  FILE ESTABLISHED YESTERDAY — BY 10.2% ON THE BASE — AND BOTH NUMBERS ARE IN THE MODEL.** Plus MSCI's
+  June reasoning, which names the same variable that excluded MBB and TCB from FTSE. (lanes 3, 4, 6).
+
+  🚨🚨 **THE TCX ARITHMETIC DOES NOT CLOSE, AND I COULD NOT MAKE IT CLOSE.** *TCBS's FY2026 plan is stated
+  as* **revenue +26% to ₫13,227bn and PBT +18% to ₫7,535bn, "so với kết quả thực hiện năm 2025"** *— against
+  2025's ACTUAL result.* **The file holds both the ₫7,535bn plan (used as a model input, and as the
+  denominator of "H1 = 47.1% of plan") and FY25 actual PBT of ₫7,109bn. They are not compatible:**
+  | test | arithmetic | verdict |
+  |---|---|---|
+  | plan vs FY25 **actual** on file | 7,535 ÷ 7,109 = **+6.0%** | ✗ **not +18%** |
+  | base implied by **+18%** | 7,535 ÷ 1.18 = **₫6,385bn** | **₫724bn / 10.2% BELOW the 7,109 on file** |
+  | plan vs FY25 **plan** (5,742) | 7,535 ÷ 5,742 = **+31.2%** | ✗ |
+  | what +18% on 7,109 would give | 7,109 × 1.18 = **₫8,389bn** | ✗ **not 7,535** |
+  ⚠ ***Four readings tested, four rejected. I am NOT choosing one and NOT adjusting either figure.***
+  🎯 **THE LEADING CANDIDATE, STATED AS A HYPOTHESIS: the plan was set at TCBS's FIRST AGM against a
+  PRELIMINARY FY25 PBT of ≈₫6,385bn that was later audited UP to ₫7,109bn — in which case "+18%" was true
+  when written and is stale now.** *An audit revision of +₫724bn (+11.3%) is large but not impossible for a
+  securities firm carrying fair-valued assets.* **PRE-REGISTERED TEST: TCBS's FY2025 UNAUDITED versus
+  AUDITED pre-tax profit. If the unaudited figure is ≈6,385, the hypothesis holds and the plan's growth
+  rate is simply stale; if it is 7,109, something else is wrong and the ₫7,535bn plan needs re-sourcing.**
+  ⚠⚠ **WHY THIS MATTERS RATHER THAN BEING PEDANTRY: the file's own FY25 figure was corroborated (plan
+  5,742 → actual 7,109 = +23.8%, matching "TCBS vượt kế hoạch năm 2025"), it is the base of yesterday's
+  TTM chain (H2-25 4,066 + H1-26 3,549 = ₫7,615bn), and TCX is the priciest name in the book. A 10.2%
+  error in the base would propagate straight through the TTM correction filed yesterday.**
+  ⚠ *No field changed — `npat_ttm` and `pe_ttm` are §4 human-only, and this is a reason to look, not a
+  licence to write.*
+
+  ✅ **CONTEXT NOT IN DISPUTE, recorded so the tension is anchored:** *TCBS Q1/2026 revenue **₫2,783bn
+  (+37%)**, PBT **₫1,458bn**; ROE **15.4%**, ROA **7.8%**, CIR **14.8%**; charter capital heading above
+  **₫27,700bn** on a 5:1 stock dividend plus ESOP; still the largest securities firm by equity.*
+
+  🎯 **MSCI — THE JUNE NON-INCLUSION IS ALREADY ON FILE; ITS REASONING WAS NOT, AND THE REASONING IS THE
+  USEFUL PART.** *24-Jun-2026: Vietnam met **10 of 18 accessibility criteria, 8 unmet**. MSCI credited the
+  **global-broker trading model**, the **CCP**, the English-disclosure roadmap and FOL changes; the two
+  named blockers are **LIQUIDITY and FOREIGN OWNERSHIP LIMITS**. Post-FTSE, commentary puts MSCI EM at
+  **2028–2029** against an original 2030.*
+  🎯🎯 ***TWO THREADS OF THIS FILE JOIN HERE.*** *(a) The **global-broker model** MSCI credits is
+  **Circular 08/2026/TT-BTC** — the instrument this file found on 21-Aug and noted was absent from ninety
+  FTSE gate rows. **A second index provider citing it is independent confirmation that it was worth
+  finding.** (b) **FOREIGN OWNERSHIP LIMIT is a named MSCI blocker — and it is the same variable that kept
+  MBB and TCB out of FTSE All-Cap yesterday.*** ⇒ **The constraint binds at BOTH providers, at the market
+  level for MSCI and at the security level for FTSE.** ⚠ *Same variable, two different levels of
+  application — I am not claiming one causes the other.*
+
+  ✅ **CHECKED AND ALREADY ON FILE, so the coverage is dated rather than assumed:** *CAEX — 7 dossiers
+  received Feb-2026, five under consultation, ₫10,000bn minimum capital met, OKX Ventures and HashKey
+  Capital signed Apr-2026, licensing expected Q3 — **all on file, with the 5-licence cap analysis and its
+  caveats already written.** KRX/CCP — on file (live since 05-May-2025; the CCP at Q1/2027).*
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: nhipsongkinhdoanh.vn / stockbiz.vn / tcbs.com.vn (TCBS FY26 plan, Q1 result, capital raise);
+  vietstock.vn, viettimes.vn, vnexpress.net, cafef.vn, fili.vn (MSCI June review, 10-of-18, blockers);
+  mekongasean.vn, theleader.vn, coin68.com (CAEX — already on file).
+  **Portfolio impact: none priced — but the FY26 plan the model uses as TCX's pace denominator implies a
+  2025 base ₫724bn below the actual the file relies on, and the two cannot both be right.**
+
 - **🚨🚨🚨 07:53 ICT SAT 22-AUG *(read from `date`)* · **THE WEEK 17–21 AUG FOREIGN FLOW IS OUT AND IT
   CORRECTS THE FRAMING I USED ONE HOUR AGO: FOREIGNERS SOLD ₫2,660bn NET ON HOSE INTO THE FTSE WEEK. The
   net-buy day I led with was 1.5% of the week's selling.** Both gates fenced to today are addressed. (lanes
