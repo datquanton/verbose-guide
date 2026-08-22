@@ -138,6 +138,55 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨 22:53 ICT SAT 22-AUG *(read from `date`)* · **THE US DEBATE IS HOLD-VERSUS-HIKE, NOT CUT-VERSUS-HOLD,
+  AND THE FILE'S DATED HIKE-ODDS FIGURE OF 42% IS NOW ~25–32.5%. I AM DELIBERATELY NOT DRAWING THE VND
+  CONCLUSION, BECAUSE THIS FILE HAS ALREADY MEASURED THAT LINK AND FOUND IT BROKEN.** (lane 1).
+
+  ✅ **THE UPDATE TO A SERIES THE FILE ALREADY TRACKS.** *On file: September **hike** odds of **42%**, and a
+  **42.6pp** collapse observed 18–19 Aug.* **Now: ~25–30% on fed-funds futures and 32.5% on CME FedWatch.**
+  *Fed funds stand at **3.50–3.75%** after the 29-Jul hold with **three dissents FOR A HIKE** (on file).*
+
+  🎯 **THE DRIVERS, AND THE SECOND ONE IS THE PART THIS FILE DID NOT HAVE:**
+  | date | datum | status here |
+  |---|---|---|
+  | 07-Aug | payrolls **−23k** | on file (1 hit) |
+  | 07-Aug | ⚠ **103k of DOWNWARD REVISIONS alongside it** | 🚨 **ZERO prior hits** |
+  | mid-Aug | **below-consensus PPI** | new |
+  | 12-Aug | July CPI **+0.1% m/m, 3.4% y/y** | the 3.4% is on file |
+  | — | **JPMorgan cuts FY2026 HIKE expectations 42bp → 22bp** | 🚨 **ZERO prior hits** |
+  ⚠ ***NOTE THE DIRECTION OF EVERY ONE OF THOSE: they are cuts to a HIKE expectation, not additions to a
+  CUT expectation. Consensus has moved toward ZERO CUTS IN 2026 — the argument is whether the Fed hikes,
+  not whether it eases.*** *A reader who skims "September odds fell" will take exactly the wrong sign.*
+
+  🚨🚨 **AND HERE IS WHERE I STOP, ON THIS FILE'S OWN EVIDENCE.** *The tempting chain is: hike risk → dollar
+  → VND at a record ₫25,600 → the +1.346%/30-day administered pace → EM flows into the 21-Sep FTSE
+  tranche. **I am not writing that chain, because the file has already TESTED its first link and it
+  failed:*** **a 42.6pp collapse in September hike odds moved DXY by FOUR BASIS POINTS.**
+  🎯 ***A variable that can move 42.6pp and produce 4bp in the transmission channel cannot then be used to
+  explain a 1.346% currency move. Invoking it now would be right-for-the-wrong-reason by construction —
+  the file measured the link precisely so that this hour could not do that.***
+  ⚠ *So the odds update is recorded as **a level in a tracked series**, not as an explanation of anything
+  downstream. What still needs explaining — why the central rate is at a record — remains open.*
+
+  ✅ **ONE FORWARD-LOOKING ITEM THAT IS GENUINELY USEFUL FOR A CATALYST SIX DAYS OUT.** *Warsh has signposted
+  that his **28-Aug Jackson Hole keynote will lean to longer-term structural questions rather than
+  near-term guidance**, and has stressed that the Fed will act independently of what markets price.*
+  ⇒ **That LOWERS the prior that Jackson Hole repricing the September FOMC**, which matters because gate
+  row 43 already establishes the keynote lands ~21:00 ICT — after Vietnam's close — so **the first
+  reactable Vietnamese session is Mon 31-Aug**, and Trigger 5 was already computed as NOT firing on it.
+  ⚠ *A stated intention about a speech is weak evidence about its market effect; recorded as an
+  expectation-setter, not a forecast.*
+
+  ⚠ *No model input changed — no US rate enters `decide.py`. No §4 field written. `DECISION-BRIEF.md`
+  byte-identical.*
+
+  Sources: cnbc.com (July CPI +0.1% m/m, 3.4% y/y), oddsshopper.com and defirate.com (September odds),
+  sembr.live (fed-funds futures ~25–30%, CME 32.5%, JPMorgan 42bp → 22bp), kiplinger.com (post-CPI 42%),
+  polymarket.com, benzinga.com, seekingalpha.com (context).
+  **Portfolio impact: none priced — the US debate has moved further from cuts, but this file's own
+  measurement says the odds series does not transmit to the dollar, so it is logged as a level and NOT
+  used to explain the record VND rate.**
+
 - **🚨🚨 21:53 ICT SAT 22-AUG *(read from `date`)* · **THE FRAGILITY I DEFERRED ONE HOUR AGO IS FIXED, AND
   I DEMONSTRATED THE OLD FAILURE RATHER THAN ASSERTING IT: ALL FIVE HARD-CODED ROWS WOULD HAVE REPOINTED,
   AND ONE OF THEM ONTO A BLANK LINE.** (tooling; no market lane).
