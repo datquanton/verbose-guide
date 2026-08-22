@@ -138,6 +138,46 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨 17:53 ICT SAT 22-AUG *(read from `date`)* · **NO MARKET FINDING THIS HOUR. I REPEATED A SEARCH THE
+  FILE HAD ALREADY CONCLUDED ON — FOR THE FIFTH TIME TODAY — AND A PRIOR SWEEP HAD ALREADY DIAGNOSED THIS
+  EXACT DEFECT AND BUILT NOTHING.** So I built the missing check. (lane 6).
+
+  ⚠ **THE RESEARCH RESULT IS NIL AND I AM RECORDING IT AS SUCH.** *I searched NLG — the closest listed
+  comparable to KDH, named in lane 6 and untouched today. **Everything came back already on file**: Q2
+  revenue −46% with parent NPAT ₫55.21bn, H1 revenue ₫1,695bn, presales ₫5,080bn (1.5×), inventory
+  ₫8,600bn, operating cash flow −₫1,100bn, gross margin 30.8% → 36.4%, FY26 revenue target ₫7,630bn (+35%).*
+
+  🚨🚨 **AND THE FILE ALREADY SAYS THIS, IN THESE WORDS, AT LINE 5584:**
+  > *"**I WENT LOOKING FOR AN NLG-vs-KDH COMPARISON AND THE FILE HAS IT IN FULL** … **Second time today I
+  > nearly re-reported a comparison the file had already made** … **Neither topic has a gate row — the gate
+  > table covers what has been SEARCHED, not what has been CONCLUDED.**"*
+  🎯 ***A previous sweep hit this wall, named the cause precisely, and no mechanism followed. Today it
+  happened five times: system margin debt (08:54), MBB's H1 and plan (11:53), the Fed/Jackson Hole row and
+  VPX's H1 (12:53), and NLG now. Every one was caught by grepping AFTER spending the search.***
+  ⚠ ***THE DEFECT IS ORDERING, NOT KNOWLEDGE. I already run the check — I just run it too late, when the
+  search budget is gone.***
+
+  ✅ **BUILT: `research/tools/coverage_check.py` — ask before searching, not after.**
+  *`gate_audit.py` tracks what is **FENCED**. `absence_audit.py` tracks what is **CONTRADICTED** or
+  **DEFERRED**. **Nothing tracked what is CONCLUDED**, which is the gap line 5584 named.* *Takes terms,
+  reports COVERED/ABSENT with line numbers and a GATE-vs-entry split, and gives a one-line verdict.*
+  🎯 **The design point is CHEAPNESS, not cleverness: "grep before you search" only gets followed if it is
+  one command.** *Tested on this hour's own terms — `Nam Long` COVERED, `5,080` COVERED, `415.14` ABSENT —
+  which is the correct answer and would have redirected this hour before it was spent.*
+  ⚠⚠ **LIMIT, STATED IN THE TOOL'S OWN OUTPUT SO A CLEAN RUN IS NOT MISREAD: it finds STRINGS, not
+  SUBJECTS, and only the strings you passed it. A miss is NOT evidence a topic is uncovered.** *That is the
+  same curation limit the other two tools carry, and curated has now beaten general four times in this
+  repo.*
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical. **This entry is a
+  PROCESS finding, not a market one** — recorded because the file's own precedent is that tooling built
+  mid-sweep gets committed, and because the alternative was a sixth silent repetition.*
+
+  Sources: nguoiquansat.vn, tinnhanhchungkhoan.vn, kinhdoanhnet.vn, elibook.vn (NLG Q2/H1 and FY26 plan —
+  **all already on file**, cited to show the search was run rather than to add anything).
+  **Portfolio impact: none. The deliverable is a check that should stop the next sweep spending its budget
+  re-deriving what is already written.**
+
 - **🚨🚨🚨 16:53 ICT SAT 22-AUG *(read from `date`)* · **I WENT TO SCORE THE NKG HALF OF A PAIRED FORECAST
   AND FOUND THE FILE HAD ALREADY DONE THE WHOLE JOB BETTER — AND THAT IT MISLABELS A PERIOD, WHICH MAKES MY
   OWN ENTRY FROM ONE HOUR AGO WRONG IN THE OPPOSITE DIRECTION.** Three corrections. (lanes 5, 6).
