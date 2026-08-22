@@ -138,6 +138,66 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 19:53 ICT SAT 22-AUG *(read from `date`)* · **"US$250m" IS THE PAR VALUE OF VPB'S PLACEMENT, NOT
+  THE MONEY RAISED — THE SAME SHARES ARE WORTH ~US$611m AT MARKET. AND I USED THE WRONG FIGURE THIS
+  MORNING WHEN THE RIGHT ONE WAS ALREADY IN THE FILE.** The hypothesis I refused to assert at 03:53 is now
+  supported. (lanes 3, 7).
+
+  🚨 **MY ERROR FIRST, AND IT IS THE SECOND INSTANCE OF THE SAME DEFECT TODAY.** *At 03:53 I sized the
+  placement from the routine's lane text — **"US$250m" at ₫25,600 ⇒ ₫6,400bn ⇒ ≈255.5m new shares"** — and
+  built the whole foreign-room calculation on it.* **The file already held the actual plan: `624.3` returns
+  TEN hits including a GATE row, `6,243` fifteen, `106,243` seven.**
+  ⚠ ***THE PLAN IS 624.3 MILLION SHARES. I COMPUTED WITH 255.5 MILLION — 2.44× TOO FEW.*** *Same defect as
+  the HSG estimate-versus-actual at 16:53: **I computed against the first figure to hand instead of looking
+  for the better one already on file.** Twice in one day, and the coverage check I built at 17:53 is
+  precisely what caught it this time.*
+
+  ✅✅ **AND THE TWO FIGURES ARE NOT IN CONFLICT — ONE IS PAR AND ONE IS MARKET. THE ARITHMETIC CLOSES:**
+  | quantity | value | derivation |
+  |---|---|---|
+  | placement, **par** | **₫6,243bn** | 624.3m × ₫10,000 par |
+  | that in dollars | **US$243.9m** | 6,243 ÷ 25.6 ⇒ **this is the "US$250m"** |
+  | implied market price | **≈₫25,050/share** | cap ₫198,418bn ÷ 7.921bn shares |
+  | placement, **at market** | **≈₫15,639bn ≈ US$611m** | 624.3m × ₫25,050 |
+  🎯 ***SO "US$250m" IS THE CHARTER-CAPITAL INCREMENT AT PAR. THE CASH RAISED AT ANYTHING NEAR MARKET IS
+  ~2.5× THAT.*** ✅ **And the chain closes on a figure the file already carried without a derivation:
+  ₫79,339bn × 1.2604 (the 26.04% bonus) ≈ ₫100,000bn, plus ₫6,243bn = ₫106,243bn — exactly the charter
+  capital on file.** *A number that had been sitting there unexplained now has its two components.*
+
+  🎯🎯 **AND THIS SUPPORTS THE HYPOTHESIS I EXPLICITLY REFUSED TO ASSERT AT 03:53.** *I wrote then:* **"VPB
+  is ALSO a Decree-69 bank, so the 49% path applies to it too, and that may be precisely why a US$250m
+  foreign placement is contemplated at all. ⚠ NOT ESTABLISHED."** *Today's coverage carries the headline*
+  **"tỷ lệ sở hữu vốn ngoại có thể lên 34%"** *— foreign ownership could reach 34%.*
+  ⚠⚠ **I CANNOT REPRODUCE 34% AND I AM NOT ADOPTING IT.** *My own build gives:*
+  - *placement before the bonus:* 2.5943 ÷ 8.5453 = **30.36%**
+  - *placement after the bonus (pro-rata, so ratios hold):* 3.1073 ÷ 10.6073 = **29.29%**
+  *To reach 34% needs ~505m more foreign shares than either path produces.* ⇒ ***RECORDED AS AN
+  UNRECONCILED GAP, not averaged and not chosen.***
+  ✅ ***WHAT IS ROBUST TO THAT GAP IS THE CONCLUSION: every reading — 29.3%, 30.4%, 34% — sits AT OR ABOVE
+  the standard 30% ceiling. A placement of this size to foreign investors is not possible under a 30% cap,
+  so an elevated cap is presupposed, and Decree 69/2025/NĐ-CP is the instrument that provides one for
+  exactly this bank.*** *The 03:53 reading has gone from "the obvious thing to test" to "required by the
+  arithmetic of the announced plan".* ⚠ *Still NOT a confirmation that VPB has applied for or received a
+  cap increase — that document is not on file.*
+
+  ⚠ **AND THE STRATEGIC HOLDER CHANGES HOW "FOREIGN ROOM" SHOULD BE READ, WHICH THIS FILE HAD THE PARTS FOR
+  BUT NEVER ASSEMBLED.** *Independent corroboration of this morning's 24.87%: the file separately holds
+  **SMBC 15% (~1.2bn shares) + ~10% other ≈ 25%**, built shareholder-by-shareholder. **Two genuinely
+  independent routes — an aggregate foreign-ownership figure and a bottom-up decomposition — agreeing to
+  ~0.13pp.*** *(Unlike last hour's Viettel triple, these do NOT share an identity.)*
+  🎯 **Consequence: of VPB's ~24.87% foreign ownership, THREE-FIFTHS is one strategic holder that is not a
+  seller. The "tradeable" foreign float is ~9.9pp, not ~24.9pp** — and a placement to NEW foreign investors
+  **dilutes SMBC from ~15.15% to ~14.68%** unless it participates. ⚠ **Whether SMBC participates, consents,
+  or is itself the buyer is NOT ESTABLISHED and materially changes the reading.**
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: vietnam.vn, cafef.vn, vietnambiz.vn, etime.danviet.vn (624.3m-share private placement, ₫6,243bn,
+  charter to >₫106,243bn, Q3–Q4 2026 subject to SBV and SSC approval, "foreign ownership could reach 34%");
+  vneconomy.vn, thoibaotaichinhvietnam.vn, vpbank.com.vn (SMBC's 15% strategic stake — already on file).
+  **Portfolio impact: VPB's placement is 2.44× the share count I used this morning, its cash value is ~2.5×
+  the headline, and its size requires a foreign cap above 30% — which only Decree 69 provides.**
+
 - **🚨🚨🚨 18:53 ICT SAT 22-AUG *(read from `date`)* · **"VIETTEL" RETURNS ZERO HITS IN 23,186 LINES — MBB'S
   ANCHOR SHAREHOLDER IS ABSENT FROM A FILE WITH A DEDICATED OWNERSHIP LANE AND MBB AS ITS LARGEST E[r].**
   And it is taking up ~₫1,200bn of the rights issue, which implies a stake of **14.90%** three ways over.
