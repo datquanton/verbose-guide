@@ -138,6 +138,68 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 13:53 ICT SAT 22-AUG *(read from `date`)* · **THE COKING-COAL LEG OF THE HPG BRIDGE IS PINNED
+  ~US$13/t TOO HIGH, AND FOUR INDEPENDENT DATA POINTS FALL ON ONE MONOTONE PATH THAT US$228 IS NOT ON.**
+  The spread is ~17% of FY NPAT, so this is worth **+16% to +21%** on the standing reading. §4 — escalated,
+  not written. (lanes 5, 3).
+
+  ⚠ **WHY THIS LEG AND WHY NOW: it is the one blade of the three I had NOT refreshed today.** *Ore and HRC
+  were checked at 03:53 and 07:53. Coal had not been touched since the file's **14-Aug** pair, and
+  `assumptions.json` pins the basis explicitly:* **`_coking_coal_price_basis` = "US$228 FOB Australia index
+  (pinned 2026-08-06)"**. *That is a STATED basis, which is what makes today's figures comparable at all.*
+
+  🎯🎯 **THE PATH, FROM FOUR SEPARATE STATEMENTS, EACH WITH ITS OWN ARITHMETIC:**
+  | date | level | how it is derived | check |
+  |---|---|---|---|
+  | **30-Jun** | **US$244.1** | 217 ÷ 0.889 *(31-Jul stated −11.1% on 30-Jun)* | — |
+  | **June avg** | **US$243.4** | 231 ÷ 0.949 *(Jul avg 231, stated −5.1% on June)* | ✅ **0.28% from 244.1** |
+  | **10-Jul** | **US$238.8** | 214.9 ÷ 0.90 *(07-Aug stated −10% on 10-Jul)* | ✅ **0.05% from the file's own "238.9 on 10-Jul"** |
+  | **31-Jul** | **US$217** | stated | — |
+  | **07-Aug** | **US$214.9** | stated | — |
+  ✅✅ ***244 → 238.8 → 217 → 214.9 IS SMOOTH AND MONOTONE. US$228 SITS NOWHERE ON IT — and 228 is dated
+  ONE DAY BEFORE the 214.9, on the SAME stated basis, 6.1% higher.***
+  🎯 **TWO INDEPENDENT CORROBORATIONS FELL OUT OF THIS FOR FREE:** *(a) the June level is confirmed twice by
+  routes that share no input — a spot bridge and a monthly average — agreeing to **0.28%**; (b) the file's
+  own "238.9 on 10-Jul", which it had never been able to verify, is confirmed to **0.05%** by an entirely
+  separate statement.*
+
+  🎯🎯 **AND I THINK I CAN SAY HOW 228 GOT IN, THOUGH NOT PROVE IT.** *Today's summary also carries* **"the
+  FOB Australian index is now priced at $228/mt, week-on-week −7.7%"**. *A −7.7% week ending at 228 implies
+  a prior week of* **US$247** *— a level last seen around end-June.* ⇒ ***THE 228 IS PROBABLY A GENUINE
+  INDEX VALUE FROM AN EARLIER WEEK THAT WAS READ AS CURRENT AND PINNED TO 06-AUG.*** ⚠ **STATED AS THE
+  LIKELY MECHANISM, NOT ESTABLISHED — I cannot date the 228 print, and the path 247 → 228 → 238.9 would not
+  be monotone either. What IS established is that 228 does not sit on the four-point path.**
+  ⚠ *This file already flagged the 228 note as non-reconciling — `_THE_COAL_NOTE_DOES_NOT_RECONCILE...`
+  records that "−24% MoM from 238.9" and "228" contradict each other. **Today supplies the missing half:
+  the decline from 238.9 is real but it is −10% to ≈215, not −24% and not to 228.***
+
+  🚨🚨 **THE SIZE OF IT, ON THE FILE'S OWN GEARING (₫0.14m per US$10/t coking coal):**
+  | reference | move to ≈US$215 | spread effect | standing ₫0.8632m/t becomes |
+  |---|---|---|---|
+  | **pinned basis 228** | **−US$13/t** | **+₫0.182m/t** | **≈₫1.045m/t — +21.1%** |
+  | standing reading 225 | −US$10/t | +₫0.140m/t | ≈₫1.003m/t — **+16.2%** |
+  ⚠⚠ ***DIRECTION: COAL DOWN IS SPREAD UP, SO THIS IS FAVOURABLE TO HPG — which is exactly why I am
+  double-checking it rather than banking it. The file has already withdrawn one coal conclusion this month
+  for getting the DIRECTION wrong (`_WITHDRAWN_THE_11_53_COAL_CONCLUSION...`, 06-Aug), and a pleasant
+  answer deserves more scrutiny than an unpleasant one.***
+
+  ⚠⚠ **§4 — NOTHING WRITTEN. EVERY ORE AND COAL FIELD IS HUMAN-ONLY.** *This is an escalation with the
+  arithmetic attached, not an edit. **A human should re-derive the coal leg against a dated FOB-Australia
+  assessment before the pinned 228 is used again** — the spread is ~17% of HPG FY NPAT and HPG is the
+  largest position in the book.*
+  ⚠ **AND THE BASIS RULE STILL BINDS: the file's own note that "DCE is not Fastmarkets — different market
+  entirely" stands. Everything above is FOB-Australia-to-FOB-Australia; no DCE figure was mixed in.**
+
+  ⚠ *No model input changed. `DECISION-BRIEF.md` byte-identical. Trigger 1 (kill criteria) remains NEGATIVE
+  — this moves the spread in the FAVOURABLE direction.*
+
+  Sources: indexbox.io (07-Aug US$214.9 FOB Australia, −10% on 10-Jul), focus-economics.com (July average
+  US$231, −5.1% m/m; 31-Jul US$217, −11.1% on 30-Jun), fastmarkets.com MB-COA-0003 (index definition),
+  discoveryalert.com.au, argusmedia.com (context).
+  **Portfolio impact: the coking-coal leg the model pins at US$228 is ~US$13/t above a four-point coherent
+  path, worth +16% to +21% on a spread that is roughly a sixth of HPG's full-year profit — favourable, and
+  human-only to correct.**
+
 - **🚨🚨🚨 10:53 ICT SAT 22-AUG *(read from `date`)* · **I RAN THE TEST I PRE-REGISTERED AN HOUR AGO AND IT
   REFUTED MY OWN HYPOTHESIS. THE RESOLUTION IS BETTER THAN THE HYPOTHESIS WAS: TCBS'S FY26 PLAN IS +6.0%
   PBT GROWTH, NOT +18%, AND IT EMBEDS AN H2 DECLINE.** (lanes 3, 6).

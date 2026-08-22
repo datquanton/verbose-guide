@@ -230,6 +230,19 @@ WATCH = [
 # be discharged by an automated run.
 DEADLINES = [
     (
+        datetime.date(2026, 8, 22),
+        "HPG coking-coal leg: the pinned US$228 REQUIRES HUMAN RE-DERIVATION",
+        "Section 4 human-only -- every ore and coal field is. "
+        "`_coking_coal_price_basis` pins 'US$228 FOB Australia index (pinned 2026-08-06)'. "
+        "Four independent statements found 22-Aug put the SAME basis on a monotone path "
+        "244.1 (30-Jun) -> 238.8 (10-Jul) -> 217 (31-Jul) -> 214.9 (07-Aug), and 228 sits "
+        "nowhere on it -- it is one day BEFORE the 214.9 and 6.1% higher. At the file's own "
+        "gearing of 0.14m VND per US$10/t, moving 228 -> ~215 is +0.182m/t, i.e. +21.1% on the "
+        "standing 0.8632m/t spread, which is ~17% of HPG FY NPAT. FAVOURABLE direction, which "
+        "is why it needs a human: this file withdrew a coal conclusion on 06-Aug for getting "
+        "the direction wrong.",
+    ),
+    (
         datetime.date(2026, 8, 10),
         "MBB item 38: fy26e_npat REQUIRES HUMAN RE-DERIVATION",
         "Section 4 human-only. Stored {bear 28,000, base 30,500, bull 33,000}. "
