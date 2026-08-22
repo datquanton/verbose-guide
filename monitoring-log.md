@@ -138,6 +138,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 10:53 ICT SAT 22-AUG *(read from `date`)* · **I RAN THE TEST I PRE-REGISTERED AN HOUR AGO AND IT
+  REFUTED MY OWN HYPOTHESIS. THE RESOLUTION IS BETTER THAN THE HYPOTHESIS WAS: TCBS'S FY26 PLAN IS +6.0%
+  PBT GROWTH, NOT +18%, AND IT EMBEDS AN H2 DECLINE.** (lanes 3, 6).
+
+  ❌ **THE HYPOTHESIS, KILLED BY ITS OWN TEST.** *At 09:53 I proposed that the ₫7,535bn plan was set against
+  a PRELIMINARY FY25 PBT of ≈₫6,385bn later audited UP to ₫7,109bn, and pre-registered the check: TCBS's
+  unaudited versus audited FY2025 pre-tax profit.* **TCBS's own Q4/2025 release, 14-Jan-2026 — the
+  PRELIMINARY announcement — already states ₫7,109bn, "đạt 123% kế hoạch năm", up ~50% on 2024.**
+  ⇒ ***THERE WAS NO ₫6,385bn. The 7,109 was on the table BEFORE the AGM that approved the FY26 plan.
+  Hypothesis refuted on the evidence I chose in advance.***
+
+  ✅✅ **SO WHICH HALF OF "+18% TO ₫7,535bn" IS WRONG? THE FILE ALREADY ANSWERS IT, TO TWO DECIMAL PLACES.**
+  *The ₫7,535bn is independently corroborated inside this file: H1-26 PBT ₫3,549bn ÷ 7,535 = **47.10%**,
+  and the file recorded "47.1% of plan" weeks ago from a separate source.* ⇒ **THE LEVEL IS CONFIRMED; THE
+  RATE IS THE UNCORROBORATED HALF. "+18%" IS WRONG.**
+  🎯 ***THE TRUE PLAN GROWTH IS 7,535 ÷ 7,109 − 1 = +6.0%.***
+  ⚠ ***AND THAT IS THE THIRD VALUE/LABEL MISMATCH FROM THIS SUMMARISER LAYER IN 24 HOURS*** — after
+  *"+33.38 điểm (+1.95%)"* and *"₫2.66tn on BOTH exchanges"*. **In all three the VALUE survived and the
+  LABEL failed. That is now a pattern with three instances, not an anecdote: when a level and a rate
+  disagree, test the level against something already on file and discard the rate.**
+
+  🚨🚨 **AND THE CORRECTED NUMBER IS THE FINDING, NOT THE CORRECTION. TCBS'S FY26 PLAN EMBEDS AN H2 DECLINE.**
+  | | figure | derivation |
+  |---|---|---|
+  | FY26 plan PBT | **₫7,535bn** | corroborated 47.10% ✓ |
+  | H1-26 actual PBT | **₫3,549bn** | on file, **+16.6%** on H1-25's 3,043 |
+  | **H2-26 IMPLIED BY PLAN** | **₫3,986bn** | 7,535 − 3,549 |
+  | H2-25 actual | **₫4,066bn** | on file (7,109 − 3,043) |
+  🎯 ***3,986 ÷ 4,066 = 0.980 ⇒ TO HIT PLAN EXACTLY, H2-2026 MUST COME IN 2.0% BELOW H2-2025.***
+  ⚠ **So the plan is not merely conservative — it asks for a year-on-year DECLINE in the second half while
+  the first half ran +16.6%. TCX is beating its plan comfortably, and the plan is the weak part.**
+  🎯 **THE CONTRAST WITH VCI IS THE PORTFOLIO POINT: both are brokers in this book, and at the half VCI has
+  done 29% of a plan requiring +41% growth (H2 needs 2.45× the H1 run-rate), while TCX has done 47.1% of a
+  plan requiring +6.0% (H2 may FALL 2%). Same sector, opposite pace-versus-plan.** ⚠ *Plans are set by
+  management and differ in ambition; this compares each name to ITS OWN plan, not to the other's.*
+
+  ✅ **AND THE FILE'S OWN DERIVED FY25 PLAN IS CONFIRMED, WHICH IT HAD NEVER BEEN.** *TCBS says FY25 landed
+  at **123% of plan** ⇒ implied plan ₫7,109 ÷ 1.23 = **₫5,780bn**. **The file DERIVED ₫5,742bn** — 0.66%
+  apart, and 7,109 ÷ 5,742 = **123.8%**, which is exactly what rounds to the stated 123%.* ⇒ **A derived
+  figure that has sat in `assumptions.json` unverified is now corroborated by the issuer's own percentage.**
+
+  ✅ **NEW DECOMPOSITION, NOT PREVIOUSLY ON FILE:** *Q4/2025 PBT **₫2,041bn** (+~120% yoy) ⇒ with H2-25 =
+  ₫4,066bn, **Q3-2025 PBT = 4,066 − 2,041 = ₫2,025bn** — the two halves of H2-25 are almost identical, so
+  H2-25's strength was not a single quarter.* *Also: Q4/25 HOSE brokerage share **9.0%**; margin plus sale
+  advances **~₫44,000bn** at end-2025 (≈US$1.72bn at ₫25,600 — consistent with TCBS appearing on the
+  end-Q2/26 list of five lenders above US$1bn).*
+
+  ⚠ *No §4 field written. `pe_ttm` and `npat_ttm` for TCX remain as stored and remain escalated from
+  yesterday (20.05 → ≈18.72 with `npat_ttm` 5,687 → ≈6,092, or neither). `DECISION-BRIEF.md`
+  byte-identical.*
+
+  Sources: tcbs.com.vn (Q4-2025 results release PDF, 14-Jan-2026), vneconomy.vn, vietstock.vn, cafef.vn,
+  mekongasean.vn, nhipsongkinhdoanh.vn, vietnamfinance.vn, nhadautu.vn (FY2025 ₫7,109bn, 123% of plan,
+  Q4 ₫2,041bn, 9.0% HOSE share, ₫44,000bn margin+advances).
+  **Portfolio impact: TCX's FY26 plan asks for +6.0% and an H2 that falls 2% year-on-year, while H1 ran
+  +16.6% — the "+18% plan" headline overstated management's own ambition by three times.**
+
 - **🚨🚨 09:53 ICT SAT 22-AUG *(read from `date`)* · **TCX'S OWN FY26 PLAN CONTRADICTS THE FY25 ACTUAL THIS
   FILE ESTABLISHED YESTERDAY — BY 10.2% ON THE BASE — AND BOTH NUMBERS ARE IN THE MODEL.** Plus MSCI's
   June reasoning, which names the same variable that excluded MBB and TCB from FTSE. (lanes 3, 4, 6).
