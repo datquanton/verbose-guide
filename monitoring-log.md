@@ -138,6 +138,63 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨🚨 16:53 ICT SAT 22-AUG *(read from `date`)* · **I WENT TO SCORE THE NKG HALF OF A PAIRED FORECAST
+  AND FOUND THE FILE HAD ALREADY DONE THE WHOLE JOB BETTER — AND THAT IT MISLABELS A PERIOD, WHICH MAKES MY
+  OWN ENTRY FROM ONE HOUR AGO WRONG IN THE OPPOSITE DIRECTION.** Three corrections. (lanes 5, 6).
+
+  🚨 **CORRECTION 1 — TO THE FILE. ₫568bn IS HSG'S FISCAL NINE-MONTH FIGURE, NOT "H1".** *Line 14212 reads*
+  **"H1 NPAT ₫568bn (−12%) on a high base."** *HSG's own release is unambiguous:* **"lũy kế 09 tháng NĐTC
+  2025-2026 (01/10/2025 – 30/6/2026), lợi nhuận sau thuế hợp nhất ước đạt 568 tỷ đồng"** *— a NINE-MONTH
+  cumulative, and the company adds that it is **114% of the full-year plan**.*
+  ⚠ ***The label fails on BOTH conventions: HSG's fiscal H1 is Oct–Mar, and calendar H1 is Jan–Jun. Neither
+  is Oct–Jun.*** *The likely cause is the entry labelling HSG's Apr–Jun quarter "Q2" to align it with HPG's
+  calendar quarters — a sensible choice for comparing the two — and then carrying the calendar label onto a
+  cumulative that the company reports on its FISCAL calendar.* **Correcting by new entry, per this file's
+  convention that prose is superseded by prose.**
+
+  🚨 **CORRECTION 2 — TO MYSELF, AND IT MAKES MY OWN SCORING TOO GENEROUS TO ME.** *At 15:53 I scored the
+  broker's Q3 revenue forecast of **₫10,295bn** against **~₫10,000bn** and called it **−2.9%**. **The file
+  already held the better number: ₫10,267bn (+5.2%), from the financial statement, versus the ~₫10,000bn I
+  used, which is the company's ROUNDED ESTIMATE release.***
+  🎯 ***ON THE FS FIGURE THE FORECAST WAS OUT BY 0.27%, NOT 2.9% — a bullseye, not a near miss.*** *I
+  scored a forecast against an estimate when the actual was already in the file, which is the same defect
+  as using a stale field: I did not look for a better number before computing with the one I had.*
+
+  ✅ **AND THE CORRECTED FIGURE STRENGTHENS THE 15:53 CONCLUSION RATHER THAN WEAKENING IT.** *A forecaster
+  who calls quarterly revenue to **0.27%** and is still only **68.4%** of the way to their full-year profit
+  number with a quarter left is not missing VOLUME — they are missing **MARGIN**.* ⇒ **The "FY ₫830bn looks
+  ~a third too low" reading stands, and now has a mechanism.**
+
+  🚨 **CORRECTION 3 — TO MY PLAN FOR THIS HOUR. THE NKG FORECAST IS NOT SCOREABLE YET, AND SAYING SO IS THE
+  FINDING.** *The file holds* **"NKG flat on exports −30%"** *and* **"EU/UK quotas from 30-Jun-2026 squeeze
+  Vietnamese coated exporters (−25% export volume, NKG −30%)"**. *NKG's H1 actuals look like a refutation —*
+  **H1 NPAT ₫124.1bn, +98.1%; Q2 NPAT ₫102.6bn from a small loss; gross margin 7.1% → 10.5%** *— but:*
+  ⚠⚠ ***THE QUOTAS TAKE EFFECT 30-JUN-2026, THE LAST DAY OF THE PERIOD. H1 RESULTS CANNOT TEST A REGIME
+  THAT BEGAN AS THEY ENDED.*** **What H1 establishes is the PRE-QUOTA BASELINE, and it is far stronger than
+  "flat". THE TEST IS Q3, reporting late October.** *Scoring it now would have been right-for-the-wrong-
+  reason in the making — the direction would have looked correct and the causal period would have been
+  wrong.*
+
+  ✅ **WHAT IS GENUINELY NEW: NKG'S PLAN-VERSUS-PACE SPLIT, AND IT SPLITS THE OPPOSITE WAY ON THE TWO LINES.**
+  | NKG FY2026 plan | at the half | pace |
+  |---|---|---|
+  | **PBT ₫400bn** *(+66.7% on 2025)* | **₫188.1bn** | ✅ **47% — on track** |
+  | **revenue ₫22,000bn** *(+47.7%)* | **₫7,411.6bn** | 🚨 **33.7% — H2 would need 1.97× H1** |
+  | volume 1.1m t *(+41%)* | not disclosed at H1 | — |
+  🎯 ***PROFIT ON PLAN, REVENUE MILES BEHIND ⇒ THE PROFIT IS COMING FROM MARGIN, NOT VOLUME — which is
+  exactly what the gross-margin move says (7.1% → 10.5%, +3.40pp) and exactly what the export squeeze
+  predicts for the TOP line.*** ⚠ **So the export thesis may be working on revenue while the profit line
+  masks it. That is a sharper hypothesis than "flat or not flat", and Q3 tests it.**
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: tinnhanhchungkhoan.vn, vietstock.vn, vatlieuxaydung.org.vn, mekongasean.vn (NKG Q2/H1 and the
+  FY2026 plan: revenue ₫22,000bn, PBT ₫400bn, volume 1.1m t); hoasengroup.vn (HSG fiscal 9M release, the
+  wording that settles correction 1).
+  **Portfolio impact: none priced — the HSG forecast is a third too low for a margin reason rather than a
+  volume one, NKG's profit is on plan while its revenue is not, and the export-squeeze thesis cannot be
+  scored until Q3 because the quotas began on the last day of H1.**
+
 - **🚨🚨 15:53 ICT SAT 22-AUG *(read from `date`)* · **A BROKER FORECAST SITTING IN THIS FILE SINCE JULY IS
   NOW SCOREABLE AGAINST ACTUALS, AND IT LOOKS TOO LOW BY ABOUT A THIRD.** Plus the first like-for-like
   per-tonne read on HPG against its closest listed downstream peer. (lanes 5, 6).
