@@ -39,8 +39,35 @@ import sys
 
 LOG = "monitoring-log.md"
 GATE_SCAN_LINES = 140  # the gate table lives at the top of the file
-LEGACY_THREE_PIPE_ROWS = {62, 86}
 EXPECTED_PIPES = 4
+
+# --- anchors, not line numbers ---------------------------------------------
+#
+# This tool used to hard-code row numbers: LEGACY_THREE_PIPE_ROWS = {62, 86}
+# and a WATCH list keyed to rows 25, 33 and 53. Found 22-Aug-2026, by declining
+# to insert a new gate row: INSERTING OR DELETING ANY ROW SILENTLY REPOINTS ALL
+# OF THEM. The pipe check would flag two innocent rows as malformed and stop
+# flagging the two real legacy ones; value-drift would read the wrong rows and
+# report "no drift" on quantities it was no longer watching. A checker failing
+# SILENTLY and reading as coverage -- the defect this tool exists to catch.
+#
+# So rows are now identified by a distinctive substring of their own text, and
+# resolution FAILS LOUDLY: an anchor matching zero rows, or more than one, is
+# reported as a broken anchor rather than quietly skipped. The resolved line
+# numbers are printed so a reader can see what each check actually bound to.
+LEGACY_THREE_PIPE_ANCHORS = (
+    "Commerce finals done 28-Jul",      # US rebar row
+    "RESOLVED 03-Aug 11:53: 52.9",      # July PMI row
+)
+
+
+def resolve_anchor(lines, anchor):
+    """Line numbers of gate rows containing anchor. Caller checks for != 1."""
+    return [
+        idx
+        for idx, line in enumerate(lines[:GATE_SCAN_LINES], start=1)
+        if line.startswith("|") and anchor in line
+    ]
 
 MONTHS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -97,12 +124,20 @@ def audit(as_of):
     lines = io.open(LOG, encoding="utf-8").read().split("\n")
     overdue, broken, iso_overdue = [], [], []
 
+    legacy = set()
+    for anchor in LEGACY_THREE_PIPE_ANCHORS:
+        found = resolve_anchor(lines, anchor)
+        if len(found) == 1:
+            legacy.add(found[0])
+        else:
+            broken.append((0, f"ANCHOR {anchor!r} matched {len(found)} rows, expected 1"))
+
     for idx, line in enumerate(lines[:GATE_SCAN_LINES], start=1):
         if not line.startswith("|"):
             continue
 
         pipes = line.count("|")
-        if pipes != EXPECTED_PIPES and idx not in LEGACY_THREE_PIPE_ROWS:
+        if pipes != EXPECTED_PIPES and idx not in legacy:
             broken.append((idx, pipes))
 
         cells = line.split("|")
@@ -146,7 +181,10 @@ def main():
     if broken:
         print(f"\nBROKEN PIPE COUNT ({len(broken)}) -- the table is silently malformed:")
         for idx, pipes in broken:
-            print(f"  line {idx}: {pipes} pipes, expected {EXPECTED_PIPES}")
+            if idx == 0:
+                print(f"  BROKEN ANCHOR: {pipes}")
+            else:
+                print(f"  line {idx}: {pipes} pipes, expected {EXPECTED_PIPES}")
     else:
         print("\npipe counts: clean (excluding the two known legacy rows)")
 
@@ -211,10 +249,16 @@ def main():
 # MBB drift. A check that silently watches the wrong quantity is worse than
 # no check, because it reads as coverage.
 
+# (label, ROW ANCHOR, regex) -- the anchor is a distinctive substring of the
+# row's own text. It replaced hard-coded line numbers 33, 53 and 25 on
+# 22-Aug-2026; see the note at the top of this file for why.
 WATCH = [
-    ("China HRC export, SS400 3mm FOB Tianjin", 33, r"US\$(\d{3})/t FOB"),
-    ("HPG domestic rebar, CB240 / D10 CB300", 53, r"₫\*?\*?(1[45],\d{3})/kg"),
-    ("HPG HRC volume offer, CFR HCMC", 25, r"\*\*(\d{3}) CFR HCMC\*\*"),
+    ("China HRC export, SS400 3mm FOB Tianjin",
+     "CHINA HRC EXPORT PRICE (Mysteel weekly)", r"US\$(\d{3})/t FOB"),
+    ("HPG domestic rebar, CB240 / D10 CB300",
+     "HPG DOMESTIC CONSTRUCTION-STEEL PRICE (CB240 / D10 CB300)", r"₫\*?\*?(1[45],\d{3})/kg"),
+    ("HPG HRC volume offer, CFR HCMC",
+     "HPG's August HRC cut", r"\*\*(\d{3}) CFR HCMC\*\*"),
 ]
 
 
@@ -284,9 +328,14 @@ def value_drift():
     # staleness was already known. Entries are newest-first BELOW the table.
     entries = "\n".join(lines[GATE_SCAN_LINES:])
     out = []
-    for label, line_no, pattern in WATCH:
-        if line_no > len(lines):
+    for label, anchor, pattern in WATCH:
+        found = resolve_anchor(lines, anchor)
+        if len(found) != 1:
+            # Loud, not silent: an anchor that stops resolving means the row was
+            # renamed or removed, and the quantity is no longer being watched.
+            out.append((label, 0, f"ANCHOR {anchor!r} matched {len(found)} rows", "-"))
             continue
+        line_no = found[0]
         # This file corrects by striking through rather than deleting, so a
         # ~~struck~~ value is history, not the row's current claim. Leaving it in
         # made this report flag row 33 as stale immediately after it was fixed.

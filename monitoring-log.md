@@ -138,6 +138,58 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨 21:53 ICT SAT 22-AUG *(read from `date`)* · **THE FRAGILITY I DEFERRED ONE HOUR AGO IS FIXED, AND
+  I DEMONSTRATED THE OLD FAILURE RATHER THAN ASSERTING IT: ALL FIVE HARD-CODED ROWS WOULD HAVE REPOINTED,
+  AND ONE OF THEM ONTO A BLANK LINE.** (tooling; no market lane).
+
+  ⚠ **AT 20:53 I WROTE THIS DOWN AS "A GAP FOUND AND LOGGED, NOT CHASED", saying a structural change to a
+  checker deserves a deliberate hour rather than the last minutes of a sweep. This is that hour** — a
+  Saturday night with Vietnamese markets closed since Friday and no news flow to displace.
+
+  ✅✅ **THE FIX: `gate_audit.py` NOW IDENTIFIES ROWS BY THEIR OWN TEXT, NOT BY LINE NUMBER.**
+  *Gone: `LEGACY_THREE_PIPE_ROWS = {62, 86}` and a `WATCH` list keyed to rows **25, 33, 53**. In their
+  place, distinctive substrings of each row, resolved at run time — and **resolution FAILS LOUDLY**: an
+  anchor matching zero rows, or more than one, is reported as a **BROKEN ANCHOR**, never quietly skipped.*
+  🎯 **That property is the whole point. The old code could not tell "watching the right row" from
+  "watching whatever is now at line 33", and neither can a reader of its output.**
+
+  🚨🚨 **THE DEMONSTRATION — I inserted ONE dummy row at line 20 in a scratch copy and re-ran both ways.**
+  ✅ **With anchors: unchanged and correct.** *"pipe counts: clean (excluding the two known legacy rows)",
+  and the ISO fence correctly tracked from line 87 to line **88**.*
+  ❌ **What the OLD hard-coded numbers would now have pointed at:**
+  | was watching | would now read |
+  |---|---|
+  | row **62** — US rebar *(legacy 3-pipe)* | the **KDH H1-statements** row — so an innocent row gets EXEMPTED from the pipe check and the real legacy row gets FLAGGED |
+  | row **86** — July **PMI** *(legacy 3-pipe)* | the July **CPI** row — same inversion |
+  | row **25** — HPG's August HRC cut | the **FTSE roster** row |
+  | row **33** — China HRC export price | the **coking-coal provenance** row |
+  | row **53** — HPG domestic rebar | 🚨 **AN EMPTY LINE** |
+  ⇒ ***ALL THREE value-drift quantities would have been watching the wrong rows, one of them nothing at
+  all, and the pipe check would have inverted its two exemptions — while printing exactly the same
+  reassuring "clean" and "no drift" lines it prints today.***
+  ⚠ **That is the third instance in this repo of the same disease: a checker whose silence reads as
+  coverage.** *(First: value-drift scanning the gate row itself, 20-Aug. Second: the ISO row shape never
+  audited at all, 05:54 today. Now: anchors.)* **The pattern is that every one was found by a HUMAN-STYLE
+  read of the tool's assumptions, never by the tool.**
+
+  ✅ **VERIFIED AFTER THE CHANGE, on the real file:** *`gate_audit.py` output byte-for-byte what it produced
+  before the refactor — pipes clean, no re-open dates passed, the one deliberate ISO flag on row 87, the
+  MBB item-38 obligation, no value drift. `absence_audit.py` and `coverage_check.py` both still run
+  clean.* **A refactor that changes behaviour is a bug; this one changes only what happens when the table
+  MOVES.**
+
+  ⚠ **WHAT THIS DOES NOT FIX, STATED SO THE FIX IS NOT OVER-READ:** *anchors are still CURATED strings. If
+  a row is REWORDED rather than moved, its anchor stops resolving — and the tool will say so loudly, which
+  is the improvement, but someone still has to re-anchor it. **Curated has beaten general four times in
+  this repo; this is the fifth, and the cost is the same each time: a human keeps the list.***
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical. No external source
+  consulted — Vietnamese markets have been closed since Friday's session.*
+
+  **Portfolio impact: none directly — but the three quantities this tool watches are the China HRC export
+  price, HPG's domestic rebar price and HPG's HRC offer, i.e. the live inputs to the largest position in
+  the book, and until this hour a single inserted row would have silently unwatched all three.**
+
 - **🚨🚨🚨 20:53 ICT SAT 22-AUG *(read from `date`)* · **I BUILT CALCULATIONS ON THE ROUTINE'S LANE TEXT
   TWICE TODAY AND WAS WRONG BOTH TIMES, SO I AUDITED EVERY NUMBER IN IT AGAINST THE FILE. SIX OF ELEVEN ARE
   SUPERSEDED.** (all lanes).
