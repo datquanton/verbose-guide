@@ -138,6 +138,65 @@ headlines is not work; the empty `research/dossiers/` directory is what that pro
 
 ## 2026-08-13
 
+- **🚨🚨 15:53 ICT SAT 22-AUG *(read from `date`)* · **A BROKER FORECAST SITTING IN THIS FILE SINCE JULY IS
+  NOW SCOREABLE AGAINST ACTUALS, AND IT LOOKS TOO LOW BY ABOUT A THIRD.** Plus the first like-for-like
+  per-tonne read on HPG against its closest listed downstream peer. (lanes 5, 6).
+  *(Container restarted this hour; repo verified intact — local `da17d2f` = remote, tree clean, 23,029
+  lines, both tools present. No recovery needed.)*
+
+  ✅ **WHAT THE FILE HELD (line 4699, a broker forecast, never tested):** *"**HSG: Q3/26 revenue ~₫10,295bn
+  (+8.3%); FY26 revenue ₫40,473bn (+8%), net profit ₫830bn (+33%)**."*
+  ✅✅ **WHAT HSG ACTUALLY REPORTED (estimate release, fiscal Q3 = Apr–Jun 2026):**
+  | | actual | vs the forecast on file |
+  |---|---|---|
+  | Q3 volume | **461,739 t** | — |
+  | Q3 revenue | **~₫10,000bn** | **−2.9%** vs ₫10,295bn ✅ close |
+  | Q3 NPAT | **₫382bn (+39% yoy)** | — |
+  | 9M volume | **1,319,545 t** *(75% of plan)* | — |
+  | 9M revenue | **₫27,358bn** *(78% of plan)* | — |
+  | **9M NPAT** | **₫568bn** | **68.4% of the ₫830bn FY forecast, with ONE QUARTER LEFT** |
+  🎯 ***TO LAND EXACTLY ON ₫830bn, Q4 MUST FALL TO ₫262bn — a 31% DROP FROM Q3's ₫382bn. On anything like a
+  flat quarter the FY forecast is beaten by roughly a third.***
+  🎯 **AND HSG'S OWN PLAN IS LOWER STILL: 9M NPAT is 114% of the FULL-YEAR plan ⇒ the plan is ≈₫498bn.** *So
+  the broker sat 67% above management's plan, and management has already beaten its own plan by 14% with a
+  quarter to run.* ⚠ *Same shape as TCX five hours ago: **the plan was the weak part, not the business.***
+
+  ⚠⚠ **THE PERIOD TRAP HERE IS REAL AND I CHECKED IT RATHER THAN ASSUMING.** *HSG's fiscal year runs
+  **01-Oct-2025 → 30-Sep-2026**, so "FY26" could mean the fiscal year or calendar 2026 and the comparison
+  only works on the first reading.* ✅ **THE CHECK: the forecast's "Q3/26 revenue ₫10,295bn" lands within
+  2.9% of the FISCAL Q3 (Apr–Jun) actual of ~₫10,000bn. A calendar reading would have put Q3 in Jul–Sep,
+  which is not yet reported at all.** ⇒ *the broker was on HSG's fiscal calendar, so the FY comparison
+  holds.* ⚠ *Inference from one matching quarter, stated as such.*
+
+  🎯🎯 **THE PER-TONNE READ, AND THE PERIODS GENUINELY ALIGN — HSG'S FISCAL Q3 IS HPG'S Q2, BOTH APR–JUN 2026:**
+  | | NPAT | volume | **NPAT per tonne** |
+  |---|---|---|---|
+  | **HSG** | ₫382bn | 461,739 t | **₫0.827m/t** |
+  | **HPG** | ₫6,400bn | 3.8m t | **₫1.684m/t** |
+  ⇒ ***HPG EARNS 2.04× HSG PER TONNE OF STEEL SOLD, ON THE SAME THREE MONTHS.***
+  ⚠⚠ **DO NOT SET THIS BESIDE THE BRIDGE'S ₫0.8632m/t SPREAD — they are different measures. The bridge
+  figure is a RAW-MATERIAL spread proxy; these are bottom-line profit per tonne. The numerical closeness of
+  0.827 and 0.8632 is a coincidence of units and means nothing.**
+  🎯 **WHY THE GAP IS THE INTERESTING PART: HSG is a HRC BUYER and HPG is the seller whose domestic HRC
+  share went ~29% → >43% on anti-dumping protection. HPG's gain is partly HSG's input cost — and HSG still
+  grew NPAT +39%.** ⚠ ***So the AD duties have NOT crushed the domestic downstream, which is a mild
+  positive for the durability of HPG's pricing rather than evidence against it.*** *Stated as a reading of
+  two data points, not a demonstration.*
+
+  ✅ **CHECKED AND ALREADY ON FILE, so coverage is dated not assumed:** *TCB Q2/H1 in full — H1 PBT
+  ₫18,500bn (+22.5%), Q2 record ₫9,670bn, NIM Q2 3.4% and TTM 3.6%, CASA 38.3%, NPL 1.15% with 125.5%
+  coverage, credit +11.6% YTD on quota and +14.3% including exempt lending. **All of it on file, including
+  the Q2 NIM of 3.4% that the TCB kill criterion is written against ("Q3 NIM < 3.25%").***
+
+  ⚠ *No model input changed. No §4 field written. `DECISION-BRIEF.md` byte-identical.*
+
+  Sources: hoasengroup.vn (HSG estimate release, fiscal Q3 and 9M NĐTC 2025-2026), cafef.vn, mekongasean.vn,
+  baophapluat.vn, doanhnghiepkinhtexanh.vn; techcombank.com 2Q26 press release and cafef.vn (TCB, already
+  on file); elibook.vn (HPG Q2 volume and NPAT, already on file).
+  **Portfolio impact: none priced — but a broker FY forecast for HPG's closest downstream peer looks ~a
+  third too low, and HPG out-earns that peer 2.04× per tonne on the same quarter while its own AD-driven
+  price gains have not stopped the downstream growing.**
+
 - **🚨🚨🚨 14:53 ICT SAT 22-AUG *(read from `date`)* · **I WENT LOOKING FOR A SECOND PROVIDER TO CONFIRM THE
   COAL FINDING AND FOUND EVIDENCE THAT PARTLY UNDERCUTS IT. THE HALF THAT SURVIVES IS THE HALF ABOUT 228;
   THE HALF ABOUT "≈215 NOW" DOES NOT.** Correcting my own 13:53 entry. (lane 5).
