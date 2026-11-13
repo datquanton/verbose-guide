@@ -1,53 +1,21 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vietnam Equity Research</title><meta name="description" content="Personal research notes on Vietnamese listed companies and sectors, built from financial statement data."><style>
-:root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e1da; --accent:#1f5f8b; --card:#ffffff; --warn:#fff6e0; --warnline:#e6c46b; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#141413; --fg:#ecebe6; --muted:#a3a29b; --line:#2f2e2b; --accent:#7fb6dd; --card:#1c1c1a; --warn:#2a2416; --warnline:#8a7334; } }
-:root[data-theme="dark"] { --bg:#141413; --fg:#ecebe6; --muted:#a3a29b; --line:#2f2e2b; --accent:#7fb6dd; --card:#1c1c1a; --warn:#2a2416; --warnline:#8a7334; }
-* { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-main { max-width:880px; margin:0 auto; padding:24px 16px 80px; }
-.lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
-h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; }
-.sub { color:var(--muted); margin:0 0 20px; }
-.disclaimer { background:var(--warn); border:1px solid var(--warnline); border-radius:8px; padding:12px 14px; font-size:.92rem; margin:0 0 28px; }
-a { color:var(--accent); }
-.card { display:block; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px 18px 16px; margin:0 0 16px; color:inherit; text-decoration:none; }
-.card:hover { border-color:var(--accent); }
-.meta { color:var(--muted); font-size:.85rem; margin:0 0 4px; }
-.card h2 { font-size:1.2rem; line-height:1.3; margin:0 0 8px; color:var(--accent); }
-.card p { margin:0 0 10px; }
-.tags span { display:inline-block; font-size:.78rem; border:1px solid var(--line); border-radius:999px; padding:1px 9px; margin:0 6px 6px 0; color:var(--muted); }
-footer { color:var(--muted); font-size:.85rem; margin-top:48px; border-top:1px solid var(--line); padding-top:16px; }
-
-.section { font-size:.8rem; font-weight:650; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:36px 0 12px; }
-.section a { color:inherit; text-decoration:none; } .section a:hover { color:var(--accent); }
-.card h3 { font-size:1.2rem; line-height:1.3; margin:0 0 8px; color:var(--accent); }
-.crumb { font-size:.9rem; margin:0 0 16px; color:var(--muted); } .crumb a { color:var(--accent); }
-.prose h1 { font-size:1.8rem; } .prose h2 { font-size:1.3rem; margin:2em 0 .5em; } .prose h3 { font-size:1.05rem; }
-.prose table { border-collapse:collapse; font-size:.88rem; width:100%; } .prose th, .prose td { border-bottom:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
-.prose .tw { overflow-x:auto; margin:12px 0 18px; } .prose hr { border:0; border-top:1px solid var(--line); margin:28px 0; }
-.prose code { font-size:.88em; } .prose blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line); color:var(--muted); }
-/* site sections */
-.section { font-size:.8rem; font-weight:650; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:36px 0 12px; }
-.section a { color:inherit; text-decoration:none; } .section a:hover { color:var(--accent); }
-.card h3 { font-size:1.2rem; line-height:1.3; margin:0 0 8px; color:var(--accent); }
-.crumb { font-size:.9rem; margin:0 0 16px; color:var(--muted); } .crumb a { color:var(--accent); }
-.prose h1 { font-size:1.8rem; } .prose h2 { font-size:1.3rem; margin:2em 0 .5em; } .prose h3 { font-size:1.05rem; }
-.prose table { border-collapse:collapse; font-size:.88rem; width:100%; } .prose th, .prose td { border-bottom:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
-.prose .tw { overflow-x:auto; margin:12px 0 18px; } .prose hr { border:0; border-top:1px solid var(--line); margin:28px 0; }
-.prose code { font-size:.88em; } .prose blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line); color:var(--muted); }
-</style></head>
-<body><main><p class="lang"><a href="../">Tiếng Việt</a></p>
-<h1>Vietnam Equity Research</h1>
-<p class="sub">Personal research notes on Vietnamese listed companies and sectors, built from financial statement data.</p>
-<div class="disclaimer"><strong>Personal research, not investment advice.</strong> Views are the author's own and may change without notice.</div>
-<h2 class="section">Sectors</h2>
+<title>Vietnam Equity Research</title><meta name="description" content="Personal research notes on Vietnamese listed companies and sectors, built from financial statement data.">
+<link rel="stylesheet" href="../assets/site.css"><script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script><script src="../assets/site.js" defer></script></head>
+<body><header class="topbar"><div class="inner"><a class="brand" href="../en/">Vietnam Equity Research</a><nav><a href="../en/#nganh">Sectors</a><a href="../en/#ngan-hang">Banks</a><a href="../en/#ket-qua-kinh-doanh">Earnings reviews</a></nav><span class="right"><a href="../" hreflang="vi">Tiếng Việt</a><button class="theme" type="button" aria-label="Switch light/dark theme" title="Switch light/dark theme"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true" style="vertical-align:-2px"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button></span></div></header>
+<main class="wrap">
+<h1>Vietnam Equity Research</h1><p class="intro">Personal research notes on Vietnamese listed companies and sectors, built from financial statement data.</p>
+<h2 class="section" id="nganh">Sectors</h2><div class="cards">
 <a class="card" href="../nganh/chung-khoan-q3-2026/"><p class="meta">Updated 2026-11-12</p><h3>Securities industry — 43 listed brokers (data to Q3 2026, in Vietnamese)</h3><p>All 43 listed securities companies: profit by quarter, income mix, brokerage and margin-loan market shares, margin yield and cost of funds, ROE and valuation.</p><div class="tags"><span>Securities</span><span>Sector</span><span>Vietnamese</span></div></a>
 <a class="card" href="../nganh/sector-pulse-q3-2026/en/"><p class="meta">Updated 2026-11-11</p><h3>Sector Pulse — Real Estate, Steel, Retail (data to Q3 2026)</h3><p>Residential earnings hit a record but sales have peaked as mortgage rates reach ~10.9%; steel is an HPG story; modern retail keeps taking share. Financial statements of 34 listed companies, 2019–Q3 2026.</p><div class="tags"><span>Real estate</span><span>Steel</span><span>Retail</span><span>Sector</span></div></a>
-<h2 class="section">Banks</h2>
+</div>
+<h2 class="section" id="ngan-hang">Banks</h2><div class="cards">
 <a class="card" href="../ngan-hang/updates/2026-07-26-q2-scorecard/"><p class="meta">Updated 2026-07-26</p><h3>Vietnam Banks, Half-Time 2026: Grading the Forecasts Against the Actual Q2 Prints</h3><p>In December, ten research houses told us Vietnamese banks would grow profits 16–20% in 2026 on falling margins. The first-half numbers are now filed. We scored the forecasts — who was right, who was right for the wrong reason, and what the second half actually hinges on.</p><div class="tags"><span>Banks</span></div></a>
 <a class="card" href="../ngan-hang/updates/2026-07-22-vietnam-banks-2026/"><p class="meta">Updated 2026-07-22</p><h3>Vietnam Banks 2026: What Ten Research Houses Are Telling Us — and Which Tickers They Back</h3><p>We consolidated the 2026 banking-sector reports of MBS, SSI, Vietcap, VCBS, VNDirect, Yuanta, Mirae Asset, KBSV, ABS, FiinRatings and VIS Rating into one cumulative view: the metrics that matter, where the houses agree, and where the stock-picking opportunity sits.</p><div class="tags"><span>Banks</span></div></a>
-<h2 class="section">Earnings reviews</h2>
+</div>
+<h2 class="section" id="ket-qua-kinh-doanh">Earnings reviews</h2><div class="cards">
 <a class="card" href="../ket-qua-kinh-doanh/vn30-2q26/"><p class="meta">Updated 2026-07-31</p><h3>VN30 — 2Q/2026 Consolidated Results Review</h3><p>The quarter was strong in aggregate and unusually narrow in composition. VN30 basket, consolidated results as of 31 July 2026; data in CSV.</p><div class="tags"><span>VN30</span><span>Earnings</span></div></a>
-<footer>5 reports · updated 2026-11-13</footer></main></body></html>
+</div>
+</main>
+<footer class="foot"><div class="inner"><p><a href="../en/">Vietnam Equity Research</a> · Personal research, not investment advice. Views are the author's own and may change without notice.</p><p>5 reports · updated 2026-11-12</p></div></footer>
+</body></html>
