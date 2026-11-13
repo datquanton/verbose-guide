@@ -6,10 +6,13 @@ Do not edit it here: it is generated in the owner's research vault (`Workshop/De
 | Path | What |
 |---|---|
 | `/` and `/en/` | Homepages (Vietnamese, English), one heading per section |
-| `/nganh/` | Industry reports |
-| `/ngan-hang/` | Banking briefings (`updates/<date-slug>/`) |
+| `/vi-mo/` | Macro |
+| `/nganh/` | Sector reports |
+| `/ngan-hang/` | Banks |
 | `/ket-qua-kinh-doanh/` | Earnings reviews |
 | `/assets/` | House stylesheet and script shared by every page |
 | other folders | Redirects only, for links shared before pages moved |
 
-Personal research, not investment advice. Updated 2026-11-12.
+Every report sits at `/<section>/<topic>-<period>/` (for example `/nganh/chung-khoan-3q26/`); a second language is a subfolder (`en/`).
+
+Personal research, not investment advice. Updated 2026-11-13.
