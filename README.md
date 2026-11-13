@@ -11,6 +11,7 @@ Do not edit it here: it is generated in the owner's research vault (`Workshop/De
 | `/ket-qua-kinh-doanh/` | Earnings reviews |
 | `/assets/` | House stylesheet and script shared by every page |
 | `/huong-dan/` | Guides |
+| `/danh-muc/` | Portfolio consultant (interactive tool; `en/` for English). **Hand-built on this branch, not generated**: register it with the site generator before the next `publish.sh`, or the copy-in may drop it and the homepage links to it. See `danh-muc/README.md` |
 | other folders | Redirects only, for links shared before pages moved |
 
 Every report sits at `/<section>/<topic>-<period>/` (for example `/nganh/chung-khoan-3q26/`); a second language is a subfolder (`en/`).
