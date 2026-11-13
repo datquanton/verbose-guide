@@ -7,9 +7,7 @@ Do not edit it here: it is generated in the owner's research vault (`Workshop/De
 |---|---|
 | `/` and `/en/` | Homepages (Vietnamese, English), one heading per section |
 | `/vi-mo/` | Macro |
-| `/nganh/` | Sector reports |
-| `/ngan-hang/` | Banks |
-| `/ket-qua-kinh-doanh/` | Earnings reviews |
+| `/nganh/` | Sector reports, banks included |
 | `/assets/` | House stylesheet and script shared by every page |
 | other folders | Redirects only, for links shared before pages moved |
 
