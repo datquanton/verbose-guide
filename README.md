@@ -9,6 +9,7 @@ Do not edit it here: it is generated in the owner's research vault (`Workshop/De
 | `/vi-mo/` | Macro |
 | `/nganh/` | Sector reports, banks included |
 | `/assets/` | House stylesheet and script shared by every page |
+| `/huong-dan/` | Guides |
 | other folders | Redirects only, for links shared before pages moved |
 
 Every report sits at `/<section>/<topic>-<period>/` (for example `/nganh/chung-khoan-3q26/`); a second language is a subfolder (`en/`).
