@@ -3,8 +3,8 @@
   'use strict';
   var doc = document, html = doc.documentElement;
   var LI = html.lang === 'en' ? 1 : 0, ROOT = html.getAttribute('data-root') || '../';
-  var T = window.PM_TEXT, R = window.PM_RESEARCH, M = window.PM_MARKET, E = window.PM_ENGINE;
-  var KEY = 'pm-desk-v1';
+  var T = window.PM_TEXT, R = window.PM_RESEARCH, M = window.PM_MARKET, E = window.PM_ENGINE, IN = window.PM_INTAKE;
+  var KEY = 'pm-desk-v1', HERE = LI ? '../' : '';   // folder holding the tool's own files
   E.init(M, R);
 
   /* ---------- helpers ---------- */
@@ -19,7 +19,7 @@
   function date(iso) { var p = iso.split('-'); return LI ? Number(p[2]) + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][p[1] - 1] + ' ' + p[0] : p[2] + '/' + p[1] + '/' + p[0]; }
   function $(id) { return doc.getElementById(id); }
   function secName(s) { return L(R.sectors[s].name); }
-  function srcLink(key) { var r = R.reports[key]; return '<a class="src" href="' + ROOT + r.url[LI] + '">' + esc(L(r.title)) + ', ' + date(r.date) + '</a>'; }
+  function srcLink(key) { if (key.indexOf('+') > 0) return key.split('+').map(srcLink).join(' · '); var r = R.reports[key]; return '<a class="src" href="' + ROOT + r.url[LI] + '">' + esc(L(r.title)) + ', ' + date(r.date) + '</a>'; }
   function uid() { return 'p' + Date.now().toString(36) + Math.floor(Math.random() * 1e4).toString(36); }
 
   /* ---------- state ---------- */
@@ -69,7 +69,7 @@
   function renderInput() {
     var s = state.settings, h = '';
     if (!state.positions.length) {   // first visit: the question comes first
-      $('pm-input').innerHTML = '<div id="editor"></div><p class="btns"><button type="button" class="btn" id="b-example">' + L(T.example) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button><input type="file" id="f-import" accept="application/json,.json" hidden></p>';
+      $('pm-input').innerHTML = '<div id="editor"></div><p class="btns"><button type="button" class="btn primary" id="b-shot">' + L(T.intake.shot) + '</button><button type="button" class="btn" id="b-paste">' + L(T.intake.paste) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button><input type="file" id="f-import" accept="application/json,.json" hidden><input type="file" id="f-shot" accept="image/*" hidden></p>';
       renderEditor(); return;
     }
     h += '<div class="grid3">' +
@@ -86,10 +86,12 @@
       });
       h += '</tbody></table></div>';
     }
-    h += '<p class="btns"><button type="button" class="btn primary" id="b-add">' + L(T.add) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button>' +
+    h += '<p class="btns"><button type="button" class="btn primary" id="b-add">' + L(T.add) + '</button><button type="button" class="btn" id="b-shot">' + L(T.intake.shot) + '</button><button type="button" class="btn" id="b-paste">' + L(T.intake.paste) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button>' +
       '<button type="button" class="btn" id="b-export">' + L(T.exportBtn) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button>' +
       (state.positions.length ? '<button type="button" class="btn" id="b-print">' + L(T.print) + '</button><button type="button" class="btn danger" id="b-clear">' + L(T.clear) + '</button>' : '') +
-      '<input type="file" id="f-import" accept="application/json,.json" hidden></p>';
+      '<input type="file" id="f-import" accept="application/json,.json" hidden><input type="file" id="f-shot" accept="image/*" hidden></p>';
+    var todo = state.positions.filter(function (p) { return p.up === '' || p.down === ''; });
+    if (todo.length && !iv && !editing && !intake) h += '<div class="need"><p>' + L(T.intake.need) + '</p><div class="choices">' + todo.map(function (p) { return '<button type="button" class="choice" data-ivfor="' + esc(p.id) + '">' + esc(p.ticker) + '</button>'; }).join('') + '</div></div>';
     h += '<div id="editor"></div>';
     $('pm-input').innerHTML = h;
     renderEditor();
@@ -101,19 +103,72 @@
     }).join('') + '</div>';
   }
 
+  /* ---------- intake: screenshot or pasted list -> review -> positions ---------- */
+  var intake = null;   // { mode: 'reading' | 'paste' | 'review' | 'error', ... }
+  function known() { var k = {}, px = {}; M.order.forEach(function (t0) { k[t0] = 1; px[t0] = M.t[t0].px; }); return { k: k, px: px }; }
+  function intakeFrom(text, fromImage) {
+    var kp = known(), r = IN.parse(text, kp.k, kp.px);
+    if (r.mode === 'none') { intake = { mode: 'error', msg: L(fromImage ? T.intake.failNone : T.intake.failText), raw: fromImage ? text : '', paste: fromImage ? '' : text }; return; }
+    intake = { mode: 'review', kind: r.mode, unsure: !!r.unsure, raw: fromImage ? text : '', cash: 0,
+      rows: r.rows.map(function (x) { return { ticker: x.ticker, share: x.weight, weight: x.weight == null ? '' : String(Math.round(x.weight * 10) / 10) }; }) };
+  }
+  function intakeRescale() { if (intake.kind !== 'values') return; var c = Math.min(99, Math.max(0, parseFloat(intake.cash) || 0)); intake.rows.forEach(function (r) { if (r.share != null) r.weight = String(Math.round(r.share * (100 - c) / 10) / 10); }); }
+  function intakeRead() {
+    if (!intake || intake.mode !== 'review') return;
+    intake.rows.forEach(function (r, i) { var a = $('in-t' + i), b = $('in-w' + i); if (a) r.ticker = a.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8); if (b) { if (b.value !== r.weight) r.share = null; r.weight = b.value; } });
+    var c = $('in-cash'); if (c) intake.cash = c.value;
+  }
+  function renderIntake() {
+    var box = $('editor'), I = T.intake, h = '';
+    if (intake.mode === 'reading') h = '<div class="iv" role="status"><p class="ivq">' + t(I.reading, { p: Math.round((intake.progress || 0) * 100) }) + '</p><div class="ivbar"><i style="width:' + Math.round((intake.progress || 0) * 100) + '%"></i></div><p class="sub">' + L(I.readingNote) + '</p></div>';
+    else if (intake.mode === 'paste' || intake.mode === 'error') h = '<form class="iv" id="in-paste">' + (intake.mode === 'error' ? '<p class="warn" role="alert">' + esc(intake.msg) + '</p>' : '') + '<p class="ivq">' + L(I.pasteQ) + '</p><p class="sub">' + L(I.pasteHint) + '</p><label class="fld"><textarea id="in-text" rows="6" placeholder="VCB 20%&#10;HPG 15%&#10;FPT 10%">' + esc(intake.paste || '') + '</textarea></label>' +
+      '<p class="btns"><button type="submit" class="btn primary">' + L(I.read) + '</button><button type="button" class="btn" id="b-shot2">' + L(I.shot) + '</button><button type="button" class="btn" id="in-cancel">' + L(T.cancel) + '</button></p>' + (intake.raw ? '<details class="tbl"><summary>' + L(I.raw) + '</summary><pre class="raw">' + esc(intake.raw) + '</pre></details>' : '') + '</form>';
+    else {
+      var tot = 0, cnt = 0; intake.rows.forEach(function (r) { var w = parseFloat(r.weight); if (r.ticker && w > 0) { tot += w; cnt++; } });
+      h = '<form class="iv" id="in-review"><p class="ivq">' + L(I.reviewQ) + '</p><p class="sub">' + L(I.reviewHint) + '</p>' + (intake.unsure ? '<p class="warn">' + L(I.unsure) + '</p>' : '') + '<div class="inrows">' +
+        intake.rows.map(function (r, i) { var mk = M.t[r.ticker]; return '<div class="inrow"><input type="text" id="in-t' + i + '" aria-label="' + esc(L(T.fTicker)) + '" list="ticker-list" maxlength="8" value="' + esc(r.ticker) + '"><input type="number" id="in-w' + i + '" aria-label="' + esc(L(T.thWeight)) + '" min="0" max="100" step="0.1" inputmode="decimal" value="' + esc(r.weight) + '"><span class="pc">%</span><span class="sub nm">' + esc(mk ? mk.name : (r.ticker ? L(I.notKnown) : '')) + '</span><button type="button" class="lnk" data-inrm="' + i + '">' + L(T.remove) + '</button></div>'; }).join('') + '</div>' +
+        '<p class="sub">' + t(I.total, { v: n(tot) }) + '</p>' +
+        (intake.kind === 'values' ? '<label class="fld inline"><span class="lab">' + L(I.cash) + '</span><input type="number" id="in-cash" min="0" max="99" step="1" inputmode="decimal" value="' + esc(intake.cash) + '"><span class="hint">' + L(I.cashHint) + '</span></label>' : '') +
+        '<p class="btns"><button type="submit" class="btn primary">' + t(I.use, { n: cnt }) + '</button><button type="button" class="btn" id="in-add">' + L(I.addRow) + '</button><button type="button" class="btn" id="in-cancel">' + L(T.cancel) + '</button></p>' +
+        (intake.raw ? '<details class="tbl"><summary>' + L(I.raw) + '</summary><pre class="raw">' + esc(intake.raw) + '</pre></details>' : '') + '</form>';
+    }
+    box.innerHTML = h;
+  }
+  function intakeImage(file) {
+    if (!file) return;
+    iv = null; editing = null; intake = { mode: 'reading', progress: 0 }; renderInput(); $('editor').scrollIntoView({ block: 'center' });
+    IN.readImage(file, HERE, function (p) { if (intake && intake.mode === 'reading') { intake.progress = p; renderIntake(); } })
+      .then(function (text) { intakeFrom(text, true); })
+      .catch(function () { intake = { mode: 'error', msg: L(T.intake.failImg), paste: '' }; })
+      .then(function () { renderInput(); });
+  }
+  function intakeUse() {
+    intakeRead();
+    intake.rows.forEach(function (r) {
+      var w = parseFloat(r.weight); if (!r.ticker || !(w > 0)) return;
+      var ex = state.positions.filter(function (p) { return p.ticker === r.ticker; })[0];
+      if (ex) { ex.weight = String(w); ex.status = 'hold'; }
+      else { var p = blank(); p.ticker = r.ticker; p.weight = String(w); if (M.t[r.ticker]) p.sector = M.t[r.ticker].sec; state.positions.push(p); }
+    });
+    state.settings.asked = true; state = clean(state); intake = null; iv = null; editing = null; save(); render();
+    var c = $('nhan-dinh'); if (c) c.scrollIntoView({ block: 'start' });
+  }
+
   /* ---------- guided interview: one question at a time ---------- */
   var iv = null;   // { steps, i, draft, first, auto }
-  function ivSteps(d, askDD) {
+  function ivSteps(d, askDD, existing) {
+    if (existing) return ['thesis', 'likes', 'dislikes', 'up', 'down', 'conviction', 'edge', 'catalyst', 'kill', 'done'];
     var st = []; if (askDD) st.push('dd');
     st.push('ticker'); if (d.ticker && !M.t[d.ticker]) st.push('sector');
     st.push('status'); if (d.status !== 'idea') st.push('weight');
     return st.concat(['thesis', 'likes', 'dislikes', 'up', 'down', 'conviction', 'edge', 'catalyst', 'kill', 'done']);
   }
-  function startInterview(auto) {
+  function startInterview(auto, forId) {
     editing = null;
-    var d = blank(), askDD = !state.positions.length && !state.settings.asked;
-    iv = { draft: d, askDD: askDD, i: 0, first: !state.positions.length, auto: !!auto };
-    iv.steps = ivSteps(d, askDD);
+    var ex = forId ? state.positions.filter(function (p) { return p.id === forId; })[0] : null;
+    var d = ex ? JSON.parse(JSON.stringify(ex)) : blank(), askDD = !ex && !state.positions.length && !state.settings.asked;
+    iv = { draft: d, askDD: askDD, i: 0, first: !state.positions.length, auto: !!auto, existing: !!ex };
+    iv.steps = ivSteps(d, askDD, iv.existing);
   }
   function ivProbe() { var s = { settings: state.settings, positions: [iv.draft] }; return E.analyse(s).positions[0] || null; }
   function choice(attr, val, label, on) { return '<button type="button" class="choice' + (on ? ' on' : '') + '" ' + attr + '="' + esc(val) + '">' + label + '</button>'; }
@@ -123,10 +178,10 @@
     var q = '', hint = '', body = '', note = '', nav = true, skippable = true, m;
     function numq(field, picks, unit, max) {
       return '<div class="choices">' + picks.map(function (v) { return choice('data-ivnum', field + ':' + v, (unit === '+' ? '+' : unit === '-' ? '−' : '') + v + '%', String(d[field]) === String(v)); }).join('') + '</div>' +
-        '<label class="fld inline"><span class="lab">' + L(I.other) + '</span><input type="number" id="iv-in" data-field="' + field + '" min="0" max="' + max + '" step="0.5" inputmode="decimal" value="' + esc(d[field]) + '"></label>';
+        '<label class="fld inline"><span class="lab">' + L(I.other) + '</span><input type="number" id="iv-in" aria-labelledby="iv-q" data-field="' + field + '" min="0" max="' + max + '" step="0.5" inputmode="decimal" value="' + esc(d[field]) + '"></label>';
     }
     if (id === 'dd') { q = L(I.qDD); hint = L(I.hDD); skippable = false; body = '<div class="choices">' + [10, 15, 20, 30].map(function (v) { return choice('data-ivdd', v, '−' + v + '%', false); }).join('') + '</div>'; nav = false; }
-    else if (id === 'ticker') { q = L(iv.first ? I.qTicker0 : I.qTicker); hint = L(I.hTicker); skippable = false; body = '<label class="fld inline"><input type="text" id="iv-in" data-field="ticker" list="ticker-list" maxlength="8" autocapitalize="characters" value="' + esc(d.ticker) + '"></label>'; }
+    else if (id === 'ticker') { q = L(iv.first ? I.qTicker0 : I.qTicker); hint = L(I.hTicker); skippable = false; body = '<label class="fld inline"><input type="text" id="iv-in" aria-labelledby="iv-q" data-field="ticker" list="ticker-list" maxlength="8" autocapitalize="characters" value="' + esc(d.ticker) + '"></label>'; }
     else if (id === 'sector') { q = t(I.qSector, tk); skippable = false; nav = false; body = '<div class="choices">' + Object.keys(R.sectors).map(function (s) { return choice('data-ivset', 'sector:' + s, esc(secName(s)), false); }).join('') + '</div>'; }
     else if (id === 'status') {
       q = t(I.qStatus, tk); skippable = false; nav = false;
@@ -136,7 +191,7 @@
       if (mk && m && m.trend !== 'unknown') note += ' ' + t(T.pTrend[m.trend], { a: sg(mk.d200 != null ? mk.d200 : mk.d50), b: sg(mk.rs3m) });
     }
     else if (id === 'weight') { q = t(I.qWeight, tk); hint = L(I.hWeight); body = numq('weight', [3, 5, 10, 15, 20], '', 200); }
-    else if (id === 'thesis') { q = t(I.qThesis, tk); hint = L(I.hThesis); body = '<label class="fld"><textarea id="iv-in" data-field="thesis" rows="3" maxlength="2000">' + esc(d.thesis) + '</textarea></label>'; }
+    else if (id === 'thesis') { q = t(I.qThesis, tk); hint = L(I.hThesis); body = '<label class="fld"><textarea id="iv-in" aria-labelledby="iv-q" data-field="thesis" rows="3" maxlength="2000">' + esc(d.thesis) + '</textarea></label>'; }
     else if (id === 'likes' || id === 'dislikes') {
       var like = id === 'likes'; q = t(like ? I.qLikes : I.qDislikes, tk); hint = L(I.hTags);
       body = '<div class="chips">' + driversFor(sec).filter(function (x) { return like || d.likes.indexOf(x) < 0; }).map(function (x) { var on = d[id].indexOf(x) >= 0; return '<button type="button" class="chip' + (on ? ' on ' + (like ? 'like' : 'dislike') : '') + '" aria-pressed="' + on + '" data-ivchip="' + id + ':' + x + '">' + esc(L(R.drivers[x].label)) + '</button>'; }).join('') + '</div>';
@@ -149,11 +204,11 @@
     }
     else if (id === 'edge') { q = L(I.qEdge); skippable = false; nav = false; body = '<div class="choices col">' + ['info', 'analysis', 'time', 'behaviour', 'none'].map(function (e) { return choice('data-ivset', 'edge:' + e, L(T['edge' + e.charAt(0).toUpperCase() + e.slice(1)]), false); }).join('') + '</div>'; }
     else if (id === 'catalyst') {
-      q = L(I.qCatalyst); body = '<label class="fld"><input type="text" id="iv-in" data-field="catalyst" maxlength="600" placeholder="' + esc(L(T.fCatalystPh)) + '" value="' + esc(d.catalyst) + '"></label>' +
+      q = L(I.qCatalyst); body = '<label class="fld"><input type="text" id="iv-in" aria-labelledby="iv-q" data-field="catalyst" maxlength="600" placeholder="' + esc(L(T.fCatalystPh)) + '" value="' + esc(d.catalyst) + '"></label>' +
         '<div class="choices">' + [3, 6, 12, 24].map(function (v) { return choice('data-ivhz', v, t(I.months, { n: v }), String(d.horizon) === String(v)); }).join('') + '</div>';
     }
     else if (id === 'kill') {
-      q = t(I.qKill, tk); body = '<label class="fld"><input type="text" id="iv-in" data-field="kill" maxlength="600" placeholder="' + esc(L(T.fKillPh)) + '" value="' + esc(d.kill) + '"></label><p class="sub">' + L(I.hKill) + '</p><div class="choices col">' +
+      q = t(I.qKill, tk); body = '<label class="fld"><input type="text" id="iv-in" aria-labelledby="iv-q" data-field="kill" maxlength="600" placeholder="' + esc(L(T.fKillPh)) + '" value="' + esc(d.kill) + '"></label><p class="sub">' + L(I.hKill) + '</p><div class="choices col">' +
         (R.watch[sec] || R.watch['*']).map(function (w) { return choice('data-ivfill', L(w), esc(L(w)), d.kill === L(w)); }).join('') + '</div>';
     }
     else if (id === 'done') {
@@ -164,7 +219,8 @@
         var top = res.ev_.challenge[0] || res.ev_.blindRisk[0];
         if (top) h += '<p class="lab">' + L(I.doneAgainst) + '</p><div class="ev against"><ul><li>' + esc(L(top.text)) + ' ' + srcLink(top.src) + '</li></ul></div>';
       }
-      box.innerHTML = h + '<p class="btns"><button type="button" class="btn primary" id="iv-another">' + L(I.another) + '</button><button type="button" class="btn" id="iv-see">' + L(I.see) + '</button></p></div>';
+      var nxt = state.positions.filter(function (x) { return x.id !== d.id && (x.up === '' || x.down === ''); })[0];
+      box.innerHTML = h + '<p class="btns">' + (nxt ? '<button type="button" class="btn primary" data-ivfor="' + esc(nxt.id) + '">' + t(T.intake.askFor, { t: nxt.ticker }) + '</button>' : '') + '<button type="button" class="btn' + (nxt ? '' : ' primary') + '" id="iv-another">' + L(I.another) + '</button><button type="button" class="btn" id="iv-see">' + L(I.see) + '</button></p></div>';
       return;
     }
     box.innerHTML = '<form class="iv" id="iv-form" autocomplete="off"><div class="ivbar"><i style="width:' + (k / real.length * 100).toFixed(0) + '%"></i></div><p class="ivstep">' + t(I.progress, { k: k, n: real.length }) + (d.ticker && id !== 'ticker' ? ' · ' + esc(d.ticker) : '') + '</p>' +
@@ -183,7 +239,7 @@
       var mk = M.t[d.ticker]; if (mk) d.sector = mk.sec;
     }
     iv.auto = false;
-    iv.steps = ivSteps(d, iv.askDD);
+    iv.steps = ivSteps(d, iv.askDD, iv.existing);
     iv.i = Math.max(0, Math.min(iv.steps.length - 1, iv.steps.indexOf(id) + delta));
     if (iv.steps[iv.i] === 'done') ivFinish(); else renderInterview();
   }
@@ -191,11 +247,14 @@
     var d = iv.draft, ok = driversFor(M.t[d.ticker] ? M.t[d.ticker].sec : d.sector);
     d.likes = d.likes.filter(function (x) { return ok.indexOf(x) >= 0; }); d.dislikes = d.dislikes.filter(function (x) { return ok.indexOf(x) >= 0 && d.likes.indexOf(x) < 0; });
     if (d.status === 'idea') d.weight = '0';
-    state.positions.push(d); state = clean(state); save();
+    var at = -1; state.positions.forEach(function (x, j) { if (x.id === d.id) at = j; });
+    if (at >= 0) state.positions[at] = d; else state.positions.push(d);
+    state = clean(state); save();
     var keep = iv; renderInput(); iv = keep; renderInterview(); renderResults();
   }
   function renderEditor() {
     var box = $('editor'); if (!box) return;
+    if (intake) { renderIntake(); return; }
     if (!editing && !iv && !state.positions.length) startInterview(true);
     if (!editing && iv) { renderInterview(); return; }
     if (!editing) { box.innerHTML = ''; return; }
@@ -271,8 +330,8 @@
         tile(L(T.tInvested), n0(now.invested) + '%', t(T.tInvestedNote, { cash: n0(Math.max(0, 100 - now.invested)), lo: reg.band[0], hi: reg.band[1] }), over ? 'down' : '') +
         tile(L(T.tBets), n(now.neff), t(T.tBetsNote, { n: now.n, c: now.avgCorr == null ? '–' : n(now.avgCorr, 2) })) +
         tile(L(T.tVol), '−' + n(now.badMonth) + '%', t(T.tVolNote, { v: n(now.vol), b: n(now.beta, 2) })) +
-        tile(L(T.tStress), '−' + n(now.stress) + '%', t(T.tStressNote, { m: g(a.maxDD) }), now.stress > a.maxDD ? 'down' : '') + '</div>';
-      if (aft.n) h += '<p class="after">' + t(T.afterLine, { inv: n0(aft.invested), neff: n(aft.neff), bad: n(aft.badMonth), stress: n(aft.stress) }) + '</p>';
+        (a.positions.some(function (m) { return m.status === 'hold' && m.complete; }) ? tile(L(T.tStress), '−' + n(now.stress) + '%', t(T.tStressNote, { m: g(a.maxDD) }), now.stress > a.maxDD ? 'down' : '') : tile(L(T.tStress), '–', L(T.tStressNA))) + '</div>';
+      if (aft.n && a.positions.some(function (m) { return m.suggest != null; })) h += '<p class="after">' + t(T.afterLine, { inv: n0(aft.invested), neff: n(aft.neff), bad: n(aft.badMonth), stress: n(aft.stress) }) + (aft.invested < reg.band[0] - 0.5 ? ' ' + t(T.afterLow, { lo: reg.band[0], hi: reg.band[1] }) : '') + '</p>';
     }
 
     /* regime */
@@ -381,7 +440,7 @@
     h += '<h4>' + L(T.pQuestions) + '</h4><ol class="qs">' + m.questions.map(function (q) {
       return '<li>' + t(T.q[q], { be: n0(m.breakeven), p: n0(m.prob), d: g(m.down), m: n(m.monthSigma), dd: mk ? n0(Math.abs(mk.dd)) : '', n: ev.challenge.length }) + '</li>';
     }).join('') + '</ol>';
-    h += '<p class="btns"><button type="button" class="btn" data-edit="' + esc(m.id) + '">' + L(T.edit) + ' ' + esc(m.ticker) + '</button></p></div></details>';
+    h += '<p class="btns">' + (!m.complete ? '<button type="button" class="btn primary" data-ivfor="' + esc(m.id) + '">' + t(T.intake.askFor, { t: m.ticker }) + '</button>' : '') + '<button type="button" class="btn" data-edit="' + esc(m.id) + '">' + L(T.edit) + ' ' + esc(m.ticker) + '</button></p></div></details>';
     return h;
   }
 
@@ -403,8 +462,16 @@
     var el = e.target.closest('button'); if (!el) return;
     var id = el.id, ed = el.getAttribute('data-edit'), del = el.getAttribute('data-del'), chip = el.getAttribute('data-chip');
     var a;
+    if ((a = el.getAttribute('data-ivfor'))) { intake = null; startInterview(false, a); renderInput(); $('editor').scrollIntoView({ block: 'center' }); return; }
+    if (id === 'b-shot' || id === 'b-shot2') { $('f-shot').click(); return; }
+    if (id === 'b-paste') { iv = null; editing = null; intake = { mode: 'paste', paste: '' }; renderInput(); var ta = $('in-text'); if (ta) ta.focus(); return; }
+    if (intake) {
+      if (id === 'in-cancel') { intake = null; renderInput(); return; }
+      if (id === 'in-add') { intakeRead(); intake.rows.push({ ticker: '', share: null, weight: '' }); renderIntake(); var nt = $('in-t' + (intake.rows.length - 1)); if (nt) nt.focus(); return; }
+      if ((a = el.getAttribute('data-inrm'))) { intakeRead(); intake.rows.splice(parseInt(a, 10), 1); renderIntake(); return; }
+    }
     if (iv && !editing) {
-      if ((a = el.getAttribute('data-ivdd'))) { state.settings.maxDD = parseFloat(a); state.settings.asked = true; save(); iv.askDD = false; iv.steps = ivSteps(iv.draft, false); iv.i = 0; iv.auto = false; renderInput(); renderResults(); return; }
+      if ((a = el.getAttribute('data-ivdd'))) { state.settings.maxDD = parseFloat(a); state.settings.asked = true; save(); iv.askDD = false; iv.steps = ivSteps(iv.draft, false, false); iv.i = 0; iv.auto = false; renderInput(); renderResults(); return; }
       if ((a = el.getAttribute('data-ivset'))) { ivRead(); var kv = a.split(':'); iv.draft[kv[0]] = kv[0] === 'conviction' ? parseInt(kv[1], 10) : kv[1]; ivGo(1); return; }
       if ((a = el.getAttribute('data-ivnum'))) { var nv = a.split(':'); iv.draft[nv[0]] = nv[1]; ivGo(1); return; }
       if ((a = el.getAttribute('data-ivhz'))) { ivRead(); iv.draft.horizon = iv.draft.horizon === a ? '' : a; renderInterview(); return; }
@@ -412,10 +479,10 @@
       if ((a = el.getAttribute('data-ivchip'))) { var lc = a.split(':'), arr = iv.draft[lc[0]], ix = arr.indexOf(lc[1]); if (ix >= 0) arr.splice(ix, 1); else arr.push(lc[1]); renderInterview(); return; }
       if (id === 'iv-back') { ivRead(); ivGo(-1); return; }
       if (id === 'iv-skip') { var fld = $('iv-in'); if (fld) iv.draft[fld.getAttribute('data-field')] = ''; ivGo(1); return; }
-      if (id === 'iv-stop') { iv = null; renderEditor(); if (!state.positions.length) renderInput(); return; }
-      if (id === 'iv-form-switch') { ivRead(); editing = iv.draft; iv = null; renderEditor(); return; }
+      if (id === 'iv-stop') { iv = null; renderInput(); return; }
+      if (id === 'iv-form-switch') { ivRead(); editing = iv.draft; iv = null; renderInput(); return; }
       if (id === 'iv-another') { startInterview(false); renderInterview(); $('editor').scrollIntoView({ block: 'center' }); return; }
-      if (id === 'iv-see') { iv = null; renderEditor(); var c0 = $('nhan-dinh'); if (c0) c0.scrollIntoView({ block: 'start' }); return; }
+      if (id === 'iv-see') { iv = null; renderInput(); var c0 = $('nhan-dinh'); if (c0) c0.scrollIntoView({ block: 'start' }); return; }
     }
     if (chip && editing) {
       readEditor();
@@ -426,7 +493,7 @@
     }
     if (ed) { var p = state.positions.filter(function (x) { return x.id === ed; })[0]; if (p) { iv = null; editing = JSON.parse(JSON.stringify(p)); renderInput(); $('editor').scrollIntoView({ block: 'start' }); var f = $('ed-weight'); if (f) f.focus({ preventScroll: true }); } return; }
     if (del) { state.positions = state.positions.filter(function (x) { return x.id !== del; }); if (editing && editing.id === del) editing = null; save(); render(); return; }
-    if (id === 'b-add') { startInterview(false); renderInterview(); $('editor').scrollIntoView({ block: 'center' }); }
+    if (id === 'b-add') { intake = null; startInterview(false); renderInput(); $('editor').scrollIntoView({ block: 'center' }); }
     else if (id === 'ed-cancel') { editing = null; iv = null; renderEditor(); }
     else if (id === 'b-example') { if (!state.positions.length || confirm(L(T.confirmExample))) loadExample(); }
     else if (id === 'b-clear') { if (confirm(L(T.confirmClear))) { state.positions = []; editing = null; iv = null; save(); render(); } }
@@ -439,6 +506,8 @@
   });
   doc.addEventListener('submit', function (e) {
     if (e.target.id === 'iv-form') { e.preventDefault(); ivRead(); ivGo(1); return; }
+    if (e.target.id === 'in-paste') { e.preventDefault(); var tx = $('in-text').value; intakeFrom(tx, false); if (intake.mode === 'error') intake.paste = tx; renderInput(); return; }
+    if (e.target.id === 'in-review') { e.preventDefault(); intakeUse(); return; }
     if (e.target.id !== 'ed-form') return;
     e.preventDefault(); readEditor();
     if (!editing.ticker) { $('ed-err').textContent = L(T.needTicker); return; }
@@ -456,6 +525,8 @@
       state.settings.maxDD = Math.min(60, Math.max(3, parseFloat($('set-maxDD').value) || 15)); state.settings.regime = $('set-regime').value; state.settings.capital = $('set-capital').value;
       save(); renderResults();
     } else if (editing && (id === 'ed-ticker' || id === 'ed-sector' || id === 'ed-conviction')) { readEditor(); var mk = M.t[editing.ticker]; if (mk) editing.sector = mk.sec; renderEditor(); }
+    else if (id === 'f-shot') { var img = e.target.files[0]; e.target.value = ''; intakeImage(img); }
+    else if (id === 'in-cash') { intakeRead(); intakeRescale(); renderIntake(); }
     else if (id === 'f-import') {
       var file = e.target.files[0]; if (!file) return;
       var rd = new FileReader();

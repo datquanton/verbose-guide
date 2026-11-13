@@ -47,7 +47,7 @@
     var score = liq + trend;
     var auto = score <= -3 ? 'tight' : score >= 3 ? 'easing' : 'neutral';
     var growth = R.regime.growth.reduce(function (s, x) { return s + x.dir; }, 0);
-    var use = settings.regime && settings.regime !== 'auto' ? settings.regime : auto;
+    var use = RULES.bands[settings.regime] ? settings.regime : auto;
     return { auto: auto, use: use, overridden: use !== auto, score: score, n: R.regime.liquidity.length + 1, growth: growth > 0 ? 'strong' : growth < 0 ? 'weak' : 'mixed',
       band: RULES.bands[use], indexD200: M.index.d200, priceAge: daysBetween(M.asof, today), researchAge: daysBetween(R.asof, today) };
   }
@@ -58,7 +58,8 @@
     var conv = Math.min(5, Math.max(1, num(p.conviction) || 3));
     var prob = num(p.p); var probDefault = prob == null; if (probDefault) prob = RULES.pByConv[conv - 1];
     var U = num(p.up), D = num(p.down), w = Math.max(0, num(p.weight) || 0);
-    var maxDD = num(settings.maxDD) || 15;
+    if (U != null && !(U > 0)) U = null; if (D != null && !(D > 0 && D <= 100)) D = null;
+    var maxDD = Math.min(60, Math.max(3, num(settings.maxDD) || 15));
     var o = { id: p.id, ticker: p.ticker, sector: sec, covered: !!mk, conv: conv, prob: prob, probDefault: probDefault, up: U, down: D, weight: w, status: p.status === 'idea' ? 'idea' : 'hold',
       vol: mk ? mk.vol : sectorVol(sec), volEst: !mk, beta: mk && mk.beta != null ? mk.beta : 1, mk: mk, cap: RULES.nameCap[conv - 1] };
     o.monthSigma = o.vol / Math.sqrt(12);
@@ -112,7 +113,7 @@
       rc.push(acc); v += acc;
     });
     out.vol = Math.sqrt(v);
-    out.neff = v > 0 ? sx * sx / v : xs.length;
+    out.neff = v > 0 ? Math.min(xs.length, sx * sx / v) : xs.length;   // negative correlations could push it above the count
     out.badMonth = 1.65 * out.vol / Math.sqrt(12);
     out.avgCorr = cw > 0 ? cs / cw : null;
     xs.forEach(function (a, i) { out.share[a.id] = v > 0 ? rc[i] / v * 100 : 0; });
@@ -195,7 +196,7 @@
   function analyse(state, today) {
     today = today || new Date().toISOString().slice(0, 10);
     var settings = state.settings || {}, reg = regime(settings, today);
-    var maxDD = num(settings.maxDD) || 15, capital = num(settings.capital);
+    var maxDD = Math.min(60, Math.max(3, num(settings.maxDD) || 15)), capital = num(settings.capital); if (!(capital > 0)) capital = null;
     var ms = (state.positions || []).filter(function (p) { return p.ticker; }).map(function (p) { return metrics(p, settings, reg); });
     allocate(ms, reg);
     var src = {}; (state.positions || []).forEach(function (p) { src[p.id] = p; });
@@ -230,7 +231,8 @@
       for (var s in now.sectors) if (now.sectors[s] > RULES.sectorCap + 0.5) add('sector', 2, 'dalio', { sector: s, v: now.sectors[s], cap: RULES.sectorCap });
       for (var cl in now.clusters) if (cl !== 'other' && now.clusters[cl] > RULES.clusterCap + 0.5) add('cluster', reg.use === 'tight' && cl === 'rates' ? 3 : 2, 'dalio', { cluster: cl, v: now.clusters[cl], cap: RULES.clusterCap });
       held.forEach(function (m) {
-        if (m.weight > m.cap + 0.5) add('overCap', m.weight > 25 ? 3 : 2, 'buffett', { t: m.ticker, v: m.weight, cap: m.cap, conv: m.conv });
+        /* until the investor has given gain, loss and conviction, only flag a size no conviction level would allow */
+        if (m.weight > m.cap + 0.5 && (m.complete || m.weight > RULES.nameCap[4])) add('overCap', m.weight > 25 ? 3 : 2, 'buffett', { t: m.ticker, v: m.weight, cap: m.cap, conv: m.conv });
         if (m.complete && m.ev <= 0) add('negEV', 3, 'druck', { t: m.ticker, ev: m.ev, prob: m.prob, be: m.breakeven });
         if (m.riskShare != null && m.riskShare - m.capShare > 8) add('riskSkew', 1, 'dalio', { t: m.ticker, risk: m.riskShare, cap: m.capShare });
         if (m.exitDays != null && m.exitDays > RULES.exitDays) add('illiquid', 2, 'druck', { t: m.ticker, days: m.exitDays });

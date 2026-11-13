@@ -2,7 +2,7 @@
 window.PM_TEXT = {
   /* ---- section 1: input ---- */
   s1: ['1 · Danh mục và quan điểm của bạn', '1 · Your portfolio and your views'],
-  s1note: ['Công cụ hỏi bạn từng câu một về mỗi cổ phiếu: bạn nắm bao nhiêu, vì sao, lãi bao nhiêu nếu đúng, lỗ bao nhiêu nếu sai. Mất khoảng hai phút cho một mã. Dữ liệu chỉ lưu trên trình duyệt của bạn, không gửi đi đâu.', 'The tool asks you one question at a time about each stock: how much you hold, why, what you make if right and lose if wrong. About two minutes a stock. Everything stays in your browser; nothing is sent anywhere.'],
+  s1note: ['Tải ảnh chụp màn hình danh mục từ ứng dụng chứng khoán, hoặc trả lời từng câu hỏi về mỗi cổ phiếu: bạn nắm bao nhiêu, vì sao, lãi bao nhiêu nếu đúng, lỗ bao nhiêu nếu sai. Ảnh và dữ liệu chỉ được xử lý trên trình duyệt của bạn, không gửi đi đâu.', 'Upload a screenshot of your holdings from your broker app, or answer one question at a time about each stock: how much you hold, why, what you make if right and lose if wrong. The image and your data are processed in your browser only; nothing is sent anywhere.'],
   capital: ['Quy mô danh mục (tỷ đồng, không bắt buộc)', 'Portfolio size (VND bn, optional)'],
   capitalHint: ['Chỉ dùng để kiểm tra thanh khoản khi thoát vị thế.', 'Only used to check how long an exit would take.'],
   maxDD: ['Mức sụt giảm tối đa bạn chịu được (%)', 'Largest drawdown you can live with (%)'],
@@ -14,7 +14,7 @@ window.PM_TEXT = {
   confirmClear: ['Xóa toàn bộ danh mục đang nhập?', 'Delete the whole portfolio you entered?'],
   confirmExample: ['Thay danh mục hiện tại bằng ví dụ minh họa?', 'Replace the current portfolio with the illustrative example?'],
   importBad: ['Tệp không đúng định dạng.', 'That file is not in the expected format.'],
-  empty: ['Trả lời vài câu hỏi dưới đây về cổ phiếu đầu tiên, hoặc xem ví dụ để biết công cụ trả lời những gì.', 'Answer a few questions below about your first stock, or load the example to see what the tool tells you.'],
+  empty: ['Trả lời vài câu hỏi dưới đây về cổ phiếu đầu tiên, tải ảnh chụp danh mục, hoặc xem ví dụ.', 'Answer a few questions below about your first stock, or load the example to see what the tool tells you.'],
   thTicker: ['Mã', 'Ticker'], thWeight: ['Tỷ trọng', 'Weight'], thConv: ['Niềm tin', 'Conviction'], thUD: ['Lãi / lỗ kỳ vọng', 'Upside / downside'], thStatus: ['Trạng thái', 'Status'],
   stHold: ['Đang nắm', 'Holding'], stIdea: ['Đang cân nhắc', 'Considering'],
   edit: ['Sửa', 'Edit'], remove: ['Xóa', 'Remove'], save: ['Lưu vị thế', 'Save position'], cancel: ['Hủy', 'Cancel'],
@@ -71,6 +71,26 @@ window.PM_TEXT = {
     doneAgainst: ['Điểm phản biện đáng đọc nhất:', 'The counter-argument most worth reading:'],
     another: ['Thêm cổ phiếu khác', 'Add another stock'], see: ['Xem nhận định', 'See the consult']
   },
+  /* ---- screenshot and paste intake ---- */
+  intake: {
+    shot: ['Tải ảnh chụp danh mục', 'Upload a portfolio screenshot'], paste: ['Dán danh sách', 'Paste a list'],
+    reading: ['Đang đọc ảnh ngay trên thiết bị của bạn… {p}%', 'Reading the image on your device… {p}%'],
+    readingNote: ['Ảnh không được gửi đi đâu. Lần đầu mất vài giây để tải bộ nhận dạng chữ (khoảng 7 MB).', 'The image is not sent anywhere. The first time takes a few seconds to load the text reader (about 7 MB).'],
+    failImg: ['Không đọc được ảnh này. Hãy thử ảnh rõ hơn, hoặc dán danh sách bằng chữ.', 'That image could not be read. Try a sharper one, or paste the list as text.'],
+    failNone: ['Không tìm thấy mã cổ phiếu nào trong ảnh. Ảnh cần hiển thị bảng danh mục với mã và giá trị; hoặc dán danh sách bằng chữ.', 'No tickers were found in the image. It needs to show the holdings table with tickers and values; or paste the list as text.'],
+    failText: ['Không tìm thấy mã cổ phiếu nào. Mỗi dòng cần một mã và một con số, ví dụ "VCB 20%".', 'No tickers were found. Each line needs a ticker and a number, for example "VCB 20%".'],
+    pasteQ: ['Dán danh mục của bạn', 'Paste your holdings'],
+    pasteHint: ['Mỗi dòng một mã, kèm tỷ trọng ("VCB 20%") hoặc chép nguyên bảng từ ứng dụng chứng khoán (mã, khối lượng, giá, giá trị).', 'One stock per line with its weight ("VCB 20%"), or copy the whole table from your broker app (ticker, quantity, price, value).'],
+    read: ['Đọc danh sách', 'Read the list'],
+    reviewQ: ['Kiểm tra lại: đây có đúng là danh mục của bạn không?', 'Check this: is this your portfolio?'],
+    reviewHint: ['Sửa mã hoặc tỷ trọng nếu đọc sai, xóa dòng thừa. Tỷ trọng là phần trăm trên toàn bộ danh mục.', 'Fix any ticker or weight that was misread and remove stray lines. Weights are a percentage of the whole portfolio.'],
+    unsure: ['Một số dòng không có cột giá trị rõ ràng, nên tỷ trọng là ước tính. Hãy kiểm tra kỹ.', 'Some lines had no clear value column, so their weights are estimates. Please check them carefully.'],
+    cash: ['Tiền mặt (% danh mục)', 'Cash (% of portfolio)'], cashHint: ['Ảnh thường không hiển thị tiền mặt. Nhập vào để tỷ trọng cổ phiếu được tính đúng.', 'Screenshots rarely show cash. Enter it so the stock weights are right.'],
+    addRow: ['Thêm dòng', 'Add a line'], use: ['Dùng {n} vị thế này', 'Use these {n} positions'], total: ['Tổng cổ phiếu: {v}%', 'Stocks total: {v}%'],
+    raw: ['Chữ đọc được từ ảnh', 'Text read from the image'], notKnown: ['chưa có dữ liệu giá', 'no price data'],
+    need: ['Đã có tỷ trọng. Để tính quy mô hợp lý và đối chiếu với nghiên cứu, hãy trả lời vài câu hỏi về:', 'Weights are in. To size each position and test it against the research, answer a few questions about:'],
+    askFor: ['Trả lời câu hỏi về {t}', 'Answer the questions about {t}']
+  },
   /* ---- section 2: consult ---- */
   s2: ['2 · Nhận định', '2 · The consult'],
   tInvested: ['Đang đầu tư', 'Invested'], tInvestedNote: ['Tiền mặt {cash}% · vùng hợp lý {lo}–{hi}%', 'Cash {cash}% · working range {lo}–{hi}%'],
@@ -78,6 +98,8 @@ window.PM_TEXT = {
   tVol: ['Tháng xấu (1 trong 20)', 'Bad month (1 in 20)'], tVolNote: ['Biến động ước tính {v}%/năm · beta {b}', 'Estimated volatility {v}% a year · beta {b}'],
   tStress: ['Nếu sai tất cả cùng lúc', 'If every thesis fails at once'], tStressNote: ['Giới hạn của bạn: −{m}%', 'Your limit: −{m}%'],
   afterLine: ['Theo tỷ trọng gợi ý: đầu tư {inv}%, {neff} cược độc lập, tháng xấu −{bad}%, sai tất cả −{stress}%.', 'At the suggested weights: {inv}% invested, {neff} independent bets, bad month −{bad}%, all wrong −{stress}%.'],
+  afterLow: ['Mức này thấp hơn vùng {lo}–{hi}% không phải vì nên giữ nhiều tiền mặt đến vậy, mà vì các vị thế hiện có đã chạm trần của mình (trần ngành, trần một mã, hoặc kỳ vọng âm). Phần còn lại cần ý tưởng ở những ngành khác, không phải mua thêm những gì đang có.', 'That is below the {lo}–{hi}% range not because that much cash is the goal, but because your current positions have hit their own ceilings (sector, single name, or negative expected value). The rest needs ideas in other sectors, not more of what you already hold.'],
+  tStressNA: ['Chưa tính được: chưa có mức lỗ nếu sai cho vị thế nào', 'Not computable yet: no loss-if-wrong entered for any position'],
   hRegime: ['Bối cảnh: thanh khoản trước, lợi nhuận sau', 'The backdrop: liquidity first, earnings second'],
   regimeLine: { tight: ['Thanh khoản đang thắt chặt, tăng trưởng {g}.', 'Liquidity is tightening; growth is {g}.'], neutral: ['Thanh khoản trung tính, tăng trưởng {g}.', 'Liquidity is neutral; growth is {g}.'], easing: ['Thanh khoản đang nới lỏng, tăng trưởng {g}.', 'Liquidity is easing; growth is {g}.'] },
   gStrong: ['mạnh', 'strong'], gMixed: ['trái chiều', 'mixed'], gWeak: ['yếu', 'weak'],
@@ -212,7 +234,7 @@ window.PM_TEXT = {
     ['Xác suất mặc định theo niềm tin là 45%, 50%, 55%, 60%, 65%. Khi thanh khoản thắt, quy mô nhân 0,75 cho chứng khoán và bất động sản dân dụng, 0,85 cho khu công nghiệp, 0,9 cho ngân hàng, thép và xây dựng.', 'Default probabilities by conviction are 45%, 50%, 55%, 60%, 65%. When liquidity is tightening, sizes are multiplied by 0.75 for securities firms and residential property, 0.85 for industrial parks, and 0.9 for banks, steel and construction.'],
     ['Dữ liệu giá: {n} mã, {s} phiên đến {d}, giá đóng cửa điều chỉnh từ FiinQuantX. Biến động là độ lệch chuẩn lợi suất ngày quy năm; tương quan tính trên lợi suất ngày; "tháng xấu" là 1,65 lần độ lệch chuẩn tháng, giả định phân phối chuẩn nên thực tế có thể tệ hơn. Một năm dữ liệu là mẫu ngắn: tương quan tăng mạnh khi thị trường giảm.', 'Price data: {n} tickers, {s} sessions to {d}, adjusted closes from FiinQuantX. Volatility is the annualised standard deviation of daily returns; correlation is computed on daily returns; a "bad month" is 1.65 monthly standard deviations and assumes a normal distribution, so reality can be worse. One year is a short sample: correlations rise sharply when the market falls.'],
     ['Số cược độc lập = (tổng rủi ro từng vị thế)² ÷ phương sai danh mục. Bằng số vị thế khi chúng không tương quan và cùng rủi ro; bằng 1 khi chúng di chuyển như một.', 'Independent bets = (sum of position risks)² ÷ portfolio variance. It equals the number of positions when they are uncorrelated and equally risky, and 1 when they move as one.'],
-    ['Bằng chứng nghiên cứu lấy từ các báo cáo trên trang này (cập nhật {r}); mỗi dòng dẫn về báo cáo nguồn. Các ngành chưa có báo cáo chỉ có dữ liệu giá. Công cụ so khớp theo các mục bạn chọn, không đọc hiểu phần văn bản bạn viết.', 'Research evidence comes from the reports on this site (as of {r}); each line links to its source report. Sectors without a report have price data only. The tool matches on the tags you select; it does not interpret the free text you write.'],
+    ['Bằng chứng nghiên cứu lấy từ các báo cáo trên trang này (cập nhật {r}); mỗi dòng dẫn về báo cáo nguồn. Các ngành chưa có báo cáo chỉ có dữ liệu giá. Công cụ so khớp theo các mục bạn chọn, không đọc hiểu phần văn bản bạn viết. Ảnh chụp danh mục được nhận dạng chữ ngay trên thiết bị (Tesseract), có thể đọc sai số, nên luôn có bước kiểm tra lại.', 'Research evidence comes from the reports on this site (as of {r}); each line links to its source report. Sectors without a report have price data only. The tool matches on the tags you select; it does not interpret the free text you write. A portfolio screenshot is read on the device (Tesseract text recognition) and can misread figures, which is why there is always a review step.'],
     ['Công cụ không biết thuế, phí, nhu cầu tiền mặt, thu nhập hay các tài sản khác của bạn, và không biết giá hôm nay. Mọi con số "gợi ý" là hệ quả số học của dữ liệu bạn nhập.', 'The tool does not know your taxes, fees, cash needs, income or other assets, and it does not know today’s price. Every "suggested" figure is the arithmetic consequence of the inputs you gave.']
   ],
   disclaimer: ['Nghiên cứu cá nhân, không phải khuyến nghị đầu tư. Đây là công cụ kiểm tra lập luận: nó không biết hoàn cảnh tài chính của bạn và không khuyến nghị mua hay bán chứng khoán nào. Quyết định và trách nhiệm thuộc về bạn; hãy tham khảo chuyên gia có giấy phép trước khi hành động.', 'Personal research, not investment advice. This is a reasoning check: it does not know your financial circumstances and does not recommend buying or selling any security. The decision and the responsibility are yours; consult a licensed adviser before acting.'],
