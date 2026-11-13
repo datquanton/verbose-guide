@@ -32,6 +32,7 @@
     out.settings.capital = st.capital == null ? '' : String(st.capital).slice(0, 12);
     out.settings.maxDD = Math.min(60, Math.max(3, parseFloat(st.maxDD) || 15));
     out.settings.regime = ['auto', 'easing', 'neutral', 'tight'].indexOf(st.regime) >= 0 ? st.regime : 'auto';
+    out.settings.asked = !!st.asked;
     s.positions.slice(0, 60).forEach(function (p) {
       if (!p || !p.ticker) return;
       var str = function (x, m) { return x == null ? '' : String(x).slice(0, m); };
@@ -57,7 +58,7 @@
   function loadExample() {
     var s = JSON.parse(JSON.stringify(EXAMPLE));
     s.positions.forEach(function (p) { ['thesis', 'catalyst', 'kill'].forEach(function (k) { if (Array.isArray(p[k])) p[k] = p[k][LI]; }); p.id = uid() + p.ticker; });
-    state = clean(s); editing = null; save(); render();
+    state = clean(s); editing = null; iv = null; save(); render();
   }
 
   /* ---------- section 1: input ---------- */
@@ -67,6 +68,10 @@
 
   function renderInput() {
     var s = state.settings, h = '';
+    if (!state.positions.length) {   // first visit: the question comes first
+      $('pm-input').innerHTML = '<div id="editor"></div><p class="btns"><button type="button" class="btn" id="b-example">' + L(T.example) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button><input type="file" id="f-import" accept="application/json,.json" hidden></p>';
+      renderEditor(); return;
+    }
     h += '<div class="grid3">' +
       field(L(T.maxDD), '<input type="number" id="set-maxDD" min="3" max="60" step="1" inputmode="decimal" value="' + esc(s.maxDD) + '">', L(T.maxDDHint)) +
       field(L(T.regime), '<select id="set-regime">' + opt('auto', L(T.regimeAuto), s.regime) + opt('easing', L(T.rgEasing), s.regime) + opt('neutral', L(T.rgNeutral), s.regime) + opt('tight', L(T.rgTight), s.regime) + '</select>') +
@@ -95,8 +100,104 @@
       return '<button type="button" class="chip' + (list.indexOf(k) >= 0 ? ' on ' + kind : '') + '" aria-pressed="' + (list.indexOf(k) >= 0) + '" data-chip="' + k + '">' + esc(L(R.drivers[k].label)) + '</button>';
     }).join('') + '</div>';
   }
+
+  /* ---------- guided interview: one question at a time ---------- */
+  var iv = null;   // { steps, i, draft, first, auto }
+  function ivSteps(d, askDD) {
+    var st = []; if (askDD) st.push('dd');
+    st.push('ticker'); if (d.ticker && !M.t[d.ticker]) st.push('sector');
+    st.push('status'); if (d.status !== 'idea') st.push('weight');
+    return st.concat(['thesis', 'likes', 'dislikes', 'up', 'down', 'conviction', 'edge', 'catalyst', 'kill', 'done']);
+  }
+  function startInterview(auto) {
+    editing = null;
+    var d = blank(), askDD = !state.positions.length && !state.settings.asked;
+    iv = { draft: d, askDD: askDD, i: 0, first: !state.positions.length, auto: !!auto };
+    iv.steps = ivSteps(d, askDD);
+  }
+  function ivProbe() { var s = { settings: state.settings, positions: [iv.draft] }; return E.analyse(s).positions[0] || null; }
+  function choice(attr, val, label, on) { return '<button type="button" class="choice' + (on ? ' on' : '') + '" ' + attr + '="' + esc(val) + '">' + label + '</button>'; }
+  function renderInterview() {
+    var box = $('editor'), d = iv.draft, id = iv.steps[iv.i], I = T.iv, tk = { t: d.ticker }, mk = M.t[d.ticker], sec = mk ? mk.sec : d.sector;
+    var real = iv.steps.filter(function (x) { return x !== 'done'; }), k = Math.min(iv.i + 1, real.length);
+    var q = '', hint = '', body = '', note = '', nav = true, skippable = true, m;
+    function numq(field, picks, unit, max) {
+      return '<div class="choices">' + picks.map(function (v) { return choice('data-ivnum', field + ':' + v, (unit === '+' ? '+' : unit === '-' ? '−' : '') + v + '%', String(d[field]) === String(v)); }).join('') + '</div>' +
+        '<label class="fld inline"><span class="lab">' + L(I.other) + '</span><input type="number" id="iv-in" data-field="' + field + '" min="0" max="' + max + '" step="0.5" inputmode="decimal" value="' + esc(d[field]) + '"></label>';
+    }
+    if (id === 'dd') { q = L(I.qDD); hint = L(I.hDD); skippable = false; body = '<div class="choices">' + [10, 15, 20, 30].map(function (v) { return choice('data-ivdd', v, '−' + v + '%', false); }).join('') + '</div>'; nav = false; }
+    else if (id === 'ticker') { q = L(iv.first ? I.qTicker0 : I.qTicker); hint = L(I.hTicker); skippable = false; body = '<label class="fld inline"><input type="text" id="iv-in" data-field="ticker" list="ticker-list" maxlength="8" autocapitalize="characters" value="' + esc(d.ticker) + '"></label>'; }
+    else if (id === 'sector') { q = t(I.qSector, tk); skippable = false; nav = false; body = '<div class="choices">' + Object.keys(R.sectors).map(function (s) { return choice('data-ivset', 'sector:' + s, esc(secName(s)), false); }).join('') + '</div>'; }
+    else if (id === 'status') {
+      q = t(I.qStatus, tk); skippable = false; nav = false;
+      body = '<div class="choices">' + choice('data-ivset', 'status:hold', L(I.own), false) + choice('data-ivset', 'status:idea', L(I.consider), false) + '</div>';
+      m = ivProbe(); var nm = mk ? mk.name : d.ticker;
+      note = (m && (m.ev_.tickerLevel || m.ev_.sectorLevel)) ? t(I.nCovered, { name: nm, sector: secName(sec), f: m.ev_.forN, a: m.ev_.againstN }) : t(I.nUncovered, { name: nm, sector: secName(sec) });
+      if (mk && m && m.trend !== 'unknown') note += ' ' + t(T.pTrend[m.trend], { a: sg(mk.d200 != null ? mk.d200 : mk.d50), b: sg(mk.rs3m) });
+    }
+    else if (id === 'weight') { q = t(I.qWeight, tk); hint = L(I.hWeight); body = numq('weight', [3, 5, 10, 15, 20], '', 200); }
+    else if (id === 'thesis') { q = t(I.qThesis, tk); hint = L(I.hThesis); body = '<label class="fld"><textarea id="iv-in" data-field="thesis" rows="3" maxlength="2000">' + esc(d.thesis) + '</textarea></label>'; }
+    else if (id === 'likes' || id === 'dislikes') {
+      var like = id === 'likes'; q = t(like ? I.qLikes : I.qDislikes, tk); hint = L(I.hTags);
+      body = '<div class="chips">' + driversFor(sec).filter(function (x) { return like || d.likes.indexOf(x) < 0; }).map(function (x) { var on = d[id].indexOf(x) >= 0; return '<button type="button" class="chip' + (on ? ' on ' + (like ? 'like' : 'dislike') : '') + '" aria-pressed="' + on + '" data-ivchip="' + id + ':' + x + '">' + esc(L(R.drivers[x].label)) + '</button>'; }).join('') + '</div>';
+    }
+    else if (id === 'up') { q = t(I.qUp, tk); body = numq('up', [15, 25, 40, 60], '+', 1000); }
+    else if (id === 'down') { q = t(I.qDown, tk); hint = L(T.fDownHint); body = numq('down', [8, 12, 20, 30], '-', 100); m = ivProbe(); if (mk && m) note = t(I.nVol, { t: d.ticker, m: n(m.monthSigma), dd: n0(Math.abs(mk.dd)) }); }
+    else if (id === 'conviction') {
+      q = L(I.qConv); skippable = false; nav = false; body = '<div class="choices col">' + [1, 2, 3, 4, 5].map(function (i) { return choice('data-ivset', 'conviction:' + i, L(T['conv' + i]), false); }).join('') + '</div>';
+      m = ivProbe(); if (m && m.complete) note = t(m.breakeven > 50 ? I.nBEbad : I.nBE, { u: g(m.up), d: g(m.down), be: n0(m.breakeven) });
+    }
+    else if (id === 'edge') { q = L(I.qEdge); skippable = false; nav = false; body = '<div class="choices col">' + ['info', 'analysis', 'time', 'behaviour', 'none'].map(function (e) { return choice('data-ivset', 'edge:' + e, L(T['edge' + e.charAt(0).toUpperCase() + e.slice(1)]), false); }).join('') + '</div>'; }
+    else if (id === 'catalyst') {
+      q = L(I.qCatalyst); body = '<label class="fld"><input type="text" id="iv-in" data-field="catalyst" maxlength="600" placeholder="' + esc(L(T.fCatalystPh)) + '" value="' + esc(d.catalyst) + '"></label>' +
+        '<div class="choices">' + [3, 6, 12, 24].map(function (v) { return choice('data-ivhz', v, t(I.months, { n: v }), String(d.horizon) === String(v)); }).join('') + '</div>';
+    }
+    else if (id === 'kill') {
+      q = t(I.qKill, tk); body = '<label class="fld"><input type="text" id="iv-in" data-field="kill" maxlength="600" placeholder="' + esc(L(T.fKillPh)) + '" value="' + esc(d.kill) + '"></label><p class="sub">' + L(I.hKill) + '</p><div class="choices col">' +
+        (R.watch[sec] || R.watch['*']).map(function (w) { return choice('data-ivfill', L(w), esc(L(w)), d.kill === L(w)); }).join('') + '</div>';
+    }
+    else if (id === 'done') {
+      var res = E.analyse(state).positions.filter(function (x) { return x.id === d.id; })[0];
+      var h = '<div class="iv done"><p class="ivq">' + t(I.doneT, tk) + '</p>';
+      if (res) {
+        h += '<p>' + (res.suggest == null ? L(I.doneNoSize) : t(I.doneSize, { w: g(res.weight), s: g(res.suggest), act: L(T.act[res.action]).toLowerCase() })) + '</p>';
+        var top = res.ev_.challenge[0] || res.ev_.blindRisk[0];
+        if (top) h += '<p class="lab">' + L(I.doneAgainst) + '</p><div class="ev against"><ul><li>' + esc(L(top.text)) + ' ' + srcLink(top.src) + '</li></ul></div>';
+      }
+      box.innerHTML = h + '<p class="btns"><button type="button" class="btn primary" id="iv-another">' + L(I.another) + '</button><button type="button" class="btn" id="iv-see">' + L(I.see) + '</button></p></div>';
+      return;
+    }
+    box.innerHTML = '<form class="iv" id="iv-form" autocomplete="off"><div class="ivbar"><i style="width:' + (k / real.length * 100).toFixed(0) + '%"></i></div><p class="ivstep">' + t(I.progress, { k: k, n: real.length }) + (d.ticker && id !== 'ticker' ? ' · ' + esc(d.ticker) : '') + '</p>' +
+      '<p class="ivq" id="iv-q">' + q + '</p>' + (hint ? '<p class="sub">' + hint + '</p>' : '') + (note ? '<p class="ivnote">' + note + '</p>' : '') + body +
+      '<p class="btns">' + (nav ? '<button type="submit" class="btn primary">' + L(I.next) + '</button>' : '') + (iv.i > 0 ? '<button type="button" class="btn" id="iv-back">' + L(I.back) + '</button>' : '') +
+      (skippable ? '<button type="button" class="lnk" id="iv-skip">' + L(I.skip) + '</button>' : '') + '<span class="spacer"></span>' +
+      (id !== 'dd' ? '<button type="button" class="lnk" id="iv-form-switch">' + L(I.form) + '</button>' : '') + (state.positions.length || iv.i > 0 ? '<button type="button" class="lnk" id="iv-stop">' + L(I.stop) + '</button>' : '') +
+      '<span class="err" id="iv-err" role="alert"></span></p></form>';
+    var inp = $('iv-in'); if (inp && !iv.auto) inp.focus({ preventScroll: true });
+  }
+  function ivRead() { var el = $('iv-in'); if (!el) return; var f = el.getAttribute('data-field'), v = el.value; if (f === 'ticker') v = v.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8); iv.draft[f] = v; }
+  function ivGo(delta) {
+    var d = iv.draft, id = iv.steps[iv.i];
+    if (delta > 0 && id === 'ticker') {
+      if (!d.ticker) { $('iv-err').textContent = L(T.needTicker); return; }
+      var mk = M.t[d.ticker]; if (mk) d.sector = mk.sec;
+    }
+    iv.auto = false;
+    iv.steps = ivSteps(d, iv.askDD);
+    iv.i = Math.max(0, Math.min(iv.steps.length - 1, iv.steps.indexOf(id) + delta));
+    if (iv.steps[iv.i] === 'done') ivFinish(); else renderInterview();
+  }
+  function ivFinish() {
+    var d = iv.draft, ok = driversFor(M.t[d.ticker] ? M.t[d.ticker].sec : d.sector);
+    d.likes = d.likes.filter(function (x) { return ok.indexOf(x) >= 0; }); d.dislikes = d.dislikes.filter(function (x) { return ok.indexOf(x) >= 0 && d.likes.indexOf(x) < 0; });
+    if (d.status === 'idea') d.weight = '0';
+    state.positions.push(d); state = clean(state); save();
+    var keep = iv; renderInput(); iv = keep; renderInterview(); renderResults();
+  }
   function renderEditor() {
     var box = $('editor'); if (!box) return;
+    if (!editing && !iv && !state.positions.length) startInterview(true);
+    if (!editing && iv) { renderInterview(); return; }
     if (!editing) { box.innerHTML = ''; return; }
     var p = editing, mk = M.t[p.ticker], sec = mk ? mk.sec : p.sector, isNew = !state.positions.some(function (x) { return x.id === p.id; });
     var defP = E.RULES.pByConv[p.conviction - 1];
@@ -301,6 +402,21 @@
   doc.addEventListener('click', function (e) {
     var el = e.target.closest('button'); if (!el) return;
     var id = el.id, ed = el.getAttribute('data-edit'), del = el.getAttribute('data-del'), chip = el.getAttribute('data-chip');
+    var a;
+    if (iv && !editing) {
+      if ((a = el.getAttribute('data-ivdd'))) { state.settings.maxDD = parseFloat(a); state.settings.asked = true; save(); iv.askDD = false; iv.steps = ivSteps(iv.draft, false); iv.i = 0; iv.auto = false; renderInput(); renderResults(); return; }
+      if ((a = el.getAttribute('data-ivset'))) { ivRead(); var kv = a.split(':'); iv.draft[kv[0]] = kv[0] === 'conviction' ? parseInt(kv[1], 10) : kv[1]; ivGo(1); return; }
+      if ((a = el.getAttribute('data-ivnum'))) { var nv = a.split(':'); iv.draft[nv[0]] = nv[1]; ivGo(1); return; }
+      if ((a = el.getAttribute('data-ivhz'))) { ivRead(); iv.draft.horizon = iv.draft.horizon === a ? '' : a; renderInterview(); return; }
+      if ((a = el.getAttribute('data-ivfill'))) { iv.draft.kill = a; renderInterview(); return; }
+      if ((a = el.getAttribute('data-ivchip'))) { var lc = a.split(':'), arr = iv.draft[lc[0]], ix = arr.indexOf(lc[1]); if (ix >= 0) arr.splice(ix, 1); else arr.push(lc[1]); renderInterview(); return; }
+      if (id === 'iv-back') { ivRead(); ivGo(-1); return; }
+      if (id === 'iv-skip') { var fld = $('iv-in'); if (fld) iv.draft[fld.getAttribute('data-field')] = ''; ivGo(1); return; }
+      if (id === 'iv-stop') { iv = null; renderEditor(); if (!state.positions.length) renderInput(); return; }
+      if (id === 'iv-form-switch') { ivRead(); editing = iv.draft; iv = null; renderEditor(); return; }
+      if (id === 'iv-another') { startInterview(false); renderInterview(); $('editor').scrollIntoView({ block: 'center' }); return; }
+      if (id === 'iv-see') { iv = null; renderEditor(); var c0 = $('nhan-dinh'); if (c0) c0.scrollIntoView({ block: 'start' }); return; }
+    }
     if (chip && editing) {
       readEditor();
       var kind = el.parentNode.getAttribute('data-kind'), mine = kind === 'like' ? 'likes' : 'dislikes', other = kind === 'like' ? 'dislikes' : 'likes';
@@ -308,12 +424,12 @@
       if (i >= 0) editing[mine].splice(i, 1); else { editing[mine].push(chip); editing[other] = editing[other].filter(function (x) { return x !== chip; }); }
       renderEditor(); return;
     }
-    if (ed) { var p = state.positions.filter(function (x) { return x.id === ed; })[0]; if (p) { editing = JSON.parse(JSON.stringify(p)); renderInput(); $('editor').scrollIntoView({ block: 'start' }); var f = $('ed-weight'); if (f) f.focus({ preventScroll: true }); } return; }
+    if (ed) { var p = state.positions.filter(function (x) { return x.id === ed; })[0]; if (p) { iv = null; editing = JSON.parse(JSON.stringify(p)); renderInput(); $('editor').scrollIntoView({ block: 'start' }); var f = $('ed-weight'); if (f) f.focus({ preventScroll: true }); } return; }
     if (del) { state.positions = state.positions.filter(function (x) { return x.id !== del; }); if (editing && editing.id === del) editing = null; save(); render(); return; }
-    if (id === 'b-add') { editing = blank(); renderEditor(); $('ed-ticker').focus(); }
-    else if (id === 'ed-cancel') { editing = null; renderEditor(); }
+    if (id === 'b-add') { startInterview(false); renderInterview(); $('editor').scrollIntoView({ block: 'center' }); }
+    else if (id === 'ed-cancel') { editing = null; iv = null; renderEditor(); }
     else if (id === 'b-example') { if (!state.positions.length || confirm(L(T.confirmExample))) loadExample(); }
-    else if (id === 'b-clear') { if (confirm(L(T.confirmClear))) { state.positions = []; editing = null; save(); render(); } }
+    else if (id === 'b-clear') { if (confirm(L(T.confirmClear))) { state.positions = []; editing = null; iv = null; save(); render(); } }
     else if (id === 'b-print') { doc.querySelectorAll('details.pos').forEach(function (d) { d.open = true; }); window.print(); }
     else if (id === 'b-export') {
       var blob = new Blob([JSON.stringify(state, null, 1)], { type: 'application/json' }), a = doc.createElement('a');
@@ -322,6 +438,7 @@
     else if (id === 'b-import') $('f-import').click();
   });
   doc.addEventListener('submit', function (e) {
+    if (e.target.id === 'iv-form') { e.preventDefault(); ivRead(); ivGo(1); return; }
     if (e.target.id !== 'ed-form') return;
     e.preventDefault(); readEditor();
     if (!editing.ticker) { $('ed-err').textContent = L(T.needTicker); return; }
@@ -335,13 +452,14 @@
   doc.addEventListener('change', function (e) {
     var id = e.target.id;
     if (id === 'set-maxDD' || id === 'set-regime' || id === 'set-capital') {
+      if (!$('set-maxDD')) return;
       state.settings.maxDD = Math.min(60, Math.max(3, parseFloat($('set-maxDD').value) || 15)); state.settings.regime = $('set-regime').value; state.settings.capital = $('set-capital').value;
       save(); renderResults();
-    } else if (id === 'ed-ticker' || id === 'ed-sector' || id === 'ed-conviction') { readEditor(); var mk = M.t[editing.ticker]; if (mk) editing.sector = mk.sec; renderEditor(); }
+    } else if (editing && (id === 'ed-ticker' || id === 'ed-sector' || id === 'ed-conviction')) { readEditor(); var mk = M.t[editing.ticker]; if (mk) editing.sector = mk.sec; renderEditor(); }
     else if (id === 'f-import') {
       var file = e.target.files[0]; if (!file) return;
       var rd = new FileReader();
-      rd.onload = function () { var s = null; try { s = clean(JSON.parse(rd.result)); } catch (err) {} if (!s) { alert(L(T.importBad)); return; } state = s; editing = null; save(); render(); };
+      rd.onload = function () { var s = null; try { s = clean(JSON.parse(rd.result)); } catch (err) {} if (!s) { alert(L(T.importBad)); return; } state = s; editing = null; iv = null; save(); render(); };
       rd.readAsText(file);
     }
   });
