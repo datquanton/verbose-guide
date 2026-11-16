@@ -51,28 +51,42 @@
     }
     /* B: a holdings table. Market value = quantity x price; find the number that is the product of two others. */
     var out = list.map(function (r) {
-      var n = r.nums.filter(function (x) { return x > 0; }), val = null, how = null, px = prices[r.ticker];
+      var n = r.nums.filter(function (x) { return x > 0; }), val = null, how = null, px = prices[r.ticker], qty = null, price = null, used = [];
+      var vnd = function (x) { return x < 1000 ? x * 1000 : x; };                 // broker screens show prices in thousands
       for (var i = 0; i < n.length && val == null; i++) for (var j = 0; j < n.length && val == null; j++) {
         if (i === j || n[i] < 1 || n[i] !== Math.round(n[i])) continue;           // n[i] = quantity (whole shares)
         if (px && !(Math.abs(n[j] / px - 1) < 0.2 || Math.abs(n[j] * 1000 / px - 1) < 0.2)) continue;  // n[j] = a price near the last close
         for (var k = 0; k < n.length; k++) {
           if (k === i || k === j) continue;
           var p1 = n[i] * n[j], p2 = p1 * 1000, p3 = p1 / 1000;
-          if (Math.abs(n[k] / p1 - 1) < 0.02 || Math.abs(n[k] / p2 - 1) < 0.02 || Math.abs(n[k] / p3 - 1) < 0.02) { val = n[k]; how = 'product'; break; }
+          if (Math.abs(n[k] / p1 - 1) < 0.02 || Math.abs(n[k] / p2 - 1) < 0.02 || Math.abs(n[k] / p3 - 1) < 0.02) { qty = n[i]; price = n[j]; val = qty * vnd(price); how = 'product'; used = [i, j, k]; break; }
         }
       }
       if (val == null && px) {                                                   // quantity x known close
-        var q = n.filter(function (x) { return x === Math.round(x) && x >= 10 && Math.abs(x / px - 1) > 0.2 && Math.abs(x * 1000 / px - 1) > 0.2; })[0];
-        if (q) { val = q * px; how = 'quantity'; }
+        var qi = -1; n.forEach(function (x, ix) { if (qi < 0 && x === Math.round(x) && x >= 10 && Math.abs(x / px - 1) > 0.2 && Math.abs(x * 1000 / px - 1) > 0.2) qi = ix; });
+        if (qi >= 0) { qty = n[qi]; val = qty * px; how = 'quantity'; used = [qi];
+          n.forEach(function (x, ix) { if (price == null && ix !== qi && Math.abs(vnd(x) / px - 1) < 0.03) { price = x; used.push(ix); } }); if (price == null) price = px; }
       }
       if (val == null && n.length) { val = Math.max.apply(null, n); how = 'largest'; }
-      return { ticker: r.ticker, value: val, how: how, known: r.known };
+      /* cost price: another price-like number on the row, confirmed by the profit/loss % when the screen shows one */
+      var cost = null;
+      if (price != null) {
+        var cand = []; n.forEach(function (x, ix) { if (used.indexOf(ix) < 0 && x / price > 0.25 && x / price < 4) cand.push(x); });
+        var pl = r.pcts.filter(function (x) { return Math.abs(x) < 95; });
+        if (pl.length === 1) {                                                   // price and P/L % pin the cost down; a printed cost that disagrees was misread
+          var implied = price / (1 + pl[0] / 100), near = cand.filter(function (x) { return Math.abs(x / implied - 1) < 0.05; })[0];
+          if (near != null || !cand.length) cost = near != null && Math.abs(near / implied - 1) < 0.002 ? near : implied;
+        }
+        if (cost == null && cand.length === 1 && !pl.length) cost = cand[0];
+      }
+      return { ticker: r.ticker, value: val, how: how, known: r.known, qty: qty, price: price == null ? null : vnd(price), cost: cost == null ? null : Math.round(vnd(cost) / 10) * 10 };
     });
     /* values must share one unit: if some came from quantity x close (VND) and others are in thousands or millions, rescale by median ratio is not safe; flag instead */
     var tot = out.reduce(function (s, r) { return s + (r.value || 0); }, 0);
     out.forEach(function (r) { r.weight = tot > 0 && r.value ? r.value / tot * 100 : null; });
     var mixed = out.some(function (r) { return r.how === 'quantity'; }) && out.some(function (r) { return r.how === 'product' || r.how === 'largest'; });
-    return { mode: 'values', rows: out, unsure: mixed || out.some(function (r) { return r.how === 'largest'; }) };
+    var allVnd = out.every(function (r) { return r.how === 'product' || r.how === 'quantity'; });
+    return { mode: 'values', rows: out, total: allVnd ? tot : null, unsure: mixed || out.some(function (r) { return r.how === 'largest'; }) };
   }
 
   /* ---- browser only: recognise text in an image, on the device ---- */

@@ -5,7 +5,9 @@
   var LI = html.lang === 'en' ? 1 : 0, ROOT = html.getAttribute('data-root') || '../';
   var T = window.PM_TEXT, R = window.PM_RESEARCH, M = window.PM_MARKET, E = window.PM_ENGINE, IN = window.PM_INTAKE;
   var KEY = 'pm-desk-v1', HERE = LI ? '../' : '';   // folder holding the tool's own files
-  E.init(M, R);
+  var CO = window.PM_COMPANY, FX = window.PM_FACTS;
+  if (FX && CO) FX.init(CO, M);
+  E.init(M, R, FX && CO ? FX : null);
 
   /* ---------- helpers ---------- */
   function L(pair) { return pair[LI]; }
@@ -19,7 +21,7 @@
   function date(iso) { var p = iso.split('-'); return LI ? Number(p[2]) + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][p[1] - 1] + ' ' + p[0] : p[2] + '/' + p[1] + '/' + p[0]; }
   function $(id) { return doc.getElementById(id); }
   function secName(s) { return L(R.sectors[s].name); }
-  function srcLink(key) { if (key.indexOf('+') > 0) return key.split('+').map(srcLink).join(' · '); var r = R.reports[key]; return '<a class="src" href="' + ROOT + r.url[LI] + '">' + esc(L(r.title)) + ', ' + date(r.date) + '</a>'; }
+  function srcLink(key) { if (key === 'data') return '<span class="src">' + t(T.dataSrc, { q: CO ? CO.asof : '' }) + '</span>'; if (key.indexOf('+') > 0) return key.split('+').map(srcLink).join(' · '); var r = R.reports[key]; return '<a class="src" href="' + ROOT + r.url[LI] + '">' + esc(L(r.title)) + ', ' + date(r.date) + '</a>'; }
   function uid() { return 'p' + Date.now().toString(36) + Math.floor(Math.random() * 1e4).toString(36); }
 
   /* ---------- state ---------- */
@@ -38,7 +40,7 @@
       var str = function (x, m) { return x == null ? '' : String(x).slice(0, m); };
       var arr = function (a) { return Array.isArray(a) ? a.filter(function (d) { return R.drivers[d]; }) : []; };
       out.positions.push({ id: str(p.id, 24) || uid(), ticker: str(p.ticker, 8).toUpperCase().replace(/[^A-Z0-9]/g, ''), sector: R.sectors[p.sector] ? p.sector : 'other', status: p.status === 'idea' ? 'idea' : 'hold',
-        weight: str(p.weight, 8), conviction: Math.min(5, Math.max(1, parseInt(p.conviction, 10) || 3)), up: str(p.up, 8), down: str(p.down, 8), p: str(p.p, 8), horizon: str(p.horizon, 6),
+        weight: str(p.weight, 8), cost: str(p.cost, 12), qty: str(p.qty, 12), conviction: Math.min(5, Math.max(1, parseInt(p.conviction, 10) || 3)), up: str(p.up, 8), down: str(p.down, 8), p: str(p.p, 8), horizon: str(p.horizon, 6),
         edge: ['none', 'info', 'analysis', 'time', 'behaviour'].indexOf(p.edge) >= 0 ? p.edge : 'none', likes: arr(p.likes), dislikes: arr(p.dislikes), thesis: str(p.thesis, 2000), catalyst: str(p.catalyst, 600), kill: str(p.kill, 600) });
     });
     return out;
@@ -109,13 +111,14 @@
   function intakeFrom(text, fromImage) {
     var kp = known(), r = IN.parse(text, kp.k, kp.px);
     if (r.mode === 'none') { intake = { mode: 'error', msg: L(fromImage ? T.intake.failNone : T.intake.failText), raw: fromImage ? text : '', paste: fromImage ? '' : text }; return; }
-    intake = { mode: 'review', kind: r.mode, unsure: !!r.unsure, raw: fromImage ? text : '', cash: 0,
-      rows: r.rows.map(function (x) { return { ticker: x.ticker, share: x.weight, weight: x.weight == null ? '' : String(Math.round(x.weight * 10) / 10) }; }) };
+    intake = { mode: 'review', kind: r.mode, unsure: !!r.unsure, raw: fromImage ? text : '', cash: 0, total: r.total || null,
+      rows: r.rows.map(function (x) { return { ticker: x.ticker, share: x.weight, weight: x.weight == null ? '' : String(Math.round(x.weight * 10) / 10), cost: x.cost ? String(x.cost) : '', qty: x.qty ? String(x.qty) : '' }; }) };
+    intake.hasCost = intake.rows.some(function (x) { return x.cost; });
   }
   function intakeRescale() { if (intake.kind !== 'values') return; var c = Math.min(99, Math.max(0, parseFloat(intake.cash) || 0)); intake.rows.forEach(function (r) { if (r.share != null) r.weight = String(Math.round(r.share * (100 - c) / 10) / 10); }); }
   function intakeRead() {
     if (!intake || intake.mode !== 'review') return;
-    intake.rows.forEach(function (r, i) { var a = $('in-t' + i), b = $('in-w' + i); if (a) r.ticker = a.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8); if (b) { if (b.value !== r.weight) r.share = null; r.weight = b.value; } });
+    intake.rows.forEach(function (r, i) { var a = $('in-t' + i), b = $('in-w' + i), cc = $('in-c' + i); if (cc) r.cost = cc.value; if (a) r.ticker = a.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8); if (b) { if (b.value !== r.weight) r.share = null; r.weight = b.value; } });
     var c = $('in-cash'); if (c) intake.cash = c.value;
   }
   function renderIntake() {
@@ -125,8 +128,8 @@
       '<p class="btns"><button type="submit" class="btn primary">' + L(I.read) + '</button><button type="button" class="btn" id="b-shot2">' + L(I.shot) + '</button><button type="button" class="btn" id="in-cancel">' + L(T.cancel) + '</button></p>' + (intake.raw ? '<details class="tbl"><summary>' + L(I.raw) + '</summary><pre class="raw">' + esc(intake.raw) + '</pre></details>' : '') + '</form>';
     else {
       var tot = 0, cnt = 0; intake.rows.forEach(function (r) { var w = parseFloat(r.weight); if (r.ticker && w > 0) { tot += w; cnt++; } });
-      h = '<form class="iv" id="in-review"><p class="ivq">' + L(I.reviewQ) + '</p><p class="sub">' + L(I.reviewHint) + '</p>' + (intake.unsure ? '<p class="warn">' + L(I.unsure) + '</p>' : '') + '<div class="inrows">' +
-        intake.rows.map(function (r, i) { var mk = M.t[r.ticker]; return '<div class="inrow"><input type="text" id="in-t' + i + '" aria-label="' + esc(L(T.fTicker)) + '" list="ticker-list" maxlength="8" value="' + esc(r.ticker) + '"><input type="number" id="in-w' + i + '" aria-label="' + esc(L(T.thWeight)) + '" min="0" max="100" step="0.1" inputmode="decimal" value="' + esc(r.weight) + '"><span class="pc">%</span><span class="sub nm">' + esc(mk ? mk.name : (r.ticker ? L(I.notKnown) : '')) + '</span><button type="button" class="lnk" data-inrm="' + i + '">' + L(T.remove) + '</button></div>'; }).join('') + '</div>' +
+      h = '<form class="iv" id="in-review" novalidate><p class="ivq">' + L(I.reviewQ) + '</p><p class="sub">' + L(I.reviewHint) + '</p>' + (intake.unsure ? '<p class="warn">' + L(I.unsure) + '</p>' : '') + (intake.hasCost ? '<p class="sub">' + L(I.costAuto) + '</p>' : '') + '<div class="inrows' + (intake.kind === 'values' ? ' wide' : '') + '">' +
+        intake.rows.map(function (r, i) { var mk = M.t[r.ticker]; return '<div class="inrow"><input type="text" id="in-t' + i + '" aria-label="' + esc(L(T.fTicker)) + '" list="ticker-list" maxlength="8" value="' + esc(r.ticker) + '"><input type="number" id="in-w' + i + '" aria-label="' + esc(L(T.thWeight)) + '" min="0" max="100" step="0.1" inputmode="decimal" value="' + esc(r.weight) + '"><span class="pc">%</span>' + (intake.kind === 'values' ? '<input type="number" id="in-c' + i + '" aria-label="' + esc(L(T.costCol)) + '" placeholder="' + esc(L(T.costCol)) + '" min="0" step="any" inputmode="decimal" value="' + esc(r.cost) + '">' : '') + '<span class="sub nm">' + esc(mk ? mk.name : (r.ticker ? L(I.notKnown) : '')) + '</span><button type="button" class="lnk" data-inrm="' + i + '">' + L(T.remove) + '</button></div>'; }).join('') + '</div>' +
         '<p class="sub">' + t(I.total, { v: n(tot) }) + '</p>' +
         (intake.kind === 'values' ? '<label class="fld inline"><span class="lab">' + L(I.cash) + '</span><input type="number" id="in-cash" min="0" max="99" step="1" inputmode="decimal" value="' + esc(intake.cash) + '"><span class="hint">' + L(I.cashHint) + '</span></label>' : '') +
         '<p class="btns"><button type="submit" class="btn primary">' + t(I.use, { n: cnt }) + '</button><button type="button" class="btn" id="in-add">' + L(I.addRow) + '</button><button type="button" class="btn" id="in-cancel">' + L(T.cancel) + '</button></p>' +
@@ -147,9 +150,10 @@
     intake.rows.forEach(function (r) {
       var w = parseFloat(r.weight); if (!r.ticker || !(w > 0)) return;
       var ex = state.positions.filter(function (p) { return p.ticker === r.ticker; })[0];
-      if (ex) { ex.weight = String(w); ex.status = 'hold'; }
-      else { var p = blank(); p.ticker = r.ticker; p.weight = String(w); if (M.t[r.ticker]) p.sector = M.t[r.ticker].sec; state.positions.push(p); }
+      if (ex) { ex.weight = String(w); ex.status = 'hold'; if (r.cost) ex.cost = r.cost; if (r.qty) ex.qty = r.qty; }
+      else { var p = blank(); p.ticker = r.ticker; p.weight = String(w); p.cost = r.cost || ''; p.qty = r.qty || ''; if (M.t[r.ticker]) p.sector = M.t[r.ticker].sec; state.positions.push(p); }
     });
+    if (intake.total && !parseFloat(state.settings.capital)) { var cash = Math.min(99, Math.max(0, parseFloat(intake.cash) || 0)); state.settings.capital = String(Math.round(intake.total / 1e9 / (1 - cash / 100) * 100) / 100); }
     state.settings.asked = true; state = clean(state); intake = null; iv = null; editing = null; save(); render();
     var c = $('nhan-dinh'); if (c) c.scrollIntoView({ block: 'start' });
   }
@@ -269,6 +273,7 @@
       field(L(T.fUp), '<input type="number" id="ed-up" min="0" max="1000" step="1" inputmode="decimal" value="' + esc(p.up) + '">') +
       field(L(T.fDown), '<input type="number" id="ed-down" min="0" max="100" step="1" inputmode="decimal" value="' + esc(p.down) + '">', L(T.fDownHint)) +
       field(L(T.fProb), '<input type="number" id="ed-p" min="1" max="99" step="1" inputmode="decimal" placeholder="' + defP + '" value="' + esc(p.p) + '">', t(T.fProbHint, { p: defP })) +
+      field(L(T.fCost), '<input type="number" id="ed-cost" min="0" step="any" inputmode="decimal" value="' + esc(p.cost) + '">') +
       field(L(T.fHorizon), '<input type="number" id="ed-horizon" min="1" max="120" step="1" inputmode="numeric" value="' + esc(p.horizon) + '">') +
       field(L(T.fEdge), '<select id="ed-edge">' + ['none', 'info', 'analysis', 'time', 'behaviour'].map(function (k) { return opt(k, L(T['edge' + k.charAt(0).toUpperCase() + k.slice(1)]), p.edge); }).join('') + '</select>') + '</div>' +
       '<div class="fld"><span class="lab">' + L(T.fLikes) + '</span>' + chips('like', p.likes, sec) + '</div>' +
@@ -281,11 +286,11 @@
   }
   function readEditor() {
     if (!editing) return;
-    ['ticker', 'sector', 'status', 'weight', 'conviction', 'up', 'down', 'p', 'horizon', 'edge', 'thesis', 'catalyst', 'kill'].forEach(function (k) { var el = $('ed-' + k); if (el) editing[k] = el.value; });
+    ['ticker', 'sector', 'status', 'weight', 'cost', 'conviction', 'up', 'down', 'p', 'horizon', 'edge', 'thesis', 'catalyst', 'kill'].forEach(function (k) { var el = $('ed-' + k); if (el) editing[k] = el.value; });
     editing.ticker = editing.ticker.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
     editing.conviction = parseInt(editing.conviction, 10) || 3;
   }
-  function blank() { return { id: uid(), ticker: '', sector: 'other', status: 'hold', weight: '', conviction: 3, up: '', down: '', p: '', horizon: '', edge: 'none', likes: [], dislikes: [], thesis: '', catalyst: '', kill: '' }; }
+  function blank() { return { id: uid(), ticker: '', sector: 'other', status: 'hold', weight: '', cost: '', qty: '', conviction: 3, up: '', down: '', p: '', horizon: '', edge: 'none', likes: [], dislikes: [], thesis: '', catalyst: '', kill: '' }; }
 
   /* ---------- section 2: consult ---------- */
   function tile(label, value, note, cls) { return '<div class="tile"><div class="label">' + label + '</div><div class="value' + (cls ? ' ' + cls : '') + '">' + value + '</div><div class="note">' + note + '</div></div>'; }
@@ -307,6 +312,8 @@
       case 'illiquid': v = { t: d.t, d: n0(Math.ceil(d.days)) }; break;
       case 'convMismatch': v = { big: d.big, bw: g(d.bigW), bc: d.bigConv, small: d.small, sw: g(d.smallW), sc: d.smallConv }; break;
       case 'pair': v = { a: d.a, b: d.b, c: n(d.c, 2) }; break;
+      case 'pastStop': v = { t: d.t, pl: sg(d.pl) + '%', d: g(d.d) }; break;
+      case 'losers': v = { list: d.rows.map(function (x) { return x.t + ' (' + sg(x.pl) + '%)'; }).join(', ') }; break;
       case 'stale': v = { list: d.list.join(', '), d: d.days }; break;
       case 'priceStale': v = { d: d.days }; break;
       default: v = { list: (d.list || []).join(', ') };
@@ -331,6 +338,7 @@
         tile(L(T.tBets), n(now.neff), t(T.tBetsNote, { n: now.n, c: now.avgCorr == null ? '–' : n(now.avgCorr, 2) })) +
         tile(L(T.tVol), '−' + n(now.badMonth) + '%', t(T.tVolNote, { v: n(now.vol), b: n(now.beta, 2) })) +
         (a.positions.some(function (m) { return m.status === 'hold' && m.complete; }) ? tile(L(T.tStress), '−' + n(now.stress) + '%', t(T.tStressNote, { m: g(a.maxDD) }), now.stress > a.maxDD ? 'down' : '') : tile(L(T.tStress), '–', L(T.tStressNA))) + '</div>';
+      if (a.onCost) { var oc = a.onCost; h += '<p class="after oncost">' + t(T.costSum, { pl: sg(oc.pl) + '%', l: oc.losing, n: oc.n, lt: oc.worst.ticker, lp: sg(oc.worst.pl) + '%', wt: oc.best.ticker, wp: sg(oc.best.pl) + '%' }) + '</p>'; }
       if (aft.n && a.positions.some(function (m) { return m.suggest != null; })) h += '<p class="after">' + t(T.afterLine, { inv: n0(aft.invested), neff: n(aft.neff), bad: n(aft.badMonth), stress: n(aft.stress) }) + (aft.invested < reg.band[0] - 0.5 ? ' ' + t(T.afterLow, { lo: reg.band[0], hi: reg.band[1] }) : '') + '</p>';
     }
 
@@ -369,10 +377,23 @@
     return '<div class="ev ' + cls + '"><p class="lab">' + title + ' (' + arr.length + ')</p><ul>' + arr.map(function (e) { return '<li>' + esc(L(e.text)) + ' ' + srcLink(e.src) + '</li>'; }).join('') + '</ul></div>';
   }
 
+  function factCard(tk) {
+    var c = FX && CO ? FX.card(tk) : null; if (!c) return '';
+    var mx = 0; c.np.forEach(function (v) { if (v != null) mx = Math.max(mx, Math.abs(v)); });
+    var neg = c.np.some(function (v) { return v < 0; });
+    var bars = c.np.map(function (v, i) {
+      var hgt = v == null || !mx ? 0 : Math.max(2, Math.abs(v) / mx * (neg ? 50 : 100));
+      return '<div class="fb' + (i === c.np.length - 1 ? ' cur' : '') + (v < 0 ? ' neg' : '') + '" title="' + esc(c.q[i]) + ': ' + (v == null ? '–' : px(v)) + '"><span class="fv">' + (v == null ? '–' : Math.abs(v) >= 10000 ? n(v / 1000, 1) + (LI ? 'k' : 'k') : px(v)) + '</span><div class="fbar" style="height:' + hgt.toFixed(0) + '%"></div><span class="fq">' + esc(c.q[i]) + '</span></div>';
+    }).join('');
+    return '<div class="facts"><h4>' + L(T.factH) + '</h4><div class="factgrid"><div><p class="lab">' + L(T.factBars) + '</p><div class="fbars' + (neg ? ' hasneg' : '') + '">' + bars + '</div></div><dl class="fstats">' +
+      c.stats.map(function (s) { return '<div><dt>' + esc(L(s.label)) + '</dt><dd>' + esc(L(s.value)) + (L(s.note) ? ' <span class="sub">' + esc(L(s.note)) + '</span>' : '') + '</dd></div>'; }).join('') +
+      '</dl></div><p class="sub">' + t(T.factSrc, { q: c.asof }) + '</p></div>';
+  }
   function positionCard(m, a, open) {
     var p = state.positions.filter(function (x) { return x.id === m.id; })[0] || {}, mk = m.mk, ev = m.ev_, reg = a.regime;
     var h = '<details class="pos"' + (open ? ' open' : '') + '><summary><span class="tk">' + esc(m.ticker) + '</span><span class="nm">' + esc(mk ? mk.name : '') + ' · ' + secName(m.sector) + '</span><span class="wt">' + g(m.weight) + '% → ' + (m.suggest == null ? '–' : g(m.suggest) + '%') + '</span><span class="pill act-' + m.action + '">' + L(T.act[m.action]) + '</span></summary><div class="posbody">';
     if (p.thesis) h += '<blockquote>' + esc(p.thesis) + '</blockquote>';
+    h += factCard(m.ticker);
 
     /* numbers */
     h += '<h4>' + L(T.pNumbers) + '</h4>';
@@ -393,7 +414,7 @@
     if (mk) {
       var d200 = mk.d200 != null ? mk.d200 : mk.d50;
       h += '<p>' + (m.trend === 'unknown' ? L(T.pTrend.unknown) : t(T.pTrend[m.trend], { a: sg(d200), b: sg(mk.rs3m) })) + ' ' + t(T.pVol, { v: n(mk.vol), m: n(m.monthSigma), dd: n(mk.dd), b: n(mk.beta, 2) }) + '</p>' +
-        '<p class="sub">' + t(T.pVal, { pe: mk.pe > 60 ? '>60' : n(mk.pe), pb: n(mk.pb, 2), adtv: n0(mk.adtv), px: px(mk.px), date: date(mk.asof) }) + (m.exitDays != null && m.exitDays >= 1 ? ' ' + t(T.pExit, { d: n0(Math.ceil(m.exitDays)) }) : '') + '</p>';
+        '<p class="sub">' + t(T.pVal, { pe: mk.pe > 60 ? '>60' : n(mk.pe), pb: n(mk.pb, 2), adtv: n0(mk.adtv), px: px(mk.px), date: date(mk.asof) }) + (m.exitDays != null && m.exitDays >= 1 ? ' ' + t(T.pExit, { d: n0(Math.ceil(m.exitDays)) }) : '') + '</p>' + (m.pl != null ? '<p><strong>' + t(T.costLine, { c: px(m.cost), pl: sg(m.pl) + '%' }) + '</strong></p>' : '');
     } else h += '<p>' + t(T.pNoMk, { v: n(m.vol) }) + '</p>';
 
     /* research */
@@ -429,7 +450,7 @@
     h += '<h4>' + L(T.pPlan) + '</h4><p><strong>' + t(T.plan[key], { w: g(m.weight), s: g(m.suggest || 0) }) + '</strong></p><ul class="plan">';
     h += '<li>' + (m.hasKill ? t(T.xThesis, { k: p.kill }) : L(T.xThesisNone)) + '</li>';
     if (m.complete) {
-      h += '<li>' + (mk ? t(T.xPrice, { px: px(mk.px * (1 - m.down / 100)), d: g(m.down), date: date(mk.asof) }) : t(T.xPriceNo, { d: g(m.down) })) + (m.noise ? ' <span class="warn">' + t(T.xNoise, { m: n(m.monthSigma) }) + '</span>' : '') + '</li>';
+      h += '<li>' + (m.cost && m.status === 'hold' ? t(T.xPriceCost, { px: px(m.cost * (1 - m.down / 100)), d: g(m.down), c: px(m.cost) }) + (m.pastStop ? ' <span class="warn">' + t(T.xPast, { now: px(mk.px) }) + '</span>' : '') : mk ? t(T.xPrice, { px: px(mk.px * (1 - m.down / 100)), d: g(m.down), date: date(mk.asof) }) : t(T.xPriceNo, { d: g(m.down) })) + (m.noise ? ' <span class="warn">' + t(T.xNoise, { m: n(m.monthSigma) }) + '</span>' : '') + '</li>';
       h += '<li>' + (mk ? t(T.xTarget, { px: px(mk.px * (1 + m.up / 100)), u: g(m.up) }) : t(T.xTargetNo, { u: g(m.up) })) + '</li>';
     }
     h += '<li>' + (m.horizon ? t(T.xTime, { h: g(m.horizon) }) : L(T.xTimeNo)) + '</li><li>' + t(T.xSize, { c: m.cap }) + '</li></ul>';
@@ -448,7 +469,7 @@
   function renderStatic() {
     doc.querySelectorAll('[data-t]').forEach(function (el) { el.textContent = L(T[el.getAttribute('data-t')]); });
     var h = '<h2 id="khung-tu-duy">' + L(T.s3) + '</h2><p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>';
-    h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof) }) + '</li>'; }).join('') + '</ul>';
+    h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>';
     h += '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul><p class="disclaimer">' + L(T.disclaimer) + '</p>';
     $('pm-static').innerHTML = h;
     $('ticker-list').innerHTML = M.order.map(function (k) { return '<option value="' + k + '">' + esc(M.t[k].name) + '</option>'; }).join('');

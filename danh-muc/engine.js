@@ -16,9 +16,9 @@
     pairCorr: 0.7
   };
 
-  var M = null, R = null, IDX = {};
-  function init(market, research) {
-    M = market; R = research; IDX = {};
+  var M = null, R = null, F = null, IDX = {};
+  function init(market, research, facts) {
+    M = market; R = research; F = facts || null; IDX = {};
     M.order.forEach(function (t, i) { IDX[t] = i; });
   }
 
@@ -88,6 +88,10 @@
     }
     var d200 = mk ? (mk.d200 != null ? mk.d200 : mk.d50) : null, rs = mk ? mk.rs3m : null;
     o.trend = mk == null || d200 == null ? 'unknown' : (d200 > 0 && (rs == null || rs > 0)) ? 'confirm' : (d200 < -5 && (rs == null || rs < 0)) ? 'against' : 'mixed';
+    /* the investor's own cost: profit or loss against the last close */
+    var cost = num(p.cost); if (cost != null && cost > 0 && cost < 1000) cost *= 1000;
+    o.cost = cost > 0 ? cost : null; o.pl = o.cost && mk ? (mk.px / o.cost - 1) * 100 : null;
+    o.pastStop = o.pl != null && o.complete && o.status === 'hold' && o.pl <= -D;
     o.hasThesis = !!(p.thesis && p.thesis.trim()); o.hasKill = !!(p.kill && p.kill.trim()); o.hasCatalyst = !!(p.catalyst && p.catalyst.trim());
     o.edge = p.edge || 'none'; o.horizon = num(p.horizon);
     return o;
@@ -167,6 +171,15 @@
       else if (disliked) (c.dir < 0 ? out.agree : out.challenge).push(e);
       else (c.dir < 0 ? out.blindRisk : out.blindSupport).push(e);
     });
+    /* data-derived evidence from the company's own statements */
+    if (F) F.signals(p.ticker).forEach(function (c) {
+      var e = { text: c.text, src: c.src, driver: c.driver, dir: c.dir, lvl: 3 };
+      out.tickerLevel = true; out.data = true; if (c.dir > 0) out.forN++; else out.againstN++;
+      var liked = likes.indexOf(c.driver) >= 0, disliked = dislikes.indexOf(c.driver) >= 0;
+      if (liked) (c.dir > 0 ? out.agree : out.challenge).push(e);
+      else if (disliked) (c.dir < 0 ? out.agree : out.challenge).push(e);
+      else (c.dir < 0 ? out.blindRisk : out.blindSupport).push(e);
+    });
     ['agree', 'challenge', 'blindRisk', 'blindSupport'].forEach(function (k) { out[k].sort(function (a, b) { return b.lvl - a.lvl; }); });
     return out;
   }
@@ -193,6 +206,7 @@
     return q;
   }
 
+  function held2(ms) { return ms.filter(function (m) { return m.status === 'hold' && m.weight > 0; }); }
   function analyse(state, today) {
     today = today || new Date().toISOString().slice(0, 10);
     var settings = state.settings || {}, reg = regime(settings, today);
@@ -247,6 +261,9 @@
       if (noKill.length) add('noKill', 2, 'buffett', { list: noKill.map(function (m) { return m.ticker; }) });
       var noNum = held.filter(function (m) { return !m.complete; });
       if (noNum.length) add('noNumbers', 2, 'druck', { list: noNum.map(function (m) { return m.ticker; }) });
+      held.forEach(function (m) { if (m.pastStop) add('pastStop', 3, 'druck', { t: m.ticker, pl: m.pl, d: m.down }); });
+      var losers = held.filter(function (m) { return m.pl != null && m.pl <= -15 && m.trend === 'against' && !m.pastStop; });
+      if (losers.length) add('losers', 2, 'druck', { rows: losers.map(function (m) { return { t: m.ticker, pl: m.pl }; }) });
       var noEdge = held.filter(function (m) { return m.edge === 'none'; });
       if (noEdge.length) add('noEdge', 1, 'dalio', { list: noEdge.map(function (m) { return m.ticker; }) });
     }
@@ -257,7 +274,15 @@
     if (reg.priceAge > RULES.priceStaleDays) add('priceStale', 2, 'method', { days: reg.priceAge });
     f.sort(function (a, b) { return b.sev - a.sev; });
 
-    return { regime: reg, positions: ms, now: now, after: after, findings: f, maxDD: maxDD, capital: capital, rules: RULES };
+    /* profit or loss on cost across the book, where cost is known for at least half of what is held */
+    var cw = 0, cv = 0, cc = 0, withCost = held2(ms).filter(function (m) { return m.pl != null; });
+    withCost.forEach(function (m) { cw += m.weight; cv += m.weight; cc += m.weight / (1 + m.pl / 100); });
+    var onCost = null;
+    if (withCost.length && cw >= now.invested * 0.5) {
+      var srt = withCost.slice().sort(function (a, b) { return a.pl - b.pl; });
+      onCost = { pl: (cv / cc - 1) * 100, n: withCost.length, losing: withCost.filter(function (m) { return m.pl < 0; }).length, worst: srt[0], best: srt[srt.length - 1] };
+    }
+    return { onCost: onCost, regime: reg, positions: ms, now: now, after: after, findings: f, maxDD: maxDD, capital: capital, rules: RULES };
   }
 
   var API = { init: init, analyse: analyse, RULES: RULES, sectorOf: sectorOf };

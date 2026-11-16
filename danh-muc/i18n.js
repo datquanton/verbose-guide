@@ -73,6 +73,7 @@ window.PM_TEXT = {
   },
   /* ---- screenshot and paste intake ---- */
   intake: {
+    costAuto: ['Giá vốn và khối lượng được đọc từ ảnh nếu có; hãy kiểm tra lại.', 'Cost price and quantity are read from the image where shown; please check them.'],
     shot: ['Tải ảnh chụp danh mục', 'Upload a portfolio screenshot'], paste: ['Dán danh sách', 'Paste a list'],
     reading: ['Đang đọc ảnh ngay trên thiết bị của bạn… {p}%', 'Reading the image on your device… {p}%'],
     readingNote: ['Ảnh không được gửi đi đâu. Lần đầu mất vài giây để tải bộ nhận dạng chữ (khoảng 7 MB).', 'The image is not sent anywhere. The first time takes a few seconds to load the text reader (about 7 MB).'],
@@ -91,6 +92,17 @@ window.PM_TEXT = {
     need: ['Đã có tỷ trọng. Để tính quy mô hợp lý và đối chiếu với nghiên cứu, hãy trả lời vài câu hỏi về:', 'Weights are in. To size each position and test it against the research, answer a few questions about:'],
     askFor: ['Trả lời câu hỏi về {t}', 'Answer the questions about {t}']
   },
+  /* ---- company facts and cost ---- */
+  factH: ['Số liệu doanh nghiệp', 'Company facts'],
+  factBars: ['Lợi nhuận công ty mẹ theo quý, tỷ đồng', 'Profit to parent by quarter, VND bn'],
+  factSrc: ['Báo cáo tài chính hợp nhất đến {q}, qua FiinQuantX. Tỷ lệ tính trên 12 tháng gần nhất; số quý gần nhất chưa kiểm toán.', 'Consolidated statements to {q}, via FiinQuantX. Ratios are trailing twelve months; the latest quarter is unaudited.'],
+  dataSrc: ['Báo cáo tài chính {q}, FiinQuantX', 'Financial statements {q}, FiinQuantX'],
+  fCost: ['Giá vốn (đồng/cổ phiếu, không bắt buộc)', 'Cost price (VND per share, optional)'],
+  costCol: ['Giá vốn', 'Cost'],
+  costLine: ['Giá vốn của bạn là {c}; bạn đang {pl} so với giá vốn.', 'Your cost is {c}; you are {pl} on cost.'],
+  costSum: ['So với giá vốn: cả danh mục {pl}; {l}/{n} vị thế đang dưới giá vốn. Lỗ nhiều nhất: {lt} ({lp}). Lãi nhiều nhất: {wt} ({wp}).', 'Against cost: the portfolio is {pl}; {l} of {n} positions are below cost. Largest loss: {lt} ({lp}). Largest gain: {wt} ({wp}).'],
+  xPriceCost: ['Bán vì giá: {px} (−{d}% từ giá vốn {c}).', 'Price stop: {px} (−{d}% from your cost of {c}).'],
+  xPast: ['Giá hiện tại ({now}) đã thấp hơn mức này: bạn đang lỗ nhiều hơn mức bạn nói sẽ chấp nhận.', 'The current price ({now}) is already below this: you are losing more than you said you would accept.'],
   /* ---- section 2: consult ---- */
   s2: ['2 · Nhận định', '2 · The consult'],
   tInvested: ['Đang đầu tư', 'Invested'], tInvestedNote: ['Tiền mặt {cash}% · vùng hợp lý {lo}–{hi}%', 'Cash {cash}% · working range {lo}–{hi}%'],
@@ -198,6 +210,8 @@ window.PM_TEXT = {
   },
   /* findings: [title, explanation] */
   f: {
+    pastStop: [['{t} đang {pl} so với giá vốn, quá mức lỗ {d}% bạn nói sẽ chấp nhận', '{t} is {pl} on cost, beyond the {d}% loss you said you would accept'], ['Hoặc thực hiện kế hoạch, hoặc viết lại kế hoạch kèm lý do. Đừng để vị thế tự trôi.', 'Either act on the plan or rewrite it with a reason. Do not let the position drift.']],
+    losers: [['Đang giữ vị thế lỗ mà giá vẫn yếu hơn thị trường: {list}', 'Holding losers the price is still rejecting: {list}'], ['Các vị thế này thấp hơn giá vốn trên 15% và vẫn đi sau thị trường. Người ta hay giữ lỗ để chờ về hòa vốn, nhưng thị trường không biết giá vốn của bạn. Hãy tự hỏi: nếu hôm nay chưa nắm, bạn có mua không?', 'These are more than 15% below your cost and still lagging the market. People hold losers waiting to get back to even, but the market does not know your cost. Ask yourself: if you did not own it today, would you buy it?']],
     leverage: [['Tổng tỷ trọng {v}% vượt 100%', 'Total weight of {v}% exceeds 100%'], ['Bạn đang dùng đòn bẩy, hoặc các tỷ trọng chưa cộng đúng. Với đòn bẩy, một tháng xấu có thể buộc bạn bán ở đáy.', 'You are using leverage, or the weights do not add up. With leverage, one bad month can force you to sell at the low.']],
     overInvested: [['Đang đầu tư {v}% khi thanh khoản {r}', '{v}% invested while liquidity is {r}'], ['Vùng hợp lý trong bối cảnh này là tối đa {hi}%. Tiền mặt là quyền mua khi người khác buộc phải bán.', 'The working ceiling in this backdrop is {hi}%. Cash is the option to buy when others are forced to sell.']],
     underInvested: [['Mới đầu tư {v}%', 'Only {v}% invested'], ['Thấp hơn vùng {lo}% trở lên của bối cảnh hiện tại. Không sai, nếu đó là lựa chọn có chủ đích chứ không phải do chần chừ.', 'Below the {lo}%-plus range for this backdrop. Not wrong, provided it is a deliberate choice and not hesitation.']],
@@ -235,6 +249,7 @@ window.PM_TEXT = {
     ['Dữ liệu giá: {n} mã, {s} phiên đến {d}, giá đóng cửa điều chỉnh từ FiinQuantX. Biến động là độ lệch chuẩn lợi suất ngày quy năm; tương quan tính trên lợi suất ngày; "tháng xấu" là 1,65 lần độ lệch chuẩn tháng, giả định phân phối chuẩn nên thực tế có thể tệ hơn. Một năm dữ liệu là mẫu ngắn: tương quan tăng mạnh khi thị trường giảm.', 'Price data: {n} tickers, {s} sessions to {d}, adjusted closes from FiinQuantX. Volatility is the annualised standard deviation of daily returns; correlation is computed on daily returns; a "bad month" is 1.65 monthly standard deviations and assumes a normal distribution, so reality can be worse. One year is a short sample: correlations rise sharply when the market falls.'],
     ['Số cược độc lập = (tổng rủi ro từng vị thế)² ÷ phương sai danh mục. Bằng số vị thế khi chúng không tương quan và cùng rủi ro; bằng 1 khi chúng di chuyển như một.', 'Independent bets = (sum of position risks)² ÷ portfolio variance. It equals the number of positions when they are uncorrelated and equally risky, and 1 when they move as one.'],
     ['Bằng chứng nghiên cứu lấy từ các báo cáo trên trang này (cập nhật {r}); mỗi dòng dẫn về báo cáo nguồn. Các ngành chưa có báo cáo chỉ có dữ liệu giá. Công cụ so khớp theo các mục bạn chọn, không đọc hiểu phần văn bản bạn viết. Ảnh chụp danh mục được nhận dạng chữ ngay trên thiết bị (Tesseract), có thể đọc sai số, nên luôn có bước kiểm tra lại.', 'Research evidence comes from the reports on this site (as of {r}); each line links to its source report. Sectors without a report have price data only. The tool matches on the tags you select; it does not interpret the free text you write. A portfolio screenshot is read on the device (Tesseract text recognition) and can misread figures, which is why there is always a review step.'],
+    ['Số liệu doanh nghiệp: báo cáo tài chính hợp nhất 11 quý đến {q} của {n} mã, lấy từ FiinQuantX. Lợi nhuận là lợi nhuận thuộc về công ty mẹ theo từng quý; ROE, biên lãi, NIM, chi phí vốn là số 12 tháng gần nhất của nhà cung cấp dữ liệu, nên có thể khác số quý trong các báo cáo ngành. Các nhận xét rút ra từ số liệu chỉ nêu điều đã xảy ra, không dự báo. Khi so P/B với lịch sử, "lịch sử" chỉ là 11 quý, một khoảng ngắn.', 'Company facts: 11 quarters of consolidated statements to {q} for {n} tickers, from FiinQuantX. Profit is profit to parent by single quarter; ROE, margins, NIM and cost of funds are the data provider’s trailing-twelve-month figures, so they can differ from the single-quarter figures in the sector reports. Statements derived from the data say what happened; they do not forecast. Where P/B is compared with its history, "history" is only 11 quarters, a short span.'],
     ['Công cụ không biết thuế, phí, nhu cầu tiền mặt, thu nhập hay các tài sản khác của bạn, và không biết giá hôm nay. Mọi con số "gợi ý" là hệ quả số học của dữ liệu bạn nhập.', 'The tool does not know your taxes, fees, cash needs, income or other assets, and it does not know today’s price. Every "suggested" figure is the arithmetic consequence of the inputs you gave.']
   ],
   disclaimer: ['Nghiên cứu cá nhân, không phải khuyến nghị đầu tư. Đây là công cụ kiểm tra lập luận: nó không biết hoàn cảnh tài chính của bạn và không khuyến nghị mua hay bán chứng khoán nào. Quyết định và trách nhiệm thuộc về bạn; hãy tham khảo chuyên gia có giấy phép trước khi hành động.', 'Personal research, not investment advice. This is a reasoning check: it does not know your financial circumstances and does not recommend buying or selling any security. The decision and the responsibility are yours; consult a licensed adviser before acting.'],

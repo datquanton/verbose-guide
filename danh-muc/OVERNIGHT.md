@@ -46,6 +46,9 @@ can only make the page more correct, never less, and leaves a log a human can ch
 > **Stage 6 · Freshness.** If the market data connector is available, rebuild `market.js` (see `README.md`) and
 > update the dates in both page shells. If it is not, log the age of the data and stop there.
 >
+> Also in stage 6: in the six weeks after a quarter-end, rebuild `company.js` the same way (see `README.md`), and check
+> three companies' latest-quarter profit against a report on this site before committing.
+>
 > **Stage 7 · Log.** Append to the run log: date, commits, what changed, what failed, open questions for the owner.
 
 ## Run log
@@ -92,3 +95,15 @@ Tested on synthetic broker screenshots only: light, dark, phone, low resolution,
 2. The sizing constants in `RULES` remain my conventions. They decide every suggested number.
 3. `danh-muc/` is still not registered with the site generator; a rebuild will remove the homepage link.
 4. This file is served publicly at `/danh-muc/OVERNIGHT.md`, as is every file in the site folder. Move it to the vault if you prefer.
+
+### 2026-11-16 · owner-directed session
+
+Not a scheduled run. Two additions:
+1. The screenshot reader now keeps quantity, market price and cost price, cross-checks cost against the profit/loss % shown
+   on screen (this corrected a misread cost in testing), sets portfolio size from the total, and the consult reports
+   profit or loss on cost, losing positions the price is still rejecting, and positions already past the stated loss limit.
+2. Company fact base (`company.js`, `facts.js`): 11 quarters for all 77 tickers from FiinQuantX, shown as a fact card per
+   holding and as data-derived evidence. Verified: provider ratios are trailing twelve months (HPG gross margin reproduced
+   from raw statements); spot figures match the site's reports (VCB provisions 776 → 6,184bn; GVR other income 1,998bn;
+   VJC financial income 464bn against pre-tax profit 410bn; HPG profit to parent 8,217bn).
+   Limits: valuation history is 11 quarters only and absent for banks; DMX has 6 quarters; TCX, MBS and BVH trigger no data signal.
