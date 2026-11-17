@@ -34,6 +34,8 @@ can only make the page more correct, never less, and leaves a log a human can ch
 > a larger loss-if-wrong never raises the size; a higher probability never lowers it; negative expected value
 > always gives zero; an empty or malformed portfolio never throws.
 >
+> (The default layout is the simplified one; add `?v=1` to a page address to test the earlier long layout, kept as a fallback.)
+>
 > **Stage 4 · The page as a stranger meets it.** In a real browser, in both languages, at phone and desktop
 > width, light and dark: complete the interview by keyboard only; import malformed and hostile files; check for
 > console errors, broken links, horizontal scroll, unfilled placeholders, unlabeled controls, and contrast.
@@ -116,3 +118,5 @@ positions with loss levels scaled to each stock's volatility, one row per stock 
 and every detail section, the portfolio table, settings, backdrop, frameworks and method collapsed until opened.
 On the same test portfolio the page is 2,964px tall against 10,219px before.
 Also fixed on the default page: a style-name collision introduced on 16 Nov that displaced the explanation under each finding.
+Later the same day, on the owner's approval: the simplified layout is now the default. The earlier long layout stays
+reachable at `?v=1` as a fallback and can be deleted once the new one has been used for a while.

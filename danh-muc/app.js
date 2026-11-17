@@ -4,7 +4,7 @@
   var doc = document, html = doc.documentElement;
   var LI = html.lang === 'en' ? 1 : 0, ROOT = html.getAttribute('data-root') || '../';
   var T = window.PM_TEXT, R = window.PM_RESEARCH, M = window.PM_MARKET, E = window.PM_ENGINE, IN = window.PM_INTAKE;
-  var V2 = /[?&]v=2\b/.test(location.search); if (V2) html.classList.add('pm-v2');
+  var V2 = !/[?&]v=1\b/.test(location.search); if (V2) html.classList.add('pm-v2');   // ?v=1 keeps the earlier long layout reachable
   var KEY = 'pm-desk-v1', HERE = LI ? '../' : '';   // folder holding the tool's own files
   var CO = window.PM_COMPANY, FX = window.PM_FACTS;
   if (FX && CO) FX.init(CO, M);
@@ -536,8 +536,8 @@
     h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>';
     var srcs = '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul>';
     if (V2) { h = sec(L(T.v2.fwSum), '<p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>', false, 'flat') + sec(L(T.v2.methodSum), '<ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>' + srcs, false, 'flat') + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
-      doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=2'; }); }
-    else h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
+    }
+    else { h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>'; doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=1'; }); }
     $('pm-static').innerHTML = h;
     $('ticker-list').innerHTML = M.order.map(function (k) { return '<option value="' + k + '">' + esc(M.t[k].name) + '</option>'; }).join('');
   }
@@ -587,7 +587,7 @@
     else if (id === 'ed-cancel') { editing = null; iv = null; renderInput(); if (V2) renderResults(); }
     else if (id === 'b-example') { if (!state.positions.length || confirm(L(T.confirmExample))) loadExample(); }
     else if (id === 'b-clear') { if (confirm(L(T.confirmClear))) { state.positions = []; editing = null; iv = null; save(); render(); } }
-    else if (id === 'b-print') { doc.querySelectorAll('details.pos').forEach(function (d) { d.open = true; }); window.print(); }
+    else if (id === 'b-print') { doc.querySelectorAll('details.pos, details.sec').forEach(function (d) { d.open = true; }); window.print(); }
     else if (id === 'b-export') {
       var blob = new Blob([JSON.stringify(state, null, 1)], { type: 'application/json' }), a = doc.createElement('a');
       a.href = URL.createObjectURL(blob); a.download = 'danh-muc-' + new Date().toISOString().slice(0, 10) + '.json'; doc.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
