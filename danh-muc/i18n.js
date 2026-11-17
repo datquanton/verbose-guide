@@ -92,6 +92,23 @@ window.PM_TEXT = {
     need: ['Đã có tỷ trọng. Để tính quy mô hợp lý và đối chiếu với nghiên cứu, hãy trả lời vài câu hỏi về:', 'Weights are in. To size each position and test it against the research, answer a few questions about:'],
     askFor: ['Trả lời câu hỏi về {t}', 'Answer the questions about {t}']
   },
+  /* ---- simplified layout (v2) ---- */
+  v2: {
+    prio: ['Những việc nên làm trước', 'What to do first'],
+    moreChecks: ['{n} kiểm tra khác', '{n} more checks'],
+    stocks: ['Cổ phiếu của bạn', 'Your stocks'], stocksHint: ['Bấm vào một mã để xem số liệu doanh nghiệp, bằng chứng và kế hoạch.', 'Open a stock for its company facts, evidence and plan.'],
+    open: ['Xem {t}', 'Open {t}'],
+    challengeH: ['Ba câu hỏi để có quy mô và kế hoạch', 'Three questions to get sizes and a plan'],
+    challengeP: ['Hiện mới có tỷ trọng. Trả lời ba câu về các vị thế lớn nhất (lãi nếu đúng, lỗ nếu sai, mức tin tưởng) để công cụ tính quy mô hợp lý và điểm bán.', 'So far there are only weights. Answer three questions on your largest positions (gain if right, loss if wrong, conviction) and the tool will work out sizes and stops.'],
+    deeper: ['Trả lời thêm về {t} (luận điểm, điều kiện bán)', 'More about {t} (thesis, sell condition)'],
+    manage: ['Sửa danh mục và thiết lập ({n} mã)', 'Edit portfolio and settings ({n} stocks)'],
+    moreRisk: ['Các con số rủi ro của danh mục', 'Portfolio risk numbers'], moreAlloc: ['Tỷ trọng hiện tại và gợi ý', 'Current and suggested weights'], moreRegime: ['Bối cảnh thị trường', 'Market backdrop'],
+    more: ['Xem thêm', 'More detail'],
+    tCost: ['So với giá vốn', 'Against cost'], tCostNote: ['{l}/{n} vị thế dưới giá vốn', '{l} of {n} positions below cost'],
+    fwSum: ['Khung tư duy đang được áp dụng', 'The frameworks being applied'], methodSum: ['Phương pháp, nguồn và giới hạn', 'Method, sources and limits'],
+    pl: ['{pl} so với giá vốn', '{pl} on cost'],
+    volPick: ['Gợi ý theo dao động của {t}: một tháng bình thường khoảng ±{m}%.', 'Suggestions scaled to {t}: a normal month moves about ±{m}%.']
+  },
   /* ---- company facts and cost ---- */
   factH: ['Số liệu doanh nghiệp', 'Company facts'],
   factBars: ['Lợi nhuận công ty mẹ theo quý, tỷ đồng', 'Profit to parent by quarter, VND bn'],

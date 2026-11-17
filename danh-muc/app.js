@@ -4,6 +4,7 @@
   var doc = document, html = doc.documentElement;
   var LI = html.lang === 'en' ? 1 : 0, ROOT = html.getAttribute('data-root') || '../';
   var T = window.PM_TEXT, R = window.PM_RESEARCH, M = window.PM_MARKET, E = window.PM_ENGINE, IN = window.PM_INTAKE;
+  var V2 = /[?&]v=2\b/.test(location.search); if (V2) html.classList.add('pm-v2');
   var KEY = 'pm-desk-v1', HERE = LI ? '../' : '';   // folder holding the tool's own files
   var CO = window.PM_COMPANY, FX = window.PM_FACTS;
   if (FX && CO) FX.init(CO, M);
@@ -74,6 +75,7 @@
       $('pm-input').innerHTML = '<div id="editor"></div><p class="btns"><button type="button" class="btn primary" id="b-shot">' + L(T.intake.shot) + '</button><button type="button" class="btn" id="b-paste">' + L(T.intake.paste) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button><input type="file" id="f-import" accept="application/json,.json" hidden><input type="file" id="f-shot" accept="image/*" hidden></p>';
       renderEditor(); return;
     }
+    if (V2) h += '<p class="btns"><button type="button" class="btn primary" id="b-add">' + L(T.add) + '</button><button type="button" class="btn" id="b-shot">' + L(T.intake.shot) + '</button></p><div id="editor"></div><details class="sec flat manage"' + (manageOpen ? ' open' : '') + '><summary>' + t(T.v2.manage, { n: state.positions.length }) + '</summary><div class="secbody">';
     h += '<div class="grid3">' +
       field(L(T.maxDD), '<input type="number" id="set-maxDD" min="3" max="60" step="1" inputmode="decimal" value="' + esc(s.maxDD) + '">', L(T.maxDDHint)) +
       field(L(T.regime), '<select id="set-regime">' + opt('auto', L(T.regimeAuto), s.regime) + opt('easing', L(T.rgEasing), s.regime) + opt('neutral', L(T.rgNeutral), s.regime) + opt('tight', L(T.rgTight), s.regime) + '</select>') +
@@ -88,11 +90,12 @@
       });
       h += '</tbody></table></div>';
     }
-    h += '<p class="btns"><button type="button" class="btn primary" id="b-add">' + L(T.add) + '</button><button type="button" class="btn" id="b-shot">' + L(T.intake.shot) + '</button><button type="button" class="btn" id="b-paste">' + L(T.intake.paste) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button>' +
+    h += '<p class="btns">' + (V2 ? '' : '<button type="button" class="btn primary" id="b-add">' + L(T.add) + '</button><button type="button" class="btn" id="b-shot">' + L(T.intake.shot) + '</button>') + '<button type="button" class="btn" id="b-paste">' + L(T.intake.paste) + '</button><button type="button" class="btn" id="b-example">' + L(T.example) + '</button>' +
       '<button type="button" class="btn" id="b-export">' + L(T.exportBtn) + '</button><button type="button" class="btn" id="b-import">' + L(T.importBtn) + '</button>' +
       (state.positions.length ? '<button type="button" class="btn" id="b-print">' + L(T.print) + '</button><button type="button" class="btn danger" id="b-clear">' + L(T.clear) + '</button>' : '') +
       '<input type="file" id="f-import" accept="application/json,.json" hidden><input type="file" id="f-shot" accept="image/*" hidden></p>';
     var todo = state.positions.filter(function (p) { return p.up === '' || p.down === ''; });
+    if (V2) { h += '</div></details>'; $('pm-input').innerHTML = h; renderEditor(); return; }
     if (todo.length && !iv && !editing && !intake) h += '<div class="need"><p>' + L(T.intake.need) + '</p><div class="choices">' + todo.map(function (p) { return '<button type="button" class="choice" data-ivfor="' + esc(p.id) + '">' + esc(p.ticker) + '</button>'; }).join('') + '</div></div>';
     h += '<div id="editor"></div>';
     $('pm-input').innerHTML = h;
@@ -161,17 +164,19 @@
   /* ---------- guided interview: one question at a time ---------- */
   var iv = null;   // { steps, i, draft, first, auto }
   function ivSteps(d, askDD, existing) {
+    if (existing === 'short') return ['up', 'down', 'conviction', 'done'];
+    if (existing === 'deep') return ['thesis', 'likes', 'dislikes', 'edge', 'catalyst', 'kill', 'done'];
     if (existing) return ['thesis', 'likes', 'dislikes', 'up', 'down', 'conviction', 'edge', 'catalyst', 'kill', 'done'];
     var st = []; if (askDD) st.push('dd');
     st.push('ticker'); if (d.ticker && !M.t[d.ticker]) st.push('sector');
     st.push('status'); if (d.status !== 'idea') st.push('weight');
     return st.concat(['thesis', 'likes', 'dislikes', 'up', 'down', 'conviction', 'edge', 'catalyst', 'kill', 'done']);
   }
-  function startInterview(auto, forId) {
+  function startInterview(auto, forId, mode) {
     editing = null;
     var ex = forId ? state.positions.filter(function (p) { return p.id === forId; })[0] : null;
     var d = ex ? JSON.parse(JSON.stringify(ex)) : blank(), askDD = !ex && !state.positions.length && !state.settings.asked;
-    iv = { draft: d, askDD: askDD, i: 0, first: !state.positions.length, auto: !!auto, existing: !!ex };
+    iv = { draft: d, askDD: askDD, i: 0, first: !state.positions.length, auto: !!auto, existing: ex ? (V2 ? (mode || 'short') : true) : false };
     iv.steps = ivSteps(d, askDD, iv.existing);
   }
   function ivProbe() { var s = { settings: state.settings, positions: [iv.draft] }; return E.analyse(s).positions[0] || null; }
@@ -201,7 +206,7 @@
       body = '<div class="chips">' + driversFor(sec).filter(function (x) { return like || d.likes.indexOf(x) < 0; }).map(function (x) { var on = d[id].indexOf(x) >= 0; return '<button type="button" class="chip' + (on ? ' on ' + (like ? 'like' : 'dislike') : '') + '" aria-pressed="' + on + '" data-ivchip="' + id + ':' + x + '">' + esc(L(R.drivers[x].label)) + '</button>'; }).join('') + '</div>';
     }
     else if (id === 'up') { q = t(I.qUp, tk); body = numq('up', [15, 25, 40, 60], '+', 1000); }
-    else if (id === 'down') { q = t(I.qDown, tk); hint = L(T.fDownHint); body = numq('down', [8, 12, 20, 30], '-', 100); m = ivProbe(); if (mk && m) note = t(I.nVol, { t: d.ticker, m: n(m.monthSigma), dd: n0(Math.abs(mk.dd)) }); }
+    else if (id === 'down') { q = t(I.qDown, tk); hint = L(T.fDownHint); m = ivProbe(); var dp = [8, 12, 20, 30]; if (V2 && mk && m) { dp = []; [1, 1.5, 2, 3].forEach(function (k) { var v = Math.min(60, Math.max(3, Math.ceil(m.monthSigma * k))); if (dp.indexOf(v) < 0) dp.push(v); }); } body = numq('down', dp, '-', 100); if (mk && m) note = t(I.nVol, { t: d.ticker, m: n(m.monthSigma), dd: n0(Math.abs(mk.dd)) }); }
     else if (id === 'conviction') {
       q = L(I.qConv); skippable = false; nav = false; body = '<div class="choices col">' + [1, 2, 3, 4, 5].map(function (i) { return choice('data-ivset', 'conviction:' + i, L(T['conv' + i]), false); }).join('') + '</div>';
       m = ivProbe(); if (m && m.complete) note = t(m.breakeven > 50 ? I.nBEbad : I.nBE, { u: g(m.up), d: g(m.down), be: n0(m.breakeven) });
@@ -223,8 +228,9 @@
         var top = res.ev_.challenge[0] || res.ev_.blindRisk[0];
         if (top) h += '<p class="lab">' + L(I.doneAgainst) + '</p><div class="ev against"><ul><li>' + esc(L(top.text)) + ' ' + srcLink(top.src) + '</li></ul></div>';
       }
+      var deep = iv.existing === 'short' ? '<button type="button" class="btn" data-ivdeep="' + esc(d.id) + '">' + t(T.v2.deeper, { t: d.ticker }) + '</button>' : '';
       var nxt = state.positions.filter(function (x) { return x.id !== d.id && (x.up === '' || x.down === ''); })[0];
-      box.innerHTML = h + '<p class="btns">' + (nxt ? '<button type="button" class="btn primary" data-ivfor="' + esc(nxt.id) + '">' + t(T.intake.askFor, { t: nxt.ticker }) + '</button>' : '') + '<button type="button" class="btn' + (nxt ? '' : ' primary') + '" id="iv-another">' + L(I.another) + '</button><button type="button" class="btn" id="iv-see">' + L(I.see) + '</button></p></div>';
+      box.innerHTML = h + '<p class="btns">' + (nxt ? '<button type="button" class="btn primary" data-ivfor="' + esc(nxt.id) + '">' + t(T.intake.askFor, { t: nxt.ticker }) + '</button>' : '') + '<button type="button" class="btn' + (nxt ? '' : ' primary') + '" id="iv-another">' + L(I.another) + '</button>' + deep + '<button type="button" class="btn" id="iv-see">' + L(I.see) + '</button></p></div>';
       return;
     }
     box.innerHTML = '<form class="iv" id="iv-form" autocomplete="off"><div class="ivbar"><i style="width:' + (k / real.length * 100).toFixed(0) + '%"></i></div><p class="ivstep">' + t(I.progress, { k: k, n: real.length }) + (d.ticker && id !== 'ticker' ? ' · ' + esc(d.ticker) : '') + '</p>' +
@@ -330,6 +336,7 @@
     var reg = a.regime, now = a.now, aft = a.after, h = '<h2 id="nhan-dinh">' + L(T.s2) + '</h2>';
     var held = now.n > 0;
 
+    var head0 = h; h = '';
     /* tiles */
     if (held) {
       var over = now.invested > reg.band[1] + 0.5;
@@ -342,6 +349,7 @@
       if (aft.n && a.positions.some(function (m) { return m.suggest != null; })) h += '<p class="after">' + t(T.afterLine, { inv: n0(aft.invested), neff: n(aft.neff), bad: n(aft.badMonth), stress: n(aft.stress) }) + (aft.invested < reg.band[0] - 0.5 ? ' ' + t(T.afterLow, { lo: reg.band[0], hi: reg.band[1] }) : '') + '</p>';
     }
 
+    var hT = h; h = '';
     /* regime */
     var gw = L(T['g' + reg.growth.charAt(0).toUpperCase() + reg.growth.slice(1)]);
     var k = R.regime.liquidity.filter(function (x) { return x.dir < 0; }).length + (reg.indexD200 < 0 ? 1 : 0);
@@ -351,11 +359,13 @@
     var idx = '<li class="' + (reg.indexD200 < 0 ? 'neg' : 'pos') + '"><span class="mark" aria-hidden="true">' + (reg.indexD200 < 0 ? '▼' : '▲') + '</span>' + t(T.idxLine, { d: sg(reg.indexD200), date: date(M.asof) }) + '</li>';
     h += sigs(L(T.liq), R.regime.liquidity, idx) + sigs(L(T.gro), R.regime.growth) + '</div><figcaption>' + L(T.src) + ': ' + srcLink('macro') + ' · ' + srcLink('druck') + ' · ' + srcLink('market') + '</figcaption></figure>';
 
+    var hR = h; h = '';
     /* findings */
     h += '<h3>' + L(T.hFind) + '</h3>';
     if (!a.findings.length) h += '<p class="empty">' + L(T.noFind) + '</p>';
     else h += '<ul class="findings">' + a.findings.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft"><span class="pill sev' + f.sev + '">' + L(T['sev' + f.sev]) + '</span> ' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>';
 
+    var hF = h; h = '';
     /* allocation */
     var maxW = 5; a.positions.forEach(function (m) { maxW = Math.max(maxW, m.weight, m.suggest || 0); });
     h += '<figure class="viz"><p class="viz-title">' + L(T.hAlloc) + '</p><p class="viz-sub">' + L(T.allocSub) + '</p><div class="legend"><span><i class="sw now"></i>' + L(T.legNow) + '</span><span><i class="sw sug"></i>' + L(T.legSug) + '</span></div>';
@@ -366,6 +376,9 @@
       a.positions.map(function (m) { return '<tr><td>' + esc(m.ticker) + '</td><td class="num">' + g(m.weight) + '%</td><td class="num">' + (m.suggest == null ? '–' : g(m.suggest) + '%') + '</td><td><span class="pill act-' + m.action + '">' + L(T.act[m.action]) + '</span></td><td>' + whyText(m) + '</td></tr>'; }).join('') +
       '<tr><td>' + L(T.cash) + '</td><td class="num">' + n0(Math.max(0, 100 - now.invested)) + '%</td><td class="num">' + n0(Math.max(0, 100 - aft.invested)) + '%</td><td></td><td></td></tr></tbody></table></div></details></figure>';
 
+    var hA = h;
+    if (V2) { box.innerHTML = consult2(a, { tiles: hT, regime: hR, alloc: hA }); return; }
+    h = head0 + hT + hR + hF + hA;
     /* positions */
     h += '<h3>' + L(T.hPos) + '</h3>';
     a.positions.forEach(function (m, i) { h += positionCard(m, a, i === 0); });
@@ -383,7 +396,7 @@
     var neg = c.np.some(function (v) { return v < 0; });
     var bars = c.np.map(function (v, i) {
       var hgt = v == null || !mx ? 0 : Math.max(2, Math.abs(v) / mx * (neg ? 50 : 100));
-      return '<div class="fb' + (i === c.np.length - 1 ? ' cur' : '') + (v < 0 ? ' neg' : '') + '" title="' + esc(c.q[i]) + ': ' + (v == null ? '–' : px(v)) + '"><span class="fv">' + (v == null ? '–' : Math.abs(v) >= 10000 ? n(v / 1000, 1) + (LI ? 'k' : 'k') : px(v)) + '</span><div class="fbar" style="height:' + hgt.toFixed(0) + '%"></div><span class="fq">' + esc(c.q[i]) + '</span></div>';
+      return '<div class="fcol' + (i === c.np.length - 1 ? ' cur' : '') + (v < 0 ? ' neg' : '') + '" title="' + esc(c.q[i]) + ': ' + (v == null ? '–' : px(v)) + '"><span class="fv">' + (v == null ? '–' : Math.abs(v) >= 10000 ? n(v / 1000, 1) + (LI ? 'k' : 'k') : px(v)) + '</span><div class="fbar" style="height:' + hgt.toFixed(0) + '%"></div><span class="fq">' + esc(c.q[i]) + '</span></div>';
     }).join('');
     return '<div class="facts"><h4>' + L(T.factH) + '</h4><div class="factgrid"><div><p class="lab">' + L(T.factBars) + '</p><div class="fbars' + (neg ? ' hasneg' : '') + '">' + bars + '</div></div><dl class="fstats">' +
       c.stats.map(function (s) { return '<div><dt>' + esc(L(s.label)) + '</dt><dd>' + esc(L(s.value)) + (L(s.note) ? ' <span class="sub">' + esc(L(s.note)) + '</span>' : '') + '</dd></div>'; }).join('') +
@@ -396,7 +409,7 @@
     h += factCard(m.ticker);
 
     /* numbers */
-    h += '<h4>' + L(T.pNumbers) + '</h4>';
+    h += '<h4 class="sec">' + L(T.pNumbers) + '</h4>';
     if (!m.complete) h += '<p>' + L(T.pNoNum) + '</p>';
     else {
       h += '<p>' + t(T.pBE, { be: n0(m.breakeven), p: n0(m.prob), d: m.probDefault ? L(T.pDef) : '' }) + ' ' + t(T.pEV, { ev: sg(m.ev), r: n(m.payoff) }) + '</p>';
@@ -410,7 +423,7 @@
     }
 
     /* price */
-    h += '<h4>' + L(T.pPrices) + '</h4>';
+    h += '<h4 class="sec">' + L(T.pPrices) + '</h4>';
     if (mk) {
       var d200 = mk.d200 != null ? mk.d200 : mk.d50;
       h += '<p>' + (m.trend === 'unknown' ? L(T.pTrend.unknown) : t(T.pTrend[m.trend], { a: sg(d200), b: sg(mk.rs3m) })) + ' ' + t(T.pVol, { v: n(mk.vol), m: n(m.monthSigma), dd: n(mk.dd), b: n(mk.beta, 2) }) + '</p>' +
@@ -418,7 +431,7 @@
     } else h += '<p>' + t(T.pNoMk, { v: n(m.vol) }) + '</p>';
 
     /* research */
-    h += '<h4>' + L(T.pResearch) + '</h4>';
+    h += '<h4 class="sec">' + L(T.pResearch) + '</h4>';
     if (!ev.tickerLevel && !ev.sectorLevel) h += '<p class="warn">' + L(T.rNone) + '</p>';
     else {
       if (!ev.tickerLevel) h += '<p class="sub">' + L(T.rSectorOnly) + '</p>';
@@ -442,12 +455,12 @@
     var cons = R.consensus[m.ticker];
     da.push(cons >= 2 ? t(T.daPriced.consensus, { n: cons }) : (ev.forN + ev.againstN) ? t(T.daPriced.balance, { f: ev.forN, a: ev.againstN }) : L(T.daPriced.none));
     function lens(name, items) { return '<div class="lensbox"><p class="lab">' + name + '</p><ul>' + items.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>'; }
-    h += '<h4>' + L(T.pLens) + '</h4><div class="grid3 lenses">' + lens('Buffett', bf) + lens('Druckenmiller', dr) + lens('Dalio', da) + '</div>';
+    h += '<h4 class="sec">' + L(T.pLens) + '</h4><div class="grid3 lenses">' + lens('Buffett', bf) + lens('Druckenmiller', dr) + lens('Dalio', da) + '</div>';
 
     /* plan */
     var key = m.action;
     if (key === 'start' || key === 'add') key += (m.tranches === 2 ? '2' : m.trend === 'against' ? '3a' : '3');
-    h += '<h4>' + L(T.pPlan) + '</h4><p><strong>' + t(T.plan[key], { w: g(m.weight), s: g(m.suggest || 0) }) + '</strong></p><ul class="plan">';
+    h += '<h4 class="sec">' + L(T.pPlan) + '</h4><p><strong>' + t(T.plan[key], { w: g(m.weight), s: g(m.suggest || 0) }) + '</strong></p><ul class="plan">';
     h += '<li>' + (m.hasKill ? t(T.xThesis, { k: p.kill }) : L(T.xThesisNone)) + '</li>';
     if (m.complete) {
       h += '<li>' + (m.cost && m.status === 'hold' ? t(T.xPriceCost, { px: px(m.cost * (1 - m.down / 100)), d: g(m.down), c: px(m.cost) }) + (m.pastStop ? ' <span class="warn">' + t(T.xPast, { now: px(mk.px) }) + '</span>' : '') : mk ? t(T.xPrice, { px: px(mk.px * (1 - m.down / 100)), d: g(m.down), date: date(mk.asof) }) : t(T.xPriceNo, { d: g(m.down) })) + (m.noise ? ' <span class="warn">' + t(T.xNoise, { m: n(m.monthSigma) }) + '</span>' : '') + '</li>';
@@ -458,10 +471,61 @@
     h += '<p class="lab">' + L(T.xWatch) + '</p><ul class="watch">' + watch.map(function (w) { return '<li>' + esc(L(w)) + '</li>'; }).join('') + '</ul>';
 
     /* questions */
-    h += '<h4>' + L(T.pQuestions) + '</h4><ol class="qs">' + m.questions.map(function (q) {
+    h += '<h4 class="sec">' + L(T.pQuestions) + '</h4><ol class="qs">' + m.questions.map(function (q) {
       return '<li>' + t(T.q[q], { be: n0(m.breakeven), p: n0(m.prob), d: g(m.down), m: n(m.monthSigma), dd: mk ? n0(Math.abs(mk.dd)) : '', n: ev.challenge.length }) + '</li>';
     }).join('') + '</ol>';
     h += '<p class="btns">' + (!m.complete ? '<button type="button" class="btn primary" data-ivfor="' + esc(m.id) + '">' + t(T.intake.askFor, { t: m.ticker }) + '</button>' : '') + '<button type="button" class="btn" data-edit="' + esc(m.id) + '">' + L(T.edit) + ' ' + esc(m.ticker) + '</button></p></div></details>';
+    return h;
+  }
+
+
+  /* ---------- simplified layout (v2): priorities first, the rest on demand ---------- */
+  var manageOpen = false;
+  function prioItem(f, a) {
+    var x = findingText(f), btn = '', d = f.data, tk = d.t || d.big || (d.rows && d.rows[0].t) || null;
+    if (f.code === 'noNumbers' || f.code === 'noKill' || f.code === 'noEdge') {
+      var first = a.positions.filter(function (m) { return (d.list || []).indexOf(m.ticker) >= 0; }).sort(function (p, q) { return q.weight - p.weight; })[0];
+      if (first) btn = '<button type="button" class="btn" ' + (f.code === 'noNumbers' ? 'data-ivfor' : 'data-ivdeep') + '="' + esc(first.id) + '">' + t(T.intake.askFor, { t: first.ticker }) + '</button>';
+    } else if (tk) btn = '<button type="button" class="btn" data-open="' + esc(tk) + '">' + t(T.v2.open, { t: tk }) + '</button>';
+    return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p>' + (btn ? '<p class="btns">' + btn + '</p>' : '') + '</li>';
+  }
+  function sec(title, html, open, cls) { return '<details class="sec' + (cls ? ' ' + cls : '') + '"' + (open ? ' open' : '') + '><summary>' + title + '</summary><div class="secbody">' + html + '</div></details>'; }
+  function positionCard2(m, a) {
+    var full = positionCard(m, a, true), mk = m.mk, ev = m.ev_;
+    var body = full.slice(full.indexOf('<div class="posbody">') + 21, full.lastIndexOf('</div></details>'));
+    var segs = body.split('<h4 class="sec">'), head = segs.shift(), last = segs.length - 1, btns = '';
+    if (last >= 0) { var bi = segs[last].lastIndexOf('<p class="btns">'); if (bi >= 0) { btns = segs[last].slice(bi); segs[last] = segs[last].slice(0, bi); } }
+    var against = ev.challenge.concat(ev.blindRisk).filter(function (e) { return e.lvl >= 2; })[0], forIt = ev.agree.concat(ev.blindSupport).filter(function (e) { return e.lvl >= 2; })[0];
+    var h = '<details class="pos v2" data-tk="' + esc(m.ticker) + '"><summary><span class="tk">' + esc(m.ticker) + '</span><span class="nm">' + esc(mk ? mk.name : secName(m.sector)) + '</span><span class="wt">' + g(m.weight) + '%' + (m.suggest == null ? '' : ' → ' + g(m.suggest) + '%') + '</span>' +
+      (m.pl != null ? '<span class="plc ' + (m.pl < 0 ? 'down' : 'up') + '">' + t(T.v2.pl, { pl: sg(m.pl) + '%' }) + '</span>' : '') + '<span class="pill act-' + m.action + '">' + L(T.act[m.action]) + '</span>' +
+      '<span class="hl">' + (against ? '<span class="neg">▼ ' + esc(L(against.text)) + '</span>' : '') + (forIt ? '<span class="posi">▲ ' + esc(L(forIt.text)) + '</span>' : '') + '</span></summary><div class="posbody">' + head;
+    var planIdx = 4, numIdx = 0;
+    segs.forEach(function (sg0, i) {
+      var k = sg0.indexOf('</h4>'), title = sg0.slice(0, k), html = sg0.slice(k + 5);
+      if (i === 2) title += ' (' + (ev.agree.length + ev.challenge.length + ev.blindRisk.length + ev.blindSupport.length) + ')';
+      h += sec(title, html, (i === planIdx && m.complete) || (i === numIdx && m.complete && m.ev <= 0));
+    });
+    return h + btns + '</div></details>';
+  }
+  function consult2(a, parts) {
+    var now = a.now, reg = a.regime, V = T.v2, h = '<h2 id="nhan-dinh">' + L(T.s2) + '</h2>';
+    if (now.n) {
+      var over = now.invested > reg.band[1] + 0.5, oc = a.onCost;
+      h += '<div class="tiles three">' + tile(L(T.tInvested), n0(now.invested) + '%', t(T.tInvestedNote, { cash: n0(Math.max(0, 100 - now.invested)), lo: reg.band[0], hi: reg.band[1] }), over ? 'down' : '') +
+        tile(L(T.tBets), n(now.neff), t(T.tBetsNote, { n: now.n, c: now.avgCorr == null ? '–' : n(now.avgCorr, 2) })) +
+        (oc ? tile(L(V.tCost), sg(oc.pl) + '%', t(V.tCostNote, { l: oc.losing, n: oc.n }), oc.pl < 0 ? 'down' : '') : tile(L(T.tVol), '−' + n(now.badMonth) + '%', t(T.tVolNote, { v: n(now.vol), b: n(now.beta, 2) }))) + '</div>';
+    }
+    /* priorities: at most three, one per kind of problem */
+    var seen = {}, top = [], rest = [];
+    a.findings.forEach(function (f) { if (top.length < 3 && !seen[f.code] && f.sev >= 2) { seen[f.code] = 1; top.push(f); } else rest.push(f); });
+    if (top.length) h += '<h3>' + L(V.prio) + '</h3><ol class="prio">' + top.map(function (f) { return prioItem(f, a); }).join('') + '</ol>';
+    if (rest.length) h += sec(t(V.moreChecks, { n: rest.length }), '<ul class="findings">' + rest.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>', false, 'flat');
+    /* the short challenge, only for the largest positions still without numbers */
+    var todo = a.positions.filter(function (m) { return !m.complete && m.status === 'hold'; }).sort(function (p, q) { return q.weight - p.weight; }).slice(0, 3);
+    if (todo.length && !iv && !editing && !intake) h += '<div class="need"><p><strong>' + L(V.challengeH) + '</strong></p><p>' + L(V.challengeP) + '</p><div class="choices">' + todo.map(function (m) { return '<button type="button" class="choice" data-ivfor="' + esc(m.id) + '">' + esc(m.ticker) + ' · ' + g(m.weight) + '%</button>'; }).join('') + '</div></div>';
+    h += '<h3>' + L(V.stocks) + '</h3><p class="sub">' + L(V.stocksHint) + '</p>';
+    a.positions.slice().sort(function (p, q) { return q.weight - p.weight; }).forEach(function (m) { h += positionCard2(m, a); });
+    h += '<h3>' + L(V.more) + '</h3>' + (now.n ? sec(L(V.moreRisk), parts.tiles, false, 'flat') : '') + sec(L(V.moreAlloc), parts.alloc, false, 'flat') + sec(L(V.moreRegime) + ': ' + t(T.regimeLine[reg.use], { g: L(T['g' + reg.growth.charAt(0).toUpperCase() + reg.growth.slice(1)]) }), parts.regime, false, 'flat');
     return h;
   }
 
@@ -470,7 +534,10 @@
     doc.querySelectorAll('[data-t]').forEach(function (el) { el.textContent = L(T[el.getAttribute('data-t')]); });
     var h = '<h2 id="khung-tu-duy">' + L(T.s3) + '</h2><p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>';
     h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>';
-    h += '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul><p class="disclaimer">' + L(T.disclaimer) + '</p>';
+    var srcs = '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul>';
+    if (V2) { h = sec(L(T.v2.fwSum), '<p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>', false, 'flat') + sec(L(T.v2.methodSum), '<ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>' + srcs, false, 'flat') + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
+      doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=2'; }); }
+    else h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
     $('pm-static').innerHTML = h;
     $('ticker-list').innerHTML = M.order.map(function (k) { return '<option value="' + k + '">' + esc(M.t[k].name) + '</option>'; }).join('');
   }
@@ -483,11 +550,13 @@
     var el = e.target.closest('button'); if (!el) return;
     var id = el.id, ed = el.getAttribute('data-edit'), del = el.getAttribute('data-del'), chip = el.getAttribute('data-chip');
     var a;
-    if ((a = el.getAttribute('data-ivfor'))) { intake = null; startInterview(false, a); renderInput(); $('editor').scrollIntoView({ block: 'center' }); return; }
+    if ((a = el.getAttribute('data-ivdeep'))) { intake = null; startInterview(false, a, 'deep'); renderInput(); renderResults(); $('editor').scrollIntoView({ block: 'center' }); return; }
+    if ((a = el.getAttribute('data-open'))) { var dt = doc.querySelector('details.pos[data-tk="' + a.replace(/[^A-Z0-9]/g, '') + '"]'); if (dt) { dt.open = true; dt.scrollIntoView({ block: 'start' }); } return; }
+    if ((a = el.getAttribute('data-ivfor'))) { intake = null; startInterview(false, a); renderInput(); if (V2) renderResults(); $('editor').scrollIntoView({ block: 'center' }); return; }
     if (id === 'b-shot' || id === 'b-shot2') { $('f-shot').click(); return; }
     if (id === 'b-paste') { iv = null; editing = null; intake = { mode: 'paste', paste: '' }; renderInput(); var ta = $('in-text'); if (ta) ta.focus(); return; }
     if (intake) {
-      if (id === 'in-cancel') { intake = null; renderInput(); return; }
+      if (id === 'in-cancel') { intake = null; renderInput(); if (V2) renderResults(); return; }
       if (id === 'in-add') { intakeRead(); intake.rows.push({ ticker: '', share: null, weight: '' }); renderIntake(); var nt = $('in-t' + (intake.rows.length - 1)); if (nt) nt.focus(); return; }
       if ((a = el.getAttribute('data-inrm'))) { intakeRead(); intake.rows.splice(parseInt(a, 10), 1); renderIntake(); return; }
     }
@@ -500,10 +569,10 @@
       if ((a = el.getAttribute('data-ivchip'))) { var lc = a.split(':'), arr = iv.draft[lc[0]], ix = arr.indexOf(lc[1]); if (ix >= 0) arr.splice(ix, 1); else arr.push(lc[1]); renderInterview(); return; }
       if (id === 'iv-back') { ivRead(); ivGo(-1); return; }
       if (id === 'iv-skip') { var fld = $('iv-in'); if (fld) iv.draft[fld.getAttribute('data-field')] = ''; ivGo(1); return; }
-      if (id === 'iv-stop') { iv = null; renderInput(); return; }
+      if (id === 'iv-stop') { iv = null; renderInput(); if (V2) renderResults(); return; }
       if (id === 'iv-form-switch') { ivRead(); editing = iv.draft; iv = null; renderInput(); return; }
       if (id === 'iv-another') { startInterview(false); renderInterview(); $('editor').scrollIntoView({ block: 'center' }); return; }
-      if (id === 'iv-see') { iv = null; renderInput(); var c0 = $('nhan-dinh'); if (c0) c0.scrollIntoView({ block: 'start' }); return; }
+      if (id === 'iv-see') { iv = null; renderInput(); if (V2) renderResults(); var c0 = $('nhan-dinh'); if (c0) c0.scrollIntoView({ block: 'start' }); return; }
     }
     if (chip && editing) {
       readEditor();
@@ -514,8 +583,8 @@
     }
     if (ed) { var p = state.positions.filter(function (x) { return x.id === ed; })[0]; if (p) { iv = null; editing = JSON.parse(JSON.stringify(p)); renderInput(); $('editor').scrollIntoView({ block: 'start' }); var f = $('ed-weight'); if (f) f.focus({ preventScroll: true }); } return; }
     if (del) { state.positions = state.positions.filter(function (x) { return x.id !== del; }); if (editing && editing.id === del) editing = null; save(); render(); return; }
-    if (id === 'b-add') { intake = null; startInterview(false); renderInput(); $('editor').scrollIntoView({ block: 'center' }); }
-    else if (id === 'ed-cancel') { editing = null; iv = null; renderEditor(); }
+    if (id === 'b-add') { intake = null; startInterview(false); renderInput(); if (V2) renderResults(); $('editor').scrollIntoView({ block: 'center' }); }
+    else if (id === 'ed-cancel') { editing = null; iv = null; renderInput(); if (V2) renderResults(); }
     else if (id === 'b-example') { if (!state.positions.length || confirm(L(T.confirmExample))) loadExample(); }
     else if (id === 'b-clear') { if (confirm(L(T.confirmClear))) { state.positions = []; editing = null; iv = null; save(); render(); } }
     else if (id === 'b-print') { doc.querySelectorAll('details.pos').forEach(function (d) { d.open = true; }); window.print(); }
@@ -525,6 +594,7 @@
     }
     else if (id === 'b-import') $('f-import').click();
   });
+  doc.addEventListener('toggle', function (e) { if (e.target.classList && e.target.classList.contains('manage')) manageOpen = e.target.open; }, true);
   doc.addEventListener('submit', function (e) {
     if (e.target.id === 'iv-form') { e.preventDefault(); ivRead(); ivGo(1); return; }
     if (e.target.id === 'in-paste') { e.preventDefault(); var tx = $('in-text').value; intakeFrom(tx, false); if (intake.mode === 'error') intake.paste = tx; renderInput(); return; }

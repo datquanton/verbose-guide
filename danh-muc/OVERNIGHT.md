@@ -107,3 +107,12 @@ Not a scheduled run. Two additions:
    from raw statements); spot figures match the site's reports (VCB provisions 776 → 6,184bn; GVR other income 1,998bn;
    VJC financial income 464bn against pre-tax profit 410bn; HPG profit to parent 8,217bn).
    Limits: valuation history is 11 quarters only and absent for banks; DMX has 6 quarters; TCX, MBS and BVH trigger no data signal.
+
+### 2026-11-17 · owner-directed session
+
+Simplified layout built as a preview at `/danh-muc/?v=2` (English: `/danh-muc/en/?v=2`); the default page is unchanged.
+Preview: three tiles, at most three priorities with the rest folded away, a three-question challenge for the largest
+positions with loss levels scaled to each stock's volatility, one row per stock with its strongest point for and against,
+and every detail section, the portfolio table, settings, backdrop, frameworks and method collapsed until opened.
+On the same test portfolio the page is 2,964px tall against 10,219px before.
+Also fixed on the default page: a style-name collision introduced on 16 Nov that displaced the explanation under each finding.
