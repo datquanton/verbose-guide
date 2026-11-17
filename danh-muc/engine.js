@@ -90,7 +90,9 @@
     o.trend = mk == null || d200 == null ? 'unknown' : (d200 > 0 && (rs == null || rs > 0)) ? 'confirm' : (d200 < -5 && (rs == null || rs < 0)) ? 'against' : 'mixed';
     /* the investor's own cost: profit or loss against the last close */
     var cost = num(p.cost); if (cost != null && cost > 0 && cost < 1000) cost *= 1000;
-    o.cost = cost > 0 ? cost : null; o.pl = o.cost && mk ? (mk.px / o.cost - 1) * 100 : null;
+    var seen = num(p.mpx); if (seen != null && seen > 0 && seen < 1000) seen *= 1000;       // market price read from the investor's own screen, if any
+    o.ref = seen > 0 ? seen : (mk ? mk.px : null);
+    o.cost = cost > 0 ? cost : null; o.pl = o.cost && o.ref ? (o.ref / o.cost - 1) * 100 : null;
     o.pastStop = o.pl != null && o.complete && o.status === 'hold' && o.pl <= -D;
     o.hasThesis = !!(p.thesis && p.thesis.trim()); o.hasKill = !!(p.kill && p.kill.trim()); o.hasCatalyst = !!(p.catalyst && p.catalyst.trim());
     o.edge = p.edge || 'none'; o.horizon = num(p.horizon);

@@ -120,3 +120,16 @@ On the same test portfolio the page is 2,964px tall against 10,219px before.
 Also fixed on the default page: a style-name collision introduced on 16 Nov that displaced the explanation under each finding.
 Later the same day, on the owner's approval: the simplified layout is now the default. The earlier long layout stays
 reachable at `?v=1` as a fallback and can be deleted once the new one has been used for a while.
+
+### 2026-11-17 · first real broker screenshot
+
+The owner uploaded a real holdings table (ticker, quantity twice, pending columns, average cost, purchase value,
+market price, market value, loan %, profit/loss). The reader had weighted by purchase value and dropped cost. Fixed:
+- a row with two quantity × price = value pairs is read as cost value and market value; the market pair is the one
+  nearest the last close, weights use market value, and cost comes from the other pair;
+- small text is enlarged further before recognition (this alone turned three misread tickers into correct ones);
+- a one-letter ticker misread is corrected only when a price on the row confirms the stock, and a lower-case word that
+  spells a ticker ("Tal", "Bin") needs the same confirmation;
+- profit and loss now use the market price read from the screenshot, so they match the broker's own figures.
+Result on that image: 4 of 4 tickers, weights, costs and portfolio size correct; profit/loss matched the screen to 0.1pp.
+Not handled: the loan % column is ignored, so margin debt is not part of the read.

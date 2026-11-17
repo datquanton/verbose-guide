@@ -22,12 +22,29 @@
 
   function parse(text, known, prices) {
     known = known || {}; prices = prices || {};
-    var rows = [], cur = null;
+    var rows = [], cur = null, fixed = false, names = Object.keys(known);
+    function priced(k, rest) {
+      if (!prices[k]) return false;
+      return rest.some(function (t) { if (!/\d/.test(t) || /%/.test(t)) return false; var v = toNum(t); return v > 0 && Math.abs((v < 1000 ? v * 1000 : v) / prices[k] - 1) < 0.25; });
+    }
+    function fuzzy(w, rest) {
+      var nums = []; rest.forEach(function (t) { if (/\d/.test(t) && !/%/.test(t)) { var v = toNum(t); if (v > 0) nums.push(v < 1000 ? v * 1000 : v); } });
+      if (nums.length < 2) return null;
+      var hit = names.filter(function (k) {
+        if (k.length !== 3) return false; var d = 0; for (var c = 0; c < 3; c++) if (k.charAt(c) !== w.charAt(c)) d++;
+        return d === 1 && prices[k] && nums.some(function (v) { return Math.abs(v / prices[k] - 1) < 0.1; });
+      });
+      return hit.length === 1 ? hit[0] : null;
+    }
     String(text || '').replace(/[,;]\s+(?=[A-Za-z]{3}\b)/g, '\n').split(/\r?\n/).forEach(function (line) {
       var toks = line.replace(/[|\[\]{}()]/g, ' ').split(/\s+/).filter(Boolean), tk = null, ti = -1;
-      for (var i = 0; i < toks.length && i < 3; i++) {         // a ticker sits at the start of its row
+      for (var pass = 0; pass < 2 && !tk; pass++) for (var i = 0; i < toks.length && i < 3; i++) {         // a ticker sits at the start of its row
         var w = toks[i].replace(/[^A-Za-z0-9]/g, '').toUpperCase();
-        if (/^[A-Z][A-Z0-9]{2}$/.test(w) && /[A-Z]{2}/.test(w) && (known[w] || (STOP.indexOf(w) < 0 && toks[i] === toks[i].toUpperCase()))) { tk = w; ti = i; break; }
+        if (!/^[A-Z0-9]{3}$/.test(w)) continue;
+        if (pass === 0) { if (known[w] && (toks[i].replace(/[^A-Za-z0-9]/g, '') === w || priced(w, toks.slice(i + 1)))) { tk = w; ti = i; break; } continue; }   // an exact ticker at the row start wins; a lower-case word must be confirmed by a price
+        var fz = fuzzy(w, toks.slice(i + 1));                                    // one misread letter, confirmed by a price on the row
+        if (fz) { tk = fz; ti = i; fixed = true; break; }
+        if (/^[A-Z]/.test(w) && /[A-Z]{2}/.test(w) && STOP.indexOf(w) < 0 && toks[i] === toks[i].toUpperCase()) { tk = w; ti = i; break; }
       }
       if (tk) { cur = { ticker: tk, nums: [], pcts: [], known: !!known[tk] }; rows.push(cur); toks = toks.slice(ti + 1); }
       if (!cur) return;
@@ -53,14 +70,21 @@
     var out = list.map(function (r) {
       var n = r.nums.filter(function (x) { return x > 0; }), val = null, how = null, px = prices[r.ticker], qty = null, price = null, used = [];
       var vnd = function (x) { return x < 1000 ? x * 1000 : x; };                 // broker screens show prices in thousands
-      for (var i = 0; i < n.length && val == null; i++) for (var j = 0; j < n.length && val == null; j++) {
-        if (i === j || n[i] < 1 || n[i] !== Math.round(n[i])) continue;           // n[i] = quantity (whole shares)
-        if (px && !(Math.abs(n[j] / px - 1) < 0.2 || Math.abs(n[j] * 1000 / px - 1) < 0.2)) continue;  // n[j] = a price near the last close
+      /* every (quantity, price, value) triple on the row: a broker table often has two, cost value and market value */
+      var tri = [];
+      for (var i = 0; i < n.length; i++) for (var j = 0; j < n.length; j++) {
+        if (i === j || n[i] < 1 || n[i] !== Math.round(n[i]) || n[j] === n[i] && n[j] < 1000) continue;   // n[i] = quantity (whole shares)
         for (var k = 0; k < n.length; k++) {
-          if (k === i || k === j) continue;
+          if (k === i || k === j || n[k] <= n[j] || n[k] <= n[i]) continue;
           var p1 = n[i] * n[j], p2 = p1 * 1000, p3 = p1 / 1000;
-          if (Math.abs(n[k] / p1 - 1) < 0.02 || Math.abs(n[k] / p2 - 1) < 0.02 || Math.abs(n[k] / p3 - 1) < 0.02) { qty = n[i]; price = n[j]; val = qty * vnd(price); how = 'product'; used = [i, j, k]; break; }
+          if (Math.abs(n[k] / p1 - 1) < 0.02 || Math.abs(n[k] / p2 - 1) < 0.02 || Math.abs(n[k] / p3 - 1) < 0.02) { if (!tri.some(function (x) { return x.j === j || n[x.j] === n[j]; })) tri.push({ i: i, j: j, k: k, gap: px ? Math.abs(vnd(n[j]) / px - 1) : 0 }); break; }
         }
+      }
+      var costTri = null;
+      if (tri.length) {
+        var mkt = px ? tri.slice().sort(function (a, b) { return a.gap - b.gap; })[0] : tri.slice().sort(function (a, b) { return b.k - a.k; })[0];   // nearest the last close; else the right-most
+        if (!px || mkt.gap < 0.25) { qty = n[mkt.i]; price = n[mkt.j]; val = qty * vnd(price); how = 'product'; used = [mkt.i, mkt.j, mkt.k];
+          costTri = tri.filter(function (x) { return x !== mkt && x.i === mkt.i || x !== mkt && n[x.i] === n[mkt.i]; })[0] || null; }
       }
       if (val == null && px) {                                                   // quantity x known close
         var qi = -1; n.forEach(function (x, ix) { if (qi < 0 && x === Math.round(x) && x >= 10 && Math.abs(x / px - 1) > 0.2 && Math.abs(x * 1000 / px - 1) > 0.2) qi = ix; });
@@ -69,24 +93,27 @@
       }
       if (val == null && n.length) { val = Math.max.apply(null, n); how = 'largest'; }
       /* cost price: another price-like number on the row, confirmed by the profit/loss % when the screen shows one */
-      var cost = null;
+      var cost = null, derived = false;
       if (price != null) {
         var cand = []; n.forEach(function (x, ix) { if (used.indexOf(ix) < 0 && x / price > 0.25 && x / price < 4) cand.push(x); });
         var pl = r.pcts.filter(function (x) { return Math.abs(x) < 95; });
-        if (pl.length === 1) {                                                   // price and P/L % pin the cost down; a printed cost that disagrees was misread
+        if (costTri) cost = n[costTri.j];                                         // the row states the cost value outright
+        if (cost == null) pl.forEach(function (q) {                               // a printed cost confirmed by a profit/loss % on the row
+          var implied = price / (1 + q / 100); cand.forEach(function (x) { if (cost == null && Math.abs(x / implied - 1) < 0.002) cost = x; }); });
+        if (cost == null && pl.length === 1) {                                    // price and P/L % pin the cost down; a printed cost that disagrees was misread
           var implied = price / (1 + pl[0] / 100), near = cand.filter(function (x) { return Math.abs(x / implied - 1) < 0.05; })[0];
-          if (near != null || !cand.length) cost = near != null && Math.abs(near / implied - 1) < 0.002 ? near : implied;
+          if (near != null || !cand.length) { cost = implied; derived = true; }
         }
         if (cost == null && cand.length === 1 && !pl.length) cost = cand[0];
       }
-      return { ticker: r.ticker, value: val, how: how, known: r.known, qty: qty, price: price == null ? null : vnd(price), cost: cost == null ? null : Math.round(vnd(cost) / 10) * 10 };
+      return { ticker: r.ticker, value: val, how: how, known: r.known, qty: qty, price: price == null ? null : vnd(price), cost: cost == null ? null : derived ? Math.round(vnd(cost) / 10) * 10 : Math.round(vnd(cost)) };
     });
     /* values must share one unit: if some came from quantity x close (VND) and others are in thousands or millions, rescale by median ratio is not safe; flag instead */
     var tot = out.reduce(function (s, r) { return s + (r.value || 0); }, 0);
     out.forEach(function (r) { r.weight = tot > 0 && r.value ? r.value / tot * 100 : null; });
     var mixed = out.some(function (r) { return r.how === 'quantity'; }) && out.some(function (r) { return r.how === 'product' || r.how === 'largest'; });
     var allVnd = out.every(function (r) { return r.how === 'product' || r.how === 'quantity'; });
-    return { mode: 'values', rows: out, total: allVnd ? tot : null, unsure: mixed || out.some(function (r) { return r.how === 'largest'; }) };
+    return { mode: 'values', rows: out, total: allVnd ? tot : null, unsure: fixed || mixed || out.some(function (r) { return r.how === 'largest'; }) };
   }
 
   /* ---- browser only: recognise text in an image, on the device ---- */
@@ -96,7 +123,7 @@
     return new Promise(function (ok, bad) {
       var img = new Image(), url = URL.createObjectURL(file);
       img.onload = function () {
-        var sc = Math.min(3, Math.max(1, 1800 / img.width)), c = document.createElement('canvas');
+        var sc = Math.min(3, Math.max(1, 3400 / img.width)), c = document.createElement('canvas');
         c.width = Math.round(img.width * sc); c.height = Math.round(img.height * sc);
         if (c.width * c.height > 16e6) { var k = Math.sqrt(16e6 / (c.width * c.height)); c.width = Math.round(c.width * k); c.height = Math.round(c.height * k); }
         var g = c.getContext('2d'); g.imageSmoothingQuality = 'high'; g.drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(url);
