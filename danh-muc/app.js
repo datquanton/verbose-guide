@@ -320,6 +320,7 @@
       case 'pair': v = { a: d.a, b: d.b, c: n(d.c, 2) }; break;
       case 'pastStop': v = { t: d.t, pl: sg(d.pl) + '%', d: g(d.d) }; break;
       case 'losers': v = { list: d.rows.map(function (x) { return x.t + ' (' + sg(x.pl) + '%)'; }).join(', ') }; break;
+      case 'factorTilt': v = { list: d.low.map(function (k) { return L(T.factor.names[k]).toLowerCase(); }).join(', '), scores: FA.KEYS.map(function (k) { return L(T.factor.names[k]).toLowerCase() + ' ' + (d.scores[k] == null ? '–' : d.scores[k]); }).join(' · ') }; break;
       case 'stale': v = { list: d.list.join(', '), d: d.days }; break;
       case 'priceStale': v = { d: d.days }; break;
       default: v = { list: (d.list || []).join(', ') };
@@ -363,7 +364,7 @@
     /* findings */
     h += '<h3>' + L(T.hFind) + '</h3>';
     if (!a.findings.length) h += '<p class="empty">' + L(T.noFind) + '</p>';
-    else h += '<ul class="findings">' + a.findings.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft"><span class="pill sev' + f.sev + '">' + L(T['sev' + f.sev]) + '</span> ' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>';
+    else h += '<ul class="findings">' + a.findings.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft"><span class="pill sev' + f.sev + '">' + L(T['sev' + f.sev]) + '</span> ' + x.title + ' <span class="lens">' + L(T.lens[f.lens] || T.lensFactor) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>';
 
     var hF = h; h = '';
     /* allocation */
@@ -423,6 +424,7 @@
     }
 
     /* price */
+    h += factorSec(m.ticker);
     h += '<h4 class="sec">' + L(T.pPrices) + '</h4>';
     if (mk) {
       var d200 = mk.d200 != null ? mk.d200 : mk.d50;
@@ -479,6 +481,44 @@
   }
 
 
+  /* ---------- factors: value, growth, quality, momentum, low risk, flow ---------- */
+  var FA = window.PM_FACTORS; if (FA) FA.init(M, CO, window.PM_FLOW);
+  function frow(k, score, extra) {
+    return '<div class="frow"><span class="fname">' + L(T.factor.names[k]) + '<span class="sub"> ' + L(T.factor.what[k]) + '</span></span><span class="ftrack"><i style="width:' + (score == null ? 0 : score) + '%"></i></span><span class="fscore">' + (score == null ? '–' : score) + '</span><span class="sub fextra">' + (extra || '') + '</span></div>';
+  }
+  function factorSec(tk) {
+    var s = FA && FA.get(tk); if (!s) return '';
+    var sh = FA.shape(tk);
+    return '<h4 class="sec">' + L(T.factor.h) + '</h4>' + (sh ? '<p><strong>' + L(T.factor.shape[sh]) + '</strong></p>' : '') + '<div class="frows">' +
+      FA.KEYS.map(function (k) { var r = s.inSec && s.inSec[k]; return frow(k, s[k], r && r.n >= 3 ? t(T.factor.inSec, r) : ''); }).join('') + '</div><p class="sub">' + t(T.factor.note, { n: M.order.length }) + '</p>';
+  }
+  function portExposure(a) { return FA ? FA.exposure(a.positions.filter(function (m) { return m.status === 'hold' && m.weight > 0; }).map(function (m) { return { ticker: m.ticker, weight: m.weight }; })) : null; }
+  function portFactorHtml(a) {
+    var e = portExposure(a); if (!e || e.cover < 0.5) return '';
+    return '<div class="frows">' + FA.KEYS.map(function (k) { return frow(k, e.scores[k], ''); }).join('') + '</div><p class="sub">' + t(T.factor.portNote, { n: M.order.length }) + '</p>';
+  }
+  function addFactorFinding(a) {
+    var e = portExposure(a); if (!e || e.cover < 0.6 || a.now.n < 2) return;
+    var low = FA.KEYS.filter(function (k) { return e.scores[k] != null && e.scores[k] < 30; }); if (!low.length) return;
+    a.findings.push({ code: 'factorTilt', sev: 2, lens: 'factor', data: { low: low, scores: e.scores } });
+    a.findings.sort(function (x, y) { return y.sev - x.sev; });
+  }
+  var fsort = { k: 'value', dir: -1 };
+  function heat(v) { return v == null ? '<td class="num">–</td>' : '<td class="num heat" style="--v:' + v + '">' + v + '</td>'; }
+  function factorScreen() {
+    if (!FA) return '';
+    var F = T.factor, secs = FA.sectors(), all = FA.all();
+    function th(k, label) { return '<th class="num"><button type="button" class="thb' + (fsort.k === k ? ' on' : '') + '" data-fsort="' + k + '">' + label + (fsort.k === k ? (fsort.dir < 0 ? ' ↓' : ' ↑') : '') + '</button></th>'; }
+    var head = FA.KEYS.map(function (k) { return th(k, L(F.names[k])); }).join('');
+    var by = function (o) { return function (x, y) { var p = o[x][fsort.k], q = o[y][fsort.k]; if (p == null) return 1; if (q == null) return -1; return (p - q) * fsort.dir; }; };
+    var h = '<p>' + t(F.screenP, { n: M.order.length }) + '</p><div class="tablewrap"><table class="ftable"><thead><tr><th>' + L(F.secT) + '</th><th class="num">' + L(F.count) + '</th>' + head + '</tr></thead><tbody>' +
+      Object.keys(secs).filter(function (s) { return secs[s].n >= 2; }).sort(by(secs)).map(function (s) { return '<tr><td>' + esc(secName(s)) + '</td><td class="num">' + secs[s].n + '</td>' + FA.KEYS.map(function (k) { return heat(secs[s][k]); }).join('') + '</tr>'; }).join('') + '</tbody></table></div>';
+    h += '<div class="tablewrap"><table class="ftable"><thead><tr><th>' + L(F.stockT) + '</th><th>' + L(T.fSector) + '</th>' + head + '<th>' + L(F.shapeT) + '</th></tr></thead><tbody>' +
+      Object.keys(all).sort(by(all)).map(function (k) { var sh = FA.shape(k); return '<tr><td>' + esc(k) + ' <span class="sub">' + esc(M.t[k].name) + '</span></td><td>' + esc(secName(all[k].sec)) + '</td>' + FA.KEYS.map(function (f) { return heat(all[k][f]); }).join('') + '<td class="sub">' + (sh ? L(F.tag[sh]) : '') + '</td></tr>'; }).join('') + '</tbody></table></div>' +
+      '<p class="sub">' + t(F.note, { n: M.order.length }) + '</p>';
+    return h;
+  }
+
   /* ---------- simplified layout (v2): priorities first, the rest on demand ---------- */
   var manageOpen = false;
   function prioItem(f, a) {
@@ -487,7 +527,7 @@
       var first = a.positions.filter(function (m) { return (d.list || []).indexOf(m.ticker) >= 0; }).sort(function (p, q) { return q.weight - p.weight; })[0];
       if (first) btn = '<button type="button" class="btn" ' + (f.code === 'noNumbers' ? 'data-ivfor' : 'data-ivdeep') + '="' + esc(first.id) + '">' + t(T.intake.askFor, { t: first.ticker }) + '</button>';
     } else if (tk) btn = '<button type="button" class="btn" data-open="' + esc(tk) + '">' + t(T.v2.open, { t: tk }) + '</button>';
-    return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p>' + (btn ? '<p class="btns">' + btn + '</p>' : '') + '</li>';
+    return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens] || T.lensFactor) + '</span></p><p class="fb">' + x.body + '</p>' + (btn ? '<p class="btns">' + btn + '</p>' : '') + '</li>';
   }
   function sec(title, html, open, cls) { return '<details class="sec' + (cls ? ' ' + cls : '') + '"' + (open ? ' open' : '') + '><summary>' + title + '</summary><div class="secbody">' + html + '</div></details>'; }
   function positionCard2(m, a) {
@@ -498,12 +538,11 @@
     var against = ev.challenge.concat(ev.blindRisk).filter(function (e) { return e.lvl >= 2; })[0], forIt = ev.agree.concat(ev.blindSupport).filter(function (e) { return e.lvl >= 2; })[0];
     var h = '<details class="pos v2" data-tk="' + esc(m.ticker) + '"><summary><span class="tk">' + esc(m.ticker) + '</span><span class="nm">' + esc(mk ? mk.name : secName(m.sector)) + '</span><span class="wt">' + g(m.weight) + '%' + (m.suggest == null ? '' : ' → ' + g(m.suggest) + '%') + '</span>' +
       (m.pl != null ? '<span class="plc ' + (m.pl < 0 ? 'down' : 'up') + '">' + t(T.v2.pl, { pl: sg(m.pl) + '%' }) + '</span>' : '') + '<span class="pill act-' + m.action + '">' + L(T.act[m.action]) + '</span>' +
-      '<span class="hl">' + (against ? '<span class="neg">▼ ' + esc(L(against.text)) + '</span>' : '') + (forIt ? '<span class="posi">▲ ' + esc(L(forIt.text)) + '</span>' : '') + '</span></summary><div class="posbody">' + head;
-    var planIdx = 4, numIdx = 0;
+      (FA && FA.shape(m.ticker) && FA.shape(m.ticker) !== 'mixed' ? '<span class="hl tagline"><span class="ftag">' + L(T.factor.tag[FA.shape(m.ticker)]) + '</span></span>' : '') + '<span class="hl">' + (against ? '<span class="neg">▼ ' + esc(L(against.text)) + '</span>' : '') + (forIt ? '<span class="posi">▲ ' + esc(L(forIt.text)) + '</span>' : '') + '</span></summary><div class="posbody">' + head;
     segs.forEach(function (sg0, i) {
-      var k = sg0.indexOf('</h4>'), title = sg0.slice(0, k), html = sg0.slice(k + 5);
-      if (i === 2) title += ' (' + (ev.agree.length + ev.challenge.length + ev.blindRisk.length + ev.blindSupport.length) + ')';
-      h += sec(title, html, (i === planIdx && m.complete) || (i === numIdx && m.complete && m.ev <= 0));
+      var k = sg0.indexOf('</h4>'), title = sg0.slice(0, k), html = sg0.slice(k + 5), isPlan = title === L(T.pPlan), isNum = title === L(T.pNumbers);
+      if (title === L(T.pResearch)) title += ' (' + (ev.agree.length + ev.challenge.length + ev.blindRisk.length + ev.blindSupport.length) + ')';
+      h += sec(title, html, (isPlan && m.complete) || (isNum && m.complete && m.ev <= 0));
     });
     return h + btns + '</div></details>';
   }
@@ -519,13 +558,14 @@
     var seen = {}, top = [], rest = [];
     a.findings.forEach(function (f) { if (top.length < 3 && !seen[f.code] && f.sev >= 2) { seen[f.code] = 1; top.push(f); } else rest.push(f); });
     if (top.length) h += '<h3>' + L(V.prio) + '</h3><ol class="prio">' + top.map(function (f) { return prioItem(f, a); }).join('') + '</ol>';
-    if (rest.length) h += sec(t(V.moreChecks, { n: rest.length }), '<ul class="findings">' + rest.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens]) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>', false, 'flat');
+    if (rest.length) h += sec(t(V.moreChecks, { n: rest.length }), '<ul class="findings">' + rest.map(function (f) { var x = findingText(f); return '<li class="sev' + f.sev + '"><p class="ft">' + x.title + ' <span class="lens">' + L(T.lens[f.lens] || T.lensFactor) + '</span></p><p class="fb">' + x.body + '</p></li>'; }).join('') + '</ul>', false, 'flat');
     /* the short challenge, only for the largest positions still without numbers */
     var todo = a.positions.filter(function (m) { return !m.complete && m.status === 'hold'; }).sort(function (p, q) { return q.weight - p.weight; }).slice(0, 3);
     if (todo.length && !iv && !editing && !intake) h += '<div class="need"><p><strong>' + L(V.challengeH) + '</strong></p><p>' + L(V.challengeP) + '</p><div class="choices">' + todo.map(function (m) { return '<button type="button" class="choice" data-ivfor="' + esc(m.id) + '">' + esc(m.ticker) + ' · ' + g(m.weight) + '%</button>'; }).join('') + '</div></div>';
     h += '<h3>' + L(V.stocks) + '</h3><p class="sub">' + L(V.stocksHint) + '</p>';
     a.positions.slice().sort(function (p, q) { return q.weight - p.weight; }).forEach(function (m) { h += positionCard2(m, a); });
-    h += '<h3>' + L(V.more) + '</h3>' + (now.n ? sec(L(V.moreRisk), parts.tiles, false, 'flat') : '') + sec(L(V.moreAlloc), parts.alloc, false, 'flat') + sec(L(V.moreRegime) + ': ' + t(T.regimeLine[reg.use], { g: L(T['g' + reg.growth.charAt(0).toUpperCase() + reg.growth.slice(1)]) }), parts.regime, false, 'flat');
+    var pfh = now.n ? portFactorHtml(a) : '';
+    h += '<h3>' + L(V.more) + '</h3>' + (pfh ? sec(L(T.factor.port), pfh, false, 'flat') : '') + (now.n ? sec(L(V.moreRisk), parts.tiles, false, 'flat') : '') + sec(L(V.moreAlloc), parts.alloc, false, 'flat') + sec(L(V.moreRegime) + ': ' + t(T.regimeLine[reg.use], { g: L(T['g' + reg.growth.charAt(0).toUpperCase() + reg.growth.slice(1)]) }), parts.regime, false, 'flat');
     return h;
   }
 
@@ -535,14 +575,15 @@
     var h = '<h2 id="khung-tu-duy">' + L(T.s3) + '</h2><p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>';
     h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>';
     var srcs = '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul>';
-    if (V2) { h = sec(L(T.v2.fwSum), '<p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>', false, 'flat') + sec(L(T.v2.methodSum), '<ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>' + srcs, false, 'flat') + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
+    var screen = FA ? sec(L(T.factor.screenH), '<div id="fscreen">' + factorScreen() + '</div>', false, 'flat') : '';
+    if (V2) { h = screen + sec(L(T.v2.fwSum), '<p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>', false, 'flat') + sec(L(T.v2.methodSum), '<ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>' + srcs, false, 'flat') + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
     }
-    else { h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>'; doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=1'; }); }
+    else { h = screen + h; h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>'; doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=1'; }); }
     $('pm-static').innerHTML = h;
     $('ticker-list').innerHTML = M.order.map(function (k) { return '<option value="' + k + '">' + esc(M.t[k].name) + '</option>'; }).join('');
   }
 
-  function renderResults() { renderConsult(E.analyse(state)); }
+  function renderResults() { var a = E.analyse(state); if (a.positions.length) addFactorFinding(a); renderConsult(a); }
   function render() { renderInput(); renderResults(); }
 
   /* ---------- events ---------- */
@@ -550,6 +591,7 @@
     var el = e.target.closest('button'); if (!el) return;
     var id = el.id, ed = el.getAttribute('data-edit'), del = el.getAttribute('data-del'), chip = el.getAttribute('data-chip');
     var a;
+    if ((a = el.getAttribute('data-fsort'))) { if (fsort.k === a) fsort.dir = -fsort.dir; else { fsort.k = a; fsort.dir = -1; } var fs = $('fscreen'); if (fs) fs.innerHTML = factorScreen(); return; }
     if ((a = el.getAttribute('data-ivdeep'))) { intake = null; startInterview(false, a, 'deep'); renderInput(); renderResults(); $('editor').scrollIntoView({ block: 'center' }); return; }
     if ((a = el.getAttribute('data-open'))) { var dt = doc.querySelector('details.pos[data-tk="' + a.replace(/[^A-Z0-9]/g, '') + '"]'); if (dt) { dt.open = true; dt.scrollIntoView({ block: 'start' }); } return; }
     if ((a = el.getAttribute('data-ivfor'))) { intake = null; startInterview(false, a); renderInput(); if (V2) renderResults(); $('editor').scrollIntoView({ block: 'center' }); return; }

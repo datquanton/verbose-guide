@@ -133,3 +133,12 @@ market price, market value, loan %, profit/loss). The reader had weighted by pur
 - profit and loss now use the market price read from the screenshot, so they match the broker's own figures.
 Result on that image: 4 of 4 tickers, weights, costs and portfolio size correct; profit/loss matched the screen to 0.1pp.
 Not handled: the loan % column is ignored, so margin debt is not part of the read.
+
+### 2026-11-18 · factor view (owner-directed)
+
+Added six factor scores per stock (value, growth, quality, price momentum, low risk, flow), each the average percentile
+rank of a few measures across the 77 stocks. Shown as a factor profile on each stock, a weighted profile of the portfolio,
+a finding when the portfolio sits below 30 on a factor, and a sortable industry and stock table that works without a portfolio.
+Flow uses new data (`flow.js`): foreign net buying over traded value and active buy/sell imbalance over 60 sessions to 17 Nov.
+Limits: ranks compare only these 77 stocks at one date; nothing is backtested for Vietnam; sectors with two or three stocks
+have fragile medians; price statistics in `market.js` are still to 13 Nov because the flow feed skips sessions.
