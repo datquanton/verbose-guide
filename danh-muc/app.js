@@ -519,6 +519,26 @@
     return h;
   }
 
+  /* ---------- factor backtest ---------- */
+  function spark(a) {
+    var w = 132, h = 34, lo = Math.min.apply(null, a.concat([0])), hi = Math.max.apply(null, a.concat([0])), sp = hi - lo || 1;
+    var y = function (v) { return (h - 3 - (v - lo) / sp * (h - 6)).toFixed(1); };
+    return '<svg class="spark" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true"><line x1="0" x2="' + w + '" y1="' + y(0) + '" y2="' + y(0) + '" class="zero"/><polyline points="' + a.map(function (v, i) { return (i / (a.length - 1) * w).toFixed(1) + ',' + y(v); }).join(' ') + '"/></svg>';
+  }
+  function backtestHtml() {
+    var B = window.PM_BACKTEST; if (!B) return '';
+    var X = T.bt, ord = ['value', 'growth', 'momentum', 'quality', 'lowrisk', 'combo'];
+    var nm = function (k) { return k === 'combo' ? L(X.combo) : L(T.factor.names[k]); }, s1 = function (v) { return v == null ? '–' : sg(v); };
+    var h = '<h3 id="kiem-dinh">' + L(X.h) + '</h3><p>' + t(X.intro, { from: date(B.from), to: date(B.to), m: B.months, lo: B.names[0], hi: B.names[1], lag: B.lag }) + '</p>' +
+      '<div class="tablewrap"><table class="ftable bt"><thead><tr><th>' + L(X.cFactor) + '</th><th class="num">' + L(X.cTU) + '</th><th class="num">' + L(X.cT) + '</th><th class="num">' + L(X.cHit) + '</th><th class="num">' + L(X.cNeutral) + '</th><th class="num">' + L(X.cNet) + '</th><th class="num">' + L(X.cTurn) + '</th><th class="num">' + L(X.cDD) + '</th><th>' + L(X.cPath) + '</th><th>' + L(X.cRead) + '</th></tr></thead><tbody>' +
+      ord.map(function (k) { var o = B.f[k], v = o.tu.t >= 2 ? 'yes' : o.tu.ann < 0 ? 'neg' : 'weak';
+        return '<tr><td>' + nm(k) + '</td><td class="num">' + s1(o.tu.ann) + '</td><td class="num">' + n(o.tu.t, 1) + '</td><td class="num">' + o.tu.hit + '%</td><td class="num">' + s1(o.ntu.ann) + ' <span class="sub">(t ' + n(o.ntu.t, 1) + ')</span></td><td class="num">' + s1(o.tuNet.ann) + '</td><td class="num">' + o.turn + '%</td><td class="num">' + n(o.dd) + '%</td><td>' + spark(o.cumTU) + ' <span class="sub">' + s1(o.cumTU[o.cumTU.length - 1]) + '%</span></td><td class="sub">' + L(X.verdict[v]) + '</td></tr>'; }).join('') + '</tbody></table></div>';
+    h += '<p class="lab">' + L(X.subH) + '</p><div class="tablewrap"><table class="ftable"><thead><tr><th>' + L(X.cFactor) + '</th>' + B.f.value.sub.map(function (p) { return '<th class="num">' + esc(p.p) + '</th>'; }).join('') + '<th class="num">' + L(X.cTB) + '</th></tr></thead><tbody>' +
+      ord.map(function (k) { var o = B.f[k]; return '<tr><td>' + nm(k) + '</td>' + o.sub.map(function (p) { return '<td class="num">' + s1(p.ann) + '</td>'; }).join('') + '<td class="num">' + s1(o.tb.ann) + ' <span class="sub">(t ' + n(o.tb.t, 1) + ')</span></td></tr>'; }).join('') + '</tbody></table></div>';
+    h += '<p class="lab">' + L(X.readH) + '</p><ul>' + X.read.map(function (r) { return '<li>' + t(r, { n: M.order.length, u: n(B.universe.ann), i: n(B.universe.index), c: g(B.cost) }) + '</li>'; }).join('') + '</ul>';
+    return h;
+  }
+
   /* ---------- simplified layout (v2): priorities first, the rest on demand ---------- */
   var manageOpen = false;
   function prioItem(f, a) {
@@ -575,7 +595,7 @@
     var h = '<h2 id="khung-tu-duy">' + L(T.s3) + '</h2><p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>';
     h += '<h2 id="phuong-phap">' + L(T.s4) + '</h2><ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>';
     var srcs = '<ul class="srcs">' + Object.keys(R.reports).map(function (k) { return '<li>' + srcLink(k) + '</li>'; }).join('') + '</ul>';
-    var screen = FA ? sec(L(T.factor.screenH), '<div id="fscreen">' + factorScreen() + '</div>', false, 'flat') : '';
+    var screen = FA ? sec(L(T.factor.screenH), '<div id="fscreen">' + factorScreen() + '</div>' + backtestHtml(), false, 'flat') : '';
     if (V2) { h = screen + sec(L(T.v2.fwSum), '<p>' + L(T.s3note) + '</p><div class="cards fw">' + T.fw.map(function (f) { return '<div class="card"><h3>' + L(f[0]) + '</h3><p class="sum">' + L(f[1]) + '</p><p class="meta">' + L(f[2]) + '</p></div>'; }).join('') + '</div>', false, 'flat') + sec(L(T.v2.methodSum), '<ul>' + T.method.map(function (x) { return '<li>' + t(x, { n: M.order.length, s: M.sessions, d: date(M.asof), r: date(R.asof), q: CO ? CO.asof : '' }) + '</li>'; }).join('') + '</ul>' + srcs, false, 'flat') + '<p class="disclaimer">' + L(T.disclaimer) + '</p>';
     }
     else { h = screen + h; h += srcs + '<p class="disclaimer">' + L(T.disclaimer) + '</p>'; doc.querySelectorAll('a[hreflang]').forEach(function (x) { x.href += '?v=1'; }); }

@@ -142,3 +142,13 @@ a finding when the portfolio sits below 30 on a factor, and a sortable industry 
 Flow uses new data (`flow.js`): foreign net buying over traded value and active buy/sell imbalance over 60 sessions to 17 Nov.
 Limits: ranks compare only these 77 stocks at one date; nothing is backtested for Vietnam; sectors with two or three stocks
 have fragile medians; price statistics in `market.js` are still to 13 Nov because the flow feed skips sessions.
+
+### 2026-11-19 · factor backtest (owner-directed)
+
+Backtested five of the six factors on 65–72 of the tracked stocks, monthly, 31 Jul 2019 to 30 Oct 2026 (88 months),
+point in time with a 45-day reporting lag. Top third against the average of all, % a year (t-stat):
+value +6.8 (2.4), growth +4.4 (1.3), momentum +5.7 (1.4), quality −4.9 (−1.4), low risk −5.1 (−1.1), all combined +3.3 (0.8).
+Checks: results hold with a 20- or 90-day lag; no impossible daily price moves inside the tested window.
+Limits stated on the page: survivorship (the group averaged 22.8% a year against 10.8% for the VN-Index), value uses an
+estimated past market value, quality is ROE only, flow untested, most of the edge came from 2019–2021.
+The overnight run must not regenerate `backtest.js` without also updating the figures quoted in `bt.read`.

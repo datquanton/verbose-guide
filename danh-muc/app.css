@@ -183,3 +183,7 @@ table.ftable th { white-space: nowrap; } table.ftable td { white-space: nowrap; 
 .thb:hover, .thb.on { color: var(--series-1); } .thb:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
 .ftag { display: inline-block; font-size: 11.5px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 0 8px; }
 details.pos.v2 .hl.tagline { margin-top: 2px; } details.pos.v2 .hl.tagline span { display: inline-block; }
+
+/* ---------- backtest ---------- */
+svg.spark { vertical-align: middle; } svg.spark polyline { fill: none; stroke: var(--series-1); stroke-width: 1.6; stroke-linejoin: round; } svg.spark .zero { stroke: var(--baseline); stroke-width: 1; }
+table.ftable.bt th { white-space: normal; min-width: 5.5em; vertical-align: bottom; } table.ftable.bt td.sub { white-space: normal; min-width: 10em; }
