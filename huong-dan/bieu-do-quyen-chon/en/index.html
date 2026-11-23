@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Option payoff charts, built step by step · Vietnam Equity Research</title><meta name="description" content="An animated chart for six option strategies: build each piece, slide by the premium, then read the breakeven, maximum gain and maximum loss.">
+<link rel="stylesheet" href="../../../assets/site.css"><script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script><script src="../../../assets/site.js" defer></script><style>
+:root{--po-s0:#6d28d9;--po-s0t:#f1eafe;--po-st:#0b7f8a;--po-stt:#e0f5f6;--po-k:#c2410c;--po-kt:#fdeee6;--po-fee:#be185d;--po-feet:#fde7ef;--po-be:#1d5fae;--po-bet:#e8f1fc;--po-gain:#0f6b31;--po-gaint:#e5f4ea;--po-loss:#b91c1c;--po-losst:#fde2e2;--po-piece:#8a95a3}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--po-s0:#b69cff;--po-s0t:#2a2140;--po-st:#4fd1dc;--po-stt:#12323a;--po-k:#ff9a5c;--po-kt:#3a2418;--po-fee:#ff7fb0;--po-feet:#3a1c2a;--po-be:#7fb2f0;--po-bet:#16263b;--po-gain:#5fd38b;--po-gaint:#14301f;--po-loss:#ff8a8a;--po-losst:#3a1a1a;--po-piece:#7d8896}}
+:root[data-theme="dark"]{--po-s0:#b69cff;--po-s0t:#2a2140;--po-st:#4fd1dc;--po-stt:#12323a;--po-k:#ff9a5c;--po-kt:#3a2418;--po-fee:#ff7fb0;--po-feet:#3a1c2a;--po-be:#7fb2f0;--po-bet:#16263b;--po-gain:#5fd38b;--po-gaint:#14301f;--po-loss:#ff8a8a;--po-losst:#3a1a1a;--po-piece:#7d8896}
+.po{margin:18px 0 28px;display:flex;flex-direction:column;gap:12px}
+.po-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.po-picks{display:flex;flex-wrap:wrap;gap:6px}
+.po button{font:inherit;font-size:13.5px;padding:6px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);cursor:pointer}
+.po .po-picks button[aria-pressed="true"]{background:var(--series-1);border-color:var(--series-1);color:#fff}
+.po .primary{background:var(--text-primary);color:var(--page);border-color:var(--text-primary)}
+.po button:focus-visible,.po input:focus-visible{outline:2px solid var(--series-1);outline-offset:2px}
+.po-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:14px}
+@media (max-width:860px){.po-grid{grid-template-columns:minmax(0,1fr)}}
+.po-box{border:1px solid var(--border);border-radius:12px;background:var(--surface-1);padding:12px 14px;min-width:0}
+.po-box .k{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:600}
+.po-chart svg{display:block;width:100%;height:auto}
+.po-chart text{font-family:inherit}
+.po-side{display:flex;flex-direction:column;gap:12px;min-width:0}
+.po-cap{font-size:15.5px;line-height:1.45;margin:6px 0 0;min-height:3em}
+.po-say{font-size:15px;font-weight:600;margin:8px 0}
+.po-eq{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 8px;font-variant-numeric:tabular-nums}
+.po-eq .v{display:inline-flex;flex-direction:column;align-items:center;line-height:1.15;padding:3px 7px;border-radius:8px}
+.po-eq .v b{font-size:17px}.po-eq .v i{font-style:normal;font-size:11.5px;opacity:.85;white-space:nowrap}
+.po-eq .op{padding-top:6px;color:var(--text-muted)}
+.po-scenes{display:flex;flex-direction:column;gap:3px;margin-top:6px}
+.po-scenes button{border-radius:8px;text-align:left;border-color:transparent;background:transparent;color:var(--text-muted);display:flex;gap:8px}
+.po-scenes button.on{background:var(--page);border-color:var(--border);color:var(--text-primary);font-weight:600}
+.po-scenes button.done{color:var(--text-secondary)}
+.po label{display:flex;flex-direction:column;gap:4px;font-size:13.5px;color:var(--text-secondary);margin-top:8px}
+.po label .row{display:flex;justify-content:space-between}
+.po input[type=range]{width:100%;accent-color:var(--series-1)}
+.po .tk{border-radius:5px;padding:0 4px;font-weight:700}
+@media (prefers-reduced-motion:reduce){.po *{transition:none!important}}
+</style></head>
+<body><header class="topbar"><div class="inner"><a class="brand" href="../../../en/">Vietnam Equity Research</a><nav><a href="../../../en/#vi-mo" aria-current="page">Macro</a><a href="../../../en/#nganh">Sectors</a><a href="../../../en/#ket-qua-kinh-doanh">Earnings</a></nav><span class="right"><a href="../" hreflang="vi">Tiếng Việt</a><button class="theme" type="button" aria-label="Switch light/dark theme" title="Switch light/dark theme"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true" style="vertical-align:-2px"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button></span></div></header>
+<main class="wrap">
+<p class="kicker">Macro · Guide</p><h1>Option payoff charts, built step by step</h1><p class="dek">An animated chart for six option strategies: build each piece, slide by the premium, then read the breakeven, maximum gain and maximum loss</p>
+<p class="byline">Updated 23 Nov 2026 · illustrative numbers, not market prices · source: standard option payoffs at expiry</p>
+<div class="points"><h2>Key points</h2><ul><li>The <b>horizontal axis</b> is the share price on the <b>last day</b> (expiry), not time. The <b>vertical axis</b> is your profit or loss. Each point on the line answers one question: “if the share ends at this price, how much do I make or lose?”</li><li><b>Slopes</b> give the shape, and the line only bends at a <b>strike</b>. A share has slope +1 everywhere; a bought call has slope +1 to the right of its strike; a bought put has slope −1 to the left. Writing an option flips the signs.</li><li>The <b>premium</b> gives the height: pay it and the whole line slides down, receive it and the line slides up. The <b>breakeven</b> is where the line crosses zero.</li></ul></div>
+<h2>1 · Watch the chart build itself</h2>
+<p>Pick a strategy. The chart builds itself in seven scenes, then a dot runs along the price axis while the profit sum updates beside it. Drag the slider to move the price yourself.</p>
+<div class="po" id="po">
+ <div class="po-top"><div class="po-picks" id="po-picks"></div><div><button type="button" class="primary" id="po-play"></button> <button type="button" id="po-pause"></button></div></div>
+ <div class="po-grid">
+  <div class="po-box"><div class="po-chart" id="po-chart"></div><label for="po-s"><span class="row"><span id="po-drag"></span><span id="po-sv"></span></span><input id="po-s" type="range" min="0" max="100" step="0.01" value="50"></label></div>
+  <div class="po-side">
+   <div class="po-box"><div class="k" id="po-k1"></div><p class="po-cap" id="po-cap"></p></div>
+   <div class="po-box"><div class="k" id="po-k2"></div><p class="po-say" id="po-say"></p><div class="po-eq" id="po-eq"></div></div>
+   <div class="po-box"><div class="k" id="po-k3"></div><div class="po-scenes" id="po-scenes"></div></div>
+  </div>
+ </div>
+</div>
+<h2>2 · How to read the chart</h2>
+<ol><li><b>Pick</b> a last-day price on the horizontal axis.</li><li><b>Go up</b> (or down) to the blue line.</li><li><b>Look left</b> to read your profit or loss.</li></ol>
+<p>The dashed lines are only <b>markers</b>: S₀ (what you paid for the share) and K (the strike, where the line bends). S₀ is never a bend: the share has slope +1 everywhere.</p>
+<h2>3 · Draw any strategy in four steps</h2>
+<ol><li><b>Mark the prices:</b> S₀ if you own the share, and every strike.</li><li><b>Draw the shape:</b> add up each piece’s slope in each zone between strikes.</li><li><b>Slide by the premium:</b> paid means down, received means up.</li><li><b>Read the answers:</b> crossing zero is the breakeven; the flat top is the maximum gain; the flat bottom is the maximum loss.</li></ol>
+<h2>Method and sources</h2>
+<p>Profit is per share at expiry, ignoring the time value of money. A call is worth max(0, S_T − K) and a put max(0, K − S_T). Profit = value of the pieces on the last day − premiums paid + premiums received. All numbers are illustrative, with the share priced around 100; they are not market prices.</p>
+<p class="disclaimer">Personal study material, not investment advice.</p>
+<script>const PO_UI={"play": "▶ Play from the start", "pause": "⏸ Pause", "resume": "▶ Resume", "drag": "Drag the last-day price yourself", "what": "What is happening", "live": "Live sum at this last-day price", "scenes": "Scenes · click to jump", "x": "→ share price on the LAST day (S_T)", "y": "↑ YOUR profit / loss", "zero": "0", "fee": "fee", "BE": "BE", "ceil": "ceiling = max gain", "floor": "floor = max loss", "sc": ["Axes", "Mark the prices", "Piece", "Add the pieces", "Slide by the fee", "Read the answers", "Watch it move"], "cap": ["The horizontal axis is the share price on the LAST day. The vertical axis is YOUR profit or loss.", "Mark what you paid for the share (S₀) and the strikes (K). These are only markers.", "Draw one piece on its own: ", "Add the pieces together. This is the position before any fee.", "You PAID a fee, so the whole line slides DOWN by it.", "You RECEIVED a fee, so the whole line slides UP by it.", "Breakeven is where the line crosses zero. The flat parts are the floor (max loss) and the ceiling (max gain).", "Now the last-day price moves. Follow the dot: up to the line, then across to read your profit."], "manual": "You are moving the price. ", "wait": "The live sum starts when the price begins to move (scene 7).", "share": "the share (bought at S₀ ", "bought": "bought ", "written": "written ", "call": "call ", "put": "put ", "feePaid": "fee paid", "feeRec": "fee received", "profit": "profit", "ends": "If the share ends at ", "make": ", you make ", "lose": ", you lose ", "even": ", you are at breakeven.", "names": {"lc": "Long call", "cc": "Covered call", "pp": "Protective put", "bull": "Bull call spread", "bear": "Bear put spread", "str": "Long straddle"}};
+(function(){
+const U=PO_UI,$=id=>document.getElementById(id);
+const f2=x=>(Math.abs(x)<.005?0:x).toFixed(2);
+// legs: [type 'S'|'C'|'P', qty, strike or purchase price, premium]; illustrative numbers around 100
+const SET=[
+ {id:'lc',legs:[['C',1,100,4]]},
+ {id:'cc',legs:[['S',1,100,0],['C',-1,105,2]],S0:100},
+ {id:'pp',legs:[['S',1,100,0],['P',1,95,2]],S0:100},
+ {id:'bull',legs:[['C',1,100,5],['C',-1,110,2]]},
+ {id:'bear',legs:[['P',1,100,5],['P',-1,90,2]]},
+ {id:'str',legs:[['C',1,100,4],['P',1,100,4]]}];
+const legVal=(l,S)=>{const [t,q,K]=l;return t==='S'?q*(S-K):t==='C'?q*Math.max(S-K,0):q*Math.max(K-S,0)};
+const before=(e,S)=>e.legs.reduce((a,l)=>a+legVal(l,S),0);
+const net=e=>e.legs.reduce((a,l)=>a+(l[0]==='S'?0:l[1]*l[3]),0);
+const legName=l=>{const [t,q,K]=l;return t==='S'?U.share+K+')':(q>0?U.bought:U.written)+(t==='C'?U.call:U.put)+K};
+function bes(e){const n=net(e),o=[];let px=e.lo,py=before(e,px)-n;for(let i=1;i<=4000;i++){const x=e.lo+(e.hi-e.lo)*i/4000,y=before(e,x)-n;if(Math.abs(y)<1e-9)o.push(x);else if(py*y<0&&Math.abs(py)>1e-9)o.push(px+(x-px)*(-py)/(y-py));px=x;py=y}return o}
+const ease=x=>x<0?0:x>1?1:x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+const S={cur:null,t:0,playing:false,last:0,manual:false,raf:0};
+function scenes(e){const n=e.legs.length,c=U.cap,sc=[[U.sc[0],.9,c[0]],[U.sc[1],1.0,c[1]]];
+ e.legs.forEach((l,i)=>sc.push([U.sc[2]+' '+(i+1),1.3,c[2]+legName(l)+'.']));
+ sc.push([U.sc[3],1.3,c[3]],[U.sc[4],1.3,net(e)>=0?c[4]:c[5]],[U.sc[5],1.1,c[6]],[U.sc[6],9,c[7]]);
+ let t=0;sc.forEach(s=>{s.start=t;t+=s[1];s.end=t});return sc}
+function setup(id){const e=SET.find(s=>s.id===id);S.cur=e;const an=e.legs.filter(l=>l[0]!=='S').map(l=>l[2]);if(e.S0)an.push(e.S0);
+ const lo=Math.min(...an),hi=Math.max(...an),span=Math.max(hi-lo,lo*.12);e.lo=lo-span*.9;e.hi=hi+span*.9;e.sc=scenes(e);e.T=e.sc[e.sc.length-1].end;e.bes=bes(e);
+ $('po-s').min=e.lo;$('po-s').max=e.hi;
+ const xs=[];for(let i=0;i<=200;i++)xs.push(e.lo+(e.hi-e.lo)*i/200);const ys=[];xs.forEach(x=>{e.legs.forEach(l=>ys.push(legVal(l,x)));const b=before(e,x);ys.push(b,b-net(e))});
+ let a=Math.min(0,...ys),b=Math.max(0,...ys);const pd=(b-a)*.1;e.ylo=a-pd;e.yhi=b+pd;
+ document.querySelectorAll('#po-picks button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.id===id));
+ $('po-scenes').innerHTML=e.sc.map((s,i)=>`<button type="button" data-i="${i}"><b>${i+1}</b>${s[0]}</button>`).join('');
+ document.querySelectorAll('#po-scenes button').forEach(b=>b.addEventListener('click',()=>{S.t=e.sc[+b.dataset.i].start+.001;S.manual=false;play()}));}
+function draw(){
+ const e=S.cur,t=S.t,sc=e.sc,W=660,H=420,m={l:64,r:22,t:30,b:58},pw=W-m.l-m.r,ph=H-m.t-m.b,n=net(e);
+ const X=x=>m.l+(x-e.lo)/(e.hi-e.lo)*pw,Y=y=>m.t+(e.yhi-y)/(e.yhi-e.ylo)*ph,z=Y(0);
+ const si=sc.findIndex(s=>t<s.end),idx=si<0?sc.length-1:si,p=k=>ease((t-sc[k].start)/sc[k][1]);
+ const nL=e.legs.length,iMark=1,iP0=2,iAdd=2+nL,iFee=iAdd+1,iRead=iFee+1,iWalk=iRead+1;
+ const xs=[];for(let i=0;i<=220;i++)xs.push(e.lo+(e.hi-e.lo)*i/220);e.legs.filter(l=>l[0]!=='S').forEach(l=>xs.push(l[2]));xs.sort((a,b)=>a-b);
+ const path=(f,fr=1)=>{const k=Math.max(2,Math.round(xs.length*fr));return xs.slice(0,k).map((x,i)=>(i?'L':'M')+X(x).toFixed(1)+','+Y(f(x)).toFixed(1)).join('')};
+ const v=c=>`var(--po-${c})`,ink='var(--text-primary)',sub='var(--text-secondary)';
+ const tx=(x,y,s,o={})=>`<text x="${x}" y="${y}" text-anchor="${o.a||'middle'}" font-size="${o.fs||13}" font-weight="${o.w||700}" fill="${o.c||ink}" opacity="${o.op??1}" style="paint-order:stroke;stroke:var(--surface-1);stroke-width:4px">${s}</text>`;
+ let g='';const a0=p(0);
+ g+=`<g opacity="${a0}"><line x1="${m.l}" x2="${m.l+pw*a0+6}" y1="${H-m.b}" y2="${H-m.b}" stroke="${v('st')}" stroke-width="3" marker-end="url(#poA)"/><line x1="${m.l}" x2="${m.l}" y1="${H-m.b}" y2="${H-m.b-(ph+8)*a0}" stroke="${ink}" stroke-width="3" marker-end="url(#poB)"/>`+tx(m.l+pw/2,H-12,U.x,{fs:14,c:v('st')})+`<text transform="translate(18,${m.t+ph/2}) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="${ink}">${U.y}</text>`;
+ g+=`<line x1="${m.l}" x2="${m.l+pw*a0}" y1="${z}" y2="${z}" stroke="${sub}" stroke-width="1.5" stroke-dasharray="6 5"/>`+tx(m.l-8,z+4,'0',{a:'end',c:sub})+`</g>`;
+ if(t>=sc[iMark].start){const pm=p(iMark);const mk=[...new Set(e.legs.filter(l=>l[0]!=='S').map(l=>l[2]))].map(k=>({x:k,l:'K '+k,c:v('k')}));if(e.S0)mk.push({x:e.S0,l:'S₀ '+e.S0,c:v('s0')});
+  mk.sort((a,b)=>a.x-b.x).forEach((q,i,arr)=>{const dy=i>0&&(q.x-arr[i-1].x)/(e.hi-e.lo)<.12?16:0;g+=`<line x1="${X(q.x)}" x2="${X(q.x)}" y1="${H-m.b}" y2="${H-m.b-ph*pm}" stroke="${q.c}" stroke-width="2" stroke-dasharray="5 4" opacity=".75"/>`+tx(X(q.x),H-m.b+18+dy,q.l,{c:q.c,op:pm})});}
+ e.legs.forEach((l,i)=>{const k=iP0+i;if(t<sc[k].start)return;const pr=p(k),fade=t>=sc[iAdd].start?1-p(iAdd)*.75:1;
+  g+=`<path d="${path(S=>legVal(l,S),pr)}" fill="none" stroke="${v('piece')}" stroke-width="3" stroke-dasharray="7 5" opacity="${fade}"/>`;
+  const lx=e.lo+(e.hi-e.lo)*(i%2?.18:.82);if(pr>.6)g+=tx(X(lx),Y(legVal(l,lx))-10,legName(l),{fs:12,c:v('piece'),op:fade});});
+ let shift=0;if(t>=sc[iFee].start)shift=-n*p(iFee);
+ if(t>=sc[iAdd].start){const pa=p(iAdd),pre=t<sc[iFee].start;
+  if(!pre)g+=`<path d="${path(S=>before(e,S))}" fill="none" stroke="${v('piece')}" stroke-width="2" stroke-dasharray="4 4" opacity=".6"/>`;
+  const f=S=>before(e,S)+shift;
+  if(t>=sc[iRead].start){const pr=p(iRead),area=path(f)+`L${X(e.hi)},${z}L${X(e.lo)},${z}Z`;g+=`<clipPath id="poc1"><rect x="0" y="0" width="${W}" height="${z}"/></clipPath><clipPath id="poc2"><rect x="0" y="${z}" width="${W}" height="${H}"/></clipPath><path d="${area}" fill="${v('gaint')}" opacity="${pr}" clip-path="url(#poc1)"/><path d="${area}" fill="${v('losst')}" opacity="${pr}" clip-path="url(#poc2)"/>`}
+  g+=`<path d="${path(f,pre?pa:1)}" fill="none" stroke="${pre?ink:v('be')}" stroke-width="5" stroke-linejoin="round"/>`;
+  if(!pre&&t<sc[iRead].end){const ax=e.lo+(e.hi-e.lo)*.9,y1=Y(before(e,ax)),y2=Y(before(e,ax)+shift);if(Math.abs(y2-y1)>4)g+=`<line x1="${X(ax)}" x2="${X(ax)}" y1="${y1}" y2="${y2}" stroke="${v('fee')}" stroke-width="3.5" marker-end="url(#poF)"/>`;g+=tx(X(ax)-10,(y1+y2)/2+4,U.fee+(n>=0?' − ':' + ')+f2(Math.abs(n)*p(iFee)),{a:'end',c:v('fee'),fs:14})}}
+ if(t>=sc[iRead].start){const pr=p(iRead),ys=xs.map(x=>before(e,x)-n),mx=Math.max(...ys),mn=Math.min(...ys),L=ys.length;
+  const flatTop=(Math.abs(ys[L-1]-mx)<1e-6&&Math.abs(ys[L-6]-mx)<1e-6)||(Math.abs(ys[0]-mx)<1e-6&&Math.abs(ys[5]-mx)<1e-6);
+  const flatBot=(Math.abs(ys[0]-mn)<1e-6&&Math.abs(ys[5]-mn)<1e-6)||(Math.abs(ys[L-1]-mn)<1e-6&&Math.abs(ys[L-6]-mn)<1e-6)||Math.abs(ys.indexOf(mn)-ys.lastIndexOf(mn))>3;
+  if(flatTop)g+=tx(W-m.r,Y(mx)-10,U.ceil+' '+f2(mx),{a:'end',c:v('gain'),op:pr,fs:14});
+  if(flatBot)g+=tx(m.l+6,Y(mn)+22,U.floor+' '+f2(-mn),{a:'start',c:v('loss'),op:pr,fs:14});
+  e.bes.forEach((b,i)=>{const r=7+3*Math.sin(t*5)*(t<sc[iWalk].start?1:0);g+=`<circle cx="${X(b)}" cy="${z}" r="${r}" fill="var(--surface-1)" stroke="${v('be')}" stroke-width="3.5" opacity="${pr}"/>`+tx(X(b),z+(i%2?-14:26),U.BE+' '+f2(b),{c:v('be'),op:pr,fs:14})});}
+ let P=null;
+ if(S.manual)P=+$('po-s').value;else if(t>=sc[iWalk].start){const u=(t-sc[iWalk].start)/sc[iWalk][1],w=.5-.5*Math.cos(u*2*Math.PI);P=e.lo+(e.hi-e.lo)*(.04+.92*w);$('po-s').value=P}
+ if(P!=null){const y=before(e,P)-n,px=X(P),py=Y(y),col=Math.abs(y)<.02?v('be'):y>0?v('gain'):v('loss');
+  g+=`<line x1="${px}" x2="${px}" y1="${H-m.b}" y2="${py}" stroke="${v('st')}" stroke-width="2.5" stroke-dasharray="3 4"/><line x1="${m.l}" x2="${px}" y1="${py}" y2="${py}" stroke="${col}" stroke-width="2.5" stroke-dasharray="3 4"/><circle cx="${px}" cy="${H-m.b}" r="8" fill="${v('st')}"/><circle cx="${px}" cy="${py}" r="9" fill="${col}" stroke="var(--surface-1)" stroke-width="3"/>`;
+  g+=tx(px,H-m.b-14,f2(P),{c:v('st'),fs:14})+tx(m.l-8,py+5,(y>0?'+':'')+f2(y),{a:'end',c:col,fs:14});readout(P)}
+ else{$('po-say').textContent=U.wait;$('po-eq').innerHTML=''}
+ $('po-chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${U.names[e.id]}"><defs><marker id="poA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${v('st')}"/></marker><marker id="poB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${ink}"/></marker><marker id="poF" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${v('fee')}"/></marker></defs>${g}</svg>`;
+ $('po-cap').textContent=(S.manual?U.manual:'')+sc[idx][2];
+ document.querySelectorAll('#po-scenes button').forEach((b,i)=>{b.classList.toggle('on',i===idx&&!S.manual);b.classList.toggle('done',i<idx)});
+ $('po-sv').textContent=f2(+$('po-s').value);}
+function readout(P){const e=S.cur,n=net(e);const parts=e.legs.map(l=>({v:legVal(l,P),l:l[0]==='S'?'S_T − S₀':legName(l),c:l[0]==='S'?'s0':'k'}));
+ const y=parts.reduce((a,b)=>a+b.v,0)-n,tag=(val,l,k)=>`<span class="v" style="background:var(--po-${k}t);color:var(--po-${k})"><b>${val}</b><i>${l}</i></span>`;
+ let h='';parts.forEach((q,i)=>{h+=(i?'<span class="op">+</span>':'')+tag((q.v>=0?'':'−')+f2(Math.abs(q.v)),q.l,q.c)});
+ h+=`<span class="op">${n>=0?'−':'+'}</span>`+tag(f2(Math.abs(n)),n>=0?U.feePaid:U.feeRec,'fee')+'<span class="op">=</span>'+tag((y>0?'+':'')+f2(y),U.profit,Math.abs(y)<.02?'be':y>0?'gain':'loss');
+ $('po-eq').innerHTML=h;const st=`<span class="tk" style="background:var(--po-stt);color:var(--po-st)">${f2(P)}</span>`;
+ $('po-say').innerHTML=Math.abs(y)<.02?U.ends+st+U.even:U.ends+st+(y>0?U.make:U.lose)+`<span class="tk" style="background:var(--po-${y>0?'gain':'loss'}t);color:var(--po-${y>0?'gain':'loss'})">${f2(Math.abs(y))}</span>.`;}
+function tick(ts){if(!S.playing)return;const dt=S.last?(ts-S.last)/1000:0;S.last=ts;S.t+=Math.min(dt,.1);const e=S.cur,ws=e.sc[e.sc.length-1].start;if(S.t>e.T)S.t=ws+((S.t-ws)%e.sc[e.sc.length-1][1]);draw();S.raf=requestAnimationFrame(tick)}
+function play(){S.playing=true;S.last=0;cancelAnimationFrame(S.raf);$('po-pause').textContent=U.pause;S.raf=requestAnimationFrame(tick)}
+function stop(){S.playing=false;cancelAnimationFrame(S.raf);$('po-pause').textContent=U.resume}
+const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+function start(){if(reduced()){stop();S.t=S.cur.sc[S.cur.sc.length-1].start;S.manual=true;$('po-s').value=S.cur.S0??S.cur.bes[0];draw();return}S.t=0;S.manual=false;play()}
+$('po-play').textContent=U.play;$('po-pause').textContent=U.pause;$('po-drag').textContent=U.drag;$('po-k1').textContent=U.what;$('po-k2').textContent=U.live;$('po-k3').textContent=U.scenes;
+$('po-picks').innerHTML=SET.map(e=>`<button type="button" data-id="${e.id}" aria-pressed="false">${U.names[e.id]}</button>`).join('');
+document.querySelectorAll('#po-picks button').forEach(b=>b.addEventListener('click',()=>{setup(b.dataset.id);start()}));
+$('po-play').addEventListener('click',start);
+$('po-pause').addEventListener('click',()=>{S.playing?stop():(S.manual=false,play())});
+$('po-s').addEventListener('input',()=>{S.manual=true;stop();S.t=Math.max(S.t,S.cur.sc[S.cur.sc.length-1].start);draw()});
+// start when the chart scrolls into view, so it is not half over before anyone sees it
+setup('pp');S.t=S.cur.sc[S.cur.sc.length-1].start+2.2;draw();
+if('IntersectionObserver' in window){let seen=false;new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting&&!seen){seen=true;start()}})},{threshold:.35}).observe($('po'))}else start();
+window.poRenderAt=(id,t)=>{if(!S.cur||S.cur.id!==id)setup(id);S.manual=false;S.playing=false;S.t=t;draw();return S.cur.T};
+})();
+</script>
+</main>
+<footer class="foot"><div class="inner"><p><a href="../../../en/">Vietnam Equity Research</a> · Personal research, not investment advice. Views are the author's own and may change without notice.</p><p>Source: standard option payoffs at expiry · updated 23 Nov 2026</p></div></footer>
+</body></html>
