@@ -31,6 +31,12 @@ if os.path.exists(_mm):
             r['tickers'] = _pg[slug].get('tickers', [])
 
 IND = {i['id']: i for i in R['industries']}
+STANCE = {}
+if os.path.exists(_mm):
+    for r in R['reports']:
+        slug = r['path'].strip('/').split('/')[-1]
+        if r.get('built_by') == 'tools/mirae-coverage' and slug in _pg and _pg[slug].get('stance'):
+            for i in r['industries']: STANCE[i] = _pg[slug]['stance']
 ORDER = [i['id'] for i in R['industries']]
 
 def fdate(s, L):
@@ -49,6 +55,17 @@ def href(from_dir, r, L, anchor=''):
 def by_industry(iid):
     return sorted([r for r in R['reports'] if iid in r['industries']], key=lambda r: (r['date'], r['kind'] == 'mirae'), reverse=True)
 
+KIND_SHORT = {'mirae': {'vi': 'Mirae Asset', 'en': 'Mirae Asset'}, 'quarter': {'vi': 'Số liệu quý', 'en': 'Quarterly data'},
+              'outlook': {'vi': 'Triển vọng', 'en': 'Outlook'}, 'earnings': {'vi': 'KQKD', 'en': 'Earnings'}}
+def row(from_dir, r, L, iid):
+    other = [IND[i][L]['name'] for i in r['industries'] if i != iid and i in IND]
+    meta = fdate(r['date'], L)
+    if L == 'en' and not r['en']: meta += ' · in Vietnamese'
+    if other: meta += (' · cũng thuộc ' if L == 'vi' else ' · also in ') + ', '.join(other)
+    tk = f'<span class="tks">{E(" ".join(r["tickers"]))}</span>' if r.get('tickers') else ''
+    return (f'<li><span class="kd k-{r["kind"]}">{E(KIND_SHORT[r["kind"]][L])}</span><div><a class="rt" href="{href(from_dir, r, L)}">{E(r["title"][L])}</a>'
+            f'<p class="rs">{E(r["sum"][L])}</p><p class="rm">{E(meta)}{tk}</p></div></li>\n')
+
 def card(from_dir, r, L, iid):
     kind = R['kinds'][r['kind']][L]
     other = [IND[i][L]['name'] for i in r['industries'] if i != iid]
@@ -66,13 +83,51 @@ CSS = ('<style>.ind-nav{display:flex;flex-wrap:wrap;gap:6px 8px;margin:16px 0 4p
        'p.ind-about{color:var(--text-secondary);margin:0 0 14px;max-width:72ch}'
        '.same-ind{margin:40px 0 0;padding:14px 18px;border:1px solid var(--border);border-radius:12px;background:var(--surface-1);max-width:80ch}'
        '.same-ind h2{font-size:15px;margin:0 0 6px;letter-spacing:0}.same-ind ul{margin:4px 0;padding-left:18px}.same-ind li{font-size:14.5px;margin:5px 0}'
-       '.same-ind .k{color:var(--text-muted);font-size:12.5px}</style>')
+       '.same-ind .k{color:var(--text-muted);font-size:12.5px}'
+       'ul.rl{list-style:none;padding:0;margin:8px 0 0;border:1px solid var(--border);border-radius:12px;background:var(--surface-1)}'
+       'ul.rl li{display:grid;grid-template-columns:118px 1fr;gap:4px 14px;padding:13px 18px;margin:0;max-width:none;border-top:1px solid var(--grid)}ul.rl li:first-child{border-top:0}'
+       'ul.rl .kd{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);padding-top:3px}ul.rl .k-mirae{color:var(--series-1)}'
+       'ul.rl .rt{font-weight:650;font-size:16.5px;line-height:1.35;color:var(--text-primary)}ul.rl .rt:hover{color:var(--series-1)}'
+       'ul.rl .rs{margin:3px 0 0;color:var(--text-secondary);font-size:14.5px;line-height:1.5;max-width:80ch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}'
+       'ul.rl .rm{margin:4px 0 0;font-size:12.5px;color:var(--text-muted);max-width:none}ul.rl .tks{margin-left:8px;letter-spacing:.02em}'
+       'p.ind-view{margin:-6px 0 10px;font-size:14px;color:var(--text-secondary);max-width:80ch}p.ind-view b{color:var(--text-primary)}'
+       '@media (max-width:560px){ul.rl li{grid-template-columns:1fr;padding:12px 14px}ul.rl .kd{padding-top:0}}</style>')
 
 def nav_chips(from_dir, L, index_href):
     out = '<nav class="ind-nav" aria-label="' + ('Ngành' if L == 'vi' else 'Industries') + '">'
     for iid in ORDER:
         out += f'<a href="{index_href}#{iid}">{E(IND[iid][L]["name"])}<span>{len(by_industry(iid))}</span></a>'
     return out + '</nav>'
+
+UNSORTED = {'vi': {'name': 'Chưa phân loại', 'about': 'Báo cáo mới chưa có trong sổ đăng ký ngành (tools/industry-index/sections.json). Thêm một dòng ở đó để xếp vào đúng ngành.'},
+            'en': {'name': 'Not yet sorted', 'about': 'New reports not yet in the industry registry (tools/industry-index/sections.json). Add a row there to place them.'}}
+def unknown_reports(L):
+    """Cards on the current index (or, for English, the homepage's Sectors list) that the registry does not know."""
+    known = {r['path'] for r in R['reports']}
+    srcs = ([('nganh/index.html', 'nganh/'), ('index.html', '')] if L == 'vi' else [('nganh/en/index.html', 'nganh/en/'), ('en/index.html', 'en/')])
+    out, seen = [], set()
+    for f, d in srcs:
+        fp = os.path.join(ROOT, f)
+        if not os.path.exists(fp): continue
+        h = open(fp, encoding='utf-8').read()
+        if f in ('index.html', 'en/index.html'):   # homepages: only the sector section
+            m = re.search(r'id="nganh".*?(?=<h2 class="section"|</main>)', h, re.S); h = m.group(0) if m else ''
+        cards = re.finditer(r'<a class="card" href="([^"]+)">(?:<!--[^>]*-->)?<p class="label">[^<]*</p><h3>([^<]*)</h3><p class="sum">([^<]*)</p><p class="meta">([^<]*)</p>', h)
+        rows = re.finditer(r'<a class="rt" href="([^"]+)">([^<]*)</a><p class="rs">([^<]*)</p><p class="rm">([^<]*)', h)
+        for m in list(cards) + list(rows):
+            tgt = os.path.normpath(os.path.join(d, m.group(1))).replace(os.sep, '/')
+            path = re.sub(r'/?en$', '', tgt).rstrip('/') + '/'
+            if path in known or path in seen or not path.startswith(('nganh/', 'ket-qua-kinh-doanh/')): continue
+            seen.add(path)
+            dm = re.search(r'(\d{2})/(\d{2})/(\d{4})', m.group(4)) or re.search(r'(\d{1,2}) (\w{3}) (\d{4})', m.group(4))
+            date = '2000-01-01'
+            if dm and '/' in dm.group(0): date = f'{dm.group(3)}-{dm.group(2)}-{dm.group(1)}'
+            elif dm: date = f'{dm.group(3)}-{MON.index(dm.group(2)) + 1:02d}-{int(dm.group(1)):02d}'
+            t, su = html.unescape(m.group(2)), html.unescape(m.group(3))
+            out.append({'path': path, 'en': os.path.exists(os.path.join(ROOT, path, 'en', 'index.html')), 'date': date, 'kind': 'quarter',
+                        'industries': ['_unsorted'], 'title': {'vi': t, 'en': t}, 'sum': {'vi': su, 'en': su}})
+            print(f'  WARNING: {path} is on the {L} index but not in sections.json; kept under "{UNSORTED[L]["name"]}"')
+    return out
 
 def build_index(L):
     d = 'nganh/' if L == 'vi' else 'nganh/en/'
@@ -88,7 +143,8 @@ def build_index(L):
         top = top.replace('<a href="../../en/#nganh">', '<a href="../../en/#nganh" aria-current="page">')
         foot = re.search(r'<footer class="foot">.*?</footer>', en_home, re.S).group(0).replace('href="../en/"', 'href="../../en/"')
         h = f'<!doctype html>\n<html lang="en">{head}\n<body>{top}\n<main class="wrap">\n</main>\n{foot}\n</body></html>\n'
-    n = len(R['reports'])
+    unk = sorted(unknown_reports(L), key=lambda r: r['date'], reverse=True)
+    n = len(R['reports']) + len(unk)
     last = max(r['date'] for r in R['reports'])
     if L == 'vi':
         title, intro = 'Ngành', ('Báo cáo theo ngành, gồm cả ngân hàng, sắp xếp theo ngành. Mỗi ngành gồm số liệu quý gần nhất, triển vọng của các công ty nghiên cứu, '
@@ -107,8 +163,13 @@ def build_index(L):
     body = f'<p class="kicker">{kicker}</p><h1>{title}</h1><p class="intro">{E(intro)}</p>' + nav_chips(d, L, '')
     for iid in ORDER:
         rs = by_industry(iid)
-        body += (f'<h2 class="ind" id="{iid}">{E(IND[iid][L]["name"])}<span>{len(rs)}</span></h2><p class="ind-about">{E(IND[iid][L]["about"])}</p>'
-                 '<div class="cards">\n' + ''.join(card(d, r, L, iid) for r in rs) + '</div>\n')
+        st = STANCE.get(iid)
+        view = (f'<p class="ind-view"><b>Mirae Asset:</b> {E(st[L])}</p>' if st else '')
+        body += (f'<h2 class="ind" id="{iid}">{E(IND[iid][L]["name"])}<span>{len(rs)}</span></h2><p class="ind-about">{E(IND[iid][L]["about"])}</p>{view}'
+                 '<ul class="rl">\n' + ''.join(row(d, r, L, iid) for r in rs) + '</ul>\n')
+    if unk:
+        body += (f'<h2 class="ind" id="chua-phan-loai">{E(UNSORTED[L]["name"])}<span>{len(unk)}</span></h2><p class="ind-about">{E(UNSORTED[L]["about"])}</p>'
+                 '<ul class="rl">\n' + ''.join(row(d, r, L, '_unsorted') for r in unk) + '</ul>\n')
     h = re.sub(r'<main class="wrap">.*?</main>', lambda m: f'<main class="wrap">\n{body}</main>', h, flags=re.S)
     h = re.sub(r'(<footer class="foot"><div class="inner"><p>.*?</p>)(<p>[^<]*</p>)?(</div></footer>)', lambda m: m.group(1) + footn + m.group(3), h, flags=re.S)
     if CSS not in h: h = h.replace('</head>', CSS + '</head>', 1)

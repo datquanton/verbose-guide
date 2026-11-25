@@ -185,6 +185,8 @@ details.tk>summary{cursor:pointer;list-style:none}details.tk>summary::-webkit-de
 details.tk>summary h3::after{content:"+";margin-left:auto;font-weight:400;color:var(--text-muted)}details.tk[open]>summary h3::after{content:"−"}
 details.tk>summary .thesis{color:var(--text-secondary);font-size:15px;margin:4px 0 8px}
 .tog{margin:6px 0 4px}.tog button{background:var(--surface-1);color:var(--text-secondary);border:1px solid var(--border);border-radius:8px;padding:3px 10px;margin-right:8px;font:inherit;font-size:13px;cursor:pointer}
+.crumb a{color:inherit}.crumb a:hover{color:var(--series-1);text-decoration:none}
+details.howto{margin:18px 0 0;font-size:14.5px;color:var(--text-secondary);max-width:80ch}details.howto summary{cursor:pointer;color:var(--series-1);font-weight:600}details.howto p{margin:8px 0 0}
 #tip{position:fixed;pointer-events:none;background:var(--text-primary);color:var(--page);font-size:12.5px;padding:5px 8px;border-radius:6px;max-width:300px;opacity:0;transition:opacity .08s;z-index:9}
 .pick{white-space:nowrap}
 """
@@ -231,9 +233,9 @@ def ms_li(m, L, sym=None):
     s = f'<span class="sym">{sym}</span>' if sym else ''
     return f'<li>{s}<span class="when{" past" if past else ""}">{E(when_lbl(m["when"], L))}</span> {E(T(m, L))}</li>'
 
-def segment_block(seg, L, n):
+def segment_block(seg, L, n, single=False):
     X = TXT[L]
-    out = f'<h3>{E(T(seg["name"], L))}</h3><p>{E(T(seg["view"], L))}</p>'
+    out = ('' if single else f'<h3>{E(T(seg["name"], L))}</h3>') + f'<p>{E(T(seg["view"], L))}</p>'
     out += '<ul>' + ''.join(f'<li>{E(T(d, L))}</li>' for d in seg['drivers']) + '</ul>'
     rows = ''.join(f'<tr><td><span class="when">{E(when_lbl(m["when"], L))}</span></td><td class="t">{E(T(m, L))}</td></tr>' for m in sorted(seg['milestones'], key=lambda m: ms_sort(m['when'])))
     out += f'<div class="tablewrap"><table><thead><tr><th>{X["when"]}</th><th>{X["what"]}</th></tr></thead><tbody>{rows}</tbody></table></div>'
@@ -241,12 +243,12 @@ def segment_block(seg, L, n):
 
 def how_to_read(L):
     if L == 'vi':
-        return ('<div class="callout"><p style="margin:0"><strong>Cách đọc.</strong> <strong>Động lực cốt lõi</strong> là vài biến số quyết định lợi nhuận của doanh nghiệp (sản lượng, giá bán, biên, chi phí vốn). '
+        return ('<details class="howto"><summary>Cách đọc: động lực cốt lõi, mốc theo dõi, bộ đệm</summary><p><strong>Động lực cốt lõi</strong> là vài biến số quyết định lợi nhuận của doanh nghiệp (sản lượng, giá bán, biên, chi phí vốn). '
                 '<strong>Mốc theo dõi</strong> là sự kiện có ngày, kiểm chứng được, cho biết luận điểm còn đúng hướng hay không. <strong>Bộ đệm</strong> là thứ giới hạn mức giảm nếu động lực gây thất vọng: '
-                'định giá, bảng cân đối, phần lợi nhuận đã chắc và cổ tức. Khoảng cách đến giá mục tiêu chỉ là một phần của bộ đệm, và chỉ có nghĩa khi mục tiêu còn mới.</p></div>')
-    return ('<div class="callout"><p style="margin:0"><strong>How to read this.</strong> <strong>Underlying drivers</strong> are the few variables that set a company\'s earnings (volume, price, margin, funding cost). '
+                'định giá, bảng cân đối, phần lợi nhuận đã chắc và cổ tức. Khoảng cách đến giá mục tiêu chỉ là một phần của bộ đệm, và chỉ có nghĩa khi mục tiêu còn mới.</p></details>')
+    return ('<details class="howto"><summary>How to read: drivers, milestones, cushion</summary><p><strong>Underlying drivers</strong> are the few variables that set a company\'s earnings (volume, price, margin, funding cost). '
             '<strong>Milestones</strong> are dated, checkable events that show whether the thesis is still on track. <strong>Cushion</strong> is what limits the fall if the drivers disappoint: '
-            'valuation, balance sheet, earnings already secured and dividends. The gap to target price is only one part of the cushion, and it means something only while the target is fresh.</p></div>')
+            'valuation, balance sheet, earnings already secured and dividends. The gap to target price is only one part of the cushion, and it means something only while the target is fresh.</p></details>')
 
 def disclaimer(L, n_reports):
     if L == 'vi':
@@ -270,6 +272,17 @@ def byline(P, ts, L, n_reports):
                 f'giá phiên sáng {fdate(PRICE_DATE, L)} · Nguồn: Mirae Asset Securities (Việt Nam), FiinQuantX</p>')
     return (f'<p class="byline">Published {fdate(PUB, L)} · Coverage: {len(ts)} tickers under Mirae Asset coverage · Data: {n_reports} Mirae Asset reports ({fdate(dates[0], L)} to {fdate(dates[-1], L)}); '
             f'prices from the morning session of {fdate(PRICE_DATE, L)} · Source: Mirae Asset Securities (Vietnam), FiinQuantX</p>')
+
+SEC = json.load(open(os.path.join(ROOT, 'tools', 'industry-index', 'sections.json'), encoding='utf-8'))
+SEC_IND = {i['id']: i for i in SEC['industries']}
+def crumb(slug, L):
+    r = next((r for r in SEC['reports'] if r['path'] == f'nganh/{slug}/'), None)
+    idx = '../' if L == 'vi' else '../../en/'   # page nganh/<slug>/ -> nganh/ ; page nganh/<slug>/en/ -> nganh/en/
+    root = ('Ngành' if L == 'vi' else 'Sectors')
+    parts = [f'<a href="{idx}">{root}</a>']
+    if r:
+        parts += [f'<a href="{idx}#{i}">{E(SEC_IND[i][L]["name"])}</a>' for i in r['industries']]
+    return '<p class="kicker crumb">' + ' › '.join(parts) + '</p>'
 
 def write(slug, L, htmltext):
     p = os.path.join(ROOT, 'nganh', slug, '' if L == 'vi' else 'en')
@@ -449,9 +462,9 @@ def industry_page(P, L):
     ts = [TK[k] for k in P['tickers']]
     n_reports = len({s['url'] for t in ts for s in t['sources']} | {s['url'] for g in P['segments'] for s in D['segments'][g].get('sources', [])})
     hdg = P['h2'][L]
-    b = f'<p class="kicker">{X["kick"]} · {E(T(P["label"], L))}</p><h1>{E(T(P["title"], L))}</h1><p class="dek">{E(T(P["dek"], L))}</p>' + byline(P, ts, L, n_reports)
+    b = crumb(P['slug'], L) + f'<h1>{E(T(P["title"], L))}</h1><p class="dek">{E(T(P["dek"], L))}</p>' + byline(P, ts, L, n_reports)
     b += tiles(P['tiles'], L) + keypoints(P, L) + how_to_read(L)
-    b += f'<h2>1 · {E(hdg[0])}</h2>' + ''.join(segment_block(D['segments'][g], L, i) for i, g in enumerate(P['segments']))
+    b += f'<h2>1 · {E(hdg[0])}</h2>' + ''.join(segment_block(D['segments'][g], L, i, single=len(P['segments']) == 1) for i, g in enumerate(P['segments']))
     b += f'<h2>2 · {E(hdg[1])}</h2><p>{rich(T(P["cushion_text"], L))}</p>'
     t1, s1 = T(P['chart'], L)
     b += '<div class="grid2">' + dumbbell_stocks(ts, L, t1, s1)
@@ -495,7 +508,7 @@ def overview_page(L):
     link = lambda t: (f'../{t["page_slug"]}/#{t["ticker"]}' if L == 'vi' else f'../../{t["page_slug"]}/en/#{t["ticker"]}')
     link_pg = lambda pg: (f'../{pg["slug"]}/' if L == 'vi' else f'../../{pg["slug"]}/en/')
     hdg = P['h2'][L]
-    b = f'<p class="kicker">{X["kick"]} · {E(T(P["label"], L))}</p><h1>{E(T(P["title"], L))}</h1><p class="dek">{E(T(P["dek"], L))}</p>' + byline(P, ts, L, n_reports)
+    b = crumb(P['slug'], L) + f'<h1>{E(T(P["title"], L))}</h1><p class="dek">{E(T(P["dek"], L))}</p>' + byline(P, ts, L, n_reports)
     b += tiles(P['tiles'], L) + keypoints(P, L) + how_to_read(L)
     # 1 industry summary
     b += f'<h2>1 · {E(hdg[0])}</h2><p>{rich(T(P["summary_text"], L))}</p>' + industry_summary(pages, L, link_pg)
@@ -549,17 +562,21 @@ def put_cards(path, anchor, cards):
     clean = re.sub(r'<a class="card" href="[^"]*">' + re.escape(MARK) + r'.*?</a>\n', '', h, flags=re.S)
     # cards added by hand before the marker existed
     clean = re.sub(r'<a class="card" href="[^"]*mirae[^"]*">(?:(?!</a>).)*</a>\n', '', clean, flags=re.S)
-    if anchor not in clean: print('  WARNING: anchor not found, cards not placed in', path); return False
-    new = clean.replace(anchor, anchor + ''.join(cards), 1)
+    # anchor = the section heading; cards go right after the first card grid that follows it
+    i = clean.find(anchor)
+    j = clean.find('<div class="cards">\n', i) if i >= 0 else -1
+    if j < 0: print('  WARNING: anchor not found, cards not placed in', path); return False
+    j += len('<div class="cards">\n')
+    new = clean[:j] + ''.join(cards) + clean[j:]
     if new != h: open(f, 'w', encoding='utf-8').write(new)
     return new != h
 def index_cards():
     ov, pages = META['overview'], META['pages']
     d_vi, d_en = fdate(PUB, 'vi'), fdate(PUB, 'en')
     out = {
-      'index.html': put_cards('index.html', '<h2 class="section" id="nganh"><a href="nganh/">Ngành</a></h2><div class="cards">\n',
+      'index.html': put_cards('index.html', '<h2 class="section" id="nganh">',
             [card('nganh/' + ov['slug'] + '/', 'Báo cáo ngành · Mirae Asset', ov['title']['vi'], ov['dek']['vi'], d_vi + ' · 6 báo cáo ngành')]),
-      'en/index.html': put_cards('en/index.html', '<h2 class="section" id="nganh">Sectors</h2><div class="cards">\n',
+      'en/index.html': put_cards('en/index.html', '<h2 class="section" id="nganh">',
             [card('../nganh/' + ov['slug'] + '/en/', 'Sector report · Mirae Asset', ov['title']['en'], ov['dek']['en'], d_en + ' · six industry reports')]),
     }
     for k, v in out.items(): print('  index', k, 'updated' if v else 'already current')
