@@ -13,6 +13,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 D = json.load(open(os.path.join(HERE, 'data.json'), encoding='utf-8'))
 MK = json.load(open(os.path.join(HERE, 'market.json'), encoding='utf-8'))
 META = json.load(open(os.path.join(HERE, 'meta.json'), encoding='utf-8'))
+WHENS = json.load(open(os.path.join(HERE, 'whens.json'), encoding='utf-8'))   # milestone label -> [Vietnamese label, calendar bucket]
 PUB = META['published']            # YYYY-MM-DD
 PRICE_DATE, VAL_DATE = MK['price_date'], MK['val_date']
 STALE_DAYS = 100                   # a target price older than this is shown as stale
@@ -64,8 +65,10 @@ def when_key(w):
                     pos = 0.05 if 'early' in s else 0.95 if ('end' in s or 'late' in s or 'fy' in s) else 0.5 if 'mid' in s else 0.55
     if y is None: y = 2099
     return (0 if passed else 1, y + pos)
+BUCKET_ORDER = {'passed': 0, '4Q26': 1, 'fy26': 2, '1Q27': 3, '2Q27': 4, '2H27': 5, 'later': 6, 'pending': 7}
 def bucket(w):
-    """Calendar bucket for the overview page."""
+    """Calendar bucket for the overview page (hand-checked map first, pattern rules as fallback)."""
+    if w in WHENS: return WHENS[w][1]
     p, k = when_key(w)
     if p == 0: return 'passed'
     if k < 2027: return '4Q26'
@@ -85,7 +88,8 @@ def when_vi(w):
                  (r'\bexpected\b', 'dự kiến'), (r'\btarget\b', 'mục tiêu'), (r'\bno date\b', 'chưa có ngày'), (r'\bundated\b', 'chưa có ngày')]:
         s = re.sub(a, b, s, flags=re.I)
     return s
-def when_lbl(w, L): return when_vi(w) if L == 'vi' else w
+def when_lbl(w, L): return (WHENS[w][0] if w in WHENS else when_vi(w)) if L == 'vi' else w
+def ms_sort(w): return (BUCKET_ORDER[bucket(w)], when_key(w))
 
 # ---------- derived numbers ----------
 TK = {t['ticker']: t for t in D['tickers']}
@@ -96,7 +100,9 @@ for t in D['tickers']:
     t['absorb'] = (1 - t['px'] / t['tp']) * 100 if t.get('tp') and t['tp'] > t['px'] else (0 if t.get('tp') else None)
     t['since'] = (t['px'] / t['price_at_tp_date'] - 1) * 100 if t.get('tp') and t.get('price_at_tp_date') else None
     t['age'] = (d2(PUB) - d2(t['tp_date'])).days if t.get('tp_date') and t.get('tp') else None
-    t['stale'] = bool(t.get('tp')) and (t['age'] > STALE_DAYS or bool(t.get('tp_basis_changed')))
+    t['stale'] = bool(t.get('tp')) and t['age'] > STALE_DAYS
+    t['review'] = bool(t.get('tp')) and bool(t.get('review_down')) and not t['stale']
+    t['flag'] = '*' if t['stale'] else '†' if t['review'] else ''
 
 TXT = {
  'vi': dict(site='Nghiên cứu cổ phiếu Việt Nam', nav=[('vi-mo/', 'Vĩ mô'), ('nganh/', 'Ngành'), ('ket-qua-kinh-doanh/', 'Kết quả kinh doanh')],
@@ -104,17 +110,17 @@ TXT = {
    foot='Nghiên cứu cá nhân, không phải khuyến nghị đầu tư. Quan điểm là của riêng tác giả và có thể thay đổi mà không cần báo trước.',
    drivers='Động lực cốt lõi', milestones='Mốc theo dõi', cushion='Bộ đệm', breaks='Điều gì phá vỡ luận điểm', sources='Báo cáo đã đọc',
    target='Giá mục tiêu', price='giá', gap='khoảng cách đến giá mục tiêu', none_tp='Mirae Asset không nêu giá mục tiêu trong các báo cáo gần nhất',
-   th=['Mã', 'Khuyến nghị', 'Giá mục tiêu', 'Ngày báo cáo', 'Giá khi đó', 'Giá hiện tại', 'Từ ngày báo cáo', 'Đến giá mục tiêu', 'Dự báo có thể hụt', 'P/E', 'P/B'],
-   ind='Ngành', when='Khi nào', what='Điều cần thấy', stale='giá mục tiêu cũ hoặc khác cơ sở cổ phiếu', nodata='–',
-   bucket={'passed': 'Vừa qua', '4Q26': 'Từ nay đến hết 2026', '1Q27': 'Quý 1/2027', '2Q27': 'Quý 2/2027', '2H27': 'Nửa cuối 2027', 'later': 'Từ 2028 và chưa định ngày'}),
+   th=['Mã', 'Khuyến nghị', 'Giá mục tiêu', 'Ngày báo cáo', 'Giá khi đó', 'Giá hiện tại', 'Từ ngày báo cáo', 'Đến giá mục tiêu', 'Biên an toàn', 'P/E', 'P/B'],
+   ind='Ngành', when='Khi nào', what='Điều cần thấy', stale='giá mục tiêu đặt hơn 100 ngày trước', review='Mirae Asset đã báo sẽ hạ dự báo hoặc định giá', nodata='–',
+   bucket={'passed': 'Vừa qua', '4Q26': 'Từ nay đến hết 2026: sự kiện có thời điểm', 'fy26': 'Kiểm chứng cả năm 2026', '1Q27': 'Đầu 2027 (1Q27, 1H27)', '2Q27': 'Quý 2/2027', '2H27': 'Phần còn lại của 2027', 'later': 'Từ 2028 trở đi', 'pending': 'Chưa có ngày hoặc chờ xác nhận'}),
  'en': dict(site='Vietnam Equity Research', nav=[('en/#vi-mo', 'Macro'), ('en/#nganh', 'Sectors'), ('en/#ket-qua-kinh-doanh', 'Earnings')],
    other='Tiếng Việt', theme='Switch light/dark theme', pub='Published', kick='Sector report', keypoints='Key points',
    foot="Personal research, not investment advice. Views are the author's own and may change without notice.",
    drivers='Underlying drivers', milestones='Milestones', cushion='Cushion', breaks='What breaks the thesis', sources='Reports read',
    target='Target price', price='price', gap='gap to target', none_tp='Mirae Asset states no target price in its latest notes',
-   th=['Ticker', 'Rating', 'Target', 'Report date', 'Price then', 'Price now', 'Since report', 'Gap to target', 'Forecast miss absorbed', 'P/E', 'P/B'],
-   ind='Industry', when='When', what='What to see', stale='target is old or on a different share basis', nodata='–',
-   bucket={'passed': 'Just passed', '4Q26': 'From now to end-2026', '1Q27': '1Q27', '2Q27': '2Q27', '2H27': '2H27', 'later': '2028 onwards and undated'}),
+   th=['Ticker', 'Rating', 'Target', 'Report date', 'Price then', 'Price now', 'Since report', 'Gap to target', 'Margin of safety', 'P/E', 'P/B'],
+   ind='Industry', when='When', what='What to see', stale='target set more than 100 days ago', review='Mirae Asset has said it will likely cut forecasts or valuation', nodata='–',
+   bucket={'passed': 'Just passed', '4Q26': 'From now to end-2026: dated events', 'fy26': 'Full-year 2026 checks', '1Q27': 'Early 2027 (1Q27, 1H27)', '2Q27': '2Q27', '2H27': 'Rest of 2027', 'later': '2028 onwards', 'pending': 'Undated or awaiting confirmation'}),
 }
 
 CSS = """
@@ -129,7 +135,7 @@ CSS = """
 .tri>div{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 16px 8px}
 .tri h4{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin:0 0 4px}
 .tri ul{padding-left:18px;margin:4px 0}.tri li{font-size:14.5px;line-height:1.5;margin:7px 0;max-width:none}
-.when{display:inline-block;font-size:11.5px;font-weight:700;color:var(--series-1);border:1px solid var(--border);border-radius:999px;padding:0 7px;margin-right:4px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.when{display:inline-block;font-size:11.5px;font-weight:700;color:var(--series-1);border:1px solid var(--border);border-radius:999px;padding:0 7px;margin-right:4px;font-variant-numeric:tabular-nums}
 .when.past{color:var(--text-muted)}
 .brk{font-size:14.5px;border-left:3px solid var(--critical);padding:2px 0 2px 12px;margin:10px 0;color:var(--text-secondary)}
 .note2{font-size:13px;color:var(--text-muted);margin:6px 0}
@@ -140,8 +146,9 @@ CSS = """
 .jump{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.jump a{font-size:13px;font-weight:600;border:1px solid var(--border);border-radius:999px;padding:1px 10px;background:var(--surface-1);font-variant-numeric:tabular-nums}
 .cal h3{margin-top:26px}.cal ul{padding-left:18px}.cal li{font-size:15px;max-width:80ch}
 .cal .sym{font-weight:700;margin-right:4px}
-details.more{margin:10px 0}details.more summary{cursor:pointer;color:var(--text-secondary);font-size:14px}
+details.more{margin:10px 0}details.more summary{cursor:pointer;font-size:16px;font-weight:650;margin:18px 0 4px}
 .barrow .bar.neg{background:var(--critical)}
+.pick{white-space:nowrap}
 """
 SORT_JS = """<script>document.querySelectorAll('table.sort').forEach(function(tb){var ths=tb.querySelectorAll('th');ths.forEach(function(th,i){th.addEventListener('click',function(){
 var body=tb.tBodies[0],rows=[].slice.call(body.rows),dir=th.getAttribute('aria-sort')==='descending'?1:-1;ths.forEach(function(h){h.removeAttribute('aria-sort')});
@@ -177,8 +184,8 @@ def tiles(items, L):
 def cls(x): return 'up' if x > 0 else 'down' if x < 0 else ''
 def gap_cell(t, L):
     if t['gap'] is None: return '<td class="num" data-v="">–</td>'
-    c = 'old' if t['stale'] else cls(t['gap'])
-    return f'<td class="num" data-v="{t["gap"]:.1f}"><span class="{c}">{pct(t["gap"], L)}</span>{"*" if t["stale"] else ""}</td>'
+    c = 'old' if t['flag'] else cls(t['gap'])
+    return f'<td class="num" data-v="{t["gap"]:.1f}"><span class="{c}">{pct(t["gap"], L)}</span>{t["flag"]}</td>'
 
 def table(ts, L, link=None, with_ind=False):
     X = TXT[L]; th = X['th']
@@ -207,13 +214,16 @@ def table(ts, L, link=None, with_ind=False):
     return f'<div class="tablewrap"><table class="sort"><thead><tr>{h}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 def table_note(L):
+    X = TXT[L]
     if L == 'vi':
-        return (f'<p class="note2">Giá mục tiêu, khuyến nghị và "giá khi đó" lấy từ báo cáo Mirae Asset ở ngày ghi trong bảng. Giá hiện tại là giá phiên sáng {fdate(PRICE_DATE, L)}; '
-                f'P/E và P/B là 4 quý gần nhất, ngày {fdate(VAL_DATE, L)} (FiinQuantX). "Dự báo có thể hụt" = 1 − giá hiện tại ÷ giá mục tiêu: mức lợi nhuận dự báo có thể thấp hơn '
-                f'mà giá hiện tại vẫn tương ứng với mức định giá Mirae Asset dùng để đặt mục tiêu. * {TXT[L]["stale"]} (xem ghi chú ở từng mã): không nên đọc như bộ đệm. Bấm vào tiêu đề cột để sắp xếp.</p>')
-    return (f'<p class="note2">Target, rating and "price then" come from the Mirae Asset report dated in the table. Price now is the morning session of {fdate(PRICE_DATE, L)}; '
-            f'P/E and P/B are trailing four quarters as of {fdate(VAL_DATE, L)} (FiinQuantX). "Forecast miss absorbed" = 1 − price now ÷ target: how far forecast earnings could fall short '
-            f'with today\'s price still matching the valuation multiple Mirae Asset used to set the target. * {TXT[L]["stale"]} (see the note under each ticker): do not read it as cushion. Click a column heading to sort.</p>')
+        return (f'<p class="note2">Giá mục tiêu, khuyến nghị và "giá khi đó" lấy từ báo cáo Mirae Asset ở ngày ghi trong bảng (có thể là báo cáo nhanh nhắc lại mục tiêu cũ; ghi chú dưới từng mã cho biết mục tiêu được đặt khi nào). '
+                f'Giá hiện tại là giá phiên sáng {fdate(PRICE_DATE, L)}; P/E và P/B là 4 quý gần nhất theo giá thị trường, ngày {fdate(VAL_DATE, L)} (FiinQuantX). '
+                f'Biên an toàn = 1 − giá hiện tại ÷ giá mục tiêu: giá trị Mirae Asset ước tính có thể giảm bao nhiêu trước khi bằng giá hiện tại. '
+                f'* {X["stale"]}. † {X["review"]}. Với hai nhóm này, khoảng cách đến mục tiêu không nên đọc như bộ đệm. Bấm vào tiêu đề cột để sắp xếp.</p>')
+    return (f'<p class="note2">Target, rating and "price then" come from the Mirae Asset report dated in the table (this can be a results flash restating an older target; the note under each ticker says when the target was set). '
+            f'Price now is the morning session of {fdate(PRICE_DATE, L)}; P/E and P/B are trailing four quarters at market price, as of {fdate(VAL_DATE, L)} (FiinQuantX). '
+            f'Margin of safety = 1 − price now ÷ target: how far Mirae Asset\'s estimate of value could fall before it equals today\'s price. '
+            f'* {X["stale"]}. † {X["review"]}. For both groups, do not read the gap to target as cushion. Click a column heading to sort.</p>')
 
 def gap_chart(ts, L, title, sub):
     rows = [t for t in ts if t['gap'] is not None]
@@ -225,18 +235,18 @@ def gap_chart(ts, L, title, sub):
     for t in rows:
         w = max(t['gap'], 0) / scale * 100
         tip = f'{t["ticker"]}: {num(t["px"], L)} → {num(t["tp"], L)} ({fdate(t["tp_date"], L)})'
-        soft = ' soft' if t['stale'] else ''
-        b += (f'<div class="barrow" title="{E(tip)}"><span class="name">{t["ticker"]}{"*" if t["stale"] else ""}</span><span class="track"><span class="bar{soft}" style="width:{w:.1f}%"></span></span>'
+        soft = ' soft' if t['flag'] else ''
+        b += (f'<div class="barrow" title="{E(tip)}"><span class="name">{t["ticker"]}{t["flag"]}</span><span class="track"><span class="bar{soft}" style="width:{w:.1f}%"></span></span>'
               f'<span class="val{" down" if t["gap"] < 0 else ""}">{pct(t["gap"], L)}</span></div>')
     aria = ', '.join(f'{t["ticker"]} {pct(t["gap"], L)}' for t in rows)
-    axis = (f'0% ── {scale}% · thanh nhạt và dấu *: {TXT[L]["stale"]}' if L == 'vi' else f'0% ── {scale}% · lighter bars and *: {TXT[L]["stale"]}')
+    axis = (f'0% ── {scale}% · thanh nhạt: * {TXT[L]["stale"]}; † {TXT[L]["review"]}' if L == 'vi' else f'0% ── {scale}% · lighter bars: * {TXT[L]["stale"]}; † {TXT[L]["review"]}')
     cap = (f'Giá mục tiêu: báo cáo Mirae Asset gần nhất có nêu mục tiêu. Giá: phiên sáng {fdate(PRICE_DATE, L)}, FiinQuantX. Khoảng cách âm hiển thị bằng số, không có thanh.' if L == 'vi'
            else f'Targets: the latest Mirae Asset report that states one. Prices: morning session of {fdate(PRICE_DATE, L)}, FiinQuantX. Negative gaps are shown as a number with no bar.')
     return (f'<figure class="viz"><p class="viz-title">{E(title)}</p><p class="viz-sub">{E(sub)}</p><div role="img" aria-label="{E(aria)}">{b}</div>'
             f'<div class="axis-note">{E(axis)}</div><figcaption>{E(cap)}</figcaption></figure>')
 
 def ms_li(m, L, sym=None):
-    past = when_key(m['when'])[0] == 0
+    past = bucket(m['when']) == 'passed'
     s = f'<span class="sym">{sym}</span>' if sym else ''
     return f'<li>{s}<span class="when{" past" if past else ""}">{E(when_lbl(m["when"], L))}</span> {E(T(m, L))}</li>'
 
@@ -244,7 +254,7 @@ def ticker_block(t, L):
     X = TXT[L]; k = t['ticker']
     name = t['name_vi'] if L == 'vi' else t['name_en']
     if t.get('tp'):
-        line = f'{X["target"]} {num(t["tp"], L)} ({fdate(t["tp_date"], L)}) · {X["price"]} {num(t["px"], L)} · {X["gap"]} <span class="{"old" if t["stale"] else cls(t["gap"])}">{pct(t["gap"], L)}</span>'
+        line = f'{X["target"]} {num(t["tp"], L)} ({fdate(t["tp_date"], L)}) · {X["price"]} {num(t["px"], L)} · {X["gap"]} <span class="{"old" if t["flag"] else cls(t["gap"])}">{pct(t["gap"], L)}</span>{t["flag"]}'
     else:
         line = f'{X["none_tp"]} · {X["price"]} {num(t["px"], L)}'
     line += f' · P/E {mult(t["pe"], L) if 0 < t["pe"] < 60 else "n/m"} · P/B {num(t["pb"], L, 2)}x'
@@ -256,7 +266,7 @@ def ticker_block(t, L):
                  + (' (dự báo Mirae Asset)' if L == 'vi' else ' (Mirae Asset forecast)'))
     note = T(t['tp_note'], L).strip() if t.get('tp_note') else ''
     ul = lambda items: '<ul>' + ''.join(f'<li>{E(T(i, L))}</li>' for i in items) + '</ul>'
-    ms = '<ul>' + ''.join(ms_li(m, L) for m in sorted(t['milestones'], key=lambda m: when_key(m['when']))) + '</ul>'
+    ms = '<ul>' + ''.join(ms_li(m, L) for m in sorted(t['milestones'], key=lambda m: ms_sort(m['when']))) + '</ul>'
     src = ' · '.join(f'<a href="{E(s["url"])}">{E(s["title_short"])}</a> ({fdate(s["date"], L)})' for s in t['sources'])
     return (f'<section class="tk" id="{k}"><h3><span class="sym">{k}</span><span class="nm">{E(name)}</span>{pick(t.get("rating"), L)}</h3>'
             f'<p class="tkline">{line}</p>' + (f'<p class="note2">* {E(note)}</p>' if note else '') +
@@ -269,7 +279,7 @@ def segment_block(seg, L, n):
     X = TXT[L]
     out = f'<h3>{E(T(seg["name"], L))}</h3><p>{E(T(seg["view"], L))}</p>'
     out += '<ul>' + ''.join(f'<li>{E(T(d, L))}</li>' for d in seg['drivers']) + '</ul>'
-    rows = ''.join(f'<tr><td><span class="when">{E(when_lbl(m["when"], L))}</span></td><td class="t">{E(T(m, L))}</td></tr>' for m in sorted(seg['milestones'], key=lambda m: when_key(m['when'])))
+    rows = ''.join(f'<tr><td><span class="when">{E(when_lbl(m["when"], L))}</span></td><td class="t">{E(T(m, L))}</td></tr>' for m in sorted(seg['milestones'], key=lambda m: ms_sort(m['when'])))
     out += f'<div class="tablewrap"><table><thead><tr><th>{X["when"]}</th><th>{X["what"]}</th></tr></thead><tbody>{rows}</tbody></table></div>'
     return out
 
@@ -344,14 +354,11 @@ def overview_page(L):
     b += table(sorted(ts, key=lambda t: -(t['gap'] if t['gap'] is not None else -999)), L, link=link, with_ind=True) + table_note(L)
     b += f'<h2>3 · {E(hdg[2])}</h2><p>{rich(T(P["calendar_text"], L))}</p><div class="cal">'
     items = [(m, t['ticker']) for t in ts for m in t['milestones']]
-    for bk in ['4Q26', '1Q27', '2Q27', '2H27', 'later', 'passed']:
-        sel = sorted([x for x in items if bucket(x[0]['when']) == bk], key=lambda x: (when_key(x[0]['when']), x[1]))
+    for bk in ['4Q26', 'fy26', '1Q27', '2Q27', '2H27', 'later', 'pending', 'passed']:
+        sel = sorted([x for x in items if bucket(x[0]['when']) == bk], key=lambda x: (ms_sort(x[0]['when']), x[1]))
         if not sel: continue
         lis = ''.join(ms_li(m, L, sym=f'<a href="{link(TK[k])}">{k}</a>') for m, k in sel)
-        if bk in ('4Q26', '1Q27'):
-            b += f'<h3>{E(X["bucket"][bk])} ({len(sel)})</h3><ul>{lis}</ul>'
-        else:
-            b += f'<details class="more"><summary>{E(X["bucket"][bk])} ({len(sel)})</summary><ul>{lis}</ul></details>'
+        b += f'<details class="more"{" open" if bk == "4Q26" else ""}><summary>{E(X["bucket"][bk])} ({len(sel)})</summary><ul>{lis}</ul></details>'
     b += '</div>'
     b += f'<h2>4 · {E(hdg[3])}</h2><div class="cards">'
     for pg in pages:
