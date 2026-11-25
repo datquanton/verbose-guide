@@ -112,7 +112,7 @@ for t in D['tickers']:
     t['cov'] = SC['cov'].get(t['ticker'])
 
 TXT = {
- 'vi': dict(site='Nghiên cứu cổ phiếu Việt Nam', nav=[('vi-mo/', 'Vĩ mô'), ('nganh/', 'Ngành'), ('ket-qua-kinh-doanh/', 'Kết quả kinh doanh')],
+ 'vi': dict(site='Nghiên cứu cổ phiếu Việt Nam', nav=[('vi-mo/', 'Vĩ mô'), ('nganh/', 'Ngành'), ('ket-qua-kinh-doanh/', 'Kết quả kinh doanh'), ('cfa/', 'CFA')],
    other='English', theme='Đổi giao diện sáng/tối', pub='Công bố', kick='Báo cáo ngành', keypoints='Điểm chính',
    foot='Nghiên cứu cá nhân, không phải khuyến nghị đầu tư. Quan điểm là của riêng tác giả và có thể thay đổi mà không cần báo trước.',
    drivers='Động lực cốt lõi', milestones='Mốc theo dõi', cushion='Bộ đệm', breaks='Điều gì phá vỡ luận điểm', sources='Báo cáo đã đọc',
@@ -120,7 +120,7 @@ TXT = {
    th=['Mã', 'Khuyến nghị', 'Giá mục tiêu', 'Ngày báo cáo', 'Giá khi đó', 'Giá hiện tại', 'Từ ngày báo cáo', 'Đến giá mục tiêu', 'Biên an toàn', 'P/E', 'P/B'],
    ind='Ngành', when='Khi nào', what='Điều cần thấy', stale='giá mục tiêu đặt hơn 100 ngày trước', review='Mirae Asset đã báo sẽ hạ dự báo hoặc định giá', nodata='–',
    bucket={'passed': 'Vừa qua', '4Q26': 'Từ nay đến hết 2026: sự kiện có thời điểm', 'fy26': 'Kiểm chứng cả năm 2026', '1Q27': 'Đầu 2027 (1Q27, 1H27)', '2Q27': 'Quý 2/2027', '2H27': 'Phần còn lại của 2027', 'later': 'Từ 2028 trở đi', 'pending': 'Chưa có ngày hoặc chờ xác nhận'}),
- 'en': dict(site='Vietnam Equity Research', nav=[('en/#vi-mo', 'Macro'), ('en/#nganh', 'Sectors'), ('en/#ket-qua-kinh-doanh', 'Earnings')],
+ 'en': dict(site='Vietnam Equity Research', nav=[('en/#vi-mo', 'Macro'), ('en/#nganh', 'Sectors'), ('en/#ket-qua-kinh-doanh', 'Earnings'), ('en/#cfa', 'CFA')],
    other='Tiếng Việt', theme='Switch light/dark theme', pub='Published', kick='Sector report', keypoints='Key points',
    foot="Personal research, not investment advice. Views are the author's own and may change without notice.",
    drivers='Underlying drivers', milestones='Milestones', cushion='Cushion', breaks='What breaks the thesis', sources='Reports read',
