@@ -5,7 +5,7 @@ Inputs (this folder):  data.json   per-ticker reading of Mirae Asset Vietnam rep
                        market.json prices and trailing multiples from FiinQuantX
                        meta.json   hand-written titles, key points and tiles for each page
 Run:  python3 tools/mirae-coverage/build.py      (from the repository root)
-      Also (re)places the cards on /, /en/ and /nganh/; re-running is safe. --no-index skips that.
+      Also (re)places the overview card on / and /en/, then runs tools/industry-index/build.py; re-running is safe. --no-index skips both.
 """
 import json, os, re, html, statistics, datetime, sys
 
@@ -556,10 +556,7 @@ def put_cards(path, anchor, cards):
 def index_cards():
     ov, pages = META['overview'], META['pages']
     d_vi, d_en = fdate(PUB, 'vi'), fdate(PUB, 'en')
-    sec = [card('../nganh/' + ov['slug'] + '/', 'Báo cáo ngành · Mirae Asset', ov['title']['vi'], ov['dek']['vi'], d_vi)]
-    sec += [card('../nganh/' + pg['slug'] + '/', 'Báo cáo ngành · ' + pg['label']['vi'], pg['title']['vi'], pg['dek']['vi'], d_vi + ' · ' + ' · '.join(pg['tickers'])) for pg in pages]
     out = {
-      'nganh/index.html': put_cards('nganh/index.html', '<div class="cards">\n', sec),
       'index.html': put_cards('index.html', '<h2 class="section" id="nganh"><a href="nganh/">Ngành</a></h2><div class="cards">\n',
             [card('nganh/' + ov['slug'] + '/', 'Báo cáo ngành · Mirae Asset', ov['title']['vi'], ov['dek']['vi'], d_vi + ' · 6 báo cáo ngành')]),
       'en/index.html': put_cards('en/index.html', '<h2 class="section" id="nganh">Sectors</h2><div class="cards">\n',
@@ -577,4 +574,8 @@ if __name__ == '__main__':
     if '--whens' in sys.argv:
         for w in whens: print(f'{w!r:45} -> {when_vi(w)!r:40} {bucket(w)}')
     print('built', len(META['pages']) + 1, 'pages x 2 languages;', len(D['tickers']), 'tickers')
-    if '--no-index' not in sys.argv: index_cards()
+    if '--no-index' not in sys.argv:
+        index_cards()
+        # the industry section (/nganh/, /nganh/en/, homepage industry row, 'same industry' links) is owned by tools/industry-index
+        import subprocess
+        subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'industry-index', 'build.py')], check=True)

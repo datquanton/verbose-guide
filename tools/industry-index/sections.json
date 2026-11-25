@@ -1,0 +1,405 @@
+{
+ "_about": "Registry of the industry section. Every report under /nganh/ (and the market-wide earnings reviews) with the industries it belongs to. build.py turns it into /nganh/ and /nganh/en/ (grouped by industry), the industry row on both homepages, and the 'same industry' links at the foot of each report. Add a row here when a report is published; pages are never moved, so old links keep working.",
+ "kinds": {
+  "mirae": {
+   "vi": "Mirae Asset · mốc theo dõi, động lực, bộ đệm",
+   "en": "Mirae Asset · milestones, drivers, cushion"
+  },
+  "quarter": {
+   "vi": "Số liệu quý",
+   "en": "Quarterly data"
+  },
+  "outlook": {
+   "vi": "Triển vọng",
+   "en": "Outlook"
+  },
+  "earnings": {
+   "vi": "Kết quả kinh doanh",
+   "en": "Earnings review"
+  }
+ },
+ "industries": [
+  {
+   "id": "toan-thi-truong",
+   "vi": {
+    "name": "Toàn thị trường và nhiều ngành",
+    "about": "Bức tranh chung: lợi nhuận toàn thị trường và VN30 theo quý, và tổng quan 44 cổ phiếu Mirae Asset theo dõi ở sáu ngành."
+   },
+   "en": {
+    "name": "Whole market and cross-industry",
+    "about": "The big picture: quarterly profit for the whole market and the VN30, and the overview of the 44 stocks Mirae Asset covers across six industries."
+   }
+  },
+  {
+   "id": "ngan-hang",
+   "vi": {
+    "name": "Ngân hàng",
+    "about": "Lợi nhuận, biên lãi, chất lượng tài sản và định giá của ngân hàng niêm yết; triển vọng 2026 của các công ty nghiên cứu; mốc và bộ đệm của 12 ngân hàng."
+   },
+   "en": {
+    "name": "Banks",
+    "about": "Profit, margins, asset quality and valuation of the listed banks; the research houses' 2026 outlook; milestones and cushion for 12 banks."
+   }
+  },
+  {
+   "id": "chung-khoan",
+   "vi": {
+    "name": "Chứng khoán",
+    "about": "Lợi nhuận, thị phần, cho vay ký quỹ và định giá của các công ty chứng khoán."
+   },
+   "en": {
+    "name": "Securities",
+    "about": "Profit, market share, margin lending and valuation of the brokerages."
+   }
+  },
+  {
+   "id": "bat-dong-san-thep",
+   "vi": {
+    "name": "Bất động sản, thép và xây dựng",
+    "about": "Doanh số và bàn giao nhà ở, đất khu công nghiệp, trung tâm thương mại; thép (HPG, tôn mạ) và nhà thầu xây dựng."
+   },
+   "en": {
+    "name": "Real estate, steel and construction",
+    "about": "Housing presales and handovers, industrial land, malls; steel (HPG, coated steel) and building contractors."
+   }
+  },
+  {
+   "id": "tieu-dung-ban-le",
+   "vi": {
+    "name": "Tiêu dùng và bán lẻ",
+    "about": "Sữa, bia, đường; chuỗi điện thoại, điện máy, bách hóa và nhà thuốc."
+   },
+   "en": {
+    "name": "Consumer and retail",
+    "about": "Dairy, beer, sugar; phone, electronics, grocery and pharmacy chains."
+   }
+  },
+  {
+   "id": "det-may-thuy-san",
+   "vi": {
+    "name": "Dệt may và thủy sản",
+    "about": "Doanh nghiệp xuất khẩu dệt may, sợi và cá tra: đơn hàng, thuế Mỹ, giá đầu vào."
+   },
+   "en": {
+    "name": "Textiles and seafood",
+    "about": "Garment, yarn and pangasius exporters: orders, US tariffs, input prices."
+   }
+  },
+  {
+   "id": "nang-luong",
+   "vi": {
+    "name": "Năng lượng và tiện ích",
+    "about": "Dầu khí, xăng dầu, phân bón, điện (khí, thủy điện, tái tạo) và nước."
+   },
+   "en": {
+    "name": "Energy and utilities",
+    "about": "Oil and gas, fuel retail, fertiliser, power (gas, hydro, renewables) and water."
+   }
+  },
+  {
+   "id": "cong-nghe-cang",
+   "vi": {
+    "name": "Công nghệ, viễn thông và cảng biển",
+    "about": "Dịch vụ CNTT, hạ tầng viễn thông và cảng container."
+   },
+   "en": {
+    "name": "Technology, telecom and ports",
+    "about": "IT services, telecom infrastructure and container ports."
+   }
+  }
+ ],
+ "reports": [
+  {
+   "path": "nganh/mirae-asset-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "toan-thi-truong"
+   ],
+   "title": {
+    "vi": "Nghiên cứu Mirae Asset tháng 11/2026: mốc theo dõi, động lực và bộ đệm của 44 cổ phiếu",
+    "en": "Mirae Asset research, November 2026: milestones, drivers and cushion for 44 stocks"
+   },
+   "sum": {
+    "vi": "Chúng tôi đọc 115 báo cáo của Mirae Asset Việt Nam (5/2025 đến 11/2026) và xếp 44 cổ phiếu vào sáu báo cáo ngành. Mirae Asset khuyến nghị Mua hoặc Tăng tỷ trọng 38 mã, nhưng 32/44 mã đã giảm giá kể từ báo cáo gần nhất, và 19 mục tiêu hoặc đã cũ hoặc đã bị cảnh báo hạ.",
+    "en": "We read 115 Mirae Asset Vietnam reports (May 2025 to November 2026) and sorted 44 stocks into six industry reports. Mirae Asset rates 38 Buy or Trading Buy, but 32 of 44 have fallen since its latest note, and 19 targets are either old or flagged for a cut."
+   },
+   "tickers": [],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "ket-qua-kinh-doanh/toan-thi-truong-3q26/",
+   "en": true,
+   "date": "2026-11-13",
+   "kind": "earnings",
+   "industries": [
+    "toan-thi-truong"
+   ],
+   "title": {
+    "vi": "Lợi nhuận toàn thị trường 3Q26: 19 ngành, động lực và mức độ tập trung",
+    "en": "Listed-market earnings 3Q26: 19 sectors, drivers and concentration"
+   },
+   "sum": {
+    "vi": "Lợi nhuận sau thuế của 1.133 doanh nghiệp niêm yết tăng 46,0% so với cùng kỳ, nhưng đi ngang so với quý trước; riêng VIC và VHM tạo ra 53% phần tăng thêm. Giá cổ phiếu lại giảm: P/E của VN-Index từ 15,9x cuối 2025 xuống 10,8x.",
+    "en": "After-tax profit of 1,133 listed companies rose 46.0% year on year but was flat on the previous quarter; VIC and VHM alone produced 53% of the increase. Share prices fell anyway: the VN-Index P/E went from 15.9x at end-2025 to 10.8x."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "ket-qua-kinh-doanh/vn30-3q26/",
+   "en": true,
+   "date": "2026-11-13",
+   "kind": "earnings",
+   "industries": [
+    "toan-thi-truong"
+   ],
+   "title": {
+    "vi": "VN30 3Q26: động lực lợi nhuận và xu hướng của 30 doanh nghiệp",
+    "en": "VN30 3Q26: earnings drivers and trends across the 30 constituents"
+   },
+   "sum": {
+    "vi": "Lợi nhuận VN30 tăng 80,5% so với cùng kỳ, nhưng VIC và VHM chiếm 44,5 trong 80,5 điểm % đó. Phần còn lại tăng 38,0% và giảm nhẹ so với quý trước; ngân hàng trích lập dự phòng nhanh hơn thu nhập.",
+    "en": "VN30 profit rose 80.5% year on year, but VIC and VHM account for 44.5 of those 80.5 percentage points. The rest grew 38.0% and slipped on the previous quarter; banks’ provisions grew faster than their income."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "nganh/ngan-hang-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "ngan-hang"
+   ],
+   "title": {
+    "vi": "Ngân hàng: mốc theo dõi, động lực và bộ đệm của 12 ngân hàng Mirae Asset theo dõi",
+    "en": "Banks: milestones, drivers and cushion for the 12 banks Mirae Asset covers"
+   },
+   "sum": {
+    "vi": "Mirae Asset xếp ngành ở mức Trung lập nhưng khuyến nghị Mua hoặc Tăng tỷ trọng 11/12 ngân hàng. Lợi nhuận vẫn tăng nhờ quy mô tín dụng, trong khi chi phí vốn và nợ xấu mới chỉ đạt đỉnh vào 1H27; tỷ lệ bao phủ nợ xấu là phần mỏng nhất trong bộ đệm của phần lớn ngân hàng.",
+    "en": "Mirae Asset rates the sector Neutral but 11 of 12 banks Buy or Trading Buy. Profit still grows on credit volume, while funding costs and new bad debt peak only in 1H27; loan-loss coverage is the thinnest part of most banks' cushion."
+   },
+   "tickers": [
+    "VCB",
+    "BID",
+    "CTG",
+    "TCB",
+    "MBB",
+    "VPB",
+    "ACB",
+    "HDB",
+    "STB",
+    "VIB",
+    "TPB",
+    "EIB"
+   ],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "nganh/ngan-hang-3q26/",
+   "en": true,
+   "date": "2026-11-13",
+   "kind": "quarter",
+   "industries": [
+    "ngan-hang"
+   ],
+   "title": {
+    "vi": "Ngân hàng 3Q26: lợi nhuận, biên lãi, chất lượng tài sản và định giá",
+    "en": "Banks 3Q26: profit, margins, asset quality and valuation"
+   },
+   "sum": {
+    "vi": "LNTT của 28 ngân hàng niêm yết tăng 21,3% so với cùng kỳ nhưng giảm 4,1% so với quý trước: biên lãi giữ được dù chi phí vốn tăng ở 27/28 ngân hàng, còn chi phí dự phòng tăng 33,4% và nợ xấu nhích lên 2,11%.",
+    "en": "Pre-tax profit of the 28 listed banks rose 21.3% year on year but fell 4.1% on the previous quarter: margins held although funding costs rose at 27 of 28 banks, while provision expense rose 33.4% and bad debt edged up to 2.11%."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "nganh/ngan-hang-2026/",
+   "en": true,
+   "date": "2026-07-22",
+   "kind": "outlook",
+   "industries": [
+    "ngan-hang"
+   ],
+   "title": {
+    "vi": "Ngân hàng 2026: các công ty nghiên cứu dự báo gì và chọn cổ phiếu nào",
+    "en": "Banks 2026: what the research houses forecast and which stocks they back"
+   },
+   "sum": {
+    "vi": "Tổng hợp báo cáo triển vọng ngành ngân hàng 2026 của các công ty chứng khoán và tổ chức xếp hạng thành một bức tranh chung: chỉ số quan trọng, điểm đồng thuận và cơ hội chọn cổ phiếu.",
+    "en": "We consolidated the 2026 banking-sector reports of MBS, SSI, Vietcap, VCBS, VNDirect, Yuanta, KBSV, ABS, FiinRatings and VIS Rating into one cumulative view: the metrics that matter, where the houses agree, and where the stock-picking opportunity sits."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "nganh/chung-khoan-3q26/",
+   "en": false,
+   "date": "2026-11-12",
+   "kind": "quarter",
+   "industries": [
+    "chung-khoan"
+   ],
+   "title": {
+    "vi": "Ngành chứng khoán 3Q26: lợi nhuận, thị phần, hiệu quả và định giá",
+    "en": "Securities sector 3Q26: profit, market share, returns and valuation"
+   },
+   "sum": {
+    "vi": "LNTT 12 tháng +2,5%, nhưng riêng 3Q26 −49% so với cùng kỳ khi thu nhập đầu tư rời đỉnh 3Q25. Cho vay ký quỹ là nguồn thu lớn nhất (45% thu nhập gộp) và dư nợ vẫn tăng +17,6%.",
+    "en": "Twelve-month pre-tax profit +2.5%, but 3Q26 alone −49% year on year as investment income came off its 3Q25 peak. Margin lending is the largest income source (45% of gross income) and the loan book still grew +17.6%."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "nganh/bat-dong-san-thep-xay-dung-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "bat-dong-san-thep"
+   ],
+   "title": {
+    "vi": "Bất động sản, thép và xây dựng: mốc theo dõi, động lực và bộ đệm",
+    "en": "Property, steel and construction: milestones, drivers and cushion"
+   },
+   "sum": {
+    "vi": "Mirae Asset khuyến nghị Mua 7/8 mã, nhưng chỉ mục tiêu của HPG vừa mới vừa không bị cảnh báo hạ. Doanh số nhà ở giảm khi lãi suất tăng, và mùa bàn giao 4Q26 quyết định kết quả 2026; HPG là ngoại lệ với lợi nhuận 9 tháng đã bằng 108% kế hoạch.",
+    "en": "Mirae Asset rates seven of eight Buy, but only HPG's target is both recent and not flagged for a cut. Housing sales fell as rates rose, and the 4Q26 handover season decides 2026 results; HPG is the exception, with nine-month profit already at 108% of guidance."
+   },
+   "tickers": [
+    "KDH",
+    "NLG",
+    "HDC",
+    "IDC",
+    "VRE",
+    "HPG",
+    "GDA",
+    "CTD"
+   ],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "nganh/bat-dong-san-thep-ban-le-3q26/",
+   "en": true,
+   "date": "2026-11-11",
+   "kind": "quarter",
+   "industries": [
+    "bat-dong-san-thep",
+    "tieu-dung-ban-le"
+   ],
+   "title": {
+    "vi": "Bất động sản, thép và bán lẻ 3Q26: động lực và xu hướng",
+    "en": "Real estate, steel and retail 3Q26: drivers and trends"
+   },
+   "sum": {
+    "vi": "Lợi nhuận BĐS dân dụng đạt kỷ lục nhưng doanh số đã qua đỉnh khi lãi suất vay mua nhà lên ~10,9%; thép là câu chuyện của HPG; bán lẻ hiện đại tiếp tục giành thị phần.",
+    "en": "Residential earnings hit a record but sales have peaked as mortgage rates reach ~10.9%; steel is an HPG story; modern retail keeps taking share."
+   },
+   "built_by": "vault"
+  },
+  {
+   "path": "nganh/tieu-dung-ban-le-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "tieu-dung-ban-le"
+   ],
+   "title": {
+    "vi": "Tiêu dùng thiết yếu và bán lẻ: mốc theo dõi, động lực và bộ đệm",
+    "en": "Consumer staples and retail: milestones, drivers and cushion"
+   },
+   "sum": {
+    "vi": "Nhóm thiết yếu tăng trưởng nhờ giá bán và cơ cấu sản phẩm, không nhờ sản lượng, nhưng có bảng cân đối dày nhất (VNM, SAB, QNS đều có tiền mặt lớn hơn nợ). Lợi nhuận bán lẻ vượt dự báo, còn giá FRT đã gần chạm mục tiêu.",
+    "en": "Staples grow on price and product mix rather than volume, but carry the thickest balance sheets (VNM, SAB and QNS all hold more cash than debt). Retail profit is beating forecasts, while FRT's price is already close to its target."
+   },
+   "tickers": [
+    "VNM",
+    "SAB",
+    "QNS",
+    "MWG",
+    "FRT"
+   ],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "nganh/det-may-ca-tra-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "det-may-thuy-san"
+   ],
+   "title": {
+    "vi": "Xuất khẩu dệt may và cá tra: mốc theo dõi, động lực và bộ đệm",
+    "en": "Textile and pangasius exporters: milestones, drivers and cushion"
+   },
+   "sum": {
+    "vi": "Thuế Mỹ đã rõ (12,5% từ 24/7/2026), nên phép thử tiếp theo là chi phí: giá dầu, bông và cá nguyên liệu tăng trở lại trong 4Q26. Mirae Asset giữ Mua với 5/6 mã, nhưng bộ đệm rất khác nhau: VHC và MSH có tiền mặt lớn hơn nợ, TNG có nợ gần 1,7 lần vốn chủ.",
+    "en": "US tariffs are now set (12.5% from 24 Jul 2026), so the next test is cost: oil, cotton and raw fish prices rose again in 4Q26. Mirae Asset keeps Buy on five of six, but the cushion differs widely: VHC and MSH hold more cash than debt, while TNG's debt is nearly 1.7 times equity."
+   },
+   "tickers": [
+    "TNG",
+    "MSH",
+    "PPH",
+    "STK",
+    "VHC",
+    "ANV"
+   ],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "nganh/nang-luong-tien-ich-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "nang-luong"
+   ],
+   "title": {
+    "vi": "Dầu khí, phân bón, điện và nước: mốc theo dõi, động lực và bộ đệm",
+    "en": "Oil, gas, fertiliser, power and water: milestones, drivers and cushion"
+   },
+   "sum": {
+    "vi": "El Niño chuyển sản lượng từ thủy điện sang nhiệt điện khí và than ít nhất đến 1Q27: có lợi cho NT2, bất lợi cho VSH, HDG và GEG. Ở xăng dầu, việc sàng lọc nhà phân phối đẩy sản lượng PLX và OIL. Tiền mặt ròng ở PLX, PVS, NT2 và DCM là bộ đệm dày nhất nhóm.",
+    "en": "El Niño shifts output from hydropower to gas- and coal-fired plants until at least 1Q27, helping NT2 and hurting VSH, HDG and GEG. In fuel, the shake-out of distributors lifts PLX and OIL volumes. Net cash at PLX, PVS, NT2 and DCM is the thickest cushion in the group."
+   },
+   "tickers": [
+    "GAS",
+    "PLX",
+    "OIL",
+    "PVS",
+    "DCM",
+    "NT2",
+    "GEG",
+    "HDG",
+    "VSH",
+    "BWE"
+   ],
+   "built_by": "tools/mirae-coverage"
+  },
+  {
+   "path": "nganh/cong-nghe-ha-tang-cang-bien-mirae-11-2026/",
+   "en": true,
+   "date": "2026-11-25",
+   "kind": "mirae",
+   "industries": [
+    "cong-nghe-cang"
+   ],
+   "title": {
+    "vi": "Công nghệ, hạ tầng viễn thông và cảng biển: mốc theo dõi, động lực và bộ đệm",
+    "en": "Technology, telecom infrastructure and ports: milestones, drivers and cushion"
+   },
+   "sum": {
+    "vi": "FPT giao dịch ở 8,6 lần lợi nhuận 4 quý, thấp hơn mức −2 độ lệch chuẩn 5 năm, sau khi Mirae Asset nâng lãi suất chiết khấu vì rủi ro AI làm giảm giá dịch vụ. CTR tăng nhờ hợp đồng xây dựng và giải pháp CNTT mới; giá GMD đã chạm mục tiêu. Cả ba đều có tiền mặt lớn hơn nợ.",
+    "en": "FPT trades at 8.6 times trailing earnings, below its five-year −2 standard deviation, after Mirae Asset raised its discount rate for AI-driven pricing risk. CTR grows on new construction and IT-solution contracts; GMD's price has reached its target. All three hold more cash than debt."
+   },
+   "tickers": [
+    "FPT",
+    "CTR",
+    "GMD"
+   ],
+   "built_by": "tools/mirae-coverage"
+  }
+ ]
+}

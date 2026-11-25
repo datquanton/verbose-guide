@@ -29,7 +29,7 @@ table{border-collapse:collapse;width:100%;font-size:.85rem}th,td{padding:6px 10p
 th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--surface)}th{font-weight:600;color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;user-select:none;vertical-align:bottom;background:color-mix(in srgb,var(--ink) 2.5%,var(--surface))}
 td{font-variant-numeric:tabular-nums}tr.agg td{font-weight:650;border-top:2px solid var(--axis)}th[aria-sort=ascending]::after{content:" ▲"}th[aria-sort=descending]::after{content:" ▼"}
 #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--page);font-size:.8rem;padding:5px 8px;border-radius:6px;max-width:280px;opacity:0;transition:opacity .08s;z-index:9}
-</style></head>
+</style><style>.ind-nav{display:flex;flex-wrap:wrap;gap:6px 8px;margin:16px 0 4px}.ind-nav a{font-size:13.5px;font-weight:600;border:1px solid var(--border);border-radius:999px;padding:3px 12px;background:var(--surface-1)}.ind-nav a span{color:var(--text-muted);font-weight:400;margin-left:4px}h2.ind{font-size:22px;margin:44px 0 4px;scroll-margin-top:12px}h2.ind span{color:var(--text-muted);font-weight:400;font-size:16px;margin-left:6px}p.ind-about{color:var(--text-secondary);margin:0 0 14px;max-width:72ch}.same-ind{margin:40px 0 0;padding:14px 18px;border:1px solid var(--border);border-radius:12px;background:var(--surface-1);max-width:80ch}.same-ind h2{font-size:15px;margin:0 0 6px;letter-spacing:0}.same-ind ul{margin:4px 0;padding-left:18px}.same-ind li{font-size:14.5px;margin:5px 0}.same-ind .k{color:var(--text-muted);font-size:12.5px}</style></head>
 <body><header class="topbar"><div class="inner"><a class="brand" href="../../">Nghiên cứu cổ phiếu Việt Nam</a><nav><a href="../../vi-mo/">Vĩ mô</a><a href="../../nganh/" aria-current="page">Ngành</a><a href="../../ket-qua-kinh-doanh/">Kết quả kinh doanh</a></nav><span class="right"><a href="../../en/" hreflang="en">English</a><button class="theme" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true" style="vertical-align:-2px"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button></span></div></header>
 <main class="wrap">
 
@@ -100,6 +100,7 @@ document.querySelectorAll('table.sort').forEach(function(tb){var ths=tb.querySel
   x=x===''?-1e18:+x;y=y===''?-1e18:+y;return dir*(x-y)});rows.forEach(function(r){body.appendChild(r)});if(agg)body.appendChild(agg)})})});})();
 </script>
 
+<!-- industry-index --><aside class="same-ind"><h2>Cùng ngành: <a href="../#chung-khoan">Chứng khoán</a></h2></aside><!-- /industry-index -->
 </main>
 <footer class="foot"><div class="inner"><p><a href="../../">Nghiên cứu cổ phiếu Việt Nam</a> · Nghiên cứu cá nhân, không phải khuyến nghị đầu tư. Quan điểm là của riêng tác giả và có thể thay đổi mà không cần báo trước.</p></div></footer>
 </body></html>
