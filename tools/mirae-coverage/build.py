@@ -5,6 +5,7 @@ Inputs (this folder):  data.json   per-ticker reading of Mirae Asset Vietnam rep
                        market.json prices and trailing multiples from FiinQuantX
                        meta.json   hand-written titles, key points and tiles for each page
 Run:  python3 tools/mirae-coverage/build.py      (from the repository root)
+      Also (re)places the cards on /, /en/ and /nganh/; re-running is safe. --no-index skips that.
 """
 import json, os, re, html, statistics, datetime, sys
 
@@ -368,6 +369,38 @@ def overview_page(L):
     b += '</div>' + disclaimer(L, n_reports)
     write(P['slug'], L, shell(L, P['slug'], T(P['title'], L), T(P['dek'], L), b))
 
+
+# ---------- index cards: idempotent, so a vault copy-in that rewrites the indexes can be repaired by re-running ----------
+MARK = '<!-- mirae-coverage -->'
+def card(href, label, title, dek, meta):
+    return (f'<a class="card" href="{href}">{MARK}<p class="label">{E(label)}</p><h3>{E(title)}</h3>'
+            f'<p class="sum">{E(dek)}</p><p class="meta">{E(meta)}</p></a>\n')
+def put_cards(path, anchor, cards):
+    """Insert our cards right after `anchor`, replacing any copies from an earlier run. Returns True if the index changed."""
+    f = os.path.join(ROOT, path)
+    if not os.path.exists(f): print('  skip (missing):', path); return False
+    h = open(f, encoding='utf-8').read()
+    clean = re.sub(r'<a class="card" href="[^"]*">' + re.escape(MARK) + r'.*?</a>\n', '', h, flags=re.S)
+    # cards added by hand before the marker existed
+    clean = re.sub(r'<a class="card" href="[^"]*mirae[^"]*">(?:(?!</a>).)*</a>\n', '', clean, flags=re.S)
+    if anchor not in clean: print('  WARNING: anchor not found, cards not placed in', path); return False
+    new = clean.replace(anchor, anchor + ''.join(cards), 1)
+    if new != h: open(f, 'w', encoding='utf-8').write(new)
+    return new != h
+def index_cards():
+    ov, pages = META['overview'], META['pages']
+    d_vi, d_en = fdate(PUB, 'vi'), fdate(PUB, 'en')
+    sec = [card('../nganh/' + ov['slug'] + '/', 'Báo cáo ngành · Mirae Asset', ov['title']['vi'], ov['dek']['vi'], d_vi)]
+    sec += [card('../nganh/' + pg['slug'] + '/', 'Báo cáo ngành · ' + pg['label']['vi'], pg['title']['vi'], pg['dek']['vi'], d_vi + ' · ' + ' · '.join(pg['tickers'])) for pg in pages]
+    out = {
+      'nganh/index.html': put_cards('nganh/index.html', '<div class="cards">\n', sec),
+      'index.html': put_cards('index.html', '<h2 class="section" id="nganh"><a href="nganh/">Ngành</a></h2><div class="cards">\n',
+            [card('nganh/' + ov['slug'] + '/', 'Báo cáo ngành · Mirae Asset', ov['title']['vi'], ov['dek']['vi'], d_vi + ' · 6 báo cáo ngành')]),
+      'en/index.html': put_cards('en/index.html', '<h2 class="section" id="nganh">Sectors</h2><div class="cards">\n',
+            [card('../nganh/' + ov['slug'] + '/en/', 'Sector report · Mirae Asset', ov['title']['en'], ov['dek']['en'], d_en + ' · six industry reports')]),
+    }
+    for k, v in out.items(): print('  index', k, 'updated' if v else 'already current')
+
 if __name__ == '__main__':
     for pg in META['pages']:
         for k in pg['tickers']: TK[k]['page_label'] = pg['label']; TK[k]['page_slug'] = pg['slug']
@@ -378,3 +411,4 @@ if __name__ == '__main__':
     if '--whens' in sys.argv:
         for w in whens: print(f'{w!r:45} -> {when_vi(w)!r:40} {bucket(w)}')
     print('built', len(META['pages']) + 1, 'pages x 2 languages;', len(D['tickers']), 'tickers')
+    if '--no-index' not in sys.argv: index_cards()
